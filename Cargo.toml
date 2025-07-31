@@ -1,0 +1,18 @@
+[workspace]
+resolver = "2"
+members = ["crates/*"]
+
+[workspace.package]
+version = "0.1.0"
+authors = ["Parity Technologies <admin@parity.io>"]
+license = "MIT/Apache-2.0"
+edition = "2024"
+
+[workspace.dependencies]
+alloy = { version = "1.0.23", default-features = false, features = ["signers"] }
+anyhow = { version = "1.0.98" }
+clap = { version = "4.5.42", features = ["derive", "wrap_help"] }
+serde_json = { version = "1.0.141" }
+
+revive-dt-common = { git = "https://github.com/paritytech/revive-differential-tests", rev = "989c064983c5502cd13e467875d9bde97dcbac45" }
+revive-dt-format = { git = "https://github.com/paritytech/revive-differential-tests", rev = "989c064983c5502cd13e467875d9bde97dcbac45" }

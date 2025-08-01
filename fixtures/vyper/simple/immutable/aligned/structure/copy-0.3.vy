@@ -1,25 +1,39 @@
-#! { "modes": [ "V <=0.3.10" ], "cases": [ {
-#!     "name": "main",
-#!     "inputs": [
+#! {
+#!   "modes": [
+#!     "V <=0.3.10"
+#!   ],
+#!   "cases": [
+#!     {
+#!       "name": "main",
+#!       "inputs": [
 #!         {
-#!             "method": "#deployer",
-#!             "calldata": [
-#!                 "20", "15", "10", "5"
-#!             ],
-#!             "expected": [
-#!                 "Test.address"
-#!             ]
+#!           "method": "#deployer",
+#!           "calldata": [
+#!             "20",
+#!             "15",
+#!             "10",
+#!             "5"
+#!           ],
+#!           "expected": [
+#!             "Test.address"
+#!           ],
+#!           "caller": "0x9C4b4b04903E70F49760C63D2DBB491500985712"
 #!         },
 #!         {
-#!             "method": "main",
-#!             "calldata": [
-#!             ]
+#!           "method": "main",
+#!           "calldata": [],
+#!           "caller": "0x9C4b4b04903E70F49760C63D2DBB491500985712"
 #!         }
-#!     ],
-#!     "expected": [
-#!         "20", "15", "10", "5"
-#!     ]
-#! } ] }
+#!       ],
+#!       "expected": [
+#!         "20",
+#!         "15",
+#!         "10",
+#!         "5"
+#!       ]
+#!     }
+#!   ]
+#! }
 
 struct Data:
     a: uint256

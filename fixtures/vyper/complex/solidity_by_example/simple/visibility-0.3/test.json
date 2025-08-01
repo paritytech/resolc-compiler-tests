@@ -1,50 +1,58 @@
-{ "modes": [ "V <=0.3.10" ], "cases": [ {
-    "name": "testInternalFunc",
-    "inputs": [
+{
+  "modes": [
+    "V <=0.3.10"
+  ],
+  "cases": [
+    {
+      "name": "testInternalFunc",
+      "inputs": [
         {
-            "instance": "Main",
-            "method": "testInternalFunc",
-            "calldata": [
-            ]
+          "instance": "Main",
+          "method": "testInternalFunc",
+          "calldata": [],
+          "caller": "0x76C5DCB4D86b441478dff973a881FA59eB1B2435"
         }
-    ],
-    "expected": [
+      ],
+      "expected": [
         "0x20",
         "24",
         "0x696e7465726e616c2066756e6374696f6e2063616c6c65640000000000000000"
-    ]
-}, {
-    "name": "externalFunc",
-    "inputs": [
+      ]
+    },
+    {
+      "name": "externalFunc",
+      "inputs": [
         {
-            "instance": "Main",
-            "method": "externalFunc",
-            "calldata": [
-            ]
+          "instance": "Main",
+          "method": "externalFunc",
+          "calldata": [],
+          "caller": "0xe2277aAdf0983585ea69F3a08F97e12Ff3C80cFe"
         }
-    ],
-    "expected": [
+      ],
+      "expected": [
         "0x20",
         "24",
         "0x65787465726e616c2066756e6374696f6e2063616c6c65640000000000000000"
-    ]
-}, {
-    "name": "publicVar",
-    "inputs": [
+      ]
+    },
+    {
+      "name": "publicVar",
+      "inputs": [
         {
-            "instance": "Main",
-            "method": "publicVar",
-            "calldata": [
-            ]
+          "instance": "Main",
+          "method": "publicVar",
+          "calldata": [],
+          "caller": "0xE26C50EB50C668640e2b8230Fe67946186C63721"
         }
-    ],
-    "expected": [
+      ],
+      "expected": [
         "0x20",
         "18",
         "0x6d79207075626c6963207661726961626c650000000000000000000000000000"
-    ]
-} ],
-    "contracts": {
-        "Main": "main.vy"
+      ]
     }
+  ],
+  "contracts": {
+    "Main": "main.vy"
+  }
 }

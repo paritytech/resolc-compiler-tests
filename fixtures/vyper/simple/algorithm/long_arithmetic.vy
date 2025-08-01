@@ -1,40 +1,49 @@
-#! { "modes": [ "V >=0.4.0" ], "cases": [ {
-#!     "name": "test1",
-#!     "inputs": [
+#! {
+#!   "modes": [
+#!     "V >=0.4.0"
+#!   ],
+#!   "cases": [
+#!     {
+#!       "name": "test1",
+#!       "inputs": [
 #!         {
-#!             "method": "test1",
-#!             "calldata": [
-#!             ]
+#!           "method": "test1",
+#!           "calldata": [],
+#!           "caller": "0xcCe8ED6FE72fEda44442c21A0ff3d85E6105E6Cd"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "1260830800381296"
-#!     ]
-#! }, {
-#!     "name": "test2",
-#!     "inputs": [
+#!       ]
+#!     },
+#!     {
+#!       "name": "test2",
+#!       "inputs": [
 #!         {
-#!             "method": "test2",
-#!             "calldata": [
-#!             ]
+#!           "method": "test2",
+#!           "calldata": [],
+#!           "caller": "0xeC57A0592dED11b98702270C840bDa0E84d8790A"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "781327317812"
-#!     ]
-#! }, {
-#!     "name": "test3",
-#!     "inputs": [
+#!       ]
+#!     },
+#!     {
+#!       "name": "test3",
+#!       "inputs": [
 #!         {
-#!             "method": "test3",
-#!             "calldata": [
-#!             ]
+#!           "method": "test3",
+#!           "calldata": [],
+#!           "caller": "0xAE7Eee828804BeE7798F2668655e0e12a4228DE2"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "0"
-#!     ]
-#! } ] }
+#!       ]
+#!     }
+#!   ]
+#! }
 
 BASE: constant(uint256) = 1000000000
 LEN: constant(uint8) = 12

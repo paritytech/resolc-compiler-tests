@@ -1,16 +1,23 @@
-#! { "modes": [ "V <=0.3.10" ], "cases": [ {
-#!     "name": "entry",
-#!     "inputs": [
+#! {
+#!   "modes": [
+#!     "V <=0.3.10"
+#!   ],
+#!   "cases": [
+#!     {
+#!       "name": "entry",
+#!       "inputs": [
 #!         {
-#!             "method": "entry",
-#!             "calldata": [
-#!             ]
+#!           "method": "entry",
+#!           "calldata": [],
+#!           "caller": "0x035Ac9dAB910eE6Ab33D1d6E5d1B3744EeeB6249"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "5"
-#!     ]
-#! } ] }
+#!       ]
+#!     }
+#!   ]
+#! }
 
 @external
 @pure

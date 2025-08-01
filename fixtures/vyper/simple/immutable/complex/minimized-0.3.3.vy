@@ -1,31 +1,42 @@
-#! { "modes": [ "V =0.3.3" ], "cases": [ {
-#!     "name": "default",
-#!     "inputs": [
+#! {
+#!   "modes": [
+#!     "V =0.3.3"
+#!   ],
+#!   "cases": [
+#!     {
+#!       "name": "default",
+#!       "inputs": [
 #!         {
-#!             "method": "#deployer",
-#!             "caller": "0x0000000000000000000000000000000000000099",
-#!             "calldata": [],
-#!             "expected": [
-#!                 "Test.address"
-#!             ]
+#!           "method": "#deployer",
+#!           "caller": "0x001b7E2aef2a4C55e985482edbDB08b7a7e9Ca89",
+#!           "calldata": [],
+#!           "expected": [
+#!             "Test.address"
+#!           ]
 #!         },
 #!         {
-#!             "method": "x",
-#!             "calldata": [],
-#!             "expected": [
-#!                 "42"
-#!             ]
+#!           "method": "x",
+#!           "calldata": [],
+#!           "expected": [
+#!             "42"
+#!           ],
+#!           "caller": "0x001b7E2aef2a4C55e985482edbDB08b7a7e9Ca89"
 #!         },
 #!         {
-#!             "method": "y",
-#!             "calldata": [],
-#!             "expected": [
-#!                 "43"
-#!             ]
+#!           "method": "y",
+#!           "calldata": [],
+#!           "expected": [
+#!             "43"
+#!           ],
+#!           "caller": "0x001b7E2aef2a4C55e985482edbDB08b7a7e9Ca89"
 #!         }
-#!     ],
-#!     "expected": [ "43" ]
-#! } ] }
+#!       ],
+#!       "expected": [
+#!         "43"
+#!       ]
+#!     }
+#!   ]
+#! }
 
 # @version 0.3.3
 

@@ -1,24 +1,32 @@
-//! { "modes": [ "Y", "E" ], "cases": [ {
-//!     "name": "default",
-//!     "inputs": [
+//! {
+//!   "modes": [
+//!     "Y",
+//!     "E"
+//!   ],
+//!   "cases": [
+//!     {
+//!       "name": "default",
+//!       "inputs": [
 //!         {
-//!             "method": "f",
-//!             "calldata": [
-//!             ]
+//!           "method": "f",
+//!           "calldata": [],
+//!           "caller": "0x4c887EECB88Df0dD03459c6c93D20852dd217aBE"
 //!         }
-//!     ],
-//!     "expected": [
-//!       "0",
-//!       "0",
-//!       "0",
-//!       "3",
-//!       "0",
-//!       "0",
-//!       "2",
-//!       "0",
-//!       "1"
-//!     ]
-//! } ] }
+//!       ],
+//!       "expected": [
+//!         "0",
+//!         "0",
+//!         "0",
+//!         "3",
+//!         "0",
+//!         "0",
+//!         "2",
+//!         "0",
+//!         "1"
+//!       ]
+//!     }
+//!   ]
+//! }
 
 // Report https://linear.app/matterlabs/issue/CPR-586/treap-minimization-failure-for-m1-m3
 

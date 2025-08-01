@@ -1,55 +1,67 @@
-//! { "cases": [ {
-//!     "name": "default",
-//!     "inputs": [
+//! {
+//!   "cases": [
+//!     {
+//!       "name": "default",
+//!       "inputs": [
 //!         {
-//!             "method": "get",
-//!             "calldata": [
-//!             ]
+//!           "method": "get",
+//!           "calldata": [],
+//!           "caller": "0x1A68Fa6AF492aE35634C22Fd321a5aE07605231B"
 //!         }
-//!     ],
-//!     "expected": [
+//!       ],
+//!       "expected": [
 //!         "0"
-//!     ]
-//! }, {
-//!     "name": "first",
-//!     "inputs": [
+//!       ]
+//!     },
+//!     {
+//!       "name": "first",
+//!       "inputs": [
 //!         {
-//!             "method": "set",
-//!             "calldata": [
-//!                 "7823982309234984387823489290492314"
-//!             ]
-//!         }, {
-//!             "method": "num",
-//!             "calldata": [
-//!             ]
+//!           "method": "set",
+//!           "calldata": [
+//!             "7823982309234984387823489290492314"
+//!           ],
+//!           "caller": "0xebC9b76416706db8D3459Eb6F6904DEc5118F9dB"
+//!         },
+//!         {
+//!           "method": "num",
+//!           "calldata": [],
+//!           "caller": "0xebC9b76416706db8D3459Eb6F6904DEc5118F9dB"
 //!         }
-//!     ],
-//!     "expected": [
+//!       ],
+//!       "expected": [
 //!         "7823982309234984387823489290492314"
-//!     ]
-//! }, {
-//!     "name": "second",
-//!     "inputs": [
+//!       ]
+//!     },
+//!     {
+//!       "name": "second",
+//!       "inputs": [
 //!         {
-//!             "method": "set",
-//!             "calldata": [
-//!                 "34342312412341234"
-//!             ]
-//!         }, {
-//!             "method": "set",
-//!             "calldata": [
-//!                 "-82349283489238"
-//!             ]
-//!         }, {
-//!             "method": "get",
-//!             "calldata": [
-//!             ]
+//!           "method": "set",
+//!           "calldata": [
+//!             "34342312412341234"
+//!           ],
+//!           "caller": "0xdd9d6c7F96ccFf7128C7F976E86927993E747344"
+//!         },
+//!         {
+//!           "method": "set",
+//!           "calldata": [
+//!             "-82349283489238"
+//!           ],
+//!           "caller": "0xdd9d6c7F96ccFf7128C7F976E86927993E747344"
+//!         },
+//!         {
+//!           "method": "get",
+//!           "calldata": [],
+//!           "caller": "0xdd9d6c7F96ccFf7128C7F976E86927993E747344"
 //!         }
-//!     ],
-//!     "expected": [
+//!       ],
+//!       "expected": [
 //!         "-82349283489238"
-//!     ]
-//! } ] }
+//!       ]
+//!     }
+//!   ]
+//! }
 
 // SPDX-License-Identifier: MIT
 pragma solidity >=0.4.16;

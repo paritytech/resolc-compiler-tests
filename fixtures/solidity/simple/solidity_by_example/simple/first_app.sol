@@ -1,56 +1,66 @@
-//! { "cases": [ {
-//!     "name": "init_value",
-//!     "inputs": [
+//! {
+//!   "cases": [
+//!     {
+//!       "name": "init_value",
+//!       "inputs": [
 //!         {
-//!             "method": "count",
-//!             "calldata": [
-//!             ]
+//!           "method": "count",
+//!           "calldata": [],
+//!           "caller": "0xB1F0E3546A30b69e2B24bc157b9B3a66AdA299f5"
 //!         }
-//!     ],
-//!     "expected": [
+//!       ],
+//!       "expected": [
 //!         "0"
-//!     ]
-//! }, {
-//!     "name": "first",
-//!     "inputs": [
+//!       ]
+//!     },
+//!     {
+//!       "name": "first",
+//!       "inputs": [
 //!         {
-//!             "method": "inc",
-//!             "calldata": [
-//!             ]
-//!         }, {
-//!             "method": "count",
-//!             "calldata": [
-//!             ]
-//!         }
-//!     ],
-//!     "expected": [
-//!         "1"
-//!     ]
-//! }, {
-//!     "name": "second",
-//!     "inputs": [
+//!           "method": "inc",
+//!           "calldata": [],
+//!           "caller": "0x6f876Db5AddB5Da27CD117D9ca1d57Ac09F06b15"
+//!         },
 //!         {
-//!             "method": "inc",
-//!             "calldata": [
-//!             ]
-//!         }, {
-//!             "method": "inc",
-//!             "calldata": [
-//!             ]
-//!         }, {
-//!             "method": "dec",
-//!             "calldata": [
-//!             ]
-//!         }, {
-//!             "method": "count",
-//!             "calldata": [
-//!             ]
+//!           "method": "count",
+//!           "calldata": [],
+//!           "caller": "0x6f876Db5AddB5Da27CD117D9ca1d57Ac09F06b15"
 //!         }
-//!     ],
-//!     "expected": [
+//!       ],
+//!       "expected": [
 //!         "1"
-//!     ]
-//! } ] }
+//!       ]
+//!     },
+//!     {
+//!       "name": "second",
+//!       "inputs": [
+//!         {
+//!           "method": "inc",
+//!           "calldata": [],
+//!           "caller": "0x6c2dc34d6B3f413f63Be8125b6D732Be57E284d5"
+//!         },
+//!         {
+//!           "method": "inc",
+//!           "calldata": [],
+//!           "caller": "0x6c2dc34d6B3f413f63Be8125b6D732Be57E284d5"
+//!         },
+//!         {
+//!           "method": "dec",
+//!           "calldata": [],
+//!           "caller": "0x6c2dc34d6B3f413f63Be8125b6D732Be57E284d5"
+//!         },
+//!         {
+//!           "method": "count",
+//!           "calldata": [],
+//!           "caller": "0x6c2dc34d6B3f413f63Be8125b6D732Be57E284d5"
+//!         }
+//!       ],
+//!       "expected": [
+//!         "1"
+//!       ]
+//!     }
+//!   ]
+//! }
 
 // SPDX-License-Identifier: MIT
 pragma solidity >=0.4.16;

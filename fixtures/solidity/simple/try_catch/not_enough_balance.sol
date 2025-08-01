@@ -1,19 +1,20 @@
 //! {
-//!     "cases": [
+//!   "cases": [
+//!     {
+//!       "name": "main",
+//!       "inputs": [
 //!         {
-//!             "name": "main",
-//!             "inputs": [
-//!                 {
-//!                     "method": "main",
-//!                     "calldata": [],
-//!                     "value": "1 ETH"
-//!                 }
-//!             ],
-//!             "expected": [
-//!                 "0"
-//!             ]
+//!           "method": "main",
+//!           "calldata": [],
+//!           "value": "1 ETH",
+//!           "caller": "0x347BAA2f4f6C5b91addafF42Dcf12EBcE141Dae0"
 //!         }
-//!     ]
+//!       ],
+//!       "expected": [
+//!         "0"
+//!       ]
+//!     }
+//!   ]
 //! }
 
 // SPDX-License-Identifier: MIT

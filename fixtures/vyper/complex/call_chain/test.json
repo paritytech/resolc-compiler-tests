@@ -1,55 +1,66 @@
-{ "modes": [ "V >=0.4.0" ], "cases": [ {
-    "name": "first",
-    "inputs": [
+{
+  "modes": [
+    "V >=0.4.0"
+  ],
+  "cases": [
+    {
+      "name": "first",
+      "inputs": [
         {
-            "instance": "First",
-            "method": "f",
-            "calldata": [
-                "5",
-                "Second.address",
-                "Third.address"
-            ]
+          "instance": "First",
+          "method": "f",
+          "calldata": [
+            "5",
+            "Second.address",
+            "Third.address"
+          ],
+          "caller": "0xb8217A15F02a31d77E39803b5357b6b2fDAfBF61"
         }
-    ],
-    "expected": [
+      ],
+      "expected": [
         "30"
-    ]
-}, {
-    "name": "second",
-    "inputs": [
+      ]
+    },
+    {
+      "name": "second",
+      "inputs": [
         {
-            "instance": "First",
-            "method": "f",
-            "calldata": [
-                "22",
-                "Second.address",
-                "Third.address"
-            ]
+          "instance": "First",
+          "method": "f",
+          "calldata": [
+            "22",
+            "Second.address",
+            "Third.address"
+          ],
+          "caller": "0x14aDE16efc7Bb28152479c04b6380773c155611C"
         }
-    ],
-    "expected": [
+      ],
+      "expected": [
         "132"
-    ]
-}, {
-    "name": "third",
-    "inputs": [
+      ]
+    },
+    {
+      "name": "third",
+      "inputs": [
         {
-            "instance": "First",
-            "method": "f",
-            "calldata": [
-                "763142234623232323",
-                "Second.address",
-                "Third.address"
-            ]
+          "instance": "First",
+          "method": "f",
+          "calldata": [
+            "763142234623232323",
+            "Second.address",
+            "Third.address"
+          ],
+          "caller": "0x4cA3B7F68a10D8AA921e1363Cb98E3A07f38Ab52"
         }
-    ],
-    "expected": [
+      ],
+      "expected": [
         "4578853407739393938"
-    ]
-} ],
-    "contracts": {
-        "First": "first.vy",
-        "Second": "second.vy",
-        "Third": "third.vy"
+      ]
     }
+  ],
+  "contracts": {
+    "First": "first.vy",
+    "Second": "second.vy",
+    "Third": "third.vy"
+  }
 }

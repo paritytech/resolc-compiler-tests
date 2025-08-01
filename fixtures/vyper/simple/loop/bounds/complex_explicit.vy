@@ -1,72 +1,84 @@
-#! { "modes": [ "V >=0.4.0" ], "cases": [ {
-#!     "name": "default",
-#!     "inputs": [
+#! {
+#!   "modes": [
+#!     "V >=0.4.0"
+#!   ],
+#!   "cases": [
+#!     {
+#!       "name": "default",
+#!       "inputs": [
 #!         {
-#!             "method": "#deployer",
-#!             "calldata": [
-#!                 "0xdeadbeef01000000000000000000000000000000"
-#!             ],
-#!             "expected": [
-#!                 "Test.address"
-#!             ]
+#!           "method": "#deployer",
+#!           "calldata": [
+#!             "0xE5de9ba5b8ac508dE8A547422c8ec6EE708f887f"
+#!           ],
+#!           "expected": [
+#!             "Test.address"
+#!           ],
+#!           "caller": "0xE5de9ba5b8ac508dE8A547422c8ec6EE708f887f"
 #!         },
 #!         {
-#!             "method": "add_fees",
-#!             "calldata": [
-#!                 "1"
-#!             ],
-#!             "value": "1 wei",
-#!             "expected": []
+#!           "method": "add_fees",
+#!           "calldata": [
+#!             "1"
+#!           ],
+#!           "value": "1 wei",
+#!           "expected": [],
+#!           "caller": "0xE5de9ba5b8ac508dE8A547422c8ec6EE708f887f"
 #!         },
 #!         {
-#!             "method": "add_fees",
-#!             "calldata": [
-#!                 "2"
-#!             ],
-#!             "value": "1 wei",
-#!             "expected": []
+#!           "method": "add_fees",
+#!           "calldata": [
+#!             "2"
+#!           ],
+#!           "value": "1 wei",
+#!           "expected": [],
+#!           "caller": "0xE5de9ba5b8ac508dE8A547422c8ec6EE708f887f"
 #!         },
 #!         {
-#!             "method": "add_fees",
-#!             "calldata": [
-#!                 "3"
-#!             ],
-#!             "value": "1 wei",
-#!             "expected": []
+#!           "method": "add_fees",
+#!           "calldata": [
+#!             "3"
+#!           ],
+#!           "value": "1 wei",
+#!           "expected": [],
+#!           "caller": "0xE5de9ba5b8ac508dE8A547422c8ec6EE708f887f"
 #!         },
 #!         {
-#!             "method": "add_fees",
-#!             "calldata": [
-#!                 "4"
-#!             ],
-#!             "value": "1 wei",
-#!             "expected": []
+#!           "method": "add_fees",
+#!           "calldata": [
+#!             "4"
+#!           ],
+#!           "value": "1 wei",
+#!           "expected": [],
+#!           "caller": "0xE5de9ba5b8ac508dE8A547422c8ec6EE708f887f"
 #!         },
 #!         {
-#!             "method": "claim_fees",
-#!             "caller": "0xdeadbeef42000000000000000000000000000000",
-#!             "calldata": [
-#!                 "10"
-#!             ],
-#!             "expected": [
-#!                 "1"
-#!             ]
+#!           "method": "claim_fees",
+#!           "caller": "0xE5de9ba5b8ac508dE8A547422c8ec6EE708f887f",
+#!           "calldata": [
+#!             "10"
+#!           ],
+#!           "expected": [
+#!             "1"
+#!           ]
 #!         },
 #!         {
-#!             "method": "claim_fees",
-#!             "caller": "0xdeadbeef01000000000000000000000000000000",
-#!             "calldata": [
-#!                 "10"
-#!             ],
-#!             "expected": [
-#!                 "4"
-#!             ]
+#!           "method": "claim_fees",
+#!           "caller": "0xE5de9ba5b8ac508dE8A547422c8ec6EE708f887f",
+#!           "calldata": [
+#!             "10"
+#!           ],
+#!           "expected": [
+#!             "4"
+#!           ]
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "100"
-#!     ]
-#! } ] }
+#!       ]
+#!     }
+#!   ]
+#! }
 
 fees: uint256[10]
 admin: address

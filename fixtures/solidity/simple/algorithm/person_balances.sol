@@ -1,52 +1,59 @@
-//! { "cases": [ {
-//!     "name": "bitcoin",
-//!     "inputs": [
+//! {
+//!   "cases": [
+//!     {
+//!       "name": "bitcoin",
+//!       "inputs": [
 //!         {
-//!             "method": "bitcoin",
-//!             "calldata": [
-//!             ]
+//!           "method": "bitcoin",
+//!           "calldata": [],
+//!           "caller": "0x612aCe7f921b046a3F58d041f0d6182f702cD263"
 //!         }
-//!     ],
-//!     "expected": [
+//!       ],
+//!       "expected": [
 //!         "1"
-//!     ]
-//! }, {
-//!     "name": "ethereum",
-//!     "inputs": [
+//!       ]
+//!     },
+//!     {
+//!       "name": "ethereum",
+//!       "inputs": [
 //!         {
-//!             "method": "ethereum",
-//!             "calldata": [
-//!             ]
+//!           "method": "ethereum",
+//!           "calldata": [],
+//!           "caller": "0xa71f5B0FdEA6fe7054834664bf4409d1eBd45f19"
 //!         }
-//!     ],
-//!     "expected": [
+//!       ],
+//!       "expected": [
 //!         "10"
-//!     ]
-//! }, {
-//!     "name": "litecoin",
-//!     "inputs": [
+//!       ]
+//!     },
+//!     {
+//!       "name": "litecoin",
+//!       "inputs": [
 //!         {
-//!             "method": "litecoin",
-//!             "calldata": [
-//!             ]
+//!           "method": "litecoin",
+//!           "calldata": [],
+//!           "caller": "0xb9863bE1270e0B1ff5Dd2582FC90683A1c1cDA8F"
 //!         }
-//!     ],
-//!     "expected": [
+//!       ],
+//!       "expected": [
 //!         "50"
-//!     ]
-//! }, {
-//!     "name": "zcash",
-//!     "inputs": [
+//!       ]
+//!     },
+//!     {
+//!       "name": "zcash",
+//!       "inputs": [
 //!         {
-//!             "method": "zcash",
-//!             "calldata": [
-//!             ]
+//!           "method": "zcash",
+//!           "calldata": [],
+//!           "caller": "0xfdAC902507492c4490a7024f8e4D4F9317588E15"
 //!         }
-//!     ],
-//!     "expected": [
+//!       ],
+//!       "expected": [
 //!         "100"
-//!     ]
-//! } ] }
+//!       ]
+//!     }
+//!   ]
+//! }
 
 // SPDX-License-Identifier: MIT
 

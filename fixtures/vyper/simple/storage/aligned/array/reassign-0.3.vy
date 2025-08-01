@@ -1,20 +1,33 @@
-#! { "modes": [ "V <=0.3.10" ], "cases": [ {
-#!     "name": "main",
-#!     "inputs": [
+#! {
+#!   "modes": [
+#!     "V <=0.3.10"
+#!   ],
+#!   "cases": [
+#!     {
+#!       "name": "main",
+#!       "inputs": [
 #!         {
-#!             "method": "main",
-#!             "calldata": [
-#!                 "42"
-#!             ],
-#!             "storage": { "Test.address": [
-#!                 "1", "2", "3", "4"
-#!             ] }
+#!           "method": "main",
+#!           "calldata": [
+#!             "42"
+#!           ],
+#!           "storage": {
+#!             "Test.address": [
+#!               "1",
+#!               "2",
+#!               "3",
+#!               "4"
+#!             ]
+#!           },
+#!           "caller": "0xD339826EFeD0E78Cd356113740B1c6ea05Eb65dd"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "130"
-#!     ]
-#! } ] }
+#!       ]
+#!     }
+#!   ]
+#! }
 
 data: uint256[4]
 

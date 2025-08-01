@@ -1,17 +1,25 @@
-#! { "modes": [ "V >=0.4.0" ], "cases": [ {
-#!     "name": "main",
-#!     "inputs": [
+#! {
+#!   "modes": [
+#!     "V >=0.4.0"
+#!   ],
+#!   "cases": [
+#!     {
+#!       "name": "main",
+#!       "inputs": [
 #!         {
-#!             "method": "main",
-#!             "calldata": [
-#!                 "31"
-#!             ]
+#!           "method": "main",
+#!           "calldata": [
+#!             "31"
+#!           ],
+#!           "caller": "0x59ABAFaaFcb5B40b1Ae848D38b5e9628a44B09CE"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "2"
-#!     ]
-#! } ] }
+#!       ]
+#!     }
+#!   ]
+#! }
 
 # Report https://linear.app/matterlabs/issue/CPR-206/back-end-optimization-bug-minimized-complex-wrong-result
 

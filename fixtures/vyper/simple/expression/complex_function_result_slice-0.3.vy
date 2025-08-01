@@ -1,17 +1,25 @@
-#! { "modes": [ "V <=0.3.10" ], "cases": [ {
-#!     "name": "main",
-#!     "inputs": [
+#! {
+#!   "modes": [
+#!     "V <=0.3.10"
+#!   ],
+#!   "cases": [
+#!     {
+#!       "name": "main",
+#!       "inputs": [
 #!         {
-#!             "method": "main",
-#!             "calldata": [
-#!                 "16"
-#!             ]
+#!           "method": "main",
+#!           "calldata": [
+#!             "16"
+#!           ],
+#!           "caller": "0x974893339cd8ECA3Bf137ED47d26Aa7ff619b850"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "64"
-#!     ]
-#! } ] }
+#!       ]
+#!     }
+#!   ]
+#! }
 
 struct Entry1:
     a: bool

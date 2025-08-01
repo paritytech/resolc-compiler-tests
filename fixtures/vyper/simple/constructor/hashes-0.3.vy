@@ -1,17 +1,25 @@
-#! { "modes": [ "V <=0.3.10" ], "cases": [ {
-#!     "name": "test",
-#!     "inputs": [
+#! {
+#!   "modes": [
+#!     "V <=0.3.10"
+#!   ],
+#!   "cases": [
+#!     {
+#!       "name": "test",
+#!       "inputs": [
 #!         {
-#!             "method": "hashes",
-#!             "calldata": [
-#!                 "2"
-#!             ]
+#!           "method": "hashes",
+#!           "calldata": [
+#!             "2"
+#!           ],
+#!           "caller": "0x76aad40C678bE359f3533D8d921757148E9fC29B"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "0x10ca3eff73ebec87d2394fc58560afeab86dac7a21f5e402ea0a55e5c8a6758f"
-#!     ]
-#! } ] }
+#!       ]
+#!     }
+#!   ]
+#! }
 
 # Report https://linear.app/matterlabs/issue/CPR-585/merkle-tree-minimization-keccak256-problem-for-m3b0
 

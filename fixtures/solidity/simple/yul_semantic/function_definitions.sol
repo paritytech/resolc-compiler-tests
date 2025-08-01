@@ -1,117 +1,148 @@
-//! { "cases": [ {
-//!     "name": "no_args_and_ret",
-//!     "inputs": [
+//! {
+//!   "cases": [
+//!     {
+//!       "name": "no_args_and_ret",
+//!       "inputs": [
 //!         {
-//!             "method": "no_args_and_ret",
-//!             "calldata": []
+//!           "method": "no_args_and_ret",
+//!           "calldata": [],
+//!           "caller": "0x93CD3Ec3d68311f26cbFBCad1Be844012Cb08660"
 //!         }
-//!     ],
-//!     "expected": {
+//!       ],
+//!       "expected": {
 //!         "return_data": [],
 //!         "events": [
-//!             {
-//!                 "topics": [],
-//!                 "values": [ "0xdeadbeef" ]
-//!             }
+//!           {
+//!             "topics": [],
+//!             "values": [
+//!               "0xdeadbeef"
+//!             ]
+//!           }
 //!         ]
-//!     }
-//! }, {
-//!     "name": "many_args",
-//!     "inputs": [
+//!       }
+//!     },
+//!     {
+//!       "name": "many_args",
+//!       "inputs": [
 //!         {
-//!             "method": "many_args",
-//!             "calldata": []
+//!           "method": "many_args",
+//!           "calldata": [],
+//!           "caller": "0x9074985f20a5cF380Ba7f9a34986a303AADB064E"
 //!         }
-//!     ],
-//!     "expected": [
+//!       ],
+//!       "expected": [
 //!         "120"
-//!     ]
-//! }, {
-//!     "name": "many_ret_values",
-//!     "inputs": [
+//!       ]
+//!     },
+//!     {
+//!       "name": "many_ret_values",
+//!       "inputs": [
 //!         {
-//!             "method": "many_ret_values",
-//!             "calldata": []
+//!           "method": "many_ret_values",
+//!           "calldata": [],
+//!           "caller": "0x8E18175a8Cf892C10870E119A20802Aac6c3acAC"
 //!         }
-//!     ],
-//!     "expected": [
+//!       ],
+//!       "expected": [
 //!         "78"
-//!     ]
-//! },  {
-//!     "name": "empty_body_arg_side_effect",
-//!     "inputs": [
+//!       ]
+//!     },
+//!     {
+//!       "name": "empty_body_arg_side_effect",
+//!       "inputs": [
 //!         {
-//!             "method": "empty_body_arg_side_effect",
-//!             "calldata": []
+//!           "method": "empty_body_arg_side_effect",
+//!           "calldata": [],
+//!           "caller": "0x58d0ca1525495768bf0C4f37D1986Bc1F8A6f7Ca"
 //!         }
-//!     ],
-//!     "expected": {
+//!       ],
+//!       "expected": {
 //!         "return_data": [],
 //!         "events": [
-//!             {
-//!                 "topics": [],
-//!                 "values": [ "0xdeadbeef" ]
-//!             }
+//!           {
+//!             "topics": [],
+//!             "values": [
+//!               "0xdeadbeef"
+//!             ]
+//!           }
 //!         ]
-//!     }
-//! }, {
-//!     "name": "leave_in_function",
-//!     "inputs": [
+//!       }
+//!     },
+//!     {
+//!       "name": "leave_in_function",
+//!       "inputs": [
 //!         {
-//!             "method": "leave_in_function",
-//!             "calldata": []
+//!           "method": "leave_in_function",
+//!           "calldata": [],
+//!           "caller": "0xCF1845ae35512739cF2929cd046e70233303C88D"
 //!         }
-//!     ],
-//!     "expected": {
+//!       ],
+//!       "expected": {
 //!         "return_data": [],
 //!         "events": [
-//!             {
-//!                 "topics": [],
-//!                 "values": [ "0xdeadbeef01" ]
-//!             }
+//!           {
+//!             "topics": [],
+//!             "values": [
+//!               "0xdeadbeef01"
+//!             ]
+//!           }
 //!         ]
-//!     }
-//! }, {
-//!     "name": "return_in_function",
-//!     "inputs": [
+//!       }
+//!     },
+//!     {
+//!       "name": "return_in_function",
+//!       "inputs": [
 //!         {
-//!             "method": "return_in_function",
-//!             "calldata": []
+//!           "method": "return_in_function",
+//!           "calldata": [],
+//!           "caller": "0xD4313CC647703Bee6Dd8C0Df518d1C2299270E12"
 //!         }
-//!     ],
-//!     "expected": {
-//!         "return_data": [ "0xdeadbeef01" ],
+//!       ],
+//!       "expected": {
+//!         "return_data": [
+//!           "0xdeadbeef01"
+//!         ],
 //!         "events": [
-//!             {
-//!                 "topics": [],
-//!                 "values": [ "0xdeadbeef01" ]
-//!             }
+//!           {
+//!             "topics": [],
+//!             "values": [
+//!               "0xdeadbeef01"
+//!             ]
+//!           }
 //!         ]
-//!     }
-//! }, {
-//!     "name": "revert_in_function",
-//!     "inputs": [
+//!       }
+//!     },
+//!     {
+//!       "name": "revert_in_function",
+//!       "inputs": [
 //!         {
-//!             "method": "revert_in_function",
-//!             "calldata": []
+//!           "method": "revert_in_function",
+//!           "calldata": [],
+//!           "caller": "0x369a99fD8cDAE1051e779bfbb425CCD52FE46B92"
 //!         }
-//!     ],
-//!     "expected": {
-//!         "return_data": [ "0xdeadbeef01" ],
+//!       ],
+//!       "expected": {
+//!         "return_data": [
+//!           "0xdeadbeef01"
+//!         ],
 //!         "exception": true
-//!     }
-//! }, {
-//!     "name": "default_ret_value",
-//!     "inputs": [
+//!       }
+//!     },
+//!     {
+//!       "name": "default_ret_value",
+//!       "inputs": [
 //!         {
-//!             "method": "default_ret_value",
-//!             "calldata": []
+//!           "method": "default_ret_value",
+//!           "calldata": [],
+//!           "caller": "0x299efd03cfdeAE6d9a6d69c98894cd12368df379"
 //!         }
-//!     ],
-//!     "expected": [
+//!       ],
+//!       "expected": [
 //!         "0"
-//!     ]
-//! } ] }
+//!       ]
+//!     }
+//!   ]
+//! }
 
 // SPDX-License-Identifier: MIT
 

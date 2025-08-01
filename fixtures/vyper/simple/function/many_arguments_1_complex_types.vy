@@ -1,16 +1,23 @@
-#! { "modes": [ "V >=0.4.0" ], "cases": [ {
-#!     "name": "entry",
-#!     "inputs": [
+#! {
+#!   "modes": [
+#!     "V >=0.4.0"
+#!   ],
+#!   "cases": [
+#!     {
+#!       "name": "entry",
+#!       "inputs": [
 #!         {
-#!             "method": "entry",
-#!             "calldata": [
-#!             ]
+#!           "method": "entry",
+#!           "calldata": [],
+#!           "caller": "0x2Da72206926e40a35A0153239aB80397b6051e58"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "1"
-#!     ]
-#! } ] }
+#!       ]
+#!     }
+#!   ]
+#! }
 
 struct Str1:
     a: uint48

@@ -1,27 +1,34 @@
 {
-    "targets": [ "eravm" ], "modes": [ "Y" ], "cases": [
+  "targets": [
+    "eravm"
+  ],
+  "modes": [
+    "Y"
+  ],
+  "cases": [
+    {
+      "name": "default",
+      "inputs": [
         {
-            "name": "default",
-            "inputs": [
-                {
-                    "instance": "First",
-                    "method": "main",
-                    "calldata": [
-                        "Second.address",
-                        "Third.address"
-                    ]
-                }
-            ],
-            "expected": [
-                "Second.address",
-                "Third.address"
-            ]
+          "instance": "First",
+          "method": "main",
+          "calldata": [
+            "Second.address",
+            "Third.address"
+          ],
+          "caller": "0xBBD547c93d1821199Aa0DBEdE456A322351937e7"
         }
-    ],
-    "contracts": {
-        "First": "First.sol:First",
-        "Second": "Second.sol:Second",
-        "Third": "Third.sol:Third"
-    },
-    "enable_eravm_extensions": true
+      ],
+      "expected": [
+        "Second.address",
+        "Third.address"
+      ]
+    }
+  ],
+  "contracts": {
+    "First": "First.sol:First",
+    "Second": "Second.sol:Second",
+    "Third": "Third.sol:Third"
+  },
+  "enable_eravm_extensions": true
 }

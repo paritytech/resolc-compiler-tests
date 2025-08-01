@@ -1,51 +1,62 @@
-{ "modes": [ "V >=0.4.0" ], "cases": [ {
-    "name": "one",
-    "inputs": [
+{
+  "modes": [
+    "V >=0.4.0"
+  ],
+  "cases": [
+    {
+      "name": "one",
+      "inputs": [
         {
-            "instance": "Main",
-            "method": "main",
-            "calldata": [
-                "1",
-                "Square.address"
-            ]
+          "instance": "Main",
+          "method": "main",
+          "calldata": [
+            "1",
+            "Square.address"
+          ],
+          "caller": "0xe7E792d6A212d1a0c620960B14958D20ee9d02B0"
         }
-    ],
-    "expected": [
+      ],
+      "expected": [
         "1"
-    ]
-}, {
-    "name": "fifteen",
-    "inputs": [
+      ]
+    },
+    {
+      "name": "fifteen",
+      "inputs": [
         {
-            "instance": "Main",
-            "method": "main",
-            "calldata": [
-                "15",
-                "Square.address"
-            ]
+          "instance": "Main",
+          "method": "main",
+          "calldata": [
+            "15",
+            "Square.address"
+          ],
+          "caller": "0x211C7f8cf1C52fB3dbCAc9034cd2628Abb12b824"
         }
-    ],
-    "expected": [
+      ],
+      "expected": [
         "1240"
-    ]
-}, {
-    "name": "hundred",
-    "inputs": [
+      ]
+    },
+    {
+      "name": "hundred",
+      "inputs": [
         {
-            "instance": "Main",
-            "method": "main",
-            "calldata": [
-                "100",
-                "Square.address"
-            ]
+          "instance": "Main",
+          "method": "main",
+          "calldata": [
+            "100",
+            "Square.address"
+          ],
+          "caller": "0x369a0edC5E948fE2b3b812a06b6EC68be4024f2B"
         }
-    ],
-    "expected": [
+      ],
+      "expected": [
         "338350"
-    ]
-} ],
-    "contracts": {
-        "Main": "main.vy",
-        "Square": "square.vy"
+      ]
     }
+  ],
+  "contracts": {
+    "Main": "main.vy",
+    "Square": "square.vy"
+  }
 }

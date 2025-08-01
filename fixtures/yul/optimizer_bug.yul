@@ -1,17 +1,22 @@
-//! { "cases": [ {
-//!     "name": "default",
-//!     "inputs": [
+//! {
+//!   "cases": [
+//!     {
+//!       "name": "default",
+//!       "inputs": [
 //!         {
-//!             "method": "#fallback",
-//!             "calldata": [
-//!                 "1"
-//!             ]
+//!           "method": "#fallback",
+//!           "calldata": [
+//!             "1"
+//!           ],
+//!           "caller": "0xe1AB8145F7E55DC933d51a18c793F901A3A0b276"
 //!         }
-//!     ],
-//!     "expected": [
+//!       ],
+//!       "expected": [
 //!         "1"
-//!     ]
-//! } ] }
+//!       ]
+//!     }
+//!   ]
+//! }
 
 object "Test" {
     code {

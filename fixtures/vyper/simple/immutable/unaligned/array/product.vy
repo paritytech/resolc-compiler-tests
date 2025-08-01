@@ -1,26 +1,38 @@
-#! { "modes": [ "V >=0.4.0" ], "cases": [ {
-#!     "name": "main",
-#!     "inputs": [
+#! {
+#!   "modes": [
+#!     "V >=0.4.0"
+#!   ],
+#!   "cases": [
+#!     {
+#!       "name": "main",
+#!       "inputs": [
 #!         {
-#!             "method": "#deployer",
-#!             "calldata": [
-#!                 "20", "15", "10", "5"
-#!             ],
-#!             "expected": [
-#!                 "Test.address"
-#!             ]
+#!           "method": "#deployer",
+#!           "calldata": [
+#!             "20",
+#!             "15",
+#!             "10",
+#!             "5"
+#!           ],
+#!           "expected": [
+#!             "Test.address"
+#!           ],
+#!           "caller": "0x8d69266c7b1a7F626Bc1aB6b0e295404770BB7b5"
 #!         },
 #!         {
-#!             "method": "main",
-#!             "calldata": [
-#!                 "42"
-#!             ]
+#!           "method": "main",
+#!           "calldata": [
+#!             "42"
+#!           ],
+#!           "caller": "0x8d69266c7b1a7F626Bc1aB6b0e295404770BB7b5"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "15000"
-#!     ]
-#! } ] }
+#!       ]
+#!     }
+#!   ]
+#! }
 
 data: immutable(uint8[4])
 

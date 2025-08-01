@@ -1,56 +1,72 @@
-#! { "modes": [ "V <=0.3.10" ], "cases": [ {
-#!     "name": "addToXFirst",
-#!     "inputs": [
+#! {
+#!   "modes": [
+#!     "V <=0.3.10"
+#!   ],
+#!   "cases": [
+#!     {
+#!       "name": "addToXFirst",
+#!       "inputs": [
 #!         {
-#!             "method": "addToX",
-#!             "calldata": [
-#!                 "0"
-#!             ]
+#!           "method": "addToX",
+#!           "calldata": [
+#!             "0"
+#!           ],
+#!           "caller": "0x932DE2EC842e62a99110c46fB6dCF60954637BdB"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "1"
-#!     ]
-#! }, {
-#!     "name": "addToXSecond",
-#!     "inputs": [
+#!       ]
+#!     },
+#!     {
+#!       "name": "addToXSecond",
+#!       "inputs": [
 #!         {
-#!             "method": "addToX",
-#!             "calldata": [
-#!                 "67234736412121212"
-#!             ]
+#!           "method": "addToX",
+#!           "calldata": [
+#!             "67234736412121212"
+#!           ],
+#!           "caller": "0xE044c34322BEeF8626c0e10cd05180cdd5960eFC"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "67234736412121213"
-#!     ]
-#! }, {
-#!     "name": "addFirst",
-#!     "inputs": [
+#!       ]
+#!     },
+#!     {
+#!       "name": "addFirst",
+#!       "inputs": [
 #!         {
-#!             "method": "_add",
-#!             "calldata": [
-#!                 "2", "2"
-#!             ]
+#!           "method": "_add",
+#!           "calldata": [
+#!             "2",
+#!             "2"
+#!           ],
+#!           "caller": "0x9A53945906b5C9caB0267e6aBE54C8F9E02616F9"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "4"
-#!     ]
-#! }, {
-#!     "name": "addSecond",
-#!     "inputs": [
+#!       ]
+#!     },
+#!     {
+#!       "name": "addSecond",
+#!       "inputs": [
 #!         {
-#!             "method": "_add",
-#!             "calldata": [
-#!                 "782438347287334342", "512356125631255135132125661271278"
-#!             ]
+#!           "method": "_add",
+#!           "calldata": [
+#!             "782438347287334342",
+#!             "512356125631255135132125661271278"
+#!           ],
+#!           "caller": "0xc1452EF09674095813576738827c8227b367Db8C"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "512356125631255917570472948605620"
-#!     ]
-#! } ] }
+#!       ]
+#!     }
+#!   ]
+#! }
 
 x: public(uint256)
 

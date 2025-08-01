@@ -1,20 +1,27 @@
-//! { "cases": [ {
-//!     "name": "main",
-//!     "inputs": [
+//! {
+//!   "cases": [
+//!     {
+//!       "name": "main",
+//!       "inputs": [
 //!         {
-//!             "method": "main",
-//!             "calldata": [
-//!                 "42"
-//!             ],
-//!             "storage": { "Test.address": [
-//!                 "0x656463"
-//!             ] }
+//!           "method": "main",
+//!           "calldata": [
+//!             "42"
+//!           ],
+//!           "storage": {
+//!             "Test.address": [
+//!               "0x656463"
+//!             ]
+//!           },
+//!           "caller": "0xCDE6E23C60384E99a9EA6169F22C354a93eA8723"
 //!         }
-//!     ],
-//!     "expected": [
+//!       ],
+//!       "expected": [
 //!         "226"
-//!     ]
-//! } ] }
+//!       ]
+//!     }
+//!   ]
+//! }
 
 contract Test {
     uint8 constant TEST = 42;

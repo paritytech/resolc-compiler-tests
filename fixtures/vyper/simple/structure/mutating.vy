@@ -1,17 +1,25 @@
-#! { "modes": [ "V >=0.4.0" ], "cases": [ {
-#!     "name": "main",
-#!     "inputs": [
+#! {
+#!   "modes": [
+#!     "V >=0.4.0"
+#!   ],
+#!   "cases": [
+#!     {
+#!       "name": "main",
+#!       "inputs": [
 #!         {
-#!             "method": "main",
-#!             "calldata": [
-#!                 "3"
-#!             ]
+#!           "method": "main",
+#!           "calldata": [
+#!             "3"
+#!           ],
+#!           "caller": "0x0aFE3Cd12F5fb6A57Cd2B26DdF88dE8324b7d7Ca"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "64"
-#!     ]
-#! } ] }
+#!       ]
+#!     }
+#!   ]
+#! }
 
 struct Test:
     x: uint8

@@ -1,34 +1,53 @@
-#! { "modes": [ "V <=0.3.10" ], "cases": [ {
-#!     "name": "default",
-#!     "inputs": [
+#! {
+#!   "modes": [
+#!     "V <=0.3.10"
+#!   ],
+#!   "cases": [
+#!     {
+#!       "name": "default",
+#!       "inputs": [
 #!         {
-#!             "method": "#deployer",
-#!             "caller": "0x0000000000000000000000000000000000000099",
-#!             "calldata": [
-#!                 "25", "42"
-#!             ],
-#!             "expected": [
-#!                 "Test.address"
-#!             ]
+#!           "method": "#deployer",
+#!           "caller": "0x89f39916B1Fc498737dEF16a0b134D0DA7fB1Dfe",
+#!           "calldata": [
+#!             "25",
+#!             "42"
+#!           ],
+#!           "expected": [
+#!             "Test.address"
+#!           ]
 #!         },
 #!         {
-#!             "method": "a",
-#!             "calldata": [],
-#!             "expected": [ "25" ]
+#!           "method": "a",
+#!           "calldata": [],
+#!           "expected": [
+#!             "25"
+#!           ],
+#!           "caller": "0x89f39916B1Fc498737dEF16a0b134D0DA7fB1Dfe"
 #!         },
 #!         {
-#!             "method": "b",
-#!             "calldata": [],
-#!             "expected": [ "0x99" ]
+#!           "method": "b",
+#!           "calldata": [],
+#!           "expected": [
+#!             "0x99"
+#!           ],
+#!           "caller": "0x89f39916B1Fc498737dEF16a0b134D0DA7fB1Dfe"
 #!         },
 #!         {
-#!             "method": "c",
-#!             "calldata": [],
-#!             "expected": [ "42" ]
+#!           "method": "c",
+#!           "calldata": [],
+#!           "expected": [
+#!             "42"
+#!           ],
+#!           "caller": "0x89f39916B1Fc498737dEF16a0b134D0DA7fB1Dfe"
 #!         }
-#!     ],
-#!     "expected": [ "42" ]
-#! } ] }
+#!       ],
+#!       "expected": [
+#!         "42"
+#!       ]
+#!     }
+#!   ]
+#! }
 
 # Report https://linear.app/matterlabs/issue/CPR-288/implement-the-setimmutable-and-loadimmutable-functions
 

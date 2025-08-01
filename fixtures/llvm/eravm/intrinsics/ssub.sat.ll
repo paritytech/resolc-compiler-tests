@@ -1,116 +1,135 @@
-;! { "cases": [ {
-;!     "name": "pos_pos",
-;!     "inputs": [
+;! {
+;!   "cases": [
+;!     {
+;!       "name": "pos_pos",
+;!       "inputs": [
 ;!         {
-;!             "method": "#fallback",
-;!             "calldata": [
-;!                "42",
-;!                "84"
-;!             ]
+;!           "method": "#fallback",
+;!           "calldata": [
+;!             "42",
+;!             "84"
+;!           ],
+;!           "caller": "0x54033E2ba8Eb576E2a9ece87bb2984917936d5d3"
 ;!         }
-;!     ],
-;!     "expected": [
+;!       ],
+;!       "expected": [
 ;!         "-42"
-;!     ]
-;! }, {
-;!     "name": "pos_neg",
-;!     "inputs": [
+;!       ]
+;!     },
+;!     {
+;!       "name": "pos_neg",
+;!       "inputs": [
 ;!         {
-;!             "method": "#fallback",
-;!             "calldata": [
-;!                "42",
-;!                "-84"
-;!             ]
+;!           "method": "#fallback",
+;!           "calldata": [
+;!             "42",
+;!             "-84"
+;!           ],
+;!           "caller": "0x99914D6BE7DD634a5874C8e4201e17d681E99960"
 ;!         }
-;!     ],
-;!     "expected": [
+;!       ],
+;!       "expected": [
 ;!         "126"
-;!     ]
-;! }, {
-;!     "name": "neg_max",
-;!     "inputs": [
+;!       ]
+;!     },
+;!     {
+;!       "name": "neg_max",
+;!       "inputs": [
 ;!         {
-;!             "method": "#fallback",
-;!             "calldata": [
-;!                "-84",
-;!                "0x7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
-;!             ]
+;!           "method": "#fallback",
+;!           "calldata": [
+;!             "-84",
+;!             "0x7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+;!           ],
+;!           "caller": "0xA6F03e1a4b289042E8958E2fD529494a42Fe4888"
 ;!         }
-;!     ],
-;!     "expected": [
-;!                "0x8000000000000000000000000000000000000000000000000000000000000000"
-;!     ]
-;! }, {
-;!     "name": "max_max",
-;!     "inputs": [
+;!       ],
+;!       "expected": [
+;!         "0x8000000000000000000000000000000000000000000000000000000000000000"
+;!       ]
+;!     },
+;!     {
+;!       "name": "max_max",
+;!       "inputs": [
 ;!         {
-;!             "method": "#fallback",
-;!             "calldata": [
-;!                "0x7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
-;!                "0x7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
-;!             ]
+;!           "method": "#fallback",
+;!           "calldata": [
+;!             "0x7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+;!             "0x7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+;!           ],
+;!           "caller": "0x33c02B1aE182bB0aF73aBcAE276b948d0a123252"
 ;!         }
-;!     ],
-;!     "expected": [
-;!                "0"
-;!     ]
-;! }, {
-;!     "name": "minus_minus",
-;!     "inputs": [
+;!       ],
+;!       "expected": [
+;!         "0"
+;!       ]
+;!     },
+;!     {
+;!       "name": "minus_minus",
+;!       "inputs": [
 ;!         {
-;!             "method": "#fallback",
-;!             "calldata": [
-;!                "-1",
-;!                "-1"
-;!             ]
+;!           "method": "#fallback",
+;!           "calldata": [
+;!             "-1",
+;!             "-1"
+;!           ],
+;!           "caller": "0xe507865a044176189136eF917B8a03c37BC4bBD0"
 ;!         }
-;!     ],
-;!     "expected": [
-;!                "0"
-;!     ]
-;! }, {
-;!     "name": "topbit_topbit",
-;!     "inputs": [
+;!       ],
+;!       "expected": [
+;!         "0"
+;!       ]
+;!     },
+;!     {
+;!       "name": "topbit_topbit",
+;!       "inputs": [
 ;!         {
-;!             "method": "#fallback",
-;!             "calldata": [
-;!                "0x8000000000000000000000000000000000000000000000000000000000000000",
-;!                "0x8000000000000000000000000000000000000000000000000000000000000000"
-;!             ]
+;!           "method": "#fallback",
+;!           "calldata": [
+;!             "0x8000000000000000000000000000000000000000000000000000000000000000",
+;!             "0x8000000000000000000000000000000000000000000000000000000000000000"
+;!           ],
+;!           "caller": "0x861Be2734BCf82705a8c84299e484A4D6c2afC70"
 ;!         }
-;!     ],
-;!     "expected": [
-;!                "0"
-;!     ]
-;! }, {
-;!     "name": "minus_edge",
-;!     "inputs": [
+;!       ],
+;!       "expected": [
+;!         "0"
+;!       ]
+;!     },
+;!     {
+;!       "name": "minus_edge",
+;!       "inputs": [
 ;!         {
-;!             "method": "#fallback",
-;!             "calldata": [
-;!                "-1",
-;!                "0x8000000000000000000000000000000000000000000000000000000000000000"
-;!             ]
+;!           "method": "#fallback",
+;!           "calldata": [
+;!             "-1",
+;!             "0x8000000000000000000000000000000000000000000000000000000000000000"
+;!           ],
+;!           "caller": "0x0f288aE45C9387518f7C9577dbdA4c83F119210A"
 ;!         }
-;!     ],
-;!     "expected": [
-;!                "0x7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
-;!     ]
-;! }, {
-;!     "name": "minus_one",
-;!     "inputs": [
+;!       ],
+;!       "expected": [
+;!         "0x7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+;!       ]
+;!     },
+;!     {
+;!       "name": "minus_one",
+;!       "inputs": [
 ;!         {
-;!             "method": "#fallback",
-;!             "calldata": [
-;!                "0x8000000000000000000000000000000000000000000000000000000000000000",
-;!                "-1"
-;!             ]
+;!           "method": "#fallback",
+;!           "calldata": [
+;!             "0x8000000000000000000000000000000000000000000000000000000000000000",
+;!             "-1"
+;!           ],
+;!           "caller": "0x19194a16D30717E7C93E8Cdc7A768505e59f4307"
 ;!         }
-;!     ],
-;!     "expected": [
-;!                "0x8000000000000000000000000000000000000000000000000000000000000001"
-;!     ]
-;! } ] }
+;!       ],
+;!       "expected": [
+;!         "0x8000000000000000000000000000000000000000000000000000000000000001"
+;!       ]
+;!     }
+;!   ]
+;! }
 
 ; ModuleID = 'main'
 source_filename = "main"

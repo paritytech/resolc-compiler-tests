@@ -1,18 +1,22 @@
-;! { "cases": [ {
-;!     "name": "0",
-;!     "inputs": [
+;! {
+;!   "cases": [
+;!     {
+;!       "name": "0",
+;!       "inputs": [
 ;!         {
-;!             "method": "#fallback",
-;!             "calldata": [
-;!             ]
+;!           "method": "#fallback",
+;!           "calldata": [],
+;!           "caller": "0xc35E52fDB8DdEed22a9413bCE95926E2514C3e73"
 ;!         }
-;!     ],
-;!     "expected": [
-;!       "*",
-;!       "*",
-;!       "*"
-;!     ]
-;! } ] }
+;!       ],
+;!       "expected": [
+;!         "*",
+;!         "*",
+;!         "*"
+;!       ]
+;!     }
+;!   ]
+;! }
 
 target datalayout = "E-p:256:256-i256:256:256-S256-a:256:256"
 target triple = "evm-unknown-unknown"

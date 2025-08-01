@@ -1,28 +1,34 @@
-#! { "modes": [ "V =0.4.0" ], "cases": [ {
-#!     "name": "default",
-#!     "inputs": [
+#! {
+#!   "modes": [
+#!     "V =0.4.0"
+#!   ],
+#!   "cases": [
+#!     {
+#!       "name": "default",
+#!       "inputs": [
 #!         {
-#!             "method": "test",
-#!             "calldata": [
-#!             ]
+#!           "method": "test",
+#!           "calldata": [],
+#!           "caller": "0x34E9B91099E397fec9d3B48daC4C7Ad990c3838A"
 #!         }
-#!     ],
-#!     "expected": {
-#!         "return_data": [
-#!         ],
+#!       ],
+#!       "expected": {
+#!         "return_data": [],
 #!         "events": [
-#!             {
-#!                 "topics": [
-#!                     "0x06208c2a7c81ce0338f4e7c431f49476c450bad6ce52ef2b4e186db4a1fbcaf4",
-#!                     "9876543211"
-#!                 ],
-#!                 "values": [
-#!                     "1234567890"
-#!                 ]
-#!             }
+#!           {
+#!             "topics": [
+#!               "0x06208c2a7c81ce0338f4e7c431f49476c450bad6ce52ef2b4e186db4a1fbcaf4",
+#!               "9876543211"
+#!             ],
+#!             "values": [
+#!               "1234567890"
+#!             ]
+#!           }
 #!         ]
+#!       }
 #!     }
-#! } ] }
+#!   ]
+#! }
 
 event MyEvent:
     _: indexed(uint256)

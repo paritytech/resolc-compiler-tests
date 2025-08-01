@@ -1,17 +1,22 @@
-{ "modes": [ "V <=0.3.10" ], "cases": [ {
-    "name": "testIterableMap",
-    "inputs": [
+{
+  "modes": [
+    "V <=0.3.10"
+  ],
+  "cases": [
+    {
+      "name": "testIterableMap",
+      "inputs": [
         {
-            "instance": "TestIterableMap",
-            "method": "testIterableMap",
-            "calldata": [
-            ]
+          "instance": "TestIterableMap",
+          "method": "testIterableMap",
+          "calldata": [],
+          "caller": "0xAC3c229Fac69C32e597287E4369059743D7aA61A"
         }
-    ],
-    "expected": [
-    ]
-} ],
-    "contracts": {
-        "TestIterableMap": "main.vy"
+      ],
+      "expected": []
     }
+  ],
+  "contracts": {
+    "TestIterableMap": "main.vy"
+  }
 }

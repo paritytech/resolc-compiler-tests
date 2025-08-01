@@ -1,63 +1,77 @@
-#! { "modes": [ "V >=0.4.0" ], "cases": [ {
-#!     "name": "condition_true",
-#!     "inputs": [
+#! {
+#!   "modes": [
+#!     "V >=0.4.0"
+#!   ],
+#!   "cases": [
+#!     {
+#!       "name": "condition_true",
+#!       "inputs": [
 #!         {
-#!             "method": "without_message",
-#!             "calldata": [
-#!                 "1"
-#!             ]
+#!           "method": "without_message",
+#!           "calldata": [
+#!             "1"
+#!           ],
+#!           "caller": "0x8Cae4356c1A5Eb3dC98cc705f5b0d30509873D45"
 #!         }
-#!     ],
-#!     "expected": {
+#!       ],
+#!       "expected": {
 #!         "return_data": [],
 #!         "exception": true
-#!     }
-#! }, {
-#!     "name": "condition_false",
-#!     "inputs": [
+#!       }
+#!     },
+#!     {
+#!       "name": "condition_false",
+#!       "inputs": [
 #!         {
-#!             "method": "without_message",
-#!             "calldata": [
-#!                 "0"
-#!             ]
+#!           "method": "without_message",
+#!           "calldata": [
+#!             "0"
+#!           ],
+#!           "caller": "0x6C637D40Ae1D88cA09C4192b1db416a222c98253"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "5"
-#!     ]
-#! }, {
-#!     "name": "condition_true",
-#!     "inputs": [
+#!       ]
+#!     },
+#!     {
+#!       "name": "condition_true",
+#!       "inputs": [
 #!         {
-#!             "method": "with_message",
-#!             "calldata": [
-#!                 "1"
-#!             ]
+#!           "method": "with_message",
+#!           "calldata": [
+#!             "1"
+#!           ],
+#!           "caller": "0x048966e5E69C64b042c5C135263d5CE12d8797F5"
 #!         }
-#!     ],
-#!     "expected": {
+#!       ],
+#!       "expected": {
 #!         "return_data": [
-#!             "0x08C379A000000000000000000000000000000000000000000000000000000000",
-#!             "0x0000002000000000000000000000000000000000000000000000000000000000",
-#!             "0x000000054572726F720000000000000000000000000000000000000000000000",
-#!             "0x0000000000000000000000000000000000000000000000000000000000000000"
+#!           "0x08C379A000000000000000000000000000000000000000000000000000000000",
+#!           "0x0000002000000000000000000000000000000000000000000000000000000000",
+#!           "0x000000054572726F720000000000000000000000000000000000000000000000",
+#!           "0x0000000000000000000000000000000000000000000000000000000000000000"
 #!         ],
 #!         "exception": true
-#!     }
-#! }, {
-#!     "name": "condition_false",
-#!     "inputs": [
+#!       }
+#!     },
+#!     {
+#!       "name": "condition_false",
+#!       "inputs": [
 #!         {
-#!             "method": "with_message",
-#!             "calldata": [
-#!                 "0"
-#!             ]
+#!           "method": "with_message",
+#!           "calldata": [
+#!             "0"
+#!           ],
+#!           "caller": "0xAa0eB0C21caa78c821B524eaC7d0bd8E02200E2E"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "5"
-#!     ]
-#! } ] }
+#!       ]
+#!     }
+#!   ]
+#! }
 
 @external
 @pure

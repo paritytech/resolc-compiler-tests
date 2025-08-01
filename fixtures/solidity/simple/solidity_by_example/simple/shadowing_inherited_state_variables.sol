@@ -1,29 +1,35 @@
-//! { "modes": [
+//! {
+//!   "modes": [
 //!     "Y >=0.8.1",
-//!     "E", "I"
-//! ], "cases": [ {
-//!     "name": "test",
-//!     "inputs": [
+//!     "E",
+//!     "I"
+//!   ],
+//!   "cases": [
+//!     {
+//!       "name": "test",
+//!       "inputs": [
 //!         {
-//!             "method": "#deployer",
-//!             "calldata": [
-//!             ],
-//!             "expected": [
-//!                 "Test.address"
-//!             ]
+//!           "method": "#deployer",
+//!           "calldata": [],
+//!           "expected": [
+//!             "Test.address"
+//!           ],
+//!           "caller": "0x5F8720e9b95c8605d936E34F22d6Cf7D71C4Be65"
 //!         },
 //!         {
-//!             "method": "getName",
-//!             "calldata": [
-//!             ]
+//!           "method": "getName",
+//!           "calldata": [],
+//!           "caller": "0x5F8720e9b95c8605d936E34F22d6Cf7D71C4Be65"
 //!         }
-//!     ],
-//!     "expected": [
+//!       ],
+//!       "expected": [
 //!         "0x20",
 //!         "10",
 //!         "0x436f6e7472616374204300000000000000000000000000000000000000000000"
-//!     ]
-//! } ] }
+//!       ]
+//!     }
+//!   ]
+//! }
 
 // SPDX-License-Identifier: MIT
 pragma solidity >=0.7.0;

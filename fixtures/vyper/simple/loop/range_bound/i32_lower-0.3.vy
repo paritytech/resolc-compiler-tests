@@ -1,16 +1,24 @@
-#! { "modes": [ "V 0.3.9", "V 0.3.10" ], "cases": [ {
-#!     "name": "main",
-#!     "inputs": [
+#! {
+#!   "modes": [
+#!     "V 0.3.9",
+#!     "V 0.3.10"
+#!   ],
+#!   "cases": [
+#!     {
+#!       "name": "main",
+#!       "inputs": [
 #!         {
-#!             "method": "main",
-#!             "calldata": [
-#!             ]
+#!           "method": "main",
+#!           "calldata": [],
+#!           "caller": "0xb3f142a14A0f2028D055b6b5Ee751ada7dB94BcA"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "10"
-#!     ]
-#! } ] }
+#!       ]
+#!     }
+#!   ]
+#! }
 
 @external
 @pure

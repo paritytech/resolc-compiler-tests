@@ -1,38 +1,45 @@
-{ "modes": [ "V >=0.4.0" ], "cases": [ {
-    "name": "default",
-    "inputs": [
+{
+  "modes": [
+    "V >=0.4.0"
+  ],
+  "cases": [
+    {
+      "name": "default",
+      "inputs": [
         {
-            "instance": "Main",
-            "method": "#deployer",
-            "calldata": [
-                "Helper.address"
-            ],
-            "expected": [
-                "Main.address"
-            ]
+          "instance": "Main",
+          "method": "#deployer",
+          "calldata": [
+            "Helper.address"
+          ],
+          "expected": [
+            "Main.address"
+          ],
+          "caller": "0xac7c2E24ab3d34739ef0Ac55A2d3086a3BC11091"
         },
         {
-            "instance": "Main",
-            "method": "getFlag",
-            "calldata": [
-            ],
-            "expected": [
-                "1"
-            ]
+          "instance": "Main",
+          "method": "getFlag",
+          "calldata": [],
+          "expected": [
+            "1"
+          ],
+          "caller": "0xac7c2E24ab3d34739ef0Ac55A2d3086a3BC11091"
         },
         {
-            "instance": "Main",
-            "method": "getName",
-            "calldata": [
-            ]
+          "instance": "Main",
+          "method": "getName",
+          "calldata": [],
+          "caller": "0xac7c2E24ab3d34739ef0Ac55A2d3086a3BC11091"
         }
-    ],
-    "expected": [
+      ],
+      "expected": [
         "0x6162630000000000000000000000000000000000000000000000000000000000"
-    ]
-} ],
-    "contracts": {
-        "Main": "Main.vy",
-        "Helper": "Helper.vy"
+      ]
     }
+  ],
+  "contracts": {
+    "Main": "Main.vy",
+    "Helper": "Helper.vy"
+  }
 }

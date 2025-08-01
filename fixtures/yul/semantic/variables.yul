@@ -1,70 +1,103 @@
-//! { "cases": [ {
-//!     "name": "declare_without_value",
-//!     "inputs": [
+//! {
+//!   "cases": [
+//!     {
+//!       "name": "declare_without_value",
+//!       "inputs": [
 //!         {
-//!             "method": "#fallback",
-//!             "calldata": [ "0" ]
+//!           "method": "#fallback",
+//!           "calldata": [
+//!             "0"
+//!           ],
+//!           "caller": "0x673C638147fe91e4277646d86D5AE82f775EeA5C"
 //!         }
-//!     ],
-//!     "expected": [
+//!       ],
+//!       "expected": [
 //!         "0"
-//!     ]
-//! }, {
-//!     "name": "declare_tuple_without_value",
-//!     "inputs": [
+//!       ]
+//!     },
+//!     {
+//!       "name": "declare_tuple_without_value",
+//!       "inputs": [
 //!         {
-//!             "method": "#fallback",
-//!             "calldata": [ "1" ]
+//!           "method": "#fallback",
+//!           "calldata": [
+//!             "1"
+//!           ],
+//!           "caller": "0xf472086186382Fca55CD182DE196520aBd76F69d"
 //!         }
-//!     ],
-//!     "expected": [
-//!         "0", "0", "0"
-//!     ]
-//! }, {
-//!     "name": "declare_with_value",
-//!     "inputs": [
+//!       ],
+//!       "expected": [
+//!         "0",
+//!         "0",
+//!         "0"
+//!       ]
+//!     },
+//!     {
+//!       "name": "declare_with_value",
+//!       "inputs": [
 //!         {
-//!             "method": "#fallback",
-//!             "calldata": [ "2" ]
+//!           "method": "#fallback",
+//!           "calldata": [
+//!             "2"
+//!           ],
+//!           "caller": "0x5AE58D2bc5145bff0c1bEc0f32BfC2D079BC66ed"
 //!         }
-//!     ],
-//!     "expected": [
+//!       ],
+//!       "expected": [
 //!         "0xdeadbeef"
-//!     ]
-//! }, {
-//!     "name": "declare_tuple_with_value",
-//!     "inputs": [
+//!       ]
+//!     },
+//!     {
+//!       "name": "declare_tuple_with_value",
+//!       "inputs": [
 //!         {
-//!             "method": "#fallback",
-//!             "calldata": [ "3" ]
+//!           "method": "#fallback",
+//!           "calldata": [
+//!             "3"
+//!           ],
+//!           "caller": "0x2B29Bea668B044b2b355C370f85b729bcb43EC40"
 //!         }
-//!     ],
-//!     "expected": [
-//!         "1", "2", "3"
-//!     ]
-//! }, {
-//!     "name": "assign",
-//!     "inputs": [
+//!       ],
+//!       "expected": [
+//!         "1",
+//!         "2",
+//!         "3"
+//!       ]
+//!     },
+//!     {
+//!       "name": "assign",
+//!       "inputs": [
 //!         {
-//!             "method": "#fallback",
-//!             "calldata": [ "4" ]
+//!           "method": "#fallback",
+//!           "calldata": [
+//!             "4"
+//!           ],
+//!           "caller": "0x3797126345fB5Fb6A37629Db55eC692173CfB458"
 //!         }
-//!     ],
-//!     "expected": [
+//!       ],
+//!       "expected": [
 //!         "0xdeadbeef"
-//!     ]
-//! }, {
-//!     "name": "assign_tuple",
-//!     "inputs": [
+//!       ]
+//!     },
+//!     {
+//!       "name": "assign_tuple",
+//!       "inputs": [
 //!         {
-//!             "method": "#fallback",
-//!             "calldata": [ "5" ]
+//!           "method": "#fallback",
+//!           "calldata": [
+//!             "5"
+//!           ],
+//!           "caller": "0xe6869CC98283aB53E8a1a5312857Ef0bE9d189FE"
 //!         }
-//!     ],
-//!     "expected": [
-//!         "1", "2", "3"
-//!     ]
-//! } ] }
+//!       ],
+//!       "expected": [
+//!         "1",
+//!         "2",
+//!         "3"
+//!       ]
+//!     }
+//!   ]
+//! }
 
 object "Test" {
     code {

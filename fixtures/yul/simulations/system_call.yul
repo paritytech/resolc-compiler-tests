@@ -1,5 +1,9 @@
-//! { "targets": [ "eravm" ], "cases": [],
-//! "enable_eravm_extensions": true
+//! {
+//!   "targets": [
+//!     "eravm"
+//!   ],
+//!   "cases": [],
+//!   "enable_eravm_extensions": true
 //! }
 
 object "Test" {

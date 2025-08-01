@@ -1,17 +1,21 @@
-{ "cases": [ {
-    "name": "entry",
-    "inputs": [
+{
+  "cases": [
+    {
+      "name": "entry",
+      "inputs": [
         {
-            "instance": "Main",
-            "method": "main",
-            "calldata": []
+          "instance": "Main",
+          "method": "main",
+          "calldata": [],
+          "caller": "0xC69056740E35CF16d750Ca4269DA079C739178D0"
         }
-    ],
-    "expected": [
+      ],
+      "expected": [
         "10"
-    ]
-} ],
-    "contracts": {
-        "Main": "main.sol:Main"
+      ]
     }
+  ],
+  "contracts": {
+    "Main": "main.sol:Main"
+  }
 }

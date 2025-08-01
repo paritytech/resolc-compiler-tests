@@ -1,130 +1,147 @@
-{ "cases": [ {
-    "name": "simple",
-    "inputs": [
+{
+  "cases": [
+    {
+      "name": "simple",
+      "inputs": [
         {
-            "instance": "MyContract",
-            "method": "getCount",
-            "calldata": [
-                "Counter1.address"
-            ],
-            "expected": [
-                "0"
-            ]
+          "instance": "MyContract",
+          "method": "getCount",
+          "calldata": [
+            "Counter1.address"
+          ],
+          "expected": [
+            "0"
+          ],
+          "caller": "0x90054930D942d56f724Ff6A290301a5a78b9e274"
         },
         {
-            "instance": "MyContract",
-            "method": "incrementCounter",
-            "calldata": [
-                "Counter1.address"
-            ]
+          "instance": "MyContract",
+          "method": "incrementCounter",
+          "calldata": [
+            "Counter1.address"
+          ],
+          "caller": "0x90054930D942d56f724Ff6A290301a5a78b9e274"
         },
         {
-            "instance": "MyContract",
-            "method": "getCount",
-            "calldata": [
-                "Counter1.address"
-            ],
-            "expected": [
-                "1"
-            ]
+          "instance": "MyContract",
+          "method": "getCount",
+          "calldata": [
+            "Counter1.address"
+          ],
+          "expected": [
+            "1"
+          ],
+          "caller": "0x90054930D942d56f724Ff6A290301a5a78b9e274"
         },
         {
-            "instance": "MyContract",
-            "method": "incrementCounter",
-            "calldata": [
-                "Counter1.address"
-            ]
+          "instance": "MyContract",
+          "method": "incrementCounter",
+          "calldata": [
+            "Counter1.address"
+          ],
+          "caller": "0x90054930D942d56f724Ff6A290301a5a78b9e274"
         },
         {
-            "instance": "MyContract",
-            "method": "incrementCounter",
-            "calldata": [
-                "Counter1.address"
-            ]
+          "instance": "MyContract",
+          "method": "incrementCounter",
+          "calldata": [
+            "Counter1.address"
+          ],
+          "caller": "0x90054930D942d56f724Ff6A290301a5a78b9e274"
         },
         {
-            "instance": "MyContract",
-            "method": "getCount",
-            "calldata": [
-                "Counter1.address"
-            ],
-            "expected": [
-                "3"
-            ]
+          "instance": "MyContract",
+          "method": "getCount",
+          "calldata": [
+            "Counter1.address"
+          ],
+          "expected": [
+            "3"
+          ],
+          "caller": "0x90054930D942d56f724Ff6A290301a5a78b9e274"
         }
-    ],
-    "expected": [
+      ],
+      "expected": [
         "3"
-    ]
-}, {
-    "name": "two_counters",
-    "inputs": [
+      ]
+    },
+    {
+      "name": "two_counters",
+      "inputs": [
         {
-            "instance": "MyContract",
-            "method": "getCount",
-            "calldata": [
-                "Counter1.address"
-            ],
-            "expected": [
-                "0"
-            ]
+          "instance": "MyContract",
+          "method": "getCount",
+          "calldata": [
+            "Counter1.address"
+          ],
+          "expected": [
+            "0"
+          ],
+          "caller": "0x64F2d5E5317983a3822a2DF0B1ed0a1f711921A2"
         },
         {
-            "instance": "MyContract",
-            "method": "getCount",
-            "calldata": [
-                "Counter2.address"
-            ],
-            "expected": [
-                "0"
-            ]
+          "instance": "MyContract",
+          "method": "getCount",
+          "calldata": [
+            "Counter2.address"
+          ],
+          "expected": [
+            "0"
+          ],
+          "caller": "0x64F2d5E5317983a3822a2DF0B1ed0a1f711921A2"
         },
         {
-            "instance": "MyContract",
-            "method": "incrementCounter",
-            "calldata": [
-                "Counter1.address"
-            ]
+          "instance": "MyContract",
+          "method": "incrementCounter",
+          "calldata": [
+            "Counter1.address"
+          ],
+          "caller": "0x64F2d5E5317983a3822a2DF0B1ed0a1f711921A2"
         },
         {
-            "instance": "MyContract",
-            "method": "incrementCounter",
-            "calldata": [
-                "Counter2.address"
-            ]
+          "instance": "MyContract",
+          "method": "incrementCounter",
+          "calldata": [
+            "Counter2.address"
+          ],
+          "caller": "0x64F2d5E5317983a3822a2DF0B1ed0a1f711921A2"
         },
         {
-            "instance": "MyContract",
-            "method": "incrementCounter",
-            "calldata": [
-                "Counter1.address"
-            ]
+          "instance": "MyContract",
+          "method": "incrementCounter",
+          "calldata": [
+            "Counter1.address"
+          ],
+          "caller": "0x64F2d5E5317983a3822a2DF0B1ed0a1f711921A2"
         },
         {
-            "instance": "MyContract",
-            "method": "getCount",
-            "calldata": [
-                "Counter1.address"
-            ],
-            "expected": [
-                "2"
-            ]
+          "instance": "MyContract",
+          "method": "getCount",
+          "calldata": [
+            "Counter1.address"
+          ],
+          "expected": [
+            "2"
+          ],
+          "caller": "0x64F2d5E5317983a3822a2DF0B1ed0a1f711921A2"
         },
         {
-            "instance": "MyContract",
-            "method": "getCount",
-            "calldata": [
-                "Counter2.address"
-            ]
+          "instance": "MyContract",
+          "method": "getCount",
+          "calldata": [
+            "Counter2.address"
+          ],
+          "caller": "0x64F2d5E5317983a3822a2DF0B1ed0a1f711921A2"
         }
-    ],
-    "expected": [
+      ],
+      "expected": [
         "1"
-    ]
-} ],
-    "contracts": {
-        "MyContract": "main.sol:MyContract",
-        "Counter1": "main.sol:Counter",
-        "Counter2": "main.sol:Counter"
+      ]
     }
+  ],
+  "contracts": {
+    "MyContract": "main.sol:MyContract",
+    "Counter1": "main.sol:Counter",
+    "Counter2": "main.sol:Counter"
+  }
 }

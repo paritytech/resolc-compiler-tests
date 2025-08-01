@@ -1,47 +1,55 @@
-{ "cases": [ {
-    "name": "first",
-    "inputs": [
+{
+  "cases": [
+    {
+      "name": "first",
+      "inputs": [
         {
-            "instance": "First",
-            "method": "f",
-            "calldata": [
-                "5"
-            ]
+          "instance": "First",
+          "method": "f",
+          "calldata": [
+            "5"
+          ],
+          "caller": "0x5456A886ebC1F79a6e99508390C18C5a5EE65577"
         }
-    ],
-    "expected": [
+      ],
+      "expected": [
         "30"
-    ]
-}, {
-    "name": "second",
-    "inputs": [
+      ]
+    },
+    {
+      "name": "second",
+      "inputs": [
         {
-            "instance": "First",
-            "method": "f",
-            "calldata": [
-                "22"
-            ]
+          "instance": "First",
+          "method": "f",
+          "calldata": [
+            "22"
+          ],
+          "caller": "0x1a76cb77B2f99C316A428630553D247CC906f789"
         }
-    ],
-    "expected": [
+      ],
+      "expected": [
         "132"
-    ]
-}, {
-    "name": "third",
-    "inputs": [
+      ]
+    },
+    {
+      "name": "third",
+      "inputs": [
         {
-            "instance": "First",
-            "method": "f",
-            "calldata": [
-                "763142234623232323"
-            ]
+          "instance": "First",
+          "method": "f",
+          "calldata": [
+            "763142234623232323"
+          ],
+          "caller": "0x0f098490Bb312C92C4DC14b06C1F8Df623d303B9"
         }
-    ],
-    "expected": [
+      ],
+      "expected": [
         "4578853407739393938"
-    ]
-} ],
-    "contracts": {
-        "First": "first.sol:First"
+      ]
     }
+  ],
+  "contracts": {
+    "First": "first.sol:First"
+  }
 }

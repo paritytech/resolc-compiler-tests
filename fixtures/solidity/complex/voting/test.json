@@ -1,100 +1,108 @@
 {
-    "modes": [
-        "Y >=0.8.1",
-        "E", "I"
-    ],
-    "cases": [ {
-    "name": "first",
-    "inputs": [
+  "modes": [
+    "Y >=0.8.1",
+    "E",
+    "I"
+  ],
+  "cases": [
+    {
+      "name": "first",
+      "inputs": [
         {
-            "instance": "Ballot",
-            "method": "#deployer",
-            "calldata": [
-                "32",
-                "3",
-                "70",
-                "5",
-                "10"
-            ],
-            "expected": [
-                "Ballot.address"
-            ]
+          "instance": "Ballot",
+          "method": "#deployer",
+          "calldata": [
+            "32",
+            "3",
+            "70",
+            "5",
+            "10"
+          ],
+          "expected": [
+            "Ballot.address"
+          ],
+          "caller": "0x9676aDbAFEB318F84a7B852f9F33226ff4Ba7067"
         },
         {
-            "instance": "Ballot",
-            "method": "giveRightToVote",
-            "calldata": [
-                "0x0000000000000000000000000000000000000002"
-            ]
+          "instance": "Ballot",
+          "method": "giveRightToVote",
+          "calldata": [
+            "0xa6De85dA345bB28ccDCEC2BA45b521107544b79e"
+          ],
+          "caller": "0x9676aDbAFEB318F84a7B852f9F33226ff4Ba7067"
         },
         {
-            "instance": "Ballot",
-            "method": "giveRightToVote",
-            "calldata": [
-                "0x0000000000000000000000000000000000000003"
-            ]
+          "instance": "Ballot",
+          "method": "giveRightToVote",
+          "calldata": [
+            "0x7b3727c71597799Ed8145fB1349D9EADF9006cB1"
+          ],
+          "caller": "0x9676aDbAFEB318F84a7B852f9F33226ff4Ba7067"
         },
         {
-            "instance": "Ballot",
-            "method": "giveRightToVote",
-            "calldata": [
-                "0x0000000000000000000000000000000000000004"
-            ]
+          "instance": "Ballot",
+          "method": "giveRightToVote",
+          "calldata": [
+            "0x51f9B2418CFD4C69eBA0b5421f58EF3d40bA6f34"
+          ],
+          "caller": "0x9676aDbAFEB318F84a7B852f9F33226ff4Ba7067"
         },
         {
-            "instance": "Ballot",
-            "method": "giveRightToVote",
-            "calldata": [
-                "0x0000000000000000000000000000000000000005"
-            ]
+          "instance": "Ballot",
+          "method": "giveRightToVote",
+          "calldata": [
+            "0x008075e1c8457e4Cacb03C46Aa6A8695AE724af0"
+          ],
+          "caller": "0x9676aDbAFEB318F84a7B852f9F33226ff4Ba7067"
         },
         {
-            "instance": "Ballot",
-            "method": "vote(uint256)",
-            "caller": "0x0000000000000000000000000000000000000002",
-            "calldata": [
-                "1"
-            ]
+          "instance": "Ballot",
+          "method": "vote(uint256)",
+          "caller": "0x9676aDbAFEB318F84a7B852f9F33226ff4Ba7067",
+          "calldata": [
+            "1"
+          ]
         },
         {
-            "instance": "Ballot",
-            "method": "vote(uint256)",
-            "caller": "0x0000000000000000000000000000000000000003",
-            "calldata": [
-                "0"
-            ]
+          "instance": "Ballot",
+          "method": "vote(uint256)",
+          "caller": "0x9676aDbAFEB318F84a7B852f9F33226ff4Ba7067",
+          "calldata": [
+            "0"
+          ]
         },
         {
-            "instance": "Ballot",
-            "method": "vote(uint256)",
-            "caller": "0x0000000000000000000000000000000000000004",
-            "calldata": [
-                "2"
-            ]
+          "instance": "Ballot",
+          "method": "vote(uint256)",
+          "caller": "0x9676aDbAFEB318F84a7B852f9F33226ff4Ba7067",
+          "calldata": [
+            "2"
+          ]
         },
         {
-            "instance": "Ballot",
-            "method": "vote(uint256)",
-            "caller": "0x0000000000000000000000000000000000000005",
-            "calldata": [
-                "1"
-            ]
+          "instance": "Ballot",
+          "method": "vote(uint256)",
+          "caller": "0x9676aDbAFEB318F84a7B852f9F33226ff4Ba7067",
+          "calldata": [
+            "1"
+          ]
         },
         {
-            "instance": "Ballot",
-            "method": "winnerName",
-            "calldata": [
-            ],
-            "expected": [
-                "5"
-            ]
+          "instance": "Ballot",
+          "method": "winnerName",
+          "calldata": [],
+          "expected": [
+            "5"
+          ],
+          "caller": "0x9676aDbAFEB318F84a7B852f9F33226ff4Ba7067"
         }
-    ],
-    "expected": [
+      ],
+      "expected": [
         "5"
-    ]
-} ],
-    "contracts": {
-        "Ballot": "ballot.sol:Ballot"
+      ]
     }
+  ],
+  "contracts": {
+    "Ballot": "ballot.sol:Ballot"
+  }
 }

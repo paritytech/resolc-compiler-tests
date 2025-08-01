@@ -1,18 +1,23 @@
-;! { "cases": [ {
-;!     "name": "0",
-;!     "inputs": [
+;! {
+;!   "cases": [
+;!     {
+;!       "name": "0",
+;!       "inputs": [
 ;!         {
-;!             "method": "#fallback",
-;!             "calldata": [
-;!                "0x1F1E1D1C1B1A191817161514131211100F0E0D0C0B0A09080706050403020100",
-;!                "0x3F3E3D3C3B3A393837363534333231302F2E2D2C2B2A29282726252423222120"
-;!             ]
+;!           "method": "#fallback",
+;!           "calldata": [
+;!             "0x1F1E1D1C1B1A191817161514131211100F0E0D0C0B0A09080706050403020100",
+;!             "0x3F3E3D3C3B3A393837363534333231302F2E2D2C2B2A29282726252423222120"
+;!           ],
+;!           "caller": "0x7635ce1d2bfc0aA9955B6EC0062cc233bf9b3E76"
 ;!         }
-;!     ],
-;!     "expected": [
+;!       ],
+;!       "expected": [
 ;!         "0x1F1E1D1C"
-;!     ]
-;! } ] }
+;!       ]
+;!     }
+;!   ]
+;! }
 
 ; ModuleID = 'main'
 source_filename = "main"

@@ -1,56 +1,78 @@
-#! { "modes": [ "V >=0.4.0" ], "cases": [ {
-#!     "name": "one",
-#!     "inputs": [
+#! {
+#!   "modes": [
+#!     "V >=0.4.0"
+#!   ],
+#!   "cases": [
+#!     {
+#!       "name": "one",
+#!       "inputs": [
 #!         {
-#!             "method": "main",
-#!             "calldata": [
-#!                 "1", "0", "0"
-#!             ]
+#!           "method": "main",
+#!           "calldata": [
+#!             "1",
+#!             "0",
+#!             "0"
+#!           ],
+#!           "caller": "0xb8b4f0274DDfCF00CEB9dF43441B6231703215e9"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "1"
-#!     ]
-#! }, {
-#!     "name": "two",
-#!     "inputs": [
+#!       ]
+#!     },
+#!     {
+#!       "name": "two",
+#!       "inputs": [
 #!         {
-#!             "method": "main",
-#!             "calldata": [
-#!                 "0", "1", "1"
-#!             ]
+#!           "method": "main",
+#!           "calldata": [
+#!             "0",
+#!             "1",
+#!             "1"
+#!           ],
+#!           "caller": "0x4fD8306B8Ad7762920376056350A957dA4110c08"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "2"
-#!     ]
-#! }, {
-#!     "name": "three",
-#!     "inputs": [
+#!       ]
+#!     },
+#!     {
+#!       "name": "three",
+#!       "inputs": [
 #!         {
-#!             "method": "main",
-#!             "calldata": [
-#!                 "0", "1", "0"
-#!             ]
+#!           "method": "main",
+#!           "calldata": [
+#!             "0",
+#!             "1",
+#!             "0"
+#!           ],
+#!           "caller": "0x7cd1555d5204555bA473a08879Ae21Bdb92654da"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "3"
-#!     ]
-#! }, {
-#!     "name": "four",
-#!     "inputs": [
+#!       ]
+#!     },
+#!     {
+#!       "name": "four",
+#!       "inputs": [
 #!         {
-#!             "method": "main",
-#!             "calldata": [
-#!                 "0", "0", "0"
-#!             ]
+#!           "method": "main",
+#!           "calldata": [
+#!             "0",
+#!             "0",
+#!             "0"
+#!           ],
+#!           "caller": "0xbf9675630d3A550a22BaC62CFcBA576c341D5F89"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "4"
-#!     ]
-#! } ] }
+#!       ]
+#!     }
+#!   ]
+#! }
 
 @external
 @pure

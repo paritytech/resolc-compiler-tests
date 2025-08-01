@@ -1,52 +1,62 @@
-#! { "modes": [ "V <=0.3.10" ], "cases": [ {
-#!     "name": "bitcoin",
-#!     "inputs": [
+#! {
+#!   "modes": [
+#!     "V <=0.3.10"
+#!   ],
+#!   "cases": [
+#!     {
+#!       "name": "bitcoin",
+#!       "inputs": [
 #!         {
-#!             "method": "bitcoin",
-#!             "calldata": [
-#!             ]
+#!           "method": "bitcoin",
+#!           "calldata": [],
+#!           "caller": "0xe8e43b7E2959C7631316091b7B68AA82Da5e2ef5"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "1"
-#!     ]
-#! }, {
-#!     "name": "ethereum",
-#!     "inputs": [
+#!       ]
+#!     },
+#!     {
+#!       "name": "ethereum",
+#!       "inputs": [
 #!         {
-#!             "method": "ethereum",
-#!             "calldata": [
-#!             ]
+#!           "method": "ethereum",
+#!           "calldata": [],
+#!           "caller": "0xE122CbcA226246dBD5f8b55D487aFbcB322724Bb"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "10"
-#!     ]
-#! }, {
-#!     "name": "litecoin",
-#!     "inputs": [
+#!       ]
+#!     },
+#!     {
+#!       "name": "litecoin",
+#!       "inputs": [
 #!         {
-#!             "method": "litecoin",
-#!             "calldata": [
-#!             ]
+#!           "method": "litecoin",
+#!           "calldata": [],
+#!           "caller": "0xfeaB5Fd3DE88fE758a1dc978a6330e45E5B9747f"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "50"
-#!     ]
-#! }, {
-#!     "name": "zcash",
-#!     "inputs": [
+#!       ]
+#!     },
+#!     {
+#!       "name": "zcash",
+#!       "inputs": [
 #!         {
-#!             "method": "zcash",
-#!             "calldata": [
-#!             ]
+#!           "method": "zcash",
+#!           "calldata": [],
+#!           "caller": "0x93179375f11B3F16F2D3d5b9ad72d2BF19Ee57d4"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "100"
-#!     ]
-#! } ] }
+#!       ]
+#!     }
+#!   ]
+#! }
 
 MonthJanuary: constant(uint8) = 0
 MonthFebruary: constant(uint8) = 1

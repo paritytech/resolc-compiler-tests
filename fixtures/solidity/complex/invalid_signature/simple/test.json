@@ -1,21 +1,25 @@
-{ "cases": [ {
-    "name": "entry",
-    "inputs": [
+{
+  "cases": [
+    {
+      "name": "entry",
+      "inputs": [
         {
-            "instance": "Main",
-            "method": "main",
-            "calldata": [
-                "Callable.address"
-            ]
+          "instance": "Main",
+          "method": "main",
+          "calldata": [
+            "Callable.address"
+          ],
+          "caller": "0xC4567B15ff1cBf6B020c48f852C2C03aa24779bB"
         }
-    ],
-    "expected": {
+      ],
+      "expected": {
         "return_data": [],
         "exception": true
+      }
     }
-} ],
-    "contracts": {
-        "Main": "main.sol:Main",
-        "Callable": "callable.sol:Callable"
-    }
+  ],
+  "contracts": {
+    "Main": "main.sol:Main",
+    "Callable": "callable.sol:Callable"
+  }
 }

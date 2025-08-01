@@ -1,98 +1,123 @@
-//! { "cases": [ {
-//!     "name": "literal",
-//!     "inputs": [
+//! {
+//!   "cases": [
+//!     {
+//!       "name": "literal",
+//!       "inputs": [
 //!         {
-//!             "method": "literal",
-//!             "calldata": []
+//!           "method": "literal",
+//!           "calldata": [],
+//!           "caller": "0x6948D2c733037dF7d849b9f48F17207f07160a78"
 //!         }
-//!     ],
-//!     "expected": [
+//!       ],
+//!       "expected": [
 //!         "0xdeadbeef"
-//!     ]
-//! }, {
-//!     "name": "variable",
-//!     "inputs": [
+//!       ]
+//!     },
+//!     {
+//!       "name": "variable",
+//!       "inputs": [
 //!         {
-//!             "method": "variable",
-//!             "calldata": []
+//!           "method": "variable",
+//!           "calldata": [],
+//!           "caller": "0x0a249507e1684938d8b55757c24B2B830F585c37"
 //!         }
-//!     ],
-//!     "expected": [
+//!       ],
+//!       "expected": [
 //!         "0xdeadbeef01"
-//!     ]
-//! }, {
-//!     "name": "function_call",
-//!     "inputs": [
+//!       ]
+//!     },
+//!     {
+//!       "name": "function_call",
+//!       "inputs": [
 //!         {
-//!             "method": "function_call",
-//!             "calldata": []
+//!           "method": "function_call",
+//!           "calldata": [],
+//!           "caller": "0xe6c242a59295e91Ac549F0e0726DBe68d0B6aC34"
 //!         }
-//!     ],
-//!     "expected": [
+//!       ],
+//!       "expected": [
 //!         "0xdeadbeef02"
-//!     ]
-//! }, {
-//!     "name": "nested_calls",
-//!     "inputs": [
+//!       ]
+//!     },
+//!     {
+//!       "name": "nested_calls",
+//!       "inputs": [
 //!         {
-//!             "method": "nested_calls",
-//!             "calldata": []
+//!           "method": "nested_calls",
+//!           "calldata": [],
+//!           "caller": "0xC38b4c49Fdfb019092d74cc91c5413C9164ECC6a"
 //!         }
-//!     ],
-//!     "expected": [
+//!       ],
+//!       "expected": [
 //!         "0xdeadbeef0"
-//!     ]
-//! }, {
-//!     "name": "evaluation_order",
-//!     "inputs": [
+//!       ]
+//!     },
+//!     {
+//!       "name": "evaluation_order",
+//!       "inputs": [
 //!         {
-//!             "method": "evaluation_order",
-//!             "calldata": []
+//!           "method": "evaluation_order",
+//!           "calldata": [],
+//!           "caller": "0x78f5218074134BA0A2bC99A39666509Ed1592db6"
 //!         }
-//!     ],
-//!     "expected": {
+//!       ],
+//!       "expected": {
 //!         "return_data": [
-//!             "0x300"
+//!           "0x300"
 //!         ],
 //!         "events": [
-//!             {
-//!                 "topics": [],
-//!                 "values": [ "0xdeadbeef01" ]
-//!             },
-//!             {
-//!                 "topics": [],
-//!                 "values": [ "0xdeadbeef02" ]
-//!             }
+//!           {
+//!             "topics": [],
+//!             "values": [
+//!               "0xdeadbeef01"
+//!             ]
+//!           },
+//!           {
+//!             "topics": [],
+//!             "values": [
+//!               "0xdeadbeef02"
+//!             ]
+//!           }
 //!         ]
-//!     }
-//! }, {
-//!     "name": "nested_calls_evaluation_order",
-//!     "inputs": [
+//!       }
+//!     },
+//!     {
+//!       "name": "nested_calls_evaluation_order",
+//!       "inputs": [
 //!         {
-//!             "method": "nested_calls_evaluation_order",
-//!             "calldata": []
+//!           "method": "nested_calls_evaluation_order",
+//!           "calldata": [],
+//!           "caller": "0xE9f89c73E0122E92306b6A53dCcA010ad0a16413"
 //!         }
-//!     ],
-//!     "expected": {
+//!       ],
+//!       "expected": {
 //!         "return_data": [
-//!             "0x600"
+//!           "0x600"
 //!         ],
 //!         "events": [
-//!             {
-//!                 "topics": [],
-//!                 "values": [ "0xdeadbeef01" ]
-//!             },
-//!             {
-//!                 "topics": [],
-//!                 "values": [ "0xdeadbeef02" ]
-//!             },
-//!             {
-//!                 "topics": [],
-//!                 "values": [ "0xdeadbeef03" ]
-//!             }
+//!           {
+//!             "topics": [],
+//!             "values": [
+//!               "0xdeadbeef01"
+//!             ]
+//!           },
+//!           {
+//!             "topics": [],
+//!             "values": [
+//!               "0xdeadbeef02"
+//!             ]
+//!           },
+//!           {
+//!             "topics": [],
+//!             "values": [
+//!               "0xdeadbeef03"
+//!             ]
+//!           }
 //!         ]
+//!       }
 //!     }
-//! } ] }
+//!   ]
+//! }
 
 
 // SPDX-License-Identifier: MIT

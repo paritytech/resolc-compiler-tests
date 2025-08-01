@@ -1,27 +1,33 @@
-#! { "modes": [ "V =0.4.0" ], "cases": [ {
-#!     "name": "default",
-#!     "inputs": [
+#! {
+#!   "modes": [
+#!     "V =0.4.0"
+#!   ],
+#!   "cases": [
+#!     {
+#!       "name": "default",
+#!       "inputs": [
 #!         {
-#!             "method": "test",
-#!             "calldata": [
-#!             ]
+#!           "method": "test",
+#!           "calldata": [],
+#!           "caller": "0xa5eAf73Af88BDd65bDA2D22B1865e97b4CCdE183"
 #!         }
-#!     ],
-#!     "expected": {
-#!         "return_data": [
-#!         ],
+#!       ],
+#!       "expected": {
+#!         "return_data": [],
 #!         "events": [
-#!             {
-#!                 "topics": [
-#!                     "0x06208c2a7c81ce0338f4e7c431f49476c450bad6ce52ef2b4e186db4a1fbcaf4",
-#!                     "9876543211",
-#!                     "9876543212"
-#!                 ],
-#!                 "values": []
-#!             }
+#!           {
+#!             "topics": [
+#!               "0x06208c2a7c81ce0338f4e7c431f49476c450bad6ce52ef2b4e186db4a1fbcaf4",
+#!               "9876543211",
+#!               "9876543212"
+#!             ],
+#!             "values": []
+#!           }
 #!         ]
+#!       }
 #!     }
-#! } ] }
+#!   ]
+#! }
 
 event MyEvent:
     _: indexed(uint256)

@@ -1,25 +1,34 @@
-//! { "modes": [ "Y", "E" ], "cases": [ {
-//!     "name": "success",
-//!     "inputs": [
+//! {
+//!   "modes": [
+//!     "Y",
+//!     "E"
+//!   ],
+//!   "cases": [
+//!     {
+//!       "name": "success",
+//!       "inputs": [
 //!         {
-//!             "method": "#deployer",
-//!             "calldata": [
-//!                 "1"
-//!             ],
-//!             "expected": [
-//!                 "Test.address"
-//!             ]
+//!           "method": "#deployer",
+//!           "calldata": [
+//!             "1"
+//!           ],
+//!           "expected": [
+//!             "Test.address"
+//!           ],
+//!           "caller": "0x530d1fd8d252A9c6690C422495A660aB1fF3a680"
 //!         },
 //!         {
-//!             "method": "m",
-//!             "calldata": [
-//!             ]
+//!           "method": "m",
+//!           "calldata": [],
+//!           "caller": "0x530d1fd8d252A9c6690C422495A660aB1fF3a680"
 //!         }
-//!     ],
-//!     "expected": [
+//!       ],
+//!       "expected": [
 //!         "416"
-//!     ]
-//! } ] }
+//!       ]
+//!     }
+//!   ]
+//! }
 
 // SPDX-License-Identifier: MIT
 

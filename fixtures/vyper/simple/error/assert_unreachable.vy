@@ -1,15 +1,28 @@
-#! { "modes": [ "V >=0.3.10" ], "cases": [ {
-#!     "name": "default",
-#!     "inputs": [
+#! {
+#!   "modes": [
+#!     "V >=0.3.10"
+#!   ],
+#!   "cases": [
+#!     {
+#!       "name": "default",
+#!       "inputs": [
 #!         {
-#!             "method": "foo",
-#!             "calldata": []
+#!           "method": "foo",
+#!           "calldata": [],
+#!           "caller": "0xEbf3bcB1B31115a0a013dC8975Bd07939558E61c"
 #!         }
-#!     ],
-#!     "expected": [
-#!         "0x20", "0x04", "0", "1", "0", "1"
-#!     ]
-#! } ] }
+#!       ],
+#!       "expected": [
+#!         "0x20",
+#!         "0x04",
+#!         "0",
+#!         "1",
+#!         "0",
+#!         "1"
+#!       ]
+#!     }
+#!   ]
+#! }
 
 GAS_AMOUNT: constant(uint256) = 10000
 

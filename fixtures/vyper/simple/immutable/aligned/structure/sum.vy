@@ -1,26 +1,38 @@
-#! { "modes": [ "V >=0.4.0" ], "cases": [ {
-#!     "name": "main",
-#!     "inputs": [
+#! {
+#!   "modes": [
+#!     "V >=0.4.0"
+#!   ],
+#!   "cases": [
+#!     {
+#!       "name": "main",
+#!       "inputs": [
 #!         {
-#!             "method": "#deployer",
-#!             "calldata": [
-#!                 "20", "15", "10", "5"
-#!             ],
-#!             "expected": [
-#!                 "Test.address"
-#!             ]
+#!           "method": "#deployer",
+#!           "calldata": [
+#!             "20",
+#!             "15",
+#!             "10",
+#!             "5"
+#!           ],
+#!           "expected": [
+#!             "Test.address"
+#!           ],
+#!           "caller": "0x24AD9b105362a669b12842b74Cf7930B6c74983f"
 #!         },
 #!         {
-#!             "method": "main",
-#!             "calldata": [
-#!                 "42"
-#!             ]
+#!           "method": "main",
+#!           "calldata": [
+#!             "42"
+#!           ],
+#!           "caller": "0x24AD9b105362a669b12842b74Cf7930B6c74983f"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "50"
-#!     ]
-#! } ] }
+#!       ]
+#!     }
+#!   ]
+#! }
 
 TEST: constant(uint8) = 42
 

@@ -1,18 +1,22 @@
-//! { "cases": [ {
-//!     "name": "main",
-//!     "inputs": [
+//! {
+//!   "cases": [
+//!     {
+//!       "name": "main",
+//!       "inputs": [
 //!         {
-//!             "method": "f",
-//!             "calldata": [
-//!             ]
+//!           "method": "f",
+//!           "calldata": [],
+//!           "caller": "0xBF383b5C1cBa9F882e6d3E51074950d72EF2199e"
 //!         }
-//!     ],
-//!     "expected": [
+//!       ],
+//!       "expected": [
 //!         "1",
 //!         "2",
 //!         "5"
-//!     ]
-//! } ] }
+//!       ]
+//!     }
+//!   ]
+//! }
 // SPDX-License-Identifier: MIT
 
 pragma solidity >=0.4.12;

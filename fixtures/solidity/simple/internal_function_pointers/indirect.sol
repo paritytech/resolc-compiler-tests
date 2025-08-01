@@ -1,17 +1,26 @@
-//! { "modes": [ "Y", "E" ], "cases": [ {
-//!     "name": "default",
-//!     "inputs": [
+//! {
+//!   "modes": [
+//!     "Y",
+//!     "E"
+//!   ],
+//!   "cases": [
+//!     {
+//!       "name": "default",
+//!       "inputs": [
 //!         {
-//!             "method": "calculate",
-//!             "calldata": [
-//!                 "5"
-//!             ]
+//!           "method": "calculate",
+//!           "calldata": [
+//!             "5"
+//!           ],
+//!           "caller": "0x34fcB3E2d51cC9DC5AFC8622E1a1d26bAcCE98Aa"
 //!         }
-//!     ],
-//!     "expected": [
+//!       ],
+//!       "expected": [
 //!         "6"
-//!     ]
-//! } ] }
+//!       ]
+//!     }
+//!   ]
+//! }
 
 // SPDX-License-Identifier: MIT
 

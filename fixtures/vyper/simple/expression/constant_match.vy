@@ -1,30 +1,40 @@
-#! { "modes": [ "V >=0.4.0" ], "cases": [ {
-#!     "name": "one",
-#!     "inputs": [
+#! {
+#!   "modes": [
+#!     "V >=0.4.0"
+#!   ],
+#!   "cases": [
+#!     {
+#!       "name": "one",
+#!       "inputs": [
 #!         {
-#!             "method": "main",
-#!             "calldata": [
-#!                 "42"
-#!             ]
+#!           "method": "main",
+#!           "calldata": [
+#!             "42"
+#!           ],
+#!           "caller": "0x0e7cc1668f7F2b68dd1C5034417609668bD486B5"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "58"
-#!     ]
-#! }, {
-#!     "name": "two",
-#!     "inputs": [
+#!       ]
+#!     },
+#!     {
+#!       "name": "two",
+#!       "inputs": [
 #!         {
-#!             "method": "main",
-#!             "calldata": [
-#!                 "100"
-#!             ]
+#!           "method": "main",
+#!           "calldata": [
+#!             "100"
+#!           ],
+#!           "caller": "0x4e07f2F00a7eD1cFBD16cbF3eE2C8eE9F47E9b63"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "0"
-#!     ]
-#! } ] }
+#!       ]
+#!     }
+#!   ]
+#! }
 
 SCRUTINEE: constant(uint8) = 42
 

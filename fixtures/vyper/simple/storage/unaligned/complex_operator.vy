@@ -1,22 +1,32 @@
-#! { "modes": [ "V >=0.4.0" ], "cases": [ {
-#!     "name": "main",
-#!     "inputs": [
+#! {
+#!   "modes": [
+#!     "V >=0.4.0"
+#!   ],
+#!   "cases": [
+#!     {
+#!       "name": "main",
+#!       "inputs": [
 #!         {
-#!             "method": "main",
-#!             "calldata": [
-#!                 "16"
-#!             ],
-#!             "storage": { "Test.address": [
-#!                 "0x03",
-#!                 "0x05",
-#!                 "0x02"
-#!             ] }
+#!           "method": "main",
+#!           "calldata": [
+#!             "16"
+#!           ],
+#!           "storage": {
+#!             "Test.address": [
+#!               "0x03",
+#!               "0x05",
+#!               "0x02"
+#!             ]
+#!           },
+#!           "caller": "0x703d826d331e1049283185941cf67f39E6F39a16"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "81"
-#!     ]
-#! } ] }
+#!       ]
+#!     }
+#!   ]
+#! }
 
 field_1: uint8
 field_2: uint8

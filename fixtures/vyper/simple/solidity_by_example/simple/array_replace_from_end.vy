@@ -1,15 +1,21 @@
-#! { "modes": [ "V >=0.4.0" ], "cases": [ {
-#!     "name": "test",
-#!     "inputs": [
+#! {
+#!   "modes": [
+#!     "V >=0.4.0"
+#!   ],
+#!   "cases": [
+#!     {
+#!       "name": "test",
+#!       "inputs": [
 #!         {
-#!             "method": "test",
-#!             "calldata": [
-#!             ]
+#!           "method": "test",
+#!           "calldata": [],
+#!           "caller": "0x8196B1cF06c6370296270Fb617b62bC8A32d4Bd7"
 #!         }
-#!     ],
-#!     "expected": [
-#!     ]
-#! } ] }
+#!       ],
+#!       "expected": []
+#!     }
+#!   ]
+#! }
 
 
 arr: public(DynArray[uint256, 10])

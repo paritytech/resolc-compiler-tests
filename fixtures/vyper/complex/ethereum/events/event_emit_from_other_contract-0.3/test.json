@@ -1,43 +1,51 @@
-{ "modes": [ "V <=0.3.10" ], "cases": [ {
-    "name": "default",
-    "inputs": [
+{
+  "modes": [
+    "V <=0.3.10"
+  ],
+  "cases": [
+    {
+      "name": "default",
+      "inputs": [
         {
-            "instance": "C",
-            "method": "#deployer",
-            "calldata": [
-                "D.address"
-            ],
-            "expected": [
-                "C.address"
-            ]
+          "instance": "C",
+          "method": "#deployer",
+          "calldata": [
+            "D.address"
+          ],
+          "expected": [
+            "C.address"
+          ],
+          "caller": "0xdDe76Dff619Cca00b911a47459E4d441A14e0789"
         },
         {
-            "instance": "C",
-            "method": "deposit",
-            "calldata": [
-                "0x1234"
-            ],
-            "value": "18 wei"
+          "instance": "C",
+          "method": "deposit",
+          "calldata": [
+            "0x1234"
+          ],
+          "value": "18 wei",
+          "caller": "0xdDe76Dff619Cca00b911a47459E4d441A14e0789"
         }
-    ],
-    "expected": {
+      ],
+      "expected": {
         "return_data": [],
         "events": [
-            {
-                "topics": [
-                    "0x19dacbf83c5de6658e14cbf7bcae5c15eca2eedecf1c66fbca928e4d351bea0f",
-                    "C.address",
-                    "0x1234"
-                ],
-                "values": [
-                    "0x00"
-                ]
-            }
+          {
+            "topics": [
+              "0x19dacbf83c5de6658e14cbf7bcae5c15eca2eedecf1c66fbca928e4d351bea0f",
+              "C.address",
+              "0x1234"
+            ],
+            "values": [
+              "0x00"
+            ]
+          }
         ]
+      }
     }
-} ],
-    "contracts": {
-        "C": "C.vy",
-        "D": "D.vy"
-    }
+  ],
+  "contracts": {
+    "C": "C.vy",
+    "D": "D.vy"
+  }
 }

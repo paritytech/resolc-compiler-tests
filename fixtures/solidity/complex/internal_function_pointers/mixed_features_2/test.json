@@ -1,65 +1,94 @@
-{ "modes": [ "Y >=0.8.1", "E" ], "cases": [ {
-    "name": "entry",
-    "inputs": [
+{
+  "modes": [
+    "Y >=0.8.1",
+    "E"
+  ],
+  "cases": [
+    {
+      "name": "entry",
+      "inputs": [
         {
-            "instance": "Test",
-            "method": "addBalance",
-            "calldata": [ "2" ],
-            "expected": {
-                "return_data": [],
-                "events": [
-                    {
-                        "address": "Test.address",
-                        "topics": [
-                            "0x1290dc236e3724a1c8a8ee69ac741fbba372218691007a3f896ddf8408d57604",
-                            "0x0000000000000000000000000000000000000000000000000000000000000000",
-                            "0x000000000000000000000000deadbeef01000000000000000000000000000000"
-                        ],
-                        "values": [
-                            "0x0000000000000000000000000000000000000000000000000000000000000002"    
-                        ]
-                    }
+          "instance": "Test",
+          "method": "addBalance",
+          "calldata": [
+            "2"
+          ],
+          "expected": {
+            "return_data": [],
+            "events": [
+              {
+                "address": "Test.address",
+                "topics": [
+                  "0x1290dc236e3724a1c8a8ee69ac741fbba372218691007a3f896ddf8408d57604",
+                  "0x0000000000000000000000000000000000000000000000000000000000000000",
+                  "0x000000000000000000000000deadbeef01000000000000000000000000000000"
                 ],
-                "exception": false
-            }
+                "values": [
+                  "0x0000000000000000000000000000000000000000000000000000000000000002"
+                ]
+              }
+            ],
+            "exception": false
+          },
+          "caller": "0x073ad8b565eB8CFEBD8A2250882574E73A2E293F"
         },
         {
-            "method": "updateStruct",
-            "calldata": [
-                "1",
-                "0x60",
-                "0",
-                "0x04",
-                "0x7465737400000000000000000000000000000000000000000000000000000000"
-            ]
+          "method": "updateStruct",
+          "calldata": [
+            "1",
+            "0x60",
+            "0",
+            "0x04",
+            "0x7465737400000000000000000000000000000000000000000000000000000000"
+          ],
+          "caller": "0x073ad8b565eB8CFEBD8A2250882574E73A2E293F"
         },
         {
-            "method": "recursiveFunction",
-            "calldata": [ "3" ],
-            "expected": [ "6" ]
+          "method": "recursiveFunction",
+          "calldata": [
+            "3"
+          ],
+          "expected": [
+            "6"
+          ],
+          "caller": "0x073ad8b565eB8CFEBD8A2250882574E73A2E293F"
         },
         {
-            "method": "viewFunction",
-            "calldata": [],
-            "expected": [ "2" ]
+          "method": "viewFunction",
+          "calldata": [],
+          "expected": [
+            "2"
+          ],
+          "caller": "0x073ad8b565eB8CFEBD8A2250882574E73A2E293F"
         },
         {
-            "method": "pureFunction",
-            "calldata": [ "2" ],
-            "expected": [ "4" ]
+          "method": "pureFunction",
+          "calldata": [
+            "2"
+          ],
+          "expected": [
+            "4"
+          ],
+          "caller": "0x073ad8b565eB8CFEBD8A2250882574E73A2E293F"
         },
         {
-            "method": "testExternalCall",
-            "calldata": [ "OtherContract.address", "2" ]
+          "method": "testExternalCall",
+          "calldata": [
+            "OtherContract.address",
+            "2"
+          ],
+          "caller": "0x073ad8b565eB8CFEBD8A2250882574E73A2E293F"
         }
-    ],
-    "expected": [
+      ],
+      "expected": [
         "0x20",
         "0x01",
         "0x04"
-    ]
-} ],
-"contracts": {
+      ]
+    }
+  ],
+  "contracts": {
     "OtherContract": "main.sol:OtherContract",
     "Test": "main.sol:Test"
-} }
+  }
+}

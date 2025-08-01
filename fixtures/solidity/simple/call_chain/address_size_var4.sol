@@ -1,16 +1,29 @@
-//! { "targets": [ "eravm" ], "cases": [ {
-//!     "name": "test",
-//!     "inputs": [
+//! {
+//!   "targets": [
+//!     "eravm"
+//!   ],
+//!   "cases": [
+//!     {
+//!       "name": "test",
+//!       "inputs": [
 //!         {
-//!             "method": "f",
-//!             "calldata": [
-//!             ]
+//!           "method": "f",
+//!           "calldata": [],
+//!           "caller": "0x9db5751D7f23Ea648402F110aF7C2Ea267990aA0"
 //!         }
-//!     ],
-//!     "expected": [
-//!         "1", "*", "*", "*", "3", "9", "3"
-//!     ]
-//! } ] }
+//!       ],
+//!       "expected": [
+//!         "1",
+//!         "*",
+//!         "*",
+//!         "*",
+//!         "3",
+//!         "9",
+//!         "3"
+//!       ]
+//!     }
+//!   ]
+//! }
 
 // SPDX-License-Identifier: MIT
 

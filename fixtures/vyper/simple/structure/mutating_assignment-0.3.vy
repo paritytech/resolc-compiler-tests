@@ -1,17 +1,26 @@
-#! { "modes": [ "V <=0.3.10" ], "cases": [ {
-#!     "name": "main",
-#!     "inputs": [
+#! {
+#!   "modes": [
+#!     "V <=0.3.10"
+#!   ],
+#!   "cases": [
+#!     {
+#!       "name": "main",
+#!       "inputs": [
 #!         {
-#!             "method": "main",
-#!             "calldata": [
-#!                 "168", "4"
-#!             ]
+#!           "method": "main",
+#!           "calldata": [
+#!             "168",
+#!             "4"
+#!           ],
+#!           "caller": "0x8E40ED4373acD1ca3399d7f7192E977AE430D295"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "42"
-#!     ]
-#! } ] }
+#!       ]
+#!     }
+#!   ]
+#! }
 
 struct Inner:
     value: uint8

@@ -1,94 +1,105 @@
-{ "modes": [ "V >=0.4.0" ], "cases": [ {
-    "name": "default",
-    "inputs": [
+{
+  "modes": [
+    "V >=0.4.0"
+  ],
+  "cases": [
+    {
+      "name": "default",
+      "inputs": [
         {
-            "instance": "sender",
-            "method": "#deployer",
-            "calldata": [
-                "receiver.address"
-            ],
-            "expected": [
-                "sender.address"
-            ]
+          "instance": "sender",
+          "method": "#deployer",
+          "calldata": [
+            "receiver.address"
+          ],
+          "expected": [
+            "sender.address"
+          ],
+          "caller": "0x8B095d7499784CD6548648fC1d28E5441DB81F19"
         },
         {
-            "instance": "sender",
-            "method": "#fallback",
-            "calldata": [
-                "7"
-            ],
-            "expected": []
+          "instance": "sender",
+          "method": "#fallback",
+          "calldata": [
+            "7"
+          ],
+          "expected": [],
+          "caller": "0x8B095d7499784CD6548648fC1d28E5441DB81F19"
         },
         {
-            "instance": "sender",
-            "method": "val",
-            "calldata": [
-            ],
-            "expected": [
-                "0"
-            ]
+          "instance": "sender",
+          "method": "val",
+          "calldata": [],
+          "expected": [
+            "0"
+          ],
+          "caller": "0x8B095d7499784CD6548648fC1d28E5441DB81F19"
         },
         {
-            "instance": "sender",
-            "method": "forward",
-            "calldata": [
-                "1"
-            ],
-            "expected": [
-                "1"
-            ]
+          "instance": "sender",
+          "method": "forward",
+          "calldata": [
+            "1"
+          ],
+          "expected": [
+            "1"
+          ],
+          "caller": "0x8B095d7499784CD6548648fC1d28E5441DB81F19"
         },
         {
-            "instance": "sender",
-            "method": "val",
-            "calldata": [
-            ],
-            "expected": [
-                "0x80"
-            ]
+          "instance": "sender",
+          "method": "val",
+          "calldata": [],
+          "expected": [
+            "0x80"
+          ],
+          "caller": "0x8B095d7499784CD6548648fC1d28E5441DB81F19"
         },
         {
-            "instance": "sender",
-            "method": "forward",
-            "calldata": [
-                "0"
-            ],
-            "expected": [
-                "1"
-            ]
+          "instance": "sender",
+          "method": "forward",
+          "calldata": [
+            "0"
+          ],
+          "expected": [
+            "1"
+          ],
+          "caller": "0x8B095d7499784CD6548648fC1d28E5441DB81F19"
         },
         {
-            "instance": "sender",
-            "method": "val",
-            "calldata": [
-            ],
-            "expected": [
-                "0x80"
-            ]
+          "instance": "sender",
+          "method": "val",
+          "calldata": [],
+          "expected": [
+            "0x80"
+          ],
+          "caller": "0x8B095d7499784CD6548648fC1d28E5441DB81F19"
         },
         {
-            "instance": "sender",
-            "method": "forward",
-            "calldata": [
-                "1"
-            ],
-            "expected": [
-                "1"
-            ]
+          "instance": "sender",
+          "method": "forward",
+          "calldata": [
+            "1"
+          ],
+          "expected": [
+            "1"
+          ],
+          "caller": "0x8B095d7499784CD6548648fC1d28E5441DB81F19"
         },
         {
-            "instance": "sender",
-            "method": "val",
-            "calldata": [
-            ]
+          "instance": "sender",
+          "method": "val",
+          "calldata": [],
+          "caller": "0x8B095d7499784CD6548648fC1d28E5441DB81F19"
         }
-    ],
-    "expected": [
+      ],
+      "expected": [
         "0x80"
-    ]
-} ],
-    "contracts": {
-        "receiver": "receiver.vy",
-        "sender": "sender.vy"
+      ]
     }
+  ],
+  "contracts": {
+    "receiver": "receiver.vy",
+    "sender": "sender.vy"
+  }
 }

@@ -1,43 +1,52 @@
-//! { "cases": [ {
-//!     "name": "remainder_zero",
-//!     "inputs": [
+//! {
+//!   "cases": [
+//!     {
+//!       "name": "remainder_zero",
+//!       "inputs": [
 //!         {
-//!             "method": "main",
-//!             "calldata": [
-//!                 "15"
-//!             ]
+//!           "method": "main",
+//!           "calldata": [
+//!             "15"
+//!           ],
+//!           "caller": "0x3980C2c76B360ff0A0A90E18ec8B7749F0AeaB1d"
 //!         }
-//!     ],
-//!     "expected": [
+//!       ],
+//!       "expected": [
 //!         "5"
-//!     ]
-//! }, {
-//!     "name": "remainder_one",
-//!     "inputs": [
+//!       ]
+//!     },
+//!     {
+//!       "name": "remainder_one",
+//!       "inputs": [
 //!         {
-//!             "method": "main",
-//!             "calldata": [
-//!                 "22"
-//!             ]
+//!           "method": "main",
+//!           "calldata": [
+//!             "22"
+//!           ],
+//!           "caller": "0x397B66B893d380685Dd62EDc12D420Ae8d144461"
 //!         }
-//!     ],
-//!     "expected": [
+//!       ],
+//!       "expected": [
 //!         "7"
-//!     ]
-//! }, {
-//!     "name": "remainder_two",
-//!     "inputs": [
+//!       ]
+//!     },
+//!     {
+//!       "name": "remainder_two",
+//!       "inputs": [
 //!         {
-//!             "method": "main",
-//!             "calldata": [
-//!                 "26"
-//!             ]
+//!           "method": "main",
+//!           "calldata": [
+//!             "26"
+//!           ],
+//!           "caller": "0xF64bFf3982925D40E107Ac8EDCB033816DBA2e38"
 //!         }
-//!     ],
-//!     "expected": [
+//!       ],
+//!       "expected": [
 //!         "8"
-//!     ]
-//! } ] }
+//!       ]
+//!     }
+//!   ]
+//! }
 
 // SPDX-License-Identifier: MIT
 

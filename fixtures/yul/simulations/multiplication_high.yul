@@ -1,19 +1,26 @@
-//! { "targets": [ "eravm" ], "cases": [ {
-//!     "name": "default",
-//!     "inputs": [
+//! {
+//!   "targets": [
+//!     "eravm"
+//!   ],
+//!   "cases": [
+//!     {
+//!       "name": "default",
+//!       "inputs": [
 //!         {
-//!             "method": "#fallback",
-//!             "calldata": [
-//!                 "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF",
-//!                 "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"
-//!             ]
+//!           "method": "#fallback",
+//!           "calldata": [
+//!             "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF",
+//!             "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"
+//!           ],
+//!           "caller": "0x052b91ad9732D1bcE0dDAe15a4545e5c65D02443"
 //!         }
-//!     ],
-//!     "expected": [
+//!       ],
+//!       "expected": [
 //!         "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE"
-//!     ]
-//! } ],
-//! "enable_eravm_extensions": true
+//!       ]
+//!     }
+//!   ],
+//!   "enable_eravm_extensions": true
 //! }
 
 object "Test" {

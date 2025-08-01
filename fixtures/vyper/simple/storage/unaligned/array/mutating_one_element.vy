@@ -1,19 +1,28 @@
-#! { "modes": [ "V >=0.4.0" ], "cases": [ {
-#!     "name": "complex",
-#!     "inputs": [
+#! {
+#!   "modes": [
+#!     "V >=0.4.0"
+#!   ],
+#!   "cases": [
+#!     {
+#!       "name": "complex",
+#!       "inputs": [
 #!         {
-#!             "method": "complex",
-#!             "calldata": [
-#!             ],
-#!             "storage": { "deadbeef00000000000000000000000000000000": [
-#!                 "1"
-#!             ] }
+#!           "method": "complex",
+#!           "calldata": [],
+#!           "storage": {
+#!             "deadbeef00000000000000000000000000000000": [
+#!               "1"
+#!             ]
+#!           },
+#!           "caller": "0x645C1Cd3efCDBdb0B88C096BAABDA4790D75061d"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "1"
-#!     ]
-#! } ] }
+#!       ]
+#!     }
+#!   ]
+#! }
 
 # Report https://linear.app/matterlabs/issue/CPR-210/error-with-solidity-constants
 

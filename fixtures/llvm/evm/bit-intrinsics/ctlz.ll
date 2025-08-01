@@ -1,43 +1,52 @@
-;! { "cases": [ {
-;!     "name": "1",
-;!     "inputs": [
+;! {
+;!   "cases": [
+;!     {
+;!       "name": "1",
+;!       "inputs": [
 ;!         {
-;!             "method": "#fallback",
-;!             "calldata": [
-;!                "0x0000000000000000000000000000000000000000000000000000000000000000"
-;!             ]
+;!           "method": "#fallback",
+;!           "calldata": [
+;!             "0x0000000000000000000000000000000000000000000000000000000000000000"
+;!           ],
+;!           "caller": "0x89EF815A2D4B9D1261Fb5Ee99e52456439799956"
 ;!         }
-;!     ],
-;!     "expected": [
-;!                "0x100"
-;!     ]
-;! }, {
-;!     "name": "2",
-;!     "inputs": [
+;!       ],
+;!       "expected": [
+;!         "0x100"
+;!       ]
+;!     },
+;!     {
+;!       "name": "2",
+;!       "inputs": [
 ;!         {
-;!             "method": "#fallback",
-;!             "calldata": [
-;!                "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"
-;!             ]
+;!           "method": "#fallback",
+;!           "calldata": [
+;!             "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"
+;!           ],
+;!           "caller": "0x6550F23a0F08BB3817d1060CA615cd1ff98a43BB"
 ;!         }
-;!     ],
-;!     "expected": [
-;!                "0x0"
-;!     ]
-;! }, {
-;!     "name": "3",
-;!     "inputs": [
+;!       ],
+;!       "expected": [
+;!         "0x0"
+;!       ]
+;!     },
+;!     {
+;!       "name": "3",
+;!       "inputs": [
 ;!         {
-;!             "method": "#fallback",
-;!             "calldata": [
-;!                "0x0000000000000000000000000000000000000000000000000000000000000003"
-;!             ]
+;!           "method": "#fallback",
+;!           "calldata": [
+;!             "0x0000000000000000000000000000000000000000000000000000000000000003"
+;!           ],
+;!           "caller": "0x8c62f4dDd83846C41Aed78e025a33B36BF32deAc"
 ;!         }
-;!     ],
-;!     "expected": [
-;!                "0xfe"
-;!     ]
-;! } ] }
+;!       ],
+;!       "expected": [
+;!         "0xfe"
+;!       ]
+;!     }
+;!   ]
+;! }
 
 
 target datalayout = "E-p:256:256-i256:256:256-S256-a:256:256"

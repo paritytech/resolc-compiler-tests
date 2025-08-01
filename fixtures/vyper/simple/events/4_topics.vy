@@ -1,100 +1,112 @@
-#! { "modes": [ "V >=0.4.1" ], "cases": [ {
-#!     "name": "default",
-#!     "inputs": [
+#! {
+#!   "modes": [
+#!     "V >=0.4.1"
+#!   ],
+#!   "cases": [
+#!     {
+#!       "name": "default",
+#!       "inputs": [
 #!         {
-#!             "method": "test",
-#!             "calldata": [
-#!                 "0xdeadbeef2"
-#!             ]
+#!           "method": "test",
+#!           "calldata": [
+#!             "0xdeadbeef2"
+#!           ],
+#!           "caller": "0x3B25c96DF36525FD45e2cFf5805F57352bF1C4aE"
 #!         }
-#!     ],
-#!     "expected": {
-#!         "return_data": [
-#!         ],
+#!       ],
+#!       "expected": {
+#!         "return_data": [],
 #!         "events": [
-#!             {
-#!                 "address": "0xe594ae1d7205e8e92fb22c59d040c31e1fcd139d",
-#!                 "topics": [
-#!                     "0x5657a2ad92d6fdc766bbd2f2492fb87a89219bb1153e5f552d2466e46601ff05",
-#!                     "8923892323892398",
-#!                     "0x58ae9129f801e721b1bbf220c77ba8c48badd9b887f33def390a8120ed73c9cc",
-#!                     "0x0f551aaa5c86ee8370a062ef34113b9589b1b5d8c4fd999217b22b5f6e4dc726"
-#!                 ],
-#!                 "values": []
-#!             },
-#!             {
-#!                 "address": "0xe594ae1d7205e8e92fb22c59d040c31e1fcd139d",
-#!                 "topics": [
-#!                     "0xc339da287b2960b087500945943138570dd5cdc69d4aed877a0ff71f324e1286",
-#!                     "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff80",
-#!                     "0x000000000000000000000000000000000000000000000000000000ffffffffff",
-#!                     "0xa9c584056064687e149968cbab758a3376d22aedc6a55823d1b3ecbee81b8fb9"
-#!                 ],
-#!                 "values": ["0xdeadbeef"]
-#!             },
-#!             {
-#!                 "address": "0xe594ae1d7205e8e92fb22c59d040c31e1fcd139d",
-#!                 "topics": [
-#!                     "0x8c087ab10d7f59d23599ebb606cae6ed06ba6c557ca99b60817c7e2a72cc85bf",
-#!                     "0xcc69885fda6bcc1a4ace058b4a62bf5e179ea78fd58a1ccd71c22cc9b688792f",
-#!                     "-1",
-#!                     "0x290decd9548b62a8d60345a988386fc84ba6bc95484008f6362f93160ef3e563"
-#!                 ],
-#!                 "values": ["-128", "-1"]
-#!             },
-#!             {
-#!                 "address": "0xe594ae1d7205e8e92fb22c59d040c31e1fcd139d",
-#!                 "topics": [
-#!                     "0x4ba39e3c9aac72a44241ab884ff82865a2909d21baf5fee87cc271871cd383fe",
-#!                     "1",
-#!                     "0xdf0e45714bf256afe7c550b1150d0958439b34ae307888e184b747e3dd414a4a",
-#!                     "0x46fff8a91b2a509b0003c20c325d2116ddb2f88f4c48fdebba3bfce2ed90bb2c"
-#!                 ],
-#!                 "values": [
-#!                     "127",
-#!                     "0xdeadbeef2",
-#!                     "2"
-#!                 ]
-#!             },
-#!             {
-#!                 "address": "0xe594ae1d7205e8e92fb22c59d040c31e1fcd139d",
-#!                 "topics": [
-#!                     "0x5c94fa66620115e82ceeb70115b05cfecd92a0b72e4bf8a52cf4bc7709601933",
-#!                     "0xabcd000000000000000000000000000000000000000000000000000000000000",
-#!                     "0xdeadbeef00000000000000000000000000000000000000000000000000000000",
-#!                     "0x45030b51678974217968eeacdbef5b0ac42a4c6351c961a8a80591f1b70c14cc"
-#!                 ],
-#!                 "values": [
-#!                     "0x20",
-#!                     "3",
-#!                     "0x6162630000000000000000000000000000000000000000000000000000000000"
-#!                 ]
-#!             },
-#!             {
-#!                 "address": "0xe594ae1d7205e8e92fb22c59d040c31e1fcd139d",
-#!                 "topics": [
-#!                     "0x17fa1d8aafbe9422bb621ea80a3ac41a212f1dbcc4862a5c4158f67176307818",
-#!                     "0x3a56b02b60d4990074262f496ac34733f870e1b7815719b46ce155beac5e1a41",
-#!                     "0x5bb661834c674f8f35aa5071b921a42aeae177c4b8bec3e41e2beb11cc404805",
-#!                     "Test.address"
-#!                 ],
-#!                 "values": [
-#!                     "-1",
-#!                     "0xdeadbeef3",
-#!                     "0xa0",
-#!                     "0",
-#!                     "0xe0",
-#!                     "5",
-#!                     "0xdeadbeef4000000000000000000000000000000000000000000000000000000",
-#!                     "3",
-#!                     "0",
-#!                     "2",
-#!                     "1"
-#!                 ]
-#!             }
+#!           {
+#!             "address": "0xe594ae1d7205e8e92fb22c59d040c31e1fcd139d",
+#!             "topics": [
+#!               "0x5657a2ad92d6fdc766bbd2f2492fb87a89219bb1153e5f552d2466e46601ff05",
+#!               "8923892323892398",
+#!               "0x58ae9129f801e721b1bbf220c77ba8c48badd9b887f33def390a8120ed73c9cc",
+#!               "0x0f551aaa5c86ee8370a062ef34113b9589b1b5d8c4fd999217b22b5f6e4dc726"
+#!             ],
+#!             "values": []
+#!           },
+#!           {
+#!             "address": "0xe594ae1d7205e8e92fb22c59d040c31e1fcd139d",
+#!             "topics": [
+#!               "0xc339da287b2960b087500945943138570dd5cdc69d4aed877a0ff71f324e1286",
+#!               "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff80",
+#!               "0x000000000000000000000000000000000000000000000000000000ffffffffff",
+#!               "0xa9c584056064687e149968cbab758a3376d22aedc6a55823d1b3ecbee81b8fb9"
+#!             ],
+#!             "values": [
+#!               "0xdeadbeef"
+#!             ]
+#!           },
+#!           {
+#!             "address": "0xe594ae1d7205e8e92fb22c59d040c31e1fcd139d",
+#!             "topics": [
+#!               "0x8c087ab10d7f59d23599ebb606cae6ed06ba6c557ca99b60817c7e2a72cc85bf",
+#!               "0xcc69885fda6bcc1a4ace058b4a62bf5e179ea78fd58a1ccd71c22cc9b688792f",
+#!               "-1",
+#!               "0x290decd9548b62a8d60345a988386fc84ba6bc95484008f6362f93160ef3e563"
+#!             ],
+#!             "values": [
+#!               "-128",
+#!               "-1"
+#!             ]
+#!           },
+#!           {
+#!             "address": "0xe594ae1d7205e8e92fb22c59d040c31e1fcd139d",
+#!             "topics": [
+#!               "0x4ba39e3c9aac72a44241ab884ff82865a2909d21baf5fee87cc271871cd383fe",
+#!               "1",
+#!               "0xdf0e45714bf256afe7c550b1150d0958439b34ae307888e184b747e3dd414a4a",
+#!               "0x46fff8a91b2a509b0003c20c325d2116ddb2f88f4c48fdebba3bfce2ed90bb2c"
+#!             ],
+#!             "values": [
+#!               "127",
+#!               "0xdeadbeef2",
+#!               "2"
+#!             ]
+#!           },
+#!           {
+#!             "address": "0xe594ae1d7205e8e92fb22c59d040c31e1fcd139d",
+#!             "topics": [
+#!               "0x5c94fa66620115e82ceeb70115b05cfecd92a0b72e4bf8a52cf4bc7709601933",
+#!               "0xabcd000000000000000000000000000000000000000000000000000000000000",
+#!               "0xdeadbeef00000000000000000000000000000000000000000000000000000000",
+#!               "0x45030b51678974217968eeacdbef5b0ac42a4c6351c961a8a80591f1b70c14cc"
+#!             ],
+#!             "values": [
+#!               "0x20",
+#!               "3",
+#!               "0x6162630000000000000000000000000000000000000000000000000000000000"
+#!             ]
+#!           },
+#!           {
+#!             "address": "0xe594ae1d7205e8e92fb22c59d040c31e1fcd139d",
+#!             "topics": [
+#!               "0x17fa1d8aafbe9422bb621ea80a3ac41a212f1dbcc4862a5c4158f67176307818",
+#!               "0x3a56b02b60d4990074262f496ac34733f870e1b7815719b46ce155beac5e1a41",
+#!               "0x5bb661834c674f8f35aa5071b921a42aeae177c4b8bec3e41e2beb11cc404805",
+#!               "Test.address"
+#!             ],
+#!             "values": [
+#!               "-1",
+#!               "0xdeadbeef3",
+#!               "0xa0",
+#!               "0",
+#!               "0xe0",
+#!               "5",
+#!               "0xdeadbeef4000000000000000000000000000000000000000000000000000000",
+#!               "3",
+#!               "0",
+#!               "2",
+#!               "1"
+#!             ]
+#!           }
 #!         ]
+#!       }
 #!     }
-#! } ] }
+#!   ]
+#! }
 
 
 CONST: constant(uint256) = 3735928559 # 0xdeadbeef

@@ -1,99 +1,109 @@
-{ "modes": [
+{
+  "modes": [
     "Y >=0.8.1",
-    "E", "I"
-], "cases": [ {
-    "name": "testPrivateFunc",
-    "inputs": [
+    "E",
+    "I"
+  ],
+  "cases": [
+    {
+      "name": "testPrivateFunc",
+      "inputs": [
         {
-            "instance": "Base",
-            "method": "testPrivateFunc",
-            "calldata": [
-            ]
+          "instance": "Base",
+          "method": "testPrivateFunc",
+          "calldata": [],
+          "caller": "0xd42E2959E6a9F83C5176b810FC6CfEf6199A3De6"
         }
-    ],
-    "expected": [
+      ],
+      "expected": [
         "0x20",
         "23",
         "0x707269766174652066756e6374696f6e2063616c6c6564000000000000000000"
-    ]
-}, {
-    "name": "testInternalFunc",
-    "inputs": [
+      ]
+    },
+    {
+      "name": "testInternalFunc",
+      "inputs": [
         {
-            "instance": "Base",
-            "method": "testInternalFunc",
-            "calldata": [
-            ]
+          "instance": "Base",
+          "method": "testInternalFunc",
+          "calldata": [],
+          "caller": "0xe9637467C7E0032362605718BC820Db63f30beCC"
         }
-    ],
-    "expected": [
+      ],
+      "expected": [
         "0x20",
         "24",
         "0x696e7465726e616c2066756e6374696f6e2063616c6c65640000000000000000"
-    ]
-}, {
-    "name": "publicFunc",
-    "inputs": [
+      ]
+    },
+    {
+      "name": "publicFunc",
+      "inputs": [
         {
-            "instance": "Base",
-            "method": "publicFunc",
-            "calldata": [
-            ]
+          "instance": "Base",
+          "method": "publicFunc",
+          "calldata": [],
+          "caller": "0x819c1Cddbdacc3CB55DEBB1c55e428E02045aDA8"
         }
-    ],
-    "expected": [
+      ],
+      "expected": [
         "0x20",
         "22",
         "0x7075626c69632066756e6374696f6e2063616c6c656400000000000000000000"
-    ]
-}, {
-    "name": "externalFunc",
-    "inputs": [
+      ]
+    },
+    {
+      "name": "externalFunc",
+      "inputs": [
         {
-            "instance": "Base",
-            "method": "externalFunc",
-            "calldata": [
-            ]
+          "instance": "Base",
+          "method": "externalFunc",
+          "calldata": [],
+          "caller": "0xf585020C24b72774A9069185ba330dA2Bfc8449b"
         }
-    ],
-    "expected": [
+      ],
+      "expected": [
         "0x20",
         "24",
         "0x65787465726e616c2066756e6374696f6e2063616c6c65640000000000000000"
-    ]
-}, {
-    "name": "publicVar",
-    "inputs": [
+      ]
+    },
+    {
+      "name": "publicVar",
+      "inputs": [
         {
-            "instance": "Base",
-            "method": "publicVar",
-            "calldata": [
-            ]
+          "instance": "Base",
+          "method": "publicVar",
+          "calldata": [],
+          "caller": "0x046D12e598c8a770c09317dea1C04f967cf673A6"
         }
-    ],
-    "expected": [
+      ],
+      "expected": [
         "0x20",
         "18",
         "0x6d79207075626c6963207661726961626c650000000000000000000000000000"
-    ]
-}, {
-    "name": "testInternalFuncChild",
-    "inputs": [
+      ]
+    },
+    {
+      "name": "testInternalFuncChild",
+      "inputs": [
         {
-            "instance": "Child",
-            "method": "testInternalFunc",
-            "calldata": [
-            ]
+          "instance": "Child",
+          "method": "testInternalFunc",
+          "calldata": [],
+          "caller": "0xA3EB30592FBDb0F4149f95189512085eCaF63B37"
         }
-    ],
-    "expected": [
+      ],
+      "expected": [
         "0x20",
         "24",
         "0x696e7465726e616c2066756e6374696f6e2063616c6c65640000000000000000"
-    ]
-} ],
-    "contracts": {
-        "Base": "main.sol:Base",
-        "Child": "main.sol:Child"
+      ]
     }
+  ],
+  "contracts": {
+    "Base": "main.sol:Base",
+    "Child": "main.sol:Child"
+  }
 }

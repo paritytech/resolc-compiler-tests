@@ -1,43 +1,55 @@
-#! { "modes": [ "V <=0.3.10" ], "cases": [ {
-#!     "name": "remainder_zero",
-#!     "inputs": [
+#! {
+#!   "modes": [
+#!     "V <=0.3.10"
+#!   ],
+#!   "cases": [
+#!     {
+#!       "name": "remainder_zero",
+#!       "inputs": [
 #!         {
-#!             "method": "main",
-#!             "calldata": [
-#!                 "15"
-#!             ]
+#!           "method": "main",
+#!           "calldata": [
+#!             "15"
+#!           ],
+#!           "caller": "0xe498428f732a4BfACe7826779a5322B677e9BEFD"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "5"
-#!     ]
-#! }, {
-#!     "name": "remainder_one",
-#!     "inputs": [
+#!       ]
+#!     },
+#!     {
+#!       "name": "remainder_one",
+#!       "inputs": [
 #!         {
-#!             "method": "main",
-#!             "calldata": [
-#!                 "22"
-#!             ]
+#!           "method": "main",
+#!           "calldata": [
+#!             "22"
+#!           ],
+#!           "caller": "0x60fbf4ab56ca0fF68883B546f43B7C5A52ffe33d"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "7"
-#!     ]
-#! }, {
-#!     "name": "remainder_two",
-#!     "inputs": [
+#!       ]
+#!     },
+#!     {
+#!       "name": "remainder_two",
+#!       "inputs": [
 #!         {
-#!             "method": "main",
-#!             "calldata": [
-#!                 "26"
-#!             ]
+#!           "method": "main",
+#!           "calldata": [
+#!             "26"
+#!           ],
+#!           "caller": "0x40470F186A5Ad520136d4f88510Cb2e0B6A09220"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "8"
-#!     ]
-#! } ] }
+#!       ]
+#!     }
+#!   ]
+#! }
 
 CONST: constant(uint256) = 3
 

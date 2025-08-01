@@ -1,43 +1,52 @@
-;! { "cases": [ {
-;!     "name": "0",
-;!     "inputs": [
+;! {
+;!   "cases": [
+;!     {
+;!       "name": "0",
+;!       "inputs": [
 ;!         {
-;!             "method": "#fallback",
-;!             "calldata": [
-;!                "0"
-;!             ]
+;!           "method": "#fallback",
+;!           "calldata": [
+;!             "0"
+;!           ],
+;!           "caller": "0x6662ec20FA6688a9e37fffa029743Fa134235837"
 ;!         }
-;!     ],
-;!     "expected": [
+;!       ],
+;!       "expected": [
 ;!         "0"
-;!     ]
-;! }, {
-;!     "name": "random",
-;!     "inputs": [
+;!       ]
+;!     },
+;!     {
+;!       "name": "random",
+;!       "inputs": [
 ;!         {
-;!             "method": "#fallback",
-;!             "calldata": [
-;!                "0x0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef"
-;!             ]
+;!           "method": "#fallback",
+;!           "calldata": [
+;!             "0x0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef"
+;!           ],
+;!           "caller": "0xE8576afA995F67Beb3a77F9890e2EB1E854faA3d"
 ;!         }
-;!     ],
-;!     "expected": [
+;!       ],
+;!       "expected": [
 ;!         "0xefcdab8967452301efcdab8967452301efcdab8967452301efcdab8967452301"
-;!     ]
-;! }, {
-;!     "name": "ffff",
-;!     "inputs": [
+;!       ]
+;!     },
+;!     {
+;!       "name": "ffff",
+;!       "inputs": [
 ;!         {
-;!             "method": "#fallback",
-;!             "calldata": [
-;!                "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
-;!             ]
+;!           "method": "#fallback",
+;!           "calldata": [
+;!             "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+;!           ],
+;!           "caller": "0xd51E5bD7783501E69932FB9b067E97e409994F0a"
 ;!         }
-;!     ],
-;!     "expected": [
+;!       ],
+;!       "expected": [
 ;!         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
-;!     ]
-;! } ] }
+;!       ]
+;!     }
+;!   ]
+;! }
 
 ; ModuleID = 'main'
 source_filename = "main"

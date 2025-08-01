@@ -1,56 +1,71 @@
-//! { "cases": [ {
-//!     "name": "false_false",
-//!     "inputs": [
+//! {
+//!   "cases": [
+//!     {
+//!       "name": "false_false",
+//!       "inputs": [
 //!         {
-//!             "method": "main",
-//!             "calldata": [
-//!                 "0", "0"
-//!             ]
+//!           "method": "main",
+//!           "calldata": [
+//!             "0",
+//!             "0"
+//!           ],
+//!           "caller": "0x9339681642F3784ab2A15345376dc0f951e709c5"
 //!         }
-//!     ],
-//!     "expected": [
+//!       ],
+//!       "expected": [
 //!         "2"
-//!     ]
-//! }, {
-//!     "name": "false_true",
-//!     "inputs": [
+//!       ]
+//!     },
+//!     {
+//!       "name": "false_true",
+//!       "inputs": [
 //!         {
-//!             "method": "main",
-//!             "calldata": [
-//!                 "0", "1"
-//!             ]
+//!           "method": "main",
+//!           "calldata": [
+//!             "0",
+//!             "1"
+//!           ],
+//!           "caller": "0x76FEA321027EB001E174385Bfd0082879B1e5703"
 //!         }
-//!     ],
-//!     "expected": [
+//!       ],
+//!       "expected": [
 //!         "2"
-//!     ]
-//! }, {
-//!     "name": "true_false",
-//!     "inputs": [
+//!       ]
+//!     },
+//!     {
+//!       "name": "true_false",
+//!       "inputs": [
 //!         {
-//!             "method": "main",
-//!             "calldata": [
-//!                 "1", "0"
-//!             ]
+//!           "method": "main",
+//!           "calldata": [
+//!             "1",
+//!             "0"
+//!           ],
+//!           "caller": "0x217C61D3AcFCcF486449d5546BF295b42d795BEc"
 //!         }
-//!     ],
-//!     "expected": [
+//!       ],
+//!       "expected": [
 //!         "43"
-//!     ]
-//! }, {
-//!     "name": "true_true",
-//!     "inputs": [
+//!       ]
+//!     },
+//!     {
+//!       "name": "true_true",
+//!       "inputs": [
 //!         {
-//!             "method": "main",
-//!             "calldata": [
-//!                 "1", "1"
-//!             ]
+//!           "method": "main",
+//!           "calldata": [
+//!             "1",
+//!             "1"
+//!           ],
+//!           "caller": "0x7BB18376dC84cCFC4C4c9Fe8367Bf306a213C43C"
 //!         }
-//!     ],
-//!     "expected": [
+//!       ],
+//!       "expected": [
 //!         "126"
-//!     ]
-//! } ] }
+//!       ]
+//!     }
+//!   ]
+//! }
 
 // SPDX-License-Identifier: MIT
 

@@ -1,56 +1,69 @@
-#! { "modes": [ "V >=0.4.0" ], "cases": [ {
-#!     "name": "init_value",
-#!     "inputs": [
+#! {
+#!   "modes": [
+#!     "V >=0.4.0"
+#!   ],
+#!   "cases": [
+#!     {
+#!       "name": "init_value",
+#!       "inputs": [
 #!         {
-#!             "method": "count",
-#!             "calldata": [
-#!             ]
+#!           "method": "count",
+#!           "calldata": [],
+#!           "caller": "0x0d769734F92c24F2ab12CfCBa4eF9372AFef89D1"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "0"
-#!     ]
-#! }, {
-#!     "name": "first",
-#!     "inputs": [
+#!       ]
+#!     },
+#!     {
+#!       "name": "first",
+#!       "inputs": [
 #!         {
-#!             "method": "inc",
-#!             "calldata": [
-#!             ]
-#!         }, {
-#!             "method": "count",
-#!             "calldata": [
-#!             ]
-#!         }
-#!     ],
-#!     "expected": [
-#!         "1"
-#!     ]
-#! }, {
-#!     "name": "second",
-#!     "inputs": [
+#!           "method": "inc",
+#!           "calldata": [],
+#!           "caller": "0xf9548813CEbA4728E9f04bd8C499CC4DcAAD1f4F"
+#!         },
 #!         {
-#!             "method": "inc",
-#!             "calldata": [
-#!             ]
-#!         }, {
-#!             "method": "inc",
-#!             "calldata": [
-#!             ]
-#!         }, {
-#!             "method": "dec",
-#!             "calldata": [
-#!             ]
-#!         }, {
-#!             "method": "count",
-#!             "calldata": [
-#!             ]
+#!           "method": "count",
+#!           "calldata": [],
+#!           "caller": "0xf9548813CEbA4728E9f04bd8C499CC4DcAAD1f4F"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "1"
-#!     ]
-#! } ] }
+#!       ]
+#!     },
+#!     {
+#!       "name": "second",
+#!       "inputs": [
+#!         {
+#!           "method": "inc",
+#!           "calldata": [],
+#!           "caller": "0x779Cd74EC2a8C58195271752CFa4429eF2c27E38"
+#!         },
+#!         {
+#!           "method": "inc",
+#!           "calldata": [],
+#!           "caller": "0x779Cd74EC2a8C58195271752CFa4429eF2c27E38"
+#!         },
+#!         {
+#!           "method": "dec",
+#!           "calldata": [],
+#!           "caller": "0x779Cd74EC2a8C58195271752CFa4429eF2c27E38"
+#!         },
+#!         {
+#!           "method": "count",
+#!           "calldata": [],
+#!           "caller": "0x779Cd74EC2a8C58195271752CFa4429eF2c27E38"
+#!         }
+#!       ],
+#!       "expected": [
+#!         "1"
+#!       ]
+#!     }
+#!   ]
+#! }
 
 count: public(uint256)
 

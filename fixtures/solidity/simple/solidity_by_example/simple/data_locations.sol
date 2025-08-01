@@ -1,44 +1,54 @@
-//! { "cases": [ {
-//!     "name": "f",
-//!     "inputs": [
+//! {
+//!   "cases": [
+//!     {
+//!       "name": "f",
+//!       "inputs": [
 //!         {
-//!             "method": "f",
-//!             "calldata": [
-//!             ]
+//!           "method": "f",
+//!           "calldata": [],
+//!           "caller": "0xA7EAEA8d99522258197DDA9422222fbf156bb3a9"
 //!         }
-//!     ],
-//!     "expected": [
-//!     ]
-//! }, {
-//!     "name": "g",
-//!     "inputs": [
+//!       ],
+//!       "expected": []
+//!     },
+//!     {
+//!       "name": "g",
+//!       "inputs": [
 //!         {
-//!             "method": "g",
-//!             "calldata": [
-//!                 "0x20",
-//!                 "0"
-//!             ]
+//!           "method": "g",
+//!           "calldata": [
+//!             "0x20",
+//!             "0"
+//!           ],
+//!           "caller": "0xF5Badc43e80A1ba8d914169ebE958eB5Fa4815b9"
 //!         }
-//!     ],
-//!     "expected": [
+//!       ],
+//!       "expected": [
 //!         "0x20",
 //!         "0"
-//!     ]
-//! }, {
-//!     "name": "h",
-//!     "inputs": [
+//!       ]
+//!     },
+//!     {
+//!       "name": "h",
+//!       "inputs": [
 //!         {
-//!             "method": "h",
-//!             "calldata": [
-//!                 "0x20",
-//!                 "5",
-//!                 "1", "2", "3", "4", "5"
-//!             ]
+//!           "method": "h",
+//!           "calldata": [
+//!             "0x20",
+//!             "5",
+//!             "1",
+//!             "2",
+//!             "3",
+//!             "4",
+//!             "5"
+//!           ],
+//!           "caller": "0xE4038Bf99cdEC2513df22F57BCA38Ac8a46b3E98"
 //!         }
-//!     ],
-//!     "expected": [
-//!     ]
-//! } ] }
+//!       ],
+//!       "expected": []
+//!     }
+//!   ]
+//! }
 
 // SPDX-License-Identifier: MIT
 pragma solidity >=0.5.0;

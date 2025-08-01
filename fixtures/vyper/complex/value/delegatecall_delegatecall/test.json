@@ -1,41 +1,47 @@
-{ "modes": [ "V >=0.4.0" ], "cases": [
+{
+  "modes": [
+    "V >=0.4.0"
+  ],
+  "cases": [
+    {
+      "name": "zero",
+      "inputs": [
         {
-            "name": "zero",
-            "inputs": [
-                {
-                    "instance": "First",
-                    "method": "main",
-                    "calldata": [
-                        "Second.address",
-                        "Third.address"
-                    ]
-                }
-            ],
-            "expected": [
-                "0"
-            ]
-        },
-        {
-            "name": "non_zero",
-            "inputs": [
-                {
-                    "instance": "First",
-                    "method": "main",
-                    "calldata": [
-                        "Second.address",
-                        "Third.address"
-                    ],
-                    "value": "3735928559 wei"
-                }
-            ],
-            "expected": [
-                "3735928559"
-            ]
+          "instance": "First",
+          "method": "main",
+          "calldata": [
+            "Second.address",
+            "Third.address"
+          ],
+          "caller": "0x3658D7aF53Cc55D0E161788d12A9D76a57F71841"
         }
-    ],
-    "contracts": {
-        "First": "First.vy",
-        "Second": "Second.vy",
-        "Third": "Third.vy"
+      ],
+      "expected": [
+        "0"
+      ]
+    },
+    {
+      "name": "non_zero",
+      "inputs": [
+        {
+          "instance": "First",
+          "method": "main",
+          "calldata": [
+            "Second.address",
+            "Third.address"
+          ],
+          "value": "3735928559 wei",
+          "caller": "0x9d5D7FeC6c682C9D522990c3b6352210025BAc10"
+        }
+      ],
+      "expected": [
+        "3735928559"
+      ]
     }
+  ],
+  "contracts": {
+    "First": "First.vy",
+    "Second": "Second.vy",
+    "Third": "Third.vy"
+  }
 }

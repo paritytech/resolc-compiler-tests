@@ -1,28 +1,34 @@
-#! { "modes": [ "V >=0.4.1" ], "cases": [ {
-#!     "name": "default",
-#!     "inputs": [
+#! {
+#!   "modes": [
+#!     "V >=0.4.1"
+#!   ],
+#!   "cases": [
+#!     {
+#!       "name": "default",
+#!       "inputs": [
 #!         {
-#!             "method": "test",
-#!             "calldata": [
-#!             ]
+#!           "method": "test",
+#!           "calldata": [],
+#!           "caller": "0xA5aa8dca2BeF2E4D39109BAe8d214692d29279Ef"
 #!         }
-#!     ],
-#!     "expected": {
-#!         "return_data": [
-#!         ],
+#!       ],
+#!       "expected": {
+#!         "return_data": [],
 #!         "events": [
-#!             {
-#!                 "topics": [
-#!                     "0x06208c2a7c81ce0338f4e7c431f49476c450bad6ce52ef2b4e186db4a1fbcaf4"
-#!                 ],
-#!                 "values": [
-#!                     "1234567890",
-#!                     "1234567891"
-#!                 ]
-#!             }
+#!           {
+#!             "topics": [
+#!               "0x06208c2a7c81ce0338f4e7c431f49476c450bad6ce52ef2b4e186db4a1fbcaf4"
+#!             ],
+#!             "values": [
+#!               "1234567890",
+#!               "1234567891"
+#!             ]
+#!           }
 #!         ]
+#!       }
 #!     }
-#! } ] }
+#!   ]
+#! }
 
 event MyEvent:
     _: uint256

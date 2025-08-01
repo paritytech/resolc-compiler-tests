@@ -1,18 +1,23 @@
-//! { "cases": [ {
-//!     "name": "default",
-//!     "inputs": [
+//! {
+//!   "cases": [
+//!     {
+//!       "name": "default",
+//!       "inputs": [
 //!         {
-//!             "method": "deadbeef",
-//!             "calldata": [
-//!                 "42"
-//!             ]
+//!           "method": "deadbeef",
+//!           "calldata": [
+//!             "42"
+//!           ],
+//!           "caller": "0x7E5F4552091A69125d5DfCb7b8C2659029395Bdf"
 //!         }
-//!     ],
-//!     "expected": [
+//!       ],
+//!       "expected": [
 //!         "84",
 //!         "126"
-//!     ]
-//! } ] }
+//!       ]
+//!     }
+//!   ]
+//! }
 
 object "Test" {
     code {

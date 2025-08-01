@@ -1,28 +1,37 @@
-//! { "cases": [ {
-//!     "name": "positive",
-//!     "inputs": [
+//! {
+//!   "cases": [
+//!     {
+//!       "name": "positive",
+//!       "inputs": [
 //!         {
-//!             "method": "deadbeef",
-//!             "calldata": [
-//!                 "127"
-//!             ]
+//!           "method": "deadbeef",
+//!           "calldata": [
+//!             "127"
+//!           ],
+//!           "caller": "0x738E4a747b885b69a354656Da8E51F0404f88EA8"
 //!         }
-//!     ],
-//!     "expected": [
+//!       ],
+//!       "expected": [
 //!         "127"
-//!     ]
-//! }, {
-//!     "name": "negative",
-//!     "inputs": [
+//!       ]
+//!     },
+//!     {
+//!       "name": "negative",
+//!       "inputs": [
 //!         {
-//!             "method": "deadbeef",
-//!             "calldata": [
-//!                 "255"
-//!             ]
+//!           "method": "deadbeef",
+//!           "calldata": [
+//!             "255"
+//!           ],
+//!           "caller": "0x3AcC9396F5D56256e4C89b1Ca19880b21b076331"
 //!         }
-//!     ],
-//!     "expected": [ "-1" ]
-//! } ] }
+//!       ],
+//!       "expected": [
+//!         "-1"
+//!       ]
+//!     }
+//!   ]
+//! }
 
 object "Test" {
     code {

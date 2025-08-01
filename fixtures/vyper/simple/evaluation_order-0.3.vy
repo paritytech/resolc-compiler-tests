@@ -1,17 +1,26 @@
-#! { "modes": [ "V <=0.3.10" ], "cases": [ {
-#!     "name": "default",
-#!     "inputs": [
+#! {
+#!   "modes": [
+#!     "V <=0.3.10"
+#!   ],
+#!   "cases": [
+#!     {
+#!       "name": "default",
+#!       "inputs": [
 #!         {
-#!             "method": "main",
-#!             "calldata": [
-#!                 "10", "20"
-#!             ]
+#!           "method": "main",
+#!           "calldata": [
+#!             "10",
+#!             "20"
+#!           ],
+#!           "caller": "0x58F9d69d5D603403333D3aD8D1450C889D186982"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "32"
-#!     ]
-#! } ] }
+#!       ]
+#!     }
+#!   ]
+#! }
 
 a: uint256
 

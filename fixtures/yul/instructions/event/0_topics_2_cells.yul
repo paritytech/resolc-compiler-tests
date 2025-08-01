@@ -1,24 +1,31 @@
-//! { "cases": [ {
-//!     "name": "default",
-//!     "inputs": [
+//! {
+//!   "cases": [
+//!     {
+//!       "name": "default",
+//!       "inputs": [
 //!         {
-//!             "method": "#fallback",
-//!             "calldata": [
-//!                 ""
-//!             ]
+//!           "method": "#fallback",
+//!           "calldata": [
+//!             ""
+//!           ],
+//!           "caller": "0x07035e3c6Cc3e2Ed94d913729Cba9775985542ae"
 //!         }
-//!     ],
-//!     "expected": {
-//!         "return_data": [
-//!         ],
+//!       ],
+//!       "expected": {
+//!         "return_data": [],
 //!         "events": [
-//!             {
-//!                 "topics": [],
-//!                 "values": ["12", "13"]
-//!             }
+//!           {
+//!             "topics": [],
+//!             "values": [
+//!               "12",
+//!               "13"
+//!             ]
+//!           }
 //!         ]
+//!       }
 //!     }
-//! } ] }
+//!   ]
+//! }
 
 object "Test" {
     code {

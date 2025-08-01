@@ -1,65 +1,79 @@
-//! { "cases": [ {
-//!     "name": "complex",
-//!     "inputs": [
+//! {
+//!   "cases": [
+//!     {
+//!       "name": "complex",
+//!       "inputs": [
 //!         {
-//!             "method": "get",
-//!             "calldata": [
-//!             ],
-//!              "expected": [
-//!                 "0"
-//!             ]
-//!         }, {
-//!             "method": "set",
-//!             "calldata": [
-//!                 "1"
-//!             ]
-//!         }, {
-//!             "method": "status",
-//!             "calldata": [
-//!             ],
-//!              "expected": [
-//!                 "1"
-//!             ]
-//!         }, {
-//!             "method": "cancel",
-//!             "calldata": [
-//!             ]
-//!         }, {
-//!             "method": "get",
-//!             "calldata": [
-//!             ],
-//!              "expected": [
-//!                 "4"
-//!             ]
-//!         }, {
-//!             "method": "set",
-//!             "calldata": [
-//!                 "3"
-//!             ]
-//!         }, {
-//!             "method": "get",
-//!             "calldata": [
-//!             ]
+//!           "method": "get",
+//!           "calldata": [],
+//!           "expected": [
+//!             "0"
+//!           ],
+//!           "caller": "0xb94461392EA789F5E8807D7DF1468ABe44F0ec91"
+//!         },
+//!         {
+//!           "method": "set",
+//!           "calldata": [
+//!             "1"
+//!           ],
+//!           "caller": "0xb94461392EA789F5E8807D7DF1468ABe44F0ec91"
+//!         },
+//!         {
+//!           "method": "status",
+//!           "calldata": [],
+//!           "expected": [
+//!             "1"
+//!           ],
+//!           "caller": "0xb94461392EA789F5E8807D7DF1468ABe44F0ec91"
+//!         },
+//!         {
+//!           "method": "cancel",
+//!           "calldata": [],
+//!           "caller": "0xb94461392EA789F5E8807D7DF1468ABe44F0ec91"
+//!         },
+//!         {
+//!           "method": "get",
+//!           "calldata": [],
+//!           "expected": [
+//!             "4"
+//!           ],
+//!           "caller": "0xb94461392EA789F5E8807D7DF1468ABe44F0ec91"
+//!         },
+//!         {
+//!           "method": "set",
+//!           "calldata": [
+//!             "3"
+//!           ],
+//!           "caller": "0xb94461392EA789F5E8807D7DF1468ABe44F0ec91"
+//!         },
+//!         {
+//!           "method": "get",
+//!           "calldata": [],
+//!           "caller": "0xb94461392EA789F5E8807D7DF1468ABe44F0ec91"
 //!         }
-//!     ],
-//!     "expected": [
+//!       ],
+//!       "expected": [
 //!         "3"
-//!     ]
-//! }, {
-//!     "name": "invalidEnumValue",
-//!     "inputs": [
+//!       ]
+//!     },
+//!     {
+//!       "name": "invalidEnumValue",
+//!       "inputs": [
 //!         {
-//!             "method": "set",
-//!             "calldata": [
-//!                 "5"
-//!             ]
+//!           "method": "set",
+//!           "calldata": [
+//!             "5"
+//!           ],
+//!           "caller": "0x437d484C3E0df1A6fc18d35c5abBAE814E6f250d"
 //!         }
-//!     ],
-//!     "expected": {
+//!       ],
+//!       "expected": {
 //!         "return_data": [],
 //!         "exception": true
+//!       }
 //!     }
-//! } ] }
+//!   ]
+//! }
 
 // These are two different situations: Conversion failure from integer to enum in user-supplied code results
 // in Panic(0x21), while ABI-decoding inputs is not a user-supplied conversion: We have to expect that input data is

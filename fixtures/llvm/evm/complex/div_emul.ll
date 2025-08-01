@@ -1,251 +1,311 @@
-;! { "cases": [ {
-;!     "name": "zero_zero",
-;!     "inputs": [
+;! {
+;!   "cases": [
+;!     {
+;!       "name": "zero_zero",
+;!       "inputs": [
 ;!         {
-;!             "method": "#fallback",
-;!             "calldata": [
-;!                 "0", "0"
-;!             ]
+;!           "method": "#fallback",
+;!           "calldata": [
+;!             "0",
+;!             "0"
+;!           ],
+;!           "caller": "0xeC90bC84b3dCDad12B561430327f341Fc2e3c68E"
 ;!         }
-;!     ],
-;!     "expected": [
+;!       ],
+;!       "expected": [
 ;!         "0"
-;!     ]
-;! }, {
-;!     "name": "zero_one",
-;!     "inputs": [
+;!       ]
+;!     },
+;!     {
+;!       "name": "zero_one",
+;!       "inputs": [
 ;!         {
-;!             "method": "#fallback",
-;!             "calldata": [
-;!                 "0", "1"
-;!             ]
+;!           "method": "#fallback",
+;!           "calldata": [
+;!             "0",
+;!             "1"
+;!           ],
+;!           "caller": "0x045FE18bbc4d7d0D383Ba9a7Da364E8A521F1c29"
 ;!         }
-;!     ],
-;!     "expected": [
+;!       ],
+;!       "expected": [
 ;!         "0"
-;!     ]
-;! }, {
-;!     "name": "one_zero",
-;!     "inputs": [
+;!       ]
+;!     },
+;!     {
+;!       "name": "one_zero",
+;!       "inputs": [
 ;!         {
-;!             "method": "#fallback",
-;!             "calldata": [
-;!                 "1", "0"
-;!             ]
+;!           "method": "#fallback",
+;!           "calldata": [
+;!             "1",
+;!             "0"
+;!           ],
+;!           "caller": "0xb796E19Cb1763eD81ED2175E389E0161270A7878"
 ;!         }
-;!     ],
-;!     "expected": [
+;!       ],
+;!       "expected": [
 ;!         "0"
-;!     ]
-;! }, {
-;!     "name": "one_one",
-;!     "inputs": [
+;!       ]
+;!     },
+;!     {
+;!       "name": "one_one",
+;!       "inputs": [
 ;!         {
-;!             "method": "#fallback",
-;!             "calldata": [
-;!                 "1", "1"
-;!             ]
+;!           "method": "#fallback",
+;!           "calldata": [
+;!             "1",
+;!             "1"
+;!           ],
+;!           "caller": "0xE90d24Da43aeAAF1E543bB9Fa815d144E14DB92F"
 ;!         }
-;!     ],
-;!     "expected": [
+;!       ],
+;!       "expected": [
 ;!         "1"
-;!     ]
-;! }, {
-;!     "name": "zero_ordinar",
-;!     "inputs": [
+;!       ]
+;!     },
+;!     {
+;!       "name": "zero_ordinar",
+;!       "inputs": [
 ;!         {
-;!             "method": "#fallback",
-;!             "calldata": [
-;!                 "0", "433478394034343"
-;!             ]
+;!           "method": "#fallback",
+;!           "calldata": [
+;!             "0",
+;!             "433478394034343"
+;!           ],
+;!           "caller": "0xE15348ca7db46c9A83ED0A477019dEcae8a698FC"
 ;!         }
-;!     ],
-;!     "expected": [
+;!       ],
+;!       "expected": [
 ;!         "0"
-;!     ]
-;! }, {
-;!     "name": "ordinar_zero",
-;!     "inputs": [
+;!       ]
+;!     },
+;!     {
+;!       "name": "ordinar_zero",
+;!       "inputs": [
 ;!         {
-;!             "method": "#fallback",
-;!             "calldata": [
-;!                 "121563127839120", "0"
-;!             ]
+;!           "method": "#fallback",
+;!           "calldata": [
+;!             "121563127839120",
+;!             "0"
+;!           ],
+;!           "caller": "0xeE6016a84de50854c14931058316A631b865A382"
 ;!         }
-;!     ],
-;!     "expected": [
+;!       ],
+;!       "expected": [
 ;!         "0"
-;!     ]
-;! }, {
-;!     "name": "one_ordinar",
-;!     "inputs": [
+;!       ]
+;!     },
+;!     {
+;!       "name": "one_ordinar",
+;!       "inputs": [
 ;!         {
-;!             "method": "#fallback",
-;!             "calldata": [
-;!                 "1", "433478394034343"
-;!             ]
+;!           "method": "#fallback",
+;!           "calldata": [
+;!             "1",
+;!             "433478394034343"
+;!           ],
+;!           "caller": "0xF08a77A12435afd0E85f2eF653fF145610117FfE"
 ;!         }
-;!     ],
-;!     "expected": [
+;!       ],
+;!       "expected": [
 ;!         "0"
-;!     ]
-;! }, {
-;!     "name": "ordinar_one",
-;!     "inputs": [
+;!       ]
+;!     },
+;!     {
+;!       "name": "ordinar_one",
+;!       "inputs": [
 ;!         {
-;!             "method": "#fallback",
-;!             "calldata": [
-;!                 "121563127839120", "1"
-;!             ]
+;!           "method": "#fallback",
+;!           "calldata": [
+;!             "121563127839120",
+;!             "1"
+;!           ],
+;!           "caller": "0x950c3Fb0DdF7544EF01e75F1329beD6E04925F8d"
 ;!         }
-;!     ],
-;!     "expected": [
+;!       ],
+;!       "expected": [
 ;!         "121563127839120"
-;!     ]
-;! }, {
-;!     "name": "ordinar_ordinar",
-;!     "inputs": [
+;!       ]
+;!     },
+;!     {
+;!       "name": "ordinar_ordinar",
+;!       "inputs": [
 ;!         {
-;!             "method": "#fallback",
-;!             "calldata": [
-;!                 "3456789009876545678", "45116789098765678"
-;!             ]
+;!           "method": "#fallback",
+;!           "calldata": [
+;!             "3456789009876545678",
+;!             "45116789098765678"
+;!           ],
+;!           "caller": "0x6Fb11578050EE2D047401706a2e4Fb07809eaE7C"
 ;!         }
-;!     ],
-;!     "expected": [
+;!       ],
+;!       "expected": [
 ;!         "76"
-;!     ]
-;! }, {
-;!     "name": "ordinar_ordinar_to_one",
-;!     "inputs": [
+;!       ]
+;!     },
+;!     {
+;!       "name": "ordinar_ordinar_to_one",
+;!       "inputs": [
 ;!         {
-;!             "method": "#fallback",
-;!             "calldata": [
-;!                 "6873546235472354672354762358492378590345034805934590348534", "6873546235472354672354762358492378590345034805934590348534"
-;!             ]
+;!           "method": "#fallback",
+;!           "calldata": [
+;!             "6873546235472354672354762358492378590345034805934590348534",
+;!             "6873546235472354672354762358492378590345034805934590348534"
+;!           ],
+;!           "caller": "0x3EA65EaD2B827d2a6D9D0b29A7400EB6DcC5dC0D"
 ;!         }
-;!     ],
-;!     "expected": [
+;!       ],
+;!       "expected": [
 ;!         "1"
-;!     ]
-;! }, {
-;!     "name": "ordinar_ordinar_plus_one",
-;!     "inputs": [
+;!       ]
+;!     },
+;!     {
+;!       "name": "ordinar_ordinar_plus_one",
+;!       "inputs": [
 ;!         {
-;!             "method": "#fallback",
-;!             "calldata": [
-;!                 "0xab000000000000000000000000000000000000000000000000000000000000a1", "0xab000000000000000000000000000000000000000000000000000000000000a2"
-;!             ]
+;!           "method": "#fallback",
+;!           "calldata": [
+;!             "0xab000000000000000000000000000000000000000000000000000000000000a1",
+;!             "0xab000000000000000000000000000000000000000000000000000000000000a2"
+;!           ],
+;!           "caller": "0xe32f1d0d6250805D831Bc773867Ef7C656D91128"
 ;!         }
-;!     ],
-;!     "expected": [
+;!       ],
+;!       "expected": [
 ;!         "0"
-;!     ]
-;! }, {
-;!     "name": "ordinar_ordinar_to_zero",
-;!     "inputs": [
+;!       ]
+;!     },
+;!     {
+;!       "name": "ordinar_ordinar_to_zero",
+;!       "inputs": [
 ;!         {
-;!             "method": "#fallback",
-;!             "calldata": [
-;!                 "456789098765467892304234234234234234234", "7863249563247857289401203492047823764573465734573434537783"
-;!             ]
+;!           "method": "#fallback",
+;!           "calldata": [
+;!             "456789098765467892304234234234234234234",
+;!             "7863249563247857289401203492047823764573465734573434537783"
+;!           ],
+;!           "caller": "0x3afCA5836929943acEea6C06f598A50914cd19b9"
 ;!         }
-;!     ],
-;!     "expected": [
+;!       ],
+;!       "expected": [
 ;!         "0"
-;!     ]
-;! }, {
-;!     "name": "zero_max",
-;!     "inputs": [
+;!       ]
+;!     },
+;!     {
+;!       "name": "zero_max",
+;!       "inputs": [
 ;!         {
-;!             "method": "#fallback",
-;!             "calldata": [
-;!                 "0", "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
-;!             ]
+;!           "method": "#fallback",
+;!           "calldata": [
+;!             "0",
+;!             "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+;!           ],
+;!           "caller": "0x03ec12701DAcb1C8CD2987665C2cF63B9a06A868"
 ;!         }
-;!     ],
-;!     "expected": [
+;!       ],
+;!       "expected": [
 ;!         "0"
-;!     ]
-;! }, {
-;!     "name": "max_zero",
-;!     "inputs": [
+;!       ]
+;!     },
+;!     {
+;!       "name": "max_zero",
+;!       "inputs": [
 ;!         {
-;!             "method": "#fallback",
-;!             "calldata": [
-;!                 "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff", "0"
-;!             ]
+;!           "method": "#fallback",
+;!           "calldata": [
+;!             "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+;!             "0"
+;!           ],
+;!           "caller": "0x6AA64d8532A724e25F92660102d9eE5798a17EF8"
 ;!         }
-;!     ],
-;!     "expected": [
+;!       ],
+;!       "expected": [
 ;!         "0"
-;!     ]
-;! }, {
-;!     "name": "one_max",
-;!     "inputs": [
+;!       ]
+;!     },
+;!     {
+;!       "name": "one_max",
+;!       "inputs": [
 ;!         {
-;!             "method": "#fallback",
-;!             "calldata": [
-;!                 "1", "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
-;!             ]
+;!           "method": "#fallback",
+;!           "calldata": [
+;!             "1",
+;!             "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+;!           ],
+;!           "caller": "0xedBADAEdAd21F8a919E8717d3163E4C86E48e9E2"
 ;!         }
-;!     ],
-;!     "expected": [
+;!       ],
+;!       "expected": [
 ;!         "0"
-;!     ]
-;! }, {
-;!     "name": "max_one",
-;!     "inputs": [
+;!       ]
+;!     },
+;!     {
+;!       "name": "max_one",
+;!       "inputs": [
 ;!         {
-;!             "method": "#fallback",
-;!             "calldata": [
-;!                 "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff", "1"
-;!             ]
+;!           "method": "#fallback",
+;!           "calldata": [
+;!             "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+;!             "1"
+;!           ],
+;!           "caller": "0x0aB36030537a27Dc80d724020B1fE43f6AC9dD12"
 ;!         }
-;!     ],
-;!     "expected": [
+;!       ],
+;!       "expected": [
 ;!         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
-;!     ]
-;! }, {
-;!     "name": "ordinar_max",
-;!     "inputs": [
+;!       ]
+;!     },
+;!     {
+;!       "name": "ordinar_max",
+;!       "inputs": [
 ;!         {
-;!             "method": "#fallback",
-;!             "calldata": [
-;!                 "7437834752357434334343423343443375834785783474", "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
-;!             ]
+;!           "method": "#fallback",
+;!           "calldata": [
+;!             "7437834752357434334343423343443375834785783474",
+;!             "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+;!           ],
+;!           "caller": "0xAcC64664A2CDA4fe6F9fFC0E1a5611230023B2b5"
 ;!         }
-;!     ],
-;!     "expected": [
+;!       ],
+;!       "expected": [
 ;!         "0"
-;!     ]
-;! }, {
-;!     "name": "max_ordinar",
-;!     "inputs": [
+;!       ]
+;!     },
+;!     {
+;!       "name": "max_ordinar",
+;!       "inputs": [
 ;!         {
-;!             "method": "#fallback",
-;!             "calldata": [
-;!                 "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff", "23784273472384723848213821342323233223"
-;!             ]
+;!           "method": "#fallback",
+;!           "calldata": [
+;!             "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+;!             "23784273472384723848213821342323233223"
+;!           ],
+;!           "caller": "0x963BDE679A1F81Cc9f897862112d029a75B518E2"
 ;!         }
-;!     ],
-;!     "expected": [
+;!       ],
+;!       "expected": [
 ;!         "4868430787753902008116956541571039081557"
-;!     ]
-;! }, {
-;!     "name": "max_max",
-;!     "inputs": [
+;!       ]
+;!     },
+;!     {
+;!       "name": "max_max",
+;!       "inputs": [
 ;!         {
-;!             "method": "#fallback",
-;!             "calldata": [
-;!                 "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff", "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
-;!             ]
+;!           "method": "#fallback",
+;!           "calldata": [
+;!             "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+;!             "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+;!           ],
+;!           "caller": "0x0AF5d6e370f3eEC4D6F886D3a3f0Fbd6C760b38c"
 ;!         }
-;!     ],
-;!     "expected": [
+;!       ],
+;!       "expected": [
 ;!         "1"
-;!     ]
-;! } ] }
+;!       ]
+;!     }
+;!   ]
+;! }
 
 
 target datalayout = "E-p:256:256-i256:256:256-S256-a:256:256"

@@ -1,25 +1,36 @@
-#! { "modes": [ "V <=0.3.10" ], "cases": [ {
-#!     "name": "default",
-#!     "inputs": [
+#! {
+#!   "modes": [
+#!     "V <=0.3.10"
+#!   ],
+#!   "cases": [
+#!     {
+#!       "name": "default",
+#!       "inputs": [
 #!         {
-#!             "method": "main",
-#!             "calldata": [
-#!                 "42"
-#!             ]
+#!           "method": "main",
+#!           "calldata": [
+#!             "42"
+#!           ],
+#!           "caller": "0x866408751fc8B101B1977E5E6597a9749cc00a2C"
 #!         }
-#!     ],
-#!     "expected": [ {
-#!         "compiler_version": "=0.3.3",
-#!         "return_data": [
+#!       ],
+#!       "expected": [
+#!         {
+#!           "compiler_version": "=0.3.3",
+#!           "return_data": [
 #!             "0"
-#!         ]
-#!     }, {
-#!         "compiler_version": ">=0.3.9",
-#!         "return_data": [
+#!           ]
+#!         },
+#!         {
+#!           "compiler_version": ">=0.3.9",
+#!           "return_data": [
 #!             "1"
-#!         ]
-#!     } ]
-#! } ] }
+#!           ]
+#!         }
+#!       ]
+#!     }
+#!   ]
+#! }
 
 @external
 def a(x: uint256) -> uint256:

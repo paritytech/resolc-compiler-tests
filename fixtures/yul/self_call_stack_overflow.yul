@@ -1,18 +1,26 @@
-//! { "cases": [ {
-//!     "name": "10_failure",
-//!     "inputs": [
+//! {
+//!   "cases": [
+//!     {
+//!       "name": "10_failure",
+//!       "inputs": [
 //!         {
-//!             "method": "#fallback",
-//!             "calldata": [
-//!                 "0", "1"
-//!             ]
+//!           "method": "#fallback",
+//!           "calldata": [
+//!             "0",
+//!             "1"
+//!           ],
+//!           "caller": "0x2B5AD5c4795c026514f8317c7a215E218DcCD6cF"
 //!         }
-//!     ],
-//!     "expected": {
-//!         "return_data": [ "0" ],
+//!       ],
+//!       "expected": {
+//!         "return_data": [
+//!           "0"
+//!         ],
 //!         "exception": true
+//!       }
 //!     }
-//! } ] }
+//!   ]
+//! }
 
 // Report https://linear.app/matterlabs/issue/CPR-657/panic-is-lost-on-infinite-recursion
 

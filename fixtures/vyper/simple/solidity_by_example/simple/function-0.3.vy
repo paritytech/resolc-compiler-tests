@@ -1,54 +1,70 @@
-#! { "modes": [ "V <=0.3.10" ], "cases": [ {
-#!     "name": "returnMany",
-#!     "inputs": [
+#! {
+#!   "modes": [
+#!     "V <=0.3.10"
+#!   ],
+#!   "cases": [
+#!     {
+#!       "name": "returnMany",
+#!       "inputs": [
 #!         {
-#!             "method": "returnMany",
-#!             "calldata": [
-#!             ]
+#!           "method": "returnMany",
+#!           "calldata": [],
+#!           "caller": "0x95E844a0acd476Cc5e0181f0799304589b2B560B"
 #!         }
-#!     ],
-#!     "expected": [
-#!         "1", "1", "2"
-#!     ]
-#! }, {
-#!     "name": "destructingAssigments",
-#!     "inputs": [
+#!       ],
+#!       "expected": [
+#!         "1",
+#!         "1",
+#!         "2"
+#!       ]
+#!     },
+#!     {
+#!       "name": "destructingAssigments",
+#!       "inputs": [
 #!         {
-#!             "method": "destructingAssigments",
-#!             "calldata": [
-#!             ]
+#!           "method": "destructingAssigments",
+#!           "calldata": [],
+#!           "caller": "0x9Fb574C865EFA0F5e6084bf0556739af6A7B9fF0"
 #!         }
-#!     ],
-#!     "expected": [
-#!         "1", "1", "2", "4", "6"
-#!     ]
-#! }, {
-#!     "name": "arrayInput",
-#!     "inputs": [
+#!       ],
+#!       "expected": [
+#!         "1",
+#!         "1",
+#!         "2",
+#!         "4",
+#!         "6"
+#!       ]
+#!     },
+#!     {
+#!       "name": "arrayInput",
+#!       "inputs": [
 #!         {
-#!             "method": "arrayInput",
-#!             "calldata": [
-#!                 "1",
-#!                 "2"
-#!             ]
+#!           "method": "arrayInput",
+#!           "calldata": [
+#!             "1",
+#!             "2"
+#!           ],
+#!           "caller": "0xD467aaFc352957B53b206478e68A8413296A3ee9"
 #!         }
-#!     ],
-#!     "expected": [
-#!     ]
-#! }, {
-#!     "name": "arrayOutput",
-#!     "inputs": [
+#!       ],
+#!       "expected": []
+#!     },
+#!     {
+#!       "name": "arrayOutput",
+#!       "inputs": [
 #!         {
-#!             "method": "arrayOutput",
-#!             "calldata": [
-#!             ]
+#!           "method": "arrayOutput",
+#!           "calldata": [],
+#!           "caller": "0x32566af6BfBca7A43D0eB6eE8e243C2a39BFdd3b"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "0",
 #!         "0"
-#!     ]
-#! } ] }
+#!       ]
+#!     }
+#!   ]
+#! }
 
 
 # Functions can return multiple values.

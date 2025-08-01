@@ -1,983 +1,1466 @@
 {
-    "targets": [ "eravm" ], "modes": [
-        "Y",
-        "E"
-    ], "cases": [
+  "targets": [
+    "eravm"
+  ],
+  "modes": [
+    "Y",
+    "E"
+  ],
+  "cases": [
+    {
+      "name": "zero_to",
+      "inputs": [
         {
-            "name": "zero_to",
-            "inputs": [
-                {
-                    "method": "test",
-                    "instance": "Main",
-                    "calldata": [
-                        "0", "17", "233", "300", "0xAA", "1",
-                        "0xFFFFFFFF"
-                    ]
-                }
-            ],
-            "expected": {
-                "return_data": ["1"],
-                "events": [
-                    {
-                        "topics": [],
-                        "values": ["1"]
-                    }
-                ]
-            }
-        }, {
-            "name": "one_to",
-            "inputs": [
-                {
-                    "method": "test",
-                    "instance": "Main",
-                    "calldata": [
-                        "1", "32", "128", "64", "0xFF", "1",
-                        "0xFFFFFFFF"
-                    ]
-                }
-            ],
-            "expected": {
-                "return_data": ["1"],
-                "events": [
-                    {
-                        "topics": [],
-                        "values": ["1"]
-                    }
-                ]
-            }
-        }, {
-            "name": "small_ordinar_to",
-            "inputs": [
-                {
-                    "method": "test",
-                    "instance": "Main",
-                    "calldata": [
-                        "19", "0", "32", "1", "0", "1",
-                        "0xFFFFFFFF"
-                    ]
-                }
-            ],
-            "expected": {
-                "return_data": ["1"],
-                "events": [
-                    {
-                        "topics": [],
-                        "values": ["1"]
-                    }
-                ]
-            }
-        }, {
-            "name": "word_to",
-            "inputs": [
-                {
-                    "method": "test",
-                    "instance": "Main",
-                    "calldata": [
-                        "32", "272", "17", "17", "0xDE", "1",
-                        "0xFFFFFFFF"
-                    ]
-                }
-            ],
-            "expected": {
-                "return_data": ["1"],
-                "events": [
-                    {
-                        "topics": [],
-                        "values": ["1"]
-                    }
-                ]
-            }
-        }, {
-            "name": "ordinar_to",
-            "inputs": [
-                {
-                    "method": "test",
-                    "instance": "Main",
-                    "calldata": [
-                        "2383", "122", "2383", "32", "0x44", "1",
-                        "0xFFFFFFFF"
-                    ]
-                }
-            ],
-            "expected": {
-                "return_data": ["1"],
-                "events": [
-                    {
-                        "topics": [],
-                        "values": ["1"]
-                    }
-                ]
-            }
-        }, {
-            "name": "ordinar_words_to",
-            "inputs": [
-                {
-                    "method": "test",
-                    "instance": "Main",
-                    "calldata": [
-                        "0xF100", "64", "100", "100", "0xFF", "1",
-                        "0xFFFFFFFF"
-                    ]
-                }
-            ],
-            "expected": {
-                "return_data": ["1"],
-                "events": [
-                    {
-                        "topics": [],
-                        "values": ["1"]
-                    }
-                ]
-            }
-        }, {
-            "name": "big_ordinar_to",
-            "inputs": [
-                {
-                    "method": "test",
-                    "instance": "Main",
-                    "calldata": [
-                        "0xFFFFFFAA", "32", "32", "0", "0", "0",
-                        "0xFFFFFFFF"
-                    ]
-                }
-            ],
-            "expected": [
-                "0"
-            ]
-        }, {
-            "name": "2_in_32_minus_64_to",
-            "inputs": [
-                {
-                    "method": "test",
-                    "instance": "Main",
-                    "calldata": [
-                        "0xFFFFFFC0", "322", "333", "10", "0xFF", "0",
-                        "0xFFFFFFFF"
-                    ]
-                }
-            ],
-            "expected": [
-                "0"
-            ]
-        }, {
-            "name": "2_in_32_minus_63_to",
-            "inputs": [
-                {
-                    "method": "test",
-                    "instance": "Main",
-                    "calldata": [
-                        "0xFFFFFFC1", "0", "512", "4", "0xBB", "0",
-                        "0xFFFFFFFF"
-                    ]
-                }
-            ],
-            "expected": [
-                "0"
-            ]
-        }, {
-            "name": "2_in_32_minus_ordinar_between_32_64_to",
-            "inputs": [
-                {
-                    "method": "test",
-                    "instance": "Main",
-                    "calldata": [
-                        "0xFFFFFFCF", "1", "1", "52", "52", "0",
-                        "0xFFFFFFFF"
-                    ]
-                }
-            ],
-            "expected": [
-                "0"
-            ]
-        }, {
-            "name": "2_in_32_minus_33_to",
-            "inputs": [
-                {
-                    "method": "test",
-                    "instance": "Main",
-                    "calldata": [
-                        "0xFFFFFFDF", "0", "1", "48", "0xC8", "0",
-                        "0xFFFFFFFF"
-                    ]
-                }
-            ],
-            "expected": [
-                "0"
-            ]
-        }, {
-            "name": "2_in_32_minus_32_to",
-            "inputs": [
-                {
-                    "method": "test",
-                    "instance": "Main",
-                    "calldata": [
-                        "0xFFFFFFE0", "55", "64", "32", "0", "0",
-                        "0xFFFFFFFF"
-                    ]
-                }
-            ],
-            "expected": [
-                "0"
-            ]
-        }, {
-            "name": "2_in_32_minus_31_to",
-            "inputs": [
-                {
-                    "method": "test",
-                    "instance": "Main",
-                    "calldata": [
-                        "0xFFFFFFE1", "1", "17", "3", "3", "0",
-                        "0xFFFFFFFF"
-                    ]
-                }
-            ],
-            "expected": [
-                "0"
-            ]
-        }, {
-            "name": "2_in_32_minus_ordinar_to",
-            "inputs": [
-                {
-                    "method": "test",
-                    "instance": "Main",
-                    "calldata": [
-                        "0xFFFFFFEF", "5", "1", "128", "0xFF", "0",
-                        "0xFFFFFFFF"
-                    ]
-                }
-            ],
-            "expected": [
-                "0"
-            ]
-        }, {
-            "name": "2_in_32_minus_one_to",
-            "inputs": [
-                {
-                    "method": "test",
-                    "instance": "Main",
-                    "calldata": [
-                        "0xFFFFFFFF", "17", "55", "222", "0xAA", "0",
-                        "0xFFFFFFFF"
-                    ]
-                }
-            ],
-            "expected": [
-                "0"
-            ]
-        }, {
-            "name": "2_in_32_to",
-            "inputs": [
-                {
-                    "method": "test",
-                    "instance": "Main",
-                    "calldata": [
-                        "0x100000000", "256", "32", "256", "12", "0",
-                        "0xFFFFFFFF"
-                    ]
-                }
-            ],
-            "expected": [
-                "0"
-            ]
-        }, {
-            "name": "ordinar_bigger_2_in_32_to",
-            "inputs": [
-                {
-                    "method": "test",
-                    "instance": "Main",
-                    "calldata": [
-                        "3334353453452342342354355544445321191012012", "32", "1", "1", "0x55", "0",
-                        "0xFFFFFFFF"
-                    ]
-                }
-            ],
-            "expected": [
-                "0"
-            ]
-        }, {
-            "name": "max_to",
-            "inputs": [
-                {
-                    "method": "test",
-                    "instance": "Main",
-                    "calldata": [
-                        "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF", "100", "96", "0", "0", "0",
-                        "0xFFFFFFFF"
-                    ]
-                }
-            ],
-            "expected": [
-                "0"
-            ]
-        }, {
-            "name": "zero_from",
-            "inputs": [
-                {
-                    "method": "test",
-                    "instance": "Main",
-                    "calldata": [
-                        "17", "0", "233", "300", "0xAA", "1",
-                        "0xFFFFFFFF"
-                    ]
-                }
-            ],
-            "expected": {
-                "return_data": ["1"],
-                "events": [
-                    {
-                        "topics": [],
-                        "values": ["1"]
-                    }
-                ]
-            }
-        }, {
-            "name": "one_from",
-            "inputs": [
-                {
-                    "method": "test",
-                    "instance": "Main",
-                    "calldata": [
-                        "32", "1", "128", "64", "0xFF", "1",
-                        "0xFFFFFFFF"
-                    ]
-                }
-            ],
-            "expected": {
-                "return_data": ["1"],
-                "events": [
-                    {
-                        "topics": [],
-                        "values": ["1"]
-                    }
-                ]
-            }
-        }, {
-            "name": "small_ordinar_from",
-            "inputs": [
-                {
-                    "method": "test",
-                    "instance": "Main",
-                    "calldata": [
-                        "0", "19", "32", "1", "0", "1",
-                        "0xFFFFFFFF"
-                    ]
-                }
-            ],
-            "expected": {
-                "return_data": ["1"],
-                "events": [
-                    {
-                        "topics": [],
-                        "values": ["1"]
-                    }
-                ]
-            }
-        }, {
-            "name": "word_from",
-            "inputs": [
-                {
-                    "method": "test",
-                    "instance": "Main",
-                    "calldata": [
-                        "272", "32", "17", "17", "0xDE", "1",
-                        "0xFFFFFFFF"
-                    ]
-                }
-            ],
-            "expected": {
-                "return_data": ["1"],
-                "events": [
-                    {
-                        "topics": [],
-                        "values": ["1"]
-                    }
-                ]
-            }
-        }, {
-            "name": "ordinar_from",
-            "inputs": [
-                {
-                    "method": "test",
-                    "instance": "Main",
-                    "calldata": [
-                        "122", "2383", "2383", "32", "0x44", "1",
-                        "0xFFFFFFFF"
-                    ]
-                }
-            ],
-            "expected": {
-                "return_data": ["1"],
-                "events": [
-                    {
-                        "topics": [],
-                        "values": ["1"]
-                    }
-                ]
-            }
-        }, {
-            "name": "ordinar_words_from",
-            "inputs": [
-                {
-                    "method": "test",
-                    "instance": "Main",
-                    "calldata": [
-                        "64", "0xF100", "100", "100", "0xFF", "1",
-                        "0xFFFFFFFF"
-                    ]
-                }
-            ],
-            "expected": {
-                "return_data": ["1"],
-                "events": [
-                    {
-                        "topics": [],
-                        "values": ["1"]
-                    }
-                ]
-            }
-        }, {
-            "name": "big_ordinar_from",
-            "inputs": [
-                {
-                    "method": "test",
-                    "instance": "Main",
-                    "calldata": [
-                        "32", "0xFFFFFFAA", "32", "0", "0", "1",
-                        "0xFFFFFFFF"
-                    ]
-                }
-            ],
-            "expected": {
-                "return_data": ["1"],
-                "events": [
-                    {
-                        "topics": [],
-                        "values": ["1"]
-                    }
-                ]
-            }
-        }, {
-            "name": "2_in_32_minus_64_from",
-            "inputs": [
-                {
-                    "method": "test",
-                    "instance": "Main",
-                    "calldata": [
-                        "322", "0xFFFFFFC0", "333", "10", "0xFF", "0",
-                        "0xFFFFFFFF"
-                    ]
-                }
-            ],
-            "expected": [
-                "0"
-            ]
-        }, {
-            "name": "2_in_32_minus_63_from",
-            "inputs": [
-                {
-                    "method": "test",
-                    "instance": "Main",
-                    "calldata": [
-                        "0", "0xFFFFFFC1", "512", "4", "0xBB", "0",
-                        "0xFFFFFFFF"
-                    ]
-                }
-            ],
-            "expected": [
-                "0"
-            ]
-        }, {
-            "name": "2_in_32_minus_ordinar_between_32_64_from",
-            "inputs": [
-                {
-                    "method": "test",
-                    "instance": "Main",
-                    "calldata": [
-                        "1", "0xFFFFFFCF", "1", "52", "52", "1",
-                        "0xFFFFFFFF"
-                    ]
-                }
-            ],
-            "expected": {
-                "return_data": ["1"],
-                "events": [
-                    {
-                        "topics": [],
-                        "values": ["1"]
-                    }
-                ]
-            }
-        }, {
-            "name": "2_in_32_minus_33_from",
-            "inputs": [
-                {
-                    "method": "test",
-                    "instance": "Main",
-                    "calldata": [
-                        "0", "0xFFFFFFDF", "1", "48", "0xC8", "1",
-                        "0xFFFFFFFF"
-                    ]
-                }
-            ],
-            "expected": {
-                "return_data": ["1"],
-                "events": [
-                    {
-                        "topics": [],
-                        "values": ["1"]
-                    }
-                ]
-            }
-        }, {
-            "name": "2_in_32_minus_32_from",
-            "inputs": [
-                {
-                    "method": "test",
-                    "instance": "Main",
-                    "calldata": [
-                        "55", "0xFFFFFFE0", "64", "32", "0", "0",
-                        "0xFFFFFFFF"
-                    ]
-                }
-            ],
-            "expected": [
-                "0"
-            ]
-        }, {
-            "name": "2_in_32_minus_31_from",
-            "inputs": [
-                {
-                    "method": "test",
-                    "instance": "Main",
-                    "calldata": [
-                        "1", "0xFFFFFFE1", "17", "3", "3", "0",
-                        "0xFFFFFFFF"
-                    ]
-                }
-            ],
-            "expected": [
-                "0"
-            ]
-        }, {
-            "name": "2_in_32_minus_ordinar_from",
-            "inputs": [
-                {
-                    "method": "test",
-                    "instance": "Main",
-                    "calldata": [
-                        "5", "0xFFFFFFEF", "1", "128", "0xFF", "0",
-                        "0xFFFFFFFF"
-                    ]
-                }
-            ],
-            "expected": [
-                "0"
-            ]
-        }, {
-            "name": "2_in_32_minus_one_from",
-            "inputs": [
-                {
-                    "method": "test",
-                    "instance": "Main",
-                    "calldata": [
-                        "17", "0xFFFFFFFF", "55", "222", "0xAA", "0",
-                        "0xFFFFFFFF"
-                    ]
-                }
-            ],
-            "expected": [
-                "0"
-            ]
-        }, {
-            "name": "2_in_32_from",
-            "inputs": [
-                {
-                    "method": "test",
-                    "instance": "Main",
-                    "calldata": [
-                        "256", "0x100000000", "32", "256", "12", "0",
-                        "0xFFFFFFFF"
-                    ]
-                }
-            ],
-            "expected": [
-                "0"
-            ]
-        }, {
-            "name": "ordinar_bigger_2_in_32_from",
-            "inputs": [
-                {
-                    "method": "test",
-                    "instance": "Main",
-                    "calldata": [
-                        "32", "3334353453452342342354355544445321191012012", "1", "1", "0x55", "0",
-                        "0xFFFFFFFF"
-                    ]
-                }
-            ],
-            "expected": [
-                "0"
-            ]
-        }, {
-            "name": "max_from",
-            "inputs": [
-                {
-                    "method": "test",
-                    "instance": "Main",
-                    "calldata": [
-                        "100", "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF", "96", "0", "0", "0",
-                        "0xFFFFFFFF"
-                    ]
-                }
-            ],
-            "expected": [
-                "0"
-            ]
-        }, {
-            "name": "zero_size",
-            "inputs": [
-                {
-                    "method": "test",
-                    "instance": "Main",
-                    "calldata": [
-                        "17", "233", "0", "300", "0xAA", "1",
-                        "0xFFFFFFFF"
-                    ]
-                }
-            ],
-            "expected": {
-                "return_data": ["1"],
-                "events": [
-                    {
-                        "topics": [],
-                        "values": ["1"]
-                    }
-                ]
-            }
-        }, {
-            "name": "one_size",
-            "inputs": [
-                {
-                    "method": "test",
-                    "instance": "Main",
-                    "calldata": [
-                        "1", "128", "32", "64", "0xFF", "1",
-                        "0xFFFFFFFF"
-                    ]
-                }
-            ],
-            "expected": {
-                "return_data": ["1"],
-                "events": [
-                    {
-                        "topics": [],
-                        "values": ["1"]
-                    }
-                ]
-            }
-        }, {
-            "name": "small_ordinar_size",
-            "inputs": [
-                {
-                    "method": "test",
-                    "instance": "Main",
-                    "calldata": [
-                        "0", "32", "19", "1", "0", "1",
-                        "0xFFFFFFFF"
-                    ]
-                }
-            ],
-            "expected": {
-                "return_data": ["1"],
-                "events": [
-                    {
-                        "topics": [],
-                        "values": ["1"]
-                    }
-                ]
-            }
-        }, {
-            "name": "word_size",
-            "inputs": [
-                {
-                    "method": "test",
-                    "instance": "Main",
-                    "calldata": [
-                        "272", "17", "32", "17", "0xDE", "1",
-                        "0xFFFFFFFF"
-                    ]
-                }
-            ],
-            "expected": {
-                "return_data": ["1"],
-                "events": [
-                    {
-                        "topics": [],
-                        "values": ["1"]
-                    }
-                ]
-            }
-        }, {
-            "name": "ordinar_size",
-            "inputs": [
-                {
-                    "method": "test",
-                    "instance": "Main",
-                    "calldata": [
-                        "122", "2383", "2383", "32", "0x44", "1",
-                        "0xFFFFFFFF"
-                    ]
-                }
-            ],
-            "expected": {
-                "return_data": ["1"],
-                "events": [
-                    {
-                        "topics": [],
-                        "values": ["1"]
-                    }
-                ]
-            }
-        }, {
-            "name": "ordinar_words_size",
-            "inputs": [
-                {
-                    "method": "test",
-                    "instance": "Main",
-                    "calldata": [
-                        "64", "100", "0xF100", "100", "0xFF", "1",
-                        "0xFFFFFFFF"
-                    ]
-                }
-            ],
-            "expected": {
-                "return_data": ["1"],
-                "events": [
-                    {
-                        "topics": [],
-                        "values": ["1"]
-                    }
-                ]
-            }
-        }, {
-            "name": "big_ordinar_size",
-            "inputs": [
-                {
-                    "method": "test",
-                    "instance": "Main",
-                    "calldata": [
-                        "32", "32", "0xFFFFFFAA", "0", "0", "0",
-                        "0x20000"
-                    ]
-                }
-            ],
-            "expected": [
-                "0"
-            ]
-        }, {
-            "name": "2_in_32_minus_64_size",
-            "inputs": [
-                {
-                    "method": "test",
-                    "instance": "Main",
-                    "calldata": [
-                        "322", "333", "0xFFFFFFC0", "10", "0xFF", "0",
-                        "0x20000"
-                    ]
-                }
-            ],
-            "expected": [
-                "0"
-            ]
-        }, {
-            "name": "2_in_32_minus_63_size",
-            "inputs": [
-                {
-                    "method": "test",
-                    "instance": "Main",
-                    "calldata": [
-                        "0", "512", "0xFFFFFFC1", "4", "0xBB", "0",
-                        "0x20000"
-                    ]
-                }
-            ],
-            "expected": [
-                "0"
-            ]
-        }, {
-            "name": "2_in_32_minus_ordinar_between_32_64_size",
-            "inputs": [
-                {
-                    "method": "test",
-                    "instance": "Main",
-                    "calldata": [
-                        "1", "1", "0xFFFFFFCF", "52", "52", "1",
-                        "0x20000"
-                    ]
-                }
-            ],
-            "expected": [
-                "0"
-            ]
-        }, {
-            "name": "2_in_32_minus_33_size",
-            "inputs": [
-                {
-                    "method": "test",
-                    "instance": "Main",
-                    "calldata": [
-                        "0", "1", "0xFFFFFFDF", "48", "0xC8", "1",
-                        "0x20000"
-                    ]
-                }
-            ],
-            "expected": [
-                "0"
-            ]
-        }, {
-            "name": "2_in_32_minus_32_size",
-            "inputs": [
-                {
-                    "method": "test",
-                    "instance": "Main",
-                    "calldata": [
-                        "55", "64", "0xFFFFFFE0", "32", "0", "0",
-                        "0x20000"
-                    ]
-                }
-            ],
-            "expected": [
-                "0"
-            ]
-        }, {
-            "name": "2_in_32_minus_31_size",
-            "inputs": [
-                {
-                    "method": "test",
-                    "instance": "Main",
-                    "calldata": [
-                        "1", "17", "0xFFFFFFE1", "3", "3", "0",
-                        "0x20000"
-                    ]
-                }
-            ],
-            "expected": [
-                "0"
-            ]
-        }, {
-            "name": "2_in_32_minus_ordinar_size",
-            "inputs": [
-                {
-                    "method": "test",
-                    "instance": "Main",
-                    "calldata": [
-                        "5", "1", "0xFFFFFFEF", "128", "0xFF", "0",
-                        "0x20000"
-                    ]
-                }
-            ],
-            "expected": [
-                "0"
-            ]
-        }, {
-            "name": "2_in_32_minus_one_size",
-            "inputs": [
-                {
-                    "method": "test",
-                    "instance": "Main",
-                    "calldata": [
-                        "17", "55", "0xFFFFFFFF", "222", "0xAA", "0",
-                        "0x20000"
-                    ]
-                }
-            ],
-            "expected": [
-                "0"
-            ]
-        }, {
-            "name": "2_in_32_size",
-            "inputs": [
-                {
-                    "method": "test",
-                    "instance": "Main",
-                    "calldata": [
-                        "256", "32", "0x100000000", "256", "12", "0",
-                        "0x20000"
-                    ]
-                }
-            ],
-            "expected": [
-                "0"
-            ]
-        }, {
-            "name": "ordinar_bigger_2_in_32_size",
-            "inputs": [
-                {
-                    "method": "test",
-                    "instance": "Main",
-                    "calldata": [
-                        "32", "1", "3334353453452342342354355544445321191012012", "1", "0x55", "0",
-                        "0x20000"
-                    ]
-                }
-            ],
-            "expected": [
-                "0"
-            ]
-        }, {
-            "name": "max_size",
-            "inputs": [
-                {
-                    "method": "test",
-                    "instance": "Main",
-                    "calldata": [
-                        "100", "96", "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF", "0", "0", "0",
-                        "0x20000"
-                    ]
-                }
-            ],
-            "expected": [
-                "0"
-            ]
-        }, {
-            "name": "big_to_zero_size",
-            "inputs": [
-                {
-                    "method": "test",
-                    "instance": "Main",
-                    "calldata": [
-                        "3334353453452342342354355544445321191012012", "32", "0", "1", "0x55", "1",
-                        "0xFFFFFFFF"
-                    ]
-                }
-            ],
-            "expected": {
-                "return_data": ["1"],
-                "events": [
-                    {
-                        "topics": [],
-                        "values": ["1"]
-                    }
-                ]
-            }
-        }, {
-            "name": "big_from_zero_size",
-            "inputs": [
-                {
-                    "method": "test",
-                    "instance": "Main",
-                    "calldata": [
-                        "122", "3334353453452342342354355544445321191012012", "0", "200", "0xFF", "1",
-                        "0xFFFFFFFF"
-                    ]
-                }
-            ],
-            "expected": [
-                "0"
-            ]
+          "method": "test",
+          "instance": "Main",
+          "calldata": [
+            "0",
+            "17",
+            "233",
+            "300",
+            "0xAA",
+            "1",
+            "0xFFFFFFFF"
+          ],
+          "caller": "0xa6335Bf5d1026e478D8F9C64CC7a234B55148bD0"
         }
-    ],
-    "contracts": {
-        "Main": "main.sol:Main"
+      ],
+      "expected": {
+        "return_data": [
+          "1"
+        ],
+        "events": [
+          {
+            "topics": [],
+            "values": [
+              "1"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "one_to",
+      "inputs": [
+        {
+          "method": "test",
+          "instance": "Main",
+          "calldata": [
+            "1",
+            "32",
+            "128",
+            "64",
+            "0xFF",
+            "1",
+            "0xFFFFFFFF"
+          ],
+          "caller": "0xBb41354ecBBF2331226303C85156306B1575F629"
+        }
+      ],
+      "expected": {
+        "return_data": [
+          "1"
+        ],
+        "events": [
+          {
+            "topics": [],
+            "values": [
+              "1"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "small_ordinar_to",
+      "inputs": [
+        {
+          "method": "test",
+          "instance": "Main",
+          "calldata": [
+            "19",
+            "0",
+            "32",
+            "1",
+            "0",
+            "1",
+            "0xFFFFFFFF"
+          ],
+          "caller": "0x4afF745889775ae1b739a7e0aA8F2ffcFF5E0E27"
+        }
+      ],
+      "expected": {
+        "return_data": [
+          "1"
+        ],
+        "events": [
+          {
+            "topics": [],
+            "values": [
+              "1"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "word_to",
+      "inputs": [
+        {
+          "method": "test",
+          "instance": "Main",
+          "calldata": [
+            "32",
+            "272",
+            "17",
+            "17",
+            "0xDE",
+            "1",
+            "0xFFFFFFFF"
+          ],
+          "caller": "0xAF1818A2A5d6665D1a4744F0206084cD816EE8d2"
+        }
+      ],
+      "expected": {
+        "return_data": [
+          "1"
+        ],
+        "events": [
+          {
+            "topics": [],
+            "values": [
+              "1"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "ordinar_to",
+      "inputs": [
+        {
+          "method": "test",
+          "instance": "Main",
+          "calldata": [
+            "2383",
+            "122",
+            "2383",
+            "32",
+            "0x44",
+            "1",
+            "0xFFFFFFFF"
+          ],
+          "caller": "0x361d1d2dbFb0BAa755EdD3Ad46219e9bA7bEe6E2"
+        }
+      ],
+      "expected": {
+        "return_data": [
+          "1"
+        ],
+        "events": [
+          {
+            "topics": [],
+            "values": [
+              "1"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "ordinar_words_to",
+      "inputs": [
+        {
+          "method": "test",
+          "instance": "Main",
+          "calldata": [
+            "0xF100",
+            "64",
+            "100",
+            "100",
+            "0xFF",
+            "1",
+            "0xFFFFFFFF"
+          ],
+          "caller": "0xA66B33eaaef0135b94f3c92246C817a8952A03A2"
+        }
+      ],
+      "expected": {
+        "return_data": [
+          "1"
+        ],
+        "events": [
+          {
+            "topics": [],
+            "values": [
+              "1"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "big_ordinar_to",
+      "inputs": [
+        {
+          "method": "test",
+          "instance": "Main",
+          "calldata": [
+            "0xFFFFFFAA",
+            "32",
+            "32",
+            "0",
+            "0",
+            "0",
+            "0xFFFFFFFF"
+          ],
+          "caller": "0xBaC81F0C4e2aF135e070115a6F0E15fe1D308637"
+        }
+      ],
+      "expected": [
+        "0"
+      ]
+    },
+    {
+      "name": "2_in_32_minus_64_to",
+      "inputs": [
+        {
+          "method": "test",
+          "instance": "Main",
+          "calldata": [
+            "0xFFFFFFC0",
+            "322",
+            "333",
+            "10",
+            "0xFF",
+            "0",
+            "0xFFFFFFFF"
+          ],
+          "caller": "0x8FE7E1C8DAcbf8c28B3f71528df6E79Cc5d75906"
+        }
+      ],
+      "expected": [
+        "0"
+      ]
+    },
+    {
+      "name": "2_in_32_minus_63_to",
+      "inputs": [
+        {
+          "method": "test",
+          "instance": "Main",
+          "calldata": [
+            "0xFFFFFFC1",
+            "0",
+            "512",
+            "4",
+            "0xBB",
+            "0",
+            "0xFFFFFFFF"
+          ],
+          "caller": "0xD5fd1d724b74841A0678C0e9da7382FF15c4df50"
+        }
+      ],
+      "expected": [
+        "0"
+      ]
+    },
+    {
+      "name": "2_in_32_minus_ordinar_between_32_64_to",
+      "inputs": [
+        {
+          "method": "test",
+          "instance": "Main",
+          "calldata": [
+            "0xFFFFFFCF",
+            "1",
+            "1",
+            "52",
+            "52",
+            "0",
+            "0xFFFFFFFF"
+          ],
+          "caller": "0x808Ef4a020F2C0a0124411ea04556Fd211180922"
+        }
+      ],
+      "expected": [
+        "0"
+      ]
+    },
+    {
+      "name": "2_in_32_minus_33_to",
+      "inputs": [
+        {
+          "method": "test",
+          "instance": "Main",
+          "calldata": [
+            "0xFFFFFFDF",
+            "0",
+            "1",
+            "48",
+            "0xC8",
+            "0",
+            "0xFFFFFFFF"
+          ],
+          "caller": "0x66F6DD5c0E4fe5998858114dAe5E75A6d7A560Ef"
+        }
+      ],
+      "expected": [
+        "0"
+      ]
+    },
+    {
+      "name": "2_in_32_minus_32_to",
+      "inputs": [
+        {
+          "method": "test",
+          "instance": "Main",
+          "calldata": [
+            "0xFFFFFFE0",
+            "55",
+            "64",
+            "32",
+            "0",
+            "0",
+            "0xFFFFFFFF"
+          ],
+          "caller": "0x33e849217DE6a1f50Cb31E1f183B53e098137FEA"
+        }
+      ],
+      "expected": [
+        "0"
+      ]
+    },
+    {
+      "name": "2_in_32_minus_31_to",
+      "inputs": [
+        {
+          "method": "test",
+          "instance": "Main",
+          "calldata": [
+            "0xFFFFFFE1",
+            "1",
+            "17",
+            "3",
+            "3",
+            "0",
+            "0xFFFFFFFF"
+          ],
+          "caller": "0x648fac45748376A69E6F1CBe2494644Ddab0cA7D"
+        }
+      ],
+      "expected": [
+        "0"
+      ]
+    },
+    {
+      "name": "2_in_32_minus_ordinar_to",
+      "inputs": [
+        {
+          "method": "test",
+          "instance": "Main",
+          "calldata": [
+            "0xFFFFFFEF",
+            "5",
+            "1",
+            "128",
+            "0xFF",
+            "0",
+            "0xFFFFFFFF"
+          ],
+          "caller": "0x07E871c7431749840bAC99CB61589E71968A2A4A"
+        }
+      ],
+      "expected": [
+        "0"
+      ]
+    },
+    {
+      "name": "2_in_32_minus_one_to",
+      "inputs": [
+        {
+          "method": "test",
+          "instance": "Main",
+          "calldata": [
+            "0xFFFFFFFF",
+            "17",
+            "55",
+            "222",
+            "0xAA",
+            "0",
+            "0xFFFFFFFF"
+          ],
+          "caller": "0xA8eb6613F6D762A652b12AE05109adE3031b6904"
+        }
+      ],
+      "expected": [
+        "0"
+      ]
+    },
+    {
+      "name": "2_in_32_to",
+      "inputs": [
+        {
+          "method": "test",
+          "instance": "Main",
+          "calldata": [
+            "0x100000000",
+            "256",
+            "32",
+            "256",
+            "12",
+            "0",
+            "0xFFFFFFFF"
+          ],
+          "caller": "0x383e51bb95442348956D899a165f6fE61f3f965c"
+        }
+      ],
+      "expected": [
+        "0"
+      ]
+    },
+    {
+      "name": "ordinar_bigger_2_in_32_to",
+      "inputs": [
+        {
+          "method": "test",
+          "instance": "Main",
+          "calldata": [
+            "3334353453452342342354355544445321191012012",
+            "32",
+            "1",
+            "1",
+            "0x55",
+            "0",
+            "0xFFFFFFFF"
+          ],
+          "caller": "0x4BF171AC7491b346b03Bd8124852dA8C9E313448"
+        }
+      ],
+      "expected": [
+        "0"
+      ]
+    },
+    {
+      "name": "max_to",
+      "inputs": [
+        {
+          "method": "test",
+          "instance": "Main",
+          "calldata": [
+            "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF",
+            "100",
+            "96",
+            "0",
+            "0",
+            "0",
+            "0xFFFFFFFF"
+          ],
+          "caller": "0x28e59dA11dcb3DCf9186Ce3dAF45827Fc0823099"
+        }
+      ],
+      "expected": [
+        "0"
+      ]
+    },
+    {
+      "name": "zero_from",
+      "inputs": [
+        {
+          "method": "test",
+          "instance": "Main",
+          "calldata": [
+            "17",
+            "0",
+            "233",
+            "300",
+            "0xAA",
+            "1",
+            "0xFFFFFFFF"
+          ],
+          "caller": "0x6513Ec05ABf47E72b5ef2075B70595fDBE548f48"
+        }
+      ],
+      "expected": {
+        "return_data": [
+          "1"
+        ],
+        "events": [
+          {
+            "topics": [],
+            "values": [
+              "1"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "one_from",
+      "inputs": [
+        {
+          "method": "test",
+          "instance": "Main",
+          "calldata": [
+            "32",
+            "1",
+            "128",
+            "64",
+            "0xFF",
+            "1",
+            "0xFFFFFFFF"
+          ],
+          "caller": "0x24c8020B422dD25B14AC709418A11aAA62166a71"
+        }
+      ],
+      "expected": {
+        "return_data": [
+          "1"
+        ],
+        "events": [
+          {
+            "topics": [],
+            "values": [
+              "1"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "small_ordinar_from",
+      "inputs": [
+        {
+          "method": "test",
+          "instance": "Main",
+          "calldata": [
+            "0",
+            "19",
+            "32",
+            "1",
+            "0",
+            "1",
+            "0xFFFFFFFF"
+          ],
+          "caller": "0xC57754CBf84d4F4AE5c9F42336a86A74A6c565c8"
+        }
+      ],
+      "expected": {
+        "return_data": [
+          "1"
+        ],
+        "events": [
+          {
+            "topics": [],
+            "values": [
+              "1"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "word_from",
+      "inputs": [
+        {
+          "method": "test",
+          "instance": "Main",
+          "calldata": [
+            "272",
+            "32",
+            "17",
+            "17",
+            "0xDE",
+            "1",
+            "0xFFFFFFFF"
+          ],
+          "caller": "0xdcAfc1B8bc8334B2546614739906Ea6Ad55Ad1Af"
+        }
+      ],
+      "expected": {
+        "return_data": [
+          "1"
+        ],
+        "events": [
+          {
+            "topics": [],
+            "values": [
+              "1"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "ordinar_from",
+      "inputs": [
+        {
+          "method": "test",
+          "instance": "Main",
+          "calldata": [
+            "122",
+            "2383",
+            "2383",
+            "32",
+            "0x44",
+            "1",
+            "0xFFFFFFFF"
+          ],
+          "caller": "0x270125369ba2aCc28C0878D258018A53Dd64a436"
+        }
+      ],
+      "expected": {
+        "return_data": [
+          "1"
+        ],
+        "events": [
+          {
+            "topics": [],
+            "values": [
+              "1"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "ordinar_words_from",
+      "inputs": [
+        {
+          "method": "test",
+          "instance": "Main",
+          "calldata": [
+            "64",
+            "0xF100",
+            "100",
+            "100",
+            "0xFF",
+            "1",
+            "0xFFFFFFFF"
+          ],
+          "caller": "0x8E0847F44ADF264c287Bc400869CE6A53B6FA4ef"
+        }
+      ],
+      "expected": {
+        "return_data": [
+          "1"
+        ],
+        "events": [
+          {
+            "topics": [],
+            "values": [
+              "1"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "big_ordinar_from",
+      "inputs": [
+        {
+          "method": "test",
+          "instance": "Main",
+          "calldata": [
+            "32",
+            "0xFFFFFFAA",
+            "32",
+            "0",
+            "0",
+            "1",
+            "0xFFFFFFFF"
+          ],
+          "caller": "0x012979b2d53b22E82c91A27C2A8F47aD3882F4Dd"
+        }
+      ],
+      "expected": {
+        "return_data": [
+          "1"
+        ],
+        "events": [
+          {
+            "topics": [],
+            "values": [
+              "1"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "2_in_32_minus_64_from",
+      "inputs": [
+        {
+          "method": "test",
+          "instance": "Main",
+          "calldata": [
+            "322",
+            "0xFFFFFFC0",
+            "333",
+            "10",
+            "0xFF",
+            "0",
+            "0xFFFFFFFF"
+          ],
+          "caller": "0xB0eEA2ea7E869476286c52B0fAab76B84Df63457"
+        }
+      ],
+      "expected": [
+        "0"
+      ]
+    },
+    {
+      "name": "2_in_32_minus_63_from",
+      "inputs": [
+        {
+          "method": "test",
+          "instance": "Main",
+          "calldata": [
+            "0",
+            "0xFFFFFFC1",
+            "512",
+            "4",
+            "0xBB",
+            "0",
+            "0xFFFFFFFF"
+          ],
+          "caller": "0xF6930f938B94fe2fD44094e0D08dbA3ab1200952"
+        }
+      ],
+      "expected": [
+        "0"
+      ]
+    },
+    {
+      "name": "2_in_32_minus_ordinar_between_32_64_from",
+      "inputs": [
+        {
+          "method": "test",
+          "instance": "Main",
+          "calldata": [
+            "1",
+            "0xFFFFFFCF",
+            "1",
+            "52",
+            "52",
+            "1",
+            "0xFFFFFFFF"
+          ],
+          "caller": "0xC3EEb8ea4E88B04b9C84FFcd93DE962D90433369"
+        }
+      ],
+      "expected": {
+        "return_data": [
+          "1"
+        ],
+        "events": [
+          {
+            "topics": [],
+            "values": [
+              "1"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "2_in_32_minus_33_from",
+      "inputs": [
+        {
+          "method": "test",
+          "instance": "Main",
+          "calldata": [
+            "0",
+            "0xFFFFFFDF",
+            "1",
+            "48",
+            "0xC8",
+            "1",
+            "0xFFFFFFFF"
+          ],
+          "caller": "0x1f5768e3801c23105e618D6752B189d97b219666"
+        }
+      ],
+      "expected": {
+        "return_data": [
+          "1"
+        ],
+        "events": [
+          {
+            "topics": [],
+            "values": [
+              "1"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "2_in_32_minus_32_from",
+      "inputs": [
+        {
+          "method": "test",
+          "instance": "Main",
+          "calldata": [
+            "55",
+            "0xFFFFFFE0",
+            "64",
+            "32",
+            "0",
+            "0",
+            "0xFFFFFFFF"
+          ],
+          "caller": "0x1C22F349103607dE58084f019D46EE3A91C40662"
+        }
+      ],
+      "expected": [
+        "0"
+      ]
+    },
+    {
+      "name": "2_in_32_minus_31_from",
+      "inputs": [
+        {
+          "method": "test",
+          "instance": "Main",
+          "calldata": [
+            "1",
+            "0xFFFFFFE1",
+            "17",
+            "3",
+            "3",
+            "0",
+            "0xFFFFFFFF"
+          ],
+          "caller": "0x37c138Ab35e6B6394fc0dDB9f80b03c58Cbda319"
+        }
+      ],
+      "expected": [
+        "0"
+      ]
+    },
+    {
+      "name": "2_in_32_minus_ordinar_from",
+      "inputs": [
+        {
+          "method": "test",
+          "instance": "Main",
+          "calldata": [
+            "5",
+            "0xFFFFFFEF",
+            "1",
+            "128",
+            "0xFF",
+            "0",
+            "0xFFFFFFFF"
+          ],
+          "caller": "0xCc9D0A929Ac832F6EE5035D7A261a9BB7BB907dc"
+        }
+      ],
+      "expected": [
+        "0"
+      ]
+    },
+    {
+      "name": "2_in_32_minus_one_from",
+      "inputs": [
+        {
+          "method": "test",
+          "instance": "Main",
+          "calldata": [
+            "17",
+            "0xFFFFFFFF",
+            "55",
+            "222",
+            "0xAA",
+            "0",
+            "0xFFFFFFFF"
+          ],
+          "caller": "0xfF772ca0EfD4355c69226dd11025c5254f6117f0"
+        }
+      ],
+      "expected": [
+        "0"
+      ]
+    },
+    {
+      "name": "2_in_32_from",
+      "inputs": [
+        {
+          "method": "test",
+          "instance": "Main",
+          "calldata": [
+            "256",
+            "0x100000000",
+            "32",
+            "256",
+            "12",
+            "0",
+            "0xFFFFFFFF"
+          ],
+          "caller": "0x0dF75Ee89D9476ea07b7CC23f7202C440C9C255f"
+        }
+      ],
+      "expected": [
+        "0"
+      ]
+    },
+    {
+      "name": "ordinar_bigger_2_in_32_from",
+      "inputs": [
+        {
+          "method": "test",
+          "instance": "Main",
+          "calldata": [
+            "32",
+            "3334353453452342342354355544445321191012012",
+            "1",
+            "1",
+            "0x55",
+            "0",
+            "0xFFFFFFFF"
+          ],
+          "caller": "0x2B3718023f684A2d53BDECF2951a6F95CF156bA6"
+        }
+      ],
+      "expected": [
+        "0"
+      ]
+    },
+    {
+      "name": "max_from",
+      "inputs": [
+        {
+          "method": "test",
+          "instance": "Main",
+          "calldata": [
+            "100",
+            "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF",
+            "96",
+            "0",
+            "0",
+            "0",
+            "0xFFFFFFFF"
+          ],
+          "caller": "0xD50a57722f06239D3b6ec0D68cbc8b821eE377c1"
+        }
+      ],
+      "expected": [
+        "0"
+      ]
+    },
+    {
+      "name": "zero_size",
+      "inputs": [
+        {
+          "method": "test",
+          "instance": "Main",
+          "calldata": [
+            "17",
+            "233",
+            "0",
+            "300",
+            "0xAA",
+            "1",
+            "0xFFFFFFFF"
+          ],
+          "caller": "0x794d1656f05158765523AB2689066c2700c48156"
+        }
+      ],
+      "expected": {
+        "return_data": [
+          "1"
+        ],
+        "events": [
+          {
+            "topics": [],
+            "values": [
+              "1"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "one_size",
+      "inputs": [
+        {
+          "method": "test",
+          "instance": "Main",
+          "calldata": [
+            "1",
+            "128",
+            "32",
+            "64",
+            "0xFF",
+            "1",
+            "0xFFFFFFFF"
+          ],
+          "caller": "0x58b6e0FDF02163381757b273B6B0f38A26087bd2"
+        }
+      ],
+      "expected": {
+        "return_data": [
+          "1"
+        ],
+        "events": [
+          {
+            "topics": [],
+            "values": [
+              "1"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "small_ordinar_size",
+      "inputs": [
+        {
+          "method": "test",
+          "instance": "Main",
+          "calldata": [
+            "0",
+            "32",
+            "19",
+            "1",
+            "0",
+            "1",
+            "0xFFFFFFFF"
+          ],
+          "caller": "0x04f61A5CEEC60739011b572eA4704e4b6189b205"
+        }
+      ],
+      "expected": {
+        "return_data": [
+          "1"
+        ],
+        "events": [
+          {
+            "topics": [],
+            "values": [
+              "1"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "word_size",
+      "inputs": [
+        {
+          "method": "test",
+          "instance": "Main",
+          "calldata": [
+            "272",
+            "17",
+            "32",
+            "17",
+            "0xDE",
+            "1",
+            "0xFFFFFFFF"
+          ],
+          "caller": "0x949c4b6696984A14ec0427401d9F3e3F4f150A43"
+        }
+      ],
+      "expected": {
+        "return_data": [
+          "1"
+        ],
+        "events": [
+          {
+            "topics": [],
+            "values": [
+              "1"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "ordinar_size",
+      "inputs": [
+        {
+          "method": "test",
+          "instance": "Main",
+          "calldata": [
+            "122",
+            "2383",
+            "2383",
+            "32",
+            "0x44",
+            "1",
+            "0xFFFFFFFF"
+          ],
+          "caller": "0xf9C13bFbdAbb6F37b7f04Ed40A9F49220D0B54e2"
+        }
+      ],
+      "expected": {
+        "return_data": [
+          "1"
+        ],
+        "events": [
+          {
+            "topics": [],
+            "values": [
+              "1"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "ordinar_words_size",
+      "inputs": [
+        {
+          "method": "test",
+          "instance": "Main",
+          "calldata": [
+            "64",
+            "100",
+            "0xF100",
+            "100",
+            "0xFF",
+            "1",
+            "0xFFFFFFFF"
+          ],
+          "caller": "0x52e5411CFdb0E2116649f29DFce04514f3EEb0FA"
+        }
+      ],
+      "expected": {
+        "return_data": [
+          "1"
+        ],
+        "events": [
+          {
+            "topics": [],
+            "values": [
+              "1"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "big_ordinar_size",
+      "inputs": [
+        {
+          "method": "test",
+          "instance": "Main",
+          "calldata": [
+            "32",
+            "32",
+            "0xFFFFFFAA",
+            "0",
+            "0",
+            "0",
+            "0x20000"
+          ],
+          "caller": "0x84e86798Ba249532DED2Fc7F43fB85a591b33e03"
+        }
+      ],
+      "expected": [
+        "0"
+      ]
+    },
+    {
+      "name": "2_in_32_minus_64_size",
+      "inputs": [
+        {
+          "method": "test",
+          "instance": "Main",
+          "calldata": [
+            "322",
+            "333",
+            "0xFFFFFFC0",
+            "10",
+            "0xFF",
+            "0",
+            "0x20000"
+          ],
+          "caller": "0x21aD4976163644Ee2c0aB1C7b3fF3913D736D772"
+        }
+      ],
+      "expected": [
+        "0"
+      ]
+    },
+    {
+      "name": "2_in_32_minus_63_size",
+      "inputs": [
+        {
+          "method": "test",
+          "instance": "Main",
+          "calldata": [
+            "0",
+            "512",
+            "0xFFFFFFC1",
+            "4",
+            "0xBB",
+            "0",
+            "0x20000"
+          ],
+          "caller": "0xF2da14770704402eb446d92F3516d060243dA637"
+        }
+      ],
+      "expected": [
+        "0"
+      ]
+    },
+    {
+      "name": "2_in_32_minus_ordinar_between_32_64_size",
+      "inputs": [
+        {
+          "method": "test",
+          "instance": "Main",
+          "calldata": [
+            "1",
+            "1",
+            "0xFFFFFFCF",
+            "52",
+            "52",
+            "1",
+            "0x20000"
+          ],
+          "caller": "0x7C37E3f4133D5F288f1C8Af35CDAb27aB760C028"
+        }
+      ],
+      "expected": [
+        "0"
+      ]
+    },
+    {
+      "name": "2_in_32_minus_33_size",
+      "inputs": [
+        {
+          "method": "test",
+          "instance": "Main",
+          "calldata": [
+            "0",
+            "1",
+            "0xFFFFFFDF",
+            "48",
+            "0xC8",
+            "1",
+            "0x20000"
+          ],
+          "caller": "0x4B13E55f75378aCdC75e540cE3593f7e2fDcCf34"
+        }
+      ],
+      "expected": [
+        "0"
+      ]
+    },
+    {
+      "name": "2_in_32_minus_32_size",
+      "inputs": [
+        {
+          "method": "test",
+          "instance": "Main",
+          "calldata": [
+            "55",
+            "64",
+            "0xFFFFFFE0",
+            "32",
+            "0",
+            "0",
+            "0x20000"
+          ],
+          "caller": "0x4a82CBA19D2d34bAEAFEAE760Cd781c979dAA206"
+        }
+      ],
+      "expected": [
+        "0"
+      ]
+    },
+    {
+      "name": "2_in_32_minus_31_size",
+      "inputs": [
+        {
+          "method": "test",
+          "instance": "Main",
+          "calldata": [
+            "1",
+            "17",
+            "0xFFFFFFE1",
+            "3",
+            "3",
+            "0",
+            "0x20000"
+          ],
+          "caller": "0xa5434c6B7D53735e7B906d035Bb64D757869EA65"
+        }
+      ],
+      "expected": [
+        "0"
+      ]
+    },
+    {
+      "name": "2_in_32_minus_ordinar_size",
+      "inputs": [
+        {
+          "method": "test",
+          "instance": "Main",
+          "calldata": [
+            "5",
+            "1",
+            "0xFFFFFFEF",
+            "128",
+            "0xFF",
+            "0",
+            "0x20000"
+          ],
+          "caller": "0x54003A2D63a279dae942536f46b671057D1703df"
+        }
+      ],
+      "expected": [
+        "0"
+      ]
+    },
+    {
+      "name": "2_in_32_minus_one_size",
+      "inputs": [
+        {
+          "method": "test",
+          "instance": "Main",
+          "calldata": [
+            "17",
+            "55",
+            "0xFFFFFFFF",
+            "222",
+            "0xAA",
+            "0",
+            "0x20000"
+          ],
+          "caller": "0xA20F87fd75c4ddfA04BdEE9889f31217ecCA1De0"
+        }
+      ],
+      "expected": [
+        "0"
+      ]
+    },
+    {
+      "name": "2_in_32_size",
+      "inputs": [
+        {
+          "method": "test",
+          "instance": "Main",
+          "calldata": [
+            "256",
+            "32",
+            "0x100000000",
+            "256",
+            "12",
+            "0",
+            "0x20000"
+          ],
+          "caller": "0x5C4b94c4bEDbAf49d4cb785E48e4Af32fd8C9339"
+        }
+      ],
+      "expected": [
+        "0"
+      ]
+    },
+    {
+      "name": "ordinar_bigger_2_in_32_size",
+      "inputs": [
+        {
+          "method": "test",
+          "instance": "Main",
+          "calldata": [
+            "32",
+            "1",
+            "3334353453452342342354355544445321191012012",
+            "1",
+            "0x55",
+            "0",
+            "0x20000"
+          ],
+          "caller": "0x763875743EF910306F5c550Cb4A584c7D5912733"
+        }
+      ],
+      "expected": [
+        "0"
+      ]
+    },
+    {
+      "name": "max_size",
+      "inputs": [
+        {
+          "method": "test",
+          "instance": "Main",
+          "calldata": [
+            "100",
+            "96",
+            "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF",
+            "0",
+            "0",
+            "0",
+            "0x20000"
+          ],
+          "caller": "0xf2d7227E113096F33eE35DAED831353E104e857c"
+        }
+      ],
+      "expected": [
+        "0"
+      ]
+    },
+    {
+      "name": "big_to_zero_size",
+      "inputs": [
+        {
+          "method": "test",
+          "instance": "Main",
+          "calldata": [
+            "3334353453452342342354355544445321191012012",
+            "32",
+            "0",
+            "1",
+            "0x55",
+            "1",
+            "0xFFFFFFFF"
+          ],
+          "caller": "0x71644A0B4C33665C7c62533a3b53A69294578A1d"
+        }
+      ],
+      "expected": {
+        "return_data": [
+          "1"
+        ],
+        "events": [
+          {
+            "topics": [],
+            "values": [
+              "1"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "big_from_zero_size",
+      "inputs": [
+        {
+          "method": "test",
+          "instance": "Main",
+          "calldata": [
+            "122",
+            "3334353453452342342354355544445321191012012",
+            "0",
+            "200",
+            "0xFF",
+            "1",
+            "0xFFFFFFFF"
+          ],
+          "caller": "0x1614B6C40982CdF168469Ce908E625874435B7cC"
+        }
+      ],
+      "expected": [
+        "0"
+      ]
     }
+  ],
+  "contracts": {
+    "Main": "main.sol:Main"
+  }
 }

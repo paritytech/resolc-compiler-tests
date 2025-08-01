@@ -1,154 +1,188 @@
-#! { "modes": [ "V <=0.3.10" ], "cases": [ {
-#!     "name": "first",
-#!     "inputs": [
+#! {
+#!   "modes": [
+#!     "V <=0.3.10"
+#!   ],
+#!   "cases": [
+#!     {
+#!       "name": "first",
+#!       "inputs": [
 #!         {
-#!             "method": "push",
-#!             "calldata": [
-#!                 "10"
-#!             ]
-#!         }, {
-#!             "method": "getLength",
-#!             "calldata": [
-#!             ],
-#!              "expected": [
-#!                 "1"
-#!             ]
-#!         }, {
-#!             "method": "get",
-#!             "calldata": [
-#!                 "0"
-#!             ]
+#!           "method": "push",
+#!           "calldata": [
+#!             "10"
+#!           ],
+#!           "caller": "0x95064Ce6845B3D4c96Da87BE3a5D662B0869cdfB"
+#!         },
+#!         {
+#!           "method": "getLength",
+#!           "calldata": [],
+#!           "expected": [
+#!             "1"
+#!           ],
+#!           "caller": "0x95064Ce6845B3D4c96Da87BE3a5D662B0869cdfB"
+#!         },
+#!         {
+#!           "method": "get",
+#!           "calldata": [
+#!             "0"
+#!           ],
+#!           "caller": "0x95064Ce6845B3D4c96Da87BE3a5D662B0869cdfB"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "10"
-#!     ]
-#! }, {
-#!     "name": "second",
-#!     "inputs": [
+#!       ]
+#!     },
+#!     {
+#!       "name": "second",
+#!       "inputs": [
 #!         {
-#!             "method": "push",
-#!             "calldata": [
-#!                 "37848742"
-#!             ]
-#!         }, {
-#!             "method": "push",
-#!             "calldata": [
-#!                 "523542342"
-#!             ]
-#!         }, {
-#!             "method": "pop_",
-#!             "calldata": [
-#!             ]
-#!         }, {
-#!             "method": "getLength",
-#!             "calldata": [
-#!             ],
-#!              "expected": [
-#!                 "1"
-#!             ]
-#!         }, {
-#!             "method": "push",
-#!             "calldata": [
-#!                 "78347834"
-#!             ]
-#!         }, {
-#!             "method": "push",
-#!             "calldata": [
-#!                 "23515365423543245"
-#!             ]
-#!         }, {
-#!             "method": "remove",
-#!             "calldata": [
-#!                 "1"
-#!             ]
-#!         }, {
-#!             "method": "getLength",
-#!             "calldata": [
-#!             ],
-#!              "expected": [
-#!                 "3"
-#!             ]
-#!         }, {
-#!             "method": "getArr",
-#!             "calldata": [
-#!             ]
+#!           "method": "push",
+#!           "calldata": [
+#!             "37848742"
+#!           ],
+#!           "caller": "0x82392A44147eC8eeDaed9BC10290c240b7ED1A9C"
+#!         },
+#!         {
+#!           "method": "push",
+#!           "calldata": [
+#!             "523542342"
+#!           ],
+#!           "caller": "0x82392A44147eC8eeDaed9BC10290c240b7ED1A9C"
+#!         },
+#!         {
+#!           "method": "pop_",
+#!           "calldata": [],
+#!           "caller": "0x82392A44147eC8eeDaed9BC10290c240b7ED1A9C"
+#!         },
+#!         {
+#!           "method": "getLength",
+#!           "calldata": [],
+#!           "expected": [
+#!             "1"
+#!           ],
+#!           "caller": "0x82392A44147eC8eeDaed9BC10290c240b7ED1A9C"
+#!         },
+#!         {
+#!           "method": "push",
+#!           "calldata": [
+#!             "78347834"
+#!           ],
+#!           "caller": "0x82392A44147eC8eeDaed9BC10290c240b7ED1A9C"
+#!         },
+#!         {
+#!           "method": "push",
+#!           "calldata": [
+#!             "23515365423543245"
+#!           ],
+#!           "caller": "0x82392A44147eC8eeDaed9BC10290c240b7ED1A9C"
+#!         },
+#!         {
+#!           "method": "remove",
+#!           "calldata": [
+#!             "1"
+#!           ],
+#!           "caller": "0x82392A44147eC8eeDaed9BC10290c240b7ED1A9C"
+#!         },
+#!         {
+#!           "method": "getLength",
+#!           "calldata": [],
+#!           "expected": [
+#!             "3"
+#!           ],
+#!           "caller": "0x82392A44147eC8eeDaed9BC10290c240b7ED1A9C"
+#!         },
+#!         {
+#!           "method": "getArr",
+#!           "calldata": [],
+#!           "caller": "0x82392A44147eC8eeDaed9BC10290c240b7ED1A9C"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "0x20",
 #!         "3",
 #!         "37848742",
 #!         "0",
 #!         "23515365423543245"
-#!     ]
-#! }, {
-#!     "name": "popEmpty",
-#!     "inputs": [
+#!       ]
+#!     },
+#!     {
+#!       "name": "popEmpty",
+#!       "inputs": [
 #!         {
-#!             "method": "pop_",
-#!             "calldata": [
-#!             ]
+#!           "method": "pop_",
+#!           "calldata": [],
+#!           "caller": "0xbBcdd86968f6DFf415c6337cAAeFf20AbD8eA0A5"
 #!         }
-#!     ],
-#!     "expected": {
+#!       ],
+#!       "expected": {
 #!         "return_data": [],
 #!         "exception": true
-#!     }
-#! }, {
-#!     "name": "defaultGetter",
-#!     "inputs": [
+#!       }
+#!     },
+#!     {
+#!       "name": "defaultGetter",
+#!       "inputs": [
 #!         {
-#!             "method": "arr2",
-#!             "calldata": [
-#!                 "0"
-#!             ],
-#!              "expected": [
-#!                 "1"
-#!             ]
-#!         }, {
-#!             "method": "arr2",
-#!             "calldata": [
-#!                 "1"
-#!             ],
-#!              "expected": [
-#!                 "2"
-#!             ]
-#!         }, {
-#!             "method": "arr2",
-#!             "calldata": [
-#!                 "2"
-#!             ]
+#!           "method": "arr2",
+#!           "calldata": [
+#!             "0"
+#!           ],
+#!           "expected": [
+#!             "1"
+#!           ],
+#!           "caller": "0xEa13B153631530a445accd802965eCAfe0537F92"
+#!         },
+#!         {
+#!           "method": "arr2",
+#!           "calldata": [
+#!             "1"
+#!           ],
+#!           "expected": [
+#!             "2"
+#!           ],
+#!           "caller": "0xEa13B153631530a445accd802965eCAfe0537F92"
+#!         },
+#!         {
+#!           "method": "arr2",
+#!           "calldata": [
+#!             "2"
+#!           ],
+#!           "caller": "0xEa13B153631530a445accd802965eCAfe0537F92"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "3"
-#!     ]
-#! }, {
-#!     "name": "fixedSizeArray",
-#!     "inputs": [
+#!       ]
+#!     },
+#!     {
+#!       "name": "fixedSizeArray",
+#!       "inputs": [
 #!         {
-#!             "method": "myFixedSizeArr",
-#!             "calldata": [
-#!                 "9"
-#!             ]
+#!           "method": "myFixedSizeArr",
+#!           "calldata": [
+#!             "9"
+#!           ],
+#!           "caller": "0x96d3A67031abD9a6a672cF27723ff23B39817483"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "0"
-#!     ]
-#! }, {
-#!     "name": "examples",
-#!     "inputs": [
+#!       ]
+#!     },
+#!     {
+#!       "name": "examples",
+#!       "inputs": [
 #!         {
-#!             "method": "examples",
-#!             "calldata": [
-#!             ]
+#!           "method": "examples",
+#!           "calldata": [],
+#!           "caller": "0x9A8D0DcBb84Ae981cDE3B095131A2D9969a8072F"
 #!         }
-#!     ],
-#!     "expected": [
-#!     ]
-#! } ] }
+#!       ],
+#!       "expected": []
+#!     }
+#!   ]
+#! }
 
 # Several ways to initialize an array
 arr: public(DynArray[uint256, 10])

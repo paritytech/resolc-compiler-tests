@@ -1,5 +1,9 @@
-//! { "targets": [ "eravm" ], "cases": [],
-//! "system_mode": true
+//! {
+//!   "targets": [
+//!     "eravm"
+//!   ],
+//!   "cases": [],
+//!   "system_mode": true
 //! }
 
 object "Test" {

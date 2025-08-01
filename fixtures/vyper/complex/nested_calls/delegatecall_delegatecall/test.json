@@ -1,23 +1,29 @@
-{ "modes": [ "V >=0.4.0" ], "cases": [ {
-    "name": "default",
-    "inputs": [
+{
+  "modes": [
+    "V >=0.4.0"
+  ],
+  "cases": [
+    {
+      "name": "default",
+      "inputs": [
         {
-            "instance": "A",
-            "caller": "0xdeadbeef00000000000000000000000000000042",
-            "method": "main",
-            "calldata": [
-                "B.address",
-                "C.address"
-            ]
+          "instance": "A",
+          "caller": "0xb99FE757F5Ae391ed8DafdA5dcA66f7129F72f87",
+          "method": "main",
+          "calldata": [
+            "B.address",
+            "C.address"
+          ]
         }
-    ],
-    "expected": [
-        "0xdeadbeef00000000000000000000000000000042"
-    ]
-} ],
-    "contracts": {
-        "A": "A.vy",
-        "B": "B.vy",
-        "C": "C.vy"
+      ],
+      "expected": [
+        "0xb99FE757F5Ae391ed8DafdA5dcA66f7129F72f87"
+      ]
     }
+  ],
+  "contracts": {
+    "A": "A.vy",
+    "B": "B.vy",
+    "C": "C.vy"
+  }
 }

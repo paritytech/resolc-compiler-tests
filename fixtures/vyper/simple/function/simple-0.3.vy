@@ -1,17 +1,25 @@
-#! { "modes": [ "V <=0.3.10" ], "cases": [ {
-#!     "name": "_default",
-#!     "inputs": [
+#! {
+#!   "modes": [
+#!     "V <=0.3.10"
+#!   ],
+#!   "cases": [
+#!     {
+#!       "name": "_default",
+#!       "inputs": [
 #!         {
-#!             "method": "_default",
-#!             "calldata": [
-#!                 "512"
-#!             ]
+#!           "method": "_default",
+#!           "calldata": [
+#!             "512"
+#!           ],
+#!           "caller": "0x75eA9cEda9E0Dd7c7f455BBf271198808E282C2e"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "1024"
-#!     ]
-#! } ] }
+#!       ]
+#!     }
+#!   ]
+#! }
 
 @external
 @pure

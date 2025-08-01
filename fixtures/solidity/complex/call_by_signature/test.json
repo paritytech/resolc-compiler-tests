@@ -1,36 +1,42 @@
-{ "cases": [ {
-    "name": "first",
-    "inputs": [
+{
+  "cases": [
+    {
+      "name": "first",
+      "inputs": [
         {
-            "instance": "Main",
-            "method": "main",
-            "calldata": [
-                "5",
-                "Storage.address"
-            ]
+          "instance": "Main",
+          "method": "main",
+          "calldata": [
+            "5",
+            "Storage.address"
+          ],
+          "caller": "0xD0087C0e00BDEBA5D7491ee5f17264B78251a5A6"
         }
-    ],
-    "expected": [
+      ],
+      "expected": [
         "10"
-    ]
-},{
-    "name": "second",
-    "inputs": [
+      ]
+    },
+    {
+      "name": "second",
+      "inputs": [
         {
-            "instance": "Main",
-            "method": "main",
-            "calldata": [
-                "3224423423",
-                "Storage.address"
-            ]
+          "instance": "Main",
+          "method": "main",
+          "calldata": [
+            "3224423423",
+            "Storage.address"
+          ],
+          "caller": "0xb3F1c0e392e120d0d4374444123F646557Cc99fc"
         }
-    ],
-    "expected": [
+      ],
+      "expected": [
         "6448846846"
-    ]
-} ],
-    "contracts": {
-        "Main": "main.sol:Main",
-        "Storage": "storage.sol:Storage"
+      ]
     }
+  ],
+  "contracts": {
+    "Main": "main.sol:Main",
+    "Storage": "storage.sol:Storage"
+  }
 }

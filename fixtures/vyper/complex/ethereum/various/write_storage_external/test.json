@@ -1,47 +1,54 @@
-{ "modes": [ "V >=0.4.0" ], "cases": [ {
-    "name": "default",
-    "inputs": [
+{
+  "modes": [
+    "V >=0.4.0"
+  ],
+  "cases": [
+    {
+      "name": "default",
+      "inputs": [
         {
-            "instance": "D",
-            "method": "#deployer",
-            "calldata": [
-                "C.address"
-            ],
-            "expected": [
-                "D.address"
-            ]
+          "instance": "D",
+          "method": "#deployer",
+          "calldata": [
+            "C.address"
+          ],
+          "expected": [
+            "D.address"
+          ],
+          "caller": "0x3506c45091ea5D89572a4B416A77759B78bb715d"
         },
         {
-            "instance": "D",
-            "method": "f",
-            "calldata": [
-            ],
-            "expected": [
-                "3"
-            ]
+          "instance": "D",
+          "method": "f",
+          "calldata": [],
+          "expected": [
+            "3"
+          ],
+          "caller": "0x3506c45091ea5D89572a4B416A77759B78bb715d"
         },
         {
-            "instance": "D",
-            "method": "g",
-            "calldata": [
-            ],
-            "expected": [
-                "8"
-            ]
+          "instance": "D",
+          "method": "g",
+          "calldata": [],
+          "expected": [
+            "8"
+          ],
+          "caller": "0x3506c45091ea5D89572a4B416A77759B78bb715d"
         },
         {
-            "instance": "D",
-            "method": "h",
-            "calldata": [
-            ]
+          "instance": "D",
+          "method": "h",
+          "calldata": [],
+          "caller": "0x3506c45091ea5D89572a4B416A77759B78bb715d"
         }
-    ],
-    "expected": [
+      ],
+      "expected": [
         "12"
-    ]
-} ],
-    "contracts": {
-        "C": "C.vy",
-        "D": "D.vy"
+      ]
     }
+  ],
+  "contracts": {
+    "C": "C.vy",
+    "D": "D.vy"
+  }
 }

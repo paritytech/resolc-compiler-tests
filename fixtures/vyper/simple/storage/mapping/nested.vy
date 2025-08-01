@@ -1,17 +1,27 @@
-#! { "modes": [ "V >=0.4.0" ], "cases": [ {
-#!     "name": "main",
-#!     "inputs": [
+#! {
+#!   "modes": [
+#!     "V >=0.4.0"
+#!   ],
+#!   "cases": [
+#!     {
+#!       "name": "main",
+#!       "inputs": [
 #!         {
-#!             "method": "main",
-#!             "calldata": [
-#!                 "100500", "999999", "16"
-#!             ]
+#!           "method": "main",
+#!           "calldata": [
+#!             "100500",
+#!             "999999",
+#!             "16"
+#!           ],
+#!           "caller": "0x5FB63677DDA2e44F7fA62cCf3777d2DD90FcbE99"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "64"
-#!     ]
-#! } ] }
+#!       ]
+#!     }
+#!   ]
+#! }
 
 data: HashMap[address, HashMap[address, uint256]]
 

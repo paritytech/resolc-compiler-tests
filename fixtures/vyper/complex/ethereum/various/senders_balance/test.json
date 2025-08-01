@@ -1,30 +1,37 @@
-{ "modes": [ "V >=0.4.0" ], "cases": [ {
-    "name": "default",
-    "inputs": [
+{
+  "modes": [
+    "V >=0.4.0"
+  ],
+  "cases": [
+    {
+      "name": "default",
+      "inputs": [
         {
-            "instance": "D",
-            "method": "#deployer",
-            "calldata": [
-                "C.address"
-            ],
-            "value": "27 wei",
-            "expected": [
-                "D.address"
-            ]
+          "instance": "D",
+          "method": "#deployer",
+          "calldata": [
+            "C.address"
+          ],
+          "value": "27 wei",
+          "expected": [
+            "D.address"
+          ],
+          "caller": "0x36EA90Cb5EEE57dC7CAEd7C7291f6FA171027023"
         },
         {
-            "instance": "D",
-            "method": "f",
-            "calldata": [
-            ]
+          "instance": "D",
+          "method": "f",
+          "calldata": [],
+          "caller": "0x36EA90Cb5EEE57dC7CAEd7C7291f6FA171027023"
         }
-    ],
-    "expected": [
+      ],
+      "expected": [
         "27"
-    ]
-} ],
-    "contracts": {
-        "C": "C.vy",
-        "D": "D.vy"
+      ]
     }
+  ],
+  "contracts": {
+    "C": "C.vy",
+    "D": "D.vy"
+  }
 }

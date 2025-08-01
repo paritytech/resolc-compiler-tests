@@ -1,21 +1,28 @@
-{ "modes": [ "V >=0.4.0" ], "cases": [ {
-    "name": "default",
-    "inputs": [
+{
+  "modes": [
+    "V >=0.4.0"
+  ],
+  "cases": [
+    {
+      "name": "default",
+      "inputs": [
         {
-            "instance": "Main",
-            "method": "f",
-            "calldata": [
-                "0x34",
-                "Helper.address"
-            ]
+          "instance": "Main",
+          "method": "f",
+          "calldata": [
+            "0x34",
+            "Helper.address"
+          ],
+          "caller": "0x4d791bDEAA6dfE06B18911B1BaeD6555d5E716E2"
         }
-    ],
-    "expected": [
+      ],
+      "expected": [
         "0x46bddb1178e94d7f2892ff5f366840eb658911794f2c3a44c450aa2c505186c1"
-    ]
-} ],
-    "contracts": {
-        "Helper": "Helper.vy",
-        "Main": "Main.vy"
+      ]
     }
+  ],
+  "contracts": {
+    "Helper": "Helper.vy",
+    "Main": "Main.vy"
+  }
 }

@@ -1,43 +1,55 @@
-#! { "modes": [ "V >=0.4.0" ], "cases": [ {
-#!     "name": "first",
-#!     "inputs": [
+#! {
+#!   "modes": [
+#!     "V >=0.4.0"
+#!   ],
+#!   "cases": [
+#!     {
+#!       "name": "first",
+#!       "inputs": [
 #!         {
-#!             "method": "main",
-#!             "calldata": [
-#!                 "42"
-#!             ]
+#!           "method": "main",
+#!           "calldata": [
+#!             "42"
+#!           ],
+#!           "caller": "0x24159844af462EEA9F9B7b91Ffd4d9391C2393F9"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "42"
-#!     ]
-#! }, {
-#!     "name": "second",
-#!     "inputs": [
+#!       ]
+#!     },
+#!     {
+#!       "name": "second",
+#!       "inputs": [
 #!         {
-#!             "method": "main",
-#!             "calldata": [
-#!                 "64"
-#!             ]
+#!           "method": "main",
+#!           "calldata": [
+#!             "64"
+#!           ],
+#!           "caller": "0x472CC821bF199e3aE412479Aa66c75098209E46F"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "64"
-#!     ]
-#! }, {
-#!     "name": "third",
-#!     "inputs": [
+#!       ]
+#!     },
+#!     {
+#!       "name": "third",
+#!       "inputs": [
 #!         {
-#!             "method": "main",
-#!             "calldata": [
-#!                 "65535"
-#!             ]
+#!           "method": "main",
+#!           "calldata": [
+#!             "65535"
+#!           ],
+#!           "caller": "0xfF3dD1EbED5e9607AB60C088f4b52ae0ed2a431a"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "65535"
-#!     ]
-#! } ] }
+#!       ]
+#!     }
+#!   ]
+#! }
 
 struct Data:
     a: uint256

@@ -1,43 +1,67 @@
-#! { "modes": [ "V <=0.3.10" ], "cases": [ {
-#!     "name": "noSolution",
-#!     "inputs": [
+#! {
+#!   "modes": [
+#!     "V <=0.3.10"
+#!   ],
+#!   "cases": [
+#!     {
+#!       "name": "noSolution",
+#!       "inputs": [
 #!         {
-#!             "method": "entry",
-#!             "calldata": [
-#!                 "1", "1", "1"
-#!             ]
+#!           "method": "entry",
+#!           "calldata": [
+#!             "1",
+#!             "1",
+#!             "1"
+#!           ],
+#!           "caller": "0x71633CDe3528D1a8726928e30F0C1aAbAF4C91fB"
 #!         }
-#!     ],
-#!     "expected": [
-#!         "0", "0", "0"
-#!     ]
-#! }, {
-#!     "name": "first",
-#!     "inputs": [
+#!       ],
+#!       "expected": [
+#!         "0",
+#!         "0",
+#!         "0"
+#!       ]
+#!     },
+#!     {
+#!       "name": "first",
+#!       "inputs": [
 #!         {
-#!             "method": "entry",
-#!             "calldata": [
-#!                 "2", "7", "4"
-#!             ]
+#!           "method": "entry",
+#!           "calldata": [
+#!             "2",
+#!             "7",
+#!             "4"
+#!           ],
+#!           "caller": "0x703E10F3a58C358a32897E3228d3e171A24D4197"
 #!         }
-#!     ],
-#!     "expected": [
-#!         "1", "278", "71"
-#!     ]
-#! }, {
-#!     "name": "second",
-#!     "inputs": [
+#!       ],
+#!       "expected": [
+#!         "1",
+#!         "278",
+#!         "71"
+#!       ]
+#!     },
+#!     {
+#!       "name": "second",
+#!       "inputs": [
 #!         {
-#!             "method": "entry",
-#!             "calldata": [
-#!                 "17", "29", "12"
-#!             ]
+#!           "method": "entry",
+#!           "calldata": [
+#!             "17",
+#!             "29",
+#!             "12"
+#!           ],
+#!           "caller": "0x511E90A813859D2c0a3c568f76Bc42408A701414"
 #!         }
-#!     ],
-#!     "expected": [
-#!         "1", "100", "70"
-#!     ]
-#! } ] }
+#!       ],
+#!       "expected": [
+#!         "1",
+#!         "100",
+#!         "70"
+#!       ]
+#!     }
+#!   ]
+#! }
 
 EPS: constant(uint256) = 10000000000
 PRECISION: constant(uint256) = 100

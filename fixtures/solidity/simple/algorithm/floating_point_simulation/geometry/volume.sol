@@ -1,56 +1,67 @@
-//! { "cases": [ {
-//!     "name": "cube1",
-//!     "inputs": [
+//! {
+//!   "cases": [
+//!     {
+//!       "name": "cube1",
+//!       "inputs": [
 //!         {
-//!             "method": "cube",
-//!             "calldata": [
-//!                 "3"
-//!             ]
+//!           "method": "cube",
+//!           "calldata": [
+//!             "3"
+//!           ],
+//!           "caller": "0xCFB548ebc4E9f94eEF757967B1AaFdE1480c0e6C"
 //!         }
-//!     ],
-//!     "expected": [
+//!       ],
+//!       "expected": [
 //!         "27"
-//!     ]
-//! }, {
-//!     "name": "cube2",
-//!     "inputs": [
+//!       ]
+//!     },
+//!     {
+//!       "name": "cube2",
+//!       "inputs": [
 //!         {
-//!             "method": "cube",
-//!             "calldata": [
-//!                 "312174"
-//!             ]
+//!           "method": "cube",
+//!           "calldata": [
+//!             "312174"
+//!           ],
+//!           "caller": "0x98959075215Be5Fb0c98D1F6C367FC970c72D94B"
 //!         }
-//!     ],
-//!     "expected": [
+//!       ],
+//!       "expected": [
 //!         "30422169911604024"
-//!     ]
-//! }, {
-//!     "name": "sphere1",
-//!     "inputs": [
+//!       ]
+//!     },
+//!     {
+//!       "name": "sphere1",
+//!       "inputs": [
 //!         {
-//!             "method": "sphere",
-//!             "calldata": [
-//!                 "7"
-//!             ]
+//!           "method": "sphere",
+//!           "calldata": [
+//!             "7"
+//!           ],
+//!           "caller": "0xd7212Ce9855329d2BE0d80016f16A61ca0bfF55C"
 //!         }
-//!     ],
-//!     "expected": [
+//!       ],
+//!       "expected": [
 //!         "143675"
-//!     ]
-//! }, {
-//!     "name": "sphere2",
-//!     "inputs": [
+//!       ]
+//!     },
+//!     {
+//!       "name": "sphere2",
+//!       "inputs": [
 //!         {
-//!             "method": "sphere",
-//!             "calldata": [
-//!                 "71249"
-//!             ]
+//!           "method": "sphere",
+//!           "calldata": [
+//!             "71249"
+//!           ],
+//!           "caller": "0xAa38361df21D06676e312Dc257e7eD495F455545"
 //!         }
-//!     ],
-//!     "expected": [
+//!       ],
+//!       "expected": [
 //!         "151504289520102405"
-//!     ]
-//! } ] }
+//!       ]
+//!     }
+//!   ]
+//! }
 
 // SPDX-License-Identifier: MIT
 

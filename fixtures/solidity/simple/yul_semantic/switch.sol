@@ -1,299 +1,372 @@
-//! { "cases": [ {
-//!     "name": "true_condition",
-//!     "inputs": [
+//! {
+//!   "cases": [
+//!     {
+//!       "name": "true_condition",
+//!       "inputs": [
 //!         {
-//!             "method": "true_condition",
-//!             "calldata": []
+//!           "method": "true_condition",
+//!           "calldata": [],
+//!           "caller": "0x82E288a294Aa12a73903dd9aad2fae00Cc301a69"
 //!         }
-//!     ],
-//!     "expected": {
+//!       ],
+//!       "expected": {
 //!         "return_data": [],
 //!         "events": [
-//!             {
-//!                 "topics": [],
-//!                 "values": [ "0xdeadbeef" ]
-//!             }
+//!           {
+//!             "topics": [],
+//!             "values": [
+//!               "0xdeadbeef"
+//!             ]
+//!           }
 //!         ]
-//!     }
-//! }, {
-//!     "name": "false_condition",
-//!     "inputs": [
+//!       }
+//!     },
+//!     {
+//!       "name": "false_condition",
+//!       "inputs": [
 //!         {
-//!             "method": "false_condition",
-//!             "calldata": []
+//!           "method": "false_condition",
+//!           "calldata": [],
+//!           "caller": "0xA4B26EB7BaC733B4d1f126147734d420cd3589B3"
 //!         }
-//!     ],
-//!     "expected": {
+//!       ],
+//!       "expected": {
 //!         "return_data": [],
 //!         "events": [
-//!             {
-//!                 "topics": [],
-//!                 "values": [ "0xdeadbeef01" ]
-//!             }
+//!           {
+//!             "topics": [],
+//!             "values": [
+//!               "0xdeadbeef01"
+//!             ]
+//!           }
 //!         ]
-//!     }
-//! }, {
-//!     "name": "string_condition",
-//!     "inputs": [
+//!       }
+//!     },
+//!     {
+//!       "name": "string_condition",
+//!       "inputs": [
 //!         {
-//!             "method": "string_condition",
-//!             "calldata": []
+//!           "method": "string_condition",
+//!           "calldata": [],
+//!           "caller": "0xa22863a5a7b6cc36B6c27b14D36eA0bea90c6a75"
 //!         }
-//!     ],
-//!     "expected": {
+//!       ],
+//!       "expected": {
 //!         "return_data": [],
 //!         "events": [
-//!             {
-//!                 "topics": [],
-//!                 "values": [ "0xdeadbeef02" ]
-//!             }
+//!           {
+//!             "topics": [],
+//!             "values": [
+//!               "0xdeadbeef02"
+//!             ]
+//!           }
 //!         ]
-//!     }
-//! }, {
-//!     "name": "empty_string_condition",
-//!     "inputs": [
+//!       }
+//!     },
+//!     {
+//!       "name": "empty_string_condition",
+//!       "inputs": [
 //!         {
-//!             "method": "empty_string_condition",
-//!             "calldata": []
+//!           "method": "empty_string_condition",
+//!           "calldata": [],
+//!           "caller": "0x2598119527D7867524a573980ae715a6f2D955DD"
 //!         }
-//!     ],
-//!     "expected": {
+//!       ],
+//!       "expected": {
 //!         "return_data": [],
 //!         "events": [
-//!             {
-//!                 "topics": [],
-//!                 "values": [ "0xdeadbeef03" ]
-//!             }
+//!           {
+//!             "topics": [],
+//!             "values": [
+//!               "0xdeadbeef03"
+//!             ]
+//!           }
 //!         ]
-//!     }
-//! }, {
-//!     "name": "zero_condition",
-//!     "inputs": [
+//!       }
+//!     },
+//!     {
+//!       "name": "zero_condition",
+//!       "inputs": [
 //!         {
-//!             "method": "zero_condition",
-//!             "calldata": []
+//!           "method": "zero_condition",
+//!           "calldata": [],
+//!           "caller": "0xAd1de6Fc72f288B44955A2b4186e49a4314cD41D"
 //!         }
-//!     ],
-//!     "expected": {
+//!       ],
+//!       "expected": {
 //!         "return_data": [],
 //!         "events": [
-//!             {
-//!                 "topics": [],
-//!                 "values": [ "0xdeadbeef04" ]
-//!             }
+//!           {
+//!             "topics": [],
+//!             "values": [
+//!               "0xdeadbeef04"
+//!             ]
+//!           }
 //!         ]
-//!     }
-//! }, {
-//!     "name": "one_condition",
-//!     "inputs": [
+//!       }
+//!     },
+//!     {
+//!       "name": "one_condition",
+//!       "inputs": [
 //!         {
-//!             "method": "one_condition",
-//!             "calldata": []
+//!           "method": "one_condition",
+//!           "calldata": [],
+//!           "caller": "0x7B44E64A029766972dcddbfa15aBD5098b32693A"
 //!         }
-//!     ],
-//!     "expected": {
+//!       ],
+//!       "expected": {
 //!         "return_data": [],
 //!         "events": [
-//!             {
-//!                 "topics": [],
-//!                 "values": [ "0xdeadbeef05" ]
-//!             }
+//!           {
+//!             "topics": [],
+//!             "values": [
+//!               "0xdeadbeef05"
+//!             ]
+//!           }
 //!         ]
-//!     }
-//! }, {
-//!     "name": "number_condition",
-//!     "inputs": [
+//!       }
+//!     },
+//!     {
+//!       "name": "number_condition",
+//!       "inputs": [
 //!         {
-//!             "method": "number_condition",
-//!             "calldata": []
+//!           "method": "number_condition",
+//!           "calldata": [],
+//!           "caller": "0x40a688d5390c0EadcD7ACfd13B8394f554F57f65"
 //!         }
-//!     ],
-//!     "expected": {
+//!       ],
+//!       "expected": {
 //!         "return_data": [],
 //!         "events": [
-//!             {
-//!                 "topics": [],
-//!                 "values": [ "0xdeadbeef06" ]
-//!             }
+//!           {
+//!             "topics": [],
+//!             "values": [
+//!               "0xdeadbeef06"
+//!             ]
+//!           }
 //!         ]
-//!     }
-//! }, {
-//!     "name": "runtime_condition",
-//!     "inputs": [
+//!       }
+//!     },
+//!     {
+//!       "name": "runtime_condition",
+//!       "inputs": [
 //!         {
-//!             "method": "runtime_condition",
-//!             "calldata": []
+//!           "method": "runtime_condition",
+//!           "calldata": [],
+//!           "caller": "0x38C9584F2e9DAEfC4B245D87637107919AAaACF4"
 //!         }
-//!     ],
-//!     "expected": {
+//!       ],
+//!       "expected": {
 //!         "return_data": [],
 //!         "events": [
-//!             {
-//!                 "topics": [],
-//!                 "values": [ "0xdeadbeef07" ]
-//!             }
+//!           {
+//!             "topics": [],
+//!             "values": [
+//!               "0xdeadbeef07"
+//!             ]
+//!           }
 //!         ]
-//!     }
-//! }, {
-//!     "name": "return_in_condition",
-//!     "inputs": [
+//!       }
+//!     },
+//!     {
+//!       "name": "return_in_condition",
+//!       "inputs": [
 //!         {
-//!             "method": "return_in_condition",
-//!             "calldata": []
+//!           "method": "return_in_condition",
+//!           "calldata": [],
+//!           "caller": "0x8079E24123aA4b34ebdA3bf1B353171496437BCb"
 //!         }
-//!     ],
-//!     "expected": [
+//!       ],
+//!       "expected": [
 //!         "0xdeadbeef08"
-//!     ]
-//! }, {
-//!     "name": "revert_in_condition",
-//!     "inputs": [
+//!       ]
+//!     },
+//!     {
+//!       "name": "revert_in_condition",
+//!       "inputs": [
 //!         {
-//!             "method": "revert_in_condition",
-//!             "calldata": []
+//!           "method": "revert_in_condition",
+//!           "calldata": [],
+//!           "caller": "0x7618D26CEE2d85e44eDf2A67035dd76581ED8BF3"
 //!         }
-//!     ],
-//!     "expected": {
+//!       ],
+//!       "expected": {
 //!         "exception": true,
-//!         "return_data": [ "0xdeadbeef09" ]
-//!     }
-//! }, {
-//!     "name": "return_in_case",
-//!     "inputs": [
-//!         {
-//!             "method": "return_in_case",
-//!             "calldata": []
-//!         }
-//!     ],
-//!     "expected": [
-//!         "0xdeadbeef0a"
-//!     ]
-//! }, {
-//!     "name": "revert_in_case",
-//!     "inputs": [
-//!         {
-//!             "method": "revert_in_case",
-//!             "calldata": []
-//!         }
-//!     ],
-//!     "expected": {
-//!         "exception": true,
-//!         "return_data": [ "0xdeadbeef0b" ]
-//!     }
-//! }, {
-//!     "name": "nested_switchs",
-//!     "inputs": [
-//!         {
-//!             "method": "nested_switchs",
-//!             "calldata": []
-//!         }
-//!     ],
-//!     "expected": [
-//!         "0xdeadbeef0c"
-//!     ]
-//! }, {
-//!     "name": "one_reachable_case",
-//!     "inputs": [
-//!         {
-//!             "method": "one_reachable_case",
-//!             "calldata": []
-//!         }
-//!     ],
-//!     "expected": [
-//!         "0xdeadbeef0d"
-//!     ]
-//! }, {
-//!     "name": "one_unreachable_case",
-//!     "inputs": [
-//!         {
-//!             "method": "one_unreachable_case",
-//!             "calldata": []
-//!         }
-//!     ],
-//!     "expected": [
-//!         "0xdeadbeef0e"
-//!     ]
-//! }, {
-//!     "name": "only_default_case",
-//!     "inputs": [
-//!         {
-//!             "method": "only_default_case",
-//!             "calldata": []
-//!         }
-//!     ],
-//!     "expected": [
-//!         "0xdeadbeef0f"
-//!     ]
-//! }, {
-//!     "name": "reachable_default_case",
-//!     "inputs": [
-//!         {
-//!             "method": "reachable_default_case",
-//!             "calldata": []
-//!         }
-//!     ],
-//!     "expected": [
-//!         "0xdeadbeef10"
-//!     ]
-//! }, {
-//!     "name": "unreachable_default_case",
-//!     "inputs": [
-//!         {
-//!             "method": "unreachable_default_case",
-//!             "calldata": []
-//!         }
-//!     ],
-//!     "expected": [
-//!         "0xdeadbeef11"
-//!     ]
-//! }, {
-//!     "name": "empty_default_case_condition_side_effect",
-//!     "inputs": [
-//!         {
-//!             "method": "empty_default_case_condition_side_effect",
-//!             "calldata": []
-//!         }
-//!     ],
-//!     "expected": [
-//!         "0xdeadbeef12"
-//!     ]
-//! }, {
-//!     "name": "many_cases",
-//!     "inputs": [
-//!         {
-//!             "method": "many_cases",
-//!             "calldata": []
-//!         }
-//!     ],
-//!     "expected": [
-//!         "0xdeadbeef13"
-//!     ]
-//! }, {
-//!     "name": "complex",
-//!     "inputs": [
-//!         {
-//!             "method": "complex",
-//!             "calldata": []
-//!         }
-//!     ],
-//!     "expected": {
-//!         "return_data": [ "0xdeadbeef04" ],
-//!         "events": [
-//!             {
-//!                 "topics": [],
-//!                 "values": [ "0xdeadbeef02" ]
-//!             },
-//!             {
-//!                 "topics": [],
-//!                 "values": [ "0xdeadbeef03" ]
-//!             },
-//!             {
-//!                 "topics": [],
-//!                 "values": [ "0xdeadbeef04" ]
-//!             }
+//!         "return_data": [
+//!           "0xdeadbeef09"
 //!         ]
+//!       }
+//!     },
+//!     {
+//!       "name": "return_in_case",
+//!       "inputs": [
+//!         {
+//!           "method": "return_in_case",
+//!           "calldata": [],
+//!           "caller": "0x60E581F0b56C4E9f0C6F6f35929c0Cd843603524"
+//!         }
+//!       ],
+//!       "expected": [
+//!         "0xdeadbeef0a"
+//!       ]
+//!     },
+//!     {
+//!       "name": "revert_in_case",
+//!       "inputs": [
+//!         {
+//!           "method": "revert_in_case",
+//!           "calldata": [],
+//!           "caller": "0xD4941dFfa82f3DebEFd33Cd70aA234C7CD8AB89e"
+//!         }
+//!       ],
+//!       "expected": {
+//!         "exception": true,
+//!         "return_data": [
+//!           "0xdeadbeef0b"
+//!         ]
+//!       }
+//!     },
+//!     {
+//!       "name": "nested_switchs",
+//!       "inputs": [
+//!         {
+//!           "method": "nested_switchs",
+//!           "calldata": [],
+//!           "caller": "0xB364a1b3679c94395d8350E04380F9208B504f31"
+//!         }
+//!       ],
+//!       "expected": [
+//!         "0xdeadbeef0c"
+//!       ]
+//!     },
+//!     {
+//!       "name": "one_reachable_case",
+//!       "inputs": [
+//!         {
+//!           "method": "one_reachable_case",
+//!           "calldata": [],
+//!           "caller": "0xDcd58648920870307449E61A3248E0Ba198a9109"
+//!         }
+//!       ],
+//!       "expected": [
+//!         "0xdeadbeef0d"
+//!       ]
+//!     },
+//!     {
+//!       "name": "one_unreachable_case",
+//!       "inputs": [
+//!         {
+//!           "method": "one_unreachable_case",
+//!           "calldata": [],
+//!           "caller": "0x1D1c48eeb003c8c9f420857c0c44179b7aFFe5B0"
+//!         }
+//!       ],
+//!       "expected": [
+//!         "0xdeadbeef0e"
+//!       ]
+//!     },
+//!     {
+//!       "name": "only_default_case",
+//!       "inputs": [
+//!         {
+//!           "method": "only_default_case",
+//!           "calldata": [],
+//!           "caller": "0x13a9bA00e0b5D6cbdbc03f044eEBAE59dC4A2687"
+//!         }
+//!       ],
+//!       "expected": [
+//!         "0xdeadbeef0f"
+//!       ]
+//!     },
+//!     {
+//!       "name": "reachable_default_case",
+//!       "inputs": [
+//!         {
+//!           "method": "reachable_default_case",
+//!           "calldata": [],
+//!           "caller": "0x78a71437F0cA2242714FE33E91CED83BD9c961e7"
+//!         }
+//!       ],
+//!       "expected": [
+//!         "0xdeadbeef10"
+//!       ]
+//!     },
+//!     {
+//!       "name": "unreachable_default_case",
+//!       "inputs": [
+//!         {
+//!           "method": "unreachable_default_case",
+//!           "calldata": [],
+//!           "caller": "0xDe9C8cedf1A89cCF036cD9FA3Ea025483Bf56893"
+//!         }
+//!       ],
+//!       "expected": [
+//!         "0xdeadbeef11"
+//!       ]
+//!     },
+//!     {
+//!       "name": "empty_default_case_condition_side_effect",
+//!       "inputs": [
+//!         {
+//!           "method": "empty_default_case_condition_side_effect",
+//!           "calldata": [],
+//!           "caller": "0x8FEEd266097002B90f81cEFFbcF995840B433a07"
+//!         }
+//!       ],
+//!       "expected": [
+//!         "0xdeadbeef12"
+//!       ]
+//!     },
+//!     {
+//!       "name": "many_cases",
+//!       "inputs": [
+//!         {
+//!           "method": "many_cases",
+//!           "calldata": [],
+//!           "caller": "0xe291C4d8328BfA04382Cf5c7e2B6C8e551e789B2"
+//!         }
+//!       ],
+//!       "expected": [
+//!         "0xdeadbeef13"
+//!       ]
+//!     },
+//!     {
+//!       "name": "complex",
+//!       "inputs": [
+//!         {
+//!           "method": "complex",
+//!           "calldata": [],
+//!           "caller": "0x4203dB665F812dc8d012D8e3902153d708D84655"
+//!         }
+//!       ],
+//!       "expected": {
+//!         "return_data": [
+//!           "0xdeadbeef04"
+//!         ],
+//!         "events": [
+//!           {
+//!             "topics": [],
+//!             "values": [
+//!               "0xdeadbeef02"
+//!             ]
+//!           },
+//!           {
+//!             "topics": [],
+//!             "values": [
+//!               "0xdeadbeef03"
+//!             ]
+//!           },
+//!           {
+//!             "topics": [],
+//!             "values": [
+//!               "0xdeadbeef04"
+//!             ]
+//!           }
+//!         ]
+//!       }
 //!     }
-//! } ] }
+//!   ]
+//! }
 
 // SPDX-License-Identifier: MIT
 

@@ -1,131 +1,151 @@
-{ "modes": [ "V <=0.3.10" ], "cases": [ {
-    "name": "simple",
-    "inputs": [
+{
+  "modes": [
+    "V <=0.3.10"
+  ],
+  "cases": [
+    {
+      "name": "simple",
+      "inputs": [
         {
-            "instance": "MyContract",
-            "method": "getCount",
-            "calldata": [
-                "Counter1.address"
-            ],
-            "expected": [
-                "0"
-            ]
+          "instance": "MyContract",
+          "method": "getCount",
+          "calldata": [
+            "Counter1.address"
+          ],
+          "expected": [
+            "0"
+          ],
+          "caller": "0x2638ecaB83a75F0eB1cd4AA0483c2e8541fF52a6"
         },
         {
-            "instance": "MyContract",
-            "method": "incrementCounter",
-            "calldata": [
-                "Counter1.address"
-            ]
+          "instance": "MyContract",
+          "method": "incrementCounter",
+          "calldata": [
+            "Counter1.address"
+          ],
+          "caller": "0x2638ecaB83a75F0eB1cd4AA0483c2e8541fF52a6"
         },
         {
-            "instance": "MyContract",
-            "method": "getCount",
-            "calldata": [
-                "Counter1.address"
-            ],
-            "expected": [
-                "1"
-            ]
+          "instance": "MyContract",
+          "method": "getCount",
+          "calldata": [
+            "Counter1.address"
+          ],
+          "expected": [
+            "1"
+          ],
+          "caller": "0x2638ecaB83a75F0eB1cd4AA0483c2e8541fF52a6"
         },
         {
-            "instance": "MyContract",
-            "method": "incrementCounter",
-            "calldata": [
-                "Counter1.address"
-            ]
+          "instance": "MyContract",
+          "method": "incrementCounter",
+          "calldata": [
+            "Counter1.address"
+          ],
+          "caller": "0x2638ecaB83a75F0eB1cd4AA0483c2e8541fF52a6"
         },
         {
-            "instance": "MyContract",
-            "method": "incrementCounter",
-            "calldata": [
-                "Counter1.address"
-            ]
+          "instance": "MyContract",
+          "method": "incrementCounter",
+          "calldata": [
+            "Counter1.address"
+          ],
+          "caller": "0x2638ecaB83a75F0eB1cd4AA0483c2e8541fF52a6"
         },
         {
-            "instance": "MyContract",
-            "method": "getCount",
-            "calldata": [
-                "Counter1.address"
-            ],
-            "expected": [
-                "3"
-            ]
+          "instance": "MyContract",
+          "method": "getCount",
+          "calldata": [
+            "Counter1.address"
+          ],
+          "expected": [
+            "3"
+          ],
+          "caller": "0x2638ecaB83a75F0eB1cd4AA0483c2e8541fF52a6"
         }
-    ],
-    "expected": [
+      ],
+      "expected": [
         "3"
-    ]
-}, {
-    "name": "two_counters",
-    "inputs": [
+      ]
+    },
+    {
+      "name": "two_counters",
+      "inputs": [
         {
-            "instance": "MyContract",
-            "method": "getCount",
-            "calldata": [
-                "Counter1.address"
-            ],
-            "expected": [
-                "0"
-            ]
+          "instance": "MyContract",
+          "method": "getCount",
+          "calldata": [
+            "Counter1.address"
+          ],
+          "expected": [
+            "0"
+          ],
+          "caller": "0xCA93312B284d3F3D64e687368Db1F185e0e3DcA6"
         },
         {
-            "instance": "MyContract",
-            "method": "getCount",
-            "calldata": [
-                "Counter2.address"
-            ],
-            "expected": [
-                "0"
-            ]
+          "instance": "MyContract",
+          "method": "getCount",
+          "calldata": [
+            "Counter2.address"
+          ],
+          "expected": [
+            "0"
+          ],
+          "caller": "0xCA93312B284d3F3D64e687368Db1F185e0e3DcA6"
         },
         {
-            "instance": "MyContract",
-            "method": "incrementCounter",
-            "calldata": [
-                "Counter1.address"
-            ]
+          "instance": "MyContract",
+          "method": "incrementCounter",
+          "calldata": [
+            "Counter1.address"
+          ],
+          "caller": "0xCA93312B284d3F3D64e687368Db1F185e0e3DcA6"
         },
         {
-            "instance": "MyContract",
-            "method": "incrementCounter",
-            "calldata": [
-                "Counter2.address"
-            ]
+          "instance": "MyContract",
+          "method": "incrementCounter",
+          "calldata": [
+            "Counter2.address"
+          ],
+          "caller": "0xCA93312B284d3F3D64e687368Db1F185e0e3DcA6"
         },
         {
-            "instance": "MyContract",
-            "method": "incrementCounter",
-            "calldata": [
-                "Counter1.address"
-            ]
+          "instance": "MyContract",
+          "method": "incrementCounter",
+          "calldata": [
+            "Counter1.address"
+          ],
+          "caller": "0xCA93312B284d3F3D64e687368Db1F185e0e3DcA6"
         },
         {
-            "instance": "MyContract",
-            "method": "getCount",
-            "calldata": [
-                "Counter1.address"
-            ],
-            "expected": [
-                "2"
-            ]
+          "instance": "MyContract",
+          "method": "getCount",
+          "calldata": [
+            "Counter1.address"
+          ],
+          "expected": [
+            "2"
+          ],
+          "caller": "0xCA93312B284d3F3D64e687368Db1F185e0e3DcA6"
         },
         {
-            "instance": "MyContract",
-            "method": "getCount",
-            "calldata": [
-                "Counter2.address"
-            ]
+          "instance": "MyContract",
+          "method": "getCount",
+          "calldata": [
+            "Counter2.address"
+          ],
+          "caller": "0xCA93312B284d3F3D64e687368Db1F185e0e3DcA6"
         }
-    ],
-    "expected": [
+      ],
+      "expected": [
         "1"
-    ]
-} ],
-    "contracts": {
-        "MyContract": "my_contract.vy",
-        "Counter1": "counter.vy",
-        "Counter2": "counter.vy",
-        "Main": "main.vy"
+      ]
     }
+  ],
+  "contracts": {
+    "MyContract": "my_contract.vy",
+    "Counter1": "counter.vy",
+    "Counter2": "counter.vy",
+    "Main": "main.vy"
+  }
 }

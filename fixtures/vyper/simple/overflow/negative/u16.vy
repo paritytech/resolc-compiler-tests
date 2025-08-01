@@ -1,18 +1,26 @@
-#! { "modes": [ "V >=0.4.0" ], "cases": [ {
-#!     "name": "default",
-#!     "inputs": [
+#! {
+#!   "modes": [
+#!     "V >=0.4.0"
+#!   ],
+#!   "cases": [
+#!     {
+#!       "name": "default",
+#!       "inputs": [
 #!         {
-#!             "method": "main",
-#!             "calldata": [
-#!                 "0"
-#!             ]
+#!           "method": "main",
+#!           "calldata": [
+#!             "0"
+#!           ],
+#!           "caller": "0xa7C5e5589171633D678fEDddC7a1541C74442c9A"
 #!         }
-#!     ],
-#!     "expected": {
+#!       ],
+#!       "expected": {
 #!         "return_data": [],
 #!         "exception": true
+#!       }
 #!     }
-#! } ] }
+#!   ]
+#! }
 
 @external
 @pure

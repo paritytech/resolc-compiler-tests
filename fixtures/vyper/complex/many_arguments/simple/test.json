@@ -1,36 +1,59 @@
-{ "modes": [ "V >=0.4.0" ], "cases": [ {
-    "name": "first",
-    "inputs": [
+{
+  "modes": [
+    "V >=0.4.0"
+  ],
+  "cases": [
+    {
+      "name": "first",
+      "inputs": [
         {
-            "instance": "Main",
-            "method": "main",
-            "calldata": [
-                "12", "24", "123", "54", "76", "78", "122", "100",
-                "Callable.address"
-            ]
+          "instance": "Main",
+          "method": "main",
+          "calldata": [
+            "12",
+            "24",
+            "123",
+            "54",
+            "76",
+            "78",
+            "122",
+            "100",
+            "Callable.address"
+          ],
+          "caller": "0x8E04014925856564A81Bd115aC6Eb7Eaa857B2Cd"
         }
-    ],
-    "expected": [
+      ],
+      "expected": [
         "1178"
-    ]
-}, {
-    "name": "second",
-    "inputs": [
+      ]
+    },
+    {
+      "name": "second",
+      "inputs": [
         {
-            "instance": "Main",
-            "method": "main",
-            "calldata": [
-                "89459845", "8433", "0", "12200", "76", "1", "255", "1000000",
-                "Callable.address"
-            ]
+          "instance": "Main",
+          "method": "main",
+          "calldata": [
+            "89459845",
+            "8433",
+            "0",
+            "12200",
+            "76",
+            "1",
+            "255",
+            "1000000",
+            "Callable.address"
+          ],
+          "caller": "0xB2C2ca598e15401f1186E17F517dEEccC3Fc1173"
         }
-    ],
-    "expected": [
+      ],
+      "expected": [
         "180961620"
-    ]
-} ],
-    "contracts": {
-        "Main": "main.vy",
-        "Callable": "callable.vy"
+      ]
     }
+  ],
+  "contracts": {
+    "Main": "main.vy",
+    "Callable": "callable.vy"
+  }
 }

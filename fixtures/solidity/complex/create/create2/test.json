@@ -1,19 +1,23 @@
-{ "cases": [ {
-    "name": "entry",
-    "inputs": [
+{
+  "cases": [
+    {
+      "name": "entry",
+      "inputs": [
         {
-            "instance": "Main",
-            "method": "main",
-            "calldata": [
-                "0x3123e234234"
-            ]
+          "instance": "Main",
+          "method": "main",
+          "calldata": [
+            "0x3123e234234"
+          ],
+          "caller": "0x1A8f1413951bE55f99C3F972D92752295873eFb5"
         }
-    ],
-    "expected": [
+      ],
+      "expected": [
         "10"
-    ]
-} ],
-    "contracts": {
-        "Main": "main.sol:Main"
+      ]
     }
+  ],
+  "contracts": {
+    "Main": "main.sol:Main"
+  }
 }

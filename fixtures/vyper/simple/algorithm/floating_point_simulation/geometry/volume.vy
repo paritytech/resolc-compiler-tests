@@ -1,56 +1,70 @@
-#! { "modes": [ "V >=0.4.0" ], "cases": [ {
-#!     "name": "cube1",
-#!     "inputs": [
+#! {
+#!   "modes": [
+#!     "V >=0.4.0"
+#!   ],
+#!   "cases": [
+#!     {
+#!       "name": "cube1",
+#!       "inputs": [
 #!         {
-#!             "method": "cube",
-#!             "calldata": [
-#!                 "3"
-#!             ]
+#!           "method": "cube",
+#!           "calldata": [
+#!             "3"
+#!           ],
+#!           "caller": "0x196c32AE2148244dBB653c2c513132fFDcc1f49b"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "27"
-#!     ]
-#! }, {
-#!     "name": "cube2",
-#!     "inputs": [
+#!       ]
+#!     },
+#!     {
+#!       "name": "cube2",
+#!       "inputs": [
 #!         {
-#!             "method": "cube",
-#!             "calldata": [
-#!                 "312174"
-#!             ]
+#!           "method": "cube",
+#!           "calldata": [
+#!             "312174"
+#!           ],
+#!           "caller": "0xDc46106BCd77eD8B1E9d98Ada5a45D66EbCd0355"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "30422169911604024"
-#!     ]
-#! }, {
-#!     "name": "sphere1",
-#!     "inputs": [
+#!       ]
+#!     },
+#!     {
+#!       "name": "sphere1",
+#!       "inputs": [
 #!         {
-#!             "method": "sphere",
-#!             "calldata": [
-#!                 "7"
-#!             ]
+#!           "method": "sphere",
+#!           "calldata": [
+#!             "7"
+#!           ],
+#!           "caller": "0x3d7a515b7A2bacD774bAa6e5edc7e3D15cdEBE9A"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "143675"
-#!     ]
-#! }, {
-#!     "name": "sphere2",
-#!     "inputs": [
+#!       ]
+#!     },
+#!     {
+#!       "name": "sphere2",
+#!       "inputs": [
 #!         {
-#!             "method": "sphere",
-#!             "calldata": [
-#!                 "71249"
-#!             ]
+#!           "method": "sphere",
+#!           "calldata": [
+#!             "71249"
+#!           ],
+#!           "caller": "0xa1AFF09894741A0533B299081b80C92Ba45BA20A"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "151504289520102405"
-#!     ]
-#! } ] }
+#!       ]
+#!     }
+#!   ]
+#! }
 
 EPS: constant(uint256) = 1000000
 # PI * EPS^3

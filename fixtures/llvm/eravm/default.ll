@@ -1,16 +1,20 @@
-;! { "cases": [ {
-;!     "name": "default",
-;!     "inputs": [
+;! {
+;!   "cases": [
+;!     {
+;!       "name": "default",
+;!       "inputs": [
 ;!         {
-;!             "method": "#fallback",
-;!             "calldata": [
-;!             ]
+;!           "method": "#fallback",
+;!           "calldata": [],
+;!           "caller": "0x859D497Cfd71CC3658BAD2C23B51E30EdAc8ebFc"
 ;!         }
-;!     ],
-;!     "expected": [
+;!       ],
+;!       "expected": [
 ;!         "42"
-;!     ]
-;! } ] }
+;!       ]
+;!     }
+;!   ]
+;! }
 
 ; ModuleID = 'main'
 source_filename = "main"

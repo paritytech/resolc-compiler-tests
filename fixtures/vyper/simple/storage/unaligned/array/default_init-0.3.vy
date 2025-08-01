@@ -1,17 +1,25 @@
-#! { "modes": [ "V <=0.3.10" ], "cases": [ {
-#!     "name": "f",
-#!     "inputs": [
+#! {
+#!   "modes": [
+#!     "V <=0.3.10"
+#!   ],
+#!   "cases": [
+#!     {
+#!       "name": "f",
+#!       "inputs": [
 #!         {
-#!             "method": "f",
-#!             "calldata": [
-#!                 "1"
-#!             ]
+#!           "method": "f",
+#!           "calldata": [
+#!             "1"
+#!           ],
+#!           "caller": "0x1E5c337d734ce371dC9325B31627AC83eB7F0A4c"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "1"
-#!     ]
-#! } ] }
+#!       ]
+#!     }
+#!   ]
+#! }
 
 # Report https://linear.app/matterlabs/issue/CPR-583/book-cypher-minimization-issue-with-comparison-uint8-array-element
 

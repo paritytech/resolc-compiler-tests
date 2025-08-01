@@ -1,21 +1,28 @@
-{ "modes": [ "V >=0.4.0" ], "cases": [ {
-    "name": "default",
-    "inputs": [
+{
+  "modes": [
+    "V >=0.4.0"
+  ],
+  "cases": [
+    {
+      "name": "default",
+      "inputs": [
         {
-            "instance": "C",
-            "method": "f",
-            "calldata": [
-                "B3.address"
-            ],
-            "value": "2000 ETH"
+          "instance": "C",
+          "method": "f",
+          "calldata": [
+            "B3.address"
+          ],
+          "value": "2000 ETH",
+          "caller": "0xA26Ce76c1bBD76f3B22921623A81Ac47e9558824"
         }
-    ],
-    "expected": [
+      ],
+      "expected": [
         "1"
-    ]
-} ],
-    "contracts": {
-        "C": "C.vy",
-        "B3": "B3.vy"
+      ]
     }
+  ],
+  "contracts": {
+    "C": "C.vy",
+    "B3": "B3.vy"
+  }
 }

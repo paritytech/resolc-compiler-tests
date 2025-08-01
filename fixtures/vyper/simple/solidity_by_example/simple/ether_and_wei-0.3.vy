@@ -1,52 +1,62 @@
-#! { "modes": [ "V <=0.3.10" ], "cases": [ {
-#!     "name": "oneWei",
-#!     "inputs": [
+#! {
+#!   "modes": [
+#!     "V <=0.3.10"
+#!   ],
+#!   "cases": [
+#!     {
+#!       "name": "oneWei",
+#!       "inputs": [
 #!         {
-#!             "method": "oneWei",
-#!             "calldata": [
-#!             ]
+#!           "method": "oneWei",
+#!           "calldata": [],
+#!           "caller": "0x5C3DEaE203601cfC89c8413E2c074D339536d5b0"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "1"
-#!     ]
-#! }, {
-#!     "name": "isOneWei",
-#!     "inputs": [
+#!       ]
+#!     },
+#!     {
+#!       "name": "isOneWei",
+#!       "inputs": [
 #!         {
-#!             "method": "isOneWei",
-#!             "calldata": [
-#!             ]
+#!           "method": "isOneWei",
+#!           "calldata": [],
+#!           "caller": "0x2CcFe2b4db44134A51796020641341Ee84211584"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "1"
-#!     ]
-#! }, {
-#!     "name": "oneEther",
-#!     "inputs": [
+#!       ]
+#!     },
+#!     {
+#!       "name": "oneEther",
+#!       "inputs": [
 #!         {
-#!             "method": "oneEther",
-#!             "calldata": [
-#!             ]
+#!           "method": "oneEther",
+#!           "calldata": [],
+#!           "caller": "0x438F7D532C678075399920b4198F40DC97f36341"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "1000000000000000000"
-#!     ]
-#! }, {
-#!     "name": "isOneEther",
-#!     "inputs": [
+#!       ]
+#!     },
+#!     {
+#!       "name": "isOneEther",
+#!       "inputs": [
 #!         {
-#!             "method": "isOneEther",
-#!             "calldata": [
-#!             ]
+#!           "method": "isOneEther",
+#!           "calldata": [],
+#!           "caller": "0xaF67d036E8E56af28af0F4e9808059C811990b40"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "1"
-#!     ]
-#! } ] }
+#!       ]
+#!     }
+#!   ]
+#! }
 
 oneWei: public(uint256)
 # 1 wei is equal to 1

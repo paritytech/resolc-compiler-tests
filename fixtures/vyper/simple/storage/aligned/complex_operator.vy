@@ -1,20 +1,32 @@
-#! { "modes": [ "V >=0.4.0" ], "cases": [ {
-#!     "name": "main",
-#!     "inputs": [
+#! {
+#!   "modes": [
+#!     "V >=0.4.0"
+#!   ],
+#!   "cases": [
+#!     {
+#!       "name": "main",
+#!       "inputs": [
 #!         {
-#!             "method": "main",
-#!             "calldata": [
-#!                 "16"
-#!             ],
-#!             "storage": { "Test.address": [
-#!                 "3", "5", "2"
-#!             ] }
+#!           "method": "main",
+#!           "calldata": [
+#!             "16"
+#!           ],
+#!           "storage": {
+#!             "Test.address": [
+#!               "3",
+#!               "5",
+#!               "2"
+#!             ]
+#!           },
+#!           "caller": "0x549a767e21F2D775A6f8527C74e92294Be3410A4"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "81"
-#!     ]
-#! } ] }
+#!       ]
+#!     }
+#!   ]
+#! }
 
 field_1: uint256
 field_2: uint256

@@ -1,36 +1,56 @@
-{ "cases": [ {
-    "name": "first",
-    "inputs": [
+{
+  "cases": [
+    {
+      "name": "first",
+      "inputs": [
         {
-            "instance": "Main",
-            "method": "main",
-            "calldata": [
-                "12", "24", "123", "54", "76", "78", "122", "100",
-                "Callable.address"
-            ]
+          "instance": "Main",
+          "method": "main",
+          "calldata": [
+            "12",
+            "24",
+            "123",
+            "54",
+            "76",
+            "78",
+            "122",
+            "100",
+            "Callable.address"
+          ],
+          "caller": "0x3081293931f594141cc620fb6857fFba12C54daF"
         }
-    ],
-    "expected": [
+      ],
+      "expected": [
         "1178"
-    ]
-}, {
-    "name": "second",
-    "inputs": [
+      ]
+    },
+    {
+      "name": "second",
+      "inputs": [
         {
-            "instance": "Main",
-            "method": "main",
-            "calldata": [
-                "89459845", "8433", "0", "12200", "76", "1", "255", "1000000",
-                "Callable.address"
-            ]
+          "instance": "Main",
+          "method": "main",
+          "calldata": [
+            "89459845",
+            "8433",
+            "0",
+            "12200",
+            "76",
+            "1",
+            "255",
+            "1000000",
+            "Callable.address"
+          ],
+          "caller": "0xD00DE12129d38A8969A2A27F5b048c852E34d7d0"
         }
-    ],
-    "expected": [
+      ],
+      "expected": [
         "180961620"
-    ]
-} ],
-    "contracts": {
-        "Main": "main.sol:Main",
-        "Callable": "callable.sol:Callable"
+      ]
     }
+  ],
+  "contracts": {
+    "Main": "main.sol:Main",
+    "Callable": "callable.sol:Callable"
+  }
 }

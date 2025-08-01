@@ -1,60 +1,90 @@
-#! { "modes": [ "V >=0.4.0" ], "cases": [ {
-#!     "name": "distancePoint1",
-#!     "inputs": [
+#! {
+#!   "modes": [
+#!     "V >=0.4.0"
+#!   ],
+#!   "cases": [
+#!     {
+#!       "name": "distancePoint1",
+#!       "inputs": [
 #!         {
-#!             "method": "distancePointEntry",
-#!             "calldata": [
-#!                 "7", "4", "10",
-#!                 "5", "1"
-#!             ]
+#!           "method": "distancePointEntry",
+#!           "calldata": [
+#!             "7",
+#!             "4",
+#!             "10",
+#!             "5",
+#!             "1"
+#!           ],
+#!           "caller": "0x28c9d84e9bDb5b45687E7868e34052F6668bd235"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "607"
-#!     ]
-#! }, {
-#!     "name": "distancePoint2",
-#!     "inputs": [
+#!       ]
+#!     },
+#!     {
+#!       "name": "distancePoint2",
+#!       "inputs": [
 #!         {
-#!             "method": "distancePointEntry",
-#!             "calldata": [
-#!                 "2117", "443", "1021",
-#!                 "5123", "145"
-#!             ]
+#!           "method": "distancePointEntry",
+#!           "calldata": [
+#!             "2117",
+#!             "443",
+#!             "1021",
+#!             "5123",
+#!             "145"
+#!           ],
+#!           "caller": "0xdc0dFB7c607268a2D566A1fc8Aa684A0F81dB435"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "504455"
-#!     ]
-#! }, {
-#!     "name": "intersectionPoint1",
-#!     "inputs": [
+#!       ]
+#!     },
+#!     {
+#!       "name": "intersectionPoint1",
+#!       "inputs": [
 #!         {
-#!             "method": "intersectionPoint",
-#!             "calldata": [
-#!                 "1", "1", "0",
-#!                 "1", "1", "2"
-#!             ]
+#!           "method": "intersectionPoint",
+#!           "calldata": [
+#!             "1",
+#!             "1",
+#!             "0",
+#!             "1",
+#!             "1",
+#!             "2"
+#!           ],
+#!           "caller": "0x25f5FC878175771c881c659349Efcbf6860eB841"
 #!         }
-#!     ],
-#!     "expected": [
-#!         "100", "100"
-#!     ]
-#! }, {
-#!     "name": "intersectionPoint2",
-#!     "inputs": [
+#!       ],
+#!       "expected": [
+#!         "100",
+#!         "100"
+#!       ]
+#!     },
+#!     {
+#!       "name": "intersectionPoint2",
+#!       "inputs": [
 #!         {
-#!             "method": "intersectionPoint",
-#!             "calldata": [
-#!                 "121", "17", "123",
-#!                 "912", "123", "2133"
-#!             ]
+#!           "method": "intersectionPoint",
+#!           "calldata": [
+#!             "121",
+#!             "17",
+#!             "123",
+#!             "912",
+#!             "123",
+#!             "2133"
+#!           ],
+#!           "caller": "0xC7DE0602cE51d63Af92e4EFBD753691089d13645"
 #!         }
-#!     ],
-#!     "expected": [
-#!         "69", "1218"
-#!     ]
-#! } ] }
+#!       ],
+#!       "expected": [
+#!         "69",
+#!         "1218"
+#!       ]
+#!     }
+#!   ]
+#! }
 
 EPS: constant(uint256) = 1000000
 PRECISION: constant(uint256) = 100

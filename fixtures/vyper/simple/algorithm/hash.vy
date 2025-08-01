@@ -1,16 +1,23 @@
-#! { "modes": [ "V >=0.4.0" ], "cases": [ {
-#!     "name": "complex",
-#!     "inputs": [
+#! {
+#!   "modes": [
+#!     "V >=0.4.0"
+#!   ],
+#!   "cases": [
+#!     {
+#!       "name": "complex",
+#!       "inputs": [
 #!         {
-#!             "method": "complex",
-#!             "calldata": [
-#!             ]
+#!           "method": "complex",
+#!           "calldata": [],
+#!           "caller": "0x7aAdc378bD2A17E95e5ec4Df1fE5D59840b77365"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "1"
-#!     ]
-#! } ] }
+#!       ]
+#!     }
+#!   ]
+#! }
 
 ARRAY_SIZE: constant(uint8) = 40
 P: constant(uint256) = 257

@@ -1,4 +1,6 @@
-#! { "cases": [] }
+#! {
+#!   "cases": []
+#! }
 
 @external
 @pure

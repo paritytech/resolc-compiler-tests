@@ -1,52 +1,63 @@
-//! { "modes": [ "Y", "E" ], "cases": [ {
-//!     "name": "bitcoin",
-//!     "inputs": [
+//! {
+//!   "modes": [
+//!     "Y",
+//!     "E"
+//!   ],
+//!   "cases": [
+//!     {
+//!       "name": "bitcoin",
+//!       "inputs": [
 //!         {
-//!             "method": "bitcoin",
-//!             "calldata": [
-//!             ]
+//!           "method": "bitcoin",
+//!           "calldata": [],
+//!           "caller": "0xa4580C1eBb76e1c7Ae80725a80F032bD93dC3487"
 //!         }
-//!     ],
-//!     "expected": [
+//!       ],
+//!       "expected": [
 //!         "1"
-//!     ]
-//! }, {
-//!     "name": "ethereum",
-//!     "inputs": [
+//!       ]
+//!     },
+//!     {
+//!       "name": "ethereum",
+//!       "inputs": [
 //!         {
-//!             "method": "ethereum",
-//!             "calldata": [
-//!             ]
+//!           "method": "ethereum",
+//!           "calldata": [],
+//!           "caller": "0x38dD5d19Bd03bf855C73c0a0a1bEb34bb8f6F878"
 //!         }
-//!     ],
-//!     "expected": [
+//!       ],
+//!       "expected": [
 //!         "10"
-//!     ]
-//! }, {
-//!     "name": "litecoin",
-//!     "inputs": [
+//!       ]
+//!     },
+//!     {
+//!       "name": "litecoin",
+//!       "inputs": [
 //!         {
-//!             "method": "litecoin",
-//!             "calldata": [
-//!             ]
+//!           "method": "litecoin",
+//!           "calldata": [],
+//!           "caller": "0x542947cE62186c70973dD5030a008E79655047A2"
 //!         }
-//!     ],
-//!     "expected": [
+//!       ],
+//!       "expected": [
 //!         "50"
-//!     ]
-//! }, {
-//!     "name": "zcash",
-//!     "inputs": [
+//!       ]
+//!     },
+//!     {
+//!       "name": "zcash",
+//!       "inputs": [
 //!         {
-//!             "method": "zcash",
-//!             "calldata": [
-//!             ]
+//!           "method": "zcash",
+//!           "calldata": [],
+//!           "caller": "0x09FbcB5bf2E60531E2beE3AD54817e6Cd4C455da"
 //!         }
-//!     ],
-//!     "expected": [
+//!       ],
+//!       "expected": [
 //!         "100"
-//!     ]
-//! } ] }
+//!       ]
+//!     }
+//!   ]
+//! }
 
 // SPDX-License-Identifier: MIT
 

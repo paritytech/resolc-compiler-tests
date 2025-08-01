@@ -1,40 +1,49 @@
-#! { "modes": [ "V <=0.3.10" ], "cases": [ {
-#!     "name": "array_2d",
-#!     "inputs": [
+#! {
+#!   "modes": [
+#!     "V <=0.3.10"
+#!   ],
+#!   "cases": [
+#!     {
+#!       "name": "array_2d",
+#!       "inputs": [
 #!         {
-#!             "method": "array_2d",
-#!             "calldata": [
-#!             ]
+#!           "method": "array_2d",
+#!           "calldata": [],
+#!           "caller": "0x64380e9F3d19D03Ca4fE3c52ff0c9B9DD889611E"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "1"
-#!     ]
-#! }, {
-#!     "name": "array_3d",
-#!     "inputs": [
+#!       ]
+#!     },
+#!     {
+#!       "name": "array_3d",
+#!       "inputs": [
 #!         {
-#!             "method": "array_3d",
-#!             "calldata": [
-#!             ]
+#!           "method": "array_3d",
+#!           "calldata": [],
+#!           "caller": "0x0757916869785D566c5Ba02be70793BFD0C99CC8"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "1"
-#!     ]
-#! }, {
-#!     "name": "array_4d",
-#!     "inputs": [
+#!       ]
+#!     },
+#!     {
+#!       "name": "array_4d",
+#!       "inputs": [
 #!         {
-#!             "method": "array_4d",
-#!             "calldata": [
-#!             ]
+#!           "method": "array_4d",
+#!           "calldata": [],
+#!           "caller": "0x920E0Ec461726FcAE06af86C2f0CB2B562D4dfB8"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "1"
-#!     ]
-#! } ] }
+#!       ]
+#!     }
+#!   ]
+#! }
 
 ARRAY_SIZE_2D: constant(uint8) = 8
 ARRAY_SIZE_3D: constant(uint8) = 3

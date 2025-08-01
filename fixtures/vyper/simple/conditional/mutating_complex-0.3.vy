@@ -1,30 +1,46 @@
-#! { "modes": [ "V <=0.3.10" ], "cases": [ {
-#!     "name": "conditionTrue",
-#!     "inputs": [
+#! {
+#!   "modes": [
+#!     "V <=0.3.10"
+#!   ],
+#!   "cases": [
+#!     {
+#!       "name": "conditionTrue",
+#!       "inputs": [
 #!         {
-#!             "method": "main",
-#!             "calldata": [
-#!                 "0", "0", "0", "1"
-#!             ]
+#!           "method": "main",
+#!           "calldata": [
+#!             "0",
+#!             "0",
+#!             "0",
+#!             "1"
+#!           ],
+#!           "caller": "0xcEA7D2a365466047969Cd1C628d1490964890009"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "1000256"
-#!     ]
-#! }, {
-#!     "name": "conditionFalse",
-#!     "inputs": [
+#!       ]
+#!     },
+#!     {
+#!       "name": "conditionFalse",
+#!       "inputs": [
 #!         {
-#!             "method": "main",
-#!             "calldata": [
-#!                 "0", "0", "0", "0"
-#!             ]
+#!           "method": "main",
+#!           "calldata": [
+#!             "0",
+#!             "0",
+#!             "0",
+#!             "0"
+#!           ],
+#!           "caller": "0x9F6Ad6875D49B902c47187A015B67C11BAAdd68D"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "0"
-#!     ]
-#! } ] }
+#!       ]
+#!     }
+#!   ]
+#! }
 
 struct Data:
     a: bool

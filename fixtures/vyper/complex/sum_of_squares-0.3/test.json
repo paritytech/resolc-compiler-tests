@@ -1,51 +1,62 @@
-{ "modes": [ "V <=0.3.10" ], "cases": [ {
-    "name": "one",
-    "inputs": [
+{
+  "modes": [
+    "V <=0.3.10"
+  ],
+  "cases": [
+    {
+      "name": "one",
+      "inputs": [
         {
-            "instance": "Main",
-            "method": "main",
-            "calldata": [
-                "1",
-                "Square.address"
-            ]
+          "instance": "Main",
+          "method": "main",
+          "calldata": [
+            "1",
+            "Square.address"
+          ],
+          "caller": "0x3686303Dd82cF19c89fA697fc1B41A73fE1169E1"
         }
-    ],
-    "expected": [
+      ],
+      "expected": [
         "1"
-    ]
-}, {
-    "name": "fifteen",
-    "inputs": [
+      ]
+    },
+    {
+      "name": "fifteen",
+      "inputs": [
         {
-            "instance": "Main",
-            "method": "main",
-            "calldata": [
-                "15",
-                "Square.address"
-            ]
+          "instance": "Main",
+          "method": "main",
+          "calldata": [
+            "15",
+            "Square.address"
+          ],
+          "caller": "0x8CAc34D4EF0F4e63348477286d12D0c3a6936120"
         }
-    ],
-    "expected": [
+      ],
+      "expected": [
         "1240"
-    ]
-}, {
-    "name": "hundred",
-    "inputs": [
+      ]
+    },
+    {
+      "name": "hundred",
+      "inputs": [
         {
-            "instance": "Main",
-            "method": "main",
-            "calldata": [
-                "100",
-                "Square.address"
-            ]
+          "instance": "Main",
+          "method": "main",
+          "calldata": [
+            "100",
+            "Square.address"
+          ],
+          "caller": "0x4d907DD7Bf27AcbE6b5FFBdA3cCf8DdF4e319b73"
         }
-    ],
-    "expected": [
+      ],
+      "expected": [
         "338350"
-    ]
-} ],
-    "contracts": {
-        "Main": "main.vy",
-        "Square": "square.vy"
+      ]
     }
+  ],
+  "contracts": {
+    "Main": "main.vy",
+    "Square": "square.vy"
+  }
 }

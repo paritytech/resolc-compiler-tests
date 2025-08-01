@@ -1,17 +1,25 @@
-#! { "modes": [ "V >=0.4.0" ], "cases": [ {
-#!     "name": "default",
-#!     "inputs": [
+#! {
+#!   "modes": [
+#!     "V >=0.4.0"
+#!   ],
+#!   "cases": [
+#!     {
+#!       "name": "default",
+#!       "inputs": [
 #!         {
-#!             "method": "foo",
-#!             "calldata": [
-#!                 "10"
-#!             ]
+#!           "method": "foo",
+#!           "calldata": [
+#!             "10"
+#!           ],
+#!           "caller": "0x43AF294b5c8eB16b236Dc9d301aCf8b87745913b"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "15"
-#!     ]
-#! } ] }
+#!       ]
+#!     }
+#!   ]
+#! }
 
 @external
 def foo(stop: uint256) -> uint256:

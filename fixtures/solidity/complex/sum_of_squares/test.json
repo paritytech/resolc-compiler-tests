@@ -1,51 +1,59 @@
-{ "cases": [ {
-    "name": "one",
-    "inputs": [
+{
+  "cases": [
+    {
+      "name": "one",
+      "inputs": [
         {
-            "instance": "Main",
-            "method": "main",
-            "calldata": [
-                "1",
-                "Square.address"
-            ]
+          "instance": "Main",
+          "method": "main",
+          "calldata": [
+            "1",
+            "Square.address"
+          ],
+          "caller": "0xE09Ef460C185A9c3DA860C3E8425b990eF7e031d"
         }
-    ],
-    "expected": [
+      ],
+      "expected": [
         "1"
-    ]
-}, {
-    "name": "fifteen",
-    "inputs": [
+      ]
+    },
+    {
+      "name": "fifteen",
+      "inputs": [
         {
-            "instance": "Main",
-            "method": "main",
-            "calldata": [
-                "15",
-                "Square.address"
-            ]
+          "instance": "Main",
+          "method": "main",
+          "calldata": [
+            "15",
+            "Square.address"
+          ],
+          "caller": "0x57A8d0d01837fe05f4e727DbbD88B6380d6bB72B"
         }
-    ],
-    "expected": [
+      ],
+      "expected": [
         "1240"
-    ]
-}, {
-    "name": "hundred",
-    "inputs": [
+      ]
+    },
+    {
+      "name": "hundred",
+      "inputs": [
         {
-            "instance": "Main",
-            "method": "main",
-            "calldata": [
-                "100",
-                "Square.address"
-            ]
+          "instance": "Main",
+          "method": "main",
+          "calldata": [
+            "100",
+            "Square.address"
+          ],
+          "caller": "0xf6C2bBCc6C5FF6EBFE31D978dA1Fa6216Cf33FaF"
         }
-    ],
-    "expected": [
+      ],
+      "expected": [
         "338350"
-    ]
-} ],
-    "contracts": {
-        "Main": "main.sol:Main",
-        "Square": "square.sol:Square"
+      ]
     }
+  ],
+  "contracts": {
+    "Main": "main.sol:Main",
+    "Square": "square.sol:Square"
+  }
 }

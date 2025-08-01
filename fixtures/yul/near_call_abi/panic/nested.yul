@@ -1,31 +1,44 @@
-//! { "targets": [ "eravm" ], "cases": [ {
-//!     "name": "failure",
-//!     "inputs": [
+//! {
+//!   "targets": [
+//!     "eravm"
+//!   ],
+//!   "cases": [
+//!     {
+//!       "name": "failure",
+//!       "inputs": [
 //!         {
-//!             "method": "#fallback",
-//!             "calldata": [
-//!                 "11", "12", "1"
-//!             ]
+//!           "method": "#fallback",
+//!           "calldata": [
+//!             "11",
+//!             "12",
+//!             "1"
+//!           ],
+//!           "caller": "0x702B1E972fE11B34148287785d76928F9a9c3A76"
 //!         }
-//!     ],
-//!     "expected": [
+//!       ],
+//!       "expected": [
 //!         "0"
-//!     ]
-//! }, {
-//!     "name": "success",
-//!     "inputs": [
+//!       ]
+//!     },
+//!     {
+//!       "name": "success",
+//!       "inputs": [
 //!         {
-//!             "method": "#fallback",
-//!             "calldata": [
-//!                 "12", "12", "0"
-//!             ]
+//!           "method": "#fallback",
+//!           "calldata": [
+//!             "12",
+//!             "12",
+//!             "0"
+//!           ],
+//!           "caller": "0x222c1424ad90a40B505Be6dF879189668984a9C8"
 //!         }
-//!     ],
-//!     "expected": [
+//!       ],
+//!       "expected": [
 //!         "777"
-//!     ]
-//! } ],
-//! "enable_eravm_extensions": true
+//!       ]
+//!     }
+//!   ],
+//!   "enable_eravm_extensions": true
 //! }
 
 object "Test" {

@@ -1,24 +1,28 @@
-//! { "cases": [ {
-//!     "name": "default",
-//!     "inputs": [
+//! {
+//!   "cases": [
+//!     {
+//!       "name": "default",
+//!       "inputs": [
 //!         {
-//!             "method": "#fallback",
-//!             "calldata": [
-//!                 "0x111111111"
-//!             ]
+//!           "method": "#fallback",
+//!           "calldata": [
+//!             "0x111111111"
+//!           ],
+//!           "caller": "0x11DCdD111E4eF4982bDcA1b33A4Cfa45baD6CFcD"
 //!         }
-//!     ],
-//!     "expected": {
-//!         "return_data": [
-//!         ],
+//!       ],
+//!       "expected": {
+//!         "return_data": [],
 //!         "events": [
-//!             {
-//!                 "topics": [],
-//!                 "values": []
-//!             }
+//!           {
+//!             "topics": [],
+//!             "values": []
+//!           }
 //!         ]
+//!       }
 //!     }
-//! } ] }
+//!   ]
+//! }
 
 object "Test" {
     code {

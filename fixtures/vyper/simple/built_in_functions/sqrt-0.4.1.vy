@@ -1,30 +1,40 @@
-#! { "modes": [ "V >=0.4.0,<=0.4.1" ], "cases": [ {
-#!     "name": "first",
-#!     "inputs": [
+#! {
+#!   "modes": [
+#!     "V >=0.4.0,<=0.4.1"
+#!   ],
+#!   "cases": [
+#!     {
+#!       "name": "first",
+#!       "inputs": [
 #!         {
-#!             "method": "main",
-#!             "calldata": [
-#!                  "2"
-#!             ]
+#!           "method": "main",
+#!           "calldata": [
+#!             "2"
+#!           ],
+#!           "caller": "0x205F80409a73980CA851cA2660Db06Af9B0bb01b"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "141421"
-#!     ]
-#! }, {
-#!     "name": "second",
-#!     "inputs": [
+#!       ]
+#!     },
+#!     {
+#!       "name": "second",
+#!       "inputs": [
 #!         {
-#!             "method": "main",
-#!             "calldata": [
-#!                  "56473894349834"
-#!             ]
+#!           "method": "main",
+#!           "calldata": [
+#!             "56473894349834"
+#!           ],
+#!           "caller": "0x01A962a528383fAa5e70bEa1fD32A3514a287403"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "751491146653"
-#!     ]
-#! } ] }
+#!       ]
+#!     }
+#!   ]
+#! }
 
 # pragma enable-decimals
 

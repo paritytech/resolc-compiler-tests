@@ -1,43 +1,52 @@
-{ "modes": [ "V >=0.4.0" ], "cases": [ {
-    "name": "entry",
-    "inputs": [
+{
+  "modes": [
+    "V >=0.4.0"
+  ],
+  "cases": [
+    {
+      "name": "entry",
+      "inputs": [
         {
-            "instance": "Main",
-            "method": "main",
-            "calldata": [
-                "Callable.address",
-                "3"
-            ],
-            "expected": [
-                "10"
-            ]
+          "instance": "Main",
+          "method": "main",
+          "calldata": [
+            "Callable.address",
+            "3"
+          ],
+          "expected": [
+            "10"
+          ],
+          "caller": "0x315D2249123AD42D2a15DF92F4aeA1bc0bab69f0"
         },
         {
-            "instance": "Main",
-            "method": "main",
-            "calldata": [
-                "Callable.address",
-                "-1"
-            ],
-            "expected": [
-                "10"
-            ]
+          "instance": "Main",
+          "method": "main",
+          "calldata": [
+            "Callable.address",
+            "-1"
+          ],
+          "expected": [
+            "10"
+          ],
+          "caller": "0x315D2249123AD42D2a15DF92F4aeA1bc0bab69f0"
         },
         {
-            "instance": "Main",
-            "method": "main",
-            "calldata": [
-                "Callable.address",
-                "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
-            ]
+          "instance": "Main",
+          "method": "main",
+          "calldata": [
+            "Callable.address",
+            "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+          ],
+          "caller": "0x315D2249123AD42D2a15DF92F4aeA1bc0bab69f0"
         }
-    ],
-    "expected": [
+      ],
+      "expected": [
         "10"
-    ]
-} ],
-    "contracts": {
-        "Main": "main.vy",
-        "Callable": "callable.vy"
+      ]
     }
+  ],
+  "contracts": {
+    "Main": "main.vy",
+    "Callable": "callable.vy"
+  }
 }

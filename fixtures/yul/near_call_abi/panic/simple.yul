@@ -1,31 +1,44 @@
-//! { "targets": [ "eravm" ], "cases": [ {
-//!     "name": "failure",
-//!     "inputs": [
+//! {
+//!   "targets": [
+//!     "eravm"
+//!   ],
+//!   "cases": [
+//!     {
+//!       "name": "failure",
+//!       "inputs": [
 //!         {
-//!             "method": "#fallback",
-//!             "calldata": [
-//!                 "11", "12", "1"
-//!             ]
+//!           "method": "#fallback",
+//!           "calldata": [
+//!             "11",
+//!             "12",
+//!             "1"
+//!           ],
+//!           "caller": "0x254D2bce17CFEa551cB3D8DC476fAE854aF0d2E5"
 //!         }
-//!     ],
-//!     "expected": [
+//!       ],
+//!       "expected": [
 //!         "666"
-//!     ]
-//! }, {
-//!     "name": "success",
-//!     "inputs": [
+//!       ]
+//!     },
+//!     {
+//!       "name": "success",
+//!       "inputs": [
 //!         {
-//!             "method": "#fallback",
-//!             "calldata": [
-//!                 "12", "12", "0"
-//!             ]
+//!           "method": "#fallback",
+//!           "calldata": [
+//!             "12",
+//!             "12",
+//!             "0"
+//!           ],
+//!           "caller": "0xC6dD525848DC78C017D958Ee385a81DBd3dd05d1"
 //!         }
-//!     ],
-//!     "expected": [
+//!       ],
+//!       "expected": [
 //!         "777"
-//!     ]
-//! } ],
-//! "enable_eravm_extensions": true
+//!       ]
+//!     }
+//!   ],
+//!   "enable_eravm_extensions": true
 //! }
 
 object "Test" {

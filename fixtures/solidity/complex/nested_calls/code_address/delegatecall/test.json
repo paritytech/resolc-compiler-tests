@@ -1,25 +1,32 @@
 {
-    "targets": [ "eravm" ], "modes": [ "Y" ], "cases": [
+  "targets": [
+    "eravm"
+  ],
+  "modes": [
+    "Y"
+  ],
+  "cases": [
+    {
+      "name": "default",
+      "inputs": [
         {
-            "name": "default",
-            "inputs": [
-                {
-                    "instance": "Main",
-                    "method": "main",
-                    "calldata": [
-                        "TestContract.address"
-                    ]
-                }
-            ],
-            "expected": [
-                "Main.address",
-                "TestContract.address"
-            ]
+          "instance": "Main",
+          "method": "main",
+          "calldata": [
+            "TestContract.address"
+          ],
+          "caller": "0x91a227409691A9860A674625ae42eeb661cb6d7a"
         }
-    ],
-    "contracts": {
-        "Main": "Main.sol:Main",
-        "TestContract": "TestContract.sol:TestContract"
-    },
-    "enable_eravm_extensions": true
+      ],
+      "expected": [
+        "Main.address",
+        "TestContract.address"
+      ]
+    }
+  ],
+  "contracts": {
+    "Main": "Main.sol:Main",
+    "TestContract": "TestContract.sol:TestContract"
+  },
+  "enable_eravm_extensions": true
 }

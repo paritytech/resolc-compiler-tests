@@ -1,31 +1,41 @@
-//! { "modes": [ "Y", "E" ], "cases": [ {
-//!     "name": "f",
-//!     "inputs": [
+//! {
+//!   "modes": [
+//!     "Y",
+//!     "E"
+//!   ],
+//!   "cases": [
+//!     {
+//!       "name": "f",
+//!       "inputs": [
 //!         {
-//!             "method": "f",
-//!             "calldata": [
-//!                 "1"
-//!             ]
+//!           "method": "f",
+//!           "calldata": [
+//!             "1"
+//!           ],
+//!           "caller": "0x76c4e439E7897e6682dFFd840fc850698fd0fedE"
 //!         }
-//!     ],
-//!     "expected": [
+//!       ],
+//!       "expected": [
 //!         "10"
-//!     ]
-//! }, {
-//!     "name": "g",
-//!     "inputs": [
+//!       ]
+//!     },
+//!     {
+//!       "name": "g",
+//!       "inputs": [
 //!         {
-//!             "method": "g",
-//!             "calldata": [
-//!                 "1"
-//!             ]
+//!           "method": "g",
+//!           "calldata": [
+//!             "1"
+//!           ],
+//!           "caller": "0xFABf61F35B426B99fBb6a8265C417B0b5Fc6C800"
 //!         }
-//!     ],
-//!     "expected": [
+//!       ],
+//!       "expected": [
 //!         "12"
-//!     ]
-//!   }
-//! ] }
+//!       ]
+//!     }
+//!   ]
+//! }
 
 // `virtual` and `override` were added in v0.6.0.
 pragma solidity >=0.6.0;

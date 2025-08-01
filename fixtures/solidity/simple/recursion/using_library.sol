@@ -1,18 +1,26 @@
-//! { "modes": [ "Y", "E" ], "cases": [ {
-//!     "name": "f",
-//!     "inputs": [
+//! {
+//!   "modes": [
+//!     "Y",
+//!     "E"
+//!   ],
+//!   "cases": [
+//!     {
+//!       "name": "f",
+//!       "inputs": [
 //!         {
-//!             "method": "f",
-//!             "calldata": [
-//!                 "1"
-//!             ]
+//!           "method": "f",
+//!           "calldata": [
+//!             "1"
+//!           ],
+//!           "caller": "0xE9Af759c1594bAEe0E33EEE57B42B3ffCec63081"
 //!         }
-//!     ],
-//!     "expected": [
+//!       ],
+//!       "expected": [
 //!         "4"
-//!     ]
-//!   }
-//! ] }
+//!       ]
+//!     }
+//!   ]
+//! }
 
 pragma solidity >=0.4.12;
 

@@ -1,44 +1,50 @@
-{ "modes": [ "V <=0.3.10" ], "cases": [
+{
+  "modes": [
+    "V <=0.3.10"
+  ],
+  "cases": [
+    {
+      "name": "zero",
+      "inputs": [
         {
-            "name": "zero",
-            "inputs": [
-                {
-                    "instance": "First",
-                    "method": "main",
-                    "calldata": [
-                        "Second.address",
-                        "Third.address",
-                        "0"
-                    ],
-                    "value": "10 ETH"
-                }
-            ],
-            "expected": [
-                "0"
-            ]
-        },
-        {
-            "name": "non_zero",
-            "inputs": [
-                {
-                    "instance": "First",
-                    "method": "main",
-                    "calldata": [
-                        "Second.address",
-                        "Third.address",
-                        "1312312"
-                    ],
-                    "value": "3735928559 wei"
-                }
-            ],
-            "expected": [
-                "1312312"
-            ]
+          "instance": "First",
+          "method": "main",
+          "calldata": [
+            "Second.address",
+            "Third.address",
+            "0"
+          ],
+          "value": "10 ETH",
+          "caller": "0x52D85F3D7779D10902869Be4A6B67a2FDc42e89F"
         }
-    ],
-    "contracts": {
-        "First": "First.vy",
-        "Second": "Second.vy",
-        "Third": "Third.vy"
+      ],
+      "expected": [
+        "0"
+      ]
+    },
+    {
+      "name": "non_zero",
+      "inputs": [
+        {
+          "instance": "First",
+          "method": "main",
+          "calldata": [
+            "Second.address",
+            "Third.address",
+            "1312312"
+          ],
+          "value": "3735928559 wei",
+          "caller": "0x65c81125D9C35550F574547372214d7980C48770"
+        }
+      ],
+      "expected": [
+        "1312312"
+      ]
     }
+  ],
+  "contracts": {
+    "First": "First.vy",
+    "Second": "Second.vy",
+    "Third": "Third.vy"
+  }
 }

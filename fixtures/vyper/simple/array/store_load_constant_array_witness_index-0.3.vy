@@ -1,56 +1,70 @@
-#! { "modes": [ "V <=0.3.10" ], "cases": [ {
-#!     "name": "element1",
-#!     "inputs": [
+#! {
+#!   "modes": [
+#!     "V <=0.3.10"
+#!   ],
+#!   "cases": [
+#!     {
+#!       "name": "element1",
+#!       "inputs": [
 #!         {
-#!             "method": "main",
-#!             "calldata": [
-#!                 "0"
-#!             ]
+#!           "method": "main",
+#!           "calldata": [
+#!             "0"
+#!           ],
+#!           "caller": "0xa909Bf25Cb05A69C53C1852F2bb6627E443F3C94"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "1"
-#!     ]
-#! }, {
-#!     "name": "element2",
-#!     "inputs": [
+#!       ]
+#!     },
+#!     {
+#!       "name": "element2",
+#!       "inputs": [
 #!         {
-#!             "method": "main",
-#!             "calldata": [
-#!                 "1"
-#!             ]
+#!           "method": "main",
+#!           "calldata": [
+#!             "1"
+#!           ],
+#!           "caller": "0xf72F9508e845b0FCc4356Af0b33E1858C53a0F92"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "2"
-#!     ]
-#! }, {
-#!     "name": "element3",
-#!     "inputs": [
+#!       ]
+#!     },
+#!     {
+#!       "name": "element3",
+#!       "inputs": [
 #!         {
-#!             "method": "main",
-#!             "calldata": [
-#!                 "2"
-#!             ]
+#!           "method": "main",
+#!           "calldata": [
+#!             "2"
+#!           ],
+#!           "caller": "0x808150A33ed3aB19aDbDFD035f9fe8D090759aC2"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "3"
-#!     ]
-#! }, {
-#!     "name": "element4",
-#!     "inputs": [
+#!       ]
+#!     },
+#!     {
+#!       "name": "element4",
+#!       "inputs": [
 #!         {
-#!             "method": "main",
-#!             "calldata": [
-#!                 "3"
-#!             ]
+#!           "method": "main",
+#!           "calldata": [
+#!             "3"
+#!           ],
+#!           "caller": "0xC550Eee6d7Ca1abf9Bb99097782589130498E11e"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "4"
-#!     ]
-#! } ] }
+#!       ]
+#!     }
+#!   ]
+#! }
 
 SIZE: constant(uint8) = 4
 

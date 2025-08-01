@@ -1,64 +1,75 @@
-;! { "cases": [ {
-;!     "name": "pos_pos",
-;!     "inputs": [
+;! {
+;!   "cases": [
+;!     {
+;!       "name": "pos_pos",
+;!       "inputs": [
 ;!         {
-;!             "method": "#fallback",
-;!             "calldata": [
-;!                "42",
-;!                "7"
-;!             ]
+;!           "method": "#fallback",
+;!           "calldata": [
+;!             "42",
+;!             "7"
+;!           ],
+;!           "caller": "0x9bE64d4bFE09722Ac99d404fEe69A3A259B4B90b"
 ;!         }
-;!     ],
-;!     "expected": [
-;!         "6",  
+;!       ],
+;!       "expected": [
+;!         "6",
 ;!         "0"
-;!     ]
-;! }, {
-;!     "name": "zero_pos",
-;!     "inputs": [
+;!       ]
+;!     },
+;!     {
+;!       "name": "zero_pos",
+;!       "inputs": [
 ;!         {
-;!             "method": "#fallback",
-;!             "calldata": [
-;!                "0",
-;!                "17"
-;!             ]
+;!           "method": "#fallback",
+;!           "calldata": [
+;!             "0",
+;!             "17"
+;!           ],
+;!           "caller": "0x93f6b5AB8E72ef75F536554112845e2dac39D648"
 ;!         }
-;!     ],
-;!     "expected": [
+;!       ],
+;!       "expected": [
 ;!         "0",
 ;!         "0"
-;!     ]
-;! }, {
-;!     "name": "max_max",
-;!     "inputs": [
+;!       ]
+;!     },
+;!     {
+;!       "name": "max_max",
+;!       "inputs": [
 ;!         {
-;!             "method": "#fallback",
-;!             "calldata": [
-;!                "255",
-;!                "255"
-;!             ]
+;!           "method": "#fallback",
+;!           "calldata": [
+;!             "255",
+;!             "255"
+;!           ],
+;!           "caller": "0x1e2d80C184c1deE55466FbEbc850d08e09Fc1cec"
 ;!         }
-;!     ],
-;!     "expected": [
+;!       ],
+;!       "expected": [
 ;!         "1",
 ;!         "0"
-;!     ]
-;! }, {
-;!     "name": "max_one",
-;!     "inputs": [
+;!       ]
+;!     },
+;!     {
+;!       "name": "max_one",
+;!       "inputs": [
 ;!         {
-;!             "method": "#fallback",
-;!             "calldata": [
-;!                "255",
-;!                "1"
-;!             ]
+;!           "method": "#fallback",
+;!           "calldata": [
+;!             "255",
+;!             "1"
+;!           ],
+;!           "caller": "0x62867Da1C0E29F0E7974E9D2e6E3B6AA06DAcEFd"
 ;!         }
-;!     ],
-;!     "expected": [
+;!       ],
+;!       "expected": [
 ;!         "255",
 ;!         "0"
-;!     ]
-;! } ] }
+;!       ]
+;!     }
+;!   ]
+;! }
 
 ; ModuleID = 'main'
 source_filename = "main"

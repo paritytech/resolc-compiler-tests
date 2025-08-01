@@ -1,30 +1,39 @@
-//! { "cases": [ {
-//!     "name": "zero",
-//!     "inputs": [
+//! {
+//!   "cases": [
+//!     {
+//!       "name": "zero",
+//!       "inputs": [
 //!         {
-//!             "method": "#fallback",
-//!             "calldata": [
-//!                 "-1000", "0"
-//!             ]
+//!           "method": "#fallback",
+//!           "calldata": [
+//!             "-1000",
+//!             "0"
+//!           ],
+//!           "caller": "0x92090bf29a3Ea122c5F26777E2803a8FD6F1134e"
 //!         }
-//!     ],
-//!     "expected": [
+//!       ],
+//!       "expected": [
 //!         "-1000"
-//!     ]
-//! }, {
-//!     "name": "one",
-//!     "inputs": [
+//!       ]
+//!     },
+//!     {
+//!       "name": "one",
+//!       "inputs": [
 //!         {
-//!             "method": "#fallback",
-//!             "calldata": [
-//!                 "-1000", "1"
-//!             ]
+//!           "method": "#fallback",
+//!           "calldata": [
+//!             "-1000",
+//!             "1"
+//!           ],
+//!           "caller": "0xcd5C11cfb324167f1D5BbfC8c81DDEa19E8575D1"
 //!         }
-//!     ],
-//!     "expected": [
+//!       ],
+//!       "expected": [
 //!         "-500"
-//!     ]
-//! } ] }
+//!       ]
+//!     }
+//!   ]
+//! }
 
 object "Test" {
     code {

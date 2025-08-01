@@ -1,42 +1,51 @@
-{ "modes": [ "V >=0.4.0" ], "cases": [ {
-    "name": "default",
-    "inputs": [
+{
+  "modes": [
+    "V >=0.4.0"
+  ],
+  "cases": [
+    {
+      "name": "default",
+      "inputs": [
         {
-            "instance": "D",
-            "method": "f",
-            "calldata": [
-                "C.address"
-            ],
-            "expected": [
-                "0x1"
-            ]
+          "instance": "D",
+          "method": "f",
+          "calldata": [
+            "C.address"
+          ],
+          "expected": [
+            "0x1"
+          ],
+          "caller": "0x0F75C61888c4E7e347F6bc0Df2a1A588d5743505"
         },
         {
-            "instance": "D",
-            "method": "fview",
-            "calldata": [
-                "C.address"
-            ],
-            "expected": {
-                "exception": true,
-                "return_data": []
-            }
+          "instance": "D",
+          "method": "fview",
+          "calldata": [
+            "C.address"
+          ],
+          "expected": {
+            "exception": true,
+            "return_data": []
+          },
+          "caller": "0x0F75C61888c4E7e347F6bc0Df2a1A588d5743505"
         },
         {
-            "instance": "D",
-            "method": "fpure",
-            "calldata": [
-                "C.address"
-            ]
+          "instance": "D",
+          "method": "fpure",
+          "calldata": [
+            "C.address"
+          ],
+          "caller": "0x0F75C61888c4E7e347F6bc0Df2a1A588d5743505"
         }
-    ],
-    "expected": {
+      ],
+      "expected": {
         "exception": true,
         "return_data": []
+      }
     }
-} ],
-    "contracts": {
-        "C": "C.vy",
-        "D": "D.vy"
-    }
+  ],
+  "contracts": {
+    "C": "C.vy",
+    "D": "D.vy"
+  }
 }

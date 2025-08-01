@@ -1,18 +1,23 @@
-;! { "cases": [ {
-;!     "name": "gcd",
-;!     "inputs": [
+;! {
+;!   "cases": [
+;!     {
+;!       "name": "gcd",
+;!       "inputs": [
 ;!         {
-;!             "method": "#fallback",
-;!             "calldata": [
-;!                 "0",
-;!                 "0xDE"
-;!             ]
+;!           "method": "#fallback",
+;!           "calldata": [
+;!             "0",
+;!             "0xDE"
+;!           ],
+;!           "caller": "0xc85640afb166dBeaa7a1cc550437136f6F1442Ee"
 ;!         }
-;!     ],
-;!     "expected": [
+;!       ],
+;!       "expected": [
 ;!         "0xDE"
-;!     ]
-;! } ] }
+;!       ]
+;!     }
+;!   ]
+;! }
 
 
 target datalayout = "E-p:256:256-i256:256:256-S256-a:256:256"

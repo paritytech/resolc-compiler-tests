@@ -1,45 +1,47 @@
 {
-    "cases": [
+  "cases": [
+    {
+      "name": "zero",
+      "inputs": [
         {
-            "name": "zero",
-            "inputs": [
-                {
-                    "instance": "First",
-                    "method": "main",
-                    "calldata": [
-                        "Second.address",
-                        "Third.address",
-                        "0"
-                    ],
-                    "value": "10 ETH"
-                }
-            ],
-            "expected": [
-                "0"
-            ]
-        },
-        {
-            "name": "non_zero",
-            "inputs": [
-                {
-                    "instance": "First",
-                    "method": "main",
-                    "calldata": [
-                        "Second.address",
-                        "Third.address",
-                        "1312312"
-                    ],
-                    "value": "3735928559 wei"
-                }
-            ],
-            "expected": [
-                "1312312"
-            ]
+          "instance": "First",
+          "method": "main",
+          "calldata": [
+            "Second.address",
+            "Third.address",
+            "0"
+          ],
+          "value": "10 ETH",
+          "caller": "0x671D4980940BB97373d43a3842e40247fbdC5889"
         }
-    ],
-    "contracts": {
-        "First": "First.sol:First",
-        "Second": "Second.sol:Second",
-        "Third": "Third.sol:Third"
+      ],
+      "expected": [
+        "0"
+      ]
+    },
+    {
+      "name": "non_zero",
+      "inputs": [
+        {
+          "instance": "First",
+          "method": "main",
+          "calldata": [
+            "Second.address",
+            "Third.address",
+            "1312312"
+          ],
+          "value": "3735928559 wei",
+          "caller": "0xC387f5EA84D3FB4dF543794b6039Fd636de2dd4C"
+        }
+      ],
+      "expected": [
+        "1312312"
+      ]
     }
+  ],
+  "contracts": {
+    "First": "First.sol:First",
+    "Second": "Second.sol:Second",
+    "Third": "Third.sol:Third"
+  }
 }

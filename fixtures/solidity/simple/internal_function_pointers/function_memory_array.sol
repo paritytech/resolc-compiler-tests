@@ -1,52 +1,90 @@
-//! { "cases": [ {
-//!     "name": "default",
-//!     "inputs": [
-//!         {
-//!             "method": "test",
-//!             "calldata": [ "10", "0" ],
-//!             "expected": [ "11" ]
-//!         },
-//!         {
-//!             "method": "test",
-//!             "calldata": [ "10", "1" ],
-//!             "expected": [ "12" ]
-//!         },
-//!         {
-//!             "method": "test",
-//!             "calldata": [ "10", "2" ],
-//!             "expected": [ "13" ]
-//!         },
-//!         {
-//!             "method": "test",
-//!             "calldata": [ "10", "3" ],
-//!             "expected": [ "15" ]
-//!         },
-//!         {
-//!             "method": "test",
-//!             "calldata": [ "10", "4" ],
-//!             "expected": [ "18" ]
-//!         },
-//!         {
-//!             "method": "test",
-//!             "calldata": [ "10", "5" ]
-//!         }
-//!     ],
-//!     "expected": [
+//! {
+//!   "cases": [
 //!     {
-//!         "compiler_version": ">=0.8",
-//!         "return_data": [
+//!       "name": "default",
+//!       "inputs": [
+//!         {
+//!           "method": "test",
+//!           "calldata": [
+//!             "10",
+//!             "0"
+//!           ],
+//!           "expected": [
+//!             "11"
+//!           ],
+//!           "caller": "0x50c9DdC16E355522950BcA553F56b410E3194812"
+//!         },
+//!         {
+//!           "method": "test",
+//!           "calldata": [
+//!             "10",
+//!             "1"
+//!           ],
+//!           "expected": [
+//!             "12"
+//!           ],
+//!           "caller": "0x50c9DdC16E355522950BcA553F56b410E3194812"
+//!         },
+//!         {
+//!           "method": "test",
+//!           "calldata": [
+//!             "10",
+//!             "2"
+//!           ],
+//!           "expected": [
+//!             "13"
+//!           ],
+//!           "caller": "0x50c9DdC16E355522950BcA553F56b410E3194812"
+//!         },
+//!         {
+//!           "method": "test",
+//!           "calldata": [
+//!             "10",
+//!             "3"
+//!           ],
+//!           "expected": [
+//!             "15"
+//!           ],
+//!           "caller": "0x50c9DdC16E355522950BcA553F56b410E3194812"
+//!         },
+//!         {
+//!           "method": "test",
+//!           "calldata": [
+//!             "10",
+//!             "4"
+//!           ],
+//!           "expected": [
+//!             "18"
+//!           ],
+//!           "caller": "0x50c9DdC16E355522950BcA553F56b410E3194812"
+//!         },
+//!         {
+//!           "method": "test",
+//!           "calldata": [
+//!             "10",
+//!             "5"
+//!           ],
+//!           "caller": "0x50c9DdC16E355522950BcA553F56b410E3194812"
+//!         }
+//!       ],
+//!       "expected": [
+//!         {
+//!           "compiler_version": ">=0.8",
+//!           "return_data": [
 //!             "0x4e487b7100000000000000000000000000000000000000000000000000000000",
 //!             "0x0000005100000000000000000000000000000000000000000000000000000000"
-//!         ],
-//!         "exception": true
-//!     },
-//!     {
-//!         "compiler_version": "<=0.7",
-//!         "return_data": [],
-//!         "exception": true
+//!           ],
+//!           "exception": true
+//!         },
+//!         {
+//!           "compiler_version": "<=0.7",
+//!           "return_data": [],
+//!           "exception": true
+//!         }
+//!       ]
 //!     }
-//!     ]
-//! } ] }
+//!   ]
+//! }
 
 // SPDX-License-Identifier: MIT
 

@@ -1,28 +1,36 @@
-#! { "modes": [ "V <=0.3.10" ], "cases": [ {
-#!     "name": "first",
-#!     "inputs": [
+#! {
+#!   "modes": [
+#!     "V <=0.3.10"
+#!   ],
+#!   "cases": [
+#!     {
+#!       "name": "first",
+#!       "inputs": [
 #!         {
-#!             "method": "first",
-#!             "calldata": [
-#!             ]
+#!           "method": "first",
+#!           "calldata": [],
+#!           "caller": "0x7d3eeF3b7cEF975Aab3EDE75eaDC4d09558617F6"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "42"
-#!     ]
-#! }, {
-#!     "name": "second",
-#!     "inputs": [
+#!       ]
+#!     },
+#!     {
+#!       "name": "second",
+#!       "inputs": [
 #!         {
-#!             "method": "second",
-#!             "calldata": [
-#!             ]
+#!           "method": "second",
+#!           "calldata": [],
+#!           "caller": "0x7d33130891a652eEDd67755E7b7A9882F7D85df7"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "99"
-#!     ]
-#! } ] }
+#!       ]
+#!     }
+#!   ]
+#! }
 
 @external
 @pure

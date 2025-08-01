@@ -1,18 +1,25 @@
-//! { "targets": [ "eravm" ], "cases": [ {
-//!     "name": "default",
-//!     "inputs": [
+//! {
+//!   "targets": [
+//!     "eravm"
+//!   ],
+//!   "cases": [
+//!     {
+//!       "name": "default",
+//!       "inputs": [
 //!         {
-//!             "method": "#fallback",
-//!             "calldata": [
-//!                 "0"
-//!             ]
+//!           "method": "#fallback",
+//!           "calldata": [
+//!             "0"
+//!           ],
+//!           "caller": "0x0d983F7B842fbD5af50500366aC682cf7408c420"
 //!         }
-//!     ],
-//!     "expected": [
+//!       ],
+//!       "expected": [
 //!         "1"
-//!     ]
-//! } ],
-//! "enable_eravm_extensions": true
+//!       ]
+//!     }
+//!   ],
+//!   "enable_eravm_extensions": true
 //! }
 
 // Report https://linear.app/matterlabs/issue/CPR-655/near-call-with-abi-returns-tuple-bug

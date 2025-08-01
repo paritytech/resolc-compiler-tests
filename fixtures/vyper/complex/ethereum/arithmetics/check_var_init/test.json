@@ -1,29 +1,37 @@
-{ "modes": [ "V >=0.4.0" ], "cases": [ {
-    "name": "default",
-    "inputs": [
+{
+  "modes": [
+    "V >=0.4.0"
+  ],
+  "cases": [
+    {
+      "name": "default",
+      "inputs": [
         {
-            "instance": "D",
-            "method": "f",
-            "calldata": [
-                "C.address"
-            ],
-            "expected": []
+          "instance": "D",
+          "method": "f",
+          "calldata": [
+            "C.address"
+          ],
+          "expected": [],
+          "caller": "0x8e7DB330C4F170fe4d03B1e3169d681792a984Ed"
         },
         {
-            "instance": "D",
-            "method": "g",
-            "calldata": [
-                "C.address"
-            ],
-            "value": "100 wei"
+          "instance": "D",
+          "method": "g",
+          "calldata": [
+            "C.address"
+          ],
+          "value": "100 wei",
+          "caller": "0x8e7DB330C4F170fe4d03B1e3169d681792a984Ed"
         }
-    ],
-    "expected": [
+      ],
+      "expected": [
         "1"
-    ]
-} ],
-    "contracts": {
-        "C": "C.vy",
-        "D": "D.vy"
+      ]
     }
+  ],
+  "contracts": {
+    "C": "C.vy",
+    "D": "D.vy"
+  }
 }

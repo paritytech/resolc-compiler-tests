@@ -1,148 +1,166 @@
-#! { "modes": [ "V <=0.3.10" ], "cases": [ {
-#!     "name": "boo",
-#!     "inputs": [
+#! {
+#!   "modes": [
+#!     "V <=0.3.10"
+#!   ],
+#!   "cases": [
+#!     {
+#!       "name": "boo",
+#!       "inputs": [
 #!         {
-#!             "method": "boo",
-#!             "calldata": [
-#!             ]
+#!           "method": "boo",
+#!           "calldata": [],
+#!           "caller": "0xD1fE7f8A43e9C5C9e3163582259eb3AbD8269252"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "1"
-#!     ]
-#! }, {
-#!     "name": "u8",
-#!     "inputs": [
+#!       ]
+#!     },
+#!     {
+#!       "name": "u8",
+#!       "inputs": [
 #!         {
-#!             "method": "u8",
-#!             "calldata": [
-#!             ]
+#!           "method": "u8",
+#!           "calldata": [],
+#!           "caller": "0x581fBD39e4e6D70E7dBFf34787ccEA912b2252Fa"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "1"
-#!     ]
-#! }, {
-#!     "name": "u256",
-#!     "inputs": [
+#!       ]
+#!     },
+#!     {
+#!       "name": "u256",
+#!       "inputs": [
 #!         {
-#!             "method": "u256",
-#!             "calldata": [
-#!             ]
+#!           "method": "u256",
+#!           "calldata": [],
+#!           "caller": "0x35Ec15Ba97bF582Ee509DBfA800B503d21980862"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "456"
-#!     ]
-#! }, {
-#!     "name": "i128",
-#!     "inputs": [
+#!       ]
+#!     },
+#!     {
+#!       "name": "i128",
+#!       "inputs": [
 #!         {
-#!             "method": "i128",
-#!             "calldata": [
-#!             ]
+#!           "method": "i128",
+#!           "calldata": [],
+#!           "caller": "0x5C02FF5cbDf7570532aAF34acdcd34449b7B2cc5"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "-1"
-#!     ]
-#! }, {
-#!     "name": "i256",
-#!     "inputs": [
+#!       ]
+#!     },
+#!     {
+#!       "name": "i256",
+#!       "inputs": [
 #!         {
-#!             "method": "i256",
-#!             "calldata": [
-#!             ]
+#!           "method": "i256",
+#!           "calldata": [],
+#!           "caller": "0x6aeF9fD3ba083FB9FF58635c6ABd36850e814ED8"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "456"
-#!     ]
-#! }, {
-#!     "name": "minInt128",
-#!     "inputs": [
+#!       ]
+#!     },
+#!     {
+#!       "name": "minInt128",
+#!       "inputs": [
 #!         {
-#!             "method": "minInt128",
-#!             "calldata": [
-#!             ]
+#!           "method": "minInt128",
+#!           "calldata": [],
+#!           "caller": "0x2684907b076d5869626EfDb003d477C5eb0dD3e9"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "0xffffffffffffffffffffffffffffffff80000000000000000000000000000000"
-#!     ]
-#! }, {
-#!     "name": "maxInt128",
-#!     "inputs": [
+#!       ]
+#!     },
+#!     {
+#!       "name": "maxInt128",
+#!       "inputs": [
 #!         {
-#!             "method": "maxInt128",
-#!             "calldata": [
-#!             ]
+#!           "method": "maxInt128",
+#!           "calldata": [],
+#!           "caller": "0x4F1F3340B673ec4fF7614b605793c9695854973C"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "0x7fffffffffffffffffffffffffffffff"
-#!     ]
-#! }, {
-#!     "name": "addr",
-#!     "inputs": [
+#!       ]
+#!     },
+#!     {
+#!       "name": "addr",
+#!       "inputs": [
 #!         {
-#!             "method": "addr",
-#!             "calldata": [
-#!             ]
+#!           "method": "addr",
+#!           "calldata": [],
+#!           "caller": "0xaae6bac4d2472602595eB48F8f32c8Cc79Da1967"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "0xCA35b7d915458EF540aDe6068dFe2F44E8fa733c"
-#!     ]
-#! }, {
-#!     "name": "defaultBoo",
-#!     "inputs": [
+#!       ]
+#!     },
+#!     {
+#!       "name": "defaultBoo",
+#!       "inputs": [
 #!         {
-#!             "method": "defaultBoo",
-#!             "calldata": [
-#!             ]
+#!           "method": "defaultBoo",
+#!           "calldata": [],
+#!           "caller": "0x67a8E9B37a00BF1358e6740cD991850d50E2efBb"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "0"
-#!     ]
-#! }, {
-#!     "name": "defaultUint",
-#!     "inputs": [
+#!       ]
+#!     },
+#!     {
+#!       "name": "defaultUint",
+#!       "inputs": [
 #!         {
-#!             "method": "defaultUint",
-#!             "calldata": [
-#!             ]
+#!           "method": "defaultUint",
+#!           "calldata": [],
+#!           "caller": "0x803514F5143889A5ea32842B302fA0dc343FCaa6"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "0"
-#!     ]
-#! }, {
-#!     "name": "defaultInt",
-#!     "inputs": [
+#!       ]
+#!     },
+#!     {
+#!       "name": "defaultInt",
+#!       "inputs": [
 #!         {
-#!             "method": "defaultInt",
-#!             "calldata": [
-#!             ]
+#!           "method": "defaultInt",
+#!           "calldata": [],
+#!           "caller": "0x1B5e63Ed8caFcb720b149be843F7e127B732C201"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "0"
-#!     ]
-#! }, {
-#!     "name": "defaultAddr",
-#!     "inputs": [
+#!       ]
+#!     },
+#!     {
+#!       "name": "defaultAddr",
+#!       "inputs": [
 #!         {
-#!             "method": "defaultAddr",
-#!             "calldata": [
-#!             ]
+#!           "method": "defaultAddr",
+#!           "calldata": [],
+#!           "caller": "0xB835FE6cD0b70851540c585E0050e68c3AC650C7"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "0"
-#!     ]
-#! } ] }
+#!       ]
+#!     }
+#!   ]
+#! }
 
 boo: public(bool)
 

@@ -1,47 +1,57 @@
-{ "modes": [ "V 0.3.10" ], "cases": [ {
-    "name": "entry",
-    "inputs": [
+{
+  "modes": [
+    "V 0.3.10"
+  ],
+  "cases": [
+    {
+      "name": "entry",
+      "inputs": [
         {
-            "instance": "Main",
-            "method": "#deployer",
-            "calldata": [
-                "Agent.address"
-            ],
-            "expected": [
-                "Main.address"
-            ]
+          "instance": "Main",
+          "method": "#deployer",
+          "calldata": [
+            "Agent.address"
+          ],
+          "expected": [
+            "Main.address"
+          ],
+          "caller": "0x3357e1da2d51eB4dE38A768e6adb72Ccab10406F"
         },
         {
-            "instance": "Main",
-            "method": "ownership",
-            "calldata": [],
-            "expected": [
-                "0x6dde28122f248191ddb19f38fd0068c23283b7c4"
-            ]
+          "instance": "Main",
+          "method": "ownership",
+          "calldata": [],
+          "expected": [
+            "0x6dde28122f248191ddb19f38fd0068c23283b7c4"
+          ],
+          "caller": "0x3357e1da2d51eB4dE38A768e6adb72Ccab10406F"
         },
         {
-            "instance": "Main",
-            "method": "parameter",
-            "calldata": [],
-            "expected": [
-                "0xeb9d0ba7636e1d27490003dfa0ae71c84f2cd9aa"
-            ]
+          "instance": "Main",
+          "method": "parameter",
+          "calldata": [],
+          "expected": [
+            "0xeb9d0ba7636e1d27490003dfa0ae71c84f2cd9aa"
+          ],
+          "caller": "0x3357e1da2d51eB4dE38A768e6adb72Ccab10406F"
         },
         {
-            "instance": "Main",
-            "method": "emergency",
-            "calldata": [],
-            "expected": [
-                "0x9d29cc19d301a05ea4bd8b869bbe258275ee2930"
-            ]
+          "instance": "Main",
+          "method": "emergency",
+          "calldata": [],
+          "expected": [
+            "0x9d29cc19d301a05ea4bd8b869bbe258275ee2930"
+          ],
+          "caller": "0x3357e1da2d51eB4dE38A768e6adb72Ccab10406F"
         }
-    ],
-    "expected": [
+      ],
+      "expected": [
         "0x9d29cc19d301a05ea4bd8b869bbe258275ee2930"
-    ]
-} ],
-    "contracts": {
-        "Main": "main.vy",
-        "Agent": "agent.vy"
+      ]
     }
+  ],
+  "contracts": {
+    "Main": "main.vy",
+    "Agent": "agent.vy"
+  }
 }

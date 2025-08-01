@@ -1,28 +1,37 @@
-#! { "modes": [ "V <=0.3.10" ], "cases": [ {
-#!     "name": "main",
-#!     "inputs": [
+#! {
+#!   "modes": [
+#!     "V <=0.3.10"
+#!   ],
+#!   "cases": [
+#!     {
+#!       "name": "main",
+#!       "inputs": [
 #!         {
-#!             "method": "#deployer",
-#!             "calldata": [
-#!                 "0x03",
-#!                 "0x05",
-#!                 "0x02"
-#!             ],
-#!             "expected": [
-#!                 "Test.address"
-#!             ]
+#!           "method": "#deployer",
+#!           "calldata": [
+#!             "0x03",
+#!             "0x05",
+#!             "0x02"
+#!           ],
+#!           "expected": [
+#!             "Test.address"
+#!           ],
+#!           "caller": "0xDDA2dba7Ee77118C1A107F705E4c120F22606EA2"
 #!         },
 #!         {
-#!             "method": "main",
-#!             "calldata": [
-#!                 "16"
-#!             ]
+#!           "method": "main",
+#!           "calldata": [
+#!             "16"
+#!           ],
+#!           "caller": "0xDDA2dba7Ee77118C1A107F705E4c120F22606EA2"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "81"
-#!     ]
-#! } ] }
+#!       ]
+#!     }
+#!   ]
+#! }
 
 field_1: immutable(uint8)
 field_2: immutable(uint8)

@@ -1,58 +1,72 @@
-{ "modes": [ "Y+", "E", "I" ], "cases": [ {
-    "name": "default",
-    "inputs": [
+{
+  "modes": [
+    "Y+",
+    "E",
+    "I"
+  ],
+  "cases": [
+    {
+      "name": "default",
+      "inputs": [
         {
-            "method": "#deployer",
-            "instance": "Main",
-            "calldata": [],
-            "expected": [
-                "Main.address"
-            ]
+          "method": "#deployer",
+          "instance": "Main",
+          "calldata": [],
+          "expected": [
+            "Main.address"
+          ],
+          "caller": "0x231c23255fd9495AeFf077f1aD79F98dD3c9E33F"
         },
         {
-            "method": "#deployer",
-            "instance": "Wallet",
-            "calldata": [],
-            "expected": [
-                "Wallet.address"
-            ]
+          "method": "#deployer",
+          "instance": "Wallet",
+          "calldata": [],
+          "expected": [
+            "Wallet.address"
+          ],
+          "caller": "0x231c23255fd9495AeFf077f1aD79F98dD3c9E33F"
         },
         {
-            "method": "testValidSignatureNow",
-            "instance": "Main",
-            "calldata": [
-                "Wallet.address"
-            ]
+          "method": "testValidSignatureNow",
+          "instance": "Main",
+          "calldata": [
+            "Wallet.address"
+          ],
+          "caller": "0x231c23255fd9495AeFf077f1aD79F98dD3c9E33F"
         },
         {
-            "method": "testInvalidSignatureNow",
-            "instance": "Main",
-            "calldata": [
-                "Wallet.address"
-            ]
+          "method": "testInvalidSignatureNow",
+          "instance": "Main",
+          "calldata": [
+            "Wallet.address"
+          ],
+          "caller": "0x231c23255fd9495AeFf077f1aD79F98dD3c9E33F"
         },
         {
-            "method": "testValidERC1271SignatureNow",
-            "instance": "Main",
-            "calldata": [
-                "Wallet.address"
-            ]
+          "method": "testValidERC1271SignatureNow",
+          "instance": "Main",
+          "calldata": [
+            "Wallet.address"
+          ],
+          "caller": "0x231c23255fd9495AeFf077f1aD79F98dD3c9E33F"
         },
         {
-            "method": "testInvalidERC1271SignatureNow",
-            "instance": "Main",
-            "calldata": [
-                "Wallet.address"
-            ]
+          "method": "testInvalidERC1271SignatureNow",
+          "instance": "Main",
+          "calldata": [
+            "Wallet.address"
+          ],
+          "caller": "0x231c23255fd9495AeFf077f1aD79F98dD3c9E33F"
         }
-    ],
-    "expected": {
+      ],
+      "expected": {
         "return_data": [],
         "exception": false
+      }
     }
-} ],
-    "contracts": {
-        "Main": "Main.sol:Main",
-        "Wallet": "Wallet.sol:Wallet"
-    }
+  ],
+  "contracts": {
+    "Main": "Main.sol:Main",
+    "Wallet": "Wallet.sol:Wallet"
+  }
 }

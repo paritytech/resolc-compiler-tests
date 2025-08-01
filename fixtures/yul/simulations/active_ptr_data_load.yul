@@ -1,17 +1,26 @@
-//! { "targets": [ "eravm" ], "cases": [ {
-//!     "name": "default",
-//!     "inputs": [
+//! {
+//!   "targets": [
+//!     "eravm"
+//!   ],
+//!   "cases": [
+//!     {
+//!       "name": "default",
+//!       "inputs": [
 //!         {
-//!             "method": "deadbeef",
-//!             "calldata": []
+//!           "method": "deadbeef",
+//!           "calldata": [],
+//!           "caller": "0x61E1DA6C7B8B211E6e5Dd921EFe27e73Ad226DAc"
 //!         }
-//!     ],
-//!     "expected": [
+//!       ],
+//!       "expected": [
 //!         "555",
 //!         "666",
 //!         "42"
-//!     ]
-//! } ], "enable_eravm_extensions": true }
+//!       ]
+//!     }
+//!   ],
+//!   "enable_eravm_extensions": true
+//! }
 
 object "Test" {
     code {

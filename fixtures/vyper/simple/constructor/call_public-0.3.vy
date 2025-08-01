@@ -1,25 +1,35 @@
-#! { "modes": [ "V 0.3.9", "V 0.3.10" ], "cases": [ {
-#!     "name": "success",
-#!     "inputs": [
+#! {
+#!   "modes": [
+#!     "V 0.3.9",
+#!     "V 0.3.10"
+#!   ],
+#!   "cases": [
+#!     {
+#!       "name": "success",
+#!       "inputs": [
 #!         {
-#!             "method": "#deployer",
-#!             "calldata": [
-#!                 "5", "42"
-#!             ],
-#!             "expected": [
-#!                 "Test.address"
-#!             ]
+#!           "method": "#deployer",
+#!           "calldata": [
+#!             "5",
+#!             "42"
+#!           ],
+#!           "expected": [
+#!             "Test.address"
+#!           ],
+#!           "caller": "0x169F1FFE37708FD106fd263c86CB8F84dD07D455"
 #!         },
 #!         {
-#!             "method": "get",
-#!             "calldata": [
-#!             ]
+#!           "method": "get",
+#!           "calldata": [],
+#!           "caller": "0x169F1FFE37708FD106fd263c86CB8F84dD07D455"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "42"
-#!     ]
-#! } ] }
+#!       ]
+#!     }
+#!   ]
+#! }
 
 x: uint256
 y: uint256

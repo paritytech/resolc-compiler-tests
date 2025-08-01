@@ -1,74 +1,84 @@
-{ "cases": [ {
-    "name": "first",
-    "inputs": [
+{
+  "cases": [
+    {
+      "name": "first",
+      "inputs": [
         {
-            "instance": "Storage",
-            "method": "#deployer",
-            "calldata": [
-            ],
-            "expected": [
-                "Storage.address"
-            ]
+          "instance": "Storage",
+          "method": "#deployer",
+          "calldata": [],
+          "expected": [
+            "Storage.address"
+          ],
+          "caller": "0x15c49464B2261Bd0ca5397FedA4b5De7530f400B"
         },
         {
-            "instance": "Main",
-            "method": "#deployer",
-            "calldata": [
-                "37",
-                "Storage.address"
-            ],
-            "expected": [
-                "Main.address"
-            ]
+          "instance": "Main",
+          "method": "#deployer",
+          "calldata": [
+            "37",
+            "Storage.address"
+          ],
+          "expected": [
+            "Main.address"
+          ],
+          "caller": "0x15c49464B2261Bd0ca5397FedA4b5De7530f400B"
         },
         {
-            "instance": "Main",
-            "method": "main",
-            "calldata": [
-                "10", "5"
-            ]
+          "instance": "Main",
+          "method": "main",
+          "calldata": [
+            "10",
+            "5"
+          ],
+          "caller": "0x15c49464B2261Bd0ca5397FedA4b5De7530f400B"
         }
-    ],
-    "expected": [
+      ],
+      "expected": [
         "42"
-    ]
-}, {
-    "name": "second",
-    "inputs": [
+      ]
+    },
+    {
+      "name": "second",
+      "inputs": [
         {
-            "instance": "Storage",
-            "method": "#deployer",
-            "calldata": [
-            ],
-            "expected": [
-                "Storage.address"
-            ]
+          "instance": "Storage",
+          "method": "#deployer",
+          "calldata": [],
+          "expected": [
+            "Storage.address"
+          ],
+          "caller": "0x88D95bEEed029260EC0eBdfEA510474b4E4Ab735"
         },
         {
-            "instance": "Main",
-            "method": "#deployer",
-            "calldata": [
-                "4",
-                "Storage.address"
-            ],
-            "expected": [
-                "Main.address"
-            ]
+          "instance": "Main",
+          "method": "#deployer",
+          "calldata": [
+            "4",
+            "Storage.address"
+          ],
+          "expected": [
+            "Main.address"
+          ],
+          "caller": "0x88D95bEEed029260EC0eBdfEA510474b4E4Ab735"
         },
         {
-            "instance": "Main",
-            "method": "main",
-            "calldata": [
-                "1233", "38"
-            ]
+          "instance": "Main",
+          "method": "main",
+          "calldata": [
+            "1233",
+            "38"
+          ],
+          "caller": "0x88D95bEEed029260EC0eBdfEA510474b4E4Ab735"
         }
-    ],
-    "expected": [
+      ],
+      "expected": [
         "42"
-    ]
-} ],
-    "contracts": {
-        "Main": "main.sol:Main",
-        "Storage": "storage.sol:Storage"
+      ]
     }
+  ],
+  "contracts": {
+    "Main": "main.sol:Main",
+    "Storage": "storage.sol:Storage"
+  }
 }

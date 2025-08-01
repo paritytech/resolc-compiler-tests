@@ -1,56 +1,82 @@
-#! { "modes": [ "V >=0.4.0" ], "cases": [ {
-#!     "name": "one",
-#!     "inputs": [
+#! {
+#!   "modes": [
+#!     "V >=0.4.0"
+#!   ],
+#!   "cases": [
+#!     {
+#!       "name": "one",
+#!       "inputs": [
 #!         {
-#!             "method": "main",
-#!             "calldata": [
-#!                 "1", "0", "0", "5"
-#!             ]
+#!           "method": "main",
+#!           "calldata": [
+#!             "1",
+#!             "0",
+#!             "0",
+#!             "5"
+#!           ],
+#!           "caller": "0x7b490Cd850215575469a7F64a14D58516dd57D34"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "25"
-#!     ]
-#! }, {
-#!     "name": "two",
-#!     "inputs": [
+#!       ]
+#!     },
+#!     {
+#!       "name": "two",
+#!       "inputs": [
 #!         {
-#!             "method": "main",
-#!             "calldata": [
-#!                 "0", "1", "1", "5"
-#!             ]
+#!           "method": "main",
+#!           "calldata": [
+#!             "0",
+#!             "1",
+#!             "1",
+#!             "5"
+#!           ],
+#!           "caller": "0xAdCc2A2eaB1c78f015c4D87E3e804aB4A40CE3f4"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "50"
-#!     ]
-#! }, {
-#!     "name": "three",
-#!     "inputs": [
+#!       ]
+#!     },
+#!     {
+#!       "name": "three",
+#!       "inputs": [
 #!         {
-#!             "method": "main",
-#!             "calldata": [
-#!                 "0", "1", "0", "5"
-#!             ]
+#!           "method": "main",
+#!           "calldata": [
+#!             "0",
+#!             "1",
+#!             "0",
+#!             "5"
+#!           ],
+#!           "caller": "0xAE95E109C85F94024434C0d31D3465B5b89b138f"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "75"
-#!     ]
-#! }, {
-#!     "name": "four",
-#!     "inputs": [
+#!       ]
+#!     },
+#!     {
+#!       "name": "four",
+#!       "inputs": [
 #!         {
-#!             "method": "main",
-#!             "calldata": [
-#!                 "0", "0", "0", "5"
-#!             ]
+#!           "method": "main",
+#!           "calldata": [
+#!             "0",
+#!             "0",
+#!             "0",
+#!             "5"
+#!           ],
+#!           "caller": "0xF6E9Bb474b989693136ac3F11F713A5aF7cddd0B"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "100"
-#!     ]
-#! } ] }
+#!       ]
+#!     }
+#!   ]
+#! }
 
 @external
 @pure

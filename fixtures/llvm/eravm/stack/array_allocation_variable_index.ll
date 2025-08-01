@@ -1,88 +1,103 @@
-;! { "cases": [ {
-;!     "name": "0",
-;!     "inputs": [
+;! {
+;!   "cases": [
+;!     {
+;!       "name": "0",
+;!       "inputs": [
 ;!         {
-;!             "method": "#fallback",
-;!             "calldata": [
-;!                "0x123456789abcdef0123456789abcdef01234567890abcdef01234567890abcde",
-;!                "0x0"
-;!             ]
+;!           "method": "#fallback",
+;!           "calldata": [
+;!             "0x123456789abcdef0123456789abcdef01234567890abcdef01234567890abcde",
+;!             "0x0"
+;!           ],
+;!           "caller": "0xE6A042c6A9856b774A7150Add38733Ef917144EF"
 ;!         }
-;!     ],
-;!     "expected": [
-;!                "0x123456789abcdef0123456789abcdef01234567890abcdef01234567890abcde"
-;!     ]
-;! }, {
-;!     "name": "1",
-;!     "inputs": [
+;!       ],
+;!       "expected": [
+;!         "0x123456789abcdef0123456789abcdef01234567890abcdef01234567890abcde"
+;!       ]
+;!     },
+;!     {
+;!       "name": "1",
+;!       "inputs": [
 ;!         {
-;!             "method": "#fallback",
-;!             "calldata": [
-;!                "0x123456789abcdef0123456789abcdef01234567890abcdef01234567890abcde",
-;!                "1"
-;!             ]
+;!           "method": "#fallback",
+;!           "calldata": [
+;!             "0x123456789abcdef0123456789abcdef01234567890abcdef01234567890abcde",
+;!             "1"
+;!           ],
+;!           "caller": "0x31aA2B7241e6a57b574055779700d66972cC7F63"
 ;!         }
-;!     ],
-;!     "expected": [
-;!                "0x123456789abcdef0123456789abcdef01234567890abcdef01234567890abcde"
-;!     ]
-;! }, {
-;!     "name": "3",
-;!     "inputs": [
+;!       ],
+;!       "expected": [
+;!         "0x123456789abcdef0123456789abcdef01234567890abcdef01234567890abcde"
+;!       ]
+;!     },
+;!     {
+;!       "name": "3",
+;!       "inputs": [
 ;!         {
-;!             "method": "#fallback",
-;!             "calldata": [
-;!                "0x123456789abcdef0123456789abcdef01234567890abcdef01234567890abcde",
-;!                "3"
-;!             ]
+;!           "method": "#fallback",
+;!           "calldata": [
+;!             "0x123456789abcdef0123456789abcdef01234567890abcdef01234567890abcde",
+;!             "3"
+;!           ],
+;!           "caller": "0xab2C872a84dCF48c13a3FEfcB9896D5384d82618"
 ;!         }
-;!     ],
-;!     "expected": [
-;!                "0x123456789abcdef0123456789abcdef01234567890abcdef01234567890abcde"
-;!     ]
-;! }, {
-;!     "name": "5",
-;!     "inputs": [
+;!       ],
+;!       "expected": [
+;!         "0x123456789abcdef0123456789abcdef01234567890abcdef01234567890abcde"
+;!       ]
+;!     },
+;!     {
+;!       "name": "5",
+;!       "inputs": [
 ;!         {
-;!             "method": "#fallback",
-;!             "calldata": [
-;!                "0x123456789abcdef0123456789abcdef01234567890abcdef01234567890abcde",
-;!                "5"
-;!             ]
+;!           "method": "#fallback",
+;!           "calldata": [
+;!             "0x123456789abcdef0123456789abcdef01234567890abcdef01234567890abcde",
+;!             "5"
+;!           ],
+;!           "caller": "0x5D2D087ED787eFE5CC10823B78a12B2241B01228"
 ;!         }
-;!     ],
-;!     "expected": [
-;!                "0x123456789abcdef0123456789abcdef01234567890abcdef01234567890abcde"
-;!     ]
-;! }, {
-;!     "name": "8",
-;!     "inputs": [
+;!       ],
+;!       "expected": [
+;!         "0x123456789abcdef0123456789abcdef01234567890abcdef01234567890abcde"
+;!       ]
+;!     },
+;!     {
+;!       "name": "8",
+;!       "inputs": [
 ;!         {
-;!             "method": "#fallback",
-;!             "calldata": [
-;!                "0x123456789abcdef0123456789abcdef01234567890abcdef01234567890abcde",
-;!                "8"
-;!             ]
+;!           "method": "#fallback",
+;!           "calldata": [
+;!             "0x123456789abcdef0123456789abcdef01234567890abcdef01234567890abcde",
+;!             "8"
+;!           ],
+;!           "caller": "0x86ae800e24e472bD7d759da90502Bf449eE77937"
 ;!         }
-;!     ],
-;!     "expected": [
-;!                "0x123456789abcdef0123456789abcdef01234567890abcdef01234567890abcde"
-;!     ]
-;! }, {
-;!     "name": "9",
-;!     "inputs": [
+;!       ],
+;!       "expected": [
+;!         "0x123456789abcdef0123456789abcdef01234567890abcdef01234567890abcde"
+;!       ]
+;!     },
+;!     {
+;!       "name": "9",
+;!       "inputs": [
 ;!         {
-;!             "method": "#fallback",
-;!             "calldata": [
-;!                "0x123456789abcdef0123456789abcdef01234567890abcdef01234567890abcde",
-;!                "9"
-;!             ]
+;!           "method": "#fallback",
+;!           "calldata": [
+;!             "0x123456789abcdef0123456789abcdef01234567890abcdef01234567890abcde",
+;!             "9"
+;!           ],
+;!           "caller": "0x1b6a37a0A3078D05E4C3F218b6f6135AdDa3a85c"
 ;!         }
-;!     ],
-;!     "expected": [
-;!                "0x123456789abcdef0123456789abcdef01234567890abcdef01234567890abcde"
-;!     ]
-;! } ] }
+;!       ],
+;!       "expected": [
+;!         "0x123456789abcdef0123456789abcdef01234567890abcdef01234567890abcde"
+;!       ]
+;!     }
+;!   ]
+;! }
 
 ; ModuleID = 'main'
 source_filename = "main"

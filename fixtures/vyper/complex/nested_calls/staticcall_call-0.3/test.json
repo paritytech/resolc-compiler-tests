@@ -1,23 +1,30 @@
-{ "modes": [ "V <=0.3.10" ], "cases": [ {
-    "name": "default",
-    "inputs": [
+{
+  "modes": [
+    "V <=0.3.10"
+  ],
+  "cases": [
+    {
+      "name": "default",
+      "inputs": [
         {
-            "instance": "A",
-            "method": "main",
-            "calldata": [
-                "B.address",
-                "C.address"
-            ]
+          "instance": "A",
+          "method": "main",
+          "calldata": [
+            "B.address",
+            "C.address"
+          ],
+          "caller": "0xB5440b0c80381e92f479e842Ca5faF6b9E28Ea44"
         }
-    ],
-    "expected": {
+      ],
+      "expected": {
         "return_data": [],
         "exception": true
+      }
     }
-} ],
-    "contracts": {
-        "A": "A.vy",
-        "B": "B.vy",
-        "C": "C.vy"
-    }
+  ],
+  "contracts": {
+    "A": "A.vy",
+    "B": "B.vy",
+    "C": "C.vy"
+  }
 }

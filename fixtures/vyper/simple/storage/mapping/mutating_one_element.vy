@@ -1,16 +1,23 @@
-#! { "modes": [ "V >=0.4.0" ], "cases": [ {
-#!     "name": "f",
-#!     "inputs": [
+#! {
+#!   "modes": [
+#!     "V >=0.4.0"
+#!   ],
+#!   "cases": [
+#!     {
+#!       "name": "f",
+#!       "inputs": [
 #!         {
-#!             "method": "f",
-#!             "calldata": [
-#!             ]
+#!           "method": "f",
+#!           "calldata": [],
+#!           "caller": "0x9bfadFF93ba86888a6Ec0D06136B5173804bA506"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "42"
-#!     ]
-#! } ] }
+#!       ]
+#!     }
+#!   ]
+#! }
 
 # Report https://linear.app/matterlabs/issue/CPR-220/mapping-test-failure
 

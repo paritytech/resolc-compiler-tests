@@ -1,23 +1,29 @@
-{ "cases": [ {
-    "name": "main",
-    "inputs": [
+{
+  "cases": [
+    {
+      "name": "main",
+      "inputs": [
         {
-            "instance": "Main",
-            "method": "main",
-            "calldata": [
-                "5"
-            ]
+          "instance": "Main",
+          "method": "main",
+          "calldata": [
+            "5"
+          ],
+          "caller": "0x20942d8E1dAE666a83848eE3B7828FaF5c625958"
         }
-    ],
-    "expected": [
+      ],
+      "expected": [
         "10"
-    ]
-} ],
-    "contracts": {
-        "Main": "main.sol:Main",
-        "Library": "library.sol:L"
-    },
-    "libraries": {
-        "library.sol": { "L": "Library" }
+      ]
     }
+  ],
+  "contracts": {
+    "Main": "main.sol:Main",
+    "Library": "library.sol:L"
+  },
+  "libraries": {
+    "library.sol": {
+      "L": "Library"
+    }
+  }
 }

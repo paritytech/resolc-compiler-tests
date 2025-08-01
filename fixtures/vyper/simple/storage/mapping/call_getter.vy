@@ -1,16 +1,23 @@
-#! { "modes": [ "V >=0.4.0" ], "cases": [ {
-#!     "name": "default",
-#!     "inputs": [
+#! {
+#!   "modes": [
+#!     "V >=0.4.0"
+#!   ],
+#!   "cases": [
+#!     {
+#!       "name": "default",
+#!       "inputs": [
 #!         {
-#!             "method": "get",
-#!             "calldata": [
-#!             ]
+#!           "method": "get",
+#!           "calldata": [],
+#!           "caller": "0x4Ee0C760fF1B3e07D659022A7e5Dd1579e5be48C"
 #!         }
-#!     ],
-#!     "expected": [
-#!       "0"
-#!     ]
-#! } ] }
+#!       ],
+#!       "expected": [
+#!         "0"
+#!       ]
+#!     }
+#!   ]
+#! }
 
 # Report https://linear.app/matterlabs/issue/CPR-610/mapping-getter-failure
 

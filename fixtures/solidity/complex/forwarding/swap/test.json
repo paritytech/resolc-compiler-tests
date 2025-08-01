@@ -1,20 +1,31 @@
-{ "enable_eravm_extensions": true, "modes": [ "Y" ], "targets": [ "eravm" ], "cases": [ {
-    "name": "short",
-    "inputs": [
+{
+  "enable_eravm_extensions": true,
+  "modes": [
+    "Y"
+  ],
+  "targets": [
+    "eravm"
+  ],
+  "cases": [
+    {
+      "name": "short",
+      "inputs": [
         {
-            "instance": "Main",
-            "method": "main",
-            "calldata": [
-                "Callable.address"
-            ]
+          "instance": "Main",
+          "method": "main",
+          "calldata": [
+            "Callable.address"
+          ],
+          "caller": "0xF4EFd46ff79085672D804B64cB71D46A7862f1b3"
         }
-    ],
-    "expected": [
+      ],
+      "expected": [
         "1"
-    ]
-} ],
-    "contracts": {
-        "Main": "main.sol:Main",
-        "Callable": "callable.sol:Callable"
+      ]
     }
+  ],
+  "contracts": {
+    "Main": "main.sol:Main",
+    "Callable": "callable.sol:Callable"
+  }
 }

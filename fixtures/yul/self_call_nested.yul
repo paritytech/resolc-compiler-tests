@@ -1,16 +1,20 @@
-//! { "cases": [ {
-//!     "name": "default",
-//!     "inputs": [
+//! {
+//!   "cases": [
+//!     {
+//!       "name": "default",
+//!       "inputs": [
 //!         {
-//!             "method": "e2179b8e",
-//!             "calldata": [
-//!             ]
+//!           "method": "e2179b8e",
+//!           "calldata": [],
+//!           "caller": "0xE57bFE9F44b819898F47BF37E5AF72a0783e1141"
 //!         }
-//!     ],
-//!     "expected": [
+//!       ],
+//!       "expected": [
 //!         "1"
-//!     ]
-//! } ] }
+//!       ]
+//!     }
+//!   ]
+//! }
 
 // Report https://linear.app/matterlabs/issue/CPR-611/nested-external-calls-issue
 

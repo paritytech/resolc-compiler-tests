@@ -1,25 +1,39 @@
-//! { "targets": [ "eravm" ], "cases": [ {
-//!     "name": "init",
-//!     "inputs": [
+//! {
+//!   "targets": [
+//!     "eravm"
+//!   ],
+//!   "cases": [
+//!     {
+//!       "name": "init",
+//!       "inputs": [
 //!         {
-//!             "method": "#fallback",
-//!             "calldata": [ "0" ]
+//!           "method": "#fallback",
+//!           "calldata": [
+//!             "0"
+//!           ],
+//!           "caller": "0x0e7B23Cd1fdb7ea3CCC80320AB43843a2f193C36"
 //!         }
-//!     ],
-//!     "expected": []
-//! }, {
-//!     "name": "get",
-//!     "inputs": [
+//!       ],
+//!       "expected": []
+//!     },
+//!     {
+//!       "name": "get",
+//!       "inputs": [
 //!         {
-//!             "method": "#fallback",
-//!             "calldata": [ "1", "4" ]
+//!           "method": "#fallback",
+//!           "calldata": [
+//!             "1",
+//!             "4"
+//!           ],
+//!           "caller": "0xFBBC41289f834A76e4320aC238512035560467Ee"
 //!         }
-//!     ],
-//!     "expected": [
+//!       ],
+//!       "expected": [
 //!         "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb"
-//!     ]
-//! } ],
-//! "enable_eravm_extensions": true
+//!       ]
+//!     }
+//!   ],
+//!   "enable_eravm_extensions": true
 //! }
 
 object "Test" {

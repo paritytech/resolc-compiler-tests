@@ -1,78 +1,97 @@
-//! { "cases": [ {
-//!     "name": "returnMany",
-//!     "inputs": [
+//! {
+//!   "cases": [
+//!     {
+//!       "name": "returnMany",
+//!       "inputs": [
 //!         {
-//!             "method": "returnMany",
-//!             "calldata": [
-//!             ]
+//!           "method": "returnMany",
+//!           "calldata": [],
+//!           "caller": "0xdEdD5523C5C4dc0e102C9ffeD751DD0383BE31a0"
 //!         }
-//!     ],
-//!     "expected": [
-//!         "1", "1", "2"
-//!     ]
-//! }, {
-//!     "name": "named",
-//!     "inputs": [
+//!       ],
+//!       "expected": [
+//!         "1",
+//!         "1",
+//!         "2"
+//!       ]
+//!     },
+//!     {
+//!       "name": "named",
+//!       "inputs": [
 //!         {
-//!             "method": "named",
-//!             "calldata": [
-//!             ]
+//!           "method": "named",
+//!           "calldata": [],
+//!           "caller": "0x5E6A7d2AD7d32540847ba89cF45874bdc569879f"
 //!         }
-//!     ],
-//!     "expected": [
-//!         "1", "1", "2"
-//!     ]
-//! }, {
-//!     "name": "assigned",
-//!     "inputs": [
+//!       ],
+//!       "expected": [
+//!         "1",
+//!         "1",
+//!         "2"
+//!       ]
+//!     },
+//!     {
+//!       "name": "assigned",
+//!       "inputs": [
 //!         {
-//!             "method": "assigned",
-//!             "calldata": [
-//!             ]
+//!           "method": "assigned",
+//!           "calldata": [],
+//!           "caller": "0xf7901C3272668D114527229ea5136F251795d008"
 //!         }
-//!     ],
-//!     "expected": [
-//!         "1", "1", "2"
-//!     ]
-//! }, {
-//!     "name": "destructingAssigments",
-//!     "inputs": [
+//!       ],
+//!       "expected": [
+//!         "1",
+//!         "1",
+//!         "2"
+//!       ]
+//!     },
+//!     {
+//!       "name": "destructingAssigments",
+//!       "inputs": [
 //!         {
-//!             "method": "destructingAssigments",
-//!             "calldata": [
-//!             ]
+//!           "method": "destructingAssigments",
+//!           "calldata": [],
+//!           "caller": "0xCb57EE379bbca473090C011b59cb967f2D48Cf7C"
 //!         }
-//!     ],
-//!     "expected": [
-//!         "1", "1", "2", "4", "6"
-//!     ]
-//! }, {
-//!     "name": "arrayInput",
-//!     "inputs": [
+//!       ],
+//!       "expected": [
+//!         "1",
+//!         "1",
+//!         "2",
+//!         "4",
+//!         "6"
+//!       ]
+//!     },
+//!     {
+//!       "name": "arrayInput",
+//!       "inputs": [
 //!         {
-//!             "method": "arrayInput",
-//!             "calldata": [
-//!                 "0x20",
-//!                 "0"
-//!             ]
+//!           "method": "arrayInput",
+//!           "calldata": [
+//!             "0x20",
+//!             "0"
+//!           ],
+//!           "caller": "0xfdCb2223510b008C2dC95012fbad0E0d20ca6Cf0"
 //!         }
-//!     ],
-//!     "expected": [
-//!     ]
-//! }, {
-//!     "name": "arrayOutput",
-//!     "inputs": [
+//!       ],
+//!       "expected": []
+//!     },
+//!     {
+//!       "name": "arrayOutput",
+//!       "inputs": [
 //!         {
-//!             "method": "arrayOutput",
-//!             "calldata": [
-//!             ]
+//!           "method": "arrayOutput",
+//!           "calldata": [],
+//!           "caller": "0x75e018793110cCB59e82bB60327C0c433D00739a"
 //!         }
-//!     ],
-//!     "expected": [
+//!       ],
+//!       "expected": [
 //!         "0x20",
 //!         "0"
-//!     ]
-//! } ] }
+//!       ]
+//!     }
+//!   ]
+//! }
 
 // SPDX-License-Identifier: MIT
 pragma solidity >=0.4.24;

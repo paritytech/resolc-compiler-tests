@@ -1,17 +1,26 @@
-#! { "modes": [ "V >=0.4.0" ], "cases": [ {
-#!     "name": "main",
-#!     "inputs": [
+#! {
+#!   "modes": [
+#!     "V >=0.4.0"
+#!   ],
+#!   "cases": [
+#!     {
+#!       "name": "main",
+#!       "inputs": [
 #!         {
-#!             "method": "main",
-#!             "calldata": [
-#!                 "100500", "16"
-#!             ]
+#!           "method": "main",
+#!           "calldata": [
+#!             "100500",
+#!             "16"
+#!           ],
+#!           "caller": "0xcEb88f7E36C3D82D52306011e046359aC55bD25c"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "64"
-#!     ]
-#! } ] }
+#!       ]
+#!     }
+#!   ]
+#! }
 
 data: HashMap[uint256, uint256]
 

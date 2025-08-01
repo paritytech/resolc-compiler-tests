@@ -1,31 +1,42 @@
-#! { "modes": [ "V >=0.4.0" ], "cases": [ {
-#!     "name": "default",
-#!     "inputs": [
+#! {
+#!   "modes": [
+#!     "V >=0.4.0"
+#!   ],
+#!   "cases": [
+#!     {
+#!       "name": "default",
+#!       "inputs": [
 #!         {
-#!             "method": "#deployer",
-#!             "caller": "0x0000000000000000000000000000000000000099",
-#!             "calldata": [],
-#!             "expected": [
-#!                 "Test.address"
-#!             ]
+#!           "method": "#deployer",
+#!           "caller": "0x7F11b49d06cc7f9B8f28081626eD4D925CC5C64d",
+#!           "calldata": [],
+#!           "expected": [
+#!             "Test.address"
+#!           ]
 #!         },
 #!         {
-#!             "method": "X",
-#!             "calldata": [],
-#!             "expected": [
-#!                 "42"
-#!             ]
+#!           "method": "X",
+#!           "calldata": [],
+#!           "expected": [
+#!             "42"
+#!           ],
+#!           "caller": "0x7F11b49d06cc7f9B8f28081626eD4D925CC5C64d"
 #!         },
 #!         {
-#!             "method": "Y",
-#!             "calldata": [],
-#!             "expected": [
-#!                 "43"
-#!             ]
+#!           "method": "Y",
+#!           "calldata": [],
+#!           "expected": [
+#!             "43"
+#!           ],
+#!           "caller": "0x7F11b49d06cc7f9B8f28081626eD4D925CC5C64d"
 #!         }
-#!     ],
-#!     "expected": [ "43" ]
-#! } ] }
+#!       ],
+#!       "expected": [
+#!         "43"
+#!       ]
+#!     }
+#!   ]
+#! }
 
 X: public(immutable(bytes32))
 Y: public(immutable(bytes32))

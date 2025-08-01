@@ -1,15 +1,21 @@
-#! { "modes": [ "V <=0.3.10" ], "cases": [ {
-#!     "name": "test",
-#!     "inputs": [
+#! {
+#!   "modes": [
+#!     "V <=0.3.10"
+#!   ],
+#!   "cases": [
+#!     {
+#!       "name": "test",
+#!       "inputs": [
 #!         {
-#!             "method": "test",
-#!             "calldata": [
-#!             ]
+#!           "method": "test",
+#!           "calldata": [],
+#!           "caller": "0x0853C4794529fcabDbFDDD6025414136F378C288"
 #!         }
-#!     ],
-#!     "expected": [
-#!     ]
-#! } ] }
+#!       ],
+#!       "expected": []
+#!     }
+#!   ]
+#! }
 
 
 # [1, 2, 3] -- remove(1) --> [1, 3, 3] --> [1, 3]

@@ -1,18 +1,21 @@
-{ "cases": [ {
-    "name": "default",
-    "inputs": [
+{
+  "cases": [
+    {
+      "name": "default",
+      "inputs": [
         {
-            "instance": "Enum",
-            "method": "status",
-            "calldata": [
-            ]
+          "instance": "Enum",
+          "method": "status",
+          "calldata": [],
+          "caller": "0xC0c9419b8046dc440b98cbe6C11A6a9f1117Cb24"
         }
-    ],
-    "expected": [
+      ],
+      "expected": [
         "0"
-    ]
-} ],
-    "contracts": {
-        "Enum": "main.sol:Enum"
+      ]
     }
+  ],
+  "contracts": {
+    "Enum": "main.sol:Enum"
+  }
 }

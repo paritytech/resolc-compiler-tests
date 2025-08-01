@@ -1,24 +1,28 @@
-//! { "cases": [ {
-//!     "name": "complex",
-//!     "inputs": [
+//! {
+//!   "cases": [
+//!     {
+//!       "name": "complex",
+//!       "inputs": [
 //!         {
-//!             "method": "#deployer",
-//!             "calldata": [
-//!             ],
-//!             "expected": [
-//!                 "Test.address"
-//!             ]
+//!           "method": "#deployer",
+//!           "calldata": [],
+//!           "expected": [
+//!             "Test.address"
+//!           ],
+//!           "caller": "0x56826F2e33d373c89189FaE768ad31eA5b1Bb232"
 //!         },
 //!         {
-//!             "method": "get",
-//!             "calldata": [
-//!             ]
+//!           "method": "get",
+//!           "calldata": [],
+//!           "caller": "0x56826F2e33d373c89189FaE768ad31eA5b1Bb232"
 //!         }
-//!     ],
-//!     "expected": [
+//!       ],
+//!       "expected": [
 //!         "1"
-//!     ]
-//! } ] }
+//!       ]
+//!     }
+//!   ]
+//! }
 
 // Report https://linear.app/matterlabs/issue/CPR-285/bug-with-dynamic-arrays
 

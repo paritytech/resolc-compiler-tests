@@ -1,94 +1,105 @@
-{ "modes": [ "V >=0.4.0" ], "cases": [ {
-    "name": "first",
-    "inputs": [
+{
+  "modes": [
+    "V >=0.4.0"
+  ],
+  "cases": [
+    {
+      "name": "first",
+      "inputs": [
         {
-            "instance": "Ballot",
-            "method": "#deployer",
-            "calldata": [
-                "3",
-                "70",
-                "5",
-                "10"
-            ],
-            "expected": [
-                "Ballot.address"
-            ]
+          "instance": "Ballot",
+          "method": "#deployer",
+          "calldata": [
+            "3",
+            "70",
+            "5",
+            "10"
+          ],
+          "expected": [
+            "Ballot.address"
+          ],
+          "caller": "0x6694a7Ccb4e2AE643038e9e5e54D572E8A3a0339"
         },
         {
-            "instance": "Ballot",
-            "method": "giveRightToVote",
-            "calldata": [
-                "0xdeadbeef00000000000000000000000000000002"
-            ]
+          "instance": "Ballot",
+          "method": "giveRightToVote",
+          "calldata": [
+            "0x10D9F75D8a291c2dE3ab2E7DE3A3d6ee919C8081"
+          ],
+          "caller": "0x6694a7Ccb4e2AE643038e9e5e54D572E8A3a0339"
         },
         {
-            "instance": "Ballot",
-            "method": "giveRightToVote",
-            "calldata": [
-                "0xdeadbeef00000000000000000000000000000003"
-            ]
+          "instance": "Ballot",
+          "method": "giveRightToVote",
+          "calldata": [
+            "0x0542a98930f7892a477Ba0370B160DFBE5569Da2"
+          ],
+          "caller": "0x6694a7Ccb4e2AE643038e9e5e54D572E8A3a0339"
         },
         {
-            "instance": "Ballot",
-            "method": "giveRightToVote",
-            "calldata": [
-                "0xdeadbeef00000000000000000000000000000004"
-            ]
+          "instance": "Ballot",
+          "method": "giveRightToVote",
+          "calldata": [
+            "0xFCb18C4aB6Aff58BEBB74C070c2030aa037dF9d8"
+          ],
+          "caller": "0x6694a7Ccb4e2AE643038e9e5e54D572E8A3a0339"
         },
         {
-            "instance": "Ballot",
-            "method": "giveRightToVote",
-            "calldata": [
-                "0xdeadbeef00000000000000000000000000000005"
-            ]
+          "instance": "Ballot",
+          "method": "giveRightToVote",
+          "calldata": [
+            "0xC51A65DF295a45FA0a187bDa9AB47b9374e99357"
+          ],
+          "caller": "0x6694a7Ccb4e2AE643038e9e5e54D572E8A3a0339"
         },
         {
-            "instance": "Ballot",
-            "method": "vote(uint256)",
-            "caller": "0xdeadbeef00000000000000000000000000000002",
-            "calldata": [
-                "1"
-            ]
+          "instance": "Ballot",
+          "method": "vote(uint256)",
+          "caller": "0x6694a7Ccb4e2AE643038e9e5e54D572E8A3a0339",
+          "calldata": [
+            "1"
+          ]
         },
         {
-            "instance": "Ballot",
-            "method": "vote(uint256)",
-            "caller": "0xdeadbeef00000000000000000000000000000003",
-            "calldata": [
-                "0"
-            ]
+          "instance": "Ballot",
+          "method": "vote(uint256)",
+          "caller": "0x6694a7Ccb4e2AE643038e9e5e54D572E8A3a0339",
+          "calldata": [
+            "0"
+          ]
         },
         {
-            "instance": "Ballot",
-            "method": "vote(uint256)",
-            "caller": "0xdeadbeef00000000000000000000000000000004",
-            "calldata": [
-                "2"
-            ]
+          "instance": "Ballot",
+          "method": "vote(uint256)",
+          "caller": "0x6694a7Ccb4e2AE643038e9e5e54D572E8A3a0339",
+          "calldata": [
+            "2"
+          ]
         },
         {
-            "instance": "Ballot",
-            "method": "vote(uint256)",
-            "caller": "0xdeadbeef00000000000000000000000000000005",
-            "calldata": [
-                "1"
-            ]
+          "instance": "Ballot",
+          "method": "vote(uint256)",
+          "caller": "0x6694a7Ccb4e2AE643038e9e5e54D572E8A3a0339",
+          "calldata": [
+            "1"
+          ]
         },
         {
-            "instance": "Ballot",
-            "method": "winnerName",
-            "calldata": [
-            ],
-            "expected": [
-                "5"
-            ]
+          "instance": "Ballot",
+          "method": "winnerName",
+          "calldata": [],
+          "expected": [
+            "5"
+          ],
+          "caller": "0x6694a7Ccb4e2AE643038e9e5e54D572E8A3a0339"
         }
-    ],
-    "expected": [
+      ],
+      "expected": [
         "5"
-    ]
-} ],
-    "contracts": {
-        "Ballot": "ballot.vy"
+      ]
     }
+  ],
+  "contracts": {
+    "Ballot": "ballot.vy"
+  }
 }

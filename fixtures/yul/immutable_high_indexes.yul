@@ -1,24 +1,33 @@
-//! { "targets": [ "eravm" ], "cases": [ {
-//!     "name": "default",
-//!     "inputs": [
+//! {
+//!   "targets": [
+//!     "eravm"
+//!   ],
+//!   "cases": [
+//!     {
+//!       "name": "default",
+//!       "inputs": [
 //!         {
-//!             "method": "#deployer",
-//!             "calldata": [],
-//!             "expected": [
-//!                 "Test.address"
-//!             ]
+//!           "method": "#deployer",
+//!           "calldata": [],
+//!           "expected": [
+//!             "Test.address"
+//!           ],
+//!           "caller": "0x1efF47bc3a10a45D4B230B5d10E37751FE6AA718"
 //!         },
 //!         {
-//!             "method": "#fallback",
-//!             "calldata": []
+//!           "method": "#fallback",
+//!           "calldata": [],
+//!           "caller": "0x1efF47bc3a10a45D4B230B5d10E37751FE6AA718"
 //!         }
-//!     ],
-//!     "expected": [
+//!       ],
+//!       "expected": [
 //!         "1",
 //!         "2",
 //!         "3"
-//!     ]
-//! } ] }
+//!       ]
+//!     }
+//!   ]
+//! }
 
 object "Test" {
     code {

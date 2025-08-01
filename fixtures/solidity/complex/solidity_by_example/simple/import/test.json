@@ -1,23 +1,28 @@
-{ "modes": [
+{
+  "modes": [
     "Y >=0.8.1",
-    "E", "I"
-], "cases": [ {
-    "name": "entry",
-    "inputs": [
+    "E",
+    "I"
+  ],
+  "cases": [
+    {
+      "name": "entry",
+      "inputs": [
         {
-            "instance": "Import",
-            "method": "getFooName",
-            "calldata": [
-            ]
+          "instance": "Import",
+          "method": "getFooName",
+          "calldata": [],
+          "caller": "0x188CF3704665126fd983641FCB6C7DD9DCbb9236"
         }
-    ],
-    "expected": [
+      ],
+      "expected": [
         "32",
         "3",
         "0x466F6F0000000000000000000000000000000000000000000000000000000000"
-    ]
-} ],
-    "contracts": {
-        "Import": "Import.sol:Import"
+      ]
     }
+  ],
+  "contracts": {
+    "Import": "Import.sol:Import"
+  }
 }

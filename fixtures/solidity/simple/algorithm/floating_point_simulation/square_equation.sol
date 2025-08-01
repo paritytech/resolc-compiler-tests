@@ -1,43 +1,64 @@
-//! { "cases": [ {
-//!     "name": "noSolution",
-//!     "inputs": [
+//! {
+//!   "cases": [
+//!     {
+//!       "name": "noSolution",
+//!       "inputs": [
 //!         {
-//!             "method": "entry",
-//!             "calldata": [
-//!                 "1", "1", "1"
-//!             ]
+//!           "method": "entry",
+//!           "calldata": [
+//!             "1",
+//!             "1",
+//!             "1"
+//!           ],
+//!           "caller": "0x634d838792fB062aC7afd8bd6e72248AEc9b7EE0"
 //!         }
-//!     ],
-//!     "expected": [
-//!         "0", "0", "0"
-//!     ]
-//! }, {
-//!     "name": "first",
-//!     "inputs": [
+//!       ],
+//!       "expected": [
+//!         "0",
+//!         "0",
+//!         "0"
+//!       ]
+//!     },
+//!     {
+//!       "name": "first",
+//!       "inputs": [
 //!         {
-//!             "method": "entry",
-//!             "calldata": [
-//!                 "2", "7", "4"
-//!             ]
+//!           "method": "entry",
+//!           "calldata": [
+//!             "2",
+//!             "7",
+//!             "4"
+//!           ],
+//!           "caller": "0x03d8892f7139A358A5DD0eC1795B90f14C1C32B0"
 //!         }
-//!     ],
-//!     "expected": [
-//!         "1", "278", "71"
-//!     ]
-//! }, {
-//!     "name": "second",
-//!     "inputs": [
+//!       ],
+//!       "expected": [
+//!         "1",
+//!         "278",
+//!         "71"
+//!       ]
+//!     },
+//!     {
+//!       "name": "second",
+//!       "inputs": [
 //!         {
-//!             "method": "entry",
-//!             "calldata": [
-//!                 "17", "29", "12"
-//!             ]
+//!           "method": "entry",
+//!           "calldata": [
+//!             "17",
+//!             "29",
+//!             "12"
+//!           ],
+//!           "caller": "0xc18F4DD921DAf16779dB2dfc934388B74CCB3cD6"
 //!         }
-//!     ],
-//!     "expected": [
-//!         "1", "100", "70"
-//!     ]
-//! } ] }
+//!       ],
+//!       "expected": [
+//!         "1",
+//!         "100",
+//!         "70"
+//!       ]
+//!     }
+//!   ]
+//! }
 
 // SPDX-License-Identifier: MIT
 

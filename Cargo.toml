@@ -9,10 +9,11 @@ license = "MIT/Apache-2.0"
 edition = "2024"
 
 [workspace.dependencies]
-alloy = { version = "1.0.23", default-features = false, features = ["signers"] }
+alloy = { version = "1.0.23", default-features = false, features = [
+    "signers",
+    "signer-local",
+] }
 anyhow = { version = "1.0.98" }
 clap = { version = "4.5.42", features = ["derive", "wrap_help"] }
-serde_json = { version = "1.0.141" }
-
-revive-dt-common = { git = "https://github.com/paritytech/revive-differential-tests", rev = "989c064983c5502cd13e467875d9bde97dcbac45" }
-revive-dt-format = { git = "https://github.com/paritytech/revive-differential-tests", rev = "989c064983c5502cd13e467875d9bde97dcbac45" }
+regex = { version = "1.11.1" }
+serde_json = { version = "1.0.141", features = ["preserve_order"] }

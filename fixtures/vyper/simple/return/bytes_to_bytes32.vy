@@ -1,19 +1,27 @@
-#! { "modes": [ "V >=0.4.0" ], "cases": [ {
-#!     "name": "test",
-#!     "inputs": [
+#! {
+#!   "modes": [
+#!     "V >=0.4.0"
+#!   ],
+#!   "cases": [
+#!     {
+#!       "name": "test",
+#!       "inputs": [
 #!         {
-#!             "method": "verify",
-#!             "calldata": [
-#!                 "0x20",
-#!                 "32",
-#!                 "0"
-#!             ]
+#!           "method": "verify",
+#!           "calldata": [
+#!             "0x20",
+#!             "32",
+#!             "0"
+#!           ],
+#!           "caller": "0x03f9d023eF75bf95Be1e957abD613B139bd5BCDC"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "0"
-#!     ]
-#! } ] }
+#!       ]
+#!     }
+#!   ]
+#! }
 
 # Report https://linear.app/matterlabs/issue/CPR-450/vyper-extract32-exception-without-optimization
 

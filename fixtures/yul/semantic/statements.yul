@@ -1,137 +1,192 @@
-//! { "cases": [ {
-//!     "name": "simple_statement",
-//!     "inputs": [
+//! {
+//!   "cases": [
+//!     {
+//!       "name": "simple_statement",
+//!       "inputs": [
 //!         {
-//!             "method": "#fallback",
-//!             "calldata": [ "0" ]
+//!           "method": "#fallback",
+//!           "calldata": [
+//!             "0"
+//!           ],
+//!           "caller": "0x043aEd06383F290Ee28FA02794Ec7215CA099683"
 //!         }
-//!     ],
-//!     "expected": {
+//!       ],
+//!       "expected": {
 //!         "return_data": [],
 //!         "events": [
-//!             {
-//!                 "topics": [],
-//!                 "values": [ "0xdeadbeef" ]
-//!             }
+//!           {
+//!             "topics": [],
+//!             "values": [
+//!               "0xdeadbeef"
+//!             ]
+//!           }
 //!         ]
-//!     }
-//! }, {
-//!     "name": "nested_statements",
-//!     "inputs": [
+//!       }
+//!     },
+//!     {
+//!       "name": "nested_statements",
+//!       "inputs": [
 //!         {
-//!             "method": "#fallback",
-//!             "calldata": [ "1" ]
+//!           "method": "#fallback",
+//!           "calldata": [
+//!             "1"
+//!           ],
+//!           "caller": "0x0c95931d95694B3ef74071241827C09f25d40620"
 //!         }
-//!     ],
-//!     "expected": {
+//!       ],
+//!       "expected": {
 //!         "return_data": [],
 //!         "events": [
-//!             {
-//!                 "topics": [],
-//!                 "values": [ "0xdeadbeef01" ]
-//!             },
-//!             {
-//!                 "topics": [],
-//!                 "values": [ "0xdeadbeef02" ]
-//!             }
+//!           {
+//!             "topics": [],
+//!             "values": [
+//!               "0xdeadbeef01"
+//!             ]
+//!           },
+//!           {
+//!             "topics": [],
+//!             "values": [
+//!               "0xdeadbeef02"
+//!             ]
+//!           }
 //!         ]
-//!     }
-//! }, {
-//!     "name": "return_in_middle",
-//!     "inputs": [
+//!       }
+//!     },
+//!     {
+//!       "name": "return_in_middle",
+//!       "inputs": [
 //!         {
-//!             "method": "#fallback",
-//!             "calldata": [ "2" ]
+//!           "method": "#fallback",
+//!           "calldata": [
+//!             "2"
+//!           ],
+//!           "caller": "0x417f3b59eF57C641283C2300fae0f27fe98D518C"
 //!         }
-//!     ],
-//!     "expected": {
+//!       ],
+//!       "expected": {
 //!         "return_data": [
-//!             "0xdeadbeef"
+//!           "0xdeadbeef"
 //!         ],
 //!         "events": [
-//!             {
-//!                 "topics": [],
-//!                 "values": [ "0xdeadbeef" ]
-//!             }
+//!           {
+//!             "topics": [],
+//!             "values": [
+//!               "0xdeadbeef"
+//!             ]
+//!           }
 //!         ]
-//!     }
-//! }, {
-//!     "name": "revert_in_middle",
-//!     "inputs": [
+//!       }
+//!     },
+//!     {
+//!       "name": "revert_in_middle",
+//!       "inputs": [
 //!         {
-//!             "method": "#fallback",
-//!             "calldata": [ "3" ]
+//!           "method": "#fallback",
+//!           "calldata": [
+//!             "3"
+//!           ],
+//!           "caller": "0xD6B931D8d441B1ec98F55F8Ec8ADb532DC140c78"
 //!         }
-//!     ],
-//!     "expected": {
+//!       ],
+//!       "expected": {
 //!         "return_data": [
-//!             "0xdeadbeef"
+//!           "0xdeadbeef"
 //!         ],
 //!         "exception": true
-//!     }
-//! }, {
-//!     "name": "return_in_nested_statement",
-//!     "inputs": [
+//!       }
+//!     },
+//!     {
+//!       "name": "return_in_nested_statement",
+//!       "inputs": [
 //!         {
-//!             "method": "#fallback",
-//!             "calldata": [ "4" ]
+//!           "method": "#fallback",
+//!           "calldata": [
+//!             "4"
+//!           ],
+//!           "caller": "0x9220625B1a30680387D542E6b5F753786Ca5530e"
 //!         }
-//!     ],
-//!     "expected": {
-//!         "return_data": [ "0xdeadbeef02" ],
+//!       ],
+//!       "expected": {
+//!         "return_data": [
+//!           "0xdeadbeef02"
+//!         ],
 //!         "events": [
-//!             {
-//!                 "topics": [],
-//!                 "values": [ "0xdeadbeef01" ]
-//!             }
+//!           {
+//!             "topics": [],
+//!             "values": [
+//!               "0xdeadbeef01"
+//!             ]
+//!           }
 //!         ]
-//!     }
-//! }, {
-//!     "name": "revert_in_nested_statement",
-//!     "inputs": [
+//!       }
+//!     },
+//!     {
+//!       "name": "revert_in_nested_statement",
+//!       "inputs": [
 //!         {
-//!             "method": "#fallback",
-//!             "calldata": [ "5" ]
+//!           "method": "#fallback",
+//!           "calldata": [
+//!             "5"
+//!           ],
+//!           "caller": "0x997cf669860A1DCC76344866534D8679A7B562E2"
 //!         }
-//!     ],
-//!     "expected": {
-//!         "return_data": [ "0xdeadbeef02" ],
+//!       ],
+//!       "expected": {
+//!         "return_data": [
+//!           "0xdeadbeef02"
+//!         ],
 //!         "exception": true
-//!     }
-//! }, {
-//!     "name": "complex",
-//!     "inputs": [
+//!       }
+//!     },
+//!     {
+//!       "name": "complex",
+//!       "inputs": [
 //!         {
-//!             "method": "#fallback",
-//!             "calldata": [ "6" ]
+//!           "method": "#fallback",
+//!           "calldata": [
+//!             "6"
+//!           ],
+//!           "caller": "0xB961768b578514Debf079017FF78c47b0A6AdBf6"
 //!         }
-//!     ],
-//!     "expected": {
+//!       ],
+//!       "expected": {
 //!         "return_data": [],
 //!         "events": [
-//!             {
-//!                 "topics": [],
-//!                 "values": [ "0xdeadbeef01" ]
-//!             },
-//!             {
-//!                 "topics": [],
-//!                 "values": [ "0xdeadbeef02" ]
-//!             },
-//!             {
-//!                 "topics": [],
-//!                 "values": [ "0xdeadbeef03" ]
-//!             },
-//!             {
-//!                 "topics": [],
-//!                 "values": [ "0xdeadbeef04" ]
-//!             },
-//!             {
-//!                 "topics": [],
-//!                 "values": [ "0xdeadbeef05" ]
-//!             }
+//!           {
+//!             "topics": [],
+//!             "values": [
+//!               "0xdeadbeef01"
+//!             ]
+//!           },
+//!           {
+//!             "topics": [],
+//!             "values": [
+//!               "0xdeadbeef02"
+//!             ]
+//!           },
+//!           {
+//!             "topics": [],
+//!             "values": [
+//!               "0xdeadbeef03"
+//!             ]
+//!           },
+//!           {
+//!             "topics": [],
+//!             "values": [
+//!               "0xdeadbeef04"
+//!             ]
+//!           },
+//!           {
+//!             "topics": [],
+//!             "values": [
+//!               "0xdeadbeef05"
+//!             ]
+//!           }
 //!         ]
+//!       }
 //!     }
-//! } ] }
+//!   ]
+//! }
 
 object "Test" {
     code {

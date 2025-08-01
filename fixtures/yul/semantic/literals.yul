@@ -1,70 +1,97 @@
-//! { "cases": [ {
-//!     "name": "decimal",
-//!     "inputs": [
+//! {
+//!   "cases": [
+//!     {
+//!       "name": "decimal",
+//!       "inputs": [
 //!         {
-//!             "method": "#fallback",
-//!             "calldata": [ "0" ]
+//!           "method": "#fallback",
+//!           "calldata": [
+//!             "0"
+//!           ],
+//!           "caller": "0xa5dfe354b3Fc30c5c3a8fFeFC8f9470D9177C334"
 //!         }
-//!     ],
-//!     "expected": [
+//!       ],
+//!       "expected": [
 //!         "4024342343240230"
-//!     ]
-//! }, {
-//!     "name": "hexadecimal",
-//!     "inputs": [
+//!       ]
+//!     },
+//!     {
+//!       "name": "hexadecimal",
+//!       "inputs": [
 //!         {
-//!             "method": "#fallback",
-//!             "calldata": [ "1" ]
+//!           "method": "#fallback",
+//!           "calldata": [
+//!             "1"
+//!           ],
+//!           "caller": "0xa1A625AE13b80A9c48b7C0331C83bc4541aC137f"
 //!         }
-//!     ],
-//!     "expected": [
+//!       ],
+//!       "expected": [
 //!         "0xdeadbeef"
-//!     ]
-//! }, {
-//!     "name": "true",
-//!     "inputs": [
+//!       ]
+//!     },
+//!     {
+//!       "name": "true",
+//!       "inputs": [
 //!         {
-//!             "method": "#fallback",
-//!             "calldata": [ "2" ]
+//!           "method": "#fallback",
+//!           "calldata": [
+//!             "2"
+//!           ],
+//!           "caller": "0xa33C9D26e1E33b84247dEFCA631c1d30FFc76F5d"
 //!         }
-//!     ],
-//!     "expected": [
+//!       ],
+//!       "expected": [
 //!         "1"
-//!     ]
-//! }, {
-//!     "name": "false",
-//!     "inputs": [
+//!       ]
+//!     },
+//!     {
+//!       "name": "false",
+//!       "inputs": [
 //!         {
-//!             "method": "#fallback",
-//!             "calldata": [ "3" ]
+//!           "method": "#fallback",
+//!           "calldata": [
+//!             "3"
+//!           ],
+//!           "caller": "0xF9807a8719AE154E74591CB2d452797707faDF73"
 //!         }
-//!     ],
-//!     "expected": [
+//!       ],
+//!       "expected": [
 //!         "0"
-//!     ]
-//! }, {
-//!     "name": "string",
-//!     "inputs": [
+//!       ]
+//!     },
+//!     {
+//!       "name": "string",
+//!       "inputs": [
 //!         {
-//!             "method": "#fallback",
-//!             "calldata": [ "4" ]
+//!           "method": "#fallback",
+//!           "calldata": [
+//!             "4"
+//!           ],
+//!           "caller": "0xA1bA6FC3eA0E89F0E79f89d9Aa0081d010571E4a"
 //!         }
-//!     ],
-//!     "expected": [
+//!       ],
+//!       "expected": [
 //!         "0x6a73646a736a646a6431323331325c2f2212e2888e0000000000000000000000"
-//!     ]
-//! }, {
-//!     "name": "hex",
-//!     "inputs": [
+//!       ]
+//!     },
+//!     {
+//!       "name": "hex",
+//!       "inputs": [
 //!         {
-//!             "method": "#fallback",
-//!             "calldata": [ "5" ]
+//!           "method": "#fallback",
+//!           "calldata": [
+//!             "5"
+//!           ],
+//!           "caller": "0x366c20b40048556e5682e360997537c3715AcA0e"
 //!         }
-//!     ],
-//!     "expected": [
+//!       ],
+//!       "expected": [
 //!         "0x0012340000000000000000000000000000000000000000000000000000000000"
-//!     ]
-//! } ] }
+//!       ]
+//!     }
+//!   ]
+//! }
 
 object "Test" {
     code {

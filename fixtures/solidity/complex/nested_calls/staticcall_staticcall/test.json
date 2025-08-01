@@ -1,23 +1,27 @@
-{ "cases": [ {
-    "name": "default",
-    "inputs": [
+{
+  "cases": [
+    {
+      "name": "default",
+      "inputs": [
         {
-            "instance": "A",
-            "method": "main",
-            "calldata": [
-                "B.address",
-                "C.address"
-            ]
+          "instance": "A",
+          "method": "main",
+          "calldata": [
+            "B.address",
+            "C.address"
+          ],
+          "caller": "0x8F43F9e13Fb7297937A6Ac2efab449B041E1d536"
         }
-    ],
-    "expected": {
+      ],
+      "expected": {
         "return_data": [],
         "exception": true
+      }
     }
-} ],
-    "contracts": {
-        "A": "A.sol:A",
-        "B": "B.sol:B",
-        "C": "C.sol:C"
-    }
+  ],
+  "contracts": {
+    "A": "A.sol:A",
+    "B": "B.sol:B",
+    "C": "C.sol:C"
+  }
 }

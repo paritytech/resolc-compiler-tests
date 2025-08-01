@@ -1,100 +1,108 @@
-{ "cases": [ {
-    "name": "A",
-    "inputs": [
+{
+  "cases": [
+    {
+      "name": "A",
+      "inputs": [
         {
-            "instance": "A",
-            "method": "foo",
-            "calldata": [
-            ]
+          "instance": "A",
+          "method": "foo",
+          "calldata": [],
+          "caller": "0x850B94b3B5D31e462d8728a4AF193E5B39Cf3763"
         }
-    ],
-    "expected": [
+      ],
+      "expected": [
         "0x20",
         "1",
         "0x4100000000000000000000000000000000000000000000000000000000000000"
-    ]
-}, {
-    "name": "B",
-    "inputs": [
+      ]
+    },
+    {
+      "name": "B",
+      "inputs": [
         {
-            "instance": "B",
-            "method": "foo",
-            "calldata": [
-            ]
+          "instance": "B",
+          "method": "foo",
+          "calldata": [],
+          "caller": "0xE09226AD5f9dF5801976fB1D8191b9336fA49131"
         }
-    ],
-    "expected": [
+      ],
+      "expected": [
         "0x20",
         "1",
         "0x4200000000000000000000000000000000000000000000000000000000000000"
-    ]
-}, {
-    "name": "C",
-    "inputs": [
+      ]
+    },
+    {
+      "name": "C",
+      "inputs": [
         {
-            "instance": "C",
-            "method": "foo",
-            "calldata": [
-            ]
+          "instance": "C",
+          "method": "foo",
+          "calldata": [],
+          "caller": "0xD545223833dB67901C56Fe85AF0BaDfE8248CF20"
         }
-    ],
-    "expected": [
+      ],
+      "expected": [
         "0x20",
         "1",
         "0x4300000000000000000000000000000000000000000000000000000000000000"
-    ]
-}, {
-    "name": "D",
-    "inputs": [
+      ]
+    },
+    {
+      "name": "D",
+      "inputs": [
         {
-            "instance": "D",
-            "method": "foo",
-            "calldata": [
-            ]
+          "instance": "D",
+          "method": "foo",
+          "calldata": [],
+          "caller": "0xdE381C8F3c32529836Ab870878eD78870d29c03e"
         }
-    ],
-    "expected": [
+      ],
+      "expected": [
         "0x20",
         "1",
         "0x4300000000000000000000000000000000000000000000000000000000000000"
-    ]
-}, {
-    "name": "E",
-    "inputs": [
+      ]
+    },
+    {
+      "name": "E",
+      "inputs": [
         {
-            "instance": "E",
-            "method": "foo",
-            "calldata": [
-            ]
+          "instance": "E",
+          "method": "foo",
+          "calldata": [],
+          "caller": "0x88407eE18aD159431D715B066c192b1AC1d80412"
         }
-    ],
-    "expected": [
+      ],
+      "expected": [
         "0x20",
         "1",
         "0x4200000000000000000000000000000000000000000000000000000000000000"
-    ]
-}, {
-    "name": "F",
-    "inputs": [
+      ]
+    },
+    {
+      "name": "F",
+      "inputs": [
         {
-            "instance": "F",
-            "method": "foo",
-            "calldata": [
-            ]
+          "instance": "F",
+          "method": "foo",
+          "calldata": [],
+          "caller": "0xBF9dfce0E29A813707E4a47F159C6A797148B0FE"
         }
-    ],
-    "expected": [
+      ],
+      "expected": [
         "0x20",
         "1",
         "0x4200000000000000000000000000000000000000000000000000000000000000"
-    ]
-} ],
-    "contracts": {
-        "A": "main.sol:A",
-        "B": "main.sol:B",
-        "C": "main.sol:C",
-        "D": "main.sol:D",
-        "E": "main.sol:E",
-        "F": "main.sol:F"
+      ]
     }
+  ],
+  "contracts": {
+    "A": "main.sol:A",
+    "B": "main.sol:B",
+    "C": "main.sol:C",
+    "D": "main.sol:D",
+    "E": "main.sol:E",
+    "F": "main.sol:F"
+  }
 }

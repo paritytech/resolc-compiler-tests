@@ -1,24 +1,29 @@
-{ "cases": [ {
-    "name": "entry",
-    "inputs": [
+{
+  "cases": [
+    {
+      "name": "entry",
+      "inputs": [
         {
-            "instance": "Import",
-            "method": "getFooName",
-            "calldata": [
-            ]
+          "instance": "Import",
+          "method": "getFooName",
+          "calldata": [],
+          "caller": "0x4EDb76B7FA2151c81EF4E8D247D4C46e5ccA82a9"
         }
-    ],
-    "expected": [
+      ],
+      "expected": [
         "32",
         "3",
         "0x466F6F0000000000000000000000000000000000000000000000000000000000"
-    ]
-} ],
-    "contracts": {
-        "Import": "Import.sol:Import",
-        "Foo": "Foo.sol:Foo"
-    },
-    "libraries": {
-        "Foo.sol": { "Foo": "Foo" }
+      ]
     }
+  ],
+  "contracts": {
+    "Import": "Import.sol:Import",
+    "Foo": "Foo.sol:Foo"
+  },
+  "libraries": {
+    "Foo.sol": {
+      "Foo": "Foo"
+    }
+  }
 }

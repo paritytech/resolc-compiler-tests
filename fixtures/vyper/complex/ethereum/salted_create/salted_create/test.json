@@ -1,34 +1,42 @@
-{ "modes": [ "V >=0.4.0" ], "cases": [ {
-    "name": "default",
-    "inputs": [
+{
+  "modes": [
+    "V >=0.4.0"
+  ],
+  "cases": [
+    {
+      "name": "default",
+      "inputs": [
         {
-            "instance": "A",
-            "method": "different_salt",
-            "calldata": [
-                "B.address"
-            ],
-            "expected": [
-                "1"
-            ]
+          "instance": "A",
+          "method": "different_salt",
+          "calldata": [
+            "B.address"
+          ],
+          "expected": [
+            "1"
+          ],
+          "caller": "0xaDC937C09b280c0b12073916732888c47CBA1B27"
         },
         {
-            "instance": "A",
-            "method": "same_salt",
-            "calldata": [
-                "B.address"
-            ]
+          "instance": "A",
+          "method": "same_salt",
+          "calldata": [
+            "B.address"
+          ],
+          "caller": "0xaDC937C09b280c0b12073916732888c47CBA1B27"
         }
-    ],
-    "expected": {
+      ],
+      "expected": {
         "exception": true,
         "return_data": [
-            "0x9e4a3c8a0100002b3b79a58173f59859dd18e0d901dc3e37f2ac00b422af2bbe",
-            "0xde6b30be00000000000000000000000000000000000000000000000000000000"
+          "0x9e4a3c8a0100002b3b79a58173f59859dd18e0d901dc3e37f2ac00b422af2bbe",
+          "0xde6b30be00000000000000000000000000000000000000000000000000000000"
         ]
+      }
     }
-} ],
-    "contracts": {
-        "A": "A.vy",
-        "B": "B.vy"
-    }
+  ],
+  "contracts": {
+    "A": "A.vy",
+    "B": "B.vy"
+  }
 }

@@ -1,65 +1,78 @@
-{ "modes": [ "V >=0.4.0" ], "cases": [ {
-    "name": "five",
-    "inputs": [
+{
+  "modes": [
+    "V >=0.4.0"
+  ],
+  "cases": [
+    {
+      "name": "five",
+      "inputs": [
         {
-            "instance": "Main",
-            "method": "main",
-            "calldata": [
-                "5",
-                "Main.address"
-            ]
+          "instance": "Main",
+          "method": "main",
+          "calldata": [
+            "5",
+            "Main.address"
+          ],
+          "caller": "0x82df330047986Fc85332c66E0fd64768766CB3d9"
         }
-    ],
-    "expected": [
+      ],
+      "expected": [
         "120"
-    ]
-}, {
-    "name": "twelve",
-    "inputs": [
+      ]
+    },
+    {
+      "name": "twelve",
+      "inputs": [
         {
-            "instance": "Main",
-            "method": "main",
-            "calldata": [
-                "12",
-                "Main.address"
-            ]
+          "instance": "Main",
+          "method": "main",
+          "calldata": [
+            "12",
+            "Main.address"
+          ],
+          "caller": "0xde06181f17942BE7Efd5398596155c9f3D58fF8c"
         }
-    ],
-    "expected": [
+      ],
+      "expected": [
         "479001600"
-    ]
-},{
-    "name": "fifteen",
-    "inputs": [
+      ]
+    },
+    {
+      "name": "fifteen",
+      "inputs": [
         {
-            "instance": "Main",
-            "method": "main",
-            "calldata": [
-                "15",
-                "Main.address"
-            ]
+          "instance": "Main",
+          "method": "main",
+          "calldata": [
+            "15",
+            "Main.address"
+          ],
+          "caller": "0x762BA8f9CA2A1E0590F0891d9a0A440EafBD70a6"
         }
-    ],
-    "expected": [
+      ],
+      "expected": [
         "1307674368000"
-    ]
-}, {
-    "name": "twenty",
-    "inputs": [
+      ]
+    },
+    {
+      "name": "twenty",
+      "inputs": [
         {
-            "instance": "Main",
-            "method": "main",
-            "calldata": [
-                "20",
-                "Main.address"
-            ]
+          "instance": "Main",
+          "method": "main",
+          "calldata": [
+            "20",
+            "Main.address"
+          ],
+          "caller": "0xBf669E0A80de07DEcdc664Ea97785Ce1A7701bB0"
         }
-    ],
-    "expected": [
+      ],
+      "expected": [
         "2432902008176640000"
-    ]
-} ],
-    "contracts": {
-        "Main": "main.vy"
+      ]
     }
+  ],
+  "contracts": {
+    "Main": "main.vy"
+  }
 }

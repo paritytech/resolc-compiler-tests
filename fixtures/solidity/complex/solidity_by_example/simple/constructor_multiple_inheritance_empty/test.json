@@ -1,33 +1,39 @@
-{ "modes": [
+{
+  "modes": [
     "Y >=0.8.1",
-    "E", "I"
-], "cases": [ {
-    "name": "B",
-    "inputs": [
+    "E",
+    "I"
+  ],
+  "cases": [
+    {
+      "name": "B",
+      "inputs": [
         {
-            "instance": "B",
-            "method": "name",
-            "calldata": [
-            ],
-            "expected": [
-                "0x20",
-                "10",
-                "0x496e70757420746f205800000000000000000000000000000000000000000000"
-            ]
-        }, {
-            "instance": "B",
-            "method": "text",
-            "calldata": [
-            ]
+          "instance": "B",
+          "method": "name",
+          "calldata": [],
+          "expected": [
+            "0x20",
+            "10",
+            "0x496e70757420746f205800000000000000000000000000000000000000000000"
+          ],
+          "caller": "0x81b822A39465dCA0abc9266EAc1048EDb0eD8ee3"
+        },
+        {
+          "instance": "B",
+          "method": "text",
+          "calldata": [],
+          "caller": "0x81b822A39465dCA0abc9266EAc1048EDb0eD8ee3"
         }
-    ],
-    "expected": [
+      ],
+      "expected": [
         "0x20",
         "10",
         "0x496e70757420746f205900000000000000000000000000000000000000000000"
-    ]
-} ],
-    "contracts": {
-        "B": "main.sol:B"
+      ]
     }
+  ],
+  "contracts": {
+    "B": "main.sol:B"
+  }
 }

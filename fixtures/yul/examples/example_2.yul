@@ -1,17 +1,23 @@
-//! { "cases": [ {
-//!     "name": "default",
-//!     "inputs": [
+//! {
+//!   "cases": [
+//!     {
+//!       "name": "default",
+//!       "inputs": [
 //!         {
-//!             "method": "deadbeef",
-//!             "calldata": [
-//!                 "0", "0"
-//!             ]
+//!           "method": "deadbeef",
+//!           "calldata": [
+//!             "0",
+//!             "0"
+//!           ],
+//!           "caller": "0x58Bab2f728dc4FC227A4C38CaB2ec93B73B4E828"
 //!         }
-//!     ],
-//!     "expected": [
+//!       ],
+//!       "expected": [
 //!         "0"
-//!     ]
-//! } ] }
+//!       ]
+//!     }
+//!   ]
+//! }
 
 //
 // Report https://linear.app/matterlabs/issue/CPR-182/calldata-offset-adjustment-lowering

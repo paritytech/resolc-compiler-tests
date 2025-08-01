@@ -1,30 +1,40 @@
-#! { "modes": [ "V >=0.4.0" ], "cases": [ {
-#!     "name": "first",
-#!     "inputs": [
+#! {
+#!   "modes": [
+#!     "V >=0.4.0"
+#!   ],
+#!   "cases": [
+#!     {
+#!       "name": "first",
+#!       "inputs": [
 #!         {
-#!             "method": "main",
-#!             "calldata": [
-#!                 "1"
-#!             ]
+#!           "method": "main",
+#!           "calldata": [
+#!             "1"
+#!           ],
+#!           "caller": "0xcd8c0452c7bB0E1BE7908977A5cB8FB81869864c"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "25"
-#!     ]
-#! }, {
-#!     "name": "second",
-#!     "inputs": [
+#!       ]
+#!     },
+#!     {
+#!       "name": "second",
+#!       "inputs": [
 #!         {
-#!             "method": "main",
-#!             "calldata": [
-#!                 "2"
-#!             ]
+#!           "method": "main",
+#!           "calldata": [
+#!             "2"
+#!           ],
+#!           "caller": "0x735B93617ED557Bed02fEdbD0A1e59da51C8Cc86"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "42"
-#!     ]
-#! } ] }
+#!       ]
+#!     }
+#!   ]
+#! }
 
 @external
 @pure

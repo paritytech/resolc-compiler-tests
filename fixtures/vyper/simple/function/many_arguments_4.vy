@@ -1,16 +1,23 @@
-#! { "modes": [ "V >=0.4.0" ], "cases": [ {
-#!     "name": "f1",
-#!     "inputs": [
+#! {
+#!   "modes": [
+#!     "V >=0.4.0"
+#!   ],
+#!   "cases": [
+#!     {
+#!       "name": "f1",
+#!       "inputs": [
 #!         {
-#!             "method": "f1",
-#!             "calldata": [
-#!             ]
+#!           "method": "f1",
+#!           "calldata": [],
+#!           "caller": "0xCA6B0A227500061D5B7813522e6A83C20aa40Bef"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "1"
-#!     ]
-#! } ] }
+#!       ]
+#!     }
+#!   ]
+#! }
 
 # Report https://linear.app/matterlabs/issue/CPR-197/stack-corrupted-error
 

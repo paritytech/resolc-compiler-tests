@@ -1,29 +1,34 @@
-//! { "cases": [ {
-//!     "name": "default",
-//!     "inputs": [
+//! {
+//!   "cases": [
+//!     {
+//!       "name": "default",
+//!       "inputs": [
 //!         {
-//!             "method": "main",
-//!             "calldata": []
+//!           "method": "main",
+//!           "calldata": [],
+//!           "caller": "0xB93F51B7B123C6a8F5070983170Db53011029010"
 //!         }
-//!     ],
-//!     "expected": {
+//!       ],
+//!       "expected": {
 //!         "return_data": [
-//!             "42",
-//!             "25",
-//!             "5"
+//!           "42",
+//!           "25",
+//!           "5"
 //!         ],
 //!         "events": [
-//!             {
-//!                 "topics": [
-//!                     "5",
-//!                     "25",
-//!                     "42"
-//!                 ],
-//!                 "values": []
-//!             }
+//!           {
+//!             "topics": [
+//!               "5",
+//!               "25",
+//!               "42"
+//!             ],
+//!             "values": []
+//!           }
 //!         ]
+//!       }
 //!     }
-//! } ] }
+//!   ]
+//! }
 
 contract Test {
     function main() external {

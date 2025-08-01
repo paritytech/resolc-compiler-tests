@@ -1,59 +1,76 @@
-//! { "enable_eravm_extensions": true, "targets": [ "eravm" ], "cases": [ {
-//!     "name": "500_gas",
-//!     "inputs": [
+//! {
+//!   "enable_eravm_extensions": true,
+//!   "targets": [
+//!     "eravm"
+//!   ],
+//!   "cases": [
+//!     {
+//!       "name": "500_gas",
+//!       "inputs": [
 //!         {
-//!             "method": "#fallback",
-//!             "calldata": []
+//!           "method": "#fallback",
+//!           "calldata": [],
+//!           "caller": "0x3577496a436bC4E85842e8061a287D88B1e73523"
 //!         }
-//!     ],
-//!     "expected": [
+//!       ],
+//!       "expected": [
 //!         "0"
-//!     ]
-//! }, {
-//!     "name": "1000_gas",
-//!     "inputs": [
+//!       ]
+//!     },
+//!     {
+//!       "name": "1000_gas",
+//!       "inputs": [
 //!         {
-//!             "method": "#fallback",
-//!             "calldata": []
+//!           "method": "#fallback",
+//!           "calldata": [],
+//!           "caller": "0x04822880847fB03Ae0690B2EB6f39AD57459033f"
 //!         }
-//!     ],
-//!     "expected": [
+//!       ],
+//!       "expected": [
 //!         "0"
-//!     ]
-//! }, {
-//!     "name": "1500_gas",
-//!     "inputs": [
+//!       ]
+//!     },
+//!     {
+//!       "name": "1500_gas",
+//!       "inputs": [
 //!         {
-//!             "method": "#fallback",
-//!             "calldata": []
+//!           "method": "#fallback",
+//!           "calldata": [],
+//!           "caller": "0x6B7f55F60B4c55eA1E8Ec52A07f17b3C4ca648DD"
 //!         }
-//!     ],
-//!     "expected": [
+//!       ],
+//!       "expected": [
 //!         "0"
-//!     ]
-//! }, {
-//!     "name": "2000_gas",
-//!     "inputs": [
+//!       ]
+//!     },
+//!     {
+//!       "name": "2000_gas",
+//!       "inputs": [
 //!         {
-//!             "method": "#fallback",
-//!             "calldata": []
+//!           "method": "#fallback",
+//!           "calldata": [],
+//!           "caller": "0xfa07946Ad03ec1f5DDbf60B2FcB055720C626e7E"
 //!         }
-//!     ],
-//!     "expected": [
+//!       ],
+//!       "expected": [
 //!         "0"
-//!     ]
-//! }, {
-//!     "name": "2500_gas",
-//!     "inputs": [
+//!       ]
+//!     },
+//!     {
+//!       "name": "2500_gas",
+//!       "inputs": [
 //!         {
-//!             "method": "#fallback",
-//!             "calldata": []
+//!           "method": "#fallback",
+//!           "calldata": [],
+//!           "caller": "0xD3ff90f011b0160D4d37067E037EABd7d2041663"
 //!         }
-//!     ],
-//!     "expected": [
+//!       ],
+//!       "expected": [
 //!         "0"
-//!     ]
-//! } ] }
+//!       ]
+//!     }
+//!   ]
+//! }
 
 object "Test" {
     code {

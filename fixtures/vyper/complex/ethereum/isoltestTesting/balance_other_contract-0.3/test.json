@@ -1,48 +1,55 @@
-{ "modes": [ "V <=0.3.10" ], "cases": [ {
-    "name": "default",
-    "inputs": [
+{
+  "modes": [
+    "V <=0.3.10"
+  ],
+  "cases": [
+    {
+      "name": "default",
+      "inputs": [
         {
-            "instance": "ClientReceipt",
-            "method": "#deployer",
-            "calldata": [
-                "Other.address"
-            ],
-            "value": "2000 wei",
-            "expected": [
-                "ClientReceipt.address"
-            ]
+          "instance": "ClientReceipt",
+          "method": "#deployer",
+          "calldata": [
+            "Other.address"
+          ],
+          "value": "2000 wei",
+          "expected": [
+            "ClientReceipt.address"
+          ],
+          "caller": "0x8cf63638D344Ea13f1a11152e71cb639A811e244"
         },
         {
-            "instance": "ClientReceipt",
-            "method": "balance_",
-            "calldata": [
-            ],
-            "expected": [
-                "1500"
-            ]
+          "instance": "ClientReceipt",
+          "method": "balance_",
+          "calldata": [],
+          "expected": [
+            "1500"
+          ],
+          "caller": "0x8cf63638D344Ea13f1a11152e71cb639A811e244"
         },
         {
-            "instance": "ClientReceipt",
-            "method": "getAddress",
-            "calldata": [
-            ],
-            "expected": [
-                "*"
-            ]
+          "instance": "ClientReceipt",
+          "method": "getAddress",
+          "calldata": [],
+          "expected": [
+            "*"
+          ],
+          "caller": "0x8cf63638D344Ea13f1a11152e71cb639A811e244"
         },
         {
-            "instance": "ClientReceipt",
-            "method": "balance_other",
-            "calldata": [
-            ]
+          "instance": "ClientReceipt",
+          "method": "balance_other",
+          "calldata": [],
+          "caller": "0x8cf63638D344Ea13f1a11152e71cb639A811e244"
         }
-    ],
-    "expected": [
+      ],
+      "expected": [
         "500"
-    ]
-} ],
-    "contracts": {
-        "Other": "Other.vy",
-        "ClientReceipt": "ClientReceipt.vy"
+      ]
     }
+  ],
+  "contracts": {
+    "Other": "Other.vy",
+    "ClientReceipt": "ClientReceipt.vy"
+  }
 }

@@ -1,32 +1,47 @@
-{ "modes": [ "Y", "E" ], "cases": [ {
-    "name": "default",
-    "inputs": [
+{
+  "modes": [
+    "Y",
+    "E"
+  ],
+  "cases": [
+    {
+      "name": "default",
+      "inputs": [
         {
-            "instance": "OtherContract",
-            "method": "#deployer",
-            "calldata": [],
-            "expected": [ "OtherContract.address" ]
+          "instance": "OtherContract",
+          "method": "#deployer",
+          "calldata": [],
+          "expected": [
+            "OtherContract.address"
+          ],
+          "caller": "0x42258dd38B59178e32A718B909630EE44f896263"
         },
         {
-            "method": "#deployer",
-            "address": "Test.address",
-            "calldata": [
-                "OtherContract.address"
-            ],
-            "expected": [ "Test.address" ]
+          "method": "#deployer",
+          "address": "Test.address",
+          "calldata": [
+            "OtherContract.address"
+          ],
+          "expected": [
+            "Test.address"
+          ],
+          "caller": "0x42258dd38B59178e32A718B909630EE44f896263"
         },
         {
-            "method": "complexOperation",
-            "calldata": [
-                "5"
-            ]
+          "method": "complexOperation",
+          "calldata": [
+            "5"
+          ],
+          "caller": "0x42258dd38B59178e32A718B909630EE44f896263"
         }
-    ],
-    "expected": [
+      ],
+      "expected": [
         "35"
-    ]
-} ],
-"contracts": {
+      ]
+    }
+  ],
+  "contracts": {
     "OtherContract": "main.sol:OtherContract",
     "Test": "main.sol:Test"
-} }
+  }
+}

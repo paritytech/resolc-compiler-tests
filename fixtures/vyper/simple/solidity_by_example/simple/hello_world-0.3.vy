@@ -1,18 +1,25 @@
-#! { "modes": [ "V <=0.3.10" ], "cases": [ {
-#!     "name": "get",
-#!     "inputs": [
+#! {
+#!   "modes": [
+#!     "V <=0.3.10"
+#!   ],
+#!   "cases": [
+#!     {
+#!       "name": "get",
+#!       "inputs": [
 #!         {
-#!             "method": "greet",
-#!             "calldata": [
-#!             ]
+#!           "method": "greet",
+#!           "calldata": [],
+#!           "caller": "0xE5B2A1bdae3486987e6E136c576a9A28AB8cDBe9"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "0x20",
 #!         "12",
 #!         "0x48656c6c6f20576f726c64210000000000000000000000000000000000000000"
-#!     ]
-#! } ] }
+#!       ]
+#!     }
+#!   ]
+#! }
 
 greet: public(String[12])
 

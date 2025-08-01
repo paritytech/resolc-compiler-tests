@@ -1,18 +1,19 @@
 {
-    "cases": [
+  "cases": [
+    {
+      "name": "first",
+      "inputs": [
         {
-            "name": "first",
-            "inputs": [
-                {
-                    "instance": "Main",
-                    "method": "test",
-                    "calldata": []
-                }
-            ],
-            "expected": []
+          "instance": "Main",
+          "method": "test",
+          "calldata": [],
+          "caller": "0x942c54869Ee2f0edE8BD23644FDdFAc411c5616d"
         }
-    ],
-    "contracts": {
-        "Main": "Main.sol:Main"
+      ],
+      "expected": []
     }
+  ],
+  "contracts": {
+    "Main": "Main.sol:Main"
+  }
 }

@@ -1,188 +1,263 @@
-//! { "cases": [ {
-//!     "name": "true_condition",
-//!     "inputs": [
+//! {
+//!   "cases": [
+//!     {
+//!       "name": "true_condition",
+//!       "inputs": [
 //!         {
-//!             "method": "#fallback",
-//!             "calldata": [ "0" ]
+//!           "method": "#fallback",
+//!           "calldata": [
+//!             "0"
+//!           ],
+//!           "caller": "0xeb0E56F32246D043228faC8b63a71687D5199Af1"
 //!         }
-//!     ],
-//!     "expected": [
+//!       ],
+//!       "expected": [
 //!         "0xdeadbeef"
-//!     ]
-//! }, {
-//!     "name": "false_condition",
-//!     "inputs": [
+//!       ]
+//!     },
+//!     {
+//!       "name": "false_condition",
+//!       "inputs": [
 //!         {
-//!             "method": "#fallback",
-//!             "calldata": [ "1" ]
+//!           "method": "#fallback",
+//!           "calldata": [
+//!             "1"
+//!           ],
+//!           "caller": "0xdb3ed822B78F0641623a12166607B5FA4dF862Ad"
 //!         }
-//!     ],
-//!     "expected": [
+//!       ],
+//!       "expected": [
 //!         "0xdeadbeef01"
-//!     ]
-//! }, {
-//!     "name": "string_condition",
-//!     "inputs": [
+//!       ]
+//!     },
+//!     {
+//!       "name": "string_condition",
+//!       "inputs": [
 //!         {
-//!             "method": "#fallback",
-//!             "calldata": [ "2" ]
+//!           "method": "#fallback",
+//!           "calldata": [
+//!             "2"
+//!           ],
+//!           "caller": "0xB88C19426F03c6981d1A4281c7414d842b97619a"
 //!         }
-//!     ],
-//!     "expected": [
+//!       ],
+//!       "expected": [
 //!         "0xdeadbeef02"
-//!     ]
-//! }, {
-//!     "name": "empty_string_condition",
-//!     "inputs": [
+//!       ]
+//!     },
+//!     {
+//!       "name": "empty_string_condition",
+//!       "inputs": [
 //!         {
-//!             "method": "#fallback",
-//!             "calldata": [ "3" ]
+//!           "method": "#fallback",
+//!           "calldata": [
+//!             "3"
+//!           ],
+//!           "caller": "0x32e04b012ac811C91d36a355A6D2859A0071A965"
 //!         }
-//!     ],
-//!     "expected": [
+//!       ],
+//!       "expected": [
 //!         "0xdeadbeef03"
-//!     ]
-//! }, {
-//!     "name": "zero_condition",
-//!     "inputs": [
+//!       ]
+//!     },
+//!     {
+//!       "name": "zero_condition",
+//!       "inputs": [
 //!         {
-//!             "method": "#fallback",
-//!             "calldata": [ "4" ]
+//!           "method": "#fallback",
+//!           "calldata": [
+//!             "4"
+//!           ],
+//!           "caller": "0xe0dd44773F7657b11019062879D65F3D9862460c"
 //!         }
-//!     ],
-//!     "expected": [
+//!       ],
+//!       "expected": [
 //!         "0xdeadbeef04"
-//!     ]
-//! }, {
-//!     "name": "one_condition",
-//!     "inputs": [
+//!       ]
+//!     },
+//!     {
+//!       "name": "one_condition",
+//!       "inputs": [
 //!         {
-//!             "method": "#fallback",
-//!             "calldata": [ "5" ]
+//!           "method": "#fallback",
+//!           "calldata": [
+//!             "5"
+//!           ],
+//!           "caller": "0x756Be12856A8F44AB22FdBCbD42B70b843377d09"
 //!         }
-//!     ],
-//!     "expected": [
+//!       ],
+//!       "expected": [
 //!         "0xdeadbeef05"
-//!     ]
-//! }, {
-//!     "name": "number_condition",
-//!     "inputs": [
+//!       ]
+//!     },
+//!     {
+//!       "name": "number_condition",
+//!       "inputs": [
 //!         {
-//!             "method": "#fallback",
-//!             "calldata": [ "6" ]
+//!           "method": "#fallback",
+//!           "calldata": [
+//!             "6"
+//!           ],
+//!           "caller": "0x6f4c950442e1Af093BcfF730381E63Ae9171b87a"
 //!         }
-//!     ],
-//!     "expected": [
+//!       ],
+//!       "expected": [
 //!         "0xdeadbeef06"
-//!     ]
-//! }, {
-//!     "name": "true_runtime_condition",
-//!     "inputs": [
+//!       ]
+//!     },
+//!     {
+//!       "name": "true_runtime_condition",
+//!       "inputs": [
 //!         {
-//!             "method": "#fallback",
-//!             "calldata": [ "7" ]
+//!           "method": "#fallback",
+//!           "calldata": [
+//!             "7"
+//!           ],
+//!           "caller": "0x4d1Bf28514A4451249908E611366Ec967C3d1558"
 //!         }
-//!     ],
-//!     "expected": [
+//!       ],
+//!       "expected": [
 //!         "0xdeadbeef07"
-//!     ]
-//! }, {
-//!     "name": "false_runtime_condition",
-//!     "inputs": [
+//!       ]
+//!     },
+//!     {
+//!       "name": "false_runtime_condition",
+//!       "inputs": [
 //!         {
-//!             "method": "#fallback",
-//!             "calldata": [ "8" ]
+//!           "method": "#fallback",
+//!           "calldata": [
+//!             "8"
+//!           ],
+//!           "caller": "0xB0142D883494197B02c6ECE84f571D81bd831124"
 //!         }
-//!     ],
-//!     "expected": [
+//!       ],
+//!       "expected": [
 //!         "0xdeadbeef08"
-//!     ]
-//! }, {
-//!     "name": "return_in_condition",
-//!     "inputs": [
+//!       ]
+//!     },
+//!     {
+//!       "name": "return_in_condition",
+//!       "inputs": [
 //!         {
-//!             "method": "#fallback",
-//!             "calldata": [ "9" ]
+//!           "method": "#fallback",
+//!           "calldata": [
+//!             "9"
+//!           ],
+//!           "caller": "0x1326324f5A9fb193409E10006e4EA41b970Df321"
 //!         }
-//!     ],
-//!     "expected": [
+//!       ],
+//!       "expected": [
 //!         "0xdeadbeef09"
-//!     ]
-//! }, {
-//!     "name": "revert_in_condition",
-//!     "inputs": [
+//!       ]
+//!     },
+//!     {
+//!       "name": "revert_in_condition",
+//!       "inputs": [
 //!         {
-//!             "method": "#fallback",
-//!             "calldata": [ "10" ]
+//!           "method": "#fallback",
+//!           "calldata": [
+//!             "10"
+//!           ],
+//!           "caller": "0xF9A2C330a19e2FbFeB50fe7a7195b973bB0A3BE9"
 //!         }
-//!     ],
-//!     "expected": {
+//!       ],
+//!       "expected": {
 //!         "exception": true,
-//!         "return_data": [ "0xdeadbeef0a" ]
-//!     }
-//! }, {
-//!     "name": "empty_statement_condition_side_effect",
-//!     "inputs": [
-//!         {
-//!             "method": "#fallback",
-//!             "calldata": [ "11" ]
-//!         }
-//!     ],
-//!     "expected": [
-//!         "0xdeadbeef0b"
-//!     ]
-//! }, {
-//!     "name": "return_in_statement",
-//!     "inputs": [
-//!         {
-//!             "method": "#fallback",
-//!             "calldata": [ "12" ]
-//!         }
-//!     ],
-//!     "expected": [
-//!         "0xdeadbeef0c"
-//!     ]
-//! }, {
-//!     "name": "revert_in_statement",
-//!     "inputs": [
-//!         {
-//!             "method": "#fallback",
-//!             "calldata": [ "13" ]
-//!         }
-//!     ],
-//!     "expected": {
-//!         "exception": true,
-//!         "return_data": [ "0xdeadbeef0d" ]
-//!     }
-//! }, {
-//!     "name": "nested_ifs",
-//!     "inputs": [
-//!         {
-//!             "method": "#fallback",
-//!             "calldata": [ "14" ]
-//!         }
-//!     ],
-//!     "expected": [
-//!         "0xdeadbeef0e"
-//!     ]
-//! }, {
-//!     "name": "complex",
-//!     "inputs": [
-//!         {
-//!             "method": "#fallback",
-//!             "calldata": [ "15" ]
-//!         }
-//!     ],
-//!     "expected": {
-//!         "return_data": [ "0xdeadbeef02" ],
-//!         "events": [
-//!             {
-//!                 "topics": [],
-//!                 "values": [ "0xdeadbeef02" ]
-//!             }
+//!         "return_data": [
+//!           "0xdeadbeef0a"
 //!         ]
+//!       }
+//!     },
+//!     {
+//!       "name": "empty_statement_condition_side_effect",
+//!       "inputs": [
+//!         {
+//!           "method": "#fallback",
+//!           "calldata": [
+//!             "11"
+//!           ],
+//!           "caller": "0x7a601ffA997cEdE6435aeABf4Fa2091f09e149Ec"
+//!         }
+//!       ],
+//!       "expected": [
+//!         "0xdeadbeef0b"
+//!       ]
+//!     },
+//!     {
+//!       "name": "return_in_statement",
+//!       "inputs": [
+//!         {
+//!           "method": "#fallback",
+//!           "calldata": [
+//!             "12"
+//!           ],
+//!           "caller": "0xa92F4b5c4FddCC37E5139873AC28a4A0a42d68df"
+//!         }
+//!       ],
+//!       "expected": [
+//!         "0xdeadbeef0c"
+//!       ]
+//!     },
+//!     {
+//!       "name": "revert_in_statement",
+//!       "inputs": [
+//!         {
+//!           "method": "#fallback",
+//!           "calldata": [
+//!             "13"
+//!           ],
+//!           "caller": "0x850Cc185d6Cae4A7fDFB3dd81F977dD1dF7D6503"
+//!         }
+//!       ],
+//!       "expected": {
+//!         "exception": true,
+//!         "return_data": [
+//!           "0xdeadbeef0d"
+//!         ]
+//!       }
+//!     },
+//!     {
+//!       "name": "nested_ifs",
+//!       "inputs": [
+//!         {
+//!           "method": "#fallback",
+//!           "calldata": [
+//!             "14"
+//!           ],
+//!           "caller": "0xB1b7c87e8a0Bf2E7fd1a1C582bd353E4C4529341"
+//!         }
+//!       ],
+//!       "expected": [
+//!         "0xdeadbeef0e"
+//!       ]
+//!     },
+//!     {
+//!       "name": "complex",
+//!       "inputs": [
+//!         {
+//!           "method": "#fallback",
+//!           "calldata": [
+//!             "15"
+//!           ],
+//!           "caller": "0xFF844Fdb49e00776Ad538Db9EA2f9fA98EC0cAF7"
+//!         }
+//!       ],
+//!       "expected": {
+//!         "return_data": [
+//!           "0xdeadbeef02"
+//!         ],
+//!         "events": [
+//!           {
+//!             "topics": [],
+//!             "values": [
+//!               "0xdeadbeef02"
+//!             ]
+//!           }
+//!         ]
+//!       }
 //!     }
-//! } ] }
+//!   ]
+//! }
 
 object "Test" {
     code {

@@ -1,44 +1,56 @@
-#! { "modes": [ "V <=0.3.10" ], "cases": [ {
-#!     "name": "address",
-#!     "inputs": [
+#! {
+#!   "modes": [
+#!     "V <=0.3.10"
+#!   ],
+#!   "cases": [
+#!     {
+#!       "name": "address",
+#!       "inputs": [
 #!         {
-#!             "method": "#deployer",
-#!             "calldata": [
-#!                 "9823"
-#!             ],
-#!             "expected": [
-#!                 "Test.address"
-#!             ]
-#!         }, {
-#!             "method": "MY_ADDRESS",
-#!             "calldata": [
-#!             ]
-#!         }
-#!     ],
-#!     "expected": [
-#!         "0xdeadbeef01000000000000000000000000000000"
-#!     ]
-#! }, {
-#!     "name": "uint",
-#!     "inputs": [
+#!           "method": "#deployer",
+#!           "calldata": [
+#!             "9823"
+#!           ],
+#!           "expected": [
+#!             "Test.address"
+#!           ],
+#!           "caller": "0x87298e4aC228B077192A0789812143f7320adC3B"
+#!         },
 #!         {
-#!             "method": "#deployer",
-#!             "calldata": [
-#!                 "555555"
-#!             ],
-#!             "expected": [
-#!                 "Test.address"
-#!             ]
-#!         }, {
-#!             "method": "MY_UINT",
-#!             "calldata": [
-#!             ]
+#!           "method": "MY_ADDRESS",
+#!           "calldata": [],
+#!           "caller": "0x87298e4aC228B077192A0789812143f7320adC3B"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
+#!         "0x87298e4aC228B077192A0789812143f7320adC3B"
+#!       ]
+#!     },
+#!     {
+#!       "name": "uint",
+#!       "inputs": [
+#!         {
+#!           "method": "#deployer",
+#!           "calldata": [
+#!             "555555"
+#!           ],
+#!           "expected": [
+#!             "Test.address"
+#!           ],
+#!           "caller": "0x7c828996f1141eBD8231714F84FB915Fc97f6Cb3"
+#!         },
+#!         {
+#!           "method": "MY_UINT",
+#!           "calldata": [],
+#!           "caller": "0x7c828996f1141eBD8231714F84FB915Fc97f6Cb3"
+#!         }
+#!       ],
+#!       "expected": [
 #!         "555555"
-#!     ]
-#! } ] }
+#!       ]
+#!     }
+#!   ]
+#! }
 
 # coding convention to uppercase constant variables
 MY_ADDRESS: immutable(address)

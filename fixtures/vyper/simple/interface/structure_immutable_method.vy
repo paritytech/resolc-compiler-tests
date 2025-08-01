@@ -1,17 +1,27 @@
-#! { "modes": [ "V >=0.4.0" ], "cases": [ {
-#!     "name": "main",
-#!     "inputs": [
+#! {
+#!   "modes": [
+#!     "V >=0.4.0"
+#!   ],
+#!   "cases": [
+#!     {
+#!       "name": "main",
+#!       "inputs": [
 #!         {
-#!             "method": "main",
-#!             "calldata": [
-#!                 "1", "2", "3"
-#!             ]
+#!           "method": "main",
+#!           "calldata": [
+#!             "1",
+#!             "2",
+#!             "3"
+#!           ],
+#!           "caller": "0x74Dd58a24fd63874D9617076fAe45B762B8b5E9e"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "6"
-#!     ]
-#! } ] }
+#!       ]
+#!     }
+#!   ]
+#! }
 
 struct Data:
     a: uint8

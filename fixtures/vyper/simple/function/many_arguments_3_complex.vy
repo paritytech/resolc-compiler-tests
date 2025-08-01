@@ -1,17 +1,31 @@
-#! { "modes": [ "V >=0.4.0" ], "cases": [ {
-#!     "name": "entry",
-#!     "inputs": [
+#! {
+#!   "modes": [
+#!     "V >=0.4.0"
+#!   ],
+#!   "cases": [
+#!     {
+#!       "name": "entry",
+#!       "inputs": [
 #!         {
-#!             "method": "entry",
-#!             "calldata": [
-#!                 "31", "0", "0", "0", "0", "0", "1"
-#!             ]
+#!           "method": "entry",
+#!           "calldata": [
+#!             "31",
+#!             "0",
+#!             "0",
+#!             "0",
+#!             "0",
+#!             "0",
+#!             "1"
+#!           ],
+#!           "caller": "0x325e16f237D97a6ed13859A689353E469bE9cE36"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "1"
-#!     ]
-#! } ] }
+#!       ]
+#!     }
+#!   ]
+#! }
 
 # Report https://linear.app/matterlabs/issue/CPR-179/many-arguments-bug
 

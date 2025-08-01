@@ -1,86 +1,110 @@
-#! { "modes": [ "V <=0.3.10" ], "cases": [ {
-#!     "name": "first",
-#!     "inputs": [
+#! {
+#!   "modes": [
+#!     "V <=0.3.10"
+#!   ],
+#!   "cases": [
+#!     {
+#!       "name": "first",
+#!       "inputs": [
 #!         {
-#!             "method": "set",
-#!             "calldata": [
-#!                 "1",
-#!                 "1",
-#!                 "1"
-#!             ]
-#!         }, {
-#!             "method": "get",
-#!             "calldata": [
-#!                 "1",
-#!                 "1"
-#!             ]
+#!           "method": "set",
+#!           "calldata": [
+#!             "1",
+#!             "1",
+#!             "1"
+#!           ],
+#!           "caller": "0x50b1D0ED04867A2e10e6be92619C30C95500cF17"
+#!         },
+#!         {
+#!           "method": "get",
+#!           "calldata": [
+#!             "1",
+#!             "1"
+#!           ],
+#!           "caller": "0x50b1D0ED04867A2e10e6be92619C30C95500cF17"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "1"
-#!     ]
-#! }, {
-#!     "name": "second",
-#!     "inputs": [
+#!       ]
+#!     },
+#!     {
+#!       "name": "second",
+#!       "inputs": [
 #!         {
-#!             "method": "set",
-#!             "calldata": [
-#!                 "0x127782389999AaAAbBbbCcccddDdeabcfFFfCcCc",
-#!                 "784563478547835256342389483254",
-#!                 "1"
-#!             ]
-#!         }, {
-#!             "method": "remove",
-#!             "calldata": [
-#!                 "0x127782389999AaAAbBbbCcccddDdeabcfFFfCcCc",
-#!                 "784563478547835256342389483254"
-#!             ]
-#!         }, {
-#!             "method": "get",
-#!             "calldata": [
-#!                 "0x127782389999AaAAbBbbCcccddDdeabcfFFfCcCc",
-#!                 "784563478547835256342389483254"
-#!             ]
+#!           "method": "set",
+#!           "calldata": [
+#!             "0x127782389999AaAAbBbbCcccddDdeabcfFFfCcCc",
+#!             "784563478547835256342389483254",
+#!             "1"
+#!           ],
+#!           "caller": "0x7258cdd598361e00Ee776496E5Cc0a12691A28C3"
+#!         },
+#!         {
+#!           "method": "remove",
+#!           "calldata": [
+#!             "0x127782389999AaAAbBbbCcccddDdeabcfFFfCcCc",
+#!             "784563478547835256342389483254"
+#!           ],
+#!           "caller": "0x7258cdd598361e00Ee776496E5Cc0a12691A28C3"
+#!         },
+#!         {
+#!           "method": "get",
+#!           "calldata": [
+#!             "0x127782389999AaAAbBbbCcccddDdeabcfFFfCcCc",
+#!             "784563478547835256342389483254"
+#!           ],
+#!           "caller": "0x7258cdd598361e00Ee776496E5Cc0a12691A28C3"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "0"
-#!     ]
-#! }, {
-#!     "name": "third",
-#!     "inputs": [
+#!       ]
+#!     },
+#!     {
+#!       "name": "third",
+#!       "inputs": [
 #!         {
-#!             "method": "set",
-#!             "calldata": [
-#!                 "0x127782389999AaAAbBbbCcccddDdeabcfFFffa00",
-#!                 "453453453464564564564500",
-#!                 "1"
-#!             ]
-#!         }, {
-#!             "method": "set",
-#!             "calldata": [
-#!                 "0x127782389999AaAAbBbbCcccddDdeabcfFFffa00",
-#!                 "453453453464564564564501",
-#!                 "1"
-#!             ]
-#!         }, {
-#!             "method": "remove",
-#!             "calldata": [
-#!                 "0x127782389999AaAAbBbbCcccddDdeabcfFFffa00",
-#!                 "453453453464564564564500"
-#!             ]
-#!         }, {
-#!             "method": "get",
-#!             "calldata": [
-#!                 "0x127782389999AaAAbBbbCcccddDdeabcfFFffa00",
-#!                 "453453453464564564564501"
-#!             ]
+#!           "method": "set",
+#!           "calldata": [
+#!             "0x127782389999AaAAbBbbCcccddDdeabcfFFffa00",
+#!             "453453453464564564564500",
+#!             "1"
+#!           ],
+#!           "caller": "0xc4B90fd157dB13859fcbD0A96D61C0bc83bFf735"
+#!         },
+#!         {
+#!           "method": "set",
+#!           "calldata": [
+#!             "0x127782389999AaAAbBbbCcccddDdeabcfFFffa00",
+#!             "453453453464564564564501",
+#!             "1"
+#!           ],
+#!           "caller": "0xc4B90fd157dB13859fcbD0A96D61C0bc83bFf735"
+#!         },
+#!         {
+#!           "method": "remove",
+#!           "calldata": [
+#!             "0x127782389999AaAAbBbbCcccddDdeabcfFFffa00",
+#!             "453453453464564564564500"
+#!           ],
+#!           "caller": "0xc4B90fd157dB13859fcbD0A96D61C0bc83bFf735"
+#!         },
+#!         {
+#!           "method": "get",
+#!           "calldata": [
+#!             "0x127782389999AaAAbBbbCcccddDdeabcfFFffa00",
+#!             "453453453464564564564501"
+#!           ],
+#!           "caller": "0xc4B90fd157dB13859fcbD0A96D61C0bc83bFf735"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "1"
-#!     ]
-#! } ] }
+#!       ]
+#!     }
+#!   ]
+#! }
 
 # Nested mapping (mapping from address to another mapping)
 nested: public(HashMap[address, HashMap[uint256, bool]])

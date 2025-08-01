@@ -1,4 +1,6 @@
-//! { "cases": [] }
+//! {
+//!   "cases": []
+//! }
 
 // SPDX-License-Identifier: MIT
 

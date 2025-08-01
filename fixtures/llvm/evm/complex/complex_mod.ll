@@ -1,17 +1,22 @@
-;! { "cases": [ {
-;!     "name": "complex_mod",
-;!     "inputs": [
+;! {
+;!   "cases": [
+;!     {
+;!       "name": "complex_mod",
+;!       "inputs": [
 ;!         {
-;!             "method": "#fallback",
-;!             "calldata": [
-;!                 "0x99729a298c414e9c2ea7a37539d5527ff363ccb618b432edde0da847ed417f11"
-;!             ]
+;!           "method": "#fallback",
+;!           "calldata": [
+;!             "0x99729a298c414e9c2ea7a37539d5527ff363ccb618b432edde0da847ed417f11"
+;!           ],
+;!           "caller": "0x4a64d5074F1EFDBFE29B5920008bd16Df0B357B4"
 ;!         }
-;!     ],
-;!     "expected": [
+;!       ],
+;!       "expected": [
 ;!         "0xdd71feeedc19e712403093645466eb61bdb4502e4d029882f1b3a490c0b838eb"
-;!     ]
-;! } ] }
+;!       ]
+;!     }
+;!   ]
+;! }
 
 
 target datalayout = "E-p:256:256-i256:256:256-S256-a:256:256"

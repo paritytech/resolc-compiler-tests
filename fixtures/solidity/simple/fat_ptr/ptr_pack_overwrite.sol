@@ -1,18 +1,27 @@
-//! { "targets": [ "eravm" ], "enable_eravm_extensions": true,
-//!     "modes": [ "Y" ],
-//!     "cases": [ {
-//!     "name": "default",
-//!     "inputs": [
+//! {
+//!   "targets": [
+//!     "eravm"
+//!   ],
+//!   "enable_eravm_extensions": true,
+//!   "modes": [
+//!     "Y"
+//!   ],
+//!   "cases": [
+//!     {
+//!       "name": "default",
+//!       "inputs": [
 //!         {
-//!             "method": "main",
-//!             "calldata": [
-//!             ]
+//!           "method": "main",
+//!           "calldata": [],
+//!           "caller": "0x48E40a3acc29569608111837E2822117980Fa05b"
 //!         }
-//!     ],
-//!     "expected": [
+//!       ],
+//!       "expected": [
 //!         "0"
-//!     ]
-//! }  ] }
+//!       ]
+//!     }
+//!   ]
+//! }
 
 // SPDX-License-Identifier: MIT OR Apache-2.0
 

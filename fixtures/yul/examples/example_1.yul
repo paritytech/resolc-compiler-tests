@@ -1,28 +1,33 @@
-//! { "cases": [ {
-//!     "name": "first",
-//!     "inputs": [
+//! {
+//!   "cases": [
+//!     {
+//!       "name": "first",
+//!       "inputs": [
 //!         {
-//!             "method": "3df4ddf4",
-//!             "calldata": [
-//!             ]
+//!           "method": "3df4ddf4",
+//!           "calldata": [],
+//!           "caller": "0xA01CCA6367A84304b6607B76676C66c360b74741"
 //!         }
-//!     ],
-//!     "expected": [
+//!       ],
+//!       "expected": [
 //!         "42"
-//!     ]
-//! }, {
-//!     "name": "second",
-//!     "inputs": [
+//!       ]
+//!     },
+//!     {
+//!       "name": "second",
+//!       "inputs": [
 //!         {
-//!             "method": "5a8ac02d",
-//!             "calldata": [
-//!             ]
+//!           "method": "5a8ac02d",
+//!           "calldata": [],
+//!           "caller": "0x872917cEC8992487651Ee633DBA73bd3A9dcA309"
 //!         }
-//!     ],
-//!     "expected": [
+//!       ],
+//!       "expected": [
 //!         "99"
-//!     ]
-//! } ] }
+//!       ]
+//!     }
+//!   ]
+//! }
 
 object "Test" {
     code {

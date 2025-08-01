@@ -1,17 +1,17 @@
 //! A binary helper tool for the ML metadata files.
 
 use std::{
-    collections::HashMap,
+    borrow::Cow,
+    collections::{HashMap, HashSet},
     fs::read_to_string,
     path::{Path, PathBuf},
 };
 
 use alloy::primitives::{Address, FixedBytes};
 use alloy::{hex, primitives::U256, signers::local::PrivateKeySigner};
-use anyhow::{Result, bail};
+use anyhow::{Context, Result, bail};
 use clap::Parser;
-
-use revive_dt_common::iterators::FilesWithExtensionIterator;
+use regex::Regex;
 use serde_json::Value;
 
 /// A command-line tool used to augment the ML metadata files.
@@ -65,12 +65,14 @@ fn handle_caller_replacement(path: &Path) -> Result<U256> {
     let mut allocator = PrivateKeyAllocator::new();
     for mut metadata_file in metadata_objects {
         for mut case in metadata_file.cases_mut() {
-            let replacement_map = case
-                .callers()
-                .map(|caller| (caller, allocator.allocate().address()))
-                .collect::<HashMap<_, _>>();
-            case.apply_replacements(&replacement_map);
+            let replacement_map = case.callers().fold(HashMap::new(), |mut map, caller| {
+                map.entry(caller)
+                    .or_insert_with(|| allocator.allocate().address());
+                map
+            });
+            case.apply_replacements(&replacement_map)?;
         }
+        metadata_file.write()?;
     }
 
     Ok(allocator.0)
@@ -163,11 +165,12 @@ impl MetadataFile {
 
     pub fn write(&self) -> Result<()> {
         let new_metadata_content = match self.comment_sequence {
-            Some(comment_sequence) => serde_json::to_string_pretty(&self.metadata_content)?
+            Some(comment_sequence) => serde_json::to_string_pretty(&self.metadata_object)?
                 .split('\n')
                 .map(|line| format!("{comment_sequence} {line}"))
-                .collect::<String>(),
-            None => serde_json::to_string_pretty(&self.metadata_content)?,
+                .collect::<Vec<_>>()
+                .join("\n"),
+            None => serde_json::to_string_pretty(&self.metadata_object)?,
         };
 
         let new_file_content = self.full_content.replace(
@@ -182,8 +185,8 @@ impl MetadataFile {
 
 pub struct CaseWrapper<T>(T);
 
-impl<'a> CaseWrapper<&'a Value> {
-    pub fn inputs(&'a self) -> impl Iterator<Item = InputWrapper<&'a Value>> + 'a {
+impl CaseWrapper<&Value> {
+    pub fn inputs(&self) -> impl Iterator<Item = InputWrapper<&Value>> {
         self.0
             .get("inputs")
             .and_then(|inputs| inputs.as_array())
@@ -197,8 +200,8 @@ impl<'a> CaseWrapper<&'a Value> {
     }
 }
 
-impl<'a> CaseWrapper<&'a mut Value> {
-    pub fn inputs(&'a self) -> impl Iterator<Item = InputWrapper<&'a Value>> + 'a {
+impl CaseWrapper<&mut Value> {
+    pub fn inputs(&self) -> impl Iterator<Item = InputWrapper<&Value>> {
         self.0
             .get("inputs")
             .and_then(|inputs| inputs.as_array())
@@ -207,18 +210,38 @@ impl<'a> CaseWrapper<&'a mut Value> {
             .map(InputWrapper)
     }
 
+    pub fn inputs_mut(&mut self) -> impl Iterator<Item = InputWrapper<&mut Value>> {
+        self.0
+            .get_mut("inputs")
+            .and_then(|inputs| inputs.as_array_mut())
+            .into_iter()
+            .flat_map(|array| array.iter_mut())
+            .map(InputWrapper)
+    }
+
     pub fn callers(&self) -> impl Iterator<Item = Address> {
         self.inputs().map(|input| input.caller())
     }
 
-    pub fn apply_replacements(&mut self, map: &HashMap<Address, Address>) {
-        let mut case_string = serde_json::to_string(&self.0).unwrap();
+    pub fn apply_replacements(&mut self, map: &HashMap<Address, Address>) -> Result<()> {
+        if let Some(new_default_address) = map.get(&InputWrapper::<()>::ML_DEFAULT_CALLER) {
+            self.inputs_mut()
+                .try_for_each(|mut input| input.replace_caller_if_default(new_default_address))?;
+        }
+
+        // The reason why we do a string replace rather than replacing the
+        // caller is that we want to replace all of the occurrences of that
+        // byte sequence from everywhere including if it's part of another byte
+        // sequence.
+        let mut case_string = serde_json::to_string(&self.0)?;
         for (old, new) in map.iter() {
             let old = old.to_string();
             let new = new.to_string();
-            case_string = case_string.replace(old.as_str(), new.as_str());
+            case_string = case_insensitive_find_and_replace(&case_string, &old, &new);
         }
-        *self.0 = serde_json::from_str(&case_string).unwrap();
+        *self.0 = serde_json::from_str(&case_string)?;
+
+        Ok(())
     }
 }
 
@@ -240,6 +263,29 @@ impl InputWrapper<&Value> {
     }
 }
 
+impl InputWrapper<&mut Value> {
+    pub fn replace_caller_if_default(&mut self, new: &Address) -> Result<()> {
+        let input = self
+            .0
+            .as_object_mut()
+            .context("The input must be an object")?;
+        match input.get_mut("caller") {
+            Some(Value::String(caller)) => {
+                if caller.eq_ignore_ascii_case(&new.to_string()) {
+                    *caller = new.to_string()
+                } else {
+                    input.insert("caller".to_owned(), Value::String(new.to_string()));
+                }
+            }
+            None => {
+                input.insert("caller".to_owned(), Value::String(new.to_string()));
+            }
+            _ => bail!("Caller mut be string"),
+        };
+        Ok(())
+    }
+}
+
 #[derive(Default)]
 pub struct PrivateKeyAllocator(U256);
 
@@ -252,4 +298,68 @@ impl PrivateKeyAllocator {
         self.0 += U256::ONE;
         PrivateKeySigner::from_bytes(&FixedBytes(self.0.to_be_bytes::<32>())).unwrap()
     }
+}
+
+pub struct FilesWithExtensionIterator {
+    allowed_extensions: HashSet<Cow<'static, str>>,
+    directories_to_search: Vec<PathBuf>,
+    files_matching_allowed_extensions: Vec<PathBuf>,
+}
+
+impl FilesWithExtensionIterator {
+    pub fn new(root_directory: PathBuf) -> Self {
+        Self {
+            allowed_extensions: Default::default(),
+            directories_to_search: vec![root_directory],
+            files_matching_allowed_extensions: Default::default(),
+        }
+    }
+
+    pub fn with_allowed_extension(
+        mut self,
+        allowed_extension: impl Into<Cow<'static, str>>,
+    ) -> Self {
+        self.allowed_extensions.insert(allowed_extension.into());
+        self
+    }
+}
+
+impl Iterator for FilesWithExtensionIterator {
+    type Item = PathBuf;
+
+    fn next(&mut self) -> Option<Self::Item> {
+        if let Some(file_path) = self.files_matching_allowed_extensions.pop() {
+            return Some(file_path);
+        };
+
+        let directory_to_search = self.directories_to_search.pop()?;
+
+        let Ok(dir_entries) = std::fs::read_dir(directory_to_search) else {
+            return self.next();
+        };
+
+        for entry in dir_entries.flatten() {
+            let entry_path = entry.path();
+            if entry_path.is_dir() {
+                self.directories_to_search.push(entry_path)
+            } else if entry_path.is_file()
+                && entry_path.extension().is_some_and(|ext| {
+                    self.allowed_extensions
+                        .iter()
+                        .any(|allowed| ext.eq_ignore_ascii_case(allowed.as_ref()))
+                })
+            {
+                self.files_matching_allowed_extensions.push(entry_path)
+            }
+        }
+
+        self.next()
+    }
+}
+
+pub fn case_insensitive_find_and_replace(text: &str, old: &str, new: &str) -> String {
+    Regex::new(&format!("(?i){}", regex::escape(old)))
+        .expect("invalid regex")
+        .replace_all(text, new)
+        .to_string()
 }

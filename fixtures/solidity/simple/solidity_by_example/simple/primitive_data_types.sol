@@ -1,172 +1,189 @@
-//! { "cases": [ {
-//!     "name": "boo",
-//!     "inputs": [
+//! {
+//!   "cases": [
+//!     {
+//!       "name": "boo",
+//!       "inputs": [
 //!         {
-//!             "method": "boo",
-//!             "calldata": [
-//!             ]
+//!           "method": "boo",
+//!           "calldata": [],
+//!           "caller": "0x78be56eD848634B40AAFcc4cD139e4Eb2C7E1D27"
 //!         }
-//!     ],
-//!     "expected": [
+//!       ],
+//!       "expected": [
 //!         "1"
-//!     ]
-//! }, {
-//!     "name": "u8",
-//!     "inputs": [
+//!       ]
+//!     },
+//!     {
+//!       "name": "u8",
+//!       "inputs": [
 //!         {
-//!             "method": "u8",
-//!             "calldata": [
-//!             ]
+//!           "method": "u8",
+//!           "calldata": [],
+//!           "caller": "0x935Fe417924bc79b7FCaB6b569B291F801e6A08D"
 //!         }
-//!     ],
-//!     "expected": [
+//!       ],
+//!       "expected": [
 //!         "1"
-//!     ]
-//! }, {
-//!     "name": "u256",
-//!     "inputs": [
+//!       ]
+//!     },
+//!     {
+//!       "name": "u256",
+//!       "inputs": [
 //!         {
-//!             "method": "u256",
-//!             "calldata": [
-//!             ]
+//!           "method": "u256",
+//!           "calldata": [],
+//!           "caller": "0x3cEf1A80886b8f1F443Bbaf41C17DcE77A31d1b2"
 //!         }
-//!     ],
-//!     "expected": [
+//!       ],
+//!       "expected": [
 //!         "456"
-//!     ]
-//! }, {
-//!     "name": "u",
-//!     "inputs": [
+//!       ]
+//!     },
+//!     {
+//!       "name": "u",
+//!       "inputs": [
 //!         {
-//!             "method": "u()",
-//!             "calldata": [
-//!             ]
+//!           "method": "u()",
+//!           "calldata": [],
+//!           "caller": "0x524e6c87251132Fc449ebD721b3a0AE4F620aef8"
 //!         }
-//!     ],
-//!     "expected": [
+//!       ],
+//!       "expected": [
 //!         "123"
-//!     ]
-//! }, {
-//!     "name": "i8",
-//!     "inputs": [
+//!       ]
+//!     },
+//!     {
+//!       "name": "i8",
+//!       "inputs": [
 //!         {
-//!             "method": "i8",
-//!             "calldata": [
-//!             ]
+//!           "method": "i8",
+//!           "calldata": [],
+//!           "caller": "0xa2550A3d1806fD2ea471786d2fc60dBAA0Ea9C87"
 //!         }
-//!     ],
-//!     "expected": [
+//!       ],
+//!       "expected": [
 //!         "-1"
-//!     ]
-//! }, {
-//!     "name": "i256",
-//!     "inputs": [
+//!       ]
+//!     },
+//!     {
+//!       "name": "i256",
+//!       "inputs": [
 //!         {
-//!             "method": "i256",
-//!             "calldata": [
-//!             ]
+//!           "method": "i256",
+//!           "calldata": [],
+//!           "caller": "0xB535c27f8bAFA4B3239dCb2b89C4e1541f1fb1F0"
 //!         }
-//!     ],
-//!     "expected": [
+//!       ],
+//!       "expected": [
 //!         "456"
-//!     ]
-//! }, {
-//!     "name": "i",
-//!     "inputs": [
+//!       ]
+//!     },
+//!     {
+//!       "name": "i",
+//!       "inputs": [
 //!         {
-//!             "method": "i()",
-//!             "calldata": [
-//!             ]
+//!           "method": "i()",
+//!           "calldata": [],
+//!           "caller": "0x1F00CB66e68CF0b0ed4E3a44fD625eCA7fE0bAf2"
 //!         }
-//!     ],
-//!     "expected": [
+//!       ],
+//!       "expected": [
 //!         "-123"
-//!     ]
-//! }, {
-//!     "name": "minInt",
-//!     "inputs": [
+//!       ]
+//!     },
+//!     {
+//!       "name": "minInt",
+//!       "inputs": [
 //!         {
-//!             "method": "minInt",
-//!             "calldata": [
-//!             ]
+//!           "method": "minInt",
+//!           "calldata": [],
+//!           "caller": "0x80C2AffDDc0eec938ba701407329826EF9c18fC2"
 //!         }
-//!     ],
-//!     "expected": [
+//!       ],
+//!       "expected": [
 //!         "0x8000000000000000000000000000000000000000000000000000000000000000"
-//!     ]
-//! }, {
-//!     "name": "maxInt",
-//!     "inputs": [
+//!       ]
+//!     },
+//!     {
+//!       "name": "maxInt",
+//!       "inputs": [
 //!         {
-//!             "method": "maxInt",
-//!             "calldata": [
-//!             ]
+//!           "method": "maxInt",
+//!           "calldata": [],
+//!           "caller": "0x3349D32a7F416Ec0559DF7EF2A8B16cf03f37F8d"
 //!         }
-//!     ],
-//!     "expected": [
+//!       ],
+//!       "expected": [
 //!         "0x7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
-//!     ]
-//! }, {
-//!     "name": "addr",
-//!     "inputs": [
+//!       ]
+//!     },
+//!     {
+//!       "name": "addr",
+//!       "inputs": [
 //!         {
-//!             "method": "addr",
-//!             "calldata": [
-//!             ]
+//!           "method": "addr",
+//!           "calldata": [],
+//!           "caller": "0x6c7495107ccC046649F29fF12402B6B08d946F97"
 //!         }
-//!     ],
-//!     "expected": [
+//!       ],
+//!       "expected": [
 //!         "0xCA35b7d915458EF540aDe6068dFe2F44E8fa733c"
-//!     ]
-//! }, {
-//!     "name": "defaultBoo",
-//!     "inputs": [
+//!       ]
+//!     },
+//!     {
+//!       "name": "defaultBoo",
+//!       "inputs": [
 //!         {
-//!             "method": "defaultBoo",
-//!             "calldata": [
-//!             ]
+//!           "method": "defaultBoo",
+//!           "calldata": [],
+//!           "caller": "0x577a0A88eF38f674792682255e41aC3129d47430"
 //!         }
-//!     ],
-//!     "expected": [
+//!       ],
+//!       "expected": [
 //!         "0"
-//!     ]
-//! }, {
-//!     "name": "defaultUint",
-//!     "inputs": [
+//!       ]
+//!     },
+//!     {
+//!       "name": "defaultUint",
+//!       "inputs": [
 //!         {
-//!             "method": "defaultUint",
-//!             "calldata": [
-//!             ]
+//!           "method": "defaultUint",
+//!           "calldata": [],
+//!           "caller": "0x75D7E8edD08aDd9BE4C72A062d5bb37D0439B36f"
 //!         }
-//!     ],
-//!     "expected": [
+//!       ],
+//!       "expected": [
 //!         "0"
-//!     ]
-//! }, {
-//!     "name": "defaultInt",
-//!     "inputs": [
+//!       ]
+//!     },
+//!     {
+//!       "name": "defaultInt",
+//!       "inputs": [
 //!         {
-//!             "method": "defaultInt",
-//!             "calldata": [
-//!             ]
+//!           "method": "defaultInt",
+//!           "calldata": [],
+//!           "caller": "0x6521Ec5cD803Aa70924f3cAbD39A527FeD9F1644"
 //!         }
-//!     ],
-//!     "expected": [
+//!       ],
+//!       "expected": [
 //!         "0"
-//!     ]
-//! }, {
-//!     "name": "defaultAddr",
-//!     "inputs": [
+//!       ]
+//!     },
+//!     {
+//!       "name": "defaultAddr",
+//!       "inputs": [
 //!         {
-//!             "method": "defaultAddr",
-//!             "calldata": [
-//!             ]
+//!           "method": "defaultAddr",
+//!           "calldata": [],
+//!           "caller": "0x0B5fc270349f6fD510a8619d0445AAc68186514B"
 //!         }
-//!     ],
-//!     "expected": [
+//!       ],
+//!       "expected": [
 //!         "0"
-//!     ]
-//! } ] }
+//!       ]
+//!     }
+//!   ]
+//! }
 
 // SPDX-License-Identifier: MIT
 pragma solidity >=0.6.8;

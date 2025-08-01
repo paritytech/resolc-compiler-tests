@@ -1,76 +1,101 @@
-#! { "modes": [ "V <=0.3.10" ], "cases": [ {
-#!     "name": "first",
-#!     "inputs": [
+#! {
+#!   "modes": [
+#!     "V <=0.3.10"
+#!   ],
+#!   "cases": [
+#!     {
+#!       "name": "first",
+#!       "inputs": [
 #!         {
-#!             "method": "set",
-#!             "calldata": [
-#!                 "1", "10"
-#!             ]
-#!         }, {
-#!             "method": "get",
-#!             "calldata": [
-#!                 "1"
-#!             ]
+#!           "method": "set",
+#!           "calldata": [
+#!             "1",
+#!             "10"
+#!           ],
+#!           "caller": "0x6f382DB5c136632117f5bbABaccA574dB0bE2ef2"
+#!         },
+#!         {
+#!           "method": "get",
+#!           "calldata": [
+#!             "1"
+#!           ],
+#!           "caller": "0x6f382DB5c136632117f5bbABaccA574dB0bE2ef2"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "10"
-#!     ]
-#! }, {
-#!     "name": "second",
-#!     "inputs": [
+#!       ]
+#!     },
+#!     {
+#!       "name": "second",
+#!       "inputs": [
 #!         {
-#!             "method": "set",
-#!             "calldata": [
-#!                 "0x127782389999AaAAbBbbCcccddDdeabcfFFfCcCc",
-#!                 "1234"
-#!             ]
-#!         }, {
-#!             "method": "remove",
-#!             "calldata": [
-#!                 "0x127782389999AaAAbBbbCcccddDdeabcfFFfCcCc"
-#!             ]
-#!         }, {
-#!             "method": "get",
-#!             "calldata": [
-#!                 "0x127782389999AaAAbBbbCcccddDdeabcfFFfCcCc"
-#!             ]
+#!           "method": "set",
+#!           "calldata": [
+#!             "0x127782389999AaAAbBbbCcccddDdeabcfFFfCcCc",
+#!             "1234"
+#!           ],
+#!           "caller": "0xa3B291AFc87AC8D07946db71c1004bf8d70294F7"
+#!         },
+#!         {
+#!           "method": "remove",
+#!           "calldata": [
+#!             "0x127782389999AaAAbBbbCcccddDdeabcfFFfCcCc"
+#!           ],
+#!           "caller": "0xa3B291AFc87AC8D07946db71c1004bf8d70294F7"
+#!         },
+#!         {
+#!           "method": "get",
+#!           "calldata": [
+#!             "0x127782389999AaAAbBbbCcccddDdeabcfFFfCcCc"
+#!           ],
+#!           "caller": "0xa3B291AFc87AC8D07946db71c1004bf8d70294F7"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "0"
-#!     ]
-#! }, {
-#!     "name": "third",
-#!     "inputs": [
+#!       ]
+#!     },
+#!     {
+#!       "name": "third",
+#!       "inputs": [
 #!         {
-#!             "method": "set",
-#!             "calldata": [
-#!                 "0x127782389999AaAAbBbbCcccddDdeabcfFFffa00",
-#!                 "12345"
-#!             ]
-#!         }, {
-#!             "method": "set",
-#!             "calldata": [
-#!                 "0x127782389999AaAAbBbbCcccddDdeabcfFFffa01",
-#!                 "123456"
-#!             ]
-#!         }, {
-#!             "method": "remove",
-#!             "calldata": [
-#!                 "0x127782389999AaAAbBbbCcccddDdeabcfFFffa00"
-#!             ]
-#!         }, {
-#!             "method": "get",
-#!             "calldata": [
-#!                 "0x127782389999AaAAbBbbCcccddDdeabcfFFffa01"
-#!             ]
+#!           "method": "set",
+#!           "calldata": [
+#!             "0x127782389999AaAAbBbbCcccddDdeabcfFFffa00",
+#!             "12345"
+#!           ],
+#!           "caller": "0x3b893b1Dd282bBf68620909Fd141cf52dbb4ecCA"
+#!         },
+#!         {
+#!           "method": "set",
+#!           "calldata": [
+#!             "0x127782389999AaAAbBbbCcccddDdeabcfFFffa01",
+#!             "123456"
+#!           ],
+#!           "caller": "0x3b893b1Dd282bBf68620909Fd141cf52dbb4ecCA"
+#!         },
+#!         {
+#!           "method": "remove",
+#!           "calldata": [
+#!             "0x127782389999AaAAbBbbCcccddDdeabcfFFffa00"
+#!           ],
+#!           "caller": "0x3b893b1Dd282bBf68620909Fd141cf52dbb4ecCA"
+#!         },
+#!         {
+#!           "method": "get",
+#!           "calldata": [
+#!             "0x127782389999AaAAbBbbCcccddDdeabcfFFffa01"
+#!           ],
+#!           "caller": "0x3b893b1Dd282bBf68620909Fd141cf52dbb4ecCA"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "123456"
-#!     ]
-#! } ] }
+#!       ]
+#!     }
+#!   ]
+#! }
 
 # Mapping from address to uint
 myMap: public(HashMap[address, uint256])

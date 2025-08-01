@@ -1,85 +1,101 @@
-#! { "modes": [ "V <=0.3.10" ], "cases": [ {
-#!     "name": "ok",
-#!     "inputs": [
+#! {
+#!   "modes": [
+#!     "V <=0.3.10"
+#!   ],
+#!   "cases": [
+#!     {
+#!       "name": "ok",
+#!       "inputs": [
 #!         {
-#!             "method": "deposit",
-#!             "calldata": [
-#!                 "20"
-#!             ]
+#!           "method": "deposit",
+#!           "calldata": [
+#!             "20"
+#!           ],
+#!           "caller": "0x568723a7B2fF75c9553cf7767021Ebc6D3643fB9"
 #!         },
 #!         {
-#!             "method": "withdraw",
-#!             "calldata": [
-#!                 "10"
-#!             ]
+#!           "method": "withdraw",
+#!           "calldata": [
+#!             "10"
+#!           ],
+#!           "caller": "0x568723a7B2fF75c9553cf7767021Ebc6D3643fB9"
 #!         },
 #!         {
-#!             "method": "balance_",
-#!             "calldata": [
-#!             ]
+#!           "method": "balance_",
+#!           "calldata": [],
+#!           "caller": "0x568723a7B2fF75c9553cf7767021Ebc6D3643fB9"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "10"
-#!     ]
-#! }, {
-#!     "name": "MAX_UINT",
-#!     "inputs": [
+#!       ]
+#!     },
+#!     {
+#!       "name": "MAX_UINT",
+#!       "inputs": [
 #!         {
-#!             "method": "MAX_UINT",
-#!             "calldata": [
-#!             ]
+#!           "method": "MAX_UINT",
+#!           "calldata": [],
+#!           "caller": "0xD1c5d80626264AB9bc50A7030A2C7bB18F05c39b"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
-#!     ]
-#! }, {
-#!     "name": "overflow",
-#!     "inputs": [
+#!       ]
+#!     },
+#!     {
+#!       "name": "overflow",
+#!       "inputs": [
 #!         {
-#!             "method": "deposit",
-#!             "calldata": [
-#!                 "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
-#!             ]
+#!           "method": "deposit",
+#!           "calldata": [
+#!             "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+#!           ],
+#!           "caller": "0xA625FEb646626c2081178c9A93676d673e9495C6"
 #!         },
 #!         {
-#!             "method": "deposit",
-#!             "calldata": [
-#!                 "1"
-#!             ]
+#!           "method": "deposit",
+#!           "calldata": [
+#!             "1"
+#!           ],
+#!           "caller": "0xA625FEb646626c2081178c9A93676d673e9495C6"
 #!         }
-#!     ],
-#!     "expected": {
+#!       ],
+#!       "expected": {
 #!         "return_data": [],
 #!         "exception": true
-#!     }
-#! }, {
-#!     "name": "underflow",
-#!     "inputs": [
+#!       }
+#!     },
+#!     {
+#!       "name": "underflow",
+#!       "inputs": [
 #!         {
-#!             "method": "deposit",
-#!             "calldata": [
-#!                 "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe"
-#!             ]
+#!           "method": "deposit",
+#!           "calldata": [
+#!             "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe"
+#!           ],
+#!           "caller": "0xc4e161ab91A5f1525ce649FaB2F5FEf52B09d34E"
 #!         },
 #!         {
-#!             "method": "withdraw",
-#!             "calldata": [
-#!                 "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
-#!             ]
+#!           "method": "withdraw",
+#!           "calldata": [
+#!             "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+#!           ],
+#!           "caller": "0xc4e161ab91A5f1525ce649FaB2F5FEf52B09d34E"
 #!         }
-#!     ],
-#!     "expected": {
+#!       ],
+#!       "expected": {
 #!         "return_data": [
-#!             "0x08c379a000000000000000000000000000000000000000000000000000000000",
-#!             "0x0000002000000000000000000000000000000000000000000000000000000000",
-#!             "0x00000009556e646572666c6f7700000000000000000000000000000000000000",
-#!             "0x0000000000000000000000000000000000000000000000000000000000000000"
+#!           "0x08c379a000000000000000000000000000000000000000000000000000000000",
+#!           "0x0000002000000000000000000000000000000000000000000000000000000000",
+#!           "0x00000009556e646572666c6f7700000000000000000000000000000000000000",
+#!           "0x0000000000000000000000000000000000000000000000000000000000000000"
 #!         ],
 #!         "exception": true
+#!       }
 #!     }
-#! } ] }
+#!   ]
+#! }
 
 balance_: public(uint256)
 MAX_UINT: constant(uint256) = (2**255 - 1) * 2 + 1

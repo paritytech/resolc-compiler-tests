@@ -1,26 +1,30 @@
-{ "modes": [
+{
+  "modes": [
     "Y >=0.8.1",
-    "E", "I"
-], "cases": [ {
-    "name": "testIterableMap",
-    "inputs": [
+    "E",
+    "I"
+  ],
+  "cases": [
+    {
+      "name": "testIterableMap",
+      "inputs": [
         {
-            "instance": "TestIterableMap",
-            "method": "testIterableMap",
-            "calldata": [
-            ]
+          "instance": "TestIterableMap",
+          "method": "testIterableMap",
+          "calldata": [],
+          "caller": "0xeEc03ff7275ED092DDd742B1be0b46dCc98f727b"
         }
-    ],
-    "expected": [
-    ]
-} ],
-    "contracts": {
-        "TestIterableMap": "main.sol:TestIterableMap",
-        "IterableMapping": "main.sol:IterableMapping"
-    },
-    "libraries": {
-        "main.sol": {
-            "IterableMapping": "IterableMapping"
-        }
+      ],
+      "expected": []
     }
+  ],
+  "contracts": {
+    "TestIterableMap": "main.sol:TestIterableMap",
+    "IterableMapping": "main.sol:IterableMapping"
+  },
+  "libraries": {
+    "main.sol": {
+      "IterableMapping": "IterableMapping"
+    }
+  }
 }

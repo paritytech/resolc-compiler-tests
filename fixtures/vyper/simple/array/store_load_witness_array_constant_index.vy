@@ -1,17 +1,28 @@
-#! { "modes": [ "V >=0.4.0" ], "cases": [ {
-#!     "name": "main",
-#!     "inputs": [
+#! {
+#!   "modes": [
+#!     "V >=0.4.0"
+#!   ],
+#!   "cases": [
+#!     {
+#!       "name": "main",
+#!       "inputs": [
 #!         {
-#!             "method": "main",
-#!             "calldata": [
-#!                 "1", "2", "3", "4"
-#!             ]
+#!           "method": "main",
+#!           "calldata": [
+#!             "1",
+#!             "2",
+#!             "3",
+#!             "4"
+#!           ],
+#!           "caller": "0xde62a76684D1453a6503AD4798c43A84270f7969"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "64"
-#!     ]
-#! } ] }
+#!       ]
+#!     }
+#!   ]
+#! }
 
 SIZE: constant(uint8) = 4
 

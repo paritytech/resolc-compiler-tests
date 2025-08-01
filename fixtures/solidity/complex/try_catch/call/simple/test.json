@@ -1,33 +1,39 @@
-{ "cases": [ {
-    "name": "first",
-    "inputs": [
+{
+  "cases": [
+    {
+      "name": "first",
+      "inputs": [
         {
-            "instance": "Main",
-            "method": "entry",
-            "calldata": [
-                "0"
-            ]
+          "instance": "Main",
+          "method": "entry",
+          "calldata": [
+            "0"
+          ],
+          "caller": "0x35593718Ea87818DE1268bD6D3FA963B35873D6f"
         }
-    ],
-    "expected": [
+      ],
+      "expected": [
         "1"
-    ]
-}, {
-    "name": "second",
-    "inputs": [
+      ]
+    },
+    {
+      "name": "second",
+      "inputs": [
         {
-            "instance": "Main",
-            "method": "entry",
-            "calldata": [
-                "1"
-            ]
+          "instance": "Main",
+          "method": "entry",
+          "calldata": [
+            "1"
+          ],
+          "caller": "0x92EDFFc8CDF885c0034a8eCC6Be9Fa115124cf87"
         }
-    ],
-    "expected": [
+      ],
+      "expected": [
         "2"
-    ]
-} ],
-    "contracts": {
-        "Main": "main.sol:Main"
+      ]
     }
+  ],
+  "contracts": {
+    "Main": "main.sol:Main"
+  }
 }

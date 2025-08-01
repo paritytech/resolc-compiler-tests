@@ -1,69 +1,85 @@
-#! { "modes": [ "V <=0.3.10" ], "cases": [ {
-#!     "name": "entry0",
-#!     "inputs": [
+#! {
+#!   "modes": [
+#!     "V <=0.3.10"
+#!   ],
+#!   "cases": [
+#!     {
+#!       "name": "entry0",
+#!       "inputs": [
 #!         {
-#!             "method": "main",
-#!             "calldata": [
-#!                 "0"
-#!             ]
+#!           "method": "main",
+#!           "calldata": [
+#!             "0"
+#!           ],
+#!           "caller": "0x413C2Ec0001fFBc6f621268710110FA78fcFA8cd"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "4"
-#!     ]
-#! }, {
-#!     "name": "entry1",
-#!     "inputs": [
+#!       ]
+#!     },
+#!     {
+#!       "name": "entry1",
+#!       "inputs": [
 #!         {
-#!             "method": "main",
-#!             "calldata": [
-#!                 "1"
-#!             ]
+#!           "method": "main",
+#!           "calldata": [
+#!             "1"
+#!           ],
+#!           "caller": "0x66B699f934d78f8F51Bd4AB4AC600f2183208cB1"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "5"
-#!     ]
-#! }, {
-#!     "name": "entry2",
-#!     "inputs": [
+#!       ]
+#!     },
+#!     {
+#!       "name": "entry2",
+#!       "inputs": [
 #!         {
-#!             "method": "main",
-#!             "calldata": [
-#!                 "2"
-#!             ]
+#!           "method": "main",
+#!           "calldata": [
+#!             "2"
+#!           ],
+#!           "caller": "0xcd5528be6bb5e74a2444a217C0d84E1aa382D078"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "6"
-#!     ]
-#! }, {
-#!     "name": "entry3",
-#!     "inputs": [
+#!       ]
+#!     },
+#!     {
+#!       "name": "entry3",
+#!       "inputs": [
 #!         {
-#!             "method": "main",
-#!             "calldata": [
-#!                 "3"
-#!             ]
+#!           "method": "main",
+#!           "calldata": [
+#!             "3"
+#!           ],
+#!           "caller": "0x0880bd253D84EFCB89Efc602970ccd7b7e19462C"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "7"
-#!     ]
-#! }, {
-#!     "name": "entry4",
-#!     "inputs": [
+#!       ]
+#!     },
+#!     {
+#!       "name": "entry4",
+#!       "inputs": [
 #!         {
-#!             "method": "main",
-#!             "calldata": [
-#!                 "7"
-#!             ]
+#!           "method": "main",
+#!           "calldata": [
+#!             "7"
+#!           ],
+#!           "caller": "0x36B74701779cB71c38074FBA73C424e5708658FA"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "99"
-#!     ]
-#! } ] }
+#!       ]
+#!     }
+#!   ]
+#! }
 
 @external
 @pure

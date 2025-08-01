@@ -1,69 +1,85 @@
-#! { "modes": [ "V >=0.4.0" ], "cases": [ {
-#!     "name": "entry0",
-#!     "inputs": [
+#! {
+#!   "modes": [
+#!     "V >=0.4.0"
+#!   ],
+#!   "cases": [
+#!     {
+#!       "name": "entry0",
+#!       "inputs": [
 #!         {
-#!             "method": "main",
-#!             "calldata": [
-#!                 "0"
-#!             ]
+#!           "method": "main",
+#!           "calldata": [
+#!             "0"
+#!           ],
+#!           "caller": "0x2624895D0ceE95C74ec99B081285121135BB2545"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "4"
-#!     ]
-#! }, {
-#!     "name": "entry1",
-#!     "inputs": [
+#!       ]
+#!     },
+#!     {
+#!       "name": "entry1",
+#!       "inputs": [
 #!         {
-#!             "method": "main",
-#!             "calldata": [
-#!                 "1"
-#!             ]
+#!           "method": "main",
+#!           "calldata": [
+#!             "1"
+#!           ],
+#!           "caller": "0xFF2FD9017eeE4546A7754a285d0159020dB61473"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "5"
-#!     ]
-#! }, {
-#!     "name": "entry2",
-#!     "inputs": [
+#!       ]
+#!     },
+#!     {
+#!       "name": "entry2",
+#!       "inputs": [
 #!         {
-#!             "method": "main",
-#!             "calldata": [
-#!                 "2"
-#!             ]
+#!           "method": "main",
+#!           "calldata": [
+#!             "2"
+#!           ],
+#!           "caller": "0xb59396E6A5fe0E92d5f1d17208027f86A867E403"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "6"
-#!     ]
-#! }, {
-#!     "name": "entry3",
-#!     "inputs": [
+#!       ]
+#!     },
+#!     {
+#!       "name": "entry3",
+#!       "inputs": [
 #!         {
-#!             "method": "main",
-#!             "calldata": [
-#!                 "3"
-#!             ]
+#!           "method": "main",
+#!           "calldata": [
+#!             "3"
+#!           ],
+#!           "caller": "0xb9d88e5a29Db73D35c63FBD67eA70719A667b04E"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "7"
-#!     ]
-#! }, {
-#!     "name": "entry4",
-#!     "inputs": [
+#!       ]
+#!     },
+#!     {
+#!       "name": "entry4",
+#!       "inputs": [
 #!         {
-#!             "method": "main",
-#!             "calldata": [
-#!                 "7"
-#!             ]
+#!           "method": "main",
+#!           "calldata": [
+#!             "7"
+#!           ],
+#!           "caller": "0x42A8E378eccd4606d141E7F9961b8B6c719a0f36"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "99"
-#!     ]
-#! } ] }
+#!       ]
+#!     }
+#!   ]
+#! }
 
 @external
 @pure

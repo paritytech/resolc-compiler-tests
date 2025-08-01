@@ -1,43 +1,52 @@
-;! { "cases": [ {
-;!     "name": "1",
-;!     "inputs": [
+;! {
+;!   "cases": [
+;!     {
+;!       "name": "1",
+;!       "inputs": [
 ;!         {
-;!             "method": "#fallback",
-;!             "calldata": [
-;!                "0x0000000000000000000000000000000000000000000000000000000000000000"
-;!             ]
+;!           "method": "#fallback",
+;!           "calldata": [
+;!             "0x0000000000000000000000000000000000000000000000000000000000000000"
+;!           ],
+;!           "caller": "0x63Ab9FA37a2cCdE4866cDfa360F440c62B798f35"
 ;!         }
-;!     ],
-;!     "expected": [
-;!                "0x0000000000000000000000000000000000000000000000000000000000000000"
-;!     ]
-;! }, {
-;!     "name": "2",
-;!     "inputs": [
+;!       ],
+;!       "expected": [
+;!         "0x0000000000000000000000000000000000000000000000000000000000000000"
+;!       ]
+;!     },
+;!     {
+;!       "name": "2",
+;!       "inputs": [
 ;!         {
-;!             "method": "#fallback",
-;!             "calldata": [
-;!                "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"
-;!             ]
+;!           "method": "#fallback",
+;!           "calldata": [
+;!             "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"
+;!           ],
+;!           "caller": "0x817D02dCDe2E5f52e4f7D8E8F80ec332B85b1C1E"
 ;!         }
-;!     ],
-;!     "expected": [
-;!                "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"
-;!     ]
-;! }, {
-;!     "name": "3",
-;!     "inputs": [
+;!       ],
+;!       "expected": [
+;!         "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"
+;!       ]
+;!     },
+;!     {
+;!       "name": "3",
+;!       "inputs": [
 ;!         {
-;!             "method": "#fallback",
-;!             "calldata": [
-;!                "0x00000000000000000000000000000000770F0E0D0C0B0A090807060504030201"
-;!             ]
+;!           "method": "#fallback",
+;!           "calldata": [
+;!             "0x00000000000000000000000000000000770F0E0D0C0B0A090807060504030201"
+;!           ],
+;!           "caller": "0x40410F372Bcb9d25e366A0b0E9cf7A93b949Eb44"
 ;!         }
-;!     ],
-;!     "expected": [
-;!                "0x0102030405060708090A0B0C0D0E0f7700000000000000000000000000000000"
-;!     ]
-;! } ] }
+;!       ],
+;!       "expected": [
+;!         "0x0102030405060708090A0B0C0D0E0f7700000000000000000000000000000000"
+;!       ]
+;!     }
+;!   ]
+;! }
 
 
 target datalayout = "E-p:256:256-i256:256:256-S256-a:256:256"

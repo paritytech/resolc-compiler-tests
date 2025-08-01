@@ -1,34 +1,42 @@
-{ "modes": [ "V >=0.4.0" ], "cases": [ {
-    "name": "default",
-    "inputs": [
+{
+  "modes": [
+    "V >=0.4.0"
+  ],
+  "cases": [
+    {
+      "name": "default",
+      "inputs": [
         {
-            "instance": "C",
-            "method": "h",
-            "calldata": [
-                "0",
-                "B3.address"
-            ],
-            "value": "2000 ETH",
-            "expected": [
-                "1"
-            ]
+          "instance": "C",
+          "method": "h",
+          "calldata": [
+            "0",
+            "B3.address"
+          ],
+          "value": "2000 ETH",
+          "expected": [
+            "1"
+          ],
+          "caller": "0xD8993F2dB5e856Ea07aBAC73fCB2672764Af9539"
         },
         {
-            "instance": "C",
-            "method": "h",
-            "calldata": [
-                "100",
-                "B3.address"
-            ],
-            "value": "2000 ETH"
+          "instance": "C",
+          "method": "h",
+          "calldata": [
+            "100",
+            "B3.address"
+          ],
+          "value": "2000 ETH",
+          "caller": "0xD8993F2dB5e856Ea07aBAC73fCB2672764Af9539"
         }
-    ],
-    "expected": [
+      ],
+      "expected": [
         "1"
-    ]
-} ],
-    "contracts": {
-        "C": "C.vy",
-        "B3": "B3.vy"
+      ]
     }
+  ],
+  "contracts": {
+    "C": "C.vy",
+    "B3": "B3.vy"
+  }
 }

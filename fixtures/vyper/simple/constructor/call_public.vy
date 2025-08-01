@@ -1,25 +1,34 @@
-#! { "modes": [ "V >=0.4.0" ], "cases": [ {
-#!     "name": "success",
-#!     "inputs": [
+#! {
+#!   "modes": [
+#!     "V >=0.4.0"
+#!   ],
+#!   "cases": [
+#!     {
+#!       "name": "success",
+#!       "inputs": [
 #!         {
-#!             "method": "#deployer",
-#!             "calldata": [
-#!                 "5", "42"
-#!             ],
-#!             "expected": [
-#!                 "Test.address"
-#!             ]
+#!           "method": "#deployer",
+#!           "calldata": [
+#!             "5",
+#!             "42"
+#!           ],
+#!           "expected": [
+#!             "Test.address"
+#!           ],
+#!           "caller": "0x414d95E1af5FB713f997bcaD5595f089C19E6B72"
 #!         },
 #!         {
-#!             "method": "get",
-#!             "calldata": [
-#!             ]
+#!           "method": "get",
+#!           "calldata": [],
+#!           "caller": "0x414d95E1af5FB713f997bcaD5595f089C19E6B72"
 #!         }
-#!     ],
-#!     "expected": [
+#!       ],
+#!       "expected": [
 #!         "42"
-#!     ]
-#! } ] }
+#!       ]
+#!     }
+#!   ]
+#! }
 
 x: uint256
 y: uint256

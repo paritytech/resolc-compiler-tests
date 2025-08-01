@@ -1,43 +1,52 @@
-//! { "cases": [ {
-//!     "name": "ordinar",
-//!     "inputs": [
+//! {
+//!   "cases": [
+//!     {
+//!       "name": "ordinar",
+//!       "inputs": [
 //!         {
-//!             "method": "main",
-//!             "calldata": [
-//!                 "42"
-//!             ]
+//!           "method": "main",
+//!           "calldata": [
+//!             "42"
+//!           ],
+//!           "caller": "0x2B489cBa91b57E1c66f43A35d386f0f6BBe53066"
 //!         }
-//!     ],
-//!     "expected": [
+//!       ],
+//!       "expected": [
 //!         "213"
-//!     ]
-//! }, {
-//!     "name": "min_to_max",
-//!     "inputs": [
+//!       ]
+//!     },
+//!     {
+//!       "name": "min_to_max",
+//!       "inputs": [
 //!         {
-//!             "method": "main",
-//!             "calldata": [
-//!                 "0"
-//!             ]
+//!           "method": "main",
+//!           "calldata": [
+//!             "0"
+//!           ],
+//!           "caller": "0xeA5A8b7c8AE6F6AcEe81D5E8dA5CB242E47BE65f"
 //!         }
-//!     ],
-//!     "expected": [
+//!       ],
+//!       "expected": [
 //!         "255"
-//!     ]
-//! }, {
-//!     "name": "max_to_min",
-//!     "inputs": [
+//!       ]
+//!     },
+//!     {
+//!       "name": "max_to_min",
+//!       "inputs": [
 //!         {
-//!             "method": "main",
-//!             "calldata": [
-//!                 "255"
-//!             ]
+//!           "method": "main",
+//!           "calldata": [
+//!             "255"
+//!           ],
+//!           "caller": "0x5D508031B360129DF797e01A2D3D4332289b4d01"
 //!         }
-//!     ],
-//!     "expected": [
+//!       ],
+//!       "expected": [
 //!         "0"
-//!     ]
-//! } ] }
+//!       ]
+//!     }
+//!   ]
+//! }
 
 // SPDX-License-Identifier: MIT
 

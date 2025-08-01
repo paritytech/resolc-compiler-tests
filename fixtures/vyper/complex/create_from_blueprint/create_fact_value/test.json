@@ -1,65 +1,78 @@
-{ "modes": [ "V >=0.4.0" ], "cases": [ {
-    "name": "five",
-    "inputs": [
+{
+  "modes": [
+    "V >=0.4.0"
+  ],
+  "cases": [
+    {
+      "name": "five",
+      "inputs": [
         {
-            "instance": "Main",
-            "method": "main",
-            "calldata": [
-                "Main.address"
-            ],
-            "value": "5 wei"
+          "instance": "Main",
+          "method": "main",
+          "calldata": [
+            "Main.address"
+          ],
+          "value": "5 wei",
+          "caller": "0xd1e7ecBA2dEb9C4d7154156fc0561D8a6A218458"
         }
-    ],
-    "expected": [
+      ],
+      "expected": [
         "120"
-    ]
-}, {
-    "name": "twelve",
-    "inputs": [
+      ]
+    },
+    {
+      "name": "twelve",
+      "inputs": [
         {
-            "instance": "Main",
-            "method": "main",
-            "calldata": [
-                "Main.address"
-            ],
-            "value": "12 wei"
+          "instance": "Main",
+          "method": "main",
+          "calldata": [
+            "Main.address"
+          ],
+          "value": "12 wei",
+          "caller": "0x2c63bc8aE7b3225aE8c21bD17ff4FE11e47c117C"
         }
-    ],
-    "expected": [
+      ],
+      "expected": [
         "479001600"
-    ]
-},{
-    "name": "fifteen",
-    "inputs": [
+      ]
+    },
+    {
+      "name": "fifteen",
+      "inputs": [
         {
-            "instance": "Main",
-            "method": "main",
-            "calldata": [
-                "Main.address"
-            ],
-            "value": "15 wei"
+          "instance": "Main",
+          "method": "main",
+          "calldata": [
+            "Main.address"
+          ],
+          "value": "15 wei",
+          "caller": "0x39a0323a355659126295fFb5eD09E6bDA4C49BdD"
         }
-    ],
-    "expected": [
+      ],
+      "expected": [
         "1307674368000"
-    ]
-}, {
-    "name": "twenty",
-    "inputs": [
+      ]
+    },
+    {
+      "name": "twenty",
+      "inputs": [
         {
-            "instance": "Main",
-            "method": "main",
-            "calldata": [
-                "Main.address"
-            ],
-            "value": "20 wei"
+          "instance": "Main",
+          "method": "main",
+          "calldata": [
+            "Main.address"
+          ],
+          "value": "20 wei",
+          "caller": "0x5eff5464E8b27561AfF3844CFE547bc78a419Bda"
         }
-    ],
-    "expected": [
+      ],
+      "expected": [
         "2432902008176640000"
-    ]
-} ],
-    "contracts": {
-        "Main": "main.vy"
+      ]
     }
+  ],
+  "contracts": {
+    "Main": "main.vy"
+  }
 }

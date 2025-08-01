@@ -4,17 +4,19 @@
 //!       "name": "main",
 //!       "inputs": [
 //!         {
+//!           "method": "setStorage",
+//!           "calldata": [
+//!             "5",
+//!             "7"
+//!           ],
+//!           "caller": "0xe5fabF59E90C41a4Da21d70abCB0F1494cba2668"
+//!         },
+//!         {
 //!           "method": "main",
 //!           "calldata": [
 //!             "42"
 //!           ],
-//!           "storage": {
-//!             "Test.address": [
-//!               "5",
-//!               "7"
-//!             ]
-//!           },
-//!           "caller": "0x8D4623C651453dFBe42071DCF0670Feb298BEBE9"
+//!           "caller": "0xe5fabF59E90C41a4Da21d70abCB0F1494cba2668"
 //!         }
 //!       ],
 //!       "expected": [
@@ -40,6 +42,13 @@ contract Test {
 
     uint248 a;
     uint248 b;
+
+    function setStorage(uint256 a, uint256 b) public {
+        assembly {
+            sstore(0, a)
+            sstore(1, b)
+        }
+    }
 
     function main(uint248 value) public returns(uint248) {
         Data memory data = Data(10, 20);

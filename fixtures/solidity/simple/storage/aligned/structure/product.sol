@@ -4,19 +4,22 @@
 //!       "name": "main",
 //!       "inputs": [
 //!         {
+//!           "method": "#deployer",
+//!           "instance": "Test",
+//!           "calldata": [
+//!             "20",
+//!             "15",
+//!             "10",
+//!             "5"
+//!           ],
+//!           "caller": "0x9c545660fc8a022b05d4e46eA7B585dc2eFD698F"
+//!         },
+//!         {
 //!           "method": "main",
 //!           "calldata": [
 //!             "42"
 //!           ],
-//!           "storage": {
-//!             "Test.address": [
-//!               "20",
-//!               "15",
-//!               "10",
-//!               "5"
-//!             ]
-//!           },
-//!           "caller": "0x0d1233A6Cf70860d1F44CAD6fAbd8691F77751C7"
+//!           "caller": "0x9c545660fc8a022b05d4e46eA7B585dc2eFD698F"
 //!         }
 //!       ],
 //!       "expected": [
@@ -35,6 +38,13 @@ contract Test {
     }
 
     Data data;
+
+    constructor(uint256 a, uint256 b, uint256 c, uint256 d) {
+        data.a = a;
+        data.b = b;
+        data.c = c;
+        data.d = d;
+    }
 
     function main(uint16 argument) public returns(uint16) {
         uint16 product = 1;

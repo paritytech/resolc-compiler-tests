@@ -4,31 +4,55 @@
 //!       "name": "main",
 //!       "inputs": [
 //!         {
+//!           "method": "setRow",
+//!           "calldata": [
+//!             "0",
+//!             "1",
+//!             "2",
+//!             "3",
+//!             "4"
+//!           ],
+//!           "caller": "0xeF68e114755f2d552A37317827061Da6326ADceb"
+//!         },
+//!         {
+//!           "method": "setRow",
+//!           "calldata": [
+//!             "1",
+//!             "5",
+//!             "6",
+//!             "7",
+//!             "8"
+//!           ],
+//!           "caller": "0xeF68e114755f2d552A37317827061Da6326ADceb"
+//!         },
+//!         {
+//!           "method": "setRow",
+//!           "calldata": [
+//!             "2",
+//!             "9",
+//!             "10",
+//!             "11",
+//!             "12"
+//!           ],
+//!           "caller": "0xeF68e114755f2d552A37317827061Da6326ADceb"
+//!         },
+//!         {
+//!           "method": "setRow",
+//!           "calldata": [
+//!             "3",
+//!             "13",
+//!             "14",
+//!             "15",
+//!             "16"
+//!           ],
+//!           "caller": "0xeF68e114755f2d552A37317827061Da6326ADceb"
+//!         },
+//!         {
 //!           "method": "main",
 //!           "calldata": [
 //!             "42"
 //!           ],
-//!           "storage": {
-//!             "Test.address": [
-//!               "1",
-//!               "2",
-//!               "3",
-//!               "4",
-//!               "5",
-//!               "6",
-//!               "7",
-//!               "8",
-//!               "9",
-//!               "10",
-//!               "11",
-//!               "12",
-//!               "13",
-//!               "14",
-//!               "15",
-//!               "16"
-//!             ]
-//!           },
-//!           "caller": "0x3Db9BF04E01b07C1B63e3cdbE562B96bB2d988F0"
+//!           "caller": "0xeF68e114755f2d552A37317827061Da6326ADceb"
 //!         }
 //!       ],
 //!       "expected": [
@@ -42,6 +66,13 @@ contract Test {
     uint256[4][4] data;
 
     uint8 constant TEST = 42;
+
+    function setRow(uint row, uint256[4] calldata values) public {
+        data[row][0] = values[0];
+        data[row][1] = values[1];
+        data[row][2] = values[2];
+        data[row][3] = values[3];
+    }
 
     function main(uint8 argument) public returns(uint8) {
         data[3][3] += uint256(argument);

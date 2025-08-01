@@ -28,6 +28,14 @@ pub enum Cli {
         /// it can be the path to a metadata file (JSON, Sol, or others) to run
         /// the replacement logic on.
         path: PathBuf,
+
+        /// Controls what private key the caller replacement should start from.
+        ///
+        /// This is primarily useful when the caller address replacement is done
+        /// in multiple phases and there's a need to then continue with it in
+        /// another context or another file.
+        #[clap(short, long, default_value_t = 0)]
+        private_key_start: usize,
     },
 }
 
@@ -35,8 +43,11 @@ fn main() -> Result<()> {
     let cli = Cli::try_parse()?;
 
     match cli {
-        Cli::ReplaceCaller { path } => {
-            let highest_private_key = handle_caller_replacement(&path)?;
+        Cli::ReplaceCaller {
+            path,
+            private_key_start,
+        } => {
+            let highest_private_key = handle_caller_replacement(&path, private_key_start)?;
             println!("Highest private key: {highest_private_key}");
         }
     }
@@ -44,7 +55,7 @@ fn main() -> Result<()> {
     Ok(())
 }
 
-fn handle_caller_replacement(path: &Path) -> Result<U256> {
+fn handle_caller_replacement(path: &Path, private_key_start: usize) -> Result<U256> {
     let metadata_file_paths = if path.is_dir() {
         Box::new(MetadataFile::SUPPORTED_EXTENSIONS.iter().copied().fold(
             FilesWithExtensionIterator::new(path.to_path_buf()),
@@ -62,7 +73,7 @@ fn handle_caller_replacement(path: &Path) -> Result<U256> {
         })
         .collect::<Result<Vec<_>>>()?;
 
-    let mut allocator = PrivateKeyAllocator::new();
+    let mut allocator = PrivateKeyAllocator::new_with_value(U256::from(private_key_start));
     for mut metadata_file in metadata_objects {
         for mut case in metadata_file.cases_mut() {
             let replacement_map = case.callers().fold(HashMap::new(), |mut map, caller| {
@@ -292,6 +303,10 @@ pub struct PrivateKeyAllocator(U256);
 impl PrivateKeyAllocator {
     pub fn new() -> Self {
         Default::default()
+    }
+
+    pub fn new_with_value(value: U256) -> Self {
+        Self(value)
     }
 
     pub fn allocate(&mut self) -> PrivateKeySigner {

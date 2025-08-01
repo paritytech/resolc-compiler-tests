@@ -4,18 +4,21 @@
 //!       "name": "false_false",
 //!       "inputs": [
 //!         {
+//!           "method": "#deployer",
+//!           "instance": "Test",
+//!           "calldata": [
+//!             "42"
+//!           ],
+//!           "caller": "0xA98076b52e88EdeD37d9F0a5a08eE89e781e9da0"
+//!         },
+//!         {
 //!           "method": "main",
 //!           "calldata": [
 //!             "0",
 //!             "0",
 //!             "25"
 //!           ],
-//!           "storage": {
-//!             "Test.address": [
-//!               "42"
-//!             ]
-//!           },
-//!           "caller": "0xB0C741A0D76E1F07fB613bB4AB310469cd152114"
+//!           "caller": "0xA98076b52e88EdeD37d9F0a5a08eE89e781e9da0"
 //!         }
 //!       ],
 //!       "expected": [
@@ -26,18 +29,21 @@
 //!       "name": "false_true",
 //!       "inputs": [
 //!         {
+//!           "method": "#deployer",
+//!           "instance": "Test",
+//!           "calldata": [
+//!             "42"
+//!           ],
+//!           "caller": "0x9C120AEE8A873F559B229E0dFFB4363973596DF0"
+//!         },
+//!         {
 //!           "method": "main",
 //!           "calldata": [
 //!             "0",
 //!             "1",
 //!             "25"
 //!           ],
-//!           "storage": {
-//!             "Test.address": [
-//!               "42"
-//!             ]
-//!           },
-//!           "caller": "0xA3258c7d453330c390474919261f63d7391D1B24"
+//!           "caller": "0x9C120AEE8A873F559B229E0dFFB4363973596DF0"
 //!         }
 //!       ],
 //!       "expected": [
@@ -48,18 +54,21 @@
 //!       "name": "true_false",
 //!       "inputs": [
 //!         {
+//!           "method": "#deployer",
+//!           "instance": "Test",
+//!           "calldata": [
+//!             "42"
+//!           ],
+//!           "caller": "0x9204a44905D3d463C76dC5232684e56254299948"
+//!         },
+//!         {
 //!           "method": "main",
 //!           "calldata": [
 //!             "1",
 //!             "0",
 //!             "25"
 //!           ],
-//!           "storage": {
-//!             "Test.address": [
-//!               "42"
-//!             ]
-//!           },
-//!           "caller": "0xf7E8A1C82341A79bCa90eD06cd33906a8F645372"
+//!           "caller": "0x9204a44905D3d463C76dC5232684e56254299948"
 //!         }
 //!       ],
 //!       "expected": [
@@ -70,18 +79,21 @@
 //!       "name": "true_true",
 //!       "inputs": [
 //!         {
+//!           "method": "#deployer",
+//!           "instance": "Test",
+//!           "calldata": [
+//!             "42"
+//!           ],
+//!           "caller": "0x88C6e9065547018593bFd1cc1E0908EA23463F7c"
+//!         },
+//!         {
 //!           "method": "main",
 //!           "calldata": [
 //!             "1",
 //!             "1",
 //!             "25"
 //!           ],
-//!           "storage": {
-//!             "Test.address": [
-//!               "42"
-//!             ]
-//!           },
-//!           "caller": "0xdC84664b12338C0F19E7D4d0e45abeCd8B8B5Da0"
+//!           "caller": "0x88C6e9065547018593bFd1cc1E0908EA23463F7c"
 //!         }
 //!       ],
 //!       "expected": [
@@ -97,6 +109,10 @@ pragma solidity >=0.4.16;
 
 contract Test {
     uint256 data;
+
+    constructor(uint256 initialData) {
+        data = initialData;
+    }
 
     function main(bool gate_1, bool gate_2, uint8 value) public returns(uint8) {
         if (gate_1) {

@@ -4,14 +4,16 @@
 //!       "name": "complex",
 //!       "inputs": [
 //!         {
+//!           "method": "setStorage",
+//!           "calldata": [
+//!             "1"
+//!           ],
+//!           "caller": "0x0AB25433E53a780796c6BeF3c05A7B8714819d77"
+//!         },
+//!         {
 //!           "method": "complex",
 //!           "calldata": [],
-//!           "storage": {
-//!             "Test.address": [
-//!               "1"
-//!             ]
-//!           },
-//!           "caller": "0xDC99b8D4A8FAd961F8F90C0a7FEFE490a8785C5A"
+//!           "caller": "0x0AB25433E53a780796c6BeF3c05A7B8714819d77"
 //!         }
 //!       ],
 //!       "expected": [
@@ -29,6 +31,12 @@ pragma solidity >=0.4.16;
 
 contract Test {
     uint8[1] KEY = [1];
+
+    function setStorage(uint256 newStorage) public {
+        assembly {
+            sstore(0, newStorage)
+        }
+    }
 
     function complex() public view returns(uint8) {
         return KEY[0];

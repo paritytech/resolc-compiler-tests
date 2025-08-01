@@ -4,16 +4,18 @@
 //!       "name": "main",
 //!       "inputs": [
 //!         {
+//!           "method": "setStorage",
+//!           "calldata": [
+//!             "0x00000000000000000000000000000000000000000000000000000000050a0f14"
+//!           ],
+//!           "caller": "0x05F03aFA6FED8cBc943A4f45d0A5FCB8bc3D8434"
+//!         },
+//!         {
 //!           "method": "main",
 //!           "calldata": [
 //!             "42"
 //!           ],
-//!           "storage": {
-//!             "Test.address": [
-//!               "0x050a0f14"
-//!             ]
-//!           },
-//!           "caller": "0x552dA8d99CE28D466fEdd244865A1BE5931B6E7F"
+//!           "caller": "0x05F03aFA6FED8cBc943A4f45d0A5FCB8bc3D8434"
 //!         }
 //!       ],
 //!       "expected": [
@@ -34,6 +36,12 @@ contract Test {
     }
 
     Data data;
+
+    function setStorage(bytes32 newStorage) public {
+        assembly {
+            sstore(0, newStorage)
+        }
+    }
 
     function main(uint8 argument) public returns(uint8) {
         uint8 sum = 0;

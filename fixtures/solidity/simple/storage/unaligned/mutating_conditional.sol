@@ -4,18 +4,20 @@
 //!       "name": "false_false",
 //!       "inputs": [
 //!         {
+//!           "method": "setStorage",
+//!           "calldata": [
+//!             "42"
+//!           ],
+//!           "caller": "0x3fee306D4DF4F9239B7Eb676f06A8D7884e14C1b"
+//!         },
+//!         {
 //!           "method": "main",
 //!           "calldata": [
 //!             "0",
 //!             "0",
 //!             "25"
 //!           ],
-//!           "storage": {
-//!             "Test.address": [
-//!               "42"
-//!             ]
-//!           },
-//!           "caller": "0x8c5228C6F4f6CA47b280D36F01c2cCa8D083a31D"
+//!           "caller": "0x3fee306D4DF4F9239B7Eb676f06A8D7884e14C1b"
 //!         }
 //!       ],
 //!       "expected": [
@@ -26,18 +28,20 @@
 //!       "name": "false_true",
 //!       "inputs": [
 //!         {
+//!           "method": "setStorage",
+//!           "calldata": [
+//!             "42"
+//!           ],
+//!           "caller": "0x97bc118c7c1e216220F765006B39C9e64f2B1eb7"
+//!         },
+//!         {
 //!           "method": "main",
 //!           "calldata": [
 //!             "0",
 //!             "1",
 //!             "25"
 //!           ],
-//!           "storage": {
-//!             "Test.address": [
-//!               "42"
-//!             ]
-//!           },
-//!           "caller": "0xc70eE0a439CdA27090F9341aCc2C29fC5AB85296"
+//!           "caller": "0x97bc118c7c1e216220F765006B39C9e64f2B1eb7"
 //!         }
 //!       ],
 //!       "expected": [
@@ -48,18 +52,20 @@
 //!       "name": "true_false",
 //!       "inputs": [
 //!         {
+//!           "method": "setStorage",
+//!           "calldata": [
+//!             "42"
+//!           ],
+//!           "caller": "0x102544497093a75bb0a9DfF75c5ad321ef7dC3a7"
+//!         },
+//!         {
 //!           "method": "main",
 //!           "calldata": [
 //!             "1",
 //!             "0",
 //!             "25"
 //!           ],
-//!           "storage": {
-//!             "Test.address": [
-//!               "42"
-//!             ]
-//!           },
-//!           "caller": "0xB41728F81b765f71C514dFa7B0948DfF9f584c3C"
+//!           "caller": "0x102544497093a75bb0a9DfF75c5ad321ef7dC3a7"
 //!         }
 //!       ],
 //!       "expected": [
@@ -70,18 +76,20 @@
 //!       "name": "true_true",
 //!       "inputs": [
 //!         {
+//!           "method": "setStorage",
+//!           "calldata": [
+//!             "42"
+//!           ],
+//!           "caller": "0xC9104Fa484fB5f9e82A5A3313F356c88DE7d6Cc6"
+//!         },
+//!         {
 //!           "method": "main",
 //!           "calldata": [
 //!             "1",
 //!             "1",
 //!             "25"
 //!           ],
-//!           "storage": {
-//!             "Test.address": [
-//!               "42"
-//!             ]
-//!           },
-//!           "caller": "0x6824c9580F33e9180A8c14A9eB9f7A6260878478"
+//!           "caller": "0xC9104Fa484fB5f9e82A5A3313F356c88DE7d6Cc6"
 //!         }
 //!       ],
 //!       "expected": [
@@ -97,6 +105,12 @@ pragma solidity >=0.4.16;
 
 contract Test {
     uint8 data;
+
+    function setStorage(uint256 newStorage) public {
+        assembly {
+            sstore(0, newStorage)
+        }
+    }
 
     function main(bool gate_1, bool gate_2, uint8 value) public returns(uint8) {
         if (gate_1) {

@@ -4,19 +4,22 @@
 //!       "name": "main",
 //!       "inputs": [
 //!         {
+//!           "method": "#deployer",
+//!           "instance": "Test",
+//!           "calldata": [
+//!             "1",
+//!             "2",
+//!             "3",
+//!             "4"
+//!           ],
+//!           "caller": "0x93D7Afb4F118660A4D29C051Ea893e2e382dC13d"
+//!         },
+//!         {
 //!           "method": "main",
 //!           "calldata": [
 //!             "42"
 //!           ],
-//!           "storage": {
-//!             "Test.address": [
-//!               "1",
-//!               "2",
-//!               "3",
-//!               "4"
-//!             ]
-//!           },
-//!           "caller": "0x448f65c8B4Ac8DF1879226CEE0124aF030D2F185"
+//!           "caller": "0x93D7Afb4F118660A4D29C051Ea893e2e382dC13d"
 //!         }
 //!       ],
 //!       "expected": [
@@ -30,6 +33,13 @@ contract Test {
     uint256[4] data;
 
     uint8 constant TEST = 42;
+
+    constructor(uint256 a, uint256 b, uint256 c, uint256 d) {
+        data[0] = a;
+        data[1] = b;
+        data[2] = c;
+        data[3] = d;
+    }
 
     function main(uint8 argument) public returns(uint8) {
         data[3] += uint256(argument);

@@ -4,16 +4,18 @@
 //!       "name": "main",
 //!       "inputs": [
 //!         {
+//!           "method": "setStorage",
+//!           "calldata": [
+//!             "0x0000000000000000000000000000000000000000000000000000000000656463"
+//!           ],
+//!           "caller": "0xf2eA8F1287B6A2d05C6c2dA61174a419bA932c52"
+//!         },
+//!         {
 //!           "method": "main",
 //!           "calldata": [
 //!             "42"
 //!           ],
-//!           "storage": {
-//!             "Test.address": [
-//!               "0x656463"
-//!             ]
-//!           },
-//!           "caller": "0x84346B1845436fD98E16F9e829C3011b3a6c5EF7"
+//!           "caller": "0xf2eA8F1287B6A2d05C6c2dA61174a419bA932c52"
 //!         }
 //!       ],
 //!       "expected": [
@@ -37,6 +39,12 @@ contract Test {
     }
 
     Data data;
+
+    function setStorage(bytes32 newStorage) public {
+        assembly {
+            sstore(0, newStorage)
+        }
+    }
 
     function main(uint8 argument) public returns(uint8) {
         data.inner.next = argument;

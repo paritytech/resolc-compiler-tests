@@ -4,18 +4,21 @@
 //!       "name": "main",
 //!       "inputs": [
 //!         {
+//!           "method": "#deployer",
+//!           "instance": "Test",
+//!           "calldata": [
+//!             "3",
+//!             "5",
+//!             "2"
+//!           ],
+//!           "caller": "0x3dBB493e448412455E89070214e7ba5d4EBE0f2a"
+//!         },
+//!         {
 //!           "method": "main",
 //!           "calldata": [
 //!             "12"
 //!           ],
-//!           "storage": {
-//!             "Test.address": [
-//!               "3",
-//!               "5",
-//!               "2"
-//!             ]
-//!           },
-//!           "caller": "0x479e66FED67C27257dc4c66A910387126724c578"
+//!           "caller": "0x3dBB493e448412455E89070214e7ba5d4EBE0f2a"
 //!         }
 //!       ],
 //!       "expected": [
@@ -33,6 +36,12 @@ contract Test {
     uint256 field_1;
     uint256 field_2;
     uint256 field_3;
+
+    constructor(uint256 a, uint256 b, uint256 c) {
+        field_1 = a;
+        field_2 = b;
+        field_3 = c;
+    }
 
     function main(uint8 witness) public returns(uint8) {
         return witness + uint8(field_1) * uint8(field_2) * uint8(field_3);

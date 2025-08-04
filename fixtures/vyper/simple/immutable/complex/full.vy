@@ -8,7 +8,7 @@
 #!       "inputs": [
 #!         {
 #!           "method": "#deployer",
-#!           "caller": "0x96487c939994F6404d0c692FA1eca7040BDDe8A1",
+#!           "caller": "0x0CDD59D17E8A5624bce2AdB0bBeeedf820e288Bc",
 #!           "calldata": [],
 #!           "expected": [
 #!             "Test.address"
@@ -20,7 +20,7 @@
 #!           "expected": [
 #!             "0x19ed957342c0dd93f726a54a983583a4ccd3ae9b41e0f15c834de372bc5955b6"
 #!           ],
-#!           "caller": "0x96487c939994F6404d0c692FA1eca7040BDDe8A1"
+#!           "caller": "0x4a48e2CA693824Ea2df85499A8FF1A1460C2f800"
 #!         },
 #!         {
 #!           "method": "DOMAIN_SEPARATOR_0A",
@@ -28,7 +28,7 @@
 #!           "expected": [
 #!             "0x19ed957342c0dd93f726a54a983583a4ccd3ae9b41e0f15c834de372bc5955b6"
 #!           ],
-#!           "caller": "0x96487c939994F6404d0c692FA1eca7040BDDe8A1"
+#!           "caller": "0x4a48e2CA693824Ea2df85499A8FF1A1460C2f800"
 #!         }
 #!       ],
 #!       "expected": [

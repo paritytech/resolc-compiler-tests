@@ -8,7 +8,7 @@
 //!       "inputs": [
 //!         {
 //!           "method": "#deployer",
-//!           "caller": "0xd695E42e5BF3954441f5932d0568a68f895E2c20",
+//!           "caller": "0x080BE17F254567F227Ed5295f32881fc42cf002d",
 //!           "calldata": [
 //!             "25",
 //!             "42"
@@ -23,7 +23,7 @@
 //!           "expected": [
 //!             "25"
 //!           ],
-//!           "caller": "0xd695E42e5BF3954441f5932d0568a68f895E2c20"
+//!           "caller": "0x8cF4Af53dbA06565A3435BEC083f45d5D494413B"
 //!         },
 //!         {
 //!           "method": "b",
@@ -31,7 +31,7 @@
 //!           "expected": [
 //!             "0x99"
 //!           ],
-//!           "caller": "0xd695E42e5BF3954441f5932d0568a68f895E2c20"
+//!           "caller": "0x8cF4Af53dbA06565A3435BEC083f45d5D494413B"
 //!         },
 //!         {
 //!           "method": "c",
@@ -39,7 +39,7 @@
 //!           "expected": [
 //!             "42"
 //!           ],
-//!           "caller": "0xd695E42e5BF3954441f5932d0568a68f895E2c20"
+//!           "caller": "0x8cF4Af53dbA06565A3435BEC083f45d5D494413B"
 //!         }
 //!       ],
 //!       "expected": [

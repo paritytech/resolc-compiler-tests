@@ -9,7 +9,7 @@
 #!         {
 #!           "method": "first",
 #!           "calldata": [],
-#!           "caller": "0xDD72279E8e18D9E4064075E8CCf78dD3F4481F41"
+#!           "caller": "0x7d38B0A48413fD9487094CD5f47Ba8991866B4e8"
 #!         }
 #!       ],
 #!       "expected": [
@@ -22,7 +22,7 @@
 #!         {
 #!           "method": "second",
 #!           "calldata": [],
-#!           "caller": "0xFC31e500da188dB46c2Cd50d8e1e97E361F9be2a"
+#!           "caller": "0x5123C26e0a0CFE7a8F1952028d00799C0dCc3654"
 #!         }
 #!       ],
 #!       "expected": [

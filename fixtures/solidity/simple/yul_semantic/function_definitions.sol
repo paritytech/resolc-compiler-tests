@@ -6,7 +6,7 @@
 //!         {
 //!           "method": "no_args_and_ret",
 //!           "calldata": [],
-//!           "caller": "0x93CD3Ec3d68311f26cbFBCad1Be844012Cb08660"
+//!           "caller": "0x95e45b7610ad0070D9f2aE2c30FFdeFF2e6fBa7E"
 //!         }
 //!       ],
 //!       "expected": {
@@ -27,7 +27,7 @@
 //!         {
 //!           "method": "many_args",
 //!           "calldata": [],
-//!           "caller": "0x9074985f20a5cF380Ba7f9a34986a303AADB064E"
+//!           "caller": "0xb25a8c7A5eC83E9BFE347CEB4b3F880218Dd9db7"
 //!         }
 //!       ],
 //!       "expected": [
@@ -40,7 +40,7 @@
 //!         {
 //!           "method": "many_ret_values",
 //!           "calldata": [],
-//!           "caller": "0x8E18175a8Cf892C10870E119A20802Aac6c3acAC"
+//!           "caller": "0xCA0e0fF845D5a4d59276dEc73F62a1d2901212e5"
 //!         }
 //!       ],
 //!       "expected": [
@@ -53,7 +53,7 @@
 //!         {
 //!           "method": "empty_body_arg_side_effect",
 //!           "calldata": [],
-//!           "caller": "0x58d0ca1525495768bf0C4f37D1986Bc1F8A6f7Ca"
+//!           "caller": "0xe535F67e8132Afe06F53578174be70d5CB5D8aA1"
 //!         }
 //!       ],
 //!       "expected": {
@@ -74,7 +74,7 @@
 //!         {
 //!           "method": "leave_in_function",
 //!           "calldata": [],
-//!           "caller": "0xCF1845ae35512739cF2929cd046e70233303C88D"
+//!           "caller": "0xB7820c20d8357AAD7261B4daf40B0e6EE240caac"
 //!         }
 //!       ],
 //!       "expected": {
@@ -95,7 +95,7 @@
 //!         {
 //!           "method": "return_in_function",
 //!           "calldata": [],
-//!           "caller": "0xD4313CC647703Bee6Dd8C0Df518d1C2299270E12"
+//!           "caller": "0xb49c59d7fa41F7766CF83417fd67f2c7993dAd18"
 //!         }
 //!       ],
 //!       "expected": {
@@ -118,7 +118,7 @@
 //!         {
 //!           "method": "revert_in_function",
 //!           "calldata": [],
-//!           "caller": "0x369a99fD8cDAE1051e779bfbb425CCD52FE46B92"
+//!           "caller": "0x389a2B0705aBFBbEB9D640b5B2EcDB3fc66d7d50"
 //!         }
 //!       ],
 //!       "expected": {
@@ -134,7 +134,7 @@
 //!         {
 //!           "method": "default_ret_value",
 //!           "calldata": [],
-//!           "caller": "0x299efd03cfdeAE6d9a6d69c98894cd12368df379"
+//!           "caller": "0x22788E7a84E1312Fc3b0F9Ba8F4F30fD16107096"
 //!         }
 //!       ],
 //!       "expected": [

@@ -9,7 +9,7 @@
 #!         {
 #!           "method": "test1",
 #!           "calldata": [],
-#!           "caller": "0xcCe8ED6FE72fEda44442c21A0ff3d85E6105E6Cd"
+#!           "caller": "0x9c983D40d198F9C19ABf70d57903707E4C34c0d4"
 #!         }
 #!       ],
 #!       "expected": [
@@ -22,7 +22,7 @@
 #!         {
 #!           "method": "test2",
 #!           "calldata": [],
-#!           "caller": "0xeC57A0592dED11b98702270C840bDa0E84d8790A"
+#!           "caller": "0xA9B6C55C79A008f7b077dC2647084dC5a4C7091D"
 #!         }
 #!       ],
 #!       "expected": [
@@ -35,7 +35,7 @@
 #!         {
 #!           "method": "test3",
 #!           "calldata": [],
-#!           "caller": "0xAE7Eee828804BeE7798F2668655e0e12a4228DE2"
+#!           "caller": "0x647DB30f5E260e9610b36f0de7281BCb32e0EfEa"
 #!         }
 #!       ],
 #!       "expected": [

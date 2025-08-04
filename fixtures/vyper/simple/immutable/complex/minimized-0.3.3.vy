@@ -8,7 +8,7 @@
 #!       "inputs": [
 #!         {
 #!           "method": "#deployer",
-#!           "caller": "0x001b7E2aef2a4C55e985482edbDB08b7a7e9Ca89",
+#!           "caller": "0x496BEC6DEBCCc15d02e3a1C82eC745a06dbccc1f",
 #!           "calldata": [],
 #!           "expected": [
 #!             "Test.address"
@@ -20,7 +20,7 @@
 #!           "expected": [
 #!             "42"
 #!           ],
-#!           "caller": "0x001b7E2aef2a4C55e985482edbDB08b7a7e9Ca89"
+#!           "caller": "0xA86ed12aB8d49D4a4897499BA8CFA8088e71e96b"
 #!         },
 #!         {
 #!           "method": "y",
@@ -28,7 +28,7 @@
 #!           "expected": [
 #!             "43"
 #!           ],
-#!           "caller": "0x001b7E2aef2a4C55e985482edbDB08b7a7e9Ca89"
+#!           "caller": "0xA86ed12aB8d49D4a4897499BA8CFA8088e71e96b"
 #!         }
 #!       ],
 #!       "expected": [

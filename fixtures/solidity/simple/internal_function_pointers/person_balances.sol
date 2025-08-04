@@ -10,7 +10,7 @@
 //!         {
 //!           "method": "bitcoin",
 //!           "calldata": [],
-//!           "caller": "0xa4580C1eBb76e1c7Ae80725a80F032bD93dC3487"
+//!           "caller": "0xe5a2d459db6Ca74c302c9959e2D7A5b5004D8b25"
 //!         }
 //!       ],
 //!       "expected": [
@@ -23,7 +23,7 @@
 //!         {
 //!           "method": "ethereum",
 //!           "calldata": [],
-//!           "caller": "0x38dD5d19Bd03bf855C73c0a0a1bEb34bb8f6F878"
+//!           "caller": "0x28923004eB1C84832D0480FA8a2aee38e1d95047"
 //!         }
 //!       ],
 //!       "expected": [
@@ -36,7 +36,7 @@
 //!         {
 //!           "method": "litecoin",
 //!           "calldata": [],
-//!           "caller": "0x542947cE62186c70973dD5030a008E79655047A2"
+//!           "caller": "0xF3156F1074E51157B394AA13302C64AF058Aa6C2"
 //!         }
 //!       ],
 //!       "expected": [
@@ -49,7 +49,7 @@
 //!         {
 //!           "method": "zcash",
 //!           "calldata": [],
-//!           "caller": "0x09FbcB5bf2E60531E2beE3AD54817e6Cd4C455da"
+//!           "caller": "0xCA8d435Ce9f0094b194072dfa6a79eF8F511eE84"
 //!         }
 //!       ],
 //!       "expected": [

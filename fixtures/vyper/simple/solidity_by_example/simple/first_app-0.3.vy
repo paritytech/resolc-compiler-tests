@@ -9,7 +9,7 @@
 #!         {
 #!           "method": "count",
 #!           "calldata": [],
-#!           "caller": "0x02D2170E3c1031F5601d446F0cB44C3957245e9f"
+#!           "caller": "0xC8385816C9c148Ddef119e91C9c1F3d06ED7d442"
 #!         }
 #!       ],
 #!       "expected": [
@@ -22,12 +22,12 @@
 #!         {
 #!           "method": "inc",
 #!           "calldata": [],
-#!           "caller": "0x64AA32418db9BFe4EF21d03d101489aD56a2FcF0"
+#!           "caller": "0x52Fef3042dbB7d057e115fADD544eE7b15a76C86"
 #!         },
 #!         {
 #!           "method": "count",
 #!           "calldata": [],
-#!           "caller": "0x64AA32418db9BFe4EF21d03d101489aD56a2FcF0"
+#!           "caller": "0x52Fef3042dbB7d057e115fADD544eE7b15a76C86"
 #!         }
 #!       ],
 #!       "expected": [
@@ -40,22 +40,22 @@
 #!         {
 #!           "method": "inc",
 #!           "calldata": [],
-#!           "caller": "0xFcF215a354478C86fF5FbEAd9F585476589B2ED9"
+#!           "caller": "0xb01D62034b60bD5E7572c75f5289FAF5553a71e4"
 #!         },
 #!         {
 #!           "method": "inc",
 #!           "calldata": [],
-#!           "caller": "0xFcF215a354478C86fF5FbEAd9F585476589B2ED9"
+#!           "caller": "0xb01D62034b60bD5E7572c75f5289FAF5553a71e4"
 #!         },
 #!         {
 #!           "method": "dec",
 #!           "calldata": [],
-#!           "caller": "0xFcF215a354478C86fF5FbEAd9F585476589B2ED9"
+#!           "caller": "0xb01D62034b60bD5E7572c75f5289FAF5553a71e4"
 #!         },
 #!         {
 #!           "method": "count",
 #!           "calldata": [],
-#!           "caller": "0xFcF215a354478C86fF5FbEAd9F585476589B2ED9"
+#!           "caller": "0xb01D62034b60bD5E7572c75f5289FAF5553a71e4"
 #!         }
 #!       ],
 #!       "expected": [

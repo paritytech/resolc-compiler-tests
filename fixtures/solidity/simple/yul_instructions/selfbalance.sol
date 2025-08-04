@@ -7,7 +7,7 @@
 //!           "method": "main",
 //!           "calldata": [],
 //!           "value": "0 wei",
-//!           "caller": "0x712ADF204667cA9C06113Bdf9Abc39Db1B3CDF30"
+//!           "caller": "0xa64763Ec33e53801DE813801B7D40F9e2f4256C2"
 //!         }
 //!       ],
 //!       "expected": [
@@ -21,7 +21,7 @@
 //!           "method": "main",
 //!           "calldata": [],
 //!           "value": "1 wei",
-//!           "caller": "0x7d3b5789B5e478233b74487406F6E2Dc5A58D2C5"
+//!           "caller": "0xF0C6b7F5fC6CBc1A351e24FE8Fc4c76B775917B8"
 //!         }
 //!       ],
 //!       "expected": [
@@ -35,7 +35,7 @@
 //!           "method": "main",
 //!           "calldata": [],
 //!           "value": "433478394034343 wei",
-//!           "caller": "0xE3369131c2a3e00fDa6dddEDa7Ab00F20101f7d5"
+//!           "caller": "0x6cC348968f4609B9246C37104D35072bEE5E784d"
 //!         }
 //!       ],
 //!       "expected": [
@@ -49,7 +49,7 @@
 //!           "method": "main",
 //!           "calldata": [],
 //!           "value": "340282366920938463463374607431768211455 wei",
-//!           "caller": "0x8cB81104a2eE4C0F0C4CC3E7D9b329B2BCC27E65"
+//!           "caller": "0x084a0532d2e2983A5Ab7D98647984Fd6A0ae0403"
 //!         }
 //!       ],
 //!       "expected": [
@@ -66,13 +66,13 @@
 //!           "expected": [
 //!             "0xffffffffffffffffffffffffffffffff"
 //!           ],
-//!           "caller": "0xCc76FF669E9C64BE4958476D4ccc74B8b440A475"
+//!           "caller": "0x40Cc521351c72359FcBEc131aDEbed796B4A264E"
 //!         },
 //!         {
 //!           "method": "main",
 //!           "calldata": [],
 //!           "value": "1 wei",
-//!           "caller": "0xCc76FF669E9C64BE4958476D4ccc74B8b440A475"
+//!           "caller": "0x40Cc521351c72359FcBEc131aDEbed796B4A264E"
 //!         }
 //!       ],
 //!       "expected": [
@@ -89,13 +89,13 @@
 //!           "expected": [
 //!             "0xffffffffffffffffffffffffffffffff"
 //!           ],
-//!           "caller": "0xBff9Aa1DCDe453FACbfcC4854eA667beD8831FD9"
+//!           "caller": "0x554D75e7Fa1247626e4cbE5d9f6844E7374cB740"
 //!         },
 //!         {
 //!           "method": "main",
 //!           "calldata": [],
 //!           "value": "48384899813922913922990329232 wei",
-//!           "caller": "0xBff9Aa1DCDe453FACbfcC4854eA667beD8831FD9"
+//!           "caller": "0x554D75e7Fa1247626e4cbE5d9f6844E7374cB740"
 //!         }
 //!       ],
 //!       "expected": [

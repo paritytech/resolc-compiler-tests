@@ -9,7 +9,7 @@
 #!         {
 #!           "method": "oneWei",
 #!           "calldata": [],
-#!           "caller": "0x5C3DEaE203601cfC89c8413E2c074D339536d5b0"
+#!           "caller": "0x996cA8C8Df62353b831DE9F9d04F6B5971bFAece"
 #!         }
 #!       ],
 #!       "expected": [
@@ -22,7 +22,7 @@
 #!         {
 #!           "method": "isOneWei",
 #!           "calldata": [],
-#!           "caller": "0x2CcFe2b4db44134A51796020641341Ee84211584"
+#!           "caller": "0x89b3E4c05bdd0609e03501e41743c13f44AD738A"
 #!         }
 #!       ],
 #!       "expected": [
@@ -35,7 +35,7 @@
 #!         {
 #!           "method": "oneEther",
 #!           "calldata": [],
-#!           "caller": "0x438F7D532C678075399920b4198F40DC97f36341"
+#!           "caller": "0xADEB036536f50bad266f8F30856A38eeA0dc4436"
 #!         }
 #!       ],
 #!       "expected": [
@@ -48,7 +48,7 @@
 #!         {
 #!           "method": "isOneEther",
 #!           "calldata": [],
-#!           "caller": "0xaF67d036E8E56af28af0F4e9808059C811990b40"
+#!           "caller": "0xCF4fc9be03E9c8B40A670B9ce9e3133d5751075D"
 #!         }
 #!       ],
 #!       "expected": [

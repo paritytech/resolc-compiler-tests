@@ -4,18 +4,16 @@
 //!       "name": "main",
 //!       "inputs": [
 //!         {
-//!           "method": "setStorage",
-//!           "calldata": [
-//!             "0x0000000000000000000000000000000000000000000000000005000a000f0014"
-//!           ],
-//!           "caller": "0x165fFfac2CD52E87E2E5e8Eb5401ded9C76Ce3EE"
-//!         },
-//!         {
 //!           "method": "main",
 //!           "calldata": [
 //!             "42"
 //!           ],
-//!           "caller": "0x165fFfac2CD52E87E2E5e8Eb5401ded9C76Ce3EE"
+//!           "storage": {
+//!             "Test.address": [
+//!               "0x0005000a000f0014"
+//!             ]
+//!           },
+//!           "caller": "0x7D6a62cb01cc236F4f462197AaeA1361d3799769"
 //!         }
 //!       ],
 //!       "expected": [
@@ -27,12 +25,6 @@
 
 contract Test {
     uint16[4] data;
-
-    function setStorage(bytes32 newStorage) public {
-        assembly {
-            sstore(0, newStorage)
-        }
-    }
 
     function main(uint16 argument) public returns(uint16) {
         uint16 product = 1;

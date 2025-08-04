@@ -13,7 +13,7 @@
           "expected": [
             "*"
           ],
-          "caller": "0x6c3dF689bCBc8Fc2427C934e9cFB809E281c2D27"
+          "caller": "0xfF38B89e41808BD43Ab21cef02fd31b3eBc6078E"
         },
         {
           "instance": "B",
@@ -24,13 +24,13 @@
           "expected": {
             "return_data": []
           },
-          "caller": "0x6c3dF689bCBc8Fc2427C934e9cFB809E281c2D27"
+          "caller": "0xfF38B89e41808BD43Ab21cef02fd31b3eBc6078E"
         },
         {
           "instance": "B",
           "method": "test",
           "calldata": [],
-          "caller": "0x6c3dF689bCBc8Fc2427C934e9cFB809E281c2D27"
+          "caller": "0xfF38B89e41808BD43Ab21cef02fd31b3eBc6078E"
         }
       ],
       "expected": [

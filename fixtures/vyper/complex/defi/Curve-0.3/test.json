@@ -30,7 +30,7 @@
                 "topics": [
                   "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
                   "0x0000000000000000000000000000000000000000000000000000000000000000",
-                  "0x33f9DAfF2C2B28bB41c7D5519653717A963787b8"
+                  "0x767D5F5D802011d55E37441601b423eDb049A190"
                 ],
                 "values": [
                   "0"
@@ -38,7 +38,7 @@
               }
             ]
           },
-          "caller": "0x33f9DAfF2C2B28bB41c7D5519653717A963787b8"
+          "caller": "0x767D5F5D802011d55E37441601b423eDb049A190"
         },
         {
           "comment": "The USDC token constructor",
@@ -63,7 +63,7 @@
                 "topics": [
                   "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
                   "0x0000000000000000000000000000000000000000000000000000000000000000",
-                  "0x33f9DAfF2C2B28bB41c7D5519653717A963787b8"
+                  "0x767D5F5D802011d55E37441601b423eDb049A190"
                 ],
                 "values": [
                   "0"
@@ -71,7 +71,7 @@
               }
             ]
           },
-          "caller": "0x33f9DAfF2C2B28bB41c7D5519653717A963787b8"
+          "caller": "0x767D5F5D802011d55E37441601b423eDb049A190"
         },
         {
           "comment": "The USDT token constructor",
@@ -96,7 +96,7 @@
                 "topics": [
                   "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
                   "0x0000000000000000000000000000000000000000000000000000000000000000",
-                  "0x33f9DAfF2C2B28bB41c7D5519653717A963787b8"
+                  "0x767D5F5D802011d55E37441601b423eDb049A190"
                 ],
                 "values": [
                   "0"
@@ -104,14 +104,14 @@
               }
             ]
           },
-          "caller": "0x33f9DAfF2C2B28bB41c7D5519653717A963787b8"
+          "caller": "0x767D5F5D802011d55E37441601b423eDb049A190"
         },
         {
           "comment": "Minting the DAI token for test on address 0x0..042",
           "instance": "DAI",
           "method": "mint",
           "calldata": [
-            "0x34B7CC789f85528B8083fF53278ac22486134d03",
+            "0x9Cc357de85f16EfE85029d9793437504FC566DCB",
             "100000000000000000000000000000000000"
           ],
           "expected": {
@@ -121,7 +121,7 @@
                 "topics": [
                   "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
                   "0x0000000000000000000000000000000000000000000000000000000000000000",
-                  "0x34B7CC789f85528B8083fF53278ac22486134d03"
+                  "0x9Cc357de85f16EfE85029d9793437504FC566DCB"
                 ],
                 "values": [
                   "100000000000000000000000000000000000"
@@ -130,14 +130,14 @@
             ],
             "exception": false
           },
-          "caller": "0x33f9DAfF2C2B28bB41c7D5519653717A963787b8"
+          "caller": "0x767D5F5D802011d55E37441601b423eDb049A190"
         },
         {
           "comment": "Minting the USDC token for test on address 0x0..042",
           "instance": "USDC",
           "method": "mint",
           "calldata": [
-            "0x34B7CC789f85528B8083fF53278ac22486134d03",
+            "0x9Cc357de85f16EfE85029d9793437504FC566DCB",
             "100000000000000000000000"
           ],
           "expected": {
@@ -147,7 +147,7 @@
                 "topics": [
                   "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
                   "0x0000000000000000000000000000000000000000000000000000000000000000",
-                  "0x34B7CC789f85528B8083fF53278ac22486134d03"
+                  "0x9Cc357de85f16EfE85029d9793437504FC566DCB"
                 ],
                 "values": [
                   "100000000000000000000000"
@@ -156,14 +156,14 @@
             ],
             "exception": false
           },
-          "caller": "0x33f9DAfF2C2B28bB41c7D5519653717A963787b8"
+          "caller": "0x767D5F5D802011d55E37441601b423eDb049A190"
         },
         {
           "comment": "Minting the USDT token for test on address 0x0..042",
           "instance": "USDT",
           "method": "mint",
           "calldata": [
-            "0x34B7CC789f85528B8083fF53278ac22486134d03",
+            "0x9Cc357de85f16EfE85029d9793437504FC566DCB",
             "100000000000000000000000"
           ],
           "expected": {
@@ -173,7 +173,7 @@
                 "topics": [
                   "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
                   "0x0000000000000000000000000000000000000000000000000000000000000000",
-                  "0x34B7CC789f85528B8083fF53278ac22486134d03"
+                  "0x9Cc357de85f16EfE85029d9793437504FC566DCB"
                 ],
                 "values": [
                   "100000000000000000000000"
@@ -182,14 +182,14 @@
             ],
             "exception": false
           },
-          "caller": "0x33f9DAfF2C2B28bB41c7D5519653717A963787b8"
+          "caller": "0x767D5F5D802011d55E37441601b423eDb049A190"
         },
         {
           "comment": "Minting the USDT token for test on address 0x0..069",
           "instance": "USDT",
           "method": "mint",
           "calldata": [
-            "0x44e0fF3F96a540Ed5F7C527b6d378be4646B7eab",
+            "0xF81AA4384D983B3e28F69E29a234011339521B5F",
             "100000000000000000000000"
           ],
           "expected": {
@@ -199,7 +199,7 @@
                 "topics": [
                   "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
                   "0x0000000000000000000000000000000000000000000000000000000000000000",
-                  "0x44e0fF3F96a540Ed5F7C527b6d378be4646B7eab"
+                  "0xF81AA4384D983B3e28F69E29a234011339521B5F"
                 ],
                 "values": [
                   "100000000000000000000000"
@@ -208,7 +208,7 @@
             ],
             "exception": false
           },
-          "caller": "0x33f9DAfF2C2B28bB41c7D5519653717A963787b8"
+          "caller": "0x767D5F5D802011d55E37441601b423eDb049A190"
         },
         {
           "comment": "The Curve LP Token constructor",
@@ -218,7 +218,7 @@
             "0",
             "0"
           ],
-          "caller": "0x33f9DAfF2C2B28bB41c7D5519653717A963787b8",
+          "caller": "0x20db2336113768e095C920a9dD93788171752111",
           "expected": {
             "return_data": [
               "CurveToken.address"
@@ -241,7 +241,7 @@
           "comment": "The StableSwap3Pool constructor",
           "instance": "StableSwap3Pool",
           "method": "#deployer",
-          "caller": "0x33f9DAfF2C2B28bB41c7D5519653717A963787b8",
+          "caller": "0xF81AA4384D983B3e28F69E29a234011339521B5F",
           "calldata": [
             "0x0000000000000000000000000000000000000100",
             "DAI.address",
@@ -263,19 +263,19 @@
           "calldata": [
             "StableSwap3Pool.address"
           ],
-          "caller": "0x33f9DAfF2C2B28bB41c7D5519653717A963787b8"
+          "caller": "0x20db2336113768e095C920a9dD93788171752111"
         },
         {
           "comment": "The Curve Registry Address Provider constructor",
           "instance": "AddressProvider",
           "method": "#deployer",
           "calldata": [
-            "0x44e0fF3F96a540Ed5F7C527b6d378be4646B7eab"
+            "0xF81AA4384D983B3e28F69E29a234011339521B5F"
           ],
           "expected": [
             "AddressProvider.address"
           ],
-          "caller": "0x33f9DAfF2C2B28bB41c7D5519653717A963787b8"
+          "caller": "0x767D5F5D802011d55E37441601b423eDb049A190"
         },
         {
           "comment": "The Curve Registry constructor",
@@ -288,12 +288,12 @@
           "expected": [
             "Registry.address"
           ],
-          "caller": "0x33f9DAfF2C2B28bB41c7D5519653717A963787b8"
+          "caller": "0x767D5F5D802011d55E37441601b423eDb049A190"
         },
         {
           "comment": "Adding address of Curve Registry to address provider",
           "instance": "AddressProvider",
-          "caller": "0x33f9DAfF2C2B28bB41c7D5519653717A963787b8",
+          "caller": "0xF81AA4384D983B3e28F69E29a234011339521B5F",
           "method": "set_address",
           "calldata": [
             "0",
@@ -328,12 +328,12 @@
           "expected": [
             "PoolInfo.address"
           ],
-          "caller": "0x33f9DAfF2C2B28bB41c7D5519653717A963787b8"
+          "caller": "0x767D5F5D802011d55E37441601b423eDb049A190"
         },
         {
           "comment": "Adding address of Curve Registry PoolInfo to address provider",
           "instance": "AddressProvider",
-          "caller": "0x33f9DAfF2C2B28bB41c7D5519653717A963787b8",
+          "caller": "0xF81AA4384D983B3e28F69E29a234011339521B5F",
           "method": "add_new_id",
           "calldata": [
             "PoolInfo.address",
@@ -370,7 +370,7 @@
           "expected": [
             "CurveCalc.address"
           ],
-          "caller": "0x33f9DAfF2C2B28bB41c7D5519653717A963787b8"
+          "caller": "0x767D5F5D802011d55E37441601b423eDb049A190"
         },
         {
           "comment": "The Curve Registry Exchange constructor",
@@ -383,12 +383,12 @@
           "expected": [
             "Swaps.address"
           ],
-          "caller": "0x33f9DAfF2C2B28bB41c7D5519653717A963787b8"
+          "caller": "0x767D5F5D802011d55E37441601b423eDb049A190"
         },
         {
           "comment": "Adding address of Curve Registry Exchange to address provider",
           "instance": "AddressProvider",
-          "caller": "0x33f9DAfF2C2B28bB41c7D5519653717A963787b8",
+          "caller": "0xF81AA4384D983B3e28F69E29a234011339521B5F",
           "method": "add_new_id",
           "calldata": [
             "Swaps.address",
@@ -420,7 +420,7 @@
         {
           "comment": "Adding StableSwap3Pool to Curve Registry",
           "instance": "Registry",
-          "caller": "0x33f9DAfF2C2B28bB41c7D5519653717A963787b8",
+          "caller": "0xF81AA4384D983B3e28F69E29a234011339521B5F",
           "method": "add_pool_without_underlying",
           "calldata": [
             "StableSwap3Pool.address",
@@ -456,7 +456,7 @@
         {
           "comment": "Approving transfer DAI token for add liquidity to pool",
           "instance": "DAI",
-          "caller": "0x33f9DAfF2C2B28bB41c7D5519653717A963787b8",
+          "caller": "0x9Cc357de85f16EfE85029d9793437504FC566DCB",
           "method": "approve",
           "calldata": [
             "StableSwap3Pool.address",
@@ -470,7 +470,7 @@
               {
                 "topics": [
                   "0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925",
-                  "0x34B7CC789f85528B8083fF53278ac22486134d03",
+                  "0x9Cc357de85f16EfE85029d9793437504FC566DCB",
                   "StableSwap3Pool.address"
                 ],
                 "values": [
@@ -484,7 +484,7 @@
         {
           "comment": "Approving transfer USDC token for add liquidity to pool",
           "instance": "USDC",
-          "caller": "0x33f9DAfF2C2B28bB41c7D5519653717A963787b8",
+          "caller": "0x9Cc357de85f16EfE85029d9793437504FC566DCB",
           "method": "approve",
           "calldata": [
             "StableSwap3Pool.address",
@@ -498,7 +498,7 @@
               {
                 "topics": [
                   "0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925",
-                  "0x34B7CC789f85528B8083fF53278ac22486134d03",
+                  "0x9Cc357de85f16EfE85029d9793437504FC566DCB",
                   "StableSwap3Pool.address"
                 ],
                 "values": [
@@ -512,7 +512,7 @@
         {
           "comment": "Approving transfer USDT token for add liquidity to pool",
           "instance": "USDT",
-          "caller": "0x33f9DAfF2C2B28bB41c7D5519653717A963787b8",
+          "caller": "0x9Cc357de85f16EfE85029d9793437504FC566DCB",
           "method": "approve",
           "calldata": [
             "StableSwap3Pool.address",
@@ -526,7 +526,7 @@
               {
                 "topics": [
                   "0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925",
-                  "0x34B7CC789f85528B8083fF53278ac22486134d03",
+                  "0x9Cc357de85f16EfE85029d9793437504FC566DCB",
                   "StableSwap3Pool.address"
                 ],
                 "values": [
@@ -540,7 +540,7 @@
         {
           "comment": "Adding liquidity with proportion 100:1:10",
           "instance": "StableSwap3Pool",
-          "caller": "0x33f9DAfF2C2B28bB41c7D5519653717A963787b8",
+          "caller": "0x9Cc357de85f16EfE85029d9793437504FC566DCB",
           "method": "add_liquidity",
           "calldata": [
             "10000000000000000000000",
@@ -554,7 +554,7 @@
               {
                 "topics": [
                   "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
-                  "0x34B7CC789f85528B8083fF53278ac22486134d03",
+                  "0x9Cc357de85f16EfE85029d9793437504FC566DCB",
                   "StableSwap3Pool.address"
                 ],
                 "values": [
@@ -564,7 +564,7 @@
               {
                 "topics": [
                   "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
-                  "0x34B7CC789f85528B8083fF53278ac22486134d03",
+                  "0x9Cc357de85f16EfE85029d9793437504FC566DCB",
                   "StableSwap3Pool.address"
                 ],
                 "values": [
@@ -574,7 +574,7 @@
               {
                 "topics": [
                   "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
-                  "0x34B7CC789f85528B8083fF53278ac22486134d03",
+                  "0x9Cc357de85f16EfE85029d9793437504FC566DCB",
                   "StableSwap3Pool.address"
                 ],
                 "values": [
@@ -585,7 +585,7 @@
                 "topics": [
                   "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
                   "0x0000000000000000000000000000000000000000000000000000000000000000",
-                  "0x34B7CC789f85528B8083fF53278ac22486134d03"
+                  "0x9Cc357de85f16EfE85029d9793437504FC566DCB"
                 ],
                 "values": [
                   "9931850078022226732388"
@@ -594,7 +594,7 @@
               {
                 "topics": [
                   "0x423f6495a08fc652425cf4ed0d1f9e37e571d9b9529b1c1c23cce780b2e7df0d",
-                  "0x34B7CC789f85528B8083fF53278ac22486134d03"
+                  "0x9Cc357de85f16EfE85029d9793437504FC566DCB"
                 ],
                 "values": [
                   "10000000000000000000000",
@@ -615,9 +615,9 @@
           "comment": "Checking the balance of LP token after adding liquidity",
           "instance": "CurveToken",
           "method": "balanceOf",
-          "caller": "0x33f9DAfF2C2B28bB41c7D5519653717A963787b8",
+          "caller": "0x9Cc357de85f16EfE85029d9793437504FC566DCB",
           "calldata": [
-            "0x34B7CC789f85528B8083fF53278ac22486134d03"
+            "0x9Cc357de85f16EfE85029d9793437504FC566DCB"
           ],
           "expected": [
             "9931850078022226732388"
@@ -626,7 +626,7 @@
         {
           "comment": "Approving transfer DAI token for exchange",
           "instance": "DAI",
-          "caller": "0x33f9DAfF2C2B28bB41c7D5519653717A963787b8",
+          "caller": "0x9Cc357de85f16EfE85029d9793437504FC566DCB",
           "method": "approve",
           "calldata": [
             "Swaps.address",
@@ -640,7 +640,7 @@
               {
                 "topics": [
                   "0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925",
-                  "0x34B7CC789f85528B8083fF53278ac22486134d03",
+                  "0x9Cc357de85f16EfE85029d9793437504FC566DCB",
                   "Swaps.address"
                 ],
                 "values": [
@@ -656,18 +656,18 @@
           "instance": "USDC",
           "method": "balanceOf",
           "calldata": [
-            "0x34B7CC789f85528B8083fF53278ac22486134d03"
+            "0x9Cc357de85f16EfE85029d9793437504FC566DCB"
           ],
           "expected": [
             "99999999999999900000000"
           ],
-          "caller": "0x33f9DAfF2C2B28bB41c7D5519653717A963787b8"
+          "caller": "0x767D5F5D802011d55E37441601b423eDb049A190"
         },
         {
           "comment": "Exchanging DAI token for USDC token with the best rate",
           "instance": "Swaps",
           "method": "exchange_with_best_rate(address,address,uint256,uint256)",
-          "caller": "0x33f9DAfF2C2B28bB41c7D5519653717A963787b8",
+          "caller": "0x9Cc357de85f16EfE85029d9793437504FC566DCB",
           "calldata": [
             "DAI.address",
             "USDC.address",
@@ -682,7 +682,7 @@
               {
                 "topics": [
                   "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
-                  "0x34B7CC789f85528B8083fF53278ac22486134d03",
+                  "0x9Cc357de85f16EfE85029d9793437504FC566DCB",
                   "Swaps.address"
                 ],
                 "values": [
@@ -735,7 +735,7 @@
                 "topics": [
                   "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
                   "Swaps.address",
-                  "0x34B7CC789f85528B8083fF53278ac22486134d03"
+                  "0x9Cc357de85f16EfE85029d9793437504FC566DCB"
                 ],
                 "values": [
                   "854362"
@@ -744,8 +744,8 @@
               {
                 "topics": [
                   "0xbd3eb7bcfdd1721a4eb4f00d0df3ed91bd6f17222f82b2d7bce519d8cab3fe46",
-                  "0x34B7CC789f85528B8083fF53278ac22486134d03",
-                  "0x34B7CC789f85528B8083fF53278ac22486134d03",
+                  "0x9Cc357de85f16EfE85029d9793437504FC566DCB",
+                  "0x9Cc357de85f16EfE85029d9793437504FC566DCB",
                   "StableSwap3Pool.address"
                 ],
                 "values": [
@@ -764,12 +764,12 @@
           "instance": "USDC",
           "method": "balanceOf",
           "calldata": [
-            "0x34B7CC789f85528B8083fF53278ac22486134d03"
+            "0x9Cc357de85f16EfE85029d9793437504FC566DCB"
           ],
           "expected": [
             "99999999999999900854362"
           ],
-          "caller": "0x33f9DAfF2C2B28bB41c7D5519653717A963787b8"
+          "caller": "0x767D5F5D802011d55E37441601b423eDb049A190"
         },
         {
           "comment": "Checking the StableSwap3Pool coins",
@@ -812,7 +812,7 @@
             "0",
             "0"
           ],
-          "caller": "0x33f9DAfF2C2B28bB41c7D5519653717A963787b8"
+          "caller": "0x767D5F5D802011d55E37441601b423eDb049A190"
         },
         {
           "comment": "Checking the StableSwap3Pool information",
@@ -879,7 +879,7 @@
             "5",
             "0x33706f6f6c000000000000000000000000000000000000000000000000000000"
           ],
-          "caller": "0x33f9DAfF2C2B28bB41c7D5519653717A963787b8"
+          "caller": "0x767D5F5D802011d55E37441601b423eDb049A190"
         },
         {
           "comment": "Checking the address provider address from PoolInfo contract",
@@ -889,7 +889,7 @@
           "expected": [
             "AddressProvider.address"
           ],
-          "caller": "0x33f9DAfF2C2B28bB41c7D5519653717A963787b8"
+          "caller": "0x767D5F5D802011d55E37441601b423eDb049A190"
         }
       ],
       "expected": [

@@ -9,12 +9,12 @@
 #!         {
 #!           "method": "#deployer",
 #!           "calldata": [
-#!             "0x44189ebC6374013f52A812204cF37FC30502a27a"
+#!             "0x56f663cd134e9b9a6Fb6079Ed123B0ef92009450"
 #!           ],
 #!           "expected": [
 #!             "Test.address"
 #!           ],
-#!           "caller": "0x44189ebC6374013f52A812204cF37FC30502a27a"
+#!           "caller": "0x56f663cd134e9b9a6Fb6079Ed123B0ef92009450"
 #!         },
 #!         {
 #!           "method": "add_fees",
@@ -23,7 +23,7 @@
 #!           ],
 #!           "value": "1 wei",
 #!           "expected": [],
-#!           "caller": "0x44189ebC6374013f52A812204cF37FC30502a27a"
+#!           "caller": "0x56f663cd134e9b9a6Fb6079Ed123B0ef92009450"
 #!         },
 #!         {
 #!           "method": "add_fees",
@@ -32,7 +32,7 @@
 #!           ],
 #!           "value": "1 wei",
 #!           "expected": [],
-#!           "caller": "0x44189ebC6374013f52A812204cF37FC30502a27a"
+#!           "caller": "0x56f663cd134e9b9a6Fb6079Ed123B0ef92009450"
 #!         },
 #!         {
 #!           "method": "add_fees",
@@ -41,7 +41,7 @@
 #!           ],
 #!           "value": "1 wei",
 #!           "expected": [],
-#!           "caller": "0x44189ebC6374013f52A812204cF37FC30502a27a"
+#!           "caller": "0x56f663cd134e9b9a6Fb6079Ed123B0ef92009450"
 #!         },
 #!         {
 #!           "method": "add_fees",
@@ -50,11 +50,11 @@
 #!           ],
 #!           "value": "1 wei",
 #!           "expected": [],
-#!           "caller": "0x44189ebC6374013f52A812204cF37FC30502a27a"
+#!           "caller": "0x56f663cd134e9b9a6Fb6079Ed123B0ef92009450"
 #!         },
 #!         {
 #!           "method": "claim_fees",
-#!           "caller": "0x44189ebC6374013f52A812204cF37FC30502a27a",
+#!           "caller": "0x47134d7Fbb48692752B34790e273bbb4b3ba9BBF",
 #!           "calldata": [
 #!             "10"
 #!           ],
@@ -64,7 +64,7 @@
 #!         },
 #!         {
 #!           "method": "claim_fees",
-#!           "caller": "0x44189ebC6374013f52A812204cF37FC30502a27a",
+#!           "caller": "0x56f663cd134e9b9a6Fb6079Ed123B0ef92009450",
 #!           "calldata": [
 #!             "10"
 #!           ],

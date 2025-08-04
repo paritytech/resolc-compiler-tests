@@ -6,7 +6,7 @@
 //!         {
 //!           "method": "boo",
 //!           "calldata": [],
-//!           "caller": "0x78be56eD848634B40AAFcc4cD139e4Eb2C7E1D27"
+//!           "caller": "0xCBefAf134168187002aE9E1dA8f3dDB18dB46c72"
 //!         }
 //!       ],
 //!       "expected": [
@@ -19,7 +19,7 @@
 //!         {
 //!           "method": "u8",
 //!           "calldata": [],
-//!           "caller": "0x935Fe417924bc79b7FCaB6b569B291F801e6A08D"
+//!           "caller": "0x08f36724200260bf84285CE775Ea27B8230bc35b"
 //!         }
 //!       ],
 //!       "expected": [
@@ -32,7 +32,7 @@
 //!         {
 //!           "method": "u256",
 //!           "calldata": [],
-//!           "caller": "0x3cEf1A80886b8f1F443Bbaf41C17DcE77A31d1b2"
+//!           "caller": "0xB81341E57335e5b45954Be8b7FdEccd96721B4e0"
 //!         }
 //!       ],
 //!       "expected": [
@@ -45,7 +45,7 @@
 //!         {
 //!           "method": "u()",
 //!           "calldata": [],
-//!           "caller": "0x524e6c87251132Fc449ebD721b3a0AE4F620aef8"
+//!           "caller": "0x682793a31d0dcb8A62Ca34138639cFf79DA52d0B"
 //!         }
 //!       ],
 //!       "expected": [
@@ -58,7 +58,7 @@
 //!         {
 //!           "method": "i8",
 //!           "calldata": [],
-//!           "caller": "0xa2550A3d1806fD2ea471786d2fc60dBAA0Ea9C87"
+//!           "caller": "0xeD06Bbde5a719cd10bcf039F7F472b11eBd6e504"
 //!         }
 //!       ],
 //!       "expected": [
@@ -71,7 +71,7 @@
 //!         {
 //!           "method": "i256",
 //!           "calldata": [],
-//!           "caller": "0xB535c27f8bAFA4B3239dCb2b89C4e1541f1fb1F0"
+//!           "caller": "0xb33E72f8F8528E1f91e6E0179BE4669453C88295"
 //!         }
 //!       ],
 //!       "expected": [
@@ -84,7 +84,7 @@
 //!         {
 //!           "method": "i()",
 //!           "calldata": [],
-//!           "caller": "0x1F00CB66e68CF0b0ed4E3a44fD625eCA7fE0bAf2"
+//!           "caller": "0xCAbFe64A60034BFC29487526d4cC23f027dA081D"
 //!         }
 //!       ],
 //!       "expected": [
@@ -97,7 +97,7 @@
 //!         {
 //!           "method": "minInt",
 //!           "calldata": [],
-//!           "caller": "0x80C2AffDDc0eec938ba701407329826EF9c18fC2"
+//!           "caller": "0xa11079acbCbD40753AD0135B2a430a8c02c5346D"
 //!         }
 //!       ],
 //!       "expected": [
@@ -110,7 +110,7 @@
 //!         {
 //!           "method": "maxInt",
 //!           "calldata": [],
-//!           "caller": "0x3349D32a7F416Ec0559DF7EF2A8B16cf03f37F8d"
+//!           "caller": "0x0bf7ad3459dC5e7D7cB692683B29BA7230A03D83"
 //!         }
 //!       ],
 //!       "expected": [
@@ -123,7 +123,7 @@
 //!         {
 //!           "method": "addr",
 //!           "calldata": [],
-//!           "caller": "0x6c7495107ccC046649F29fF12402B6B08d946F97"
+//!           "caller": "0xbB047c14Fd90CA7a683224605ff0425b5ABa6808"
 //!         }
 //!       ],
 //!       "expected": [
@@ -136,7 +136,7 @@
 //!         {
 //!           "method": "defaultBoo",
 //!           "calldata": [],
-//!           "caller": "0x577a0A88eF38f674792682255e41aC3129d47430"
+//!           "caller": "0x12eB2cf9E3804DbbcEf4Cc984DD45cd5cCe946e0"
 //!         }
 //!       ],
 //!       "expected": [
@@ -149,7 +149,7 @@
 //!         {
 //!           "method": "defaultUint",
 //!           "calldata": [],
-//!           "caller": "0x75D7E8edD08aDd9BE4C72A062d5bb37D0439B36f"
+//!           "caller": "0x0328cd3917678d269E1e7eC19b2a284d67228200"
 //!         }
 //!       ],
 //!       "expected": [
@@ -162,7 +162,7 @@
 //!         {
 //!           "method": "defaultInt",
 //!           "calldata": [],
-//!           "caller": "0x6521Ec5cD803Aa70924f3cAbD39A527FeD9F1644"
+//!           "caller": "0xe49aFEFbF1E714786F08eD0587991f94183d722a"
 //!         }
 //!       ],
 //!       "expected": [
@@ -175,7 +175,7 @@
 //!         {
 //!           "method": "defaultAddr",
 //!           "calldata": [],
-//!           "caller": "0x0B5fc270349f6fD510a8619d0445AAc68186514B"
+//!           "caller": "0xA301B589E16bD86CaDDb5Cb07637Abe3EB9a8f90"
 //!         }
 //!       ],
 //!       "expected": [

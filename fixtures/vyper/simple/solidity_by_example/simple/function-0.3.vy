@@ -9,7 +9,7 @@
 #!         {
 #!           "method": "returnMany",
 #!           "calldata": [],
-#!           "caller": "0x95E844a0acd476Cc5e0181f0799304589b2B560B"
+#!           "caller": "0x00DB8C0A6C63362A109C895F5f0667d86D139c7A"
 #!         }
 #!       ],
 #!       "expected": [
@@ -24,7 +24,7 @@
 #!         {
 #!           "method": "destructingAssigments",
 #!           "calldata": [],
-#!           "caller": "0x9Fb574C865EFA0F5e6084bf0556739af6A7B9fF0"
+#!           "caller": "0xE2e908ABeF94a7C6747e2033C43E98Bf7415Fa1C"
 #!         }
 #!       ],
 #!       "expected": [
@@ -44,7 +44,7 @@
 #!             "1",
 #!             "2"
 #!           ],
-#!           "caller": "0xD467aaFc352957B53b206478e68A8413296A3ee9"
+#!           "caller": "0xd368D41Dda2cCb583Bf542BdB79E21788eA53414"
 #!         }
 #!       ],
 #!       "expected": []
@@ -55,7 +55,7 @@
 #!         {
 #!           "method": "arrayOutput",
 #!           "calldata": [],
-#!           "caller": "0x32566af6BfBca7A43D0eB6eE8e243C2a39BFdd3b"
+#!           "caller": "0x00050B32785996f4467594c030d1EC4b839E0D3C"
 #!         }
 #!       ],
 #!       "expected": [

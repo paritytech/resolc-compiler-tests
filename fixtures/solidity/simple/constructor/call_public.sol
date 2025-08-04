@@ -12,12 +12,12 @@
 //!           "expected": [
 //!             "Test.address"
 //!           ],
-//!           "caller": "0x8a398504e8d84B6D8325AbDeD7BC9ba3b2C36E48"
+//!           "caller": "0x24B48e339653B8CB89a82641c46FC6B6A64F206C"
 //!         },
 //!         {
 //!           "method": "get",
 //!           "calldata": [],
-//!           "caller": "0x8a398504e8d84B6D8325AbDeD7BC9ba3b2C36E48"
+//!           "caller": "0x24B48e339653B8CB89a82641c46FC6B6A64F206C"
 //!         }
 //!       ],
 //!       "expected": [

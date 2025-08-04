@@ -4,20 +4,17 @@
 //!       "name": "main",
 //!       "inputs": [
 //!         {
-//!           "method": "#deployer",
-//!           "instance": "Test",
-//!           "calldata": [
-//!             "5",
-//!             "7"
-//!           ],
-//!           "caller": "0xE60c7Ff5BAA94fDa0E16ABb32e0cbB1CF7697022"
-//!         },
-//!         {
 //!           "method": "main",
 //!           "calldata": [
 //!             "42"
 //!           ],
-//!           "caller": "0xE60c7Ff5BAA94fDa0E16ABb32e0cbB1CF7697022"
+//!           "storage": {
+//!             "Test.address": [
+//!               "5",
+//!               "7"
+//!             ]
+//!           },
+//!           "caller": "0xA6f5395cA62aa98E9918bfE7D31BeD5DAF2BD2F9"
 //!         }
 //!       ],
 //!       "expected": [
@@ -43,11 +40,6 @@ contract Test {
 
     uint256 a;
     uint256 b;
-
-    constructor(uint256 _a, uint256 _b) {
-        a = _a;
-        b = _b;
-    }
 
     function main(uint248 value) public returns(uint248) {
         Data memory data = Data(10, 20);

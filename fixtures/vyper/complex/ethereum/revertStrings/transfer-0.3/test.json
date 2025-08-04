@@ -15,7 +15,7 @@
           "expected": [
             "C.address"
           ],
-          "caller": "0x8CCb5ACBfA5892f0365aCb140b29Ff7B060E915C"
+          "caller": "0xB6764b2bBe17551D6C746555AB068a8d33148390"
         },
         {
           "instance": "C",
@@ -23,7 +23,7 @@
           "calldata": [],
           "value": "10 wei",
           "expected": [],
-          "caller": "0x8CCb5ACBfA5892f0365aCb140b29Ff7B060E915C"
+          "caller": "0xB6764b2bBe17551D6C746555AB068a8d33148390"
         },
         {
           "instance": "C",
@@ -32,7 +32,7 @@
           "expected": [
             "10"
           ],
-          "caller": "0x8CCb5ACBfA5892f0365aCb140b29Ff7B060E915C"
+          "caller": "0xB6764b2bBe17551D6C746555AB068a8d33148390"
         },
         {
           "instance": "C",
@@ -42,13 +42,13 @@
             "exception": true,
             "return_data": []
           },
-          "caller": "0x8CCb5ACBfA5892f0365aCb140b29Ff7B060E915C"
+          "caller": "0xB6764b2bBe17551D6C746555AB068a8d33148390"
         },
         {
           "instance": "C",
           "method": "h",
           "calldata": [],
-          "caller": "0x8CCb5ACBfA5892f0365aCb140b29Ff7B060E915C"
+          "caller": "0xB6764b2bBe17551D6C746555AB068a8d33148390"
         }
       ],
       "expected": {

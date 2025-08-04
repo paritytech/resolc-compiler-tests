@@ -15,7 +15,7 @@
           "expected": [
             "C.address"
           ],
-          "caller": "0x044479d8FEdEB81fFFDDb897ac7e4830b3aC2026"
+          "caller": "0xEDAc35aFc153894A12CF44A5f84D4dAFb954687c"
         },
         {
           "instance": "C",
@@ -24,7 +24,7 @@
             "0x1234"
           ],
           "value": "18 wei",
-          "caller": "0x044479d8FEdEB81fFFDDb897ac7e4830b3aC2026"
+          "caller": "0xEDAc35aFc153894A12CF44A5f84D4dAFb954687c"
         }
       ],
       "expected": {

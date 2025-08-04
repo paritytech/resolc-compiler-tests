@@ -15,13 +15,13 @@
           "expected": [
             "Foo.address"
           ],
-          "caller": "0x6F9822A12af8D0159c778dE307Fb9258f5D95688"
+          "caller": "0x99Da6a9eFBa04D7e28D16e93948AB77f628dC401"
         },
         {
           "instance": "Foo",
           "method": "callBar",
           "calldata": [],
-          "caller": "0x6F9822A12af8D0159c778dE307Fb9258f5D95688"
+          "caller": "0x99Da6a9eFBa04D7e28D16e93948AB77f628dC401"
         }
       ],
       "expected": {

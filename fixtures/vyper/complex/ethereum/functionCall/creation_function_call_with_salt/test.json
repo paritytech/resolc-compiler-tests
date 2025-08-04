@@ -16,13 +16,13 @@
           "expected": [
             "D.address"
           ],
-          "caller": "0x6282b5eB23Fcd5f5C200d5fb6B99CA0655C70525"
+          "caller": "0x2ab2f6491c243aEb5e28243b582b97AF959fbe75"
         },
         {
           "instance": "D",
           "method": "f",
           "calldata": [],
-          "caller": "0x6282b5eB23Fcd5f5C200d5fb6B99CA0655C70525"
+          "caller": "0x2ab2f6491c243aEb5e28243b582b97AF959fbe75"
         }
       ],
       "expected": [

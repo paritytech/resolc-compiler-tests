@@ -6,7 +6,7 @@
 //!         {
 //!           "method": "returnMany",
 //!           "calldata": [],
-//!           "caller": "0xdEdD5523C5C4dc0e102C9ffeD751DD0383BE31a0"
+//!           "caller": "0x6B9450b9ac0901efcb7c07a163508650699924C5"
 //!         }
 //!       ],
 //!       "expected": [
@@ -21,7 +21,7 @@
 //!         {
 //!           "method": "named",
 //!           "calldata": [],
-//!           "caller": "0x5E6A7d2AD7d32540847ba89cF45874bdc569879f"
+//!           "caller": "0x6fa4622052493BB371BBFB255EB50Ff7656DEd77"
 //!         }
 //!       ],
 //!       "expected": [
@@ -36,7 +36,7 @@
 //!         {
 //!           "method": "assigned",
 //!           "calldata": [],
-//!           "caller": "0xf7901C3272668D114527229ea5136F251795d008"
+//!           "caller": "0x30dE53b0b0fbb82a3A3EA487c3238Af2Fd32fC4F"
 //!         }
 //!       ],
 //!       "expected": [
@@ -51,7 +51,7 @@
 //!         {
 //!           "method": "destructingAssigments",
 //!           "calldata": [],
-//!           "caller": "0xCb57EE379bbca473090C011b59cb967f2D48Cf7C"
+//!           "caller": "0xA7A77364735f396001bd9775ffdbE8DC824fF070"
 //!         }
 //!       ],
 //!       "expected": [
@@ -71,7 +71,7 @@
 //!             "0x20",
 //!             "0"
 //!           ],
-//!           "caller": "0xfdCb2223510b008C2dC95012fbad0E0d20ca6Cf0"
+//!           "caller": "0xD2c7eCD0644e6f146157448c31eDFbDA6899DB2C"
 //!         }
 //!       ],
 //!       "expected": []
@@ -82,7 +82,7 @@
 //!         {
 //!           "method": "arrayOutput",
 //!           "calldata": [],
-//!           "caller": "0x75e018793110cCB59e82bB60327C0c433D00739a"
+//!           "caller": "0x8c19fCa6c962cB1180D3B9AF2591A2B0cEC1c1Be"
 //!         }
 //!       ],
 //!       "expected": [

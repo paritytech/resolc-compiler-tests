@@ -4,18 +4,16 @@
 //!       "name": "main",
 //!       "inputs": [
 //!         {
-//!           "method": "setStorage",
-//!           "calldata": [
-//!             "0x0000000000000000000000000000000000000000000000000000000000020503"
-//!           ],
-//!           "caller": "0x63c25dD141C003ce80C7289a517C15F70A7b57e0"
-//!         },
-//!         {
 //!           "method": "main",
 //!           "calldata": [
 //!             "12"
 //!           ],
-//!           "caller": "0x63c25dD141C003ce80C7289a517C15F70A7b57e0"
+//!           "storage": {
+//!             "Test.address": [
+//!               "0x020503"
+//!             ]
+//!           },
+//!           "caller": "0x9B55979d515ef0DC39fcf38351390F094BA173e7"
 //!         }
 //!       ],
 //!       "expected": [
@@ -33,12 +31,6 @@ contract Test {
     uint8 field_1;
     uint8 field_2;
     uint8 field_3;
-
-    function setStorage(bytes32 newStorage) public {
-        assembly {
-            sstore(0, newStorage)
-        }
-    }
 
     function main(uint8 witness) public returns(uint8) {
         return witness + field_1 * field_2 * field_3;

@@ -15,7 +15,7 @@
           "expected": [
             "1"
           ],
-          "caller": "0xaDC937C09b280c0b12073916732888c47CBA1B27"
+          "caller": "0xB6851450FB897fa860E28895Be621951DeD8503D"
         },
         {
           "instance": "A",
@@ -23,7 +23,7 @@
           "calldata": [
             "B.address"
           ],
-          "caller": "0xaDC937C09b280c0b12073916732888c47CBA1B27"
+          "caller": "0xB6851450FB897fa860E28895Be621951DeD8503D"
         }
       ],
       "expected": {

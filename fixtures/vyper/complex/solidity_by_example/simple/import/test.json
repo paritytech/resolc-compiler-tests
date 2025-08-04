@@ -12,7 +12,7 @@
           "calldata": [
             "Foo.address"
           ],
-          "caller": "0x231D6c6Ebbc9a785d1166381e59FD04E5DDB6d6c"
+          "caller": "0x4b8eedfe7F12fB392587875E96FFe9A1ee11BFF9"
         }
       ],
       "expected": [

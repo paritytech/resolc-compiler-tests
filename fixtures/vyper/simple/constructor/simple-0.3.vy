@@ -16,12 +16,12 @@
 #!           "expected": [
 #!             "Test.address"
 #!           ],
-#!           "caller": "0x4874ca2fE80e3418F63bBc8b6D9B9FAF33F19D7D"
+#!           "caller": "0xa941115c8ce5C731cf594032a224ACfdCfcd3531"
 #!         },
 #!         {
 #!           "method": "get",
 #!           "calldata": [],
-#!           "caller": "0x4874ca2fE80e3418F63bBc8b6D9B9FAF33F19D7D"
+#!           "caller": "0xa941115c8ce5C731cf594032a224ACfdCfcd3531"
 #!         }
 #!       ],
 #!       "expected": [
@@ -38,7 +38,7 @@
 #!             "6",
 #!             "1"
 #!           ],
-#!           "caller": "0x1bC05253d10156FA125E2611bf3fbE5c1a82C152"
+#!           "caller": "0xdE5161B26404540468E8fCB48f7a70868D65278B"
 #!         }
 #!       ],
 #!       "expected": {

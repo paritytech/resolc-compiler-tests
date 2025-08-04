@@ -19,7 +19,7 @@
           "expected": [
             "0x956868bbfa2f61ecbf47027a92ee2b19636b1ac4cbc12f5b17e2fa3e378d4797"
           ],
-          "caller": "0x76bfD87337A57fa2464Fe5F226f543d217aEC3f4"
+          "caller": "0xa1c8973868669356B31E5204d137a3EBE8fa5328"
         },
         {
           "instance": "HashFunction",
@@ -35,7 +35,7 @@
           "expected": [
             "0x4e03657aea45a94fc7d47ba826c8d667c0d1e6e33a64a036ec44f58fa12d6c45"
           ],
-          "caller": "0x76bfD87337A57fa2464Fe5F226f543d217aEC3f4"
+          "caller": "0xa1c8973868669356B31E5204d137a3EBE8fa5328"
         },
         {
           "instance": "HashFunction",
@@ -48,7 +48,7 @@
             "1",
             "0x6300000000000000000000000000000000000000000000000000000000000000"
           ],
-          "caller": "0x76bfD87337A57fa2464Fe5F226f543d217aEC3f4"
+          "caller": "0xa1c8973868669356B31E5204d137a3EBE8fa5328"
         }
       ],
       "expected": [
@@ -69,7 +69,7 @@
           "expected": [
             "0"
           ],
-          "caller": "0x8E9a10040025D6Ba412c10Af85b62A84A785a648"
+          "caller": "0x8Bc5ABf4fe0Fb7284c1c58Dc052ddc8a596B0ef4"
         },
         {
           "instance": "GuessTheMagicWord",
@@ -79,7 +79,7 @@
             "8",
             "0x536f6c6964697479000000000000000000000000000000000000000000000000"
           ],
-          "caller": "0x8E9a10040025D6Ba412c10Af85b62A84A785a648"
+          "caller": "0x8Bc5ABf4fe0Fb7284c1c58Dc052ddc8a596B0ef4"
         }
       ],
       "expected": [

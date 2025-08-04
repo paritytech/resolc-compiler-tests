@@ -10,7 +10,7 @@
           "instance": "Main",
           "method": "testInternalFunc",
           "calldata": [],
-          "caller": "0x76C5DCB4D86b441478dff973a881FA59eB1B2435"
+          "caller": "0x87DFE683B2ff98E9F044DCD1691eb4F9547029a9"
         }
       ],
       "expected": [
@@ -26,7 +26,7 @@
           "instance": "Main",
           "method": "externalFunc",
           "calldata": [],
-          "caller": "0xe2277aAdf0983585ea69F3a08F97e12Ff3C80cFe"
+          "caller": "0xf0E44603e196B7f4eAF813F412838625bAA29C2b"
         }
       ],
       "expected": [
@@ -42,7 +42,7 @@
           "instance": "Main",
           "method": "publicVar",
           "calldata": [],
-          "caller": "0xE26C50EB50C668640e2b8230Fe67946186C63721"
+          "caller": "0x799d42d349040E5Dd4fD60EB51EaE15dD3C904E5"
         }
       ],
       "expected": [

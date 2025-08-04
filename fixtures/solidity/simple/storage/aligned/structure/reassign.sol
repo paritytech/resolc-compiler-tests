@@ -4,21 +4,18 @@
 //!       "name": "main",
 //!       "inputs": [
 //!         {
-//!           "method": "#deployer",
-//!           "instance": "Test",
-//!           "calldata": [
-//!             "99",
-//!             "100",
-//!             "101"
-//!           ],
-//!           "caller": "0x2a1b307697c62a27943f5a1a936071Dca7dD4918"
-//!         },
-//!         {
 //!           "method": "main",
 //!           "calldata": [
 //!             "42"
 //!           ],
-//!           "caller": "0x2a1b307697c62a27943f5a1a936071Dca7dD4918"
+//!           "storage": {
+//!             "Test.address": [
+//!               "99",
+//!               "100",
+//!               "101"
+//!             ]
+//!           },
+//!           "caller": "0xB7767494eA5691956b11906D8b689E6612Ec45e3"
 //!         }
 //!       ],
 //!       "expected": [
@@ -38,12 +35,6 @@ contract Test {
     }
 
     Data data;
-
-    constructor(uint256 value, uint256 next, uint256 last) {
-        data.value = value;
-        data.next = next;
-        data.last = last;
-    }
 
     function main(uint8 argument) public returns(uint8) {
         data.next += uint256(argument);

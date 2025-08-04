@@ -9,7 +9,7 @@
 #!         {
 #!           "method": "oneWei",
 #!           "calldata": [],
-#!           "caller": "0x6568fA9DC5539CFCe197c922E3D72c093F0c0a71"
+#!           "caller": "0x9B1137b1e57AaE2897E042f7f6fEFE1D609C451A"
 #!         }
 #!       ],
 #!       "expected": [
@@ -22,7 +22,7 @@
 #!         {
 #!           "method": "isOneWei",
 #!           "calldata": [],
-#!           "caller": "0x632188ED721E775210c741539160CEC87E23663b"
+#!           "caller": "0x95f34E4B44A515A15a612157DF20AFa1F1C121E3"
 #!         }
 #!       ],
 #!       "expected": [
@@ -35,7 +35,7 @@
 #!         {
 #!           "method": "oneEther",
 #!           "calldata": [],
-#!           "caller": "0x5671B0fA8A95262797aB367A70f5Abc853dFC4D6"
+#!           "caller": "0x5ad5Ff41c3794F79072D929BB59cc1944751665b"
 #!         }
 #!       ],
 #!       "expected": [
@@ -48,7 +48,7 @@
 #!         {
 #!           "method": "isOneEther",
 #!           "calldata": [],
-#!           "caller": "0x7A8Ba8133916d43Ebd8a28E4d43bfe9C32D2633B"
+#!           "caller": "0x2e2F41Bf491eA1f57C69CC5df764cf52Bf8F8E90"
 #!         }
 #!       ],
 #!       "expected": [

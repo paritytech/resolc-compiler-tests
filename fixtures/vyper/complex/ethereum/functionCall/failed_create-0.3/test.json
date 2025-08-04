@@ -14,7 +14,7 @@
           "expected": [
             "C.address"
           ],
-          "caller": "0x4EDD8046D3bA8E4638CbD1dE6f244d303bBC4e9d"
+          "caller": "0xEf276874d4c68182eEB51fE018A2Fda24e9B796D"
         },
         {
           "instance": "C",
@@ -26,7 +26,7 @@
           "expected": [
             "*"
           ],
-          "caller": "0x4EDD8046D3bA8E4638CbD1dE6f244d303bBC4e9d"
+          "caller": "0xEf276874d4c68182eEB51fE018A2Fda24e9B796D"
         },
         {
           "instance": "C",
@@ -35,7 +35,7 @@
           "expected": [
             "1"
           ],
-          "caller": "0x4EDD8046D3bA8E4638CbD1dE6f244d303bBC4e9d"
+          "caller": "0xEf276874d4c68182eEB51fE018A2Fda24e9B796D"
         },
         {
           "instance": "C",
@@ -48,7 +48,7 @@
             "exception": true,
             "return_data": []
           },
-          "caller": "0x4EDD8046D3bA8E4638CbD1dE6f244d303bBC4e9d"
+          "caller": "0xEf276874d4c68182eEB51fE018A2Fda24e9B796D"
         },
         {
           "instance": "C",
@@ -57,7 +57,7 @@
           "expected": [
             "1"
           ],
-          "caller": "0x4EDD8046D3bA8E4638CbD1dE6f244d303bBC4e9d"
+          "caller": "0xEf276874d4c68182eEB51fE018A2Fda24e9B796D"
         },
         {
           "instance": "C",
@@ -70,7 +70,7 @@
             "exception": true,
             "return_data": []
           },
-          "caller": "0x4EDD8046D3bA8E4638CbD1dE6f244d303bBC4e9d"
+          "caller": "0xEf276874d4c68182eEB51fE018A2Fda24e9B796D"
         },
         {
           "instance": "C",
@@ -79,7 +79,7 @@
           "expected": [
             "1"
           ],
-          "caller": "0x4EDD8046D3bA8E4638CbD1dE6f244d303bBC4e9d"
+          "caller": "0xEf276874d4c68182eEB51fE018A2Fda24e9B796D"
         },
         {
           "instance": "C",
@@ -91,13 +91,13 @@
           "expected": [
             "*"
           ],
-          "caller": "0x4EDD8046D3bA8E4638CbD1dE6f244d303bBC4e9d"
+          "caller": "0xEf276874d4c68182eEB51fE018A2Fda24e9B796D"
         },
         {
           "instance": "C",
           "method": "x",
           "calldata": [],
-          "caller": "0x4EDD8046D3bA8E4638CbD1dE6f244d303bBC4e9d"
+          "caller": "0xEf276874d4c68182eEB51fE018A2Fda24e9B796D"
         }
       ],
       "expected": [

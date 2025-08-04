@@ -9,7 +9,7 @@
 #!       "inputs": [
 #!         {
 #!           "method": "#deployer",
-#!           "caller": "0xFA93bcFAe88dE66db7c67ff58D2b9f7a98429C82",
+#!           "caller": "0xaE439aDD2d0671d04b712e1Ca78D4441Cd75b04E",
 #!           "calldata": [],
 #!           "expected": [
 #!             "Test.address"
@@ -21,7 +21,7 @@
 #!           "expected": [
 #!             "0x19ed957342c0dd93f726a54a983583a4ccd3ae9b41e0f15c834de372bc5955b6"
 #!           ],
-#!           "caller": "0xFA93bcFAe88dE66db7c67ff58D2b9f7a98429C82"
+#!           "caller": "0x19206D39C4b35DCB25e1a37a7aa2c118A12fc6fD"
 #!         },
 #!         {
 #!           "method": "DOMAIN_SEPARATOR_0A",
@@ -29,7 +29,7 @@
 #!           "expected": [
 #!             "0x19ed957342c0dd93f726a54a983583a4ccd3ae9b41e0f15c834de372bc5955b6"
 #!           ],
-#!           "caller": "0xFA93bcFAe88dE66db7c67ff58D2b9f7a98429C82"
+#!           "caller": "0x19206D39C4b35DCB25e1a37a7aa2c118A12fc6fD"
 #!         }
 #!       ],
 #!       "expected": [

@@ -17,12 +17,12 @@
 #!           "expected": [
 #!             "Test.address"
 #!           ],
-#!           "caller": "0x156038b073153e6a474ca50954a0445379793dFc"
+#!           "caller": "0x3A8C65aB9a8719c611e6d643BE1906dd1115F88d"
 #!         },
 #!         {
 #!           "method": "main",
 #!           "calldata": [],
-#!           "caller": "0x156038b073153e6a474ca50954a0445379793dFc"
+#!           "caller": "0x3A8C65aB9a8719c611e6d643BE1906dd1115F88d"
 #!         }
 #!       ],
 #!       "expected": [

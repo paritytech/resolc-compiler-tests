@@ -8,7 +8,7 @@
 #!       "inputs": [
 #!         {
 #!           "method": "#deployer",
-#!           "caller": "0x89f39916B1Fc498737dEF16a0b134D0DA7fB1Dfe",
+#!           "caller": "0x39e03ace08Ed60039352A0efB6368cDa503ed722",
 #!           "calldata": [
 #!             "25",
 #!             "42"
@@ -23,7 +23,7 @@
 #!           "expected": [
 #!             "25"
 #!           ],
-#!           "caller": "0x89f39916B1Fc498737dEF16a0b134D0DA7fB1Dfe"
+#!           "caller": "0xc7863Ed8d92a155200C38E3eD41382620D1B99C4"
 #!         },
 #!         {
 #!           "method": "b",
@@ -31,7 +31,7 @@
 #!           "expected": [
 #!             "0x99"
 #!           ],
-#!           "caller": "0x89f39916B1Fc498737dEF16a0b134D0DA7fB1Dfe"
+#!           "caller": "0xc7863Ed8d92a155200C38E3eD41382620D1B99C4"
 #!         },
 #!         {
 #!           "method": "c",
@@ -39,7 +39,7 @@
 #!           "expected": [
 #!             "42"
 #!           ],
-#!           "caller": "0x89f39916B1Fc498737dEF16a0b134D0DA7fB1Dfe"
+#!           "caller": "0xc7863Ed8d92a155200C38E3eD41382620D1B99C4"
 #!         }
 #!       ],
 #!       "expected": [

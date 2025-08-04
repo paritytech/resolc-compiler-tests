@@ -15,13 +15,13 @@
           "expected": [
             "C.address"
           ],
-          "caller": "0x69a5551E2240aCAD0CFEeBc6fB81D8E1DC50bEB0"
+          "caller": "0x4E4C716f846D8D5D9C6f310802c24d2B60701A41"
         },
         {
           "instance": "C",
           "method": "f",
           "calldata": [],
-          "caller": "0x69a5551E2240aCAD0CFEeBc6fB81D8E1DC50bEB0"
+          "caller": "0x4E4C716f846D8D5D9C6f310802c24d2B60701A41"
         }
       ],
       "expected": {

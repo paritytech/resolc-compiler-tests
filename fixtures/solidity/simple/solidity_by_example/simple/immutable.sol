@@ -11,16 +11,16 @@
 //!           "expected": [
 //!             "Test.address"
 //!           ],
-//!           "caller": "0x0BEf7C693Fd9e2493Cd8F29d07Db8DbeA3e21259"
+//!           "caller": "0x74BA42E466E394F51D50F27B70f3379b19242fbe"
 //!         },
 //!         {
 //!           "method": "MY_ADDRESS",
 //!           "calldata": [],
-//!           "caller": "0x0BEf7C693Fd9e2493Cd8F29d07Db8DbeA3e21259"
+//!           "caller": "0x74BA42E466E394F51D50F27B70f3379b19242fbe"
 //!         }
 //!       ],
 //!       "expected": [
-//!         "0x0BEf7C693Fd9e2493Cd8F29d07Db8DbeA3e21259"
+//!         "0x74BA42E466E394F51D50F27B70f3379b19242fbe"
 //!       ]
 //!     },
 //!     {
@@ -34,12 +34,12 @@
 //!           "expected": [
 //!             "Test.address"
 //!           ],
-//!           "caller": "0xD458aee344F24fCbf0aA1B7938AA2ee448330238"
+//!           "caller": "0x38cDADB2B8be7d80a3AD3Cd7319004Af1BB2aCB7"
 //!         },
 //!         {
 //!           "method": "MY_UINT",
 //!           "calldata": [],
-//!           "caller": "0xD458aee344F24fCbf0aA1B7938AA2ee448330238"
+//!           "caller": "0x38cDADB2B8be7d80a3AD3Cd7319004Af1BB2aCB7"
 //!         }
 //!       ],
 //!       "expected": [

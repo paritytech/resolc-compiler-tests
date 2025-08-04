@@ -16,7 +16,7 @@
           "expected": [
             "ClientReceipt.address"
           ],
-          "caller": "0xdE25f10c3b83c6FDeA973dE729f058d595195e08"
+          "caller": "0x5FdEf609A25405B4cC1d3fab4C9a1039Aae08119"
         },
         {
           "instance": "ClientReceipt",
@@ -25,7 +25,7 @@
           "expected": [
             "1500"
           ],
-          "caller": "0xdE25f10c3b83c6FDeA973dE729f058d595195e08"
+          "caller": "0x5FdEf609A25405B4cC1d3fab4C9a1039Aae08119"
         },
         {
           "instance": "ClientReceipt",
@@ -34,13 +34,13 @@
           "expected": [
             "*"
           ],
-          "caller": "0xdE25f10c3b83c6FDeA973dE729f058d595195e08"
+          "caller": "0x5FdEf609A25405B4cC1d3fab4C9a1039Aae08119"
         },
         {
           "instance": "ClientReceipt",
           "method": "balance_other",
           "calldata": [],
-          "caller": "0xdE25f10c3b83c6FDeA973dE729f058d595195e08"
+          "caller": "0x5FdEf609A25405B4cC1d3fab4C9a1039Aae08119"
         }
       ],
       "expected": [

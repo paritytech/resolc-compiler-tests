@@ -6,7 +6,7 @@
 //!         {
 //!           "method": "oneWei",
 //!           "calldata": [],
-//!           "caller": "0x680db57d73F9cF6b6244EFD5c57ADd31c5981d1c"
+//!           "caller": "0x3561879948e34Be40AC3cAA8899BF3f52D40C45A"
 //!         }
 //!       ],
 //!       "expected": [
@@ -19,7 +19,7 @@
 //!         {
 //!           "method": "isOneWei",
 //!           "calldata": [],
-//!           "caller": "0x120914bdF39A940d770d04D9AD8e33771cf11e37"
+//!           "caller": "0x4B3fd83e4E879964Fb6F63eD37DC76549f1aA582"
 //!         }
 //!       ],
 //!       "expected": [
@@ -32,7 +32,7 @@
 //!         {
 //!           "method": "oneEther",
 //!           "calldata": [],
-//!           "caller": "0xb6ae911D3bC66f9EF3f583b21222A35C7a8F7251"
+//!           "caller": "0xf4Fa591dc5E06728ce9E919f67fd15Ca1Bf9A421"
 //!         }
 //!       ],
 //!       "expected": [
@@ -45,7 +45,7 @@
 //!         {
 //!           "method": "isOneEther",
 //!           "calldata": [],
-//!           "caller": "0xE40b20a4a6A84DC0952c0b4e1d6c8A0B593deCE7"
+//!           "caller": "0xf70f1539F4d2F2ac793ed206aaff47fc37353162"
 //!         }
 //!       ],
 //!       "expected": [

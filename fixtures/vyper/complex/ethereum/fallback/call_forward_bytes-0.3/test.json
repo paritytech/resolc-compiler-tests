@@ -16,14 +16,14 @@
           "expected": [
             "sender.address"
           ],
-          "caller": "0xcBf6caEF42E0f856cBA10EDC43CE7567220BB2B5"
+          "caller": "0x24D0FfC13D756389372Fda2A9e96E752103e9801"
         },
         {
           "instance": "sender",
           "method": "#fallback",
           "calldata": "0x93bf938e0000000000000000000000000000000000000000000000000000000000000007",
           "expected": [],
-          "caller": "0xcBf6caEF42E0f856cBA10EDC43CE7567220BB2B5"
+          "caller": "0x24D0FfC13D756389372Fda2A9e96E752103e9801"
         },
         {
           "instance": "sender",
@@ -32,7 +32,7 @@
           "expected": [
             "0"
           ],
-          "caller": "0xcBf6caEF42E0f856cBA10EDC43CE7567220BB2B5"
+          "caller": "0x24D0FfC13D756389372Fda2A9e96E752103e9801"
         },
         {
           "instance": "sender",
@@ -41,7 +41,7 @@
           "expected": [
             "1"
           ],
-          "caller": "0xcBf6caEF42E0f856cBA10EDC43CE7567220BB2B5"
+          "caller": "0x24D0FfC13D756389372Fda2A9e96E752103e9801"
         },
         {
           "instance": "sender",
@@ -50,7 +50,7 @@
           "expected": [
             "8"
           ],
-          "caller": "0xcBf6caEF42E0f856cBA10EDC43CE7567220BB2B5"
+          "caller": "0x24D0FfC13D756389372Fda2A9e96E752103e9801"
         },
         {
           "instance": "sender",
@@ -59,7 +59,7 @@
           "expected": [
             "1"
           ],
-          "caller": "0xcBf6caEF42E0f856cBA10EDC43CE7567220BB2B5"
+          "caller": "0x24D0FfC13D756389372Fda2A9e96E752103e9801"
         },
         {
           "instance": "sender",
@@ -68,7 +68,7 @@
           "expected": [
             "8"
           ],
-          "caller": "0xcBf6caEF42E0f856cBA10EDC43CE7567220BB2B5"
+          "caller": "0x24D0FfC13D756389372Fda2A9e96E752103e9801"
         },
         {
           "instance": "sender",
@@ -77,13 +77,13 @@
           "expected": [
             "1"
           ],
-          "caller": "0xcBf6caEF42E0f856cBA10EDC43CE7567220BB2B5"
+          "caller": "0x24D0FfC13D756389372Fda2A9e96E752103e9801"
         },
         {
           "instance": "sender",
           "method": "val",
           "calldata": [],
-          "caller": "0xcBf6caEF42E0f856cBA10EDC43CE7567220BB2B5"
+          "caller": "0x24D0FfC13D756389372Fda2A9e96E752103e9801"
         }
       ],
       "expected": [

@@ -16,7 +16,7 @@
           "expected": [
             "C.address"
           ],
-          "caller": "0xDe2722AA1b4e6b271E6d90F3c80b29e4138cdd2E"
+          "caller": "0x7B3CFd3767476aC1F7A8633a45a30ca00B3cd137"
         },
         {
           "instance": "C",
@@ -30,7 +30,7 @@
             "7",
             "5"
           ],
-          "caller": "0xDe2722AA1b4e6b271E6d90F3c80b29e4138cdd2E"
+          "caller": "0x7B3CFd3767476aC1F7A8633a45a30ca00B3cd137"
         },
         {
           "instance": "C",
@@ -39,13 +39,13 @@
           "expected": [
             "7"
           ],
-          "caller": "0xDe2722AA1b4e6b271E6d90F3c80b29e4138cdd2E"
+          "caller": "0x7B3CFd3767476aC1F7A8633a45a30ca00B3cd137"
         },
         {
           "instance": "C",
           "method": "y",
           "calldata": [],
-          "caller": "0xDe2722AA1b4e6b271E6d90F3c80b29e4138cdd2E"
+          "caller": "0x7B3CFd3767476aC1F7A8633a45a30ca00B3cd137"
         }
       ],
       "expected": [

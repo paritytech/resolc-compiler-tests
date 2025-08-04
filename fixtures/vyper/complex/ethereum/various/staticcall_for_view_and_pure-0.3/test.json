@@ -15,7 +15,7 @@
           "expected": [
             "0x1"
           ],
-          "caller": "0x7d20Bda95cc13D5baa91Dd09a5EEee39daa8719D"
+          "caller": "0x7B80BC0082AE6a13B108f1ba8c86FDfD29E3e066"
         },
         {
           "instance": "D",
@@ -27,7 +27,7 @@
             "exception": true,
             "return_data": []
           },
-          "caller": "0x7d20Bda95cc13D5baa91Dd09a5EEee39daa8719D"
+          "caller": "0x7B80BC0082AE6a13B108f1ba8c86FDfD29E3e066"
         },
         {
           "instance": "D",
@@ -35,7 +35,7 @@
           "calldata": [
             "C.address"
           ],
-          "caller": "0x7d20Bda95cc13D5baa91Dd09a5EEee39daa8719D"
+          "caller": "0x7B80BC0082AE6a13B108f1ba8c86FDfD29E3e066"
         }
       ],
       "expected": {

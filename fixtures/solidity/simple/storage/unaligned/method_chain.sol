@@ -4,19 +4,17 @@
 //!       "name": "main",
 //!       "inputs": [
 //!         {
-//!           "method": "setStorage",
-//!           "calldata": [
-//!             "5",
-//!             "11"
-//!           ],
-//!           "caller": "0x3A6065FDBaa079E7546f4531528CA655D10b20E8"
-//!         },
-//!         {
 //!           "method": "main",
 //!           "calldata": [
 //!             "42"
 //!           ],
-//!           "caller": "0x3A6065FDBaa079E7546f4531528CA655D10b20E8"
+//!           "storage": {
+//!             "Test.address": [
+//!               "5",
+//!               "11"
+//!             ]
+//!           },
+//!           "caller": "0x4C1561363E12d5f2B5B6aa53fED1d48c2a0147D4"
 //!         }
 //!       ],
 //!       "expected": [
@@ -33,13 +31,6 @@ pragma solidity >=0.4.16;
 contract Test {
     uint248 a;
     uint248 b;
-
-    function setStorage(uint256 a, uint256 b) public {
-        assembly {
-            sstore(0, a)
-            sstore(1, b)
-        }
-    }
 
     function main(uint248 value) public returns(uint248) {
         return a + quadruple(triple(double(value))) + b;

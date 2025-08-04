@@ -8,7 +8,7 @@
       "inputs": [
         {
           "instance": "A",
-          "caller": "0x55C1be46Ee8C41617dEe67e181783d84e88D1E53",
+          "caller": "0x8d6C2d5C248e8dC4B2dDEfa25741a1E743640642",
           "method": "main",
           "calldata": [
             "B.address",

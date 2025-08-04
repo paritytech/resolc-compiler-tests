@@ -8,12 +8,12 @@
 #!       "inputs": [
 #!         {
 #!           "method": "main()",
-#!           "caller": "0xb2D693EB45F43190ba5CF12377B1591e3315e9d9",
+#!           "caller": "0xFd6f0CbD2754Ff8eA8e715dc9Aace12A438D8F19",
 #!           "calldata": []
 #!         }
 #!       ],
 #!       "expected": [
-#!         "0xb2D693EB45F43190ba5CF12377B1591e3315e9d9"
+#!         "0xFd6f0CbD2754Ff8eA8e715dc9Aace12A438D8F19"
 #!       ]
 #!     },
 #!     {
@@ -24,7 +24,7 @@
 #!           "calldata": [
 #!             "0xdeadbeef00000000000000000000000000000042"
 #!           ],
-#!           "caller": "0x4d2f3cF935d41132fA3850010F4711Bdc4e9dc9B"
+#!           "caller": "0xD2385a74dBFd888ccd6C5476411A71757a2969eC"
 #!         }
 #!       ],
 #!       "expected": [

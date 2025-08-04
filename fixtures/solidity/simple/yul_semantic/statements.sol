@@ -6,7 +6,7 @@
 //!         {
 //!           "method": "simple_statement",
 //!           "calldata": [],
-//!           "caller": "0x51E2e134C9D029608E81399Aa807548017786d3D"
+//!           "caller": "0x01c7487d1A097220ce3f0Ce84c94E54f72DF0CEe"
 //!         }
 //!       ],
 //!       "expected": {
@@ -27,7 +27,7 @@
 //!         {
 //!           "method": "nested_statements",
 //!           "calldata": [],
-//!           "caller": "0xCb9882EB823C337a140C5bd5BDa113a61D18A0b5"
+//!           "caller": "0xdEa17e4138E6a515B7B50dE1a7bc980A67F74125"
 //!         }
 //!       ],
 //!       "expected": {
@@ -54,7 +54,7 @@
 //!         {
 //!           "method": "return_in_middle",
 //!           "calldata": [],
-//!           "caller": "0x95aC482d0720D27946fBd841e415E40aD41469d4"
+//!           "caller": "0x2E81936579A6dd1d9E7a15C18489CA4470CDBFEE"
 //!         }
 //!       ],
 //!       "expected": {
@@ -77,7 +77,7 @@
 //!         {
 //!           "method": "revert_in_middle",
 //!           "calldata": [],
-//!           "caller": "0xF447AD17D0ff3AEA6fEf54CdA4644c30f19192a0"
+//!           "caller": "0x01671DBf7A33cE7ee508c9B60505674518A3e3Ec"
 //!         }
 //!       ],
 //!       "expected": {
@@ -93,7 +93,7 @@
 //!         {
 //!           "method": "return_in_nested_statement",
 //!           "calldata": [],
-//!           "caller": "0x8758b030001a8ec057942d513098b6bD46BF0cFd"
+//!           "caller": "0x8659f73a8f13E08C5765BA7e6A2825Faa7f47460"
 //!         }
 //!       ],
 //!       "expected": {
@@ -116,7 +116,7 @@
 //!         {
 //!           "method": "revert_in_nested_statement",
 //!           "calldata": [],
-//!           "caller": "0xb8deA9b48047D6E308872057f84B92b3992aBb8A"
+//!           "caller": "0xEdc93cDaf812e34F9b57dEe5A9E0388c11c43da1"
 //!         }
 //!       ],
 //!       "expected": {
@@ -132,7 +132,7 @@
 //!         {
 //!           "method": "complex",
 //!           "calldata": [],
-//!           "caller": "0xd35631055a05dAc22F5ca222423F3E61802376D9"
+//!           "caller": "0xc6649ea40a001059C06876D5d3C14a9D4D6720Ed"
 //!         }
 //!       ],
 //!       "expected": {

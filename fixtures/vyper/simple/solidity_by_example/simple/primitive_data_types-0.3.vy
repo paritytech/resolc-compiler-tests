@@ -9,7 +9,7 @@
 #!         {
 #!           "method": "boo",
 #!           "calldata": [],
-#!           "caller": "0xD1fE7f8A43e9C5C9e3163582259eb3AbD8269252"
+#!           "caller": "0xacC0B189896cfA7618554C18ED31f3fCeF1B8e6D"
 #!         }
 #!       ],
 #!       "expected": [
@@ -22,7 +22,7 @@
 #!         {
 #!           "method": "u8",
 #!           "calldata": [],
-#!           "caller": "0x581fBD39e4e6D70E7dBFf34787ccEA912b2252Fa"
+#!           "caller": "0xd81445D0E57B90e66bE7fd65e3184a8A6f7Bb9b3"
 #!         }
 #!       ],
 #!       "expected": [
@@ -35,7 +35,7 @@
 #!         {
 #!           "method": "u256",
 #!           "calldata": [],
-#!           "caller": "0x35Ec15Ba97bF582Ee509DBfA800B503d21980862"
+#!           "caller": "0x93E31EB000EdD8B4d1d750485aa6110D07D916f0"
 #!         }
 #!       ],
 #!       "expected": [
@@ -48,7 +48,7 @@
 #!         {
 #!           "method": "i128",
 #!           "calldata": [],
-#!           "caller": "0x5C02FF5cbDf7570532aAF34acdcd34449b7B2cc5"
+#!           "caller": "0xAD5345A76833151a72c967926C9a26751bd8E52b"
 #!         }
 #!       ],
 #!       "expected": [
@@ -61,7 +61,7 @@
 #!         {
 #!           "method": "i256",
 #!           "calldata": [],
-#!           "caller": "0x6aeF9fD3ba083FB9FF58635c6ABd36850e814ED8"
+#!           "caller": "0xA5b1bC8069c51CcF91b04352D3e1eEAc34898c3B"
 #!         }
 #!       ],
 #!       "expected": [
@@ -74,7 +74,7 @@
 #!         {
 #!           "method": "minInt128",
 #!           "calldata": [],
-#!           "caller": "0x2684907b076d5869626EfDb003d477C5eb0dD3e9"
+#!           "caller": "0xD873bD614eAd39fb2F32f8a433629a53ecd155b8"
 #!         }
 #!       ],
 #!       "expected": [
@@ -87,7 +87,7 @@
 #!         {
 #!           "method": "maxInt128",
 #!           "calldata": [],
-#!           "caller": "0x4F1F3340B673ec4fF7614b605793c9695854973C"
+#!           "caller": "0x7D5ca13A118A4b35fe6b31C277e6CB48cFF01d49"
 #!         }
 #!       ],
 #!       "expected": [
@@ -100,7 +100,7 @@
 #!         {
 #!           "method": "addr",
 #!           "calldata": [],
-#!           "caller": "0xaae6bac4d2472602595eB48F8f32c8Cc79Da1967"
+#!           "caller": "0xe1776621b5E082830F765466104F2688cBC30559"
 #!         }
 #!       ],
 #!       "expected": [
@@ -113,7 +113,7 @@
 #!         {
 #!           "method": "defaultBoo",
 #!           "calldata": [],
-#!           "caller": "0x67a8E9B37a00BF1358e6740cD991850d50E2efBb"
+#!           "caller": "0xEb3BE6C07F69880189e1147d0325cab3a7515159"
 #!         }
 #!       ],
 #!       "expected": [
@@ -126,7 +126,7 @@
 #!         {
 #!           "method": "defaultUint",
 #!           "calldata": [],
-#!           "caller": "0x803514F5143889A5ea32842B302fA0dc343FCaa6"
+#!           "caller": "0xdeb2aeD2295b5959a3d88D937727f2af874cE293"
 #!         }
 #!       ],
 #!       "expected": [
@@ -139,7 +139,7 @@
 #!         {
 #!           "method": "defaultInt",
 #!           "calldata": [],
-#!           "caller": "0x1B5e63Ed8caFcb720b149be843F7e127B732C201"
+#!           "caller": "0xA1D14862c0902EBF6Ba58Bb084f3E0a3FDf78Fe7"
 #!         }
 #!       ],
 #!       "expected": [
@@ -152,7 +152,7 @@
 #!         {
 #!           "method": "defaultAddr",
 #!           "calldata": [],
-#!           "caller": "0xB835FE6cD0b70851540c585E0050e68c3AC650C7"
+#!           "caller": "0x88e86c20dE07bc0b97AC645C6b7E9920C8130572"
 #!         }
 #!       ],
 #!       "expected": [

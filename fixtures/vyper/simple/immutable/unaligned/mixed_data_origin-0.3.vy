@@ -15,14 +15,14 @@
 #!           "expected": [
 #!             "Test.address"
 #!           ],
-#!           "caller": "0xC2eD96e30D729F4F80F5b12dB5C97eEA18734fe0"
+#!           "caller": "0x16241224B72719317d641a92EA60E42047fA9F1b"
 #!         },
 #!         {
 #!           "method": "main",
 #!           "calldata": [
 #!             "42"
 #!           ],
-#!           "caller": "0xC2eD96e30D729F4F80F5b12dB5C97eEA18734fe0"
+#!           "caller": "0x16241224B72719317d641a92EA60E42047fA9F1b"
 #!         }
 #!       ],
 #!       "expected": [

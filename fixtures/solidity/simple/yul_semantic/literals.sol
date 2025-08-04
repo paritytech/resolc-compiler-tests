@@ -6,7 +6,7 @@
 //!         {
 //!           "method": "decimal",
 //!           "calldata": [],
-//!           "caller": "0x18121a7b9f795aF2F22f5b4189A78C9f4D53371e"
+//!           "caller": "0xbEE756576Eb2205B3a851246076FCB3A39F88539"
 //!         }
 //!       ],
 //!       "expected": [
@@ -19,7 +19,7 @@
 //!         {
 //!           "method": "hexadecimal",
 //!           "calldata": [],
-//!           "caller": "0x2227e43f711e12756f70E69c45DC977EF72aA8Ce"
+//!           "caller": "0xce299c126416135cd154097ADb8f25C3b2F6c75A"
 //!         }
 //!       ],
 //!       "expected": [
@@ -32,7 +32,7 @@
 //!         {
 //!           "method": "_true",
 //!           "calldata": [],
-//!           "caller": "0xe663b89D03407f16806b3100226549E4780004b5"
+//!           "caller": "0x5688372F894705901dBd51ec99897006b62a2c58"
 //!         }
 //!       ],
 //!       "expected": [
@@ -45,7 +45,7 @@
 //!         {
 //!           "method": "_false",
 //!           "calldata": [],
-//!           "caller": "0x538d0C1E8b9A03021a614c6D8a0a5A21E3212a0B"
+//!           "caller": "0x2faC2067A64e55045FBFb6fff765dE3e9e7254F3"
 //!         }
 //!       ],
 //!       "expected": [
@@ -58,7 +58,7 @@
 //!         {
 //!           "method": "_string",
 //!           "calldata": [],
-//!           "caller": "0xD79fe465c6C34Bc026018487D87AC1aDc9d0D430"
+//!           "caller": "0xEe1a514481E470291980E42b952780064f535E5f"
 //!         }
 //!       ],
 //!       "expected": [
@@ -71,7 +71,7 @@
 //!         {
 //!           "method": "_hex",
 //!           "calldata": [],
-//!           "caller": "0x674B4080707E8Ad222Bbc8ea095bC7826c4f5F7f"
+//!           "caller": "0xDCa31c8ea337eA95d4c4184E3Cd8F1a80394AA77"
 //!         }
 //!       ],
 //!       "expected": [

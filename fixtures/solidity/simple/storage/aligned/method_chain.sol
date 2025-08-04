@@ -4,20 +4,17 @@
 //!       "name": "main",
 //!       "inputs": [
 //!         {
-//!           "method": "#deployer",
-//!           "instance": "Test",
-//!           "calldata": [
-//!             "5",
-//!             "11"
-//!           ],
-//!           "caller": "0x4f9c864536754C15CE7900C4f62D1856A773A0aF"
-//!         },
-//!         {
 //!           "method": "main",
 //!           "calldata": [
 //!             "42"
 //!           ],
-//!           "caller": "0x4f9c864536754C15CE7900C4f62D1856A773A0aF"
+//!           "storage": {
+//!             "Test.address": [
+//!               "5",
+//!               "11"
+//!             ]
+//!           },
+//!           "caller": "0xD3c73C748db1A0727eB37Fdb5FB9a07B15604B2a"
 //!         }
 //!       ],
 //!       "expected": [
@@ -34,11 +31,6 @@ pragma solidity >=0.4.16;
 contract Test {
     uint256 a;
     uint256 b;
-
-    constructor(uint256 _a, uint256 _b) {
-        a = _a;
-        b = _b;
-    }
 
     function main(uint248 value) public returns(uint248) {
         return uint248(a) + quadruple(triple(double(value))) + uint248(b);

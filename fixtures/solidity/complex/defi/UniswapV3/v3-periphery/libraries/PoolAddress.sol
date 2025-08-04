@@ -37,7 +37,13 @@ library PoolAddress {
         PoolKey memory key
     ) internal view returns (address pool) {
         IUniswapV3Factory2 _factory = IUniswapV3Factory2(factory);
-        pool = _factory.getPool(key.token0, key.token1, key.fee);
+        try _factory.getPool(key.token0, key.token1, key.fee) returns (
+            address p
+        ) {
+            pool = p;
+        } catch {
+            pool = _factory.getPool(key.token1, key.token0, key.fee);
+        }
     }
 }
 

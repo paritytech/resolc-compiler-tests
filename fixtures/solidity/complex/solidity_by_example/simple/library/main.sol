@@ -30,7 +30,7 @@ library Math {
 contract TestSafeMath {
     using SafeMath for uint;
 
-    uint public MAX_UINT = 2**256 - 1;
+    uint public MAX_UINT = 2 ** 256 - 1;
 
     function testAdd(uint x, uint y) public pure returns (uint) {
         return x.add(y);

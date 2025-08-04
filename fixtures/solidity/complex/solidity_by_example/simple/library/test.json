@@ -15,7 +15,7 @@
           "expected": [
             "115792089237316195423570985008687907853269984665640564039457584007913129639935"
           ],
-          "caller": "0x1cfBc02e136d75C594F02BA1861825dF596c14dB"
+          "caller": "0xaaA088A88B0F8578BED9E605616FF259672b9907"
         },
         {
           "instance": "TestSafeMath",
@@ -27,7 +27,7 @@
           "expected": [
             "115792089237316195423570985008687907853269984665640564039457584007913129639935"
           ],
-          "caller": "0x1cfBc02e136d75C594F02BA1861825dF596c14dB"
+          "caller": "0xaaA088A88B0F8578BED9E605616FF259672b9907"
         },
         {
           "instance": "TestSafeMath",
@@ -56,7 +56,7 @@
               "exception": true
             }
           ],
-          "caller": "0x1cfBc02e136d75C594F02BA1861825dF596c14dB"
+          "caller": "0xaaA088A88B0F8578BED9E605616FF259672b9907"
         },
         {
           "instance": "TestSafeMath",
@@ -67,7 +67,7 @@
           "expected": [
             "0"
           ],
-          "caller": "0x1cfBc02e136d75C594F02BA1861825dF596c14dB"
+          "caller": "0xaaA088A88B0F8578BED9E605616FF259672b9907"
         },
         {
           "instance": "TestSafeMath",
@@ -78,7 +78,7 @@
           "expected": [
             "1"
           ],
-          "caller": "0x1cfBc02e136d75C594F02BA1861825dF596c14dB"
+          "caller": "0xaaA088A88B0F8578BED9E605616FF259672b9907"
         },
         {
           "instance": "TestSafeMath",
@@ -86,7 +86,7 @@
           "calldata": [
             "345346456546345234123498123498239402934230203"
           ],
-          "caller": "0x1cfBc02e136d75C594F02BA1861825dF596c14dB"
+          "caller": "0xaaA088A88B0F8578BED9E605616FF259672b9907"
         }
       ],
       "expected": [
@@ -100,7 +100,7 @@
           "instance": "TestArray",
           "method": "testArrayRemove",
           "calldata": [],
-          "caller": "0x5988040BB771fF62d94FBEcfbab427b78EB20861"
+          "caller": "0xF784fF2Ff58d48563ec94c50B77e53Edf1018cD4"
         }
       ],
       "expected": []

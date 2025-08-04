@@ -17,7 +17,7 @@
                 "topics": [
                   "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
                   "0x0000000000000000000000000000000000000000000000000000000000000000",
-                  "0x000000000000000000000000deadbeef00000000000000000000000000000002"
+                  "0x000000000000000000000000CBF3489f9D78C9c07083ed08Cc5F7BCE519bb592"
                 ],
                 "values": [
                   "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
@@ -43,21 +43,21 @@
               {
                 "topics": [
                   "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
-                  "0x000000000000000000000000deadbeef00000000000000000000000000000002",
+                  "0x000000000000000000000000CBF3489f9D78C9c07083ed08Cc5F7BCE519bb592",
                   "0x000000000000000000000000deadbeef00000000000000000000000000000003"
                 ],
                 "values": [
-                  "$BLOCK_HASH:185"
+                  "$BLOCK_HASH:1 200 ^"
                 ]
               },
               {
                 "topics": [
                   "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
-                  "0x000000000000000000000000deadbeef00000000000000000000000000000002",
+                  "0x000000000000000000000000CBF3489f9D78C9c07083ed08Cc5F7BCE519bb592",
                   "0x000000000000000000000000deadbeef00000000000000000000000000000003"
                 ],
                 "values": [
-                  "$BLOCK_HASH:185"
+                  "$BLOCK_HASH:1 200 ^"
                 ]
               }
             ],
@@ -70,11 +70,11 @@
           "calldata": [
             "0xdeadbeef00000000000000000000000000000003"
           ],
-          "caller": "0xCBF3489f9D78C9c07083ed08Cc5F7BCE519bb592"
+          "caller": "0xCBF3489f9D78C9c07083ed08Cc5F7BCE519bb592",
+          "expected": [
+            "200"
+          ]
         }
-      ],
-      "expected": [
-        "200"
       ]
     }
   ],

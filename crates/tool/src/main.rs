@@ -282,10 +282,8 @@ impl InputWrapper<&mut Value> {
             .context("The input must be an object")?;
         match input.get_mut("caller") {
             Some(Value::String(caller)) => {
-                if caller.eq_ignore_ascii_case(&new.to_string()) {
+                if caller.eq_ignore_ascii_case(&Self::ML_DEFAULT_CALLER.to_string()) {
                     *caller = new.to_string()
-                } else {
-                    input.insert("caller".to_owned(), Value::String(new.to_string()));
                 }
             }
             None => {

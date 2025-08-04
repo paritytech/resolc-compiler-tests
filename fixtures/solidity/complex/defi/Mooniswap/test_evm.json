@@ -57,7 +57,7 @@
                 "topics": [
                   "0x8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0",
                   "0x0000000000000000000000000000000000000000000000000000000000000000",
-                  "0xB7f14B862fc541F92ffdd201626AeF23509644b2"
+                  "0x79fB109a50a658493e7f7c73fE1D8Cea352A831E"
                 ],
                 "values": []
               }
@@ -89,7 +89,7 @@
                 "topics": [
                   "0x8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0",
                   "MooniswapFactory.address",
-                  "0xB7f14B862fc541F92ffdd201626AeF23509644b2"
+                  "0x79fB109a50a658493e7f7c73fE1D8Cea352A831E"
                 ],
                 "values": []
               },

@@ -3,7 +3,7 @@
     "evm"
   ],
   "modes": [
-    "Y"
+    "Y =0.7.6"
   ],
   "cases": [
     {
@@ -13,7 +13,7 @@
           "instance": "Token1",
           "comment": "_mint is public for tests",
           "method": "#deployer",
-          "caller": "0x5c3C1A443A0D8924B97fDFc898FF71821c5a5735",
+          "caller": "0xA322490F5AAC1695195aCBdD1762058c4fd31Ec2",
           "calldata": [
             "0x40",
             "0x40",
@@ -27,7 +27,7 @@
           "instance": "Token2",
           "comment": "_mint is public for tests",
           "method": "#deployer",
-          "caller": "0x5c3C1A443A0D8924B97fDFc898FF71821c5a5735",
+          "caller": "0xA322490F5AAC1695195aCBdD1762058c4fd31Ec2",
           "calldata": [
             "0x40",
             "0x40",
@@ -40,7 +40,7 @@
         {
           "instance": "UniswapV3Factory",
           "method": "#deployer",
-          "caller": "0x5c3C1A443A0D8924B97fDFc898FF71821c5a5735",
+          "caller": "0x03e4Ff5D8cF71e7CaE0C40225CEC419879a5aE65",
           "calldata": [],
           "expected": {
             "return_data": [
@@ -53,7 +53,7 @@
                 "topics": [
                   "0xb532073b38c83145e3e5135377a08bf9aab55bc0fd7c1179cd4fb995d2a5159c",
                   "0",
-                  "0xd38a8d9a32800b50D87fD2fD701866C49EC63e60"
+                  "0x03e4Ff5D8cF71e7CaE0C40225CEC419879a5aE65"
                 ],
                 "values": []
               },
@@ -95,7 +95,7 @@
           "expected": [
             "WETH9.address"
           ],
-          "caller": "0x5c3C1A443A0D8924B97fDFc898FF71821c5a5735"
+          "caller": "0x5A6753E71AEe7e5194dbDBC5928924eFD7DCd558"
         },
         {
           "instance": "NonfungibleTokenPositionDescriptor",
@@ -107,7 +107,7 @@
           "expected": [
             "NonfungibleTokenPositionDescriptor.address"
           ],
-          "caller": "0x5c3C1A443A0D8924B97fDFc898FF71821c5a5735"
+          "caller": "0x5A6753E71AEe7e5194dbDBC5928924eFD7DCd558"
         },
         {
           "instance": "NonfungiblePositionManager",
@@ -121,7 +121,7 @@
           "expected": [
             "NonfungiblePositionManager.address"
           ],
-          "caller": "0x5c3C1A443A0D8924B97fDFc898FF71821c5a5735"
+          "caller": "0x5A6753E71AEe7e5194dbDBC5928924eFD7DCd558"
         },
         {
           "instance": "SwapRouter",
@@ -134,7 +134,7 @@
           "expected": [
             "SwapRouter.address"
           ],
-          "caller": "0x5c3C1A443A0D8924B97fDFc898FF71821c5a5735"
+          "caller": "0x5A6753E71AEe7e5194dbDBC5928924eFD7DCd558"
         },
         {
           "instance": "UniswapV3Factory",
@@ -144,9 +144,14 @@
             "Token2.address",
             "3000"
           ],
+          "variable_assignments": {
+            "return_data": [
+              "UniswapV3PoolAddress"
+            ]
+          },
           "expected": {
             "return_data": [
-              "0x911021afcc4ed882dcbcb76bbd00fcb8d061e12f"
+              "$VARIABLE:UniswapV3PoolAddress"
             ],
             "exception": false,
             "events": [
@@ -160,18 +165,18 @@
                 ],
                 "values": [
                   "60",
-                  "0x911021afcc4ed882dcbcb76bbd00fcb8d061e12f"
+                  "$VARIABLE:UniswapV3PoolAddress"
                 ]
               }
             ]
           },
-          "caller": "0x5c3C1A443A0D8924B97fDFc898FF71821c5a5735"
+          "caller": "0x5A6753E71AEe7e5194dbDBC5928924eFD7DCd558"
         },
         {
           "instance": "_InitWrapper",
           "method": "initialize",
           "calldata": [
-            "0x911021afcc4ed882dcbcb76bbd00fcb8d061e12f",
+            "$VARIABLE:UniswapV3PoolAddress",
             "0x00000000000000000000000000000000003acb29cd50f2a2f7b103ddae851344"
           ],
           "expected": {
@@ -179,7 +184,7 @@
             "exception": false,
             "events": [
               {
-                "address": "0x911021afcc4ed882dcbcb76bbd00fcb8d061e12f",
+                "address": "$VARIABLE:UniswapV3PoolAddress",
                 "topics": [
                   "0x98636036cb66a9c19a37435efc1e90142190214e8abeb821bdba3f2990dd4c95"
                 ],
@@ -190,13 +195,13 @@
               }
             ]
           },
-          "caller": "0x5c3C1A443A0D8924B97fDFc898FF71821c5a5735"
+          "caller": "0x5A6753E71AEe7e5194dbDBC5928924eFD7DCd558"
         },
         {
           "instance": "Token2",
           "method": "_mint",
           "calldata": [
-            "0x321B52a0a61A7E3A1e0C7D3Aa3801abE6702F762",
+            "0x2A2bd6a0F2e435701f8807b94deeCA950637952d",
             "100000000000000000000000000"
           ],
           "expected": {
@@ -208,7 +213,7 @@
                 "topics": [
                   "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
                   "0",
-                  "0x321B52a0a61A7E3A1e0C7D3Aa3801abE6702F762"
+                  "0x2A2bd6a0F2e435701f8807b94deeCA950637952d"
                 ],
                 "values": [
                   "100000000000000000000000000"
@@ -216,11 +221,11 @@
               }
             ]
           },
-          "caller": "0x5c3C1A443A0D8924B97fDFc898FF71821c5a5735"
+          "caller": "0x5A6753E71AEe7e5194dbDBC5928924eFD7DCd558"
         },
         {
           "instance": "Token2",
-          "caller": "0x5c3C1A443A0D8924B97fDFc898FF71821c5a5735",
+          "caller": "0x2A2bd6a0F2e435701f8807b94deeCA950637952d",
           "method": "increaseAllowance",
           "calldata": [
             "NonfungiblePositionManager.address",
@@ -236,7 +241,7 @@
                 "address": "Token2.address",
                 "topics": [
                   "0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925",
-                  "0x321B52a0a61A7E3A1e0C7D3Aa3801abE6702F762",
+                  "0x2A2bd6a0F2e435701f8807b94deeCA950637952d",
                   "NonfungiblePositionManager.address"
                 ],
                 "values": [
@@ -249,7 +254,7 @@
         {
           "instance": "NonfungiblePositionManager",
           "method": "mint",
-          "caller": "0x5c3C1A443A0D8924B97fDFc898FF71821c5a5735",
+          "caller": "0x2A2bd6a0F2e435701f8807b94deeCA950637952d",
           "calldata": [
             "Token1.address",
             "Token2.address",
@@ -260,7 +265,7 @@
             "100000000000000000000000000",
             "0",
             "0",
-            "0x321B52a0a61A7E3A1e0C7D3Aa3801abE6702F762",
+            "0x2A2bd6a0F2e435701f8807b94deeCA950637952d",
             "1000000000000000000"
           ],
           "expected": {
@@ -276,8 +281,8 @@
                 "address": "Token2.address",
                 "topics": [
                   "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
-                  "0x321B52a0a61A7E3A1e0C7D3Aa3801abE6702F762",
-                  "0x911021afcc4ed882dcbcb76bbd00fcb8d061e12f"
+                  "0x2A2bd6a0F2e435701f8807b94deeCA950637952d",
+                  "$VARIABLE:UniswapV3PoolAddress"
                 ],
                 "values": [
                   "99999999999999999998943496"
@@ -287,7 +292,7 @@
                 "address": "Token2.address",
                 "topics": [
                   "0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925",
-                  "0x321B52a0a61A7E3A1e0C7D3Aa3801abE6702F762",
+                  "0x2A2bd6a0F2e435701f8807b94deeCA950637952d",
                   "NonfungiblePositionManager.address"
                 ],
                 "values": [
@@ -295,7 +300,7 @@
                 ]
               },
               {
-                "address": "0x911021afcc4ed882dcbcb76bbd00fcb8d061e12f",
+                "address": "$VARIABLE:UniswapV3PoolAddress",
                 "topics": [
                   "0x7a53080ba414158be7ec69b987b5fb7d07dee101fe85488f0853ae16239d0bde",
                   "NonfungiblePositionManager.address",
@@ -314,7 +319,7 @@
                 "topics": [
                   "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
                   "0",
-                  "0x321B52a0a61A7E3A1e0C7D3Aa3801abE6702F762",
+                  "0x2A2bd6a0F2e435701f8807b94deeCA950637952d",
                   "1"
                 ],
                 "values": []
@@ -338,7 +343,7 @@
           "instance": "Token1",
           "method": "_mint",
           "calldata": [
-            "0x93dB2255948Ab42130EC74338dc8A7C4bF607753",
+            "0x04c576F1F100A5E398427aaa0Fb612c855f5d58d",
             "157064251"
           ],
           "expected": {
@@ -350,7 +355,7 @@
                 "topics": [
                   "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
                   "0",
-                  "0x93dB2255948Ab42130EC74338dc8A7C4bF607753"
+                  "0x04c576F1F100A5E398427aaa0Fb612c855f5d58d"
                 ],
                 "values": [
                   "157064251"
@@ -358,11 +363,11 @@
               }
             ]
           },
-          "caller": "0x5c3C1A443A0D8924B97fDFc898FF71821c5a5735"
+          "caller": "0x5A6753E71AEe7e5194dbDBC5928924eFD7DCd558"
         },
         {
           "instance": "Token1",
-          "caller": "0x5c3C1A443A0D8924B97fDFc898FF71821c5a5735",
+          "caller": "0x04c576F1F100A5E398427aaa0Fb612c855f5d58d",
           "method": "increaseAllowance",
           "calldata": [
             "SwapRouter.address",
@@ -378,7 +383,7 @@
                 "address": "Token1.address",
                 "topics": [
                   "0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925",
-                  "0x93dB2255948Ab42130EC74338dc8A7C4bF607753",
+                  "0x04c576F1F100A5E398427aaa0Fb612c855f5d58d",
                   "SwapRouter.address"
                 ],
                 "values": [
@@ -392,17 +397,17 @@
           "instance": "SwapRouter",
           "method": "exactInput",
           "comment": "The last argument is: Token1.address + 3 bytes + Token2.address; Token1.address < Token2.address",
-          "caller": "0x5c3C1A443A0D8924B97fDFc898FF71821c5a5735",
+          "caller": "0x04c576F1F100A5E398427aaa0Fb612c855f5d58d",
           "calldata": [
             "0x20",
             "0xa0",
-            "0x93dB2255948Ab42130EC74338dc8A7C4bF607753",
+            "0x04c576F1F100A5E398427aaa0Fb612c855f5d58d",
             "1000000000000000000",
             "157064251",
             "1556399762425946795663",
             "43",
-            "0x3a9fc460c833f26413e25ceb8105cd04c5aaee6c000bb8a7d88645ce7c923297",
-            "0xa3edd0f59bdda46657bd0a000000000000000000000000000000000000000000"
+            "Token1.address 96 << 3000 72 << + Token2.address 88 >> +",
+            "Token2.address 168 <<"
           ],
           "expected": {
             "return_data": [
@@ -414,8 +419,8 @@
                 "address": "Token2.address",
                 "topics": [
                   "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
-                  "0x911021afcc4ed882dcbcb76bbd00fcb8d061e12f",
-                  "0x93dB2255948Ab42130EC74338dc8A7C4bF607753"
+                  "$VARIABLE:UniswapV3PoolAddress",
+                  "0x04c576F1F100A5E398427aaa0Fb612c855f5d58d"
                 ],
                 "values": [
                   "1564187874361797953346"
@@ -425,8 +430,8 @@
                 "address": "Token1.address",
                 "topics": [
                   "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
-                  "0x93dB2255948Ab42130EC74338dc8A7C4bF607753",
-                  "0x911021afcc4ed882dcbcb76bbd00fcb8d061e12f"
+                  "0x04c576F1F100A5E398427aaa0Fb612c855f5d58d",
+                  "$VARIABLE:UniswapV3PoolAddress"
                 ],
                 "values": [
                   "157064251"
@@ -436,7 +441,7 @@
                 "address": "Token1.address",
                 "topics": [
                   "0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925",
-                  "0x93dB2255948Ab42130EC74338dc8A7C4bF607753",
+                  "0x04c576F1F100A5E398427aaa0Fb612c855f5d58d",
                   "SwapRouter.address"
                 ],
                 "values": [
@@ -444,11 +449,11 @@
                 ]
               },
               {
-                "address": "0x911021afcc4ed882dcbcb76bbd00fcb8d061e12f",
+                "address": "$VARIABLE:UniswapV3PoolAddress",
                 "topics": [
                   "0xc42079f94a6350d7e6235f29174924f928cc2ac818eb64fed8004e115fbcca67",
                   "SwapRouter.address",
-                  "0x93dB2255948Ab42130EC74338dc8A7C4bF607753"
+                  "0x04c576F1F100A5E398427aaa0Fb612c855f5d58d"
                 ],
                 "values": [
                   "157064251",

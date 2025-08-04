@@ -1,4 +1,7 @@
 {
+  "modes": [
+    "Y- =0.6.12"
+  ],
   "cases": [
     {
       "name": "dydx_proof_verification",

@@ -1,4 +1,6 @@
 {
+  "ignore": true,
+  "comment": "Ignored since it requires EraVM specific addresses",
   "cases": [
     {
       "name": "default",

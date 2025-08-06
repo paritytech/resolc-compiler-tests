@@ -10,7 +10,7 @@
 //!         }
 //!       ],
 //!       "expected": [
-//!         "3000000000"
+//!         "$TRANSACTION_GAS_PRICE"
 //!       ]
 //!     }
 //!   ]
@@ -21,7 +21,7 @@
 pragma solidity >=0.4.16;
 
 contract Test {
-    function main() external view returns(uint256 result) {
+    function main() external view returns (uint256 result) {
         assembly {
             result := gasprice()
         }

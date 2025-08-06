@@ -2,6 +2,8 @@
 //!   "cases": [
 //!     {
 //!       "name": "zero",
+//!       "ignore": true,
+//!       "comment": "We can't be certain that we can get the genesis block hash since blockhash only supports the last 256 blocks",
 //!       "inputs": [
 //!         {
 //!           "method": "main",
@@ -19,7 +21,7 @@
 //!       "name": "small_ordinar",
 //!       "inputs": [
 //!         {
-//!           "method": "main",
+//!           "method": "current_plus_offset",
 //!           "calldata": [
 //!             "19"
 //!           ],
@@ -32,86 +34,73 @@
 //!     },
 //!     {
 //!       "name": "current_minus_257",
+//!       "ignore": true,
+//!       "comment": "Ignored since we can't guarantee what the block number is before execution, we want to enable this at some point but perhaps only make it run once the block hash is above 256",
 //!       "inputs": [
 //!         {
-//!           "method": "main",
+//!           "method": "current_minus_offset",
 //!           "calldata": [
-//!             "43"
+//!             "257"
 //!           ],
 //!           "caller": "0x7953411cD13988Fc53852dE09b8BBc59b023D5c7"
 //!         }
 //!       ],
 //!       "expected": [
-//!         "0"
+//!         "$BLOCK_HASH:257"
 //!       ]
 //!     },
 //!     {
 //!       "name": "current_minus_256",
 //!       "inputs": [
 //!         {
-//!           "method": "main",
+//!           "method": "current_minus_offset",
 //!           "calldata": [
-//!             "44"
+//!             "256"
 //!           ],
 //!           "caller": "0xeF8E94cCaB99E05a03Dd274c9D2E204710326c52"
 //!         }
 //!       ],
 //!       "expected": [
-//!         "0"
+//!         "$BLOCK_HASH:256"
 //!       ]
 //!     },
 //!     {
 //!       "name": "current_minus_255",
 //!       "inputs": [
 //!         {
-//!           "method": "main",
+//!           "method": "current_minus_offset",
 //!           "calldata": [
-//!             "45"
+//!             "255"
 //!           ],
-//!           "caller": "0xe9085D0Bf534fAB85C94b54F7621EA3291BB62d1"
+//!           "caller": "0xeF8E94cCaB99E05a03Dd274c9D2E204710326c52"
 //!         }
 //!       ],
 //!       "expected": [
-//!         "0"
-//!       ]
-//!     },
-//!     {
-//!       "name": "ordinar",
-//!       "inputs": [
-//!         {
-//!           "method": "main",
-//!           "calldata": [
-//!             "122"
-//!           ],
-//!           "caller": "0x0521a777806304F9F0156021BD6962ae8b3033B8"
-//!         }
-//!       ],
-//!       "expected": [
-//!         "0"
+//!         "$BLOCK_HASH:255"
 //!       ]
 //!     },
 //!     {
 //!       "name": "current_minus_one",
 //!       "inputs": [
 //!         {
-//!           "method": "main",
+//!           "method": "current_minus_offset",
 //!           "calldata": [
-//!             "299"
+//!             "1"
 //!           ],
-//!           "caller": "0x8caE15069Eef2112ED07Fa27B511aCA281A2f0e8"
+//!           "caller": "0xeF8E94cCaB99E05a03Dd274c9D2E204710326c52"
 //!         }
 //!       ],
 //!       "expected": [
-//!         "0"
+//!         "$BLOCK_HASH:1"
 //!       ]
 //!     },
 //!     {
 //!       "name": "current",
 //!       "inputs": [
 //!         {
-//!           "method": "main",
+//!           "method": "current_plus_offset",
 //!           "calldata": [
-//!             "300"
+//!             "0"
 //!           ],
 //!           "caller": "0xd3eFd1E99bFd75C635056e2b83980039ec1d0734"
 //!         }
@@ -124,9 +113,9 @@
 //!       "name": "current_plus_one",
 //!       "inputs": [
 //!         {
-//!           "method": "main",
+//!           "method": "current_plus_offset",
 //!           "calldata": [
-//!             "301"
+//!             "1"
 //!           ],
 //!           "caller": "0x5Ceaf81E1E8Bd7c694df899479C3D47401Ef9b26"
 //!         }
@@ -173,9 +162,32 @@
 pragma solidity >=0.4.16;
 
 contract Test {
-    function main(uint256 offset) external view returns (uint256 result) {
+    function main(uint256 n) external view returns (uint256 result) {
         assembly {
-            result := blockhash(offset)
+            result := blockhash(n)
+        }
+    }
+
+    function current_plus_offset(
+        uint256 offset
+    ) external view returns (uint256 result) {
+        uint256 blockNumber = block.number + offset;
+        assembly {
+            result := blockhash(blockNumber)
+        }
+    }
+
+    function current_minus_offset(
+        uint256 offset
+    ) external view returns (uint256 result) {
+        uint256 blockNumber = block.number;
+        if (offset >= blockNumber) {
+            blockNumber = 0;
+        } else {
+            blockNumber -= offset;
+        }
+        assembly {
+            result := blockhash(blockNumber)
         }
     }
 }

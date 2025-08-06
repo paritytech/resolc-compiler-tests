@@ -29,7 +29,7 @@
 //!           "method": "b",
 //!           "calldata": [],
 //!           "expected": [
-//!             "0x99"
+//!             "0x24E4fF1FacfBB097395Ae071a9Ac46aaD4A75C66"
 //!           ],
 //!           "caller": "0x72bB36a1F56F96f73d37a710A855001487d83826"
 //!         },
@@ -56,9 +56,9 @@
 pragma solidity >=0.8.0;
 
 contract Test {
-    uint immutable public a;
-    address immutable public b;
-    uint8 immutable public c;
+    uint public immutable a;
+    address public immutable b;
+    uint8 public immutable c;
 
     constructor(uint x, uint8 y) {
         a = x;

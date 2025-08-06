@@ -10,7 +10,7 @@
 //!         }
 //!       ],
 //!       "expected": [
-//!         "0"
+//!         "0x4518c3D2C07Dcb25d0A3A9B53Af097d35c205b36"
 //!       ]
 //!     },
 //!     {
@@ -23,7 +23,7 @@
 //!         }
 //!       ],
 //!       "expected": [
-//!         "1"
+//!         "0xb28532A3F77E0c119C393617b1354Be2Beac4697"
 //!       ]
 //!     },
 //!     {
@@ -60,7 +60,7 @@
 pragma solidity >=0.4.16;
 
 contract Test {
-    function main() external payable returns(uint256 result) {
+    function main() external payable returns (uint256 result) {
         assembly {
             result := caller()
         }

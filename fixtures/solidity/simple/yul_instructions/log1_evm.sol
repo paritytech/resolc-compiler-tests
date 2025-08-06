@@ -3447,7 +3447,7 @@
 //!         "return_data": [],
 //!         "events": [
 //!           {
-//!             "address": "0x9f1ebbf13029eaa4d453a2eb221f322404be895b",
+//!             "address": "Test.address",
 //!             "topics": [
 //!               "0xa348384f3434bc232d4433aaf3232ccbfffee3454ff33545ccd4343f121d434a"
 //!             ],
@@ -3708,7 +3708,7 @@
 //!         "return_data": [],
 //!         "events": [
 //!           {
-//!             "address": "0x9f1ebbf13029eaa4d453a2eb221f322404be895b",
+//!             "address": "Test.address",
 //!             "topics": [
 //!               "0xa348384f3434bc232d4433aaf3232ccbfffee3454ff33545ccd4343f121d434a"
 //!             ],
@@ -3969,7 +3969,7 @@
 //!         "return_data": [],
 //!         "events": [
 //!           {
-//!             "address": "0x9f1ebbf13029eaa4d453a2eb221f322404be895b",
+//!             "address": "Test.address",
 //!             "topics": [
 //!               "0xa348384f3434bc232d4433aaf3232ccbfffee3454ff33545ccd4343f121d434a"
 //!             ],
@@ -4230,7 +4230,7 @@
 //!         "return_data": [],
 //!         "events": [
 //!           {
-//!             "address": "0x9f1ebbf13029eaa4d453a2eb221f322404be895b",
+//!             "address": "Test.address",
 //!             "topics": [
 //!               "0xa348384f3434bc232d4433aaf3232ccbfffee3454ff33545ccd4343f121d434a"
 //!             ],
@@ -4491,7 +4491,7 @@
 //!         "return_data": [],
 //!         "events": [
 //!           {
-//!             "address": "0x9f1ebbf13029eaa4d453a2eb221f322404be895b",
+//!             "address": "Test.address",
 //!             "topics": [
 //!               "0xa348384f3434bc232d4433aaf3232ccbfffee3454ff33545ccd4343f121d434a"
 //!             ],
@@ -4752,7 +4752,7 @@
 //!         "return_data": [],
 //!         "events": [
 //!           {
-//!             "address": "0x9f1ebbf13029eaa4d453a2eb221f322404be895b",
+//!             "address": "Test.address",
 //!             "topics": [
 //!               "0xa348384f3434bc232d4433aaf3232ccbfffee3454ff33545ccd4343f121d434a"
 //!             ],
@@ -5013,7 +5013,7 @@
 //!         "return_data": [],
 //!         "events": [
 //!           {
-//!             "address": "0x9f1ebbf13029eaa4d453a2eb221f322404be895b",
+//!             "address": "Test.address",
 //!             "topics": [
 //!               "0xa348384f3434bc232d4433aaf3232ccbfffee3454ff33545ccd4343f121d434a"
 //!             ],
@@ -5274,7 +5274,7 @@
 //!         "return_data": [],
 //!         "events": [
 //!           {
-//!             "address": "0x9f1ebbf13029eaa4d453a2eb221f322404be895b",
+//!             "address": "Test.address",
 //!             "topics": [
 //!               "0xa348384f3434bc232d4433aaf3232ccbfffee3454ff33545ccd4343f121d434a"
 //!             ],
@@ -5980,10 +5980,18 @@ contract Test {
         }
     }
 
-    function with_value(uint256 offset, uint256 len, uint8 val, uint256 t1) external {
+    function with_value(
+        uint256 offset,
+        uint256 len,
+        uint8 val,
+        uint256 t1
+    ) external {
         assembly {
-            for { let i := 0 } lt(i, len) { i := add(i, 1) }
-            {
+            for {
+                let i := 0
+            } lt(i, len) {
+                i := add(i, 1)
+            } {
                 mstore8(add(offset, i), val)
             }
             log1(offset, len, t1)

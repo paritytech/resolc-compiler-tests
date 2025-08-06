@@ -3290,7 +3290,7 @@
 //!         "return_data": [],
 //!         "events": [
 //!           {
-//!             "address": "0x9f1ebbf13029eaa4d453a2eb221f322404be895b",
+//!             "address": "Test.address",
 //!             "topics": [],
 //!             "values": []
 //!           }
@@ -3535,7 +3535,7 @@
 //!         "return_data": [],
 //!         "events": [
 //!           {
-//!             "address": "0x9f1ebbf13029eaa4d453a2eb221f322404be895b",
+//!             "address": "Test.address",
 //!             "topics": [],
 //!             "values": []
 //!           }
@@ -3780,7 +3780,7 @@
 //!         "return_data": [],
 //!         "events": [
 //!           {
-//!             "address": "0x9f1ebbf13029eaa4d453a2eb221f322404be895b",
+//!             "address": "Test.address",
 //!             "topics": [],
 //!             "values": []
 //!           }
@@ -4025,7 +4025,7 @@
 //!         "return_data": [],
 //!         "events": [
 //!           {
-//!             "address": "0x9f1ebbf13029eaa4d453a2eb221f322404be895b",
+//!             "address": "Test.address",
 //!             "topics": [],
 //!             "values": []
 //!           }
@@ -4270,7 +4270,7 @@
 //!         "return_data": [],
 //!         "events": [
 //!           {
-//!             "address": "0x9f1ebbf13029eaa4d453a2eb221f322404be895b",
+//!             "address": "Test.address",
 //!             "topics": [],
 //!             "values": []
 //!           }
@@ -4515,7 +4515,7 @@
 //!         "return_data": [],
 //!         "events": [
 //!           {
-//!             "address": "0x9f1ebbf13029eaa4d453a2eb221f322404be895b",
+//!             "address": "Test.address",
 //!             "topics": [],
 //!             "values": []
 //!           }
@@ -4760,7 +4760,7 @@
 //!         "return_data": [],
 //!         "events": [
 //!           {
-//!             "address": "0x9f1ebbf13029eaa4d453a2eb221f322404be895b",
+//!             "address": "Test.address",
 //!             "topics": [],
 //!             "values": []
 //!           }
@@ -5005,7 +5005,7 @@
 //!         "return_data": [],
 //!         "events": [
 //!           {
-//!             "address": "0x9f1ebbf13029eaa4d453a2eb221f322404be895b",
+//!             "address": "Test.address",
 //!             "topics": [],
 //!             "values": []
 //!           }
@@ -5653,8 +5653,11 @@ contract Test {
 
     function with_value(uint256 offset, uint256 len, uint8 val) external {
         assembly {
-            for { let i := 0 } lt(i, len) { i := add(i, 1) }
-            {
+            for {
+                let i := 0
+            } lt(i, len) {
+                i := add(i, 1)
+            } {
                 mstore8(add(offset, i), val)
             }
             log0(offset, len)

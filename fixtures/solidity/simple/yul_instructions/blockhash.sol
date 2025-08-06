@@ -173,9 +173,9 @@
 pragma solidity >=0.4.16;
 
 contract Test {
-    function main(uint256 a) external view returns (uint256 result) {
+    function main(uint256 offset) external view returns (uint256 result) {
         assembly {
-            result := blockhash(a)
+            result := blockhash(offset)
         }
     }
 }

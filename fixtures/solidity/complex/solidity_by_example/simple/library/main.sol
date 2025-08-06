@@ -44,7 +44,7 @@ contract TestSafeMath {
 // Array function to delete element at index and re-organize the array
 // so that their are no gaps between the elements.
 library Array {
-    function remove(uint[] storage arr, uint index) public {
+    function remove(uint[] storage arr, uint index) internal {
         // Move the last element into the place to delete
         require(arr.length > 0, "Can't remove from empty array");
         arr[index] = arr[arr.length - 1];

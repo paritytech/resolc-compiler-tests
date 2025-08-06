@@ -1,4 +1,7 @@
 //! {
+//!   "modes": [
+//!     "Y =0.8.17"
+//!   ],
 //!   "cases": [
 //!     {
 //!       "name": "default",
@@ -27,16 +30,13 @@ contract Test {
                 revert(0, 0)
             }
             returndatacopy(0, 0, 64)
-            if iszero(and(
-                eq(mload(0), 11),
-                eq(mload(32), 12)
-            )) {
+            if iszero(and(eq(mload(0), 11), eq(mload(32), 12))) {
                 revert(0, 0)
             }
         }
     }
 
-    function f() external pure returns(uint256[2] memory) {
+    function f() external pure returns (uint256[2] memory) {
         return [uint256(11), uint256(12)];
     }
 }

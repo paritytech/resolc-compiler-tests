@@ -1,27 +1,23 @@
-//! {
-//!   "cases": [
-//!     {
-//!       "name": "main",
-//!       "inputs": [
+//! { "cases": [ {
+//!     "name": "main",
+//!     "inputs": [
 //!         {
-//!           "method": "main",
-//!           "calldata": [
-//!             "42"
-//!           ],
-//!           "storage": {
-//!             "Test.address": [
-//!               "0x0005000a000f0014"
+//!             "method": "setStorage",
+//!             "calldata": [
+//!                 "0x0000000000000000000000000000000000000000000000000005000a000f0014"
 //!             ]
-//!           },
-//!           "caller": "0xcda8eB4D475017FbA650d21b888f7b7c8769b2b8"
+//!         },
+//!         {
+//!             "method": "main",
+//!             "calldata": [
+//!                 "42"
+//!             ]
 //!         }
-//!       ],
-//!       "expected": [
+//!     ],
+//!     "expected": [
 //!         "15000"
-//!       ]
-//!     }
-//!   ]
-//! }
+//!     ]
+//! } ] }
 
 contract Test {
     struct Data {
@@ -32,6 +28,12 @@ contract Test {
     }
 
     Data data;
+
+    function setStorage(bytes32 newStorage) public {
+        assembly {
+            sstore(0, newStorage)
+        }
+    }
 
     function main(uint16 argument) public returns(uint16) {
         uint16 product = 1;

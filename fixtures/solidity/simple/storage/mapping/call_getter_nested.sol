@@ -1,20 +1,16 @@
-//! {
-//!   "cases": [
-//!     {
-//!       "name": "default",
-//!       "inputs": [
+//! { "cases": [ {
+//!     "name": "default",
+//!     "inputs": [
 //!         {
-//!           "method": "g",
-//!           "calldata": [],
-//!           "caller": "0xEf7c48a9aC1BcE8afBa312B8A3722574158C3e72"
+//!             "method": "g",
+//!             "calldata": [
+//!             ]
 //!         }
-//!       ],
-//!       "expected": [
-//!         "1"
-//!       ]
-//!     }
-//!   ]
-//! }
+//!     ],
+//!     "expected": [
+//!       "1"
+//!     ]
+//! } ] }
 
 // SPDX-License-Identifier: MIT
 

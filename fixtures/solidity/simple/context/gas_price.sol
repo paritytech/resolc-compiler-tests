@@ -21,7 +21,7 @@
 pragma solidity >=0.4.12;
 
 contract Test {
-    function main() public returns(uint) {
+    function main() public returns (uint) {
         uint gas_price = tx.gasprice;
         return gas_price;
     }

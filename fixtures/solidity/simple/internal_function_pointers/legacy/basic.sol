@@ -1,6 +1,6 @@
 //! {
 //!   "modes": [
-//!     "Y",
+//!     "Y =0.4.21",
 //!     "E"
 //!   ],
 //!   "cases": [
@@ -38,12 +38,22 @@ contract Test {
     uint x;
 
     function() internal returns (uint) fp;
-    function c0() internal returns (uint) { return 0xc0; }
-    function c1() internal returns (uint) { return 0xc1; }
+
+    function c0() internal returns (uint) {
+        return 0xc0;
+    }
+
+    function c1() internal returns (uint) {
+        return 0xc1;
+    }
 
     function Test(int i) public {
-        if (i == 0) { fp = c0; }
-        if (i == 1) { fp = c1; }
+        if (i == 0) {
+            fp = c0;
+        }
+        if (i == 1) {
+            fp = c1;
+        }
         x = fp();
     }
 

@@ -1,4 +1,7 @@
 //! {
+//!   "modes": [
+//!     "Y =0.8.17"
+//!   ],
 //!   "cases": [
 //!     {
 //!       "name": "default",
@@ -21,7 +24,7 @@
 pragma solidity >=0.4.16 <=0.8.17;
 
 contract Test {
-    function main() external view returns(uint256 result) {
+    function main() external view returns (uint256 result) {
         assembly {
             result := difficulty()
         }

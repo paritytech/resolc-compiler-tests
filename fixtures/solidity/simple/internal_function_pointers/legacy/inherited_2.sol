@@ -1,6 +1,6 @@
 //! {
 //!   "modes": [
-//!     "Y",
+//!     "Y =0.4.21",
 //!     "E"
 //!   ],
 //!   "cases": [
@@ -35,9 +35,14 @@
 pragma solidity <=0.4.21;
 
 contract D {
-    function d0() internal returns (uint) { return 0xd0; }
+    function d0() internal returns (uint) {
+        return 0xd0;
+    }
 
-    function d1() internal returns (uint) { return 0xd1; }
+    function d1() internal returns (uint) {
+        return 0xd1;
+    }
+
     function getD1() internal returns (function() internal returns (uint)) {
         return d1;
     }
@@ -47,11 +52,18 @@ contract Test is D {
     uint x;
 
     function() internal returns (uint) fp;
-    function c0() internal returns (uint) { return 0xc0; }
+
+    function c0() internal returns (uint) {
+        return 0xc0;
+    }
 
     function Test(int i) public {
-        if (i == 0) { fp = c0; }
-        if (i == 1) { fp = getD1(); }
+        if (i == 0) {
+            fp = c0;
+        }
+        if (i == 1) {
+            fp = getD1();
+        }
         x = fp();
     }
 

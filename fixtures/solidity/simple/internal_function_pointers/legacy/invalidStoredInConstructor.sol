@@ -1,4 +1,7 @@
 //! {
+//!   "modes": [
+//!     "Y =0.4.21"
+//!   ],
 //!   "cases": [
 //!     {
 //!       "name": "default",
@@ -33,25 +36,26 @@
 pragma solidity <=0.4.21;
 
 contract C {
+    function() internal storedFn;
 
-  function() internal storedFn;
+    bool flag;
 
-  bool flag;
-
-  function C() public {
-    if (!flag) {
-      flag = true;
-      function() internal invalid;
-      storedFn = invalid;
-      storedFn();
+    function C() public {
+        if (!flag) {
+            flag = true;
+            function() internal invalid;
+            storedFn = invalid;
+            storedFn();
+        }
     }
-  }
-  function f() public {}
+
+    function f() public {}
 }
+
 contract Test {
-  function f() public {
-    new C();
-  }
+    function f() public {
+        new C();
+    }
 }
 // ====
 // compileToEwasm: also

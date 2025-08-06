@@ -44,6 +44,8 @@
 //!     },
 //!     {
 //!       "name": "max",
+//!       "ignore": true,
+//!       "comment": "Ignored since we don't provide the accounts with this much eth",
 //!       "inputs": [
 //!         {
 //!           "method": "main",
@@ -64,7 +66,7 @@
 pragma solidity >=0.4.16;
 
 contract Test {
-    function main() external payable returns(uint256 result) {
+    function main() external payable returns (uint256 result) {
         assembly {
             result := callvalue()
         }

@@ -1,6 +1,6 @@
 //! {
 //!   "modes": [
-//!     "Y"
+//!     "Y+"
 //!   ],
 //!   "cases": [
 //!     {
@@ -24,7 +24,7 @@
 pragma solidity >=0.4.16;
 
 contract Test {
-    function entry() public pure returns(bool) {
+    function entry() public pure returns (bool) {
         Str1 memory p1 = Str1(1);
         Str2[2] memory p2 = [
             Str2([Str1(4), Str1(9)], 16),
@@ -51,15 +51,190 @@ contract Test {
 
         bool result = true;
         for (uint8 i = 1; i <= 23; i++) {
-            result = result && main(i, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12, p13, p14, p15, p16, p17, p18, p19, p20) == uint256(i) * uint256(i);
+            result =
+                result &&
+                main(
+                    i,
+                    p1,
+                    p2,
+                    p3,
+                    p4,
+                    p5,
+                    p6,
+                    p7,
+                    p8,
+                    p9,
+                    p10,
+                    p11,
+                    p12,
+                    p13,
+                    p14,
+                    p15,
+                    p16,
+                    p17,
+                    p18,
+                    p19,
+                    p20
+                ) ==
+                uint256(i) * uint256(i);
         }
 
-        result = result && main(0, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12, p13, p14, p15, p16, p17, p18, p19, p20) == 4522;
-        result = result && main(24, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12, p13, p14, p15, p16, p17, p18, p19, p20) == 98;
-        result = result && main(25, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12, p13, p14, p15, p16, p17, p18, p19, p20) == 100;
-        result = result && main(26, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12, p13, p14, p15, p16, p17, p18, p19, p20) == 2;
-        result = result && main(27, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12, p13, p14, p15, p16, p17, p18, p19, p20) == 1;
-        result = result && main(28, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12, p13, p14, p15, p16, p17, p18, p19, p20) == 6417941967197257382729677832768998657228800000000;
+        result =
+            result &&
+            main(
+                0,
+                p1,
+                p2,
+                p3,
+                p4,
+                p5,
+                p6,
+                p7,
+                p8,
+                p9,
+                p10,
+                p11,
+                p12,
+                p13,
+                p14,
+                p15,
+                p16,
+                p17,
+                p18,
+                p19,
+                p20
+            ) ==
+            4522;
+        result =
+            result &&
+            main(
+                24,
+                p1,
+                p2,
+                p3,
+                p4,
+                p5,
+                p6,
+                p7,
+                p8,
+                p9,
+                p10,
+                p11,
+                p12,
+                p13,
+                p14,
+                p15,
+                p16,
+                p17,
+                p18,
+                p19,
+                p20
+            ) ==
+            98;
+        result =
+            result &&
+            main(
+                25,
+                p1,
+                p2,
+                p3,
+                p4,
+                p5,
+                p6,
+                p7,
+                p8,
+                p9,
+                p10,
+                p11,
+                p12,
+                p13,
+                p14,
+                p15,
+                p16,
+                p17,
+                p18,
+                p19,
+                p20
+            ) ==
+            100;
+        result =
+            result &&
+            main(
+                26,
+                p1,
+                p2,
+                p3,
+                p4,
+                p5,
+                p6,
+                p7,
+                p8,
+                p9,
+                p10,
+                p11,
+                p12,
+                p13,
+                p14,
+                p15,
+                p16,
+                p17,
+                p18,
+                p19,
+                p20
+            ) ==
+            2;
+        result =
+            result &&
+            main(
+                27,
+                p1,
+                p2,
+                p3,
+                p4,
+                p5,
+                p6,
+                p7,
+                p8,
+                p9,
+                p10,
+                p11,
+                p12,
+                p13,
+                p14,
+                p15,
+                p16,
+                p17,
+                p18,
+                p19,
+                p20
+            ) ==
+            1;
+        result =
+            result &&
+            main(
+                28,
+                p1,
+                p2,
+                p3,
+                p4,
+                p5,
+                p6,
+                p7,
+                p8,
+                p9,
+                p10,
+                p11,
+                p12,
+                p13,
+                p14,
+                p15,
+                p16,
+                p17,
+                p18,
+                p19,
+                p20
+            ) ==
+            6417941967197257382729677832768998657228800000000;
 
         return result;
     }
@@ -100,14 +275,16 @@ contract Test {
         string[2] memory p18,
         bytes memory p19,
         Enum1 p20
-    )
-    private
-    pure
-    returns(uint256 result)
-    {
+    ) private pure returns (uint256 result) {
         if (param == 0) {
-            result = p1.a +
-                p2[0].a[0].a + p2[0].a[1].a + p2[0].b + p2[1].a[0].a + p2[1].a[1].a + p2[1].b +
+            result =
+                p1.a +
+                p2[0].a[0].a +
+                p2[0].a[1].a +
+                p2[0].b +
+                p2[1].a[0].a +
+                p2[1].a[1].a +
+                p2[1].b +
                 p3 +
                 uint8(p4) +
                 uint8(p5) +
@@ -116,14 +293,16 @@ contract Test {
                 p8 +
                 p9 +
                 uint128(p10) +
-                p11[0] + p11[1] +
+                p11[0] +
+                p11[1] +
                 p12 +
                 uint128(p13[0]) +
                 p14[0].a +
                 uint40(p15) +
                 uint16(p16) +
                 uint256(p17) +
-                uint8(bytes(p18[0])[0]) + uint8(bytes(p18[1])[0]) +
+                uint8(bytes(p18[0])[0]) +
+                uint8(bytes(p18[1])[0]) +
                 uint8(bytes1(p19[0])) +
                 uint256(p20);
         } else if (param == 1) {
@@ -181,8 +360,14 @@ contract Test {
         } else if (param == 27) {
             result = uint256(p20);
         } else {
-            result = p1.a *
-                p2[0].a[0].a * p2[0].a[1].a * p2[0].b * p2[1].a[0].a * p2[1].a[1].a * p2[1].b *
+            result =
+                p1.a *
+                p2[0].a[0].a *
+                p2[0].a[1].a *
+                p2[0].b *
+                p2[1].a[0].a *
+                p2[1].a[1].a *
+                p2[1].b *
                 p3 *
                 uint8(p4) *
                 uint8(p5) *
@@ -191,14 +376,16 @@ contract Test {
                 p8 *
                 p9 *
                 uint128(p10) *
-                p11[0] * p11[1] *
+                p11[0] *
+                p11[1] *
                 p12 *
                 uint128(p13[0]) *
                 p14[0].a *
                 uint40(p15) *
                 uint16(p16) *
                 uint256(p17) *
-                uint8(bytes(p18[0])[0]) * uint8(bytes(p18[1])[0]) *
+                uint8(bytes(p18[0])[0]) *
+                uint8(bytes(p18[1])[0]) *
                 uint8(bytes1(p19[0])) *
                 uint256(p20);
         }

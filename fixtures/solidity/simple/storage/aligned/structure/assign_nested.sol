@@ -1,29 +1,26 @@
-//! {
-//!   "cases": [
-//!     {
-//!       "name": "main",
-//!       "inputs": [
+//! { "cases": [ {
+//!     "name": "main",
+//!     "inputs": [
 //!         {
-//!           "method": "main",
-//!           "calldata": [
-//!             "42"
-//!           ],
-//!           "storage": {
-//!             "Test.address": [
-//!               "99",
-//!               "100",
-//!               "101"
+//!             "method": "#deployer",
+//!             "instance": "Test",
+//!             "calldata": [
+//!                 "99", 
+//!                 "100", 
+//!                 "101"
 //!             ]
-//!           },
-//!           "caller": "0x4A8402bd693eEd03bBE9E3A71BD37EB75F8B50ca"
+//!         },
+//!         {
+//!             "method": "main",
+//!             "calldata": [
+//!                 "42"
+//!             ]
 //!         }
-//!       ],
-//!       "expected": [
+//!     ],
+//!     "expected": [
 //!         "126"
-//!       ]
-//!     }
-//!   ]
-//! }
+//!     ]
+//! } ] }
 
 contract Test {
     uint8 constant TEST = 42;
@@ -39,6 +36,12 @@ contract Test {
     }
 
     Data data;
+
+    constructor(uint256 value, uint256 next, uint256 last) {
+        data.inner.value = value;
+        data.inner.next = next;
+        data.inner.last = last;
+    }
 
     function main(uint8 argument) public returns(uint8) {
         data.inner.next = uint256(argument);

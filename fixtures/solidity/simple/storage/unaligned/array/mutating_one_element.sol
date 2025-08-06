@@ -1,25 +1,22 @@
-//! {
-//!   "cases": [
-//!     {
-//!       "name": "complex",
-//!       "inputs": [
+//! { "cases": [ {
+//!     "name": "complex",
+//!     "inputs": [
 //!         {
-//!           "method": "complex",
-//!           "calldata": [],
-//!           "storage": {
-//!             "Test.address": [
-//!               "1"
+//!             "method": "setStorage",
+//!             "calldata": [
+//!                 "1"
 //!             ]
-//!           },
-//!           "caller": "0x9E51c0FAa2FDc51EC06f02b535da12F14d59aa85"
+//!         },
+//!         {
+//!             "method": "complex",
+//!             "calldata": [
+//!             ]
 //!         }
-//!       ],
-//!       "expected": [
+//!     ],
+//!     "expected": [
 //!         "1"
-//!       ]
-//!     }
-//!   ]
-//! }
+//!     ]
+//! } ] }
 
 // SPDX-License-Identifier: MIT
 
@@ -29,6 +26,12 @@ pragma solidity >=0.4.16;
 
 contract Test {
     uint8[1] KEY = [1];
+
+    function setStorage(uint256 newStorage) public {
+        assembly {
+            sstore(0, newStorage)
+        }
+    }
 
     function complex() public view returns(uint8) {
         return KEY[0];

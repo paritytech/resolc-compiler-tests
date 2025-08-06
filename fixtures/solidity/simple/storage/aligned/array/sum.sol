@@ -1,33 +1,37 @@
-//! {
-//!   "cases": [
-//!     {
-//!       "name": "main",
-//!       "inputs": [
+//! { "cases": [ {
+//!     "name": "main",
+//!     "inputs": [
 //!         {
-//!           "method": "main",
-//!           "calldata": [
-//!             "42"
-//!           ],
-//!           "storage": {
-//!             "Test.address": [
-//!               "20",
-//!               "15",
-//!               "10",
-//!               "5"
+//!             "method": "#deployer",
+//!             "instance": "Test",
+//!             "calldata": [
+//!                 "20", 
+//!                 "15", 
+//!                 "10", 
+//!                 "5"
 //!             ]
-//!           },
-//!           "caller": "0x4bEeE050Be6228fb41d380A1C860810DcBf3b441"
+//!         },
+//!         {
+//!             "method": "main",
+//!             "calldata": [
+//!                 "42"
+//!             ]
 //!         }
-//!       ],
-//!       "expected": [
+//!     ],
+//!     "expected": [
 //!         "50"
-//!       ]
-//!     }
-//!   ]
-//! }
+//!     ]
+//! } ] }
 
 contract Test {
     uint256[4] data;
+
+    constructor(uint256 a, uint256 b, uint256 c, uint256 d) {
+        data[0] = a;
+        data[1] = b;
+        data[2] = c;
+        data[3] = d;
+    }
 
     function main(uint8 argument) public returns(uint8) {
         uint8 sum = 0;

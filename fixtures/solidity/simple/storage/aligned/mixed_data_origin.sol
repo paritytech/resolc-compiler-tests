@@ -1,28 +1,25 @@
-//! {
-//!   "cases": [
-//!     {
-//!       "name": "main",
-//!       "inputs": [
+//! { "cases": [ {
+//!     "name": "main",
+//!     "inputs": [
 //!         {
-//!           "method": "main",
-//!           "calldata": [
-//!             "42"
-//!           ],
-//!           "storage": {
-//!             "Test.address": [
-//!               "5",
-//!               "7"
+//!             "method": "#deployer",
+//!             "instance": "Test",
+//!             "calldata": [
+//!                 "5", 
+//!                 "7"
 //!             ]
-//!           },
-//!           "caller": "0xA6f5395cA62aa98E9918bfE7D31BeD5DAF2BD2F9"
+//!         },
+//!         {
+//!             "method": "main",
+//!             "calldata": [
+//!                 "42"
+//!             ]
 //!         }
-//!       ],
-//!       "expected": [
+//!     ],
+//!     "expected": [
 //!         "148"
-//!       ]
-//!     }
-//!   ]
-//! }
+//!     ]
+//! } ] }
 
 // SPDX-License-Identifier: MIT
 
@@ -40,6 +37,11 @@ contract Test {
 
     uint256 a;
     uint256 b;
+
+    constructor(uint256 _a, uint256 _b) {
+        a = _a;
+        b = _b;
+    }
 
     function main(uint248 value) public returns(uint248) {
         Data memory data = Data(10, 20);

@@ -1,27 +1,23 @@
-//! {
-//!   "cases": [
-//!     {
-//!       "name": "main",
-//!       "inputs": [
+//! { "cases": [ {
+//!     "name": "main",
+//!     "inputs": [
 //!         {
-//!           "method": "main",
-//!           "calldata": [
-//!             "42"
-//!           ],
-//!           "storage": {
-//!             "Test.address": [
-//!               "0x656463"
+//!             "method": "setStorage",
+//!             "calldata": [
+//!                 "0x0000000000000000000000000000000000000000000000000000000000656463"
 //!             ]
-//!           },
-//!           "caller": "0x0A8cA8477a384251Bf3F99C1E5D97b48eF29f281"
+//!         },
+//!         {
+//!             "method": "main",
+//!             "calldata": [
+//!                 "42"
+//!             ]
 //!         }
-//!       ],
-//!       "expected": [
+//!     ],
+//!     "expected": [
 //!         "126"
-//!       ]
-//!     }
-//!   ]
-//! }
+//!     ]
+//! } ] }
 
 contract Test {
     uint8 constant TEST = 42;
@@ -37,6 +33,12 @@ contract Test {
     }
 
     Data data;
+
+    function setStorage(bytes32 newStorage) public {
+        assembly {
+            sstore(0, newStorage)
+        }
+    }
 
     function main(uint8 argument) public returns(uint8) {
         data.inner.next = argument;

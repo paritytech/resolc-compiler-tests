@@ -1,8 +1,7 @@
 //! {
 //!   "modes": [
 //!     "Y >=0.8.1",
-//!     "E",
-//!     "I"
+//!     "E"
 //!   ],
 //!   "comment": "solc 0.8.0 yul difference",
 //!   "cases": [

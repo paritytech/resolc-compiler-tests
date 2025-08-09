@@ -1,4 +1,8 @@
-use std::{borrow::Cow, collections::HashSet, path::PathBuf};
+use std::{
+    borrow::Cow,
+    collections::HashSet,
+    path::{Path, PathBuf},
+};
 
 pub struct FilesWithExtensionIterator {
     allowed_extensions: HashSet<Cow<'static, str>>,
@@ -7,10 +11,10 @@ pub struct FilesWithExtensionIterator {
 }
 
 impl FilesWithExtensionIterator {
-    pub fn new(root_directory: PathBuf) -> Self {
+    pub fn new(root_directory: impl AsRef<Path>) -> Self {
         Self {
             allowed_extensions: Default::default(),
-            directories_to_search: vec![root_directory],
+            directories_to_search: vec![root_directory.as_ref().to_path_buf()],
             files_matching_allowed_extensions: Default::default(),
         }
     }

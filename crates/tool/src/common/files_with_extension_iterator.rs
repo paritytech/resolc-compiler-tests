@@ -44,9 +44,9 @@ impl Iterator for FilesWithExtensionIterator {
                 self.directories_to_search.push(entry_path)
             } else if entry_path.is_file()
                 && entry_path.extension().is_some_and(|ext| {
-                    self.allowed_extensions
-                        .iter()
-                        .any(|allowed| ext.eq_ignore_ascii_case(allowed.as_ref()))
+                    self.allowed_extensions.iter().any(|allowed| {
+                        ext.eq_ignore_ascii_case(allowed.as_ref())
+                    })
                 })
             {
                 self.files_matching_allowed_extensions.push(entry_path)

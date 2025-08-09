@@ -2,6 +2,7 @@
 
 mod commands;
 mod common;
+mod semantic_tests_parser;
 
 use std::path::PathBuf;
 
@@ -43,7 +44,8 @@ fn main() -> Result<()> {
             path,
             private_key_start,
         } => {
-            let highest_private_key = handle_caller_replacement(&path, private_key_start)?;
+            let highest_private_key =
+                handle_caller_replacement(&path, private_key_start)?;
             println!("Highest private key: {highest_private_key}");
         }
     }

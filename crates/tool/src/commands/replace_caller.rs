@@ -11,7 +11,10 @@ use serde_json::Value;
 
 use crate::common::*;
 
-pub fn handle_caller_replacement(path: &Path, private_key_start: usize) -> Result<U256> {
+pub fn handle_caller_replacement(
+    path: &Path,
+    private_key_start: usize,
+) -> Result<U256> {
     let metadata_file_paths = if path.is_dir() {
         Box::new(MetadataFile::SUPPORTED_EXTENSIONS.iter().copied().fold(
             FilesWithExtensionIterator::new(path.to_path_buf()),
@@ -29,14 +32,16 @@ pub fn handle_caller_replacement(path: &Path, private_key_start: usize) -> Resul
         })
         .collect::<Result<Vec<_>>>()?;
 
-    let mut allocator = PrivateKeyAllocator::new_with_value(U256::from(private_key_start));
+    let mut allocator =
+        PrivateKeyAllocator::new_with_value(U256::from(private_key_start));
     for mut metadata_file in metadata_objects {
         for mut case in metadata_file.cases_mut() {
-            let replacement_map = case.callers().fold(HashMap::new(), |mut map, caller| {
-                map.entry(caller)
-                    .or_insert_with(|| allocator.allocate().address());
-                map
-            });
+            let replacement_map =
+                case.callers().fold(HashMap::new(), |mut map, caller| {
+                    map.entry(caller)
+                        .or_insert_with(|| allocator.allocate().address());
+                    map
+                });
             case.apply_replacements(&replacement_map)?;
         }
         metadata_file.write()?;
@@ -71,20 +76,30 @@ impl MetadataFile {
     fn new(path: impl AsRef<Path>) -> Result<Option<Self>> {
         let path = path.as_ref();
 
-        let (comment_sequence, _) = match path.extension().and_then(|extension| extension.to_str())
+        let (comment_sequence, _) = match path
+            .extension()
+            .and_then(|extension| extension.to_str())
         {
             Some(Self::JSON_EXTENSION) => (None, Self::JSON_EXTENSION),
-            Some(Self::SOLIDITY_EXTENSION) => (Some("//!"), Self::SOLIDITY_EXTENSION),
-            Some(Self::YUL_IR_EXTENSION) => (Some("//!"), Self::YUL_IR_EXTENSION),
+            Some(Self::SOLIDITY_EXTENSION) => {
+                (Some("//!"), Self::SOLIDITY_EXTENSION)
+            }
+            Some(Self::YUL_IR_EXTENSION) => {
+                (Some("//!"), Self::YUL_IR_EXTENSION)
+            }
             Some(Self::VYPER_EXTENSION) => (Some("#!"), Self::VYPER_EXTENSION),
-            Some(Self::LLVM_IR_EXTENSION) => (Some(";!"), Self::LLVM_IR_EXTENSION),
+            Some(Self::LLVM_IR_EXTENSION) => {
+                (Some(";!"), Self::LLVM_IR_EXTENSION)
+            }
             Some(_) | None => bail!("Could not determine the comment sequence"),
         };
 
         let full_content = read_to_string(path)?;
         let metadata_content = full_content
             .split('\n')
-            .skip_while(|line| !line.starts_with(comment_sequence.unwrap_or("")))
+            .skip_while(|line| {
+                !line.starts_with(comment_sequence.unwrap_or(""))
+            })
             .take_while(|line| line.starts_with(comment_sequence.unwrap_or("")))
             .collect::<Vec<_>>()
             .join("\n");
@@ -119,11 +134,13 @@ impl MetadataFile {
 
     fn write(&self) -> Result<()> {
         let new_metadata_content = match self.comment_sequence {
-            Some(comment_sequence) => serde_json::to_string_pretty(&self.metadata_object)?
-                .split('\n')
-                .map(|line| format!("{comment_sequence} {line}"))
-                .collect::<Vec<_>>()
-                .join("\n"),
+            Some(comment_sequence) => {
+                serde_json::to_string_pretty(&self.metadata_object)?
+                    .split('\n')
+                    .map(|line| format!("{comment_sequence} {line}"))
+                    .collect::<Vec<_>>()
+                    .join("\n")
+            }
             None => serde_json::to_string_pretty(&self.metadata_object)?,
         };
 
@@ -162,10 +179,16 @@ impl CaseWrapper<&mut Value> {
         self.inputs().map(|input| input.caller())
     }
 
-    fn apply_replacements(&mut self, map: &HashMap<Address, Address>) -> Result<()> {
-        if let Some(new_default_address) = map.get(&InputWrapper::<()>::ML_DEFAULT_CALLER) {
-            self.inputs_mut()
-                .try_for_each(|mut input| input.replace_caller_if_default(new_default_address))?;
+    fn apply_replacements(
+        &mut self,
+        map: &HashMap<Address, Address>,
+    ) -> Result<()> {
+        if let Some(new_default_address) =
+            map.get(&InputWrapper::<()>::ML_DEFAULT_CALLER)
+        {
+            self.inputs_mut().try_for_each(|mut input| {
+                input.replace_caller_if_default(new_default_address)
+            })?;
         }
 
         // The reason why we do a string replace rather than replacing the
@@ -176,7 +199,8 @@ impl CaseWrapper<&mut Value> {
         for (old, new) in map.iter() {
             let old = old.to_string();
             let new = new.to_string();
-            case_string = case_insensitive_find_and_replace(&case_string, &old, &new);
+            case_string =
+                case_insensitive_find_and_replace(&case_string, &old, &new);
         }
         *self.0 = serde_json::from_str(&case_string)?;
 
@@ -210,12 +234,17 @@ impl InputWrapper<&mut Value> {
             .context("The input must be an object")?;
         match input.get_mut("caller") {
             Some(Value::String(caller)) => {
-                if caller.eq_ignore_ascii_case(&Self::ML_DEFAULT_CALLER.to_string()) {
+                if caller
+                    .eq_ignore_ascii_case(&Self::ML_DEFAULT_CALLER.to_string())
+                {
                     *caller = new.to_string()
                 }
             }
             None => {
-                input.insert("caller".to_owned(), Value::String(new.to_string()));
+                input.insert(
+                    "caller".to_owned(),
+                    Value::String(new.to_string()),
+                );
             }
             _ => bail!("Caller mut be string"),
         };

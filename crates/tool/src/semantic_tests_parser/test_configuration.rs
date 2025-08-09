@@ -82,7 +82,8 @@ impl TestConfiguration {
 pub enum ItemConfig {
     /// The configuration is set to e a boolean that's either `true` or `false`.
     Boolean(bool),
-    /// The `also`
+    /// The `also` variant specifies that both `true` and `false` should be
+    /// executed.
     Also,
 }
 

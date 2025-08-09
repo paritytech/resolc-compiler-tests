@@ -247,6 +247,8 @@ impl SemanticTestSection {
 
 #[cfg(test)]
 mod test {
+    use std::fs::read_to_string;
+
     use indoc::indoc;
 
     use crate::common::FilesWithExtensionIterator;
@@ -355,7 +357,7 @@ mod test {
             FilesWithExtensionIterator::new(path).with_allowed_extension("sol");
 
         for file in files {
-            let content = std::fs::read_to_string(file).unwrap();
+            let content = read_to_string(file).unwrap();
 
             // Act
             let sections =

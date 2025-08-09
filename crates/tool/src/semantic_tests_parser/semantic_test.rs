@@ -14,6 +14,9 @@ use alloy::{
 use super::test_configuration::TestConfiguration;
 
 /// The main model that describes the solidity semantic test.
+///
+/// This set of models can be thought of as an IR of sorts that is high-level
+/// enough and can be more easily translated into the ML test format.
 #[derive(Clone, Debug)]
 pub struct SemanticTest {
     /// The path of the original solidity semantic test. This may be used for
@@ -22,9 +25,14 @@ pub struct SemanticTest {
 
     /// This contains all of the contract sources that are contained in the
     /// semantic test alongside the source code associated with these paths.
+    ///
     /// Note that some of these paths are missing the `.sol` extension and that
     /// this should be added later on when appropriate or when the test is being
     /// processed.
+    ///
+    /// Note that this contains both the code from the sources section and the
+    /// external sources section which means that they're all treated in the
+    /// same way.
     pub sources: HashMap<PathBuf, String>,
 
     /// This is the identifier of the main contract that the Solidity semantic

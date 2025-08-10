@@ -48,10 +48,6 @@ pub struct SemanticTest {
     /// tests.
     pub libraries: HashMap<PathBuf, HashSet<String>>,
 
-    /// Remappings that the compiler should be made aware of for the external
-    /// sources being used. This is a map from alias to canonical path.
-    pub remappings: HashMap<PathBuf, PathBuf>,
-
     /// This is the identifier of the main contract that the Solidity semantic
     /// test is calling into. This is always the final contract present in the
     /// semantic test file. No calls in the semantic tests happen to any other
@@ -352,7 +348,6 @@ impl SemanticTest {
         let path = semantic_test_path.to_path_buf();
         let mut sources = HashMap::<PathBuf, String>::new();
         let mut libraries = HashMap::<PathBuf, HashSet<String>>::new();
-        let mut remappings = HashMap::<PathBuf, PathBuf>::new();
         let main_contract_ident = sections
             .main_contract_ident()
             .context("No main contract found in the Solidity semantic test")?;
@@ -368,14 +363,10 @@ impl SemanticTest {
                         .unwrap_or_else(|| semantic_test_file_name.clone());
                     sources.insert(file_name, content);
                 }
-                SemanticTestSection::ExternalSource { path, alias } => {
+                SemanticTestSection::ExternalSource { path, .. } => {
                     let path = semantic_test_parent_directory.join(path).canonicalize().context("Failed to canonicalize the path to an external source")?;
                     let content = read_to_string(&path)?;
                     sources.insert(path.clone(), content);
-
-                    if let Some(alias) = alias {
-                        remappings.insert(alias, path);
-                    }
                 }
                 SemanticTestSection::TestConfiguration {
                     configuration: new,
@@ -648,7 +639,6 @@ impl SemanticTest {
             path,
             sources,
             libraries,
-            remappings,
             main_contract_ident,
             steps,
             configuration,

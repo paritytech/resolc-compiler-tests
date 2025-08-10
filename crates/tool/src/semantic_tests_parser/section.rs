@@ -2,10 +2,77 @@
 
 use std::{collections::VecDeque, path::PathBuf, sync::LazyLock};
 
-use anyhow::{Context, Result, anyhow};
+use anyhow::{Context, Result, anyhow, bail};
 use regex::Regex;
+use revive_dt_common::define_wrapper_type;
 
 use super::test_configuration::TestConfiguration;
+
+define_wrapper_type! {
+    /// A wrapper type for a collection of test sections from the Solidity
+    /// semantic tests.
+    #[derive(Clone, Debug, PartialEq, Eq)]
+    pub struct SemanticTestSections(Vec<SemanticTestSection>);
+}
+
+impl SemanticTestSections {
+    pub fn parse_source_into_sections(source: impl AsRef<str>) -> Result<Self> {
+        let mut sections = VecDeque::<SemanticTestSection>::new();
+        sections.push_back(SemanticTestSection::SourceCode {
+            file_name: None,
+            content: Default::default(),
+        });
+
+        for line in source.as_ref().split('\n') {
+            if let Some(new_section) = sections
+                .back_mut()
+                .expect("Impossible case - we have at least one item in the sections")
+                .append_line(line)?
+            {
+                sections.push_back(new_section);
+            }
+        }
+
+        let first_section = sections
+            .front()
+            .expect("Impossible case - there's always at least one section");
+        let remove_first_section = match first_section {
+            SemanticTestSection::SourceCode { file_name, content } => {
+                file_name.is_none() && content.trim().is_empty()
+            }
+            SemanticTestSection::ExternalSource { .. }
+            | SemanticTestSection::TestConfiguration { .. }
+            | SemanticTestSection::TestInputs { .. } => false,
+        };
+        if remove_first_section {
+            sections.pop_front();
+        }
+
+        Ok(Self(sections.into_iter().collect()))
+    }
+
+    pub fn main_contract_ident(&self) -> Option<String> {
+        static REGEX: LazyLock<Regex> = LazyLock::new(|| {
+            Regex::new(r"(?m)^\s*(contract|library)\s+([A-Za-z0-9_]+)")
+                .expect("valid regex for contract identifier")
+        });
+
+        let (_, final_source_code) =
+            self.0.iter().rev().find_map(|section| match section {
+                SemanticTestSection::SourceCode { file_name, content } => {
+                    Some((file_name, content))
+                }
+                SemanticTestSection::ExternalSource { .. }
+                | SemanticTestSection::TestConfiguration { .. }
+                | SemanticTestSection::TestInputs { .. } => None,
+            })?;
+
+        let captures =
+            REGEX.captures_iter(final_source_code).collect::<Vec<_>>();
+        let last_capture = captures.last()?;
+        last_capture.get(1).map(|m| m.as_str().to_string())
+    }
+}
 
 /// This enum describes the various sections that a semantic test can contain.
 #[derive(Clone, Debug, PartialEq, Eq)]
@@ -67,7 +134,10 @@ pub enum SemanticTestSection {
     ///
     /// And they can be thought of as a directive to the compiler to include these contracts when
     /// compiling the test contract.
-    ExternalSource { path: PathBuf },
+    ExternalSource {
+        alias: Option<PathBuf>,
+        path: PathBuf,
+    },
 
     /// A test configuration section
     ///
@@ -107,43 +177,6 @@ impl SemanticTestSection {
     const TEST_CONFIGURATION_SECTION_MARKER: &str = "// ====";
     const TEST_INPUTS_SECTION_MARKER: &str = "// ----";
 
-    pub fn parse_source_into_sections(
-        source: impl AsRef<str>,
-    ) -> Result<Vec<Self>> {
-        let mut sections = VecDeque::<Self>::new();
-        sections.push_back(Self::SourceCode {
-            file_name: None,
-            content: Default::default(),
-        });
-
-        for line in source.as_ref().split('\n') {
-            if let Some(new_section) = sections
-                .back_mut()
-                .expect("Impossible case - we have at least one item in the sections")
-                .append_line(line)?
-            {
-                sections.push_back(new_section);
-            }
-        }
-
-        let first_section = sections
-            .front()
-            .expect("Impossible case - there's always at least one section");
-        let remove_first_section = match first_section {
-            SemanticTestSection::SourceCode { file_name, content } => {
-                file_name.is_none() && content.is_empty()
-            }
-            SemanticTestSection::ExternalSource { .. }
-            | SemanticTestSection::TestConfiguration { .. }
-            | SemanticTestSection::TestInputs { .. } => false,
-        };
-        if remove_first_section {
-            sections.pop_front();
-        }
-
-        Ok(sections.into_iter().collect())
-    }
-
     /// Appends a line to a semantic test section.
     ///
     /// This method takes in the current section and a new line and attempts to append it to parse
@@ -180,9 +213,23 @@ impl SemanticTestSection {
                 .split(' ')
                 .next()
                 .context("Failed to find the source code file path")?;
-            Ok(Some(Self::ExternalSource {
-                path: PathBuf::from(source_code_file_path),
-            }))
+            let mut splitted = source_code_file_path.split("=");
+
+            match (splitted.next(), splitted.next()) {
+                (Some(source_code_file_path), None) => {
+                    Ok(Some(Self::ExternalSource {
+                        path: PathBuf::from(source_code_file_path),
+                        alias: None,
+                    }))
+                }
+                (Some(alias), Some(source_code_file_path)) => {
+                    Ok(Some(Self::ExternalSource {
+                        path: PathBuf::from(source_code_file_path),
+                        alias: PathBuf::from(alias).into(),
+                    }))
+                }
+                _ => bail!("More than one space found in an external source"),
+            }
         } else if line == Self::TEST_CONFIGURATION_SECTION_MARKER {
             Ok(Some(Self::TestConfiguration {
                 configuration: Default::default(),
@@ -275,12 +322,12 @@ mod test {
 
         // Act
         let sections =
-            SemanticTestSection::parse_source_into_sections(SIMPLE_FILE)
+            SemanticTestSections::parse_source_into_sections(SIMPLE_FILE)
                 .expect("Failed to parse");
 
         // Assert
         assert_eq!(
-            sections,
+            sections.into_inner(),
             vec![
                 SemanticTestSection::SourceCode {
                     file_name: Some("main.sol".into()),
@@ -324,12 +371,12 @@ mod test {
 
         // Act
         let sections =
-            SemanticTestSection::parse_source_into_sections(COMPLEX_FILE)
+            SemanticTestSections::parse_source_into_sections(COMPLEX_FILE)
                 .expect("Failed to parse");
 
         // Assert
         assert_eq!(
-            sections,
+            sections.into_inner(),
             vec![
                 SemanticTestSection::SourceCode {
                     file_name: Some("main.sol".into()),
@@ -357,16 +404,41 @@ mod test {
             FilesWithExtensionIterator::new(path).with_allowed_extension("sol");
 
         for file in files {
-            let content = read_to_string(file).unwrap();
+            let content = read_to_string(&file).unwrap();
 
             // Act
             let sections =
-                SemanticTestSection::parse_source_into_sections(content);
+                SemanticTestSections::parse_source_into_sections(content);
 
             // Assert
-            sections.expect(
-                "Failed to parse the sections in the solidity semantic tests",
+            assert!(
+                sections.is_ok(),
+                "Failed to parse sections in {} with {:?}",
+                file.display(),
+                sections
             );
+            let sections = sections.unwrap();
+
+            if sections
+                .iter()
+                .find(|section| {
+                    if let SemanticTestSection::TestInputs { .. } = section {
+                        true
+                    } else {
+                        false
+                    }
+                })
+                .is_none()
+            {
+                continue;
+            }
+
+            assert!(
+                sections.main_contract_ident().is_some(),
+                "No main contract found in semantic test in {}",
+                file.display()
+            );
+            println!("✅ Succeeded {path:?}");
         }
     }
 }

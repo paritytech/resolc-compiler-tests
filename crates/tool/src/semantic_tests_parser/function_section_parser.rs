@@ -1,5 +1,5 @@
 use std::{
-    fmt::Debug,
+    fmt::{Debug, Display},
     io::{Cursor, Read},
     marker::PhantomData,
     str::FromStr,
@@ -300,8 +300,8 @@ derive_parse_for_struct! {
     pub struct FunctionCallNode {
         pub signature: Signature,
         pub ether_value: Option<(CommaToken, EtherValue)>,
-        pub arguments: Option<(ColonToken, DelimitedCollection<InputValue, CommaToken>)>,
-        pub returns: Option<(Arrow, DelimitedCollection<OutputValue, CommaToken>)>,
+        pub arguments: Option<(ColonToken, DelimitedCollection<Value, CommaToken>)>,
+        pub returns: Option<(Arrow, DelimitedCollection<Value, CommaToken>)>,
     }
 }
 
@@ -316,10 +316,29 @@ derive_parse_for_struct! {
     pub struct Signature {
         /// The identifier here is optional since calling the fallback function
         /// on the contract uses no identifier.
-        pub function_ident: Option<Identifier>,
+        pub ident: Option<Identifier>,
         pub open_paren: OpenParenToken,
         pub argument_types: DelimitedCollection<ArgumentType, CommaToken>,
         pub close_paren: CloseParenToken,
+    }
+}
+
+impl Display for Signature {
+    fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
+        if let Some(ref identifier) = self.ident {
+            write!(f, "{}", identifier.0)?;
+        }
+        write!(f, "(")?;
+        let mut is_first = true;
+        for argument_type in self.argument_types.0.iter() {
+            if !is_first {
+                write!(f, ",")?;
+            }
+            write!(f, "{}", argument_type.0)?;
+            is_first = false;
+        }
+        write!(f, ")")?;
+        Ok(())
     }
 }
 
@@ -424,35 +443,8 @@ impl Parse for ArgumentType {
 }
 
 define_nodes_enum! {
-    /// Represents the set of allowed input types to be used for functions and
-    /// in other places. This can look like the following:
-    ///
-    /// ```text
-    /// 0xdeadbeef
-    /// -1
-    /// 1
-    /// true
-    /// false
-    /// "Hello world"
-    /// hex"DEADBEEF"
-    /// right(1)
-    /// left(1)
-    /// ```
-    #[derive(Clone, Debug, PartialEq, Eq, PartialOrd, Ord, Hash)]
-    pub enum InputValue {
-        UnsignedNumber(U256),
-        SignedNumber(I256),
-        Boolean(Boolean),
-        String(StringLiteral),
-        HexString(HexString),
-        RightAlignedValue(RightAlignedValue),
-        LeftAlignedValue(LeftAlignedValue)
-    }
-}
-
-define_nodes_enum! {
-    /// Represents the set of allowed output types to be used for functions and
-    /// in other places. This can look like the following:
+    /// Represents the set of allowed IO values that can be used in functions
+    /// and in other places.
     ///
     /// ```text
     /// 0xdeadbeef
@@ -467,7 +459,7 @@ define_nodes_enum! {
     /// FAILURE
     /// ```
     #[derive(Clone, Debug, PartialEq, Eq, PartialOrd, Ord, Hash)]
-    pub enum OutputValue {
+    pub enum Value {
         UnsignedNumber(U256),
         SignedNumber(I256),
         Boolean(Boolean),
@@ -675,7 +667,7 @@ define_nodes_enum! {
     #[derive(Clone, Debug, PartialEq, Eq, PartialOrd, Ord, Hash)]
     pub enum EventValue {
         Indexed(IndexedEventValue),
-        Unindexed(InputValue)
+        Unindexed(Value)
     }
 }
 
@@ -697,7 +689,7 @@ derive_parse_for_struct! {
     #[derive(Clone, Debug, PartialEq, Eq, PartialOrd, Ord, Hash)]
     pub struct IndexedEventValue {
         pub pound: PoundToken,
-        pub value: InputValue
+        pub value: Value
     }
 }
 
@@ -772,7 +764,7 @@ impl_parse_for_tuple!(
 /// Represents a collection of nodes [`T`] that are separated by a delimiter
 /// [`D`].
 #[derive(Clone, Debug, PartialEq, Eq, PartialOrd, Ord, Hash)]
-pub struct DelimitedCollection<T, D>(Vec<T>, PhantomData<D>);
+pub struct DelimitedCollection<T, D>(pub Vec<T>, PhantomData<D>);
 
 impl<T: Parse + Debug, D: Parse> Parse for DelimitedCollection<T, D> {
     fn parse(parser: &mut Parser<impl AsRef<[u8]>>) -> Result<Self> {
@@ -1308,7 +1300,7 @@ impl Token {
     }
 }
 
-fn decimal_char_to_t<T: TryFrom<i32, Error: Debug>>(char: char) -> T {
+pub fn decimal_char_to_t<T: TryFrom<i32, Error: Debug>>(char: char) -> T {
     assert!(char.is_ascii_digit());
     match char {
         '0' => T::try_from(0).unwrap(),
@@ -1325,7 +1317,7 @@ fn decimal_char_to_t<T: TryFrom<i32, Error: Debug>>(char: char) -> T {
     }
 }
 
-fn hex_char_to_t<T: TryFrom<i32, Error: Debug>>(char: char) -> T {
+pub fn hex_char_to_t<T: TryFrom<i32, Error: Debug>>(char: char) -> T {
     assert!(char.is_ascii_hexdigit());
     match char {
         '0' => T::try_from(0x0).unwrap(),
@@ -1355,11 +1347,11 @@ fn hex_char_to_t<T: TryFrom<i32, Error: Debug>>(char: char) -> T {
 mod test {
     use std::fs::read_to_string;
 
+    use alloy::primitives::{Address, FixedBytes};
     use indoc::indoc;
 
     use crate::{
-        common::FilesWithExtensionIterator,
-        semantic_tests_parser::section::SemanticTestSection,
+        common::FilesWithExtensionIterator, semantic_tests_parser::section::*,
     };
 
     use super::*;
@@ -1447,9 +1439,9 @@ mod test {
             let content = read_to_string(&path).unwrap();
 
             let sections =
-                SemanticTestSection::parse_source_into_sections(content)
+                SemanticTestSections::parse_source_into_sections(content)
                     .unwrap();
-            let tests = sections.into_iter().find_map(|section| {
+            let tests = sections.into_inner().into_iter().find_map(|section| {
                 if let SemanticTestSection::TestInputs { lines } = section {
                     Some(lines.join("\n"))
                 } else {
@@ -1474,6 +1466,27 @@ mod test {
             );
             println!("✅ Succeeded {path:?}");
         }
+    }
+
+    #[test]
+    fn address_parsing_and_conversion_is_correct() {
+        // Arrange
+        let string = "0x1212121212121212121212121212120000000012";
+        let mut lexer = Lexer::new(string);
+
+        // Act
+        let token = lexer.next_token();
+
+        // Assert
+        let Ok(Some(Token::UnsignedNumber(address))) = token else {
+            panic!("Lexing address failed")
+        };
+        let address =
+            Address::from_word(FixedBytes(address.to_be_bytes::<32>()));
+        assert_eq!(
+            address.to_string(),
+            "0x1212121212121212121212121212120000000012"
+        )
     }
 }
 // endregion:Tests

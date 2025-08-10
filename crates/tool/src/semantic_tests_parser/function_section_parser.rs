@@ -1298,7 +1298,9 @@ impl Token {
     }
 
     pub fn new_string_literal(value: impl Into<String>) -> Self {
-        Self::StringLiteral(StringLiteral::new(value.into()))
+        Self::StringLiteral(StringLiteral::new(
+            value.into().trim_matches('"').to_string(),
+        ))
     }
 
     pub fn new_non_alphanumeric_char(value: impl Into<char>) -> Self {
@@ -1410,7 +1412,7 @@ mod test {
                 Token::new_non_alphanumeric_char(','),
                 Token::new_unsigned_number(U256::from(3)),
                 Token::new_non_alphanumeric_char(','),
-                Token::new_string_literal("\"abc\\\"\""),
+                Token::new_string_literal("abc\\\""),
                 Token::new_non_alphanumeric_char(','),
                 Token::new_signed_number(I256::MIN),
                 Token::new_non_alphanumeric_char(','),

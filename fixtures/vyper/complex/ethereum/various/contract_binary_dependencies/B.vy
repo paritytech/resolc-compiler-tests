@@ -1,3 +1,0 @@
-@external
-def f():
-    pass

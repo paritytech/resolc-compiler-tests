@@ -1,2 +1,0 @@
-# ----
-# storageEmpty -> 1

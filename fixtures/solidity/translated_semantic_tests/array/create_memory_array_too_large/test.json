@@ -1,0 +1,40 @@
+{
+  "cases": [
+    {
+      "name": "create_memory_array_too_large",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f() -> FAILURE, hex\"4e487b71\", 0x41",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1313373041",
+              "65"
+            ],
+            "exception": true
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g() -> FAILURE, hex\"4e487b71\", 0x41",
+          "instance": "C",
+          "method": "g()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1313373041",
+              "65"
+            ],
+            "exception": true
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "create_memory_array_too_large.sol:C"
+  }
+}

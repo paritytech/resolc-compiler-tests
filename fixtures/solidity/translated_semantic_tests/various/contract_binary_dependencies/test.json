@@ -1,0 +1,22 @@
+{
+  "cases": [
+    {
+      "name": "contract_binary_dependencies",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "constructor() ->; gas irOptimized: 100415",
+          "instance": "C",
+          "method": "#deployer",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "contract_binary_dependencies.sol:C"
+  }
+}

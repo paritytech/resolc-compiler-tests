@@ -1,0 +1,40 @@
+{
+  "cases": [
+    {
+      "name": "calldata_dyn_2d_bytes_to_memory",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(bytes[]): 0x20, 2, 0x60, 0x60, 0x20, 2, \"ab\" -> 0x20, 2, 0x40, 0x80, 2, \"ab\", 2, \"ab\"",
+          "instance": "C",
+          "method": "f(bytes[])",
+          "calldata": [
+            "32",
+            "2",
+            "96",
+            "96",
+            "32",
+            "2",
+            "24930"
+          ],
+          "expected": {
+            "return_data": [
+              "32",
+              "2",
+              "64",
+              "128",
+              "2",
+              "24930",
+              "2",
+              "24930"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "calldata_dyn_2d_bytes_to_memory.sol:C"
+  }
+}

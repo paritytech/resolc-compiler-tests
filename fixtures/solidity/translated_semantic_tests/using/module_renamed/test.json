@@ -1,0 +1,29 @@
+{
+  "cases": [
+    {
+      "name": "module_renamed",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "test(uint256,uint256): 1, 1 -> 9, 3",
+          "instance": "C",
+          "method": "test(uint256,uint256)",
+          "calldata": [
+            "1",
+            "1"
+          ],
+          "expected": {
+            "return_data": [
+              "9",
+              "3"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "C:C"
+  }
+}

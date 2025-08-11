@@ -1,0 +1,60 @@
+{
+  "cases": [
+    {
+      "name": "struct_mapping_abstract_constructor_param",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "getM(uint256,uint256): 0, 0 -> 0",
+          "instance": "C",
+          "method": "getM(uint256,uint256)",
+          "calldata": [
+            "0",
+            "0"
+          ],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "getM(uint256,uint256): 1, 5 -> 0x10",
+          "instance": "C",
+          "method": "getM(uint256,uint256)",
+          "calldata": [
+            "1",
+            "5"
+          ],
+          "expected": {
+            "return_data": [
+              "16"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "getM(uint256,uint256): 1, 0 -> 0",
+          "instance": "C",
+          "method": "getM(uint256,uint256)",
+          "calldata": [
+            "1",
+            "0"
+          ],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "struct_mapping_abstract_constructor_param.sol:C"
+  }
+}

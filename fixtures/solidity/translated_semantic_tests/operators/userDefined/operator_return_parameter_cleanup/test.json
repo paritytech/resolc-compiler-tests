@@ -1,0 +1,40 @@
+{
+  "cases": [
+    {
+      "name": "operator_return_parameter_cleanup",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "testUnary() -> 0xffff, 0xffff",
+          "instance": "C",
+          "method": "testUnary()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "65535",
+              "65535"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "testBinary() -> 0xffff, 0xffff",
+          "instance": "C",
+          "method": "testBinary()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "65535",
+              "65535"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "operator_return_parameter_cleanup.sol:C"
+  }
+}

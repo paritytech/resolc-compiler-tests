@@ -1,0 +1,32 @@
+{
+  "cases": [
+    {
+      "name": "struct_delete_storage_with_array",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f() ->; gas irOptimized: 113465; gas legacy: 113591; gas legacyOptimized: 113098",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g() ->; gas irOptimized: 118828; gas legacy: 118764; gas legacyOptimized: 118168",
+          "instance": "C",
+          "method": "g()",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "struct_delete_storage_with_array.sol:C"
+  }
+}

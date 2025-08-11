@@ -1,0 +1,46 @@
+{
+  "cases": [
+    {
+      "name": "isoltestFormatting",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f() -> 4, 11, 0x0111, 0x333333, 2222222222222222222",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "4",
+              "11",
+              "273",
+              "3355443",
+              "2222222222222222222"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g() -> 0x10, 0x0100, 0x0101, 0x333333, 2222222222222222222",
+          "instance": "C",
+          "method": "g()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "16",
+              "256",
+              "257",
+              "3355443",
+              "2222222222222222222"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "isoltestFormatting.sol:C"
+  }
+}

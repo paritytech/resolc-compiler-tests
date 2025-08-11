@@ -1,0 +1,168 @@
+{
+  "cases": [
+    {
+      "name": "shift_right_negative_literal",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f1() -> true",
+          "instance": "C",
+          "method": "f1()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f2() -> true",
+          "instance": "C",
+          "method": "f2()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f3() -> true",
+          "instance": "C",
+          "method": "f3()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f4() -> true",
+          "instance": "C",
+          "method": "f4()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f5() -> true",
+          "instance": "C",
+          "method": "f5()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f6() -> true",
+          "instance": "C",
+          "method": "f6()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g1() -> true",
+          "instance": "C",
+          "method": "g1()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g2() -> true",
+          "instance": "C",
+          "method": "g2()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g3() -> true",
+          "instance": "C",
+          "method": "g3()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g4() -> true",
+          "instance": "C",
+          "method": "g4()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g5() -> true",
+          "instance": "C",
+          "method": "g5()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g6() -> true",
+          "instance": "C",
+          "method": "g6()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "shift_right_negative_literal.sol:C"
+  }
+}

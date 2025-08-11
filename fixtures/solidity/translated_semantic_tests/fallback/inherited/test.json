@@ -1,0 +1,50 @@
+{
+  "cases": [
+    {
+      "name": "inherited",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "getData() -> 0",
+          "instance": "B",
+          "method": "getData()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "(): 42 ->",
+          "instance": "B",
+          "method": "#fallback",
+          "calldata": [
+            "42"
+          ],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "getData() -> 1",
+          "instance": "B",
+          "method": "getData()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "B": "inherited.sol:B"
+  }
+}

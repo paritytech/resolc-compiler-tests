@@ -1,0 +1,88 @@
+{
+  "cases": [
+    {
+      "name": "try_catch_library_call",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(bool): true -> 8, 0x40, 0",
+          "instance": "C",
+          "method": "f(bool)",
+          "calldata": [
+            "1"
+          ],
+          "expected": {
+            "return_data": [
+              "8",
+              "64",
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(bool): false -> 18, 0x40, 7, \"failure\"",
+          "instance": "C",
+          "method": "f(bool)",
+          "calldata": [
+            "0"
+          ],
+          "expected": {
+            "return_data": [
+              "18",
+              "64",
+              "7",
+              "28817553043583589"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g(bool): true -> 9, 0x40, 0",
+          "instance": "C",
+          "method": "g(bool)",
+          "calldata": [
+            "1"
+          ],
+          "expected": {
+            "return_data": [
+              "9",
+              "64",
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g(bool): false -> 19, 0x40, 7, \"failure\"",
+          "instance": "C",
+          "method": "g(bool)",
+          "calldata": [
+            "0"
+          ],
+          "expected": {
+            "return_data": [
+              "19",
+              "64",
+              "7",
+              "28817553043583589"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "try_catch_library_call.sol:C",
+    "L": "try_catch_library_call.sol:L"
+  },
+  "libraries": {
+    "try_catch_library_call.sol": {
+      "L": "L"
+    }
+  }
+}

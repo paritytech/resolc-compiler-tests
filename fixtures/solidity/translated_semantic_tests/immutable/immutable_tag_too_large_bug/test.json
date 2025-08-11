@@ -1,0 +1,36 @@
+{
+  "cases": [
+    {
+      "name": "immutable_tag_too_large_bug",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "constructor() ->; gas irOptimized: 73171; gas irOptimized code: 291200; gas legacy: 83499; gas legacy code: 408800",
+          "instance": "C",
+          "method": "#deployer",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f() -> -1, 1",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "115792089237316195423570985008687907853269984665640564039457584007913129639935",
+              "1"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "immutable_tag_too_large_bug.sol:C"
+  }
+}

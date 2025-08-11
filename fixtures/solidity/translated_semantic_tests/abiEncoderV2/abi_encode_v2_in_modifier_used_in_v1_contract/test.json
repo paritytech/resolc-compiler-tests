@@ -1,0 +1,26 @@
+{
+  "cases": [
+    {
+      "name": "abi_encode_v2_in_modifier_used_in_v1_contract",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "test() -> 5, 10; gas irOptimized: 87337; gas legacy: 66250; gas legacy code: 36400",
+          "instance": "C",
+          "method": "test()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "5",
+              "10"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "B:C"
+  }
+}

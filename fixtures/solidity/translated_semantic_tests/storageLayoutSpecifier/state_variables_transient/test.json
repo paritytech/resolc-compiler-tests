@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "state_variables_transient",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "test() -> 2",
+          "instance": "C",
+          "method": "test()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "2"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "state_variables_transient.sol:C"
+  }
+}

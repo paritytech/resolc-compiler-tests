@@ -1,0 +1,36 @@
+{
+  "cases": [
+    {
+      "name": "event_really_lots_of_data",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "deposit() ->; ~ emit Deposit(uint256,bytes,uint256): 0x0a, 0x60, 0x0f, 0x04, 0xd0e30db000000000000000000000000000000000000000000000000000000000",
+          "instance": "ClientReceipt",
+          "method": "deposit()",
+          "calldata": [],
+          "expected": {
+            "events": [
+              {
+                "topics": [
+                  "fbb8ec7f2549410a5367d51d1d5d61dcd78f68db2cc78e8accaa5e302185fa74"
+                ],
+                "values": [
+                  "10",
+                  "96",
+                  "15",
+                  "4",
+                  "94482241256677223720308674365448432550660581809977780367718865401173155774464"
+                ]
+              }
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "ClientReceipt": "event_really_lots_of_data.sol:ClientReceipt"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "code_access_create",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "test() -> 7; gas legacy: 76647; gas legacy code: 24200",
+          "instance": "C",
+          "method": "test()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "7"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "code_access_create.sol:C"
+  }
+}

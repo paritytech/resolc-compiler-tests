@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "create_dynamic_array_with_zero_length",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f() -> 7",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "7"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "create_dynamic_array_with_zero_length.sol:C"
+  }
+}

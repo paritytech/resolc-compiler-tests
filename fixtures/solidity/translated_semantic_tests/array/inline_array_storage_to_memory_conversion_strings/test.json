@@ -1,0 +1,30 @@
+{
+  "cases": [
+    {
+      "name": "inline_array_storage_to_memory_conversion_strings",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f() -> 0x40, 0x80, 0x3, \"ray\", 0x2, \"mi\"",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "64",
+              "128",
+              "3",
+              "7496057",
+              "2",
+              "28009"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "inline_array_storage_to_memory_conversion_strings.sol:C"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "cases": [
+    {
+      "name": "struct_with_functions",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f() -> 1, 2",
+          "instance": "Flow",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1",
+              "2"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "Flow": "struct_with_functions.sol:Flow"
+  }
+}

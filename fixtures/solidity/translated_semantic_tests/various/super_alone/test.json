@@ -1,0 +1,22 @@
+{
+  "cases": [
+    {
+      "name": "super_alone",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f() ->",
+          "instance": "A",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "A": "super_alone.sol:A"
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "cases": [
+    {
+      "name": "mapping_key",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "set(int256,int256): 1, 1 ->",
+          "instance": "C",
+          "method": "set(int256,int256)",
+          "calldata": [
+            "1",
+            "1"
+          ],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "m(int256): 1 -> 1",
+          "instance": "C",
+          "method": "m(int256)",
+          "calldata": [
+            "1"
+          ],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "set_unwrapped(int256,int256): 1, 2 ->",
+          "instance": "C",
+          "method": "set_unwrapped(int256,int256)",
+          "calldata": [
+            "1",
+            "2"
+          ],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "m(int256): 1 -> 2",
+          "instance": "C",
+          "method": "m(int256)",
+          "calldata": [
+            "1"
+          ],
+          "expected": {
+            "return_data": [
+              "2"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "m(int256): 2 -> 0",
+          "instance": "C",
+          "method": "m(int256)",
+          "calldata": [
+            "2"
+          ],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "mapping_key.sol:C"
+  }
+}

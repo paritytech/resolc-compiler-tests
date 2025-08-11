@@ -1,0 +1,57 @@
+{
+  "cases": [
+    {
+      "name": "array_memory_create",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "create(uint256): 0 -> 0",
+          "instance": "C",
+          "method": "create(uint256)",
+          "calldata": [
+            "0"
+          ],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "create(uint256): 7 -> 7",
+          "instance": "C",
+          "method": "create(uint256)",
+          "calldata": [
+            "7"
+          ],
+          "expected": {
+            "return_data": [
+              "7"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "create(uint256): 10 -> 10",
+          "instance": "C",
+          "method": "create(uint256)",
+          "calldata": [
+            "10"
+          ],
+          "expected": {
+            "return_data": [
+              "10"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "array_memory_create.sol:C"
+  }
+}

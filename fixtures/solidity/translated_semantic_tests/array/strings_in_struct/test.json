@@ -1,0 +1,66 @@
+{
+  "cases": [
+    {
+      "name": "strings_in_struct",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "getFirst() -> 0x0a",
+          "instance": "buggystruct",
+          "method": "getFirst()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "10"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "getSecond() -> 0x14",
+          "instance": "buggystruct",
+          "method": "getSecond()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "20"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "getThird() -> 0x1e",
+          "instance": "buggystruct",
+          "method": "getThird()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "30"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "getLast() -> 0x20, 0x09, \"asdfghjkl\"",
+          "instance": "buggystruct",
+          "method": "getLast()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "32",
+              "9",
+              "1797649058556178754412"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "buggystruct": "strings_in_struct.sol:buggystruct"
+  }
+}

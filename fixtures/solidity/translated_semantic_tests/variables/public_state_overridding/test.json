@@ -1,0 +1,48 @@
+{
+  "cases": [
+    {
+      "name": "public_state_overridding",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "test() -> 0",
+          "instance": "X",
+          "method": "test()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "set() ->",
+          "instance": "X",
+          "method": "set()",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "test() -> 2",
+          "instance": "X",
+          "method": "test()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "2"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "X": "public_state_overridding.sol:X"
+  }
+}

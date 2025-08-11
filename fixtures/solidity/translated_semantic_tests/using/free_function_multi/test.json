@@ -1,0 +1,72 @@
+{
+  "cases": [
+    {
+      "name": "free_function_multi",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256): 10 -> 10",
+          "instance": "C",
+          "method": "f(uint256)",
+          "calldata": [
+            "10"
+          ],
+          "expected": {
+            "return_data": [
+              "10"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g(uint256): 10 -> 0",
+          "instance": "C",
+          "method": "g(uint256)",
+          "calldata": [
+            "10"
+          ],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256): 256 -> 0x0100",
+          "instance": "C",
+          "method": "f(uint256)",
+          "calldata": [
+            "256"
+          ],
+          "expected": {
+            "return_data": [
+              "256"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g(uint256): 256 -> 0",
+          "instance": "C",
+          "method": "g(uint256)",
+          "calldata": [
+            "256"
+          ],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "free_function_multi.sol:C"
+  }
+}

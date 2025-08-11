@@ -1,0 +1,46 @@
+{
+  "cases": [
+    {
+      "name": "calldata_array_function_types",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g(bool): false -> 23, 37, 71",
+          "instance": "C",
+          "method": "g(bool)",
+          "calldata": [
+            "0"
+          ],
+          "expected": {
+            "return_data": [
+              "23",
+              "37",
+              "71"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g(bool): true -> 23, 37, 71",
+          "instance": "C",
+          "method": "g(bool)",
+          "calldata": [
+            "1"
+          ],
+          "expected": {
+            "return_data": [
+              "23",
+              "37",
+              "71"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "calldata_array_function_types.sol:C"
+  }
+}

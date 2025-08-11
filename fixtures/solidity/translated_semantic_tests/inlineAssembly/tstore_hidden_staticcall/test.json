@@ -1,0 +1,22 @@
+{
+  "cases": [
+    {
+      "name": "tstore_hidden_staticcall",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "test() -> FAILURE; gas irOptimized: 98437877; gas legacy: 98437871; gas legacyOptimized: 98437872",
+          "instance": "C",
+          "method": "test()",
+          "calldata": [],
+          "expected": {
+            "exception": true
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "tstore_hidden_staticcall.sol:C"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "multiple_initializations",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "get() -> 0xff",
+          "instance": "C",
+          "method": "get()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "255"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "multiple_initializations.sol:C"
+  }
+}

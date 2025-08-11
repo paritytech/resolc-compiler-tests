@@ -1,0 +1,26 @@
+{
+  "cases": [
+    {
+      "name": "array_storage_pop_zero_length",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "popEmpty() -> FAILURE, hex\"4e487b71\", 0x31",
+          "instance": "C",
+          "method": "popEmpty()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1313373041",
+              "49"
+            ],
+            "exception": true
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "array_storage_pop_zero_length.sol:C"
+  }
+}

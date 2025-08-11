@@ -1,0 +1,46 @@
+{
+  "cases": [
+    {
+      "name": "calldata_struct_simple",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f((uint256)): 3 -> 32, 32, 3",
+          "instance": "C",
+          "method": "f((uint256))",
+          "calldata": [
+            "3"
+          ],
+          "expected": {
+            "return_data": [
+              "32",
+              "32",
+              "3"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g((uint256)): 3 -> 32, 32, 3",
+          "instance": "C",
+          "method": "g((uint256))",
+          "calldata": [
+            "3"
+          ],
+          "expected": {
+            "return_data": [
+              "32",
+              "32",
+              "3"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "calldata_struct_simple.sol:C"
+  }
+}

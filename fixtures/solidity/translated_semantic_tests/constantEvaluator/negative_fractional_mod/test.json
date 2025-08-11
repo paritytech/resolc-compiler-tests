@@ -1,0 +1,26 @@
+{
+  "cases": [
+    {
+      "name": "negative_fractional_mod",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f() -> 11, 10",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "11",
+              "10"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "negative_fractional_mod.sol:C"
+  }
+}

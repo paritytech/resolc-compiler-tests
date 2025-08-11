@@ -1,0 +1,41 @@
+{
+  "cases": [
+    {
+      "name": "abi_decode_v2_calldata",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(bytes): 0x20, 0xe0, 0x20, 0x21, 0x40, 0x3, 0xa, 0xb, 0xc -> 0x20, 0x21, 0x40, 0x3, 0xa, 0xb, 0xc",
+          "instance": "C",
+          "method": "f(bytes)",
+          "calldata": [
+            "32",
+            "224",
+            "32",
+            "33",
+            "64",
+            "3",
+            "10",
+            "11",
+            "12"
+          ],
+          "expected": {
+            "return_data": [
+              "32",
+              "33",
+              "64",
+              "3",
+              "10",
+              "11",
+              "12"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "abi_decode_v2_calldata.sol:C"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "cases": [
+    {
+      "name": "copy_from_calldata_removes_bytes_data",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "(): 1, 2, 3, 4, 5 ->; gas irOptimized: 155122; gas legacy: 155473; gas legacyOptimized: 155295",
+          "instance": "c",
+          "method": "#fallback",
+          "calldata": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "checkIfDataIsEmpty() -> false",
+          "instance": "c",
+          "method": "checkIfDataIsEmpty()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "sendMessage() -> true, 0x40, 0",
+          "instance": "c",
+          "method": "sendMessage()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1",
+              "64",
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "checkIfDataIsEmpty() -> true",
+          "instance": "c",
+          "method": "checkIfDataIsEmpty()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "c": "copy_from_calldata_removes_bytes_data.sol:c"
+  }
+}

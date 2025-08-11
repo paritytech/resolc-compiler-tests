@@ -1,0 +1,103 @@
+{
+  "cases": [
+    {
+      "name": "push_no_args_bytes",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "l() -> 0",
+          "instance": "C",
+          "method": "l()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g(uint256): 70 ->; gas irOptimized: 181778; gas legacy: 175192; gas legacyOptimized: 175005",
+          "instance": "C",
+          "method": "g(uint256)",
+          "calldata": [
+            "70"
+          ],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "l() -> 70",
+          "instance": "C",
+          "method": "l()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "70"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "a(uint256): 69 -> left(69)",
+          "instance": "C",
+          "method": "a(uint256)",
+          "calldata": [
+            "69"
+          ],
+          "expected": {
+            "return_data": [
+              "31209586552245380797759367053122912663576675554410933276260051939632835723264"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f() ->",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "l() -> 71",
+          "instance": "C",
+          "method": "l()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "71"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "a(uint256): 70 -> 0",
+          "instance": "C",
+          "method": "a(uint256)",
+          "calldata": [
+            "70"
+          ],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "push_no_args_bytes.sol:C"
+  }
+}

@@ -1,0 +1,7 @@
+pragma abicoder v1;
+import "A";
+contract C is B {
+    function test() public returns (uint) {
+        return foo(new A());
+    }
+}

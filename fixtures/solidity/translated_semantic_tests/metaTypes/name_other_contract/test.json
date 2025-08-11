@@ -1,0 +1,57 @@
+{
+  "cases": [
+    {
+      "name": "name_other_contract",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "c() -> 0x20, 1, \"C\"",
+          "instance": "Test",
+          "method": "c()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "32",
+              "1",
+              "67"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "a() -> 0x20, 1, \"A\"",
+          "instance": "Test",
+          "method": "a()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "32",
+              "1",
+              "65"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "i() -> 0x20, 1, \"I\"",
+          "instance": "Test",
+          "method": "i()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "32",
+              "1",
+              "73"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "Test": "name_other_contract.sol:Test"
+  }
+}

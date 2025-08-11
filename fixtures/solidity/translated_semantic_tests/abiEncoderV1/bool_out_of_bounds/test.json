@@ -1,0 +1,72 @@
+{
+  "cases": [
+    {
+      "name": "bool_out_of_bounds",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(bool): true -> true",
+          "instance": "C",
+          "method": "f(bool)",
+          "calldata": [
+            "1"
+          ],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(bool): false -> false",
+          "instance": "C",
+          "method": "f(bool)",
+          "calldata": [
+            "0"
+          ],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(bool): 0x000000 -> false",
+          "instance": "C",
+          "method": "f(bool)",
+          "calldata": [
+            "0"
+          ],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(bool): 0xffffff -> true",
+          "instance": "C",
+          "method": "f(bool)",
+          "calldata": [
+            "16777215"
+          ],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "bool_out_of_bounds.sol:C"
+  }
+}

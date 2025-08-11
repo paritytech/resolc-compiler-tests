@@ -1,0 +1,31 @@
+{
+  "cases": [
+    {
+      "name": "array_pop_uint24_transition",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "test() -> 20, 10; gas irOptimized: 125889; gas legacy: 127215; gas legacyOptimized: 122224",
+          "instance": "c",
+          "method": "test()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "20",
+              "10"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "comment": "storageEmpty -> 1",
+          "address": "c.address",
+          "is_storage_empty": true
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "c": "array_pop_uint24_transition.sol:c"
+  }
+}

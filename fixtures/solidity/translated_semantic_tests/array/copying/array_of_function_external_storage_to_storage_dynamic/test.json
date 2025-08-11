@@ -1,0 +1,38 @@
+{
+  "cases": [
+    {
+      "name": "array_of_function_external_storage_to_storage_dynamic",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "copyExternalStorageArrayOfFunctionType() -> true; gas irOptimized: 104566; gas legacy: 108554; gas legacyOptimized: 102405",
+          "instance": "C",
+          "method": "copyExternalStorageArrayOfFunctionType()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "copyInternalArrayOfFunctionType() -> true",
+          "instance": "C",
+          "method": "copyInternalArrayOfFunctionType()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "array_of_function_external_storage_to_storage_dynamic.sol:C"
+  }
+}

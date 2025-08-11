@@ -1,0 +1,64 @@
+{
+  "cases": [
+    {
+      "name": "malformed_panic_2",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "a() -> FAILURE, hex\"4e487b\"",
+          "instance": "C",
+          "method": "a()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "5130363"
+            ],
+            "exception": true
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "b() -> FAILURE, hex\"4e487b710000\"",
+          "instance": "C",
+          "method": "b()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "86073215614976"
+            ],
+            "exception": true
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "c() -> 0x43",
+          "instance": "C",
+          "method": "c()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "67"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "d() -> 0x43",
+          "instance": "C",
+          "method": "d()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "67"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "malformed_panic_2.sol:C"
+  }
+}

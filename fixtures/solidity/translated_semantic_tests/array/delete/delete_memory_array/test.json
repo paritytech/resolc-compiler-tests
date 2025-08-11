@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "delete_memory_array",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "len() -> 0",
+          "instance": "C",
+          "method": "len()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "delete_memory_array.sol:C"
+  }
+}

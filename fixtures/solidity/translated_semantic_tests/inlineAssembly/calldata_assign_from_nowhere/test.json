@@ -1,0 +1,27 @@
+{
+  "cases": [
+    {
+      "name": "calldata_assign_from_nowhere",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f() -> 0x20, 4, 0x26121ff000000000000000000000000000000000000000000000000000000000",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "32",
+              "4",
+              "17219911917854084299749778639755835327755045716242581057573779540915269926912"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "calldata_assign_from_nowhere.sol:C"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "cases": [
+    {
+      "name": "storage_array_encoding",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "h(uint256[2][]): 0x20, 3, 123, 124, 223, 224, 323, 324 -> 32, 256, 0x20, 3, 123, 124, 223, 224, 323, 324; gas irOptimized: 180080; gas legacy: 184233; gas legacyOptimized: 180856",
+          "instance": "C",
+          "method": "h(uint256[2][])",
+          "calldata": [
+            "32",
+            "3",
+            "123",
+            "124",
+            "223",
+            "224",
+            "323",
+            "324"
+          ],
+          "expected": {
+            "return_data": [
+              "32",
+              "256",
+              "32",
+              "3",
+              "123",
+              "124",
+              "223",
+              "224",
+              "323",
+              "324"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "i(uint256[2][2]): 123, 124, 223, 224 -> 32, 128, 123, 124, 223, 224; gas irOptimized: 112031; gas legacy: 115091; gas legacyOptimized: 112657",
+          "instance": "C",
+          "method": "i(uint256[2][2])",
+          "calldata": [
+            "123",
+            "124",
+            "223",
+            "224"
+          ],
+          "expected": {
+            "return_data": [
+              "32",
+              "128",
+              "123",
+              "124",
+              "223",
+              "224"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "storage_array_encoding.sol:C"
+  }
+}

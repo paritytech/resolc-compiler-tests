@@ -3,10 +3,12 @@ use std::{
     io::{Cursor, Read},
     marker::PhantomData,
     str::FromStr,
+    sync::LazyLock,
 };
 
 use alloy::primitives::{I256, U256};
 use anyhow::{Error, Result, bail};
+use regex::Regex;
 use revive_dt_common::define_wrapper_type;
 
 // region:Macros
@@ -161,16 +163,29 @@ macro_rules! derive_parse_for_struct {
 // region:Syntax Tree
 
 define_wrapper_type! {
+    /// Defines a full document of nodes.
     #[derive(Clone, Debug, PartialEq, Eq, PartialOrd, Ord, Hash)]
-    pub struct Document(Vec<Node>);
+    pub struct Document(Vec<DocumentItem>);
 }
 
 impl Parse for Document {
     fn parse(parser: &mut Parser<impl AsRef<[u8]>>) -> Result<Self> {
         let mut vec = Vec::new();
         while !parser.is_eof() {
+            let original_position = parser.0.0.position();
             match parser.parse() {
-                Ok(node) => vec.push(node),
+                Ok(node) => {
+                    let position_after = parser.0.0.position();
+
+                    let underlying = parser.0.0.get_ref().as_ref();
+                    let line = String::from_utf8(
+                        underlying[original_position as usize
+                            ..position_after as usize]
+                            .to_vec(),
+                    )?;
+
+                    vec.push(DocumentItem::new(node, line));
+                }
                 Err(error) => {
                     bail!(
                         "Parsing as document failed with error \"{}\" with remaining tokens {:?}",
@@ -189,6 +204,24 @@ impl FromStr for Document {
 
     fn from_str(s: &str) -> std::result::Result<Self, Self::Err> {
         Parser::new_from_stream(s).parse()
+    }
+}
+
+/// A document item that holds the node as well as the underlying line that the
+/// node was parsed from.
+#[derive(Clone, Debug, PartialEq, Eq, PartialOrd, Ord, Hash)]
+pub struct DocumentItem {
+    pub node: Node,
+    pub line: String,
+}
+
+impl DocumentItem {
+    pub fn new(node: Node, line: String) -> Self {
+        static REGEX: LazyLock<Regex> =
+            LazyLock::new(|| Regex::new(r"\s+").unwrap());
+        line.replace("\n", "");
+        let line = REGEX.replace_all(&line.trim(), " ").to_string();
+        Self { node, line }
     }
 }
 

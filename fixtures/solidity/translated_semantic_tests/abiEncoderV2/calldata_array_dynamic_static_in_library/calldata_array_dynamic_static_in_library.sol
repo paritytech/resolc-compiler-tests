@@ -1,0 +1,11 @@
+library L {
+    // This case used to be affected by the buggy cleanup due to ABIEncoderV2HeadOverflowWithStaticArrayCleanup bug.
+    function g(uint[] memory a, uint[1] calldata b) public returns (uint[] memory, uint[1] calldata) {
+        return (a, b);
+    }
+}
+contract C {
+    function f(uint[] memory a, uint[1] calldata b) public returns (uint[] memory, uint[1] memory) {
+        return L.g(a, b);
+    }
+}

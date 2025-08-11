@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "struct_delete_member",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "deleteMember() -> 0",
+          "instance": "test",
+          "method": "deleteMember()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "test": "struct_delete_member.sol:test"
+  }
+}

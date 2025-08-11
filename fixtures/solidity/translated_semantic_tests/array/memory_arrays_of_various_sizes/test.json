@@ -1,0 +1,44 @@
+{
+  "cases": [
+    {
+      "name": "memory_arrays_of_various_sizes",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256,uint256): 3, 1 -> 1",
+          "instance": "C",
+          "method": "f(uint256,uint256)",
+          "calldata": [
+            "3",
+            "1"
+          ],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256,uint256): 9, 5 -> 70",
+          "instance": "C",
+          "method": "f(uint256,uint256)",
+          "calldata": [
+            "9",
+            "5"
+          ],
+          "expected": {
+            "return_data": [
+              "70"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "memory_arrays_of_various_sizes.sol:C"
+  }
+}

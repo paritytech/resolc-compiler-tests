@@ -1,0 +1,28 @@
+{
+  "cases": [
+    {
+      "name": "import",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256): 7 -> 7, 8",
+          "instance": "C",
+          "method": "f(uint256)",
+          "calldata": [
+            "7"
+          ],
+          "expected": {
+            "return_data": [
+              "7",
+              "8"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "B:C"
+  }
+}

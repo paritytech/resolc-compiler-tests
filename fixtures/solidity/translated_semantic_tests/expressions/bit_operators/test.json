@@ -1,0 +1,27 @@
+{
+  "cases": [
+    {
+      "name": "bit_operators",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f() -> 3855, 268374015, 268370160",
+          "instance": "test",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "3855",
+              "268374015",
+              "268370160"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "test": "bit_operators.sol:test"
+  }
+}

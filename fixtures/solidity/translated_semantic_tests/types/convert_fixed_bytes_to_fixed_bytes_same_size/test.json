@@ -1,0 +1,27 @@
+{
+  "cases": [
+    {
+      "name": "convert_fixed_bytes_to_fixed_bytes_same_size",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "bytesToBytes(bytes4): \"abcd\" -> \"abcd\"",
+          "instance": "Test",
+          "method": "bytesToBytes(bytes4)",
+          "calldata": [
+            "1633837924"
+          ],
+          "expected": {
+            "return_data": [
+              "1633837924"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "Test": "convert_fixed_bytes_to_fixed_bytes_same_size.sol:Test"
+  }
+}

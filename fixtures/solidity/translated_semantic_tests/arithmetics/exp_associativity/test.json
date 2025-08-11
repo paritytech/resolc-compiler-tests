@@ -1,0 +1,113 @@
+{
+  "cases": [
+    {
+      "name": "exp_associativity",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "test_hardcode1(uint256,uint256,uint256): 2, 3, 4 -> 2417851639229258349412352",
+          "instance": "C",
+          "method": "test_hardcode1(uint256,uint256,uint256)",
+          "calldata": [
+            "2",
+            "3",
+            "4"
+          ],
+          "expected": {
+            "return_data": [
+              "2417851639229258349412352"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "test_hardcode2(uint256,uint256,uint256,uint256): 3, 2, 2, 2 -> 43046721",
+          "instance": "C",
+          "method": "test_hardcode2(uint256,uint256,uint256,uint256)",
+          "calldata": [
+            "3",
+            "2",
+            "2",
+            "2"
+          ],
+          "expected": {
+            "return_data": [
+              "43046721"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "test_invariant(uint256,uint256,uint256): 2, 3, 4 -> true",
+          "instance": "C",
+          "method": "test_invariant(uint256,uint256,uint256)",
+          "calldata": [
+            "2",
+            "3",
+            "4"
+          ],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "test_invariant(uint256,uint256,uint256): 3, 4, 2 -> true",
+          "instance": "C",
+          "method": "test_invariant(uint256,uint256,uint256)",
+          "calldata": [
+            "3",
+            "4",
+            "2"
+          ],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "test_literal_mix(uint256,uint256): 2, 3 -> true",
+          "instance": "C",
+          "method": "test_literal_mix(uint256,uint256)",
+          "calldata": [
+            "2",
+            "3"
+          ],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "test_other_operators(uint256,uint256): 2, 4 -> true",
+          "instance": "C",
+          "method": "test_other_operators(uint256,uint256)",
+          "calldata": [
+            "2",
+            "4"
+          ],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "exp_associativity.sol:C"
+  }
+}

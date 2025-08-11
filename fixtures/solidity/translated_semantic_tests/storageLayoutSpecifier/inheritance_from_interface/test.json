@@ -1,0 +1,40 @@
+{
+  "cases": [
+    {
+      "name": "inheritance_from_interface",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256): 8 -> 6",
+          "instance": "C",
+          "method": "f(uint256)",
+          "calldata": [
+            "8"
+          ],
+          "expected": {
+            "return_data": [
+              "6"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "y() -> 6",
+          "instance": "C",
+          "method": "y()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "6"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "inheritance_from_interface.sol:C"
+  }
+}

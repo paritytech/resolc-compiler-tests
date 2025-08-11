@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "imported_free_function_via_alias",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g() -> 61337",
+          "instance": "D",
+          "method": "g()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "61337"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "D": "s2.sol:D"
+  }
+}

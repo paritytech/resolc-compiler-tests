@@ -1,0 +1,1 @@
+function f() pure returns (uint) { return 1337; }

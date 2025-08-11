@@ -1,0 +1,54 @@
+{
+  "cases": [
+    {
+      "name": "bytes_length_member",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "getLength() -> 0",
+          "instance": "c",
+          "method": "getLength()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "set(): 1, 2 -> true; gas irOptimized: 110422; gas legacy: 110951; gas legacyOptimized: 110576",
+          "instance": "c",
+          "method": "set()",
+          "calldata": [
+            "1",
+            "2"
+          ],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "getLength() -> 68",
+          "instance": "c",
+          "method": "getLength()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "68"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "c": "bytes_length_member.sol:c"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "cases": [
+    {
+      "name": "multiple_inheritance_state_var_slots",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "xSlotOffset() -> 2, 0",
+          "instance": "D",
+          "method": "xSlotOffset()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "2",
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "ySlotOffset() -> 3, 0",
+          "instance": "D",
+          "method": "ySlotOffset()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "3",
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "wSlotOffset() -> 3, 4",
+          "instance": "D",
+          "method": "wSlotOffset()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "3",
+              "4"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "zSlotOffset() -> 4, 0",
+          "instance": "D",
+          "method": "zSlotOffset()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "4",
+              "0"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "D": "multiple_inheritance_state_var_slots.sol:D"
+  }
+}

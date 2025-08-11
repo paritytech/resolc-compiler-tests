@@ -1,0 +1,29 @@
+{
+  "cases": [
+    {
+      "name": "operator_parameter_and_return_cleanup_between_calls",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "divAddNoOverflow(uint8,uint8,uint8): 4, 0xff, 3 -> 0",
+          "instance": "C",
+          "method": "divAddNoOverflow(uint8,uint8,uint8)",
+          "calldata": [
+            "4",
+            "255",
+            "3"
+          ],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "operator_parameter_and_return_cleanup_between_calls.sol:C"
+  }
+}

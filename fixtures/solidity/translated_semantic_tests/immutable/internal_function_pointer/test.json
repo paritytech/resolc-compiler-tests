@@ -1,0 +1,38 @@
+{
+  "cases": [
+    {
+      "name": "internal_function_pointer",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f() -> 7",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "7"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "callZ() -> 7",
+          "instance": "C",
+          "method": "callZ()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "7"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "internal_function_pointer.sol:C"
+  }
+}

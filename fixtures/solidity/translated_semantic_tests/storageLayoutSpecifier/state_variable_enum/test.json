@@ -1,0 +1,62 @@
+{
+  "cases": [
+    {
+      "name": "state_variable_enum",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "cSlotOffset() -> 42, 0",
+          "instance": "C",
+          "method": "cSlotOffset()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "42",
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "checkBlue() -> false",
+          "instance": "C",
+          "method": "checkBlue()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "setBlue() ->",
+          "instance": "C",
+          "method": "setBlue()",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "checkBlue() -> true",
+          "instance": "C",
+          "method": "checkBlue()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "state_variable_enum.sol:C"
+  }
+}

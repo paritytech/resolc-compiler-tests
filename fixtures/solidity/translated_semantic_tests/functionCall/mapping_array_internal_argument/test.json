@@ -1,0 +1,92 @@
+{
+  "cases": [
+    {
+      "name": "mapping_array_internal_argument",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "set(uint8,uint8,uint8,uint8,uint8): 1, 21, 22, 42, 43 -> 0, 0, 0, 0; gas irOptimized: 111237; gas legacy: 113742; gas legacyOptimized: 111768",
+          "instance": "test",
+          "method": "set(uint8,uint8,uint8,uint8,uint8)",
+          "calldata": [
+            "1",
+            "21",
+            "22",
+            "42",
+            "43"
+          ],
+          "expected": {
+            "return_data": [
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "get(uint8): 1 -> 21, 22, 42, 43",
+          "instance": "test",
+          "method": "get(uint8)",
+          "calldata": [
+            "1"
+          ],
+          "expected": {
+            "return_data": [
+              "21",
+              "22",
+              "42",
+              "43"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "set(uint8,uint8,uint8,uint8,uint8): 1, 10, 30, 11, 31 -> 21, 22, 42, 43",
+          "instance": "test",
+          "method": "set(uint8,uint8,uint8,uint8,uint8)",
+          "calldata": [
+            "1",
+            "10",
+            "30",
+            "11",
+            "31"
+          ],
+          "expected": {
+            "return_data": [
+              "21",
+              "22",
+              "42",
+              "43"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "get(uint8): 1 -> 10, 30, 11, 31",
+          "instance": "test",
+          "method": "get(uint8)",
+          "calldata": [
+            "1"
+          ],
+          "expected": {
+            "return_data": [
+              "10",
+              "30",
+              "11",
+              "31"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "test": "mapping_array_internal_argument.sol:test"
+  }
+}

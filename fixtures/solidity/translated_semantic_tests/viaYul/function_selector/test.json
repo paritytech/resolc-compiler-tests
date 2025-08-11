@@ -1,0 +1,40 @@
+{
+  "cases": [
+    {
+      "name": "function_selector",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f() -> left(0x26121ff0)",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "17219911917854084299749778639755835327755045716242581057573779540915269926912"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "h(function): left(0x1122334400112233445566778899AABBCCDDEEFF42424242) -> left(0x42424242)",
+          "instance": "C",
+          "method": "h(function)",
+          "calldata": [
+            "7749745048465101706618851352685924228624075023600452550329949868884716683264"
+          ],
+          "expected": {
+            "return_data": [
+              "29969717207386323207544089349511289892441268092047943900849108865762463842304"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "function_selector.sol:C"
+  }
+}

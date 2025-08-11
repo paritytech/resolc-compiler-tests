@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "shift_negative_constant_right",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "a() -> -66",
+          "instance": "C",
+          "method": "a()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "115792089237316195423570985008687907853269984665640564039457584007913129639870"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "shift_negative_constant_right.sol:C"
+  }
+}

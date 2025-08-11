@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "packed_storage_structs_enum",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "test() -> 1",
+          "instance": "C",
+          "method": "test()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "packed_storage_structs_enum.sol:C"
+  }
+}

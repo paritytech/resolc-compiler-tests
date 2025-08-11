@@ -1,0 +1,40 @@
+{
+  "cases": [
+    {
+      "name": "event_static_calldata_uint_array_and_dynamic_array",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256[],uint256[1]): 0x40, 0xff, 1, 0xffff ->; ~ emit E(uint256[],uint256[1]): 0x40, 0xff, 0x01, 0xffff",
+          "instance": "C",
+          "method": "f(uint256[],uint256[1])",
+          "calldata": [
+            "64",
+            "255",
+            "1",
+            "65535"
+          ],
+          "expected": {
+            "events": [
+              {
+                "topics": [
+                  "f42f106d36ea0e11a409c25b0fdfce5a0e568dbf3d81f2f0a0c97bea09ceb365"
+                ],
+                "values": [
+                  "64",
+                  "255",
+                  "1",
+                  "65535"
+                ]
+              }
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "event_static_calldata_uint_array_and_dynamic_array.sol:C"
+  }
+}

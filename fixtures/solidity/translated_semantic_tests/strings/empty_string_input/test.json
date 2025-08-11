@@ -1,0 +1,188 @@
+{
+  "cases": [
+    {
+      "name": "empty_string_input",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f() -> 0x20, 0",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "32",
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g(string): 0x20, 0, \"\" -> 0x20, 0",
+          "instance": "C",
+          "method": "g(string)",
+          "calldata": [
+            "32",
+            "0",
+            "0"
+          ],
+          "expected": {
+            "return_data": [
+              "32",
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g(string): 0x20, 0 -> 0x20, 0",
+          "instance": "C",
+          "method": "g(string)",
+          "calldata": [
+            "32",
+            "0"
+          ],
+          "expected": {
+            "return_data": [
+              "32",
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "h(string,uint256): 0x40, 0x888, 0, \"\" -> 0x40, 0x0888, 0",
+          "instance": "C",
+          "method": "h(string,uint256)",
+          "calldata": [
+            "64",
+            "2184",
+            "0",
+            "0"
+          ],
+          "expected": {
+            "return_data": [
+              "64",
+              "2184",
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "h(string,uint256): 0x40, 0x888, 0 -> 0x40, 0x0888, 0",
+          "instance": "C",
+          "method": "h(string,uint256)",
+          "calldata": [
+            "64",
+            "2184",
+            "0"
+          ],
+          "expected": {
+            "return_data": [
+              "64",
+              "2184",
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "i(string,uint256,string): 0x60, 0x888, 0x60, 0, \"\" -> 0x60, 0x80, 0x0888, 0, 0",
+          "instance": "C",
+          "method": "i(string,uint256,string)",
+          "calldata": [
+            "96",
+            "2184",
+            "96",
+            "0",
+            "0"
+          ],
+          "expected": {
+            "return_data": [
+              "96",
+              "128",
+              "2184",
+              "0",
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "i(string,uint256,string): 0x60, 0x888, 0x60, 0 -> 0x60, 0x80, 0x0888, 0, 0",
+          "instance": "C",
+          "method": "i(string,uint256,string)",
+          "calldata": [
+            "96",
+            "2184",
+            "96",
+            "0"
+          ],
+          "expected": {
+            "return_data": [
+              "96",
+              "128",
+              "2184",
+              "0",
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "j(string,uint256): 0x40, 0x888, 0, \"\" -> 0x60, 0x80, 0x0888, 0, 0",
+          "instance": "C",
+          "method": "j(string,uint256)",
+          "calldata": [
+            "64",
+            "2184",
+            "0",
+            "0"
+          ],
+          "expected": {
+            "return_data": [
+              "96",
+              "128",
+              "2184",
+              "0",
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "j(string,uint256): 0x40, 0x888, 0 -> 0x60, 0x80, 0x0888, 0, 0",
+          "instance": "C",
+          "method": "j(string,uint256)",
+          "calldata": [
+            "64",
+            "2184",
+            "0"
+          ],
+          "expected": {
+            "return_data": [
+              "96",
+              "128",
+              "2184",
+              "0",
+              "0"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "empty_string_input.sol:C"
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "cases": [
+    {
+      "name": "public_state_overridding_mapping_to_dynamic_struct",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "test(uint256): 0 -> 0, 64, 0",
+          "instance": "X",
+          "method": "test(uint256)",
+          "calldata": [
+            "0"
+          ],
+          "expected": {
+            "return_data": [
+              "0",
+              "64",
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "test(uint256): 42 -> 0, 64, 0",
+          "instance": "X",
+          "method": "test(uint256)",
+          "calldata": [
+            "42"
+          ],
+          "expected": {
+            "return_data": [
+              "0",
+              "64",
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "set() ->",
+          "instance": "X",
+          "method": "set()",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "test(uint256): 0 -> 0, 64, 0",
+          "instance": "X",
+          "method": "test(uint256)",
+          "calldata": [
+            "0"
+          ],
+          "expected": {
+            "return_data": [
+              "0",
+              "64",
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "test(uint256): 42 -> 2, 0x40, 8, \"statevar\"",
+          "instance": "X",
+          "method": "test(uint256)",
+          "calldata": [
+            "42"
+          ],
+          "expected": {
+            "return_data": [
+              "2",
+              "64",
+              "8",
+              "8319381564206506354"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "X": "public_state_overridding_mapping_to_dynamic_struct.sol:X"
+  }
+}

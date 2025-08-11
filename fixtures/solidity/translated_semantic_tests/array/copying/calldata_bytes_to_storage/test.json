@@ -1,0 +1,29 @@
+{
+  "cases": [
+    {
+      "name": "calldata_bytes_to_storage",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(bytes): 0x20, 0x08, \"abcdefgh\" -> \"a\"",
+          "instance": "C",
+          "method": "f(bytes)",
+          "calldata": [
+            "32",
+            "8",
+            "7017280452245743464"
+          ],
+          "expected": {
+            "return_data": [
+              "97"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "calldata_bytes_to_storage.sol:C"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "call_unimplemented_base",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "b() -> 42",
+          "instance": "C",
+          "method": "b()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "42"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "call_unimplemented_base.sol:C"
+  }
+}

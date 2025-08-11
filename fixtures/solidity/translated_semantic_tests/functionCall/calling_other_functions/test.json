@@ -1,0 +1,87 @@
+{
+  "cases": [
+    {
+      "name": "calling_other_functions",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "run(uint256): 0 -> 0",
+          "instance": "collatz",
+          "method": "run(uint256)",
+          "calldata": [
+            "0"
+          ],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "run(uint256): 1 -> 1",
+          "instance": "collatz",
+          "method": "run(uint256)",
+          "calldata": [
+            "1"
+          ],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "run(uint256): 2 -> 1",
+          "instance": "collatz",
+          "method": "run(uint256)",
+          "calldata": [
+            "2"
+          ],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "run(uint256): 8 -> 1",
+          "instance": "collatz",
+          "method": "run(uint256)",
+          "calldata": [
+            "8"
+          ],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "run(uint256): 127 -> 1",
+          "instance": "collatz",
+          "method": "run(uint256)",
+          "calldata": [
+            "127"
+          ],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "collatz": "calling_other_functions.sol:collatz"
+  }
+}

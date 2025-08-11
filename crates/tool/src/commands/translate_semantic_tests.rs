@@ -154,6 +154,7 @@ pub fn handle_semantic_tests_translation(
                     value,
                     arguments,
                     expected_output: TestStepExpectations { output, events, .. },
+                    comment,
                 }) => {
                     let method = match function {
                         TestStepFunction::Constructor => Method::Deployer,
@@ -218,7 +219,7 @@ pub fn handle_semantic_tests_translation(
 
                     Step::FunctionCall(Box::new(Input {
                         caller,
-                        comment: None,
+                        comment: Some(comment),
                         instance: main_contract_instance.clone(),
                         method,
                         calldata,
@@ -232,6 +233,7 @@ pub fn handle_semantic_tests_translation(
                 TestStep::BalanceAssertion(TestStepBalanceAssertion {
                     address,
                     amount,
+                    comment,
                 }) => Step::BalanceAssertion(Box::new(BalanceAssertion {
                     address: address
                         .map(|address| address.to_string())
@@ -242,9 +244,10 @@ pub fn handle_semantic_tests_translation(
                             )
                         }),
                     expected_balance: amount,
+                    comment: Some(comment),
                 })),
                 TestStep::StorageEmptyAssertion(
-                    TestStepStorageEmptyAssertion { is_empty },
+                    TestStepStorageEmptyAssertion { is_empty, comment },
                 ) => Step::StorageEmptyAssertion(Box::new(
                     StorageEmptyAssertion {
                         address: format!(
@@ -252,6 +255,7 @@ pub fn handle_semantic_tests_translation(
                             main_contract_instance.as_str()
                         ),
                         is_storage_empty: is_empty,
+                        comment: Some(comment),
                     },
                 )),
             };

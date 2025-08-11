@@ -1,0 +1,37 @@
+{
+  "cases": [
+    {
+      "name": "calldata_struct_struct_member_dynamic",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f((uint256,(uint64,bytes),uint256)): 0x20, 42, 0x60, 23, 1, 0x40, 2, \"ab\" -> 42, 1, \"a\", 23",
+          "instance": "C",
+          "method": "f((uint256,(uint64,bytes),uint256))",
+          "calldata": [
+            "32",
+            "42",
+            "96",
+            "23",
+            "1",
+            "64",
+            "2",
+            "24930"
+          ],
+          "expected": {
+            "return_data": [
+              "42",
+              "1",
+              "97",
+              "23"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "calldata_struct_struct_member_dynamic.sol:C"
+  }
+}

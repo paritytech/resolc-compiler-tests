@@ -1,0 +1,33 @@
+{
+  "cases": [
+    {
+      "name": "dynamically_encoded",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f((uint256[])): 32, 32, 2, 42, 23 -> 2, 42, 23",
+          "instance": "C",
+          "method": "f((uint256[]))",
+          "calldata": [
+            "32",
+            "32",
+            "2",
+            "42",
+            "23"
+          ],
+          "expected": {
+            "return_data": [
+              "2",
+              "42",
+              "23"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "dynamically_encoded.sol:C"
+  }
+}

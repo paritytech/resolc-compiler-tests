@@ -1,0 +1,34 @@
+{
+  "cases": [
+    {
+      "name": "storage_nonempty",
+      "inputs": [
+        {
+          "comment": "storageEmpty -> 1",
+          "address": "StorageNotEmpty.address",
+          "is_storage_empty": true
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "set(uint256): 1 ->",
+          "instance": "StorageNotEmpty",
+          "method": "set(uint256)",
+          "calldata": [
+            "1"
+          ],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "comment": "storageEmpty -> 0",
+          "address": "StorageNotEmpty.address",
+          "is_storage_empty": false
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "StorageNotEmpty": "storage_nonempty.sol:StorageNotEmpty"
+  }
+}

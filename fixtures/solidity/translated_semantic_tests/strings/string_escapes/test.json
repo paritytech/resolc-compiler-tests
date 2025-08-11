@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "string_escapes",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f() -> 0x090a0d27225c0000000000000000000000000000000000000000000000000000",
+          "instance": "test",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "4088574885656074156409271147257688673164889634092489131729182745150422515712"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "test": "string_escapes.sol:test"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "cases": [
+    {
+      "name": "wrap_unwrap_via_contract_name",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256): 0x42 -> 0x42",
+          "instance": "D",
+          "method": "f(uint256)",
+          "calldata": [
+            "66"
+          ],
+          "expected": {
+            "return_data": [
+              "66"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g(uint256): 0x42 -> 0x42",
+          "instance": "D",
+          "method": "g(uint256)",
+          "calldata": [
+            "66"
+          ],
+          "expected": {
+            "return_data": [
+              "66"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "h(uint256): 0x42 -> 0x42",
+          "instance": "D",
+          "method": "h(uint256)",
+          "calldata": [
+            "66"
+          ],
+          "expected": {
+            "return_data": [
+              "66"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "i(uint256): 0x42 -> 0x42",
+          "instance": "D",
+          "method": "i(uint256)",
+          "calldata": [
+            "66"
+          ],
+          "expected": {
+            "return_data": [
+              "66"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "D": "wrap_unwrap_via_contract_name.sol:D"
+  }
+}

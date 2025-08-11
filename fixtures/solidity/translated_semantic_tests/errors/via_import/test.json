@@ -1,0 +1,54 @@
+{
+  "cases": [
+    {
+      "name": "via_import",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "x() -> FAILURE, hex\"002ff067\", hex\"0000000000000000000000000000000000000000000000000000000000000001\"",
+          "instance": "C",
+          "method": "x()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "3141735",
+              "1"
+            ],
+            "exception": true
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "y() -> FAILURE, hex\"002ff067\", hex\"0000000000000000000000000000000000000000000000000000000000000002\"",
+          "instance": "C",
+          "method": "y()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "3141735",
+              "2"
+            ],
+            "exception": true
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "z() -> FAILURE, hex\"002ff067\", hex\"0000000000000000000000000000000000000000000000000000000000000003\"",
+          "instance": "C",
+          "method": "z()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "3141735",
+              "3"
+            ],
+            "exception": true
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "s3.sol:C"
+  }
+}

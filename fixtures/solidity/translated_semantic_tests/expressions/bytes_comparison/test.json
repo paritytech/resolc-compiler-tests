@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "bytes_comparison",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f() -> true",
+          "instance": "test",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "test": "bytes_comparison.sol:test"
+  }
+}

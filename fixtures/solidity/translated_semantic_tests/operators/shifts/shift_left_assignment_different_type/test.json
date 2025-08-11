@@ -1,0 +1,92 @@
+{
+  "cases": [
+    {
+      "name": "shift_left_assignment_different_type",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256,uint8): 0x4266, 0x0 -> 0x4266",
+          "instance": "C",
+          "method": "f(uint256,uint8)",
+          "calldata": [
+            "16998",
+            "0"
+          ],
+          "expected": {
+            "return_data": [
+              "16998"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256,uint8): 0x4266, 0x8 -> 0x426600",
+          "instance": "C",
+          "method": "f(uint256,uint8)",
+          "calldata": [
+            "16998",
+            "8"
+          ],
+          "expected": {
+            "return_data": [
+              "4351488"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256,uint8): 0x4266, 0x10 -> 0x42660000",
+          "instance": "C",
+          "method": "f(uint256,uint8)",
+          "calldata": [
+            "16998",
+            "16"
+          ],
+          "expected": {
+            "return_data": [
+              "1113980928"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256,uint8): 0x4266, 0x11 -> 0x84cc0000",
+          "instance": "C",
+          "method": "f(uint256,uint8)",
+          "calldata": [
+            "16998",
+            "17"
+          ],
+          "expected": {
+            "return_data": [
+              "2227961856"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256,uint8): 0x4266, 0xf0 -> 0x4266000000000000000000000000000000000000000000000000000000000000",
+          "instance": "C",
+          "method": "f(uint256,uint8)",
+          "calldata": [
+            "16998",
+            "240"
+          ],
+          "expected": {
+            "return_data": [
+              "30032866407102976834256890917628128932035571279091771050151062209571950952448"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "shift_left_assignment_different_type.sol:C"
+  }
+}

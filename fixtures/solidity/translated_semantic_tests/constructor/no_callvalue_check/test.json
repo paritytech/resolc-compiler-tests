@@ -1,0 +1,26 @@
+{
+  "cases": [
+    {
+      "name": "no_callvalue_check",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(), 2000 ether -> true; gas irOptimized: 117688; gas irOptimized code: 1800; gas legacy: 117889; gas legacy code: 4800; gas legacyOptimized: 117761; gas legacyOptimized code: 4800",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          },
+          "value": "2000000000000000000000 wei"
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "no_callvalue_check.sol:C"
+  }
+}

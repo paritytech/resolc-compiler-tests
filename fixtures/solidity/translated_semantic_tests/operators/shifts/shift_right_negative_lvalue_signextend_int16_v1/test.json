@@ -1,0 +1,92 @@
+{
+  "cases": [
+    {
+      "name": "shift_right_negative_lvalue_signextend_int16_v1",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(int16,uint16): 0xff99, 0x00 -> 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff99",
+          "instance": "C",
+          "method": "f(int16,uint16)",
+          "calldata": [
+            "65433",
+            "0"
+          ],
+          "expected": {
+            "return_data": [
+              "115792089237316195423570985008687907853269984665640564039457584007913129639833"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(int16,uint16): 0xff99, 0x01 -> 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffcc",
+          "instance": "C",
+          "method": "f(int16,uint16)",
+          "calldata": [
+            "65433",
+            "1"
+          ],
+          "expected": {
+            "return_data": [
+              "115792089237316195423570985008687907853269984665640564039457584007913129639884"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(int16,uint16): 0xff99, 0x02 -> 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe6",
+          "instance": "C",
+          "method": "f(int16,uint16)",
+          "calldata": [
+            "65433",
+            "2"
+          ],
+          "expected": {
+            "return_data": [
+              "115792089237316195423570985008687907853269984665640564039457584007913129639910"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(int16,uint16): 0xff99, 0x04 -> 0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff9",
+          "instance": "C",
+          "method": "f(int16,uint16)",
+          "calldata": [
+            "65433",
+            "4"
+          ],
+          "expected": {
+            "return_data": [
+              "115792089237316195423570985008687907853269984665640564039457584007913129639929"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(int16,uint16): 0xff99, 0x08 -> 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+          "instance": "C",
+          "method": "f(int16,uint16)",
+          "calldata": [
+            "65433",
+            "8"
+          ],
+          "expected": {
+            "return_data": [
+              "115792089237316195423570985008687907853269984665640564039457584007913129639935"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "shift_right_negative_lvalue_signextend_int16_v1.sol:C"
+  }
+}

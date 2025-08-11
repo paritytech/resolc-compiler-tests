@@ -1,0 +1,22 @@
+{
+  "cases": [
+    {
+      "name": "constant_variables",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "constructor() ->",
+          "instance": "Foo",
+          "method": "#deployer",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "Foo": "constant_variables.sol:Foo"
+  }
+}

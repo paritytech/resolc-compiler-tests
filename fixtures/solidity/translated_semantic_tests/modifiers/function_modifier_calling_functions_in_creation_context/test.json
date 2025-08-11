@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "function_modifier_calling_functions_in_creation_context",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "getData() -> 0x4300",
+          "instance": "C",
+          "method": "getData()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "17152"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "function_modifier_calling_functions_in_creation_context.sol:C"
+  }
+}

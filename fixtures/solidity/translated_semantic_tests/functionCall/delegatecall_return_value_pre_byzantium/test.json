@@ -1,0 +1,153 @@
+{
+  "cases": [
+    {
+      "name": "delegatecall_return_value_pre_byzantium",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "get() -> 0x00",
+          "instance": "C",
+          "method": "get()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "assert0_delegated() -> true",
+          "instance": "C",
+          "method": "assert0_delegated()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "get_delegated() -> true",
+          "instance": "C",
+          "method": "get_delegated()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "set(uint256): 0x01 ->",
+          "instance": "C",
+          "method": "set(uint256)",
+          "calldata": [
+            "1"
+          ],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "get() -> 0x01",
+          "instance": "C",
+          "method": "get()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "assert0_delegated() -> false",
+          "instance": "C",
+          "method": "assert0_delegated()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "get_delegated() -> true",
+          "instance": "C",
+          "method": "get_delegated()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "set(uint256): 0x2a ->",
+          "instance": "C",
+          "method": "set(uint256)",
+          "calldata": [
+            "42"
+          ],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "get() -> 0x2a",
+          "instance": "C",
+          "method": "get()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "42"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "assert0_delegated() -> false",
+          "instance": "C",
+          "method": "assert0_delegated()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "get_delegated() -> true",
+          "instance": "C",
+          "method": "get_delegated()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "delegatecall_return_value_pre_byzantium.sol:C"
+  }
+}

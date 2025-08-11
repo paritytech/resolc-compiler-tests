@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "store_function",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "t() -> 9; gas irOptimized: 99064; gas legacy: 79492; gas legacy code: 69600; gas legacyOptimized: 77587; gas legacyOptimized code: 28600",
+          "instance": "C",
+          "method": "t()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "9"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "store_function.sol:C"
+  }
+}

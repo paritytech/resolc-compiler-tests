@@ -1,0 +1,34 @@
+{
+  "cases": [
+    {
+      "name": "array_copy_nested_array",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "test(uint256[2][]): 32, 3, 7, 8, 9, 10, 11, 12 -> 10; gas irOptimized: 689552; gas legacy: 686176; gas legacyOptimized: 685611",
+          "instance": "c",
+          "method": "test(uint256[2][])",
+          "calldata": [
+            "32",
+            "3",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12"
+          ],
+          "expected": {
+            "return_data": [
+              "10"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "c": "array_copy_nested_array.sol:c"
+  }
+}

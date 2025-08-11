@@ -1,0 +1,26 @@
+{
+  "cases": [
+    {
+      "name": "shadowing_local_function_opcode",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g() -> 7, 3",
+          "instance": "C",
+          "method": "g()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "7",
+              "3"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "shadowing_local_function_opcode.sol:C"
+  }
+}

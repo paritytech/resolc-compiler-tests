@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "abi_encode_call_memory",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "test() -> 0xa7a0d53700000000000000000000000000000000000000000000000000000000",
+          "instance": "C",
+          "method": "test()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "75820412798538961434450374661564614143690048118980576262982101388227132784640"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "abi_encode_call_memory.sol:C"
+  }
+}

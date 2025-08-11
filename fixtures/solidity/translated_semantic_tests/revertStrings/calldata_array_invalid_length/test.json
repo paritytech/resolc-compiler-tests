@@ -1,0 +1,27 @@
+{
+  "cases": [
+    {
+      "name": "calldata_array_invalid_length",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256[][]): 0x20, 1, 0x20, 0x0100000000000000000000 -> FAILURE",
+          "instance": "C",
+          "method": "f(uint256[][])",
+          "calldata": [
+            "32",
+            "1",
+            "32",
+            "1208925819614629174706176"
+          ],
+          "expected": {
+            "exception": true
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "calldata_array_invalid_length.sol:C"
+  }
+}

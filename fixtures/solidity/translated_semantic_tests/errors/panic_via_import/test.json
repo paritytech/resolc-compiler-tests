@@ -1,0 +1,40 @@
+{
+  "cases": [
+    {
+      "name": "panic_via_import",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "a() -> FAILURE, hex\"002ff067\", hex\"0000000000000000000000000000000000000000000000000000000000000001\"",
+          "instance": "C",
+          "method": "a()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "3141735",
+              "1"
+            ],
+            "exception": true
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "b() -> FAILURE, hex\"002ff067\", hex\"0000000000000000000000000000000000000000000000000000000000000001\"",
+          "instance": "C",
+          "method": "b()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "3141735",
+              "1"
+            ],
+            "exception": true
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "s2.sol:C"
+  }
+}

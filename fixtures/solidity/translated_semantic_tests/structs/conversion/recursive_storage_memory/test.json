@@ -1,0 +1,27 @@
+{
+  "cases": [
+    {
+      "name": "recursive_storage_memory",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "run() -> 2, 23, 42; gas irOptimized: 192828; gas legacy: 185730; gas legacyOptimized: 184457",
+          "instance": "CopyTest",
+          "method": "run()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "2",
+              "23",
+              "42"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "CopyTest": "recursive_storage_memory.sol:CopyTest"
+  }
+}

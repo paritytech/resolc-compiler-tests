@@ -1,0 +1,102 @@
+{
+  "cases": [
+    {
+      "name": "named_args_overload",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "call(uint256): 0 -> 0",
+          "instance": "C",
+          "method": "call(uint256)",
+          "calldata": [
+            "0"
+          ],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "call(uint256): 1 -> 1",
+          "instance": "C",
+          "method": "call(uint256)",
+          "calldata": [
+            "1"
+          ],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "call(uint256): 2 -> 3",
+          "instance": "C",
+          "method": "call(uint256)",
+          "calldata": [
+            "2"
+          ],
+          "expected": {
+            "return_data": [
+              "3"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "call(uint256): 3 -> 6",
+          "instance": "C",
+          "method": "call(uint256)",
+          "calldata": [
+            "3"
+          ],
+          "expected": {
+            "return_data": [
+              "6"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "call(uint256): 4 -> 8",
+          "instance": "C",
+          "method": "call(uint256)",
+          "calldata": [
+            "4"
+          ],
+          "expected": {
+            "return_data": [
+              "8"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "call(uint256): 5 -> 500",
+          "instance": "C",
+          "method": "call(uint256)",
+          "calldata": [
+            "5"
+          ],
+          "expected": {
+            "return_data": [
+              "500"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "named_args_overload.sol:C"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "cases": [
+    {
+      "name": "denominations_in_array_sizes",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "lengths() -> 2, 2000000000, 2000000000000000000, 2, 120, 7200, 172800, 1209600",
+          "instance": "C",
+          "method": "lengths()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "2",
+              "2000000000",
+              "2000000000000000000",
+              "2",
+              "120",
+              "7200",
+              "172800",
+              "1209600"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "denominations_in_array_sizes.sol:C"
+  }
+}

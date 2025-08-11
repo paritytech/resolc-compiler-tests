@@ -1,0 +1,46 @@
+{
+  "cases": [
+    {
+      "name": "string_tuples",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f() -> 0x40, 0x8, 0x3, \"abc\"",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "64",
+              "8",
+              "3",
+              "6382179"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g() -> 0x40, 0x80, 0x3, \"abc\", 0x3, \"def\"",
+          "instance": "C",
+          "method": "g()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "64",
+              "128",
+              "3",
+              "6382179",
+              "3",
+              "6579558"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "string_tuples.sol:C"
+  }
+}

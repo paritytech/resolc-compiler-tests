@@ -1,0 +1,28 @@
+{
+  "cases": [
+    {
+      "name": "return_dynamic_types_cross_call_simple",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f() -> 0x20, 40, \"12345678901234567890123456789012\", \"34567890\"",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "32",
+              "40",
+              "22252025330403739761828227648604333229819926301751889444568374711659082559794",
+              "3689632501694216496"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "return_dynamic_types_cross_call_simple.sol:C"
+  }
+}

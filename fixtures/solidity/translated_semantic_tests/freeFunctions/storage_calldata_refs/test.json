@@ -1,0 +1,33 @@
+{
+  "cases": [
+    {
+      "name": "storage_calldata_refs",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256,uint256[]): 7, 0x40, 3, 8, 9, 10 -> 7, 9",
+          "instance": "C",
+          "method": "f(uint256,uint256[])",
+          "calldata": [
+            "7",
+            "64",
+            "3",
+            "8",
+            "9",
+            "10"
+          ],
+          "expected": {
+            "return_data": [
+              "7",
+              "9"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "storage_calldata_refs.sol:C"
+  }
+}

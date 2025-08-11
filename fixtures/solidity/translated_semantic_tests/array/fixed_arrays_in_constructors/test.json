@@ -1,0 +1,53 @@
+{
+  "cases": [
+    {
+      "name": "fixed_arrays_in_constructors",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "constructor(): 1, 2, 3, 4 ->; gas irOptimized: 104102; gas irOptimized code: 22400; gas legacy: 115185; gas legacy code: 59000; gas legacyOptimized: 104908; gas legacyOptimized code: 23800",
+          "instance": "Creator",
+          "method": "#deployer",
+          "calldata": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "r() -> 4",
+          "instance": "Creator",
+          "method": "r()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "4"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "ch() -> 3",
+          "instance": "Creator",
+          "method": "ch()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "3"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "Creator": "fixed_arrays_in_constructors.sol:Creator"
+  }
+}

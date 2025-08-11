@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "struct_copy_via_local",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "test() -> true; gas irOptimized: 109921; gas legacy: 110615; gas legacyOptimized: 109705",
+          "instance": "c",
+          "method": "test()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "c": "struct_copy_via_local.sol:c"
+  }
+}

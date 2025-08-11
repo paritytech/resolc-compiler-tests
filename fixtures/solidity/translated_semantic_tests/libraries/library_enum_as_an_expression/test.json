@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "library_enum_as_an_expression",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f() -> 1",
+          "instance": "Tsra",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "Tsra": "library_enum_as_an_expression.sol:Tsra"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "cases": [
+    {
+      "name": "create",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f() -> false, 0x40, 13, \"test message.\"",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0",
+              "64",
+              "13",
+              "9221864412508565352047117296942"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g() -> true, 0x40, 7, \"success\"",
+          "instance": "C",
+          "method": "g()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1",
+              "64",
+              "7",
+              "32498692051530611"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "create.sol:C"
+  }
+}

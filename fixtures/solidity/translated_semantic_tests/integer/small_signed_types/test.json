@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "small_signed_types",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "run() -> 200",
+          "instance": "test",
+          "method": "run()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "200"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "test": "small_signed_types.sol:test"
+  }
+}

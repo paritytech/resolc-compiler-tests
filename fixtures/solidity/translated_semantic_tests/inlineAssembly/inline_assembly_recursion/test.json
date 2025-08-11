@@ -1,0 +1,87 @@
+{
+  "cases": [
+    {
+      "name": "inline_assembly_recursion",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256): 0 -> 1",
+          "instance": "C",
+          "method": "f(uint256)",
+          "calldata": [
+            "0"
+          ],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256): 1 -> 1",
+          "instance": "C",
+          "method": "f(uint256)",
+          "calldata": [
+            "1"
+          ],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256): 2 -> 2",
+          "instance": "C",
+          "method": "f(uint256)",
+          "calldata": [
+            "2"
+          ],
+          "expected": {
+            "return_data": [
+              "2"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256): 3 -> 6",
+          "instance": "C",
+          "method": "f(uint256)",
+          "calldata": [
+            "3"
+          ],
+          "expected": {
+            "return_data": [
+              "6"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256): 4 -> 24",
+          "instance": "C",
+          "method": "f(uint256)",
+          "calldata": [
+            "4"
+          ],
+          "expected": {
+            "return_data": [
+              "24"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "inline_assembly_recursion.sol:C"
+  }
+}

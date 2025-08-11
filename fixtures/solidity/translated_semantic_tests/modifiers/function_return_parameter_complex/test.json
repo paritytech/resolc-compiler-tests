@@ -1,0 +1,115 @@
+{
+  "cases": [
+    {
+      "name": "function_return_parameter_complex",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f() -> 0x10, 0x20, 0x40",
+          "instance": "A",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "16",
+              "32",
+              "64"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "x() -> 1",
+          "instance": "A",
+          "method": "x()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "shouldFail(uint256): 1 -> FAILURE, hex\"08c379a0\", 0x20, 13, \"a is not zero\"",
+          "instance": "A",
+          "method": "shouldFail(uint256)",
+          "calldata": [
+            "1"
+          ],
+          "expected": {
+            "return_data": [
+              "147028384",
+              "32",
+              "13",
+              "7695162765079382371953633751663"
+            ],
+            "exception": true
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "shouldFail(uint256): 0 -> FAILURE, hex\"08c379a0\", 0x20, 13, \"b is not zero\"",
+          "instance": "A",
+          "method": "shouldFail(uint256)",
+          "calldata": [
+            "0"
+          ],
+          "expected": {
+            "return_data": [
+              "147028384",
+              "32",
+              "13",
+              "7774390927593646709547177701999"
+            ],
+            "exception": true
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "x() -> 1",
+          "instance": "A",
+          "method": "x()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g() -> 5",
+          "instance": "A",
+          "method": "g()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "5"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "x() -> 5",
+          "instance": "A",
+          "method": "x()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "5"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "A": "function_return_parameter_complex.sol:A"
+  }
+}

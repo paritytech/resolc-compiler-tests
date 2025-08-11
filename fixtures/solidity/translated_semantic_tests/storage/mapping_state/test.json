@@ -1,0 +1,398 @@
+{
+  "cases": [
+    {
+      "name": "mapping_state",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "getVoteCount(address): 0 -> 0",
+          "instance": "Ballot",
+          "method": "getVoteCount(address)",
+          "calldata": [
+            "0"
+          ],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "getVoteCount(address): 1 -> 0",
+          "instance": "Ballot",
+          "method": "getVoteCount(address)",
+          "calldata": [
+            "1"
+          ],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "getVoteCount(address): 2 -> 0",
+          "instance": "Ballot",
+          "method": "getVoteCount(address)",
+          "calldata": [
+            "2"
+          ],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "vote(address,address): 0, 2 -> false",
+          "instance": "Ballot",
+          "method": "vote(address,address)",
+          "calldata": [
+            "0",
+            "2"
+          ],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "getVoteCount(address): 0 -> 0",
+          "instance": "Ballot",
+          "method": "getVoteCount(address)",
+          "calldata": [
+            "0"
+          ],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "getVoteCount(address): 1 -> 0",
+          "instance": "Ballot",
+          "method": "getVoteCount(address)",
+          "calldata": [
+            "1"
+          ],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "getVoteCount(address): 2 -> 0",
+          "instance": "Ballot",
+          "method": "getVoteCount(address)",
+          "calldata": [
+            "2"
+          ],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "grantVoteRight(address): 0 ->",
+          "instance": "Ballot",
+          "method": "grantVoteRight(address)",
+          "calldata": [
+            "0"
+          ],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "grantVoteRight(address): 1 ->",
+          "instance": "Ballot",
+          "method": "grantVoteRight(address)",
+          "calldata": [
+            "1"
+          ],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "vote(address,address): 0, 2 -> true",
+          "instance": "Ballot",
+          "method": "vote(address,address)",
+          "calldata": [
+            "0",
+            "2"
+          ],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "getVoteCount(address): 0 -> 0",
+          "instance": "Ballot",
+          "method": "getVoteCount(address)",
+          "calldata": [
+            "0"
+          ],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "getVoteCount(address): 1 -> 0",
+          "instance": "Ballot",
+          "method": "getVoteCount(address)",
+          "calldata": [
+            "1"
+          ],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "getVoteCount(address): 2 -> 1",
+          "instance": "Ballot",
+          "method": "getVoteCount(address)",
+          "calldata": [
+            "2"
+          ],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "vote(address,address): 0, 1 -> false",
+          "instance": "Ballot",
+          "method": "vote(address,address)",
+          "calldata": [
+            "0",
+            "1"
+          ],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "getVoteCount(address): 0 -> 0",
+          "instance": "Ballot",
+          "method": "getVoteCount(address)",
+          "calldata": [
+            "0"
+          ],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "getVoteCount(address): 1 -> 0",
+          "instance": "Ballot",
+          "method": "getVoteCount(address)",
+          "calldata": [
+            "1"
+          ],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "getVoteCount(address): 2 -> 1",
+          "instance": "Ballot",
+          "method": "getVoteCount(address)",
+          "calldata": [
+            "2"
+          ],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "vote(address,address): 2, 1 -> false",
+          "instance": "Ballot",
+          "method": "vote(address,address)",
+          "calldata": [
+            "2",
+            "1"
+          ],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "getVoteCount(address): 0 -> 0",
+          "instance": "Ballot",
+          "method": "getVoteCount(address)",
+          "calldata": [
+            "0"
+          ],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "getVoteCount(address): 1 -> 0",
+          "instance": "Ballot",
+          "method": "getVoteCount(address)",
+          "calldata": [
+            "1"
+          ],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "getVoteCount(address): 2 -> 1",
+          "instance": "Ballot",
+          "method": "getVoteCount(address)",
+          "calldata": [
+            "2"
+          ],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "grantVoteRight(address): 2 ->",
+          "instance": "Ballot",
+          "method": "grantVoteRight(address)",
+          "calldata": [
+            "2"
+          ],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "vote(address,address): 2, 1 -> true",
+          "instance": "Ballot",
+          "method": "vote(address,address)",
+          "calldata": [
+            "2",
+            "1"
+          ],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "getVoteCount(address): 0 -> 0",
+          "instance": "Ballot",
+          "method": "getVoteCount(address)",
+          "calldata": [
+            "0"
+          ],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "getVoteCount(address): 1 -> 1",
+          "instance": "Ballot",
+          "method": "getVoteCount(address)",
+          "calldata": [
+            "1"
+          ],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "getVoteCount(address): 2 -> 1",
+          "instance": "Ballot",
+          "method": "getVoteCount(address)",
+          "calldata": [
+            "2"
+          ],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "Ballot": "mapping_state.sol:Ballot"
+  }
+}

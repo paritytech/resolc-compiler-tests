@@ -1,0 +1,42 @@
+{
+  "cases": [
+    {
+      "name": "transient_storage_selfdestruct",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "constructor() ->; gas irOptimized: 127596; gas irOptimized code: 221000; gas legacy: 149480; gas legacy code: 501200; gas legacyOptimized: 125846; gas legacyOptimized code: 203400",
+          "instance": "D",
+          "method": "#deployer",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "destroy() ->",
+          "instance": "D",
+          "method": "destroy()",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "createAndDestroy() ->; gas legacy: 67048; gas legacy code: 92600; gas legacyOptimized: 65677; gas legacyOptimized code: 39400",
+          "instance": "D",
+          "method": "createAndDestroy()",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "D": "transient_storage_selfdestruct.sol:D"
+  }
+}

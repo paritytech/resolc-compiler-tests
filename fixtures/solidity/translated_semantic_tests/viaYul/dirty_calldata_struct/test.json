@@ -1,0 +1,30 @@
+{
+  "cases": [
+    {
+      "name": "dirty_calldata_struct",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f((uint16[])): 0x20, 0x20, 0x01, 0x0180 -> true",
+          "instance": "C",
+          "method": "f((uint16[]))",
+          "calldata": [
+            "32",
+            "32",
+            "1",
+            "384"
+          ],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "dirty_calldata_struct.sol:C"
+  }
+}

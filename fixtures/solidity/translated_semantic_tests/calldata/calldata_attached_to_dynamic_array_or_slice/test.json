@@ -1,0 +1,54 @@
+{
+  "cases": [
+    {
+      "name": "calldata_attached_to_dynamic_array_or_slice",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "testArray(uint256,uint256[],uint256): 7, 0x60, 4, 2, 66, 77 -> 77, 66",
+          "instance": "C",
+          "method": "testArray(uint256,uint256[],uint256)",
+          "calldata": [
+            "7",
+            "96",
+            "4",
+            "2",
+            "66",
+            "77"
+          ],
+          "expected": {
+            "return_data": [
+              "77",
+              "66"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "testSlice(uint256,uint256[],uint256): 7, 0x60, 4, 2, 66, 77 -> 77, 66",
+          "instance": "C",
+          "method": "testSlice(uint256,uint256[],uint256)",
+          "calldata": [
+            "7",
+            "96",
+            "4",
+            "2",
+            "66",
+            "77"
+          ],
+          "expected": {
+            "return_data": [
+              "77",
+              "66"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "calldata_attached_to_dynamic_array_or_slice.sol:C"
+  }
+}

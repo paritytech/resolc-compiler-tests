@@ -1,0 +1,42 @@
+{
+  "cases": [
+    {
+      "name": "multisource",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(int256): 5 -> 5",
+          "instance": "A",
+          "method": "f(int256)",
+          "calldata": [
+            "5"
+          ],
+          "expected": {
+            "return_data": [
+              "5"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(address): 1 -> 1",
+          "instance": "A",
+          "method": "f(address)",
+          "calldata": [
+            "1"
+          ],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "A": "B:A"
+  }
+}

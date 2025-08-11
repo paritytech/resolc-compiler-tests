@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "function_modifier_library_inheritance",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f() -> 0x202",
+          "instance": "Test",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "514"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "Test": "function_modifier_library_inheritance.sol:Test"
+  }
+}

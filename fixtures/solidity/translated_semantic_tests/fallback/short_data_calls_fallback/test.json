@@ -1,0 +1,137 @@
+{
+  "cases": [
+    {
+      "name": "short_data_calls_fallback",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "(): hex\"d88e0b\"",
+          "instance": "A",
+          "method": "#fallback",
+          "calldata": [
+            "14192139"
+          ],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "x() -> 2",
+          "instance": "A",
+          "method": "x()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "2"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "(): hex\"d88e0b00\"",
+          "instance": "A",
+          "method": "#fallback",
+          "calldata": [
+            "3633187584"
+          ],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "x() -> 3",
+          "instance": "A",
+          "method": "x()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "3"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "(): hex\"d88e\"",
+          "instance": "A",
+          "method": "#fallback",
+          "calldata": [
+            "55438"
+          ],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "x() -> 2",
+          "instance": "A",
+          "method": "x()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "2"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "(): hex\"d88e0b00\"",
+          "instance": "A",
+          "method": "#fallback",
+          "calldata": [
+            "3633187584"
+          ],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "x() -> 3",
+          "instance": "A",
+          "method": "x()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "3"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "(): hex\"d8\"",
+          "instance": "A",
+          "method": "#fallback",
+          "calldata": [
+            "216"
+          ],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "x() -> 2",
+          "instance": "A",
+          "method": "x()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "2"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "A": "short_data_calls_fallback.sol:A"
+  }
+}

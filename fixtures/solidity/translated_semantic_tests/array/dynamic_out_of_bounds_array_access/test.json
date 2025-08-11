@@ -1,0 +1,143 @@
+{
+  "cases": [
+    {
+      "name": "dynamic_out_of_bounds_array_access",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "length() -> 0",
+          "instance": "c",
+          "method": "length()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "get(uint256): 3 -> FAILURE, hex\"4e487b71\", 0x32",
+          "instance": "c",
+          "method": "get(uint256)",
+          "calldata": [
+            "3"
+          ],
+          "expected": {
+            "return_data": [
+              "1313373041",
+              "50"
+            ],
+            "exception": true
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "enlarge(uint256): 4 -> 4",
+          "instance": "c",
+          "method": "enlarge(uint256)",
+          "calldata": [
+            "4"
+          ],
+          "expected": {
+            "return_data": [
+              "4"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "length() -> 4",
+          "instance": "c",
+          "method": "length()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "4"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "set(uint256,uint256): 3, 4 -> true",
+          "instance": "c",
+          "method": "set(uint256,uint256)",
+          "calldata": [
+            "3",
+            "4"
+          ],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "get(uint256): 3 -> 4",
+          "instance": "c",
+          "method": "get(uint256)",
+          "calldata": [
+            "3"
+          ],
+          "expected": {
+            "return_data": [
+              "4"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "length() -> 4",
+          "instance": "c",
+          "method": "length()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "4"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "set(uint256,uint256): 4, 8 -> FAILURE, hex\"4e487b71\", 0x32",
+          "instance": "c",
+          "method": "set(uint256,uint256)",
+          "calldata": [
+            "4",
+            "8"
+          ],
+          "expected": {
+            "return_data": [
+              "1313373041",
+              "50"
+            ],
+            "exception": true
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "length() -> 4",
+          "instance": "c",
+          "method": "length()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "4"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "c": "dynamic_out_of_bounds_array_access.sol:c"
+  }
+}

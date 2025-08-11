@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "short_input_bytes",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "e(bytes): 0x20, 7 -> FAILURE",
+          "instance": "C",
+          "method": "e(bytes)",
+          "calldata": [
+            "32",
+            "7"
+          ],
+          "expected": {
+            "exception": true
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "short_input_bytes.sol:C"
+  }
+}

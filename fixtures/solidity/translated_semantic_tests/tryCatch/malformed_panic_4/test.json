@@ -1,0 +1,51 @@
+{
+  "cases": [
+    {
+      "name": "malformed_panic_4",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "a() -> 0x00",
+          "instance": "C",
+          "method": "a()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "b() -> 0x00",
+          "instance": "C",
+          "method": "b()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "c() -> 0x43",
+          "instance": "C",
+          "method": "c()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "67"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "malformed_panic_4.sol:C"
+  }
+}

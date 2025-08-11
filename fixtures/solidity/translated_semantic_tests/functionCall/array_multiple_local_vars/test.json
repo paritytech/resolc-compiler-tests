@@ -1,0 +1,77 @@
+{
+  "cases": [
+    {
+      "name": "array_multiple_local_vars",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256[]): 32, 3, 1000, 1, 2 -> 3",
+          "instance": "test",
+          "method": "f(uint256[])",
+          "calldata": [
+            "32",
+            "3",
+            "1000",
+            "1",
+            "2"
+          ],
+          "expected": {
+            "return_data": [
+              "3"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256[]): 32, 3, 100, 500, 300 -> 600",
+          "instance": "test",
+          "method": "f(uint256[])",
+          "calldata": [
+            "32",
+            "3",
+            "100",
+            "500",
+            "300"
+          ],
+          "expected": {
+            "return_data": [
+              "600"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256[]): 32, 11, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 111 -> 55",
+          "instance": "test",
+          "method": "f(uint256[])",
+          "calldata": [
+            "32",
+            "11",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "111"
+          ],
+          "expected": {
+            "return_data": [
+              "55"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "test": "array_multiple_local_vars.sol:test"
+  }
+}

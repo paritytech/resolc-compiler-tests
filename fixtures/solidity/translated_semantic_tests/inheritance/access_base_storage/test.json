@@ -1,0 +1,55 @@
+{
+  "cases": [
+    {
+      "name": "access_base_storage",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "setData(uint256,uint256): 1, 2 -> true",
+          "instance": "Derived",
+          "method": "setData(uint256,uint256)",
+          "calldata": [
+            "1",
+            "2"
+          ],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "getViaBase() -> 1",
+          "instance": "Derived",
+          "method": "getViaBase()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "getViaDerived() -> 1, 2",
+          "instance": "Derived",
+          "method": "getViaDerived()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1",
+              "2"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "Derived": "access_base_storage.sol:Derived"
+  }
+}

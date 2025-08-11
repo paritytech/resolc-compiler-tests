@@ -1,0 +1,72 @@
+{
+  "cases": [
+    {
+      "name": "for_loop_nested",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256): 0 -> 2",
+          "instance": "C",
+          "method": "f(uint256)",
+          "calldata": [
+            "0"
+          ],
+          "expected": {
+            "return_data": [
+              "2"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256): 1 -> 18",
+          "instance": "C",
+          "method": "f(uint256)",
+          "calldata": [
+            "1"
+          ],
+          "expected": {
+            "return_data": [
+              "18"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256): 2 -> 10",
+          "instance": "C",
+          "method": "f(uint256)",
+          "calldata": [
+            "2"
+          ],
+          "expected": {
+            "return_data": [
+              "10"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256): 4 -> 91",
+          "instance": "C",
+          "method": "f(uint256)",
+          "calldata": [
+            "4"
+          ],
+          "expected": {
+            "return_data": [
+              "91"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "for_loop_nested.sol:C"
+  }
+}

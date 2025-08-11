@@ -1,0 +1,34 @@
+{
+  "cases": [
+    {
+      "name": "event_struct_storage_v2",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "createEvent(uint256): 42 ->; ~ emit E((uint256)): 0x2a",
+          "instance": "C",
+          "method": "createEvent(uint256)",
+          "calldata": [
+            "42"
+          ],
+          "expected": {
+            "events": [
+              {
+                "topics": [
+                  "db7c15eb416c7028693224ffb718d13661df9f900b8db24786c57612ee461dd4"
+                ],
+                "values": [
+                  "42"
+                ]
+              }
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "event_struct_storage_v2.sol:C"
+  }
+}

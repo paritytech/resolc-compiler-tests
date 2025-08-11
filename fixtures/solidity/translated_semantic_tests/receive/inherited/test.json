@@ -1,0 +1,72 @@
+{
+  "cases": [
+    {
+      "name": "inherited",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "getData() -> 0",
+          "instance": "B",
+          "method": "getData()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "() ->",
+          "instance": "B",
+          "method": "#fallback",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "getData() -> 1",
+          "instance": "B",
+          "method": "getData()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "(), 1 ether ->",
+          "instance": "B",
+          "method": "#fallback",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          },
+          "value": "1000000000000000000 wei"
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "getData() -> 2",
+          "instance": "B",
+          "method": "getData()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "2"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "B": "inherited.sol:B"
+  }
+}

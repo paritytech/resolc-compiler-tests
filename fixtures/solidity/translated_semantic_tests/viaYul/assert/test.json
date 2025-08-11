@@ -1,0 +1,70 @@
+{
+  "cases": [
+    {
+      "name": "assert",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(bool): true -> true",
+          "instance": "C",
+          "method": "f(bool)",
+          "calldata": [
+            "1"
+          ],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(bool): false -> FAILURE, hex\"4e487b71\", 0x01",
+          "instance": "C",
+          "method": "f(bool)",
+          "calldata": [
+            "0"
+          ],
+          "expected": {
+            "return_data": [
+              "1313373041",
+              "1"
+            ],
+            "exception": true
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "fail() -> FAILURE, hex\"4e487b71\", 0x01",
+          "instance": "C",
+          "method": "fail()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1313373041",
+              "1"
+            ],
+            "exception": true
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "succeed() -> true",
+          "instance": "C",
+          "method": "succeed()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "assert.sol:C"
+  }
+}

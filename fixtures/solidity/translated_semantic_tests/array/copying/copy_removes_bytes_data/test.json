@@ -1,0 +1,54 @@
+{
+  "cases": [
+    {
+      "name": "copy_removes_bytes_data",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "set(): 1, 2, 3, 4, 5 -> true; gas irOptimized: 177344; gas legacy: 177953; gas legacyOptimized: 177550",
+          "instance": "c",
+          "method": "set()",
+          "calldata": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "comment": "storageEmpty -> 0",
+          "address": "c.address",
+          "is_storage_empty": false
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "reset() -> true",
+          "instance": "c",
+          "method": "reset()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "comment": "storageEmpty -> 1",
+          "address": "c.address",
+          "is_storage_empty": true
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "c": "copy_removes_bytes_data.sol:c"
+  }
+}

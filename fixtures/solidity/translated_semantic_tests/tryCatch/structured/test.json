@@ -1,0 +1,50 @@
+{
+  "cases": [
+    {
+      "name": "structured",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(bool): true -> 1, 2, 0x60, 7, \"success\"",
+          "instance": "C",
+          "method": "f(bool)",
+          "calldata": [
+            "1"
+          ],
+          "expected": {
+            "return_data": [
+              "1",
+              "2",
+              "96",
+              "7",
+              "32498692051530611"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(bool): false -> 0, 0, 0x60, 7, \"message\"",
+          "instance": "C",
+          "method": "f(bool)",
+          "calldata": [
+            "0"
+          ],
+          "expected": {
+            "return_data": [
+              "0",
+              "0",
+              "96",
+              "7",
+              "30792318992869221"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "structured.sol:C"
+  }
+}

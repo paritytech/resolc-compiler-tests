@@ -1,0 +1,27 @@
+{
+  "cases": [
+    {
+      "name": "enum_v2",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint8[]): 0x20, 2, 3, 3 -> FAILURE",
+          "instance": "C",
+          "method": "f(uint8[])",
+          "calldata": [
+            "32",
+            "2",
+            "3",
+            "3"
+          ],
+          "expected": {
+            "exception": true
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "enum_v2.sol:C"
+  }
+}

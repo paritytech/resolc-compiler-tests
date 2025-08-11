@@ -1,0 +1,29 @@
+{
+  "cases": [
+    {
+      "name": "copy_struct_with_nested_array_from_calldata_to_storage",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "test((uint8[1],uint8[])): 0x20, 3, 0x40, 2, 7, 11",
+          "instance": "C",
+          "method": "test((uint8[1],uint8[]))",
+          "calldata": [
+            "32",
+            "3",
+            "64",
+            "2",
+            "7",
+            "11"
+          ],
+          "expected": {
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "copy_struct_with_nested_array_from_calldata_to_storage.sol:C"
+  }
+}

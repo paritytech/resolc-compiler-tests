@@ -1,0 +1,33 @@
+{
+  "cases": [
+    {
+      "name": "ether_non_payable_function",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(), 1 ether -> FAILURE",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "exception": true
+          },
+          "value": "1000000000000000000 wei"
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "() -> FAILURE",
+          "instance": "C",
+          "method": "#fallback",
+          "calldata": [],
+          "expected": {
+            "exception": true
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "ether_non_payable_function.sol:C"
+  }
+}

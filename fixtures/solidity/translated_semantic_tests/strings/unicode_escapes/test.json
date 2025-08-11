@@ -1,0 +1,72 @@
+{
+  "cases": [
+    {
+      "name": "unicode_escapes",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "oneByteUTF8() -> 0x20, 7, \"aaa$aaa\"",
+          "instance": "C",
+          "method": "oneByteUTF8()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "32",
+              "7",
+              "27410142591017313"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "twoBytesUTF8() -> 0x20, 8, \"aaa\\xc2\\xa2aaa\"",
+          "instance": "C",
+          "method": "twoBytesUTF8()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "32",
+              "8",
+              "7016997182995784033"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "threeBytesUTF8() -> 0x20, 9, \"aaa\\xe2\\x82\\xacaaa\"",
+          "instance": "C",
+          "method": "threeBytesUTF8()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "32",
+              "9",
+              "1796351313895112139105"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "combined() -> 0x20, 6, \"$\\xc2\\xa2\\xe2\\x82\\xac\"",
+          "instance": "C",
+          "method": "combined()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "32",
+              "6",
+              "40418375008940"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "unicode_escapes.sol:C"
+  }
+}

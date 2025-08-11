@@ -1,0 +1,636 @@
+{
+  "cases": [
+    {
+      "name": "exp_various",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint8,uint8): 0, 0 -> 1",
+          "instance": "C",
+          "method": "f(uint8,uint8)",
+          "calldata": [
+            "0",
+            "0"
+          ],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint8,uint8): 0, 1 -> 0x00",
+          "instance": "C",
+          "method": "f(uint8,uint8)",
+          "calldata": [
+            "0",
+            "1"
+          ],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint8,uint8): 0, 2 -> 0x00",
+          "instance": "C",
+          "method": "f(uint8,uint8)",
+          "calldata": [
+            "0",
+            "2"
+          ],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint8,uint8): 0, 3 -> 0x00",
+          "instance": "C",
+          "method": "f(uint8,uint8)",
+          "calldata": [
+            "0",
+            "3"
+          ],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint8,uint8): 1, 0 -> 1",
+          "instance": "C",
+          "method": "f(uint8,uint8)",
+          "calldata": [
+            "1",
+            "0"
+          ],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint8,uint8): 1, 1 -> 1",
+          "instance": "C",
+          "method": "f(uint8,uint8)",
+          "calldata": [
+            "1",
+            "1"
+          ],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint8,uint8): 1, 2 -> 1",
+          "instance": "C",
+          "method": "f(uint8,uint8)",
+          "calldata": [
+            "1",
+            "2"
+          ],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint8,uint8): 1, 3 -> 1",
+          "instance": "C",
+          "method": "f(uint8,uint8)",
+          "calldata": [
+            "1",
+            "3"
+          ],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint8,uint8): 2, 0 -> 1",
+          "instance": "C",
+          "method": "f(uint8,uint8)",
+          "calldata": [
+            "2",
+            "0"
+          ],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint8,uint8): 2, 1 -> 2",
+          "instance": "C",
+          "method": "f(uint8,uint8)",
+          "calldata": [
+            "2",
+            "1"
+          ],
+          "expected": {
+            "return_data": [
+              "2"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint8,uint8): 2, 2 -> 4",
+          "instance": "C",
+          "method": "f(uint8,uint8)",
+          "calldata": [
+            "2",
+            "2"
+          ],
+          "expected": {
+            "return_data": [
+              "4"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint8,uint8): 2, 3 -> 8",
+          "instance": "C",
+          "method": "f(uint8,uint8)",
+          "calldata": [
+            "2",
+            "3"
+          ],
+          "expected": {
+            "return_data": [
+              "8"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint8,uint8): 3, 0 -> 1",
+          "instance": "C",
+          "method": "f(uint8,uint8)",
+          "calldata": [
+            "3",
+            "0"
+          ],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint8,uint8): 3, 1 -> 3",
+          "instance": "C",
+          "method": "f(uint8,uint8)",
+          "calldata": [
+            "3",
+            "1"
+          ],
+          "expected": {
+            "return_data": [
+              "3"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint8,uint8): 3, 2 -> 9",
+          "instance": "C",
+          "method": "f(uint8,uint8)",
+          "calldata": [
+            "3",
+            "2"
+          ],
+          "expected": {
+            "return_data": [
+              "9"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint8,uint8): 3, 3 -> 0x1b",
+          "instance": "C",
+          "method": "f(uint8,uint8)",
+          "calldata": [
+            "3",
+            "3"
+          ],
+          "expected": {
+            "return_data": [
+              "27"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint8,uint8): 10, 0 -> 1",
+          "instance": "C",
+          "method": "f(uint8,uint8)",
+          "calldata": [
+            "10",
+            "0"
+          ],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint8,uint8): 10, 1 -> 0x0a",
+          "instance": "C",
+          "method": "f(uint8,uint8)",
+          "calldata": [
+            "10",
+            "1"
+          ],
+          "expected": {
+            "return_data": [
+              "10"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint8,uint8): 10, 2 -> 100",
+          "instance": "C",
+          "method": "f(uint8,uint8)",
+          "calldata": [
+            "10",
+            "2"
+          ],
+          "expected": {
+            "return_data": [
+              "100"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g(uint256,uint256): 0, 0 -> 1",
+          "instance": "C",
+          "method": "g(uint256,uint256)",
+          "calldata": [
+            "0",
+            "0"
+          ],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g(uint256,uint256): 0, 1 -> 0x00",
+          "instance": "C",
+          "method": "g(uint256,uint256)",
+          "calldata": [
+            "0",
+            "1"
+          ],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g(uint256,uint256): 0, 2 -> 0x00",
+          "instance": "C",
+          "method": "g(uint256,uint256)",
+          "calldata": [
+            "0",
+            "2"
+          ],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g(uint256,uint256): 0, 3 -> 0x00",
+          "instance": "C",
+          "method": "g(uint256,uint256)",
+          "calldata": [
+            "0",
+            "3"
+          ],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g(uint256,uint256): 1, 0 -> 1",
+          "instance": "C",
+          "method": "g(uint256,uint256)",
+          "calldata": [
+            "1",
+            "0"
+          ],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g(uint256,uint256): 1, 1 -> 1",
+          "instance": "C",
+          "method": "g(uint256,uint256)",
+          "calldata": [
+            "1",
+            "1"
+          ],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g(uint256,uint256): 1, 2 -> 1",
+          "instance": "C",
+          "method": "g(uint256,uint256)",
+          "calldata": [
+            "1",
+            "2"
+          ],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g(uint256,uint256): 1, 3 -> 1",
+          "instance": "C",
+          "method": "g(uint256,uint256)",
+          "calldata": [
+            "1",
+            "3"
+          ],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g(uint256,uint256): 2, 0 -> 1",
+          "instance": "C",
+          "method": "g(uint256,uint256)",
+          "calldata": [
+            "2",
+            "0"
+          ],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g(uint256,uint256): 2, 1 -> 2",
+          "instance": "C",
+          "method": "g(uint256,uint256)",
+          "calldata": [
+            "2",
+            "1"
+          ],
+          "expected": {
+            "return_data": [
+              "2"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g(uint256,uint256): 2, 2 -> 4",
+          "instance": "C",
+          "method": "g(uint256,uint256)",
+          "calldata": [
+            "2",
+            "2"
+          ],
+          "expected": {
+            "return_data": [
+              "4"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g(uint256,uint256): 2, 3 -> 8",
+          "instance": "C",
+          "method": "g(uint256,uint256)",
+          "calldata": [
+            "2",
+            "3"
+          ],
+          "expected": {
+            "return_data": [
+              "8"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g(uint256,uint256): 3, 0 -> 1",
+          "instance": "C",
+          "method": "g(uint256,uint256)",
+          "calldata": [
+            "3",
+            "0"
+          ],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g(uint256,uint256): 3, 1 -> 3",
+          "instance": "C",
+          "method": "g(uint256,uint256)",
+          "calldata": [
+            "3",
+            "1"
+          ],
+          "expected": {
+            "return_data": [
+              "3"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g(uint256,uint256): 3, 2 -> 9",
+          "instance": "C",
+          "method": "g(uint256,uint256)",
+          "calldata": [
+            "3",
+            "2"
+          ],
+          "expected": {
+            "return_data": [
+              "9"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g(uint256,uint256): 3, 3 -> 0x1b",
+          "instance": "C",
+          "method": "g(uint256,uint256)",
+          "calldata": [
+            "3",
+            "3"
+          ],
+          "expected": {
+            "return_data": [
+              "27"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g(uint256,uint256): 10, 10 -> 10000000000",
+          "instance": "C",
+          "method": "g(uint256,uint256)",
+          "calldata": [
+            "10",
+            "10"
+          ],
+          "expected": {
+            "return_data": [
+              "10000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g(uint256,uint256): 10, 77 -> -15792089237316195423570985008687907853269984665640564039457584007913129639936",
+          "instance": "C",
+          "method": "g(uint256,uint256)",
+          "calldata": [
+            "10",
+            "77"
+          ],
+          "expected": {
+            "return_data": [
+              "100000000000000000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g(uint256,uint256): 256, 2 -> 0x010000",
+          "instance": "C",
+          "method": "g(uint256,uint256)",
+          "calldata": [
+            "256",
+            "2"
+          ],
+          "expected": {
+            "return_data": [
+              "65536"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g(uint256,uint256): 256, 31 -> 0x0100000000000000000000000000000000000000000000000000000000000000",
+          "instance": "C",
+          "method": "g(uint256,uint256)",
+          "calldata": [
+            "256",
+            "31"
+          ],
+          "expected": {
+            "return_data": [
+              "452312848583266388373324160190187140051835877600158453279131187530910662656"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "exp_various.sol:C"
+  }
+}

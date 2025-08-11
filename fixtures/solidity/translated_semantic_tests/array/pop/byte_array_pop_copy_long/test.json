@@ -1,0 +1,27 @@
+{
+  "cases": [
+    {
+      "name": "byte_array_pop_copy_long",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "test() -> 0x20, 29, 0x0303030303030303030303030303030303030303030303030303030303000000; gas irOptimized: 109310; gas legacy: 101220; gas legacyOptimized: 123422",
+          "instance": "c",
+          "method": "test()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "32",
+              "29",
+              "1362259873380190534394952764808093033567882172536947812228912753034271916032"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "c": "byte_array_pop_copy_long.sol:c"
+  }
+}

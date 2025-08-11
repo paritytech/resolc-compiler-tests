@@ -1,0 +1,22 @@
+{
+  "cases": [
+    {
+      "name": "copy_struct_with_nested_array_from_storage_to_storage",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "test()",
+          "instance": "C",
+          "method": "test()",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "copy_struct_with_nested_array_from_storage_to_storage.sol:C"
+  }
+}

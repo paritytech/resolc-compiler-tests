@@ -1,0 +1,42 @@
+{
+  "cases": [
+    {
+      "name": "multisource_module",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(int256): 5 -> 5",
+          "instance": "C",
+          "method": "f(int256)",
+          "calldata": [
+            "5"
+          ],
+          "expected": {
+            "return_data": [
+              "5"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g(int256): 1 -> 1",
+          "instance": "C",
+          "method": "g(int256)",
+          "calldata": [
+            "1"
+          ],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "s2.sol:C"
+  }
+}

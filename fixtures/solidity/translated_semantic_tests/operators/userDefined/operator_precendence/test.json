@@ -1,0 +1,52 @@
+{
+  "cases": [
+    {
+      "name": "operator_precendence",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "testBitwise() ->",
+          "instance": "C",
+          "method": "testBitwise()",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "testBitwise_arithmetic() ->",
+          "instance": "C",
+          "method": "testBitwise_arithmetic()",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "testArithmetic() ->",
+          "instance": "C",
+          "method": "testArithmetic()",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "testAll() ->",
+          "instance": "C",
+          "method": "testAll()",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "operator_precendence.sol:C"
+  }
+}

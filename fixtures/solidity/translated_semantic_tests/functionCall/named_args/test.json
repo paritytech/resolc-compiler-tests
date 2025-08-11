@@ -1,0 +1,38 @@
+{
+  "cases": [
+    {
+      "name": "named_args",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "b() -> 123",
+          "instance": "test",
+          "method": "b()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "123"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "c() -> 123",
+          "instance": "test",
+          "method": "c()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "123"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "test": "named_args.sol:test"
+  }
+}

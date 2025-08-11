@@ -1,0 +1,38 @@
+{
+  "cases": [
+    {
+      "name": "address_overload_resolution",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f() -> 1; gas irOptimized: 77051; gas legacy: 54553; gas legacy code: 57800",
+          "instance": "D",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g() -> 5; gas irOptimized: 77106; gas legacy: 55090; gas legacy code: 57800",
+          "instance": "D",
+          "method": "g()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "5"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "D": "address_overload_resolution.sol:D"
+  }
+}

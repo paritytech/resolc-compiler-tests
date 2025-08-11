@@ -1,0 +1,78 @@
+{
+  "cases": [
+    {
+      "name": "nested_tuples",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f0() -> 2, true",
+          "instance": "test",
+          "method": "f0()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "2",
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f1() -> 1",
+          "instance": "test",
+          "method": "f1()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f2() -> 2",
+          "instance": "test",
+          "method": "f2()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "2"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f3() -> 3",
+          "instance": "test",
+          "method": "f3()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "3"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f4() -> 4",
+          "instance": "test",
+          "method": "f4()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "4"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "test": "nested_tuples.sol:test"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "cases": [
+    {
+      "name": "event_anonymous_with_topics",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "deposit(bytes32), 18 wei: 0x1234 ->; ~ emit <anonymous>: #0x1212121212121212121212121212120000000012, #0x1234, #0x12, #0x02, \"abc\"",
+          "instance": "ClientReceipt",
+          "method": "deposit(bytes32)",
+          "calldata": [
+            "4660"
+          ],
+          "expected": {
+            "events": [
+              {
+                "topics": [
+                  "103164821458651970696730694074090566015747358738",
+                  "4660",
+                  "18",
+                  "2"
+                ],
+                "values": [
+                  "6382179"
+                ]
+              }
+            ],
+            "exception": false
+          },
+          "value": "18 wei"
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "ClientReceipt": "event_anonymous_with_topics.sol:ClientReceipt"
+  }
+}

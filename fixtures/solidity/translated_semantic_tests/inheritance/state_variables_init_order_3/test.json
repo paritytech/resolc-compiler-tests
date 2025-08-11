@@ -1,0 +1,116 @@
+{
+  "cases": [
+    {
+      "name": "state_variables_init_order_3",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "a() -> 17",
+          "instance": "B",
+          "method": "a()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "17"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "b() -> 42",
+          "instance": "B",
+          "method": "b()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "42"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "c() -> 51",
+          "instance": "B",
+          "method": "c()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "51"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "b_a() -> 17",
+          "instance": "B",
+          "method": "b_a()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "17"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "b_b() -> 42",
+          "instance": "B",
+          "method": "b_b()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "42"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "b_c() -> 51",
+          "instance": "B",
+          "method": "b_c()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "51"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "d() -> 23",
+          "instance": "B",
+          "method": "d()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "23"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "e() -> 42",
+          "instance": "B",
+          "method": "e()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "42"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "B": "state_variables_init_order_3.sol:B"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "cases": [
+    {
+      "name": "external_types_in_calls",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "test() -> 9, 7; gas legacy: 80314; gas legacy code: 47400",
+          "instance": "C",
+          "method": "test()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "9",
+              "7"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "t2() -> 9",
+          "instance": "C",
+          "method": "t2()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "9"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "external_types_in_calls.sol:C"
+  }
+}

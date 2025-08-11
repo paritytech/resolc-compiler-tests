@@ -1,0 +1,57 @@
+{
+  "cases": [
+    {
+      "name": "return_dynamic_types_cross_call_out_of_range_1",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256): 0x60 -> true",
+          "instance": "C",
+          "method": "f(uint256)",
+          "calldata": [
+            "96"
+          ],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256): 0x7f -> true",
+          "instance": "C",
+          "method": "f(uint256)",
+          "calldata": [
+            "127"
+          ],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256): 0x80 -> true",
+          "instance": "C",
+          "method": "f(uint256)",
+          "calldata": [
+            "128"
+          ],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "return_dynamic_types_cross_call_out_of_range_1.sol:C"
+  }
+}

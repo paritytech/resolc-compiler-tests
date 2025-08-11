@@ -1,0 +1,73 @@
+{
+  "cases": [
+    {
+      "name": "state_variable_mapping",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "setup() ->; gas irOptimized: 159082; gas legacy: 161738; gas legacyOptimized: 160222",
+          "instance": "C",
+          "method": "setup()",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "open(uint256): 3 -> 0x20, 5, \"Empty\"",
+          "instance": "C",
+          "method": "open(uint256)",
+          "calldata": [
+            "3"
+          ],
+          "expected": {
+            "return_data": [
+              "32",
+              "5",
+              "298188829817"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "open(uint256): 2 -> 0x20, 6, \"Locked\"",
+          "instance": "C",
+          "method": "open(uint256)",
+          "calldata": [
+            "2"
+          ],
+          "expected": {
+            "return_data": [
+              "32",
+              "6",
+              "84041293063524"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "open(uint256): 1 -> 0x20, 7, \"Monster\"",
+          "instance": "C",
+          "method": "open(uint256)",
+          "calldata": [
+            "1"
+          ],
+          "expected": {
+            "return_data": [
+              "32",
+              "7",
+              "21796093380814194"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "state_variable_mapping.sol:C"
+  }
+}

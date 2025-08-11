@@ -1,0 +1,52 @@
+{
+  "cases": [
+    {
+      "name": "bytes_concat_as_argument",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(bytes,bytes): 0x40, 0x80, 32, \"abcdabcdabcdabcdabcdabcdabcdabcd\", 5, \"bcdef\" -> 0x1106e19b6f06d1cce71c2d816754f83dfa5b95df958c5cbf12b7c472320c427c",
+          "instance": "C",
+          "method": "f(bytes,bytes)",
+          "calldata": [
+            "64",
+            "128",
+            "32",
+            "44048183304063887187859370839104322756173613274888048543432839607116120613732",
+            "5",
+            "422574318950"
+          ],
+          "expected": {
+            "return_data": [
+              "7701476591716429961817987593935922060596448300544316294651837918394501055100"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g(bytes,bytes): 0x40, 0x80, 32, \"abcdabcdabcdabcdabcdabcdabcdabcd\", 5, \"bcdef\" -> 37",
+          "instance": "C",
+          "method": "g(bytes,bytes)",
+          "calldata": [
+            "64",
+            "128",
+            "32",
+            "44048183304063887187859370839104322756173613274888048543432839607116120613732",
+            "5",
+            "422574318950"
+          ],
+          "expected": {
+            "return_data": [
+              "37"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "bytes_concat_as_argument.sol:C"
+  }
+}

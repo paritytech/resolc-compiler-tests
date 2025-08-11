@@ -1,0 +1,82 @@
+{
+  "cases": [
+    {
+      "name": "state_variable_reference_types_slot_offset",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "s1SlotOffset() -> 42, 0",
+          "instance": "C",
+          "method": "s1SlotOffset()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "42",
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "dArraySlotOffset() -> 44, 0",
+          "instance": "C",
+          "method": "dArraySlotOffset()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "44",
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "sArraySlotOffset() -> 49, 0",
+          "instance": "C",
+          "method": "sArraySlotOffset()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "49",
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "bArraySlotOffset() -> 69, 0",
+          "instance": "C",
+          "method": "bArraySlotOffset()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "69",
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "strSlotOffset() -> 70, 0",
+          "instance": "C",
+          "method": "strSlotOffset()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "70",
+              "0"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "state_variable_reference_types_slot_offset.sol:C"
+  }
+}

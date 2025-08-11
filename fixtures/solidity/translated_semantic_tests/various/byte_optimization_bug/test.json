@@ -1,0 +1,42 @@
+{
+  "cases": [
+    {
+      "name": "byte_optimization_bug",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256): 2 -> 0",
+          "instance": "C",
+          "method": "f(uint256)",
+          "calldata": [
+            "2"
+          ],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g(uint256): 2 -> 2",
+          "instance": "C",
+          "method": "g(uint256)",
+          "calldata": [
+            "2"
+          ],
+          "expected": {
+            "return_data": [
+              "2"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "byte_optimization_bug.sol:C"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "ripemd160_empty",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f() -> 0x9c1185a5c5e9fc54612808977ee8f548b2258d31000000000000000000000000",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "70591763180588889921896472592087647508930935365384853188857905717740272877568"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "ripemd160_empty.sol:C"
+  }
+}

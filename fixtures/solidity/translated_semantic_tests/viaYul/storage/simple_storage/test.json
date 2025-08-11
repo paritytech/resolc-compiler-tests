@@ -1,0 +1,42 @@
+{
+  "cases": [
+    {
+      "name": "simple_storage",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "setX(uint256): 6 -> 6",
+          "instance": "C",
+          "method": "setX(uint256)",
+          "calldata": [
+            "6"
+          ],
+          "expected": {
+            "return_data": [
+              "6"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "setY(uint256): 2 -> 2",
+          "instance": "C",
+          "method": "setY(uint256)",
+          "calldata": [
+            "2"
+          ],
+          "expected": {
+            "return_data": [
+              "2"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "simple_storage.sol:C"
+  }
+}

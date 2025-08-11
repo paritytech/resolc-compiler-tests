@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "inline_tuple_with_rational_numbers",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f() -> 1",
+          "instance": "c",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "c": "inline_tuple_with_rational_numbers.sol:c"
+  }
+}

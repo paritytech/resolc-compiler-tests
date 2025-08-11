@@ -1,0 +1,78 @@
+{
+  "cases": [
+    {
+      "name": "library_through_module",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256): 5 -> 5",
+          "instance": "C",
+          "method": "f(uint256)",
+          "calldata": [
+            "5"
+          ],
+          "expected": {
+            "return_data": [
+              "5"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256): 10 -> 10",
+          "instance": "C",
+          "method": "f(uint256)",
+          "calldata": [
+            "10"
+          ],
+          "expected": {
+            "return_data": [
+              "10"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g(uint256): 5 -> 1",
+          "instance": "C",
+          "method": "g(uint256)",
+          "calldata": [
+            "5"
+          ],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g(uint256): 10 -> 1",
+          "instance": "C",
+          "method": "g(uint256)",
+          "calldata": [
+            "10"
+          ],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "B:C",
+    "L": "A:L"
+  },
+  "libraries": {
+    "A": {
+      "L": "L"
+    }
+  }
+}

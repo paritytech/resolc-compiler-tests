@@ -1,0 +1,34 @@
+{
+  "cases": [
+    {
+      "name": "error_static_calldata_uint_array_and_dynamic_array",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256[],uint256[1]): 0x40, 0xff, 1, 0xffff -> FAILURE, hex\"f42f106d\", 0x40, 0xff, 1, 0xffff",
+          "instance": "C",
+          "method": "f(uint256[],uint256[1])",
+          "calldata": [
+            "64",
+            "255",
+            "1",
+            "65535"
+          ],
+          "expected": {
+            "return_data": [
+              "4096725101",
+              "64",
+              "255",
+              "1",
+              "65535"
+            ],
+            "exception": true
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "error_static_calldata_uint_array_and_dynamic_array.sol:C"
+  }
+}

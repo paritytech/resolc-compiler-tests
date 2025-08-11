@@ -1,0 +1,27 @@
+{
+  "cases": [
+    {
+      "name": "byte_array_pop",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "test() -> 2, 1, 1",
+          "instance": "c",
+          "method": "test()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "2",
+              "1",
+              "1"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "c": "byte_array_pop.sol:c"
+  }
+}

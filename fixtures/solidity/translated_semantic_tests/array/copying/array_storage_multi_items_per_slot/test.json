@@ -1,0 +1,27 @@
+{
+  "cases": [
+    {
+      "name": "array_storage_multi_items_per_slot",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f() -> 1, 2, 3; gas irOptimized: 131939; gas legacy: 134605; gas legacyOptimized: 131938",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1",
+              "2",
+              "3"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "array_storage_multi_items_per_slot.sol:C"
+  }
+}

@@ -1,0 +1,188 @@
+{
+  "cases": [
+    {
+      "name": "bitwise_shifting_constantinople",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "shl(uint256,uint256): 0x01, 0x02 -> 0x04",
+          "instance": "C",
+          "method": "shl(uint256,uint256)",
+          "calldata": [
+            "1",
+            "2"
+          ],
+          "expected": {
+            "return_data": [
+              "4"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "shl(uint256,uint256): 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff, 0x01 -> 0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe",
+          "instance": "C",
+          "method": "shl(uint256,uint256)",
+          "calldata": [
+            "115792089237316195423570985008687907853269984665640564039457584007913129639935",
+            "1"
+          ],
+          "expected": {
+            "return_data": [
+              "115792089237316195423570985008687907853269984665640564039457584007913129639934"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "shl(uint256,uint256): 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff, 0x100 -> 0x00",
+          "instance": "C",
+          "method": "shl(uint256,uint256)",
+          "calldata": [
+            "115792089237316195423570985008687907853269984665640564039457584007913129639935",
+            "256"
+          ],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "shr(uint256,uint256): 0x03, 0x01 -> 0x01",
+          "instance": "C",
+          "method": "shr(uint256,uint256)",
+          "calldata": [
+            "3",
+            "1"
+          ],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "shr(uint256,uint256): 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff, 0x01 -> 0x7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+          "instance": "C",
+          "method": "shr(uint256,uint256)",
+          "calldata": [
+            "115792089237316195423570985008687907853269984665640564039457584007913129639935",
+            "1"
+          ],
+          "expected": {
+            "return_data": [
+              "57896044618658097711785492504343953926634992332820282019728792003956564819967"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "shr(uint256,uint256): 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff, 0xff -> 0x01",
+          "instance": "C",
+          "method": "shr(uint256,uint256)",
+          "calldata": [
+            "115792089237316195423570985008687907853269984665640564039457584007913129639935",
+            "255"
+          ],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "shr(uint256,uint256): 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff, 0x100 -> 0x00",
+          "instance": "C",
+          "method": "shr(uint256,uint256)",
+          "calldata": [
+            "115792089237316195423570985008687907853269984665640564039457584007913129639935",
+            "256"
+          ],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "sar(uint256,uint256): 0x03, 0x01 -> 0x01",
+          "instance": "C",
+          "method": "sar(uint256,uint256)",
+          "calldata": [
+            "3",
+            "1"
+          ],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "sar(uint256,uint256): 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff, 0x01 -> 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+          "instance": "C",
+          "method": "sar(uint256,uint256)",
+          "calldata": [
+            "115792089237316195423570985008687907853269984665640564039457584007913129639935",
+            "1"
+          ],
+          "expected": {
+            "return_data": [
+              "115792089237316195423570985008687907853269984665640564039457584007913129639935"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "sar(uint256,uint256): 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff, 0xff -> 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+          "instance": "C",
+          "method": "sar(uint256,uint256)",
+          "calldata": [
+            "115792089237316195423570985008687907853269984665640564039457584007913129639935",
+            "255"
+          ],
+          "expected": {
+            "return_data": [
+              "115792089237316195423570985008687907853269984665640564039457584007913129639935"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "sar(uint256,uint256): 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff, 0x100 -> 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+          "instance": "C",
+          "method": "sar(uint256,uint256)",
+          "calldata": [
+            "115792089237316195423570985008687907853269984665640564039457584007913129639935",
+            "256"
+          ],
+          "expected": {
+            "return_data": [
+              "115792089237316195423570985008687907853269984665640564039457584007913129639935"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "bitwise_shifting_constantinople.sol:C"
+  }
+}

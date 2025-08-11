@@ -1,0 +1,33 @@
+{
+  "cases": [
+    {
+      "name": "using_for_function_on_int",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256): 9 -> 18",
+          "instance": "C",
+          "method": "f(uint256)",
+          "calldata": [
+            "9"
+          ],
+          "expected": {
+            "return_data": [
+              "18"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "using_for_function_on_int.sol:C",
+    "D": "using_for_function_on_int.sol:D"
+  },
+  "libraries": {
+    "using_for_function_on_int.sol": {
+      "D": "D"
+    }
+  }
+}

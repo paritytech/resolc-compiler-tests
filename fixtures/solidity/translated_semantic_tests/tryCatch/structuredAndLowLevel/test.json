@@ -1,0 +1,52 @@
+{
+  "cases": [
+    {
+      "name": "structuredAndLowLevel",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(bool): true -> 1, 2, 96, 7, \"success\"",
+          "instance": "C",
+          "method": "f(bool)",
+          "calldata": [
+            "1"
+          ],
+          "expected": {
+            "return_data": [
+              "1",
+              "2",
+              "96",
+              "7",
+              "32498692051530611"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(bool): false -> 99, 0, 96, 82, \"message longer than 32 bytes 32 \", \"bytes 32 bytes 32 bytes 32 bytes\", \" 32 bytes 32 bytes\"",
+          "instance": "C",
+          "method": "f(bool)",
+          "calldata": [
+            "0"
+          ],
+          "expected": {
+            "return_data": [
+              "99",
+              "0",
+              "96",
+              "82",
+              "49481348860600227325608997037042425338134469734585991591731070937472125055520",
+              "44541250993653291498911368179411906574104633238621825917006584975207022486899",
+              "2805014180079883244965129066277150074889587"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "structuredAndLowLevel.sol:C"
+  }
+}

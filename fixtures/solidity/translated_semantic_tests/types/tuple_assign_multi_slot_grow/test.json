@@ -1,0 +1,27 @@
+{
+  "cases": [
+    {
+      "name": "tuple_assign_multi_slot_grow",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f() -> 0x30, 0x31, 0x32",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "48",
+              "49",
+              "50"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "tuple_assign_multi_slot_grow.sol:C"
+  }
+}

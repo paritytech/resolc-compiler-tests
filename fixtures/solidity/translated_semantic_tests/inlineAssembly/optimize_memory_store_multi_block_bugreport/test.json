@@ -1,0 +1,34 @@
+{
+  "cases": [
+    {
+      "name": "optimize_memory_store_multi_block_bugreport",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "test() -> 10; ~ emit <anonymous>: 0x0123456789abcd, 0xef00000000000000000000000000000000000000000000000000000000000000",
+          "instance": "Test",
+          "method": "test()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "10"
+            ],
+            "events": [
+              {
+                "topics": [],
+                "values": [
+                  "320255973501901",
+                  "108102770811400666821224474285454726472388774746437870333712353819887648374784"
+                ]
+              }
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "Test": "optimize_memory_store_multi_block_bugreport.sol:Test"
+  }
+}

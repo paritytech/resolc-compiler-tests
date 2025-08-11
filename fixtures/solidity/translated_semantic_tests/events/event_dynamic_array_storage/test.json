@@ -1,0 +1,38 @@
+{
+  "cases": [
+    {
+      "name": "event_dynamic_array_storage",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "createEvent(uint256): 42 ->; ~ emit E(uint256[]): 0x20, 0x03, 0x2a, 0x2b, 0x2c; gas irOptimized: 114231; gas legacy: 116313; gas legacyOptimized: 114407",
+          "instance": "C",
+          "method": "createEvent(uint256)",
+          "calldata": [
+            "42"
+          ],
+          "expected": {
+            "events": [
+              {
+                "topics": [
+                  "a413856f491ae4dba12a82257911a2214248dc6f045250e52141654d278b1067"
+                ],
+                "values": [
+                  "32",
+                  "3",
+                  "42",
+                  "43",
+                  "44"
+                ]
+              }
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "event_dynamic_array_storage.sol:C"
+  }
+}

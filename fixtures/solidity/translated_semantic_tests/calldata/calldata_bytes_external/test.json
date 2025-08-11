@@ -1,0 +1,29 @@
+{
+  "cases": [
+    {
+      "name": "calldata_bytes_external",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "tester(bytes): 0x20, 0x08, \"abcdefgh\" -> \"c\"",
+          "instance": "CalldataTest",
+          "method": "tester(bytes)",
+          "calldata": [
+            "32",
+            "8",
+            "7017280452245743464"
+          ],
+          "expected": {
+            "return_data": [
+              "99"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "CalldataTest": "calldata_bytes_external.sol:CalldataTest"
+  }
+}

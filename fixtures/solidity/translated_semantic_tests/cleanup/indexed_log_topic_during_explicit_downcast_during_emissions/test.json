@@ -1,0 +1,50 @@
+{
+  "cases": [
+    {
+      "name": "indexed_log_topic_during_explicit_downcast_during_emissions",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "constructor() ->; ~ emit ev0(bytes1): #\"1\"; gas legacy: 168735",
+          "instance": "C",
+          "method": "#deployer",
+          "calldata": [],
+          "expected": {
+            "events": [
+              {
+                "topics": [
+                  "11b71e7a7c62509eb79bf18a1ff1cf9b82a93933de9a5e1ce33a566832e945b3",
+                  "49"
+                ],
+                "values": []
+              }
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "j() ->; ~ emit ev0(bytes1): #\"1\"",
+          "instance": "C",
+          "method": "j()",
+          "calldata": [],
+          "expected": {
+            "events": [
+              {
+                "topics": [
+                  "11b71e7a7c62509eb79bf18a1ff1cf9b82a93933de9a5e1ce33a566832e945b3",
+                  "49"
+                ],
+                "values": []
+              }
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "indexed_log_topic_during_explicit_downcast_during_emissions.sol:C"
+  }
+}

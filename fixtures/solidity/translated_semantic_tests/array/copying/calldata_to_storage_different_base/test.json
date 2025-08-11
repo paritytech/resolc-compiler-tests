@@ -1,0 +1,34 @@
+{
+  "cases": [
+    {
+      "name": "calldata_to_storage_different_base",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(bytes8[]): 0x20, 3, \"abcd\", \"bcde\", \"cdef\" -> 3, \"abcd\", \"bcde\", \"cdef\"",
+          "instance": "C",
+          "method": "f(bytes8[])",
+          "calldata": [
+            "32",
+            "3",
+            "1633837924",
+            "1650680933",
+            "1667523942"
+          ],
+          "expected": {
+            "return_data": [
+              "3",
+              "1633837924",
+              "1650680933",
+              "1667523942"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "calldata_to_storage_different_base.sol:C"
+  }
+}

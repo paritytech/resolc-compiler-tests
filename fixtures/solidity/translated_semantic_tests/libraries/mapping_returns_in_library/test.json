@@ -1,0 +1,718 @@
+{
+  "cases": [
+    {
+      "name": "mapping_returns_in_library",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "set(bool,uint256,uint256): true, 1, 42 -> 0",
+          "instance": "Test",
+          "method": "set(bool,uint256,uint256)",
+          "calldata": [
+            "1",
+            "1",
+            "42"
+          ],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "set(bool,uint256,uint256): true, 2, 84 -> 0",
+          "instance": "Test",
+          "method": "set(bool,uint256,uint256)",
+          "calldata": [
+            "1",
+            "2",
+            "84"
+          ],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "set(bool,uint256,uint256): true, 21, 7 -> 0",
+          "instance": "Test",
+          "method": "set(bool,uint256,uint256)",
+          "calldata": [
+            "1",
+            "21",
+            "7"
+          ],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "set(bool,uint256,uint256): false, 1, 10 -> 0",
+          "instance": "Test",
+          "method": "set(bool,uint256,uint256)",
+          "calldata": [
+            "0",
+            "1",
+            "10"
+          ],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "set(bool,uint256,uint256): false, 2, 11 -> 0",
+          "instance": "Test",
+          "method": "set(bool,uint256,uint256)",
+          "calldata": [
+            "0",
+            "2",
+            "11"
+          ],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "set(bool,uint256,uint256): false, 21, 12 -> 0",
+          "instance": "Test",
+          "method": "set(bool,uint256,uint256)",
+          "calldata": [
+            "0",
+            "21",
+            "12"
+          ],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "get(bool,uint256): true, 0 -> 0",
+          "instance": "Test",
+          "method": "get(bool,uint256)",
+          "calldata": [
+            "1",
+            "0"
+          ],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "get(bool,uint256): true, 1 -> 0x2a",
+          "instance": "Test",
+          "method": "get(bool,uint256)",
+          "calldata": [
+            "1",
+            "1"
+          ],
+          "expected": {
+            "return_data": [
+              "42"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "get(bool,uint256): true, 2 -> 0x54",
+          "instance": "Test",
+          "method": "get(bool,uint256)",
+          "calldata": [
+            "1",
+            "2"
+          ],
+          "expected": {
+            "return_data": [
+              "84"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "get(bool,uint256): true, 21 -> 7",
+          "instance": "Test",
+          "method": "get(bool,uint256)",
+          "calldata": [
+            "1",
+            "21"
+          ],
+          "expected": {
+            "return_data": [
+              "7"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "get_a(uint256): 0 -> 0",
+          "instance": "Test",
+          "method": "get_a(uint256)",
+          "calldata": [
+            "0"
+          ],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "get_a(uint256): 1 -> 0x2a",
+          "instance": "Test",
+          "method": "get_a(uint256)",
+          "calldata": [
+            "1"
+          ],
+          "expected": {
+            "return_data": [
+              "42"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "get_a(uint256): 2 -> 0x54",
+          "instance": "Test",
+          "method": "get_a(uint256)",
+          "calldata": [
+            "2"
+          ],
+          "expected": {
+            "return_data": [
+              "84"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "get_a(uint256): 21 -> 7",
+          "instance": "Test",
+          "method": "get_a(uint256)",
+          "calldata": [
+            "21"
+          ],
+          "expected": {
+            "return_data": [
+              "7"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "get(bool,uint256): false, 0 -> 0",
+          "instance": "Test",
+          "method": "get(bool,uint256)",
+          "calldata": [
+            "0",
+            "0"
+          ],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "get(bool,uint256): false, 1 -> 10",
+          "instance": "Test",
+          "method": "get(bool,uint256)",
+          "calldata": [
+            "0",
+            "1"
+          ],
+          "expected": {
+            "return_data": [
+              "10"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "get(bool,uint256): false, 2 -> 11",
+          "instance": "Test",
+          "method": "get(bool,uint256)",
+          "calldata": [
+            "0",
+            "2"
+          ],
+          "expected": {
+            "return_data": [
+              "11"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "get(bool,uint256): false, 21 -> 12",
+          "instance": "Test",
+          "method": "get(bool,uint256)",
+          "calldata": [
+            "0",
+            "21"
+          ],
+          "expected": {
+            "return_data": [
+              "12"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "get_b(uint256): 0 -> 0",
+          "instance": "Test",
+          "method": "get_b(uint256)",
+          "calldata": [
+            "0"
+          ],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "get_b(uint256): 1 -> 10",
+          "instance": "Test",
+          "method": "get_b(uint256)",
+          "calldata": [
+            "1"
+          ],
+          "expected": {
+            "return_data": [
+              "10"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "get_b(uint256): 2 -> 11",
+          "instance": "Test",
+          "method": "get_b(uint256)",
+          "calldata": [
+            "2"
+          ],
+          "expected": {
+            "return_data": [
+              "11"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "get_b(uint256): 21 -> 12",
+          "instance": "Test",
+          "method": "get_b(uint256)",
+          "calldata": [
+            "21"
+          ],
+          "expected": {
+            "return_data": [
+              "12"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "set(bool,uint256,uint256): true, 1, 21 -> 0x2a",
+          "instance": "Test",
+          "method": "set(bool,uint256,uint256)",
+          "calldata": [
+            "1",
+            "1",
+            "21"
+          ],
+          "expected": {
+            "return_data": [
+              "42"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "set(bool,uint256,uint256): true, 2, 42 -> 0x54",
+          "instance": "Test",
+          "method": "set(bool,uint256,uint256)",
+          "calldata": [
+            "1",
+            "2",
+            "42"
+          ],
+          "expected": {
+            "return_data": [
+              "84"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "set(bool,uint256,uint256): true, 21, 14 -> 7",
+          "instance": "Test",
+          "method": "set(bool,uint256,uint256)",
+          "calldata": [
+            "1",
+            "21",
+            "14"
+          ],
+          "expected": {
+            "return_data": [
+              "7"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "set(bool,uint256,uint256): false, 1, 30 -> 10",
+          "instance": "Test",
+          "method": "set(bool,uint256,uint256)",
+          "calldata": [
+            "0",
+            "1",
+            "30"
+          ],
+          "expected": {
+            "return_data": [
+              "10"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "set(bool,uint256,uint256): false, 2, 31 -> 11",
+          "instance": "Test",
+          "method": "set(bool,uint256,uint256)",
+          "calldata": [
+            "0",
+            "2",
+            "31"
+          ],
+          "expected": {
+            "return_data": [
+              "11"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "set(bool,uint256,uint256): false, 21, 32 -> 12",
+          "instance": "Test",
+          "method": "set(bool,uint256,uint256)",
+          "calldata": [
+            "0",
+            "21",
+            "32"
+          ],
+          "expected": {
+            "return_data": [
+              "12"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "get_a(uint256): 0 -> 0",
+          "instance": "Test",
+          "method": "get_a(uint256)",
+          "calldata": [
+            "0"
+          ],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "get_a(uint256): 1 -> 0x15",
+          "instance": "Test",
+          "method": "get_a(uint256)",
+          "calldata": [
+            "1"
+          ],
+          "expected": {
+            "return_data": [
+              "21"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "get_a(uint256): 2 -> 0x2a",
+          "instance": "Test",
+          "method": "get_a(uint256)",
+          "calldata": [
+            "2"
+          ],
+          "expected": {
+            "return_data": [
+              "42"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "get_a(uint256): 21 -> 14",
+          "instance": "Test",
+          "method": "get_a(uint256)",
+          "calldata": [
+            "21"
+          ],
+          "expected": {
+            "return_data": [
+              "14"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "get(bool,uint256): true, 0 -> 0",
+          "instance": "Test",
+          "method": "get(bool,uint256)",
+          "calldata": [
+            "1",
+            "0"
+          ],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "get(bool,uint256): true, 1 -> 0x15",
+          "instance": "Test",
+          "method": "get(bool,uint256)",
+          "calldata": [
+            "1",
+            "1"
+          ],
+          "expected": {
+            "return_data": [
+              "21"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "get(bool,uint256): true, 2 -> 0x2a",
+          "instance": "Test",
+          "method": "get(bool,uint256)",
+          "calldata": [
+            "1",
+            "2"
+          ],
+          "expected": {
+            "return_data": [
+              "42"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "get(bool,uint256): true, 21 -> 14",
+          "instance": "Test",
+          "method": "get(bool,uint256)",
+          "calldata": [
+            "1",
+            "21"
+          ],
+          "expected": {
+            "return_data": [
+              "14"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "get_b(uint256): 0 -> 0",
+          "instance": "Test",
+          "method": "get_b(uint256)",
+          "calldata": [
+            "0"
+          ],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "get_b(uint256): 1 -> 0x1e",
+          "instance": "Test",
+          "method": "get_b(uint256)",
+          "calldata": [
+            "1"
+          ],
+          "expected": {
+            "return_data": [
+              "30"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "get_b(uint256): 2 -> 0x1f",
+          "instance": "Test",
+          "method": "get_b(uint256)",
+          "calldata": [
+            "2"
+          ],
+          "expected": {
+            "return_data": [
+              "31"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "get_b(uint256): 21 -> 0x20",
+          "instance": "Test",
+          "method": "get_b(uint256)",
+          "calldata": [
+            "21"
+          ],
+          "expected": {
+            "return_data": [
+              "32"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "get(bool,uint256): false, 0 -> 0",
+          "instance": "Test",
+          "method": "get(bool,uint256)",
+          "calldata": [
+            "0",
+            "0"
+          ],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "get(bool,uint256): false, 1 -> 0x1e",
+          "instance": "Test",
+          "method": "get(bool,uint256)",
+          "calldata": [
+            "0",
+            "1"
+          ],
+          "expected": {
+            "return_data": [
+              "30"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "get(bool,uint256): false, 2 -> 0x1f",
+          "instance": "Test",
+          "method": "get(bool,uint256)",
+          "calldata": [
+            "0",
+            "2"
+          ],
+          "expected": {
+            "return_data": [
+              "31"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "get(bool,uint256): false, 21 -> 0x20",
+          "instance": "Test",
+          "method": "get(bool,uint256)",
+          "calldata": [
+            "0",
+            "21"
+          ],
+          "expected": {
+            "return_data": [
+              "32"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "Lib": "mapping_returns_in_library.sol:Lib",
+    "Test": "mapping_returns_in_library.sol:Test"
+  },
+  "libraries": {
+    "mapping_returns_in_library.sol": {
+      "Lib": "Lib"
+    }
+  }
+}

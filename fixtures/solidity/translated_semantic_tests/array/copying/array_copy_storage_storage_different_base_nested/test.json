@@ -1,0 +1,26 @@
+{
+  "cases": [
+    {
+      "name": "array_copy_storage_storage_different_base_nested",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "test() -> 3, 4; gas irOptimized: 169669; gas legacy: 175415; gas legacyOptimized: 172533",
+          "instance": "c",
+          "method": "test()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "3",
+              "4"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "c": "array_copy_storage_storage_different_base_nested.sol:c"
+  }
+}

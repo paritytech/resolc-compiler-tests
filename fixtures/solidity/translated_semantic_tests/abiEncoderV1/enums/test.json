@@ -1,0 +1,72 @@
+{
+  "cases": [
+    {
+      "name": "enums",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint8): 0 -> 0",
+          "instance": "C",
+          "method": "f(uint8)",
+          "calldata": [
+            "0"
+          ],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint8): 1 -> 1",
+          "instance": "C",
+          "method": "f(uint8)",
+          "calldata": [
+            "1"
+          ],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint8): 2 -> 2",
+          "instance": "C",
+          "method": "f(uint8)",
+          "calldata": [
+            "2"
+          ],
+          "expected": {
+            "return_data": [
+              "2"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint8): 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff -> 0xff",
+          "instance": "C",
+          "method": "f(uint8)",
+          "calldata": [
+            "115792089237316195423570985008687907853269984665640564039457584007913129639935"
+          ],
+          "expected": {
+            "return_data": [
+              "255"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "enums.sol:C"
+  }
+}

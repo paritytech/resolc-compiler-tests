@@ -1,0 +1,33 @@
+{
+  "cases": [
+    {
+      "name": "library_stray_values",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256): 33 -> 0x2a",
+          "instance": "Test",
+          "method": "f(uint256)",
+          "calldata": [
+            "33"
+          ],
+          "expected": {
+            "return_data": [
+              "42"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "Lib": "library_stray_values.sol:Lib",
+    "Test": "library_stray_values.sol:Test"
+  },
+  "libraries": {
+    "library_stray_values.sol": {
+      "Lib": "Lib"
+    }
+  }
+}

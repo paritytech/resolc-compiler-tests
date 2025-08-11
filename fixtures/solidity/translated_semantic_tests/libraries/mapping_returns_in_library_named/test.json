@@ -1,0 +1,54 @@
+{
+  "cases": [
+    {
+      "name": "mapping_returns_in_library_named",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f() -> 0, 0x2a, 0, 0, 0x15, 0x54",
+          "instance": "Test",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0",
+              "42",
+              "0",
+              "0",
+              "21",
+              "84"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g() -> 0, 0x2a, 0, 0, 0x15, 0x11",
+          "instance": "Test",
+          "method": "g()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0",
+              "42",
+              "0",
+              "0",
+              "21",
+              "17"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "Lib": "mapping_returns_in_library_named.sol:Lib",
+    "Test": "mapping_returns_in_library_named.sol:Test"
+  },
+  "libraries": {
+    "mapping_returns_in_library_named.sol": {
+      "Lib": "Lib"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "cases": [
+    {
+      "name": "event_emit_via_interface",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "emitEvent(uint256): 100 ->; ~ emit Event(address,uint256): #0x1212121212121212121212121212120000000012, 0x64",
+          "instance": "C",
+          "method": "emitEvent(uint256)",
+          "calldata": [
+            "100"
+          ],
+          "expected": {
+            "events": [
+              {
+                "topics": [
+                  "fceb437c298f40d64702ac26411b2316e79f3c28ffa60edfc891ad4fc8ab82ca",
+                  "103164821458651970696730694074090566015747358738"
+                ],
+                "values": [
+                  "100"
+                ]
+              }
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "event_emit_via_interface.sol:C"
+  }
+}

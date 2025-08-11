@@ -1,0 +1,53 @@
+{
+  "cases": [
+    {
+      "name": "modifer_recursive",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "called() -> 0x00",
+          "instance": "C",
+          "method": "called()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256): 5 -> 0x0100000000",
+          "instance": "C",
+          "method": "f(uint256)",
+          "calldata": [
+            "5"
+          ],
+          "expected": {
+            "return_data": [
+              "4294967296"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "called() -> 6",
+          "instance": "C",
+          "method": "called()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "6"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "modifer_recursive.sol:C"
+  }
+}

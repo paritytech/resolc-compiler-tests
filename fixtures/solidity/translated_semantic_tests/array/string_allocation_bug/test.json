@@ -1,0 +1,34 @@
+{
+  "cases": [
+    {
+      "name": "string_allocation_bug",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "p(uint256): 0x0 -> 0xbbbb, 0xcccc, 0x80, 0xc0, 0x05, \"hello\", 0x05, \"world\"",
+          "instance": "Sample",
+          "method": "p(uint256)",
+          "calldata": [
+            "0"
+          ],
+          "expected": {
+            "return_data": [
+              "48059",
+              "52428",
+              "128",
+              "192",
+              "5",
+              "448378203247",
+              "5",
+              "512970878052"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "Sample": "string_allocation_bug.sol:Sample"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "cases": [
+    {
+      "name": "storage_memory_nested_from_pointer",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f() -> 1, 2, 3, 4, 5, 6, 7; gas irOptimized: 206440; gas legacy: 211770; gas legacyOptimized: 211191",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "6",
+              "7"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "storage_memory_nested_from_pointer.sol:C"
+  }
+}

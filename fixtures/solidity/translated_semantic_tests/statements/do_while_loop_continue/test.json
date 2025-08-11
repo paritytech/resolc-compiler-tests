@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "do_while_loop_continue",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f() -> 42",
+          "instance": "test",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "42"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "test": "do_while_loop_continue.sol:test"
+  }
+}

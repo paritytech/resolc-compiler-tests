@@ -1,0 +1,48 @@
+{
+  "cases": [
+    {
+      "name": "memory",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "h(uint256[4]): 1, 2, 3, 4 -> 10",
+          "instance": "C",
+          "method": "h(uint256[4])",
+          "calldata": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "expected": {
+            "return_data": [
+              "10"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "i(uint256[4]): 1, 2, 3, 4 -> 20",
+          "instance": "C",
+          "method": "i(uint256[4])",
+          "calldata": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "expected": {
+            "return_data": [
+              "20"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "memory.sol:C"
+  }
+}

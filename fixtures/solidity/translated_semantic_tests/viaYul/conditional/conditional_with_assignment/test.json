@@ -1,0 +1,28 @@
+{
+  "cases": [
+    {
+      "name": "conditional_with_assignment",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f() -> 6, 1, 5, 5",
+          "instance": "A",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "6",
+              "1",
+              "5",
+              "5"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "A": "conditional_with_assignment.sol:A"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "cases": [
+    {
+      "name": "fixed_point_udvt_with_operators",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "applyInterest(int128,int128): 500000000000000000000, 100000000000000000 -> 550000000000000000000",
+          "instance": "C",
+          "method": "applyInterest(int128,int128)",
+          "calldata": [
+            "500000000000000000000",
+            "100000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "550000000000000000000"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "fixed_point_udvt_with_operators.sol:C"
+  }
+}

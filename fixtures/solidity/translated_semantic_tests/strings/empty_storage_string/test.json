@@ -1,0 +1,275 @@
+{
+  "cases": [
+    {
+      "name": "empty_storage_string",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f() -> 0x20, 0",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "32",
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g() -> 0x40, 0x60, 0, 0",
+          "instance": "C",
+          "method": "g()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "64",
+              "96",
+              "0",
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "h() -> 0x40, 0x60, 0, 0x1a, 38178759162904981154304545770567765692299154484752076569098748838215919075328",
+          "instance": "C",
+          "method": "h()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "64",
+              "96",
+              "0",
+              "26",
+              "38178759162904981154304545770567765692299154484752076569098748838215919075328"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "i() -> 0x40, 0x80, 0x1a, 38178759162904981154304545770567765692299154484752076569098748838215919075328, 0",
+          "instance": "C",
+          "method": "i()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "64",
+              "128",
+              "26",
+              "38178759162904981154304545770567765692299154484752076569098748838215919075328",
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "j(string): 0x20, 0, \"\" -> 0x20, 0",
+          "instance": "C",
+          "method": "j(string)",
+          "calldata": [
+            "32",
+            "0",
+            "0"
+          ],
+          "expected": {
+            "return_data": [
+              "32",
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "k() -> 0x20, 0",
+          "instance": "C",
+          "method": "k()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "32",
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "l(string): 0x20, 0, \"\" -> 0x20, 0x40, 0x20, 0",
+          "instance": "C",
+          "method": "l(string)",
+          "calldata": [
+            "32",
+            "0",
+            "0"
+          ],
+          "expected": {
+            "return_data": [
+              "32",
+              "64",
+              "32",
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "m() -> 0x20, 0x40, 0x20, 0",
+          "instance": "C",
+          "method": "m()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "32",
+              "64",
+              "32",
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "n() -> FAILURE, hex\"d3f13430\", hex\"0000000000000000000000000000000000000000000000000000000000000020\", hex\"0000000000000000000000000000000000000000000000000000000000000000\"",
+          "instance": "C",
+          "method": "n()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "3555800112",
+              "32",
+              "0"
+            ],
+            "exception": true
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "o() ->; ~ emit EmptyEvent(string): 0x20, 0x00",
+          "instance": "C",
+          "method": "o()",
+          "calldata": [],
+          "expected": {
+            "events": [
+              {
+                "topics": [
+                  "b9c15e96b55b1a0e6173f7fa2f341b73298293e98b5ccdb75aa8bd1da2d11970"
+                ],
+                "values": [
+                  "32",
+                  "0"
+                ]
+              }
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "p() ->; ~ emit EmptyEvent(string): 0x20, 0x00",
+          "instance": "C",
+          "method": "p()",
+          "calldata": [],
+          "expected": {
+            "events": [
+              {
+                "topics": [
+                  "b9c15e96b55b1a0e6173f7fa2f341b73298293e98b5ccdb75aa8bd1da2d11970"
+                ],
+                "values": [
+                  "32",
+                  "0"
+                ]
+              }
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "q() -> 0x20, 0",
+          "instance": "C",
+          "method": "q()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "32",
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "r() -> 0x20, 0x40, 0x20, 0",
+          "instance": "C",
+          "method": "r()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "32",
+              "64",
+              "32",
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "s() -> 0x20, 0x40, 0x20, 0",
+          "instance": "C",
+          "method": "s()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "32",
+              "64",
+              "32",
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "set(string): 0x20, 0, \"\" ->",
+          "instance": "C",
+          "method": "set(string)",
+          "calldata": [
+            "32",
+            "0",
+            "0"
+          ],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "get() -> 0x20, 0",
+          "instance": "C",
+          "method": "get()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "32",
+              "0"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "empty_storage_string.sol:C"
+  }
+}

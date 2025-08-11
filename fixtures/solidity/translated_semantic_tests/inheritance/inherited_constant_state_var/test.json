@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "inherited_constant_state_var",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f() -> 7",
+          "instance": "B",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "7"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "B": "inherited_constant_state_var.sol:B"
+  }
+}

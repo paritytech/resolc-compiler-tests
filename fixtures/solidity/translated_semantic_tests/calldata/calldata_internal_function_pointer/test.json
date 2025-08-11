@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "calldata_internal_function_pointer",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g() -> 0x0700000000000000000000000000000000000000000000000000000000000000",
+          "instance": "C",
+          "method": "g()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "3166189940082864718613269121331309980362851143201109172953918312716374638592"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "calldata_internal_function_pointer.sol:C"
+  }
+}

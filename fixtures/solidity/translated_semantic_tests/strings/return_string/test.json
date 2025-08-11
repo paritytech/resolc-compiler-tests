@@ -1,0 +1,71 @@
+{
+  "cases": [
+    {
+      "name": "return_string",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "set(string): 0x20, 5, \"Julia\" ->",
+          "instance": "Main",
+          "method": "set(string)",
+          "calldata": [
+            "32",
+            "5",
+            "319797619041"
+          ],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "get1() -> 0x20, 5, \"Julia\"",
+          "instance": "Main",
+          "method": "get1()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "32",
+              "5",
+              "319797619041"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "get2() -> 0x20, 5, \"Julia\"",
+          "instance": "Main",
+          "method": "get2()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "32",
+              "5",
+              "319797619041"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "s() -> 0x20, 5, \"Julia\"",
+          "instance": "Main",
+          "method": "s()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "32",
+              "5",
+              "319797619041"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "Main": "return_string.sol:Main"
+  }
+}

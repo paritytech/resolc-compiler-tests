@@ -1,0 +1,27 @@
+{
+  "cases": [
+    {
+      "name": "memory_structs_as_function_args",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "test() -> 1, 2, 3",
+          "instance": "Test",
+          "method": "test()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1",
+              "2",
+              "3"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "Test": "memory_structs_as_function_args.sol:Test"
+  }
+}

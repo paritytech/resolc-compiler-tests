@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "functions_called_by_constructor",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "getName() -> \"abc\"",
+          "instance": "Test",
+          "method": "getName()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "6382179"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "Test": "functions_called_by_constructor.sol:Test"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "delete_local",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "delLocal() -> 0",
+          "instance": "test",
+          "method": "delLocal()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "test": "delete_local.sol:test"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "cases": [
+    {
+      "name": "calldata_array_dynamic_to_storage",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256[]): 0x20, 0x03, 0x1, 0x2, 0x3 -> 0x1; gas irOptimized: 111084; gas legacy: 111548; gas legacyOptimized: 111321",
+          "instance": "C",
+          "method": "f(uint256[])",
+          "calldata": [
+            "32",
+            "3",
+            "1",
+            "2",
+            "3"
+          ],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "calldata_array_dynamic_to_storage.sol:C"
+  }
+}

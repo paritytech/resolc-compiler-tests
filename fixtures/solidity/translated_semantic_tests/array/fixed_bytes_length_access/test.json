@@ -1,0 +1,29 @@
+{
+  "cases": [
+    {
+      "name": "fixed_bytes_length_access",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(bytes32): \"789\" -> 32, 16, 8",
+          "instance": "C",
+          "method": "f(bytes32)",
+          "calldata": [
+            "3618873"
+          ],
+          "expected": {
+            "return_data": [
+              "32",
+              "16",
+              "8"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "fixed_bytes_length_access.sol:C"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "assignment_to_const_var_involving_expression",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f() -> 0x57a",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1402"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "assignment_to_const_var_involving_expression.sol:C"
+  }
+}

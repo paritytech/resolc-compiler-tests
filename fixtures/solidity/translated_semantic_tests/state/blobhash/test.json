@@ -1,0 +1,102 @@
+{
+  "cases": [
+    {
+      "name": "blobhash",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256): 0 -> 0x0100000000000000000000000000000000000000000000000000000000000001",
+          "instance": "C",
+          "method": "f(uint256)",
+          "calldata": [
+            "0"
+          ],
+          "expected": {
+            "return_data": [
+              "452312848583266388373324160190187140051835877600158453279131187530910662657"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256): 1 -> 0x0100000000000000000000000000000000000000000000000000000000000002",
+          "instance": "C",
+          "method": "f(uint256)",
+          "calldata": [
+            "1"
+          ],
+          "expected": {
+            "return_data": [
+              "452312848583266388373324160190187140051835877600158453279131187530910662658"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256): 2 -> 0x00",
+          "instance": "C",
+          "method": "f(uint256)",
+          "calldata": [
+            "2"
+          ],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256): 255 -> 0x00",
+          "instance": "C",
+          "method": "f(uint256)",
+          "calldata": [
+            "255"
+          ],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256): 256 -> 0x00",
+          "instance": "C",
+          "method": "f(uint256)",
+          "calldata": [
+            "256"
+          ],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256): 257 -> 0x00",
+          "instance": "C",
+          "method": "f(uint256)",
+          "calldata": [
+            "257"
+          ],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "blobhash.sol:C"
+  }
+}

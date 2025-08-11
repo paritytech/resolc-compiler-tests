@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "keccak256_optimizer_cache_bug",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "val() -> true",
+          "instance": "C",
+          "method": "val()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "keccak256_optimizer_cache_bug.sol:C"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "cases": [
+    {
+      "name": "variable_cleanup_sstore",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f() -> 0x10, 127, \"ab\"",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "16",
+              "127",
+              "24930"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "variable_cleanup_sstore.sol:C"
+  }
+}

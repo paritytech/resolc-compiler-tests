@@ -1,0 +1,28 @@
+{
+  "cases": [
+    {
+      "name": "memory_to_storage_different_base",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f() -> 3, \"abcd\", \"bcde\", \"cdef\"",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "3",
+              "1633837924",
+              "1650680933",
+              "1667523942"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "memory_to_storage_different_base.sol:C"
+  }
+}

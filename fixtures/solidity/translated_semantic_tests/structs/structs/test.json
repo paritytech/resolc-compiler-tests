@@ -1,0 +1,48 @@
+{
+  "cases": [
+    {
+      "name": "structs",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "check() -> false",
+          "instance": "test",
+          "method": "check()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "set() ->; gas irOptimized: 134073; gas legacy: 135243; gas legacyOptimized: 134062",
+          "instance": "test",
+          "method": "set()",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "check() -> true",
+          "instance": "test",
+          "method": "check()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "test": "structs.sol:test"
+  }
+}

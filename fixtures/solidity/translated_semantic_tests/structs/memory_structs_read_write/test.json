@@ -1,0 +1,61 @@
+{
+  "cases": [
+    {
+      "name": "memory_structs_read_write",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "testInit() -> 0, 0, 0, 0, true",
+          "instance": "Test",
+          "method": "testInit()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0",
+              "0",
+              "0",
+              "0",
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "testCopyRead() -> 1, 2, 3, 4",
+          "instance": "Test",
+          "method": "testCopyRead()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1",
+              "2",
+              "3",
+              "4"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "testAssign() -> 1, 2, 3, 4",
+          "instance": "Test",
+          "method": "testAssign()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1",
+              "2",
+              "3",
+              "4"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "Test": "memory_structs_read_write.sol:Test"
+  }
+}

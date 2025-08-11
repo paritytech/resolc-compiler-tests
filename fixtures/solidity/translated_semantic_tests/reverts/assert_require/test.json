@@ -1,0 +1,84 @@
+{
+  "cases": [
+    {
+      "name": "assert_require",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f() -> FAILURE, hex\"4e487b71\", 0x01",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1313373041",
+              "1"
+            ],
+            "exception": true
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g(bool): false -> FAILURE, hex\"4e487b71\", 0x01",
+          "instance": "C",
+          "method": "g(bool)",
+          "calldata": [
+            "0"
+          ],
+          "expected": {
+            "return_data": [
+              "1313373041",
+              "1"
+            ],
+            "exception": true
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g(bool): true -> true",
+          "instance": "C",
+          "method": "g(bool)",
+          "calldata": [
+            "1"
+          ],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "h(bool): false -> FAILURE",
+          "instance": "C",
+          "method": "h(bool)",
+          "calldata": [
+            "0"
+          ],
+          "expected": {
+            "exception": true
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "h(bool): true -> true",
+          "instance": "C",
+          "method": "h(bool)",
+          "calldata": [
+            "1"
+          ],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "assert_require.sol:C"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "cases": [
+    {
+      "name": "type_class",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "() -> 1, 0",
+          "instance": "C",
+          "method": "#fallback",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1",
+              "0"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "type_class.sol:C"
+  }
+}

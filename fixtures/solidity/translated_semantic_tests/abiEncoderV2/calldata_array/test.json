@@ -1,0 +1,72 @@
+{
+  "cases": [
+    {
+      "name": "calldata_array",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256[][1]): 32, 32, 0 -> true",
+          "instance": "C",
+          "method": "f(uint256[][1])",
+          "calldata": [
+            "32",
+            "32",
+            "0"
+          ],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256[][1]): 32, 32, 1, 42 -> true",
+          "instance": "C",
+          "method": "f(uint256[][1])",
+          "calldata": [
+            "32",
+            "32",
+            "1",
+            "42"
+          ],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256[][1]): 32, 32, 8, 421, 422, 423, 424, 425, 426, 427, 428 -> true; gas irOptimized: 120978; gas legacy: 101568; gas legacyOptimized: 119092",
+          "instance": "C",
+          "method": "f(uint256[][1])",
+          "calldata": [
+            "32",
+            "32",
+            "8",
+            "421",
+            "422",
+            "423",
+            "424",
+            "425",
+            "426",
+            "427",
+            "428"
+          ],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "calldata_array.sol:C"
+  }
+}

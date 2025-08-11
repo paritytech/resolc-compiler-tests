@@ -1,0 +1,56 @@
+{
+  "cases": [
+    {
+      "name": "function_cast",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256): 2 -> 4",
+          "instance": "C",
+          "method": "f(uint256)",
+          "calldata": [
+            "2"
+          ],
+          "expected": {
+            "return_data": [
+              "4"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "h(uint256): 2 -> 5",
+          "instance": "C",
+          "method": "h(uint256)",
+          "calldata": [
+            "2"
+          ],
+          "expected": {
+            "return_data": [
+              "5"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "t() -> 0x1234b3de648b0000000000000000, 0x1234b3de648b0000000000000000",
+          "instance": "C",
+          "method": "t()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "369258903989562534114103478190080",
+              "369258903989562534114103478190080"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "function_cast.sol:C"
+  }
+}

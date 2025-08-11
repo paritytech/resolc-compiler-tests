@@ -1,0 +1,28 @@
+{
+  "cases": [
+    {
+      "name": "array_push",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "test() -> 5, 4, 3, 3; gas irOptimized: 111834; gas legacy: 111804; gas legacyOptimized: 111122",
+          "instance": "c",
+          "method": "test()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "5",
+              "4",
+              "3",
+              "3"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "c": "array_push.sol:c"
+  }
+}

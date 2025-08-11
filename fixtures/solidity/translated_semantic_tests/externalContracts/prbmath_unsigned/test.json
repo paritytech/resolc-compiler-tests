@@ -1,0 +1,178 @@
+{
+  "cases": [
+    {
+      "name": "prbmath_unsigned",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "constructor(); gas irOptimized: 170626; gas irOptimized code: 1577400; gas legacy: 195206; gas legacy code: 1999000; gas legacyOptimized: 168857; gas legacyOptimized code: 1556200",
+          "instance": "test",
+          "method": "#deployer",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "div(uint256,uint256): 3141592653589793238, 88714123 -> 35412542528203691288251815328; gas irOptimized: 22004; gas legacy: 22497; gas legacyOptimized: 22010",
+          "instance": "test",
+          "method": "div(uint256,uint256)",
+          "calldata": [
+            "3141592653589793238",
+            "88714123"
+          ],
+          "expected": {
+            "return_data": [
+              "35412542528203691288251815328"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "exp(uint256): 3141592653589793238 -> 23140692632779268978; gas irOptimized: 24444; gas legacy: 25104; gas legacyOptimized: 24258",
+          "instance": "test",
+          "method": "exp(uint256)",
+          "calldata": [
+            "3141592653589793238"
+          ],
+          "expected": {
+            "return_data": [
+              "23140692632779268978"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "exp2(uint256): 3141592653589793238 -> 8824977827076287620; gas irOptimized: 24198; gas legacy: 24814; gas legacyOptimized: 24062",
+          "instance": "test",
+          "method": "exp2(uint256)",
+          "calldata": [
+            "3141592653589793238"
+          ],
+          "expected": {
+            "return_data": [
+              "8824977827076287620"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "gm(uint256,uint256): 3141592653589793238, 88714123 -> 16694419339601; gas irOptimized: 22950; gas legacy: 23269; gas legacyOptimized: 22724",
+          "instance": "test",
+          "method": "gm(uint256,uint256)",
+          "calldata": [
+            "3141592653589793238",
+            "88714123"
+          ],
+          "expected": {
+            "return_data": [
+              "16694419339601"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "log10(uint256): 3141592653589793238 -> 0x44fe4fc084a52b8a; gas irOptimized: 30269; gas legacy: 32898; gas legacyOptimized: 29925",
+          "instance": "test",
+          "method": "log10(uint256)",
+          "calldata": [
+            "3141592653589793238"
+          ],
+          "expected": {
+            "return_data": [
+              "4971498726941338506"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "log2(uint256): 3141592653589793238 -> 1651496129472318782; gas irOptimized: 28235; gas legacy: 30986; gas legacyOptimized: 28001",
+          "instance": "test",
+          "method": "log2(uint256)",
+          "calldata": [
+            "3141592653589793238"
+          ],
+          "expected": {
+            "return_data": [
+              "1651496129472318782"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "mul(uint256,uint256): 3141592653589793238, 88714123 -> 278703637; gas irOptimized: 22048; gas legacy: 22604; gas legacyOptimized: 22090",
+          "instance": "test",
+          "method": "mul(uint256,uint256)",
+          "calldata": [
+            "3141592653589793238",
+            "88714123"
+          ],
+          "expected": {
+            "return_data": [
+              "278703637"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "pow(uint256,uint256): 3141592653589793238, 5 -> 306019684785281453040; gas irOptimized: 22406; gas legacy: 23245; gas legacyOptimized: 22646",
+          "instance": "test",
+          "method": "pow(uint256,uint256)",
+          "calldata": [
+            "3141592653589793238",
+            "5"
+          ],
+          "expected": {
+            "return_data": [
+              "306019684785281453040"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "sqrt(uint256): 3141592653589793238 -> 1772453850905516027; gas irOptimized: 22672; gas legacy: 22820; gas legacyOptimized: 22440",
+          "instance": "test",
+          "method": "sqrt(uint256)",
+          "calldata": [
+            "3141592653589793238"
+          ],
+          "expected": {
+            "return_data": [
+              "1772453850905516027"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "benchmark(uint256): 3141592653589793238 -> 998882724338592125, 1000000000000000000, 1000000000000000000; gas irOptimized: 35603; gas legacy: 35385; gas legacyOptimized: 33449",
+          "instance": "test",
+          "method": "benchmark(uint256)",
+          "calldata": [
+            "3141592653589793238"
+          ],
+          "expected": {
+            "return_data": [
+              "998882724338592125",
+              "1000000000000000000",
+              "1000000000000000000"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "test": "prbmath.sol:test"
+  }
+}

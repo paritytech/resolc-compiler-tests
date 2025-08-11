@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "code_access_padding",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "diff() -> 0",
+          "instance": "C",
+          "method": "diff()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "code_access_padding.sol:C"
+  }
+}

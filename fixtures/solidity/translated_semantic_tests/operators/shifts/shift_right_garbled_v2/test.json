@@ -1,0 +1,41 @@
+{
+  "cases": [
+    {
+      "name": "shift_right_garbled_v2",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint8,uint8): 0x00, 0x04 -> 0x0f",
+          "instance": "C",
+          "method": "f(uint8,uint8)",
+          "calldata": [
+            "0",
+            "4"
+          ],
+          "expected": {
+            "return_data": [
+              "15"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint8,uint8): 0x00, 0x1004 -> FAILURE",
+          "instance": "C",
+          "method": "f(uint8,uint8)",
+          "calldata": [
+            "0",
+            "4100"
+          ],
+          "expected": {
+            "exception": true
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "shift_right_garbled_v2.sol:C"
+  }
+}

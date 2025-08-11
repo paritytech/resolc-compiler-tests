@@ -1,0 +1,168 @@
+{
+  "cases": [
+    {
+      "name": "dynamic_arrays_in_storage",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "getLengths() -> 0, 0",
+          "instance": "c",
+          "method": "getLengths()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0",
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "setLengths(uint256,uint256): 48, 49 ->; gas irOptimized: 112674; gas legacy: 108272; gas legacyOptimized: 100268",
+          "instance": "c",
+          "method": "setLengths(uint256,uint256)",
+          "calldata": [
+            "48",
+            "49"
+          ],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "getLengths() -> 48, 49",
+          "instance": "c",
+          "method": "getLengths()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "48",
+              "49"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "setIDStatic(uint256): 11 ->",
+          "instance": "c",
+          "method": "setIDStatic(uint256)",
+          "calldata": [
+            "11"
+          ],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "getID(uint256): 2 -> 11",
+          "instance": "c",
+          "method": "getID(uint256)",
+          "calldata": [
+            "2"
+          ],
+          "expected": {
+            "return_data": [
+              "11"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "setID(uint256,uint256): 7, 8 ->",
+          "instance": "c",
+          "method": "setID(uint256,uint256)",
+          "calldata": [
+            "7",
+            "8"
+          ],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "getID(uint256): 7 -> 8",
+          "instance": "c",
+          "method": "getID(uint256)",
+          "calldata": [
+            "7"
+          ],
+          "expected": {
+            "return_data": [
+              "8"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "setData(uint256,uint256,uint256): 7, 8, 9 ->",
+          "instance": "c",
+          "method": "setData(uint256,uint256,uint256)",
+          "calldata": [
+            "7",
+            "8",
+            "9"
+          ],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "setData(uint256,uint256,uint256): 8, 10, 11 ->",
+          "instance": "c",
+          "method": "setData(uint256,uint256,uint256)",
+          "calldata": [
+            "8",
+            "10",
+            "11"
+          ],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "getData(uint256): 7 -> 8, 9",
+          "instance": "c",
+          "method": "getData(uint256)",
+          "calldata": [
+            "7"
+          ],
+          "expected": {
+            "return_data": [
+              "8",
+              "9"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "getData(uint256): 8 -> 10, 11",
+          "instance": "c",
+          "method": "getData(uint256)",
+          "calldata": [
+            "8"
+          ],
+          "expected": {
+            "return_data": [
+              "10",
+              "11"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "c": "dynamic_arrays_in_storage.sol:c"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "constructing_enums_from_ints",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "test() -> 1",
+          "instance": "c",
+          "method": "test()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "c": "constructing_enums_from_ints.sol:c"
+  }
+}

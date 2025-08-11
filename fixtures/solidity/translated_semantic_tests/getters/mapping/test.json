@@ -1,0 +1,44 @@
+{
+  "cases": [
+    {
+      "name": "mapping",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "x(uint256,uint256): 1, 2 -> 3",
+          "instance": "C",
+          "method": "x(uint256,uint256)",
+          "calldata": [
+            "1",
+            "2"
+          ],
+          "expected": {
+            "return_data": [
+              "3"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "x(uint256,uint256): 0, 0 -> 0",
+          "instance": "C",
+          "method": "x(uint256,uint256)",
+          "calldata": [
+            "0",
+            "0"
+          ],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "mapping.sol:C"
+  }
+}

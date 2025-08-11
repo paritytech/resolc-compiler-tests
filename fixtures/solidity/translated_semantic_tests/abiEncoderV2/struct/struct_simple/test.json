@@ -1,0 +1,33 @@
+{
+  "cases": [
+    {
+      "name": "struct_simple",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f((uint256,uint8,uint8,bytes2)): 1, 2, 3, \"ab\" -> 1, 2, 3, 0x6162",
+          "instance": "C",
+          "method": "f((uint256,uint8,uint8,bytes2))",
+          "calldata": [
+            "1",
+            "2",
+            "3",
+            "24930"
+          ],
+          "expected": {
+            "return_data": [
+              "1",
+              "2",
+              "3",
+              "24930"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "struct_simple.sol:C"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "cases": [
+    {
+      "name": "calldata_offset_read_write",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256,bytes,uint256): 7, 0x60, 8, 2, 0 -> 8, 0x14",
+          "instance": "C",
+          "method": "f(uint256,bytes,uint256)",
+          "calldata": [
+            "7",
+            "96",
+            "8",
+            "2",
+            "0"
+          ],
+          "expected": {
+            "return_data": [
+              "8",
+              "20"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256,bytes,uint256): 0, 0, 0 -> 8, 0x14",
+          "instance": "C",
+          "method": "f(uint256,bytes,uint256)",
+          "calldata": [
+            "0",
+            "0",
+            "0"
+          ],
+          "expected": {
+            "return_data": [
+              "8",
+              "20"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "calldata_offset_read_write.sol:C"
+  }
+}

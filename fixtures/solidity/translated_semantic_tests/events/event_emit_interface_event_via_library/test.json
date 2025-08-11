@@ -1,0 +1,30 @@
+{
+  "cases": [
+    {
+      "name": "event_emit_interface_event_via_library",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g() ->; ~ emit E()",
+          "instance": "C",
+          "method": "g()",
+          "calldata": [],
+          "expected": {
+            "events": [
+              {
+                "topics": [
+                  "92bbf6e823a631f3c8e09b1c8df90f378fb56f7fbc9701827e1ff8aad7f6a028"
+                ],
+                "values": []
+              }
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "event_emit_interface_event_via_library.sol:C"
+  }
+}

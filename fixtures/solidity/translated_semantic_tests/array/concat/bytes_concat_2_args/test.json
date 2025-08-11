@@ -1,0 +1,155 @@
+{
+  "cases": [
+    {
+      "name": "bytes_concat_2_args",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(bytes,bytes): 0x40, 0x80, 32, \"abcdabcdabcdabcdabcdabcdabcdabcd\", 5, \"bcdef\" -> 0x20, 37, \"abcdabcdabcdabcdabcdabcdabcdabcd\", \"bcdef\"",
+          "instance": "C",
+          "method": "f(bytes,bytes)",
+          "calldata": [
+            "64",
+            "128",
+            "32",
+            "44048183304063887187859370839104322756173613274888048543432839607116120613732",
+            "5",
+            "422574318950"
+          ],
+          "expected": {
+            "return_data": [
+              "32",
+              "37",
+              "44048183304063887187859370839104322756173613274888048543432839607116120613732",
+              "422574318950"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(bytes,bytes): 0x40, 0xa0, 64, \"abcdabcdabcdabcdabcdabcdabcdabcd\", \"abcdabcdabcdabcdabcdabcdabcdabcd\", 5, \"bcdef\" -> 0x20, 69, \"abcdabcdabcdabcdabcdabcdabcdabcd\", \"abcdabcdabcdabcdabcdabcdabcdabcd\", \"bcdef\"",
+          "instance": "C",
+          "method": "f(bytes,bytes)",
+          "calldata": [
+            "64",
+            "160",
+            "64",
+            "44048183304063887187859370839104322756173613274888048543432839607116120613732",
+            "44048183304063887187859370839104322756173613274888048543432839607116120613732",
+            "5",
+            "422574318950"
+          ],
+          "expected": {
+            "return_data": [
+              "32",
+              "69",
+              "44048183304063887187859370839104322756173613274888048543432839607116120613732",
+              "44048183304063887187859370839104322756173613274888048543432839607116120613732",
+              "422574318950"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(bytes,bytes): 0x40, 0x80, 3, \"abc\", 3, \"def\" -> 0x20, 6, \"abcdef\"",
+          "instance": "C",
+          "method": "f(bytes,bytes)",
+          "calldata": [
+            "64",
+            "128",
+            "3",
+            "6382179",
+            "3",
+            "6579558"
+          ],
+          "expected": {
+            "return_data": [
+              "32",
+              "6",
+              "107075202213222"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(bytes,bytes): 0x40, 0xa0, 34, \"abcdabcdabcdabcdabcdabcdabcdabcd\", \"ab\", 30, \"cdabcdabcdabcdabcdabcdabcdabcd\" -> 0x20, 64, \"abcdabcdabcdabcdabcdabcdabcdabcd\", \"abcdabcdabcdabcdabcdabcdabcdabcd\"",
+          "instance": "C",
+          "method": "f(bytes,bytes)",
+          "calldata": [
+            "64",
+            "160",
+            "34",
+            "44048183304063887187859370839104322756173613274888048543432839607116120613732",
+            "24930",
+            "30",
+            "685979138765851347764145583364156594439725778867917461197008891109598052"
+          ],
+          "expected": {
+            "return_data": [
+              "32",
+              "64",
+              "44048183304063887187859370839104322756173613274888048543432839607116120613732",
+              "44048183304063887187859370839104322756173613274888048543432839607116120613732"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(bytes,bytes): 0x40, 0xa0, 34, \"abcdabcdabcdabcdabcdabcdabcdabcd\", \"ab\", 34, \"cdabcdabcdabcdabcdabcdabcdabcdab\", \"cd\" -> 0x20, 68, \"abcdabcdabcdabcdabcdabcdabcdabcd\", \"abcdabcdabcdabcdabcdabcdabcdabcd\", \"abcd\"",
+          "instance": "C",
+          "method": "f(bytes,bytes)",
+          "calldata": [
+            "64",
+            "160",
+            "34",
+            "44048183304063887187859370839104322756173613274888048543432839607116120613732",
+            "24930",
+            "34",
+            "44956328838158833927071044951353366573201868643887838737007174687758617960802",
+            "25444"
+          ],
+          "expected": {
+            "return_data": [
+              "32",
+              "68",
+              "44048183304063887187859370839104322756173613274888048543432839607116120613732",
+              "44048183304063887187859370839104322756173613274888048543432839607116120613732",
+              "1633837924"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(bytes,bytes): 0x40, 0x80, 3, \"abc\", 30, \"dabcdabcdabcdabcdabcdabcdabcda\" -> 0x20, 33, \"abcdabcdabcdabcdabcdabcdabcdabcd\", \"a\"",
+          "instance": "C",
+          "method": "f(bytes,bytes)",
+          "calldata": [
+            "64",
+            "128",
+            "3",
+            "6382179",
+            "30",
+            "692800110997896398874816767675155109648893599500593212395262196087743585"
+          ],
+          "expected": {
+            "return_data": [
+              "32",
+              "33",
+              "44048183304063887187859370839104322756173613274888048543432839607116120613732",
+              "97"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "bytes_concat_2_args.sol:C"
+  }
+}

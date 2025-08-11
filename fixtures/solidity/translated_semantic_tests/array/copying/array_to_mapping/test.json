@@ -1,0 +1,81 @@
+{
+  "cases": [
+    {
+      "name": "array_to_mapping",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "from_storage() -> 0x20, 2, 0x40, 0xa0, 2, 10, 11, 3, 12, 13, 14; gas irOptimized: 147755; gas legacy: 148892; gas legacyOptimized: 146917",
+          "instance": "C",
+          "method": "from_storage()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "32",
+              "2",
+              "64",
+              "160",
+              "2",
+              "10",
+              "11",
+              "3",
+              "12",
+              "13",
+              "14"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "from_storage_ptr() -> 0x20, 2, 0x40, 0xa0, 2, 10, 11, 3, 12, 13, 14",
+          "instance": "C",
+          "method": "from_storage_ptr()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "32",
+              "2",
+              "64",
+              "160",
+              "2",
+              "10",
+              "11",
+              "3",
+              "12",
+              "13",
+              "14"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "from_memory() -> 0x20, 2, 0x40, 0xa0, 2, 10, 11, 3, 12, 13, 14",
+          "instance": "C",
+          "method": "from_memory()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "32",
+              "2",
+              "64",
+              "160",
+              "2",
+              "10",
+              "11",
+              "3",
+              "12",
+              "13",
+              "14"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "array_to_mapping.sol:C"
+  }
+}

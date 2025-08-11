@@ -1,0 +1,26 @@
+{
+  "cases": [
+    {
+      "name": "array_pop_empty_exception",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "test() -> FAILURE, hex\"4e487b71\", 0x31",
+          "instance": "c",
+          "method": "test()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1313373041",
+              "49"
+            ],
+            "exception": true
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "c": "array_pop_empty_exception.sol:c"
+  }
+}

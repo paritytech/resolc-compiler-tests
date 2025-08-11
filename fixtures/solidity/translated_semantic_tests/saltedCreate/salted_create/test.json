@@ -1,0 +1,38 @@
+{
+  "cases": [
+    {
+      "name": "salted_create",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "different_salt() -> true",
+          "instance": "A",
+          "method": "different_salt()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "same_salt() -> true; gas irOptimized: 98438295; gas irOptimized code: 600; gas legacy: 98437509; gas legacy code: 1600; gas legacyOptimized: 98437367; gas legacyOptimized code: 1600",
+          "instance": "A",
+          "method": "same_salt()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "A": "salted_create.sol:A"
+  }
+}

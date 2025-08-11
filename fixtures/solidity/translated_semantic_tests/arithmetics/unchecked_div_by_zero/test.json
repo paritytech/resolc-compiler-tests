@@ -1,0 +1,78 @@
+{
+  "cases": [
+    {
+      "name": "unchecked_div_by_zero",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "div(uint256,uint256): 7, 2 -> 3",
+          "instance": "C",
+          "method": "div(uint256,uint256)",
+          "calldata": [
+            "7",
+            "2"
+          ],
+          "expected": {
+            "return_data": [
+              "3"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "div(uint256,uint256): 7, 0 -> FAILURE, hex\"4e487b71\", 0x12",
+          "instance": "C",
+          "method": "div(uint256,uint256)",
+          "calldata": [
+            "7",
+            "0"
+          ],
+          "expected": {
+            "return_data": [
+              "1313373041",
+              "18"
+            ],
+            "exception": true
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "mod(uint256,uint256): 7, 2 -> 1",
+          "instance": "C",
+          "method": "mod(uint256,uint256)",
+          "calldata": [
+            "7",
+            "2"
+          ],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "mod(uint256,uint256): 7, 0 -> FAILURE, hex\"4e487b71\", 0x12",
+          "instance": "C",
+          "method": "mod(uint256,uint256)",
+          "calldata": [
+            "7",
+            "0"
+          ],
+          "expected": {
+            "return_data": [
+              "1313373041",
+              "18"
+            ],
+            "exception": true
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "unchecked_div_by_zero.sol:C"
+  }
+}

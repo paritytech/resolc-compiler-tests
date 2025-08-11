@@ -1,0 +1,45 @@
+{
+  "cases": [
+    {
+      "name": "staticcall_for_view_and_pure",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f() -> 0x1; gas legacy: 76495; gas legacy code: 25600",
+          "instance": "D",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "fview() -> FAILURE; gas irOptimized: 98425388; gas irOptimized code: 13200; gas legacy: 98413173; gas legacy code: 25600; gas legacyOptimized: 98425379; gas legacyOptimized code: 13200",
+          "instance": "D",
+          "method": "fview()",
+          "calldata": [],
+          "expected": {
+            "exception": true
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "fpure() -> FAILURE; gas irOptimized: 98425388; gas irOptimized code: 13200; gas legacy: 98413173; gas legacy code: 25600; gas legacyOptimized: 98425379; gas legacyOptimized code: 13200",
+          "instance": "D",
+          "method": "fpure()",
+          "calldata": [],
+          "expected": {
+            "exception": true
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "D": "staticcall_for_view_and_pure.sol:D"
+  }
+}

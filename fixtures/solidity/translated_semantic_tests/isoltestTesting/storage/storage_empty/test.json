@@ -1,0 +1,17 @@
+{
+  "cases": [
+    {
+      "name": "storage_empty",
+      "inputs": [
+        {
+          "comment": "storageEmpty -> 1",
+          "address": "StorageEmpty.address",
+          "is_storage_empty": true
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "StorageEmpty": "storage_empty.sol:StorageEmpty"
+  }
+}

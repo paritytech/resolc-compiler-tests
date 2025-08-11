@@ -1,0 +1,30 @@
+{
+  "cases": [
+    {
+      "name": "struct_constructor_nested",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "get() -> 0x01, 0x00, 0x09, 0x00, 0x04, 0x05",
+          "instance": "C",
+          "method": "get()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1",
+              "0",
+              "9",
+              "0",
+              "4",
+              "5"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "struct_constructor_nested.sol:C"
+  }
+}

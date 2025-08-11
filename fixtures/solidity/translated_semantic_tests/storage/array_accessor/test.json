@@ -1,0 +1,125 @@
+{
+  "cases": [
+    {
+      "name": "array_accessor",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "data(uint256): 0 -> 8",
+          "instance": "test",
+          "method": "data(uint256)",
+          "calldata": [
+            "0"
+          ],
+          "expected": {
+            "return_data": [
+              "8"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "data(uint256): 8 -> FAILURE",
+          "instance": "test",
+          "method": "data(uint256)",
+          "calldata": [
+            "8"
+          ],
+          "expected": {
+            "exception": true
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "dynamicData(uint256): 2 -> 8",
+          "instance": "test",
+          "method": "dynamicData(uint256)",
+          "calldata": [
+            "2"
+          ],
+          "expected": {
+            "return_data": [
+              "8"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "dynamicData(uint256): 8 -> FAILURE",
+          "instance": "test",
+          "method": "dynamicData(uint256)",
+          "calldata": [
+            "8"
+          ],
+          "expected": {
+            "exception": true
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "smallTypeData(uint256): 1 -> 22",
+          "instance": "test",
+          "method": "smallTypeData(uint256)",
+          "calldata": [
+            "1"
+          ],
+          "expected": {
+            "return_data": [
+              "22"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "smallTypeData(uint256): 127 -> 2",
+          "instance": "test",
+          "method": "smallTypeData(uint256)",
+          "calldata": [
+            "127"
+          ],
+          "expected": {
+            "return_data": [
+              "2"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "smallTypeData(uint256): 128 -> FAILURE",
+          "instance": "test",
+          "method": "smallTypeData(uint256)",
+          "calldata": [
+            "128"
+          ],
+          "expected": {
+            "exception": true
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "multiple_map(uint256,uint256,uint256): 2, 1, 2 -> 3",
+          "instance": "test",
+          "method": "multiple_map(uint256,uint256,uint256)",
+          "calldata": [
+            "2",
+            "1",
+            "2"
+          ],
+          "expected": {
+            "return_data": [
+              "3"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "test": "array_accessor.sol:test"
+  }
+}

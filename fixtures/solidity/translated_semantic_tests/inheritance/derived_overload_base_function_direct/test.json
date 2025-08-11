@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "derived_overload_base_function_direct",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g() -> 2",
+          "instance": "C",
+          "method": "g()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "2"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "derived_overload_base_function_direct.sol:C"
+  }
+}

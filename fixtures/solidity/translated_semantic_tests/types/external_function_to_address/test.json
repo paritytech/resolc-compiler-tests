@@ -1,0 +1,40 @@
+{
+  "cases": [
+    {
+      "name": "external_function_to_address",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f() -> true",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g(function): hex\"00000000000000000000000000000000000004226121ff00000000000000000\" -> 0x42",
+          "instance": "C",
+          "method": "g(function)",
+          "calldata": [
+            "5240841067799990003759881125888"
+          ],
+          "expected": {
+            "return_data": [
+              "66"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "external_function_to_address.sol:C"
+  }
+}

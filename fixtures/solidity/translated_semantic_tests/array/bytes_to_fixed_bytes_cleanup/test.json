@@ -1,0 +1,76 @@
+{
+  "cases": [
+    {
+      "name": "bytes_to_fixed_bytes_cleanup",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "fromMemory(bytes): 0x20, 16, \"abcdefghabcdefgh\" -> \"abcdefghabcdef\\0\\0\"",
+          "instance": "C",
+          "method": "fromMemory(bytes)",
+          "calldata": [
+            "32",
+            "16",
+            "129445976596022050475853947428248381288"
+          ],
+          "expected": {
+            "return_data": [
+              "129445976596022050475853947428248354816"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "fromCalldata(bytes): 0x20, 15, \"abcdefghabcdefgh\" -> \"abcdefghabcdefg\\0\"",
+          "instance": "C",
+          "method": "fromCalldata(bytes)",
+          "calldata": [
+            "32",
+            "15",
+            "129445976596022050475853947428248381288"
+          ],
+          "expected": {
+            "return_data": [
+              "129445976596022050475853947428248381184"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "fromStorage() -> \"abcdefghabcdefghabcdefghabcdefg\\0\"",
+          "instance": "C",
+          "method": "fromStorage()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "44048183304486788311951504769468900575156742087465169367561262243075146016512"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "fromSlice(bytes): 0x20, 15, \"abcdefghabcdefgh\" -> \"abcdef\\0\\0\"",
+          "instance": "C",
+          "method": "fromSlice(bytes)",
+          "calldata": [
+            "32",
+            "15",
+            "129445976596022050475853947428248381288"
+          ],
+          "expected": {
+            "return_data": [
+              "7017280452245716992"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "bytes_to_fixed_bytes_cleanup.sol:C"
+  }
+}

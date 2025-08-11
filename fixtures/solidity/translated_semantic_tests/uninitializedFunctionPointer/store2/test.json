@@ -1,0 +1,26 @@
+{
+  "cases": [
+    {
+      "name": "store2",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "run() -> FAILURE, hex\"4e487b71\", 0x51",
+          "instance": "InvalidTest",
+          "method": "run()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1313373041",
+              "81"
+            ],
+            "exception": true
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "InvalidTest": "store2.sol:InvalidTest"
+  }
+}

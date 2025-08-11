@@ -1,0 +1,140 @@
+{
+  "cases": [
+    {
+      "name": "compound_assign_transient_storage",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256,uint256): 0, 6 -> 7",
+          "instance": "test",
+          "method": "f(uint256,uint256)",
+          "calldata": [
+            "0",
+            "6"
+          ],
+          "expected": {
+            "return_data": [
+              "7"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256,uint256): 1, 3 -> 11",
+          "instance": "test",
+          "method": "f(uint256,uint256)",
+          "calldata": [
+            "1",
+            "3"
+          ],
+          "expected": {
+            "return_data": [
+              "11"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256,uint256): 2, 25 -> 0x3c",
+          "instance": "test",
+          "method": "f(uint256,uint256)",
+          "calldata": [
+            "2",
+            "25"
+          ],
+          "expected": {
+            "return_data": [
+              "60"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256,uint256): 3, 69 -> 0xdc",
+          "instance": "test",
+          "method": "f(uint256,uint256)",
+          "calldata": [
+            "3",
+            "69"
+          ],
+          "expected": {
+            "return_data": [
+              "220"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256,uint256): 4, 84 -> 353",
+          "instance": "test",
+          "method": "f(uint256,uint256)",
+          "calldata": [
+            "4",
+            "84"
+          ],
+          "expected": {
+            "return_data": [
+              "353"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256,uint256): 5, 2 -> 0x20",
+          "instance": "test",
+          "method": "f(uint256,uint256)",
+          "calldata": [
+            "5",
+            "2"
+          ],
+          "expected": {
+            "return_data": [
+              "32"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256,uint256): 6, 51 -> 334",
+          "instance": "test",
+          "method": "f(uint256,uint256)",
+          "calldata": [
+            "6",
+            "51"
+          ],
+          "expected": {
+            "return_data": [
+              "334"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256,uint256): 7, 48 -> 371",
+          "instance": "test",
+          "method": "f(uint256,uint256)",
+          "calldata": [
+            "7",
+            "48"
+          ],
+          "expected": {
+            "return_data": [
+              "371"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "test": "compound_assign_transient_storage.sol:test"
+  }
+}

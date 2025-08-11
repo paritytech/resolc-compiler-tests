@@ -1,0 +1,32 @@
+{
+  "cases": [
+    {
+      "name": "using_global_library",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f() -> 2, 1",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "2",
+              "1"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "B:C",
+    "L": "A:L"
+  },
+  "libraries": {
+    "A": {
+      "L": "L"
+    }
+  }
+}

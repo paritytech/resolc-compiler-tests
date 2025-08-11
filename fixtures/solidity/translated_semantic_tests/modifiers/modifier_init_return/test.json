@@ -1,0 +1,50 @@
+{
+  "cases": [
+    {
+      "name": "modifier_init_return",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256): 9 -> 0x00, 0x00, 0x00, 0x00, 0x00",
+          "instance": "C",
+          "method": "f(uint256)",
+          "calldata": [
+            "9"
+          ],
+          "expected": {
+            "return_data": [
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256): 10 -> 0x00, 0x00, 3, 0x00, 0x00",
+          "instance": "C",
+          "method": "f(uint256)",
+          "calldata": [
+            "10"
+          ],
+          "expected": {
+            "return_data": [
+              "0",
+              "0",
+              "3",
+              "0",
+              "0"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "modifier_init_return.sol:C"
+  }
+}

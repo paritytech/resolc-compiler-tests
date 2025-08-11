@@ -1,0 +1,42 @@
+{
+  "cases": [
+    {
+      "name": "member_notation_ctor",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g(int256): -1 -> -1; gas legacy: 77955; gas legacy code: 24200",
+          "instance": "A",
+          "method": "g(int256)",
+          "calldata": [
+            "115792089237316195423570985008687907853269984665640564039457584007913129639935"
+          ],
+          "expected": {
+            "return_data": [
+              "115792089237316195423570985008687907853269984665640564039457584007913129639935"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g(int256): 10 -> 10; gas legacy: 77583; gas legacy code: 24200",
+          "instance": "A",
+          "method": "g(int256)",
+          "calldata": [
+            "10"
+          ],
+          "expected": {
+            "return_data": [
+              "10"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "A": "B:A"
+  }
+}

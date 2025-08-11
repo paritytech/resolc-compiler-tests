@@ -1,0 +1,28 @@
+{
+  "cases": [
+    {
+      "name": "keccak256_multiple_arguments_with_numeric_literals",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "foo(uint256,uint16): 0xa, 0xc -> 0x88acd45f75907e7c560318bc1a5249850a0999c4896717b1167d05d116e6dbad",
+          "instance": "c",
+          "method": "foo(uint256,uint16)",
+          "calldata": [
+            "10",
+            "12"
+          ],
+          "expected": {
+            "return_data": [
+              "61819910846267543446242086161023601988610643930522389071654317431727835241389"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "c": "keccak256_multiple_arguments_with_numeric_literals.sol:c"
+  }
+}

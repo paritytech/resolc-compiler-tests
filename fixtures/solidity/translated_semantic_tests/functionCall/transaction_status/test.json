@@ -1,0 +1,46 @@
+{
+  "cases": [
+    {
+      "name": "transaction_status",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f() ->",
+          "instance": "test",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g() -> FAILURE",
+          "instance": "test",
+          "method": "g()",
+          "calldata": [],
+          "expected": {
+            "exception": true
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "h() -> FAILURE, hex\"4e487b71\", 0x01",
+          "instance": "test",
+          "method": "h()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1313373041",
+              "1"
+            ],
+            "exception": true
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "test": "transaction_status.sol:test"
+  }
+}

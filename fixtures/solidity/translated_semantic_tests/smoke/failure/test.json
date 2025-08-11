@@ -1,0 +1,87 @@
+{
+  "cases": [
+    {
+      "name": "failure",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "_() -> FAILURE",
+          "instance": "C",
+          "method": "_()",
+          "calldata": [],
+          "expected": {
+            "exception": true
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "e() -> FAILURE, hex\"08c379a0\", 0x20, 0x13, \"Transaction failed.\"",
+          "instance": "C",
+          "method": "e()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "147028384",
+              "32",
+              "19",
+              "1883226551476553291457290292174671560770413614"
+            ],
+            "exception": true
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(bool): false -> FAILURE, hex\"08c379a0\", 0x20, 0x00",
+          "instance": "C",
+          "method": "f(bool)",
+          "calldata": [
+            "0"
+          ],
+          "expected": {
+            "return_data": [
+              "147028384",
+              "32",
+              "0"
+            ],
+            "exception": true
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g(bool): false -> FAILURE, hex\"08c379a0\", 0x20, 0x0f, \"Value is false.\"",
+          "instance": "C",
+          "method": "g(bool)",
+          "calldata": [
+            "0"
+          ],
+          "expected": {
+            "return_data": [
+              "147028384",
+              "32",
+              "15",
+              "448513516539101646442978908262589742"
+            ],
+            "exception": true
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "h() -> FAILURE, hex\"4e487b71\", 0x01",
+          "instance": "C",
+          "method": "h()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1313373041",
+              "1"
+            ],
+            "exception": true
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "failure.sol:C"
+  }
+}

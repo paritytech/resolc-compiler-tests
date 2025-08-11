@@ -1,0 +1,40 @@
+{
+  "cases": [
+    {
+      "name": "calldata_struct_with_nested_array_to_storage",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint32,(uint128,uint256[][2],uint32)): 55, 0x40, 77, 0x60, 88, 0x40, 0x40, 2, 1, 2 -> 55, 77, 1, 2, 88; gas irOptimized: 202902; gas legacy: 207376; gas legacyOptimized: 203583",
+          "instance": "C",
+          "method": "f(uint32,(uint128,uint256[][2],uint32))",
+          "calldata": [
+            "55",
+            "64",
+            "77",
+            "96",
+            "88",
+            "64",
+            "64",
+            "2",
+            "1",
+            "2"
+          ],
+          "expected": {
+            "return_data": [
+              "55",
+              "77",
+              "1",
+              "2",
+              "88"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "calldata_struct_with_nested_array_to_storage.sol:C"
+  }
+}

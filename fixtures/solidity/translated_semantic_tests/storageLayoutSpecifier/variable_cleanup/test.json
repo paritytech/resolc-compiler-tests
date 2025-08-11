@@ -1,0 +1,31 @@
+{
+  "cases": [
+    {
+      "name": "variable_cleanup",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256,int256,bytes3): 0x0100, 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff7f, \"abc\" -> 0x00, 0x7f, \"ab\"",
+          "instance": "C",
+          "method": "f(uint256,int256,bytes3)",
+          "calldata": [
+            "256",
+            "115792089237316195423570985008687907853269984665640564039457584007913129639807",
+            "6382179"
+          ],
+          "expected": {
+            "return_data": [
+              "0",
+              "127",
+              "24930"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "variable_cleanup.sol:C"
+  }
+}

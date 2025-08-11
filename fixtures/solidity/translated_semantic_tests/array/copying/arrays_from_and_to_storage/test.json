@@ -1,0 +1,120 @@
+{
+  "cases": [
+    {
+      "name": "arrays_from_and_to_storage",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "set(uint24[]): 0x20, 18, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18 -> 18; gas irOptimized: 99616; gas legacy: 103509; gas legacyOptimized: 101266",
+          "instance": "Test",
+          "method": "set(uint24[])",
+          "calldata": [
+            "32",
+            "18",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15",
+            "16",
+            "17",
+            "18"
+          ],
+          "expected": {
+            "return_data": [
+              "18"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "data(uint256): 7 -> 8",
+          "instance": "Test",
+          "method": "data(uint256)",
+          "calldata": [
+            "7"
+          ],
+          "expected": {
+            "return_data": [
+              "8"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "data(uint256): 15 -> 16",
+          "instance": "Test",
+          "method": "data(uint256)",
+          "calldata": [
+            "15"
+          ],
+          "expected": {
+            "return_data": [
+              "16"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "data(uint256): 18 -> FAILURE",
+          "instance": "Test",
+          "method": "data(uint256)",
+          "calldata": [
+            "18"
+          ],
+          "expected": {
+            "exception": true
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "get() -> 0x20, 18, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18",
+          "instance": "Test",
+          "method": "get()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "32",
+              "18",
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "6",
+              "7",
+              "8",
+              "9",
+              "10",
+              "11",
+              "12",
+              "13",
+              "14",
+              "15",
+              "16",
+              "17",
+              "18"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "Test": "arrays_from_and_to_storage.sol:Test"
+  }
+}

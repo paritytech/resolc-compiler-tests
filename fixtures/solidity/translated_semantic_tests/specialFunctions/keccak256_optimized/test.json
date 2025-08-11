@@ -1,0 +1,39 @@
+{
+  "cases": [
+    {
+      "name": "keccak256_optimized",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "short() -> true",
+          "instance": "C",
+          "method": "short()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "long() -> true, true",
+          "instance": "C",
+          "method": "long()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1",
+              "1"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "keccak256_optimized.sol:C"
+  }
+}

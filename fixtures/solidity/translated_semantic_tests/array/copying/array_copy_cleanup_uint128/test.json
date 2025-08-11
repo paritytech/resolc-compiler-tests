@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "array_copy_cleanup_uint128",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f() -> true; gas irOptimized: 92740; gas legacy: 93035; gas legacyOptimized: 92257",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "array_copy_cleanup_uint128.sol:C"
+  }
+}

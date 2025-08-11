@@ -1,0 +1,73 @@
+{
+  "cases": [
+    {
+      "name": "calldata_bytes_array_bounds",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(bytes[],uint256): 0x40, 0, 1, 0x20, 2, hex\"6162\" -> 0x61",
+          "instance": "C",
+          "method": "f(bytes[],uint256)",
+          "calldata": [
+            "64",
+            "0",
+            "1",
+            "32",
+            "2",
+            "24930"
+          ],
+          "expected": {
+            "return_data": [
+              "97"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(bytes[],uint256): 0x40, 1, 1, 0x20, 2, hex\"6162\" -> 0x62",
+          "instance": "C",
+          "method": "f(bytes[],uint256)",
+          "calldata": [
+            "64",
+            "1",
+            "1",
+            "32",
+            "2",
+            "24930"
+          ],
+          "expected": {
+            "return_data": [
+              "98"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(bytes[],uint256): 0x40, 2, 1, 0x20, 2, hex\"6162\" -> FAILURE, hex\"4e487b71\", 0x32",
+          "instance": "C",
+          "method": "f(bytes[],uint256)",
+          "calldata": [
+            "64",
+            "2",
+            "1",
+            "32",
+            "2",
+            "24930"
+          ],
+          "expected": {
+            "return_data": [
+              "1313373041",
+              "50"
+            ],
+            "exception": true
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "calldata_bytes_array_bounds.sol:C"
+  }
+}

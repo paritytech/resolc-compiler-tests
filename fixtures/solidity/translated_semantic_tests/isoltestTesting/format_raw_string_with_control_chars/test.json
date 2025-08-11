@@ -1,0 +1,31 @@
+{
+  "cases": [
+    {
+      "name": "format_raw_string_with_control_chars",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(string): 0x20, 16, \"\\xf0\\x9f\\x98\\x83\\xf0\\x9f\\x98\\x83\\xf0\\x9f\\x98\\x83\\xf0\\x9f\\x98\\x83\" -> 0x20, 16, \"\\xf0\\x9f\\x98\\x83\\xf0\\x9f\\x98\\x83\\xf0\\x9f\\x98\\x83\\xf0\\x9f\\x98\\x83\"",
+          "instance": "C",
+          "method": "f(string)",
+          "calldata": [
+            "32",
+            "16",
+            "319843387568505233308391865277675968643"
+          ],
+          "expected": {
+            "return_data": [
+              "32",
+              "16",
+              "319843387568505233308391865277675968643"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "format_raw_string_with_control_chars.sol:C"
+  }
+}

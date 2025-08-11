@@ -1,0 +1,7 @@
+pragma abicoder               v2;
+contract C {
+	struct S { uint256[] a; }
+	function f(S calldata s) external pure returns (uint256 a, uint256 b, uint256 c) {
+	    return (s.a.length, s.a[0], s.a[1]);
+	}
+}

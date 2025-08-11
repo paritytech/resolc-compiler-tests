@@ -1,0 +1,65 @@
+{
+  "cases": [
+    {
+      "name": "function_delete_storage",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "set() -> 7",
+          "instance": "C",
+          "method": "set()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "7"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "ca() -> 7",
+          "instance": "C",
+          "method": "ca()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "7"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "d() -> 1",
+          "instance": "C",
+          "method": "d()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "ca() -> FAILURE, hex\"4e487b71\", 0x51",
+          "instance": "C",
+          "method": "ca()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1313373041",
+              "81"
+            ],
+            "exception": true
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "function_delete_storage.sol:C"
+  }
+}

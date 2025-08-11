@@ -1,0 +1,28 @@
+{
+  "cases": [
+    {
+      "name": "salted_create_with_value",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(), 10 ether -> 3007, 3008, 3009; gas irOptimized: 187022; gas irOptimized code: 67200; gas legacy: 190858; gas legacy code: 190200; gas legacyOptimized: 187256; gas legacyOptimized code: 92400",
+          "instance": "A",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "3007",
+              "3008",
+              "3009"
+            ],
+            "exception": false
+          },
+          "value": "10000000000000000000 wei"
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "A": "salted_create_with_value.sol:A"
+  }
+}

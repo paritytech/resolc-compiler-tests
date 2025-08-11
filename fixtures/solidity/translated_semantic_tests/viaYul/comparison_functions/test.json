@@ -1,0 +1,42 @@
+{
+  "cases": [
+    {
+      "name": "comparison_functions",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "equal() -> true, false, false",
+          "instance": "C",
+          "method": "equal()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1",
+              "0",
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "unequal() -> false, true, true",
+          "instance": "C",
+          "method": "unequal()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0",
+              "1",
+              "1"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "comparison_functions.sol:C"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "conditional_expression_false_literal",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f() -> 10",
+          "instance": "test",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "10"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "test": "conditional_expression_false_literal.sol:test"
+  }
+}

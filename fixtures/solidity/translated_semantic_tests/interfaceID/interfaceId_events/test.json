@@ -1,0 +1,38 @@
+{
+  "cases": [
+    {
+      "name": "interfaceId_events",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "hello_world() -> left(0xc6be8b58)",
+          "instance": "Test",
+          "method": "hello_world()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "89894606677012148518161765604560392412536115689453582218612626237350718996480"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "hello_world_with_event() -> left(0xc6be8b58)",
+          "instance": "Test",
+          "method": "hello_world_with_event()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "89894606677012148518161765604560392412536115689453582218612626237350718996480"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "Test": "interfaceId_events.sol:Test"
+  }
+}

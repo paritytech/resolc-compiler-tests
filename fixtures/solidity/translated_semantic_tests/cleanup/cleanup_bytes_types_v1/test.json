@@ -1,0 +1,28 @@
+{
+  "cases": [
+    {
+      "name": "cleanup_bytes_types_v1",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(bytes2,uint16): \"abc\", 0x40102 -> 0x0",
+          "instance": "C",
+          "method": "f(bytes2,uint16)",
+          "calldata": [
+            "6382179",
+            "262402"
+          ],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "cleanup_bytes_types_v1.sol:C"
+  }
+}

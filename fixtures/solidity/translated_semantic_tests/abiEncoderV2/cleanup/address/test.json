@@ -1,0 +1,270 @@
+{
+  "cases": [
+    {
+      "name": "address",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256): 0 -> 0",
+          "instance": "C",
+          "method": "f(uint256)",
+          "calldata": [
+            "0"
+          ],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g(address): 0 -> 0",
+          "instance": "C",
+          "method": "g(address)",
+          "calldata": [
+            "0"
+          ],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256): 1 -> 1",
+          "instance": "C",
+          "method": "f(uint256)",
+          "calldata": [
+            "1"
+          ],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g(address): 1 -> 1",
+          "instance": "C",
+          "method": "g(address)",
+          "calldata": [
+            "1"
+          ],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256): 2 -> 2",
+          "instance": "C",
+          "method": "f(uint256)",
+          "calldata": [
+            "2"
+          ],
+          "expected": {
+            "return_data": [
+              "2"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g(address): 2 -> 2",
+          "instance": "C",
+          "method": "g(address)",
+          "calldata": [
+            "2"
+          ],
+          "expected": {
+            "return_data": [
+              "2"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256): 0xabcdef0123456789abcdef0123456789abcdefff -> 0xabcdef0123456789abcdef0123456789abcdefff",
+          "instance": "C",
+          "method": "f(uint256)",
+          "calldata": [
+            "980829894800078742339098726298021775428853559295"
+          ],
+          "expected": {
+            "return_data": [
+              "980829894800078742339098726298021775428853559295"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g(address): 0xabcdef0123456789abcdef0123456789abcdefff -> 0xabcdef0123456789abcdef0123456789abcdefff",
+          "instance": "C",
+          "method": "g(address)",
+          "calldata": [
+            "980829894800078742339098726298021775428853559295"
+          ],
+          "expected": {
+            "return_data": [
+              "980829894800078742339098726298021775428853559295"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256): 0xffffffffffffffffffffffffffffffffffffffff -> 0xffffffffffffffffffffffffffffffffffffffff",
+          "instance": "C",
+          "method": "f(uint256)",
+          "calldata": [
+            "1461501637330902918203684832716283019655932542975"
+          ],
+          "expected": {
+            "return_data": [
+              "1461501637330902918203684832716283019655932542975"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g(address): 0xffffffffffffffffffffffffffffffffffffffff -> 0xffffffffffffffffffffffffffffffffffffffff",
+          "instance": "C",
+          "method": "g(address)",
+          "calldata": [
+            "1461501637330902918203684832716283019655932542975"
+          ],
+          "expected": {
+            "return_data": [
+              "1461501637330902918203684832716283019655932542975"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256): 0x010000000000000000000000000000000000000000 -> 0",
+          "instance": "C",
+          "method": "f(uint256)",
+          "calldata": [
+            "1461501637330902918203684832716283019655932542976"
+          ],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g(address): 0x010000000000000000000000000000000000000000 -> FAILURE",
+          "instance": "C",
+          "method": "g(address)",
+          "calldata": [
+            "1461501637330902918203684832716283019655932542976"
+          ],
+          "expected": {
+            "exception": true
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256): 0x01abcdef0123456789abcdef0123456789abcdefff -> 0xabcdef0123456789abcdef0123456789abcdefff",
+          "instance": "C",
+          "method": "f(uint256)",
+          "calldata": [
+            "2442331532130981660542783559014304795084786102271"
+          ],
+          "expected": {
+            "return_data": [
+              "980829894800078742339098726298021775428853559295"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g(address): 0x01abcdef0123456789abcdef0123456789abcdefff -> FAILURE",
+          "instance": "C",
+          "method": "g(address)",
+          "calldata": [
+            "2442331532130981660542783559014304795084786102271"
+          ],
+          "expected": {
+            "exception": true
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256): 0x01ffffffffffffffffffffffffffffffffffffffff -> 0xffffffffffffffffffffffffffffffffffffffff",
+          "instance": "C",
+          "method": "f(uint256)",
+          "calldata": [
+            "2923003274661805836407369665432566039311865085951"
+          ],
+          "expected": {
+            "return_data": [
+              "1461501637330902918203684832716283019655932542975"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g(address): 0x01ffffffffffffffffffffffffffffffffffffffff -> FAILURE",
+          "instance": "C",
+          "method": "g(address)",
+          "calldata": [
+            "2923003274661805836407369665432566039311865085951"
+          ],
+          "expected": {
+            "exception": true
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256): -1 -> 0xffffffffffffffffffffffffffffffffffffffff",
+          "instance": "C",
+          "method": "f(uint256)",
+          "calldata": [
+            "115792089237316195423570985008687907853269984665640564039457584007913129639935"
+          ],
+          "expected": {
+            "return_data": [
+              "1461501637330902918203684832716283019655932542975"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g(address): -1 -> FAILURE",
+          "instance": "C",
+          "method": "g(address)",
+          "calldata": [
+            "115792089237316195423570985008687907853269984665640564039457584007913129639935"
+          ],
+          "expected": {
+            "exception": true
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "address.sol:C"
+  }
+}

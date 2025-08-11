@@ -1,0 +1,24 @@
+{
+  "cases": [
+    {
+      "name": "unknown_sig_no_fallback",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "(): hex\"00\" -> FAILURE",
+          "instance": "A",
+          "method": "#fallback",
+          "calldata": [
+            "0"
+          ],
+          "expected": {
+            "exception": true
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "A": "unknown_sig_no_fallback.sol:A"
+  }
+}

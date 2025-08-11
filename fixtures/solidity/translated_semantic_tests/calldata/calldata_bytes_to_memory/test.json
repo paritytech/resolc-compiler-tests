@@ -1,0 +1,29 @@
+{
+  "cases": [
+    {
+      "name": "calldata_bytes_to_memory",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(bytes): 0x20, 0x08, \"abcdefgh\" -> 0x48624fa43c68d5c552855a4e2919e74645f683f5384f72b5b051b71ea41d4f2d",
+          "instance": "C",
+          "method": "f(bytes)",
+          "calldata": [
+            "32",
+            "8",
+            "7017280452245743464"
+          ],
+          "expected": {
+            "return_data": [
+              "32740225776097975629442294760974778014055824227399048407238890794297069489965"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "calldata_bytes_to_memory.sol:C"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "cases": [
+    {
+      "name": "conditional_expression_multiple",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256): 1001 -> 1000",
+          "instance": "test",
+          "method": "f(uint256)",
+          "calldata": [
+            "1001"
+          ],
+          "expected": {
+            "return_data": [
+              "1000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256): 500 -> 100",
+          "instance": "test",
+          "method": "f(uint256)",
+          "calldata": [
+            "500"
+          ],
+          "expected": {
+            "return_data": [
+              "100"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256): 80 -> 50",
+          "instance": "test",
+          "method": "f(uint256)",
+          "calldata": [
+            "80"
+          ],
+          "expected": {
+            "return_data": [
+              "50"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256): 40 -> 10",
+          "instance": "test",
+          "method": "f(uint256)",
+          "calldata": [
+            "40"
+          ],
+          "expected": {
+            "return_data": [
+              "10"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "test": "conditional_expression_multiple.sol:test"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "cases": [
+    {
+      "name": "reencoded_calldata_string",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "test() -> 0x20, 0x60, 0x20, 3, \"abc\"",
+          "instance": "C",
+          "method": "test()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "32",
+              "96",
+              "32",
+              "3",
+              "6382179"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "reencoded_calldata_string.sol:C"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "bytes_delete_element",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "test1() -> true; gas irOptimized: 218449; gas legacy: 242263; gas legacyOptimized: 241182",
+          "instance": "c",
+          "method": "test1()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "c": "bytes_delete_element.sol:c"
+  }
+}

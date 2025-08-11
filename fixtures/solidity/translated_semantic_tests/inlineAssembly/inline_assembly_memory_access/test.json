@@ -1,0 +1,27 @@
+{
+  "cases": [
+    {
+      "name": "inline_assembly_memory_access",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "test() -> 0x20, 0x5, \"12345\"",
+          "instance": "C",
+          "method": "test()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "32",
+              "5",
+              "211295614005"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "inline_assembly_memory_access.sol:C"
+  }
+}

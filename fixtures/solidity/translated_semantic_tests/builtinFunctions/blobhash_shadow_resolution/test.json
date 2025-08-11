@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "blobhash_shadow_resolution",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f() -> 0x03",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "3"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "blobhash_shadow_resolution.sol:C"
+  }
+}

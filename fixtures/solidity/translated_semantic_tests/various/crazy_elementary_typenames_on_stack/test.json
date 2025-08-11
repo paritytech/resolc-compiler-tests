@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "crazy_elementary_typenames_on_stack",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f() -> -7",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "115792089237316195423570985008687907853269984665640564039457584007913129639929"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "crazy_elementary_typenames_on_stack.sol:C"
+  }
+}

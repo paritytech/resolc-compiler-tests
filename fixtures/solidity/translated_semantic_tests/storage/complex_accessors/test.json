@@ -1,0 +1,73 @@
+{
+  "cases": [
+    {
+      "name": "complex_accessors",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "to_string_map(uint256): 42 -> \"24\"",
+          "instance": "test",
+          "method": "to_string_map(uint256)",
+          "calldata": [
+            "42"
+          ],
+          "expected": {
+            "return_data": [
+              "12852"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "to_bool_map(uint256): 42 -> false",
+          "instance": "test",
+          "method": "to_bool_map(uint256)",
+          "calldata": [
+            "42"
+          ],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "to_uint_map(uint256): 42 -> 12",
+          "instance": "test",
+          "method": "to_uint_map(uint256)",
+          "calldata": [
+            "42"
+          ],
+          "expected": {
+            "return_data": [
+              "12"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "to_multiple_map(uint256,uint256): 42, 23 -> 31",
+          "instance": "test",
+          "method": "to_multiple_map(uint256,uint256)",
+          "calldata": [
+            "42",
+            "23"
+          ],
+          "expected": {
+            "return_data": [
+              "31"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "test": "complex_accessors.sol:test"
+  }
+}

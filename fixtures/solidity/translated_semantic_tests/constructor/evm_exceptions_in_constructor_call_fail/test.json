@@ -1,0 +1,35 @@
+{
+  "cases": [
+    {
+      "name": "evm_exceptions_in_constructor_call_fail",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "testIt() ->",
+          "instance": "B",
+          "method": "testIt()",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "test() -> 2",
+          "instance": "B",
+          "method": "test()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "2"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "B": "evm_exceptions_in_constructor_call_fail.sol:B"
+  }
+}

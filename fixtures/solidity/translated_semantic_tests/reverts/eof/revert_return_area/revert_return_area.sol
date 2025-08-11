@@ -1,0 +1,14 @@
+contract C {
+    fallback() external {
+        revert("abc");
+    }
+    function f() public returns (uint s, uint r) {
+        address x = address(this);
+        assembly {
+            mstore(0, 7)
+            s := extcall(x, 0, 0, 0)
+            returndatacopy(0, 0, 32)
+            r := mload(0)
+        }
+    }
+}

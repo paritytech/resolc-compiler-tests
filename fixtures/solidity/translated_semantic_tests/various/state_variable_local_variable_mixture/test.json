@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "state_variable_local_variable_mixture",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "a() -> 2",
+          "instance": "A",
+          "method": "a()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "2"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "A": "state_variable_local_variable_mixture.sol:A"
+  }
+}

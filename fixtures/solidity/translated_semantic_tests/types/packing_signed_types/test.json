@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "packing_signed_types",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "run() -> 0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa",
+          "instance": "test",
+          "method": "run()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "115792089237316195423570985008687907853269984665640564039457584007913129639930"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "test": "packing_signed_types.sol:test"
+  }
+}

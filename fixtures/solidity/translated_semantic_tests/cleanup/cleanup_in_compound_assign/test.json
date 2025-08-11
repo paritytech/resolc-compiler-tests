@@ -1,0 +1,26 @@
+{
+  "cases": [
+    {
+      "name": "cleanup_in_compound_assign",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "test() -> 0xff, 0xff",
+          "instance": "C",
+          "method": "test()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "255",
+              "255"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "cleanup_in_compound_assign.sol:C"
+  }
+}

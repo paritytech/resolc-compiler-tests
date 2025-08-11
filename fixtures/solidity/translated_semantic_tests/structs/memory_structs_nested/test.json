@@ -1,0 +1,28 @@
+{
+  "cases": [
+    {
+      "name": "memory_structs_nested",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "test() -> 1, 2, 3, 4",
+          "instance": "Test",
+          "method": "test()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1",
+              "2",
+              "3",
+              "4"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "Test": "memory_structs_nested.sol:Test"
+  }
+}

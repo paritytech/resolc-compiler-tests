@@ -1,0 +1,64 @@
+{
+  "cases": [
+    {
+      "name": "copy_struct_array_from_storage",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "test1() -> true; gas irOptimized: 152965; gas legacy: 153010; gas legacyOptimized: 152636",
+          "instance": "Test",
+          "method": "test1()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "test2() -> true",
+          "instance": "Test",
+          "method": "test2()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "test3() -> true",
+          "instance": "Test",
+          "method": "test3()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "test4() -> true",
+          "instance": "Test",
+          "method": "test4()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "Test": "copy_struct_array_from_storage.sol:Test"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "cases": [
+    {
+      "name": "value_test",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(), 1 ether -> 1000000000000000000",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1000000000000000000"
+            ],
+            "exception": false
+          },
+          "value": "1000000000000000000 wei"
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(), 1 wei -> 1",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          },
+          "value": "1 wei"
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "value_test.sol:C"
+  }
+}

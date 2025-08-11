@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "copy_byte_array_to_storage",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f() -> 0xff; gas irOptimized: 143857; gas legacy: 153404; gas legacyOptimized: 146676",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "255"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "copy_byte_array_to_storage.sol:C"
+  }
+}

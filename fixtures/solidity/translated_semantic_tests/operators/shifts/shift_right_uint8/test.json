@@ -1,0 +1,44 @@
+{
+  "cases": [
+    {
+      "name": "shift_right_uint8",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint8,uint8): 0x66, 0x0 -> 0x66",
+          "instance": "C",
+          "method": "f(uint8,uint8)",
+          "calldata": [
+            "102",
+            "0"
+          ],
+          "expected": {
+            "return_data": [
+              "102"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint8,uint8): 0x66, 0x8 -> 0x0",
+          "instance": "C",
+          "method": "f(uint8,uint8)",
+          "calldata": [
+            "102",
+            "8"
+          ],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "shift_right_uint8.sol:C"
+  }
+}

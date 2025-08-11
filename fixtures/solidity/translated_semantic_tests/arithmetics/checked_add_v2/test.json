@@ -1,0 +1,74 @@
+{
+  "cases": [
+    {
+      "name": "checked_add_v2",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint16,uint16): 65534, 0 -> 0xfffe",
+          "instance": "C",
+          "method": "f(uint16,uint16)",
+          "calldata": [
+            "65534",
+            "0"
+          ],
+          "expected": {
+            "return_data": [
+              "65534"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint16,uint16): 65536, 0 -> FAILURE",
+          "instance": "C",
+          "method": "f(uint16,uint16)",
+          "calldata": [
+            "65536",
+            "0"
+          ],
+          "expected": {
+            "exception": true
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint16,uint16): 65535, 0 -> 0xffff",
+          "instance": "C",
+          "method": "f(uint16,uint16)",
+          "calldata": [
+            "65535",
+            "0"
+          ],
+          "expected": {
+            "return_data": [
+              "65535"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint16,uint16): 65535, 1 -> FAILURE, hex\"4e487b71\", 0x11",
+          "instance": "C",
+          "method": "f(uint16,uint16)",
+          "calldata": [
+            "65535",
+            "1"
+          ],
+          "expected": {
+            "return_data": [
+              "1313373041",
+              "17"
+            ],
+            "exception": true
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "checked_add_v2.sol:C"
+  }
+}

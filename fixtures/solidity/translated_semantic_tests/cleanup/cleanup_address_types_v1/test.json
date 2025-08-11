@@ -1,0 +1,42 @@
+{
+  "cases": [
+    {
+      "name": "cleanup_address_types_v1",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(address): 0xffff1234567890123456789012345678901234567890 -> 0x0",
+          "instance": "C",
+          "method": "f(address)",
+          "calldata": [
+            "95779613731486029874698491610985192245656521314564240"
+          ],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g(address): 0xffff1234567890123456789012345678901234567890 -> 0x0",
+          "instance": "C",
+          "method": "g(address)",
+          "calldata": [
+            "95779613731486029874698491610985192245656521314564240"
+          ],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "cleanup_address_types_v1.sol:C"
+  }
+}

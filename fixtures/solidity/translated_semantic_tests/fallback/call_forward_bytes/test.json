@@ -1,0 +1,115 @@
+{
+  "cases": [
+    {
+      "name": "call_forward_bytes",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "recv(uint256): 7 ->",
+          "instance": "sender",
+          "method": "recv(uint256)",
+          "calldata": [
+            "7"
+          ],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "val() -> 0",
+          "instance": "sender",
+          "method": "val()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "forward() -> true",
+          "instance": "sender",
+          "method": "forward()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "val() -> 8",
+          "instance": "sender",
+          "method": "val()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "8"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "clear() -> true",
+          "instance": "sender",
+          "method": "clear()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "val() -> 8",
+          "instance": "sender",
+          "method": "val()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "8"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "forward() -> true",
+          "instance": "sender",
+          "method": "forward()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "val() -> 0x80",
+          "instance": "sender",
+          "method": "val()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "128"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "sender": "call_forward_bytes.sol:sender"
+  }
+}

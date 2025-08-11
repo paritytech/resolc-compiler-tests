@@ -1,0 +1,68 @@
+{
+  "cases": [
+    {
+      "name": "array_copy_calldata_storage",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "store(uint256[9],uint8[3][]): 21, 22, 23, 24, 25, 26, 27, 28, 29, 0x140, 4, 1, 2, 3, 11, 12, 13, 21, 22, 23, 31, 32, 33 -> 32; gas irOptimized: 647725; gas legacy: 694354; gas legacyOptimized: 693849",
+          "instance": "c",
+          "method": "store(uint256[9],uint8[3][])",
+          "calldata": [
+            "21",
+            "22",
+            "23",
+            "24",
+            "25",
+            "26",
+            "27",
+            "28",
+            "29",
+            "320",
+            "4",
+            "1",
+            "2",
+            "3",
+            "11",
+            "12",
+            "13",
+            "21",
+            "22",
+            "23",
+            "31",
+            "32",
+            "33"
+          ],
+          "expected": {
+            "return_data": [
+              "32"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "retrieve() -> 9, 28, 9, 28, 4, 3, 32",
+          "instance": "c",
+          "method": "retrieve()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "9",
+              "28",
+              "9",
+              "28",
+              "4",
+              "3",
+              "32"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "c": "array_copy_calldata_storage.sol:c"
+  }
+}

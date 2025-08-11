@@ -1,0 +1,27 @@
+{
+  "cases": [
+    {
+      "name": "array_pop_storage_empty",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "test() ->",
+          "instance": "c",
+          "method": "test()",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "comment": "storageEmpty -> 1",
+          "address": "c.address",
+          "is_storage_empty": true
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "c": "array_pop_storage_empty.sol:c"
+  }
+}

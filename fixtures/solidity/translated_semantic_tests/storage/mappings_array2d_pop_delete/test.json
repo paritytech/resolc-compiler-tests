@@ -1,0 +1,113 @@
+{
+  "cases": [
+    {
+      "name": "mappings_array2d_pop_delete",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "n1(uint256,uint256): 42, 64 ->",
+          "instance": "C",
+          "method": "n1(uint256,uint256)",
+          "calldata": [
+            "42",
+            "64"
+          ],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "map(uint256): 42 -> 64",
+          "instance": "C",
+          "method": "map(uint256)",
+          "calldata": [
+            "42"
+          ],
+          "expected": {
+            "return_data": [
+              "64"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "p() ->",
+          "instance": "C",
+          "method": "p()",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "n2() ->",
+          "instance": "C",
+          "method": "n2()",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "map(uint256): 42 -> 64",
+          "instance": "C",
+          "method": "map(uint256)",
+          "calldata": [
+            "42"
+          ],
+          "expected": {
+            "return_data": [
+              "64"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "d() -> 0",
+          "instance": "C",
+          "method": "d()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "n2() ->",
+          "instance": "C",
+          "method": "n2()",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "map(uint256): 42 -> 64",
+          "instance": "C",
+          "method": "map(uint256)",
+          "calldata": [
+            "42"
+          ],
+          "expected": {
+            "return_data": [
+              "64"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "mappings_array2d_pop_delete.sol:C"
+  }
+}

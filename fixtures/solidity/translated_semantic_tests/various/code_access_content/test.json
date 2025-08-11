@@ -1,0 +1,38 @@
+{
+  "cases": [
+    {
+      "name": "code_access_content",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "testRuntime() -> true; gas legacy: 76575; gas legacy code: 23600",
+          "instance": "C",
+          "method": "testRuntime()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "testCreation() -> true; gas legacy: 76999; gas legacy code: 23600",
+          "instance": "C",
+          "method": "testCreation()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "code_access_content.sol:C"
+  }
+}

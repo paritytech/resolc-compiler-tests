@@ -1,0 +1,89 @@
+{
+  "cases": [
+    {
+      "name": "bytes_to_fixed_bytes_simple",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "fromMemory(bytes): 0x20, 16, \"abcdefghabcdefgh\" -> \"abcdefghabcdefgh\"",
+          "instance": "C",
+          "method": "fromMemory(bytes)",
+          "calldata": [
+            "32",
+            "16",
+            "129445976596022050475853947428248381288"
+          ],
+          "expected": {
+            "return_data": [
+              "129445976596022050475853947428248381288"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "fromCalldata(bytes): 0x20, 16, \"abcdefghabcdefgh\" -> \"abcdefghabcdefgh\"",
+          "instance": "C",
+          "method": "fromCalldata(bytes)",
+          "calldata": [
+            "32",
+            "16",
+            "129445976596022050475853947428248381288"
+          ],
+          "expected": {
+            "return_data": [
+              "129445976596022050475853947428248381288"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "fromStorage() -> \"abcdefghabcdefgh\"",
+          "instance": "C",
+          "method": "fromStorage()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "129445976596022050475853947428248381288"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "fromStorageLong() -> \"abcdefghabcdefghabcdefghabcdefgh\"",
+          "instance": "C",
+          "method": "fromStorageLong()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "44048183304486788311951504769468900575156742087465169367561262243075146016616"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "fromSlice(bytes): 0x20, 16, \"abcdefghabcdefgh\" -> \"bcdefgha\"",
+          "instance": "C",
+          "method": "fromSlice(bytes)",
+          "calldata": [
+            "32",
+            "16",
+            "129445976596022050475853947428248381288"
+          ],
+          "expected": {
+            "return_data": [
+              "7089620625083820129"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "bytes_to_fixed_bytes_simple.sol:C"
+  }
+}

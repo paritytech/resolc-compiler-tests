@@ -1,0 +1,26 @@
+{
+  "cases": [
+    {
+      "name": "calldata_too_short_v1",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "d(bytes): 0x20, 0x01, 0x0000000000000000000000000000000000000000000000000000000000000000 -> FAILURE",
+          "instance": "C",
+          "method": "d(bytes)",
+          "calldata": [
+            "32",
+            "1",
+            "0"
+          ],
+          "expected": {
+            "exception": true
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "calldata_too_short_v1.sol:C"
+  }
+}

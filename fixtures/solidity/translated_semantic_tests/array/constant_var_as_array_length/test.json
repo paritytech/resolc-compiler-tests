@@ -1,0 +1,71 @@
+{
+  "cases": [
+    {
+      "name": "constant_var_as_array_length",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "constructor(): 1, 2, 3 ->; gas irOptimized: 124991; gas irOptimized code: 14800; gas legacy: 134317; gas legacy code: 46200; gas legacyOptimized: 127166; gas legacyOptimized code: 23400",
+          "instance": "C",
+          "method": "#deployer",
+          "calldata": [
+            "1",
+            "2",
+            "3"
+          ],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "a(uint256): 0 -> 1",
+          "instance": "C",
+          "method": "a(uint256)",
+          "calldata": [
+            "0"
+          ],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "a(uint256): 1 -> 2",
+          "instance": "C",
+          "method": "a(uint256)",
+          "calldata": [
+            "1"
+          ],
+          "expected": {
+            "return_data": [
+              "2"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "a(uint256): 2 -> 3",
+          "instance": "C",
+          "method": "a(uint256)",
+          "calldata": [
+            "2"
+          ],
+          "expected": {
+            "return_data": [
+              "3"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "constant_var_as_array_length.sol:C"
+  }
+}

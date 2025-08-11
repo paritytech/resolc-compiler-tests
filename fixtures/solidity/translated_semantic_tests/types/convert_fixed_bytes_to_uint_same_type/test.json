@@ -1,0 +1,27 @@
+{
+  "cases": [
+    {
+      "name": "convert_fixed_bytes_to_uint_same_type",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "bytesToUint(bytes32): \"abc2\" -> left(0x61626332)",
+          "instance": "Test",
+          "method": "bytesToUint(bytes32)",
+          "calldata": [
+            "1633837874"
+          ],
+          "expected": {
+            "return_data": [
+              "44048181945810786959858552467702078376080499890754646621269227743303679606784"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "Test": "convert_fixed_bytes_to_uint_same_type.sol:Test"
+  }
+}

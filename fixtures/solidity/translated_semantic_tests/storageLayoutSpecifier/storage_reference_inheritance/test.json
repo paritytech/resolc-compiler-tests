@@ -1,0 +1,36 @@
+{
+  "cases": [
+    {
+      "name": "storage_reference_inheritance",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "InitUsingReference() ->",
+          "instance": "C",
+          "method": "InitUsingReference()",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "s() -> 2, true",
+          "instance": "C",
+          "method": "s()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "2",
+              "1"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "storage_reference_inheritance.sol:C"
+  }
+}

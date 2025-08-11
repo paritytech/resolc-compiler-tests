@@ -1,0 +1,108 @@
+{
+  "cases": [
+    {
+      "name": "recursion",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g(uint256,uint256): 0, 0 -> 1",
+          "instance": "C",
+          "method": "g(uint256,uint256)",
+          "calldata": [
+            "0",
+            "0"
+          ],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g(uint256,uint256): 0, 1 -> 0x00",
+          "instance": "C",
+          "method": "g(uint256,uint256)",
+          "calldata": [
+            "0",
+            "1"
+          ],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g(uint256,uint256): 1, 0 -> 1",
+          "instance": "C",
+          "method": "g(uint256,uint256)",
+          "calldata": [
+            "1",
+            "0"
+          ],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g(uint256,uint256): 2, 3 -> 8",
+          "instance": "C",
+          "method": "g(uint256,uint256)",
+          "calldata": [
+            "2",
+            "3"
+          ],
+          "expected": {
+            "return_data": [
+              "8"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g(uint256,uint256): 3, 10 -> 59049",
+          "instance": "C",
+          "method": "g(uint256,uint256)",
+          "calldata": [
+            "3",
+            "10"
+          ],
+          "expected": {
+            "return_data": [
+              "59049"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g(uint256,uint256): 2, 255 -> -57896044618658097711785492504343953926634992332820282019728792003956564819968",
+          "instance": "C",
+          "method": "g(uint256,uint256)",
+          "calldata": [
+            "2",
+            "255"
+          ],
+          "expected": {
+            "return_data": [
+              "57896044618658097711785492504343953926634992332820282019728792003956564819968"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "recursion.sol:C"
+  }
+}

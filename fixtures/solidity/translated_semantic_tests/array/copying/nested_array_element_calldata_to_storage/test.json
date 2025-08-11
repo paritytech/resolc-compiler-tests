@@ -1,0 +1,46 @@
+{
+  "cases": [
+    {
+      "name": "nested_array_element_calldata_to_storage",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "test(uint8[2][2][2]): 1, 2, 3, 4, 5, 6, 7, 8",
+          "instance": "C",
+          "method": "test(uint8[2][2][2])",
+          "calldata": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8"
+          ],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "test2(uint8[2][2]): 1, 2, 3, 4; gas irOptimized: 119939; gas legacyOptimized: 120228",
+          "instance": "C",
+          "method": "test2(uint8[2][2])",
+          "calldata": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "expected": {
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "nested_array_element_calldata_to_storage.sol:C"
+  }
+}

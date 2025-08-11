@@ -1,0 +1,181 @@
+{
+  "cases": [
+    {
+      "name": "calldata_nested_array_static_reencode",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256[3][]): 0x20, 1, 0x01 -> FAILURE",
+          "instance": "C",
+          "method": "f(uint256[3][])",
+          "calldata": [
+            "32",
+            "1",
+            "1"
+          ],
+          "expected": {
+            "exception": true
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256[3][]): 0x20, 1, 0x01, 0x02 -> FAILURE",
+          "instance": "C",
+          "method": "f(uint256[3][])",
+          "calldata": [
+            "32",
+            "1",
+            "1",
+            "2"
+          ],
+          "expected": {
+            "exception": true
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256[3][]): 0x20, 1, 0x01, 0x02, 0x03 ->",
+          "instance": "C",
+          "method": "f(uint256[3][])",
+          "calldata": [
+            "32",
+            "1",
+            "1",
+            "2",
+            "3"
+          ],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256[][3]): 0x20, 0x60, 0x60, 0x60, 3, 0x01 -> FAILURE",
+          "instance": "C",
+          "method": "f(uint256[][3])",
+          "calldata": [
+            "32",
+            "96",
+            "96",
+            "96",
+            "3",
+            "1"
+          ],
+          "expected": {
+            "exception": true
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256[][3]): 0x20, 0x60, 0x60, 0x60, 3, 0x01, 0x02 -> FAILURE",
+          "instance": "C",
+          "method": "f(uint256[][3])",
+          "calldata": [
+            "32",
+            "96",
+            "96",
+            "96",
+            "3",
+            "1",
+            "2"
+          ],
+          "expected": {
+            "exception": true
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256[][3]): 0x20, 0x60, 0x60, 0x60, 3, 0x01, 0x02, 0x03 ->",
+          "instance": "C",
+          "method": "f(uint256[][3])",
+          "calldata": [
+            "32",
+            "96",
+            "96",
+            "96",
+            "3",
+            "1",
+            "2",
+            "3"
+          ],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256[2][2]): 0x01 -> FAILURE",
+          "instance": "C",
+          "method": "f(uint256[2][2])",
+          "calldata": [
+            "1"
+          ],
+          "expected": {
+            "exception": true
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256[2][2]): 0x01, 0x02 -> FAILURE",
+          "instance": "C",
+          "method": "f(uint256[2][2])",
+          "calldata": [
+            "1",
+            "2"
+          ],
+          "expected": {
+            "exception": true
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256[2][2]): 0x01, 0x02, 0x03 -> FAILURE",
+          "instance": "C",
+          "method": "f(uint256[2][2])",
+          "calldata": [
+            "1",
+            "2",
+            "3"
+          ],
+          "expected": {
+            "exception": true
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256[2][2]): 0x01, 0x02, 0x03, 0x04 ->",
+          "instance": "C",
+          "method": "f(uint256[2][2])",
+          "calldata": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256[2][2]): 0x01, 0x02, 0x03, 0x04, 0x05 ->",
+          "instance": "C",
+          "method": "f(uint256[2][2])",
+          "calldata": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "expected": {
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "calldata_nested_array_static_reencode.sol:C"
+  }
+}

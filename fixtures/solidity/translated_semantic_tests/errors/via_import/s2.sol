@@ -1,0 +1,1 @@
+import "s1.sol" as S;

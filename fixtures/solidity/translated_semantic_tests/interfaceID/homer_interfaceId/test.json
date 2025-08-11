@@ -1,0 +1,72 @@
+{
+  "cases": [
+    {
+      "name": "homer_interfaceId",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "supportsInterface(bytes4): left(0x01ffc9a0) -> false",
+          "instance": "Homer",
+          "method": "supportsInterface(bytes4)",
+          "calldata": [
+            "904250414708926039840706555530362966844694726149955141789325412807152238592"
+          ],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "supportsInterface(bytes4): left(0x01ffc9a7) -> true",
+          "instance": "Homer",
+          "method": "supportsInterface(bytes4)",
+          "calldata": [
+            "904250603428552709895185118199468575982109441609966099573332780532423983104"
+          ],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "supportsInterface(bytes4): left(0x73b6b492) -> true",
+          "instance": "Homer",
+          "method": "supportsInterface(bytes4)",
+          "calldata": [
+            "52338790003359936316391586844446144845289247543887661137981730390177363263488"
+          ],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "supportsInterface(bytes4): left(0x70b6b492) -> false",
+          "instance": "Homer",
+          "method": "supportsInterface(bytes4)",
+          "calldata": [
+            "50981851457610137151271614363875583425133739911087185778144336827584631275520"
+          ],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "Homer": "homer_interfaceId.sol:Homer"
+  }
+}

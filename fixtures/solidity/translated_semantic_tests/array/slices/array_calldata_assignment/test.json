@@ -1,0 +1,34 @@
+{
+  "cases": [
+    {
+      "name": "array_calldata_assignment",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256[],uint256[],uint256): 0x60, 0xA0, 1, 1, 0, 2, 1, 2 -> 2",
+          "instance": "C",
+          "method": "f(uint256[],uint256[],uint256)",
+          "calldata": [
+            "96",
+            "160",
+            "1",
+            "1",
+            "0",
+            "2",
+            "1",
+            "2"
+          ],
+          "expected": {
+            "return_data": [
+              "2"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "array_calldata_assignment.sol:C"
+  }
+}

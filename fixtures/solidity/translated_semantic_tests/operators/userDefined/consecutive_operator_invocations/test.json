@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "consecutive_operator_invocations",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g() -> 0x9999999999999999999999999999999999999999",
+          "instance": "C",
+          "method": "g()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "876900982398541750922210899629769811793559525785"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "consecutive_operator_invocations.sol:C"
+  }
+}

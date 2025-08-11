@@ -1,0 +1,51 @@
+{
+  "cases": [
+    {
+      "name": "constructor_with_params_inheritance",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "constructor(): 2, 0 ->; gas irOptimized: 101581; gas irOptimized code: 20200; gas legacy: 105192; gas legacy code: 32000; gas legacyOptimized: 101503; gas legacyOptimized code: 17000",
+          "instance": "D",
+          "method": "#deployer",
+          "calldata": [
+            "2",
+            "0"
+          ],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "i() -> 2",
+          "instance": "D",
+          "method": "i()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "2"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "k() -> 1",
+          "instance": "D",
+          "method": "k()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "D": "constructor_with_params_inheritance.sol:D"
+  }
+}

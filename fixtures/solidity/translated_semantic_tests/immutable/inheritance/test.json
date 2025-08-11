@@ -1,0 +1,28 @@
+{
+  "cases": [
+    {
+      "name": "inheritance",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f() -> 4, 3, 2, 1",
+          "instance": "D",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "4",
+              "3",
+              "2",
+              "1"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "D": "inheritance.sol:D"
+  }
+}

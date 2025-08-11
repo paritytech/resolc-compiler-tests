@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "super_skip_unimplemented_in_abstract_contract",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f() -> 42",
+          "instance": "B",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "42"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "B": "super_skip_unimplemented_in_abstract_contract.sol:B"
+  }
+}

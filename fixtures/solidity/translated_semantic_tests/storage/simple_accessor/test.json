@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "simple_accessor",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "data() -> 8",
+          "instance": "test",
+          "method": "data()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "8"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "test": "simple_accessor.sol:test"
+  }
+}

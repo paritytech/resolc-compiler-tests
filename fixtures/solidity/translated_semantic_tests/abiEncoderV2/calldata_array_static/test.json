@@ -1,0 +1,124 @@
+{
+  "cases": [
+    {
+      "name": "calldata_array_static",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256[3]): 23, 42, 87 -> 32, 96, 23, 42, 87",
+          "instance": "C",
+          "method": "f(uint256[3])",
+          "calldata": [
+            "23",
+            "42",
+            "87"
+          ],
+          "expected": {
+            "return_data": [
+              "32",
+              "96",
+              "23",
+              "42",
+              "87"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g(uint256[3]): 23, 42, 87 -> 32, 96, 23, 42, 87",
+          "instance": "C",
+          "method": "g(uint256[3])",
+          "calldata": [
+            "23",
+            "42",
+            "87"
+          ],
+          "expected": {
+            "return_data": [
+              "32",
+              "96",
+              "23",
+              "42",
+              "87"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "h(uint8[3]): 23, 42, 87 -> 32, 96, 23, 42, 87",
+          "instance": "C",
+          "method": "h(uint8[3])",
+          "calldata": [
+            "23",
+            "42",
+            "87"
+          ],
+          "expected": {
+            "return_data": [
+              "32",
+              "96",
+              "23",
+              "42",
+              "87"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "i(uint8[3]): 23, 42, 87 -> 32, 96, 23, 42, 87",
+          "instance": "C",
+          "method": "i(uint8[3])",
+          "calldata": [
+            "23",
+            "42",
+            "87"
+          ],
+          "expected": {
+            "return_data": [
+              "32",
+              "96",
+              "23",
+              "42",
+              "87"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "h(uint8[3]): 0xFF23, 0x1242, 0xAB87 -> FAILURE",
+          "instance": "C",
+          "method": "h(uint8[3])",
+          "calldata": [
+            "65315",
+            "4674",
+            "43911"
+          ],
+          "expected": {
+            "exception": true
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "i(uint8[3]): 0xAB23, 0x1242, 0xFF87 -> FAILURE",
+          "instance": "C",
+          "method": "i(uint8[3])",
+          "calldata": [
+            "43811",
+            "4674",
+            "65415"
+          ],
+          "expected": {
+            "exception": true
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "calldata_array_static.sol:C"
+  }
+}

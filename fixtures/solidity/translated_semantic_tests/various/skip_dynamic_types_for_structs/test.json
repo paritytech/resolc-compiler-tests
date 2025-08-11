@@ -1,0 +1,26 @@
+{
+  "cases": [
+    {
+      "name": "skip_dynamic_types_for_structs",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g() -> 2, 6; gas irOptimized: 178195; gas legacy: 180653; gas legacyOptimized: 179144",
+          "instance": "C",
+          "method": "g()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "2",
+              "6"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "skip_dynamic_types_for_structs.sol:C"
+  }
+}

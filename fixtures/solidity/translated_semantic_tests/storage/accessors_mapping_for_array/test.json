@@ -1,0 +1,70 @@
+{
+  "cases": [
+    {
+      "name": "accessors_mapping_for_array",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "data(uint256,uint256): 2, 2 -> 8",
+          "instance": "test",
+          "method": "data(uint256,uint256)",
+          "calldata": [
+            "2",
+            "2"
+          ],
+          "expected": {
+            "return_data": [
+              "8"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "data(uint256,uint256): 2, 8 -> FAILURE",
+          "instance": "test",
+          "method": "data(uint256,uint256)",
+          "calldata": [
+            "2",
+            "8"
+          ],
+          "expected": {
+            "exception": true
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "dynamicData(uint256,uint256): 2, 2 -> 8",
+          "instance": "test",
+          "method": "dynamicData(uint256,uint256)",
+          "calldata": [
+            "2",
+            "2"
+          ],
+          "expected": {
+            "return_data": [
+              "8"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "dynamicData(uint256,uint256): 2, 8 -> FAILURE",
+          "instance": "test",
+          "method": "dynamicData(uint256,uint256)",
+          "calldata": [
+            "2",
+            "8"
+          ],
+          "expected": {
+            "exception": true
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "test": "accessors_mapping_for_array.sol:test"
+  }
+}

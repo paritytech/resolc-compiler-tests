@@ -1,0 +1,27 @@
+{
+  "cases": [
+    {
+      "name": "function_return_parameter",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint8): 5 -> 0x00",
+          "instance": "B",
+          "method": "f(uint8)",
+          "calldata": [
+            "5"
+          ],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "B": "function_return_parameter.sol:B"
+  }
+}

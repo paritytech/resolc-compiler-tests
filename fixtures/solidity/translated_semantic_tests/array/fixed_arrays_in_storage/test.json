@@ -1,0 +1,141 @@
+{
+  "cases": [
+    {
+      "name": "fixed_arrays_in_storage",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "setIDStatic(uint256): 0xb ->",
+          "instance": "c",
+          "method": "setIDStatic(uint256)",
+          "calldata": [
+            "11"
+          ],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "getID(uint256): 0x2 -> 0xb",
+          "instance": "c",
+          "method": "getID(uint256)",
+          "calldata": [
+            "2"
+          ],
+          "expected": {
+            "return_data": [
+              "11"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "setID(uint256,uint256): 0x7, 0x8 ->",
+          "instance": "c",
+          "method": "setID(uint256,uint256)",
+          "calldata": [
+            "7",
+            "8"
+          ],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "getID(uint256): 0x7 -> 0x8",
+          "instance": "c",
+          "method": "getID(uint256)",
+          "calldata": [
+            "7"
+          ],
+          "expected": {
+            "return_data": [
+              "8"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "setData(uint256,uint256,uint256): 0x7, 0x8, 0x9 ->",
+          "instance": "c",
+          "method": "setData(uint256,uint256,uint256)",
+          "calldata": [
+            "7",
+            "8",
+            "9"
+          ],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "setData(uint256,uint256,uint256): 0x8, 0xa, 0xb ->",
+          "instance": "c",
+          "method": "setData(uint256,uint256,uint256)",
+          "calldata": [
+            "8",
+            "10",
+            "11"
+          ],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "getData(uint256): 0x7 -> 0x8, 0x9",
+          "instance": "c",
+          "method": "getData(uint256)",
+          "calldata": [
+            "7"
+          ],
+          "expected": {
+            "return_data": [
+              "8",
+              "9"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "getData(uint256): 0x8 -> 0xa, 0xb",
+          "instance": "c",
+          "method": "getData(uint256)",
+          "calldata": [
+            "8"
+          ],
+          "expected": {
+            "return_data": [
+              "10",
+              "11"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "getLengths() -> 0x400, 0x403",
+          "instance": "c",
+          "method": "getLengths()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1024",
+              "1027"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "c": "fixed_arrays_in_storage.sol:c"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "cases": [
+    {
+      "name": "string_and_bytes",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "a() -> 0x20, 11, \"hello world\"",
+          "instance": "C",
+          "method": "a()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "32",
+              "11",
+              "126207244316550804821666916"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "b() -> 0x20, 4, \"ABCD\"",
+          "instance": "C",
+          "method": "b()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "32",
+              "4",
+              "1094861636"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "c() -> 0x20, 4, -439061522557375173052089223601630338202760422010735733633791622124826263552",
+          "instance": "C",
+          "method": "c()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "32",
+              "4",
+              "115353027714758820250518895785086277515067224243629828305823792385788303376384"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "d() -> 0x20, 4, \"abcd\"",
+          "instance": "C",
+          "method": "d()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "32",
+              "4",
+              "1633837924"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "string_and_bytes.sol:C"
+  }
+}

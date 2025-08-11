@@ -1,0 +1,41 @@
+{
+  "cases": [
+    {
+      "name": "library_call_in_homestead",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f() ->",
+          "instance": "Test",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "sender() -> 0x1212121212121212121212121212120000000012",
+          "instance": "Test",
+          "method": "sender()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "103164821458651970696730694074090566015747358738"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "Lib": "library_call_in_homestead.sol:Lib",
+    "Test": "library_call_in_homestead.sol:Test"
+  },
+  "libraries": {
+    "library_call_in_homestead.sol": {
+      "Lib": "Lib"
+    }
+  }
+}

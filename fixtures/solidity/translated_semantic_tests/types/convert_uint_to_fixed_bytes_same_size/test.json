@@ -1,0 +1,27 @@
+{
+  "cases": [
+    {
+      "name": "convert_uint_to_fixed_bytes_same_size",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "uintToBytes(uint256): left(0x616263) -> left(0x616263)",
+          "instance": "Test",
+          "method": "uintToBytes(uint256)",
+          "calldata": [
+            "44048180597813453602326562734351324025098966208897425494240603688123167145984"
+          ],
+          "expected": {
+            "return_data": [
+              "44048180597813453602326562734351324025098966208897425494240603688123167145984"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "Test": "convert_uint_to_fixed_bytes_same_size.sol:Test"
+  }
+}

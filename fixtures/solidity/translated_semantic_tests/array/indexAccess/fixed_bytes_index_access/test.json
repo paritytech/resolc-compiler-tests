@@ -1,0 +1,57 @@
+{
+  "cases": [
+    {
+      "name": "fixed_bytes_index_access",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(bytes32): \"789\" -> \"9\"",
+          "instance": "C",
+          "method": "f(bytes32)",
+          "calldata": [
+            "3618873"
+          ],
+          "expected": {
+            "return_data": [
+              "57"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g(bytes32): \"789\" -> 0x35",
+          "instance": "C",
+          "method": "g(bytes32)",
+          "calldata": [
+            "3618873"
+          ],
+          "expected": {
+            "return_data": [
+              "53"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "data(uint256): 0x01 -> \"8\"",
+          "instance": "C",
+          "method": "data(uint256)",
+          "calldata": [
+            "1"
+          ],
+          "expected": {
+            "return_data": [
+              "56"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "fixed_bytes_index_access.sol:C"
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "cases": [
+    {
+      "name": "mapping_string_key",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "set(string,uint256): 0x40, 8, 3, \"abc\" ->",
+          "instance": "C",
+          "method": "set(string,uint256)",
+          "calldata": [
+            "64",
+            "8",
+            "3",
+            "6382179"
+          ],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "get(string): 0x20, 3, \"abc\" -> 8",
+          "instance": "C",
+          "method": "get(string)",
+          "calldata": [
+            "32",
+            "3",
+            "6382179"
+          ],
+          "expected": {
+            "return_data": [
+              "8"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "get(string): 0x20, 3, \"abe\" -> 0",
+          "instance": "C",
+          "method": "get(string)",
+          "calldata": [
+            "32",
+            "3",
+            "6382181"
+          ],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "getFixed() -> 0",
+          "instance": "C",
+          "method": "getFixed()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "setFixed(uint256): 9 ->",
+          "instance": "C",
+          "method": "setFixed(uint256)",
+          "calldata": [
+            "9"
+          ],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "getFixed() -> 9",
+          "instance": "C",
+          "method": "getFixed()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "9"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "mapping_string_key.sol:C"
+  }
+}

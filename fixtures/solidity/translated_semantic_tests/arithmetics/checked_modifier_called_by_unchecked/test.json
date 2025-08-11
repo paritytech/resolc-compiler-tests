@@ -1,0 +1,47 @@
+{
+  "cases": [
+    {
+      "name": "checked_modifier_called_by_unchecked",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint16,uint16,uint16): 0xe000, 0xe500, 2 -> 58626",
+          "instance": "C",
+          "method": "f(uint16,uint16,uint16)",
+          "calldata": [
+            "57344",
+            "58624",
+            "2"
+          ],
+          "expected": {
+            "return_data": [
+              "58626"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint16,uint16,uint16): 0x1000, 0xe500, 0xe000 -> FAILURE, hex\"4e487b71\", 0x11",
+          "instance": "C",
+          "method": "f(uint16,uint16,uint16)",
+          "calldata": [
+            "4096",
+            "58624",
+            "57344"
+          ],
+          "expected": {
+            "return_data": [
+              "1313373041",
+              "17"
+            ],
+            "exception": true
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "checked_modifier_called_by_unchecked.sol:C"
+  }
+}

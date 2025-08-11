@@ -1,0 +1,46 @@
+{
+  "cases": [
+    {
+      "name": "conditional_expression_with_return_values",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(bool,uint256): true, 20 -> 20, 0",
+          "instance": "test",
+          "method": "f(bool,uint256)",
+          "calldata": [
+            "1",
+            "20"
+          ],
+          "expected": {
+            "return_data": [
+              "20",
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(bool,uint256): false, 20 -> 0, 20",
+          "instance": "test",
+          "method": "f(bool,uint256)",
+          "calldata": [
+            "0",
+            "20"
+          ],
+          "expected": {
+            "return_data": [
+              "0",
+              "20"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "test": "conditional_expression_with_return_values.sol:test"
+  }
+}

@@ -1,0 +1,222 @@
+{
+  "cases": [
+    {
+      "name": "parameter",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "id(address): 5 -> 5",
+          "instance": "C",
+          "method": "id(address)",
+          "calldata": [
+            "5"
+          ],
+          "expected": {
+            "return_data": [
+              "5"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "id(address): 0xffffffffffffffffffffffffffffffffffffffff -> 0xffffffffffffffffffffffffffffffffffffffff",
+          "instance": "C",
+          "method": "id(address)",
+          "calldata": [
+            "1461501637330902918203684832716283019655932542975"
+          ],
+          "expected": {
+            "return_data": [
+              "1461501637330902918203684832716283019655932542975"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "id(address): 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff -> FAILURE",
+          "instance": "C",
+          "method": "id(address)",
+          "calldata": [
+            "115792089237316195423570985008687907853269984665640564039457584007913129639935"
+          ],
+          "expected": {
+            "exception": true
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "unwrap(address): 5 -> 5",
+          "instance": "C",
+          "method": "unwrap(address)",
+          "calldata": [
+            "5"
+          ],
+          "expected": {
+            "return_data": [
+              "5"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "unwrap(address): 0xffffffffffffffffffffffffffffffffffffffff -> 0xffffffffffffffffffffffffffffffffffffffff",
+          "instance": "C",
+          "method": "unwrap(address)",
+          "calldata": [
+            "1461501637330902918203684832716283019655932542975"
+          ],
+          "expected": {
+            "return_data": [
+              "1461501637330902918203684832716283019655932542975"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "unwrap(address): 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff -> FAILURE",
+          "instance": "C",
+          "method": "unwrap(address)",
+          "calldata": [
+            "115792089237316195423570985008687907853269984665640564039457584007913129639935"
+          ],
+          "expected": {
+            "exception": true
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "wrap(address): 5 -> 5",
+          "instance": "C",
+          "method": "wrap(address)",
+          "calldata": [
+            "5"
+          ],
+          "expected": {
+            "return_data": [
+              "5"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "wrap(address): 0xffffffffffffffffffffffffffffffffffffffff -> 0xffffffffffffffffffffffffffffffffffffffff",
+          "instance": "C",
+          "method": "wrap(address)",
+          "calldata": [
+            "1461501637330902918203684832716283019655932542975"
+          ],
+          "expected": {
+            "return_data": [
+              "1461501637330902918203684832716283019655932542975"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "wrap(address): 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff -> FAILURE",
+          "instance": "C",
+          "method": "wrap(address)",
+          "calldata": [
+            "115792089237316195423570985008687907853269984665640564039457584007913129639935"
+          ],
+          "expected": {
+            "exception": true
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "unwrap_assembly(address): 5 -> 5",
+          "instance": "C",
+          "method": "unwrap_assembly(address)",
+          "calldata": [
+            "5"
+          ],
+          "expected": {
+            "return_data": [
+              "5"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "unwrap_assembly(address): 0xffffffffffffffffffffffffffffffffffffffff -> 0xffffffffffffffffffffffffffffffffffffffff",
+          "instance": "C",
+          "method": "unwrap_assembly(address)",
+          "calldata": [
+            "1461501637330902918203684832716283019655932542975"
+          ],
+          "expected": {
+            "return_data": [
+              "1461501637330902918203684832716283019655932542975"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "unwrap_assembly(address): 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff -> FAILURE",
+          "instance": "C",
+          "method": "unwrap_assembly(address)",
+          "calldata": [
+            "115792089237316195423570985008687907853269984665640564039457584007913129639935"
+          ],
+          "expected": {
+            "exception": true
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "wrap_assembly(address): 5 -> 5",
+          "instance": "C",
+          "method": "wrap_assembly(address)",
+          "calldata": [
+            "5"
+          ],
+          "expected": {
+            "return_data": [
+              "5"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "wrap_assembly(address): 0xffffffffffffffffffffffffffffffffffffffff -> 0xffffffffffffffffffffffffffffffffffffffff",
+          "instance": "C",
+          "method": "wrap_assembly(address)",
+          "calldata": [
+            "1461501637330902918203684832716283019655932542975"
+          ],
+          "expected": {
+            "return_data": [
+              "1461501637330902918203684832716283019655932542975"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "wrap_assembly(address): 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff -> FAILURE",
+          "instance": "C",
+          "method": "wrap_assembly(address)",
+          "calldata": [
+            "115792089237316195423570985008687907853269984665640564039457584007913129639935"
+          ],
+          "expected": {
+            "exception": true
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "parameter.sol:C"
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "cases": [
+    {
+      "name": "shift_overflow",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "leftU(uint8,uint8): 255, 8 -> 0",
+          "instance": "C",
+          "method": "leftU(uint8,uint8)",
+          "calldata": [
+            "255",
+            "8"
+          ],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "leftU(uint8,uint8): 255, 1 -> 254",
+          "instance": "C",
+          "method": "leftU(uint8,uint8)",
+          "calldata": [
+            "255",
+            "1"
+          ],
+          "expected": {
+            "return_data": [
+              "254"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "leftU(uint8,uint8): 255, 0 -> 255",
+          "instance": "C",
+          "method": "leftU(uint8,uint8)",
+          "calldata": [
+            "255",
+            "0"
+          ],
+          "expected": {
+            "return_data": [
+              "255"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "leftS(int8,uint8): 1, 7 -> -128",
+          "instance": "C",
+          "method": "leftS(int8,uint8)",
+          "calldata": [
+            "1",
+            "7"
+          ],
+          "expected": {
+            "return_data": [
+              "115792089237316195423570985008687907853269984665640564039457584007913129639808"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "leftS(int8,uint8): 1, 6 -> 64",
+          "instance": "C",
+          "method": "leftS(int8,uint8)",
+          "calldata": [
+            "1",
+            "6"
+          ],
+          "expected": {
+            "return_data": [
+              "64"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "shift_overflow.sol:C"
+  }
+}

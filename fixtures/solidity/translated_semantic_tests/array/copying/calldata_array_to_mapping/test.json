@@ -1,0 +1,47 @@
+{
+  "cases": [
+    {
+      "name": "calldata_array_to_mapping",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "from_calldata(uint8[][]): 0x20, 2, 0x40, 0xa0, 2, 10, 11, 3, 12, 13, 14 -> 0x20, 2, 0x40, 0xa0, 2, 10, 11, 3, 12, 13, 14; gas irOptimized: 139587",
+          "instance": "C",
+          "method": "from_calldata(uint8[][])",
+          "calldata": [
+            "32",
+            "2",
+            "64",
+            "160",
+            "2",
+            "10",
+            "11",
+            "3",
+            "12",
+            "13",
+            "14"
+          ],
+          "expected": {
+            "return_data": [
+              "32",
+              "2",
+              "64",
+              "160",
+              "2",
+              "10",
+              "11",
+              "3",
+              "12",
+              "13",
+              "14"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "calldata_array_to_mapping.sol:C"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "cases": [
+    {
+      "name": "external_function",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "test(uint256,uint256): 2, 3 -> 9, 3",
+          "instance": "c",
+          "method": "test(uint256,uint256)",
+          "calldata": [
+            "2",
+            "3"
+          ],
+          "expected": {
+            "return_data": [
+              "9",
+              "3"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "c": "external_function.sol:c"
+  }
+}

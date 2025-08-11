@@ -1,0 +1,234 @@
+{
+  "cases": [
+    {
+      "name": "mapping_arguments_in_library",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "set(uint256,uint256): 1, 42 -> 0",
+          "instance": "Test",
+          "method": "set(uint256,uint256)",
+          "calldata": [
+            "1",
+            "42"
+          ],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "set(uint256,uint256): 2, 84 -> 0",
+          "instance": "Test",
+          "method": "set(uint256,uint256)",
+          "calldata": [
+            "2",
+            "84"
+          ],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "set(uint256,uint256): 21, 7 -> 0",
+          "instance": "Test",
+          "method": "set(uint256,uint256)",
+          "calldata": [
+            "21",
+            "7"
+          ],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "get(uint256): 0 -> 0",
+          "instance": "Test",
+          "method": "get(uint256)",
+          "calldata": [
+            "0"
+          ],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "get(uint256): 1 -> 0x2a",
+          "instance": "Test",
+          "method": "get(uint256)",
+          "calldata": [
+            "1"
+          ],
+          "expected": {
+            "return_data": [
+              "42"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "get(uint256): 2 -> 0x54",
+          "instance": "Test",
+          "method": "get(uint256)",
+          "calldata": [
+            "2"
+          ],
+          "expected": {
+            "return_data": [
+              "84"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "get(uint256): 21 -> 7",
+          "instance": "Test",
+          "method": "get(uint256)",
+          "calldata": [
+            "21"
+          ],
+          "expected": {
+            "return_data": [
+              "7"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "set(uint256,uint256): 1, 21 -> 0x2a",
+          "instance": "Test",
+          "method": "set(uint256,uint256)",
+          "calldata": [
+            "1",
+            "21"
+          ],
+          "expected": {
+            "return_data": [
+              "42"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "set(uint256,uint256): 2, 42 -> 0x54",
+          "instance": "Test",
+          "method": "set(uint256,uint256)",
+          "calldata": [
+            "2",
+            "42"
+          ],
+          "expected": {
+            "return_data": [
+              "84"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "set(uint256,uint256): 21, 14 -> 7",
+          "instance": "Test",
+          "method": "set(uint256,uint256)",
+          "calldata": [
+            "21",
+            "14"
+          ],
+          "expected": {
+            "return_data": [
+              "7"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "get(uint256): 0 -> 0",
+          "instance": "Test",
+          "method": "get(uint256)",
+          "calldata": [
+            "0"
+          ],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "get(uint256): 1 -> 0x15",
+          "instance": "Test",
+          "method": "get(uint256)",
+          "calldata": [
+            "1"
+          ],
+          "expected": {
+            "return_data": [
+              "21"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "get(uint256): 2 -> 0x2a",
+          "instance": "Test",
+          "method": "get(uint256)",
+          "calldata": [
+            "2"
+          ],
+          "expected": {
+            "return_data": [
+              "42"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "get(uint256): 21 -> 14",
+          "instance": "Test",
+          "method": "get(uint256)",
+          "calldata": [
+            "21"
+          ],
+          "expected": {
+            "return_data": [
+              "14"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "Lib": "mapping_arguments_in_library.sol:Lib",
+    "Test": "mapping_arguments_in_library.sol:Test"
+  },
+  "libraries": {
+    "mapping_arguments_in_library.sol": {
+      "Lib": "Lib"
+    }
+  }
+}

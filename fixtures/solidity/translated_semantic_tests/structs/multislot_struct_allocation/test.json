@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "multislot_struct_allocation",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f() -> 2",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "2"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "multislot_struct_allocation.sol:C"
+  }
+}

@@ -1,0 +1,260 @@
+{
+  "cases": [
+    {
+      "name": "operator_evaluation_order",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "testSingleOperator() ->; ~ emit Wrapped(uint256): 0x00; ~ emit Wrapped(uint256): 0x01; ~ emit Wrapped(uint256): 0x02; ~ emit Wrapped(uint256): 0x03",
+          "instance": "C",
+          "method": "testSingleOperator()",
+          "calldata": [],
+          "expected": {
+            "events": [
+              {
+                "topics": [
+                  "5b8cd8f3a67af1dee11ad4321a05f79a76cc7ea517810fc56d6d96c1e60d3686"
+                ],
+                "values": [
+                  "0"
+                ]
+              },
+              {
+                "topics": [
+                  "5b8cd8f3a67af1dee11ad4321a05f79a76cc7ea517810fc56d6d96c1e60d3686"
+                ],
+                "values": [
+                  "1"
+                ]
+              },
+              {
+                "topics": [
+                  "5b8cd8f3a67af1dee11ad4321a05f79a76cc7ea517810fc56d6d96c1e60d3686"
+                ],
+                "values": [
+                  "2"
+                ]
+              },
+              {
+                "topics": [
+                  "5b8cd8f3a67af1dee11ad4321a05f79a76cc7ea517810fc56d6d96c1e60d3686"
+                ],
+                "values": [
+                  "3"
+                ]
+              }
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "testTwoBinaryOperators() ->; ~ emit Wrapped(uint256): 0x00; ~ emit Wrapped(uint256): 0x01; ~ emit Wrapped(uint256): 0x02; ~ emit Wrapped(uint256): 0x03; ~ emit Wrapped(uint256): 0x04; ~ emit Wrapped(uint256): 0x05",
+          "instance": "C",
+          "method": "testTwoBinaryOperators()",
+          "calldata": [],
+          "expected": {
+            "events": [
+              {
+                "topics": [
+                  "5b8cd8f3a67af1dee11ad4321a05f79a76cc7ea517810fc56d6d96c1e60d3686"
+                ],
+                "values": [
+                  "0"
+                ]
+              },
+              {
+                "topics": [
+                  "5b8cd8f3a67af1dee11ad4321a05f79a76cc7ea517810fc56d6d96c1e60d3686"
+                ],
+                "values": [
+                  "1"
+                ]
+              },
+              {
+                "topics": [
+                  "5b8cd8f3a67af1dee11ad4321a05f79a76cc7ea517810fc56d6d96c1e60d3686"
+                ],
+                "values": [
+                  "2"
+                ]
+              },
+              {
+                "topics": [
+                  "5b8cd8f3a67af1dee11ad4321a05f79a76cc7ea517810fc56d6d96c1e60d3686"
+                ],
+                "values": [
+                  "3"
+                ]
+              },
+              {
+                "topics": [
+                  "5b8cd8f3a67af1dee11ad4321a05f79a76cc7ea517810fc56d6d96c1e60d3686"
+                ],
+                "values": [
+                  "4"
+                ]
+              },
+              {
+                "topics": [
+                  "5b8cd8f3a67af1dee11ad4321a05f79a76cc7ea517810fc56d6d96c1e60d3686"
+                ],
+                "values": [
+                  "5"
+                ]
+              }
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "testBinaryAndUnaryOperators() ->; ~ emit Wrapped(uint256): 0x00; ~ emit Wrapped(uint256): 0x01; ~ emit Wrapped(uint256): 0x02; ~ emit Wrapped(uint256): 0x03; ~ emit Wrapped(uint256): 0x04; ~ emit Wrapped(uint256): 0x05",
+          "instance": "C",
+          "method": "testBinaryAndUnaryOperators()",
+          "calldata": [],
+          "expected": {
+            "events": [
+              {
+                "topics": [
+                  "5b8cd8f3a67af1dee11ad4321a05f79a76cc7ea517810fc56d6d96c1e60d3686"
+                ],
+                "values": [
+                  "0"
+                ]
+              },
+              {
+                "topics": [
+                  "5b8cd8f3a67af1dee11ad4321a05f79a76cc7ea517810fc56d6d96c1e60d3686"
+                ],
+                "values": [
+                  "1"
+                ]
+              },
+              {
+                "topics": [
+                  "5b8cd8f3a67af1dee11ad4321a05f79a76cc7ea517810fc56d6d96c1e60d3686"
+                ],
+                "values": [
+                  "2"
+                ]
+              },
+              {
+                "topics": [
+                  "5b8cd8f3a67af1dee11ad4321a05f79a76cc7ea517810fc56d6d96c1e60d3686"
+                ],
+                "values": [
+                  "3"
+                ]
+              },
+              {
+                "topics": [
+                  "5b8cd8f3a67af1dee11ad4321a05f79a76cc7ea517810fc56d6d96c1e60d3686"
+                ],
+                "values": [
+                  "4"
+                ]
+              },
+              {
+                "topics": [
+                  "5b8cd8f3a67af1dee11ad4321a05f79a76cc7ea517810fc56d6d96c1e60d3686"
+                ],
+                "values": [
+                  "5"
+                ]
+              }
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "testOperatorsNestedInCalls() ->; ~ emit Wrapped(uint256): 0x00; ~ emit Wrapped(uint256): 0x01; ~ emit Probe(bool): 0x00; ~ emit Wrapped(uint256): 0x02; ~ emit Wrapped(uint256): 0x03; ~ emit Probe(bool): 0x00; ~ emit Wrapped(uint256): 0x04; ~ emit Wrapped(uint256): 0x05; ~ emit Probe(bool): 0x00",
+          "instance": "C",
+          "method": "testOperatorsNestedInCalls()",
+          "calldata": [],
+          "expected": {
+            "events": [
+              {
+                "topics": [
+                  "5b8cd8f3a67af1dee11ad4321a05f79a76cc7ea517810fc56d6d96c1e60d3686"
+                ],
+                "values": [
+                  "0"
+                ]
+              },
+              {
+                "topics": [
+                  "5b8cd8f3a67af1dee11ad4321a05f79a76cc7ea517810fc56d6d96c1e60d3686"
+                ],
+                "values": [
+                  "1"
+                ]
+              },
+              {
+                "topics": [
+                  "582c3a3af27a0ef352a02f8e9b0bea3043a2002c978baf77e6739da27a705cbb"
+                ],
+                "values": [
+                  "0"
+                ]
+              },
+              {
+                "topics": [
+                  "5b8cd8f3a67af1dee11ad4321a05f79a76cc7ea517810fc56d6d96c1e60d3686"
+                ],
+                "values": [
+                  "2"
+                ]
+              },
+              {
+                "topics": [
+                  "5b8cd8f3a67af1dee11ad4321a05f79a76cc7ea517810fc56d6d96c1e60d3686"
+                ],
+                "values": [
+                  "3"
+                ]
+              },
+              {
+                "topics": [
+                  "582c3a3af27a0ef352a02f8e9b0bea3043a2002c978baf77e6739da27a705cbb"
+                ],
+                "values": [
+                  "0"
+                ]
+              },
+              {
+                "topics": [
+                  "5b8cd8f3a67af1dee11ad4321a05f79a76cc7ea517810fc56d6d96c1e60d3686"
+                ],
+                "values": [
+                  "4"
+                ]
+              },
+              {
+                "topics": [
+                  "5b8cd8f3a67af1dee11ad4321a05f79a76cc7ea517810fc56d6d96c1e60d3686"
+                ],
+                "values": [
+                  "5"
+                ]
+              },
+              {
+                "topics": [
+                  "582c3a3af27a0ef352a02f8e9b0bea3043a2002c978baf77e6739da27a705cbb"
+                ],
+                "values": [
+                  "0"
+                ]
+              }
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "operator_evaluation_order.sol:C"
+  }
+}

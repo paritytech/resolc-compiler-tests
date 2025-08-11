@@ -1,0 +1,22 @@
+{
+  "cases": [
+    {
+      "name": "uncalled_address_transfer_send",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f() ->",
+          "instance": "TransferTest",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "TransferTest": "uncalled_address_transfer_send.sol:TransferTest"
+  }
+}

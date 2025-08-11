@@ -1,0 +1,27 @@
+{
+  "cases": [
+    {
+      "name": "local_address_assignment",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(address): 0x1234 -> 0x1234",
+          "instance": "C",
+          "method": "f(address)",
+          "calldata": [
+            "4660"
+          ],
+          "expected": {
+            "return_data": [
+              "4660"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "local_address_assignment.sol:C"
+  }
+}

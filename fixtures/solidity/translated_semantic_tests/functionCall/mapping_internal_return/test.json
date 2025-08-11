@@ -1,0 +1,48 @@
+{
+  "cases": [
+    {
+      "name": "mapping_internal_return",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g() -> 0, 42, 0, 0, 84, 21",
+          "instance": "test",
+          "method": "g()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0",
+              "42",
+              "0",
+              "0",
+              "84",
+              "21"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "h() -> 0, 42, 0, 0, 84, 17",
+          "instance": "test",
+          "method": "h()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0",
+              "42",
+              "0",
+              "0",
+              "84",
+              "17"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "test": "mapping_internal_return.sol:test"
+  }
+}

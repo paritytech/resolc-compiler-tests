@@ -1,0 +1,33 @@
+{
+  "cases": [
+    {
+      "name": "bytes_in_constructors_packer",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256,bytes): 7, 0x40, 78, \"abcdefghijklmnopqrstuvwxyzabcdef\", \"ghijklmnopqrstuvwxyzabcdefghijkl\", \"mnopqrstuvwxyz\" -> 7, \"h\"; gas irOptimized: 169292; gas irOptimized code: 99600; gas legacy: 172941; gas legacy code: 239800; gas legacyOptimized: 169815; gas legacyOptimized code: 118600",
+          "instance": "Creator",
+          "method": "f(uint256,bytes)",
+          "calldata": [
+            "7",
+            "64",
+            "78",
+            "44048183304486788312148433451363384677562265908331949128489393251112035050854",
+            "46772703051247169380938338980979570744698030253397766587357529088713588108140",
+            "2219532233446121780278872371657082"
+          ],
+          "expected": {
+            "return_data": [
+              "7",
+              "104"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "Creator": "bytes_in_constructors_packer.sol:Creator"
+  }
+}

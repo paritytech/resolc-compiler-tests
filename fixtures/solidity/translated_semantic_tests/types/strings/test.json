@@ -1,0 +1,55 @@
+{
+  "cases": [
+    {
+      "name": "strings",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "fixedBytesHex() -> \"\\xaa\\xbb\\x00\\xff\"",
+          "instance": "test",
+          "method": "fixedBytesHex()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "2864382207"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "fixedBytes() -> \"abc\\x00\\xff__\"",
+          "instance": "test",
+          "method": "fixedBytes()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "27411250098954079"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "pipeThrough(bytes2,bool): \"\\x00\\x02\", true -> \"\\x00\\x02\", true",
+          "instance": "test",
+          "method": "pipeThrough(bytes2,bool)",
+          "calldata": [
+            "2",
+            "1"
+          ],
+          "expected": {
+            "return_data": [
+              "2",
+              "1"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "test": "strings.sol:test"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "cases": [
+    {
+      "name": "shift_right_negative_lvalue_signextend_int32_v2",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(int32,uint32): 0xffffff99, 0x00 -> FAILURE",
+          "instance": "C",
+          "method": "f(int32,uint32)",
+          "calldata": [
+            "4294967193",
+            "0"
+          ],
+          "expected": {
+            "exception": true
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(int32,uint32): 0xffffff99, 0x01 -> FAILURE",
+          "instance": "C",
+          "method": "f(int32,uint32)",
+          "calldata": [
+            "4294967193",
+            "1"
+          ],
+          "expected": {
+            "exception": true
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(int32,uint32): 0xffffff99, 0x02 -> FAILURE",
+          "instance": "C",
+          "method": "f(int32,uint32)",
+          "calldata": [
+            "4294967193",
+            "2"
+          ],
+          "expected": {
+            "exception": true
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(int32,uint32): 0xffffff99, 0x04 -> FAILURE",
+          "instance": "C",
+          "method": "f(int32,uint32)",
+          "calldata": [
+            "4294967193",
+            "4"
+          ],
+          "expected": {
+            "exception": true
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(int32,uint32): 0xffffff99, 0x08 -> FAILURE",
+          "instance": "C",
+          "method": "f(int32,uint32)",
+          "calldata": [
+            "4294967193",
+            "8"
+          ],
+          "expected": {
+            "exception": true
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "shift_right_negative_lvalue_signextend_int32_v2.sol:C"
+  }
+}

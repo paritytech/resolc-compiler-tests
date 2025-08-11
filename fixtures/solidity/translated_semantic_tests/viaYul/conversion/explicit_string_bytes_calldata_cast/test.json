@@ -1,0 +1,31 @@
+{
+  "cases": [
+    {
+      "name": "explicit_string_bytes_calldata_cast",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(string): 0x20, 3, \"123\" -> 0x20, 3, \"123\"",
+          "instance": "C",
+          "method": "f(string)",
+          "calldata": [
+            "32",
+            "3",
+            "3224115"
+          ],
+          "expected": {
+            "return_data": [
+              "32",
+              "3",
+              "3224115"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "explicit_string_bytes_calldata_cast.sol:C"
+  }
+}

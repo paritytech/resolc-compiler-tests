@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "disordered_named_args",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "b() -> 123",
+          "instance": "test",
+          "method": "b()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "123"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "test": "disordered_named_args.sol:test"
+  }
+}

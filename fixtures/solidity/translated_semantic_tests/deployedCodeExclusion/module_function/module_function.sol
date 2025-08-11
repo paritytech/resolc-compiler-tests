@@ -1,0 +1,1 @@
+// TODO: Recreate this test for EOF when subassembly deduplication will be supported for EOF too.

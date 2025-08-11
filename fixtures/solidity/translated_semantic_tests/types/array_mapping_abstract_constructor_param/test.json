@@ -1,0 +1,60 @@
+{
+  "cases": [
+    {
+      "name": "array_mapping_abstract_constructor_param",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "m(uint256,uint256,uint256): 0, 0, 0 -> FAILURE",
+          "instance": "C",
+          "method": "m(uint256,uint256,uint256)",
+          "calldata": [
+            "0",
+            "0",
+            "0"
+          ],
+          "expected": {
+            "exception": true
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "m(uint256,uint256,uint256): 1, 0, 1 -> 2",
+          "instance": "C",
+          "method": "m(uint256,uint256,uint256)",
+          "calldata": [
+            "1",
+            "0",
+            "1"
+          ],
+          "expected": {
+            "return_data": [
+              "2"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "m(uint256,uint256,uint256): 1, 0, 5 -> 0",
+          "instance": "C",
+          "method": "m(uint256,uint256,uint256)",
+          "calldata": [
+            "1",
+            "0",
+            "5"
+          ],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "array_mapping_abstract_constructor_param.sol:C"
+  }
+}

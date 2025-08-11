@@ -1,0 +1,22 @@
+{
+  "cases": [
+    {
+      "name": "function_entry_checks_v2",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "t(uint256) -> FAILURE",
+          "instance": "C",
+          "method": "t(uint256)",
+          "calldata": [],
+          "expected": {
+            "exception": true
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "function_entry_checks_v2.sol:C"
+  }
+}

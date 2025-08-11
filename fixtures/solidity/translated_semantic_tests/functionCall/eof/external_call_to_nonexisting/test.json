@@ -1,0 +1,110 @@
+{
+  "cases": [
+    {
+      "name": "external_call_to_nonexisting",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "constructor(), 1 ether ->; gas irOptimized: 88853; gas irOptimized code: 164400; gas legacy: 102721; gas legacy code: 334400; gas legacyOptimized: 91499; gas legacyOptimized code: 196400",
+          "instance": "C",
+          "method": "#deployer",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          },
+          "value": "1000000000000000000 wei"
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256): 0 -> FAILURE",
+          "instance": "C",
+          "method": "f(uint256)",
+          "calldata": [
+            "0"
+          ],
+          "expected": {
+            "exception": true
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256): 1 -> FAILURE",
+          "instance": "C",
+          "method": "f(uint256)",
+          "calldata": [
+            "1"
+          ],
+          "expected": {
+            "exception": true
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256): 2 -> FAILURE",
+          "instance": "C",
+          "method": "f(uint256)",
+          "calldata": [
+            "2"
+          ],
+          "expected": {
+            "exception": true
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256): 3 -> FAILURE",
+          "instance": "C",
+          "method": "f(uint256)",
+          "calldata": [
+            "3"
+          ],
+          "expected": {
+            "exception": true
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256): 4 -> FAILURE",
+          "instance": "C",
+          "method": "f(uint256)",
+          "calldata": [
+            "4"
+          ],
+          "expected": {
+            "exception": true
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256): 5 -> FAILURE",
+          "instance": "C",
+          "method": "f(uint256)",
+          "calldata": [
+            "5"
+          ],
+          "expected": {
+            "exception": true
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256): 6 -> 7",
+          "instance": "C",
+          "method": "f(uint256)",
+          "calldata": [
+            "6"
+          ],
+          "expected": {
+            "return_data": [
+              "7"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "external_call_to_nonexisting.sol:C"
+  }
+}

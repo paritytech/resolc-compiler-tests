@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "free_function_transitive_import",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "i() -> 1337",
+          "instance": "E",
+          "method": "i()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1337"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "E": "s3.sol:E"
+  }
+}

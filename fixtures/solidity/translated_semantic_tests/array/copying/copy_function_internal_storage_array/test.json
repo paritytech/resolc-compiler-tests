@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "copy_function_internal_storage_array",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "test() -> 7; gas irOptimized: 122459; gas legacy: 205176; gas legacyOptimized: 204971",
+          "instance": "C",
+          "method": "test()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "7"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "copy_function_internal_storage_array.sol:C"
+  }
+}

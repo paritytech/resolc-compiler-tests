@@ -1,0 +1,53 @@
+{
+  "cases": [
+    {
+      "name": "different_call_type_transient",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "testDelegate() -> 7, 0",
+          "instance": "Test",
+          "method": "testDelegate()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "7",
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "testCall() -> 0, 8",
+          "instance": "Test",
+          "method": "testCall()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0",
+              "8"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "testStatic() -> false; gas irOptimized: 96900694; gas legacy: 96901136; gas legacyOptimized: 96900725",
+          "instance": "Test",
+          "method": "testStatic()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "Test": "different_call_type_transient.sol:Test"
+  }
+}

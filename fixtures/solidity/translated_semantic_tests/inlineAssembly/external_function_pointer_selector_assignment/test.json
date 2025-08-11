@@ -1,0 +1,42 @@
+{
+  "cases": [
+    {
+      "name": "external_function_pointer_selector_assignment",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "testYul(uint32): 0x12345678 -> 0x12345678",
+          "instance": "C",
+          "method": "testYul(uint32)",
+          "calldata": [
+            "305419896"
+          ],
+          "expected": {
+            "return_data": [
+              "305419896"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "testYul(uint32): 0xABCDEF00 -> 0xABCDEF00",
+          "instance": "C",
+          "method": "testYul(uint32)",
+          "calldata": [
+            "2882400000"
+          ],
+          "expected": {
+            "return_data": [
+              "2882400000"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "external_function_pointer_selector_assignment.sol:C"
+  }
+}

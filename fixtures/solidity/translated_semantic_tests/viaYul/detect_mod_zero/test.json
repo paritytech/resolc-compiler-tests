@@ -1,0 +1,240 @@
+{
+  "cases": [
+    {
+      "name": "detect_mod_zero",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256,uint256): 10, 3 -> 1",
+          "instance": "C",
+          "method": "f(uint256,uint256)",
+          "calldata": [
+            "10",
+            "3"
+          ],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256,uint256): 10, 2 -> 0",
+          "instance": "C",
+          "method": "f(uint256,uint256)",
+          "calldata": [
+            "10",
+            "2"
+          ],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256,uint256): 11, 2 -> 1",
+          "instance": "C",
+          "method": "f(uint256,uint256)",
+          "calldata": [
+            "11",
+            "2"
+          ],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256,uint256): 2, 2 -> 0",
+          "instance": "C",
+          "method": "f(uint256,uint256)",
+          "calldata": [
+            "2",
+            "2"
+          ],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256,uint256): 1, 0 -> FAILURE, hex\"4e487b71\", 0x12",
+          "instance": "C",
+          "method": "f(uint256,uint256)",
+          "calldata": [
+            "1",
+            "0"
+          ],
+          "expected": {
+            "return_data": [
+              "1313373041",
+              "18"
+            ],
+            "exception": true
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256,uint256): 0, 0 -> FAILURE, hex\"4e487b71\", 0x12",
+          "instance": "C",
+          "method": "f(uint256,uint256)",
+          "calldata": [
+            "0",
+            "0"
+          ],
+          "expected": {
+            "return_data": [
+              "1313373041",
+              "18"
+            ],
+            "exception": true
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256,uint256): 0, 1 -> 0",
+          "instance": "C",
+          "method": "f(uint256,uint256)",
+          "calldata": [
+            "0",
+            "1"
+          ],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g(uint8,uint8): 10, 3 -> 1",
+          "instance": "C",
+          "method": "g(uint8,uint8)",
+          "calldata": [
+            "10",
+            "3"
+          ],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g(uint8,uint8): 10, 2 -> 0",
+          "instance": "C",
+          "method": "g(uint8,uint8)",
+          "calldata": [
+            "10",
+            "2"
+          ],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g(uint8,uint8): 11, 2 -> 1",
+          "instance": "C",
+          "method": "g(uint8,uint8)",
+          "calldata": [
+            "11",
+            "2"
+          ],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g(uint8,uint8): 2, 2 -> 0",
+          "instance": "C",
+          "method": "g(uint8,uint8)",
+          "calldata": [
+            "2",
+            "2"
+          ],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g(uint8,uint8): 1, 0 -> FAILURE, hex\"4e487b71\", 0x12",
+          "instance": "C",
+          "method": "g(uint8,uint8)",
+          "calldata": [
+            "1",
+            "0"
+          ],
+          "expected": {
+            "return_data": [
+              "1313373041",
+              "18"
+            ],
+            "exception": true
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g(uint8,uint8): 0, 0 -> FAILURE, hex\"4e487b71\", 0x12",
+          "instance": "C",
+          "method": "g(uint8,uint8)",
+          "calldata": [
+            "0",
+            "0"
+          ],
+          "expected": {
+            "return_data": [
+              "1313373041",
+              "18"
+            ],
+            "exception": true
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g(uint8,uint8): 0, 1 -> 0",
+          "instance": "C",
+          "method": "g(uint8,uint8)",
+          "calldata": [
+            "0",
+            "1"
+          ],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "detect_mod_zero.sol:C"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "cases": [
+    {
+      "name": "index_access",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "to_little_endian_64(uint64): 0 -> 0x20, 8, 0x00",
+          "instance": "C",
+          "method": "to_little_endian_64(uint64)",
+          "calldata": [
+            "0"
+          ],
+          "expected": {
+            "return_data": [
+              "32",
+              "8",
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "to_little_endian_64(uint64): 0x0102030405060708 -> 0x20, 8, 0x0807060504030201000000000000000000000000000000000000000000000000",
+          "instance": "C",
+          "method": "to_little_endian_64(uint64)",
+          "calldata": [
+            "72623859790382856"
+          ],
+          "expected": {
+            "return_data": [
+              "32",
+              "8",
+              "3630912263819880391675009850587466832657921330606140987971858764284188164096"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "index_access.sol:C"
+  }
+}

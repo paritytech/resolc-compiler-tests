@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "stack_height_check_on_adding_gas_variable_to_function",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "test_function() -> true",
+          "instance": "C",
+          "method": "test_function()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "stack_height_check_on_adding_gas_variable_to_function.sol:C"
+  }
+}

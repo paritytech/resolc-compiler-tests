@@ -1,0 +1,45 @@
+{
+  "cases": [
+    {
+      "name": "mediocre2_struct",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256,(address,uint256[])[2],uint256): 7, 0x60, 8, 0x40, 0xE0, 0x0, 0x40, 2, 0x11, 0x12, 0x99, 0x40, 4, 0x31, 0x32, 0x34, 0x35 -> 7, 0x0, 8",
+          "instance": "C",
+          "method": "f(uint256,(address,uint256[])[2],uint256)",
+          "calldata": [
+            "7",
+            "96",
+            "8",
+            "64",
+            "224",
+            "0",
+            "64",
+            "2",
+            "17",
+            "18",
+            "153",
+            "64",
+            "4",
+            "49",
+            "50",
+            "52",
+            "53"
+          ],
+          "expected": {
+            "return_data": [
+              "7",
+              "0",
+              "8"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "mediocre2_struct.sol:C"
+  }
+}

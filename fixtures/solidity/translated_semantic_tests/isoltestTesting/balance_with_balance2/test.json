@@ -1,0 +1,28 @@
+{
+  "cases": [
+    {
+      "name": "balance_with_balance2",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "constructor(), 1 ether ->",
+          "instance": "ClientReceipt",
+          "method": "#deployer",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          },
+          "value": "1000000000000000000 wei"
+        },
+        {
+          "comment": "balance -> 1000000000000000000",
+          "address": "ClientReceipt.address",
+          "expected_balance": "0xde0b6b3a7640000"
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "ClientReceipt": "balance_with_balance2.sol:ClientReceipt"
+  }
+}

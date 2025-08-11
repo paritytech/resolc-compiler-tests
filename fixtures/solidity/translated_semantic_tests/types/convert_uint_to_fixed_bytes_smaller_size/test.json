@@ -1,0 +1,27 @@
+{
+  "cases": [
+    {
+      "name": "convert_uint_to_fixed_bytes_smaller_size",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "uintToBytes(uint32): 0x61626364 -> \"cd\"",
+          "instance": "Test",
+          "method": "uintToBytes(uint32)",
+          "calldata": [
+            "1633837924"
+          ],
+          "expected": {
+            "return_data": [
+              "25444"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "Test": "convert_uint_to_fixed_bytes_smaller_size.sol:Test"
+  }
+}

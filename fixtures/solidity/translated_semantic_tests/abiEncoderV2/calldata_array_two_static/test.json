@@ -1,0 +1,106 @@
+{
+  "cases": [
+    {
+      "name": "calldata_array_two_static",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256[3],uint256[2],bool): 23, 42, 87, 51, 72, true -> 32, 96, 23, 42, 87",
+          "instance": "C",
+          "method": "f(uint256[3],uint256[2],bool)",
+          "calldata": [
+            "23",
+            "42",
+            "87",
+            "51",
+            "72",
+            "1"
+          ],
+          "expected": {
+            "return_data": [
+              "32",
+              "96",
+              "23",
+              "42",
+              "87"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256[3],uint256[2],bool): 23, 42, 87, 51, 72, false -> 32, 64, 51, 72",
+          "instance": "C",
+          "method": "f(uint256[3],uint256[2],bool)",
+          "calldata": [
+            "23",
+            "42",
+            "87",
+            "51",
+            "72",
+            "0"
+          ],
+          "expected": {
+            "return_data": [
+              "32",
+              "64",
+              "51",
+              "72"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g(uint256[3],uint256[2],bool): 23, 42, 87, 51, 72, true -> 32, 96, 23, 42, 87",
+          "instance": "C",
+          "method": "g(uint256[3],uint256[2],bool)",
+          "calldata": [
+            "23",
+            "42",
+            "87",
+            "51",
+            "72",
+            "1"
+          ],
+          "expected": {
+            "return_data": [
+              "32",
+              "96",
+              "23",
+              "42",
+              "87"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g(uint256[3],uint256[2],bool): 23, 42, 87, 51, 72, false -> 32, 64, 51, 72",
+          "instance": "C",
+          "method": "g(uint256[3],uint256[2],bool)",
+          "calldata": [
+            "23",
+            "42",
+            "87",
+            "51",
+            "72",
+            "0"
+          ],
+          "expected": {
+            "return_data": [
+              "32",
+              "64",
+              "51",
+              "72"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "calldata_array_two_static.sol:C"
+  }
+}

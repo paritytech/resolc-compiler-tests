@@ -1,0 +1,26 @@
+{
+  "cases": [
+    {
+      "name": "calldata_struct_member_offset",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f() -> 11, 11",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "11",
+              "11"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "calldata_struct_member_offset.sol:C"
+  }
+}

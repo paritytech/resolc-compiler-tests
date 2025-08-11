@@ -1,0 +1,39 @@
+{
+  "cases": [
+    {
+      "name": "copy_internal_function_array_to_storage",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "one() -> 3; gas legacy: 140253; gas legacyOptimized: 140093",
+          "instance": "C",
+          "method": "one()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "3"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "two() -> FAILURE, hex\"4e487b71\", 0x51",
+          "instance": "C",
+          "method": "two()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1313373041",
+              "81"
+            ],
+            "exception": true
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "copy_internal_function_array_to_storage.sol:C"
+  }
+}

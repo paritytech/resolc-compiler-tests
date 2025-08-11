@@ -1,0 +1,64 @@
+{
+  "cases": [
+    {
+      "name": "event",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "deposit(bytes32,bool), 18 wei: 0x1234, true ->; ~ emit Deposit(address,bytes32,uint256): #0x1212121212121212121212121212120000000012, #0x1234, 0x12",
+          "instance": "ClientReceipt",
+          "method": "deposit(bytes32,bool)",
+          "calldata": [
+            "4660",
+            "1"
+          ],
+          "expected": {
+            "events": [
+              {
+                "topics": [
+                  "19dacbf83c5de6658e14cbf7bcae5c15eca2eedecf1c66fbca928e4d351bea0f",
+                  "103164821458651970696730694074090566015747358738",
+                  "4660"
+                ],
+                "values": [
+                  "18"
+                ]
+              }
+            ],
+            "exception": false
+          },
+          "value": "18 wei"
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "deposit(bytes32,bool), 18 wei: 0x1234, false ->; ~ emit Deposit(address,bytes32,uint256): #0x1212121212121212121212121212120000000012, #0x1234, 0x12",
+          "instance": "ClientReceipt",
+          "method": "deposit(bytes32,bool)",
+          "calldata": [
+            "4660",
+            "0"
+          ],
+          "expected": {
+            "events": [
+              {
+                "topics": [
+                  "19dacbf83c5de6658e14cbf7bcae5c15eca2eedecf1c66fbca928e4d351bea0f",
+                  "103164821458651970696730694074090566015747358738",
+                  "4660"
+                ],
+                "values": [
+                  "18"
+                ]
+              }
+            ],
+            "exception": false
+          },
+          "value": "18 wei"
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "ClientReceipt": "event.sol:ClientReceipt"
+  }
+}

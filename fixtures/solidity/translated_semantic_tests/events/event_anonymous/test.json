@@ -1,0 +1,28 @@
+{
+  "cases": [
+    {
+      "name": "event_anonymous",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "deposit() ->; ~ emit <anonymous>",
+          "instance": "ClientReceipt",
+          "method": "deposit()",
+          "calldata": [],
+          "expected": {
+            "events": [
+              {
+                "topics": [],
+                "values": []
+              }
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "ClientReceipt": "event_anonymous.sol:ClientReceipt"
+  }
+}

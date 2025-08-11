@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "selector_expression_side_effect",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f() -> 42",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "42"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "selector_expression_side_effect.sol:C"
+  }
+}

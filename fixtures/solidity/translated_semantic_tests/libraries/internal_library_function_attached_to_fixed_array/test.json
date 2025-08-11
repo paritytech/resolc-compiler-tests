@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "internal_library_function_attached_to_fixed_array",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "secondItem() -> 0x22",
+          "instance": "C",
+          "method": "secondItem()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "34"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "internal_library_function_attached_to_fixed_array.sol:C"
+  }
+}

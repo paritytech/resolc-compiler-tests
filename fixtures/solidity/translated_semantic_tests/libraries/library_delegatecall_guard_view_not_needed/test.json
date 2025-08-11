@@ -1,0 +1,59 @@
+{
+  "cases": [
+    {
+      "name": "library_delegatecall_guard_view_not_needed",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f() -> 84",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "84"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g() -> true, 84",
+          "instance": "C",
+          "method": "g()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1",
+              "84"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "h() -> true, 84",
+          "instance": "C",
+          "method": "h()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1",
+              "84"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "library_delegatecall_guard_view_not_needed.sol:C",
+    "L": "library_delegatecall_guard_view_not_needed.sol:L"
+  },
+  "libraries": {
+    "library_delegatecall_guard_view_not_needed.sol": {
+      "L": "L"
+    }
+  }
+}

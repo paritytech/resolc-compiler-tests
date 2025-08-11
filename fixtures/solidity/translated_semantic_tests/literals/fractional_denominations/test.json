@@ -1,0 +1,90 @@
+{
+  "cases": [
+    {
+      "name": "fractional_denominations",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g() -> 1500000000",
+          "instance": "C",
+          "method": "g()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1500000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "e() -> 1500000000000000000",
+          "instance": "C",
+          "method": "e()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1500000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "m() -> 90",
+          "instance": "C",
+          "method": "m()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "90"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "h() -> 5400",
+          "instance": "C",
+          "method": "h()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "5400"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "d() -> 129600",
+          "instance": "C",
+          "method": "d()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "129600"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "w() -> 907200",
+          "instance": "C",
+          "method": "w()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "907200"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "fractional_denominations.sol:C"
+  }
+}

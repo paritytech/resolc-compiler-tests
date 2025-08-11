@@ -1,0 +1,179 @@
+{
+  "cases": [
+    {
+      "name": "base_base_overload",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "x() -> 0",
+          "instance": "Child",
+          "method": "x()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "y() -> 0",
+          "instance": "Child",
+          "method": "y()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "cInit(uint256): 2 ->",
+          "instance": "Child",
+          "method": "cInit(uint256)",
+          "calldata": [
+            "2"
+          ],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "x() -> 2",
+          "instance": "Child",
+          "method": "x()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "2"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "y() -> 0",
+          "instance": "Child",
+          "method": "y()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "cInit(uint256,uint256): 3, 3 ->",
+          "instance": "Child",
+          "method": "cInit(uint256,uint256)",
+          "calldata": [
+            "3",
+            "3"
+          ],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "x() -> 3",
+          "instance": "Child",
+          "method": "x()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "3"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "y() -> 3",
+          "instance": "Child",
+          "method": "y()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "3"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "bInit(uint256): 4 ->",
+          "instance": "Child",
+          "method": "bInit(uint256)",
+          "calldata": [
+            "4"
+          ],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "x() -> 5",
+          "instance": "Child",
+          "method": "x()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "5"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "bInit(uint256,uint256): 9, 10 ->",
+          "instance": "Child",
+          "method": "bInit(uint256,uint256)",
+          "calldata": [
+            "9",
+            "10"
+          ],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "x() -> 10",
+          "instance": "Child",
+          "method": "x()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "10"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "y() -> 9",
+          "instance": "Child",
+          "method": "y()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "9"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "Child": "base_base_overload.sol:Child"
+  }
+}

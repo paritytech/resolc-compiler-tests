@@ -1,0 +1,40 @@
+{
+  "cases": [
+    {
+      "name": "ternary_operator_with_literal_types_overflow",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g() -> FAILURE, hex\"4e487b71\", 0x11",
+          "instance": "TestTernary",
+          "method": "g()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1313373041",
+              "17"
+            ],
+            "exception": true
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "h() -> FAILURE, hex\"4e487b71\", 0x11",
+          "instance": "TestTernary",
+          "method": "h()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1313373041",
+              "17"
+            ],
+            "exception": true
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "TestTernary": "ternary_operator_with_literal_types_overflow.sol:TestTernary"
+  }
+}

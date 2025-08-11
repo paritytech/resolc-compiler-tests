@@ -1,0 +1,72 @@
+{
+  "cases": [
+    {
+      "name": "constant_string_at_file_level",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f() -> 0x20, 3, \"\\x03\\x01\\x02\"",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "32",
+              "3",
+              "196866"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g() -> 0x20, 3, \"\\x03\\x01\\x02\"",
+          "instance": "C",
+          "method": "g()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "32",
+              "3",
+              "196866"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "h() -> 0x20, 5, \"hello\"",
+          "instance": "C",
+          "method": "h()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "32",
+              "5",
+              "448378203247"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "i() -> 0x38, 1, 0x61626300ff5f5f00000000000000000000000000000000000000000000000000",
+          "instance": "C",
+          "method": "i()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "56",
+              "1",
+              "44048180624707321370159228589897778088919435935156254407473833945046349512704"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "constant_string_at_file_level.sol:C"
+  }
+}

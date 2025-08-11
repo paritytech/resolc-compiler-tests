@@ -1,0 +1,26 @@
+{
+  "cases": [
+    {
+      "name": "inline_assembly_write_to_stack",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f() -> 7, \"abcdef\"",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "7",
+              "107075202213222"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "inline_assembly_write_to_stack.sol:C"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "cases": [
+    {
+      "name": "event_selector_file_level",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "main() -> 0x92bbf6e823a631f3c8e09b1c8df90f378fb56f7fbc9701827e1ff8aad7f6a028, 0x92bbf6e823a631f3c8e09b1c8df90f378fb56f7fbc9701827e1ff8aad7f6a028",
+          "instance": "C",
+          "method": "main()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "66369780382333686747531266010219861741175586311421417686517335350473919995944",
+              "66369780382333686747531266010219861741175586311421417686517335350473919995944"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "event_selector_file_level.sol:C"
+  }
+}

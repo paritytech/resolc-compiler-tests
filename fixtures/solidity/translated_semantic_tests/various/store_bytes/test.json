@@ -1,0 +1,40 @@
+{
+  "cases": [
+    {
+      "name": "store_bytes",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "save() -> 24",
+          "instance": "C",
+          "method": "save()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "24"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "save(): \"abcdefg\" -> 24",
+          "instance": "C",
+          "method": "save()",
+          "calldata": [
+            "27411251766584935"
+          ],
+          "expected": {
+            "return_data": [
+              "24"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "store_bytes.sol:C"
+  }
+}

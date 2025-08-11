@@ -1,0 +1,39 @@
+{
+  "cases": [
+    {
+      "name": "msg_value",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f() -> 0",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(), 12 ether -> 12000000000000000000",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "12000000000000000000"
+            ],
+            "exception": false
+          },
+          "value": "12000000000000000000 wei"
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "msg_value.sol:C"
+  }
+}

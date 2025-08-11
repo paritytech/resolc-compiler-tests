@@ -1,0 +1,49 @@
+{
+  "cases": [
+    {
+      "name": "array_copy_including_array",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "test() -> 0x02000202; gas irOptimized: 4549676; gas legacy: 4475394; gas legacyOptimized: 4447665",
+          "instance": "c",
+          "method": "test()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "33554946"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "comment": "storageEmpty -> 1",
+          "address": "c.address",
+          "is_storage_empty": true
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "clear() -> 0, 0; gas irOptimized: 4478184; gas legacy: 4407185; gas legacyOptimized: 4381337",
+          "instance": "c",
+          "method": "clear()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0",
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "comment": "storageEmpty -> 1",
+          "address": "c.address",
+          "is_storage_empty": true
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "c": "array_copy_including_array.sol:c"
+  }
+}

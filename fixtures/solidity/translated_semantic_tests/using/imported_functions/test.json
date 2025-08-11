@@ -1,0 +1,42 @@
+{
+  "cases": [
+    {
+      "name": "imported_functions",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256): 5 -> 12",
+          "instance": "C",
+          "method": "f(uint256)",
+          "calldata": [
+            "5"
+          ],
+          "expected": {
+            "return_data": [
+              "12"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256): 10 -> 0x16",
+          "instance": "C",
+          "method": "f(uint256)",
+          "calldata": [
+            "10"
+          ],
+          "expected": {
+            "return_data": [
+              "22"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "B:C"
+  }
+}

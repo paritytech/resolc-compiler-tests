@@ -1,0 +1,55 @@
+{
+  "cases": [
+    {
+      "name": "create_calldata",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "constructor(): 42, 0x20, 0xc0, 1, 2, 3, 4, 5, 6 ->",
+          "instance": "C",
+          "method": "#deployer",
+          "calldata": [
+            "42",
+            "32",
+            "192",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6"
+          ],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "s() -> 0x20, 0x0120, 42, 0x20, 0xc0, 1, 2, 3, 4, 5, 6",
+          "instance": "C",
+          "method": "s()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "32",
+              "288",
+              "42",
+              "32",
+              "192",
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "6"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "create_calldata.sol:C"
+  }
+}

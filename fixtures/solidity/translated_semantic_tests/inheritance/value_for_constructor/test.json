@@ -1,0 +1,63 @@
+{
+  "cases": [
+    {
+      "name": "value_for_constructor",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "constructor(), 22 wei ->; gas irOptimized: 143864; gas irOptimized code: 118000; gas legacy: 156599; gas legacy code: 236400; gas legacyOptimized: 143592; gas legacyOptimized code: 118000",
+          "instance": "Main",
+          "method": "#deployer",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          },
+          "value": "22 wei"
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "getFlag() -> true",
+          "instance": "Main",
+          "method": "getFlag()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "getName() -> \"abc\"",
+          "instance": "Main",
+          "method": "getName()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "6382179"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "getBalances() -> 12, 10",
+          "instance": "Main",
+          "method": "getBalances()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "12",
+              "10"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "Main": "value_for_constructor.sol:Main"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "cases": [
+    {
+      "name": "return_function",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f() -> 0x1, 0x1234946644cd0000000000000000, 9",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1",
+              "369249164733261476318508228804608",
+              "9"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "return_function.sol:C"
+  }
+}

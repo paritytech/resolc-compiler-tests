@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "keccak256_with_bytes",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "foo() -> true",
+          "instance": "c",
+          "method": "foo()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "c": "keccak256_with_bytes.sol:c"
+  }
+}

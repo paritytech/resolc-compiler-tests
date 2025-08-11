@@ -1,0 +1,81 @@
+{
+  "cases": [
+    {
+      "name": "constructor",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "constructor(), 2 wei: 3 ->; gas irOptimized: 78996; gas irOptimized code: 25400; gas legacy: 83055; gas legacy code: 65200; gas legacyOptimized: 78898; gas legacyOptimized code: 27800",
+          "instance": "C",
+          "method": "#deployer",
+          "calldata": [
+            "3"
+          ],
+          "expected": {
+            "exception": false
+          },
+          "value": "2 wei"
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "state() -> 3",
+          "instance": "C",
+          "method": "state()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "3"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "balance() -> 2",
+          "instance": "C",
+          "method": "balance()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "2"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "comment": "balance -> 2",
+          "address": "C.address",
+          "expected_balance": "0x2"
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "update(uint256): 4",
+          "instance": "C",
+          "method": "update(uint256)",
+          "calldata": [
+            "4"
+          ],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "state() -> 4",
+          "instance": "C",
+          "method": "state()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "4"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "constructor.sol:C"
+  }
+}

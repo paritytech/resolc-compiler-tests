@@ -1,0 +1,49 @@
+{
+  "cases": [
+    {
+      "name": "delete_removes_bytes_data",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "(): 7 ->",
+          "instance": "c",
+          "method": "#fallback",
+          "calldata": [
+            "7"
+          ],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "comment": "storageEmpty -> 0",
+          "address": "c.address",
+          "is_storage_empty": false
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "del(): 7 -> true",
+          "instance": "c",
+          "method": "del()",
+          "calldata": [
+            "7"
+          ],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "comment": "storageEmpty -> 1",
+          "address": "c.address",
+          "is_storage_empty": true
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "c": "delete_removes_bytes_data.sol:c"
+  }
+}

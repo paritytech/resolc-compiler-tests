@@ -1,0 +1,37 @@
+{
+  "cases": [
+    {
+      "name": "calldata_bytes_bytes32_arrays",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(bool,bytes,bytes32[2]): true, 0x80, \"a\", \"b\", 4, \"abcd\" -> true, 0x80, \"a\", \"b\", 4, \"abcd\"",
+          "instance": "C",
+          "method": "f(bool,bytes,bytes32[2])",
+          "calldata": [
+            "1",
+            "128",
+            "97",
+            "98",
+            "4",
+            "1633837924"
+          ],
+          "expected": {
+            "return_data": [
+              "1",
+              "128",
+              "97",
+              "98",
+              "4",
+              "1633837924"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "calldata_bytes_bytes32_arrays.sol:C"
+  }
+}

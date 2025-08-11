@@ -1,0 +1,85 @@
+{
+  "cases": [
+    {
+      "name": "calldata_offset_read",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(bytes): 0x20, 0, 0 -> 0x44",
+          "instance": "C",
+          "method": "f(bytes)",
+          "calldata": [
+            "32",
+            "0",
+            "0"
+          ],
+          "expected": {
+            "return_data": [
+              "68"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(bytes): 0x22, 0, 0, 0 -> 0x46",
+          "instance": "C",
+          "method": "f(bytes)",
+          "calldata": [
+            "34",
+            "0",
+            "0",
+            "0"
+          ],
+          "expected": {
+            "return_data": [
+              "70"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256,bytes,uint256): 7, 0x60, 8, 2, 0 -> 0x84, 2",
+          "instance": "C",
+          "method": "f(uint256,bytes,uint256)",
+          "calldata": [
+            "7",
+            "96",
+            "8",
+            "2",
+            "0"
+          ],
+          "expected": {
+            "return_data": [
+              "132",
+              "2"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256,bytes,uint256): 0, 0, 0 -> 0x24, 0x00",
+          "instance": "C",
+          "method": "f(uint256,bytes,uint256)",
+          "calldata": [
+            "0",
+            "0",
+            "0"
+          ],
+          "expected": {
+            "return_data": [
+              "36",
+              "0"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "calldata_offset_read.sol:C"
+  }
+}

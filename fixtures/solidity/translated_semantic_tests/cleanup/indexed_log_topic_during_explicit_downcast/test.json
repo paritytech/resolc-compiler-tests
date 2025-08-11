@@ -1,0 +1,51 @@
+{
+  "cases": [
+    {
+      "name": "indexed_log_topic_during_explicit_downcast",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f() -> 0x31",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "49"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g() -> 0x3100000000000000000000000000000000000000000000000000000000000000",
+          "instance": "C",
+          "method": "g()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "22163329580580053030292883849319169862539958002407764210677428189014622470144"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "h() -> 0xff00000000000000000000000000000000000000000000000000000000000000",
+          "instance": "C",
+          "method": "h()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "115339776388732929035197660848497720713218148788040405586178452820382218977280"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "indexed_log_topic_during_explicit_downcast.sol:C"
+  }
+}

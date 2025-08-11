@@ -1,0 +1,96 @@
+{
+  "cases": [
+    {
+      "name": "small_types_in_reverse",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "a() -> 4660",
+          "instance": "A",
+          "method": "a()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "4660"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "b() -> 0x0f0f",
+          "instance": "A",
+          "method": "b()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "3855"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "c() -> 0xffff",
+          "instance": "A",
+          "method": "c()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "65535"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "x(uint256): 0 -> 4660",
+          "instance": "A",
+          "method": "x(uint256)",
+          "calldata": [
+            "0"
+          ],
+          "expected": {
+            "return_data": [
+              "4660"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "x(uint256): 1 -> 0x0f0f",
+          "instance": "A",
+          "method": "x(uint256)",
+          "calldata": [
+            "1"
+          ],
+          "expected": {
+            "return_data": [
+              "3855"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "x(uint256): 2 -> 0xffff",
+          "instance": "A",
+          "method": "x(uint256)",
+          "calldata": [
+            "2"
+          ],
+          "expected": {
+            "return_data": [
+              "65535"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "A": "small_types_in_reverse.sol:A"
+  }
+}

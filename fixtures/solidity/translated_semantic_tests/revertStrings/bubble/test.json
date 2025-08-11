@@ -1,0 +1,28 @@
+{
+  "cases": [
+    {
+      "name": "bubble",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f() -> FAILURE, hex\"08c379a0\", 0x20, 4, \"fail\"",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "147028384",
+              "32",
+              "4",
+              "1717660012"
+            ],
+            "exception": true
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "bubble.sol:C"
+  }
+}

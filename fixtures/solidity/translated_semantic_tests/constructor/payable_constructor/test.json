@@ -1,0 +1,23 @@
+{
+  "cases": [
+    {
+      "name": "payable_constructor",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "constructor(), 27 wei ->",
+          "instance": "C",
+          "method": "#deployer",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          },
+          "value": "27 wei"
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "payable_constructor.sol:C"
+  }
+}

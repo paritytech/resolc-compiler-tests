@@ -1,0 +1,63 @@
+{
+  "cases": [
+    {
+      "name": "bytes_index_access",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "direct(bytes,uint256): 0x40, 33, 34, 0x000102030405060708090A0B0C0D0E0F101112131415161718191A1B1C1D1E1F, left(0x2021) -> 0x21",
+          "instance": "c",
+          "method": "direct(bytes,uint256)",
+          "calldata": [
+            "64",
+            "33",
+            "34",
+            "1780731860627700044960722568376592200742329637303199754547598369979440671",
+            "14532317107802211110822621943610504792681055051801965930550211005631797657600"
+          ],
+          "expected": {
+            "return_data": [
+              "33"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "storageCopyRead(bytes,uint256): 0x40, 33, 34, 0x000102030405060708090A0B0C0D0E0F101112131415161718191A1B1C1D1E1F, left(0x2021) -> 0x21",
+          "instance": "c",
+          "method": "storageCopyRead(bytes,uint256)",
+          "calldata": [
+            "64",
+            "33",
+            "34",
+            "1780731860627700044960722568376592200742329637303199754547598369979440671",
+            "14532317107802211110822621943610504792681055051801965930550211005631797657600"
+          ],
+          "expected": {
+            "return_data": [
+              "33"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "storageWrite() -> 0x193",
+          "instance": "c",
+          "method": "storageWrite()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "403"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "c": "bytes_index_access.sol:c"
+  }
+}

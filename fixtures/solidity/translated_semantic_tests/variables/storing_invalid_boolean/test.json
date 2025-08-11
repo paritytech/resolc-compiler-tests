@@ -1,0 +1,74 @@
+{
+  "cases": [
+    {
+      "name": "storing_invalid_boolean",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "set() -> 1",
+          "instance": "C",
+          "method": "set()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "perm() -> true",
+          "instance": "C",
+          "method": "perm()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "ret() -> true",
+          "instance": "C",
+          "method": "ret()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "ev() -> 1; ~ emit Ev(bool): true",
+          "instance": "C",
+          "method": "ev()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "events": [
+              {
+                "topics": [
+                  "418875ab2e38951ea8f665d12c6b3fc169dc8250ac43e2b3b3fe3b73ffa9b6c1"
+                ],
+                "values": [
+                  "1"
+                ]
+              }
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "storing_invalid_boolean.sol:C"
+  }
+}

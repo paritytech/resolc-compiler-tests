@@ -1,0 +1,55 @@
+{
+  "cases": [
+    {
+      "name": "calldata_struct_cleaning",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f((uint8,bytes1)): 0x12, hex\"3400000000000000000000000000000000000000000000000000000000000000\" -> 0x12, hex\"3400000000000000000000000000000000000000000000000000000000000000\"",
+          "instance": "C",
+          "method": "f((uint8,bytes1))",
+          "calldata": [
+            "18",
+            "23520268126329852195412856329889731282695465635208239570514821751607354458112"
+          ],
+          "expected": {
+            "return_data": [
+              "18",
+              "23520268126329852195412856329889731282695465635208239570514821751607354458112"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f((uint8,bytes1)): 0x1234, hex\"5678000000000000000000000000000000000000000000000000000000000000\" -> FAILURE",
+          "instance": "C",
+          "method": "f((uint8,bytes1))",
+          "calldata": [
+            "4660",
+            "39110926625934315519655873476445244266357183541238701256979874871813431361536"
+          ],
+          "expected": {
+            "exception": true
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f((uint8,bytes1)): 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff, 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff -> FAILURE",
+          "instance": "C",
+          "method": "f((uint8,bytes1))",
+          "calldata": [
+            "115792089237316195423570985008687907853269984665640564039457584007913129639935",
+            "115792089237316195423570985008687907853269984665640564039457584007913129639935"
+          ],
+          "expected": {
+            "exception": true
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "calldata_struct_cleaning.sol:C"
+  }
+}

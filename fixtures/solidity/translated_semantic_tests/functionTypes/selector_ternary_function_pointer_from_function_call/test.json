@@ -1,0 +1,42 @@
+{
+  "cases": [
+    {
+      "name": "selector_ternary_function_pointer_from_function_call",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "test(bool): true -> 0x26121ff000000000000000000000000000000000000000000000000000000000",
+          "instance": "C",
+          "method": "test(bool)",
+          "calldata": [
+            "1"
+          ],
+          "expected": {
+            "return_data": [
+              "17219911917854084299749778639755835327755045716242581057573779540915269926912"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "test(bool): false -> 0xe2179b8e00000000000000000000000000000000000000000000000000000000",
+          "instance": "C",
+          "method": "test(bool)",
+          "calldata": [
+            "0"
+          ],
+          "expected": {
+            "return_data": [
+              "102264414861304285884729579275374176073311626045629144087797787832582884294656"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "selector_ternary_function_pointer_from_function_call.sol:C"
+  }
+}

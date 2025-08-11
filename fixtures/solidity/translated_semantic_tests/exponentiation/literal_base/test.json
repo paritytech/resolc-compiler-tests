@@ -1,0 +1,140 @@
+{
+  "cases": [
+    {
+      "name": "literal_base",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256): 0 -> 1, 1",
+          "instance": "test",
+          "method": "f(uint256)",
+          "calldata": [
+            "0"
+          ],
+          "expected": {
+            "return_data": [
+              "1",
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256): 1 -> 2, -2",
+          "instance": "test",
+          "method": "f(uint256)",
+          "calldata": [
+            "1"
+          ],
+          "expected": {
+            "return_data": [
+              "2",
+              "115792089237316195423570985008687907853269984665640564039457584007913129639934"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256): 2 -> 4, 4",
+          "instance": "test",
+          "method": "f(uint256)",
+          "calldata": [
+            "2"
+          ],
+          "expected": {
+            "return_data": [
+              "4",
+              "4"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256): 13 -> 0x2000, -8192",
+          "instance": "test",
+          "method": "f(uint256)",
+          "calldata": [
+            "13"
+          ],
+          "expected": {
+            "return_data": [
+              "8192",
+              "115792089237316195423570985008687907853269984665640564039457584007913129631744"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256): 113 -> 0x020000000000000000000000000000, -10384593717069655257060992658440192",
+          "instance": "test",
+          "method": "f(uint256)",
+          "calldata": [
+            "113"
+          ],
+          "expected": {
+            "return_data": [
+              "10384593717069655257060992658440192",
+              "115792089237316195423570985008687907853269974281046846969802326946920471199744"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256): 114 -> 0x040000000000000000000000000000, 20769187434139310514121985316880384",
+          "instance": "test",
+          "method": "f(uint256)",
+          "calldata": [
+            "114"
+          ],
+          "expected": {
+            "return_data": [
+              "20769187434139310514121985316880384",
+              "20769187434139310514121985316880384"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256): 1113 -> 0x00, 0",
+          "instance": "test",
+          "method": "f(uint256)",
+          "calldata": [
+            "1113"
+          ],
+          "expected": {
+            "return_data": [
+              "0",
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256): 1114 -> 0x00, 0",
+          "instance": "test",
+          "method": "f(uint256)",
+          "calldata": [
+            "1114"
+          ],
+          "expected": {
+            "return_data": [
+              "0",
+              "0"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "test": "literal_base.sol:test"
+  }
+}

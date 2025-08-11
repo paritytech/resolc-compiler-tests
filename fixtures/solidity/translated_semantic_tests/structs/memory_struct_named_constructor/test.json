@@ -1,0 +1,26 @@
+{
+  "cases": [
+    {
+      "name": "memory_struct_named_constructor",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "s() -> 8, true",
+          "instance": "C",
+          "method": "s()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "8",
+              "1"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "memory_struct_named_constructor.sol:C"
+  }
+}

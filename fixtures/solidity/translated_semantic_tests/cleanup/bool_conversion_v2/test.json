@@ -1,0 +1,144 @@
+{
+  "cases": [
+    {
+      "name": "bool_conversion_v2",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(bool): 0x0 -> 0x0",
+          "instance": "C",
+          "method": "f(bool)",
+          "calldata": [
+            "0"
+          ],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(bool): 0x1 -> 0x1",
+          "instance": "C",
+          "method": "f(bool)",
+          "calldata": [
+            "1"
+          ],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(bool): 0x2 -> FAILURE",
+          "instance": "C",
+          "method": "f(bool)",
+          "calldata": [
+            "2"
+          ],
+          "expected": {
+            "exception": true
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(bool): 0x3 -> FAILURE",
+          "instance": "C",
+          "method": "f(bool)",
+          "calldata": [
+            "3"
+          ],
+          "expected": {
+            "exception": true
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(bool): 0xff -> FAILURE",
+          "instance": "C",
+          "method": "f(bool)",
+          "calldata": [
+            "255"
+          ],
+          "expected": {
+            "exception": true
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g(bool): 0x0 -> 0x0",
+          "instance": "C",
+          "method": "g(bool)",
+          "calldata": [
+            "0"
+          ],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g(bool): 0x1 -> 0x1",
+          "instance": "C",
+          "method": "g(bool)",
+          "calldata": [
+            "1"
+          ],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g(bool): 0x2 -> FAILURE",
+          "instance": "C",
+          "method": "g(bool)",
+          "calldata": [
+            "2"
+          ],
+          "expected": {
+            "exception": true
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g(bool): 0x3 -> FAILURE",
+          "instance": "C",
+          "method": "g(bool)",
+          "calldata": [
+            "3"
+          ],
+          "expected": {
+            "exception": true
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g(bool): 0xff -> FAILURE",
+          "instance": "C",
+          "method": "g(bool)",
+          "calldata": [
+            "255"
+          ],
+          "expected": {
+            "exception": true
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "bool_conversion_v2.sol:C"
+  }
+}

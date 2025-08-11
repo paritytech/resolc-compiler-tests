@@ -1,0 +1,38 @@
+{
+  "cases": [
+    {
+      "name": "constructor_with_params_inheritance_2",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "i() -> 2",
+          "instance": "D",
+          "method": "i()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "2"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "k() -> 1",
+          "instance": "D",
+          "method": "k()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "D": "constructor_with_params_inheritance_2.sol:D"
+  }
+}

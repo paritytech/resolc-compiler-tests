@@ -1,0 +1,121 @@
+{
+  "cases": [
+    {
+      "name": "bytes_and_strings",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "e(bytes): 32, 3, hex\"AB33BB\" -> 32, 3, left(0xAB33BB)",
+          "instance": "C",
+          "method": "e(bytes)",
+          "calldata": [
+            "32",
+            "3",
+            "11219899"
+          ],
+          "expected": {
+            "return_data": [
+              "32",
+              "3",
+              "77436896934609099848075429864406135596930745105745547939881450376081497391104"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "e(bytes): 32, 32, 0x20 -> 32, 32, 0x20",
+          "instance": "C",
+          "method": "e(bytes)",
+          "calldata": [
+            "32",
+            "32",
+            "32"
+          ],
+          "expected": {
+            "return_data": [
+              "32",
+              "32",
+              "32"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "e(bytes): 32, 3, hex\"AB33FF\" -> 32, 3, hex\"ab33ff0000000000000000000000000000000000000000000000000000000000\"",
+          "instance": "C",
+          "method": "e(bytes)",
+          "calldata": [
+            "32",
+            "3",
+            "11219967"
+          ],
+          "expected": {
+            "return_data": [
+              "32",
+              "3",
+              "77437366253360681606412975427804770434661511781155655526167201427728715743232"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f() -> 0x40, 0x80, 3, \"any\", 3, \"any\"",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "64",
+              "128",
+              "3",
+              "6385273",
+              "3",
+              "6385273"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g() -> 0x60, 0x2a, 0xa0, 3, \"any\", 3, \"any\"",
+          "instance": "C",
+          "method": "g()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "96",
+              "42",
+              "160",
+              "3",
+              "6385273",
+              "3",
+              "6385273"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "h() -> 0x20, 3, \"any\"",
+          "instance": "C",
+          "method": "h()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "32",
+              "3",
+              "6385273"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "bytes_and_strings.sol:C"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "cases": [
+    {
+      "name": "library_staticcall_delegatecall",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f() -> 1",
+          "instance": "Test",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "Lib": "library_staticcall_delegatecall.sol:Lib",
+    "Test": "library_staticcall_delegatecall.sol:Test"
+  },
+  "libraries": {
+    "library_staticcall_delegatecall.sol": {
+      "Lib": "Lib"
+    }
+  }
+}

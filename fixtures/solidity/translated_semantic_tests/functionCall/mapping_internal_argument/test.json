@@ -1,0 +1,80 @@
+{
+  "cases": [
+    {
+      "name": "mapping_internal_argument",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "set(uint8,uint8,uint8): 1, 21, 42 -> 0, 0",
+          "instance": "test",
+          "method": "set(uint8,uint8,uint8)",
+          "calldata": [
+            "1",
+            "21",
+            "42"
+          ],
+          "expected": {
+            "return_data": [
+              "0",
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "get(uint8): 1 -> 21, 42",
+          "instance": "test",
+          "method": "get(uint8)",
+          "calldata": [
+            "1"
+          ],
+          "expected": {
+            "return_data": [
+              "21",
+              "42"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "set(uint8,uint8,uint8): 1, 10, 11 -> 21, 42",
+          "instance": "test",
+          "method": "set(uint8,uint8,uint8)",
+          "calldata": [
+            "1",
+            "10",
+            "11"
+          ],
+          "expected": {
+            "return_data": [
+              "21",
+              "42"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "get(uint8): 1 -> 10, 11",
+          "instance": "test",
+          "method": "get(uint8)",
+          "calldata": [
+            "1"
+          ],
+          "expected": {
+            "return_data": [
+              "10",
+              "11"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "test": "mapping_internal_argument.sol:test"
+  }
+}

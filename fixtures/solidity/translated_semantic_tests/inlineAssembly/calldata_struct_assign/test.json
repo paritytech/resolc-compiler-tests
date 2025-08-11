@@ -1,0 +1,30 @@
+{
+  "cases": [
+    {
+      "name": "calldata_struct_assign",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f((uint256),(uint256,uint256)): 0x42, 0x07, 0x77 -> 0x07, 0x42",
+          "instance": "C",
+          "method": "f((uint256),(uint256,uint256))",
+          "calldata": [
+            "66",
+            "7",
+            "119"
+          ],
+          "expected": {
+            "return_data": [
+              "7",
+              "66"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "calldata_struct_assign.sol:C"
+  }
+}

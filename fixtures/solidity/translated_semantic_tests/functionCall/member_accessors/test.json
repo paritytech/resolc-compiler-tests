@@ -1,0 +1,74 @@
+{
+  "cases": [
+    {
+      "name": "member_accessors",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "data() -> 8",
+          "instance": "test",
+          "method": "data()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "8"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "name() -> \"Celina\"",
+          "instance": "test",
+          "method": "name()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "74102889606753"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "a_hash() -> 0xa91eddf639b0b768929589c1a9fd21dcb0107199bdd82e55c5348018a1572f52",
+          "instance": "test",
+          "method": "a_hash()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "76495408746680389550338499638379293609691976073007980668405434357245214666578"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "an_address() -> 0x1337",
+          "instance": "test",
+          "method": "an_address()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "4919"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "super_secret_data() -> FAILURE",
+          "instance": "test",
+          "method": "super_secret_data()",
+          "calldata": [],
+          "expected": {
+            "exception": true
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "test": "member_accessors.sol:test"
+  }
+}

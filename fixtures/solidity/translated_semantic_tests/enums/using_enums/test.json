@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "using_enums",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "getChoice() -> 2",
+          "instance": "test",
+          "method": "getChoice()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "2"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "test": "using_enums.sol:test"
+  }
+}

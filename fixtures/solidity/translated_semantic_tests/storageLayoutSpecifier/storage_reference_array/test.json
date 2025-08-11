@@ -1,0 +1,52 @@
+{
+  "cases": [
+    {
+      "name": "storage_reference_array",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "initUsingReference() ->; gas irOptimized: 273556; gas legacy: 274795; gas legacyOptimized: 271954",
+          "instance": "C",
+          "method": "initUsingReference()",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "array(uint256): 0 -> 1",
+          "instance": "C",
+          "method": "array(uint256)",
+          "calldata": [
+            "0"
+          ],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "array(uint256): 9 -> 10",
+          "instance": "C",
+          "method": "array(uint256)",
+          "calldata": [
+            "9"
+          ],
+          "expected": {
+            "return_data": [
+              "10"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "storage_reference_array.sol:C"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "cleanup_bytes_types_shortening_newCodeGen",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f() -> 0xffff000000000000000000000000000000000000000000000000000000000000",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "115790322390251417039241401711187164934754157181743688420499462401711837020160"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "cleanup_bytes_types_shortening_newCodeGen.sol:C"
+  }
+}

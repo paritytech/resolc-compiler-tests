@@ -1,0 +1,68 @@
+{
+  "cases": [
+    {
+      "name": "inheritance_state_variable_slot_offset",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "xSlotOffset() -> 7, 0",
+          "instance": "C",
+          "method": "xSlotOffset()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "7",
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "ySlotOffset() -> 8, 0",
+          "instance": "C",
+          "method": "ySlotOffset()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "8",
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "wSlotOffset() -> 8, 16",
+          "instance": "C",
+          "method": "wSlotOffset()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "8",
+              "16"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "zSlotOffset() -> 9, 0",
+          "instance": "C",
+          "method": "zSlotOffset()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "9",
+              "0"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "inheritance_state_variable_slot_offset.sol:C"
+  }
+}

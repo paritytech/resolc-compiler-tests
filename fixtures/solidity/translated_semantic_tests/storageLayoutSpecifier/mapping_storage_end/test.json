@@ -1,0 +1,32 @@
+{
+  "cases": [
+    {
+      "name": "mapping_storage_end",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "init() ->; gas irOptimized: 22266229; gas legacy: 22447245; gas legacyOptimized: 22310238",
+          "instance": "C",
+          "method": "init()",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "validate() ->; gas irOptimized: 2279210; gas legacy: 2456223; gas legacyOptimized: 2327216",
+          "instance": "C",
+          "method": "validate()",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "mapping_storage_end.sol:C"
+  }
+}

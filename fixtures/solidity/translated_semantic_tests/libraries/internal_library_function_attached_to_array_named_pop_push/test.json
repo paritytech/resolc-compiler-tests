@@ -1,0 +1,22 @@
+{
+  "cases": [
+    {
+      "name": "internal_library_function_attached_to_array_named_pop_push",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "test() ->",
+          "instance": "C",
+          "method": "test()",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "internal_library_function_attached_to_array_named_pop_push.sol:C"
+  }
+}

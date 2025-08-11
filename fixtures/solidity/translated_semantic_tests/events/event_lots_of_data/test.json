@@ -1,0 +1,38 @@
+{
+  "cases": [
+    {
+      "name": "event_lots_of_data",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "deposit(bytes32), 18 wei: 0x1234 ->; ~ emit Deposit(address,bytes32,uint256,bool): 0x1212121212121212121212121212120000000012, 0x1234, 0x12, true",
+          "instance": "ClientReceipt",
+          "method": "deposit(bytes32)",
+          "calldata": [
+            "4660"
+          ],
+          "expected": {
+            "events": [
+              {
+                "topics": [
+                  "95f016c9564e5db4b6e5851ee7934799bf3299644de9136bfadb23efaee5ada2"
+                ],
+                "values": [
+                  "103164821458651970696730694074090566015747358738",
+                  "4660",
+                  "18",
+                  "1"
+                ]
+              }
+            ],
+            "exception": false
+          },
+          "value": "18 wei"
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "ClientReceipt": "event_lots_of_data.sol:ClientReceipt"
+  }
+}

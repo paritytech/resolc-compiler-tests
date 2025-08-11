@@ -1,0 +1,26 @@
+{
+  "cases": [
+    {
+      "name": "require_error_function_pointer_parameter",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f() -> FAILURE, hex\"271b1dfa\", hex\"0000000000000000000000000000000000001234f37cdc8e0000000000000000\"",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "656088570",
+              "369278593122200096141421297270784"
+            ],
+            "exception": true
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "require_error_function_pointer_parameter.sol:C"
+  }
+}

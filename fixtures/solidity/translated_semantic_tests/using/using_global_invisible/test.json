@@ -1,0 +1,31 @@
+{
+  "cases": [
+    {
+      "name": "using_global_invisible",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "test() -> 3; gas legacy: 59680; gas legacy code: 61200",
+          "instance": "D",
+          "method": "test()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "3"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "D": "C:D",
+    "L": "A:L"
+  },
+  "libraries": {
+    "A": {
+      "L": "L"
+    }
+  }
+}

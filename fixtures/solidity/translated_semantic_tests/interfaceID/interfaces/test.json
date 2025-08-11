@@ -1,0 +1,116 @@
+{
+  "cases": [
+    {
+      "name": "interfaces",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "hello() -> left(0x19ff1d21)",
+          "instance": "Test",
+          "method": "hello()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "11758568256422444655697793699375626628217838645893203051348280859224013012992"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "world() -> left(0xdf419679)",
+          "instance": "Test",
+          "method": "world()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "100981648817384564898469732428048189018281366334572550998916703814647508107264"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "ERC165_interfaceId() -> left(0x01ffc9a7)",
+          "instance": "Test",
+          "method": "ERC165_interfaceId()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "904250603428552709895185118199468575982109441609966099573332780532423983104"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "hello_world() -> left(0xc6be8b58)",
+          "instance": "Test",
+          "method": "hello_world()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "89894606677012148518161765604560392412536115689453582218612626237350718996480"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "hello_world_interfaceId() -> left(0xc6be8b58)",
+          "instance": "Test",
+          "method": "hello_world_interfaceId()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "89894606677012148518161765604560392412536115689453582218612626237350718996480"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "ghello_world_interfaceId() -> left(0xc6be8b58)",
+          "instance": "Test",
+          "method": "ghello_world_interfaceId()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "89894606677012148518161765604560392412536115689453582218612626237350718996480"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "other() -> left(0x85295877)",
+          "instance": "Test",
+          "method": "other()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "60230660153142514371704458326716025019618964421002711939752413349325429538816"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "hello_world_derived_interfaceId() -> left(0x85295877)",
+          "instance": "Test",
+          "method": "hello_world_derived_interfaceId()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "60230660153142514371704458326716025019618964421002711939752413349325429538816"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "Test": "interfaces.sol:Test"
+  }
+}

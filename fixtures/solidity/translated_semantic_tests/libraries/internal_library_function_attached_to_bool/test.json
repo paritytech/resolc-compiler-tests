@@ -1,0 +1,76 @@
+{
+  "cases": [
+    {
+      "name": "internal_library_function_attached_to_bool",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "foo(bool,bool): true, true -> false",
+          "instance": "C",
+          "method": "foo(bool,bool)",
+          "calldata": [
+            "1",
+            "1"
+          ],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "foo(bool,bool): true, false -> true",
+          "instance": "C",
+          "method": "foo(bool,bool)",
+          "calldata": [
+            "1",
+            "0"
+          ],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "foo(bool,bool): false, true -> true",
+          "instance": "C",
+          "method": "foo(bool,bool)",
+          "calldata": [
+            "0",
+            "1"
+          ],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "foo(bool,bool): false, false -> false",
+          "instance": "C",
+          "method": "foo(bool,bool)",
+          "calldata": [
+            "0",
+            "0"
+          ],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "internal_library_function_attached_to_bool.sol:C"
+  }
+}

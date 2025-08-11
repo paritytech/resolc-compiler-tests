@@ -1,0 +1,53 @@
+{
+  "cases": [
+    {
+      "name": "store_function_in_constructor_packed",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "use(uint16): 3 -> 0xfff9",
+          "instance": "C",
+          "method": "use(uint16)",
+          "calldata": [
+            "3"
+          ],
+          "expected": {
+            "return_data": [
+              "65529"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "result_in_constructor() -> 0xfffb",
+          "instance": "C",
+          "method": "result_in_constructor()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "65531"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "other() -> 0x1fff",
+          "instance": "C",
+          "method": "other()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "8191"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "store_function_in_constructor_packed.sol:C"
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "cases": [
+    {
+      "name": "library_address_homestead",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g(uint256,uint256): 1, 1 -> true",
+          "instance": "C",
+          "method": "g(uint256,uint256)",
+          "calldata": [
+            "1",
+            "1"
+          ],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g(uint256,uint256): 1, 2 -> false",
+          "instance": "C",
+          "method": "g(uint256,uint256)",
+          "calldata": [
+            "1",
+            "2"
+          ],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g(uint256,uint256): 2, 3 -> false",
+          "instance": "C",
+          "method": "g(uint256,uint256)",
+          "calldata": [
+            "2",
+            "3"
+          ],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g(uint256,uint256): 2, 4 -> true",
+          "instance": "C",
+          "method": "g(uint256,uint256)",
+          "calldata": [
+            "2",
+            "4"
+          ],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g(uint256,uint256): 2, 5 -> false",
+          "instance": "C",
+          "method": "g(uint256,uint256)",
+          "calldata": [
+            "2",
+            "5"
+          ],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g(uint256,uint256): 4, 15 -> false",
+          "instance": "C",
+          "method": "g(uint256,uint256)",
+          "calldata": [
+            "4",
+            "15"
+          ],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g(uint256,uint256): 4, 16 -> true",
+          "instance": "C",
+          "method": "g(uint256,uint256)",
+          "calldata": [
+            "4",
+            "16"
+          ],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g(uint256,uint256): 4, 17 -> false",
+          "instance": "C",
+          "method": "g(uint256,uint256)",
+          "calldata": [
+            "4",
+            "17"
+          ],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "library_address_homestead.sol:C",
+    "L": "library_address_homestead.sol:L"
+  },
+  "libraries": {
+    "library_address_homestead.sol": {
+      "L": "L"
+    }
+  }
+}

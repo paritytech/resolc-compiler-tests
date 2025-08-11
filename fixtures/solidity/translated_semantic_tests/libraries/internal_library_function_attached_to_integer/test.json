@@ -1,0 +1,28 @@
+{
+  "cases": [
+    {
+      "name": "internal_library_function_attached_to_integer",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "foo(uint256,uint256): 8, 42 -> 50",
+          "instance": "C",
+          "method": "foo(uint256,uint256)",
+          "calldata": [
+            "8",
+            "42"
+          ],
+          "expected": {
+            "return_data": [
+              "50"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "internal_library_function_attached_to_integer.sol:C"
+  }
+}

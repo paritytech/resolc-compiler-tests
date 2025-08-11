@@ -1,0 +1,36 @@
+{
+  "cases": [
+    {
+      "name": "bytes_index_access_memory",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(bytes,uint256,uint256,uint256): 0x80, 3, 4, 5, 78, \"abcdefghijklmnopqrstuvwxyzabcdef\", \"ghijklmnopqrstuvwxyzabcdefghijkl\", \"mnopqrstuvwxyz\" -> \"d\", \"e\", \"f\"",
+          "instance": "Main",
+          "method": "f(bytes,uint256,uint256,uint256)",
+          "calldata": [
+            "128",
+            "3",
+            "4",
+            "5",
+            "78",
+            "44048183304486788312148433451363384677562265908331949128489393251112035050854",
+            "46772703051247169380938338980979570744698030253397766587357529088713588108140",
+            "2219532233446121780278872371657082"
+          ],
+          "expected": {
+            "return_data": [
+              "100",
+              "101",
+              "102"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "Main": "bytes_index_access_memory.sol:Main"
+  }
+}

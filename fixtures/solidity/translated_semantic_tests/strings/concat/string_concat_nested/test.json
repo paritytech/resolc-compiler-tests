@@ -1,0 +1,33 @@
+{
+  "cases": [
+    {
+      "name": "string_concat_nested",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(string,string,string): 0x60, 0x60, 0x60, 2, \"ab\" -> 0x20, 6, \"ababab\"",
+          "instance": "C",
+          "method": "f(string,string,string)",
+          "calldata": [
+            "96",
+            "96",
+            "96",
+            "2",
+            "24930"
+          ],
+          "expected": {
+            "return_data": [
+              "32",
+              "6",
+              "107075168526690"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "string_concat_nested.sol:C"
+  }
+}

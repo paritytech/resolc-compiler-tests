@@ -1,0 +1,26 @@
+{
+  "cases": [
+    {
+      "name": "invalid_enum_as_external_arg",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "test() -> FAILURE, hex\"4e487b71\", 0x21",
+          "instance": "C",
+          "method": "test()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1313373041",
+              "33"
+            ],
+            "exception": true
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "invalid_enum_as_external_arg.sol:C"
+  }
+}

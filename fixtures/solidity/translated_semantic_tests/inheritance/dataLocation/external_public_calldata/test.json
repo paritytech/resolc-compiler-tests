@@ -1,0 +1,54 @@
+{
+  "cases": [
+    {
+      "name": "external_public_calldata",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256[]): 0x20, 2, 9, 8 -> 0x20, 2, 9, 8",
+          "instance": "B",
+          "method": "f(uint256[])",
+          "calldata": [
+            "32",
+            "2",
+            "9",
+            "8"
+          ],
+          "expected": {
+            "return_data": [
+              "32",
+              "2",
+              "9",
+              "8"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g(uint256[]): 0x20, 2, 9, 8 -> 0x20, 2, 9, 8",
+          "instance": "B",
+          "method": "g(uint256[])",
+          "calldata": [
+            "32",
+            "2",
+            "9",
+            "8"
+          ],
+          "expected": {
+            "return_data": [
+              "32",
+              "2",
+              "9",
+              "8"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "B": "external_public_calldata.sol:B"
+  }
+}

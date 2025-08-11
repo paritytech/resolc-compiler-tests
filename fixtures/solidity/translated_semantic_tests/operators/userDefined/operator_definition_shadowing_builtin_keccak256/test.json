@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "operator_definition_shadowing_builtin_keccak256",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "test() -> 7",
+          "instance": "C",
+          "method": "test()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "7"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "operator_definition_shadowing_builtin_keccak256.sol:C"
+  }
+}

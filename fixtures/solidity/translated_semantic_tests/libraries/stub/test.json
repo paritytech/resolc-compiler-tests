@@ -1,0 +1,63 @@
+{
+  "cases": [
+    {
+      "name": "stub",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g(uint256): 1 -> 1",
+          "instance": "C",
+          "method": "g(uint256)",
+          "calldata": [
+            "1"
+          ],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g(uint256): 2 -> 4",
+          "instance": "C",
+          "method": "g(uint256)",
+          "calldata": [
+            "2"
+          ],
+          "expected": {
+            "return_data": [
+              "4"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g(uint256): 4 -> 16",
+          "instance": "C",
+          "method": "g(uint256)",
+          "calldata": [
+            "4"
+          ],
+          "expected": {
+            "return_data": [
+              "16"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "stub.sol:C",
+    "L": "stub.sol:L"
+  },
+  "libraries": {
+    "stub.sol": {
+      "L": "L"
+    }
+  }
+}

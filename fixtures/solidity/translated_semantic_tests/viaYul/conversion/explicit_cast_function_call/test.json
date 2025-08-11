@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "explicit_cast_function_call",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g() -> 0x1234567800000000000000000000000000000000000000000000000000000000",
+          "instance": "C",
+          "method": "g()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "8234104107246695022420661102507966550300666591269321702959126607540084801536"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "explicit_cast_function_call.sol:C"
+  }
+}

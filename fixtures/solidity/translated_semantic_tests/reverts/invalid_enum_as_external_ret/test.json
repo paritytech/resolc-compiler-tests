@@ -1,0 +1,54 @@
+{
+  "cases": [
+    {
+      "name": "invalid_enum_as_external_ret",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "test_return() -> FAILURE, hex\"4e487b71\", 33",
+          "instance": "C",
+          "method": "test_return()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1313373041",
+              "33"
+            ],
+            "exception": true
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "test_inline_assignment() -> FAILURE, hex\"4e487b71\", 33",
+          "instance": "C",
+          "method": "test_inline_assignment()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1313373041",
+              "33"
+            ],
+            "exception": true
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "test_assignment() -> FAILURE, hex\"4e487b71\", 33",
+          "instance": "C",
+          "method": "test_assignment()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1313373041",
+              "33"
+            ],
+            "exception": true
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "invalid_enum_as_external_ret.sol:C"
+  }
+}

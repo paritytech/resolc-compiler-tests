@@ -1,0 +1,86 @@
+{
+  "cases": [
+    {
+      "name": "cleanup_abicoderv1",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "ret() -> 0xff",
+          "instance": "C",
+          "method": "ret()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "255"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint8): 0x1ff -> 0xff",
+          "instance": "C",
+          "method": "f(uint8)",
+          "calldata": [
+            "511"
+          ],
+          "expected": {
+            "return_data": [
+              "255"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint8): 0xff -> 0xff",
+          "instance": "C",
+          "method": "f(uint8)",
+          "calldata": [
+            "255"
+          ],
+          "expected": {
+            "return_data": [
+              "255"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "mem() -> 0x20, 2, 0x01ff, 0xff",
+          "instance": "C",
+          "method": "mem()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "32",
+              "2",
+              "511",
+              "255"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "stor() -> 1, 0xff, 2",
+          "instance": "C",
+          "method": "stor()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1",
+              "255",
+              "2"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "cleanup_abicoderv1.sol:C"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "cases": [
+    {
+      "name": "structs",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "s() -> 23, 42",
+          "instance": "C",
+          "method": "s()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "23",
+              "42"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "t() -> 0x20, 23, 42, 0x60, 3, \"any\"",
+          "instance": "C",
+          "method": "t()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "32",
+              "23",
+              "42",
+              "96",
+              "3",
+              "6385273"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "structs.sol:C"
+  }
+}

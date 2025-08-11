@@ -1,0 +1,116 @@
+{
+  "cases": [
+    {
+      "name": "calldata_length_read",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "lenBytesRead(bytes): 0x20, 4, \"abcd\" -> 4",
+          "instance": "C",
+          "method": "lenBytesRead(bytes)",
+          "calldata": [
+            "32",
+            "4",
+            "1633837924"
+          ],
+          "expected": {
+            "return_data": [
+              "4"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "lenBytesRead(bytes): 0x20, 0, \"abcd\" -> 0x00",
+          "instance": "C",
+          "method": "lenBytesRead(bytes)",
+          "calldata": [
+            "32",
+            "0",
+            "1633837924"
+          ],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "lenBytesRead(bytes): 0x20, 0x21, \"abcd\", \"ef\" -> 33",
+          "instance": "C",
+          "method": "lenBytesRead(bytes)",
+          "calldata": [
+            "32",
+            "33",
+            "1633837924",
+            "25958"
+          ],
+          "expected": {
+            "return_data": [
+              "33"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "lenStringRead(string): 0x20, 4, \"abcd\" -> 4",
+          "instance": "C",
+          "method": "lenStringRead(string)",
+          "calldata": [
+            "32",
+            "4",
+            "1633837924"
+          ],
+          "expected": {
+            "return_data": [
+              "4"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "lenStringRead(string): 0x20, 0, \"abcd\" -> 0x00",
+          "instance": "C",
+          "method": "lenStringRead(string)",
+          "calldata": [
+            "32",
+            "0",
+            "1633837924"
+          ],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "lenStringRead(string): 0x20, 0x21, \"abcd\", \"ef\" -> 33",
+          "instance": "C",
+          "method": "lenStringRead(string)",
+          "calldata": [
+            "32",
+            "33",
+            "1633837924",
+            "25958"
+          ],
+          "expected": {
+            "return_data": [
+              "33"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "calldata_length_read.sol:C"
+  }
+}

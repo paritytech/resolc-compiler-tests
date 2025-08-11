@@ -1,0 +1,49 @@
+{
+  "cases": [
+    {
+      "name": "arrays_complex_memory_index_access",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "set(uint24[3][],uint256,uint256): 0x60, 0x03, 0x02, 0x06, 0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, 0x08, 0x09, 0x0a, 0x0b, 0x0c, 0x0d, 0x0e, 0x0f, 0x10, 0x11, 0x12 -> 0x06, 0x0c",
+          "instance": "Test",
+          "method": "set(uint24[3][],uint256,uint256)",
+          "calldata": [
+            "96",
+            "3",
+            "2",
+            "6",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15",
+            "16",
+            "17",
+            "18"
+          ],
+          "expected": {
+            "return_data": [
+              "6",
+              "12"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "Test": "arrays_complex_memory_index_access.sol:Test"
+  }
+}

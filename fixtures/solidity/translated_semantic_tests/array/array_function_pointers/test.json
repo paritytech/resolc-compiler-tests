@@ -1,0 +1,68 @@
+{
+  "cases": [
+    {
+      "name": "array_function_pointers",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256,uint256): 1823621, 12323 -> FAILURE",
+          "instance": "C",
+          "method": "f(uint256,uint256)",
+          "calldata": [
+            "1823621",
+            "12323"
+          ],
+          "expected": {
+            "exception": true
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f2(uint256,uint256,uint256,uint256): 18723921, 1823621, 123, 12323 -> FAILURE",
+          "instance": "C",
+          "method": "f2(uint256,uint256,uint256,uint256)",
+          "calldata": [
+            "18723921",
+            "1823621",
+            "123",
+            "12323"
+          ],
+          "expected": {
+            "exception": true
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g(uint256,uint256): 1823621, 12323 -> FAILURE",
+          "instance": "C",
+          "method": "g(uint256,uint256)",
+          "calldata": [
+            "1823621",
+            "12323"
+          ],
+          "expected": {
+            "exception": true
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g2(uint256,uint256,uint256,uint256): 18723921, 1823621, 123, 12323 -> FAILURE",
+          "instance": "C",
+          "method": "g2(uint256,uint256,uint256,uint256)",
+          "calldata": [
+            "18723921",
+            "1823621",
+            "123",
+            "12323"
+          ],
+          "expected": {
+            "exception": true
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "array_function_pointers.sol:C"
+  }
+}

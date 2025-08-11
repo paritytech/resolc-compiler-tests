@@ -1,0 +1,33 @@
+{
+  "cases": [
+    {
+      "name": "payable_function_calls_library",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(): 27 -> 7",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [
+            "27"
+          ],
+          "expected": {
+            "return_data": [
+              "7"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "payable_function_calls_library.sol:C",
+    "L": "payable_function_calls_library.sol:L"
+  },
+  "libraries": {
+    "payable_function_calls_library.sol": {
+      "L": "L"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "cases": [
+    {
+      "name": "array_of_structs_containing_arrays_calldata_to_memory",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f((uint256[])[]): 0x20, 3, 0x60, 0x60, 0x60, 0x20, 3, 1, 2, 3 -> 3, 1",
+          "instance": "C",
+          "method": "f((uint256[])[])",
+          "calldata": [
+            "32",
+            "3",
+            "96",
+            "96",
+            "96",
+            "32",
+            "3",
+            "1",
+            "2",
+            "3"
+          ],
+          "expected": {
+            "return_data": [
+              "3",
+              "1"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "array_of_structs_containing_arrays_calldata_to_memory.sol:C"
+  }
+}

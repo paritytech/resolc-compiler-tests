@@ -1,0 +1,27 @@
+{
+  "cases": [
+    {
+      "name": "convert_uint_to_fixed_bytes_same_min_size",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "UintToBytes(uint8): 0x61 -> \"a\"",
+          "instance": "Test",
+          "method": "UintToBytes(uint8)",
+          "calldata": [
+            "97"
+          ],
+          "expected": {
+            "return_data": [
+              "97"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "Test": "convert_uint_to_fixed_bytes_same_min_size.sol:Test"
+  }
+}

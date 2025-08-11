@@ -1,0 +1,31 @@
+{
+  "cases": [
+    {
+      "name": "mcopy_empty",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "mcopy_zero(bytes): 0x20, 0x20, 0xffeeddccbbaa9988776655443322110000112233445566778899aabbccddeeff -> 0x20, 0x20, 0xffeeddccbbaa9988776655443322110000112233445566778899aabbccddeeff",
+          "instance": "C",
+          "method": "mcopy_zero(bytes)",
+          "calldata": [
+            "32",
+            "32",
+            "115761816795685524522806652725025505785880228478355084463266898959573796646655"
+          ],
+          "expected": {
+            "return_data": [
+              "32",
+              "32",
+              "115761816795685524522806652725025505785880228478355084463266898959573796646655"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "mcopy_empty.sol:C"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "cases": [
+    {
+      "name": "emit_two_identical_events",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "terminate() ->; ~ emit Terminated(); ~ emit Terminated()",
+          "instance": "C",
+          "method": "terminate()",
+          "calldata": [],
+          "expected": {
+            "events": [
+              {
+                "topics": [
+                  "56a9f39a7e827c383642a56b2ca4614ea9e1e7553a99dac156511be09dd14495"
+                ],
+                "values": []
+              },
+              {
+                "topics": [
+                  "56a9f39a7e827c383642a56b2ca4614ea9e1e7553a99dac156511be09dd14495"
+                ],
+                "values": []
+              }
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "emit_two_identical_events.sol:C"
+  }
+}

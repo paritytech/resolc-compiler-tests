@@ -1,0 +1,31 @@
+{
+  "cases": [
+    {
+      "name": "calldata_memory_copy",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256[]): 0x20, 3, 1, 2, 8 -> 11",
+          "instance": "C",
+          "method": "f(uint256[])",
+          "calldata": [
+            "32",
+            "3",
+            "1",
+            "2",
+            "8"
+          ],
+          "expected": {
+            "return_data": [
+              "11"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "calldata_memory_copy.sol:C"
+  }
+}

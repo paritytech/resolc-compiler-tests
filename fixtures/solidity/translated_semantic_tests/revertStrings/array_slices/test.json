@@ -1,0 +1,48 @@
+{
+  "cases": [
+    {
+      "name": "array_slices",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256,uint256,uint256[]): 2, 1, 0x80, 3, 1, 2, 3 -> FAILURE",
+          "instance": "C",
+          "method": "f(uint256,uint256,uint256[])",
+          "calldata": [
+            "2",
+            "1",
+            "128",
+            "3",
+            "1",
+            "2",
+            "3"
+          ],
+          "expected": {
+            "exception": true
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256,uint256,uint256[]): 1, 5, 0x80, 3, 1, 2, 3 -> FAILURE",
+          "instance": "C",
+          "method": "f(uint256,uint256,uint256[])",
+          "calldata": [
+            "1",
+            "5",
+            "128",
+            "3",
+            "1",
+            "2",
+            "3"
+          ],
+          "expected": {
+            "exception": true
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "array_slices.sol:C"
+  }
+}

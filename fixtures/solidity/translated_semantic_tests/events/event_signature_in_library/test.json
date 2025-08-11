@@ -1,0 +1,34 @@
+{
+  "cases": [
+    {
+      "name": "event_signature_in_library",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "constructor(); ~ emit E((uint8,int16),(uint8,int16)): #0xad3228b676f7d3cd4284a5443f17f1962b36e491b30a40b2405849e597ba5fb5, 0x00, 0x00; gas legacy: 150602",
+          "instance": "C",
+          "method": "#deployer",
+          "calldata": [],
+          "expected": {
+            "events": [
+              {
+                "topics": [
+                  "de36958a609314d3ec594bea4ec463de5d1a213a4294213bca60d20e4dc69fa4",
+                  "78338746147236970124700731725183845421594913511827187288591969170390706184117"
+                ],
+                "values": [
+                  "0",
+                  "0"
+                ]
+              }
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "event_signature_in_library.sol:C"
+  }
+}

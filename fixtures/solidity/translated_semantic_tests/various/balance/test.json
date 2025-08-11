@@ -1,0 +1,36 @@
+{
+  "cases": [
+    {
+      "name": "balance",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "constructor(), 23 wei ->",
+          "instance": "test",
+          "method": "#deployer",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          },
+          "value": "23 wei"
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "getBalance() -> 23",
+          "instance": "test",
+          "method": "getBalance()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "23"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "test": "balance.sol:test"
+  }
+}

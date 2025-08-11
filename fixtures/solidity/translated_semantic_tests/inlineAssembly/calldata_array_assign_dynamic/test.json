@@ -1,0 +1,37 @@
+{
+  "cases": [
+    {
+      "name": "calldata_array_assign_dynamic",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256[2][]): 0x0, 1, 8, 7, 6, 5 -> 0x20, 2, 8, 7, 6, 5",
+          "instance": "C",
+          "method": "f(uint256[2][])",
+          "calldata": [
+            "0",
+            "1",
+            "8",
+            "7",
+            "6",
+            "5"
+          ],
+          "expected": {
+            "return_data": [
+              "32",
+              "2",
+              "8",
+              "7",
+              "6",
+              "5"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "calldata_array_assign_dynamic.sol:C"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "cases": [
+    {
+      "name": "calldata_bytes_internal",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256,bytes,uint256): 7, 0x60, 7, 4, \"abcd\" -> \"c\"",
+          "instance": "C",
+          "method": "f(uint256,bytes,uint256)",
+          "calldata": [
+            "7",
+            "96",
+            "7",
+            "4",
+            "1633837924"
+          ],
+          "expected": {
+            "return_data": [
+              "99"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "calldata_bytes_internal.sol:C"
+  }
+}

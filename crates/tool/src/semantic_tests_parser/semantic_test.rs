@@ -84,6 +84,9 @@ pub struct TestStepFunctionCall {
     /// [`DEFAULT_CALLER`]: TestStep::DEFAULT_CALLER
     pub caller: Address,
 
+    /// An optional comment on the item.
+    pub comment: String,
+
     /// This is the function being called in this test step.
     pub function: TestStepFunction,
 
@@ -256,8 +259,11 @@ pub enum EventIdentifier {
 }
 
 /// Represents a balance assertion step in the test case.
-#[derive(Clone, Copy, Debug, PartialEq, Eq, PartialOrd, Ord, Hash)]
+#[derive(Clone, Debug, PartialEq, Eq, PartialOrd, Ord, Hash)]
 pub struct TestStepBalanceAssertion {
+    /// An optional comment on the item.
+    pub comment: String,
+
     /// The address that the balance assertion is happening on. If this is not
     /// defined then it means that the assertion should be done on the main
     /// contract of the file.
@@ -268,8 +274,12 @@ pub struct TestStepBalanceAssertion {
 }
 
 /// Represents an assertion for the contents of the storage.
-#[derive(Clone, Copy, Debug, PartialEq, Eq, PartialOrd, Ord, Hash)]
+#[derive(Clone, Debug, PartialEq, Eq, PartialOrd, Ord, Hash)]
 pub struct TestStepStorageEmptyAssertion {
+    /// An optional comment on the item.
+    pub comment: String,
+
+    /// A boolean of whether the storage is empty or not.
     pub is_empty: bool,
 }
 
@@ -405,7 +415,9 @@ impl SemanticTest {
                 }
                 SemanticTestSection::TestInputs { lines } => {
                     let nodes = Document::from_str(lines.join("\n").as_str())?;
-                    for node in nodes.into_inner().into_iter() {
+                    for DocumentItem { node, line } in
+                        nodes.into_inner().into_iter()
+                    {
                         match node {
                             Node::CallerSwitch(CallerSwitchNode {
                                 account_address,
@@ -440,7 +452,10 @@ impl SemanticTest {
                                     true
                                 };
                                 steps.push(TestStep::StorageEmptyAssertion(
-                                    TestStepStorageEmptyAssertion { is_empty },
+                                    TestStepStorageEmptyAssertion {
+                                        is_empty,
+                                        comment: line,
+                                    },
                                 ));
                             }
                             Node::BalanceAssertion(BalanceAssertionNode {
@@ -459,6 +474,7 @@ impl SemanticTest {
                                     TestStepBalanceAssertion {
                                         address,
                                         amount,
+                                        comment: line,
                                     },
                                 ))
                             }
@@ -471,6 +487,7 @@ impl SemanticTest {
                                 let Some(TestStep::FunctionCall(
                                     TestStepFunctionCall {
                                         expected_output,
+                                        comment,
                                         ..
                                     },
                                 )) = steps.iter_mut().rev().find(|step| {
@@ -481,6 +498,9 @@ impl SemanticTest {
                                         "Encountered a gas assertion without any prior function call"
                                     )
                                 };
+
+                                comment.push_str("; ");
+                                comment.push_str(line.as_str());
 
                                 let amount = u64::try_from(amount).context(
                                     "Failed to convert gas amount to a u64",
@@ -533,6 +553,7 @@ impl SemanticTest {
                                 let Some(TestStep::FunctionCall(
                                     TestStepFunctionCall {
                                         expected_output,
+                                        comment,
                                         ..
                                     },
                                 )) = steps.iter_mut().rev().find(|step| {
@@ -543,6 +564,9 @@ impl SemanticTest {
                                         "Encountered an emitted event assertion without any prior function call"
                                     )
                                 };
+
+                                comment.push_str("; ");
+                                comment.push_str(line.as_str());
 
                                 let signature = match signature {
                                     EventSignature::Signature(signature) => {
@@ -636,6 +660,7 @@ impl SemanticTest {
                                     value: value,
                                     arguments: Default::default(),
                                     expected_output: Default::default(),
+                                    comment: line,
                                 };
 
                                 for argument in arguments

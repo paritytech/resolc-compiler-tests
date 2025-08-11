@@ -1,0 +1,30 @@
+{
+  "cases": [
+    {
+      "name": "multiple_return_values",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "run(bool,uint256): true, 0xcd -> 0xcd, true, 0",
+          "instance": "test",
+          "method": "run(bool,uint256)",
+          "calldata": [
+            "1",
+            "205"
+          ],
+          "expected": {
+            "return_data": [
+              "205",
+              "1",
+              "0"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "test": "multiple_return_values.sol:test"
+  }
+}

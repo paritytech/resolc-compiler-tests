@@ -1,0 +1,32 @@
+{
+  "cases": [
+    {
+      "name": "calldata_attached_to_bytes",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "test(uint256,bytes,uint256): 7, 0x60, 4, 2, \"ab\" -> \"b\", \"a\"",
+          "instance": "C",
+          "method": "test(uint256,bytes,uint256)",
+          "calldata": [
+            "7",
+            "96",
+            "4",
+            "2",
+            "24930"
+          ],
+          "expected": {
+            "return_data": [
+              "98",
+              "97"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "calldata_attached_to_bytes.sol:C"
+  }
+}

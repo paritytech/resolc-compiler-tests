@@ -1,0 +1,59 @@
+{
+  "cases": [
+    {
+      "name": "bytes_in_constructors_unpacker",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "constructor(): 7, 0x40, 78, \"abcdefghijklmnopqrstuvwxyzabcdef\", \"ghijklmnopqrstuvwxyzabcdefghijkl\", \"mnopqrstuvwxyz\" ->; gas irOptimized: 181465; gas irOptimized code: 78400; gas legacy: 195212; gas legacy code: 109400; gas legacyOptimized: 181608; gas legacyOptimized code: 71400",
+          "instance": "Test",
+          "method": "#deployer",
+          "calldata": [
+            "7",
+            "64",
+            "78",
+            "44048183304486788312148433451363384677562265908331949128489393251112035050854",
+            "46772703051247169380938338980979570744698030253397766587357529088713588108140",
+            "2219532233446121780278872371657082"
+          ],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "m_x() -> 7",
+          "instance": "Test",
+          "method": "m_x()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "7"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "m_s() -> 0x20, 78, \"abcdefghijklmnopqrstuvwxyzabcdef\", \"ghijklmnopqrstuvwxyzabcdefghijkl\", \"mnopqrstuvwxyz\"",
+          "instance": "Test",
+          "method": "m_s()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "32",
+              "78",
+              "44048183304486788312148433451363384677562265908331949128489393251112035050854",
+              "46772703051247169380938338980979570744698030253397766587357529088713588108140",
+              "2219532233446121780278872371657082"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "Test": "bytes_in_constructors_unpacker.sol:Test"
+  }
+}

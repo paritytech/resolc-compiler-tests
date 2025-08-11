@@ -1,0 +1,166 @@
+{
+  "cases": [
+    {
+      "name": "fallback",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "data() -> 0",
+          "instance": "A",
+          "method": "data()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "()",
+          "instance": "A",
+          "method": "#fallback",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "data() -> 1",
+          "instance": "A",
+          "method": "data()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "(): hex\"42ef\"",
+          "instance": "A",
+          "method": "#fallback",
+          "calldata": [
+            "17135"
+          ],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "data() -> 2",
+          "instance": "A",
+          "method": "data()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "2"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "externalData() -> 0x20, 2, left(0x42ef)",
+          "instance": "A",
+          "method": "externalData()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "32",
+              "2",
+              "30274924454977615487409802675229908768703936572963730847413722259149039861760"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "balance() -> 0",
+          "instance": "A",
+          "method": "balance()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "(), 1 wei",
+          "instance": "A",
+          "method": "#fallback",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          },
+          "value": "1 wei"
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "balance() -> 1",
+          "instance": "A",
+          "method": "balance()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "(), 2 wei: hex\"fefe\"",
+          "instance": "A",
+          "method": "#fallback",
+          "calldata": [
+            "65278"
+          ],
+          "expected": {
+            "exception": false
+          },
+          "value": "2 wei"
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "balance() -> 2",
+          "instance": "A",
+          "method": "balance()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "2"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "externalData() -> 0x20, 2, left(0xfefe)",
+          "instance": "A",
+          "method": "externalData()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "32",
+              "2",
+              "115336242694603372266538494253496234876186493820246654348262209607979633737728"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "A": "fallback.sol:A"
+  }
+}

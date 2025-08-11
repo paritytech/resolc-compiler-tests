@@ -1,0 +1,121 @@
+{
+  "cases": [
+    {
+      "name": "copying_bytes_multiassign",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "(): 7 ->; gas irOptimized: 110822; gas legacy: 111388; gas legacyOptimized: 111065",
+          "instance": "sender",
+          "method": "#fallback",
+          "calldata": [
+            "7"
+          ],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "val() -> 0",
+          "instance": "sender",
+          "method": "val()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "forward(bool): true -> true",
+          "instance": "sender",
+          "method": "forward(bool)",
+          "calldata": [
+            "1"
+          ],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "val() -> 0x80",
+          "instance": "sender",
+          "method": "val()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "128"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "forward(bool): false -> true",
+          "instance": "sender",
+          "method": "forward(bool)",
+          "calldata": [
+            "0"
+          ],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "val() -> 0x80",
+          "instance": "sender",
+          "method": "val()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "128"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "forward(bool): true -> true",
+          "instance": "sender",
+          "method": "forward(bool)",
+          "calldata": [
+            "1"
+          ],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "val() -> 0x80",
+          "instance": "sender",
+          "method": "val()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "128"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "sender": "copying_bytes_multiassign.sol:sender"
+  }
+}

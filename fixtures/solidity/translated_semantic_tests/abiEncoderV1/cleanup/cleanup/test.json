@@ -1,0 +1,173 @@
+{
+  "cases": [
+    {
+      "name": "cleanup",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint16,int16,address,bytes3,bool): 1, 2, 3, \"a\", true -> 1, 2, 3, \"a\", true",
+          "instance": "C",
+          "method": "f(uint16,int16,address,bytes3,bool)",
+          "calldata": [
+            "1",
+            "2",
+            "3",
+            "97",
+            "1"
+          ],
+          "expected": {
+            "return_data": [
+              "1",
+              "2",
+              "3",
+              "97",
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint16,int16,address,bytes3,bool): 0xffffff, 0x1ffff, 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff, \"abcd\", 1 -> 0xffff, 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff, 0xffffffffffffffffffffffffffffffffffffffff, \"abc\", true",
+          "instance": "C",
+          "method": "f(uint16,int16,address,bytes3,bool)",
+          "calldata": [
+            "16777215",
+            "131071",
+            "115792089237316195423570985008687907853269984665640564039457584007913129639935",
+            "1633837924",
+            "1"
+          ],
+          "expected": {
+            "return_data": [
+              "65535",
+              "115792089237316195423570985008687907853269984665640564039457584007913129639935",
+              "1461501637330902918203684832716283019655932542975",
+              "6382179",
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint16,int16,address,bytes3,bool): 0xffffff, 0, 0, \"bcd\", 1 -> 0xffff, 0, 0, \"bcd\", true",
+          "instance": "C",
+          "method": "f(uint16,int16,address,bytes3,bool)",
+          "calldata": [
+            "16777215",
+            "0",
+            "0",
+            "6447972",
+            "1"
+          ],
+          "expected": {
+            "return_data": [
+              "65535",
+              "0",
+              "0",
+              "6447972",
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint16,int16,address,bytes3,bool): 0, 0x1ffff, 0, \"ab\", 1 -> 0, 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff, 0, \"ab\", true",
+          "instance": "C",
+          "method": "f(uint16,int16,address,bytes3,bool)",
+          "calldata": [
+            "0",
+            "131071",
+            "0",
+            "24930",
+            "1"
+          ],
+          "expected": {
+            "return_data": [
+              "0",
+              "115792089237316195423570985008687907853269984665640564039457584007913129639935",
+              "0",
+              "24930",
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint16,int16,address,bytes3,bool): 0, 0, 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff, \"ad\", 1 -> 0, 0, 0xffffffffffffffffffffffffffffffffffffffff, \"ad\", true",
+          "instance": "C",
+          "method": "f(uint16,int16,address,bytes3,bool)",
+          "calldata": [
+            "0",
+            "0",
+            "115792089237316195423570985008687907853269984665640564039457584007913129639935",
+            "24932",
+            "1"
+          ],
+          "expected": {
+            "return_data": [
+              "0",
+              "0",
+              "1461501637330902918203684832716283019655932542975",
+              "24932",
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint16,int16,address,bytes3,bool): 0, 0, 0, \"abcd\", 1 -> 0, 0, 0, \"abc\", true",
+          "instance": "C",
+          "method": "f(uint16,int16,address,bytes3,bool)",
+          "calldata": [
+            "0",
+            "0",
+            "0",
+            "1633837924",
+            "1"
+          ],
+          "expected": {
+            "return_data": [
+              "0",
+              "0",
+              "0",
+              "6382179",
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint16,int16,address,bytes3,bool): 0, 0, 0, \"abc\", 2 -> 0, 0, 0, \"abc\", true",
+          "instance": "C",
+          "method": "f(uint16,int16,address,bytes3,bool)",
+          "calldata": [
+            "0",
+            "0",
+            "0",
+            "6382179",
+            "2"
+          ],
+          "expected": {
+            "return_data": [
+              "0",
+              "0",
+              "0",
+              "6382179",
+              "1"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "cleanup.sol:C"
+  }
+}

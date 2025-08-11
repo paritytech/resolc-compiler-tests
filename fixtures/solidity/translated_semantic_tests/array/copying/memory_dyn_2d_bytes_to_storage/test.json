@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "memory_dyn_2d_bytes_to_storage",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f() -> 3; gas irOptimized: 128296; gas legacy: 129077; gas legacyOptimized: 128210",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "3"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "memory_dyn_2d_bytes_to_storage.sol:C"
+  }
+}

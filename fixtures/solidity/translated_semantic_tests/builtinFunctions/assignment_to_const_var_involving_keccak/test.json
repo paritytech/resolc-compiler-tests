@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "assignment_to_const_var_involving_keccak",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f() -> 0x4e03657aea45a94fc7d47ba826c8d667c0d1e6e33a64a036ec44f58fa12d6c45",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "35286403120855365962805127237049809881669876751651884979611909062921250761797"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "assignment_to_const_var_involving_keccak.sol:C"
+  }
+}

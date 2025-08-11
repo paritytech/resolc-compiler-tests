@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "new_operator",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f() -> 2; gas legacy: 76611; gas legacy code: 23600",
+          "instance": "D",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "2"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "D": "new_operator.sol:D"
+  }
+}

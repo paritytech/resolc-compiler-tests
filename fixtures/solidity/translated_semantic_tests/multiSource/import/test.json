@@ -1,0 +1,42 @@
+{
+  "cases": [
+    {
+      "name": "import",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256): 1337 -> 1337",
+          "instance": "B",
+          "method": "f(uint256)",
+          "calldata": [
+            "1337"
+          ],
+          "expected": {
+            "return_data": [
+              "1337"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g(uint256): 1337 -> 1338",
+          "instance": "B",
+          "method": "g(uint256)",
+          "calldata": [
+            "1337"
+          ],
+          "expected": {
+            "return_data": [
+              "1338"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "B": "B:B"
+  }
+}

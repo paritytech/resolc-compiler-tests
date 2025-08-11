@@ -1,0 +1,48 @@
+{
+  "cases": [
+    {
+      "name": "precompile_extcodesize_check",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "testHighLevel() -> 1",
+          "instance": "C",
+          "method": "testHighLevel()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "testLowLevel() -> 0xc76596d400000000000000000000000000000000000000000000000000000000",
+          "instance": "C",
+          "method": "testLowLevel()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "90189749399073340124083172608208815642393485993436412853902028917580719194112"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "testHighLevel2() -> FAILURE",
+          "instance": "C",
+          "method": "testHighLevel2()",
+          "calldata": [],
+          "expected": {
+            "exception": true
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "precompile_extcodesize_check.sol:C"
+  }
+}

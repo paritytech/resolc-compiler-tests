@@ -1,0 +1,29 @@
+{
+  "cases": [
+    {
+      "name": "calldata_arrays_too_large",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256,uint256[],uint256): 6, 0x60, 9, 0x1000000000000000000000000000000000000000000000000000000000000002, 1, 2 -> FAILURE",
+          "instance": "C",
+          "method": "f(uint256,uint256[],uint256)",
+          "calldata": [
+            "6",
+            "96",
+            "9",
+            "7237005577332262213973186563042994240829374041602535252466099000494570602498",
+            "1",
+            "2"
+          ],
+          "expected": {
+            "exception": true
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "calldata_arrays_too_large.sol:C"
+  }
+}

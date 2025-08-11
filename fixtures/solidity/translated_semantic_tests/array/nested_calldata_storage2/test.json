@@ -1,0 +1,68 @@
+{
+  "cases": [
+    {
+      "name": "nested_calldata_storage2",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "i(uint256[][]): 0x20, 2, 0x40, 0xC0, 3, 0x0A01, 0x0A02, 0x0A03, 4, 0x0B01, 0x0B02, 0x0B03, 0x0B04; gas irOptimized: 245506",
+          "instance": "C",
+          "method": "i(uint256[][])",
+          "calldata": [
+            "32",
+            "2",
+            "64",
+            "192",
+            "3",
+            "2561",
+            "2562",
+            "2563",
+            "4",
+            "2817",
+            "2818",
+            "2819",
+            "2820"
+          ],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "tmp_i(uint256,uint256): 0, 0 -> 0x0A01",
+          "instance": "C",
+          "method": "tmp_i(uint256,uint256)",
+          "calldata": [
+            "0",
+            "0"
+          ],
+          "expected": {
+            "return_data": [
+              "2561"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "tmp_i(uint256,uint256): 1, 0 -> 0x0B01",
+          "instance": "C",
+          "method": "tmp_i(uint256,uint256)",
+          "calldata": [
+            "1",
+            "0"
+          ],
+          "expected": {
+            "return_data": [
+              "2817"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "nested_calldata_storage2.sol:C"
+  }
+}

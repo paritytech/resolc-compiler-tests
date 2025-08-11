@@ -1,0 +1,22 @@
+{
+  "cases": [
+    {
+      "name": "nested_bytes_push",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f() ->; gas irOptimized: 179534; gas legacy: 181013; gas legacyOptimized: 180397",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "nested_bytes_push.sol:C"
+  }
+}

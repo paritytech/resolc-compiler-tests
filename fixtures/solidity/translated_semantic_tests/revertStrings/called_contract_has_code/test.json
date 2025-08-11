@@ -1,0 +1,22 @@
+{
+  "cases": [
+    {
+      "name": "called_contract_has_code",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g() -> FAILURE",
+          "instance": "C",
+          "method": "g()",
+          "calldata": [],
+          "expected": {
+            "exception": true
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "called_contract_has_code.sol:C"
+  }
+}

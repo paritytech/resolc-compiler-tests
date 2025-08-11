@@ -1,0 +1,32 @@
+{
+  "cases": [
+    {
+      "name": "using_library_structs",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f() -> 7, 8; gas irOptimized: 101818; gas legacy: 101428",
+          "instance": "Test",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "7",
+              "8"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "Lib": "using_library_structs.sol:Lib",
+    "Test": "using_library_structs.sol:Test"
+  },
+  "libraries": {
+    "using_library_structs.sol": {
+      "Lib": "Lib"
+    }
+  }
+}

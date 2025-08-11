@@ -1,0 +1,29 @@
+{
+  "cases": [
+    {
+      "name": "calldata_array_static_to_memory",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256[2]): 43, 57 -> 43, 57",
+          "instance": "C",
+          "method": "f(uint256[2])",
+          "calldata": [
+            "43",
+            "57"
+          ],
+          "expected": {
+            "return_data": [
+              "43",
+              "57"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "calldata_array_static_to_memory.sol:C"
+  }
+}

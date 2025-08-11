@@ -1,0 +1,71 @@
+{
+  "cases": [
+    {
+      "name": "byte_array_storage_layout",
+      "inputs": [
+        {
+          "comment": "storageEmpty -> 1",
+          "address": "c.address",
+          "is_storage_empty": true
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "test_short() -> 1780731860627700044960722568376587075150542249149356309979516913770823710; gas legacy: 59838; gas legacyOptimized: 58606",
+          "instance": "c",
+          "method": "test_short()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1780731860627700044960722568376587075150542249149356309979516913770823710"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "comment": "storageEmpty -> 0",
+          "address": "c.address",
+          "is_storage_empty": false
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "test_long() -> 67; gas irOptimized: 89148; gas legacy: 101607; gas legacyOptimized: 100479",
+          "instance": "c",
+          "method": "test_long()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "67"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "comment": "storageEmpty -> 0",
+          "address": "c.address",
+          "is_storage_empty": false
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "test_pop() -> 1780731860627700044960722568376592200742329637303199754547598369979433020; gas legacy: 61930; gas legacyOptimized: 59404",
+          "instance": "c",
+          "method": "test_pop()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1780731860627700044960722568376592200742329637303199754547598369979433020"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "comment": "storageEmpty -> 0",
+          "address": "c.address",
+          "is_storage_empty": false
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "c": "byte_array_storage_layout.sol:c"
+  }
+}

@@ -1,0 +1,391 @@
+{
+  "cases": [
+    {
+      "name": "calldata_overlapped_nested_dynamic_arrays",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f_memory(uint256[][]): 0x20, 2, 0x40, 0x40, 2, 1, 2 -> 0x20, 2, 0x40, 0xa0, 2, 1, 2, 2, 1, 2",
+          "instance": "C",
+          "method": "f_memory(uint256[][])",
+          "calldata": [
+            "32",
+            "2",
+            "64",
+            "64",
+            "2",
+            "1",
+            "2"
+          ],
+          "expected": {
+            "return_data": [
+              "32",
+              "2",
+              "64",
+              "160",
+              "2",
+              "1",
+              "2",
+              "2",
+              "1",
+              "2"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f_memory(uint256[][]): 0x20, 2, 0x40, 0x60, 2, 1, 2 -> 0x20, 2, 0x40, 0xa0, 2, 1, 2, 1, 2",
+          "instance": "C",
+          "method": "f_memory(uint256[][])",
+          "calldata": [
+            "32",
+            "2",
+            "64",
+            "96",
+            "2",
+            "1",
+            "2"
+          ],
+          "expected": {
+            "return_data": [
+              "32",
+              "2",
+              "64",
+              "160",
+              "2",
+              "1",
+              "2",
+              "1",
+              "2"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f_memory(uint256[][]): 0x20, 2, 0, 0x60, 2, 1, 2 -> 0x20, 2, 0x40, 0x60, 0, 1, 2",
+          "instance": "C",
+          "method": "f_memory(uint256[][])",
+          "calldata": [
+            "32",
+            "2",
+            "0",
+            "96",
+            "2",
+            "1",
+            "2"
+          ],
+          "expected": {
+            "return_data": [
+              "32",
+              "2",
+              "64",
+              "96",
+              "0",
+              "1",
+              "2"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f_memory(uint256[][]): 0x20, 2, 0, 0x60, 2, 2, 2 -> FAILURE",
+          "instance": "C",
+          "method": "f_memory(uint256[][])",
+          "calldata": [
+            "32",
+            "2",
+            "0",
+            "96",
+            "2",
+            "2",
+            "2"
+          ],
+          "expected": {
+            "exception": true
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f_encode(uint256[][]): 0x20, 2, 0x40, 0x40, 2, 1, 2 -> 0x20, 0x0140, 0x20, 2, 0x40, 0xa0, 2, 1, 2, 2, 1, 2",
+          "instance": "C",
+          "method": "f_encode(uint256[][])",
+          "calldata": [
+            "32",
+            "2",
+            "64",
+            "64",
+            "2",
+            "1",
+            "2"
+          ],
+          "expected": {
+            "return_data": [
+              "32",
+              "320",
+              "32",
+              "2",
+              "64",
+              "160",
+              "2",
+              "1",
+              "2",
+              "2",
+              "1",
+              "2"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f_encode(uint256[][]): 0x20, 2, 0x40, 0x60, 2, 1, 2 -> 0x20, 0x0120, 0x20, 2, 0x40, 0xa0, 2, 1, 2, 1, 2",
+          "instance": "C",
+          "method": "f_encode(uint256[][])",
+          "calldata": [
+            "32",
+            "2",
+            "64",
+            "96",
+            "2",
+            "1",
+            "2"
+          ],
+          "expected": {
+            "return_data": [
+              "32",
+              "288",
+              "32",
+              "2",
+              "64",
+              "160",
+              "2",
+              "1",
+              "2",
+              "1",
+              "2"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f_encode(uint256[][]): 0x20, 2, 0, 0x60, 2, 1, 2 -> 0x20, 0xe0, 0x20, 2, 0x40, 0x60, 0, 1, 2",
+          "instance": "C",
+          "method": "f_encode(uint256[][])",
+          "calldata": [
+            "32",
+            "2",
+            "0",
+            "96",
+            "2",
+            "1",
+            "2"
+          ],
+          "expected": {
+            "return_data": [
+              "32",
+              "224",
+              "32",
+              "2",
+              "64",
+              "96",
+              "0",
+              "1",
+              "2"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f_encode(uint256[][]): 0x20, 2, 0, 0x60, 2, 2, 2 -> FAILURE",
+          "instance": "C",
+          "method": "f_encode(uint256[][])",
+          "calldata": [
+            "32",
+            "2",
+            "0",
+            "96",
+            "2",
+            "2",
+            "2"
+          ],
+          "expected": {
+            "exception": true
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f_which(uint256[][],uint256): 0x40, 0, 2, 0x40, 0x40, 2, 1, 2 -> 0x20, 2, 1, 2",
+          "instance": "C",
+          "method": "f_which(uint256[][],uint256)",
+          "calldata": [
+            "64",
+            "0",
+            "2",
+            "64",
+            "64",
+            "2",
+            "1",
+            "2"
+          ],
+          "expected": {
+            "return_data": [
+              "32",
+              "2",
+              "1",
+              "2"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f_which(uint256[][],uint256): 0x40, 1, 2, 0x40, 0x40, 2, 1, 2 -> 0x20, 2, 1, 2",
+          "instance": "C",
+          "method": "f_which(uint256[][],uint256)",
+          "calldata": [
+            "64",
+            "1",
+            "2",
+            "64",
+            "64",
+            "2",
+            "1",
+            "2"
+          ],
+          "expected": {
+            "return_data": [
+              "32",
+              "2",
+              "1",
+              "2"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f_which(uint256[][],uint256): 0x40, 0, 2, 0x40, 0x60, 2, 1, 2 -> 0x20, 2, 1, 2",
+          "instance": "C",
+          "method": "f_which(uint256[][],uint256)",
+          "calldata": [
+            "64",
+            "0",
+            "2",
+            "64",
+            "96",
+            "2",
+            "1",
+            "2"
+          ],
+          "expected": {
+            "return_data": [
+              "32",
+              "2",
+              "1",
+              "2"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f_which(uint256[][],uint256): 0x40, 1, 2, 0x40, 0x60, 2, 1, 2 -> 0x20, 1, 2",
+          "instance": "C",
+          "method": "f_which(uint256[][],uint256)",
+          "calldata": [
+            "64",
+            "1",
+            "2",
+            "64",
+            "96",
+            "2",
+            "1",
+            "2"
+          ],
+          "expected": {
+            "return_data": [
+              "32",
+              "1",
+              "2"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f_which(uint256[][],uint256): 0x40, 0, 2, 0, 0x60, 2, 1, 2 -> 0x20, 0",
+          "instance": "C",
+          "method": "f_which(uint256[][],uint256)",
+          "calldata": [
+            "64",
+            "0",
+            "2",
+            "0",
+            "96",
+            "2",
+            "1",
+            "2"
+          ],
+          "expected": {
+            "return_data": [
+              "32",
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f_which(uint256[][],uint256): 0x40, 1, 2, 0, 0x60, 2, 1, 2 -> 0x20, 1, 2",
+          "instance": "C",
+          "method": "f_which(uint256[][],uint256)",
+          "calldata": [
+            "64",
+            "1",
+            "2",
+            "0",
+            "96",
+            "2",
+            "1",
+            "2"
+          ],
+          "expected": {
+            "return_data": [
+              "32",
+              "1",
+              "2"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f_which(uint256[][],uint256): 0x40, 1, 2, 0, 0x60, 2, 2, 2 -> FAILURE",
+          "instance": "C",
+          "method": "f_which(uint256[][],uint256)",
+          "calldata": [
+            "64",
+            "1",
+            "2",
+            "0",
+            "96",
+            "2",
+            "2",
+            "2"
+          ],
+          "expected": {
+            "exception": true
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "calldata_overlapped_nested_dynamic_arrays.sol:C"
+  }
+}

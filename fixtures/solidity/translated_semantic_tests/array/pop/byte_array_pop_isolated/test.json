@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "byte_array_pop_isolated",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "test() -> 3",
+          "instance": "c",
+          "method": "test()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "3"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "c": "byte_array_pop_isolated.sol:c"
+  }
+}

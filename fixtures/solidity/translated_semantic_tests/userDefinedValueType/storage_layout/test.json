@@ -1,0 +1,110 @@
+{
+  "cases": [
+    {
+      "name": "storage_layout",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "storage_a() -> 0, 0",
+          "instance": "C",
+          "method": "storage_a()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0",
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "storage_b() -> 0, 1",
+          "instance": "C",
+          "method": "storage_b()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0",
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "storage_c() -> 0, 2",
+          "instance": "C",
+          "method": "storage_c()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0",
+              "2"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "storage_d() -> 0, 3",
+          "instance": "C",
+          "method": "storage_d()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0",
+              "3"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "storage_e() -> 1, 0",
+          "instance": "C",
+          "method": "storage_e()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1",
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "storage_f() -> 2, 0",
+          "instance": "C",
+          "method": "storage_f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "2",
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "storage_g() -> 2, 0x14",
+          "instance": "C",
+          "method": "storage_g()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "2",
+              "20"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "storage_layout.sol:C"
+  }
+}

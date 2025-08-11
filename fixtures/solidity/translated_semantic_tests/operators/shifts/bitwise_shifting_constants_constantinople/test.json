@@ -1,0 +1,90 @@
+{
+  "cases": [
+    {
+      "name": "bitwise_shifting_constants_constantinople",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "shl_1() -> 0x01",
+          "instance": "C",
+          "method": "shl_1()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "shl_2() -> 0x01",
+          "instance": "C",
+          "method": "shl_2()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "shl_3() -> 0x01",
+          "instance": "C",
+          "method": "shl_3()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "shr_1() -> 0x01",
+          "instance": "C",
+          "method": "shr_1()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "shr_2() -> 0x01",
+          "instance": "C",
+          "method": "shr_2()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "shr_3() -> 0x01",
+          "instance": "C",
+          "method": "shr_3()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "bitwise_shifting_constants_constantinople.sol:C"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "code_access_runtime",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "test() -> 42; gas legacy: 76034; gas legacy code: 24200",
+          "instance": "C",
+          "method": "test()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "42"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "code_access_runtime.sol:C"
+  }
+}

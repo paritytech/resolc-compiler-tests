@@ -1,0 +1,31 @@
+{
+  "cases": [
+    {
+      "name": "calldata_attached_to_struct",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "test(uint256,(uint256,uint256),uint256): 7, 66, 77, 4 -> 77, 66",
+          "instance": "C",
+          "method": "test(uint256,(uint256,uint256),uint256)",
+          "calldata": [
+            "7",
+            "66",
+            "77",
+            "4"
+          ],
+          "expected": {
+            "return_data": [
+              "77",
+              "66"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "calldata_attached_to_struct.sol:C"
+  }
+}

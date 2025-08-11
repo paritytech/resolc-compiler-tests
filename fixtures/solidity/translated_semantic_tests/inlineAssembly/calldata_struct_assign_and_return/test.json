@@ -1,0 +1,84 @@
+{
+  "cases": [
+    {
+      "name": "calldata_struct_assign_and_return",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g(): 0xCAFFEE, 0x42, 0x21 -> 0x42, 0x21",
+          "instance": "C",
+          "method": "g()",
+          "calldata": [
+            "13303790",
+            "66",
+            "33"
+          ],
+          "expected": {
+            "return_data": [
+              "66",
+              "33"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g(): 0xCAFFEE, 0x4242, 0x2121 -> FAILURE",
+          "instance": "C",
+          "method": "g()",
+          "calldata": [
+            "13303790",
+            "16962",
+            "8481"
+          ],
+          "expected": {
+            "exception": true
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g(): 0xCAFFEE, 0x42 -> 0x42, 0",
+          "instance": "C",
+          "method": "g()",
+          "calldata": [
+            "13303790",
+            "66"
+          ],
+          "expected": {
+            "return_data": [
+              "66",
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "h() -> 0x42",
+          "instance": "C",
+          "method": "h()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "66"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "i() -> FAILURE",
+          "instance": "C",
+          "method": "i()",
+          "calldata": [],
+          "expected": {
+            "exception": true
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "calldata_struct_assign_and_return.sol:C"
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "cases": [
+    {
+      "name": "array_memory_index_access",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "index(uint256): 0 -> true",
+          "instance": "C",
+          "method": "index(uint256)",
+          "calldata": [
+            "0"
+          ],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "index(uint256): 10 -> true",
+          "instance": "C",
+          "method": "index(uint256)",
+          "calldata": [
+            "10"
+          ],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "index(uint256): 20 -> true",
+          "instance": "C",
+          "method": "index(uint256)",
+          "calldata": [
+            "20"
+          ],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "index(uint256): 0xFF -> true; gas irOptimized: 108272; gas legacy: 181536; gas legacyOptimized: 117442",
+          "instance": "C",
+          "method": "index(uint256)",
+          "calldata": [
+            "255"
+          ],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "accessIndex(uint256,int256): 10, 1 -> 2",
+          "instance": "C",
+          "method": "accessIndex(uint256,int256)",
+          "calldata": [
+            "10",
+            "1"
+          ],
+          "expected": {
+            "return_data": [
+              "2"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "accessIndex(uint256,int256): 10, 0 -> 1",
+          "instance": "C",
+          "method": "accessIndex(uint256,int256)",
+          "calldata": [
+            "10",
+            "0"
+          ],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "accessIndex(uint256,int256): 10, 11 -> FAILURE, hex\"4e487b71\", 0x32",
+          "instance": "C",
+          "method": "accessIndex(uint256,int256)",
+          "calldata": [
+            "10",
+            "11"
+          ],
+          "expected": {
+            "return_data": [
+              "1313373041",
+              "50"
+            ],
+            "exception": true
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "accessIndex(uint256,int256): 10, 10 -> FAILURE, hex\"4e487b71\", 0x32",
+          "instance": "C",
+          "method": "accessIndex(uint256,int256)",
+          "calldata": [
+            "10",
+            "10"
+          ],
+          "expected": {
+            "return_data": [
+              "1313373041",
+              "50"
+            ],
+            "exception": true
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "accessIndex(uint256,int256): 10, -1 -> FAILURE, hex\"4e487b71\", 0x32",
+          "instance": "C",
+          "method": "accessIndex(uint256,int256)",
+          "calldata": [
+            "10",
+            "115792089237316195423570985008687907853269984665640564039457584007913129639935"
+          ],
+          "expected": {
+            "return_data": [
+              "1313373041",
+              "50"
+            ],
+            "exception": true
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "array_memory_index_access.sol:C"
+  }
+}

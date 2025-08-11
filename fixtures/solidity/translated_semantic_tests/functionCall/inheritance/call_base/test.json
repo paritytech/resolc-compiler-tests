@@ -1,0 +1,27 @@
+{
+  "cases": [
+    {
+      "name": "call_base",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g(uint256): 4 -> 8",
+          "instance": "Child",
+          "method": "g(uint256)",
+          "calldata": [
+            "4"
+          ],
+          "expected": {
+            "return_data": [
+              "8"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "Child": "call_base.sol:Child"
+  }
+}

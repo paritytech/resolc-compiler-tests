@@ -1,0 +1,35 @@
+{
+  "cases": [
+    {
+      "name": "calldata_struct_with_bytes_to_memory",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f((uint256,bytes,uint256)): 0x20, 42, 0x60, 23, 2, \"ab\" -> 42, \"a\", \"b\", 23",
+          "instance": "C",
+          "method": "f((uint256,bytes,uint256))",
+          "calldata": [
+            "32",
+            "42",
+            "96",
+            "23",
+            "2",
+            "24930"
+          ],
+          "expected": {
+            "return_data": [
+              "42",
+              "97",
+              "98",
+              "23"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "calldata_struct_with_bytes_to_memory.sol:C"
+  }
+}

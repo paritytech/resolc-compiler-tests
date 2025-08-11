@@ -1,0 +1,31 @@
+{
+  "cases": [
+    {
+      "name": "function_type_library_internal",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256[]): 0x20, 0x3, 0x1, 0x7, 0x3 -> 11",
+          "instance": "C",
+          "method": "f(uint256[])",
+          "calldata": [
+            "32",
+            "3",
+            "1",
+            "7",
+            "3"
+          ],
+          "expected": {
+            "return_data": [
+              "11"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "function_type_library_internal.sol:C"
+  }
+}

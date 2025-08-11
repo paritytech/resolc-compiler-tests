@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "overloaded_function_call_resolve_to_second",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g() -> 10",
+          "instance": "test",
+          "method": "g()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "10"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "test": "overloaded_function_call_resolve_to_second.sol:test"
+  }
+}

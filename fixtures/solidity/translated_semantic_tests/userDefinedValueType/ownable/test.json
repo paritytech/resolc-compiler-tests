@@ -1,0 +1,85 @@
+{
+  "cases": [
+    {
+      "name": "ownable",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "owner() -> 0x1212121212121212121212121212120000000012",
+          "instance": "Ownable",
+          "method": "owner()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "103164821458651970696730694074090566015747358738"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "setOwner(address): 0x1212121212121212121212121212120000000012 ->; ~ emit OwnershipTransferred(address,address): #0x1212121212121212121212121212120000000012, #0x1212121212121212121212121212120000000012",
+          "instance": "Ownable",
+          "method": "setOwner(address)",
+          "calldata": [
+            "103164821458651970696730694074090566015747358738"
+          ],
+          "expected": {
+            "events": [
+              {
+                "topics": [
+                  "8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0",
+                  "103164821458651970696730694074090566015747358738",
+                  "103164821458651970696730694074090566015747358738"
+                ],
+                "values": []
+              }
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "renounceOwnership() ->",
+          "instance": "Ownable",
+          "method": "renounceOwnership()",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "owner() -> 0",
+          "instance": "Ownable",
+          "method": "owner()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "setOwner(address): 0x1212121212121212121212121212120000000012 -> FAILURE, hex\"5fc483c5\"",
+          "instance": "Ownable",
+          "method": "setOwner(address)",
+          "calldata": [
+            "103164821458651970696730694074090566015747358738"
+          ],
+          "expected": {
+            "return_data": [
+              "1606714309"
+            ],
+            "exception": true
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "Ownable": "ownable.sol:Ownable"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "cases": [
+    {
+      "name": "calldata_2d_bytes_to_memory_2",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(bytes[2]): 0x20, 0x40, 0x40, 2, \"ab\" ->",
+          "instance": "C",
+          "method": "f(bytes[2])",
+          "calldata": [
+            "32",
+            "64",
+            "64",
+            "2",
+            "24930"
+          ],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(bytes[2]): 0x20, 0x40, 0x40, 1, \"a\" -> FAILURE, hex\"4e487b71\", 0x01",
+          "instance": "C",
+          "method": "f(bytes[2])",
+          "calldata": [
+            "32",
+            "64",
+            "64",
+            "1",
+            "97"
+          ],
+          "expected": {
+            "return_data": [
+              "1313373041",
+              "1"
+            ],
+            "exception": true
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "calldata_2d_bytes_to_memory_2.sol:C"
+  }
+}

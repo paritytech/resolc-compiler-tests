@@ -1,0 +1,28 @@
+{
+  "cases": [
+    {
+      "name": "transient_storage_state_variable_abstract_contract",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f() -> 1, 1, 2, 2",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1",
+              "1",
+              "2",
+              "2"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "transient_storage_state_variable_abstract_contract.sol:C"
+  }
+}

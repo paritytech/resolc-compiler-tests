@@ -1,0 +1,28 @@
+{
+  "cases": [
+    {
+      "name": "abi_encode_decode_simple",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f() -> 0x21, 0x40, 0x7, \"abcdefg\"",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "33",
+              "64",
+              "7",
+              "27411251766584935"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "abi_encode_decode_simple.sol:C"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "cases": [
+    {
+      "name": "simple_throw",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256): 11 -> 21",
+          "instance": "Test",
+          "method": "f(uint256)",
+          "calldata": [
+            "11"
+          ],
+          "expected": {
+            "return_data": [
+              "21"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256): 1 -> FAILURE",
+          "instance": "Test",
+          "method": "f(uint256)",
+          "calldata": [
+            "1"
+          ],
+          "expected": {
+            "exception": true
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "Test": "simple_throw.sol:Test"
+  }
+}

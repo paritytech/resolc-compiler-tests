@@ -1,0 +1,27 @@
+{
+  "cases": [
+    {
+      "name": "calldata_array_dynamic_static_short_decode",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256[][2][]): 0x20, 0x01, 0x20, 0x00 -> FAILURE",
+          "instance": "C",
+          "method": "f(uint256[][2][])",
+          "calldata": [
+            "32",
+            "1",
+            "32",
+            "0"
+          ],
+          "expected": {
+            "exception": true
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "calldata_array_dynamic_static_short_decode.sol:C"
+  }
+}

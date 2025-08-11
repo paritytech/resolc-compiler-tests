@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "dirty_memory_bytes_to_storage_copy_ir",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f() -> 0x6465616462656566000000000000000000000000000000000000000000000010",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "45410408587621877568969501621033545682995241846992388239040188046512268247056"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "dirty_memory_bytes_to_storage_copy_ir.sol:C"
+  }
+}

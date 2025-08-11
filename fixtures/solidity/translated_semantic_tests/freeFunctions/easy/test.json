@@ -1,0 +1,27 @@
+{
+  "cases": [
+    {
+      "name": "easy",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256): 7 -> 9",
+          "instance": "C",
+          "method": "f(uint256)",
+          "calldata": [
+            "7"
+          ],
+          "expected": {
+            "return_data": [
+              "9"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "easy.sol:C"
+  }
+}

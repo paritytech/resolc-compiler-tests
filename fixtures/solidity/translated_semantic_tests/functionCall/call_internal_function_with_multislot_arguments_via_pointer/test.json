@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "call_internal_function_with_multislot_arguments_via_pointer",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "test() -> 12",
+          "instance": "C",
+          "method": "test()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "12"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "call_internal_function_with_multislot_arguments_via_pointer.sol:C"
+  }
+}

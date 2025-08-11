@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "return_size_shorter_than_expected",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "test() -> 0x0500; gas legacy: 131966",
+          "instance": "Test",
+          "method": "test()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1280"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "Test": "return_size_shorter_than_expected.sol:Test"
+  }
+}

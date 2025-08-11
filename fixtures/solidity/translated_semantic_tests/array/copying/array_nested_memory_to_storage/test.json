@@ -1,0 +1,64 @@
+{
+  "cases": [
+    {
+      "name": "array_nested_memory_to_storage",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "test() -> 24; gas irOptimized: 226734; gas legacy: 227083; gas legacyOptimized: 226529",
+          "instance": "Test",
+          "method": "test()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "24"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "test1() -> 3",
+          "instance": "Test",
+          "method": "test1()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "3"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "test2() -> 6",
+          "instance": "Test",
+          "method": "test2()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "6"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "test3() -> 24; gas irOptimized: 141319; gas legacy: 142238; gas legacyOptimized: 141365",
+          "instance": "Test",
+          "method": "test3()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "24"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "Test": "array_nested_memory_to_storage.sol:Test"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "cases": [
+    {
+      "name": "use_scratch",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "constructor(): 3 ->; gas irOptimized: 81194; gas irOptimized code: 42400; gas legacy: 88244; gas legacy code: 109400; gas legacyOptimized: 81858; gas legacyOptimized code: 55800",
+          "instance": "C",
+          "method": "#deployer",
+          "calldata": [
+            "3"
+          ],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f() -> 84, 23",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "84",
+              "23"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "m(uint256): 3 -> 7",
+          "instance": "C",
+          "method": "m(uint256)",
+          "calldata": [
+            "3"
+          ],
+          "expected": {
+            "return_data": [
+              "7"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "use_scratch.sol:C"
+  }
+}

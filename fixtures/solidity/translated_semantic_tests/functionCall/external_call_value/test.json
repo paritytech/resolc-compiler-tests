@@ -1,0 +1,46 @@
+{
+  "cases": [
+    {
+      "name": "external_call_value",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g(uint256), 1 ether: 4 -> 1000000000000000000000, 4",
+          "instance": "C",
+          "method": "g(uint256)",
+          "calldata": [
+            "4"
+          ],
+          "expected": {
+            "return_data": [
+              "1000000000000000000000",
+              "4"
+            ],
+            "exception": false
+          },
+          "value": "1000000000000000000 wei"
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256), 11 ether: 2 -> 10000, 2",
+          "instance": "C",
+          "method": "f(uint256)",
+          "calldata": [
+            "2"
+          ],
+          "expected": {
+            "return_data": [
+              "10000",
+              "2"
+            ],
+            "exception": false
+          },
+          "value": "11000000000000000000 wei"
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "external_call_value.sol:C"
+  }
+}

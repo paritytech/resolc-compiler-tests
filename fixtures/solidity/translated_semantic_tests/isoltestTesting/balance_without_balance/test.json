@@ -1,0 +1,22 @@
+{
+  "cases": [
+    {
+      "name": "balance_without_balance",
+      "inputs": [
+        {
+          "comment": "balance -> 0",
+          "address": "ClientReceipt.address",
+          "expected_balance": "0x0"
+        },
+        {
+          "comment": "balance: 0x0000000000000000000000000000000000000000 -> 0",
+          "address": "0x0000000000000000000000000000000000000000",
+          "expected_balance": "0x0"
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "ClientReceipt": "balance_without_balance.sol:ClientReceipt"
+  }
+}

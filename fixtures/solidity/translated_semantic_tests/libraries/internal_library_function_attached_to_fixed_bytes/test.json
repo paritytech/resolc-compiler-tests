@@ -1,0 +1,28 @@
+{
+  "cases": [
+    {
+      "name": "internal_library_function_attached_to_fixed_bytes",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "sum(bytes2,bytes2): left(0x1100), left(0x0022) -> left(0x1122)",
+          "instance": "C",
+          "method": "sum(bytes2,bytes2)",
+          "calldata": [
+            "7689318425915528602346510723233181380881209919202693705745230188025481265152",
+            "15378636851831057204693021446466362761762419838405387411490460376050962530304"
+          ],
+          "expected": {
+            "return_data": [
+              "7749391226117993669552342838258440610419344371696464750321364798869430337536"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "internal_library_function_attached_to_fixed_bytes.sol:C"
+  }
+}

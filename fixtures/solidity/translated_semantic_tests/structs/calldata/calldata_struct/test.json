@@ -1,0 +1,29 @@
+{
+  "cases": [
+    {
+      "name": "calldata_struct",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f((uint256,uint256)): 42, 23 -> 42, 23",
+          "instance": "C",
+          "method": "f((uint256,uint256))",
+          "calldata": [
+            "42",
+            "23"
+          ],
+          "expected": {
+            "return_data": [
+              "42",
+              "23"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "calldata_struct.sol:C"
+  }
+}

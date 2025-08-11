@@ -1,0 +1,26 @@
+{
+  "cases": [
+    {
+      "name": "mapping_string_key",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "set(string): 0x20, 32, \"01234567890123456789012345678901\" ->",
+          "instance": "C",
+          "method": "set(string)",
+          "calldata": [
+            "32",
+            "32",
+            "21797938705943676250364201203381343399167106211923824075541142215201130098737"
+          ],
+          "expected": {
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "mapping_string_key.sol:C"
+  }
+}

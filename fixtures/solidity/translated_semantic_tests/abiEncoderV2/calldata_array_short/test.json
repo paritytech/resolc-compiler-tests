@@ -1,0 +1,51 @@
+{
+  "cases": [
+    {
+      "name": "calldata_array_short",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256[]): 0x20, 0 ->",
+          "instance": "C",
+          "method": "f(uint256[])",
+          "calldata": [
+            "32",
+            "0"
+          ],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256[]): 0x20, 1 -> FAILURE",
+          "instance": "C",
+          "method": "f(uint256[])",
+          "calldata": [
+            "32",
+            "1"
+          ],
+          "expected": {
+            "exception": true
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(uint256[]): 0x20, 2 -> FAILURE",
+          "instance": "C",
+          "method": "f(uint256[])",
+          "calldata": [
+            "32",
+            "2"
+          ],
+          "expected": {
+            "exception": true
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "calldata_array_short.sol:C"
+  }
+}

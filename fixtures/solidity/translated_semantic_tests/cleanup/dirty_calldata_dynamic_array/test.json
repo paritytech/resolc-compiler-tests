@@ -1,0 +1,30 @@
+{
+  "cases": [
+    {
+      "name": "dirty_calldata_dynamic_array",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(int16[]): 0x20, 0x02, 0x7fff, 0x7fff -> true",
+          "instance": "C",
+          "method": "f(int16[])",
+          "calldata": [
+            "32",
+            "2",
+            "32767",
+            "32767"
+          ],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "dirty_calldata_dynamic_array.sol:C"
+  }
+}

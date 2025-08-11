@@ -1,0 +1,33 @@
+{
+  "cases": [
+    {
+      "name": "external_call_with_storage_mapping_parameter",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g(uint256): 4 -> 16",
+          "instance": "C",
+          "method": "g(uint256)",
+          "calldata": [
+            "4"
+          ],
+          "expected": {
+            "return_data": [
+              "16"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "external_call_with_storage_mapping_parameter.sol:C",
+    "L": "external_call_with_storage_mapping_parameter.sol:L"
+  },
+  "libraries": {
+    "external_call_with_storage_mapping_parameter.sol": {
+      "L": "L"
+    }
+  }
+}

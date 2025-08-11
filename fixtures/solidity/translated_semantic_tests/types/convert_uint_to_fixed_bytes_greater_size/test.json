@@ -1,0 +1,27 @@
+{
+  "cases": [
+    {
+      "name": "convert_uint_to_fixed_bytes_greater_size",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "UintToBytes(uint16): 0x6162 -> \"\\x00\\x00\\x00\\x00\\x00\\x00ab\"",
+          "instance": "Test",
+          "method": "UintToBytes(uint16)",
+          "calldata": [
+            "24930"
+          ],
+          "expected": {
+            "return_data": [
+              "24930"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "Test": "convert_uint_to_fixed_bytes_greater_size.sol:Test"
+  }
+}

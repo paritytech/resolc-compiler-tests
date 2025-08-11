@@ -1,0 +1,78 @@
+{
+  "cases": [
+    {
+      "name": "array_memory_as_parameter",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "test(uint256,uint256): 0, 0 -> FAILURE, hex\"4e487b71\", 0x32",
+          "instance": "C",
+          "method": "test(uint256,uint256)",
+          "calldata": [
+            "0",
+            "0"
+          ],
+          "expected": {
+            "return_data": [
+              "1313373041",
+              "50"
+            ],
+            "exception": true
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "test(uint256,uint256): 1, 0 -> 1",
+          "instance": "C",
+          "method": "test(uint256,uint256)",
+          "calldata": [
+            "1",
+            "0"
+          ],
+          "expected": {
+            "return_data": [
+              "1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "test(uint256,uint256): 10, 5 -> 6",
+          "instance": "C",
+          "method": "test(uint256,uint256)",
+          "calldata": [
+            "10",
+            "5"
+          ],
+          "expected": {
+            "return_data": [
+              "6"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "test(uint256,uint256): 10, 50 -> FAILURE, hex\"4e487b71\", 0x32",
+          "instance": "C",
+          "method": "test(uint256,uint256)",
+          "calldata": [
+            "10",
+            "50"
+          ],
+          "expected": {
+            "return_data": [
+              "1313373041",
+              "50"
+            ],
+            "exception": true
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "array_memory_as_parameter.sol:C"
+  }
+}

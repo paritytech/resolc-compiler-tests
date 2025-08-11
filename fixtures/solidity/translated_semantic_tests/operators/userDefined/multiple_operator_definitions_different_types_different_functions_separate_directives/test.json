@@ -1,0 +1,38 @@
+{
+  "cases": [
+    {
+      "name": "multiple_operator_definitions_different_types_different_functions_separate_directives",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "small() -> 3",
+          "instance": "C",
+          "method": "small()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "3"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "big() -> 70",
+          "instance": "C",
+          "method": "big()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "70"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "multiple_operator_definitions_different_types_different_functions_separate_directives.sol:C"
+  }
+}

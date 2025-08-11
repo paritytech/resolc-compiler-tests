@@ -1,0 +1,89 @@
+{
+  "cases": [
+    {
+      "name": "byte_array_to_storage_cleanup",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "constructor() ->; gas irOptimized: 82100; gas irOptimized code: 357600; gas legacy: 101532; gas legacy code: 604800; gas legacyOptimized: 84956; gas legacyOptimized code: 391800",
+          "instance": "C",
+          "method": "#deployer",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "h() -> 0x20, 0x40, 0x00, 0; ~ emit ev(uint256[],uint256): 0x40, 0x21, 0x02, 0x00, 0x00",
+          "instance": "C",
+          "method": "h()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "32",
+              "64",
+              "0",
+              "0"
+            ],
+            "events": [
+              {
+                "topics": [
+                  "3b9e7856b49054373bb5f581f0954bf57afd344770e4a2c77a1f44e6d973e921"
+                ],
+                "values": [
+                  "64",
+                  "33",
+                  "2",
+                  "0",
+                  "0"
+                ]
+              }
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g() -> 0x20, 0x40, 0, 0x00",
+          "instance": "C",
+          "method": "g()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "32",
+              "64",
+              "0",
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f(bytes): 0x20, 33, 0, -1 -> 0x20, 0x22, 0, 0xff00000000000000000000000000000000000000000000000000000000000000",
+          "instance": "C",
+          "method": "f(bytes)",
+          "calldata": [
+            "32",
+            "33",
+            "0",
+            "115792089237316195423570985008687907853269984665640564039457584007913129639935"
+          ],
+          "expected": {
+            "return_data": [
+              "32",
+              "34",
+              "0",
+              "115339776388732929035197660848497720713218148788040405586178452820382218977280"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "byte_array_to_storage_cleanup.sol:C"
+  }
+}

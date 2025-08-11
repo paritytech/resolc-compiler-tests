@@ -1,0 +1,22 @@
+{
+  "cases": [
+    {
+      "name": "negative_stack_height",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "constructor() ->; gas legacy: 92268; gas legacy code: 483000; gas legacyOptimized: 75022; gas legacyOptimized code: 270000",
+          "instance": "C",
+          "method": "#deployer",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "negative_stack_height.sol:C"
+  }
+}

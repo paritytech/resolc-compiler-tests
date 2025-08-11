@@ -1,0 +1,28 @@
+{
+  "cases": [
+    {
+      "name": "inline_assembly_embedded_function_call",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "f() -> 0x1, 0x4, 0x7, 0x10",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "1",
+              "4",
+              "7",
+              "16"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "inline_assembly_embedded_function_call.sol:C"
+  }
+}

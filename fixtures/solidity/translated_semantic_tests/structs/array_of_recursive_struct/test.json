@@ -1,0 +1,22 @@
+{
+  "cases": [
+    {
+      "name": "array_of_recursive_struct",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "func() ->",
+          "instance": "Test",
+          "method": "func()",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "Test": "array_of_recursive_struct.sol:Test"
+  }
+}

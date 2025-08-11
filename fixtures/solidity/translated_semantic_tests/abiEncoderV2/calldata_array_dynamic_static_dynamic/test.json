@@ -1,0 +1,56 @@
+{
+  "cases": [
+    {
+      "name": "calldata_array_dynamic_static_dynamic",
+      "inputs": [
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "g() -> 32, 196, hex\"eccb829a\", 32, 1, 32, 32, 1, 42, hex\"00000000000000000000000000000000000000000000000000000000\"",
+          "instance": "C",
+          "method": "g()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "32",
+              "196",
+              "3972760218",
+              "32",
+              "1",
+              "32",
+              "32",
+              "1",
+              "42",
+              "0"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1212121212121212121212121212120000000012",
+          "comment": "h() -> 32, 196, hex\"eccb829a\", 32, 1, 32, 32, 1, 42, hex\"00000000000000000000000000000000000000000000000000000000\"",
+          "instance": "C",
+          "method": "h()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "32",
+              "196",
+              "3972760218",
+              "32",
+              "1",
+              "32",
+              "32",
+              "1",
+              "42",
+              "0"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "calldata_array_dynamic_static_dynamic.sol:C"
+  }
+}

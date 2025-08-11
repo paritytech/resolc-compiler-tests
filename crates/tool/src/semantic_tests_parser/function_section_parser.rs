@@ -1347,14 +1347,13 @@ pub fn hex_char_to_t<T: TryFrom<i32, Error: Debug>>(char: char) -> T {
 mod test {
     use std::fs::read_to_string;
 
+    use revive_dt_common::iterators::FilesWithExtensionIterator;
+
     use alloy::primitives::{Address, FixedBytes};
     use indoc::indoc;
 
-    use crate::{
-        common::FilesWithExtensionIterator, semantic_tests_parser::section::*,
-    };
-
     use super::*;
+    use crate::semantic_tests_parser::section::*;
 
     #[test]
     fn tokenization_is_done_correctly() {

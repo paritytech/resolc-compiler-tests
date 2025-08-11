@@ -717,10 +717,11 @@ fn unescape_string(str: &str) -> Result<Vec<u8>> {
 
 #[cfg(test)]
 mod tests {
-    use crate::common::FilesWithExtensionIterator;
+    use revive_dt_common::iterators::*;
+
+    use alloy::primitives::uint;
 
     use super::*;
-    use alloy::primitives::uint;
 
     #[test]
     fn test_align_left() {

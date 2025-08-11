@@ -4,6 +4,8 @@ use std::{
     path::{Path, PathBuf},
 };
 
+use revive_dt_common::iterators::FilesWithExtensionIterator;
+
 use alloy::primitives::{Address, FixedBytes};
 use alloy::{hex, primitives::U256};
 use anyhow::{Context, Result, bail};

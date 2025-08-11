@@ -1974,7 +1974,7 @@ checksum = "2b15c43186be67a4fd63bee50d0303afffcef381492ebe2c5d87f324e1b8815c"
 [[package]]
 name = "revive-dt-common"
 version = "0.1.0"
-source = "git+https://github.com/paritytech/revive-differential-tests?branch=main#64d63ef999ff0eb7621c24f55244b86f6ea360f1"
+source = "git+https://github.com/paritytech/revive-differential-tests?rev=67d767ffde29910f55761926d23072737e376a4b#67d767ffde29910f55761926d23072737e376a4b"
 dependencies = [
  "anyhow",
  "semver 1.0.26",

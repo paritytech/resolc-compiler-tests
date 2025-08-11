@@ -297,8 +297,7 @@ mod test {
     use std::fs::read_to_string;
 
     use indoc::indoc;
-
-    use crate::common::FilesWithExtensionIterator;
+    use revive_dt_common::iterators::*;
 
     use super::*;
 

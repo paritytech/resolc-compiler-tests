@@ -51,13 +51,15 @@ impl SemanticTestSections {
         Ok(Self(sections.into_iter().collect()))
     }
 
-    pub fn main_contract_ident(&self) -> Option<String> {
+    pub fn main_contract_ident_and_path(
+        &self,
+    ) -> Option<(Option<&PathBuf>, String)> {
         static REGEX: LazyLock<Regex> = LazyLock::new(|| {
-            Regex::new(r"(?m)^\s*(contract|library)\s+([A-Za-z0-9_]+)")
+            Regex::new(r"(?m)^\s*(?:contract|library)\s+([A-Za-z0-9_]+)")
                 .expect("valid regex for contract identifier")
         });
 
-        let (_, final_source_code) =
+        let (file_name, final_source_code) =
             self.0.iter().rev().find_map(|section| match section {
                 SemanticTestSection::SourceCode { file_name, content } => {
                     Some((file_name, content))
@@ -70,7 +72,10 @@ impl SemanticTestSections {
         let captures =
             REGEX.captures_iter(final_source_code).collect::<Vec<_>>();
         let last_capture = captures.last()?;
-        last_capture.get(1).map(|m| m.as_str().to_string())
+        last_capture
+            .get(1)
+            .map(|m| m.as_str().to_string())
+            .map(|ident| (file_name.as_ref(), ident))
     }
 }
 
@@ -433,7 +438,7 @@ mod test {
             }
 
             assert!(
-                sections.main_contract_ident().is_some(),
+                sections.main_contract_ident_and_path().is_some(),
                 "No main contract found in semantic test in {}",
                 file.display()
             );

@@ -5,3 +5,5 @@ mod function_section_parser;
 mod section;
 mod semantic_test;
 mod test_configuration;
+
+pub use semantic_test::*;

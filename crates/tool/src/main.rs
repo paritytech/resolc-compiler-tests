@@ -9,7 +9,9 @@ use std::path::PathBuf;
 use anyhow::Result;
 use clap::Parser;
 
-use crate::commands::handle_caller_replacement;
+use crate::commands::{
+    handle_caller_replacement, handle_semantic_tests_translation,
+};
 
 /// A command-line tool used to augment the ML metadata files.
 #[derive(Clone, Debug, Parser)]
@@ -34,6 +36,18 @@ pub enum Cli {
         #[clap(short, long, default_value_t = 0)]
         private_key_start: usize,
     },
+    /// Translates the solidity semantic tests at some specified directory to
+    /// the MatterLabs test format, which can then be executed on the testing
+    /// framework.
+    TranslateSemanticTests {
+        /// The root directory to look for solidity semantic tests in.
+        root_directory: PathBuf,
+
+        /// The path of the output directory that the translated semantic tests
+        /// should live in. This directory needs to exist and be empty otherwise
+        /// the tool errors out.
+        output_directory: PathBuf,
+    },
 }
 
 fn main() -> Result<()> {
@@ -47,6 +61,15 @@ fn main() -> Result<()> {
             let highest_private_key =
                 handle_caller_replacement(&path, private_key_start)?;
             println!("Highest private key: {highest_private_key}");
+        }
+        Cli::TranslateSemanticTests {
+            root_directory,
+            output_directory,
+        } => {
+            handle_semantic_tests_translation(
+                root_directory,
+                output_directory,
+            )?;
         }
     }
 

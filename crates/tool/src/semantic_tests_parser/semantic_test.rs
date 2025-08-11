@@ -11,10 +11,7 @@ use std::{
     str::FromStr,
 };
 
-use alloy::{
-    hex,
-    primitives::{Address, FixedBytes, U256},
-};
+use alloy::primitives::{Address, FixedBytes, U256, address};
 use anyhow::{Context, Error, Result, bail};
 use revive_dt_common::define_wrapper_type;
 
@@ -53,6 +50,10 @@ pub struct SemanticTest {
     /// semantic test file. No calls in the semantic tests happen to any other
     /// contract other than the main contract in the test files.
     pub main_contract_ident: String,
+
+    /// This is the path of the source of  the main contract that the solidity
+    /// semantic test is calling into.
+    pub main_contract_source_path: PathBuf,
 
     /// The set of steps that are executed in this semantic test alongside their
     /// callers, method names, expectations, and everything else required to
@@ -99,9 +100,8 @@ pub struct TestStepFunctionCall {
 }
 
 impl TestStepFunctionCall {
-    pub const DEFAULT_CALLER: Address = Address(FixedBytes(hex!(
-        "0x1212121212121212121212121212120000000012"
-    )));
+    pub const DEFAULT_CALLER: Address =
+        address!("0x1212121212121212121212121212120000000012");
 }
 
 #[derive(Clone, Debug, PartialEq, Eq, PartialOrd, Ord, Hash)]
@@ -174,6 +174,33 @@ impl TestStepExpectedOutput {
             TestStepExpectedOutput::Failure { mut failure_reason } => {
                 failure_reason.push(value);
                 Self::Failure { failure_reason }
+            }
+        }
+    }
+
+    pub fn io_values_iterator(&self) -> impl Iterator<Item = &IOValue> {
+        let values = match self {
+            TestStepExpectedOutput::Success { output } => output,
+            TestStepExpectedOutput::Failure { failure_reason } => {
+                failure_reason
+            }
+        };
+        values.iter()
+    }
+
+    pub fn is_success(&self) -> bool {
+        matches!(self, Self::Success { .. })
+    }
+
+    pub fn is_failure(&self) -> bool {
+        matches!(self, Self::Failure { .. })
+    }
+
+    pub fn len(&self) -> usize {
+        match self {
+            TestStepExpectedOutput::Success { output } => output.len(),
+            TestStepExpectedOutput::Failure { failure_reason } => {
+                failure_reason.len()
             }
         }
     }
@@ -348,9 +375,12 @@ impl SemanticTest {
         let path = semantic_test_path.to_path_buf();
         let mut sources = HashMap::<PathBuf, String>::new();
         let mut libraries = HashMap::<PathBuf, HashSet<String>>::new();
-        let main_contract_ident = sections
-            .main_contract_ident()
+        let (main_contract_source_path, main_contract_ident) = sections
+            .main_contract_ident_and_path()
             .context("No main contract found in the Solidity semantic test")?;
+        let main_contract_source_path = main_contract_source_path
+            .unwrap_or_else(|| &semantic_test_path)
+            .to_path_buf();
         let mut steps = Vec::<TestStep>::new();
         let mut configuration = TestConfiguration::new();
 
@@ -640,6 +670,7 @@ impl SemanticTest {
             sources,
             libraries,
             main_contract_ident,
+            main_contract_source_path,
             steps,
             configuration,
         }))

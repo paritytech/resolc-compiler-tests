@@ -4,7 +4,7 @@
       "name": "imported_functions",
       "inputs": [
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x28d06F4684eC6FdCd07d417B8f9B1c74a4E653Cd",
           "comment": "f(uint256): 5 -> 12",
           "instance": "C",
           "method": "f(uint256)",
@@ -19,7 +19,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x28d06F4684eC6FdCd07d417B8f9B1c74a4E653Cd",
           "comment": "f(uint256): 10 -> 0x16",
           "instance": "C",
           "method": "f(uint256)",

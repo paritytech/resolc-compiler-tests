@@ -4,7 +4,7 @@
       "name": "internal_library_function_pointer",
       "inputs": [
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x162FBde4FC05C93872F8f88b36e33c5551D23245",
           "comment": "g() -> 66",
           "instance": "C",
           "method": "g()",

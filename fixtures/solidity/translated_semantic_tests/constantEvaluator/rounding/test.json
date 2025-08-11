@@ -4,7 +4,7 @@
       "name": "rounding",
       "inputs": [
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xEa7fA5D1A0cC55FFF8548C3c7662B5AB2191Ab6b",
           "comment": "f() -> 2, 2, 2, 2",
           "instance": "C",
           "method": "f()",

@@ -4,7 +4,7 @@
       "name": "array_copy_including_array",
       "inputs": [
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xaa8F71CD6517B1EB95bb803A38Bf285b3F5b01e3",
           "comment": "test() -> 0x02000202; gas irOptimized: 4549676; gas legacy: 4475394; gas legacyOptimized: 4447665",
           "instance": "c",
           "method": "test()",
@@ -19,10 +19,11 @@
         {
           "comment": "storageEmpty -> 1",
           "address": "c.address",
-          "is_storage_empty": true
+          "is_storage_empty": true,
+          "caller": "0x3839a9118a931bAE8c5C7467C840BFfdDD1ee609"
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xaa8F71CD6517B1EB95bb803A38Bf285b3F5b01e3",
           "comment": "clear() -> 0, 0; gas irOptimized: 4478184; gas legacy: 4407185; gas legacyOptimized: 4381337",
           "instance": "c",
           "method": "clear()",
@@ -38,7 +39,8 @@
         {
           "comment": "storageEmpty -> 1",
           "address": "c.address",
-          "is_storage_empty": true
+          "is_storage_empty": true,
+          "caller": "0x3839a9118a931bAE8c5C7467C840BFfdDD1ee609"
         }
       ]
     }

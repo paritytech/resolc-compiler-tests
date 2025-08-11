@@ -4,7 +4,7 @@
       "name": "code_access_create",
       "inputs": [
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xEFE70F5f8b26d9818915820C5C0C46D35D1d2774",
           "comment": "test() -> 7; gas legacy: 76647; gas legacy code: 24200",
           "instance": "C",
           "method": "test()",

@@ -4,7 +4,7 @@
       "name": "structs",
       "inputs": [
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xa00F3Ca022AB2444257C492BF364e7eB328DE6DD",
           "comment": "check() -> false",
           "instance": "test",
           "method": "check()",
@@ -17,7 +17,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xa00F3Ca022AB2444257C492BF364e7eB328DE6DD",
           "comment": "set() ->; gas irOptimized: 134073; gas legacy: 135243; gas legacyOptimized: 134062",
           "instance": "test",
           "method": "set()",
@@ -27,7 +27,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xa00F3Ca022AB2444257C492BF364e7eB328DE6DD",
           "comment": "check() -> true",
           "instance": "test",
           "method": "check()",

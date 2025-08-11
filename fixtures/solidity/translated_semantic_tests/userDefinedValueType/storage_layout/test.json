@@ -4,7 +4,7 @@
       "name": "storage_layout",
       "inputs": [
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x1e9BD383f88dC3C12A40e6Ce7356D1A9843Cd30e",
           "comment": "storage_a() -> 0, 0",
           "instance": "C",
           "method": "storage_a()",
@@ -18,7 +18,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x1e9BD383f88dC3C12A40e6Ce7356D1A9843Cd30e",
           "comment": "storage_b() -> 0, 1",
           "instance": "C",
           "method": "storage_b()",
@@ -32,7 +32,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x1e9BD383f88dC3C12A40e6Ce7356D1A9843Cd30e",
           "comment": "storage_c() -> 0, 2",
           "instance": "C",
           "method": "storage_c()",
@@ -46,7 +46,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x1e9BD383f88dC3C12A40e6Ce7356D1A9843Cd30e",
           "comment": "storage_d() -> 0, 3",
           "instance": "C",
           "method": "storage_d()",
@@ -60,7 +60,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x1e9BD383f88dC3C12A40e6Ce7356D1A9843Cd30e",
           "comment": "storage_e() -> 1, 0",
           "instance": "C",
           "method": "storage_e()",
@@ -74,7 +74,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x1e9BD383f88dC3C12A40e6Ce7356D1A9843Cd30e",
           "comment": "storage_f() -> 2, 0",
           "instance": "C",
           "method": "storage_f()",
@@ -88,7 +88,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x1e9BD383f88dC3C12A40e6Ce7356D1A9843Cd30e",
           "comment": "storage_g() -> 2, 0x14",
           "instance": "C",
           "method": "storage_g()",

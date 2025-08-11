@@ -4,7 +4,7 @@
       "name": "external_public_override",
       "inputs": [
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xAB8ECD9c951F7F57b77b3c4578C7e9c26c4eE8D9",
           "comment": "f() -> 2",
           "instance": "B",
           "method": "f()",
@@ -17,7 +17,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xAB8ECD9c951F7F57b77b3c4578C7e9c26c4eE8D9",
           "comment": "g() -> 2",
           "instance": "B",
           "method": "g()",

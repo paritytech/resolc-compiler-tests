@@ -4,7 +4,7 @@
       "name": "require_error_uint256",
       "inputs": [
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x7Bc23966c419eADCb8A2Fc5f83E635C4D4ad0C2f",
           "comment": "f() -> FAILURE, hex\"110b3655\", 1",
           "instance": "C",
           "method": "f()",
@@ -18,7 +18,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x7Bc23966c419eADCb8A2Fc5f83E635C4D4ad0C2f",
           "comment": "g() -> FAILURE, hex\"110b3655\", 2",
           "instance": "C",
           "method": "g()",

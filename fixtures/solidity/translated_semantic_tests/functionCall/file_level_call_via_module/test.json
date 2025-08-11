@@ -4,7 +4,7 @@
       "name": "file_level_call_via_module",
       "inputs": [
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x7eaE98A5b031eD647dc7EF140304c8056d801229",
           "comment": "f() -> 7, 3",
           "instance": "C",
           "method": "f()",

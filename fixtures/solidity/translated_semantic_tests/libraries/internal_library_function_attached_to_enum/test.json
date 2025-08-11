@@ -4,7 +4,7 @@
       "name": "internal_library_function_attached_to_enum",
       "inputs": [
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x32518Dadf4b72AdE0687E05d439a7Eda6f51db70",
           "comment": "equalsA(uint256): 0 -> true",
           "instance": "C",
           "method": "equalsA(uint256)",
@@ -19,7 +19,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x32518Dadf4b72AdE0687E05d439a7Eda6f51db70",
           "comment": "equalsA(uint256): 1 -> false",
           "instance": "C",
           "method": "equalsA(uint256)",

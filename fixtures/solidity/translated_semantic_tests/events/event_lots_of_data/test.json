@@ -4,8 +4,8 @@
       "name": "event_lots_of_data",
       "inputs": [
         {
-          "caller": "0x1212121212121212121212121212120000000012",
-          "comment": "deposit(bytes32), 18 wei: 0x1234 ->; ~ emit Deposit(address,bytes32,uint256,bool): 0x1212121212121212121212121212120000000012, 0x1234, 0x12, true",
+          "caller": "0x994907CB80BfD175F9b0B32672CFDE0091368e2E",
+          "comment": "deposit(bytes32), 18 wei: 0x1234 ->; ~ emit Deposit(address,bytes32,uint256,bool): 0x994907CB80BfD175F9b0B32672CFDE0091368e2E, 0x1234, 0x12, true",
           "instance": "ClientReceipt",
           "method": "deposit(bytes32)",
           "calldata": [

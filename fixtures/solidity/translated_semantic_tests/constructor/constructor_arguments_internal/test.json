@@ -4,7 +4,7 @@
       "name": "constructor_arguments_internal",
       "inputs": [
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xc39677F5F47d5fE65ab24e66750e8FCa127c15BE",
           "comment": "getFlag() -> true",
           "instance": "Main",
           "method": "getFlag()",
@@ -17,7 +17,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xc39677F5F47d5fE65ab24e66750e8FCa127c15BE",
           "comment": "getName() -> \"abc\"",
           "instance": "Main",
           "method": "getName()",

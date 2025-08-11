@@ -4,7 +4,7 @@
       "name": "return_dynamic_types_cross_call_out_of_range_1",
       "inputs": [
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xEB3025e7aC2764040384316b33476E048961a71F",
           "comment": "f(uint256): 0x60 -> true",
           "instance": "C",
           "method": "f(uint256)",
@@ -19,7 +19,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xEB3025e7aC2764040384316b33476E048961a71F",
           "comment": "f(uint256): 0x7f -> true",
           "instance": "C",
           "method": "f(uint256)",
@@ -34,7 +34,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xEB3025e7aC2764040384316b33476E048961a71F",
           "comment": "f(uint256): 0x80 -> true",
           "instance": "C",
           "method": "f(uint256)",

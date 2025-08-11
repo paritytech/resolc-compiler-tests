@@ -4,7 +4,7 @@
       "name": "super_in_constructor",
       "inputs": [
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x8fF0eb618c061e00a3fAB5Fc9B8a0f2F24547d48",
           "comment": "f() -> 15",
           "instance": "D",
           "method": "f()",

@@ -4,7 +4,7 @@
       "name": "require_error_function_pointer_parameter",
       "inputs": [
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x32480c2d857941d2FfF4E34f0910b20c0f9C23bC",
           "comment": "f() -> FAILURE, hex\"271b1dfa\", hex\"0000000000000000000000000000000000001234f37cdc8e0000000000000000\"",
           "instance": "C",
           "method": "f()",

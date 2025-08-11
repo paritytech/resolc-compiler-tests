@@ -4,7 +4,7 @@
       "name": "function_type_array_to_storage",
       "inputs": [
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xD6259cFA851e006fA76B466d80B013f831dFfca4",
           "comment": "testViewToDefault() -> 12, 22",
           "instance": "C",
           "method": "testViewToDefault()",
@@ -18,7 +18,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xD6259cFA851e006fA76B466d80B013f831dFfca4",
           "comment": "testPureToDefault() -> 13, 23",
           "instance": "C",
           "method": "testPureToDefault()",
@@ -32,7 +32,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xD6259cFA851e006fA76B466d80B013f831dFfca4",
           "comment": "testPureToView() -> 13, 23",
           "instance": "C",
           "method": "testPureToView()",

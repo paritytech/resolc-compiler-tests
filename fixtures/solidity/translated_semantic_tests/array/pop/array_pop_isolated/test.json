@@ -4,7 +4,7 @@
       "name": "array_pop_isolated",
       "inputs": [
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x78be56eD848634B40AAFcc4cD139e4Eb2C7E1D27",
           "comment": "test() -> 3",
           "instance": "c",
           "method": "test()",

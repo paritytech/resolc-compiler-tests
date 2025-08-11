@@ -4,7 +4,7 @@
       "name": "event_struct_memory_v2",
       "inputs": [
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xF9807a8719AE154E74591CB2d452797707faDF73",
           "comment": "createEvent(uint256): 42 ->; ~ emit E((uint256)): 0x2a",
           "instance": "C",
           "method": "createEvent(uint256)",

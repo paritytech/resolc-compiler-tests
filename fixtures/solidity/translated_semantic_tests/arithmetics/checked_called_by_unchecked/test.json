@@ -4,7 +4,7 @@
       "name": "checked_called_by_unchecked",
       "inputs": [
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xD432082150047A981ebB8D5D9f8e0B3778f536d7",
           "comment": "f(uint16,uint16,uint16): 0xe000, 0xe500, 2 -> FAILURE, hex\"4e487b71\", 0x11",
           "instance": "C",
           "method": "f(uint16,uint16,uint16)",
@@ -22,7 +22,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xD432082150047A981ebB8D5D9f8e0B3778f536d7",
           "comment": "f(uint16,uint16,uint16): 0xe000, 0x1000, 0x1000 -> 0x00",
           "instance": "C",
           "method": "f(uint16,uint16,uint16)",

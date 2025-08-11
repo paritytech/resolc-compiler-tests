@@ -4,7 +4,7 @@
       "name": "arrays",
       "inputs": [
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x16d807ee6813Aaf1Ec38d51C534CbA5a435c0f9B",
           "comment": "a(uint256,uint256): 0, 0 -> FAILURE",
           "instance": "C",
           "method": "a(uint256,uint256)",
@@ -17,7 +17,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x16d807ee6813Aaf1Ec38d51C534CbA5a435c0f9B",
           "comment": "a(uint256,uint256): 1, 0 -> 3",
           "instance": "C",
           "method": "a(uint256,uint256)",
@@ -33,7 +33,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x16d807ee6813Aaf1Ec38d51C534CbA5a435c0f9B",
           "comment": "a(uint256,uint256): 1, 1 -> 4",
           "instance": "C",
           "method": "a(uint256,uint256)",
@@ -49,7 +49,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x16d807ee6813Aaf1Ec38d51C534CbA5a435c0f9B",
           "comment": "a(uint256,uint256): 2, 0 -> FAILURE",
           "instance": "C",
           "method": "a(uint256,uint256)",

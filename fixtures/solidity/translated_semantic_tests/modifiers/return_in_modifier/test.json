@@ -4,7 +4,7 @@
       "name": "return_in_modifier",
       "inputs": [
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x0654e77A0385Db8BB70e0E7590642A7a9B1Cc6E2",
           "comment": "x() -> 0",
           "instance": "C",
           "method": "x()",
@@ -17,7 +17,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x0654e77A0385Db8BB70e0E7590642A7a9B1Cc6E2",
           "comment": "f() ->",
           "instance": "C",
           "method": "f()",
@@ -27,7 +27,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x0654e77A0385Db8BB70e0E7590642A7a9B1Cc6E2",
           "comment": "x() -> 4",
           "instance": "C",
           "method": "x()",

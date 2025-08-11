@@ -4,7 +4,7 @@
       "name": "transient_state_variable_cleanup_tstore",
       "inputs": [
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xdbC29273d4DE3D5645E308C7E629d28d4499B3d3",
           "comment": "f() -> 0xff",
           "instance": "C",
           "method": "f()",

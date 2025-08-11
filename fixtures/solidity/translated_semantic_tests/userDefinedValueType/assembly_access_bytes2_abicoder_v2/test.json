@@ -4,7 +4,7 @@
       "name": "assembly_access_bytes2_abicoder_v2",
       "inputs": [
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xA6C6f67BE688Fe7dC9C4010548d8c5712b3D72Ed",
           "comment": "f(bytes2): \"ab\" -> 0x6162000000000000000000000000000000000000000000000000000000000000",
           "instance": "C",
           "method": "f(bytes2)",
@@ -19,7 +19,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xA6C6f67BE688Fe7dC9C4010548d8c5712b3D72Ed",
           "comment": "g(bytes2): \"ab\" -> 0x6162000000000000000000000000000000000000000000000000000000000000",
           "instance": "C",
           "method": "g(bytes2)",
@@ -34,7 +34,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xA6C6f67BE688Fe7dC9C4010548d8c5712b3D72Ed",
           "comment": "f(bytes2): \"abcdef\" -> FAILURE",
           "instance": "C",
           "method": "f(bytes2)",
@@ -46,7 +46,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xA6C6f67BE688Fe7dC9C4010548d8c5712b3D72Ed",
           "comment": "g(bytes2): \"abcdef\" -> FAILURE",
           "instance": "C",
           "method": "g(bytes2)",
@@ -58,7 +58,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xA6C6f67BE688Fe7dC9C4010548d8c5712b3D72Ed",
           "comment": "h(uint256): \"ab\" -> 0x6162000000000000000000000000000000000000000000000000000000000000",
           "instance": "C",
           "method": "h(uint256)",
@@ -73,7 +73,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xA6C6f67BE688Fe7dC9C4010548d8c5712b3D72Ed",
           "comment": "h(uint256): \"abcdef\" -> 0x6162000000000000000000000000000000000000000000000000000000000000",
           "instance": "C",
           "method": "h(uint256)",

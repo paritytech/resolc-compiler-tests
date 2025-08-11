@@ -4,7 +4,7 @@
       "name": "memory_dynamic_array_and_calldata_static_array",
       "inputs": [
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x7f46600b36fA56b4f775d9B7Bf164651B588CBf8",
           "comment": "f(uint256[],uint256[1]): 0x40, 0xff, 1, 0xffff -> 0x20, 0x80, 0x40, 0xff, 1, 0xffff",
           "instance": "C",
           "method": "f(uint256[],uint256[1])",
@@ -27,7 +27,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x7f46600b36fA56b4f775d9B7Bf164651B588CBf8",
           "comment": "g(uint256[],uint256[1]): 0x40, 0xff, 1, 0xffff -> 0x20, 0x80, 0x40, 0xff, 1, 0xffff",
           "instance": "C",
           "method": "g(uint256[],uint256[1])",
@@ -50,7 +50,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x7f46600b36fA56b4f775d9B7Bf164651B588CBf8",
           "comment": "h(uint256[],uint256[1]): 0x40, 0xff, 1, 0xffff -> 0x40, 0xff, 1, 0xffff",
           "instance": "C",
           "method": "h(uint256[],uint256[1])",

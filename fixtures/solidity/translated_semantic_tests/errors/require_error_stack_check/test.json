@@ -4,7 +4,7 @@
       "name": "require_error_stack_check",
       "inputs": [
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xD5CC10c45fc0f9f956Acd7559F61EdBFeC9F6C3d",
           "comment": "f(bool,uint256,uint256,uint256): true, 42, 4242, 424242 ->",
           "instance": "C",
           "method": "f(bool,uint256,uint256,uint256)",
@@ -19,7 +19,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xD5CC10c45fc0f9f956Acd7559F61EdBFeC9F6C3d",
           "comment": "x() -> 4242",
           "instance": "C",
           "method": "x()",

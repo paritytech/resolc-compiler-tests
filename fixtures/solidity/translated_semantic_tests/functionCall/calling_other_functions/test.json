@@ -4,7 +4,7 @@
       "name": "calling_other_functions",
       "inputs": [
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x1023272cE9334Ab3b9388C0353DAbF34BE6E977d",
           "comment": "run(uint256): 0 -> 0",
           "instance": "collatz",
           "method": "run(uint256)",
@@ -19,7 +19,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x1023272cE9334Ab3b9388C0353DAbF34BE6E977d",
           "comment": "run(uint256): 1 -> 1",
           "instance": "collatz",
           "method": "run(uint256)",
@@ -34,7 +34,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x1023272cE9334Ab3b9388C0353DAbF34BE6E977d",
           "comment": "run(uint256): 2 -> 1",
           "instance": "collatz",
           "method": "run(uint256)",
@@ -49,7 +49,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x1023272cE9334Ab3b9388C0353DAbF34BE6E977d",
           "comment": "run(uint256): 8 -> 1",
           "instance": "collatz",
           "method": "run(uint256)",
@@ -64,7 +64,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x1023272cE9334Ab3b9388C0353DAbF34BE6E977d",
           "comment": "run(uint256): 127 -> 1",
           "instance": "collatz",
           "method": "run(uint256)",

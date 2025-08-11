@@ -4,7 +4,7 @@
       "name": "lisa",
       "inputs": [
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x7CE4a6EEF91CaeE1f93ea9d6aB2856dcA9C49753",
           "comment": "supportsInterface(bytes4): left(0x01ffc9a0) -> false",
           "instance": "Lisa",
           "method": "supportsInterface(bytes4)",
@@ -19,7 +19,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x7CE4a6EEF91CaeE1f93ea9d6aB2856dcA9C49753",
           "comment": "supportsInterface(bytes4): left(0x01ffc9a7) -> true",
           "instance": "Lisa",
           "method": "supportsInterface(bytes4)",
@@ -34,7 +34,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x7CE4a6EEF91CaeE1f93ea9d6aB2856dcA9C49753",
           "comment": "supportsInterface(bytes4): left(0x73b6b492) -> true",
           "instance": "Lisa",
           "method": "supportsInterface(bytes4)",
@@ -49,7 +49,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x7CE4a6EEF91CaeE1f93ea9d6aB2856dcA9C49753",
           "comment": "supportsInterface(bytes4): left(0x70b6b492) -> false",
           "instance": "Lisa",
           "method": "supportsInterface(bytes4)",

@@ -4,8 +4,8 @@
       "name": "event_emit_via_interface",
       "inputs": [
         {
-          "caller": "0x1212121212121212121212121212120000000012",
-          "comment": "emitEvent(uint256): 100 ->; ~ emit Event(address,uint256): #0x1212121212121212121212121212120000000012, 0x64",
+          "caller": "0xe0dd44773F7657b11019062879D65F3D9862460c",
+          "comment": "emitEvent(uint256): 100 ->; ~ emit Event(address,uint256): #0xe0dd44773F7657b11019062879D65F3D9862460c, 0x64",
           "instance": "C",
           "method": "emitEvent(uint256)",
           "calldata": [

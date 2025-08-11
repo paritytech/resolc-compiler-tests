@@ -4,7 +4,7 @@
       "name": "structured",
       "inputs": [
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xa78Cac12f68179fd780Ae347F8D4F170FC615D0C",
           "comment": "f(bool): true -> 1, 2, 0x60, 7, \"success\"",
           "instance": "C",
           "method": "f(bool)",
@@ -23,7 +23,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xa78Cac12f68179fd780Ae347F8D4F170FC615D0C",
           "comment": "f(bool): false -> 0, 0, 0x60, 7, \"message\"",
           "instance": "C",
           "method": "f(bool)",

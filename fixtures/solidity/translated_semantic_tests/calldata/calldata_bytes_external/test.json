@@ -4,7 +4,7 @@
       "name": "calldata_bytes_external",
       "inputs": [
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xf9d2356870F4702707Eb6A50C863C8F1aDDd8c35",
           "comment": "tester(bytes): 0x20, 0x08, \"abcdefgh\" -> \"c\"",
           "instance": "CalldataTest",
           "method": "tester(bytes)",

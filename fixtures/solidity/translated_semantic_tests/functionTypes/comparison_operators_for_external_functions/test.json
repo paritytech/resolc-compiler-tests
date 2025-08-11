@@ -4,7 +4,7 @@
       "name": "comparison_operators_for_external_functions",
       "inputs": [
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x81F58F2194B0413806bF2CE8E1654bc855dC65a1",
           "comment": "comparison_operators_for_external_functions() -> true",
           "instance": "C",
           "method": "comparison_operators_for_external_functions()",
@@ -17,7 +17,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x81F58F2194B0413806bF2CE8E1654bc855dC65a1",
           "comment": "comparison_operators_for_local_external_function_pointers() -> true",
           "instance": "C",
           "method": "comparison_operators_for_local_external_function_pointers()",

@@ -4,7 +4,7 @@
       "name": "shift_right_negative_lvalue_signextend_int16_v1",
       "inputs": [
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x26d4f0AcfA110eCF2A4110F0c7639B2cDA324f95",
           "comment": "f(int16,uint16): 0xff99, 0x00 -> 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff99",
           "instance": "C",
           "method": "f(int16,uint16)",
@@ -20,7 +20,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x26d4f0AcfA110eCF2A4110F0c7639B2cDA324f95",
           "comment": "f(int16,uint16): 0xff99, 0x01 -> 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffcc",
           "instance": "C",
           "method": "f(int16,uint16)",
@@ -36,7 +36,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x26d4f0AcfA110eCF2A4110F0c7639B2cDA324f95",
           "comment": "f(int16,uint16): 0xff99, 0x02 -> 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe6",
           "instance": "C",
           "method": "f(int16,uint16)",
@@ -52,7 +52,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x26d4f0AcfA110eCF2A4110F0c7639B2cDA324f95",
           "comment": "f(int16,uint16): 0xff99, 0x04 -> 0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff9",
           "instance": "C",
           "method": "f(int16,uint16)",
@@ -68,7 +68,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x26d4f0AcfA110eCF2A4110F0c7639B2cDA324f95",
           "comment": "f(int16,uint16): 0xff99, 0x08 -> 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
           "instance": "C",
           "method": "f(int16,uint16)",

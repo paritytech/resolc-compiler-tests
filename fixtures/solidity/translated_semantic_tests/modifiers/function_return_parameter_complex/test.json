@@ -4,7 +4,7 @@
       "name": "function_return_parameter_complex",
       "inputs": [
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x943901c3F328354e72cC5Ed975cC88aa1c2727a3",
           "comment": "f() -> 0x10, 0x20, 0x40",
           "instance": "A",
           "method": "f()",
@@ -19,7 +19,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x943901c3F328354e72cC5Ed975cC88aa1c2727a3",
           "comment": "x() -> 1",
           "instance": "A",
           "method": "x()",
@@ -32,7 +32,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x943901c3F328354e72cC5Ed975cC88aa1c2727a3",
           "comment": "shouldFail(uint256): 1 -> FAILURE, hex\"08c379a0\", 0x20, 13, \"a is not zero\"",
           "instance": "A",
           "method": "shouldFail(uint256)",
@@ -50,7 +50,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x943901c3F328354e72cC5Ed975cC88aa1c2727a3",
           "comment": "shouldFail(uint256): 0 -> FAILURE, hex\"08c379a0\", 0x20, 13, \"b is not zero\"",
           "instance": "A",
           "method": "shouldFail(uint256)",
@@ -68,7 +68,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x943901c3F328354e72cC5Ed975cC88aa1c2727a3",
           "comment": "x() -> 1",
           "instance": "A",
           "method": "x()",
@@ -81,7 +81,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x943901c3F328354e72cC5Ed975cC88aa1c2727a3",
           "comment": "g() -> 5",
           "instance": "A",
           "method": "g()",
@@ -94,7 +94,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x943901c3F328354e72cC5Ed975cC88aa1c2727a3",
           "comment": "x() -> 5",
           "instance": "A",
           "method": "x()",

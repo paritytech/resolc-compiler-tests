@@ -4,7 +4,7 @@
       "name": "msg_value",
       "inputs": [
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x2EFC611666aec9958F510dbEF1572a63A23cf551",
           "comment": "f() -> 0",
           "instance": "C",
           "method": "f()",
@@ -17,7 +17,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x2EFC611666aec9958F510dbEF1572a63A23cf551",
           "comment": "f(), 12 ether -> 12000000000000000000",
           "instance": "C",
           "method": "f()",

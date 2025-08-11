@@ -4,7 +4,7 @@
       "name": "inherited_function_calldata_memory",
       "inputs": [
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xC5229a9Aba6247D2B4ab61954735A972D08A74aF",
           "comment": "g() -> 23",
           "instance": "B",
           "method": "g()",

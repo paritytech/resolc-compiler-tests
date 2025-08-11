@@ -4,7 +4,7 @@
       "name": "signed_base",
       "inputs": [
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x44b31452836C6052d9FE6013859eD4e0D5287601",
           "comment": "f() -> 9, -27",
           "instance": "test",
           "method": "f()",

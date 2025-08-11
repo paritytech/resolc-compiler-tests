@@ -4,7 +4,7 @@
       "name": "internal_library_function_attached_to_array_named_pop_push",
       "inputs": [
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x05A761d8D7c0B65D5dF55D357946978872447c6D",
           "comment": "test() ->",
           "instance": "C",
           "method": "test()",

@@ -4,7 +4,7 @@
       "name": "mapping_internal_argument",
       "inputs": [
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x5F44453460D1239a29BEa6352f0C1C5512A25783",
           "comment": "set(uint8,uint8,uint8): 1, 21, 42 -> 0, 0",
           "instance": "test",
           "method": "set(uint8,uint8,uint8)",
@@ -22,7 +22,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x5F44453460D1239a29BEa6352f0C1C5512A25783",
           "comment": "get(uint8): 1 -> 21, 42",
           "instance": "test",
           "method": "get(uint8)",
@@ -38,7 +38,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x5F44453460D1239a29BEa6352f0C1C5512A25783",
           "comment": "set(uint8,uint8,uint8): 1, 10, 11 -> 21, 42",
           "instance": "test",
           "method": "set(uint8,uint8,uint8)",
@@ -56,7 +56,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x5F44453460D1239a29BEa6352f0C1C5512A25783",
           "comment": "get(uint8): 1 -> 10, 11",
           "instance": "test",
           "method": "get(uint8)",

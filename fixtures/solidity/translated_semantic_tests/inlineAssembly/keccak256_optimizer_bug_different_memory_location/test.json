@@ -4,7 +4,7 @@
       "name": "keccak256_optimizer_bug_different_memory_location",
       "inputs": [
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x41e2D930Cc81e281c8DffD758a6DecdfC0457c19",
           "comment": "f() -> false",
           "instance": "C",
           "method": "f()",

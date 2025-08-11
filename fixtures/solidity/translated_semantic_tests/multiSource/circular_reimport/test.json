@@ -4,7 +4,7 @@
       "name": "circular_reimport",
       "inputs": [
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x3511795c2333c0CD8d05eCf0038abF4895189558",
           "comment": "foo() -> 0x60",
           "instance": "C",
           "method": "foo()",

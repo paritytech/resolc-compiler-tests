@@ -4,7 +4,7 @@
       "name": "invalid_instruction",
       "inputs": [
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x1e94346A41939597DAb5626D9fEA2bA4979451e9",
           "comment": "f() -> FAILURE",
           "instance": "C",
           "method": "f()",

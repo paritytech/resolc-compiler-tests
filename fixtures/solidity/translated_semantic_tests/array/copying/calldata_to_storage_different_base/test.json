@@ -4,7 +4,7 @@
       "name": "calldata_to_storage_different_base",
       "inputs": [
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x73C81a89e7866e40a89bff0bFcC79bfE07C876AF",
           "comment": "f(bytes8[]): 0x20, 3, \"abcd\", \"bcde\", \"cdef\" -> 3, \"abcd\", \"bcde\", \"cdef\"",
           "instance": "C",
           "method": "f(bytes8[])",

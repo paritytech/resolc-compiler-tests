@@ -4,7 +4,7 @@
       "name": "state_variable_constant_and_immutable",
       "inputs": [
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x85EdbB66472c71E0a8a68b266D76e95d152B8F1a",
           "comment": "f() -> 11",
           "instance": "C",
           "method": "f()",
@@ -17,7 +17,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x85EdbB66472c71E0a8a68b266D76e95d152B8F1a",
           "comment": "g() -> 200",
           "instance": "C",
           "method": "g()",

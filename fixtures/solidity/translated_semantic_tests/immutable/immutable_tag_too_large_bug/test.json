@@ -4,7 +4,7 @@
       "name": "immutable_tag_too_large_bug",
       "inputs": [
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x903b71f706610F45b4628BfC54BA691f873899Aa",
           "comment": "constructor() ->; gas irOptimized: 73171; gas irOptimized code: 291200; gas legacy: 83499; gas legacy code: 408800",
           "instance": "C",
           "method": "#deployer",
@@ -14,7 +14,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x903b71f706610F45b4628BfC54BA691f873899Aa",
           "comment": "f() -> -1, 1",
           "instance": "C",
           "method": "f()",

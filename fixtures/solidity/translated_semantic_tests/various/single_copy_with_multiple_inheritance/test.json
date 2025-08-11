@@ -4,7 +4,7 @@
       "name": "single_copy_with_multiple_inheritance",
       "inputs": [
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xB2AC99BC1140e9F9211843dAb96374414702A64A",
           "comment": "getViaB() -> 0",
           "instance": "Derived",
           "method": "getViaB()",
@@ -17,7 +17,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xB2AC99BC1140e9F9211843dAb96374414702A64A",
           "comment": "setViaA(uint256): 23 ->",
           "instance": "Derived",
           "method": "setViaA(uint256)",
@@ -29,7 +29,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xB2AC99BC1140e9F9211843dAb96374414702A64A",
           "comment": "getViaB() -> 23",
           "instance": "Derived",
           "method": "getViaB()",

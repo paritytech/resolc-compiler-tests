@@ -4,7 +4,7 @@
       "name": "for_loop_nested",
       "inputs": [
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xfC43Cb81ce010347E08542665f16E4630075e264",
           "comment": "f(uint256): 0 -> 2",
           "instance": "C",
           "method": "f(uint256)",
@@ -19,7 +19,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xfC43Cb81ce010347E08542665f16E4630075e264",
           "comment": "f(uint256): 1 -> 18",
           "instance": "C",
           "method": "f(uint256)",
@@ -34,7 +34,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xfC43Cb81ce010347E08542665f16E4630075e264",
           "comment": "f(uint256): 2 -> 10",
           "instance": "C",
           "method": "f(uint256)",
@@ -49,7 +49,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xfC43Cb81ce010347E08542665f16E4630075e264",
           "comment": "f(uint256): 4 -> 91",
           "instance": "C",
           "method": "f(uint256)",

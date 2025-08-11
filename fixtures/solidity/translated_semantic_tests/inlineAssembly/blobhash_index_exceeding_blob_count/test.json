@@ -4,7 +4,7 @@
       "name": "blobhash_index_exceeding_blob_count",
       "inputs": [
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xc3316da7120D88032cB0632F619640735694D2Dc",
           "comment": "f() -> 0x00",
           "instance": "C",
           "method": "f()",

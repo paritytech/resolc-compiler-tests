@@ -4,7 +4,7 @@
       "name": "msg_sig_after_internal_call_is_same",
       "inputs": [
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x4c44377F452c5CA87766Aee2682FE14C35D12aE8",
           "comment": "foo(uint256): 0x0 -> 0x2fbebd3800000000000000000000000000000000000000000000000000000000",
           "instance": "test",
           "method": "foo(uint256)",

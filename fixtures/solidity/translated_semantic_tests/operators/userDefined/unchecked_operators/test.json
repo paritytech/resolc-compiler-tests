@@ -4,7 +4,7 @@
       "name": "unchecked_operators",
       "inputs": [
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x26A769A0dB32E6371975B986865bEaa0BcA54eAc",
           "comment": "testUncheckedOperator() -> 4",
           "instance": "D",
           "method": "testUncheckedOperator()",
@@ -17,7 +17,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x26A769A0dB32E6371975B986865bEaa0BcA54eAc",
           "comment": "testUncheckedOperatorInUncheckedBlock() -> 4",
           "instance": "D",
           "method": "testUncheckedOperatorInUncheckedBlock()",

@@ -4,7 +4,7 @@
       "name": "delete_local",
       "inputs": [
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x1cAd7Ea68E984107b968f2F0D7a601d65fBF6AdB",
           "comment": "delLocal() -> 0",
           "instance": "test",
           "method": "delLocal()",

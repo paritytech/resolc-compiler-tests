@@ -4,7 +4,7 @@
       "name": "overloaded_function_call_with_if_else",
       "inputs": [
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x0a2eaA86eA890Cf98DC30565bE2A00863D188699",
           "comment": "g(bool): true -> 3",
           "instance": "test",
           "method": "g(bool)",
@@ -19,7 +19,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x0a2eaA86eA890Cf98DC30565bE2A00863D188699",
           "comment": "g(bool): false -> 10",
           "instance": "test",
           "method": "g(bool)",

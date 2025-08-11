@@ -4,7 +4,7 @@
       "name": "accessors_mapping_for_array",
       "inputs": [
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x353Df3c4228C41780F4C81061c11234c50319541",
           "comment": "data(uint256,uint256): 2, 2 -> 8",
           "instance": "test",
           "method": "data(uint256,uint256)",
@@ -20,7 +20,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x353Df3c4228C41780F4C81061c11234c50319541",
           "comment": "data(uint256,uint256): 2, 8 -> FAILURE",
           "instance": "test",
           "method": "data(uint256,uint256)",
@@ -33,7 +33,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x353Df3c4228C41780F4C81061c11234c50319541",
           "comment": "dynamicData(uint256,uint256): 2, 2 -> 8",
           "instance": "test",
           "method": "dynamicData(uint256,uint256)",
@@ -49,7 +49,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x353Df3c4228C41780F4C81061c11234c50319541",
           "comment": "dynamicData(uint256,uint256): 2, 8 -> FAILURE",
           "instance": "test",
           "method": "dynamicData(uint256,uint256)",

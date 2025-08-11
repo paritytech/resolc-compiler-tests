@@ -4,7 +4,7 @@
       "name": "bytes_concat_empty_strings",
       "inputs": [
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xA7EAEA8d99522258197DDA9422222fbf156bb3a9",
           "comment": "f() -> 0x20, 0",
           "instance": "C",
           "method": "f()",
@@ -18,7 +18,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xA7EAEA8d99522258197DDA9422222fbf156bb3a9",
           "comment": "g() -> 0x20, 6, \"abcabc\"",
           "instance": "C",
           "method": "g()",
@@ -33,7 +33,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xA7EAEA8d99522258197DDA9422222fbf156bb3a9",
           "comment": "h() -> 0x20, 6, \"abcabc\"",
           "instance": "C",
           "method": "h()",

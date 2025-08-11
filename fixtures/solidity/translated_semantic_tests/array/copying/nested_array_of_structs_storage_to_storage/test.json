@@ -4,7 +4,7 @@
       "name": "nested_array_of_structs_storage_to_storage",
       "inputs": [
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xB03D165f913E34cD50ee7fCa0c35f49567BbB82e",
           "comment": "test1(); gas irOptimized: 123195",
           "instance": "C",
           "method": "test1()",
@@ -14,7 +14,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xB03D165f913E34cD50ee7fCa0c35f49567BbB82e",
           "comment": "test2(); gas irOptimized: 123018",
           "instance": "C",
           "method": "test2()",
@@ -24,7 +24,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xB03D165f913E34cD50ee7fCa0c35f49567BbB82e",
           "comment": "test3()",
           "instance": "C",
           "method": "test3()",

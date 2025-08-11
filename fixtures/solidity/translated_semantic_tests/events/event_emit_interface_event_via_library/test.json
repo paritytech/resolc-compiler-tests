@@ -4,7 +4,7 @@
       "name": "event_emit_interface_event_via_library",
       "inputs": [
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x7bd2aA0726AC3b9E752b120DE8568E90b0423ae4",
           "comment": "g() ->; ~ emit E()",
           "instance": "C",
           "method": "g()",

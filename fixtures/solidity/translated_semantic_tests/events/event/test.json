@@ -4,8 +4,8 @@
       "name": "event",
       "inputs": [
         {
-          "caller": "0x1212121212121212121212121212120000000012",
-          "comment": "deposit(bytes32,bool), 18 wei: 0x1234, true ->; ~ emit Deposit(address,bytes32,uint256): #0x1212121212121212121212121212120000000012, #0x1234, 0x12",
+          "caller": "0xA1bA6FC3eA0E89F0E79f89d9Aa0081d010571E4a",
+          "comment": "deposit(bytes32,bool), 18 wei: 0x1234, true ->; ~ emit Deposit(address,bytes32,uint256): #0xA1bA6FC3eA0E89F0E79f89d9Aa0081d010571E4a, #0x1234, 0x12",
           "instance": "ClientReceipt",
           "method": "deposit(bytes32,bool)",
           "calldata": [
@@ -30,8 +30,8 @@
           "value": "18 wei"
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
-          "comment": "deposit(bytes32,bool), 18 wei: 0x1234, false ->; ~ emit Deposit(address,bytes32,uint256): #0x1212121212121212121212121212120000000012, #0x1234, 0x12",
+          "caller": "0xA1bA6FC3eA0E89F0E79f89d9Aa0081d010571E4a",
+          "comment": "deposit(bytes32,bool), 18 wei: 0x1234, false ->; ~ emit Deposit(address,bytes32,uint256): #0xA1bA6FC3eA0E89F0E79f89d9Aa0081d010571E4a, #0x1234, 0x12",
           "instance": "ClientReceipt",
           "method": "deposit(bytes32,bool)",
           "calldata": [

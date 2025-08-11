@@ -4,7 +4,7 @@
       "name": "shift_overflow",
       "inputs": [
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xBd7dB03210E124aFE9493d4aB0E16C07391Bda48",
           "comment": "leftU(uint8,uint8): 255, 8 -> 0",
           "instance": "C",
           "method": "leftU(uint8,uint8)",
@@ -20,7 +20,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xBd7dB03210E124aFE9493d4aB0E16C07391Bda48",
           "comment": "leftU(uint8,uint8): 255, 1 -> 254",
           "instance": "C",
           "method": "leftU(uint8,uint8)",
@@ -36,7 +36,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xBd7dB03210E124aFE9493d4aB0E16C07391Bda48",
           "comment": "leftU(uint8,uint8): 255, 0 -> 255",
           "instance": "C",
           "method": "leftU(uint8,uint8)",
@@ -52,7 +52,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xBd7dB03210E124aFE9493d4aB0E16C07391Bda48",
           "comment": "leftS(int8,uint8): 1, 7 -> -128",
           "instance": "C",
           "method": "leftS(int8,uint8)",
@@ -68,7 +68,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xBd7dB03210E124aFE9493d4aB0E16C07391Bda48",
           "comment": "leftS(int8,uint8): 1, 6 -> 64",
           "instance": "C",
           "method": "leftS(int8,uint8)",

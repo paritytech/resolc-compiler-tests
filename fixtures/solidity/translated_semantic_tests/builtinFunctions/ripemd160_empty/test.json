@@ -4,7 +4,7 @@
       "name": "ripemd160_empty",
       "inputs": [
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xfD646B43e978266CF7A6B845B99b806Fa7d51A34",
           "comment": "f() -> 0x9c1185a5c5e9fc54612808977ee8f548b2258d31000000000000000000000000",
           "instance": "C",
           "method": "f()",

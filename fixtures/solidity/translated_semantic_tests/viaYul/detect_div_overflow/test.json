@@ -4,7 +4,7 @@
       "name": "detect_div_overflow",
       "inputs": [
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x0b62D63c314d94dFA85b11A9c652fFe438382d6C",
           "comment": "f(uint256,uint256): 10, 3 -> 3",
           "instance": "C",
           "method": "f(uint256,uint256)",
@@ -20,7 +20,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x0b62D63c314d94dFA85b11A9c652fFe438382d6C",
           "comment": "f(uint256,uint256): 1, 0 -> FAILURE, hex\"4e487b71\", 0x12",
           "instance": "C",
           "method": "f(uint256,uint256)",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x0b62D63c314d94dFA85b11A9c652fFe438382d6C",
           "comment": "f(uint256,uint256): 0, 0 -> FAILURE, hex\"4e487b71\", 0x12",
           "instance": "C",
           "method": "f(uint256,uint256)",
@@ -54,7 +54,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x0b62D63c314d94dFA85b11A9c652fFe438382d6C",
           "comment": "f(uint256,uint256): 0, 1 -> 0",
           "instance": "C",
           "method": "f(uint256,uint256)",
@@ -70,7 +70,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x0b62D63c314d94dFA85b11A9c652fFe438382d6C",
           "comment": "g(int8,int8): -10, 3 -> -3",
           "instance": "C",
           "method": "g(int8,int8)",
@@ -86,7 +86,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x0b62D63c314d94dFA85b11A9c652fFe438382d6C",
           "comment": "g(int8,int8): -10, -3 -> 3",
           "instance": "C",
           "method": "g(int8,int8)",
@@ -102,7 +102,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x0b62D63c314d94dFA85b11A9c652fFe438382d6C",
           "comment": "g(int8,int8): -10, 0 -> FAILURE, hex\"4e487b71\", 0x12",
           "instance": "C",
           "method": "g(int8,int8)",
@@ -119,7 +119,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x0b62D63c314d94dFA85b11A9c652fFe438382d6C",
           "comment": "g(int8,int8): -128, 1 -> -128",
           "instance": "C",
           "method": "g(int8,int8)",
@@ -135,7 +135,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x0b62D63c314d94dFA85b11A9c652fFe438382d6C",
           "comment": "g(int8,int8): -128, -2 -> 64",
           "instance": "C",
           "method": "g(int8,int8)",
@@ -151,7 +151,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x0b62D63c314d94dFA85b11A9c652fFe438382d6C",
           "comment": "g(int8,int8): -128, 2 -> -64",
           "instance": "C",
           "method": "g(int8,int8)",
@@ -167,7 +167,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x0b62D63c314d94dFA85b11A9c652fFe438382d6C",
           "comment": "g(int8,int8): -128, -1 -> FAILURE, hex\"4e487b71\", 0x11",
           "instance": "C",
           "method": "g(int8,int8)",
@@ -184,7 +184,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x0b62D63c314d94dFA85b11A9c652fFe438382d6C",
           "comment": "g(int8,int8): -127, -1 -> 127",
           "instance": "C",
           "method": "g(int8,int8)",
@@ -200,7 +200,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x0b62D63c314d94dFA85b11A9c652fFe438382d6C",
           "comment": "h(uint256,uint256): 0x8000000000000000000000000000000000000000000000000000000000000000, -1 -> 0",
           "instance": "C",
           "method": "h(uint256,uint256)",

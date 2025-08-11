@@ -4,7 +4,7 @@
       "name": "falback_return",
       "inputs": [
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x0093F3c023941CB49cb19e76C465168e19d2C428",
           "comment": "()",
           "instance": "A",
           "method": "#fallback",
@@ -14,7 +14,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x0093F3c023941CB49cb19e76C465168e19d2C428",
           "comment": "x() -> 1",
           "instance": "A",
           "method": "x()",
@@ -27,7 +27,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x0093F3c023941CB49cb19e76C465168e19d2C428",
           "comment": "()",
           "instance": "A",
           "method": "#fallback",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x0093F3c023941CB49cb19e76C465168e19d2C428",
           "comment": "x() -> 2",
           "instance": "A",
           "method": "x()",
@@ -50,7 +50,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x0093F3c023941CB49cb19e76C465168e19d2C428",
           "comment": "()",
           "instance": "A",
           "method": "#fallback",
@@ -60,7 +60,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x0093F3c023941CB49cb19e76C465168e19d2C428",
           "comment": "x() -> 2",
           "instance": "A",
           "method": "x()",
@@ -73,7 +73,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x0093F3c023941CB49cb19e76C465168e19d2C428",
           "comment": "()",
           "instance": "A",
           "method": "#fallback",
@@ -83,7 +83,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x0093F3c023941CB49cb19e76C465168e19d2C428",
           "comment": "x() -> 2",
           "instance": "A",
           "method": "x()",

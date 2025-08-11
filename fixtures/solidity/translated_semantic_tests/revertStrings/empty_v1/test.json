@@ -4,7 +4,7 @@
       "name": "empty_v1",
       "inputs": [
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x5144cF3Dd12B045CAF7b45569B3EBe5B4B52f92E",
           "comment": "f() -> FAILURE, hex\"08c379a0\", 0x20, 0",
           "instance": "C",
           "method": "f()",
@@ -19,7 +19,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x5144cF3Dd12B045CAF7b45569B3EBe5B4B52f92E",
           "comment": "g(string): 0x20, 0, \"\" -> FAILURE, hex\"08c379a0\", 0x20, 0",
           "instance": "C",
           "method": "g(string)",
@@ -38,7 +38,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x5144cF3Dd12B045CAF7b45569B3EBe5B4B52f92E",
           "comment": "g(string): 0x20, 0 -> FAILURE, hex\"08c379a0\", 0x20, 0",
           "instance": "C",
           "method": "g(string)",

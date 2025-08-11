@@ -6,10 +6,11 @@
         {
           "comment": "storageEmpty -> 1",
           "address": "c.address",
-          "is_storage_empty": true
+          "is_storage_empty": true,
+          "caller": "0x823A090Dc5c3b9358dB5658a35AF893c0Ba96d0F"
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x691A23AdC06a7197BFB0ef04fad501f1c3F2b709",
           "comment": "fill() ->; gas irOptimized: 519494; gas legacy: 518943; gas legacyOptimized: 515555",
           "instance": "c",
           "method": "fill()",
@@ -21,10 +22,11 @@
         {
           "comment": "storageEmpty -> 0",
           "address": "c.address",
-          "is_storage_empty": false
+          "is_storage_empty": false,
+          "caller": "0x823A090Dc5c3b9358dB5658a35AF893c0Ba96d0F"
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x691A23AdC06a7197BFB0ef04fad501f1c3F2b709",
           "comment": "halfClear() ->; gas irOptimized: 113961; gas legacy: 113257; gas legacyOptimized: 113120",
           "instance": "c",
           "method": "halfClear()",
@@ -36,10 +38,11 @@
         {
           "comment": "storageEmpty -> 0",
           "address": "c.address",
-          "is_storage_empty": false
+          "is_storage_empty": false,
+          "caller": "0x823A090Dc5c3b9358dB5658a35AF893c0Ba96d0F"
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x691A23AdC06a7197BFB0ef04fad501f1c3F2b709",
           "comment": "fullClear() ->",
           "instance": "c",
           "method": "fullClear()",
@@ -51,7 +54,8 @@
         {
           "comment": "storageEmpty -> 1",
           "address": "c.address",
-          "is_storage_empty": true
+          "is_storage_empty": true,
+          "caller": "0x823A090Dc5c3b9358dB5658a35AF893c0Ba96d0F"
         }
       ]
     }

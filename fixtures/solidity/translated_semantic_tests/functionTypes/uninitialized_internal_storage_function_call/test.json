@@ -4,7 +4,7 @@
       "name": "uninitialized_internal_storage_function_call",
       "inputs": [
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xf7862d105fc6EE69604DEcc30AA89472Ad405961",
           "comment": "f() -> FAILURE, hex\"4e487b71\", 0x51",
           "instance": "Test",
           "method": "f()",

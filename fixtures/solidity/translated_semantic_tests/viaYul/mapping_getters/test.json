@@ -4,7 +4,7 @@
       "name": "mapping_getters",
       "inputs": [
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xD6B931D8d441B1ec98F55F8Ec8ADb532DC140c78",
           "comment": "m1(uint256): 0 -> 0",
           "instance": "test",
           "method": "m1(uint256)",
@@ -19,7 +19,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xD6B931D8d441B1ec98F55F8Ec8ADb532DC140c78",
           "comment": "m1(uint256): 0x01 -> 0",
           "instance": "test",
           "method": "m1(uint256)",
@@ -34,7 +34,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xD6B931D8d441B1ec98F55F8Ec8ADb532DC140c78",
           "comment": "m1(uint256): 0xa7 -> 0",
           "instance": "test",
           "method": "m1(uint256)",
@@ -49,7 +49,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xD6B931D8d441B1ec98F55F8Ec8ADb532DC140c78",
           "comment": "set(uint256,uint256): 0x01, 0xa1 ->",
           "instance": "test",
           "method": "set(uint256,uint256)",
@@ -62,7 +62,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xD6B931D8d441B1ec98F55F8Ec8ADb532DC140c78",
           "comment": "m1(uint256): 0 -> 0",
           "instance": "test",
           "method": "m1(uint256)",
@@ -77,7 +77,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xD6B931D8d441B1ec98F55F8Ec8ADb532DC140c78",
           "comment": "m1(uint256): 0x01 -> 0xa1",
           "instance": "test",
           "method": "m1(uint256)",
@@ -92,7 +92,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xD6B931D8d441B1ec98F55F8Ec8ADb532DC140c78",
           "comment": "m1(uint256): 0xa7 -> 0",
           "instance": "test",
           "method": "m1(uint256)",
@@ -107,7 +107,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xD6B931D8d441B1ec98F55F8Ec8ADb532DC140c78",
           "comment": "set(uint256,uint256): 0x00, 0xef ->",
           "instance": "test",
           "method": "set(uint256,uint256)",
@@ -120,7 +120,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xD6B931D8d441B1ec98F55F8Ec8ADb532DC140c78",
           "comment": "m1(uint256): 0 -> 0xef",
           "instance": "test",
           "method": "m1(uint256)",
@@ -135,7 +135,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xD6B931D8d441B1ec98F55F8Ec8ADb532DC140c78",
           "comment": "m1(uint256): 0x01 -> 0xa1",
           "instance": "test",
           "method": "m1(uint256)",
@@ -150,7 +150,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xD6B931D8d441B1ec98F55F8Ec8ADb532DC140c78",
           "comment": "m1(uint256): 0xa7 -> 0",
           "instance": "test",
           "method": "m1(uint256)",
@@ -165,7 +165,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xD6B931D8d441B1ec98F55F8Ec8ADb532DC140c78",
           "comment": "set(uint256,uint256): 0x01, 0x05 ->",
           "instance": "test",
           "method": "set(uint256,uint256)",
@@ -178,7 +178,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xD6B931D8d441B1ec98F55F8Ec8ADb532DC140c78",
           "comment": "m1(uint256): 0 -> 0xef",
           "instance": "test",
           "method": "m1(uint256)",
@@ -193,7 +193,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xD6B931D8d441B1ec98F55F8Ec8ADb532DC140c78",
           "comment": "m1(uint256): 0x01 -> 0x05",
           "instance": "test",
           "method": "m1(uint256)",
@@ -208,7 +208,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xD6B931D8d441B1ec98F55F8Ec8ADb532DC140c78",
           "comment": "m1(uint256): 0xa7 -> 0",
           "instance": "test",
           "method": "m1(uint256)",
@@ -223,7 +223,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xD6B931D8d441B1ec98F55F8Ec8ADb532DC140c78",
           "comment": "m2(uint256,uint256): 0, 0 -> 0",
           "instance": "test",
           "method": "m2(uint256,uint256)",
@@ -239,7 +239,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xD6B931D8d441B1ec98F55F8Ec8ADb532DC140c78",
           "comment": "m2(uint256,uint256): 0, 0x01 -> 0",
           "instance": "test",
           "method": "m2(uint256,uint256)",
@@ -255,7 +255,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xD6B931D8d441B1ec98F55F8Ec8ADb532DC140c78",
           "comment": "m2(uint256,uint256): 0xa7, 0 -> 0",
           "instance": "test",
           "method": "m2(uint256,uint256)",
@@ -271,7 +271,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xD6B931D8d441B1ec98F55F8Ec8ADb532DC140c78",
           "comment": "m2(uint256,uint256): 0xa7, 0x01 -> 0",
           "instance": "test",
           "method": "m2(uint256,uint256)",
@@ -287,7 +287,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xD6B931D8d441B1ec98F55F8Ec8ADb532DC140c78",
           "comment": "set(uint256,uint256,uint256): 0xa7, 0x01, 0x23",
           "instance": "test",
           "method": "set(uint256,uint256,uint256)",
@@ -301,7 +301,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xD6B931D8d441B1ec98F55F8Ec8ADb532DC140c78",
           "comment": "m2(uint256,uint256): 0, 0x01 -> 0",
           "instance": "test",
           "method": "m2(uint256,uint256)",
@@ -317,7 +317,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xD6B931D8d441B1ec98F55F8Ec8ADb532DC140c78",
           "comment": "m2(uint256,uint256): 0xa7, 0 -> 0",
           "instance": "test",
           "method": "m2(uint256,uint256)",
@@ -333,7 +333,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xD6B931D8d441B1ec98F55F8Ec8ADb532DC140c78",
           "comment": "m2(uint256,uint256): 0xa7, 0x01 -> 0x23",
           "instance": "test",
           "method": "m2(uint256,uint256)",
@@ -349,7 +349,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xD6B931D8d441B1ec98F55F8Ec8ADb532DC140c78",
           "comment": "set(uint256,uint256,uint256): 0, 0x01, 0xef",
           "instance": "test",
           "method": "set(uint256,uint256,uint256)",
@@ -363,7 +363,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xD6B931D8d441B1ec98F55F8Ec8ADb532DC140c78",
           "comment": "m2(uint256,uint256): 0, 0x01 -> 0xef",
           "instance": "test",
           "method": "m2(uint256,uint256)",
@@ -379,7 +379,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xD6B931D8d441B1ec98F55F8Ec8ADb532DC140c78",
           "comment": "m2(uint256,uint256): 0xa7, 0 -> 0",
           "instance": "test",
           "method": "m2(uint256,uint256)",
@@ -395,7 +395,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xD6B931D8d441B1ec98F55F8Ec8ADb532DC140c78",
           "comment": "m2(uint256,uint256): 0xa7, 0x01 -> 0x23",
           "instance": "test",
           "method": "m2(uint256,uint256)",

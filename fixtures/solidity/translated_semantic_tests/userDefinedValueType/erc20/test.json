@@ -4,8 +4,8 @@
       "name": "erc20",
       "inputs": [
         {
-          "caller": "0x1212121212121212121212121212120000000012",
-          "comment": "constructor(); ~ emit Transfer(address,address,uint256): #0x00, #0x1212121212121212121212121212120000000012, 0x14; gas irOptimized: 121322; gas irOptimized code: 234600; gas legacy: 163350; gas legacy code: 671400; gas legacyOptimized: 127464; gas legacyOptimized code: 285400",
+          "caller": "0x4736056dAbC0Df39a5Ea201De4adBBb5777318Ea",
+          "comment": "constructor(); ~ emit Transfer(address,address,uint256): #0x00, #0x4736056dAbC0Df39a5Ea201De4adBBb5777318Ea, 0x14; gas irOptimized: 121322; gas irOptimized code: 234600; gas legacy: 163350; gas legacy code: 671400; gas legacyOptimized: 127464; gas legacyOptimized code: 285400",
           "instance": "ERC20",
           "method": "#deployer",
           "calldata": [],
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x4736056dAbC0Df39a5Ea201De4adBBb5777318Ea",
           "comment": "totalSupply() -> 20; gas irOptimized: 23415; gas legacy: 23653; gas legacyOptimized: 23368",
           "instance": "ERC20",
           "method": "totalSupply()",
@@ -39,8 +39,8 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
-          "comment": "transfer(address,uint256): 2, 5 -> true; ~ emit Transfer(address,address,uint256): #0x1212121212121212121212121212120000000012, #0x02, 0x05; gas irOptimized: 48471; gas legacy: 49572; gas legacyOptimized: 48575",
+          "caller": "0x4736056dAbC0Df39a5Ea201De4adBBb5777318Ea",
+          "comment": "transfer(address,uint256): 2, 5 -> true; ~ emit Transfer(address,address,uint256): #0x4736056dAbC0Df39a5Ea201De4adBBb5777318Ea, #0x02, 0x05; gas irOptimized: 48471; gas legacy: 49572; gas legacyOptimized: 48575",
           "instance": "ERC20",
           "method": "transfer(address,uint256)",
           "calldata": [
@@ -67,8 +67,8 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
-          "comment": "decreaseAllowance(address,uint256): 2, 0 -> true; ~ emit Approval(address,address,uint256): #0x1212121212121212121212121212120000000012, #0x02, 0x00; gas irOptimized: 26275; gas legacy: 27204; gas legacyOptimized: 26317",
+          "caller": "0x4736056dAbC0Df39a5Ea201De4adBBb5777318Ea",
+          "comment": "decreaseAllowance(address,uint256): 2, 0 -> true; ~ emit Approval(address,address,uint256): #0x4736056dAbC0Df39a5Ea201De4adBBb5777318Ea, #0x02, 0x00; gas irOptimized: 26275; gas legacy: 27204; gas legacyOptimized: 26317",
           "instance": "ERC20",
           "method": "decreaseAllowance(address,uint256)",
           "calldata": [
@@ -95,7 +95,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x4736056dAbC0Df39a5Ea201De4adBBb5777318Ea",
           "comment": "decreaseAllowance(address,uint256): 2, 1 -> FAILURE, hex\"4e487b71\", 0x11; gas irOptimized: 24042; gas legacy: 24506; gas legacyOptimized: 24077",
           "instance": "ERC20",
           "method": "decreaseAllowance(address,uint256)",
@@ -112,8 +112,8 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
-          "comment": "transfer(address,uint256): 2, 14 -> true; ~ emit Transfer(address,address,uint256): #0x1212121212121212121212121212120000000012, #0x02, 0x0e; gas irOptimized: 28571; gas legacy: 29672; gas legacyOptimized: 28675",
+          "caller": "0x4736056dAbC0Df39a5Ea201De4adBBb5777318Ea",
+          "comment": "transfer(address,uint256): 2, 14 -> true; ~ emit Transfer(address,address,uint256): #0x4736056dAbC0Df39a5Ea201De4adBBb5777318Ea, #0x02, 0x0e; gas irOptimized: 28571; gas legacy: 29672; gas legacyOptimized: 28675",
           "instance": "ERC20",
           "method": "transfer(address,uint256)",
           "calldata": [
@@ -140,7 +140,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x4736056dAbC0Df39a5Ea201De4adBBb5777318Ea",
           "comment": "transfer(address,uint256): 2, 2 -> FAILURE, hex\"4e487b71\", 0x11; gas irOptimized: 24071; gas legacy: 24492; gas legacyOptimized: 24074",
           "instance": "ERC20",
           "method": "transfer(address,uint256)",

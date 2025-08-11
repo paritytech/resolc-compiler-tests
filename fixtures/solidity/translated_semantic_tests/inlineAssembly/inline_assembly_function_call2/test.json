@@ -4,7 +4,7 @@
       "name": "inline_assembly_function_call2",
       "inputs": [
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xa9DAc1ccc70Eb26365daCafd1C72F5195ee2ce5B",
           "comment": "f() -> 0x1, 0x2, 0x7, 0x10",
           "instance": "C",
           "method": "f()",

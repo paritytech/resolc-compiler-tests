@@ -4,7 +4,7 @@
       "name": "inline_assembly_in_modifiers",
       "inputs": [
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x44ECADAADA93eb4b3E93305197b1bB713478977C",
           "comment": "f() -> true",
           "instance": "C",
           "method": "f()",
@@ -17,7 +17,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x44ECADAADA93eb4b3E93305197b1bB713478977C",
           "comment": "g() -> FAILURE",
           "instance": "C",
           "method": "g()",

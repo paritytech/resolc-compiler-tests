@@ -4,7 +4,7 @@
       "name": "checked_add_v1",
       "inputs": [
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x2F2F681Ee0b1504500c9962435616E32Aa64dEFd",
           "comment": "f(uint16,uint16): 65534, 0 -> 0xfffe",
           "instance": "C",
           "method": "f(uint16,uint16)",
@@ -20,7 +20,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x2F2F681Ee0b1504500c9962435616E32Aa64dEFd",
           "comment": "f(uint16,uint16): 65536, 0 -> 0x00",
           "instance": "C",
           "method": "f(uint16,uint16)",
@@ -36,7 +36,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x2F2F681Ee0b1504500c9962435616E32Aa64dEFd",
           "comment": "f(uint16,uint16): 65535, 0 -> 0xffff",
           "instance": "C",
           "method": "f(uint16,uint16)",
@@ -52,7 +52,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x2F2F681Ee0b1504500c9962435616E32Aa64dEFd",
           "comment": "f(uint16,uint16): 65535, 1 -> FAILURE, hex\"4e487b71\", 0x11",
           "instance": "C",
           "method": "f(uint16,uint16)",

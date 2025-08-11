@@ -4,7 +4,7 @@
       "name": "struct_storage_push_zero_value",
       "inputs": [
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x78B59e306274Dd4C0AF3195Fc89350a3dC407dE4",
           "comment": "f() ->",
           "instance": "C",
           "method": "f()",

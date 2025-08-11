@@ -4,7 +4,7 @@
       "name": "address_member",
       "inputs": [
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xFc32402667182d11B29fab5c5e323e80483e7800",
           "comment": "f() -> 0x1234, 0x1234",
           "instance": "C",
           "method": "f()",

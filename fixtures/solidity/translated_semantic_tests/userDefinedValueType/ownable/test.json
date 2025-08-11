@@ -4,8 +4,8 @@
       "name": "ownable",
       "inputs": [
         {
-          "caller": "0x1212121212121212121212121212120000000012",
-          "comment": "owner() -> 0x1212121212121212121212121212120000000012",
+          "caller": "0x76552303461Bb8dF59DDFaB19f5b6f4E0fd007B7",
+          "comment": "owner() -> 0x76552303461Bb8dF59DDFaB19f5b6f4E0fd007B7",
           "instance": "Ownable",
           "method": "owner()",
           "calldata": [],
@@ -17,8 +17,8 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
-          "comment": "setOwner(address): 0x1212121212121212121212121212120000000012 ->; ~ emit OwnershipTransferred(address,address): #0x1212121212121212121212121212120000000012, #0x1212121212121212121212121212120000000012",
+          "caller": "0x76552303461Bb8dF59DDFaB19f5b6f4E0fd007B7",
+          "comment": "setOwner(address): 0x76552303461Bb8dF59DDFaB19f5b6f4E0fd007B7 ->; ~ emit OwnershipTransferred(address,address): #0x76552303461Bb8dF59DDFaB19f5b6f4E0fd007B7, #0x76552303461Bb8dF59DDFaB19f5b6f4E0fd007B7",
           "instance": "Ownable",
           "method": "setOwner(address)",
           "calldata": [
@@ -39,7 +39,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x76552303461Bb8dF59DDFaB19f5b6f4E0fd007B7",
           "comment": "renounceOwnership() ->",
           "instance": "Ownable",
           "method": "renounceOwnership()",
@@ -49,7 +49,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x76552303461Bb8dF59DDFaB19f5b6f4E0fd007B7",
           "comment": "owner() -> 0",
           "instance": "Ownable",
           "method": "owner()",
@@ -62,8 +62,8 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
-          "comment": "setOwner(address): 0x1212121212121212121212121212120000000012 -> FAILURE, hex\"5fc483c5\"",
+          "caller": "0x76552303461Bb8dF59DDFaB19f5b6f4E0fd007B7",
+          "comment": "setOwner(address): 0x76552303461Bb8dF59DDFaB19f5b6f4E0fd007B7 -> FAILURE, hex\"5fc483c5\"",
           "instance": "Ownable",
           "method": "setOwner(address)",
           "calldata": [

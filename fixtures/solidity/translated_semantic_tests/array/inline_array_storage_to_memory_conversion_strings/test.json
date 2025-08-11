@@ -4,7 +4,7 @@
       "name": "inline_array_storage_to_memory_conversion_strings",
       "inputs": [
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x2D03b2E72Ee95e53C0Ed3d4b150e8fcA42568C53",
           "comment": "f() -> 0x40, 0x80, 0x3, \"ray\", 0x2, \"mi\"",
           "instance": "C",
           "method": "f()",

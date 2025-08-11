@@ -4,7 +4,7 @@
       "name": "enums",
       "inputs": [
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xd79FFa521dE3A9D53E5caf565700cdB416aC4C75",
           "comment": "f(uint8): 0 -> 0",
           "instance": "C",
           "method": "f(uint8)",
@@ -19,7 +19,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xd79FFa521dE3A9D53E5caf565700cdB416aC4C75",
           "comment": "f(uint8): 1 -> 1",
           "instance": "C",
           "method": "f(uint8)",
@@ -34,7 +34,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xd79FFa521dE3A9D53E5caf565700cdB416aC4C75",
           "comment": "f(uint8): 2 -> FAILURE",
           "instance": "C",
           "method": "f(uint8)",
@@ -46,7 +46,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xd79FFa521dE3A9D53E5caf565700cdB416aC4C75",
           "comment": "f(uint8): 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff -> FAILURE",
           "instance": "C",
           "method": "f(uint8)",

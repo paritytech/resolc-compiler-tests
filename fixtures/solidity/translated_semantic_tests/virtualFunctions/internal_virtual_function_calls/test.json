@@ -4,7 +4,7 @@
       "name": "internal_virtual_function_calls",
       "inputs": [
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xd444427BAE2C90a6C45DC0e6dDD2FCAC50Abc6A7",
           "comment": "f() -> 2",
           "instance": "Derived",
           "method": "f()",

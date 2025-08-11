@@ -4,7 +4,7 @@
       "name": "literal_empty_string",
       "inputs": [
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x778eC180D7286B8fea84a2d42429965F35ec16F6",
           "comment": "x() -> 0",
           "instance": "C",
           "method": "x()",
@@ -17,7 +17,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x778eC180D7286B8fea84a2d42429965F35ec16F6",
           "comment": "a() -> 0",
           "instance": "C",
           "method": "a()",
@@ -30,7 +30,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x778eC180D7286B8fea84a2d42429965F35ec16F6",
           "comment": "g() ->",
           "instance": "C",
           "method": "g()",
@@ -40,7 +40,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x778eC180D7286B8fea84a2d42429965F35ec16F6",
           "comment": "x() -> 0",
           "instance": "C",
           "method": "x()",
@@ -53,7 +53,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x778eC180D7286B8fea84a2d42429965F35ec16F6",
           "comment": "a() -> 2",
           "instance": "C",
           "method": "a()",

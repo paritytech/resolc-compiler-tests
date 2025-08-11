@@ -4,7 +4,7 @@
       "name": "explicit_cast_function_call",
       "inputs": [
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x0DC8B8eF8457b1e45ac277D65ac5987B547Ba775",
           "comment": "g() -> 0x1234567800000000000000000000000000000000000000000000000000000000",
           "instance": "C",
           "method": "g()",

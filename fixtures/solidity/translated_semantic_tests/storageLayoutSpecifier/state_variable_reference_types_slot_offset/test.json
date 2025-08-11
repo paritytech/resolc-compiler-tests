@@ -4,7 +4,7 @@
       "name": "state_variable_reference_types_slot_offset",
       "inputs": [
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x438Ca190209A8E7C14A92198C575Eae3f92152D0",
           "comment": "s1SlotOffset() -> 42, 0",
           "instance": "C",
           "method": "s1SlotOffset()",
@@ -18,7 +18,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x438Ca190209A8E7C14A92198C575Eae3f92152D0",
           "comment": "dArraySlotOffset() -> 44, 0",
           "instance": "C",
           "method": "dArraySlotOffset()",
@@ -32,7 +32,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x438Ca190209A8E7C14A92198C575Eae3f92152D0",
           "comment": "sArraySlotOffset() -> 49, 0",
           "instance": "C",
           "method": "sArraySlotOffset()",
@@ -46,7 +46,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x438Ca190209A8E7C14A92198C575Eae3f92152D0",
           "comment": "bArraySlotOffset() -> 69, 0",
           "instance": "C",
           "method": "bArraySlotOffset()",
@@ -60,7 +60,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x438Ca190209A8E7C14A92198C575Eae3f92152D0",
           "comment": "strSlotOffset() -> 70, 0",
           "instance": "C",
           "method": "strSlotOffset()",

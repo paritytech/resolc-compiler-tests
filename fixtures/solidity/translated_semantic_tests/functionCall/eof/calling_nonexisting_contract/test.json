@@ -4,7 +4,7 @@
       "name": "calling_nonexisting_contract",
       "inputs": [
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x24d8C8008554f5EF8CA7F478592348b9c18c3507",
           "comment": "f() -> 7",
           "instance": "C",
           "method": "f()",
@@ -17,7 +17,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x24d8C8008554f5EF8CA7F478592348b9c18c3507",
           "comment": "h() -> 7",
           "instance": "C",
           "method": "h()",

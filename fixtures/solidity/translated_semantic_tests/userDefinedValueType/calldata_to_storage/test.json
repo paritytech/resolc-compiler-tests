@@ -4,7 +4,7 @@
       "name": "calldata_to_storage",
       "inputs": [
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xCFC011Bb55550201d11089E28ff55F98e6B3e93a",
           "comment": "s() -> 0, 0, 0x00, 0",
           "instance": "C",
           "method": "s()",
@@ -20,7 +20,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xCFC011Bb55550201d11089E28ff55F98e6B3e93a",
           "comment": "f((uint8,uint16,bytes2,uint8)): 1, 0xff, \"ab\", 15 ->; gas irOptimized: 44405; gas legacy: 47200; gas legacyOptimized: 44923",
           "instance": "C",
           "method": "f((uint8,uint16,bytes2,uint8))",
@@ -35,7 +35,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xCFC011Bb55550201d11089E28ff55F98e6B3e93a",
           "comment": "s() -> 1, 0xff, 0x6162000000000000000000000000000000000000000000000000000000000000, 15",
           "instance": "C",
           "method": "s()",
@@ -51,7 +51,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xCFC011Bb55550201d11089E28ff55F98e6B3e93a",
           "comment": "g(uint16[]): 0x20, 3, 1, 2, 3 -> 0x20, 3, 1, 2, 3; gas irOptimized: 69097; gas legacy: 75466; gas legacyOptimized: 74255",
           "instance": "C",
           "method": "g(uint16[])",
@@ -74,7 +74,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xCFC011Bb55550201d11089E28ff55F98e6B3e93a",
           "comment": "small(uint256): 0 -> 1",
           "instance": "C",
           "method": "small(uint256)",
@@ -89,7 +89,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xCFC011Bb55550201d11089E28ff55F98e6B3e93a",
           "comment": "small(uint256): 1 -> 2",
           "instance": "C",
           "method": "small(uint256)",
@@ -104,7 +104,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xCFC011Bb55550201d11089E28ff55F98e6B3e93a",
           "comment": "h(bytes2[]): 0x20, 3, \"ab\", \"cd\", \"ef\" -> 0x20, 3, \"ab\", \"cd\", \"ef\"; gas irOptimized: 69174; gas legacy: 75156; gas legacyOptimized: 74342",
           "instance": "C",
           "method": "h(bytes2[])",
@@ -127,7 +127,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xCFC011Bb55550201d11089E28ff55F98e6B3e93a",
           "comment": "l(uint256): 0 -> 0x6162000000000000000000000000000000000000000000000000000000000000",
           "instance": "C",
           "method": "l(uint256)",
@@ -142,7 +142,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xCFC011Bb55550201d11089E28ff55F98e6B3e93a",
           "comment": "l(uint256): 1 -> 0x6364000000000000000000000000000000000000000000000000000000000000",
           "instance": "C",
           "method": "l(uint256)",

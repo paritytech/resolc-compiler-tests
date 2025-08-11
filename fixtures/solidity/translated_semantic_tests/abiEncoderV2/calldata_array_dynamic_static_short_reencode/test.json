@@ -4,7 +4,7 @@
       "name": "calldata_array_dynamic_static_short_reencode",
       "inputs": [
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xeB60b2F6fFC7c2ea03e85765B6C6D32dE4505b7A",
           "comment": "g(uint256[][2][]): 0x20, 0x01, 0x20, 0x40, 0x60, 0x00, 0x00 -> 42",
           "instance": "C",
           "method": "g(uint256[][2][])",
@@ -25,7 +25,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xeB60b2F6fFC7c2ea03e85765B6C6D32dE4505b7A",
           "comment": "g(uint256[][2][]): 0x20, 0x01, 0x20, 0x00, 0x00 -> 42",
           "instance": "C",
           "method": "g(uint256[][2][])",
@@ -44,7 +44,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xeB60b2F6fFC7c2ea03e85765B6C6D32dE4505b7A",
           "comment": "g(uint256[][2][]): 0x20, 0x01, 0x20, 0x00 -> FAILURE",
           "instance": "C",
           "method": "g(uint256[][2][])",

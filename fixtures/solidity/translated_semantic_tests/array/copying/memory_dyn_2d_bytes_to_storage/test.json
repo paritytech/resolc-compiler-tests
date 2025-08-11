@@ -4,7 +4,7 @@
       "name": "memory_dyn_2d_bytes_to_storage",
       "inputs": [
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xebafcaA07B2Aaf56F4fb9AB1Fe4F8A9dCf5E1E94",
           "comment": "f() -> 3; gas irOptimized: 128296; gas legacy: 129077; gas legacyOptimized: 128210",
           "instance": "C",
           "method": "f()",

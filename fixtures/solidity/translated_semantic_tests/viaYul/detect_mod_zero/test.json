@@ -4,7 +4,7 @@
       "name": "detect_mod_zero",
       "inputs": [
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x839D96957F21E82fBCCA0D42a1f12EF6e1CF82E9",
           "comment": "f(uint256,uint256): 10, 3 -> 1",
           "instance": "C",
           "method": "f(uint256,uint256)",
@@ -20,7 +20,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x839D96957F21E82fBCCA0D42a1f12EF6e1CF82E9",
           "comment": "f(uint256,uint256): 10, 2 -> 0",
           "instance": "C",
           "method": "f(uint256,uint256)",
@@ -36,7 +36,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x839D96957F21E82fBCCA0D42a1f12EF6e1CF82E9",
           "comment": "f(uint256,uint256): 11, 2 -> 1",
           "instance": "C",
           "method": "f(uint256,uint256)",
@@ -52,7 +52,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x839D96957F21E82fBCCA0D42a1f12EF6e1CF82E9",
           "comment": "f(uint256,uint256): 2, 2 -> 0",
           "instance": "C",
           "method": "f(uint256,uint256)",
@@ -68,7 +68,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x839D96957F21E82fBCCA0D42a1f12EF6e1CF82E9",
           "comment": "f(uint256,uint256): 1, 0 -> FAILURE, hex\"4e487b71\", 0x12",
           "instance": "C",
           "method": "f(uint256,uint256)",
@@ -85,7 +85,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x839D96957F21E82fBCCA0D42a1f12EF6e1CF82E9",
           "comment": "f(uint256,uint256): 0, 0 -> FAILURE, hex\"4e487b71\", 0x12",
           "instance": "C",
           "method": "f(uint256,uint256)",
@@ -102,7 +102,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x839D96957F21E82fBCCA0D42a1f12EF6e1CF82E9",
           "comment": "f(uint256,uint256): 0, 1 -> 0",
           "instance": "C",
           "method": "f(uint256,uint256)",
@@ -118,7 +118,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x839D96957F21E82fBCCA0D42a1f12EF6e1CF82E9",
           "comment": "g(uint8,uint8): 10, 3 -> 1",
           "instance": "C",
           "method": "g(uint8,uint8)",
@@ -134,7 +134,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x839D96957F21E82fBCCA0D42a1f12EF6e1CF82E9",
           "comment": "g(uint8,uint8): 10, 2 -> 0",
           "instance": "C",
           "method": "g(uint8,uint8)",
@@ -150,7 +150,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x839D96957F21E82fBCCA0D42a1f12EF6e1CF82E9",
           "comment": "g(uint8,uint8): 11, 2 -> 1",
           "instance": "C",
           "method": "g(uint8,uint8)",
@@ -166,7 +166,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x839D96957F21E82fBCCA0D42a1f12EF6e1CF82E9",
           "comment": "g(uint8,uint8): 2, 2 -> 0",
           "instance": "C",
           "method": "g(uint8,uint8)",
@@ -182,7 +182,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x839D96957F21E82fBCCA0D42a1f12EF6e1CF82E9",
           "comment": "g(uint8,uint8): 1, 0 -> FAILURE, hex\"4e487b71\", 0x12",
           "instance": "C",
           "method": "g(uint8,uint8)",
@@ -199,7 +199,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x839D96957F21E82fBCCA0D42a1f12EF6e1CF82E9",
           "comment": "g(uint8,uint8): 0, 0 -> FAILURE, hex\"4e487b71\", 0x12",
           "instance": "C",
           "method": "g(uint8,uint8)",
@@ -216,7 +216,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x839D96957F21E82fBCCA0D42a1f12EF6e1CF82E9",
           "comment": "g(uint8,uint8): 0, 1 -> 0",
           "instance": "C",
           "method": "g(uint8,uint8)",

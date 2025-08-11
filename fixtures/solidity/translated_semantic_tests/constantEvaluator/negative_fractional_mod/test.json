@@ -4,7 +4,7 @@
       "name": "negative_fractional_mod",
       "inputs": [
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x0e697890a5CE3699FD7b0324478B130BCdA392f2",
           "comment": "f() -> 11, 10",
           "instance": "C",
           "method": "f()",

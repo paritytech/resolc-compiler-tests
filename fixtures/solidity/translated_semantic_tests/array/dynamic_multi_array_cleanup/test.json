@@ -6,10 +6,11 @@
         {
           "comment": "storageEmpty -> 1",
           "address": "c.address",
-          "is_storage_empty": true
+          "is_storage_empty": true,
+          "caller": "0x6D399bC2689b3D30d439d03f662321b7A65c8F6c"
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x3c68169c9B03A3C75697c6Aaa45818955b2aba31",
           "comment": "fill() -> 8; gas irOptimized: 122985; gas legacy: 121602; gas legacyOptimized: 120589",
           "instance": "c",
           "method": "fill()",
@@ -24,10 +25,11 @@
         {
           "comment": "storageEmpty -> 0",
           "address": "c.address",
-          "is_storage_empty": false
+          "is_storage_empty": false,
+          "caller": "0x6D399bC2689b3D30d439d03f662321b7A65c8F6c"
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x3c68169c9B03A3C75697c6Aaa45818955b2aba31",
           "comment": "clear() ->",
           "instance": "c",
           "method": "clear()",
@@ -39,7 +41,8 @@
         {
           "comment": "storageEmpty -> 1",
           "address": "c.address",
-          "is_storage_empty": true
+          "is_storage_empty": true,
+          "caller": "0x6D399bC2689b3D30d439d03f662321b7A65c8F6c"
         }
       ]
     }

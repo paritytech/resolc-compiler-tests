@@ -4,7 +4,7 @@
       "name": "array_memory_as_parameter",
       "inputs": [
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x2F4FAC96F86d7Ca0b3aBB5a5B2cF01d3F7d65C31",
           "comment": "test(uint256,uint256): 0, 0 -> FAILURE, hex\"4e487b71\", 0x32",
           "instance": "C",
           "method": "test(uint256,uint256)",
@@ -21,7 +21,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x2F4FAC96F86d7Ca0b3aBB5a5B2cF01d3F7d65C31",
           "comment": "test(uint256,uint256): 1, 0 -> 1",
           "instance": "C",
           "method": "test(uint256,uint256)",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x2F4FAC96F86d7Ca0b3aBB5a5B2cF01d3F7d65C31",
           "comment": "test(uint256,uint256): 10, 5 -> 6",
           "instance": "C",
           "method": "test(uint256,uint256)",
@@ -53,7 +53,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x2F4FAC96F86d7Ca0b3aBB5a5B2cF01d3F7d65C31",
           "comment": "test(uint256,uint256): 10, 50 -> FAILURE, hex\"4e487b71\", 0x32",
           "instance": "C",
           "method": "test(uint256,uint256)",

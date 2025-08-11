@@ -4,7 +4,7 @@
       "name": "conditional_multiple",
       "inputs": [
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x99b52813933A46D95bD4265eA2F674E58827da97",
           "comment": "f() -> 7",
           "instance": "A",
           "method": "f()",

@@ -4,7 +4,7 @@
       "name": "function_external_delete_storage",
       "inputs": [
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xc4Ff1b4565eE203fA12636e100Fe9C89Cd18Acb7",
           "comment": "isF() -> false",
           "instance": "C",
           "method": "isF()",
@@ -17,7 +17,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xc4Ff1b4565eE203fA12636e100Fe9C89Cd18Acb7",
           "comment": "isZero() -> true",
           "instance": "C",
           "method": "isZero()",
@@ -30,7 +30,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xc4Ff1b4565eE203fA12636e100Fe9C89Cd18Acb7",
           "comment": "deleteFunction() ->",
           "instance": "C",
           "method": "deleteFunction()",
@@ -40,7 +40,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xc4Ff1b4565eE203fA12636e100Fe9C89Cd18Acb7",
           "comment": "isF() -> false",
           "instance": "C",
           "method": "isF()",
@@ -53,7 +53,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xc4Ff1b4565eE203fA12636e100Fe9C89Cd18Acb7",
           "comment": "isZero() -> true",
           "instance": "C",
           "method": "isZero()",
@@ -66,7 +66,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xc4Ff1b4565eE203fA12636e100Fe9C89Cd18Acb7",
           "comment": "set() ->",
           "instance": "C",
           "method": "set()",
@@ -76,7 +76,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xc4Ff1b4565eE203fA12636e100Fe9C89Cd18Acb7",
           "comment": "isF() -> true",
           "instance": "C",
           "method": "isF()",
@@ -89,7 +89,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xc4Ff1b4565eE203fA12636e100Fe9C89Cd18Acb7",
           "comment": "isZero() -> false",
           "instance": "C",
           "method": "isZero()",
@@ -102,7 +102,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xc4Ff1b4565eE203fA12636e100Fe9C89Cd18Acb7",
           "comment": "deleteFunction() ->",
           "instance": "C",
           "method": "deleteFunction()",
@@ -112,7 +112,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xc4Ff1b4565eE203fA12636e100Fe9C89Cd18Acb7",
           "comment": "isF() -> false",
           "instance": "C",
           "method": "isF()",
@@ -125,7 +125,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xc4Ff1b4565eE203fA12636e100Fe9C89Cd18Acb7",
           "comment": "isZero() -> true",
           "instance": "C",
           "method": "isZero()",

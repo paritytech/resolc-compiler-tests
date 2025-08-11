@@ -4,7 +4,7 @@
       "name": "transient_storage_sanity_checks",
       "inputs": [
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x0877D255B2366631bcEe2815F97c503B01C94ec2",
           "comment": "f() ->",
           "instance": "C",
           "method": "f()",
@@ -14,7 +14,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x0877D255B2366631bcEe2815F97c503B01C94ec2",
           "comment": "g() -> 0x2a, 0, 0",
           "instance": "C",
           "method": "g()",

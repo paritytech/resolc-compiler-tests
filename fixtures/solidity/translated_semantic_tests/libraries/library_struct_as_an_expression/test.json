@@ -4,7 +4,7 @@
       "name": "library_struct_as_an_expression",
       "inputs": [
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xeFC78792499CD16253B1A95f962A30578050Dbdb",
           "comment": "f() -> 1",
           "instance": "Tsra",
           "method": "f()",

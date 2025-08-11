@@ -4,7 +4,7 @@
       "name": "function_selector",
       "inputs": [
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xD83d18A2EaE2440e272a53f86e617cd9F33c8D68",
           "comment": "f() -> left(0x26121ff0)",
           "instance": "C",
           "method": "f()",
@@ -17,7 +17,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xD83d18A2EaE2440e272a53f86e617cd9F33c8D68",
           "comment": "h(function): left(0x1122334400112233445566778899AABBCCDDEEFF42424242) -> left(0x42424242)",
           "instance": "C",
           "method": "h(function)",

@@ -4,7 +4,7 @@
       "name": "virtual_function_calls",
       "inputs": [
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x016e4CdBd7dE6697a451082A39d8298de0953d9D",
           "comment": "g() -> 2",
           "instance": "Derived",
           "method": "g()",
@@ -17,7 +17,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x016e4CdBd7dE6697a451082A39d8298de0953d9D",
           "comment": "f() -> 2",
           "instance": "Derived",
           "method": "f()",

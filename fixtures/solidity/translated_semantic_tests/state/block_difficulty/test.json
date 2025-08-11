@@ -4,7 +4,7 @@
       "name": "block_difficulty",
       "inputs": [
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xaCbb51cb336e39Cf43509Efe09803B2d40631E65",
           "comment": "f() -> 2500000000000000",
           "instance": "C",
           "method": "f()",
@@ -17,7 +17,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xaCbb51cb336e39Cf43509Efe09803B2d40631E65",
           "comment": "f() -> 2500000000000000",
           "instance": "C",
           "method": "f()",
@@ -30,7 +30,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xaCbb51cb336e39Cf43509Efe09803B2d40631E65",
           "comment": "f() -> 2500000000000000",
           "instance": "C",
           "method": "f()",

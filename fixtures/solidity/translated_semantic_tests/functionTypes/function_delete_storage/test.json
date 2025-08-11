@@ -4,7 +4,7 @@
       "name": "function_delete_storage",
       "inputs": [
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x4148555eA4c00e14f81Ef399bBE67ef2FD9811B1",
           "comment": "set() -> 7",
           "instance": "C",
           "method": "set()",
@@ -17,7 +17,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x4148555eA4c00e14f81Ef399bBE67ef2FD9811B1",
           "comment": "ca() -> 7",
           "instance": "C",
           "method": "ca()",
@@ -30,7 +30,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x4148555eA4c00e14f81Ef399bBE67ef2FD9811B1",
           "comment": "d() -> 1",
           "instance": "C",
           "method": "d()",
@@ -43,7 +43,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x4148555eA4c00e14f81Ef399bBE67ef2FD9811B1",
           "comment": "ca() -> FAILURE, hex\"4e487b71\", 0x51",
           "instance": "C",
           "method": "ca()",

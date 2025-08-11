@@ -4,7 +4,7 @@
       "name": "state_variable_enum",
       "inputs": [
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x938Bd27F94001Ef308051b25b725aD84Be6cCeC3",
           "comment": "cSlotOffset() -> 42, 0",
           "instance": "C",
           "method": "cSlotOffset()",
@@ -18,7 +18,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x938Bd27F94001Ef308051b25b725aD84Be6cCeC3",
           "comment": "checkBlue() -> false",
           "instance": "C",
           "method": "checkBlue()",
@@ -31,7 +31,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x938Bd27F94001Ef308051b25b725aD84Be6cCeC3",
           "comment": "setBlue() ->",
           "instance": "C",
           "method": "setBlue()",
@@ -41,7 +41,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x938Bd27F94001Ef308051b25b725aD84Be6cCeC3",
           "comment": "checkBlue() -> true",
           "instance": "C",
           "method": "checkBlue()",

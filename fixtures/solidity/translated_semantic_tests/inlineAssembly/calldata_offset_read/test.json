@@ -4,7 +4,7 @@
       "name": "calldata_offset_read",
       "inputs": [
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xA6CE0165F01Fccb751c401F1bcBb2F96C522c88A",
           "comment": "f(bytes): 0x20, 0, 0 -> 0x44",
           "instance": "C",
           "method": "f(bytes)",
@@ -21,7 +21,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xA6CE0165F01Fccb751c401F1bcBb2F96C522c88A",
           "comment": "f(bytes): 0x22, 0, 0, 0 -> 0x46",
           "instance": "C",
           "method": "f(bytes)",
@@ -39,7 +39,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xA6CE0165F01Fccb751c401F1bcBb2F96C522c88A",
           "comment": "f(uint256,bytes,uint256): 7, 0x60, 8, 2, 0 -> 0x84, 2",
           "instance": "C",
           "method": "f(uint256,bytes,uint256)",
@@ -59,7 +59,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xA6CE0165F01Fccb751c401F1bcBb2F96C522c88A",
           "comment": "f(uint256,bytes,uint256): 0, 0, 0 -> 0x24, 0x00",
           "instance": "C",
           "method": "f(uint256,bytes,uint256)",

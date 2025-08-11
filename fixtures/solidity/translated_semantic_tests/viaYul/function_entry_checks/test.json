@@ -4,7 +4,7 @@
       "name": "function_entry_checks",
       "inputs": [
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x872917cEC8992487651Ee633DBA73bd3A9dcA309",
           "comment": "f() -> 0",
           "instance": "C",
           "method": "f()",
@@ -17,7 +17,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x872917cEC8992487651Ee633DBA73bd3A9dcA309",
           "comment": "g(uint256,uint256): 1, -2 -> 0",
           "instance": "C",
           "method": "g(uint256,uint256)",
@@ -33,7 +33,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x872917cEC8992487651Ee633DBA73bd3A9dcA309",
           "comment": "h(), 1 ether -> 0",
           "instance": "C",
           "method": "h()",
@@ -47,7 +47,7 @@
           "value": "1000000000000000000 wei"
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x872917cEC8992487651Ee633DBA73bd3A9dcA309",
           "comment": "i(bytes32), 1 ether: 2 -> FAILURE",
           "instance": "C",
           "method": "i(bytes32)",
@@ -60,7 +60,7 @@
           "value": "1000000000000000000 wei"
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x872917cEC8992487651Ee633DBA73bd3A9dcA309",
           "comment": "i(bytes32): 2 -> 0",
           "instance": "C",
           "method": "i(bytes32)",
@@ -75,7 +75,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x872917cEC8992487651Ee633DBA73bd3A9dcA309",
           "comment": "j(bool): true -> false",
           "instance": "C",
           "method": "j(bool)",
@@ -90,7 +90,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x872917cEC8992487651Ee633DBA73bd3A9dcA309",
           "comment": "k(bytes32): 0x31 -> 0x00",
           "instance": "C",
           "method": "k(bytes32)",
@@ -105,7 +105,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x872917cEC8992487651Ee633DBA73bd3A9dcA309",
           "comment": "s(): hex\"4200ef\" -> 0x20, 0",
           "instance": "C",
           "method": "s()",
@@ -121,7 +121,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x872917cEC8992487651Ee633DBA73bd3A9dcA309",
           "comment": "t(uint256) -> FAILURE",
           "instance": "C",
           "method": "t(uint256)",

@@ -6,10 +6,11 @@
         {
           "comment": "storageEmpty -> 1",
           "address": "c.address",
-          "is_storage_empty": true
+          "is_storage_empty": true,
+          "caller": "0xb7562376D206dbA77EFd0874601f17d52Ff70E81"
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x7cbf7E4098e894FCD93DA17E4D9ac4771F4B3D3c",
           "comment": "fill() ->; gas irOptimized: 465013; gas legacy: 468825; gas legacyOptimized: 466238",
           "instance": "c",
           "method": "fill()",
@@ -21,10 +22,11 @@
         {
           "comment": "storageEmpty -> 0",
           "address": "c.address",
-          "is_storage_empty": false
+          "is_storage_empty": false,
+          "caller": "0xb7562376D206dbA77EFd0874601f17d52Ff70E81"
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x7cbf7E4098e894FCD93DA17E4D9ac4771F4B3D3c",
           "comment": "clear() ->; gas irOptimized: 122148; gas legacy: 122440; gas legacyOptimized: 122259",
           "instance": "c",
           "method": "clear()",
@@ -36,7 +38,8 @@
         {
           "comment": "storageEmpty -> 1",
           "address": "c.address",
-          "is_storage_empty": true
+          "is_storage_empty": true,
+          "caller": "0xb7562376D206dbA77EFd0874601f17d52Ff70E81"
         }
       ]
     }

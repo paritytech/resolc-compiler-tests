@@ -4,7 +4,7 @@
       "name": "functions_called_by_constructor",
       "inputs": [
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x9a5279029e9A2D6E787c5A09CB068AB3D45e209d",
           "comment": "getName() -> \"abc\"",
           "instance": "Test",
           "method": "getName()",

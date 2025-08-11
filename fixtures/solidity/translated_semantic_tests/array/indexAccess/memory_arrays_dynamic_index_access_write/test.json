@@ -4,7 +4,7 @@
       "name": "memory_arrays_dynamic_index_access_write",
       "inputs": [
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x54e8a27e9F6a1471030ee095753F1bC50e903630",
           "comment": "f() -> 0x20, 0x04, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x07",
           "instance": "Test",
           "method": "f()",

@@ -4,7 +4,7 @@
       "name": "immutable_signed",
       "inputs": [
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xaec44D50374A514c41C16CC28F052F43eb0673c8",
           "comment": "direct() -> -2, 0x6162000000000000000000000000000000000000000000000000000000000000",
           "instance": "C",
           "method": "direct()",
@@ -18,7 +18,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0xaec44D50374A514c41C16CC28F052F43eb0673c8",
           "comment": "viaasm() -> 0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe, 0x6162000000000000000000000000000000000000000000000000000000000000",
           "instance": "C",
           "method": "viaasm()",

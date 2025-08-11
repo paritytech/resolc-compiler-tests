@@ -4,7 +4,7 @@
       "name": "creation_function_call_with_salt",
       "inputs": [
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x6282DE81b2455222C4B15159b36c03F55d4903D6",
           "comment": "constructor(): 2 ->; gas irOptimized: 139112; gas irOptimized code: 53800; gas legacy: 145935; gas legacy code: 95600; gas legacyOptimized: 138529; gas legacyOptimized code: 54600",
           "instance": "D",
           "method": "#deployer",
@@ -16,7 +16,7 @@
           }
         },
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x6282DE81b2455222C4B15159b36c03F55d4903D6",
           "comment": "f() -> 2",
           "instance": "D",
           "method": "f()",

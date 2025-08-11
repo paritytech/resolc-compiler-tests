@@ -4,7 +4,7 @@
       "name": "memory_overwrite",
       "inputs": [
         {
-          "caller": "0x1212121212121212121212121212120000000012",
+          "caller": "0x72CC6F96d909555A93946eA5927717b7553C093d",
           "comment": "f() -> 0x20, 5, \"b23a5\"",
           "instance": "C",
           "method": "f()",

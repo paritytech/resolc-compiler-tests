@@ -1,0 +1,26 @@
+{
+  "cases": [
+    {
+      "name": "immutable_signed",
+      "inputs": [
+        {
+          "caller": "0x5F326181523C87Ccf4d9fEF16E5fFfD6419fB3A3",
+          "comment": "viaasm() -> 0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe, 0x6162000000000000000000000000000000000000000000000000000000000000",
+          "instance": "C",
+          "method": "viaasm()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe",
+              "0x6162000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "immutable_signed.sol:C"
+  }
+}

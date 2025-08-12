@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "struct_storage_to_mapping",
+      "inputs": [
+        {
+          "caller": "0x04ab6D70F397E3DF5abDf1EAcD53a9De8F597c81",
+          "comment": "f() -> true",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "struct_storage_to_mapping.sol:C"
+  }
+}

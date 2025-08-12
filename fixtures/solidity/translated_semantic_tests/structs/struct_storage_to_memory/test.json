@@ -1,0 +1,27 @@
+{
+  "cases": [
+    {
+      "name": "struct_storage_to_memory",
+      "inputs": [
+        {
+          "caller": "0xE1Dc6C05662DE9DBeCF9B5A47b9441fB7a82505B",
+          "comment": "f() -> 42, 23, 34",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000000000002a",
+              "0x0000000000000000000000000000000000000000000000000000000000000017",
+              "0x0000000000000000000000000000000000000000000000000000000000000022"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "struct_storage_to_memory.sol:C"
+  }
+}

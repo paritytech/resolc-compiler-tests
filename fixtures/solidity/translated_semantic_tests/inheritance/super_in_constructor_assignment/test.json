@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "super_in_constructor_assignment",
+      "inputs": [
+        {
+          "caller": "0xBb8A8FE4f12953a5840C6570d5e836079329BE46",
+          "comment": "f() -> 15",
+          "instance": "D",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000000000000f"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "D": "super_in_constructor_assignment.sol:D"
+  }
+}

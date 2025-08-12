@@ -1,0 +1,38 @@
+{
+  "cases": [
+    {
+      "name": "inline_assembly_direct_store",
+      "inputs": [
+        {
+          "caller": "0x64D5266D56063F56edAaa51Ffb955cE6Cdb09436",
+          "comment": "f() -> 16",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000010"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x64D5266D56063F56edAaa51Ffb955cE6Cdb09436",
+          "comment": "x() -> 16",
+          "instance": "C",
+          "method": "x()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000010"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "inline_assembly_direct_store.sol:C"
+  }
+}

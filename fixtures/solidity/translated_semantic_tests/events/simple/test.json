@@ -1,0 +1,39 @@
+{
+  "cases": [
+    {
+      "name": "simple",
+      "inputs": [
+        {
+          "caller": "0x0b54A50c0409Dab2e63c3566324268ED53Ec019a",
+          "comment": "f() ->; ~ emit E(); ~ emit E(uint256,uint256): 0x01, 0x02",
+          "instance": "Test",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "events": [
+              {
+                "topics": [
+                  "92bbf6e823a631f3c8e09b1c8df90f378fb56f7fbc9701827e1ff8aad7f6a028"
+                ],
+                "values": []
+              },
+              {
+                "topics": [
+                  "85208890daa7be9cd9fdad8086c3160be23e8311b12b6ec707334c53be63a743"
+                ],
+                "values": [
+                  "0x0000000000000000000000000000000000000000000000000000000000000001",
+                  "0x0000000000000000000000000000000000000000000000000000000000000002"
+                ]
+              }
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "Test": "simple.sol:Test"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "cases": [
+    {
+      "name": "transient_value_types",
+      "inputs": [
+        {
+          "caller": "0x6Db15e33e66739809758684e431952b572924ebc",
+          "comment": "x() -> 0",
+          "instance": "C",
+          "method": "x()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x6Db15e33e66739809758684e431952b572924ebc",
+          "comment": "f() -> -1",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x6Db15e33e66739809758684e431952b572924ebc",
+          "comment": "x() -> 0",
+          "instance": "C",
+          "method": "x()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "transient_value_types.sol:C"
+  }
+}

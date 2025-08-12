@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "subassembly_deduplication",
+      "inputs": [
+        {
+          "caller": "0x0Cf555f691d7Bab8A429b9e4976D5Def0F51c17c",
+          "comment": "test() -> true",
+          "instance": "C",
+          "method": "test()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "subassembly_deduplication.sol:C"
+  }
+}

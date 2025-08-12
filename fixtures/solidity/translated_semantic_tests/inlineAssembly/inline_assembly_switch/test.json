@@ -1,0 +1,72 @@
+{
+  "cases": [
+    {
+      "name": "inline_assembly_switch",
+      "inputs": [
+        {
+          "caller": "0x525c82F73035fF2cD6AEf74a1C00a29C63fEcea9",
+          "comment": "f(uint256): 0 -> 2",
+          "instance": "C",
+          "method": "f(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000002"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x525c82F73035fF2cD6AEf74a1C00a29C63fEcea9",
+          "comment": "f(uint256): 1 -> 8",
+          "instance": "C",
+          "method": "f(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000001"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000008"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x525c82F73035fF2cD6AEf74a1C00a29C63fEcea9",
+          "comment": "f(uint256): 2 -> 9",
+          "instance": "C",
+          "method": "f(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000002"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000009"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x525c82F73035fF2cD6AEf74a1C00a29C63fEcea9",
+          "comment": "f(uint256): 3 -> 2",
+          "instance": "C",
+          "method": "f(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000003"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000002"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "inline_assembly_switch.sol:C"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "cases": [
+    {
+      "name": "ternary_contract_library_internal_function",
+      "inputs": [
+        {
+          "caller": "0xF6203C4FB14dA640D11FbD9573E3958D017E6745",
+          "comment": "test(bool): true -> 1",
+          "instance": "C",
+          "method": "test(bool)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000001"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xF6203C4FB14dA640D11FbD9573E3958D017E6745",
+          "comment": "test(bool): false -> 2",
+          "instance": "C",
+          "method": "test(bool)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000002"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "ternary_contract_library_internal_function.sol:C",
+    "L": "ternary_contract_library_internal_function.sol:L"
+  },
+  "libraries": {
+    "ternary_contract_library_internal_function.sol": {
+      "L": "L"
+    }
+  }
+}

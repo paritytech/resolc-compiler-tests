@@ -1,0 +1,51 @@
+{
+  "cases": [
+    {
+      "name": "block_chainid",
+      "inputs": [
+        {
+          "caller": "0x773A741c7BaFc7a1Dc51427cf3a33193f67617f9",
+          "comment": "f() -> 280",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000118"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x773A741c7BaFc7a1Dc51427cf3a33193f67617f9",
+          "comment": "f() -> 280",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000118"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x773A741c7BaFc7a1Dc51427cf3a33193f67617f9",
+          "comment": "f() -> 280",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000118"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "block_chainid.sol:C"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "cases": [
+    {
+      "name": "call_attached_library_function_on_storage_variable",
+      "inputs": [
+        {
+          "caller": "0x810944Ec24940a635F8d10398CdCc535eC95B7a6",
+          "comment": "f(uint256): 7 -> 0x2a",
+          "instance": "C",
+          "method": "f(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000007"
+          ],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000000000002a"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x810944Ec24940a635F8d10398CdCc535eC95B7a6",
+          "comment": "x() -> 0x2a",
+          "instance": "C",
+          "method": "x()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000000000002a"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "call_attached_library_function_on_storage_variable.sol:C",
+    "D": "call_attached_library_function_on_storage_variable.sol:D"
+  },
+  "libraries": {
+    "call_attached_library_function_on_storage_variable.sol": {
+      "D": "D"
+    }
+  }
+}

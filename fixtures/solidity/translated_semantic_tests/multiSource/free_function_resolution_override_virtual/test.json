@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "free_function_resolution_override_virtual",
+      "inputs": [
+        {
+          "caller": "0x1fB5632DDa9386A3eCEe7F7B750424785199cD05",
+          "comment": "g() -> 1337",
+          "instance": "D",
+          "method": "g()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000539"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "D": "s2.sol:D"
+  }
+}

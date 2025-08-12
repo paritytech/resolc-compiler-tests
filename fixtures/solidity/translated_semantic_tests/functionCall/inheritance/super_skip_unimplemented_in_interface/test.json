@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "super_skip_unimplemented_in_interface",
+      "inputs": [
+        {
+          "caller": "0x48159CF1F76426b2ac5ad8208e1B3E5517438D43",
+          "comment": "f() -> 42",
+          "instance": "B",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000000000002a"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "B": "super_skip_unimplemented_in_interface.sol:B"
+  }
+}

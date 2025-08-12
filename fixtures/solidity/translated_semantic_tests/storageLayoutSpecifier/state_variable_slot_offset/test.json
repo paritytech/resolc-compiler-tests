@@ -1,0 +1,54 @@
+{
+  "cases": [
+    {
+      "name": "state_variable_slot_offset",
+      "inputs": [
+        {
+          "caller": "0x5Ae9CE3F41EF5D71bd372d6B4bf2b84BA3B3A60D",
+          "comment": "xSlotOffset() -> 7, 0",
+          "instance": "C",
+          "method": "xSlotOffset()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000007",
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x5Ae9CE3F41EF5D71bd372d6B4bf2b84BA3B3A60D",
+          "comment": "ySlotOffset() -> 7, 1",
+          "instance": "C",
+          "method": "ySlotOffset()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000007",
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x5Ae9CE3F41EF5D71bd372d6B4bf2b84BA3B3A60D",
+          "comment": "zSlotOffset() -> 8, 0",
+          "instance": "C",
+          "method": "zSlotOffset()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000008",
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "state_variable_slot_offset.sol:C"
+  }
+}

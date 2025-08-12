@@ -1,0 +1,237 @@
+{
+  "cases": [
+    {
+      "name": "mapping_contract_key_library",
+      "inputs": [
+        {
+          "caller": "0xA412f3d6553d13B98fd9EA59e0BAe9bc9C6C2B5E",
+          "comment": "get(address): 0 -> 0",
+          "instance": "test",
+          "method": "get(address)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xA412f3d6553d13B98fd9EA59e0BAe9bc9C6C2B5E",
+          "comment": "get(address): 0x01 -> 0",
+          "instance": "test",
+          "method": "get(address)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000001"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xA412f3d6553d13B98fd9EA59e0BAe9bc9C6C2B5E",
+          "comment": "get(address): 0xa7 -> 0",
+          "instance": "test",
+          "method": "get(address)",
+          "calldata": [
+            "0x00000000000000000000000000000000000000000000000000000000000000a7"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xA412f3d6553d13B98fd9EA59e0BAe9bc9C6C2B5E",
+          "comment": "set(address,uint8): 0x01, 0xa1 ->",
+          "instance": "test",
+          "method": "set(address,uint8)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000001",
+            "0x00000000000000000000000000000000000000000000000000000000000000a1"
+          ],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xA412f3d6553d13B98fd9EA59e0BAe9bc9C6C2B5E",
+          "comment": "get(address): 0 -> 0",
+          "instance": "test",
+          "method": "get(address)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xA412f3d6553d13B98fd9EA59e0BAe9bc9C6C2B5E",
+          "comment": "get(address): 0x01 -> 0xa1",
+          "instance": "test",
+          "method": "get(address)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000001"
+          ],
+          "expected": {
+            "return_data": [
+              "0x00000000000000000000000000000000000000000000000000000000000000a1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xA412f3d6553d13B98fd9EA59e0BAe9bc9C6C2B5E",
+          "comment": "get(address): 0xa7 -> 0",
+          "instance": "test",
+          "method": "get(address)",
+          "calldata": [
+            "0x00000000000000000000000000000000000000000000000000000000000000a7"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xA412f3d6553d13B98fd9EA59e0BAe9bc9C6C2B5E",
+          "comment": "set(address,uint8): 0x00, 0xef ->",
+          "instance": "test",
+          "method": "set(address,uint8)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "0x00000000000000000000000000000000000000000000000000000000000000ef"
+          ],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xA412f3d6553d13B98fd9EA59e0BAe9bc9C6C2B5E",
+          "comment": "get(address): 0 -> 0xef",
+          "instance": "test",
+          "method": "get(address)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0x00000000000000000000000000000000000000000000000000000000000000ef"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xA412f3d6553d13B98fd9EA59e0BAe9bc9C6C2B5E",
+          "comment": "get(address): 0x01 -> 0xa1",
+          "instance": "test",
+          "method": "get(address)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000001"
+          ],
+          "expected": {
+            "return_data": [
+              "0x00000000000000000000000000000000000000000000000000000000000000a1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xA412f3d6553d13B98fd9EA59e0BAe9bc9C6C2B5E",
+          "comment": "get(address): 0xa7 -> 0",
+          "instance": "test",
+          "method": "get(address)",
+          "calldata": [
+            "0x00000000000000000000000000000000000000000000000000000000000000a7"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xA412f3d6553d13B98fd9EA59e0BAe9bc9C6C2B5E",
+          "comment": "set(address,uint8): 0x01, 0x05 ->",
+          "instance": "test",
+          "method": "set(address,uint8)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000001",
+            "0x0000000000000000000000000000000000000000000000000000000000000005"
+          ],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xA412f3d6553d13B98fd9EA59e0BAe9bc9C6C2B5E",
+          "comment": "get(address): 0 -> 0xef",
+          "instance": "test",
+          "method": "get(address)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0x00000000000000000000000000000000000000000000000000000000000000ef"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xA412f3d6553d13B98fd9EA59e0BAe9bc9C6C2B5E",
+          "comment": "get(address): 0x01 -> 0x05",
+          "instance": "test",
+          "method": "get(address)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000001"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000005"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xA412f3d6553d13B98fd9EA59e0BAe9bc9C6C2B5E",
+          "comment": "get(address): 0xa7 -> 0",
+          "instance": "test",
+          "method": "get(address)",
+          "calldata": [
+            "0x00000000000000000000000000000000000000000000000000000000000000a7"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "L": "mapping_contract_key_library.sol:L",
+    "test": "mapping_contract_key_library.sol:test"
+  },
+  "libraries": {
+    "mapping_contract_key_library.sol": {
+      "L": "L"
+    }
+  }
+}

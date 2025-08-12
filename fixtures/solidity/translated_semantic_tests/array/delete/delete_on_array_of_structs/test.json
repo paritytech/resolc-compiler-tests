@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "delete_on_array_of_structs",
+      "inputs": [
+        {
+          "caller": "0x788CE6bfD5A5b72B2d3741efCB4B8DdA33d776f4",
+          "comment": "f() -> true",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "delete_on_array_of_structs.sol:C"
+  }
+}

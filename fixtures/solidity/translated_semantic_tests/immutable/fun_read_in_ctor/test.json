@@ -1,0 +1,38 @@
+{
+  "cases": [
+    {
+      "name": "fun_read_in_ctor",
+      "inputs": [
+        {
+          "caller": "0xA6c576E962f7221102F14d1833b0b4017E4De604",
+          "comment": "readX() -> 3",
+          "instance": "A",
+          "method": "readX()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000003"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xA6c576E962f7221102F14d1833b0b4017E4De604",
+          "comment": "readA() -> 3",
+          "instance": "A",
+          "method": "readA()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000003"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "A": "fun_read_in_ctor.sol:A"
+  }
+}

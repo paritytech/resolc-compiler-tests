@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "cross_contract_types",
+      "inputs": [
+        {
+          "caller": "0xaE00DD75852453AD5408fF6304196Ea9f69453bE",
+          "comment": "f() -> 3",
+          "instance": "Test",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000003"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "Test": "cross_contract_types.sol:Test"
+  }
+}

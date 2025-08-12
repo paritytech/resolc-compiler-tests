@@ -1,0 +1,51 @@
+{
+  "cases": [
+    {
+      "name": "return",
+      "inputs": [
+        {
+          "caller": "0xA01CCA6367A84304b6607B76676C66c360b74741",
+          "comment": "f() -> 1",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xA01CCA6367A84304b6607B76676C66c360b74741",
+          "comment": "g() -> 1",
+          "instance": "C",
+          "method": "g()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xA01CCA6367A84304b6607B76676C66c360b74741",
+          "comment": "h() -> 2",
+          "instance": "C",
+          "method": "h()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000002"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "return.sol:C"
+  }
+}

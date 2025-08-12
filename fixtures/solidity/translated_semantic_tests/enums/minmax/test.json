@@ -1,0 +1,38 @@
+{
+  "cases": [
+    {
+      "name": "minmax",
+      "inputs": [
+        {
+          "caller": "0xEAF6995caE4780e050Aae56F3D4575A5392CA83E",
+          "comment": "min() -> 0",
+          "instance": "test",
+          "method": "min()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xEAF6995caE4780e050Aae56F3D4575A5392CA83E",
+          "comment": "max() -> 3",
+          "instance": "test",
+          "method": "max()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000003"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "test": "minmax.sol:test"
+  }
+}

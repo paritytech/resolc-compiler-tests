@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "library_on_interface",
+      "inputs": [
+        {
+          "caller": "0xEFabCdebb92e910D8f1c3BbcD1732dbF3ac02596",
+          "comment": "x() -> 7",
+          "instance": "C",
+          "method": "x()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000007"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "library_on_interface.sol:C"
+  }
+}

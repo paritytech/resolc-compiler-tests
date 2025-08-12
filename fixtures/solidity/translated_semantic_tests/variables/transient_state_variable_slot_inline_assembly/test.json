@@ -1,0 +1,54 @@
+{
+  "cases": [
+    {
+      "name": "transient_state_variable_slot_inline_assembly",
+      "inputs": [
+        {
+          "caller": "0x3172231679d12eeC5AF9E61782FD9EF4823d9F4E",
+          "comment": "f() -> 0, 0",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000",
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x3172231679d12eeC5AF9E61782FD9EF4823d9F4E",
+          "comment": "g() -> 1, 0",
+          "instance": "C",
+          "method": "g()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001",
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x3172231679d12eeC5AF9E61782FD9EF4823d9F4E",
+          "comment": "h() -> 1, 1",
+          "instance": "C",
+          "method": "h()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001",
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "transient_state_variable_slot_inline_assembly.sol:C"
+  }
+}

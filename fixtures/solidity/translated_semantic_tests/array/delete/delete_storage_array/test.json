@@ -1,0 +1,38 @@
+{
+  "cases": [
+    {
+      "name": "delete_storage_array",
+      "inputs": [
+        {
+          "caller": "0x0c575B9fF5795667a48A403628129908Ae131363",
+          "comment": "len() -> 0",
+          "instance": "C",
+          "method": "len()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x0c575B9fF5795667a48A403628129908Ae131363",
+          "comment": "val() -> 0",
+          "instance": "C",
+          "method": "val()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "delete_storage_array.sol:C"
+  }
+}

@@ -1,0 +1,228 @@
+{
+  "cases": [
+    {
+      "name": "storage_array_ref",
+      "inputs": [
+        {
+          "caller": "0x1eeAFAe4596EDC09AD92bbc49E234131AB61278F",
+          "comment": "find(uint256): 7 -> -1",
+          "instance": "Store",
+          "method": "find(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000007"
+          ],
+          "expected": {
+            "return_data": [
+              "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1eeAFAe4596EDC09AD92bbc49E234131AB61278F",
+          "comment": "add(uint256): 7 ->",
+          "instance": "Store",
+          "method": "add(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000007"
+          ],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1eeAFAe4596EDC09AD92bbc49E234131AB61278F",
+          "comment": "find(uint256): 7 -> 0",
+          "instance": "Store",
+          "method": "find(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000007"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1eeAFAe4596EDC09AD92bbc49E234131AB61278F",
+          "comment": "add(uint256): 11 ->",
+          "instance": "Store",
+          "method": "add(uint256)",
+          "calldata": [
+            "0x000000000000000000000000000000000000000000000000000000000000000b"
+          ],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1eeAFAe4596EDC09AD92bbc49E234131AB61278F",
+          "comment": "add(uint256): 17 ->",
+          "instance": "Store",
+          "method": "add(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000011"
+          ],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1eeAFAe4596EDC09AD92bbc49E234131AB61278F",
+          "comment": "add(uint256): 27 ->",
+          "instance": "Store",
+          "method": "add(uint256)",
+          "calldata": [
+            "0x000000000000000000000000000000000000000000000000000000000000001b"
+          ],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1eeAFAe4596EDC09AD92bbc49E234131AB61278F",
+          "comment": "add(uint256): 31 ->",
+          "instance": "Store",
+          "method": "add(uint256)",
+          "calldata": [
+            "0x000000000000000000000000000000000000000000000000000000000000001f"
+          ],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1eeAFAe4596EDC09AD92bbc49E234131AB61278F",
+          "comment": "add(uint256): 32 ->",
+          "instance": "Store",
+          "method": "add(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000020"
+          ],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1eeAFAe4596EDC09AD92bbc49E234131AB61278F",
+          "comment": "add(uint256): 66 ->",
+          "instance": "Store",
+          "method": "add(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000042"
+          ],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1eeAFAe4596EDC09AD92bbc49E234131AB61278F",
+          "comment": "add(uint256): 177 ->",
+          "instance": "Store",
+          "method": "add(uint256)",
+          "calldata": [
+            "0x00000000000000000000000000000000000000000000000000000000000000b1"
+          ],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1eeAFAe4596EDC09AD92bbc49E234131AB61278F",
+          "comment": "find(uint256): 7 -> 0",
+          "instance": "Store",
+          "method": "find(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000007"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1eeAFAe4596EDC09AD92bbc49E234131AB61278F",
+          "comment": "find(uint256): 27 -> 3",
+          "instance": "Store",
+          "method": "find(uint256)",
+          "calldata": [
+            "0x000000000000000000000000000000000000000000000000000000000000001b"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000003"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1eeAFAe4596EDC09AD92bbc49E234131AB61278F",
+          "comment": "find(uint256): 32 -> 5",
+          "instance": "Store",
+          "method": "find(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000020"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000005"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1eeAFAe4596EDC09AD92bbc49E234131AB61278F",
+          "comment": "find(uint256): 176 -> -1",
+          "instance": "Store",
+          "method": "find(uint256)",
+          "calldata": [
+            "0x00000000000000000000000000000000000000000000000000000000000000b0"
+          ],
+          "expected": {
+            "return_data": [
+              "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1eeAFAe4596EDC09AD92bbc49E234131AB61278F",
+          "comment": "find(uint256): 0 -> -1",
+          "instance": "Store",
+          "method": "find(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1eeAFAe4596EDC09AD92bbc49E234131AB61278F",
+          "comment": "find(uint256): 400 -> -1",
+          "instance": "Store",
+          "method": "find(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000190"
+          ],
+          "expected": {
+            "return_data": [
+              "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "Store": "storage_array_ref.sol:Store"
+  }
+}

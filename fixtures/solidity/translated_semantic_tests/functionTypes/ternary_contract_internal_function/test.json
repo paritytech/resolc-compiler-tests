@@ -1,0 +1,42 @@
+{
+  "cases": [
+    {
+      "name": "ternary_contract_internal_function",
+      "inputs": [
+        {
+          "caller": "0xB33609811fb3D9Fc8955dc6E9e086F1F08fc3a65",
+          "comment": "test(bool): true -> 1",
+          "instance": "C",
+          "method": "test(bool)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000001"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xB33609811fb3D9Fc8955dc6E9e086F1F08fc3a65",
+          "comment": "test(bool): false -> 2",
+          "instance": "C",
+          "method": "test(bool)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000002"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "ternary_contract_internal_function.sol:C"
+  }
+}

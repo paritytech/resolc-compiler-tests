@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "simple_inline_asm",
+      "inputs": [
+        {
+          "caller": "0x7231C364597f3BfDB72Cf52b197cc59111e71794",
+          "comment": "f() -> 6",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000006"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "simple_inline_asm.sol:C"
+  }
+}

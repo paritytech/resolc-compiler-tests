@@ -1,0 +1,56 @@
+{
+  "cases": [
+    {
+      "name": "copy_removes_bytes_data",
+      "inputs": [
+        {
+          "caller": "0xD7e8E307B7deEBC52bf234882a7646640A06D146",
+          "comment": "set(): 1, 2, 3, 4, 5 -> true; gas irOptimized: 177344; gas legacy: 177953; gas legacyOptimized: 177550",
+          "instance": "c",
+          "method": "set()",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000001",
+            "0x0000000000000000000000000000000000000000000000000000000000000002",
+            "0x0000000000000000000000000000000000000000000000000000000000000003",
+            "0x0000000000000000000000000000000000000000000000000000000000000004",
+            "0x0000000000000000000000000000000000000000000000000000000000000005"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "comment": "storageEmpty -> 0",
+          "address": "c.address",
+          "is_storage_empty": false,
+          "caller": "0x997e3cBB96Bc4DeaDe65CCfb0dA98D4e2a63aC2d"
+        },
+        {
+          "caller": "0xD7e8E307B7deEBC52bf234882a7646640A06D146",
+          "comment": "reset() -> true",
+          "instance": "c",
+          "method": "reset()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "comment": "storageEmpty -> 1",
+          "address": "c.address",
+          "is_storage_empty": true,
+          "caller": "0x997e3cBB96Bc4DeaDe65CCfb0dA98D4e2a63aC2d"
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "c": "copy_removes_bytes_data.sol:c"
+  }
+}

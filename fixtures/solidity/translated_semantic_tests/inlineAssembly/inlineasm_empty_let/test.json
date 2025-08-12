@@ -1,0 +1,26 @@
+{
+  "cases": [
+    {
+      "name": "inlineasm_empty_let",
+      "inputs": [
+        {
+          "caller": "0xD2e69e3b857AEB3c4fa84A7CA5977ADDA14d7Be6",
+          "comment": "f() -> 0, 0",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000",
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "inlineasm_empty_let.sol:C"
+  }
+}

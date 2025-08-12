@@ -1,0 +1,27 @@
+{
+  "cases": [
+    {
+      "name": "function_array_cross_calls",
+      "inputs": [
+        {
+          "caller": "0x816550bC8f73DEa55aC62Da7Ca5502Ca60b559f3",
+          "comment": "test() -> 5, 6, 7; gas irOptimized: 86484; gas irOptimized code: 161200; gas legacy: 97551; gas legacy code: 342800; gas legacyOptimized: 87808; gas legacyOptimized code: 193000",
+          "instance": "C",
+          "method": "test()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000005",
+              "0x0000000000000000000000000000000000000000000000000000000000000006",
+              "0x0000000000000000000000000000000000000000000000000000000000000007"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "function_array_cross_calls.sol:C"
+  }
+}

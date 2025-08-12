@@ -1,0 +1,38 @@
+{
+  "cases": [
+    {
+      "name": "require_error_evaluation_order_1",
+      "inputs": [
+        {
+          "caller": "0x216FaEC139a61329Ef8B31d982DE427D9C007a9E",
+          "comment": "f() -> 7",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000007"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x216FaEC139a61329Ef8B31d982DE427D9C007a9E",
+          "comment": "g() -> 7",
+          "instance": "C",
+          "method": "g()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000007"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "require_error_evaluation_order_1.sol:C"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "cases": [
+    {
+      "name": "getters",
+      "inputs": [
+        {
+          "caller": "0x1d9FF1F8422F6e427c1fc49BE5C2D96081AC0512",
+          "comment": "x() -> 1",
+          "instance": "C",
+          "method": "x()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1d9FF1F8422F6e427c1fc49BE5C2D96081AC0512",
+          "comment": "y() -> 2",
+          "instance": "C",
+          "method": "y()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000002"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1d9FF1F8422F6e427c1fc49BE5C2D96081AC0512",
+          "comment": "z() -> 3",
+          "instance": "C",
+          "method": "z()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000003"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "getters.sol:C"
+  }
+}

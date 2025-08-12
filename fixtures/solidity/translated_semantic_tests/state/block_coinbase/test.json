@@ -1,0 +1,51 @@
+{
+  "cases": [
+    {
+      "name": "block_coinbase",
+      "inputs": [
+        {
+          "caller": "0xdBdbAE304FBa6b93a9Cdc90326A5FAdC1c2A1489",
+          "comment": "f() -> 0x0000000000000000000000000000000000008001",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000008001"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xdBdbAE304FBa6b93a9Cdc90326A5FAdC1c2A1489",
+          "comment": "f() -> 0x0000000000000000000000000000000000008001",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000008001"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xdBdbAE304FBa6b93a9Cdc90326A5FAdC1c2A1489",
+          "comment": "f() -> 0x0000000000000000000000000000000000008001",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000008001"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "block_coinbase.sol:C"
+  }
+}

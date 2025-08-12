@@ -1,0 +1,42 @@
+{
+  "cases": [
+    {
+      "name": "call_base_base",
+      "inputs": [
+        {
+          "caller": "0x648bA970a9285Ec2867d9FE1088D0B865c7072eA",
+          "comment": "g(uint256): 4 -> 12",
+          "instance": "Child",
+          "method": "g(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000004"
+          ],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000000000000c"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x648bA970a9285Ec2867d9FE1088D0B865c7072eA",
+          "comment": "h(uint256): 4 -> 16",
+          "instance": "Child",
+          "method": "h(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000004"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000010"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "Child": "call_base_base.sol:Child"
+  }
+}

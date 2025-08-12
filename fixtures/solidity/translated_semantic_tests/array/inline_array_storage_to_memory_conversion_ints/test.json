@@ -1,0 +1,26 @@
+{
+  "cases": [
+    {
+      "name": "inline_array_storage_to_memory_conversion_ints",
+      "inputs": [
+        {
+          "caller": "0xf0Cd998500fC71F8F08C2A85ce3F858B84c36a89",
+          "comment": "f() -> 3, 6",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000003",
+              "0x0000000000000000000000000000000000000000000000000000000000000006"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "inline_array_storage_to_memory_conversion_ints.sol:C"
+  }
+}

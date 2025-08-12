@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "getter_call_in_constructor",
+      "inputs": [
+        {
+          "caller": "0xeBaA04150Ec9c9dc233E833Ba857680748dbe86A",
+          "comment": "f() -> true",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "getter_call_in_constructor.sol:C"
+  }
+}

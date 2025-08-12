@@ -1,0 +1,40 @@
+{
+  "cases": [
+    {
+      "name": "evmone_support",
+      "inputs": [
+        {
+          "caller": "0x7CDD6E3B151e04d9D219380Ee689Ff937aFCe3ab",
+          "comment": "bytecode() -> 0x20, 4, 0x60205ff300000000000000000000000000000000000000000000000000000000",
+          "instance": "Test",
+          "method": "bytecode()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000020",
+              "0x0000000000000000000000000000000000000000000000000000000000000004",
+              "0x60205ff300000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x7CDD6E3B151e04d9D219380Ee689Ff937aFCe3ab",
+          "comment": "isPush0Supported() -> true",
+          "instance": "Test",
+          "method": "isPush0Supported()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "Test": "evmone_support.sol:Test"
+  }
+}

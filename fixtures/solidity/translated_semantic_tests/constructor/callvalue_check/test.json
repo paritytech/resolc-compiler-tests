@@ -1,0 +1,140 @@
+{
+  "cases": [
+    {
+      "name": "callvalue_check",
+      "inputs": [
+        {
+          "caller": "0x1efF47bc3a10a45D4B230B5d10E37751FE6AA718",
+          "comment": "f(uint256), 2000 ether: 0 -> true",
+          "instance": "C",
+          "method": "f(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          },
+          "value": "2000000000000000000000 wei"
+        },
+        {
+          "caller": "0x1efF47bc3a10a45D4B230B5d10E37751FE6AA718",
+          "comment": "f(uint256), 2000 ether: 100 -> false",
+          "instance": "C",
+          "method": "f(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000064"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          },
+          "value": "2000000000000000000000 wei"
+        },
+        {
+          "caller": "0x1efF47bc3a10a45D4B230B5d10E37751FE6AA718",
+          "comment": "g(uint256), 2000 ether: 0 -> true",
+          "instance": "C",
+          "method": "g(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          },
+          "value": "2000000000000000000000 wei"
+        },
+        {
+          "caller": "0x1efF47bc3a10a45D4B230B5d10E37751FE6AA718",
+          "comment": "g(uint256), 2000 ether: 100 -> false",
+          "instance": "C",
+          "method": "g(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000064"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          },
+          "value": "2000000000000000000000 wei"
+        },
+        {
+          "caller": "0x1efF47bc3a10a45D4B230B5d10E37751FE6AA718",
+          "comment": "h(uint256), 2000 ether: 0 -> true",
+          "instance": "C",
+          "method": "h(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          },
+          "value": "2000000000000000000000 wei"
+        },
+        {
+          "caller": "0x1efF47bc3a10a45D4B230B5d10E37751FE6AA718",
+          "comment": "h(uint256), 2000 ether: 100 -> false",
+          "instance": "C",
+          "method": "h(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000064"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          },
+          "value": "2000000000000000000000 wei"
+        },
+        {
+          "caller": "0x1efF47bc3a10a45D4B230B5d10E37751FE6AA718",
+          "comment": "i(uint256), 2000 ether: 0 -> true",
+          "instance": "C",
+          "method": "i(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          },
+          "value": "2000000000000000000000 wei"
+        },
+        {
+          "caller": "0x1efF47bc3a10a45D4B230B5d10E37751FE6AA718",
+          "comment": "i(uint256), 2000 ether: 100 -> false",
+          "instance": "C",
+          "method": "i(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000064"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          },
+          "value": "2000000000000000000000 wei"
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "callvalue_check.sol:C"
+  }
+}

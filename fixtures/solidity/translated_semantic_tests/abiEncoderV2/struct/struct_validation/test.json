@@ -1,0 +1,73 @@
+{
+  "cases": [
+    {
+      "name": "struct_validation",
+      "inputs": [
+        {
+          "caller": "0x2FeEdCD856e514d9677b0a65671FB7E175120D87",
+          "comment": "f((int16,uint8,bytes2)): 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff01, 0xff, \"ab\" -> 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff01, 0xff, \"ab\"",
+          "instance": "C",
+          "method": "f((int16,uint8,bytes2))",
+          "calldata": [
+            "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff01",
+            "0x00000000000000000000000000000000000000000000000000000000000000ff",
+            "0x0000000000000000000000000000000000000000000000000000000000006162"
+          ],
+          "expected": {
+            "return_data": [
+              "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff01",
+              "0x00000000000000000000000000000000000000000000000000000000000000ff",
+              "0x0000000000000000000000000000000000000000000000000000000000006162"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x2FeEdCD856e514d9677b0a65671FB7E175120D87",
+          "comment": "f((int16,uint8,bytes2)): 0xff010, 0xff, \"ab\" -> FAILURE",
+          "instance": "C",
+          "method": "f((int16,uint8,bytes2))",
+          "calldata": [
+            "0x00000000000000000000000000000000000000000000000000000000000ff010",
+            "0x00000000000000000000000000000000000000000000000000000000000000ff",
+            "0x0000000000000000000000000000000000000000000000000000000000006162"
+          ],
+          "expected": {
+            "exception": true
+          }
+        },
+        {
+          "caller": "0x2FeEdCD856e514d9677b0a65671FB7E175120D87",
+          "comment": "f((int16,uint8,bytes2)): 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff01, 0xff0002, \"ab\" -> FAILURE",
+          "instance": "C",
+          "method": "f((int16,uint8,bytes2))",
+          "calldata": [
+            "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff01",
+            "0x0000000000000000000000000000000000000000000000000000000000ff0002",
+            "0x0000000000000000000000000000000000000000000000000000000000006162"
+          ],
+          "expected": {
+            "exception": true
+          }
+        },
+        {
+          "caller": "0x2FeEdCD856e514d9677b0a65671FB7E175120D87",
+          "comment": "f((int16,uint8,bytes2)): 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff01, 0xff, \"abcd\" -> FAILURE",
+          "instance": "C",
+          "method": "f((int16,uint8,bytes2))",
+          "calldata": [
+            "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff01",
+            "0x00000000000000000000000000000000000000000000000000000000000000ff",
+            "0x0000000000000000000000000000000000000000000000000000000061626364"
+          ],
+          "expected": {
+            "exception": true
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "struct_validation.sol:C"
+  }
+}

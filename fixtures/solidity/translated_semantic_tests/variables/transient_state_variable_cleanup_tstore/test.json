@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "transient_state_variable_cleanup_tstore",
+      "inputs": [
+        {
+          "caller": "0xdbC29273d4DE3D5645E308C7E629d28d4499B3d3",
+          "comment": "f() -> 0xff",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x00000000000000000000000000000000000000000000000000000000000000ff"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "transient_state_variable_cleanup_tstore.sol:C"
+  }
+}

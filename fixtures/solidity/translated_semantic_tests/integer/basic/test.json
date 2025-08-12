@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "basic",
+      "inputs": [
+        {
+          "caller": "0x14a6E94f5c4F109d31ec0ff3cd002561b2525bcc",
+          "comment": "basic() -> true",
+          "instance": "C",
+          "method": "basic()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "basic.sol:C"
+  }
+}

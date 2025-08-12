@@ -1,0 +1,38 @@
+{
+  "cases": [
+    {
+      "name": "calling_nonexisting_contract",
+      "inputs": [
+        {
+          "caller": "0x24d8C8008554f5EF8CA7F478592348b9c18c3507",
+          "comment": "f() -> 7",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000007"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x24d8C8008554f5EF8CA7F478592348b9c18c3507",
+          "comment": "h() -> 7",
+          "instance": "C",
+          "method": "h()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000007"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "calling_nonexisting_contract.sol:C"
+  }
+}

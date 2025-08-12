@@ -1,0 +1,26 @@
+{
+  "cases": [
+    {
+      "name": "struct_named_constructor",
+      "inputs": [
+        {
+          "caller": "0x4C2435f2D9192762210e255be7e8b4E5F4e5e26D",
+          "comment": "s() -> 1, true",
+          "instance": "C",
+          "method": "s()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001",
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "struct_named_constructor.sol:C"
+  }
+}

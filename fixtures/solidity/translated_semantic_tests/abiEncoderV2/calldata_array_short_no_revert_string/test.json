@@ -1,0 +1,51 @@
+{
+  "cases": [
+    {
+      "name": "calldata_array_short_no_revert_string",
+      "inputs": [
+        {
+          "caller": "0xeEb8154387A84832010eA0C108AF51D8Ea52FD29",
+          "comment": "f(uint256[]): 0x20, 0 ->",
+          "instance": "C",
+          "method": "f(uint256[])",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000020",
+            "0x0000000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xeEb8154387A84832010eA0C108AF51D8Ea52FD29",
+          "comment": "f(uint256[]): 0x20, 1 -> FAILURE",
+          "instance": "C",
+          "method": "f(uint256[])",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000020",
+            "0x0000000000000000000000000000000000000000000000000000000000000001"
+          ],
+          "expected": {
+            "exception": true
+          }
+        },
+        {
+          "caller": "0xeEb8154387A84832010eA0C108AF51D8Ea52FD29",
+          "comment": "f(uint256[]): 0x20, 2 -> FAILURE",
+          "instance": "C",
+          "method": "f(uint256[])",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000020",
+            "0x0000000000000000000000000000000000000000000000000000000000000002"
+          ],
+          "expected": {
+            "exception": true
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "calldata_array_short_no_revert_string.sol:C"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "pass_dynamic_arguments_to_the_base_base",
+      "inputs": [
+        {
+          "caller": "0x1C4D4Ebd8e440a1A7565F0E9F45412E9a22636D8",
+          "comment": "m_i() -> 4",
+          "instance": "Final",
+          "method": "m_i()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000004"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "Final": "pass_dynamic_arguments_to_the_base_base.sol:Final"
+  }
+}

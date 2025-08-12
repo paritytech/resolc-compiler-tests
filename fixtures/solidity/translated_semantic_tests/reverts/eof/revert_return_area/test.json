@@ -1,0 +1,26 @@
+{
+  "cases": [
+    {
+      "name": "revert_return_area",
+      "inputs": [
+        {
+          "caller": "0x8a398504e8d84B6D8325AbDeD7BC9ba3b2C36E48",
+          "comment": "f() -> 0x01, 0x08c379a000000000000000000000000000000000000000000000000000000000",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001",
+              "0x08c379a000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "revert_return_area.sol:C"
+  }
+}

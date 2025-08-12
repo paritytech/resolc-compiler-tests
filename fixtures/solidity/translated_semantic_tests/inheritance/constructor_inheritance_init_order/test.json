@@ -1,0 +1,35 @@
+{
+  "cases": [
+    {
+      "name": "constructor_inheritance_init_order",
+      "inputs": [
+        {
+          "caller": "0x1d6ca4de171575E9E66B8d8360bC6403E7D3f949",
+          "comment": "constructor() ->; gas irOptimized: 99436; gas irOptimized code: 20200",
+          "instance": "B",
+          "method": "#deployer",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1d6ca4de171575E9E66B8d8360bC6403E7D3f949",
+          "comment": "y() -> 42",
+          "instance": "B",
+          "method": "y()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000000000002a"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "B": "constructor_inheritance_init_order.sol:B"
+  }
+}

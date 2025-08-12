@@ -1,0 +1,38 @@
+{
+  "cases": [
+    {
+      "name": "call_function_returning_nothing_via_pointer",
+      "inputs": [
+        {
+          "caller": "0x0268D4b21664F1330dAD744fE144f5F9f69F93C1",
+          "comment": "f() -> true",
+          "instance": "test",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x0268D4b21664F1330dAD744fE144f5F9f69F93C1",
+          "comment": "flag() -> true",
+          "instance": "test",
+          "method": "flag()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "test": "call_function_returning_nothing_via_pointer.sol:test"
+  }
+}

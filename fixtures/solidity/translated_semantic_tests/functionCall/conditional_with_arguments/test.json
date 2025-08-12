@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "conditional_with_arguments",
+      "inputs": [
+        {
+          "caller": "0x7D38C28A426294b9C2F92963eb60482A8DD3253c",
+          "comment": "f() -> 1",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "conditional_with_arguments.sol:C"
+  }
+}

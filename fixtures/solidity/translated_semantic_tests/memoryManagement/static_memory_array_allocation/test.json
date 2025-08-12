@@ -1,0 +1,38 @@
+{
+  "cases": [
+    {
+      "name": "static_memory_array_allocation",
+      "inputs": [
+        {
+          "caller": "0xA5bB247C4e2eb1829c3487c32cBF788D45659c87",
+          "comment": "withValue() -> 0x00",
+          "instance": "C",
+          "method": "withValue()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xA5bB247C4e2eb1829c3487c32cBF788D45659c87",
+          "comment": "withoutValue() -> 0x0280",
+          "instance": "C",
+          "method": "withoutValue()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000280"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "static_memory_array_allocation.sol:C"
+  }
+}

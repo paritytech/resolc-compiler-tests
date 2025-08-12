@@ -1,0 +1,36 @@
+{
+  "cases": [
+    {
+      "name": "storage_nonempty",
+      "inputs": [
+        {
+          "comment": "storageEmpty -> 1",
+          "address": "StorageNotEmpty.address",
+          "is_storage_empty": true,
+          "caller": "0x28745426D7C9f8e9209773d8EaeC5074C1D1e401"
+        },
+        {
+          "caller": "0xFC65DA473e714a78BF183C0Fd2aC8765e119aF5E",
+          "comment": "set(uint256): 1 ->",
+          "instance": "StorageNotEmpty",
+          "method": "set(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000001"
+          ],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "comment": "storageEmpty -> 0",
+          "address": "StorageNotEmpty.address",
+          "is_storage_empty": false,
+          "caller": "0x28745426D7C9f8e9209773d8EaeC5074C1D1e401"
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "StorageNotEmpty": "storage_nonempty.sol:StorageNotEmpty"
+  }
+}

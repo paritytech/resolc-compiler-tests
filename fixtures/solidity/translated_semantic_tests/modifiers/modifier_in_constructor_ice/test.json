@@ -1,0 +1,22 @@
+{
+  "cases": [
+    {
+      "name": "modifier_in_constructor_ice",
+      "inputs": [
+        {
+          "caller": "0x924c89f9694FC1410D9a1e66E0710fE3A0e1F235",
+          "comment": "constructor() ->",
+          "instance": "B",
+          "method": "#deployer",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "B": "modifier_in_constructor_ice.sol:B"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "cases": [
+    {
+      "name": "array_push_struct",
+      "inputs": [
+        {
+          "caller": "0xfd1B7EE147B99C27459f081F4a3fA8e22DA45C82",
+          "comment": "test() -> 2, 3, 4, 5; gas irOptimized: 135329; gas legacy: 147437; gas legacyOptimized: 146429",
+          "instance": "c",
+          "method": "test()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000002",
+              "0x0000000000000000000000000000000000000000000000000000000000000003",
+              "0x0000000000000000000000000000000000000000000000000000000000000004",
+              "0x0000000000000000000000000000000000000000000000000000000000000005"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "c": "array_push_struct.sol:c"
+  }
+}

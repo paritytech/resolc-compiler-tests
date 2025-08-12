@@ -1,0 +1,43 @@
+{
+  "cases": [
+    {
+      "name": "string_bytes_conversion",
+      "inputs": [
+        {
+          "caller": "0x3b23ec1d122f4e51b02db674fadDF40737Bc14C4",
+          "comment": "f(string,uint256): 0x40, 0x02, 0x06, \"abcdef\" -> \"c\"",
+          "instance": "Test",
+          "method": "f(string,uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000040",
+            "0x0000000000000000000000000000000000000000000000000000000000000002",
+            "0x0000000000000000000000000000000000000000000000000000000000000006",
+            "0x0000000000000000000000000000000000000000000000000000616263646566"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000063"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x3b23ec1d122f4e51b02db674fadDF40737Bc14C4",
+          "comment": "l() -> 0x06",
+          "instance": "Test",
+          "method": "l()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000006"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "Test": "string_bytes_conversion.sol:Test"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "cases": [
+    {
+      "name": "event_access_through_base_name_emit",
+      "inputs": [
+        {
+          "caller": "0x802271c02F76701929E1ea772e72783D28e4b60f",
+          "comment": "f() -> 1; ~ emit x()",
+          "instance": "B",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "events": [
+              {
+                "topics": [
+                  "0c55699c4769c0b08a59db8a53119b799ea10ec55a4da92af76b0404363e0980"
+                ],
+                "values": []
+              }
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "B": "event_access_through_base_name_emit.sol:B"
+  }
+}

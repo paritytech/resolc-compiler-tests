@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "blobhash_index_exceeding_blob_count",
+      "inputs": [
+        {
+          "caller": "0xc3316da7120D88032cB0632F619640735694D2Dc",
+          "comment": "f() -> 0x00",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "blobhash_index_exceeding_blob_count.sol:C"
+  }
+}

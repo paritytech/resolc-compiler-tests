@@ -1,0 +1,32 @@
+{
+  "cases": [
+    {
+      "name": "array_pop_uint24_transition",
+      "inputs": [
+        {
+          "caller": "0x3B532e4733745AB7fb80d850D6610E5Db9178274",
+          "comment": "test() -> 20, 10; gas irOptimized: 125889; gas legacy: 127215; gas legacyOptimized: 122224",
+          "instance": "c",
+          "method": "test()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000014",
+              "0x000000000000000000000000000000000000000000000000000000000000000a"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "comment": "storageEmpty -> 1",
+          "address": "c.address",
+          "is_storage_empty": true,
+          "caller": "0x2a81FD7001b837710f0C6E09dF44170e9619FC28"
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "c": "array_pop_uint24_transition.sol:c"
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "cases": [
+    {
+      "name": "short_data_calls_fallback",
+      "inputs": [
+        {
+          "caller": "0xF354128a0E2aB91c99F7467D0cD150A4219D69cA",
+          "comment": "(): hex\"d88e0b\"",
+          "instance": "A",
+          "method": "#fallback",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000d88e0b"
+          ],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xF354128a0E2aB91c99F7467D0cD150A4219D69cA",
+          "comment": "x() -> 2",
+          "instance": "A",
+          "method": "x()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000002"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xF354128a0E2aB91c99F7467D0cD150A4219D69cA",
+          "comment": "(): hex\"d88e0b00\"",
+          "instance": "A",
+          "method": "#fallback",
+          "calldata": [
+            "0x00000000000000000000000000000000000000000000000000000000d88e0b00"
+          ],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xF354128a0E2aB91c99F7467D0cD150A4219D69cA",
+          "comment": "x() -> 3",
+          "instance": "A",
+          "method": "x()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000003"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xF354128a0E2aB91c99F7467D0cD150A4219D69cA",
+          "comment": "(): hex\"d88e\"",
+          "instance": "A",
+          "method": "#fallback",
+          "calldata": [
+            "0x000000000000000000000000000000000000000000000000000000000000d88e"
+          ],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xF354128a0E2aB91c99F7467D0cD150A4219D69cA",
+          "comment": "x() -> 2",
+          "instance": "A",
+          "method": "x()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000002"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xF354128a0E2aB91c99F7467D0cD150A4219D69cA",
+          "comment": "(): hex\"d88e0b00\"",
+          "instance": "A",
+          "method": "#fallback",
+          "calldata": [
+            "0x00000000000000000000000000000000000000000000000000000000d88e0b00"
+          ],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xF354128a0E2aB91c99F7467D0cD150A4219D69cA",
+          "comment": "x() -> 3",
+          "instance": "A",
+          "method": "x()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000003"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xF354128a0E2aB91c99F7467D0cD150A4219D69cA",
+          "comment": "(): hex\"d8\"",
+          "instance": "A",
+          "method": "#fallback",
+          "calldata": [
+            "0x00000000000000000000000000000000000000000000000000000000000000d8"
+          ],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xF354128a0E2aB91c99F7467D0cD150A4219D69cA",
+          "comment": "x() -> 2",
+          "instance": "A",
+          "method": "x()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000002"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "A": "short_data_calls_fallback.sol:A"
+  }
+}

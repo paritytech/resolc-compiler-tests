@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "prevrandao",
+      "inputs": [
+        {
+          "caller": "0xaAdFE6F009bc4F07504d70E46bC9a748bFe82EFA",
+          "comment": "f() -> 2500000000000000",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000008e1bc9bf04000"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "prevrandao.sol:C"
+  }
+}

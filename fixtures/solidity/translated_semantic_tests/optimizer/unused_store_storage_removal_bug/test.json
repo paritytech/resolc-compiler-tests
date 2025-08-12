@@ -1,0 +1,35 @@
+{
+  "cases": [
+    {
+      "name": "unused_store_storage_removal_bug",
+      "inputs": [
+        {
+          "caller": "0x4Db82405f276CEC135bbACb08A41ecf8a4931Ec8",
+          "comment": "f() ->",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x4Db82405f276CEC135bbACb08A41ecf8a4931Ec8",
+          "comment": "x() -> 1",
+          "instance": "C",
+          "method": "x()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "unused_store_storage_removal_bug.sol:C"
+  }
+}

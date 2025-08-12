@@ -1,0 +1,42 @@
+{
+  "cases": [
+    {
+      "name": "function_modifier_local_variables",
+      "inputs": [
+        {
+          "caller": "0xfDC1f086823EF916cB979Ef98D339A2187b0eE98",
+          "comment": "f(bool): true -> 0",
+          "instance": "C",
+          "method": "f(bool)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000001"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xfDC1f086823EF916cB979Ef98D339A2187b0eE98",
+          "comment": "f(bool): false -> 3",
+          "instance": "C",
+          "method": "f(bool)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000003"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "function_modifier_local_variables.sol:C"
+  }
+}

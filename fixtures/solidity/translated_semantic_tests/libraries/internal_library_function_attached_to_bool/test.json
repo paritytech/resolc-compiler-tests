@@ -1,0 +1,76 @@
+{
+  "cases": [
+    {
+      "name": "internal_library_function_attached_to_bool",
+      "inputs": [
+        {
+          "caller": "0xc88634156937c316e5401D587eD4f998Eb0B777C",
+          "comment": "foo(bool,bool): true, true -> false",
+          "instance": "C",
+          "method": "foo(bool,bool)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000001",
+            "0x0000000000000000000000000000000000000000000000000000000000000001"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xc88634156937c316e5401D587eD4f998Eb0B777C",
+          "comment": "foo(bool,bool): true, false -> true",
+          "instance": "C",
+          "method": "foo(bool,bool)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000001",
+            "0x0000000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xc88634156937c316e5401D587eD4f998Eb0B777C",
+          "comment": "foo(bool,bool): false, true -> true",
+          "instance": "C",
+          "method": "foo(bool,bool)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "0x0000000000000000000000000000000000000000000000000000000000000001"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xc88634156937c316e5401D587eD4f998Eb0B777C",
+          "comment": "foo(bool,bool): false, false -> false",
+          "instance": "C",
+          "method": "foo(bool,bool)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "0x0000000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "internal_library_function_attached_to_bool.sol:C"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "cases": [
+    {
+      "name": "libraries_from_free",
+      "inputs": [
+        {
+          "caller": "0x7CfEbeD7665a7855B4CE93aB20AD37eb2FDb34e8",
+          "comment": "f() -> 7, 8",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000007",
+              "0x0000000000000000000000000000000000000000000000000000000000000008"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "libraries_from_free.sol:C",
+    "L": "libraries_from_free.sol:L"
+  },
+  "libraries": {
+    "libraries_from_free.sol": {
+      "L": "L"
+    }
+  }
+}

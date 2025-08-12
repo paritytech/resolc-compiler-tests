@@ -1,0 +1,26 @@
+{
+  "cases": [
+    {
+      "name": "array_copy_storage_storage_static_static",
+      "inputs": [
+        {
+          "caller": "0x6b254BdFbd5e95e4160D026309Ea658fc2bAFb5c",
+          "comment": "test() -> 8, 0; gas irOptimized: 196251; gas legacy: 194842; gas legacyOptimized: 194281",
+          "instance": "c",
+          "method": "test()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000008",
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "c": "array_copy_storage_storage_static_static.sol:c"
+  }
+}

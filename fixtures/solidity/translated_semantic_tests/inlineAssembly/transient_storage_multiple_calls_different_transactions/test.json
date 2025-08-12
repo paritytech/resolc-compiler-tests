@@ -1,0 +1,32 @@
+{
+  "cases": [
+    {
+      "name": "transient_storage_multiple_calls_different_transactions",
+      "inputs": [
+        {
+          "caller": "0x8cD1Ff72298d263d345024BD73c420159f5f8405",
+          "comment": "test() ->",
+          "instance": "C",
+          "method": "test()",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x8cD1Ff72298d263d345024BD73c420159f5f8405",
+          "comment": "test() ->",
+          "instance": "C",
+          "method": "test()",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "transient_storage_multiple_calls_different_transactions.sol:C"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "module_from_ternary_expression",
+      "inputs": [
+        {
+          "caller": "0xACA3b09284a9914DEFe41bfE7F880C7ba2A17C61",
+          "comment": "f() -> true",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "B:C"
+  }
+}

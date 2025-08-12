@@ -1,0 +1,260 @@
+{
+  "cases": [
+    {
+      "name": "operator_evaluation_order",
+      "inputs": [
+        {
+          "caller": "0x228B2DD10A83c778CaDA5864E33F70B959e63970",
+          "comment": "testSingleOperator() ->; ~ emit Wrapped(uint256): 0x00; ~ emit Wrapped(uint256): 0x01; ~ emit Wrapped(uint256): 0x02; ~ emit Wrapped(uint256): 0x03",
+          "instance": "C",
+          "method": "testSingleOperator()",
+          "calldata": [],
+          "expected": {
+            "events": [
+              {
+                "topics": [
+                  "5b8cd8f3a67af1dee11ad4321a05f79a76cc7ea517810fc56d6d96c1e60d3686"
+                ],
+                "values": [
+                  "0x0000000000000000000000000000000000000000000000000000000000000000"
+                ]
+              },
+              {
+                "topics": [
+                  "5b8cd8f3a67af1dee11ad4321a05f79a76cc7ea517810fc56d6d96c1e60d3686"
+                ],
+                "values": [
+                  "0x0000000000000000000000000000000000000000000000000000000000000001"
+                ]
+              },
+              {
+                "topics": [
+                  "5b8cd8f3a67af1dee11ad4321a05f79a76cc7ea517810fc56d6d96c1e60d3686"
+                ],
+                "values": [
+                  "0x0000000000000000000000000000000000000000000000000000000000000002"
+                ]
+              },
+              {
+                "topics": [
+                  "5b8cd8f3a67af1dee11ad4321a05f79a76cc7ea517810fc56d6d96c1e60d3686"
+                ],
+                "values": [
+                  "0x0000000000000000000000000000000000000000000000000000000000000003"
+                ]
+              }
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x228B2DD10A83c778CaDA5864E33F70B959e63970",
+          "comment": "testTwoBinaryOperators() ->; ~ emit Wrapped(uint256): 0x00; ~ emit Wrapped(uint256): 0x01; ~ emit Wrapped(uint256): 0x02; ~ emit Wrapped(uint256): 0x03; ~ emit Wrapped(uint256): 0x04; ~ emit Wrapped(uint256): 0x05",
+          "instance": "C",
+          "method": "testTwoBinaryOperators()",
+          "calldata": [],
+          "expected": {
+            "events": [
+              {
+                "topics": [
+                  "5b8cd8f3a67af1dee11ad4321a05f79a76cc7ea517810fc56d6d96c1e60d3686"
+                ],
+                "values": [
+                  "0x0000000000000000000000000000000000000000000000000000000000000000"
+                ]
+              },
+              {
+                "topics": [
+                  "5b8cd8f3a67af1dee11ad4321a05f79a76cc7ea517810fc56d6d96c1e60d3686"
+                ],
+                "values": [
+                  "0x0000000000000000000000000000000000000000000000000000000000000001"
+                ]
+              },
+              {
+                "topics": [
+                  "5b8cd8f3a67af1dee11ad4321a05f79a76cc7ea517810fc56d6d96c1e60d3686"
+                ],
+                "values": [
+                  "0x0000000000000000000000000000000000000000000000000000000000000002"
+                ]
+              },
+              {
+                "topics": [
+                  "5b8cd8f3a67af1dee11ad4321a05f79a76cc7ea517810fc56d6d96c1e60d3686"
+                ],
+                "values": [
+                  "0x0000000000000000000000000000000000000000000000000000000000000003"
+                ]
+              },
+              {
+                "topics": [
+                  "5b8cd8f3a67af1dee11ad4321a05f79a76cc7ea517810fc56d6d96c1e60d3686"
+                ],
+                "values": [
+                  "0x0000000000000000000000000000000000000000000000000000000000000004"
+                ]
+              },
+              {
+                "topics": [
+                  "5b8cd8f3a67af1dee11ad4321a05f79a76cc7ea517810fc56d6d96c1e60d3686"
+                ],
+                "values": [
+                  "0x0000000000000000000000000000000000000000000000000000000000000005"
+                ]
+              }
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x228B2DD10A83c778CaDA5864E33F70B959e63970",
+          "comment": "testBinaryAndUnaryOperators() ->; ~ emit Wrapped(uint256): 0x00; ~ emit Wrapped(uint256): 0x01; ~ emit Wrapped(uint256): 0x02; ~ emit Wrapped(uint256): 0x03; ~ emit Wrapped(uint256): 0x04; ~ emit Wrapped(uint256): 0x05",
+          "instance": "C",
+          "method": "testBinaryAndUnaryOperators()",
+          "calldata": [],
+          "expected": {
+            "events": [
+              {
+                "topics": [
+                  "5b8cd8f3a67af1dee11ad4321a05f79a76cc7ea517810fc56d6d96c1e60d3686"
+                ],
+                "values": [
+                  "0x0000000000000000000000000000000000000000000000000000000000000000"
+                ]
+              },
+              {
+                "topics": [
+                  "5b8cd8f3a67af1dee11ad4321a05f79a76cc7ea517810fc56d6d96c1e60d3686"
+                ],
+                "values": [
+                  "0x0000000000000000000000000000000000000000000000000000000000000001"
+                ]
+              },
+              {
+                "topics": [
+                  "5b8cd8f3a67af1dee11ad4321a05f79a76cc7ea517810fc56d6d96c1e60d3686"
+                ],
+                "values": [
+                  "0x0000000000000000000000000000000000000000000000000000000000000002"
+                ]
+              },
+              {
+                "topics": [
+                  "5b8cd8f3a67af1dee11ad4321a05f79a76cc7ea517810fc56d6d96c1e60d3686"
+                ],
+                "values": [
+                  "0x0000000000000000000000000000000000000000000000000000000000000003"
+                ]
+              },
+              {
+                "topics": [
+                  "5b8cd8f3a67af1dee11ad4321a05f79a76cc7ea517810fc56d6d96c1e60d3686"
+                ],
+                "values": [
+                  "0x0000000000000000000000000000000000000000000000000000000000000004"
+                ]
+              },
+              {
+                "topics": [
+                  "5b8cd8f3a67af1dee11ad4321a05f79a76cc7ea517810fc56d6d96c1e60d3686"
+                ],
+                "values": [
+                  "0x0000000000000000000000000000000000000000000000000000000000000005"
+                ]
+              }
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x228B2DD10A83c778CaDA5864E33F70B959e63970",
+          "comment": "testOperatorsNestedInCalls() ->; ~ emit Wrapped(uint256): 0x00; ~ emit Wrapped(uint256): 0x01; ~ emit Probe(bool): 0x00; ~ emit Wrapped(uint256): 0x02; ~ emit Wrapped(uint256): 0x03; ~ emit Probe(bool): 0x00; ~ emit Wrapped(uint256): 0x04; ~ emit Wrapped(uint256): 0x05; ~ emit Probe(bool): 0x00",
+          "instance": "C",
+          "method": "testOperatorsNestedInCalls()",
+          "calldata": [],
+          "expected": {
+            "events": [
+              {
+                "topics": [
+                  "5b8cd8f3a67af1dee11ad4321a05f79a76cc7ea517810fc56d6d96c1e60d3686"
+                ],
+                "values": [
+                  "0x0000000000000000000000000000000000000000000000000000000000000000"
+                ]
+              },
+              {
+                "topics": [
+                  "5b8cd8f3a67af1dee11ad4321a05f79a76cc7ea517810fc56d6d96c1e60d3686"
+                ],
+                "values": [
+                  "0x0000000000000000000000000000000000000000000000000000000000000001"
+                ]
+              },
+              {
+                "topics": [
+                  "582c3a3af27a0ef352a02f8e9b0bea3043a2002c978baf77e6739da27a705cbb"
+                ],
+                "values": [
+                  "0x0000000000000000000000000000000000000000000000000000000000000000"
+                ]
+              },
+              {
+                "topics": [
+                  "5b8cd8f3a67af1dee11ad4321a05f79a76cc7ea517810fc56d6d96c1e60d3686"
+                ],
+                "values": [
+                  "0x0000000000000000000000000000000000000000000000000000000000000002"
+                ]
+              },
+              {
+                "topics": [
+                  "5b8cd8f3a67af1dee11ad4321a05f79a76cc7ea517810fc56d6d96c1e60d3686"
+                ],
+                "values": [
+                  "0x0000000000000000000000000000000000000000000000000000000000000003"
+                ]
+              },
+              {
+                "topics": [
+                  "582c3a3af27a0ef352a02f8e9b0bea3043a2002c978baf77e6739da27a705cbb"
+                ],
+                "values": [
+                  "0x0000000000000000000000000000000000000000000000000000000000000000"
+                ]
+              },
+              {
+                "topics": [
+                  "5b8cd8f3a67af1dee11ad4321a05f79a76cc7ea517810fc56d6d96c1e60d3686"
+                ],
+                "values": [
+                  "0x0000000000000000000000000000000000000000000000000000000000000004"
+                ]
+              },
+              {
+                "topics": [
+                  "5b8cd8f3a67af1dee11ad4321a05f79a76cc7ea517810fc56d6d96c1e60d3686"
+                ],
+                "values": [
+                  "0x0000000000000000000000000000000000000000000000000000000000000005"
+                ]
+              },
+              {
+                "topics": [
+                  "582c3a3af27a0ef352a02f8e9b0bea3043a2002c978baf77e6739da27a705cbb"
+                ],
+                "values": [
+                  "0x0000000000000000000000000000000000000000000000000000000000000000"
+                ]
+              }
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "operator_evaluation_order.sol:C"
+  }
+}

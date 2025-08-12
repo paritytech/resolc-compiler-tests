@@ -1,0 +1,90 @@
+{
+  "cases": [
+    {
+      "name": "function_from_base_contract",
+      "inputs": [
+        {
+          "caller": "0x3D17E498891051EcaE7954DE789041B6d4C39abf",
+          "comment": "f() -> 1",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x3D17E498891051EcaE7954DE789041B6d4C39abf",
+          "comment": "g() -> 2",
+          "instance": "C",
+          "method": "g()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000002"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x3D17E498891051EcaE7954DE789041B6d4C39abf",
+          "comment": "test() -> 6",
+          "instance": "C",
+          "method": "test()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000006"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x3D17E498891051EcaE7954DE789041B6d4C39abf",
+          "comment": "x() -> 2",
+          "instance": "C",
+          "method": "x()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000002"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x3D17E498891051EcaE7954DE789041B6d4C39abf",
+          "comment": "y() -> 4",
+          "instance": "C",
+          "method": "y()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000004"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x3D17E498891051EcaE7954DE789041B6d4C39abf",
+          "comment": "z() -> 6",
+          "instance": "C",
+          "method": "z()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000006"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "function_from_base_contract.sol:C"
+  }
+}

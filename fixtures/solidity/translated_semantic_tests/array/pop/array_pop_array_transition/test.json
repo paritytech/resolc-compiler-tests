@@ -1,0 +1,33 @@
+{
+  "cases": [
+    {
+      "name": "array_pop_array_transition",
+      "inputs": [
+        {
+          "caller": "0xE8619867FFaf3668193a51CF59838d9B67D08fd9",
+          "comment": "test() -> 1, 2, 3; gas irOptimized: 1828226; gas legacy: 1822464; gas legacyOptimized: 1813404",
+          "instance": "c",
+          "method": "test()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001",
+              "0x0000000000000000000000000000000000000000000000000000000000000002",
+              "0x0000000000000000000000000000000000000000000000000000000000000003"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "comment": "storageEmpty -> 1",
+          "address": "c.address",
+          "is_storage_empty": true,
+          "caller": "0x7C8975886DAE855EE2484f2529Ae36a8fFaeA7FC"
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "c": "array_pop_array_transition.sol:c"
+  }
+}

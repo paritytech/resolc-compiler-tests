@@ -1,0 +1,129 @@
+{
+  "cases": [
+    {
+      "name": "value_types",
+      "inputs": [
+        {
+          "caller": "0xd2b780a86e6987CfE760ac74B64b00A7d3Fc600F",
+          "comment": "a() -> 3",
+          "instance": "C",
+          "method": "a()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000003"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xd2b780a86e6987CfE760ac74B64b00A7d3Fc600F",
+          "comment": "b() -> 4",
+          "instance": "C",
+          "method": "b()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000004"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xd2b780a86e6987CfE760ac74B64b00A7d3Fc600F",
+          "comment": "c() -> 5",
+          "instance": "C",
+          "method": "c()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000005"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xd2b780a86e6987CfE760ac74B64b00A7d3Fc600F",
+          "comment": "d() -> 6",
+          "instance": "C",
+          "method": "d()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000006"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xd2b780a86e6987CfE760ac74B64b00A7d3Fc600F",
+          "comment": "e() -> 0x7f00000000000000000000000000000000000000000000000000000000000000",
+          "instance": "C",
+          "method": "e()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x7f00000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xd2b780a86e6987CfE760ac74B64b00A7d3Fc600F",
+          "comment": "f() -> 0x6465616462656566313564656164000000000010000000000000000000000000",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x6465616462656566313564656164000000000010000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xd2b780a86e6987CfE760ac74B64b00A7d3Fc600F",
+          "comment": "g() -> 0x6465616462656566313564656164000000000000000000000000000000000010",
+          "instance": "C",
+          "method": "g()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x6465616462656566313564656164000000000000000000000000000000000010"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xd2b780a86e6987CfE760ac74B64b00A7d3Fc600F",
+          "comment": "h() -> true",
+          "instance": "C",
+          "method": "h()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xd2b780a86e6987CfE760ac74B64b00A7d3Fc600F",
+          "comment": "i() -> 0x5555555555555555555555555555555555555555",
+          "instance": "C",
+          "method": "i()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000005555555555555555555555555555555555555555"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "value_types.sol:C"
+  }
+}

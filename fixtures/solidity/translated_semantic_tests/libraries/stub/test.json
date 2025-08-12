@@ -1,0 +1,63 @@
+{
+  "cases": [
+    {
+      "name": "stub",
+      "inputs": [
+        {
+          "caller": "0xF99f2e306a282A64b666D6E3c6983432b9ddeE73",
+          "comment": "g(uint256): 1 -> 1",
+          "instance": "C",
+          "method": "g(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000001"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xF99f2e306a282A64b666D6E3c6983432b9ddeE73",
+          "comment": "g(uint256): 2 -> 4",
+          "instance": "C",
+          "method": "g(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000002"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000004"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xF99f2e306a282A64b666D6E3c6983432b9ddeE73",
+          "comment": "g(uint256): 4 -> 16",
+          "instance": "C",
+          "method": "g(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000004"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000010"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "stub.sol:C",
+    "L": "stub.sol:L"
+  },
+  "libraries": {
+    "stub.sol": {
+      "L": "L"
+    }
+  }
+}

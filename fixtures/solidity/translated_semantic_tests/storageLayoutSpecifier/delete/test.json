@@ -1,0 +1,101 @@
+{
+  "cases": [
+    {
+      "name": "delete",
+      "inputs": [
+        {
+          "caller": "0x93bb3deFa5C60301c84A8f2298554af13bE6B8e3",
+          "comment": "fillArray() -> 3; gas irOptimized: 111121; gas legacy: 110730; gas legacyOptimized: 110307",
+          "instance": "C",
+          "method": "fillArray()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000003"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x93bb3deFa5C60301c84A8f2298554af13bE6B8e3",
+          "comment": "arrayLength() -> 3",
+          "instance": "C",
+          "method": "arrayLength()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000003"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x93bb3deFa5C60301c84A8f2298554af13bE6B8e3",
+          "comment": "array(uint256): 2 -> 3",
+          "instance": "C",
+          "method": "array(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000002"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000003"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x93bb3deFa5C60301c84A8f2298554af13bE6B8e3",
+          "comment": "deleteLast() ->",
+          "instance": "C",
+          "method": "deleteLast()",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x93bb3deFa5C60301c84A8f2298554af13bE6B8e3",
+          "comment": "array(uint256): 2 -> 0",
+          "instance": "C",
+          "method": "array(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000002"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x93bb3deFa5C60301c84A8f2298554af13bE6B8e3",
+          "comment": "deleteArray() ->",
+          "instance": "C",
+          "method": "deleteArray()",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x93bb3deFa5C60301c84A8f2298554af13bE6B8e3",
+          "comment": "arrayLength() -> 0",
+          "instance": "C",
+          "method": "arrayLength()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "delete.sol:C"
+  }
+}

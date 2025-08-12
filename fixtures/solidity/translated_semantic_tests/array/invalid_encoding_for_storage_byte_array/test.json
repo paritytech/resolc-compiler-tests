@@ -1,0 +1,906 @@
+{
+  "cases": [
+    {
+      "name": "invalid_encoding_for_storage_byte_array",
+      "inputs": [
+        {
+          "caller": "0xE4038Bf99cdEC2513df22F57BCA38Ac8a46b3E98",
+          "comment": "x() -> 0x20, 3, 0x6162630000000000000000000000000000000000000000000000000000000000",
+          "instance": "C",
+          "method": "x()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000020",
+              "0x0000000000000000000000000000000000000000000000000000000000000003",
+              "0x6162630000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xE4038Bf99cdEC2513df22F57BCA38Ac8a46b3E98",
+          "comment": "abiEncode() -> 0x20, 3, 0x6162630000000000000000000000000000000000000000000000000000000000",
+          "instance": "C",
+          "method": "abiEncode()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000020",
+              "0x0000000000000000000000000000000000000000000000000000000000000003",
+              "0x6162630000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xE4038Bf99cdEC2513df22F57BCA38Ac8a46b3E98",
+          "comment": "abiEncodePacked() -> 0x20, 3, 0x6162630000000000000000000000000000000000000000000000000000000000",
+          "instance": "C",
+          "method": "abiEncodePacked()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000020",
+              "0x0000000000000000000000000000000000000000000000000000000000000003",
+              "0x6162630000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xE4038Bf99cdEC2513df22F57BCA38Ac8a46b3E98",
+          "comment": "copyToMemory() -> 0x20, 3, 0x6162630000000000000000000000000000000000000000000000000000000000",
+          "instance": "C",
+          "method": "copyToMemory()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000020",
+              "0x0000000000000000000000000000000000000000000000000000000000000003",
+              "0x6162630000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xE4038Bf99cdEC2513df22F57BCA38Ac8a46b3E98",
+          "comment": "indexAccess() -> 0x6100000000000000000000000000000000000000000000000000000000000000",
+          "instance": "C",
+          "method": "indexAccess()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x6100000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xE4038Bf99cdEC2513df22F57BCA38Ac8a46b3E98",
+          "comment": "arrayPushEmpty()",
+          "instance": "C",
+          "method": "arrayPushEmpty()",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xE4038Bf99cdEC2513df22F57BCA38Ac8a46b3E98",
+          "comment": "arrayPush()",
+          "instance": "C",
+          "method": "arrayPush()",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xE4038Bf99cdEC2513df22F57BCA38Ac8a46b3E98",
+          "comment": "x() -> 0x20, 5, 0x6162630074000000000000000000000000000000000000000000000000000000",
+          "instance": "C",
+          "method": "x()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000020",
+              "0x0000000000000000000000000000000000000000000000000000000000000005",
+              "0x6162630074000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xE4038Bf99cdEC2513df22F57BCA38Ac8a46b3E98",
+          "comment": "arrayPop()",
+          "instance": "C",
+          "method": "arrayPop()",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xE4038Bf99cdEC2513df22F57BCA38Ac8a46b3E98",
+          "comment": "assignToLong()",
+          "instance": "C",
+          "method": "assignToLong()",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xE4038Bf99cdEC2513df22F57BCA38Ac8a46b3E98",
+          "comment": "x() -> 0x20, 0x25, 0x3132333435363738393031323334353637383930313233343536373839303132, 0x3334353637000000000000000000000000000000000000000000000000000000",
+          "instance": "C",
+          "method": "x()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000020",
+              "0x0000000000000000000000000000000000000000000000000000000000000025",
+              "0x3132333435363738393031323334353637383930313233343536373839303132",
+              "0x3334353637000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xE4038Bf99cdEC2513df22F57BCA38Ac8a46b3E98",
+          "comment": "assignTo()",
+          "instance": "C",
+          "method": "assignTo()",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xE4038Bf99cdEC2513df22F57BCA38Ac8a46b3E98",
+          "comment": "x() -> 0x20, 3, 0x6465660000000000000000000000000000000000000000000000000000000000",
+          "instance": "C",
+          "method": "x()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000020",
+              "0x0000000000000000000000000000000000000000000000000000000000000003",
+              "0x6465660000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xE4038Bf99cdEC2513df22F57BCA38Ac8a46b3E98",
+          "comment": "copyFromStorageShort()",
+          "instance": "C",
+          "method": "copyFromStorageShort()",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xE4038Bf99cdEC2513df22F57BCA38Ac8a46b3E98",
+          "comment": "x() -> 0x20, 3, 0x6162630000000000000000000000000000000000000000000000000000000000",
+          "instance": "C",
+          "method": "x()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000020",
+              "0x0000000000000000000000000000000000000000000000000000000000000003",
+              "0x6162630000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xE4038Bf99cdEC2513df22F57BCA38Ac8a46b3E98",
+          "comment": "copyFromStorageLong(); gas irOptimized: 121095; gas legacy: 121904; gas legacyOptimized: 121388",
+          "instance": "C",
+          "method": "copyFromStorageLong()",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xE4038Bf99cdEC2513df22F57BCA38Ac8a46b3E98",
+          "comment": "x() -> 0x20, 0x25, 0x3132333435363738393031323334353637383930313233343536373839303132, 0x3334353637000000000000000000000000000000000000000000000000000000",
+          "instance": "C",
+          "method": "x()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000020",
+              "0x0000000000000000000000000000000000000000000000000000000000000025",
+              "0x3132333435363738393031323334353637383930313233343536373839303132",
+              "0x3334353637000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xE4038Bf99cdEC2513df22F57BCA38Ac8a46b3E98",
+          "comment": "copyToStorage()",
+          "instance": "C",
+          "method": "copyToStorage()",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xE4038Bf99cdEC2513df22F57BCA38Ac8a46b3E98",
+          "comment": "x() -> 0x20, 0x25, 0x3132333435363738393031323334353637383930313233343536373839303132, 0x3334353637000000000000000000000000000000000000000000000000000000",
+          "instance": "C",
+          "method": "x()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000020",
+              "0x0000000000000000000000000000000000000000000000000000000000000025",
+              "0x3132333435363738393031323334353637383930313233343536373839303132",
+              "0x3334353637000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xE4038Bf99cdEC2513df22F57BCA38Ac8a46b3E98",
+          "comment": "y() -> 0x20, 0x25, 0x3132333435363738393031323334353637383930313233343536373839303132, 0x3334353637000000000000000000000000000000000000000000000000000000",
+          "instance": "C",
+          "method": "y()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000020",
+              "0x0000000000000000000000000000000000000000000000000000000000000025",
+              "0x3132333435363738393031323334353637383930313233343536373839303132",
+              "0x3334353637000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xE4038Bf99cdEC2513df22F57BCA38Ac8a46b3E98",
+          "comment": "del()",
+          "instance": "C",
+          "method": "del()",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xE4038Bf99cdEC2513df22F57BCA38Ac8a46b3E98",
+          "comment": "x() -> 0x20, 0x00",
+          "instance": "C",
+          "method": "x()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000020",
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xE4038Bf99cdEC2513df22F57BCA38Ac8a46b3E98",
+          "comment": "invalidateXLong()",
+          "instance": "C",
+          "method": "invalidateXLong()",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xE4038Bf99cdEC2513df22F57BCA38Ac8a46b3E98",
+          "comment": "x() -> FAILURE, hex\"4e487b71\", 0x22",
+          "instance": "C",
+          "method": "x()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000004e487b71",
+              "0x0000000000000000000000000000000000000000000000000000000000000022"
+            ],
+            "exception": true
+          }
+        },
+        {
+          "caller": "0xE4038Bf99cdEC2513df22F57BCA38Ac8a46b3E98",
+          "comment": "abiEncode() -> FAILURE, hex\"4e487b71\", 0x22",
+          "instance": "C",
+          "method": "abiEncode()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000004e487b71",
+              "0x0000000000000000000000000000000000000000000000000000000000000022"
+            ],
+            "exception": true
+          }
+        },
+        {
+          "caller": "0xE4038Bf99cdEC2513df22F57BCA38Ac8a46b3E98",
+          "comment": "abiEncodePacked() -> FAILURE, hex\"4e487b71\", 0x22",
+          "instance": "C",
+          "method": "abiEncodePacked()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000004e487b71",
+              "0x0000000000000000000000000000000000000000000000000000000000000022"
+            ],
+            "exception": true
+          }
+        },
+        {
+          "caller": "0xE4038Bf99cdEC2513df22F57BCA38Ac8a46b3E98",
+          "comment": "copyToMemory() -> FAILURE, hex\"4e487b71\", 0x22",
+          "instance": "C",
+          "method": "copyToMemory()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000004e487b71",
+              "0x0000000000000000000000000000000000000000000000000000000000000022"
+            ],
+            "exception": true
+          }
+        },
+        {
+          "caller": "0xE4038Bf99cdEC2513df22F57BCA38Ac8a46b3E98",
+          "comment": "indexAccess() -> FAILURE, hex\"4e487b71\", 0x22",
+          "instance": "C",
+          "method": "indexAccess()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000004e487b71",
+              "0x0000000000000000000000000000000000000000000000000000000000000022"
+            ],
+            "exception": true
+          }
+        },
+        {
+          "caller": "0xE4038Bf99cdEC2513df22F57BCA38Ac8a46b3E98",
+          "comment": "arrayPushEmpty() -> FAILURE, hex\"4e487b71\", 0x22",
+          "instance": "C",
+          "method": "arrayPushEmpty()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000004e487b71",
+              "0x0000000000000000000000000000000000000000000000000000000000000022"
+            ],
+            "exception": true
+          }
+        },
+        {
+          "caller": "0xE4038Bf99cdEC2513df22F57BCA38Ac8a46b3E98",
+          "comment": "arrayPush() -> FAILURE, hex\"4e487b71\", 0x22",
+          "instance": "C",
+          "method": "arrayPush()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000004e487b71",
+              "0x0000000000000000000000000000000000000000000000000000000000000022"
+            ],
+            "exception": true
+          }
+        },
+        {
+          "caller": "0xE4038Bf99cdEC2513df22F57BCA38Ac8a46b3E98",
+          "comment": "x() -> FAILURE, hex\"4e487b71\", 0x22",
+          "instance": "C",
+          "method": "x()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000004e487b71",
+              "0x0000000000000000000000000000000000000000000000000000000000000022"
+            ],
+            "exception": true
+          }
+        },
+        {
+          "caller": "0xE4038Bf99cdEC2513df22F57BCA38Ac8a46b3E98",
+          "comment": "arrayPop() -> FAILURE, hex\"4e487b71\", 0x22",
+          "instance": "C",
+          "method": "arrayPop()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000004e487b71",
+              "0x0000000000000000000000000000000000000000000000000000000000000022"
+            ],
+            "exception": true
+          }
+        },
+        {
+          "caller": "0xE4038Bf99cdEC2513df22F57BCA38Ac8a46b3E98",
+          "comment": "assignToLong() -> FAILURE, hex\"4e487b71\", 0x22",
+          "instance": "C",
+          "method": "assignToLong()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000004e487b71",
+              "0x0000000000000000000000000000000000000000000000000000000000000022"
+            ],
+            "exception": true
+          }
+        },
+        {
+          "caller": "0xE4038Bf99cdEC2513df22F57BCA38Ac8a46b3E98",
+          "comment": "x() -> FAILURE, hex\"4e487b71\", 0x22",
+          "instance": "C",
+          "method": "x()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000004e487b71",
+              "0x0000000000000000000000000000000000000000000000000000000000000022"
+            ],
+            "exception": true
+          }
+        },
+        {
+          "caller": "0xE4038Bf99cdEC2513df22F57BCA38Ac8a46b3E98",
+          "comment": "assignTo() -> FAILURE, hex\"4e487b71\", 0x22",
+          "instance": "C",
+          "method": "assignTo()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000004e487b71",
+              "0x0000000000000000000000000000000000000000000000000000000000000022"
+            ],
+            "exception": true
+          }
+        },
+        {
+          "caller": "0xE4038Bf99cdEC2513df22F57BCA38Ac8a46b3E98",
+          "comment": "x() -> FAILURE, hex\"4e487b71\", 0x22",
+          "instance": "C",
+          "method": "x()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000004e487b71",
+              "0x0000000000000000000000000000000000000000000000000000000000000022"
+            ],
+            "exception": true
+          }
+        },
+        {
+          "caller": "0xE4038Bf99cdEC2513df22F57BCA38Ac8a46b3E98",
+          "comment": "copyFromStorageShort() -> FAILURE, hex\"4e487b71\", 0x22",
+          "instance": "C",
+          "method": "copyFromStorageShort()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000004e487b71",
+              "0x0000000000000000000000000000000000000000000000000000000000000022"
+            ],
+            "exception": true
+          }
+        },
+        {
+          "caller": "0xE4038Bf99cdEC2513df22F57BCA38Ac8a46b3E98",
+          "comment": "x() -> FAILURE, hex\"4e487b71\", 0x22",
+          "instance": "C",
+          "method": "x()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000004e487b71",
+              "0x0000000000000000000000000000000000000000000000000000000000000022"
+            ],
+            "exception": true
+          }
+        },
+        {
+          "caller": "0xE4038Bf99cdEC2513df22F57BCA38Ac8a46b3E98",
+          "comment": "copyFromStorageLong() -> FAILURE, hex\"4e487b71\", 0x22",
+          "instance": "C",
+          "method": "copyFromStorageLong()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000004e487b71",
+              "0x0000000000000000000000000000000000000000000000000000000000000022"
+            ],
+            "exception": true
+          }
+        },
+        {
+          "caller": "0xE4038Bf99cdEC2513df22F57BCA38Ac8a46b3E98",
+          "comment": "x() -> FAILURE, hex\"4e487b71\", 0x22",
+          "instance": "C",
+          "method": "x()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000004e487b71",
+              "0x0000000000000000000000000000000000000000000000000000000000000022"
+            ],
+            "exception": true
+          }
+        },
+        {
+          "caller": "0xE4038Bf99cdEC2513df22F57BCA38Ac8a46b3E98",
+          "comment": "copyToStorage() -> FAILURE, hex\"4e487b71\", 0x22",
+          "instance": "C",
+          "method": "copyToStorage()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000004e487b71",
+              "0x0000000000000000000000000000000000000000000000000000000000000022"
+            ],
+            "exception": true
+          }
+        },
+        {
+          "caller": "0xE4038Bf99cdEC2513df22F57BCA38Ac8a46b3E98",
+          "comment": "x() -> FAILURE, hex\"4e487b71\", 0x22",
+          "instance": "C",
+          "method": "x()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000004e487b71",
+              "0x0000000000000000000000000000000000000000000000000000000000000022"
+            ],
+            "exception": true
+          }
+        },
+        {
+          "caller": "0xE4038Bf99cdEC2513df22F57BCA38Ac8a46b3E98",
+          "comment": "y() -> 0x20, 0x00",
+          "instance": "C",
+          "method": "y()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000020",
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xE4038Bf99cdEC2513df22F57BCA38Ac8a46b3E98",
+          "comment": "del() -> FAILURE, hex\"4e487b71\", 0x22",
+          "instance": "C",
+          "method": "del()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000004e487b71",
+              "0x0000000000000000000000000000000000000000000000000000000000000022"
+            ],
+            "exception": true
+          }
+        },
+        {
+          "caller": "0xE4038Bf99cdEC2513df22F57BCA38Ac8a46b3E98",
+          "comment": "x() -> FAILURE, hex\"4e487b71\", 0x22",
+          "instance": "C",
+          "method": "x()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000004e487b71",
+              "0x0000000000000000000000000000000000000000000000000000000000000022"
+            ],
+            "exception": true
+          }
+        },
+        {
+          "caller": "0xE4038Bf99cdEC2513df22F57BCA38Ac8a46b3E98",
+          "comment": "invalidateXShort()",
+          "instance": "C",
+          "method": "invalidateXShort()",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xE4038Bf99cdEC2513df22F57BCA38Ac8a46b3E98",
+          "comment": "x() -> FAILURE, hex\"4e487b71\", 0x22",
+          "instance": "C",
+          "method": "x()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000004e487b71",
+              "0x0000000000000000000000000000000000000000000000000000000000000022"
+            ],
+            "exception": true
+          }
+        },
+        {
+          "caller": "0xE4038Bf99cdEC2513df22F57BCA38Ac8a46b3E98",
+          "comment": "abiEncode() -> FAILURE, hex\"4e487b71\", 0x22",
+          "instance": "C",
+          "method": "abiEncode()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000004e487b71",
+              "0x0000000000000000000000000000000000000000000000000000000000000022"
+            ],
+            "exception": true
+          }
+        },
+        {
+          "caller": "0xE4038Bf99cdEC2513df22F57BCA38Ac8a46b3E98",
+          "comment": "abiEncodePacked() -> FAILURE, hex\"4e487b71\", 0x22",
+          "instance": "C",
+          "method": "abiEncodePacked()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000004e487b71",
+              "0x0000000000000000000000000000000000000000000000000000000000000022"
+            ],
+            "exception": true
+          }
+        },
+        {
+          "caller": "0xE4038Bf99cdEC2513df22F57BCA38Ac8a46b3E98",
+          "comment": "copyToMemory() -> FAILURE, hex\"4e487b71\", 0x22",
+          "instance": "C",
+          "method": "copyToMemory()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000004e487b71",
+              "0x0000000000000000000000000000000000000000000000000000000000000022"
+            ],
+            "exception": true
+          }
+        },
+        {
+          "caller": "0xE4038Bf99cdEC2513df22F57BCA38Ac8a46b3E98",
+          "comment": "indexAccess() -> FAILURE, hex\"4e487b71\", 0x22",
+          "instance": "C",
+          "method": "indexAccess()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000004e487b71",
+              "0x0000000000000000000000000000000000000000000000000000000000000022"
+            ],
+            "exception": true
+          }
+        },
+        {
+          "caller": "0xE4038Bf99cdEC2513df22F57BCA38Ac8a46b3E98",
+          "comment": "arrayPushEmpty() -> FAILURE, hex\"4e487b71\", 0x22",
+          "instance": "C",
+          "method": "arrayPushEmpty()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000004e487b71",
+              "0x0000000000000000000000000000000000000000000000000000000000000022"
+            ],
+            "exception": true
+          }
+        },
+        {
+          "caller": "0xE4038Bf99cdEC2513df22F57BCA38Ac8a46b3E98",
+          "comment": "arrayPush() -> FAILURE, hex\"4e487b71\", 0x22",
+          "instance": "C",
+          "method": "arrayPush()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000004e487b71",
+              "0x0000000000000000000000000000000000000000000000000000000000000022"
+            ],
+            "exception": true
+          }
+        },
+        {
+          "caller": "0xE4038Bf99cdEC2513df22F57BCA38Ac8a46b3E98",
+          "comment": "x() -> FAILURE, hex\"4e487b71\", 0x22",
+          "instance": "C",
+          "method": "x()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000004e487b71",
+              "0x0000000000000000000000000000000000000000000000000000000000000022"
+            ],
+            "exception": true
+          }
+        },
+        {
+          "caller": "0xE4038Bf99cdEC2513df22F57BCA38Ac8a46b3E98",
+          "comment": "arrayPop() -> FAILURE, hex\"4e487b71\", 0x22",
+          "instance": "C",
+          "method": "arrayPop()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000004e487b71",
+              "0x0000000000000000000000000000000000000000000000000000000000000022"
+            ],
+            "exception": true
+          }
+        },
+        {
+          "caller": "0xE4038Bf99cdEC2513df22F57BCA38Ac8a46b3E98",
+          "comment": "assignToLong() -> FAILURE, hex\"4e487b71\", 0x22",
+          "instance": "C",
+          "method": "assignToLong()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000004e487b71",
+              "0x0000000000000000000000000000000000000000000000000000000000000022"
+            ],
+            "exception": true
+          }
+        },
+        {
+          "caller": "0xE4038Bf99cdEC2513df22F57BCA38Ac8a46b3E98",
+          "comment": "x() -> FAILURE, hex\"4e487b71\", 0x22",
+          "instance": "C",
+          "method": "x()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000004e487b71",
+              "0x0000000000000000000000000000000000000000000000000000000000000022"
+            ],
+            "exception": true
+          }
+        },
+        {
+          "caller": "0xE4038Bf99cdEC2513df22F57BCA38Ac8a46b3E98",
+          "comment": "assignTo() -> FAILURE, hex\"4e487b71\", 0x22",
+          "instance": "C",
+          "method": "assignTo()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000004e487b71",
+              "0x0000000000000000000000000000000000000000000000000000000000000022"
+            ],
+            "exception": true
+          }
+        },
+        {
+          "caller": "0xE4038Bf99cdEC2513df22F57BCA38Ac8a46b3E98",
+          "comment": "x() -> FAILURE, hex\"4e487b71\", 0x22",
+          "instance": "C",
+          "method": "x()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000004e487b71",
+              "0x0000000000000000000000000000000000000000000000000000000000000022"
+            ],
+            "exception": true
+          }
+        },
+        {
+          "caller": "0xE4038Bf99cdEC2513df22F57BCA38Ac8a46b3E98",
+          "comment": "copyFromStorageShort() -> FAILURE, hex\"4e487b71\", 0x22",
+          "instance": "C",
+          "method": "copyFromStorageShort()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000004e487b71",
+              "0x0000000000000000000000000000000000000000000000000000000000000022"
+            ],
+            "exception": true
+          }
+        },
+        {
+          "caller": "0xE4038Bf99cdEC2513df22F57BCA38Ac8a46b3E98",
+          "comment": "x() -> FAILURE, hex\"4e487b71\", 0x22",
+          "instance": "C",
+          "method": "x()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000004e487b71",
+              "0x0000000000000000000000000000000000000000000000000000000000000022"
+            ],
+            "exception": true
+          }
+        },
+        {
+          "caller": "0xE4038Bf99cdEC2513df22F57BCA38Ac8a46b3E98",
+          "comment": "copyFromStorageLong() -> FAILURE, hex\"4e487b71\", 0x22",
+          "instance": "C",
+          "method": "copyFromStorageLong()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000004e487b71",
+              "0x0000000000000000000000000000000000000000000000000000000000000022"
+            ],
+            "exception": true
+          }
+        },
+        {
+          "caller": "0xE4038Bf99cdEC2513df22F57BCA38Ac8a46b3E98",
+          "comment": "x() -> FAILURE, hex\"4e487b71\", 0x22",
+          "instance": "C",
+          "method": "x()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000004e487b71",
+              "0x0000000000000000000000000000000000000000000000000000000000000022"
+            ],
+            "exception": true
+          }
+        },
+        {
+          "caller": "0xE4038Bf99cdEC2513df22F57BCA38Ac8a46b3E98",
+          "comment": "copyToStorage() -> FAILURE, hex\"4e487b71\", 0x22",
+          "instance": "C",
+          "method": "copyToStorage()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000004e487b71",
+              "0x0000000000000000000000000000000000000000000000000000000000000022"
+            ],
+            "exception": true
+          }
+        },
+        {
+          "caller": "0xE4038Bf99cdEC2513df22F57BCA38Ac8a46b3E98",
+          "comment": "x() -> FAILURE, hex\"4e487b71\", 0x22",
+          "instance": "C",
+          "method": "x()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000004e487b71",
+              "0x0000000000000000000000000000000000000000000000000000000000000022"
+            ],
+            "exception": true
+          }
+        },
+        {
+          "caller": "0xE4038Bf99cdEC2513df22F57BCA38Ac8a46b3E98",
+          "comment": "y() -> 0x20, 0x00",
+          "instance": "C",
+          "method": "y()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000020",
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "invalid_encoding_for_storage_byte_array.sol:C"
+  }
+}

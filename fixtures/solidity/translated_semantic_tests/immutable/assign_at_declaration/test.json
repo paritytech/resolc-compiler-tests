@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "assign_at_declaration",
+      "inputs": [
+        {
+          "caller": "0xcC6DA9786391B5B74537456B76D58a0fa75611fA",
+          "comment": "f() -> 2",
+          "instance": "A",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000002"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "A": "assign_at_declaration.sol:A"
+  }
+}

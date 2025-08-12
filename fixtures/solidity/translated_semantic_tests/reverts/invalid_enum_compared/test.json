@@ -1,0 +1,53 @@
+{
+  "cases": [
+    {
+      "name": "invalid_enum_compared",
+      "inputs": [
+        {
+          "caller": "0x147C043A2f969781442fDa98661D6B84b77A1CB6",
+          "comment": "test_eq_ok() -> 1",
+          "instance": "C",
+          "method": "test_eq_ok()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x147C043A2f969781442fDa98661D6B84b77A1CB6",
+          "comment": "test_eq() -> FAILURE, hex\"4e487b71\", 33",
+          "instance": "C",
+          "method": "test_eq()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000004e487b71",
+              "0x0000000000000000000000000000000000000000000000000000000000000021"
+            ],
+            "exception": true
+          }
+        },
+        {
+          "caller": "0x147C043A2f969781442fDa98661D6B84b77A1CB6",
+          "comment": "test_neq() -> FAILURE, hex\"4e487b71\", 33",
+          "instance": "C",
+          "method": "test_neq()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000004e487b71",
+              "0x0000000000000000000000000000000000000000000000000000000000000021"
+            ],
+            "exception": true
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "invalid_enum_compared.sol:C"
+  }
+}

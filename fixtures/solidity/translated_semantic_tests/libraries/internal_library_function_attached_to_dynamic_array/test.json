@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "internal_library_function_attached_to_dynamic_array",
+      "inputs": [
+        {
+          "caller": "0x08E923748DFb84CddBCf0f4cAfB2132F43e5740e",
+          "comment": "secondItem() -> 0x22",
+          "instance": "C",
+          "method": "secondItem()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000022"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "internal_library_function_attached_to_dynamic_array.sol:C"
+  }
+}

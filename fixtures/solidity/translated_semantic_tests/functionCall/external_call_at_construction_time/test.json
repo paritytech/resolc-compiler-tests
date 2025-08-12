@@ -1,0 +1,51 @@
+{
+  "cases": [
+    {
+      "name": "external_call_at_construction_time",
+      "inputs": [
+        {
+          "caller": "0x72e459669291AeAEF2461902F4Fb042Ced523296",
+          "comment": "f(uint256): 0 -> FAILURE",
+          "instance": "C",
+          "method": "f(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "exception": true
+          }
+        },
+        {
+          "caller": "0x72e459669291AeAEF2461902F4Fb042Ced523296",
+          "comment": "f(uint256): 1 -> FAILURE",
+          "instance": "C",
+          "method": "f(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000001"
+          ],
+          "expected": {
+            "exception": true
+          }
+        },
+        {
+          "caller": "0x72e459669291AeAEF2461902F4Fb042Ced523296",
+          "comment": "f(uint256): 2 -> 3",
+          "instance": "C",
+          "method": "f(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000002"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000003"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "external_call_at_construction_time.sol:C"
+  }
+}

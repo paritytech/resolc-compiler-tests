@@ -1,0 +1,30 @@
+{
+  "cases": [
+    {
+      "name": "event_emit_from_a_foreign_contract",
+      "inputs": [
+        {
+          "caller": "0x36eaB6CE7fedEDc098Ef98C41E83548A89147131",
+          "comment": "test() ->; ~ emit E()",
+          "instance": "D",
+          "method": "test()",
+          "calldata": [],
+          "expected": {
+            "events": [
+              {
+                "topics": [
+                  "92bbf6e823a631f3c8e09b1c8df90f378fb56f7fbc9701827e1ff8aad7f6a028"
+                ],
+                "values": []
+              }
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "D": "event_emit_from_a_foreign_contract.sol:D"
+  }
+}

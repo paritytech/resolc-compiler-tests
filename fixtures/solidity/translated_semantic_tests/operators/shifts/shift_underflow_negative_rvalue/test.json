@@ -1,0 +1,44 @@
+{
+  "cases": [
+    {
+      "name": "shift_underflow_negative_rvalue",
+      "inputs": [
+        {
+          "caller": "0xbb7E257E6554acf5b35b26EC218212D799D51a5f",
+          "comment": "f(int256,uint256): 1, -1 -> 0",
+          "instance": "C",
+          "method": "f(int256,uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000001",
+            "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xbb7E257E6554acf5b35b26EC218212D799D51a5f",
+          "comment": "g(int256,uint256): 1, -1 -> 0",
+          "instance": "C",
+          "method": "g(int256,uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000001",
+            "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "shift_underflow_negative_rvalue.sol:C"
+  }
+}

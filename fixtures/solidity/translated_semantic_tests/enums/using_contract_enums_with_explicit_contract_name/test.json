@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "using_contract_enums_with_explicit_contract_name",
+      "inputs": [
+        {
+          "caller": "0xfd75328746E9B8B521718A4A9451458609B88e1f",
+          "comment": "answer() -> 1",
+          "instance": "test",
+          "method": "answer()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "test": "using_contract_enums_with_explicit_contract_name.sol:test"
+  }
+}

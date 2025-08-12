@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "transient_state_variable_initialization",
+      "inputs": [
+        {
+          "caller": "0x4CCeBa2d7D2B4fdcE4304d3e09a1fea9fbEb1528",
+          "comment": "f() -> 100",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000064"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "transient_state_variable_initialization.sol:C"
+  }
+}

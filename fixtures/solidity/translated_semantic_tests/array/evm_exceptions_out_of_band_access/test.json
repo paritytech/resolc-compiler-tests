@@ -1,0 +1,52 @@
+{
+  "cases": [
+    {
+      "name": "evm_exceptions_out_of_band_access",
+      "inputs": [
+        {
+          "caller": "0x2710255eD57E2329a8664a6F5DC224075c556256",
+          "comment": "test() -> false",
+          "instance": "A",
+          "method": "test()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x2710255eD57E2329a8664a6F5DC224075c556256",
+          "comment": "testIt() -> FAILURE, hex\"4e487b71\", 0x32",
+          "instance": "A",
+          "method": "testIt()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000004e487b71",
+              "0x0000000000000000000000000000000000000000000000000000000000000032"
+            ],
+            "exception": true
+          }
+        },
+        {
+          "caller": "0x2710255eD57E2329a8664a6F5DC224075c556256",
+          "comment": "test() -> false",
+          "instance": "A",
+          "method": "test()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "A": "evm_exceptions_out_of_band_access.sol:A"
+  }
+}

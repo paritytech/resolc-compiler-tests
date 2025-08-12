@@ -1,0 +1,153 @@
+{
+  "cases": [
+    {
+      "name": "delegatecall_return_value_pre_byzantium",
+      "inputs": [
+        {
+          "caller": "0x51B7AA9B4bCcE1Fa09bF592DB5E6A9d13b60c10c",
+          "comment": "get() -> 0x00",
+          "instance": "C",
+          "method": "get()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x51B7AA9B4bCcE1Fa09bF592DB5E6A9d13b60c10c",
+          "comment": "assert0_delegated() -> true",
+          "instance": "C",
+          "method": "assert0_delegated()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x51B7AA9B4bCcE1Fa09bF592DB5E6A9d13b60c10c",
+          "comment": "get_delegated() -> true",
+          "instance": "C",
+          "method": "get_delegated()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x51B7AA9B4bCcE1Fa09bF592DB5E6A9d13b60c10c",
+          "comment": "set(uint256): 0x01 ->",
+          "instance": "C",
+          "method": "set(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000001"
+          ],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x51B7AA9B4bCcE1Fa09bF592DB5E6A9d13b60c10c",
+          "comment": "get() -> 0x01",
+          "instance": "C",
+          "method": "get()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x51B7AA9B4bCcE1Fa09bF592DB5E6A9d13b60c10c",
+          "comment": "assert0_delegated() -> false",
+          "instance": "C",
+          "method": "assert0_delegated()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x51B7AA9B4bCcE1Fa09bF592DB5E6A9d13b60c10c",
+          "comment": "get_delegated() -> true",
+          "instance": "C",
+          "method": "get_delegated()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x51B7AA9B4bCcE1Fa09bF592DB5E6A9d13b60c10c",
+          "comment": "set(uint256): 0x2a ->",
+          "instance": "C",
+          "method": "set(uint256)",
+          "calldata": [
+            "0x000000000000000000000000000000000000000000000000000000000000002a"
+          ],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x51B7AA9B4bCcE1Fa09bF592DB5E6A9d13b60c10c",
+          "comment": "get() -> 0x2a",
+          "instance": "C",
+          "method": "get()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000000000002a"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x51B7AA9B4bCcE1Fa09bF592DB5E6A9d13b60c10c",
+          "comment": "assert0_delegated() -> false",
+          "instance": "C",
+          "method": "assert0_delegated()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x51B7AA9B4bCcE1Fa09bF592DB5E6A9d13b60c10c",
+          "comment": "get_delegated() -> true",
+          "instance": "C",
+          "method": "get_delegated()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "delegatecall_return_value_pre_byzantium.sol:C"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "cases": [
+    {
+      "name": "function_modifier_multiple_times",
+      "inputs": [
+        {
+          "caller": "0x6deEda3Ef29DaE1e7A3E62073F88d3a911D95dDb",
+          "comment": "f(uint256): 3 -> 10",
+          "instance": "C",
+          "method": "f(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000003"
+          ],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000000000000a"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x6deEda3Ef29DaE1e7A3E62073F88d3a911D95dDb",
+          "comment": "a() -> 10",
+          "instance": "C",
+          "method": "a()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000000000000a"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "function_modifier_multiple_times.sol:C"
+  }
+}

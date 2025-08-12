@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "function_modifier_library",
+      "inputs": [
+        {
+          "caller": "0x9e1B26Ab54aE133B93317cf28FDFb2aAF4Ac9605",
+          "comment": "f() -> 0x202",
+          "instance": "Test",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000202"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "Test": "function_modifier_library.sol:Test"
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "cases": [
+    {
+      "name": "function_external_delete_storage",
+      "inputs": [
+        {
+          "caller": "0xc4Ff1b4565eE203fA12636e100Fe9C89Cd18Acb7",
+          "comment": "isF() -> false",
+          "instance": "C",
+          "method": "isF()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xc4Ff1b4565eE203fA12636e100Fe9C89Cd18Acb7",
+          "comment": "isZero() -> true",
+          "instance": "C",
+          "method": "isZero()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xc4Ff1b4565eE203fA12636e100Fe9C89Cd18Acb7",
+          "comment": "deleteFunction() ->",
+          "instance": "C",
+          "method": "deleteFunction()",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xc4Ff1b4565eE203fA12636e100Fe9C89Cd18Acb7",
+          "comment": "isF() -> false",
+          "instance": "C",
+          "method": "isF()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xc4Ff1b4565eE203fA12636e100Fe9C89Cd18Acb7",
+          "comment": "isZero() -> true",
+          "instance": "C",
+          "method": "isZero()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xc4Ff1b4565eE203fA12636e100Fe9C89Cd18Acb7",
+          "comment": "set() ->",
+          "instance": "C",
+          "method": "set()",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xc4Ff1b4565eE203fA12636e100Fe9C89Cd18Acb7",
+          "comment": "isF() -> true",
+          "instance": "C",
+          "method": "isF()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xc4Ff1b4565eE203fA12636e100Fe9C89Cd18Acb7",
+          "comment": "isZero() -> false",
+          "instance": "C",
+          "method": "isZero()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xc4Ff1b4565eE203fA12636e100Fe9C89Cd18Acb7",
+          "comment": "deleteFunction() ->",
+          "instance": "C",
+          "method": "deleteFunction()",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xc4Ff1b4565eE203fA12636e100Fe9C89Cd18Acb7",
+          "comment": "isF() -> false",
+          "instance": "C",
+          "method": "isF()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xc4Ff1b4565eE203fA12636e100Fe9C89Cd18Acb7",
+          "comment": "isZero() -> true",
+          "instance": "C",
+          "method": "isZero()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "function_external_delete_storage.sol:C"
+  }
+}

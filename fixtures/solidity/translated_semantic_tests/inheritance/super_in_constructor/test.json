@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "super_in_constructor",
+      "inputs": [
+        {
+          "caller": "0x8fF0eb618c061e00a3fAB5Fc9B8a0f2F24547d48",
+          "comment": "f() -> 15",
+          "instance": "D",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000000000000f"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "D": "super_in_constructor.sol:D"
+  }
+}

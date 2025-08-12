@@ -1,0 +1,166 @@
+{
+  "cases": [
+    {
+      "name": "fallback",
+      "inputs": [
+        {
+          "caller": "0x86084Ca224ec90f3Dfc438dF6485FA830aBA118B",
+          "comment": "data() -> 0",
+          "instance": "A",
+          "method": "data()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x86084Ca224ec90f3Dfc438dF6485FA830aBA118B",
+          "comment": "()",
+          "instance": "A",
+          "method": "#fallback",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x86084Ca224ec90f3Dfc438dF6485FA830aBA118B",
+          "comment": "data() -> 1",
+          "instance": "A",
+          "method": "data()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x86084Ca224ec90f3Dfc438dF6485FA830aBA118B",
+          "comment": "(): hex\"42ef\"",
+          "instance": "A",
+          "method": "#fallback",
+          "calldata": [
+            "0x00000000000000000000000000000000000000000000000000000000000042ef"
+          ],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x86084Ca224ec90f3Dfc438dF6485FA830aBA118B",
+          "comment": "data() -> 2",
+          "instance": "A",
+          "method": "data()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000002"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x86084Ca224ec90f3Dfc438dF6485FA830aBA118B",
+          "comment": "externalData() -> 0x20, 2, left(0x42ef)",
+          "instance": "A",
+          "method": "externalData()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000020",
+              "0x0000000000000000000000000000000000000000000000000000000000000002",
+              "0x42ef000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x86084Ca224ec90f3Dfc438dF6485FA830aBA118B",
+          "comment": "balance() -> 0",
+          "instance": "A",
+          "method": "balance()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x86084Ca224ec90f3Dfc438dF6485FA830aBA118B",
+          "comment": "(), 1 wei",
+          "instance": "A",
+          "method": "#fallback",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          },
+          "value": "1 wei"
+        },
+        {
+          "caller": "0x86084Ca224ec90f3Dfc438dF6485FA830aBA118B",
+          "comment": "balance() -> 1",
+          "instance": "A",
+          "method": "balance()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x86084Ca224ec90f3Dfc438dF6485FA830aBA118B",
+          "comment": "(), 2 wei: hex\"fefe\"",
+          "instance": "A",
+          "method": "#fallback",
+          "calldata": [
+            "0x000000000000000000000000000000000000000000000000000000000000fefe"
+          ],
+          "expected": {
+            "exception": false
+          },
+          "value": "2 wei"
+        },
+        {
+          "caller": "0x86084Ca224ec90f3Dfc438dF6485FA830aBA118B",
+          "comment": "balance() -> 2",
+          "instance": "A",
+          "method": "balance()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000002"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x86084Ca224ec90f3Dfc438dF6485FA830aBA118B",
+          "comment": "externalData() -> 0x20, 2, left(0xfefe)",
+          "instance": "A",
+          "method": "externalData()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000020",
+              "0x0000000000000000000000000000000000000000000000000000000000000002",
+              "0xfefe000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "A": "fallback.sol:A"
+  }
+}

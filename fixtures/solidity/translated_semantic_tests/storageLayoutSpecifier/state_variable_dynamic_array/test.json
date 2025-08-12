@@ -1,0 +1,134 @@
+{
+  "cases": [
+    {
+      "name": "state_variable_dynamic_array",
+      "inputs": [
+        {
+          "caller": "0x0e5B11ABff3aFd8aCE2b2fb74565E2340080FAf3",
+          "comment": "initA() -> 1, 2, 3; gas irOptimized: 111986; gas legacy: 111679; gas legacyOptimized: 111150",
+          "instance": "C",
+          "method": "initA()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001",
+              "0x0000000000000000000000000000000000000000000000000000000000000002",
+              "0x0000000000000000000000000000000000000000000000000000000000000003"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x0e5B11ABff3aFd8aCE2b2fb74565E2340080FAf3",
+          "comment": "arrayA(uint256): 0 -> 1",
+          "instance": "C",
+          "method": "arrayA(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x0e5B11ABff3aFd8aCE2b2fb74565E2340080FAf3",
+          "comment": "arrayALength() -> 3",
+          "instance": "C",
+          "method": "arrayALength()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000003"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x0e5B11ABff3aFd8aCE2b2fb74565E2340080FAf3",
+          "comment": "arrayCLength() -> 0",
+          "instance": "C",
+          "method": "arrayCLength()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x0e5B11ABff3aFd8aCE2b2fb74565E2340080FAf3",
+          "comment": "initCFromAInReverse() -> 3, 2, 1; gas irOptimized: 121276; gas legacy: 121213; gas legacyOptimized: 120843",
+          "instance": "C",
+          "method": "initCFromAInReverse()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000003",
+              "0x0000000000000000000000000000000000000000000000000000000000000002",
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x0e5B11ABff3aFd8aCE2b2fb74565E2340080FAf3",
+          "comment": "clearA() ->",
+          "instance": "C",
+          "method": "clearA()",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x0e5B11ABff3aFd8aCE2b2fb74565E2340080FAf3",
+          "comment": "arrayC(uint256): 0 -> 3",
+          "instance": "C",
+          "method": "arrayC(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000003"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x0e5B11ABff3aFd8aCE2b2fb74565E2340080FAf3",
+          "comment": "arrayALength() -> 0",
+          "instance": "C",
+          "method": "arrayALength()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x0e5B11ABff3aFd8aCE2b2fb74565E2340080FAf3",
+          "comment": "arrayCLength() -> 3",
+          "instance": "C",
+          "method": "arrayCLength()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000003"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "state_variable_dynamic_array.sol:C"
+  }
+}

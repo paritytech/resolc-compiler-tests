@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "exp_cleanup_direct",
+      "inputs": [
+        {
+          "caller": "0xDD5094937Dcc2863897f673Ca3d85Cd4E55370c2",
+          "comment": "f() -> 0x1",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "exp_cleanup_direct.sol:C"
+  }
+}

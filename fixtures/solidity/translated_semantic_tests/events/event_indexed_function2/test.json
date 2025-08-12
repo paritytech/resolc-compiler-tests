@@ -1,0 +1,52 @@
+{
+  "cases": [
+    {
+      "name": "event_indexed_function2",
+      "inputs": [
+        {
+          "caller": "0x4d1Bf28514A4451249908E611366Ec967C3d1558",
+          "comment": "f1() ->; ~ emit TestA(function): #0x1234c27fc3050000000000000000",
+          "instance": "C",
+          "method": "f1()",
+          "calldata": [],
+          "expected": {
+            "events": [
+              {
+                "topics": [
+                  "431542260c77cfa83d6cf5a3c8f20c1a0dff669d8404ba6031c61522c5b4b50b",
+                  "0x0000000000000000000000000000000000001234c27fc3050000000000000000"
+                ],
+                "values": []
+              }
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x4d1Bf28514A4451249908E611366Ec967C3d1558",
+          "comment": "f2(uint256): 1 ->; ~ emit TestB(function): #0x1234bf3724af0000000000000000",
+          "instance": "C",
+          "method": "f2(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000001"
+          ],
+          "expected": {
+            "events": [
+              {
+                "topics": [
+                  "b3692dee5e874cd3cbe4a2e928dcdf9e62af0216548003c4098e2035cc9cd29c",
+                  "0x0000000000000000000000000000000000001234bf3724af0000000000000000"
+                ],
+                "values": []
+              }
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "event_indexed_function2.sol:C"
+  }
+}

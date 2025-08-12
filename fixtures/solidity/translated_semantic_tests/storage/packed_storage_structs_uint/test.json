@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "packed_storage_structs_uint",
+      "inputs": [
+        {
+          "caller": "0x51909c486AC78b189C8794A855FC2BD65635AeB7",
+          "comment": "test() -> 1",
+          "instance": "C",
+          "method": "test()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "packed_storage_structs_uint.sol:C"
+  }
+}

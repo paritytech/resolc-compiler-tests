@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "parenthesized",
+      "inputs": [
+        {
+          "caller": "0x524e6c87251132Fc449ebD721b3a0AE4F620aef8",
+          "comment": "f() -> 0",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "parenthesized.sol:C"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "for_loop_break",
+      "inputs": [
+        {
+          "caller": "0xd200cB50321301D1eaadEc8b8Dd4B3001608f605",
+          "comment": "f() -> 6",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000006"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "for_loop_break.sol:C"
+  }
+}

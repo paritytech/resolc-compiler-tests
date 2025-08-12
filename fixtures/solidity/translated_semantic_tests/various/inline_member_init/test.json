@@ -1,0 +1,27 @@
+{
+  "cases": [
+    {
+      "name": "inline_member_init",
+      "inputs": [
+        {
+          "caller": "0xFAd8968d5b71c2847b5f1053e1ECe6897b0DB11f",
+          "comment": "get() -> 5, 6, 8",
+          "instance": "test",
+          "method": "get()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000005",
+              "0x0000000000000000000000000000000000000000000000000000000000000006",
+              "0x0000000000000000000000000000000000000000000000000000000000000008"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "test": "inline_member_init.sol:test"
+  }
+}

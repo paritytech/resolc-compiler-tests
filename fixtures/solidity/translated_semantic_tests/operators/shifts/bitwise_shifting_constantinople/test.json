@@ -1,0 +1,188 @@
+{
+  "cases": [
+    {
+      "name": "bitwise_shifting_constantinople",
+      "inputs": [
+        {
+          "caller": "0x7dc5e7a04f7dD981DdDff2B2ece9B1F887dF36f0",
+          "comment": "shl(uint256,uint256): 0x01, 0x02 -> 0x04",
+          "instance": "C",
+          "method": "shl(uint256,uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000001",
+            "0x0000000000000000000000000000000000000000000000000000000000000002"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000004"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x7dc5e7a04f7dD981DdDff2B2ece9B1F887dF36f0",
+          "comment": "shl(uint256,uint256): 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff, 0x01 -> 0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe",
+          "instance": "C",
+          "method": "shl(uint256,uint256)",
+          "calldata": [
+            "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+            "0x0000000000000000000000000000000000000000000000000000000000000001"
+          ],
+          "expected": {
+            "return_data": [
+              "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x7dc5e7a04f7dD981DdDff2B2ece9B1F887dF36f0",
+          "comment": "shl(uint256,uint256): 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff, 0x100 -> 0x00",
+          "instance": "C",
+          "method": "shl(uint256,uint256)",
+          "calldata": [
+            "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+            "0x0000000000000000000000000000000000000000000000000000000000000100"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x7dc5e7a04f7dD981DdDff2B2ece9B1F887dF36f0",
+          "comment": "shr(uint256,uint256): 0x03, 0x01 -> 0x01",
+          "instance": "C",
+          "method": "shr(uint256,uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000003",
+            "0x0000000000000000000000000000000000000000000000000000000000000001"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x7dc5e7a04f7dD981DdDff2B2ece9B1F887dF36f0",
+          "comment": "shr(uint256,uint256): 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff, 0x01 -> 0x7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+          "instance": "C",
+          "method": "shr(uint256,uint256)",
+          "calldata": [
+            "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+            "0x0000000000000000000000000000000000000000000000000000000000000001"
+          ],
+          "expected": {
+            "return_data": [
+              "0x7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x7dc5e7a04f7dD981DdDff2B2ece9B1F887dF36f0",
+          "comment": "shr(uint256,uint256): 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff, 0xff -> 0x01",
+          "instance": "C",
+          "method": "shr(uint256,uint256)",
+          "calldata": [
+            "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+            "0x00000000000000000000000000000000000000000000000000000000000000ff"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x7dc5e7a04f7dD981DdDff2B2ece9B1F887dF36f0",
+          "comment": "shr(uint256,uint256): 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff, 0x100 -> 0x00",
+          "instance": "C",
+          "method": "shr(uint256,uint256)",
+          "calldata": [
+            "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+            "0x0000000000000000000000000000000000000000000000000000000000000100"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x7dc5e7a04f7dD981DdDff2B2ece9B1F887dF36f0",
+          "comment": "sar(uint256,uint256): 0x03, 0x01 -> 0x01",
+          "instance": "C",
+          "method": "sar(uint256,uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000003",
+            "0x0000000000000000000000000000000000000000000000000000000000000001"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x7dc5e7a04f7dD981DdDff2B2ece9B1F887dF36f0",
+          "comment": "sar(uint256,uint256): 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff, 0x01 -> 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+          "instance": "C",
+          "method": "sar(uint256,uint256)",
+          "calldata": [
+            "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+            "0x0000000000000000000000000000000000000000000000000000000000000001"
+          ],
+          "expected": {
+            "return_data": [
+              "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x7dc5e7a04f7dD981DdDff2B2ece9B1F887dF36f0",
+          "comment": "sar(uint256,uint256): 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff, 0xff -> 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+          "instance": "C",
+          "method": "sar(uint256,uint256)",
+          "calldata": [
+            "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+            "0x00000000000000000000000000000000000000000000000000000000000000ff"
+          ],
+          "expected": {
+            "return_data": [
+              "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x7dc5e7a04f7dD981DdDff2B2ece9B1F887dF36f0",
+          "comment": "sar(uint256,uint256): 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff, 0x100 -> 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+          "instance": "C",
+          "method": "sar(uint256,uint256)",
+          "calldata": [
+            "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+            "0x0000000000000000000000000000000000000000000000000000000000000100"
+          ],
+          "expected": {
+            "return_data": [
+              "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "bitwise_shifting_constantinople.sol:C"
+  }
+}

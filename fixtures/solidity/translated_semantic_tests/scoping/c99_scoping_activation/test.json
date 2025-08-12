@@ -1,0 +1,67 @@
+{
+  "cases": [
+    {
+      "name": "c99_scoping_activation",
+      "inputs": [
+        {
+          "caller": "0xE7dD275c3D33605FDd4F3d5073ae9fe3c38Fa3b1",
+          "comment": "f() -> 3",
+          "instance": "test",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000003"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xE7dD275c3D33605FDd4F3d5073ae9fe3c38Fa3b1",
+          "comment": "g() -> 0",
+          "instance": "test",
+          "method": "g()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xE7dD275c3D33605FDd4F3d5073ae9fe3c38Fa3b1",
+          "comment": "h() -> 3, 3, 4",
+          "instance": "test",
+          "method": "h()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000003",
+              "0x0000000000000000000000000000000000000000000000000000000000000003",
+              "0x0000000000000000000000000000000000000000000000000000000000000004"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xE7dD275c3D33605FDd4F3d5073ae9fe3c38Fa3b1",
+          "comment": "i() -> 3, 3",
+          "instance": "test",
+          "method": "i()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000003",
+              "0x0000000000000000000000000000000000000000000000000000000000000003"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "test": "c99_scoping_activation.sol:test"
+  }
+}

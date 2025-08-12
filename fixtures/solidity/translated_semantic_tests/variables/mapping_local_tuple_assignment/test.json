@@ -1,0 +1,28 @@
+{
+  "cases": [
+    {
+      "name": "mapping_local_tuple_assignment",
+      "inputs": [
+        {
+          "caller": "0xDECA0C20C7Dfc84B056C3E8A58Fe03Cd72Ec14F5",
+          "comment": "f() -> 42, 0, 0, 21",
+          "instance": "test",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000000000002a",
+              "0x0000000000000000000000000000000000000000000000000000000000000000",
+              "0x0000000000000000000000000000000000000000000000000000000000000000",
+              "0x0000000000000000000000000000000000000000000000000000000000000015"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "test": "mapping_local_tuple_assignment.sol:test"
+  }
+}

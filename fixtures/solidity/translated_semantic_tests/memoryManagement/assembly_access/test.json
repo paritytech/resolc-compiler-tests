@@ -1,0 +1,22 @@
+{
+  "cases": [
+    {
+      "name": "assembly_access",
+      "inputs": [
+        {
+          "caller": "0x44786d273376d48159E393212ee701CF68C699D3",
+          "comment": "f() ->",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "assembly_access.sol:C"
+  }
+}

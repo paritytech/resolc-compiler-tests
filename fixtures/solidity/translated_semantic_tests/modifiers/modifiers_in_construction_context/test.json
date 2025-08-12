@@ -1,0 +1,22 @@
+{
+  "cases": [
+    {
+      "name": "modifiers_in_construction_context",
+      "inputs": [
+        {
+          "caller": "0xDdD219e55B852f549887aDd87ebA06594cF04936",
+          "comment": "constructor() ->",
+          "instance": "B",
+          "method": "#deployer",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "B": "modifiers_in_construction_context.sol:B"
+  }
+}

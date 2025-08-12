@@ -1,0 +1,51 @@
+{
+  "cases": [
+    {
+      "name": "block_gaslimit",
+      "inputs": [
+        {
+          "caller": "0x90De30C3E282f57d0b9CFe0a9c8E58fF8cCc447C",
+          "comment": "f() -> 0x40000000",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000040000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x90De30C3E282f57d0b9CFe0a9c8E58fF8cCc447C",
+          "comment": "f() -> 0x40000000",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000040000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x90De30C3E282f57d0b9CFe0a9c8E58fF8cCc447C",
+          "comment": "f() -> 0x40000000",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000040000000"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "block_gaslimit.sol:C"
+  }
+}

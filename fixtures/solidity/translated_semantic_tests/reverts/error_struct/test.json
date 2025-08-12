@@ -1,0 +1,40 @@
+{
+  "cases": [
+    {
+      "name": "error_struct",
+      "inputs": [
+        {
+          "caller": "0xf3B79F204cb05f417ecBCA5572C0EEC9F3Bf7121",
+          "comment": "f() -> FAILURE, hex\"f8a8fd6d\"",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x00000000000000000000000000000000000000000000000000000000f8a8fd6d"
+            ],
+            "exception": true
+          }
+        },
+        {
+          "caller": "0xf3B79F204cb05f417ecBCA5572C0EEC9F3Bf7121",
+          "comment": "g(uint256): 7 -> 7",
+          "instance": "C",
+          "method": "g(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000007"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000007"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "error_struct.sol:C"
+  }
+}

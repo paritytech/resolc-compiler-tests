@@ -1,0 +1,26 @@
+{
+  "cases": [
+    {
+      "name": "inline_array_with_value_call_option",
+      "inputs": [
+        {
+          "caller": "0x161c2E10407e2A87959C0bae1f342C80EaeA28f3",
+          "comment": "h(), 1 ether -> 1",
+          "instance": "C",
+          "method": "h()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          },
+          "value": "1000000000000000000 wei"
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "inline_array_with_value_call_option.sol:C"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "cases": [
+    {
+      "name": "same_function_in_construction_and_runtime",
+      "inputs": [
+        {
+          "caller": "0x63a36aEa8570219476EF835f09024ACdEdfEE95A",
+          "comment": "runtime(uint256): 3 -> 6",
+          "instance": "C",
+          "method": "runtime(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000003"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000006"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x63a36aEa8570219476EF835f09024ACdEdfEE95A",
+          "comment": "initial() -> 4",
+          "instance": "C",
+          "method": "initial()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000004"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "same_function_in_construction_and_runtime.sol:C"
+  }
+}

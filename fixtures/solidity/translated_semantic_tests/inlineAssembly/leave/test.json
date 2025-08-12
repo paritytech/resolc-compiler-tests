@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "leave",
+      "inputs": [
+        {
+          "caller": "0x2Abc535f771112D410Ca31cF57c922442d98cA74",
+          "comment": "f() -> 2",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000002"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "leave.sol:C"
+  }
+}

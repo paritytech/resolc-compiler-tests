@@ -1,0 +1,38 @@
+{
+  "cases": [
+    {
+      "name": "external_function_pointer_address",
+      "inputs": [
+        {
+          "caller": "0x04b36263Cf5b7b9Fa16a4B7b9c61D91dc52eA738",
+          "comment": "testYul() -> 0x1234",
+          "instance": "C",
+          "method": "testYul()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000001234"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x04b36263Cf5b7b9Fa16a4B7b9c61D91dc52eA738",
+          "comment": "testSol() -> 0x1234",
+          "instance": "C",
+          "method": "testSol()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000001234"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "external_function_pointer_address.sol:C"
+  }
+}

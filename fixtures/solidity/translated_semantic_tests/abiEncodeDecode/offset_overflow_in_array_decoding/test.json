@@ -1,0 +1,22 @@
+{
+  "cases": [
+    {
+      "name": "offset_overflow_in_array_decoding",
+      "inputs": [
+        {
+          "caller": "0x40e519d2B3DE6ca483F9aDbDCe4c2Aa3e2ab6c50",
+          "comment": "test() -> FAILURE",
+          "instance": "Test",
+          "method": "test()",
+          "calldata": [],
+          "expected": {
+            "exception": true
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "Test": "offset_overflow_in_array_decoding.sol:Test"
+  }
+}

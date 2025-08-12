@@ -1,0 +1,26 @@
+{
+  "cases": [
+    {
+      "name": "event_selector_file_level",
+      "inputs": [
+        {
+          "caller": "0x756Be12856A8F44AB22FdBCbD42B70b843377d09",
+          "comment": "main() -> 0x92bbf6e823a631f3c8e09b1c8df90f378fb56f7fbc9701827e1ff8aad7f6a028, 0x92bbf6e823a631f3c8e09b1c8df90f378fb56f7fbc9701827e1ff8aad7f6a028",
+          "instance": "C",
+          "method": "main()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x92bbf6e823a631f3c8e09b1c8df90f378fb56f7fbc9701827e1ff8aad7f6a028",
+              "0x92bbf6e823a631f3c8e09b1c8df90f378fb56f7fbc9701827e1ff8aad7f6a028"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "event_selector_file_level.sol:C"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "cases": [
+    {
+      "name": "base_slot_max_value",
+      "inputs": [
+        {
+          "caller": "0xB0d676ad5F03159494E5Daa4cc972d5BD3837428",
+          "comment": "f(uint256): 4 -> 8",
+          "instance": "C",
+          "method": "f(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000004"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000008"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "base_slot_max_value.sol:C"
+  }
+}

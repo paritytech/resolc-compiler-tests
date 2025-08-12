@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "reimport_imported_function",
+      "inputs": [
+        {
+          "caller": "0x3f373779820F21f9cCC55dD83C48725EC448bf03",
+          "comment": "foo() -> 1337",
+          "instance": "C",
+          "method": "foo()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000539"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "s3.sol:C"
+  }
+}

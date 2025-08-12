@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "return",
+      "inputs": [
+        {
+          "caller": "0x681ce2F439FDC80e70C1eEA8b8a085DFb976D32A",
+          "comment": "f() -> 7",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000007"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "return.sol:C"
+  }
+}

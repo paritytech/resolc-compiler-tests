@@ -1,0 +1,36 @@
+{
+  "cases": [
+    {
+      "name": "transient_storage_simple_reentrancy_lock",
+      "inputs": [
+        {
+          "caller": "0x4095B066CF5C4a4Bf05df5f1A04B7E7D8fbfdB1B",
+          "comment": "f(bool): false ->",
+          "instance": "C",
+          "method": "f(bool)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x4095B066CF5C4a4Bf05df5f1A04B7E7D8fbfdB1B",
+          "comment": "f(bool): true -> FAILURE",
+          "instance": "C",
+          "method": "f(bool)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000001"
+          ],
+          "expected": {
+            "exception": true
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "transient_storage_simple_reentrancy_lock.sol:C"
+  }
+}

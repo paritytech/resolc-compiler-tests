@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "bare_call_no_returndatacopy",
+      "inputs": [
+        {
+          "caller": "0xd13B256D1F258E88e06c4caec898F3452FA4E02f",
+          "comment": "f() -> false",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "bare_call_no_returndatacopy.sol:C"
+  }
+}

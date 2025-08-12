@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "local_variable_without_init",
+      "inputs": [
+        {
+          "caller": "0x31eB18Dd6f5A8064Ab750eABb281Cf162f43CCD0",
+          "comment": "f() -> 0",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "local_variable_without_init.sol:C"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "wei",
+      "inputs": [
+        {
+          "caller": "0x2eeDf8a799B73BC02E4664183eB72422C377153B",
+          "comment": "f() -> 1",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "wei.sol:C"
+  }
+}

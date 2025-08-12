@@ -1,0 +1,96 @@
+{
+  "cases": [
+    {
+      "name": "state_variable_arithmetic_expression",
+      "inputs": [
+        {
+          "caller": "0xF0DFC0e20503dCD32309d26ebF6A1E7e7C71dDff",
+          "comment": "f(uint256): 2 -> 0",
+          "instance": "C",
+          "method": "f(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000002"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xF0DFC0e20503dCD32309d26ebF6A1E7e7C71dDff",
+          "comment": "f(uint256): 3 -> 5",
+          "instance": "C",
+          "method": "f(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000003"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000005"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xF0DFC0e20503dCD32309d26ebF6A1E7e7C71dDff",
+          "comment": "f(uint256): 5 -> 15",
+          "instance": "C",
+          "method": "f(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000005"
+          ],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000000000000f"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xF0DFC0e20503dCD32309d26ebF6A1E7e7C71dDff",
+          "comment": "x() -> 10",
+          "instance": "C",
+          "method": "x()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000000000000a"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xF0DFC0e20503dCD32309d26ebF6A1E7e7C71dDff",
+          "comment": "y() -> 17",
+          "instance": "C",
+          "method": "y()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000011"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xF0DFC0e20503dCD32309d26ebF6A1E7e7C71dDff",
+          "comment": "z() -> 15",
+          "instance": "C",
+          "method": "z()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000000000000f"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "state_variable_arithmetic_expression.sol:C"
+  }
+}

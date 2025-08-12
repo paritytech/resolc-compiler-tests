@@ -1,0 +1,31 @@
+{
+  "cases": [
+    {
+      "name": "library_return_struct_with_mapping",
+      "inputs": [
+        {
+          "caller": "0x237b5431e14834eA9B54b92Ac95F8B0d98a0c4E4",
+          "comment": "f() -> 123",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000000000007b"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "library_return_struct_with_mapping.sol:C",
+    "Lib": "library_return_struct_with_mapping.sol:Lib"
+  },
+  "libraries": {
+    "library_return_struct_with_mapping.sol": {
+      "Lib": "Lib"
+    }
+  }
+}

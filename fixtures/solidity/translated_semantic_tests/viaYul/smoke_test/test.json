@@ -1,0 +1,22 @@
+{
+  "cases": [
+    {
+      "name": "smoke_test",
+      "inputs": [
+        {
+          "caller": "0x1e3f8fb9f840325983d6e5c68B6B846FF66a20AC",
+          "comment": "f() -> FAILURE",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "exception": true
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "smoke_test.sol:C"
+  }
+}

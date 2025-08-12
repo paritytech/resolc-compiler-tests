@@ -1,0 +1,48 @@
+{
+  "cases": [
+    {
+      "name": "event_emit_from_other_contract",
+      "inputs": [
+        {
+          "caller": "0xB1b7c87e8a0Bf2E7fd1a1C582bd353E4C4529341",
+          "comment": "constructor() ->; gas irOptimized: 113970; gas irOptimized code: 51400; gas legacy: 119791; gas legacy code: 125200; gas legacyOptimized: 114187; gas legacyOptimized code: 57400",
+          "instance": "C",
+          "method": "#deployer",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xB1b7c87e8a0Bf2E7fd1a1C582bd353E4C4529341",
+          "comment": "deposit(bytes32), 18 wei: 0x1234 ->; ~ emit Deposit(address,bytes32,uint256) from 0x137aa4dfc0911524504fcd4d98501f179bc13b4a: #0xc06afe3a8444fc0004668591e8306bfb9968e79e, #0x1234, 0x00",
+          "instance": "C",
+          "method": "deposit(bytes32)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000001234"
+          ],
+          "expected": {
+            "events": [
+              {
+                "address": "0x137Aa4dFC0911524504fcd4d98501F179BC13B4A",
+                "topics": [
+                  "19dacbf83c5de6658e14cbf7bcae5c15eca2eedecf1c66fbca928e4d351bea0f",
+                  "0x000000000000000000000000c06afe3a8444fc0004668591e8306bfb9968e79e",
+                  "0x0000000000000000000000000000000000000000000000000000000000001234"
+                ],
+                "values": [
+                  "0x0000000000000000000000000000000000000000000000000000000000000000"
+                ]
+              }
+            ],
+            "exception": false
+          },
+          "value": "18 wei"
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "event_emit_from_other_contract.sol:C"
+  }
+}

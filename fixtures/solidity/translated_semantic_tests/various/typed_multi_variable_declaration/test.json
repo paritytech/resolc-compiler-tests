@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "typed_multi_variable_declaration",
+      "inputs": [
+        {
+          "caller": "0xCE97FF76b409838716B2436F872b5d6CaC9AdA84",
+          "comment": "f() -> true",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "typed_multi_variable_declaration.sol:C"
+  }
+}

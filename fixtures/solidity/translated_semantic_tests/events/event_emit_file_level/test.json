@@ -1,0 +1,37 @@
+{
+  "cases": [
+    {
+      "name": "event_emit_file_level",
+      "inputs": [
+        {
+          "caller": "0xFF844Fdb49e00776Ad538Db9EA2f9fA98EC0cAF7",
+          "comment": "deposit(bytes32), 18 wei: 0x1234 ->; ~ emit Deposit(address,bytes32,uint256): #0xFF844Fdb49e00776Ad538Db9EA2f9fA98EC0cAF7, #0x1234, 0x12",
+          "instance": "ClientReceipt",
+          "method": "deposit(bytes32)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000001234"
+          ],
+          "expected": {
+            "events": [
+              {
+                "topics": [
+                  "19dacbf83c5de6658e14cbf7bcae5c15eca2eedecf1c66fbca928e4d351bea0f",
+                  "0x0000000000000000000000001212121212121212121212121212120000000012",
+                  "0x0000000000000000000000000000000000000000000000000000000000001234"
+                ],
+                "values": [
+                  "0x0000000000000000000000000000000000000000000000000000000000000012"
+                ]
+              }
+            ],
+            "exception": false
+          },
+          "value": "18 wei"
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "ClientReceipt": "event_emit_file_level.sol:ClientReceipt"
+  }
+}

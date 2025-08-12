@@ -1,0 +1,57 @@
+{
+  "cases": [
+    {
+      "name": "addmod_mulmod_zero",
+      "inputs": [
+        {
+          "caller": "0xc313EBae1497a32cB029aF8C820b9feFBf71F5aF",
+          "comment": "f(uint256): 0 -> FAILURE, hex\"4e487b71\", 0x12",
+          "instance": "C",
+          "method": "f(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000004e487b71",
+              "0x0000000000000000000000000000000000000000000000000000000000000012"
+            ],
+            "exception": true
+          }
+        },
+        {
+          "caller": "0xc313EBae1497a32cB029aF8C820b9feFBf71F5aF",
+          "comment": "g(uint256): 0 -> FAILURE, hex\"4e487b71\", 0x12",
+          "instance": "C",
+          "method": "g(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000004e487b71",
+              "0x0000000000000000000000000000000000000000000000000000000000000012"
+            ],
+            "exception": true
+          }
+        },
+        {
+          "caller": "0xc313EBae1497a32cB029aF8C820b9feFBf71F5aF",
+          "comment": "h() -> 2",
+          "instance": "C",
+          "method": "h()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000002"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "addmod_mulmod_zero.sol:C"
+  }
+}

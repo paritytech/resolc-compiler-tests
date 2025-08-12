@@ -1,0 +1,26 @@
+{
+  "cases": [
+    {
+      "name": "free_different_interger_types",
+      "inputs": [
+        {
+          "caller": "0x4AB9F9B7671758ADd48912b2737251E23411900A",
+          "comment": "foo() -> 24, true",
+          "instance": "C",
+          "method": "foo()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000018",
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "s2.sol:C"
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "cases": [
+    {
+      "name": "external_call_to_nonexisting",
+      "inputs": [
+        {
+          "caller": "0x179585cdbd4C8C4DC2e16E2F0F637Cd7E040AffB",
+          "comment": "constructor(), 1 ether ->; gas irOptimized: 88853; gas irOptimized code: 164400; gas legacy: 102721; gas legacy code: 334400; gas legacyOptimized: 91499; gas legacyOptimized code: 196400",
+          "instance": "C",
+          "method": "#deployer",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          },
+          "value": "1000000000000000000 wei"
+        },
+        {
+          "caller": "0x179585cdbd4C8C4DC2e16E2F0F637Cd7E040AffB",
+          "comment": "f(uint256): 0 -> FAILURE",
+          "instance": "C",
+          "method": "f(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "exception": true
+          }
+        },
+        {
+          "caller": "0x179585cdbd4C8C4DC2e16E2F0F637Cd7E040AffB",
+          "comment": "f(uint256): 1 -> FAILURE",
+          "instance": "C",
+          "method": "f(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000001"
+          ],
+          "expected": {
+            "exception": true
+          }
+        },
+        {
+          "caller": "0x179585cdbd4C8C4DC2e16E2F0F637Cd7E040AffB",
+          "comment": "f(uint256): 2 -> FAILURE",
+          "instance": "C",
+          "method": "f(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000002"
+          ],
+          "expected": {
+            "exception": true
+          }
+        },
+        {
+          "caller": "0x179585cdbd4C8C4DC2e16E2F0F637Cd7E040AffB",
+          "comment": "f(uint256): 3 -> FAILURE",
+          "instance": "C",
+          "method": "f(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000003"
+          ],
+          "expected": {
+            "exception": true
+          }
+        },
+        {
+          "caller": "0x179585cdbd4C8C4DC2e16E2F0F637Cd7E040AffB",
+          "comment": "f(uint256): 4 -> FAILURE",
+          "instance": "C",
+          "method": "f(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000004"
+          ],
+          "expected": {
+            "exception": true
+          }
+        },
+        {
+          "caller": "0x179585cdbd4C8C4DC2e16E2F0F637Cd7E040AffB",
+          "comment": "f(uint256): 5 -> FAILURE",
+          "instance": "C",
+          "method": "f(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000005"
+          ],
+          "expected": {
+            "exception": true
+          }
+        },
+        {
+          "caller": "0x179585cdbd4C8C4DC2e16E2F0F637Cd7E040AffB",
+          "comment": "f(uint256): 6 -> 7",
+          "instance": "C",
+          "method": "f(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000006"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000007"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "external_call_to_nonexisting.sol:C"
+  }
+}

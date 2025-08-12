@@ -1,0 +1,26 @@
+{
+  "cases": [
+    {
+      "name": "calldata_internal_multi_fixed_array",
+      "inputs": [
+        {
+          "caller": "0xc6d042fF79576F9420360c0124DfAb0d7b4E8c2c",
+          "comment": "g() -> 7, 8",
+          "instance": "C",
+          "method": "g()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000007",
+              "0x0000000000000000000000000000000000000000000000000000000000000008"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "calldata_internal_multi_fixed_array.sol:C"
+  }
+}

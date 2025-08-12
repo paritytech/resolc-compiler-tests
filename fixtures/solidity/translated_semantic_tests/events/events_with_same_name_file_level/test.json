@@ -1,0 +1,112 @@
+{
+  "cases": [
+    {
+      "name": "events_with_same_name_file_level",
+      "inputs": [
+        {
+          "caller": "0x24D881139Ee639C2A774B4B1851CB7a9d0fce122",
+          "comment": "deposit() -> 1; ~ emit Deposit()",
+          "instance": "ClientReceipt",
+          "method": "deposit()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "events": [
+              {
+                "topics": [
+                  "ed21248cb703b524cc0029bb8669df941baca560163a3bc6ad184e7e9c268070"
+                ],
+                "values": []
+              }
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x24D881139Ee639C2A774B4B1851CB7a9d0fce122",
+          "comment": "deposit(address): 0x5082a85c489be6aa0f2e6693bf09cc1bbd35e988 -> 2; ~ emit Deposit(address): 0x5082a85c489be6aa0f2e6693bf09cc1bbd35e988",
+          "instance": "ClientReceipt",
+          "method": "deposit(address)",
+          "calldata": [
+            "0x0000000000000000000000005082a85c489be6aa0f2e6693bf09cc1bbd35e988"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000002"
+            ],
+            "events": [
+              {
+                "topics": [
+                  "8ce0bd46ec50cf39f0d0ea8686a686eb226af5796dcda4231b26fb84b5ef1234"
+                ],
+                "values": [
+                  "0x0000000000000000000000005082a85c489be6aa0f2e6693bf09cc1bbd35e988"
+                ]
+              }
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x24D881139Ee639C2A774B4B1851CB7a9d0fce122",
+          "comment": "deposit(address,uint256): 0x5082a85c489be6aa0f2e6693bf09cc1bbd35e988, 100 -> 3; ~ emit Deposit(address,uint256): 0x5082a85c489be6aa0f2e6693bf09cc1bbd35e988, 0x64",
+          "instance": "ClientReceipt",
+          "method": "deposit(address,uint256)",
+          "calldata": [
+            "0x0000000000000000000000005082a85c489be6aa0f2e6693bf09cc1bbd35e988",
+            "0x0000000000000000000000000000000000000000000000000000000000000064"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000003"
+            ],
+            "events": [
+              {
+                "topics": [
+                  "e1fffcc4923d04b559f4d29a8bfc6cda04eb5b0d3c460751c2402c5c5cc9109c"
+                ],
+                "values": [
+                  "0x0000000000000000000000005082a85c489be6aa0f2e6693bf09cc1bbd35e988",
+                  "0x0000000000000000000000000000000000000000000000000000000000000064"
+                ]
+              }
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x24D881139Ee639C2A774B4B1851CB7a9d0fce122",
+          "comment": "deposit(address,bool): 0x5082a85c489be6aa0f2e6693bf09cc1bbd35e988, false -> 4; ~ emit Deposit(address,bool): 0x5082a85c489be6aa0f2e6693bf09cc1bbd35e988, false",
+          "instance": "ClientReceipt",
+          "method": "deposit(address,bool)",
+          "calldata": [
+            "0x0000000000000000000000005082a85c489be6aa0f2e6693bf09cc1bbd35e988",
+            "0x0000000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000004"
+            ],
+            "events": [
+              {
+                "topics": [
+                  "7f3da37377f230fdb322dae312d8928ed16559533400bc0480a48960bd534893"
+                ],
+                "values": [
+                  "0x0000000000000000000000005082a85c489be6aa0f2e6693bf09cc1bbd35e988",
+                  "0x0000000000000000000000000000000000000000000000000000000000000000"
+                ]
+              }
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "ClientReceipt": "events_with_same_name_file_level.sol:ClientReceipt"
+  }
+}

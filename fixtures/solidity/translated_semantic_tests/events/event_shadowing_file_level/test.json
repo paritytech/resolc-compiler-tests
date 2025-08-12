@@ -1,0 +1,42 @@
+{
+  "cases": [
+    {
+      "name": "event_shadowing_file_level",
+      "inputs": [
+        {
+          "caller": "0x127688bBc070DD69a4dB8C3BA5d43909E13d8F77",
+          "comment": "main() -> 0x3e9992c940c54ea252d3a34557cc3d3014281525c43d694f89d5f3dfd820b07d, 0x3e9992c940c54ea252d3a34557cc3d3014281525c43d694f89d5f3dfd820b07d, 0x92bbf6e823a631f3c8e09b1c8df90f378fb56f7fbc9701827e1ff8aad7f6a028",
+          "instance": "C",
+          "method": "main()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x3e9992c940c54ea252d3a34557cc3d3014281525c43d694f89d5f3dfd820b07d",
+              "0x3e9992c940c54ea252d3a34557cc3d3014281525c43d694f89d5f3dfd820b07d",
+              "0x92bbf6e823a631f3c8e09b1c8df90f378fb56f7fbc9701827e1ff8aad7f6a028"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x127688bBc070DD69a4dB8C3BA5d43909E13d8F77",
+          "comment": "k_main() -> 0x92bbf6e823a631f3c8e09b1c8df90f378fb56f7fbc9701827e1ff8aad7f6a028, 0x3e9992c940c54ea252d3a34557cc3d3014281525c43d694f89d5f3dfd820b07d, 0x92bbf6e823a631f3c8e09b1c8df90f378fb56f7fbc9701827e1ff8aad7f6a028",
+          "instance": "C",
+          "method": "k_main()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x92bbf6e823a631f3c8e09b1c8df90f378fb56f7fbc9701827e1ff8aad7f6a028",
+              "0x3e9992c940c54ea252d3a34557cc3d3014281525c43d694f89d5f3dfd820b07d",
+              "0x92bbf6e823a631f3c8e09b1c8df90f378fb56f7fbc9701827e1ff8aad7f6a028"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "event_shadowing_file_level.sol:C"
+  }
+}

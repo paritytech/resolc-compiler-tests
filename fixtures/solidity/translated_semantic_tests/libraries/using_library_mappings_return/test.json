@@ -1,0 +1,36 @@
+{
+  "cases": [
+    {
+      "name": "using_library_mappings_return",
+      "inputs": [
+        {
+          "caller": "0x69F9f18B86b3668bf86D802091f21BEBDC3e36EA",
+          "comment": "f() -> 1, 0, 0x2a, 0x17, 0, 0x63; gas irOptimized: 119568; gas legacy: 125087; gas legacyOptimized: 120120",
+          "instance": "Test",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001",
+              "0x0000000000000000000000000000000000000000000000000000000000000000",
+              "0x000000000000000000000000000000000000000000000000000000000000002a",
+              "0x0000000000000000000000000000000000000000000000000000000000000017",
+              "0x0000000000000000000000000000000000000000000000000000000000000000",
+              "0x0000000000000000000000000000000000000000000000000000000000000063"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "Lib": "using_library_mappings_return.sol:Lib",
+    "Test": "using_library_mappings_return.sol:Test"
+  },
+  "libraries": {
+    "using_library_mappings_return.sol": {
+      "Lib": "Lib"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "cases": [
+    {
+      "name": "keccak256_packed_complex_types",
+      "inputs": [
+        {
+          "caller": "0xfC47fD1b6CC81BC95962C084DE4cb2194270D6A3",
+          "comment": "f() -> 0xba4f20407251e4607cd66b90bfea19ec6971699c03e4a4f3ea737d5818ac27ae, 0xba4f20407251e4607cd66b90bfea19ec6971699c03e4a4f3ea737d5818ac27ae, 0xe7490fade3a8e31113ecb6c0d2635e28a6f5ca8359a57afe914827f41ddf0848",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0xba4f20407251e4607cd66b90bfea19ec6971699c03e4a4f3ea737d5818ac27ae",
+              "0xba4f20407251e4607cd66b90bfea19ec6971699c03e4a4f3ea737d5818ac27ae",
+              "0xe7490fade3a8e31113ecb6c0d2635e28a6f5ca8359a57afe914827f41ddf0848"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "keccak256_packed_complex_types.sol:C"
+  }
+}

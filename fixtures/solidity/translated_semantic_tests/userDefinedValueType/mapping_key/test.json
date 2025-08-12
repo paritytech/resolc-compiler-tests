@@ -1,0 +1,83 @@
+{
+  "cases": [
+    {
+      "name": "mapping_key",
+      "inputs": [
+        {
+          "caller": "0xb4c0cf22CbD2cd0D7cAe59a8455E18226d248686",
+          "comment": "set(int256,int256): 1, 1 ->",
+          "instance": "C",
+          "method": "set(int256,int256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000001",
+            "0x0000000000000000000000000000000000000000000000000000000000000001"
+          ],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xb4c0cf22CbD2cd0D7cAe59a8455E18226d248686",
+          "comment": "m(int256): 1 -> 1",
+          "instance": "C",
+          "method": "m(int256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000001"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xb4c0cf22CbD2cd0D7cAe59a8455E18226d248686",
+          "comment": "set_unwrapped(int256,int256): 1, 2 ->",
+          "instance": "C",
+          "method": "set_unwrapped(int256,int256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000001",
+            "0x0000000000000000000000000000000000000000000000000000000000000002"
+          ],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xb4c0cf22CbD2cd0D7cAe59a8455E18226d248686",
+          "comment": "m(int256): 1 -> 2",
+          "instance": "C",
+          "method": "m(int256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000001"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000002"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xb4c0cf22CbD2cd0D7cAe59a8455E18226d248686",
+          "comment": "m(int256): 2 -> 0",
+          "instance": "C",
+          "method": "m(int256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000002"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "mapping_key.sol:C"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "cases": [
+    {
+      "name": "gas_and_value_basic",
+      "inputs": [
+        {
+          "caller": "0xcE1C349523C39E42769D690AF28C34e2aDc67dD4",
+          "comment": "constructor(), 20 wei ->; gas irOptimized: 120218; gas irOptimized code: 132000; gas legacy: 130583; gas legacy code: 261200; gas legacyOptimized: 121069; gas legacyOptimized code: 147000",
+          "instance": "test",
+          "method": "#deployer",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          },
+          "value": "20 wei"
+        },
+        {
+          "caller": "0xcE1C349523C39E42769D690AF28C34e2aDc67dD4",
+          "comment": "sendAmount(uint256): 5 -> 5",
+          "instance": "test",
+          "method": "sendAmount(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000005"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000005"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xcE1C349523C39E42769D690AF28C34e2aDc67dD4",
+          "comment": "outOfGas() -> FAILURE",
+          "instance": "test",
+          "method": "outOfGas()",
+          "calldata": [],
+          "expected": {
+            "exception": true
+          }
+        },
+        {
+          "caller": "0xcE1C349523C39E42769D690AF28C34e2aDc67dD4",
+          "comment": "checkState() -> false, 15",
+          "instance": "test",
+          "method": "checkState()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000",
+              "0x000000000000000000000000000000000000000000000000000000000000000f"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "test": "gas_and_value_basic.sol:test"
+  }
+}

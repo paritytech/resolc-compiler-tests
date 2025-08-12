@@ -1,0 +1,22 @@
+{
+  "cases": [
+    {
+      "name": "delete_transient_storage",
+      "inputs": [
+        {
+          "caller": "0xaEe72B993fD22613EB6d60F4Dd5c148A1E88163F",
+          "comment": "f() ->",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "delete_transient_storage.sol:C"
+  }
+}

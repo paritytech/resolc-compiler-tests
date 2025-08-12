@@ -1,0 +1,50 @@
+{
+  "cases": [
+    {
+      "name": "call_options_overload",
+      "inputs": [
+        {
+          "caller": "0x42BAD1F7f974dB66B46CF53758b14BB246035279",
+          "comment": "(), 1 ether",
+          "instance": "C",
+          "method": "#fallback",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          },
+          "value": "1000000000000000000 wei"
+        },
+        {
+          "caller": "0x42BAD1F7f974dB66B46CF53758b14BB246035279",
+          "comment": "call() -> 1, 2",
+          "instance": "C",
+          "method": "call()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001",
+              "0x0000000000000000000000000000000000000000000000000000000000000002"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x42BAD1F7f974dB66B46CF53758b14BB246035279",
+          "comment": "bal() -> 1000000000000000000",
+          "instance": "C",
+          "method": "bal()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000de0b6b3a7640000"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "call_options_overload.sol:C"
+  }
+}

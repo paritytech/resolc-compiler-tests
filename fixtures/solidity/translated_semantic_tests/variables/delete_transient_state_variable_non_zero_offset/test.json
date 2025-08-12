@@ -1,0 +1,27 @@
+{
+  "cases": [
+    {
+      "name": "delete_transient_state_variable_non_zero_offset",
+      "inputs": [
+        {
+          "caller": "0xA75B698C5A0Bd2F73f3BEf68b9Fd6e80D1D5329f",
+          "comment": "f() -> 0xffffffffffffffffffffffffffff000000000000000000000000000000000000, 0, 0xffffffffffffffffffffffffffff",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0xffffffffffffffffffffffffffff000000000000000000000000000000000000",
+              "0x0000000000000000000000000000000000000000000000000000000000000000",
+              "0x000000000000000000000000000000000000ffffffffffffffffffffffffffff"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "delete_transient_state_variable_non_zero_offset.sol:C"
+  }
+}

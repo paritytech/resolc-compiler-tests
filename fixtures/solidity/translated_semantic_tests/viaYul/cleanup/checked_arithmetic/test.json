@@ -1,0 +1,150 @@
+{
+  "cases": [
+    {
+      "name": "checked_arithmetic",
+      "inputs": [
+        {
+          "caller": "0xdb21655B672DACc8dA6F538C899F9D6969604117",
+          "comment": "add() -> 1, 1",
+          "instance": "C",
+          "method": "add()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001",
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xdb21655B672DACc8dA6F538C899F9D6969604117",
+          "comment": "sub() -> 0, 0",
+          "instance": "C",
+          "method": "sub()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000",
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xdb21655B672DACc8dA6F538C899F9D6969604117",
+          "comment": "mul() -> 1, 1",
+          "instance": "C",
+          "method": "mul()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001",
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xdb21655B672DACc8dA6F538C899F9D6969604117",
+          "comment": "div() -> 1, 1",
+          "instance": "C",
+          "method": "div()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001",
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xdb21655B672DACc8dA6F538C899F9D6969604117",
+          "comment": "mod() -> 1, 0",
+          "instance": "C",
+          "method": "mod()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001",
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xdb21655B672DACc8dA6F538C899F9D6969604117",
+          "comment": "inc_pre() -> 1",
+          "instance": "C",
+          "method": "inc_pre()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xdb21655B672DACc8dA6F538C899F9D6969604117",
+          "comment": "inc_post() -> 0",
+          "instance": "C",
+          "method": "inc_post()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xdb21655B672DACc8dA6F538C899F9D6969604117",
+          "comment": "dec_pre() -> FAILURE, hex\"4e487b71\", 0x11",
+          "instance": "C",
+          "method": "dec_pre()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000004e487b71",
+              "0x0000000000000000000000000000000000000000000000000000000000000011"
+            ],
+            "exception": true
+          }
+        },
+        {
+          "caller": "0xdb21655B672DACc8dA6F538C899F9D6969604117",
+          "comment": "dec_post() -> FAILURE, hex\"4e487b71\", 0x11",
+          "instance": "C",
+          "method": "dec_post()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000004e487b71",
+              "0x0000000000000000000000000000000000000000000000000000000000000011"
+            ],
+            "exception": true
+          }
+        },
+        {
+          "caller": "0xdb21655B672DACc8dA6F538C899F9D6969604117",
+          "comment": "neg() -> FAILURE, hex\"4e487b71\", 0x11",
+          "instance": "C",
+          "method": "neg()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000004e487b71",
+              "0x0000000000000000000000000000000000000000000000000000000000000011"
+            ],
+            "exception": true
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "checked_arithmetic.sol:C"
+  }
+}

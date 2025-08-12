@@ -1,0 +1,77 @@
+{
+  "cases": [
+    {
+      "name": "shift_right_negative_lvalue_signextend_int32_v2",
+      "inputs": [
+        {
+          "caller": "0x234776D0d351e914366251F920BB1C72f14fd42E",
+          "comment": "f(int32,uint32): 0xffffff99, 0x00 -> FAILURE",
+          "instance": "C",
+          "method": "f(int32,uint32)",
+          "calldata": [
+            "0x00000000000000000000000000000000000000000000000000000000ffffff99",
+            "0x0000000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "exception": true
+          }
+        },
+        {
+          "caller": "0x234776D0d351e914366251F920BB1C72f14fd42E",
+          "comment": "f(int32,uint32): 0xffffff99, 0x01 -> FAILURE",
+          "instance": "C",
+          "method": "f(int32,uint32)",
+          "calldata": [
+            "0x00000000000000000000000000000000000000000000000000000000ffffff99",
+            "0x0000000000000000000000000000000000000000000000000000000000000001"
+          ],
+          "expected": {
+            "exception": true
+          }
+        },
+        {
+          "caller": "0x234776D0d351e914366251F920BB1C72f14fd42E",
+          "comment": "f(int32,uint32): 0xffffff99, 0x02 -> FAILURE",
+          "instance": "C",
+          "method": "f(int32,uint32)",
+          "calldata": [
+            "0x00000000000000000000000000000000000000000000000000000000ffffff99",
+            "0x0000000000000000000000000000000000000000000000000000000000000002"
+          ],
+          "expected": {
+            "exception": true
+          }
+        },
+        {
+          "caller": "0x234776D0d351e914366251F920BB1C72f14fd42E",
+          "comment": "f(int32,uint32): 0xffffff99, 0x04 -> FAILURE",
+          "instance": "C",
+          "method": "f(int32,uint32)",
+          "calldata": [
+            "0x00000000000000000000000000000000000000000000000000000000ffffff99",
+            "0x0000000000000000000000000000000000000000000000000000000000000004"
+          ],
+          "expected": {
+            "exception": true
+          }
+        },
+        {
+          "caller": "0x234776D0d351e914366251F920BB1C72f14fd42E",
+          "comment": "f(int32,uint32): 0xffffff99, 0x08 -> FAILURE",
+          "instance": "C",
+          "method": "f(int32,uint32)",
+          "calldata": [
+            "0x00000000000000000000000000000000000000000000000000000000ffffff99",
+            "0x0000000000000000000000000000000000000000000000000000000000000008"
+          ],
+          "expected": {
+            "exception": true
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "shift_right_negative_lvalue_signextend_int32_v2.sol:C"
+  }
+}

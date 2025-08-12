@@ -1,0 +1,26 @@
+{
+  "cases": [
+    {
+      "name": "address_member",
+      "inputs": [
+        {
+          "caller": "0xFc32402667182d11B29fab5c5e323e80483e7800",
+          "comment": "f() -> 0x1234, 0x1234",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000001234",
+              "0x0000000000000000000000000000000000000000000000000000000000001234"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "address_member.sol:C"
+  }
+}

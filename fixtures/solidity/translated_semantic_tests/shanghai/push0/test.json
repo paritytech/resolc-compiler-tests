@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "push0",
+      "inputs": [
+        {
+          "caller": "0xb03cB7f5857Fb47E59A3fFCF342cFd61B56ec741",
+          "comment": "zero() -> 0",
+          "instance": "C",
+          "method": "zero()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "push0.sol:C"
+  }
+}

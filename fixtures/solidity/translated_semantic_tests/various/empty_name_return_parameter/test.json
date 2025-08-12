@@ -1,0 +1,27 @@
+{
+  "cases": [
+    {
+      "name": "empty_name_return_parameter",
+      "inputs": [
+        {
+          "caller": "0x3cf063a22D1b8D11089Cff7Db4B56742407B7F7c",
+          "comment": "f(uint256): 9 -> 9",
+          "instance": "test",
+          "method": "f(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000009"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000009"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "test": "empty_name_return_parameter.sol:test"
+  }
+}

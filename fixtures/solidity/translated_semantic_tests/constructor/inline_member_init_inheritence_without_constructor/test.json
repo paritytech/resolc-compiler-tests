@@ -1,0 +1,38 @@
+{
+  "cases": [
+    {
+      "name": "inline_member_init_inheritence_without_constructor",
+      "inputs": [
+        {
+          "caller": "0xf4e2B0fcbd0DC4b326d8A52B718A7bb43BdBd072",
+          "comment": "getBMember() -> 5",
+          "instance": "Derived",
+          "method": "getBMember()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000005"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xf4e2B0fcbd0DC4b326d8A52B718A7bb43BdBd072",
+          "comment": "getDMember() -> 6",
+          "instance": "Derived",
+          "method": "getDMember()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000006"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "Derived": "inline_member_init_inheritence_without_constructor.sol:Derived"
+  }
+}

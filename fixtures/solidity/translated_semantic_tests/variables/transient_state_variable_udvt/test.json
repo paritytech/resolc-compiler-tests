@@ -1,0 +1,51 @@
+{
+  "cases": [
+    {
+      "name": "transient_state_variable_udvt",
+      "inputs": [
+        {
+          "caller": "0x560697e82e48323b827F26862be60C5b19c1d2CF",
+          "comment": "x() -> 0",
+          "instance": "C",
+          "method": "x()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x560697e82e48323b827F26862be60C5b19c1d2CF",
+          "comment": "g() -> 2",
+          "instance": "C",
+          "method": "g()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000002"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x560697e82e48323b827F26862be60C5b19c1d2CF",
+          "comment": "h() -> 0",
+          "instance": "C",
+          "method": "h()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "transient_state_variable_udvt.sol:C"
+  }
+}

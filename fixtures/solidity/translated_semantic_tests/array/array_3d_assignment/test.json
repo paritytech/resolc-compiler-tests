@@ -1,0 +1,27 @@
+{
+  "cases": [
+    {
+      "name": "array_3d_assignment",
+      "inputs": [
+        {
+          "caller": "0x879817F248E9fBf75360aBa6F9dE6B51833DdF61",
+          "comment": "f(uint256): 42 -> 42",
+          "instance": "C",
+          "method": "f(uint256)",
+          "calldata": [
+            "0x000000000000000000000000000000000000000000000000000000000000002a"
+          ],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000000000002a"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "array_3d_assignment.sol:C"
+  }
+}

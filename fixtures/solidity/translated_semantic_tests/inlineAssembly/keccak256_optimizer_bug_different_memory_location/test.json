@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "keccak256_optimizer_bug_different_memory_location",
+      "inputs": [
+        {
+          "caller": "0x41e2D930Cc81e281c8DffD758a6DecdfC0457c19",
+          "comment": "f() -> false",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "keccak256_optimizer_bug_different_memory_location.sol:C"
+  }
+}

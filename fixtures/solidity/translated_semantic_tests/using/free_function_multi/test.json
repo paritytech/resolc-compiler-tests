@@ -1,0 +1,72 @@
+{
+  "cases": [
+    {
+      "name": "free_function_multi",
+      "inputs": [
+        {
+          "caller": "0xC9c987066998A6e85358A8EDBcDF1404711A7B46",
+          "comment": "f(uint256): 10 -> 10",
+          "instance": "C",
+          "method": "f(uint256)",
+          "calldata": [
+            "0x000000000000000000000000000000000000000000000000000000000000000a"
+          ],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000000000000a"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xC9c987066998A6e85358A8EDBcDF1404711A7B46",
+          "comment": "g(uint256): 10 -> 0",
+          "instance": "C",
+          "method": "g(uint256)",
+          "calldata": [
+            "0x000000000000000000000000000000000000000000000000000000000000000a"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xC9c987066998A6e85358A8EDBcDF1404711A7B46",
+          "comment": "f(uint256): 256 -> 0x0100",
+          "instance": "C",
+          "method": "f(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000100"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000100"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xC9c987066998A6e85358A8EDBcDF1404711A7B46",
+          "comment": "g(uint256): 256 -> 0",
+          "instance": "C",
+          "method": "g(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000100"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "free_function_multi.sol:C"
+  }
+}

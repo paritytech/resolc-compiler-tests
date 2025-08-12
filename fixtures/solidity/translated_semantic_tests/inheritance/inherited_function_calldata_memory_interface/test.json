@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "inherited_function_calldata_memory_interface",
+      "inputs": [
+        {
+          "caller": "0xf8808D84CB04E61FF0F5323035A90C3516F93d7d",
+          "comment": "g() -> 42; gas irOptimized: 100282; gas legacy: 56839; gas legacy code: 123600; gas legacyOptimized: 55001; gas legacyOptimized code: 60600",
+          "instance": "B",
+          "method": "g()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000000000002a"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "B": "inherited_function_calldata_memory_interface.sol:B"
+  }
+}

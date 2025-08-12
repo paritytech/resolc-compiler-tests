@@ -1,0 +1,1017 @@
+{
+  "cases": [
+    {
+      "name": "bytesx",
+      "inputs": [
+        {
+          "caller": "0xfd1a6a45A90DdD03A358734447f01B1F8F0aEe8C",
+          "comment": "f1(bytes32): left(0) -> left(0)",
+          "instance": "C",
+          "method": "f1(bytes32)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xfd1a6a45A90DdD03A358734447f01B1F8F0aEe8C",
+          "comment": "gg1(bytes1): left(0) -> left(0)",
+          "instance": "C",
+          "method": "gg1(bytes1)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xfd1a6a45A90DdD03A358734447f01B1F8F0aEe8C",
+          "comment": "f1(bytes32): left(1) -> left(1)",
+          "instance": "C",
+          "method": "f1(bytes32)",
+          "calldata": [
+            "0x0100000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0100000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xfd1a6a45A90DdD03A358734447f01B1F8F0aEe8C",
+          "comment": "gg1(bytes1): left(1) -> left(1)",
+          "instance": "C",
+          "method": "gg1(bytes1)",
+          "calldata": [
+            "0x0100000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0100000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xfd1a6a45A90DdD03A358734447f01B1F8F0aEe8C",
+          "comment": "f1(bytes32): left(0xFE) -> left(0xFE)",
+          "instance": "C",
+          "method": "f1(bytes32)",
+          "calldata": [
+            "0xfe00000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0xfe00000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xfd1a6a45A90DdD03A358734447f01B1F8F0aEe8C",
+          "comment": "gg1(bytes1): left(0xFE) -> left(0xFE)",
+          "instance": "C",
+          "method": "gg1(bytes1)",
+          "calldata": [
+            "0xfe00000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0xfe00000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xfd1a6a45A90DdD03A358734447f01B1F8F0aEe8C",
+          "comment": "f1(bytes32): left(0xFF) -> left(0xFF)",
+          "instance": "C",
+          "method": "f1(bytes32)",
+          "calldata": [
+            "0xff00000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0xff00000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xfd1a6a45A90DdD03A358734447f01B1F8F0aEe8C",
+          "comment": "gg1(bytes1): left(0xFF) -> left(0xFF)",
+          "instance": "C",
+          "method": "gg1(bytes1)",
+          "calldata": [
+            "0xff00000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0xff00000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xfd1a6a45A90DdD03A358734447f01B1F8F0aEe8C",
+          "comment": "f1(bytes32): left(0x0001) -> left(0x00)",
+          "instance": "C",
+          "method": "f1(bytes32)",
+          "calldata": [
+            "0x0100000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xfd1a6a45A90DdD03A358734447f01B1F8F0aEe8C",
+          "comment": "gg1(bytes1): left(0x0001) -> FAILURE",
+          "instance": "C",
+          "method": "gg1(bytes1)",
+          "calldata": [
+            "0x0100000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "exception": true
+          }
+        },
+        {
+          "caller": "0xfd1a6a45A90DdD03A358734447f01B1F8F0aEe8C",
+          "comment": "f1(bytes32): left(0x0101) -> left(0x01)",
+          "instance": "C",
+          "method": "f1(bytes32)",
+          "calldata": [
+            "0x0101000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0100000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xfd1a6a45A90DdD03A358734447f01B1F8F0aEe8C",
+          "comment": "gg1(bytes1): left(0x0101) -> FAILURE",
+          "instance": "C",
+          "method": "gg1(bytes1)",
+          "calldata": [
+            "0x0101000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "exception": true
+          }
+        },
+        {
+          "caller": "0xfd1a6a45A90DdD03A358734447f01B1F8F0aEe8C",
+          "comment": "f1(bytes32): -1 -> left(0xFF)",
+          "instance": "C",
+          "method": "f1(bytes32)",
+          "calldata": [
+            "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+          ],
+          "expected": {
+            "return_data": [
+              "0xff00000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xfd1a6a45A90DdD03A358734447f01B1F8F0aEe8C",
+          "comment": "gg1(bytes1): -1 -> FAILURE",
+          "instance": "C",
+          "method": "gg1(bytes1)",
+          "calldata": [
+            "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+          ],
+          "expected": {
+            "exception": true
+          }
+        },
+        {
+          "caller": "0xfd1a6a45A90DdD03A358734447f01B1F8F0aEe8C",
+          "comment": "f2(bytes32): left(0) -> left(0)",
+          "instance": "C",
+          "method": "f2(bytes32)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xfd1a6a45A90DdD03A358734447f01B1F8F0aEe8C",
+          "comment": "gg2(bytes2): left(0) -> left(0)",
+          "instance": "C",
+          "method": "gg2(bytes2)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xfd1a6a45A90DdD03A358734447f01B1F8F0aEe8C",
+          "comment": "f2(bytes32): left(1) -> left(1)",
+          "instance": "C",
+          "method": "f2(bytes32)",
+          "calldata": [
+            "0x0100000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0100000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xfd1a6a45A90DdD03A358734447f01B1F8F0aEe8C",
+          "comment": "gg2(bytes2): left(1) -> left(1)",
+          "instance": "C",
+          "method": "gg2(bytes2)",
+          "calldata": [
+            "0x0100000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0100000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xfd1a6a45A90DdD03A358734447f01B1F8F0aEe8C",
+          "comment": "f2(bytes32): left(0xFFFE) -> left(0xFFFE)",
+          "instance": "C",
+          "method": "f2(bytes32)",
+          "calldata": [
+            "0xfffe000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0xfffe000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xfd1a6a45A90DdD03A358734447f01B1F8F0aEe8C",
+          "comment": "gg2(bytes2): left(0xFFFE) -> left(0xFFFE)",
+          "instance": "C",
+          "method": "gg2(bytes2)",
+          "calldata": [
+            "0xfffe000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0xfffe000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xfd1a6a45A90DdD03A358734447f01B1F8F0aEe8C",
+          "comment": "f2(bytes32): left(0xFFFF) -> left(0xFFFF)",
+          "instance": "C",
+          "method": "f2(bytes32)",
+          "calldata": [
+            "0xffff000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0xffff000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xfd1a6a45A90DdD03A358734447f01B1F8F0aEe8C",
+          "comment": "gg2(bytes2): left(0xFFFF) -> left(0xFFFF)",
+          "instance": "C",
+          "method": "gg2(bytes2)",
+          "calldata": [
+            "0xffff000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0xffff000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xfd1a6a45A90DdD03A358734447f01B1F8F0aEe8C",
+          "comment": "f2(bytes32): left(0x000001) -> left(0x00)",
+          "instance": "C",
+          "method": "f2(bytes32)",
+          "calldata": [
+            "0x0100000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xfd1a6a45A90DdD03A358734447f01B1F8F0aEe8C",
+          "comment": "gg2(bytes2): left(0x000001) -> FAILURE",
+          "instance": "C",
+          "method": "gg2(bytes2)",
+          "calldata": [
+            "0x0100000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "exception": true
+          }
+        },
+        {
+          "caller": "0xfd1a6a45A90DdD03A358734447f01B1F8F0aEe8C",
+          "comment": "f2(bytes32): left(0x010001) -> left(0x01)",
+          "instance": "C",
+          "method": "f2(bytes32)",
+          "calldata": [
+            "0x0100010000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0100000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xfd1a6a45A90DdD03A358734447f01B1F8F0aEe8C",
+          "comment": "gg2(bytes2): left(0x010001) -> FAILURE",
+          "instance": "C",
+          "method": "gg2(bytes2)",
+          "calldata": [
+            "0x0100010000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "exception": true
+          }
+        },
+        {
+          "caller": "0xfd1a6a45A90DdD03A358734447f01B1F8F0aEe8C",
+          "comment": "f2(bytes32): -1 -> left(0xFFFF)",
+          "instance": "C",
+          "method": "f2(bytes32)",
+          "calldata": [
+            "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+          ],
+          "expected": {
+            "return_data": [
+              "0xffff000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xfd1a6a45A90DdD03A358734447f01B1F8F0aEe8C",
+          "comment": "gg2(bytes2): -1 -> FAILURE",
+          "instance": "C",
+          "method": "gg2(bytes2)",
+          "calldata": [
+            "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+          ],
+          "expected": {
+            "exception": true
+          }
+        },
+        {
+          "caller": "0xfd1a6a45A90DdD03A358734447f01B1F8F0aEe8C",
+          "comment": "f4(bytes32): left(0) -> left(0)",
+          "instance": "C",
+          "method": "f4(bytes32)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xfd1a6a45A90DdD03A358734447f01B1F8F0aEe8C",
+          "comment": "gg4(bytes4): left(0) -> left(0)",
+          "instance": "C",
+          "method": "gg4(bytes4)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xfd1a6a45A90DdD03A358734447f01B1F8F0aEe8C",
+          "comment": "f4(bytes32): left(1) -> left(1)",
+          "instance": "C",
+          "method": "f4(bytes32)",
+          "calldata": [
+            "0x0100000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0100000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xfd1a6a45A90DdD03A358734447f01B1F8F0aEe8C",
+          "comment": "gg4(bytes4): left(1) -> left(1)",
+          "instance": "C",
+          "method": "gg4(bytes4)",
+          "calldata": [
+            "0x0100000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0100000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xfd1a6a45A90DdD03A358734447f01B1F8F0aEe8C",
+          "comment": "f4(bytes32): left(0xFFFFFFFE) -> left(0xFFFFFFFE)",
+          "instance": "C",
+          "method": "f4(bytes32)",
+          "calldata": [
+            "0xfffffffe00000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0xfffffffe00000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xfd1a6a45A90DdD03A358734447f01B1F8F0aEe8C",
+          "comment": "gg4(bytes4): left(0xFFFFFFFE) -> left(0xFFFFFFFE)",
+          "instance": "C",
+          "method": "gg4(bytes4)",
+          "calldata": [
+            "0xfffffffe00000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0xfffffffe00000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xfd1a6a45A90DdD03A358734447f01B1F8F0aEe8C",
+          "comment": "f4(bytes32): left(0xFFFFFFFF) -> left(0xFFFFFFFF)",
+          "instance": "C",
+          "method": "f4(bytes32)",
+          "calldata": [
+            "0xffffffff00000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0xffffffff00000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xfd1a6a45A90DdD03A358734447f01B1F8F0aEe8C",
+          "comment": "gg4(bytes4): left(0xFFFFFFFF) -> left(0xFFFFFFFF)",
+          "instance": "C",
+          "method": "gg4(bytes4)",
+          "calldata": [
+            "0xffffffff00000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0xffffffff00000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xfd1a6a45A90DdD03A358734447f01B1F8F0aEe8C",
+          "comment": "f4(bytes32): left(0x0000000001) -> left(0x00)",
+          "instance": "C",
+          "method": "f4(bytes32)",
+          "calldata": [
+            "0x0100000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xfd1a6a45A90DdD03A358734447f01B1F8F0aEe8C",
+          "comment": "gg4(bytes4): left(0x0000000001) -> FAILURE",
+          "instance": "C",
+          "method": "gg4(bytes4)",
+          "calldata": [
+            "0x0100000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "exception": true
+          }
+        },
+        {
+          "caller": "0xfd1a6a45A90DdD03A358734447f01B1F8F0aEe8C",
+          "comment": "f4(bytes32): left(0x0100000001) -> left(0x01)",
+          "instance": "C",
+          "method": "f4(bytes32)",
+          "calldata": [
+            "0x0100000001000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0100000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xfd1a6a45A90DdD03A358734447f01B1F8F0aEe8C",
+          "comment": "gg4(bytes4): left(0x0100000001) -> FAILURE",
+          "instance": "C",
+          "method": "gg4(bytes4)",
+          "calldata": [
+            "0x0100000001000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "exception": true
+          }
+        },
+        {
+          "caller": "0xfd1a6a45A90DdD03A358734447f01B1F8F0aEe8C",
+          "comment": "f4(bytes32): -1 -> left(0xFFFFFFFF)",
+          "instance": "C",
+          "method": "f4(bytes32)",
+          "calldata": [
+            "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+          ],
+          "expected": {
+            "return_data": [
+              "0xffffffff00000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xfd1a6a45A90DdD03A358734447f01B1F8F0aEe8C",
+          "comment": "gg4(bytes4): -1 -> FAILURE",
+          "instance": "C",
+          "method": "gg4(bytes4)",
+          "calldata": [
+            "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+          ],
+          "expected": {
+            "exception": true
+          }
+        },
+        {
+          "caller": "0xfd1a6a45A90DdD03A358734447f01B1F8F0aEe8C",
+          "comment": "f8(bytes32): left(0) -> left(0)",
+          "instance": "C",
+          "method": "f8(bytes32)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xfd1a6a45A90DdD03A358734447f01B1F8F0aEe8C",
+          "comment": "gg8(bytes8): left(0) -> left(0)",
+          "instance": "C",
+          "method": "gg8(bytes8)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xfd1a6a45A90DdD03A358734447f01B1F8F0aEe8C",
+          "comment": "f8(bytes32): left(1) -> left(1)",
+          "instance": "C",
+          "method": "f8(bytes32)",
+          "calldata": [
+            "0x0100000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0100000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xfd1a6a45A90DdD03A358734447f01B1F8F0aEe8C",
+          "comment": "gg8(bytes8): left(1) -> left(1)",
+          "instance": "C",
+          "method": "gg8(bytes8)",
+          "calldata": [
+            "0x0100000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0100000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xfd1a6a45A90DdD03A358734447f01B1F8F0aEe8C",
+          "comment": "f8(bytes32): left(0xFFFFFFFFFFFFFFFE) -> left(0xFFFFFFFFFFFFFFFE)",
+          "instance": "C",
+          "method": "f8(bytes32)",
+          "calldata": [
+            "0xfffffffffffffffe000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0xfffffffffffffffe000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xfd1a6a45A90DdD03A358734447f01B1F8F0aEe8C",
+          "comment": "gg8(bytes8): left(0xFFFFFFFFFFFFFFFE) -> left(0xFFFFFFFFFFFFFFFE)",
+          "instance": "C",
+          "method": "gg8(bytes8)",
+          "calldata": [
+            "0xfffffffffffffffe000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0xfffffffffffffffe000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xfd1a6a45A90DdD03A358734447f01B1F8F0aEe8C",
+          "comment": "f8(bytes32): left(0xFFFFFFFFFFFFFFFF) -> left(0xFFFFFFFFFFFFFFFF)",
+          "instance": "C",
+          "method": "f8(bytes32)",
+          "calldata": [
+            "0xffffffffffffffff000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0xffffffffffffffff000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xfd1a6a45A90DdD03A358734447f01B1F8F0aEe8C",
+          "comment": "gg8(bytes8): left(0xFFFFFFFFFFFFFFFF) -> left(0xFFFFFFFFFFFFFFFF)",
+          "instance": "C",
+          "method": "gg8(bytes8)",
+          "calldata": [
+            "0xffffffffffffffff000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0xffffffffffffffff000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xfd1a6a45A90DdD03A358734447f01B1F8F0aEe8C",
+          "comment": "f8(bytes32): left(0x000000000000000001) -> left(0x00)",
+          "instance": "C",
+          "method": "f8(bytes32)",
+          "calldata": [
+            "0x0100000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xfd1a6a45A90DdD03A358734447f01B1F8F0aEe8C",
+          "comment": "gg8(bytes8): left(0x000000000000000001) -> FAILURE",
+          "instance": "C",
+          "method": "gg8(bytes8)",
+          "calldata": [
+            "0x0100000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "exception": true
+          }
+        },
+        {
+          "caller": "0xfd1a6a45A90DdD03A358734447f01B1F8F0aEe8C",
+          "comment": "f8(bytes32): left(0x010000000000000001) -> left(0x01)",
+          "instance": "C",
+          "method": "f8(bytes32)",
+          "calldata": [
+            "0x0100000000000000010000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0100000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xfd1a6a45A90DdD03A358734447f01B1F8F0aEe8C",
+          "comment": "gg8(bytes8): left(0x010000000000000001) -> FAILURE",
+          "instance": "C",
+          "method": "gg8(bytes8)",
+          "calldata": [
+            "0x0100000000000000010000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "exception": true
+          }
+        },
+        {
+          "caller": "0xfd1a6a45A90DdD03A358734447f01B1F8F0aEe8C",
+          "comment": "f8(bytes32): -1 -> left(0xFFFFFFFFFFFFFFFF)",
+          "instance": "C",
+          "method": "f8(bytes32)",
+          "calldata": [
+            "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+          ],
+          "expected": {
+            "return_data": [
+              "0xffffffffffffffff000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xfd1a6a45A90DdD03A358734447f01B1F8F0aEe8C",
+          "comment": "gg8(bytes8): -1 -> FAILURE",
+          "instance": "C",
+          "method": "gg8(bytes8)",
+          "calldata": [
+            "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+          ],
+          "expected": {
+            "exception": true
+          }
+        },
+        {
+          "caller": "0xfd1a6a45A90DdD03A358734447f01B1F8F0aEe8C",
+          "comment": "f16(bytes32): left(0) -> left(0)",
+          "instance": "C",
+          "method": "f16(bytes32)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xfd1a6a45A90DdD03A358734447f01B1F8F0aEe8C",
+          "comment": "g16(bytes16): left(0) -> left(0)",
+          "instance": "C",
+          "method": "g16(bytes16)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xfd1a6a45A90DdD03A358734447f01B1F8F0aEe8C",
+          "comment": "f16(bytes32): left(1) -> left(1)",
+          "instance": "C",
+          "method": "f16(bytes32)",
+          "calldata": [
+            "0x0100000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0100000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xfd1a6a45A90DdD03A358734447f01B1F8F0aEe8C",
+          "comment": "g16(bytes16): left(1) -> left(1)",
+          "instance": "C",
+          "method": "g16(bytes16)",
+          "calldata": [
+            "0x0100000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0100000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xfd1a6a45A90DdD03A358734447f01B1F8F0aEe8C",
+          "comment": "f16(bytes32): left(0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE) -> left(0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE)",
+          "instance": "C",
+          "method": "f16(bytes32)",
+          "calldata": [
+            "0xfffffffffffffffffffffffffffffffe00000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0xfffffffffffffffffffffffffffffffe00000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xfd1a6a45A90DdD03A358734447f01B1F8F0aEe8C",
+          "comment": "g16(bytes16): left(0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE) -> left(0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE)",
+          "instance": "C",
+          "method": "g16(bytes16)",
+          "calldata": [
+            "0xfffffffffffffffffffffffffffffffe00000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0xfffffffffffffffffffffffffffffffe00000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xfd1a6a45A90DdD03A358734447f01B1F8F0aEe8C",
+          "comment": "f16(bytes32): left(0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF) -> left(0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF)",
+          "instance": "C",
+          "method": "f16(bytes32)",
+          "calldata": [
+            "0xffffffffffffffffffffffffffffffff00000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0xffffffffffffffffffffffffffffffff00000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xfd1a6a45A90DdD03A358734447f01B1F8F0aEe8C",
+          "comment": "g16(bytes16): left(0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF) -> left(0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF)",
+          "instance": "C",
+          "method": "g16(bytes16)",
+          "calldata": [
+            "0xffffffffffffffffffffffffffffffff00000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0xffffffffffffffffffffffffffffffff00000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xfd1a6a45A90DdD03A358734447f01B1F8F0aEe8C",
+          "comment": "f16(bytes32): left(0x0000000000000000000000000000000001) -> left(0x00)",
+          "instance": "C",
+          "method": "f16(bytes32)",
+          "calldata": [
+            "0x0100000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xfd1a6a45A90DdD03A358734447f01B1F8F0aEe8C",
+          "comment": "g16(bytes16): left(0x0000000000000000000000000000000001) -> FAILURE",
+          "instance": "C",
+          "method": "g16(bytes16)",
+          "calldata": [
+            "0x0100000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "exception": true
+          }
+        },
+        {
+          "caller": "0xfd1a6a45A90DdD03A358734447f01B1F8F0aEe8C",
+          "comment": "f16(bytes32): left(0x0100000000000000000000000000000001) -> left(0x01)",
+          "instance": "C",
+          "method": "f16(bytes32)",
+          "calldata": [
+            "0x0100000000000000000000000000000001000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0100000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xfd1a6a45A90DdD03A358734447f01B1F8F0aEe8C",
+          "comment": "g16(bytes16): left(0x0100000000000000000000000000000001) -> FAILURE",
+          "instance": "C",
+          "method": "g16(bytes16)",
+          "calldata": [
+            "0x0100000000000000000000000000000001000000000000000000000000000000"
+          ],
+          "expected": {
+            "exception": true
+          }
+        },
+        {
+          "caller": "0xfd1a6a45A90DdD03A358734447f01B1F8F0aEe8C",
+          "comment": "f16(bytes32): -1 -> left(0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF)",
+          "instance": "C",
+          "method": "f16(bytes32)",
+          "calldata": [
+            "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+          ],
+          "expected": {
+            "return_data": [
+              "0xffffffffffffffffffffffffffffffff00000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xfd1a6a45A90DdD03A358734447f01B1F8F0aEe8C",
+          "comment": "g16(bytes16): -1 -> FAILURE",
+          "instance": "C",
+          "method": "g16(bytes16)",
+          "calldata": [
+            "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+          ],
+          "expected": {
+            "exception": true
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "bytesx.sol:C"
+  }
+}

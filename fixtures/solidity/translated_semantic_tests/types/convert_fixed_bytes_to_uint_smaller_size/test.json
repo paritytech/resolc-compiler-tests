@@ -1,0 +1,27 @@
+{
+  "cases": [
+    {
+      "name": "convert_fixed_bytes_to_uint_smaller_size",
+      "inputs": [
+        {
+          "caller": "0x91508d444F4C9054b473521A11efB8a53777CCBD",
+          "comment": "bytesToUint(bytes4): \"abcd\" -> 0x6364",
+          "instance": "Test",
+          "method": "bytesToUint(bytes4)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000061626364"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000006364"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "Test": "convert_fixed_bytes_to_uint_smaller_size.sol:Test"
+  }
+}

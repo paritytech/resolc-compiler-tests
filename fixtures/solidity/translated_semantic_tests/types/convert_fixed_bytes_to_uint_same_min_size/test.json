@@ -1,0 +1,27 @@
+{
+  "cases": [
+    {
+      "name": "convert_fixed_bytes_to_uint_same_min_size",
+      "inputs": [
+        {
+          "caller": "0x169Ec1283999D6A1e9dfc30949482d068051dD72",
+          "comment": "bytesToUint(bytes1): \"a\" -> 0x61",
+          "instance": "Test",
+          "method": "bytesToUint(bytes1)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000061"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000061"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "Test": "convert_fixed_bytes_to_uint_same_min_size.sol:Test"
+  }
+}

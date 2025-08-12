@@ -1,0 +1,72 @@
+{
+  "cases": [
+    {
+      "name": "lisa",
+      "inputs": [
+        {
+          "caller": "0x7CE4a6EEF91CaeE1f93ea9d6aB2856dcA9C49753",
+          "comment": "supportsInterface(bytes4): left(0x01ffc9a0) -> false",
+          "instance": "Lisa",
+          "method": "supportsInterface(bytes4)",
+          "calldata": [
+            "0x01ffc9a000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x7CE4a6EEF91CaeE1f93ea9d6aB2856dcA9C49753",
+          "comment": "supportsInterface(bytes4): left(0x01ffc9a7) -> true",
+          "instance": "Lisa",
+          "method": "supportsInterface(bytes4)",
+          "calldata": [
+            "0x01ffc9a700000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x7CE4a6EEF91CaeE1f93ea9d6aB2856dcA9C49753",
+          "comment": "supportsInterface(bytes4): left(0x73b6b492) -> true",
+          "instance": "Lisa",
+          "method": "supportsInterface(bytes4)",
+          "calldata": [
+            "0x73b6b49200000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x7CE4a6EEF91CaeE1f93ea9d6aB2856dcA9C49753",
+          "comment": "supportsInterface(bytes4): left(0x70b6b492) -> false",
+          "instance": "Lisa",
+          "method": "supportsInterface(bytes4)",
+          "calldata": [
+            "0x70b6b49200000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "Lisa": "lisa.sol:Lisa"
+  }
+}

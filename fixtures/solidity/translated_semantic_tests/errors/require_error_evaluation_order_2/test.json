@@ -1,0 +1,40 @@
+{
+  "cases": [
+    {
+      "name": "require_error_evaluation_order_2",
+      "inputs": [
+        {
+          "caller": "0x598E94EB5E050045272d8417F6AB363bD874D568",
+          "comment": "f(bool): false -> FAILURE, hex\"002ff067\", 42",
+          "instance": "C",
+          "method": "f(bool)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0x00000000000000000000000000000000000000000000000000000000002ff067",
+              "0x000000000000000000000000000000000000000000000000000000000000002a"
+            ],
+            "exception": true
+          }
+        },
+        {
+          "caller": "0x598E94EB5E050045272d8417F6AB363bD874D568",
+          "comment": "f(bool): true ->",
+          "instance": "C",
+          "method": "f(bool)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000001"
+          ],
+          "expected": {
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "require_error_evaluation_order_2.sol:C"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "bound_function",
+      "inputs": [
+        {
+          "caller": "0x2921BDD05002c00C103259C7f0490F5F3Cf6bd47",
+          "comment": "test() -> true",
+          "instance": "C",
+          "method": "test()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "bound_function.sol:C"
+  }
+}

@@ -1,0 +1,252 @@
+{
+  "cases": [
+    {
+      "name": "empty_nonempty_empty",
+      "inputs": [
+        {
+          "caller": "0xd65D814a03aa83C1Ca7D0826c6Dc8EC69B3a0A45",
+          "comment": "set(bytes): 0x20, 3, \"abc\"",
+          "instance": "Test",
+          "method": "set(bytes)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000020",
+            "0x0000000000000000000000000000000000000000000000000000000000000003",
+            "0x0000000000000000000000000000000000000000000000000000000000616263"
+          ],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "comment": "storageEmpty -> 0",
+          "address": "Test.address",
+          "is_storage_empty": false,
+          "caller": "0xedADA3b52AB8f77FaC9928398819606d645A4af7"
+        },
+        {
+          "caller": "0xd65D814a03aa83C1Ca7D0826c6Dc8EC69B3a0A45",
+          "comment": "set(bytes): 0x20, 0",
+          "instance": "Test",
+          "method": "set(bytes)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000020",
+            "0x0000000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "comment": "storageEmpty -> 1",
+          "address": "Test.address",
+          "is_storage_empty": true,
+          "caller": "0xedADA3b52AB8f77FaC9928398819606d645A4af7"
+        },
+        {
+          "caller": "0xd65D814a03aa83C1Ca7D0826c6Dc8EC69B3a0A45",
+          "comment": "set(bytes): 0x20, 31, \"1234567890123456789012345678901\"",
+          "instance": "Test",
+          "method": "set(bytes)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000020",
+            "0x000000000000000000000000000000000000000000000000000000000000001f",
+            "0x0031323334353637383930313233343536373839303132333435363738393031"
+          ],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "comment": "storageEmpty -> 0",
+          "address": "Test.address",
+          "is_storage_empty": false,
+          "caller": "0xedADA3b52AB8f77FaC9928398819606d645A4af7"
+        },
+        {
+          "caller": "0xd65D814a03aa83C1Ca7D0826c6Dc8EC69B3a0A45",
+          "comment": "set(bytes): 0x20, 36, \"12345678901234567890123456789012\", \"XXXX\"",
+          "instance": "Test",
+          "method": "set(bytes)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000020",
+            "0x0000000000000000000000000000000000000000000000000000000000000024",
+            "0x3132333435363738393031323334353637383930313233343536373839303132",
+            "0x0000000000000000000000000000000000000000000000000000000058585858"
+          ],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "comment": "storageEmpty -> 0",
+          "address": "Test.address",
+          "is_storage_empty": false,
+          "caller": "0xedADA3b52AB8f77FaC9928398819606d645A4af7"
+        },
+        {
+          "caller": "0xd65D814a03aa83C1Ca7D0826c6Dc8EC69B3a0A45",
+          "comment": "set(bytes): 0x20, 3, \"abc\"",
+          "instance": "Test",
+          "method": "set(bytes)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000020",
+            "0x0000000000000000000000000000000000000000000000000000000000000003",
+            "0x0000000000000000000000000000000000000000000000000000000000616263"
+          ],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "comment": "storageEmpty -> 0",
+          "address": "Test.address",
+          "is_storage_empty": false,
+          "caller": "0xedADA3b52AB8f77FaC9928398819606d645A4af7"
+        },
+        {
+          "caller": "0xd65D814a03aa83C1Ca7D0826c6Dc8EC69B3a0A45",
+          "comment": "set(bytes): 0x20, 0",
+          "instance": "Test",
+          "method": "set(bytes)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000020",
+            "0x0000000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "comment": "storageEmpty -> 1",
+          "address": "Test.address",
+          "is_storage_empty": true,
+          "caller": "0xedADA3b52AB8f77FaC9928398819606d645A4af7"
+        },
+        {
+          "caller": "0xd65D814a03aa83C1Ca7D0826c6Dc8EC69B3a0A45",
+          "comment": "set(bytes): 0x20, 3, \"abc\"",
+          "instance": "Test",
+          "method": "set(bytes)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000020",
+            "0x0000000000000000000000000000000000000000000000000000000000000003",
+            "0x0000000000000000000000000000000000000000000000000000000000616263"
+          ],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "comment": "storageEmpty -> 0",
+          "address": "Test.address",
+          "is_storage_empty": false,
+          "caller": "0xedADA3b52AB8f77FaC9928398819606d645A4af7"
+        },
+        {
+          "caller": "0xd65D814a03aa83C1Ca7D0826c6Dc8EC69B3a0A45",
+          "comment": "set(bytes): 0x20, 36, \"12345678901234567890123456789012\", \"XXXX\"",
+          "instance": "Test",
+          "method": "set(bytes)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000020",
+            "0x0000000000000000000000000000000000000000000000000000000000000024",
+            "0x3132333435363738393031323334353637383930313233343536373839303132",
+            "0x0000000000000000000000000000000000000000000000000000000058585858"
+          ],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "comment": "storageEmpty -> 0",
+          "address": "Test.address",
+          "is_storage_empty": false,
+          "caller": "0xedADA3b52AB8f77FaC9928398819606d645A4af7"
+        },
+        {
+          "caller": "0xd65D814a03aa83C1Ca7D0826c6Dc8EC69B3a0A45",
+          "comment": "set(bytes): 0x20, 0",
+          "instance": "Test",
+          "method": "set(bytes)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000020",
+            "0x0000000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "comment": "storageEmpty -> 1",
+          "address": "Test.address",
+          "is_storage_empty": true,
+          "caller": "0xedADA3b52AB8f77FaC9928398819606d645A4af7"
+        },
+        {
+          "caller": "0xd65D814a03aa83C1Ca7D0826c6Dc8EC69B3a0A45",
+          "comment": "set(bytes): 0x20, 66, \"12345678901234567890123456789012\", \"12345678901234567890123456789012\", \"12\"; gas irOptimized: 111849; gas legacy: 112734; gas legacyOptimized: 112084",
+          "instance": "Test",
+          "method": "set(bytes)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000020",
+            "0x0000000000000000000000000000000000000000000000000000000000000042",
+            "0x3132333435363738393031323334353637383930313233343536373839303132",
+            "0x3132333435363738393031323334353637383930313233343536373839303132",
+            "0x0000000000000000000000000000000000000000000000000000000000003132"
+          ],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "comment": "storageEmpty -> 0",
+          "address": "Test.address",
+          "is_storage_empty": false,
+          "caller": "0xedADA3b52AB8f77FaC9928398819606d645A4af7"
+        },
+        {
+          "caller": "0xd65D814a03aa83C1Ca7D0826c6Dc8EC69B3a0A45",
+          "comment": "set(bytes): 0x20, 3, \"abc\"",
+          "instance": "Test",
+          "method": "set(bytes)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000020",
+            "0x0000000000000000000000000000000000000000000000000000000000000003",
+            "0x0000000000000000000000000000000000000000000000000000000000616263"
+          ],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "comment": "storageEmpty -> 0",
+          "address": "Test.address",
+          "is_storage_empty": false,
+          "caller": "0xedADA3b52AB8f77FaC9928398819606d645A4af7"
+        },
+        {
+          "caller": "0xd65D814a03aa83C1Ca7D0826c6Dc8EC69B3a0A45",
+          "comment": "set(bytes): 0x20, 0",
+          "instance": "Test",
+          "method": "set(bytes)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000020",
+            "0x0000000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "comment": "storageEmpty -> 1",
+          "address": "Test.address",
+          "is_storage_empty": true,
+          "caller": "0xedADA3b52AB8f77FaC9928398819606d645A4af7"
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "Test": "empty_nonempty_empty.sol:Test"
+  }
+}

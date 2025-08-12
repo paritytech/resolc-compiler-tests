@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "calldata_array_dynamic_invalid",
+      "inputs": [
+        {
+          "caller": "0xC375CE036Cbcf2AE7a3D73686632d57FC780e2A4",
+          "comment": "f(uint256[][]): 0x20, 1 -> FAILURE",
+          "instance": "C",
+          "method": "f(uint256[][])",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000020",
+            "0x0000000000000000000000000000000000000000000000000000000000000001"
+          ],
+          "expected": {
+            "exception": true
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "calldata_array_dynamic_invalid.sol:C"
+  }
+}

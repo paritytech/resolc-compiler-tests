@@ -1,0 +1,28 @@
+{
+  "cases": [
+    {
+      "name": "assign_calldata_value_type",
+      "inputs": [
+        {
+          "caller": "0x74c7AFC924C9a0eC2dD72b59133C86c4BFa51dCB",
+          "comment": "f(uint256): 23 -> 42, 23",
+          "instance": "C",
+          "method": "f(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000017"
+          ],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000000000002a",
+              "0x0000000000000000000000000000000000000000000000000000000000000017"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "assign_calldata_value_type.sol:C"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "cases": [
+    {
+      "name": "inheritance_from_same_base_state_var_slots",
+      "inputs": [
+        {
+          "caller": "0xCe469C349B00581b3B1f4e83438a8bf767042291",
+          "comment": "contractASlots() -> 0",
+          "instance": "Test",
+          "method": "contractASlots()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xCe469C349B00581b3B1f4e83438a8bf767042291",
+          "comment": "contractBSlots() -> 5, 6",
+          "instance": "Test",
+          "method": "contractBSlots()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000005",
+              "0x0000000000000000000000000000000000000000000000000000000000000006"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xCe469C349B00581b3B1f4e83438a8bf767042291",
+          "comment": "contractCSlots() -> 9, 10",
+          "instance": "Test",
+          "method": "contractCSlots()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000009",
+              "0x000000000000000000000000000000000000000000000000000000000000000a"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "Test": "inheritance_from_same_base_state_var_slots.sol:Test"
+  }
+}

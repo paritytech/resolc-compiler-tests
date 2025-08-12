@@ -1,0 +1,73 @@
+{
+  "cases": [
+    {
+      "name": "complex_accessors",
+      "inputs": [
+        {
+          "caller": "0xFdd26606d6A772f82Ad434E8868336D2B5dC699b",
+          "comment": "to_string_map(uint256): 42 -> \"24\"",
+          "instance": "test",
+          "method": "to_string_map(uint256)",
+          "calldata": [
+            "0x000000000000000000000000000000000000000000000000000000000000002a"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000003234"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xFdd26606d6A772f82Ad434E8868336D2B5dC699b",
+          "comment": "to_bool_map(uint256): 42 -> false",
+          "instance": "test",
+          "method": "to_bool_map(uint256)",
+          "calldata": [
+            "0x000000000000000000000000000000000000000000000000000000000000002a"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xFdd26606d6A772f82Ad434E8868336D2B5dC699b",
+          "comment": "to_uint_map(uint256): 42 -> 12",
+          "instance": "test",
+          "method": "to_uint_map(uint256)",
+          "calldata": [
+            "0x000000000000000000000000000000000000000000000000000000000000002a"
+          ],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000000000000c"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xFdd26606d6A772f82Ad434E8868336D2B5dC699b",
+          "comment": "to_multiple_map(uint256,uint256): 42, 23 -> 31",
+          "instance": "test",
+          "method": "to_multiple_map(uint256,uint256)",
+          "calldata": [
+            "0x000000000000000000000000000000000000000000000000000000000000002a",
+            "0x0000000000000000000000000000000000000000000000000000000000000017"
+          ],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000000000001f"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "test": "complex_accessors.sol:test"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "base_constructor_arguments",
+      "inputs": [
+        {
+          "caller": "0xF7Edc8FA1eCc32967F827C9043FcAe6ba73afA5c",
+          "comment": "getA() -> 49",
+          "instance": "Derived",
+          "method": "getA()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000031"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "Derived": "base_constructor_arguments.sol:Derived"
+  }
+}

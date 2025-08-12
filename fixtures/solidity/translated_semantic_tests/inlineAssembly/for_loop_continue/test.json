@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "for_loop_continue",
+      "inputs": [
+        {
+          "caller": "0xcdc2A7A7f4d9700C948e82c83f8E37DB8bCCaA66",
+          "comment": "f() -> 5",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000005"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "for_loop_continue.sol:C"
+  }
+}

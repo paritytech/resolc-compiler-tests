@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "gwei",
+      "inputs": [
+        {
+          "caller": "0xA24C85B16a440587793F82e358fa6b204468735B",
+          "comment": "f() -> 1000000000",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000003b9aca00"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "gwei.sol:C"
+  }
+}

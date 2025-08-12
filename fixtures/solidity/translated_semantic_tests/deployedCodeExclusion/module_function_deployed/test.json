@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "module_function_deployed",
+      "inputs": [
+        {
+          "caller": "0xa237Bd223fdae75dE642380c768324B70B5aF5cE",
+          "comment": "test() -> true",
+          "instance": "C",
+          "method": "test()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "main.sol:C"
+  }
+}

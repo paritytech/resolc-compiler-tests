@@ -1,0 +1,38 @@
+{
+  "cases": [
+    {
+      "name": "constructor_arguments_internal",
+      "inputs": [
+        {
+          "caller": "0xc39677F5F47d5fE65ab24e66750e8FCa127c15BE",
+          "comment": "getFlag() -> true",
+          "instance": "Main",
+          "method": "getFlag()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xc39677F5F47d5fE65ab24e66750e8FCa127c15BE",
+          "comment": "getName() -> \"abc\"",
+          "instance": "Main",
+          "method": "getName()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000616263"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "Main": "constructor_arguments_internal.sol:Main"
+  }
+}

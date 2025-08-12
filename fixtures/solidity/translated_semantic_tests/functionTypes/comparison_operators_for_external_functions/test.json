@@ -1,0 +1,38 @@
+{
+  "cases": [
+    {
+      "name": "comparison_operators_for_external_functions",
+      "inputs": [
+        {
+          "caller": "0x81F58F2194B0413806bF2CE8E1654bc855dC65a1",
+          "comment": "comparison_operators_for_external_functions() -> true",
+          "instance": "C",
+          "method": "comparison_operators_for_external_functions()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x81F58F2194B0413806bF2CE8E1654bc855dC65a1",
+          "comment": "comparison_operators_for_local_external_function_pointers() -> true",
+          "instance": "C",
+          "method": "comparison_operators_for_local_external_function_pointers()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "comparison_operators_for_external_functions.sol:C"
+  }
+}

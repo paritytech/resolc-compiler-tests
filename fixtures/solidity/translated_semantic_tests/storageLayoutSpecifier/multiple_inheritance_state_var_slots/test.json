@@ -1,0 +1,68 @@
+{
+  "cases": [
+    {
+      "name": "multiple_inheritance_state_var_slots",
+      "inputs": [
+        {
+          "caller": "0x6a87Bfd9876Bdbc2ab8E9Ad19bf8692DEe529e2D",
+          "comment": "xSlotOffset() -> 2, 0",
+          "instance": "D",
+          "method": "xSlotOffset()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000002",
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x6a87Bfd9876Bdbc2ab8E9Ad19bf8692DEe529e2D",
+          "comment": "ySlotOffset() -> 3, 0",
+          "instance": "D",
+          "method": "ySlotOffset()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000003",
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x6a87Bfd9876Bdbc2ab8E9Ad19bf8692DEe529e2D",
+          "comment": "wSlotOffset() -> 3, 4",
+          "instance": "D",
+          "method": "wSlotOffset()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000003",
+              "0x0000000000000000000000000000000000000000000000000000000000000004"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x6a87Bfd9876Bdbc2ab8E9Ad19bf8692DEe529e2D",
+          "comment": "zSlotOffset() -> 4, 0",
+          "instance": "D",
+          "method": "zSlotOffset()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000004",
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "D": "multiple_inheritance_state_var_slots.sol:D"
+  }
+}

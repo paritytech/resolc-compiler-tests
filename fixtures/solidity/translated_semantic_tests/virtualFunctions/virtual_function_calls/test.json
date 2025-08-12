@@ -1,0 +1,38 @@
+{
+  "cases": [
+    {
+      "name": "virtual_function_calls",
+      "inputs": [
+        {
+          "caller": "0x016e4CdBd7dE6697a451082A39d8298de0953d9D",
+          "comment": "g() -> 2",
+          "instance": "Derived",
+          "method": "g()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000002"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x016e4CdBd7dE6697a451082A39d8298de0953d9D",
+          "comment": "f() -> 2",
+          "instance": "Derived",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000002"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "Derived": "virtual_function_calls.sol:Derived"
+  }
+}

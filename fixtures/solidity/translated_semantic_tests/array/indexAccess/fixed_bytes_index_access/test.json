@@ -1,0 +1,57 @@
+{
+  "cases": [
+    {
+      "name": "fixed_bytes_index_access",
+      "inputs": [
+        {
+          "caller": "0x268320e2870e58dF5BB4c0Aa4ffd2bc284CA6d34",
+          "comment": "f(bytes32): \"789\" -> \"9\"",
+          "instance": "C",
+          "method": "f(bytes32)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000373839"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000039"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x268320e2870e58dF5BB4c0Aa4ffd2bc284CA6d34",
+          "comment": "g(bytes32): \"789\" -> 0x35",
+          "instance": "C",
+          "method": "g(bytes32)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000373839"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000035"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x268320e2870e58dF5BB4c0Aa4ffd2bc284CA6d34",
+          "comment": "data(uint256): 0x01 -> \"8\"",
+          "instance": "C",
+          "method": "data(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000001"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000038"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "fixed_bytes_index_access.sol:C"
+  }
+}

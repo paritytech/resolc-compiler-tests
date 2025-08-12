@@ -1,0 +1,26 @@
+{
+  "cases": [
+    {
+      "name": "skip_dynamic_types",
+      "inputs": [
+        {
+          "caller": "0x8B244426E6F728A93E2E15e63eb348D9BeF4E1C6",
+          "comment": "g() -> 7, 8",
+          "instance": "C",
+          "method": "g()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000007",
+              "0x0000000000000000000000000000000000000000000000000000000000000008"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "skip_dynamic_types.sol:C"
+  }
+}

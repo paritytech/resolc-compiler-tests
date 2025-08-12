@@ -1,0 +1,32 @@
+{
+  "cases": [
+    {
+      "name": "internal_types_in_library",
+      "inputs": [
+        {
+          "caller": "0x9fBe67E4A55BebC5A91886CF53963d487EbA5B6C",
+          "comment": "f() -> 4, 0x11; gas irOptimized: 111419; gas legacy: 132930; gas legacyOptimized: 118020",
+          "instance": "Test",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000004",
+              "0x0000000000000000000000000000000000000000000000000000000000000011"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "Lib": "internal_types_in_library.sol:Lib",
+    "Test": "internal_types_in_library.sol:Test"
+  },
+  "libraries": {
+    "internal_types_in_library.sol": {
+      "Lib": "Lib"
+    }
+  }
+}

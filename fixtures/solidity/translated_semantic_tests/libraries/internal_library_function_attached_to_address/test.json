@@ -1,0 +1,44 @@
+{
+  "cases": [
+    {
+      "name": "internal_library_function_attached_to_address",
+      "inputs": [
+        {
+          "caller": "0xbDB7ff04152e424f3614489C8CfB20e09717b8f1",
+          "comment": "foo(address,address): 0x111122223333444455556666777788889999aAaa, 0x111122223333444455556666777788889999aAaa -> true",
+          "instance": "C",
+          "method": "foo(address,address)",
+          "calldata": [
+            "0x000000000000000000000000111122223333444455556666777788889999aaaa",
+            "0x000000000000000000000000111122223333444455556666777788889999aaaa"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xbDB7ff04152e424f3614489C8CfB20e09717b8f1",
+          "comment": "foo(address,address): 0x111122223333444455556666777788889999aAaa, 0x0000000000000000000000000000000000000000 -> false",
+          "instance": "C",
+          "method": "foo(address,address)",
+          "calldata": [
+            "0x000000000000000000000000111122223333444455556666777788889999aaaa",
+            "0x0000000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "internal_library_function_attached_to_address.sol:C"
+  }
+}

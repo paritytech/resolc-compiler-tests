@@ -1,0 +1,40 @@
+{
+  "cases": [
+    {
+      "name": "fallback_argument",
+      "inputs": [
+        {
+          "caller": "0x530d1fd8d252A9c6690C422495A660aB1fF3a680",
+          "comment": "f() -> 0x01, 0x40, 0x00",
+          "instance": "A",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001",
+              "0x0000000000000000000000000000000000000000000000000000000000000040",
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x530d1fd8d252A9c6690C422495A660aB1fF3a680",
+          "comment": "x() -> 3",
+          "instance": "A",
+          "method": "x()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000003"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "A": "fallback_argument.sol:A"
+  }
+}

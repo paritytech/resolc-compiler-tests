@@ -1,0 +1,51 @@
+{
+  "cases": [
+    {
+      "name": "blockhash",
+      "inputs": [
+        {
+          "caller": "0x95fAd24C9238a1fbD8b5cEC8eBd1bAebB931263A",
+          "comment": "f() -> 0x3737373737373737373737373737373737373737373737373737373737373737",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x3737373737373737373737373737373737373737373737373737373737373737"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x95fAd24C9238a1fbD8b5cEC8eBd1bAebB931263A",
+          "comment": "g() -> 0x3737373737373737373737373737373737373737373737373737373737373738",
+          "instance": "C",
+          "method": "g()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x3737373737373737373737373737373737373737373737373737373737373738"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x95fAd24C9238a1fbD8b5cEC8eBd1bAebB931263A",
+          "comment": "h() -> 0",
+          "instance": "C",
+          "method": "h()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "blockhash.sol:C"
+  }
+}

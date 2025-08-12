@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "inc_dec_operators",
+      "inputs": [
+        {
+          "caller": "0x57EF22b9b9C791850FE16b9Fcb79407aCD151478",
+          "comment": "f() -> 0x053866",
+          "instance": "test",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000053866"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "test": "inc_dec_operators.sol:test"
+  }
+}

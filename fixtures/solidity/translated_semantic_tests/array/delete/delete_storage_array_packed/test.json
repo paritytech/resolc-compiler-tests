@@ -1,0 +1,27 @@
+{
+  "cases": [
+    {
+      "name": "delete_storage_array_packed",
+      "inputs": [
+        {
+          "caller": "0x0f17CcAb520BcF1c9Bd0688117de56e950E67f37",
+          "comment": "f() -> 0, 0, 0; gas irOptimized: 90992; gas legacy: 111037; gas legacyOptimized: 109633",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000",
+              "0x0000000000000000000000000000000000000000000000000000000000000000",
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "delete_storage_array_packed.sol:C"
+  }
+}

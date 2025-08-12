@@ -1,0 +1,28 @@
+{
+  "cases": [
+    {
+      "name": "inline_assembly_embedded_function_call",
+      "inputs": [
+        {
+          "caller": "0x517cAD34d8d3dd1b28d6fcBc5f0500DD5311860d",
+          "comment": "f() -> 0x1, 0x4, 0x7, 0x10",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001",
+              "0x0000000000000000000000000000000000000000000000000000000000000004",
+              "0x0000000000000000000000000000000000000000000000000000000000000007",
+              "0x0000000000000000000000000000000000000000000000000000000000000010"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "inline_assembly_embedded_function_call.sol:C"
+  }
+}

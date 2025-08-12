@@ -1,0 +1,48 @@
+{
+  "cases": [
+    {
+      "name": "array_storage_push_empty",
+      "inputs": [
+        {
+          "caller": "0xEBe840a39589cC6BfE754001B46d8425eaD24319",
+          "comment": "pushEmpty(uint256): 128; gas irOptimized: 410745; gas legacy: 400519; gas legacyOptimized: 388804",
+          "instance": "C",
+          "method": "pushEmpty(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000080"
+          ],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xEBe840a39589cC6BfE754001B46d8425eaD24319",
+          "comment": "pushEmpty(uint256): 256; gas irOptimized: 698285; gas legacy: 684859; gas legacyOptimized: 671480",
+          "instance": "C",
+          "method": "pushEmpty(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000100"
+          ],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xEBe840a39589cC6BfE754001B46d8425eaD24319",
+          "comment": "pushEmpty(uint256): 38869 -> FAILURE; gas irOptimized: 100000000; gas legacy: 100000000; gas legacyOptimized: 100000000",
+          "instance": "C",
+          "method": "pushEmpty(uint256)",
+          "calldata": [
+            "0x00000000000000000000000000000000000000000000000000000000000097d5"
+          ],
+          "expected": {
+            "exception": true
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "array_storage_push_empty.sol:C"
+  }
+}

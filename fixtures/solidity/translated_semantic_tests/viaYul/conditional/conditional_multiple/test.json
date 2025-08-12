@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "conditional_multiple",
+      "inputs": [
+        {
+          "caller": "0x99b52813933A46D95bD4265eA2F674E58827da97",
+          "comment": "f() -> 7",
+          "instance": "A",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000007"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "A": "conditional_multiple.sol:A"
+  }
+}

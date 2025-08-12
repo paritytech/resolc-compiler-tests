@@ -1,0 +1,35 @@
+{
+  "cases": [
+    {
+      "name": "balance_other_contract",
+      "inputs": [
+        {
+          "caller": "0x06a3DC9F7A60D0c4E9eb1989F266679d03320d3d",
+          "comment": "constructor(), 2000 wei ->",
+          "instance": "C",
+          "method": "#deployer",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          },
+          "value": "2000 wei"
+        },
+        {
+          "comment": "balance -> 1500",
+          "address": "C.address",
+          "expected_balance": "0x5dc",
+          "caller": "0x4683e3d8cd2495f692Bc76Cd1D8BEBf6067669d5"
+        },
+        {
+          "comment": "balance: 0x0000000000000000000000000000000012341234 -> 500",
+          "address": "0x0000000000000000000000000000000012341234",
+          "expected_balance": "0x1f4",
+          "caller": "0x4683e3d8cd2495f692Bc76Cd1D8BEBf6067669d5"
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "balance_other_contract.sol:C"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "cases": [
+    {
+      "name": "inline_assembly_function_call_assignment",
+      "inputs": [
+        {
+          "caller": "0xeFc2CFEEB570c2614a9B2beF4038C3C428a6fBf0",
+          "comment": "f() -> 1, 2, 7",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001",
+              "0x0000000000000000000000000000000000000000000000000000000000000002",
+              "0x0000000000000000000000000000000000000000000000000000000000000007"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "inline_assembly_function_call_assignment.sol:C"
+  }
+}

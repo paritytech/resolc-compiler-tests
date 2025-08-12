@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "library_struct_as_an_expression",
+      "inputs": [
+        {
+          "caller": "0xeFC78792499CD16253B1A95f962A30578050Dbdb",
+          "comment": "f() -> 1",
+          "instance": "Tsra",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "Tsra": "library_struct_as_an_expression.sol:Tsra"
+  }
+}

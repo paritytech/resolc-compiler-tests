@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "empty_for_loop",
+      "inputs": [
+        {
+          "caller": "0xB40d73153EA796AF4e5Eef4626942022aaB84175",
+          "comment": "f() -> 10",
+          "instance": "test",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000000000000a"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "test": "empty_for_loop.sol:test"
+  }
+}

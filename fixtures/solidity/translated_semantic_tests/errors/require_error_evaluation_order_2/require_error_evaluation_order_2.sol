@@ -1,0 +1,12 @@
+contract C {
+    uint y;
+    function g(bool x) internal returns (bool) {
+        y = 42;
+        return x;
+    }
+    error E(uint256);
+    function h() internal returns (uint256) { return y; }
+    function f(bool c) public {
+        require(g(c), E(h()));
+    }
+}

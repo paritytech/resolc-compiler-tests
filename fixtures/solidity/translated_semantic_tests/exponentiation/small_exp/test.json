@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "small_exp",
+      "inputs": [
+        {
+          "caller": "0x41b18077e78745786B7EE95deC0B330EE16B21D4",
+          "comment": "f() -> 4",
+          "instance": "test",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000004"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "test": "small_exp.sol:test"
+  }
+}

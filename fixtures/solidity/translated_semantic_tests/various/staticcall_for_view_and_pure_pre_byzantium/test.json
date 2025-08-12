@@ -1,0 +1,51 @@
+{
+  "cases": [
+    {
+      "name": "staticcall_for_view_and_pure_pre_byzantium",
+      "inputs": [
+        {
+          "caller": "0xdC249431F31b36439071A2a31B132E3775178cB2",
+          "comment": "f() -> 0x1",
+          "instance": "D",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xdC249431F31b36439071A2a31B132E3775178cB2",
+          "comment": "fview() -> 1",
+          "instance": "D",
+          "method": "fview()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xdC249431F31b36439071A2a31B132E3775178cB2",
+          "comment": "fpure() -> 1",
+          "instance": "D",
+          "method": "fpure()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "D": "staticcall_for_view_and_pure_pre_byzantium.sol:D"
+  }
+}

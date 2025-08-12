@@ -1,0 +1,51 @@
+{
+  "cases": [
+    {
+      "name": "tx_origin",
+      "inputs": [
+        {
+          "caller": "0x53AA270F05b2AEd600f92969131cD714eFDE1BB9",
+          "comment": "f() -> 0x9292929292929292929292929292929292929292",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000009292929292929292929292929292929292929292"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x53AA270F05b2AEd600f92969131cD714eFDE1BB9",
+          "comment": "f() -> 0x9292929292929292929292929292929292929292",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000009292929292929292929292929292929292929292"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x53AA270F05b2AEd600f92969131cD714eFDE1BB9",
+          "comment": "f() -> 0x9292929292929292929292929292929292929292",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000009292929292929292929292929292929292929292"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "tx_origin.sol:C"
+  }
+}

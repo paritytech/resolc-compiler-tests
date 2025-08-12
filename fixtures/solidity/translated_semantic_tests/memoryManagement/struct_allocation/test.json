@@ -1,0 +1,38 @@
+{
+  "cases": [
+    {
+      "name": "struct_allocation",
+      "inputs": [
+        {
+          "caller": "0x403398d0775A70a233Cb00551422De5d620b6842",
+          "comment": "withValue() -> 0x00",
+          "instance": "C",
+          "method": "withValue()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x403398d0775A70a233Cb00551422De5d620b6842",
+          "comment": "withoutValue() -> 0x60",
+          "instance": "C",
+          "method": "withoutValue()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000060"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "struct_allocation.sol:C"
+  }
+}

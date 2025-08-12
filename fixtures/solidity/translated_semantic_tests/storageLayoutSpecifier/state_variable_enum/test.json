@@ -1,0 +1,62 @@
+{
+  "cases": [
+    {
+      "name": "state_variable_enum",
+      "inputs": [
+        {
+          "caller": "0x938Bd27F94001Ef308051b25b725aD84Be6cCeC3",
+          "comment": "cSlotOffset() -> 42, 0",
+          "instance": "C",
+          "method": "cSlotOffset()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000000000002a",
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x938Bd27F94001Ef308051b25b725aD84Be6cCeC3",
+          "comment": "checkBlue() -> false",
+          "instance": "C",
+          "method": "checkBlue()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x938Bd27F94001Ef308051b25b725aD84Be6cCeC3",
+          "comment": "setBlue() ->",
+          "instance": "C",
+          "method": "setBlue()",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x938Bd27F94001Ef308051b25b725aD84Be6cCeC3",
+          "comment": "checkBlue() -> true",
+          "instance": "C",
+          "method": "checkBlue()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "state_variable_enum.sol:C"
+  }
+}

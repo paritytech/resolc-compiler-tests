@@ -1,0 +1,44 @@
+{
+  "cases": [
+    {
+      "name": "user_defined_types_mapping_storage",
+      "inputs": [
+        {
+          "caller": "0xa36bbcd0e0aF8f28bB33Dba807dd058aC2Fa433f",
+          "comment": "testAB() -> true",
+          "instance": "C",
+          "method": "testAB()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xa36bbcd0e0aF8f28bB33Dba807dd058aC2Fa433f",
+          "comment": "testUint() -> true",
+          "instance": "C",
+          "method": "testUint()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "user_defined_types_mapping_storage.sol:C",
+    "L": "user_defined_types_mapping_storage.sol:L"
+  },
+  "libraries": {
+    "user_defined_types_mapping_storage.sol": {
+      "L": "L"
+    }
+  }
+}

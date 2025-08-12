@@ -1,0 +1,34 @@
+{
+  "cases": [
+    {
+      "name": "array_copy_storage_abi_signed",
+      "inputs": [
+        {
+          "caller": "0x781D2c667F36fF79D39fe59eBbB22eF955C2a02D",
+          "comment": "test() -> 0x20, 0x8, -1, -1, 8, -16, -2, 6, 8, -1",
+          "instance": "c",
+          "method": "test()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000020",
+              "0x0000000000000000000000000000000000000000000000000000000000000008",
+              "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+              "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+              "0x0000000000000000000000000000000000000000000000000000000000000008",
+              "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff0",
+              "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe",
+              "0x0000000000000000000000000000000000000000000000000000000000000006",
+              "0x0000000000000000000000000000000000000000000000000000000000000008",
+              "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "c": "array_copy_storage_abi_signed.sol:c"
+  }
+}

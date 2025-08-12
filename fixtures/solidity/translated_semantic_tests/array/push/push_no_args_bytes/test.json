@@ -1,0 +1,103 @@
+{
+  "cases": [
+    {
+      "name": "push_no_args_bytes",
+      "inputs": [
+        {
+          "caller": "0xC256Dc2136cA96Dc78B01b33894aCDE7A090DF4f",
+          "comment": "l() -> 0",
+          "instance": "C",
+          "method": "l()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xC256Dc2136cA96Dc78B01b33894aCDE7A090DF4f",
+          "comment": "g(uint256): 70 ->; gas irOptimized: 181778; gas legacy: 175192; gas legacyOptimized: 175005",
+          "instance": "C",
+          "method": "g(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000046"
+          ],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xC256Dc2136cA96Dc78B01b33894aCDE7A090DF4f",
+          "comment": "l() -> 70",
+          "instance": "C",
+          "method": "l()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000046"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xC256Dc2136cA96Dc78B01b33894aCDE7A090DF4f",
+          "comment": "a(uint256): 69 -> left(69)",
+          "instance": "C",
+          "method": "a(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000045"
+          ],
+          "expected": {
+            "return_data": [
+              "0x4500000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xC256Dc2136cA96Dc78B01b33894aCDE7A090DF4f",
+          "comment": "f() ->",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xC256Dc2136cA96Dc78B01b33894aCDE7A090DF4f",
+          "comment": "l() -> 71",
+          "instance": "C",
+          "method": "l()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000047"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xC256Dc2136cA96Dc78B01b33894aCDE7A090DF4f",
+          "comment": "a(uint256): 70 -> 0",
+          "instance": "C",
+          "method": "a(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000046"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "push_no_args_bytes.sol:C"
+  }
+}

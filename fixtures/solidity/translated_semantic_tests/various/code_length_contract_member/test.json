@@ -1,0 +1,27 @@
+{
+  "cases": [
+    {
+      "name": "code_length_contract_member",
+      "inputs": [
+        {
+          "caller": "0xF0Ed5f5B0EC5Ae202f7CEd057a2Cbb51fCB81F4a",
+          "comment": "f() -> 0x20, 0x20, true",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000020",
+              "0x0000000000000000000000000000000000000000000000000000000000000020",
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "code_length_contract_member.sol:C"
+  }
+}

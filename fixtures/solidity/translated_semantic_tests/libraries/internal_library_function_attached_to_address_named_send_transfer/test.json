@@ -1,0 +1,36 @@
+{
+  "cases": [
+    {
+      "name": "internal_library_function_attached_to_address_named_send_transfer",
+      "inputs": [
+        {
+          "caller": "0xB7C8E7F62eCcF41A7Deb17f2a2a265872EEF7E19",
+          "comment": "useTransfer(address): 0x111122223333444455556666777788889999aAaa ->",
+          "instance": "C",
+          "method": "useTransfer(address)",
+          "calldata": [
+            "0x000000000000000000000000111122223333444455556666777788889999aaaa"
+          ],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xB7C8E7F62eCcF41A7Deb17f2a2a265872EEF7E19",
+          "comment": "useSend(address): 0x111122223333444455556666777788889999aAaa ->",
+          "instance": "C",
+          "method": "useSend(address)",
+          "calldata": [
+            "0x000000000000000000000000111122223333444455556666777788889999aaaa"
+          ],
+          "expected": {
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "internal_library_function_attached_to_address_named_send_transfer.sol:C"
+  }
+}

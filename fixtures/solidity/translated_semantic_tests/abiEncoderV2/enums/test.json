@@ -1,0 +1,66 @@
+{
+  "cases": [
+    {
+      "name": "enums",
+      "inputs": [
+        {
+          "caller": "0xd79FFa521dE3A9D53E5caf565700cdB416aC4C75",
+          "comment": "f(uint8): 0 -> 0",
+          "instance": "C",
+          "method": "f(uint8)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xd79FFa521dE3A9D53E5caf565700cdB416aC4C75",
+          "comment": "f(uint8): 1 -> 1",
+          "instance": "C",
+          "method": "f(uint8)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000001"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xd79FFa521dE3A9D53E5caf565700cdB416aC4C75",
+          "comment": "f(uint8): 2 -> FAILURE",
+          "instance": "C",
+          "method": "f(uint8)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000002"
+          ],
+          "expected": {
+            "exception": true
+          }
+        },
+        {
+          "caller": "0xd79FFa521dE3A9D53E5caf565700cdB416aC4C75",
+          "comment": "f(uint8): 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff -> FAILURE",
+          "instance": "C",
+          "method": "f(uint8)",
+          "calldata": [
+            "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+          ],
+          "expected": {
+            "exception": true
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "enums.sol:C"
+  }
+}

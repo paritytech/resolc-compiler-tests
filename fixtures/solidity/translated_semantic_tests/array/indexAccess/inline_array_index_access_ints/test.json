@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "inline_array_index_access_ints",
+      "inputs": [
+        {
+          "caller": "0xA530dEaA2Ee269163c5Dd3536146F473e5129B95",
+          "comment": "f() -> 3",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000003"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "inline_array_index_access_ints.sol:C"
+  }
+}

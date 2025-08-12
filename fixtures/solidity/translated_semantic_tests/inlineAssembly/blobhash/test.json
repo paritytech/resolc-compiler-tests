@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "blobhash",
+      "inputs": [
+        {
+          "caller": "0x07Fcd523A3351065d66a62f9b8ffA857cdF2A72f",
+          "comment": "f() -> 0x0100000000000000000000000000000000000000000000000000000000000001",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0100000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "blobhash.sol:C"
+  }
+}

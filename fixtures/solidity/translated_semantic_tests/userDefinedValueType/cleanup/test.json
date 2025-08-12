@@ -1,0 +1,83 @@
+{
+  "cases": [
+    {
+      "name": "cleanup",
+      "inputs": [
+        {
+          "caller": "0x91add7f40C5447fE8CfB9Fb3c9A8d19fD644630c",
+          "comment": "ret() -> 0xff",
+          "instance": "C",
+          "method": "ret()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x00000000000000000000000000000000000000000000000000000000000000ff"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x91add7f40C5447fE8CfB9Fb3c9A8d19fD644630c",
+          "comment": "f(uint8): 0x1ff -> FAILURE",
+          "instance": "C",
+          "method": "f(uint8)",
+          "calldata": [
+            "0x00000000000000000000000000000000000000000000000000000000000001ff"
+          ],
+          "expected": {
+            "exception": true
+          }
+        },
+        {
+          "caller": "0x91add7f40C5447fE8CfB9Fb3c9A8d19fD644630c",
+          "comment": "f(uint8): 0xff -> 0xff",
+          "instance": "C",
+          "method": "f(uint8)",
+          "calldata": [
+            "0x00000000000000000000000000000000000000000000000000000000000000ff"
+          ],
+          "expected": {
+            "return_data": [
+              "0x00000000000000000000000000000000000000000000000000000000000000ff"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x91add7f40C5447fE8CfB9Fb3c9A8d19fD644630c",
+          "comment": "mem() -> 0x20, 2, 0xff, 0xff",
+          "instance": "C",
+          "method": "mem()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000020",
+              "0x0000000000000000000000000000000000000000000000000000000000000002",
+              "0x00000000000000000000000000000000000000000000000000000000000000ff",
+              "0x00000000000000000000000000000000000000000000000000000000000000ff"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x91add7f40C5447fE8CfB9Fb3c9A8d19fD644630c",
+          "comment": "stor() -> 1, 0xff, 2",
+          "instance": "C",
+          "method": "stor()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001",
+              "0x00000000000000000000000000000000000000000000000000000000000000ff",
+              "0x0000000000000000000000000000000000000000000000000000000000000002"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "cleanup.sol:C"
+  }
+}

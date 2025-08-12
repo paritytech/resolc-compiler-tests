@@ -1,0 +1,74 @@
+{
+  "cases": [
+    {
+      "name": "transient_storage_multiple_transactions",
+      "inputs": [
+        {
+          "caller": "0x6E364FC20A24B08F6f4890a808773d5C7Fc155b5",
+          "comment": "g() -> 0",
+          "instance": "C",
+          "method": "g()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x6E364FC20A24B08F6f4890a808773d5C7Fc155b5",
+          "comment": "f() ->",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x6E364FC20A24B08F6f4890a808773d5C7Fc155b5",
+          "comment": "g() -> 0",
+          "instance": "C",
+          "method": "g()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x6E364FC20A24B08F6f4890a808773d5C7Fc155b5",
+          "comment": "h() -> 0x63",
+          "instance": "C",
+          "method": "h()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000063"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x6E364FC20A24B08F6f4890a808773d5C7Fc155b5",
+          "comment": "g() -> 0",
+          "instance": "C",
+          "method": "g()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "transient_storage_multiple_transactions.sol:C"
+  }
+}

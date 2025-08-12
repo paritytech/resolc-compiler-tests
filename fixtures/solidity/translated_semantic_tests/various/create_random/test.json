@@ -1,0 +1,53 @@
+{
+  "cases": [
+    {
+      "name": "create_random",
+      "inputs": [
+        {
+          "caller": "0xd7084870c99267883b9cd38248a930aD5992c0FC",
+          "comment": "addr() -> 0xc06afe3a8444fc0004668591e8306bfb9968e79e",
+          "instance": "C",
+          "method": "addr()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000c06afe3a8444fc0004668591e8306bfb9968e79e"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xd7084870c99267883b9cd38248a930aD5992c0FC",
+          "comment": "testRunner() -> 0x137aa4dfc0911524504fcd4d98501f179bc13b4a, 0x2c1c30623ddd93e0b765a6caaca0c859eeb0644d",
+          "instance": "C",
+          "method": "testRunner()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000137aa4dfc0911524504fcd4d98501f179bc13b4a",
+              "0x0000000000000000000000002c1c30623ddd93e0b765a6caaca0c859eeb0644d"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xd7084870c99267883b9cd38248a930aD5992c0FC",
+          "comment": "testCalc() -> 0x137aa4dfc0911524504fcd4d98501f179bc13b4a, 0x2c1c30623ddd93e0b765a6caaca0c859eeb0644d",
+          "instance": "C",
+          "method": "testCalc()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000137aa4dfc0911524504fcd4d98501f179bc13b4a",
+              "0x0000000000000000000000002c1c30623ddd93e0b765a6caaca0c859eeb0644d"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "create_random.sol:C"
+  }
+}

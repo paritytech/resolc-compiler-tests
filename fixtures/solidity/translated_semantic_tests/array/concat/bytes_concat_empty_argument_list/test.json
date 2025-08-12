@@ -1,0 +1,26 @@
+{
+  "cases": [
+    {
+      "name": "bytes_concat_empty_argument_list",
+      "inputs": [
+        {
+          "caller": "0x6c7495107ccC046649F29fF12402B6B08d946F97",
+          "comment": "f() -> 0x20, 0",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000020",
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "bytes_concat_empty_argument_list.sol:C"
+  }
+}

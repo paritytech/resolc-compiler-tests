@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "using_inherited_enum",
+      "inputs": [
+        {
+          "caller": "0x4422CdAe0a300B8C8d77990DFD72eaCda0Cc3A1D",
+          "comment": "answer() -> 1",
+          "instance": "test",
+          "method": "answer()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "test": "using_inherited_enum.sol:test"
+  }
+}

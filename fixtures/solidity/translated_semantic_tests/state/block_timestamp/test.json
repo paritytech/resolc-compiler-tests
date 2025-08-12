@@ -1,0 +1,48 @@
+{
+  "cases": [
+    {
+      "name": "block_timestamp",
+      "inputs": [
+        {
+          "caller": "0x606fCeAa8119a56E0b95F63ed0Ccd9d493a27127",
+          "comment": "constructor()",
+          "instance": "C",
+          "method": "#deployer",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x606fCeAa8119a56E0b95F63ed0Ccd9d493a27127",
+          "comment": "f() -> 0xdeadbeef",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x00000000000000000000000000000000000000000000000000000000deadbeef"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x606fCeAa8119a56E0b95F63ed0Ccd9d493a27127",
+          "comment": "f() -> 0xdeadbeef",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x00000000000000000000000000000000000000000000000000000000deadbeef"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "block_timestamp.sol:C"
+  }
+}

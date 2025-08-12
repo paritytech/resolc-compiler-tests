@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "recursive_import",
+      "inputs": [
+        {
+          "caller": "0x2Fe88f86d9F5Ed0536756BCFB318Bc8AAa014918",
+          "comment": "f() -> 11",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000000000000b"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "B:C"
+  }
+}

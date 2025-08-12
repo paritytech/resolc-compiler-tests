@@ -1,0 +1,70 @@
+{
+  "cases": [
+    {
+      "name": "accessors_mapping_for_array",
+      "inputs": [
+        {
+          "caller": "0x353Df3c4228C41780F4C81061c11234c50319541",
+          "comment": "data(uint256,uint256): 2, 2 -> 8",
+          "instance": "test",
+          "method": "data(uint256,uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000002",
+            "0x0000000000000000000000000000000000000000000000000000000000000002"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000008"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x353Df3c4228C41780F4C81061c11234c50319541",
+          "comment": "data(uint256,uint256): 2, 8 -> FAILURE",
+          "instance": "test",
+          "method": "data(uint256,uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000002",
+            "0x0000000000000000000000000000000000000000000000000000000000000008"
+          ],
+          "expected": {
+            "exception": true
+          }
+        },
+        {
+          "caller": "0x353Df3c4228C41780F4C81061c11234c50319541",
+          "comment": "dynamicData(uint256,uint256): 2, 2 -> 8",
+          "instance": "test",
+          "method": "dynamicData(uint256,uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000002",
+            "0x0000000000000000000000000000000000000000000000000000000000000002"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000008"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x353Df3c4228C41780F4C81061c11234c50319541",
+          "comment": "dynamicData(uint256,uint256): 2, 8 -> FAILURE",
+          "instance": "test",
+          "method": "dynamicData(uint256,uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000002",
+            "0x0000000000000000000000000000000000000000000000000000000000000008"
+          ],
+          "expected": {
+            "exception": true
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "test": "accessors_mapping_for_array.sol:test"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "library_function_deployed",
+      "inputs": [
+        {
+          "caller": "0x8fa6DB8600684BB64010c9930856863192D26Cd2",
+          "comment": "test() -> true",
+          "instance": "C",
+          "method": "test()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "library_function_deployed.sol:C"
+  }
+}

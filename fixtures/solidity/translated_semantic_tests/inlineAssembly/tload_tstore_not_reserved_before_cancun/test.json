@@ -1,0 +1,38 @@
+{
+  "cases": [
+    {
+      "name": "tload_tstore_not_reserved_before_cancun",
+      "inputs": [
+        {
+          "caller": "0x9d3636690B584De54c972ad47567a37b6744FcCc",
+          "comment": "f() -> 1",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x9d3636690B584De54c972ad47567a37b6744FcCc",
+          "comment": "g() -> 5",
+          "instance": "C",
+          "method": "g()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000005"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "tload_tstore_not_reserved_before_cancun.sol:C"
+  }
+}

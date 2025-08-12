@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "storage_string_as_mapping_key_without_variable",
+      "inputs": [
+        {
+          "caller": "0x868cE70b0d8e9512E3e240E9d8a94cb5Db5b3B48",
+          "comment": "f() -> 2",
+          "instance": "Test",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000002"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "Test": "storage_string_as_mapping_key_without_variable.sol:Test"
+  }
+}

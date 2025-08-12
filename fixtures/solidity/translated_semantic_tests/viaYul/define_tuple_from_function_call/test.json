@@ -1,0 +1,40 @@
+{
+  "cases": [
+    {
+      "name": "define_tuple_from_function_call",
+      "inputs": [
+        {
+          "caller": "0xdE521346f9327a4314A18B2cda96B2a33603177A",
+          "comment": "g() -> 3, 2, 1",
+          "instance": "C",
+          "method": "g()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000003",
+              "0x0000000000000000000000000000000000000000000000000000000000000002",
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xdE521346f9327a4314A18B2cda96B2a33603177A",
+          "comment": "h() -> 3",
+          "instance": "C",
+          "method": "h()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000003"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "define_tuple_from_function_call.sol:C"
+  }
+}

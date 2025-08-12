@@ -1,0 +1,36 @@
+{
+  "cases": [
+    {
+      "name": "calling_uninitialized_function",
+      "inputs": [
+        {
+          "caller": "0xdDb5969aC9AAbe035AEf501E4Afd3E9345b5824a",
+          "comment": "intern() -> FAILURE, hex\"4e487b71\", 0x51",
+          "instance": "C",
+          "method": "intern()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000004e487b71",
+              "0x0000000000000000000000000000000000000000000000000000000000000051"
+            ],
+            "exception": true
+          }
+        },
+        {
+          "caller": "0xdDb5969aC9AAbe035AEf501E4Afd3E9345b5824a",
+          "comment": "extern() -> FAILURE",
+          "instance": "C",
+          "method": "extern()",
+          "calldata": [],
+          "expected": {
+            "exception": true
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "calling_uninitialized_function.sol:C"
+  }
+}

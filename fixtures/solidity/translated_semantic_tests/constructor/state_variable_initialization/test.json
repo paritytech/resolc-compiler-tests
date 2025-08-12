@@ -1,0 +1,38 @@
+{
+  "cases": [
+    {
+      "name": "state_variable_initialization",
+      "inputs": [
+        {
+          "caller": "0x37dA28C050E3c0A1c0aC3BE97913EC038783dA4C",
+          "comment": "i() -> 2",
+          "instance": "C",
+          "method": "i()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000002"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x37dA28C050E3c0A1c0aC3BE97913EC038783dA4C",
+          "comment": "k() -> 0",
+          "instance": "C",
+          "method": "k()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "state_variable_initialization.sol:C"
+  }
+}

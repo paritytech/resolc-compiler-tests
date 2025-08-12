@@ -1,0 +1,22 @@
+{
+  "cases": [
+    {
+      "name": "transient_state_enum_variable",
+      "inputs": [
+        {
+          "caller": "0x2D5cEfE9dBc4D5274ea00C6b870c11d6f0265c7e",
+          "comment": "f() ->",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "transient_state_enum_variable.sol:C"
+  }
+}

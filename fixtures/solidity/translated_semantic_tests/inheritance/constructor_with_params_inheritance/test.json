@@ -1,0 +1,51 @@
+{
+  "cases": [
+    {
+      "name": "constructor_with_params_inheritance",
+      "inputs": [
+        {
+          "caller": "0x57902450d5dAf68F06C7e2FD74D81D1617589f1f",
+          "comment": "constructor(): 2, 0 ->; gas irOptimized: 101581; gas irOptimized code: 20200; gas legacy: 105192; gas legacy code: 32000; gas legacyOptimized: 101503; gas legacyOptimized code: 17000",
+          "instance": "D",
+          "method": "#deployer",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000002",
+            "0x0000000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x57902450d5dAf68F06C7e2FD74D81D1617589f1f",
+          "comment": "i() -> 2",
+          "instance": "D",
+          "method": "i()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000002"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x57902450d5dAf68F06C7e2FD74D81D1617589f1f",
+          "comment": "k() -> 1",
+          "instance": "D",
+          "method": "k()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "D": "constructor_with_params_inheritance.sol:D"
+  }
+}

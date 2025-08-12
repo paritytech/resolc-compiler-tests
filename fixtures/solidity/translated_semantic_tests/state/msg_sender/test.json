@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "msg_sender",
+      "inputs": [
+        {
+          "caller": "0x1A1364741a50C70b03A1D97b1447B88e64B99315",
+          "comment": "f() -> 0x1A1364741a50C70b03A1D97b1447B88e64B99315",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000001212121212121212121212121212120000000012"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "msg_sender.sol:C"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "function_modifier_for_constructor",
+      "inputs": [
+        {
+          "caller": "0x0ee3a4Ef760254c0E8e9bBb1168f1087eA617E2B",
+          "comment": "getData() -> 6",
+          "instance": "C",
+          "method": "getData()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000006"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "function_modifier_for_constructor.sol:C"
+  }
+}

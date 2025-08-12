@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "free_function_resolution_base_contract",
+      "inputs": [
+        {
+          "caller": "0x2BD7358567869c72D2870c70D9C4057000252887",
+          "comment": "h() -> 1337",
+          "instance": "D",
+          "method": "h()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000539"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "D": "s2.sol:D"
+  }
+}

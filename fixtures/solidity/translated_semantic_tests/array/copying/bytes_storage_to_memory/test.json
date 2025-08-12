@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "bytes_storage_to_memory",
+      "inputs": [
+        {
+          "caller": "0xd03d112866B7c1Aa60eC4a7eDf1AbB973777C78f",
+          "comment": "f() -> \"a\"",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000061"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "bytes_storage_to_memory.sol:C"
+  }
+}

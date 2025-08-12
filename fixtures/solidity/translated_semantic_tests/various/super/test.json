@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "super",
+      "inputs": [
+        {
+          "caller": "0x9eFfB513062cd378E4865E7f2538ACf560D6e455",
+          "comment": "f() -> 15",
+          "instance": "D",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000000000000f"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "D": "super.sol:D"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "cases": [
+    {
+      "name": "immutable_signed",
+      "inputs": [
+        {
+          "caller": "0xaec44D50374A514c41C16CC28F052F43eb0673c8",
+          "comment": "direct() -> -2, 0x6162000000000000000000000000000000000000000000000000000000000000",
+          "instance": "C",
+          "method": "direct()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe",
+              "0x6162000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xaec44D50374A514c41C16CC28F052F43eb0673c8",
+          "comment": "viaasm() -> 0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe, 0x6162000000000000000000000000000000000000000000000000000000000000",
+          "instance": "C",
+          "method": "viaasm()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe",
+              "0x6162000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "immutable_signed.sol:C"
+  }
+}

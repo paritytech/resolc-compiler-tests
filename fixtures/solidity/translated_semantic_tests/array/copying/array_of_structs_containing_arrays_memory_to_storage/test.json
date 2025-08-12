@@ -1,0 +1,28 @@
+{
+  "cases": [
+    {
+      "name": "array_of_structs_containing_arrays_memory_to_storage",
+      "inputs": [
+        {
+          "caller": "0xF2b7ba9b827C1EC367604Adc63E1f45D32C5eeB9",
+          "comment": "f() -> 3, 3, 3, 1; gas irOptimized: 181928",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000003",
+              "0x0000000000000000000000000000000000000000000000000000000000000003",
+              "0x0000000000000000000000000000000000000000000000000000000000000003",
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "array_of_structs_containing_arrays_memory_to_storage.sol:C"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "blockhash_shadow_resolution",
+      "inputs": [
+        {
+          "caller": "0x451cEA11ffB4D908ED458A3D4507f1ECd183f99c",
+          "comment": "f() -> 0",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "blockhash_shadow_resolution.sol:C"
+  }
+}

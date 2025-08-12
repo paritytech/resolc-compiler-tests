@@ -1,0 +1,109 @@
+{
+  "cases": [
+    {
+      "name": "alignment",
+      "inputs": [
+        {
+          "caller": "0x420C2a9306C343900B945757B3d001C13ce3d390",
+          "comment": "stateBool() -> true",
+          "instance": "D",
+          "method": "stateBool()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x420C2a9306C343900B945757B3d001C13ce3d390",
+          "comment": "stateBool() -> right(true)",
+          "instance": "D",
+          "method": "stateBool()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x420C2a9306C343900B945757B3d001C13ce3d390",
+          "comment": "stateDecimal() -> 42",
+          "instance": "D",
+          "method": "stateDecimal()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000000000002a"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x420C2a9306C343900B945757B3d001C13ce3d390",
+          "comment": "stateDecimal() -> right(42)",
+          "instance": "D",
+          "method": "stateDecimal()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000000000002a"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x420C2a9306C343900B945757B3d001C13ce3d390",
+          "comment": "stateBytes() -> left(0x4200ef)",
+          "instance": "D",
+          "method": "stateBytes()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x4200ef0000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x420C2a9306C343900B945757B3d001C13ce3d390",
+          "comment": "internalStateDecimal() -> 0x20; gas legacy: 76665; gas legacy code: 23600",
+          "instance": "D",
+          "method": "internalStateDecimal()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000020"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x420C2a9306C343900B945757B3d001C13ce3d390",
+          "comment": "update(bool,uint256,bytes32): false, -23, left(0x2300ef) -> false, -23, left(0x2300ef)",
+          "instance": "D",
+          "method": "update(bool,uint256,bytes32)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe9",
+            "0x2300ef0000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000",
+              "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe9",
+              "0x2300ef0000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "D": "alignment.sol:D"
+  }
+}

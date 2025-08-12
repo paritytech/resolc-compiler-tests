@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "exp_operator_const_signed",
+      "inputs": [
+        {
+          "caller": "0x04822880847fB03Ae0690B2EB6f39AD57459033f",
+          "comment": "f() -> -8",
+          "instance": "test",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff8"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "test": "exp_operator_const_signed.sol:test"
+  }
+}

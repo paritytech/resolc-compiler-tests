@@ -1,0 +1,54 @@
+{
+  "cases": [
+    {
+      "name": "function_type_array_to_storage",
+      "inputs": [
+        {
+          "caller": "0xD6259cFA851e006fA76B466d80B013f831dFfca4",
+          "comment": "testViewToDefault() -> 12, 22",
+          "instance": "C",
+          "method": "testViewToDefault()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000000000000c",
+              "0x0000000000000000000000000000000000000000000000000000000000000016"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xD6259cFA851e006fA76B466d80B013f831dFfca4",
+          "comment": "testPureToDefault() -> 13, 23",
+          "instance": "C",
+          "method": "testPureToDefault()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000000000000d",
+              "0x0000000000000000000000000000000000000000000000000000000000000017"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xD6259cFA851e006fA76B466d80B013f831dFfca4",
+          "comment": "testPureToView() -> 13, 23",
+          "instance": "C",
+          "method": "testPureToView()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000000000000d",
+              "0x0000000000000000000000000000000000000000000000000000000000000017"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "function_type_array_to_storage.sol:C"
+  }
+}

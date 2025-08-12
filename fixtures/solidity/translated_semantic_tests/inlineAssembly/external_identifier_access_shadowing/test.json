@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "external_identifier_access_shadowing",
+      "inputs": [
+        {
+          "caller": "0xf767268D86A3829739F2FD0d121bbb18062ff703",
+          "comment": "f() -> 2",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000002"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "external_identifier_access_shadowing.sol:C"
+  }
+}

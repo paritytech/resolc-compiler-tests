@@ -1,0 +1,51 @@
+{
+  "cases": [
+    {
+      "name": "blobhash",
+      "inputs": [
+        {
+          "caller": "0xcaB2C7650b23536774c8bfB0ac2e04Bc2eb8FF09",
+          "comment": "f() -> 0x0100000000000000000000000000000000000000000000000000000000000001",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0100000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xcaB2C7650b23536774c8bfB0ac2e04Bc2eb8FF09",
+          "comment": "g() -> 0x0100000000000000000000000000000000000000000000000000000000000002",
+          "instance": "C",
+          "method": "g()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0100000000000000000000000000000000000000000000000000000000000002"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xcaB2C7650b23536774c8bfB0ac2e04Bc2eb8FF09",
+          "comment": "h() -> 0x00",
+          "instance": "C",
+          "method": "h()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "blobhash.sol:C"
+  }
+}

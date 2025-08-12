@@ -1,0 +1,42 @@
+{
+  "cases": [
+    {
+      "name": "conditional_expression_functions",
+      "inputs": [
+        {
+          "caller": "0xC6dD525848DC78C017D958Ee385a81DBd3dd05d1",
+          "comment": "f(bool): true -> 1",
+          "instance": "test",
+          "method": "f(bool)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000001"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xC6dD525848DC78C017D958Ee385a81DBd3dd05d1",
+          "comment": "f(bool): false -> 2",
+          "instance": "test",
+          "method": "f(bool)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000002"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "test": "conditional_expression_functions.sol:test"
+  }
+}

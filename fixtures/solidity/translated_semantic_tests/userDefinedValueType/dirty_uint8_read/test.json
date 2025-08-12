@@ -1,0 +1,48 @@
+{
+  "cases": [
+    {
+      "name": "dirty_uint8_read",
+      "inputs": [
+        {
+          "caller": "0x53aDC7C66eC868A7825e9cB4eacAE0fA71548336",
+          "comment": "x() -> -5",
+          "instance": "C",
+          "method": "x()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x53aDC7C66eC868A7825e9cB4eacAE0fA71548336",
+          "comment": "create_dirty_slot() ->",
+          "instance": "C",
+          "method": "create_dirty_slot()",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x53aDC7C66eC868A7825e9cB4eacAE0fA71548336",
+          "comment": "read_unclean_value() -> 0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb",
+          "instance": "C",
+          "method": "read_unclean_value()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "dirty_uint8_read.sol:C"
+  }
+}

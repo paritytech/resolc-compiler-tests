@@ -1,0 +1,53 @@
+{
+  "cases": [
+    {
+      "name": "use_scratch",
+      "inputs": [
+        {
+          "caller": "0xEa5c58F6335C4E851E43c434C7341Fd38044957a",
+          "comment": "constructor(): 3 ->; gas irOptimized: 81194; gas irOptimized code: 42400; gas legacy: 88244; gas legacy code: 109400; gas legacyOptimized: 81858; gas legacyOptimized code: 55800",
+          "instance": "C",
+          "method": "#deployer",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000003"
+          ],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xEa5c58F6335C4E851E43c434C7341Fd38044957a",
+          "comment": "f() -> 84, 23",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000054",
+              "0x0000000000000000000000000000000000000000000000000000000000000017"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xEa5c58F6335C4E851E43c434C7341Fd38044957a",
+          "comment": "m(uint256): 3 -> 7",
+          "instance": "C",
+          "method": "m(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000003"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000007"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "use_scratch.sol:C"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "cases": [
+    {
+      "name": "internal_library_function_attached_to_literal",
+      "inputs": [
+        {
+          "caller": "0x7CEB3EB751C4C16dd9dE1f0bb1b5630e6194e78a",
+          "comment": "double42() -> 84",
+          "instance": "C",
+          "method": "double42()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000054"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x7CEB3EB751C4C16dd9dE1f0bb1b5630e6194e78a",
+          "comment": "doubleABC() -> 0x20, 6, \"abcabc\"",
+          "instance": "C",
+          "method": "doubleABC()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000020",
+              "0x0000000000000000000000000000000000000000000000000000000000000006",
+              "0x0000000000000000000000000000000000000000000000000000616263616263"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "internal_library_function_attached_to_literal.sol:C"
+  }
+}

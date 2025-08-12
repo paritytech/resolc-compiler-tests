@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "simple_struct_allocation",
+      "inputs": [
+        {
+          "caller": "0xEfb3f853E9666F5d34E001eA27aa10C8C6d7dF16",
+          "comment": "f() -> 1",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "simple_struct_allocation.sol:C"
+  }
+}

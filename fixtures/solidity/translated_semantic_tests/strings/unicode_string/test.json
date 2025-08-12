@@ -1,0 +1,42 @@
+{
+  "cases": [
+    {
+      "name": "unicode_string",
+      "inputs": [
+        {
+          "caller": "0x160D42a1D559CFC8dCCecD2d6aa73002eA4cA10e",
+          "comment": "f() -> 0x20, 0x14, \"\\xf0\\x9f\\x98\\x83, \\xf0\\x9f\\x98\\xad, and \\xf0\\x9f\\x98\\x88\"",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000020",
+              "0x0000000000000000000000000000000000000000000000000000000000000014",
+              "0x000000000000000000000000f09f98832c20f09f98ad2c20616e6420f09f9888"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x160D42a1D559CFC8dCCecD2d6aa73002eA4cA10e",
+          "comment": "g() -> 0x20, 0x14, \"\\xf0\\x9f\\x98\\x83, \\xf0\\x9f\\x98\\xad, and \\xf0\\x9f\\x98\\x88\"",
+          "instance": "C",
+          "method": "g()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000020",
+              "0x0000000000000000000000000000000000000000000000000000000000000014",
+              "0x000000000000000000000000f09f98832c20f09f98ad2c20616e6420f09f9888"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "unicode_string.sol:C"
+  }
+}

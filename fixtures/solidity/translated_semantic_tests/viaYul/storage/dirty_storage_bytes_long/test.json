@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "dirty_storage_bytes_long",
+      "inputs": [
+        {
+          "caller": "0x7E9961FA09dd52f945F8143844785cF0E51bb4Ce",
+          "comment": "f() -> true",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "dirty_storage_bytes_long.sol:C"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "cases": [
+    {
+      "name": "storage_reference_library_function",
+      "inputs": [
+        {
+          "caller": "0xA51C1718597b143Bc700FFCb7a529AF94f4c5f47",
+          "comment": "initUsingReference() ->",
+          "instance": "C",
+          "method": "initUsingReference()",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xA51C1718597b143Bc700FFCb7a529AF94f4c5f47",
+          "comment": "s() -> 2, true",
+          "instance": "C",
+          "method": "s()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000002",
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "storage_reference_library_function.sol:C",
+    "L": "storage_reference_library_function.sol:L"
+  },
+  "libraries": {
+    "storage_reference_library_function.sol": {
+      "L": "L"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "cases": [
+    {
+      "name": "blobhash_pre_cancun",
+      "inputs": [
+        {
+          "caller": "0xDA6FaefC27dff09Bccc5af872a0E5761dda889a0",
+          "comment": "f() -> 1",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xDA6FaefC27dff09Bccc5af872a0E5761dda889a0",
+          "comment": "g() -> 1000",
+          "instance": "C",
+          "method": "g()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x00000000000000000000000000000000000000000000000000000000000003e8"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "blobhash_pre_cancun.sol:C"
+  }
+}

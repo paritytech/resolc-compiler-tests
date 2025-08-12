@@ -1,0 +1,43 @@
+{
+  "cases": [
+    {
+      "name": "operator_making_view_external_call",
+      "inputs": [
+        {
+          "caller": "0x3C861E543d7e2C4eA4bE2c7F00643b177d552BA9",
+          "comment": "testMul(int32,int32): 42, 10 -> 420; gas irOptimized: 102563; gas legacy: 57117; gas legacy code: 127000; gas legacyOptimized: 55246; gas legacyOptimized code: 68400",
+          "instance": "C",
+          "method": "testMul(int32,int32)",
+          "calldata": [
+            "0x000000000000000000000000000000000000000000000000000000000000002a",
+            "0x000000000000000000000000000000000000000000000000000000000000000a"
+          ],
+          "expected": {
+            "return_data": [
+              "0x00000000000000000000000000000000000000000000000000000000000001a4"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x3C861E543d7e2C4eA4bE2c7F00643b177d552BA9",
+          "comment": "testInc(int32): 42 -> 43; gas irOptimized: 102386; gas legacy: 56378; gas legacy code: 127000; gas legacyOptimized: 54943; gas legacyOptimized code: 68400",
+          "instance": "C",
+          "method": "testInc(int32)",
+          "calldata": [
+            "0x000000000000000000000000000000000000000000000000000000000000002a"
+          ],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000000000002b"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "operator_making_view_external_call.sol:C"
+  }
+}

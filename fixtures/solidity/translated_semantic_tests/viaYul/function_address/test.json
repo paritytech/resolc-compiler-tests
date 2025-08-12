@@ -1,0 +1,54 @@
+{
+  "cases": [
+    {
+      "name": "function_address",
+      "inputs": [
+        {
+          "caller": "0xE6b3367318C5e11a6eED3Cd0D850eC06A02E9b90",
+          "comment": "f() -> 0x1234",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000001234"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xE6b3367318C5e11a6eED3Cd0D850eC06A02E9b90",
+          "comment": "g() -> true, true",
+          "instance": "C",
+          "method": "g()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001",
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xE6b3367318C5e11a6eED3Cd0D850eC06A02E9b90",
+          "comment": "h(function): left(0x1122334400112233445566778899AABBCCDDEEFF42424242) -> 0x1122334400112233445566778899AABBCCDDEEFF",
+          "instance": "C",
+          "method": "h(function)",
+          "calldata": [
+            "0x1122334400112233445566778899aabbccddeeff424242420000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000001122334400112233445566778899aabbccddeeff"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "function_address.sol:C"
+  }
+}

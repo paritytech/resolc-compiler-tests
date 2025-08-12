@@ -1,0 +1,103 @@
+{
+  "cases": [
+    {
+      "name": "copy_struct_to_array_stored_in_mapping",
+      "inputs": [
+        {
+          "caller": "0x41ABcA639b47CB89CCEBd3C17Bb6C3e175c1cb74",
+          "comment": "from_storage_to_static_array() -> 0, 7",
+          "instance": "C",
+          "method": "from_storage_to_static_array()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000",
+              "0x0000000000000000000000000000000000000000000000000000000000000007"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x41ABcA639b47CB89CCEBd3C17Bb6C3e175c1cb74",
+          "comment": "from_storage_to_dynamic_array() -> 0x20, 1, 7",
+          "instance": "C",
+          "method": "from_storage_to_dynamic_array()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000020",
+              "0x0000000000000000000000000000000000000000000000000000000000000001",
+              "0x0000000000000000000000000000000000000000000000000000000000000007"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x41ABcA639b47CB89CCEBd3C17Bb6C3e175c1cb74",
+          "comment": "from_memory_to_static_array() -> 0, 7",
+          "instance": "C",
+          "method": "from_memory_to_static_array()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000",
+              "0x0000000000000000000000000000000000000000000000000000000000000007"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x41ABcA639b47CB89CCEBd3C17Bb6C3e175c1cb74",
+          "comment": "from_memory_to_dynamic_array() -> 0x20, 1, 7",
+          "instance": "C",
+          "method": "from_memory_to_dynamic_array()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000020",
+              "0x0000000000000000000000000000000000000000000000000000000000000001",
+              "0x0000000000000000000000000000000000000000000000000000000000000007"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x41ABcA639b47CB89CCEBd3C17Bb6C3e175c1cb74",
+          "comment": "from_calldata_to_static_array((uint8)): 8 -> 0, 8",
+          "instance": "C",
+          "method": "from_calldata_to_static_array((uint8))",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000008"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000",
+              "0x0000000000000000000000000000000000000000000000000000000000000008"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x41ABcA639b47CB89CCEBd3C17Bb6C3e175c1cb74",
+          "comment": "from_calldata_to_dynamic_array((uint8)): 8 -> 0x20, 1, 8",
+          "instance": "C",
+          "method": "from_calldata_to_dynamic_array((uint8))",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000008"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000020",
+              "0x0000000000000000000000000000000000000000000000000000000000000001",
+              "0x0000000000000000000000000000000000000000000000000000000000000008"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "copy_struct_to_array_stored_in_mapping.sol:C"
+  }
+}

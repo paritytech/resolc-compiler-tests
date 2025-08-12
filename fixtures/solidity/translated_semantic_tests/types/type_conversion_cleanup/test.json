@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "type_conversion_cleanup",
+      "inputs": [
+        {
+          "caller": "0xBdEA164ef6Ef103c68556eF735179AaF321265bc",
+          "comment": "test() -> 0xffffffffffffffffffffffffffffffff",
+          "instance": "Test",
+          "method": "test()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x00000000000000000000000000000000ffffffffffffffffffffffffffffffff"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "Test": "type_conversion_cleanup.sol:Test"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "super_parentheses",
+      "inputs": [
+        {
+          "caller": "0xDf35DF6fE6Cf29C2F6c92FF2f71076f1b1fe82Af",
+          "comment": "f() -> 15",
+          "instance": "D",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000000000000f"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "D": "super_parentheses.sol:D"
+  }
+}

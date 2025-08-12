@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "inline_assembly_read_and_write_stack",
+      "inputs": [
+        {
+          "caller": "0x18f85288151a7276942905cE065eDF0b19a96Afa",
+          "comment": "f() -> 45",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000000000002d"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "inline_assembly_read_and_write_stack.sol:C"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "cases": [
+    {
+      "name": "truefalse",
+      "inputs": [
+        {
+          "caller": "0x46ab90928E0601Dbc4cf886BD111DC1240d0a0c1",
+          "comment": "f() -> 1, 0",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001",
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "truefalse.sol:C"
+  }
+}

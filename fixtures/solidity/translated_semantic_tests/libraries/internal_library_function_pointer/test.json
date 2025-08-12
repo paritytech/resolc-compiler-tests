@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "internal_library_function_pointer",
+      "inputs": [
+        {
+          "caller": "0x162FBde4FC05C93872F8f88b36e33c5551D23245",
+          "comment": "g() -> 66",
+          "instance": "C",
+          "method": "g()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000042"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "internal_library_function_pointer.sol:C"
+  }
+}

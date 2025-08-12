@@ -1,0 +1,42 @@
+{
+  "cases": [
+    {
+      "name": "assert_pre_byzantium",
+      "inputs": [
+        {
+          "caller": "0x247a672A05E7B0c2e46757C8738B8232dAA98B59",
+          "comment": "f(bool): true -> 1",
+          "instance": "C",
+          "method": "f(bool)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000001"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x247a672A05E7B0c2e46757C8738B8232dAA98B59",
+          "comment": "f(bool): false -> 2",
+          "instance": "C",
+          "method": "f(bool)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000002"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "assert_pre_byzantium.sol:C"
+  }
+}

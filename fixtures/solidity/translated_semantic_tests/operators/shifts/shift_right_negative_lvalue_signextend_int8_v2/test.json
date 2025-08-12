@@ -1,0 +1,77 @@
+{
+  "cases": [
+    {
+      "name": "shift_right_negative_lvalue_signextend_int8_v2",
+      "inputs": [
+        {
+          "caller": "0x078f4C6E82c95193fEfc0f36FB433b51BdeAD394",
+          "comment": "f(int8,uint8): 0x99, 0x00 -> FAILURE",
+          "instance": "C",
+          "method": "f(int8,uint8)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000099",
+            "0x0000000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "exception": true
+          }
+        },
+        {
+          "caller": "0x078f4C6E82c95193fEfc0f36FB433b51BdeAD394",
+          "comment": "f(int8,uint8): 0x99, 0x01 -> FAILURE",
+          "instance": "C",
+          "method": "f(int8,uint8)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000099",
+            "0x0000000000000000000000000000000000000000000000000000000000000001"
+          ],
+          "expected": {
+            "exception": true
+          }
+        },
+        {
+          "caller": "0x078f4C6E82c95193fEfc0f36FB433b51BdeAD394",
+          "comment": "f(int8,uint8): 0x99, 0x02 -> FAILURE",
+          "instance": "C",
+          "method": "f(int8,uint8)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000099",
+            "0x0000000000000000000000000000000000000000000000000000000000000002"
+          ],
+          "expected": {
+            "exception": true
+          }
+        },
+        {
+          "caller": "0x078f4C6E82c95193fEfc0f36FB433b51BdeAD394",
+          "comment": "f(int8,uint8): 0x99, 0x04 -> FAILURE",
+          "instance": "C",
+          "method": "f(int8,uint8)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000099",
+            "0x0000000000000000000000000000000000000000000000000000000000000004"
+          ],
+          "expected": {
+            "exception": true
+          }
+        },
+        {
+          "caller": "0x078f4C6E82c95193fEfc0f36FB433b51BdeAD394",
+          "comment": "f(int8,uint8): 0x99, 0x08 -> FAILURE",
+          "instance": "C",
+          "method": "f(int8,uint8)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000099",
+            "0x0000000000000000000000000000000000000000000000000000000000000008"
+          ],
+          "expected": {
+            "exception": true
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "shift_right_negative_lvalue_signextend_int8_v2.sol:C"
+  }
+}

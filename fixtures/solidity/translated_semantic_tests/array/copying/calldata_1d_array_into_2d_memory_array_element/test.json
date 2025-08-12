@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "calldata_1d_array_into_2d_memory_array_element",
+      "inputs": [
+        {
+          "caller": "0x4dBca645Eb4BFb707609Bf0196C710c6f0910B6E",
+          "comment": "test() -> true",
+          "instance": "Test",
+          "method": "test()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "Test": "calldata_1d_array_into_2d_memory_array_element.sol:Test"
+  }
+}

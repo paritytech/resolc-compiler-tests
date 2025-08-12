@@ -1,0 +1,26 @@
+{
+  "cases": [
+    {
+      "name": "increment_decrement",
+      "inputs": [
+        {
+          "caller": "0xcc9a01DD6f27Be141EAEfb8A8ed468f7e40170B9",
+          "comment": "f() -> -1, 4",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+              "0x0000000000000000000000000000000000000000000000000000000000000004"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "increment_decrement.sol:C"
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "cases": [
+    {
+      "name": "state_variables_init_order_3",
+      "inputs": [
+        {
+          "caller": "0xf1C3317b950618a3aE1f663c97b3335cd1F0660D",
+          "comment": "a() -> 17",
+          "instance": "B",
+          "method": "a()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000011"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xf1C3317b950618a3aE1f663c97b3335cd1F0660D",
+          "comment": "b() -> 42",
+          "instance": "B",
+          "method": "b()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000000000002a"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xf1C3317b950618a3aE1f663c97b3335cd1F0660D",
+          "comment": "c() -> 51",
+          "instance": "B",
+          "method": "c()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000033"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xf1C3317b950618a3aE1f663c97b3335cd1F0660D",
+          "comment": "b_a() -> 17",
+          "instance": "B",
+          "method": "b_a()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000011"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xf1C3317b950618a3aE1f663c97b3335cd1F0660D",
+          "comment": "b_b() -> 42",
+          "instance": "B",
+          "method": "b_b()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000000000002a"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xf1C3317b950618a3aE1f663c97b3335cd1F0660D",
+          "comment": "b_c() -> 51",
+          "instance": "B",
+          "method": "b_c()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000033"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xf1C3317b950618a3aE1f663c97b3335cd1F0660D",
+          "comment": "d() -> 23",
+          "instance": "B",
+          "method": "d()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000017"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xf1C3317b950618a3aE1f663c97b3335cd1F0660D",
+          "comment": "e() -> 42",
+          "instance": "B",
+          "method": "e()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000000000002a"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "B": "state_variables_init_order_3.sol:B"
+  }
+}

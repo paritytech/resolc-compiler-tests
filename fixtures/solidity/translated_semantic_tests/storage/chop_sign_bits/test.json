@@ -1,0 +1,117 @@
+{
+  "cases": [
+    {
+      "name": "chop_sign_bits",
+      "inputs": [
+        {
+          "caller": "0x1353e0761fAd723CCff02f91f19768d83Fc1c41e",
+          "comment": "x(uint256): 0 -> -1",
+          "instance": "Test",
+          "method": "x(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1353e0761fAd723CCff02f91f19768d83Fc1c41e",
+          "comment": "x(uint256): 1 -> -2",
+          "instance": "Test",
+          "method": "x(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000001"
+          ],
+          "expected": {
+            "return_data": [
+              "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1353e0761fAd723CCff02f91f19768d83Fc1c41e",
+          "comment": "y(uint256): 0 -> -5",
+          "instance": "Test",
+          "method": "y(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1353e0761fAd723CCff02f91f19768d83Fc1c41e",
+          "comment": "y(uint256): 1 -> -6",
+          "instance": "Test",
+          "method": "y(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000001"
+          ],
+          "expected": {
+            "return_data": [
+              "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1353e0761fAd723CCff02f91f19768d83Fc1c41e",
+          "comment": "f() -> 0x20, 2, -3, -4",
+          "instance": "Test",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000020",
+              "0x0000000000000000000000000000000000000000000000000000000000000002",
+              "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffd",
+              "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1353e0761fAd723CCff02f91f19768d83Fc1c41e",
+          "comment": "g() -> -3, -4",
+          "instance": "Test",
+          "method": "g()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffd",
+              "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1353e0761fAd723CCff02f91f19768d83Fc1c41e",
+          "comment": "h(int8): -10 -> -10",
+          "instance": "Test",
+          "method": "h(int8)",
+          "calldata": [
+            "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff6"
+          ],
+          "expected": {
+            "return_data": [
+              "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff6"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "Test": "chop_sign_bits.sol:Test"
+  }
+}

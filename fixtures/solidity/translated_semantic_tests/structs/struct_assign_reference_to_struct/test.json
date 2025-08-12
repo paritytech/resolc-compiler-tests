@@ -1,0 +1,28 @@
+{
+  "cases": [
+    {
+      "name": "struct_assign_reference_to_struct",
+      "inputs": [
+        {
+          "caller": "0x3cF80350821bFc6734d343C229354FE6985311D1",
+          "comment": "assign() -> 2, 2, 3, 3",
+          "instance": "test",
+          "method": "assign()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000002",
+              "0x0000000000000000000000000000000000000000000000000000000000000002",
+              "0x0000000000000000000000000000000000000000000000000000000000000003",
+              "0x0000000000000000000000000000000000000000000000000000000000000003"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "test": "struct_assign_reference_to_struct.sol:test"
+  }
+}

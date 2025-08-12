@@ -1,0 +1,53 @@
+{
+  "cases": [
+    {
+      "name": "different_call_type_transient",
+      "inputs": [
+        {
+          "caller": "0x18597Bb8FED44a268a7eE526C295271123C4CceB",
+          "comment": "testDelegate() -> 7, 0",
+          "instance": "Test",
+          "method": "testDelegate()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000007",
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x18597Bb8FED44a268a7eE526C295271123C4CceB",
+          "comment": "testCall() -> 0, 8",
+          "instance": "Test",
+          "method": "testCall()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000",
+              "0x0000000000000000000000000000000000000000000000000000000000000008"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x18597Bb8FED44a268a7eE526C295271123C4CceB",
+          "comment": "testStatic() -> false; gas irOptimized: 96900694; gas legacy: 96901136; gas legacyOptimized: 96900725",
+          "instance": "Test",
+          "method": "testStatic()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "Test": "different_call_type_transient.sol:Test"
+  }
+}

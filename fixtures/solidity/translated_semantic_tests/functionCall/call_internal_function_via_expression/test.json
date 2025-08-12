@@ -1,0 +1,38 @@
+{
+  "cases": [
+    {
+      "name": "call_internal_function_via_expression",
+      "inputs": [
+        {
+          "caller": "0xB03560698B09Fbd835384C1ba855fbA890646AB1",
+          "comment": "associated() -> 42",
+          "instance": "C",
+          "method": "associated()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000000000002a"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xB03560698B09Fbd835384C1ba855fbA890646AB1",
+          "comment": "unassociated() -> 42",
+          "instance": "C",
+          "method": "unassociated()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000000000002a"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "call_internal_function_via_expression.sol:C"
+  }
+}

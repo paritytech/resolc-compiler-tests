@@ -1,0 +1,40 @@
+{
+  "cases": [
+    {
+      "name": "require_error_stack_check",
+      "inputs": [
+        {
+          "caller": "0xD5CC10c45fc0f9f956Acd7559F61EdBFeC9F6C3d",
+          "comment": "f(bool,uint256,uint256,uint256): true, 42, 4242, 424242 ->",
+          "instance": "C",
+          "method": "f(bool,uint256,uint256,uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000001",
+            "0x000000000000000000000000000000000000000000000000000000000000002a",
+            "0x0000000000000000000000000000000000000000000000000000000000001092",
+            "0x0000000000000000000000000000000000000000000000000000000000067932"
+          ],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xD5CC10c45fc0f9f956Acd7559F61EdBFeC9F6C3d",
+          "comment": "x() -> 4242",
+          "instance": "C",
+          "method": "x()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000001092"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "require_error_stack_check.sol:C"
+  }
+}

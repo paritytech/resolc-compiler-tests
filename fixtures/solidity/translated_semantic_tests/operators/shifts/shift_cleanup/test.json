@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "shift_cleanup",
+      "inputs": [
+        {
+          "caller": "0x3c466e671D728D66331C05892f7B61982CD5c339",
+          "comment": "f() -> 0x0",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "shift_cleanup.sol:C"
+  }
+}

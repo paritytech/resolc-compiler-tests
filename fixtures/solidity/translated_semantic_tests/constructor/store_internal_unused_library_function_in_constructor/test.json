@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "store_internal_unused_library_function_in_constructor",
+      "inputs": [
+        {
+          "caller": "0x6813Eb9362372EEF6200f3b1dbC3f819671cBA69",
+          "comment": "t() -> 7",
+          "instance": "C",
+          "method": "t()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000007"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "store_internal_unused_library_function_in_constructor.sol:C"
+  }
+}

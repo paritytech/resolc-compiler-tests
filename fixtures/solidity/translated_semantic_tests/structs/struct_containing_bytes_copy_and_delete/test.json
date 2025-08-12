@@ -1,0 +1,123 @@
+{
+  "cases": [
+    {
+      "name": "struct_containing_bytes_copy_and_delete",
+      "inputs": [
+        {
+          "comment": "storageEmpty -> 1",
+          "address": "c.address",
+          "is_storage_empty": true,
+          "caller": "0x58F533E9756b69525299880f988c5BEc4959ddFf"
+        },
+        {
+          "caller": "0x31e380553e788603218e3AcF6CC4608d60C6901D",
+          "comment": "set(uint256,bytes,uint256): 12, 0x60, 13, 33, \"12345678901234567890123456789012\", \"3\" -> true; gas irOptimized: 133557; gas legacy: 134624; gas legacyOptimized: 133856",
+          "instance": "c",
+          "method": "set(uint256,bytes,uint256)",
+          "calldata": [
+            "0x000000000000000000000000000000000000000000000000000000000000000c",
+            "0x0000000000000000000000000000000000000000000000000000000000000060",
+            "0x000000000000000000000000000000000000000000000000000000000000000d",
+            "0x0000000000000000000000000000000000000000000000000000000000000021",
+            "0x3132333435363738393031323334353637383930313233343536373839303132",
+            "0x0000000000000000000000000000000000000000000000000000000000000033"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x31e380553e788603218e3AcF6CC4608d60C6901D",
+          "comment": "test(uint256): 32 -> \"3\"",
+          "instance": "c",
+          "method": "test(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000020"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000033"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "comment": "storageEmpty -> 0",
+          "address": "c.address",
+          "is_storage_empty": false,
+          "caller": "0x58F533E9756b69525299880f988c5BEc4959ddFf"
+        },
+        {
+          "caller": "0x31e380553e788603218e3AcF6CC4608d60C6901D",
+          "comment": "copy() -> true",
+          "instance": "c",
+          "method": "copy()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "comment": "storageEmpty -> 1",
+          "address": "c.address",
+          "is_storage_empty": true,
+          "caller": "0x58F533E9756b69525299880f988c5BEc4959ddFf"
+        },
+        {
+          "caller": "0x31e380553e788603218e3AcF6CC4608d60C6901D",
+          "comment": "set(uint256,bytes,uint256): 12, 0x60, 13, 33, \"12345678901234567890123456789012\", \"3\" -> true; gas irOptimized: 133557; gas legacy: 134624; gas legacyOptimized: 133856",
+          "instance": "c",
+          "method": "set(uint256,bytes,uint256)",
+          "calldata": [
+            "0x000000000000000000000000000000000000000000000000000000000000000c",
+            "0x0000000000000000000000000000000000000000000000000000000000000060",
+            "0x000000000000000000000000000000000000000000000000000000000000000d",
+            "0x0000000000000000000000000000000000000000000000000000000000000021",
+            "0x3132333435363738393031323334353637383930313233343536373839303132",
+            "0x0000000000000000000000000000000000000000000000000000000000000033"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "comment": "storageEmpty -> 0",
+          "address": "c.address",
+          "is_storage_empty": false,
+          "caller": "0x58F533E9756b69525299880f988c5BEc4959ddFf"
+        },
+        {
+          "caller": "0x31e380553e788603218e3AcF6CC4608d60C6901D",
+          "comment": "del() -> true",
+          "instance": "c",
+          "method": "del()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "comment": "storageEmpty -> 1",
+          "address": "c.address",
+          "is_storage_empty": true,
+          "caller": "0x58F533E9756b69525299880f988c5BEc4959ddFf"
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "c": "struct_containing_bytes_copy_and_delete.sol:c"
+  }
+}

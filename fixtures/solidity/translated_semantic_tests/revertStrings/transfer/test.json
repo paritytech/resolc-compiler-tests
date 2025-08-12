@@ -1,0 +1,62 @@
+{
+  "cases": [
+    {
+      "name": "transfer",
+      "inputs": [
+        {
+          "caller": "0x31b2c2b62B3d95473726Bb949182C06031a93490",
+          "comment": "(), 10 wei ->",
+          "instance": "C",
+          "method": "#fallback",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          },
+          "value": "10 wei"
+        },
+        {
+          "caller": "0x31b2c2b62B3d95473726Bb949182C06031a93490",
+          "comment": "g() -> 10",
+          "instance": "C",
+          "method": "g()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000000000000a"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x31b2c2b62B3d95473726Bb949182C06031a93490",
+          "comment": "f() -> FAILURE, hex\"08c379a0\", 0x20, 10, \"no_receive\"",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000008c379a0",
+              "0x0000000000000000000000000000000000000000000000000000000000000020",
+              "0x000000000000000000000000000000000000000000000000000000000000000a",
+              "0x000000000000000000000000000000000000000000006e6f5f72656365697665"
+            ],
+            "exception": true
+          }
+        },
+        {
+          "caller": "0x31b2c2b62B3d95473726Bb949182C06031a93490",
+          "comment": "h() -> FAILURE",
+          "instance": "C",
+          "method": "h()",
+          "calldata": [],
+          "expected": {
+            "exception": true
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "transfer.sol:C"
+  }
+}

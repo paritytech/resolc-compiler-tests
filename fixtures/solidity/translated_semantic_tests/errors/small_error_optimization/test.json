@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "small_error_optimization",
+      "inputs": [
+        {
+          "caller": "0x18Df8BA2Ef19083DDFF68f8B33976Cf22E8419c6",
+          "comment": "f() -> FAILURE, hex\"92bbf6e8\"; gas irOptimized: 221918; gas irOptimized code: 42800; gas legacy: 233752; gas legacy code: 38000; gas legacyOptimized: 224863; gas legacyOptimized code: 34200",
+          "instance": "B",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000092bbf6e8"
+            ],
+            "exception": true
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "B": "small_error_optimization.sol:B"
+  }
+}

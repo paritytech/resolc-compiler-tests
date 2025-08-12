@@ -1,0 +1,62 @@
+{
+  "cases": [
+    {
+      "name": "base_access_to_function_type_variables",
+      "inputs": [
+        {
+          "caller": "0x37cB1a23e763D2F975bFf3B2B86cFa901f7B517E",
+          "comment": "g() -> 2",
+          "instance": "C",
+          "method": "g()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000002"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x37cB1a23e763D2F975bFf3B2B86cFa901f7B517E",
+          "comment": "h() -> FAILURE, hex\"4e487b71\", 0x51",
+          "instance": "C",
+          "method": "h()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000004e487b71",
+              "0x0000000000000000000000000000000000000000000000000000000000000051"
+            ],
+            "exception": true
+          }
+        },
+        {
+          "caller": "0x37cB1a23e763D2F975bFf3B2B86cFa901f7B517E",
+          "comment": "set() ->",
+          "instance": "C",
+          "method": "set()",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x37cB1a23e763D2F975bFf3B2B86cFa901f7B517E",
+          "comment": "h() -> 2",
+          "instance": "C",
+          "method": "h()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000002"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "base_access_to_function_type_variables.sol:C"
+  }
+}

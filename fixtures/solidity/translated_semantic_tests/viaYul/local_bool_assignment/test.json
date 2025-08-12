@@ -1,0 +1,27 @@
+{
+  "cases": [
+    {
+      "name": "local_bool_assignment",
+      "inputs": [
+        {
+          "caller": "0x3c1638a25aD7e8c2a84B53b661dD1BD048407E8f",
+          "comment": "f(bool): true -> true",
+          "instance": "C",
+          "method": "f(bool)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000001"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "local_bool_assignment.sol:C"
+  }
+}

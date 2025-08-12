@@ -1,0 +1,27 @@
+{
+  "cases": [
+    {
+      "name": "shifts",
+      "inputs": [
+        {
+          "caller": "0x50c9DdC16E355522950BcA553F56b410E3194812",
+          "comment": "f(uint256): 7 -> 28",
+          "instance": "C",
+          "method": "f(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000007"
+          ],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000000000001c"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "shifts.sol:C"
+  }
+}

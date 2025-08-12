@@ -15,5 +15,9 @@ alloy = { version = "1.0.23", default-features = false, features = [
 ] }
 anyhow = { version = "1.0.98" }
 clap = { version = "4.5.42", features = ["derive", "wrap_help"] }
+indoc = { version = "2.0.6", default-features = false }
 regex = { version = "1.11.1" }
 serde_json = { version = "1.0.141", features = ["preserve_order"] }
+
+revive-dt-common = { git = "https://github.com/paritytech/revive-differential-tests", rev = "c78e44d7b5b4c0e3ba3ba0e68bc722679c428187" }
+revive-dt-format = { git = "https://github.com/paritytech/revive-differential-tests", rev = "c78e44d7b5b4c0e3ba3ba0e68bc722679c428187" }

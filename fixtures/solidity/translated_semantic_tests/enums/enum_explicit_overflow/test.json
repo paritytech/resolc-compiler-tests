@@ -1,0 +1,103 @@
+{
+  "cases": [
+    {
+      "name": "enum_explicit_overflow",
+      "inputs": [
+        {
+          "caller": "0x4060fB7bA353f413678Be88fc55099Cc499400b5",
+          "comment": "getChoiceExp(uint256): 2 -> 2",
+          "instance": "test",
+          "method": "getChoiceExp(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000002"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000002"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x4060fB7bA353f413678Be88fc55099Cc499400b5",
+          "comment": "getChoiceExp(uint256): 3 -> FAILURE, hex\"4e487b71\", 0x21",
+          "instance": "test",
+          "method": "getChoiceExp(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000003"
+          ],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000004e487b71",
+              "0x0000000000000000000000000000000000000000000000000000000000000021"
+            ],
+            "exception": true
+          }
+        },
+        {
+          "caller": "0x4060fB7bA353f413678Be88fc55099Cc499400b5",
+          "comment": "getChoiceFromSigned(int256): -1 -> FAILURE, hex\"4e487b71\", 0x21",
+          "instance": "test",
+          "method": "getChoiceFromSigned(int256)",
+          "calldata": [
+            "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+          ],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000004e487b71",
+              "0x0000000000000000000000000000000000000000000000000000000000000021"
+            ],
+            "exception": true
+          }
+        },
+        {
+          "caller": "0x4060fB7bA353f413678Be88fc55099Cc499400b5",
+          "comment": "getChoiceFromMax() -> FAILURE, hex\"4e487b71\", 0x21",
+          "instance": "test",
+          "method": "getChoiceFromMax()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000004e487b71",
+              "0x0000000000000000000000000000000000000000000000000000000000000021"
+            ],
+            "exception": true
+          }
+        },
+        {
+          "caller": "0x4060fB7bA353f413678Be88fc55099Cc499400b5",
+          "comment": "getChoiceExp(uint256): 2 -> 2",
+          "instance": "test",
+          "method": "getChoiceExp(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000002"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000002"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x4060fB7bA353f413678Be88fc55099Cc499400b5",
+          "comment": "getChoiceExp(uint256): 0 -> 0",
+          "instance": "test",
+          "method": "getChoiceExp(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "test": "enum_explicit_overflow.sol:test"
+  }
+}

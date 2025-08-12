@@ -1,0 +1,57 @@
+{
+  "cases": [
+    {
+      "name": "stub_internal",
+      "inputs": [
+        {
+          "caller": "0x7383188DDA58718Bca50785aBC9FA98BA412dC89",
+          "comment": "g(uint256): 1 -> 1",
+          "instance": "C",
+          "method": "g(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000001"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x7383188DDA58718Bca50785aBC9FA98BA412dC89",
+          "comment": "g(uint256): 2 -> 4",
+          "instance": "C",
+          "method": "g(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000002"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000004"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x7383188DDA58718Bca50785aBC9FA98BA412dC89",
+          "comment": "g(uint256): 4 -> 16",
+          "instance": "C",
+          "method": "g(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000004"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000010"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "stub_internal.sol:C"
+  }
+}

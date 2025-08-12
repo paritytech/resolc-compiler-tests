@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "shift_constant_left",
+      "inputs": [
+        {
+          "caller": "0x6C93F29088a5856cc9ee327A57B3652B68e85037",
+          "comment": "a() -> 0x4200",
+          "instance": "C",
+          "method": "a()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000004200"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "shift_constant_left.sol:C"
+  }
+}

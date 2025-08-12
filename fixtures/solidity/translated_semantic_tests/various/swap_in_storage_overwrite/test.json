@@ -1,0 +1,116 @@
+{
+  "cases": [
+    {
+      "name": "swap_in_storage_overwrite",
+      "inputs": [
+        {
+          "caller": "0x2Cb2A3304231F5151FEE21680D6F31A060822251",
+          "comment": "x() -> 0, 0",
+          "instance": "c",
+          "method": "x()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000",
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x2Cb2A3304231F5151FEE21680D6F31A060822251",
+          "comment": "y() -> 0, 0",
+          "instance": "c",
+          "method": "y()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000",
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x2Cb2A3304231F5151FEE21680D6F31A060822251",
+          "comment": "set() ->; gas irOptimized: 109684; gas legacy: 109727; gas legacyOptimized: 109680",
+          "instance": "c",
+          "method": "set()",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x2Cb2A3304231F5151FEE21680D6F31A060822251",
+          "comment": "x() -> 1, 2",
+          "instance": "c",
+          "method": "x()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001",
+              "0x0000000000000000000000000000000000000000000000000000000000000002"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x2Cb2A3304231F5151FEE21680D6F31A060822251",
+          "comment": "y() -> 3, 4",
+          "instance": "c",
+          "method": "y()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000003",
+              "0x0000000000000000000000000000000000000000000000000000000000000004"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x2Cb2A3304231F5151FEE21680D6F31A060822251",
+          "comment": "swap() ->",
+          "instance": "c",
+          "method": "swap()",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x2Cb2A3304231F5151FEE21680D6F31A060822251",
+          "comment": "x() -> 1, 2",
+          "instance": "c",
+          "method": "x()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001",
+              "0x0000000000000000000000000000000000000000000000000000000000000002"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x2Cb2A3304231F5151FEE21680D6F31A060822251",
+          "comment": "y() -> 1, 2",
+          "instance": "c",
+          "method": "y()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001",
+              "0x0000000000000000000000000000000000000000000000000000000000000002"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "c": "swap_in_storage_overwrite.sol:c"
+  }
+}

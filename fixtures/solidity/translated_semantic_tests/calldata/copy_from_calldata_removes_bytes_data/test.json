@@ -1,0 +1,69 @@
+{
+  "cases": [
+    {
+      "name": "copy_from_calldata_removes_bytes_data",
+      "inputs": [
+        {
+          "caller": "0x96DceBEeFFB58Ac8FF6AEc69822a7c9C4Df8880D",
+          "comment": "(): 1, 2, 3, 4, 5 ->; gas irOptimized: 155122; gas legacy: 155473; gas legacyOptimized: 155295",
+          "instance": "c",
+          "method": "#fallback",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000001",
+            "0x0000000000000000000000000000000000000000000000000000000000000002",
+            "0x0000000000000000000000000000000000000000000000000000000000000003",
+            "0x0000000000000000000000000000000000000000000000000000000000000004",
+            "0x0000000000000000000000000000000000000000000000000000000000000005"
+          ],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x96DceBEeFFB58Ac8FF6AEc69822a7c9C4Df8880D",
+          "comment": "checkIfDataIsEmpty() -> false",
+          "instance": "c",
+          "method": "checkIfDataIsEmpty()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x96DceBEeFFB58Ac8FF6AEc69822a7c9C4Df8880D",
+          "comment": "sendMessage() -> true, 0x40, 0",
+          "instance": "c",
+          "method": "sendMessage()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001",
+              "0x0000000000000000000000000000000000000000000000000000000000000040",
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x96DceBEeFFB58Ac8FF6AEc69822a7c9C4Df8880D",
+          "comment": "checkIfDataIsEmpty() -> true",
+          "instance": "c",
+          "method": "checkIfDataIsEmpty()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "c": "copy_from_calldata_removes_bytes_data.sol:c"
+  }
+}

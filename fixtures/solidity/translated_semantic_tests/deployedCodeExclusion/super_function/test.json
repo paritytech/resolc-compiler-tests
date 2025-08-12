@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "super_function",
+      "inputs": [
+        {
+          "caller": "0x84FC0eB1Ef869984A4224A1d11ca84f37E14A94c",
+          "comment": "test() -> true",
+          "instance": "C",
+          "method": "test()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "super_function.sol:C"
+  }
+}

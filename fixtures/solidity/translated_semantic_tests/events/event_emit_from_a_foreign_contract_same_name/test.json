@@ -1,0 +1,40 @@
+{
+  "cases": [
+    {
+      "name": "event_emit_from_a_foreign_contract_same_name",
+      "inputs": [
+        {
+          "caller": "0x1326324f5A9fb193409E10006e4EA41b970Df321",
+          "comment": "test() ->; ~ emit E(uint256): 0x01; ~ emit E(uint256): 0x02",
+          "instance": "D",
+          "method": "test()",
+          "calldata": [],
+          "expected": {
+            "events": [
+              {
+                "topics": [
+                  "002ff0672f372fbe844b353429d4510ea5e43683af134c54f75f789ff57bc0c0"
+                ],
+                "values": [
+                  "0x0000000000000000000000000000000000000000000000000000000000000001"
+                ]
+              },
+              {
+                "topics": [
+                  "002ff0672f372fbe844b353429d4510ea5e43683af134c54f75f789ff57bc0c0"
+                ],
+                "values": [
+                  "0x0000000000000000000000000000000000000000000000000000000000000002"
+                ]
+              }
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "D": "event_emit_from_a_foreign_contract_same_name.sol:D"
+  }
+}

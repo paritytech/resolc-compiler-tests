@@ -1,0 +1,57 @@
+{
+  "cases": [
+    {
+      "name": "library_functions_inside_contract",
+      "inputs": [
+        {
+          "caller": "0x777b72429357CbA6628b53eF68F295Cf9214a983",
+          "comment": "f() -> 1",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x777b72429357CbA6628b53eF68F295Cf9214a983",
+          "comment": "g() -> 2",
+          "instance": "C",
+          "method": "g()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000002"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x777b72429357CbA6628b53eF68F295Cf9214a983",
+          "comment": "h() -> 3",
+          "instance": "C",
+          "method": "h()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000003"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "library_functions_inside_contract.sol:C",
+    "L": "library_functions_inside_contract.sol:L"
+  },
+  "libraries": {
+    "library_functions_inside_contract.sol": {
+      "L": "L"
+    }
+  }
+}

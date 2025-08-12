@@ -1,0 +1,41 @@
+{
+  "cases": [
+    {
+      "name": "array_copy_memory_to_storage",
+      "inputs": [
+        {
+          "caller": "0x6D7927E04b86B9255B1BE6B8fDda6EB6578FDa2F",
+          "comment": "f() -> 1, 3",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001",
+              "0x0000000000000000000000000000000000000000000000000000000000000003"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x6D7927E04b86B9255B1BE6B8fDda6EB6578FDa2F",
+          "comment": "g() -> 1, 2, 3",
+          "instance": "C",
+          "method": "g()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001",
+              "0x0000000000000000000000000000000000000000000000000000000000000002",
+              "0x0000000000000000000000000000000000000000000000000000000000000003"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "array_copy_memory_to_storage.sol:C"
+  }
+}

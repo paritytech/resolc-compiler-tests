@@ -1,0 +1,51 @@
+{
+  "cases": [
+    {
+      "name": "positive_integers_to_signed",
+      "inputs": [
+        {
+          "caller": "0x59d504A541544b36a109579b69aE63406ff1622c",
+          "comment": "x() -> 2",
+          "instance": "test",
+          "method": "x()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000002"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x59d504A541544b36a109579b69aE63406ff1622c",
+          "comment": "y() -> 127",
+          "instance": "test",
+          "method": "y()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000000000007f"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x59d504A541544b36a109579b69aE63406ff1622c",
+          "comment": "q() -> 250",
+          "instance": "test",
+          "method": "q()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x00000000000000000000000000000000000000000000000000000000000000fa"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "test": "positive_integers_to_signed.sol:test"
+  }
+}

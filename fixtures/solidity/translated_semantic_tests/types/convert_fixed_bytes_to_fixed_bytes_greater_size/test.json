@@ -1,0 +1,27 @@
+{
+  "cases": [
+    {
+      "name": "convert_fixed_bytes_to_fixed_bytes_greater_size",
+      "inputs": [
+        {
+          "caller": "0x5882eECF2A134f3f447bA3A4f1168b62F0C95d86",
+          "comment": "bytesToBytes(bytes2): \"ab\" -> \"ab\"",
+          "instance": "Test",
+          "method": "bytesToBytes(bytes2)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000006162"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000006162"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "Test": "convert_fixed_bytes_to_fixed_bytes_greater_size.sol:Test"
+  }
+}

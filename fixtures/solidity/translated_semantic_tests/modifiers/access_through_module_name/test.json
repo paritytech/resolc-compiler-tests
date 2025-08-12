@@ -1,0 +1,106 @@
+{
+  "cases": [
+    {
+      "name": "access_through_module_name",
+      "inputs": [
+        {
+          "caller": "0xD917a1c6cE2b52E446341D9275846BF578a322F0",
+          "comment": "x() -> 0x00",
+          "instance": "C",
+          "method": "x()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xD917a1c6cE2b52E446341D9275846BF578a322F0",
+          "comment": "f() -> 1, 9",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001",
+              "0x0000000000000000000000000000000000000000000000000000000000000009"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xD917a1c6cE2b52E446341D9275846BF578a322F0",
+          "comment": "x() -> 3",
+          "instance": "C",
+          "method": "x()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000003"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xD917a1c6cE2b52E446341D9275846BF578a322F0",
+          "comment": "g() -> 1, 0x0a",
+          "instance": "C",
+          "method": "g()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001",
+              "0x000000000000000000000000000000000000000000000000000000000000000a"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xD917a1c6cE2b52E446341D9275846BF578a322F0",
+          "comment": "x() -> 4",
+          "instance": "C",
+          "method": "x()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000004"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xD917a1c6cE2b52E446341D9275846BF578a322F0",
+          "comment": "f() -> 1, 9",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001",
+              "0x0000000000000000000000000000000000000000000000000000000000000009"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xD917a1c6cE2b52E446341D9275846BF578a322F0",
+          "comment": "x() -> 3",
+          "instance": "C",
+          "method": "x()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000003"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "a:C"
+  }
+}

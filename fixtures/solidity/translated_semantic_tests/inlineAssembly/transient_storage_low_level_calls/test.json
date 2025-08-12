@@ -1,0 +1,64 @@
+{
+  "cases": [
+    {
+      "name": "transient_storage_low_level_calls",
+      "inputs": [
+        {
+          "caller": "0xD344172dFae4316dBF57b931C8348099fd4d3c42",
+          "comment": "testDelegateCall() -> true",
+          "instance": "C",
+          "method": "testDelegateCall()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xD344172dFae4316dBF57b931C8348099fd4d3c42",
+          "comment": "testCall() -> true",
+          "instance": "C",
+          "method": "testCall()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xD344172dFae4316dBF57b931C8348099fd4d3c42",
+          "comment": "tloadAllowedStaticCall() -> true",
+          "instance": "C",
+          "method": "tloadAllowedStaticCall()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xD344172dFae4316dBF57b931C8348099fd4d3c42",
+          "comment": "tstoreNotAllowedStaticCall() -> true; gas irOptimized: 98419721; gas irOptimized code: 19000; gas legacy: 98409087; gas legacy code: 30000; gas legacyOptimized: 98420962; gas legacyOptimized code: 17800",
+          "instance": "C",
+          "method": "tstoreNotAllowedStaticCall()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "transient_storage_low_level_calls.sol:C"
+  }
+}

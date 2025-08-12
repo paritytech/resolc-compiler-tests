@@ -1,0 +1,46 @@
+{
+  "cases": [
+    {
+      "name": "using_for_function_on_struct",
+      "inputs": [
+        {
+          "caller": "0xF8b10dF973Ce20Ed07E70Eb3AFc9C2E35c06225b",
+          "comment": "f(uint256): 7 -> 0x15",
+          "instance": "C",
+          "method": "f(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000007"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000015"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xF8b10dF973Ce20Ed07E70Eb3AFc9C2E35c06225b",
+          "comment": "x() -> 0x15",
+          "instance": "C",
+          "method": "x()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000015"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "using_for_function_on_struct.sol:C",
+    "D": "using_for_function_on_struct.sol:D"
+  },
+  "libraries": {
+    "using_for_function_on_struct.sol": {
+      "D": "D"
+    }
+  }
+}

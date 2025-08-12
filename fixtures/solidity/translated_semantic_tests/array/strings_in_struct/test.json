@@ -1,0 +1,66 @@
+{
+  "cases": [
+    {
+      "name": "strings_in_struct",
+      "inputs": [
+        {
+          "caller": "0x83a38708BB18d79DA730741aeEf3c4548c0AdBb1",
+          "comment": "getFirst() -> 0x0a",
+          "instance": "buggystruct",
+          "method": "getFirst()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000000000000a"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x83a38708BB18d79DA730741aeEf3c4548c0AdBb1",
+          "comment": "getSecond() -> 0x14",
+          "instance": "buggystruct",
+          "method": "getSecond()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000014"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x83a38708BB18d79DA730741aeEf3c4548c0AdBb1",
+          "comment": "getThird() -> 0x1e",
+          "instance": "buggystruct",
+          "method": "getThird()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000000000001e"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x83a38708BB18d79DA730741aeEf3c4548c0AdBb1",
+          "comment": "getLast() -> 0x20, 0x09, \"asdfghjkl\"",
+          "instance": "buggystruct",
+          "method": "getLast()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000020",
+              "0x0000000000000000000000000000000000000000000000000000000000000009",
+              "0x00000000000000000000000000000000000000000000006173646667686a6b6c"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "buggystruct": "strings_in_struct.sol:buggystruct"
+  }
+}

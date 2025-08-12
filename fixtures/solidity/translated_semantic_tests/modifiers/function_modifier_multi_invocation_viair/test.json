@@ -1,0 +1,42 @@
+{
+  "cases": [
+    {
+      "name": "function_modifier_multi_invocation_viair",
+      "inputs": [
+        {
+          "caller": "0x4218ACDBBdBb68D0c03409648b1602b27AF68d29",
+          "comment": "f(bool): false -> 1",
+          "instance": "C",
+          "method": "f(bool)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x4218ACDBBdBb68D0c03409648b1602b27AF68d29",
+          "comment": "f(bool): true -> 1",
+          "instance": "C",
+          "method": "f(bool)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000001"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "function_modifier_multi_invocation_viair.sol:C"
+  }
+}

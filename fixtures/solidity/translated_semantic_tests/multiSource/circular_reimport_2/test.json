@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "circular_reimport_2",
+      "inputs": [
+        {
+          "caller": "0x6327493C0d660Ee44e8e006a45a195feA2c9782F",
+          "comment": "foo() -> 0x2324",
+          "instance": "C",
+          "method": "foo()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000002324"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "s3.sol:C"
+  }
+}

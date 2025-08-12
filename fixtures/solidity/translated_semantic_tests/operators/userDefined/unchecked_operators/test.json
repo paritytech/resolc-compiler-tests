@@ -1,0 +1,38 @@
+{
+  "cases": [
+    {
+      "name": "unchecked_operators",
+      "inputs": [
+        {
+          "caller": "0x26A769A0dB32E6371975B986865bEaa0BcA54eAc",
+          "comment": "testUncheckedOperator() -> 4",
+          "instance": "D",
+          "method": "testUncheckedOperator()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000004"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x26A769A0dB32E6371975B986865bEaa0BcA54eAc",
+          "comment": "testUncheckedOperatorInUncheckedBlock() -> 4",
+          "instance": "D",
+          "method": "testUncheckedOperatorInUncheckedBlock()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000004"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "D": "unchecked_operators.sol:D"
+  }
+}

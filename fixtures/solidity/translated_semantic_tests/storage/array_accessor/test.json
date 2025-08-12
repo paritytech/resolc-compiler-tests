@@ -1,0 +1,125 @@
+{
+  "cases": [
+    {
+      "name": "array_accessor",
+      "inputs": [
+        {
+          "caller": "0x724Fb03770B250cb9e31B8999401313708Bf9af8",
+          "comment": "data(uint256): 0 -> 8",
+          "instance": "test",
+          "method": "data(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000008"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x724Fb03770B250cb9e31B8999401313708Bf9af8",
+          "comment": "data(uint256): 8 -> FAILURE",
+          "instance": "test",
+          "method": "data(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000008"
+          ],
+          "expected": {
+            "exception": true
+          }
+        },
+        {
+          "caller": "0x724Fb03770B250cb9e31B8999401313708Bf9af8",
+          "comment": "dynamicData(uint256): 2 -> 8",
+          "instance": "test",
+          "method": "dynamicData(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000002"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000008"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x724Fb03770B250cb9e31B8999401313708Bf9af8",
+          "comment": "dynamicData(uint256): 8 -> FAILURE",
+          "instance": "test",
+          "method": "dynamicData(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000008"
+          ],
+          "expected": {
+            "exception": true
+          }
+        },
+        {
+          "caller": "0x724Fb03770B250cb9e31B8999401313708Bf9af8",
+          "comment": "smallTypeData(uint256): 1 -> 22",
+          "instance": "test",
+          "method": "smallTypeData(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000001"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000016"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x724Fb03770B250cb9e31B8999401313708Bf9af8",
+          "comment": "smallTypeData(uint256): 127 -> 2",
+          "instance": "test",
+          "method": "smallTypeData(uint256)",
+          "calldata": [
+            "0x000000000000000000000000000000000000000000000000000000000000007f"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000002"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x724Fb03770B250cb9e31B8999401313708Bf9af8",
+          "comment": "smallTypeData(uint256): 128 -> FAILURE",
+          "instance": "test",
+          "method": "smallTypeData(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000080"
+          ],
+          "expected": {
+            "exception": true
+          }
+        },
+        {
+          "caller": "0x724Fb03770B250cb9e31B8999401313708Bf9af8",
+          "comment": "multiple_map(uint256,uint256,uint256): 2, 1, 2 -> 3",
+          "instance": "test",
+          "method": "multiple_map(uint256,uint256,uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000002",
+            "0x0000000000000000000000000000000000000000000000000000000000000001",
+            "0x0000000000000000000000000000000000000000000000000000000000000002"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000003"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "test": "array_accessor.sol:test"
+  }
+}

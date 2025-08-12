@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "short_input_array",
+      "inputs": [
+        {
+          "caller": "0x7fBdFba6b300A5F54a71C0a3D047BA8F21610e4a",
+          "comment": "f(uint256[]): 0x20, 1 -> FAILURE",
+          "instance": "C",
+          "method": "f(uint256[])",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000020",
+            "0x0000000000000000000000000000000000000000000000000000000000000001"
+          ],
+          "expected": {
+            "exception": true
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "short_input_array.sol:C"
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "cases": [
+    {
+      "name": "bool",
+      "inputs": [
+        {
+          "caller": "0xa636D0d79DCecc69Ef6b546aCaC88232867BE2E0",
+          "comment": "f(uint256): 0 -> false",
+          "instance": "C",
+          "method": "f(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xa636D0d79DCecc69Ef6b546aCaC88232867BE2E0",
+          "comment": "gggg(bool): 0 -> false",
+          "instance": "C",
+          "method": "gggg(bool)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xa636D0d79DCecc69Ef6b546aCaC88232867BE2E0",
+          "comment": "f(uint256): 1 -> true",
+          "instance": "C",
+          "method": "f(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000001"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xa636D0d79DCecc69Ef6b546aCaC88232867BE2E0",
+          "comment": "gggg(bool): 1 -> true",
+          "instance": "C",
+          "method": "gggg(bool)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000001"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xa636D0d79DCecc69Ef6b546aCaC88232867BE2E0",
+          "comment": "f(uint256): 2 -> true",
+          "instance": "C",
+          "method": "f(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000002"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xa636D0d79DCecc69Ef6b546aCaC88232867BE2E0",
+          "comment": "gggg(bool): 2 -> FAILURE",
+          "instance": "C",
+          "method": "gggg(bool)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000002"
+          ],
+          "expected": {
+            "exception": true
+          }
+        },
+        {
+          "caller": "0xa636D0d79DCecc69Ef6b546aCaC88232867BE2E0",
+          "comment": "f(uint256): 0x1000 -> true",
+          "instance": "C",
+          "method": "f(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000001000"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xa636D0d79DCecc69Ef6b546aCaC88232867BE2E0",
+          "comment": "gggg(bool): 0x1000 -> FAILURE",
+          "instance": "C",
+          "method": "gggg(bool)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000001000"
+          ],
+          "expected": {
+            "exception": true
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "bool.sol:C"
+  }
+}

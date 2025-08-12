@@ -1,0 +1,507 @@
+{
+  "cases": [
+    {
+      "name": "bitwise_shifting_constantinople_combined",
+      "inputs": [
+        {
+          "caller": "0x7C92f954cD6756442683c39d598B58f0EA6b3d13",
+          "comment": "shl_zero(uint256): 0x00 -> 0x00",
+          "instance": "C",
+          "method": "shl_zero(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x7C92f954cD6756442683c39d598B58f0EA6b3d13",
+          "comment": "shl_zero(uint256): 0xffff -> 0xffff",
+          "instance": "C",
+          "method": "shl_zero(uint256)",
+          "calldata": [
+            "0x000000000000000000000000000000000000000000000000000000000000ffff"
+          ],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000000000ffff"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x7C92f954cD6756442683c39d598B58f0EA6b3d13",
+          "comment": "shl_zero(uint256): 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff -> 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+          "instance": "C",
+          "method": "shl_zero(uint256)",
+          "calldata": [
+            "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+          ],
+          "expected": {
+            "return_data": [
+              "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x7C92f954cD6756442683c39d598B58f0EA6b3d13",
+          "comment": "shr_zero(uint256): 0x00 -> 0x00",
+          "instance": "C",
+          "method": "shr_zero(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x7C92f954cD6756442683c39d598B58f0EA6b3d13",
+          "comment": "shr_zero(uint256): 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff -> 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+          "instance": "C",
+          "method": "shr_zero(uint256)",
+          "calldata": [
+            "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+          ],
+          "expected": {
+            "return_data": [
+              "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x7C92f954cD6756442683c39d598B58f0EA6b3d13",
+          "comment": "sar_zero(uint256): 0x00 -> 0x00",
+          "instance": "C",
+          "method": "sar_zero(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x7C92f954cD6756442683c39d598B58f0EA6b3d13",
+          "comment": "sar_zero(uint256): 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff -> 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+          "instance": "C",
+          "method": "sar_zero(uint256)",
+          "calldata": [
+            "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+          ],
+          "expected": {
+            "return_data": [
+              "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x7C92f954cD6756442683c39d598B58f0EA6b3d13",
+          "comment": "shl_large(uint256): 0x00 -> 0x00",
+          "instance": "C",
+          "method": "shl_large(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x7C92f954cD6756442683c39d598B58f0EA6b3d13",
+          "comment": "shl_large(uint256): 0xffff -> 0x00",
+          "instance": "C",
+          "method": "shl_large(uint256)",
+          "calldata": [
+            "0x000000000000000000000000000000000000000000000000000000000000ffff"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x7C92f954cD6756442683c39d598B58f0EA6b3d13",
+          "comment": "shl_large(uint256): 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff -> 0x00",
+          "instance": "C",
+          "method": "shl_large(uint256)",
+          "calldata": [
+            "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x7C92f954cD6756442683c39d598B58f0EA6b3d13",
+          "comment": "shr_large(uint256): 0x00 -> 0x00",
+          "instance": "C",
+          "method": "shr_large(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x7C92f954cD6756442683c39d598B58f0EA6b3d13",
+          "comment": "shr_large(uint256): 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff -> 0x00",
+          "instance": "C",
+          "method": "shr_large(uint256)",
+          "calldata": [
+            "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x7C92f954cD6756442683c39d598B58f0EA6b3d13",
+          "comment": "sar_large(uint256): 0x00 -> 0x00",
+          "instance": "C",
+          "method": "sar_large(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x7C92f954cD6756442683c39d598B58f0EA6b3d13",
+          "comment": "sar_large(uint256): 0x7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff -> 0x00",
+          "instance": "C",
+          "method": "sar_large(uint256)",
+          "calldata": [
+            "0x7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x7C92f954cD6756442683c39d598B58f0EA6b3d13",
+          "comment": "sar_large(uint256): 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff -> 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+          "instance": "C",
+          "method": "sar_large(uint256)",
+          "calldata": [
+            "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+          ],
+          "expected": {
+            "return_data": [
+              "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x7C92f954cD6756442683c39d598B58f0EA6b3d13",
+          "comment": "shl_combined(uint256): 0x00 -> 0x00",
+          "instance": "C",
+          "method": "shl_combined(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x7C92f954cD6756442683c39d598B58f0EA6b3d13",
+          "comment": "shl_combined(uint256): 0xffff -> 0xffff0000",
+          "instance": "C",
+          "method": "shl_combined(uint256)",
+          "calldata": [
+            "0x000000000000000000000000000000000000000000000000000000000000ffff"
+          ],
+          "expected": {
+            "return_data": [
+              "0x00000000000000000000000000000000000000000000000000000000ffff0000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x7C92f954cD6756442683c39d598B58f0EA6b3d13",
+          "comment": "shl_combined(uint256): 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff -> 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff0000",
+          "instance": "C",
+          "method": "shl_combined(uint256)",
+          "calldata": [
+            "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+          ],
+          "expected": {
+            "return_data": [
+              "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff0000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x7C92f954cD6756442683c39d598B58f0EA6b3d13",
+          "comment": "shr_combined(uint256): 0x00 -> 0x00",
+          "instance": "C",
+          "method": "shr_combined(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x7C92f954cD6756442683c39d598B58f0EA6b3d13",
+          "comment": "shr_combined(uint256): 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff -> 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+          "instance": "C",
+          "method": "shr_combined(uint256)",
+          "calldata": [
+            "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x7C92f954cD6756442683c39d598B58f0EA6b3d13",
+          "comment": "sar_combined(uint256): 0x00 -> 0x00",
+          "instance": "C",
+          "method": "sar_combined(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x7C92f954cD6756442683c39d598B58f0EA6b3d13",
+          "comment": "sar_combined(uint256): 0x7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff -> 0x7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+          "instance": "C",
+          "method": "sar_combined(uint256)",
+          "calldata": [
+            "0x7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+          ],
+          "expected": {
+            "return_data": [
+              "0x00007fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x7C92f954cD6756442683c39d598B58f0EA6b3d13",
+          "comment": "sar_combined(uint256): 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff -> 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+          "instance": "C",
+          "method": "sar_combined(uint256)",
+          "calldata": [
+            "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+          ],
+          "expected": {
+            "return_data": [
+              "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x7C92f954cD6756442683c39d598B58f0EA6b3d13",
+          "comment": "shl_combined_large(uint256): 0x00 -> 0x00",
+          "instance": "C",
+          "method": "shl_combined_large(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x7C92f954cD6756442683c39d598B58f0EA6b3d13",
+          "comment": "shl_combined_large(uint256): 0xffff -> 0x00",
+          "instance": "C",
+          "method": "shl_combined_large(uint256)",
+          "calldata": [
+            "0x000000000000000000000000000000000000000000000000000000000000ffff"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x7C92f954cD6756442683c39d598B58f0EA6b3d13",
+          "comment": "shl_combined_large(uint256): 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff -> 0x00",
+          "instance": "C",
+          "method": "shl_combined_large(uint256)",
+          "calldata": [
+            "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x7C92f954cD6756442683c39d598B58f0EA6b3d13",
+          "comment": "shl_combined_overflow(uint256): 0x02 -> 0x00",
+          "instance": "C",
+          "method": "shl_combined_overflow(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000002"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x7C92f954cD6756442683c39d598B58f0EA6b3d13",
+          "comment": "shr_combined_large(uint256): 0x00 -> 0x00",
+          "instance": "C",
+          "method": "shr_combined_large(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x7C92f954cD6756442683c39d598B58f0EA6b3d13",
+          "comment": "shr_combined_large(uint256): 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff -> 0x00",
+          "instance": "C",
+          "method": "shr_combined_large(uint256)",
+          "calldata": [
+            "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x7C92f954cD6756442683c39d598B58f0EA6b3d13",
+          "comment": "shr_combined_overflow(uint256): 0x02 -> 0x00",
+          "instance": "C",
+          "method": "shr_combined_overflow(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000002"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x7C92f954cD6756442683c39d598B58f0EA6b3d13",
+          "comment": "sar_combined_large(uint256): 0x00 -> 0x00",
+          "instance": "C",
+          "method": "sar_combined_large(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x7C92f954cD6756442683c39d598B58f0EA6b3d13",
+          "comment": "sar_combined_large(uint256): 0x7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff -> 0x00",
+          "instance": "C",
+          "method": "sar_combined_large(uint256)",
+          "calldata": [
+            "0x7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x7C92f954cD6756442683c39d598B58f0EA6b3d13",
+          "comment": "sar_combined_large(uint256): 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff -> 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+          "instance": "C",
+          "method": "sar_combined_large(uint256)",
+          "calldata": [
+            "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+          ],
+          "expected": {
+            "return_data": [
+              "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "bitwise_shifting_constantinople_combined.sol:C"
+  }
+}

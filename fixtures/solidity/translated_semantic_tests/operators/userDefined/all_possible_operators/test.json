@@ -1,0 +1,42 @@
+{
+  "cases": [
+    {
+      "name": "all_possible_operators",
+      "inputs": [
+        {
+          "caller": "0x5f9fA0593622b79F1FdB7C7c760D1f3D7178F3CB",
+          "comment": "testBitwise() ->",
+          "instance": "C",
+          "method": "testBitwise()",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x5f9fA0593622b79F1FdB7C7c760D1f3D7178F3CB",
+          "comment": "testArithmetic() ->",
+          "instance": "C",
+          "method": "testArithmetic()",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x5f9fA0593622b79F1FdB7C7c760D1f3D7178F3CB",
+          "comment": "testComparison() ->",
+          "instance": "C",
+          "method": "testComparison()",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "all_possible_operators.sol:C"
+  }
+}

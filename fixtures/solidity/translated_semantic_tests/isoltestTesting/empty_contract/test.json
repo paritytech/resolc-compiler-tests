@@ -1,0 +1,22 @@
+{
+  "cases": [
+    {
+      "name": "empty_contract",
+      "inputs": [
+        {
+          "caller": "0x2d9f2c3a0937ac5a49FD6ffC3352786e93313280",
+          "comment": "i_am_not_there() -> FAILURE",
+          "instance": "test",
+          "method": "i_am_not_there()",
+          "calldata": [],
+          "expected": {
+            "exception": true
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "test": "empty_contract.sol:test"
+  }
+}

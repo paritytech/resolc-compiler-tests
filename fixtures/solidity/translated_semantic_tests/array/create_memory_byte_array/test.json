@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "create_memory_byte_array",
+      "inputs": [
+        {
+          "caller": "0x0b5Ac632c26B48b83cB61E0a8aC068785AB8D917",
+          "comment": "f() -> \"A\"",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000041"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "create_memory_byte_array.sol:C"
+  }
+}

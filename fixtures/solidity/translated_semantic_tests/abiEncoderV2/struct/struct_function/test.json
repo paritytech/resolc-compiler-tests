@@ -1,0 +1,26 @@
+{
+  "cases": [
+    {
+      "name": "struct_function",
+      "inputs": [
+        {
+          "caller": "0x2946A35AaF53AB85986E2bd5DA3f4FD56e6eEAE3",
+          "comment": "test() -> 7, 3",
+          "instance": "C",
+          "method": "test()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000007",
+              "0x0000000000000000000000000000000000000000000000000000000000000003"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "struct_function.sol:C"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "cases": [
+    {
+      "name": "imported_functions",
+      "inputs": [
+        {
+          "caller": "0x28d06F4684eC6FdCd07d417B8f9B1c74a4E653Cd",
+          "comment": "f(uint256): 5 -> 12",
+          "instance": "C",
+          "method": "f(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000005"
+          ],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000000000000c"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x28d06F4684eC6FdCd07d417B8f9B1c74a4E653Cd",
+          "comment": "f(uint256): 10 -> 0x16",
+          "instance": "C",
+          "method": "f(uint256)",
+          "calldata": [
+            "0x000000000000000000000000000000000000000000000000000000000000000a"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000016"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "B:C"
+  }
+}

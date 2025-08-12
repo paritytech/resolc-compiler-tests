@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "byte_array_push",
+      "inputs": [
+        {
+          "caller": "0x4214C985b0402B8d3d8a4C173b174218aB1aDB7C",
+          "comment": "test() -> false",
+          "instance": "c",
+          "method": "test()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "c": "byte_array_push.sol:c"
+  }
+}

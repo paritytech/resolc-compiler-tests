@@ -1,0 +1,26 @@
+{
+  "cases": [
+    {
+      "name": "byte_array_pop_empty_exception",
+      "inputs": [
+        {
+          "caller": "0xa0D8C7260f6f68091A5eA78F24B9dab0334D7429",
+          "comment": "test() -> FAILURE, hex\"4e487b71\", 0x31",
+          "instance": "c",
+          "method": "test()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000004e487b71",
+              "0x0000000000000000000000000000000000000000000000000000000000000031"
+            ],
+            "exception": true
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "c": "byte_array_pop_empty_exception.sol:c"
+  }
+}

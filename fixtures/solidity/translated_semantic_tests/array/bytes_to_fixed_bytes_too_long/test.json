@@ -1,0 +1,79 @@
+{
+  "cases": [
+    {
+      "name": "bytes_to_fixed_bytes_too_long",
+      "inputs": [
+        {
+          "caller": "0x7A0860c3Cd35A1d12b923d3ffa590b2c308727B6",
+          "comment": "fromMemory(bytes): 0x20, 33, \"abcdefghabcdefghabcdefghabcdefgh\", \"a\" -> \"abcdefghabcdefghabcdefghabcdefgh\"",
+          "instance": "C",
+          "method": "fromMemory(bytes)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000020",
+            "0x0000000000000000000000000000000000000000000000000000000000000021",
+            "0x6162636465666768616263646566676861626364656667686162636465666768",
+            "0x0000000000000000000000000000000000000000000000000000000000000061"
+          ],
+          "expected": {
+            "return_data": [
+              "0x6162636465666768616263646566676861626364656667686162636465666768"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x7A0860c3Cd35A1d12b923d3ffa590b2c308727B6",
+          "comment": "fromCalldata(bytes): 0x20, 33, \"abcdefghabcdefghabcdefghabcdefgh\", \"a\" -> \"abcdefghabcdefghabcdefghabcdefgh\"",
+          "instance": "C",
+          "method": "fromCalldata(bytes)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000020",
+            "0x0000000000000000000000000000000000000000000000000000000000000021",
+            "0x6162636465666768616263646566676861626364656667686162636465666768",
+            "0x0000000000000000000000000000000000000000000000000000000000000061"
+          ],
+          "expected": {
+            "return_data": [
+              "0x6162636465666768616263646566676861626364656667686162636465666768"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x7A0860c3Cd35A1d12b923d3ffa590b2c308727B6",
+          "comment": "fromStorage() -> \"abcdefghabcdefghabcdefghabcdefgh\"",
+          "instance": "C",
+          "method": "fromStorage()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x6162636465666768616263646566676861626364656667686162636465666768"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x7A0860c3Cd35A1d12b923d3ffa590b2c308727B6",
+          "comment": "fromSlice(bytes): 0x20, 33, \"abcdefghabcdefghabcdefghabcdefgh\", \"a\" -> \"abcdefghabcdefghabcdefghabcdefgh\"",
+          "instance": "C",
+          "method": "fromSlice(bytes)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000020",
+            "0x0000000000000000000000000000000000000000000000000000000000000021",
+            "0x6162636465666768616263646566676861626364656667686162636465666768",
+            "0x0000000000000000000000000000000000000000000000000000000000000061"
+          ],
+          "expected": {
+            "return_data": [
+              "0x6162636465666768616263646566676861626364656667686162636465666768"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "bytes_to_fixed_bytes_too_long.sol:C"
+  }
+}

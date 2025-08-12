@@ -1,0 +1,172 @@
+{
+  "cases": [
+    {
+      "name": "shift_right_garbled_signed_v1",
+      "inputs": [
+        {
+          "caller": "0xB055D20faa7c557a699A9FEF9D4e5C0244865d38",
+          "comment": "f(int8,uint8): 0x00, 0x03 -> 0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe",
+          "instance": "C",
+          "method": "f(int8,uint8)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "0x0000000000000000000000000000000000000000000000000000000000000003"
+          ],
+          "expected": {
+            "return_data": [
+              "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xB055D20faa7c557a699A9FEF9D4e5C0244865d38",
+          "comment": "f(int8,uint8): 0x00, 0x04 -> 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+          "instance": "C",
+          "method": "f(int8,uint8)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "0x0000000000000000000000000000000000000000000000000000000000000004"
+          ],
+          "expected": {
+            "return_data": [
+              "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xB055D20faa7c557a699A9FEF9D4e5C0244865d38",
+          "comment": "f(int8,uint8): 0x00, 0xff -> 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+          "instance": "C",
+          "method": "f(int8,uint8)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "0x00000000000000000000000000000000000000000000000000000000000000ff"
+          ],
+          "expected": {
+            "return_data": [
+              "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xB055D20faa7c557a699A9FEF9D4e5C0244865d38",
+          "comment": "f(int8,uint8): 0x00, 0x1003 -> 0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe",
+          "instance": "C",
+          "method": "f(int8,uint8)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "0x0000000000000000000000000000000000000000000000000000000000001003"
+          ],
+          "expected": {
+            "return_data": [
+              "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xB055D20faa7c557a699A9FEF9D4e5C0244865d38",
+          "comment": "f(int8,uint8): 0x00, 0x1004 -> 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+          "instance": "C",
+          "method": "f(int8,uint8)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "0x0000000000000000000000000000000000000000000000000000000000001004"
+          ],
+          "expected": {
+            "return_data": [
+              "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xB055D20faa7c557a699A9FEF9D4e5C0244865d38",
+          "comment": "g(int8,uint8): 0x00, 0x03 -> 0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe",
+          "instance": "C",
+          "method": "g(int8,uint8)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "0x0000000000000000000000000000000000000000000000000000000000000003"
+          ],
+          "expected": {
+            "return_data": [
+              "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xB055D20faa7c557a699A9FEF9D4e5C0244865d38",
+          "comment": "g(int8,uint8): 0x00, 0x04 -> 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+          "instance": "C",
+          "method": "g(int8,uint8)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "0x0000000000000000000000000000000000000000000000000000000000000004"
+          ],
+          "expected": {
+            "return_data": [
+              "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xB055D20faa7c557a699A9FEF9D4e5C0244865d38",
+          "comment": "g(int8,uint8): 0x00, 0xff -> 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+          "instance": "C",
+          "method": "g(int8,uint8)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "0x00000000000000000000000000000000000000000000000000000000000000ff"
+          ],
+          "expected": {
+            "return_data": [
+              "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xB055D20faa7c557a699A9FEF9D4e5C0244865d38",
+          "comment": "g(int8,uint8): 0x00, 0x1003 -> 0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe",
+          "instance": "C",
+          "method": "g(int8,uint8)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "0x0000000000000000000000000000000000000000000000000000000000001003"
+          ],
+          "expected": {
+            "return_data": [
+              "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xB055D20faa7c557a699A9FEF9D4e5C0244865d38",
+          "comment": "g(int8,uint8): 0x00, 0x1004 -> 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+          "instance": "C",
+          "method": "g(int8,uint8)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "0x0000000000000000000000000000000000000000000000000000000000001004"
+          ],
+          "expected": {
+            "return_data": [
+              "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "shift_right_garbled_signed_v1.sol:C"
+  }
+}

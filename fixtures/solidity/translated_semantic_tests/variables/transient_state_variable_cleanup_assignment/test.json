@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "transient_state_variable_cleanup_assignment",
+      "inputs": [
+        {
+          "caller": "0x1A13C9253Bdd84D3C498f84E655e28AeFA917474",
+          "comment": "f() -> 0xff",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x00000000000000000000000000000000000000000000000000000000000000ff"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "transient_state_variable_cleanup_assignment.sol:C"
+  }
+}

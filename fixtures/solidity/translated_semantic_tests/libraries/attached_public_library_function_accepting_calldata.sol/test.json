@@ -1,0 +1,36 @@
+{
+  "cases": [
+    {
+      "name": "attached_public_library_function_accepting_calldata.sol",
+      "inputs": [
+        {
+          "caller": "0x83E658A045a4082526efC8D37072E3a5fF09F1e3",
+          "comment": "f(bytes): 0x20, 4, \"abcd\" -> 0x6100000000000000000000000000000000000000000000000000000000000000, 0x6100000000000000000000000000000000000000000000000000000000000000",
+          "instance": "C",
+          "method": "f(bytes)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000020",
+            "0x0000000000000000000000000000000000000000000000000000000000000004",
+            "0x0000000000000000000000000000000000000000000000000000000061626364"
+          ],
+          "expected": {
+            "return_data": [
+              "0x6100000000000000000000000000000000000000000000000000000000000000",
+              "0x6100000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "attached_public_library_function_accepting_calldata.sol.sol:C",
+    "D": "attached_public_library_function_accepting_calldata.sol.sol:D"
+  },
+  "libraries": {
+    "attached_public_library_function_accepting_calldata.sol.sol": {
+      "D": "D"
+    }
+  }
+}

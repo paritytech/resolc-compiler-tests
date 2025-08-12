@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "struct_delete_struct_in_mapping",
+      "inputs": [
+        {
+          "caller": "0x2fC525307C2AF545E7127C83dc265a49adea9721",
+          "comment": "deleteIt() -> 0",
+          "instance": "test",
+          "method": "deleteIt()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "test": "struct_delete_struct_in_mapping.sol:test"
+  }
+}

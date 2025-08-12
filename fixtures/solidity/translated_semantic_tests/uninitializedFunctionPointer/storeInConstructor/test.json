@@ -1,0 +1,40 @@
+{
+  "cases": [
+    {
+      "name": "storeInConstructor",
+      "inputs": [
+        {
+          "caller": "0x75386FB8999486b9C6C009E92405f0Fd42446e96",
+          "comment": "f() -> FAILURE, hex\"4e487b71\", 0x51",
+          "instance": "InvalidTest",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000004e487b71",
+              "0x0000000000000000000000000000000000000000000000000000000000000051"
+            ],
+            "exception": true
+          }
+        },
+        {
+          "caller": "0x75386FB8999486b9C6C009E92405f0Fd42446e96",
+          "comment": "f() -> FAILURE, hex\"4e487b71\", 0x51",
+          "instance": "InvalidTest",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000004e487b71",
+              "0x0000000000000000000000000000000000000000000000000000000000000051"
+            ],
+            "exception": true
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "InvalidTest": "storeInConstructor.sol:InvalidTest"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "virtual_function_deployed",
+      "inputs": [
+        {
+          "caller": "0x05b4DCB602a1b59eE529BEdaCDA7d0aa3532e592",
+          "comment": "test() -> true",
+          "instance": "C",
+          "method": "test()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "virtual_function_deployed.sol:C"
+  }
+}

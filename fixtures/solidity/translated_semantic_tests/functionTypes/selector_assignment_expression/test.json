@@ -1,0 +1,35 @@
+{
+  "cases": [
+    {
+      "name": "selector_assignment_expression",
+      "inputs": [
+        {
+          "caller": "0xe6eF3a317f91A0a44eB097c8e68B49CcF9E63895",
+          "comment": "f()",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xe6eF3a317f91A0a44eB097c8e68B49CcF9E63895",
+          "comment": "z() -> true",
+          "instance": "C",
+          "method": "z()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "selector_assignment_expression.sol:C"
+  }
+}

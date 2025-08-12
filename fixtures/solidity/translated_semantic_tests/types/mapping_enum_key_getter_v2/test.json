@@ -1,0 +1,387 @@
+{
+  "cases": [
+    {
+      "name": "mapping_enum_key_getter_v2",
+      "inputs": [
+        {
+          "caller": "0xF025a42711208b36479c65E919D1da935971E04B",
+          "comment": "table(uint8): 0 -> 0",
+          "instance": "test",
+          "method": "table(uint8)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xF025a42711208b36479c65E919D1da935971E04B",
+          "comment": "table(uint8): 0x01 -> 0",
+          "instance": "test",
+          "method": "table(uint8)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000001"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xF025a42711208b36479c65E919D1da935971E04B",
+          "comment": "table(uint8): 0xa7 -> FAILURE",
+          "instance": "test",
+          "method": "table(uint8)",
+          "calldata": [
+            "0x00000000000000000000000000000000000000000000000000000000000000a7"
+          ],
+          "expected": {
+            "exception": true
+          }
+        },
+        {
+          "caller": "0xF025a42711208b36479c65E919D1da935971E04B",
+          "comment": "get(uint8): 0 -> 0",
+          "instance": "test",
+          "method": "get(uint8)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xF025a42711208b36479c65E919D1da935971E04B",
+          "comment": "get(uint8): 0x01 -> 0",
+          "instance": "test",
+          "method": "get(uint8)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000001"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xF025a42711208b36479c65E919D1da935971E04B",
+          "comment": "get(uint8): 0xa7 -> FAILURE",
+          "instance": "test",
+          "method": "get(uint8)",
+          "calldata": [
+            "0x00000000000000000000000000000000000000000000000000000000000000a7"
+          ],
+          "expected": {
+            "exception": true
+          }
+        },
+        {
+          "caller": "0xF025a42711208b36479c65E919D1da935971E04B",
+          "comment": "set(uint8,uint8): 0x01, 0xa1 ->",
+          "instance": "test",
+          "method": "set(uint8,uint8)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000001",
+            "0x00000000000000000000000000000000000000000000000000000000000000a1"
+          ],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xF025a42711208b36479c65E919D1da935971E04B",
+          "comment": "table(uint8): 0 -> 0",
+          "instance": "test",
+          "method": "table(uint8)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xF025a42711208b36479c65E919D1da935971E04B",
+          "comment": "table(uint8): 0x01 -> 0xa1",
+          "instance": "test",
+          "method": "table(uint8)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000001"
+          ],
+          "expected": {
+            "return_data": [
+              "0x00000000000000000000000000000000000000000000000000000000000000a1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xF025a42711208b36479c65E919D1da935971E04B",
+          "comment": "table(uint8): 0xa7 -> FAILURE",
+          "instance": "test",
+          "method": "table(uint8)",
+          "calldata": [
+            "0x00000000000000000000000000000000000000000000000000000000000000a7"
+          ],
+          "expected": {
+            "exception": true
+          }
+        },
+        {
+          "caller": "0xF025a42711208b36479c65E919D1da935971E04B",
+          "comment": "get(uint8): 0 -> 0",
+          "instance": "test",
+          "method": "get(uint8)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xF025a42711208b36479c65E919D1da935971E04B",
+          "comment": "get(uint8): 0x01 -> 0xa1",
+          "instance": "test",
+          "method": "get(uint8)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000001"
+          ],
+          "expected": {
+            "return_data": [
+              "0x00000000000000000000000000000000000000000000000000000000000000a1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xF025a42711208b36479c65E919D1da935971E04B",
+          "comment": "get(uint8): 0xa7 -> FAILURE",
+          "instance": "test",
+          "method": "get(uint8)",
+          "calldata": [
+            "0x00000000000000000000000000000000000000000000000000000000000000a7"
+          ],
+          "expected": {
+            "exception": true
+          }
+        },
+        {
+          "caller": "0xF025a42711208b36479c65E919D1da935971E04B",
+          "comment": "set(uint8,uint8): 0x00, 0xef ->",
+          "instance": "test",
+          "method": "set(uint8,uint8)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "0x00000000000000000000000000000000000000000000000000000000000000ef"
+          ],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xF025a42711208b36479c65E919D1da935971E04B",
+          "comment": "table(uint8): 0 -> 0xef",
+          "instance": "test",
+          "method": "table(uint8)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0x00000000000000000000000000000000000000000000000000000000000000ef"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xF025a42711208b36479c65E919D1da935971E04B",
+          "comment": "table(uint8): 0x01 -> 0xa1",
+          "instance": "test",
+          "method": "table(uint8)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000001"
+          ],
+          "expected": {
+            "return_data": [
+              "0x00000000000000000000000000000000000000000000000000000000000000a1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xF025a42711208b36479c65E919D1da935971E04B",
+          "comment": "table(uint8): 0xa7 -> FAILURE",
+          "instance": "test",
+          "method": "table(uint8)",
+          "calldata": [
+            "0x00000000000000000000000000000000000000000000000000000000000000a7"
+          ],
+          "expected": {
+            "exception": true
+          }
+        },
+        {
+          "caller": "0xF025a42711208b36479c65E919D1da935971E04B",
+          "comment": "get(uint8): 0 -> 0xef",
+          "instance": "test",
+          "method": "get(uint8)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0x00000000000000000000000000000000000000000000000000000000000000ef"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xF025a42711208b36479c65E919D1da935971E04B",
+          "comment": "get(uint8): 0x01 -> 0xa1",
+          "instance": "test",
+          "method": "get(uint8)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000001"
+          ],
+          "expected": {
+            "return_data": [
+              "0x00000000000000000000000000000000000000000000000000000000000000a1"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xF025a42711208b36479c65E919D1da935971E04B",
+          "comment": "get(uint8): 0xa7 -> FAILURE",
+          "instance": "test",
+          "method": "get(uint8)",
+          "calldata": [
+            "0x00000000000000000000000000000000000000000000000000000000000000a7"
+          ],
+          "expected": {
+            "exception": true
+          }
+        },
+        {
+          "caller": "0xF025a42711208b36479c65E919D1da935971E04B",
+          "comment": "set(uint8,uint8): 0x01, 0x05 ->",
+          "instance": "test",
+          "method": "set(uint8,uint8)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000001",
+            "0x0000000000000000000000000000000000000000000000000000000000000005"
+          ],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xF025a42711208b36479c65E919D1da935971E04B",
+          "comment": "table(uint8): 0 -> 0xef",
+          "instance": "test",
+          "method": "table(uint8)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0x00000000000000000000000000000000000000000000000000000000000000ef"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xF025a42711208b36479c65E919D1da935971E04B",
+          "comment": "table(uint8): 0x01 -> 0x05",
+          "instance": "test",
+          "method": "table(uint8)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000001"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000005"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xF025a42711208b36479c65E919D1da935971E04B",
+          "comment": "table(uint8): 0xa7 -> FAILURE",
+          "instance": "test",
+          "method": "table(uint8)",
+          "calldata": [
+            "0x00000000000000000000000000000000000000000000000000000000000000a7"
+          ],
+          "expected": {
+            "exception": true
+          }
+        },
+        {
+          "caller": "0xF025a42711208b36479c65E919D1da935971E04B",
+          "comment": "get(uint8): 0 -> 0xef",
+          "instance": "test",
+          "method": "get(uint8)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0x00000000000000000000000000000000000000000000000000000000000000ef"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xF025a42711208b36479c65E919D1da935971E04B",
+          "comment": "get(uint8): 0x01 -> 0x05",
+          "instance": "test",
+          "method": "get(uint8)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000001"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000005"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xF025a42711208b36479c65E919D1da935971E04B",
+          "comment": "get(uint8): 0xa7 -> FAILURE",
+          "instance": "test",
+          "method": "get(uint8)",
+          "calldata": [
+            "0x00000000000000000000000000000000000000000000000000000000000000a7"
+          ],
+          "expected": {
+            "exception": true
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "test": "mapping_enum_key_getter_v2.sol:test"
+  }
+}

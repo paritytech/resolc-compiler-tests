@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "free_runtimecode",
+      "inputs": [
+        {
+          "caller": "0x0C763315F196Bc043Ca85D9FDAf523Ec23ab245c",
+          "comment": "f() -> true",
+          "instance": "D",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "D": "free_runtimecode.sol:D"
+  }
+}

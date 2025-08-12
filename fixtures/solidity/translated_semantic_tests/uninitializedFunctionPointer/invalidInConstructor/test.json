@@ -1,0 +1,26 @@
+{
+  "cases": [
+    {
+      "name": "invalidInConstructor",
+      "inputs": [
+        {
+          "caller": "0x744C35F640C8E7539914bB4C78FDD27721FBEA06",
+          "comment": "f() -> FAILURE, hex\"4e487b71\", 0x51",
+          "instance": "Test",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000004e487b71",
+              "0x0000000000000000000000000000000000000000000000000000000000000051"
+            ],
+            "exception": true
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "Test": "invalidInConstructor.sol:Test"
+  }
+}

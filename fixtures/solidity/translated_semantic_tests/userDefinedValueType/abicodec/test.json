@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "abicodec",
+      "inputs": [
+        {
+          "caller": "0x42bA888683427589Be5633b0c97954A1e1665548",
+          "comment": "g() -> true",
+          "instance": "C",
+          "method": "g()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "abicodec.sol:C"
+  }
+}

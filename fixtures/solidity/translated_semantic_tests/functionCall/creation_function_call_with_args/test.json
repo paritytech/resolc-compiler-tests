@@ -1,0 +1,37 @@
+{
+  "cases": [
+    {
+      "name": "creation_function_call_with_args",
+      "inputs": [
+        {
+          "caller": "0xCa611B9Cd569b96B7c7EBEa2f08DC571bF7b0fD7",
+          "comment": "constructor(): 2 ->; gas irOptimized: 138930; gas irOptimized code: 53800; gas legacy: 145569; gas legacy code: 95600; gas legacyOptimized: 138297; gas legacyOptimized code: 54600",
+          "instance": "D",
+          "method": "#deployer",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000002"
+          ],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xCa611B9Cd569b96B7c7EBEa2f08DC571bF7b0fD7",
+          "comment": "f() -> 2",
+          "instance": "D",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000002"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "D": "creation_function_call_with_args.sol:D"
+  }
+}

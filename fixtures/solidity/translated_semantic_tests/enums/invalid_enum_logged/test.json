@@ -1,0 +1,49 @@
+{
+  "cases": [
+    {
+      "name": "invalid_enum_logged",
+      "inputs": [
+        {
+          "caller": "0x2A7D5f9ca7E471C06865d120f3B24DcB45E4cE1E",
+          "comment": "test_log_ok() -> 1; ~ emit Log(uint8): 0x00",
+          "instance": "C",
+          "method": "test_log_ok()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "events": [
+              {
+                "topics": [
+                  "ac0db69d4d0cab623c90654fc37dc538d2855e4d313b044f0446b487c34777a6"
+                ],
+                "values": [
+                  "0x0000000000000000000000000000000000000000000000000000000000000000"
+                ]
+              }
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x2A7D5f9ca7E471C06865d120f3B24DcB45E4cE1E",
+          "comment": "test_log() -> FAILURE, hex\"4e487b71\", 0x21",
+          "instance": "C",
+          "method": "test_log()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000004e487b71",
+              "0x0000000000000000000000000000000000000000000000000000000000000021"
+            ],
+            "exception": true
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "invalid_enum_logged.sol:C"
+  }
+}

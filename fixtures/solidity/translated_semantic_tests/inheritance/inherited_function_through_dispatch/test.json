@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "inherited_function_through_dispatch",
+      "inputs": [
+        {
+          "caller": "0xCa7B487EF7E9E78A0462d1870C4Bd75de321f32A",
+          "comment": "g() -> 1",
+          "instance": "B",
+          "method": "g()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "B": "inherited_function_through_dispatch.sol:B"
+  }
+}

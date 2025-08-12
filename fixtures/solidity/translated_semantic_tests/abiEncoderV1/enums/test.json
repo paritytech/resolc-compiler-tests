@@ -1,0 +1,72 @@
+{
+  "cases": [
+    {
+      "name": "enums",
+      "inputs": [
+        {
+          "caller": "0x6350872d7465864689dEf650443026f2f73A08DA",
+          "comment": "f(uint8): 0 -> 0",
+          "instance": "C",
+          "method": "f(uint8)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x6350872d7465864689dEf650443026f2f73A08DA",
+          "comment": "f(uint8): 1 -> 1",
+          "instance": "C",
+          "method": "f(uint8)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000001"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x6350872d7465864689dEf650443026f2f73A08DA",
+          "comment": "f(uint8): 2 -> 2",
+          "instance": "C",
+          "method": "f(uint8)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000002"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000002"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x6350872d7465864689dEf650443026f2f73A08DA",
+          "comment": "f(uint8): 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff -> 0xff",
+          "instance": "C",
+          "method": "f(uint8)",
+          "calldata": [
+            "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+          ],
+          "expected": {
+            "return_data": [
+              "0x00000000000000000000000000000000000000000000000000000000000000ff"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "enums.sol:C"
+  }
+}

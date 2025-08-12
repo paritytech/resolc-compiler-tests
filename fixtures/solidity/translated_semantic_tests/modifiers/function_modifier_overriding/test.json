@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "function_modifier_overriding",
+      "inputs": [
+        {
+          "caller": "0xc4131E2eFAf5cC135C87459D51F6BAe574b900d8",
+          "comment": "f() -> false",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "function_modifier_overriding.sol:C"
+  }
+}

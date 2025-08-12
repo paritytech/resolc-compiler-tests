@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "circular_import_2",
+      "inputs": [
+        {
+          "caller": "0xa5Cec5E029b482c4ed0D307Ced9E33A108D931B3",
+          "comment": "foo() -> 992",
+          "instance": "C",
+          "method": "foo()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x00000000000000000000000000000000000000000000000000000000000003e0"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "s2.sol:C"
+  }
+}

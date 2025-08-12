@@ -1,0 +1,51 @@
+{
+  "cases": [
+    {
+      "name": "inheritance_simple",
+      "inputs": [
+        {
+          "caller": "0x3573EfC788341F2386106c9c066d4a39aC7e6DD3",
+          "comment": "f() -> 8",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000008"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x3573EfC788341F2386106c9c066d4a39aC7e6DD3",
+          "comment": "x() -> 6",
+          "instance": "C",
+          "method": "x()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000006"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x3573EfC788341F2386106c9c066d4a39aC7e6DD3",
+          "comment": "y() -> 8",
+          "instance": "C",
+          "method": "y()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000008"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "inheritance_simple.sol:C"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "cases": [
+    {
+      "name": "struct_delete_storage",
+      "inputs": [
+        {
+          "caller": "0x17B1EE8a3345529f8a3669A5D6C5c228fa98C41E",
+          "comment": "f() ->",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "struct_delete_storage.sol:C"
+  }
+}

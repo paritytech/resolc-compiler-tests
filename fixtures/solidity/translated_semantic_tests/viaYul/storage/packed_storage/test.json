@@ -1,0 +1,27 @@
+{
+  "cases": [
+    {
+      "name": "packed_storage",
+      "inputs": [
+        {
+          "caller": "0xEEc566c793A89f388BbABfC0225183a6a95C4263",
+          "comment": "f(uint8): 6 -> 9",
+          "instance": "C",
+          "method": "f(uint8)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000006"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000009"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "packed_storage.sol:C"
+  }
+}

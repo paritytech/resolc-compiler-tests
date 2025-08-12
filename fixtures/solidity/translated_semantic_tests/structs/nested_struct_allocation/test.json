@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "nested_struct_allocation",
+      "inputs": [
+        {
+          "caller": "0xb63bCAf2DF4b621E83caE95A1364b8a0ffb40998",
+          "comment": "f() -> 1",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "nested_struct_allocation.sol:C"
+  }
+}

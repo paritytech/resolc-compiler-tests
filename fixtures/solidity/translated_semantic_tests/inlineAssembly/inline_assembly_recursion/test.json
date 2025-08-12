@@ -1,0 +1,87 @@
+{
+  "cases": [
+    {
+      "name": "inline_assembly_recursion",
+      "inputs": [
+        {
+          "caller": "0x6EEB6703e056C514516Db4b781344A14781b5Ebb",
+          "comment": "f(uint256): 0 -> 1",
+          "instance": "C",
+          "method": "f(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x6EEB6703e056C514516Db4b781344A14781b5Ebb",
+          "comment": "f(uint256): 1 -> 1",
+          "instance": "C",
+          "method": "f(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000001"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x6EEB6703e056C514516Db4b781344A14781b5Ebb",
+          "comment": "f(uint256): 2 -> 2",
+          "instance": "C",
+          "method": "f(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000002"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000002"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x6EEB6703e056C514516Db4b781344A14781b5Ebb",
+          "comment": "f(uint256): 3 -> 6",
+          "instance": "C",
+          "method": "f(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000003"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000006"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x6EEB6703e056C514516Db4b781344A14781b5Ebb",
+          "comment": "f(uint256): 4 -> 24",
+          "instance": "C",
+          "method": "f(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000004"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000018"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "inline_assembly_recursion.sol:C"
+  }
+}

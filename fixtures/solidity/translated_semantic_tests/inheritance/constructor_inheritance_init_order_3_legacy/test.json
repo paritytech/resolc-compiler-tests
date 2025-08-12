@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "constructor_inheritance_init_order_3_legacy",
+      "inputs": [
+        {
+          "caller": "0x4F4b87eAa145273Bc5e2872686826D6D4f305901",
+          "comment": "x() -> 4",
+          "instance": "B",
+          "method": "x()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000004"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "B": "constructor_inheritance_init_order_3_legacy.sol:B"
+  }
+}

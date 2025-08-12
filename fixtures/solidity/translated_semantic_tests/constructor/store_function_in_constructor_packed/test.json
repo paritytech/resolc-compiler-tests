@@ -1,0 +1,53 @@
+{
+  "cases": [
+    {
+      "name": "store_function_in_constructor_packed",
+      "inputs": [
+        {
+          "caller": "0xE57bFE9F44b819898F47BF37E5AF72a0783e1141",
+          "comment": "use(uint16): 3 -> 0xfff9",
+          "instance": "C",
+          "method": "use(uint16)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000003"
+          ],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000000000fff9"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xE57bFE9F44b819898F47BF37E5AF72a0783e1141",
+          "comment": "result_in_constructor() -> 0xfffb",
+          "instance": "C",
+          "method": "result_in_constructor()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000000000fffb"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xE57bFE9F44b819898F47BF37E5AF72a0783e1141",
+          "comment": "other() -> 0x1fff",
+          "instance": "C",
+          "method": "other()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000001fff"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "store_function_in_constructor_packed.sol:C"
+  }
+}

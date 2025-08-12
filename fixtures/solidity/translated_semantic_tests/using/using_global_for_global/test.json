@@ -1,0 +1,27 @@
+{
+  "cases": [
+    {
+      "name": "using_global_for_global",
+      "inputs": [
+        {
+          "caller": "0x3f0e98ED6B9374DF05713d073e055bc801aa10d1",
+          "comment": "f(uint256): 100 -> 111",
+          "instance": "C",
+          "method": "f(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000064"
+          ],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000000000006f"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "B:C"
+  }
+}

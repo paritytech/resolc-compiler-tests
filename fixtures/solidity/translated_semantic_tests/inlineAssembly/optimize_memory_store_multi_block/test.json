@@ -1,0 +1,38 @@
+{
+  "cases": [
+    {
+      "name": "optimize_memory_store_multi_block",
+      "inputs": [
+        {
+          "caller": "0x23FC3b90724cEF3076f069a97190220353aeBB86",
+          "comment": "f() -> 0x42",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000042"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x23FC3b90724cEF3076f069a97190220353aeBB86",
+          "comment": "g() -> true",
+          "instance": "C",
+          "method": "g()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "optimize_memory_store_multi_block.sol:C"
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "cases": [
+    {
+      "name": "comparison",
+      "inputs": [
+        {
+          "caller": "0xA4f8c598927EaB2f1898F8F2d6F8121578De2344",
+          "comment": "eq() -> true",
+          "instance": "C",
+          "method": "eq()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xA4f8c598927EaB2f1898F8F2d6F8121578De2344",
+          "comment": "neq() -> false",
+          "instance": "C",
+          "method": "neq()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xA4f8c598927EaB2f1898F8F2d6F8121578De2344",
+          "comment": "geq() -> true",
+          "instance": "C",
+          "method": "geq()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xA4f8c598927EaB2f1898F8F2d6F8121578De2344",
+          "comment": "leq() -> false",
+          "instance": "C",
+          "method": "leq()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xA4f8c598927EaB2f1898F8F2d6F8121578De2344",
+          "comment": "gt() -> true",
+          "instance": "C",
+          "method": "gt()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xA4f8c598927EaB2f1898F8F2d6F8121578De2344",
+          "comment": "lt() -> false",
+          "instance": "C",
+          "method": "lt()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "comparison.sol:C"
+  }
+}

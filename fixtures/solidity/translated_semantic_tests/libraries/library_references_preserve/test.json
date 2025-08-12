@@ -1,0 +1,46 @@
+{
+  "cases": [
+    {
+      "name": "library_references_preserve",
+      "inputs": [
+        {
+          "caller": "0xdF81503FBF3cc83e86bB3dA47aEd6B883f8B164d",
+          "comment": "aSum() -> 4",
+          "instance": "C",
+          "method": "aSum()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000004"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xdF81503FBF3cc83e86bB3dA47aEd6B883f8B164d",
+          "comment": "bSum() -> 5",
+          "instance": "C",
+          "method": "bSum()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000005"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "library_references_preserve.sol:C",
+    "L1": "library_references_preserve.sol:L1",
+    "L2": "library_references_preserve.sol:L2"
+  },
+  "libraries": {
+    "library_references_preserve.sol": {
+      "L1": "L1",
+      "L2": "L2"
+    }
+  }
+}

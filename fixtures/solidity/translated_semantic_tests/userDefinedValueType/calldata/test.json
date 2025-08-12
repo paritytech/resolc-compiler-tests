@@ -1,0 +1,110 @@
+{
+  "cases": [
+    {
+      "name": "calldata",
+      "inputs": [
+        {
+          "caller": "0x8d9a3D7843162a297cf5899AD513154c36bC5006",
+          "comment": "test_f() -> true; gas irOptimized: 122201; gas legacy: 125333; gas legacyOptimized: 122693",
+          "instance": "C",
+          "method": "test_f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x8d9a3D7843162a297cf5899AD513154c36bC5006",
+          "comment": "test_g() -> true; gas irOptimized: 106408; gas legacy: 111133; gas legacyOptimized: 106925",
+          "instance": "C",
+          "method": "test_g()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x8d9a3D7843162a297cf5899AD513154c36bC5006",
+          "comment": "addresses(uint256): 0 -> 0xFFFFFF24",
+          "instance": "C",
+          "method": "addresses(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0x00000000000000000000000000000000000000000000000000000000ffffff24"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x8d9a3D7843162a297cf5899AD513154c36bC5006",
+          "comment": "addresses(uint256): 1 -> 0xFFFFFF25",
+          "instance": "C",
+          "method": "addresses(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000001"
+          ],
+          "expected": {
+            "return_data": [
+              "0x00000000000000000000000000000000000000000000000000000000ffffff25"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x8d9a3D7843162a297cf5899AD513154c36bC5006",
+          "comment": "addresses(uint256): 3 -> 0xFFFFFF27",
+          "instance": "C",
+          "method": "addresses(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000003"
+          ],
+          "expected": {
+            "return_data": [
+              "0x00000000000000000000000000000000000000000000000000000000ffffff27"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x8d9a3D7843162a297cf5899AD513154c36bC5006",
+          "comment": "addresses(uint256): 4 -> 0xFFFFFF28",
+          "instance": "C",
+          "method": "addresses(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000004"
+          ],
+          "expected": {
+            "return_data": [
+              "0x00000000000000000000000000000000000000000000000000000000ffffff28"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x8d9a3D7843162a297cf5899AD513154c36bC5006",
+          "comment": "addresses(uint256): 5 -> FAILURE",
+          "instance": "C",
+          "method": "addresses(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000005"
+          ],
+          "expected": {
+            "exception": true
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "calldata.sol:C"
+  }
+}

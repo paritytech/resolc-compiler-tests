@@ -1,0 +1,26 @@
+{
+  "cases": [
+    {
+      "name": "signed_base",
+      "inputs": [
+        {
+          "caller": "0x44b31452836C6052d9FE6013859eD4e0D5287601",
+          "comment": "f() -> 9, -27",
+          "instance": "test",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000009",
+              "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe5"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "test": "signed_base.sol:test"
+  }
+}

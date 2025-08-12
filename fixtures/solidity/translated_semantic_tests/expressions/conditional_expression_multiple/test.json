@@ -1,0 +1,72 @@
+{
+  "cases": [
+    {
+      "name": "conditional_expression_multiple",
+      "inputs": [
+        {
+          "caller": "0xAd3EAF2Bf6361a1138Cd301f65FA19BE86E65f74",
+          "comment": "f(uint256): 1001 -> 1000",
+          "instance": "test",
+          "method": "f(uint256)",
+          "calldata": [
+            "0x00000000000000000000000000000000000000000000000000000000000003e9"
+          ],
+          "expected": {
+            "return_data": [
+              "0x00000000000000000000000000000000000000000000000000000000000003e8"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xAd3EAF2Bf6361a1138Cd301f65FA19BE86E65f74",
+          "comment": "f(uint256): 500 -> 100",
+          "instance": "test",
+          "method": "f(uint256)",
+          "calldata": [
+            "0x00000000000000000000000000000000000000000000000000000000000001f4"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000064"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xAd3EAF2Bf6361a1138Cd301f65FA19BE86E65f74",
+          "comment": "f(uint256): 80 -> 50",
+          "instance": "test",
+          "method": "f(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000050"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000032"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xAd3EAF2Bf6361a1138Cd301f65FA19BE86E65f74",
+          "comment": "f(uint256): 40 -> 10",
+          "instance": "test",
+          "method": "f(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000028"
+          ],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000000000000a"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "test": "conditional_expression_multiple.sol:test"
+  }
+}

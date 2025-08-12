@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "recursive_structs",
+      "inputs": [
+        {
+          "caller": "0x8161599edD4670c63D8344e7f63011A0eC284777",
+          "comment": "f() -> 1",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "recursive_structs.sol:C"
+  }
+}

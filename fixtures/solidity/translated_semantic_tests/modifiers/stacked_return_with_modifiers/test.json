@@ -1,0 +1,51 @@
+{
+  "cases": [
+    {
+      "name": "stacked_return_with_modifiers",
+      "inputs": [
+        {
+          "caller": "0xcdA21585FD1e6041E9A11405Bf74a03b8Ca1A458",
+          "comment": "x() -> 0",
+          "instance": "C",
+          "method": "x()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xcdA21585FD1e6041E9A11405Bf74a03b8Ca1A458",
+          "comment": "f() -> 42",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000000000002a"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xcdA21585FD1e6041E9A11405Bf74a03b8Ca1A458",
+          "comment": "x() -> 4",
+          "instance": "C",
+          "method": "x()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000004"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "stacked_return_with_modifiers.sol:C"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "cases": [
+    {
+      "name": "hex_string_with_underscore",
+      "inputs": [
+        {
+          "caller": "0xcdeF6f23a26F960B53468f497967CE74c026AF52",
+          "comment": "f() -> 32, 5, left(0x123456789A)",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000020",
+              "0x0000000000000000000000000000000000000000000000000000000000000005",
+              "0x123456789a000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "hex_string_with_underscore.sol:C"
+  }
+}

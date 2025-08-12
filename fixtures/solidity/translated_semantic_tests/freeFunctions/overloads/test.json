@@ -1,0 +1,26 @@
+{
+  "cases": [
+    {
+      "name": "overloads",
+      "inputs": [
+        {
+          "caller": "0xc514a69465f97d2F4086cc2d465aDDd3d2810A85",
+          "comment": "g() -> 2, 3",
+          "instance": "C",
+          "method": "g()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000002",
+              "0x0000000000000000000000000000000000000000000000000000000000000003"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "overloads.sol:C"
+  }
+}

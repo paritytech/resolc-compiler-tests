@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "function_modifier_loop_viair",
+      "inputs": [
+        {
+          "caller": "0x8944a32cb42F05028DDd3C9755538243Bf4A4F29",
+          "comment": "f() -> 1",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "function_modifier_loop_viair.sol:C"
+  }
+}

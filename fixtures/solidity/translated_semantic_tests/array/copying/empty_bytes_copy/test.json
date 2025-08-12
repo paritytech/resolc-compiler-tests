@@ -1,0 +1,56 @@
+{
+  "cases": [
+    {
+      "name": "empty_bytes_copy",
+      "inputs": [
+        {
+          "caller": "0x9325c84884f62E993fBf7E0Fe9623F095533D8B5",
+          "comment": "fromMemory() -> 0x00",
+          "instance": "C",
+          "method": "fromMemory()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x9325c84884f62E993fBf7E0Fe9623F095533D8B5",
+          "comment": "fromCalldata(bytes): 0x40, 0x60, 0x00, 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff -> 0x00",
+          "instance": "C",
+          "method": "fromCalldata(bytes)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000040",
+            "0x0000000000000000000000000000000000000000000000000000000000000060",
+            "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x9325c84884f62E993fBf7E0Fe9623F095533D8B5",
+          "comment": "fromStorage() -> 0x00",
+          "instance": "C",
+          "method": "fromStorage()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "empty_bytes_copy.sol:C"
+  }
+}

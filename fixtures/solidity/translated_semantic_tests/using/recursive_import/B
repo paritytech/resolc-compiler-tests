@@ -1,0 +1,6 @@
+import { cr } from "A";
+contract C {
+    function f() public returns (uint) {
+        return cr().f().g();
+    }
+}

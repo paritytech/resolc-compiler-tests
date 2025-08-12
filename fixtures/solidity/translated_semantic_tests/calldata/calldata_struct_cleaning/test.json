@@ -1,0 +1,55 @@
+{
+  "cases": [
+    {
+      "name": "calldata_struct_cleaning",
+      "inputs": [
+        {
+          "caller": "0xc76f012e39424426436D892A3394606963618Ff2",
+          "comment": "f((uint8,bytes1)): 0x12, hex\"3400000000000000000000000000000000000000000000000000000000000000\" -> 0x12, hex\"3400000000000000000000000000000000000000000000000000000000000000\"",
+          "instance": "C",
+          "method": "f((uint8,bytes1))",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000012",
+            "0x3400000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000012",
+              "0x3400000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xc76f012e39424426436D892A3394606963618Ff2",
+          "comment": "f((uint8,bytes1)): 0x1234, hex\"5678000000000000000000000000000000000000000000000000000000000000\" -> FAILURE",
+          "instance": "C",
+          "method": "f((uint8,bytes1))",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000001234",
+            "0x5678000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "exception": true
+          }
+        },
+        {
+          "caller": "0xc76f012e39424426436D892A3394606963618Ff2",
+          "comment": "f((uint8,bytes1)): 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff, 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff -> FAILURE",
+          "instance": "C",
+          "method": "f((uint8,bytes1))",
+          "calldata": [
+            "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+            "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+          ],
+          "expected": {
+            "exception": true
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "calldata_struct_cleaning.sol:C"
+  }
+}

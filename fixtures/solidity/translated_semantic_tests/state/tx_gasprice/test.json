@@ -1,0 +1,51 @@
+{
+  "cases": [
+    {
+      "name": "tx_gasprice",
+      "inputs": [
+        {
+          "caller": "0x31887F3a1a7319d9CD7D42AA732e9C57f01D6167",
+          "comment": "f() -> 3000000000",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x00000000000000000000000000000000000000000000000000000000b2d05e00"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x31887F3a1a7319d9CD7D42AA732e9C57f01D6167",
+          "comment": "f() -> 3000000000",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x00000000000000000000000000000000000000000000000000000000b2d05e00"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x31887F3a1a7319d9CD7D42AA732e9C57f01D6167",
+          "comment": "f() -> 3000000000",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x00000000000000000000000000000000000000000000000000000000b2d05e00"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "tx_gasprice.sol:C"
+  }
+}

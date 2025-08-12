@@ -1,0 +1,51 @@
+{
+  "cases": [
+    {
+      "name": "codehash_assembly",
+      "inputs": [
+        {
+          "caller": "0x7ae3181bE62B0326E2C9a2Dc678dDbC234d1F8F5",
+          "comment": "f() -> 0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x7ae3181bE62B0326E2C9a2Dc678dDbC234d1F8F5",
+          "comment": "g() -> 0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470",
+          "instance": "C",
+          "method": "g()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x7ae3181bE62B0326E2C9a2Dc678dDbC234d1F8F5",
+          "comment": "h() -> true",
+          "instance": "C",
+          "method": "h()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "codehash_assembly.sol:C"
+  }
+}

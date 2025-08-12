@@ -1,0 +1,42 @@
+{
+  "cases": [
+    {
+      "name": "external_function_pointer_address_assignment",
+      "inputs": [
+        {
+          "caller": "0x7f3BAfcb01EAB8DBdc314c07B9Ed43f15C4a2DDc",
+          "comment": "testYul(address): 0x1234567890 -> 0x1234567890",
+          "instance": "C",
+          "method": "testYul(address)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000001234567890"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000001234567890"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x7f3BAfcb01EAB8DBdc314c07B9Ed43f15C4a2DDc",
+          "comment": "testYul(address): 0xC0FFEE3EA7 -> 0xC0FFEE3EA7",
+          "instance": "C",
+          "method": "testYul(address)",
+          "calldata": [
+            "0x000000000000000000000000000000000000000000000000000000c0ffee3ea7"
+          ],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000c0ffee3ea7"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "external_function_pointer_address_assignment.sol:C"
+  }
+}

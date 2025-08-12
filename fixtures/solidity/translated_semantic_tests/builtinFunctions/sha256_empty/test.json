@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "sha256_empty",
+      "inputs": [
+        {
+          "caller": "0x16a208bc0Ae2c93409f5924f5053944409c1A105",
+          "comment": "f() -> 0xe3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0xe3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "sha256_empty.sol:C"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "cases": [
+    {
+      "name": "bytes_in_constructors_unpacker",
+      "inputs": [
+        {
+          "caller": "0xfaE394561e33e242c551d15D4625309EA4c0B97f",
+          "comment": "constructor(): 7, 0x40, 78, \"abcdefghijklmnopqrstuvwxyzabcdef\", \"ghijklmnopqrstuvwxyzabcdefghijkl\", \"mnopqrstuvwxyz\" ->; gas irOptimized: 181465; gas irOptimized code: 78400; gas legacy: 195212; gas legacy code: 109400; gas legacyOptimized: 181608; gas legacyOptimized code: 71400",
+          "instance": "Test",
+          "method": "#deployer",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000007",
+            "0x0000000000000000000000000000000000000000000000000000000000000040",
+            "0x000000000000000000000000000000000000000000000000000000000000004e",
+            "0x6162636465666768696a6b6c6d6e6f707172737475767778797a616263646566",
+            "0x6768696a6b6c6d6e6f707172737475767778797a6162636465666768696a6b6c",
+            "0x0000000000000000000000000000000000006d6e6f707172737475767778797a"
+          ],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xfaE394561e33e242c551d15D4625309EA4c0B97f",
+          "comment": "m_x() -> 7",
+          "instance": "Test",
+          "method": "m_x()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000007"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xfaE394561e33e242c551d15D4625309EA4c0B97f",
+          "comment": "m_s() -> 0x20, 78, \"abcdefghijklmnopqrstuvwxyzabcdef\", \"ghijklmnopqrstuvwxyzabcdefghijkl\", \"mnopqrstuvwxyz\"",
+          "instance": "Test",
+          "method": "m_s()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000020",
+              "0x000000000000000000000000000000000000000000000000000000000000004e",
+              "0x6162636465666768696a6b6c6d6e6f707172737475767778797a616263646566",
+              "0x6768696a6b6c6d6e6f707172737475767778797a6162636465666768696a6b6c",
+              "0x0000000000000000000000000000000000006d6e6f707172737475767778797a"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "Test": "bytes_in_constructors_unpacker.sol:Test"
+  }
+}

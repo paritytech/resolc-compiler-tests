@@ -1,0 +1,74 @@
+{
+  "cases": [
+    {
+      "name": "literal_empty_string",
+      "inputs": [
+        {
+          "caller": "0x778eC180D7286B8fea84a2d42429965F35ec16F6",
+          "comment": "x() -> 0",
+          "instance": "C",
+          "method": "x()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x778eC180D7286B8fea84a2d42429965F35ec16F6",
+          "comment": "a() -> 0",
+          "instance": "C",
+          "method": "a()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x778eC180D7286B8fea84a2d42429965F35ec16F6",
+          "comment": "g() ->",
+          "instance": "C",
+          "method": "g()",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x778eC180D7286B8fea84a2d42429965F35ec16F6",
+          "comment": "x() -> 0",
+          "instance": "C",
+          "method": "x()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x778eC180D7286B8fea84a2d42429965F35ec16F6",
+          "comment": "a() -> 2",
+          "instance": "C",
+          "method": "a()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000002"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "literal_empty_string.sol:C"
+  }
+}

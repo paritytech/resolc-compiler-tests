@@ -1,0 +1,59 @@
+{
+  "cases": [
+    {
+      "name": "library_delegatecall_guard_view_not_needed",
+      "inputs": [
+        {
+          "caller": "0x359a58550015E98A33ECA9E7c972d02F62B47C7d",
+          "comment": "f() -> 84",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000054"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x359a58550015E98A33ECA9E7c972d02F62B47C7d",
+          "comment": "g() -> true, 84",
+          "instance": "C",
+          "method": "g()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001",
+              "0x0000000000000000000000000000000000000000000000000000000000000054"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x359a58550015E98A33ECA9E7c972d02F62B47C7d",
+          "comment": "h() -> true, 84",
+          "instance": "C",
+          "method": "h()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001",
+              "0x0000000000000000000000000000000000000000000000000000000000000054"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "library_delegatecall_guard_view_not_needed.sol:C",
+    "L": "library_delegatecall_guard_view_not_needed.sol:L"
+  },
+  "libraries": {
+    "library_delegatecall_guard_view_not_needed.sol": {
+      "L": "L"
+    }
+  }
+}

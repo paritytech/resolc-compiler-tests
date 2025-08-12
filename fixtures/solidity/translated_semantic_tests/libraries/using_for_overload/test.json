@@ -1,0 +1,46 @@
+{
+  "cases": [
+    {
+      "name": "using_for_overload",
+      "inputs": [
+        {
+          "caller": "0x71375F7392155e892c7670417CA14DB75512a9F5",
+          "comment": "f(uint256): 7 -> 0x2a",
+          "instance": "C",
+          "method": "f(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000007"
+          ],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000000000002a"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x71375F7392155e892c7670417CA14DB75512a9F5",
+          "comment": "x() -> 0x2a",
+          "instance": "C",
+          "method": "x()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000000000002a"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "using_for_overload.sol:C",
+    "D": "using_for_overload.sol:D"
+  },
+  "libraries": {
+    "using_for_overload.sol": {
+      "D": "D"
+    }
+  }
+}

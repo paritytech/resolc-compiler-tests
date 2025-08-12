@@ -1,0 +1,103 @@
+{
+  "cases": [
+    {
+      "name": "storage_signed",
+      "inputs": [
+        {
+          "caller": "0xba0bBe55F76f1b89Eb18A80c0682Cf7a1E7C4C43",
+          "comment": "a() -> -2",
+          "instance": "C",
+          "method": "a()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xba0bBe55F76f1b89Eb18A80c0682Cf7a1E7C4C43",
+          "comment": "direct() -> -2",
+          "instance": "C",
+          "method": "direct()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xba0bBe55F76f1b89Eb18A80c0682Cf7a1E7C4C43",
+          "comment": "indirect() -> -2",
+          "instance": "C",
+          "method": "indirect()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xba0bBe55F76f1b89Eb18A80c0682Cf7a1E7C4C43",
+          "comment": "toMemDirect() -> -2",
+          "instance": "C",
+          "method": "toMemDirect()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xba0bBe55F76f1b89Eb18A80c0682Cf7a1E7C4C43",
+          "comment": "toMemIndirect() -> -2",
+          "instance": "C",
+          "method": "toMemIndirect()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xba0bBe55F76f1b89Eb18A80c0682Cf7a1E7C4C43",
+          "comment": "div() -> -1",
+          "instance": "C",
+          "method": "div()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xba0bBe55F76f1b89Eb18A80c0682Cf7a1E7C4C43",
+          "comment": "viaasm() -> 0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe",
+          "instance": "C",
+          "method": "viaasm()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "storage_signed.sol:C"
+  }
+}

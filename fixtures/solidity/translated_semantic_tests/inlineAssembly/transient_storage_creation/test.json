@@ -1,0 +1,22 @@
+{
+  "cases": [
+    {
+      "name": "transient_storage_creation",
+      "inputs": [
+        {
+          "caller": "0x48d1Cd66CD90F53B72eE154Cec3250408B48a50B",
+          "comment": "constructor() ->",
+          "instance": "C",
+          "method": "#deployer",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "transient_storage_creation.sol:C"
+  }
+}

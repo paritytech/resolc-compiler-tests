@@ -1,0 +1,22 @@
+{
+  "cases": [
+    {
+      "name": "wrap_unwrap",
+      "inputs": [
+        {
+          "caller": "0x966F91FCA291e85C7d1024EA27f62d28D8fd3Fd7",
+          "comment": "f() ->",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "wrap_unwrap.sol:C"
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "cases": [
+    {
+      "name": "delete_struct",
+      "inputs": [
+        {
+          "caller": "0xc262C9561Ad1B8533c9D52E46ea66ae28E400159",
+          "comment": "getToDelete() -> 0",
+          "instance": "test",
+          "method": "getToDelete()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xc262C9561Ad1B8533c9D52E46ea66ae28E400159",
+          "comment": "getTopValue() -> 0",
+          "instance": "test",
+          "method": "getTopValue()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xc262C9561Ad1B8533c9D52E46ea66ae28E400159",
+          "comment": "getNestedValue() -> 0",
+          "instance": "test",
+          "method": "getNestedValue()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xc262C9561Ad1B8533c9D52E46ea66ae28E400159",
+          "comment": "getTopMapping(uint256): 0 -> 1",
+          "instance": "test",
+          "method": "getTopMapping(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xc262C9561Ad1B8533c9D52E46ea66ae28E400159",
+          "comment": "getTopMapping(uint256): 1 -> 2",
+          "instance": "test",
+          "method": "getTopMapping(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000001"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000002"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xc262C9561Ad1B8533c9D52E46ea66ae28E400159",
+          "comment": "getNestedMapping(uint256): 0 -> true",
+          "instance": "test",
+          "method": "getNestedMapping(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xc262C9561Ad1B8533c9D52E46ea66ae28E400159",
+          "comment": "getNestedMapping(uint256): 1 -> false",
+          "instance": "test",
+          "method": "getNestedMapping(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000001"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "test": "delete_struct.sol:test"
+  }
+}

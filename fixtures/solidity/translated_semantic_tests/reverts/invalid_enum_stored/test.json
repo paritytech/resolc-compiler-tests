@@ -1,0 +1,52 @@
+{
+  "cases": [
+    {
+      "name": "invalid_enum_stored",
+      "inputs": [
+        {
+          "caller": "0x70f291d1113A312a38BeA4e3EF8B53b8455D68aa",
+          "comment": "test_store_ok() -> 1",
+          "instance": "C",
+          "method": "test_store_ok()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x70f291d1113A312a38BeA4e3EF8B53b8455D68aa",
+          "comment": "x() -> 0",
+          "instance": "C",
+          "method": "x()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x70f291d1113A312a38BeA4e3EF8B53b8455D68aa",
+          "comment": "test_store() -> FAILURE, hex\"4e487b71\", 33",
+          "instance": "C",
+          "method": "test_store()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000004e487b71",
+              "0x0000000000000000000000000000000000000000000000000000000000000021"
+            ],
+            "exception": true
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "invalid_enum_stored.sol:C"
+  }
+}

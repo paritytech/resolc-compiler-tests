@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "accessor_for_state_variable",
+      "inputs": [
+        {
+          "caller": "0x547571a68675F6f71C100fe285C89940000475e3",
+          "comment": "ticketPrice() -> 500",
+          "instance": "Lotto",
+          "method": "ticketPrice()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x00000000000000000000000000000000000000000000000000000000000001f4"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "Lotto": "accessor_for_state_variable.sol:Lotto"
+  }
+}

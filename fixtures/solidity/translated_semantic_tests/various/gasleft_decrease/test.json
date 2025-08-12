@@ -1,0 +1,38 @@
+{
+  "cases": [
+    {
+      "name": "gasleft_decrease",
+      "inputs": [
+        {
+          "caller": "0xB7c1b720Fa76cbe57258f54aB31b0D9c1BB19f65",
+          "comment": "f() -> true",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xB7c1b720Fa76cbe57258f54aB31b0D9c1BB19f65",
+          "comment": "g() -> true",
+          "instance": "C",
+          "method": "g()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "gasleft_decrease.sol:C"
+  }
+}

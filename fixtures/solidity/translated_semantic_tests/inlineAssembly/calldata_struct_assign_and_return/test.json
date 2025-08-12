@@ -1,0 +1,84 @@
+{
+  "cases": [
+    {
+      "name": "calldata_struct_assign_and_return",
+      "inputs": [
+        {
+          "caller": "0xB53c9D82700DD8C8cafacd64CAdFD32760acb32F",
+          "comment": "g(): 0xCAFFEE, 0x42, 0x21 -> 0x42, 0x21",
+          "instance": "C",
+          "method": "g()",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000caffee",
+            "0x0000000000000000000000000000000000000000000000000000000000000042",
+            "0x0000000000000000000000000000000000000000000000000000000000000021"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000042",
+              "0x0000000000000000000000000000000000000000000000000000000000000021"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xB53c9D82700DD8C8cafacd64CAdFD32760acb32F",
+          "comment": "g(): 0xCAFFEE, 0x4242, 0x2121 -> FAILURE",
+          "instance": "C",
+          "method": "g()",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000caffee",
+            "0x0000000000000000000000000000000000000000000000000000000000004242",
+            "0x0000000000000000000000000000000000000000000000000000000000002121"
+          ],
+          "expected": {
+            "exception": true
+          }
+        },
+        {
+          "caller": "0xB53c9D82700DD8C8cafacd64CAdFD32760acb32F",
+          "comment": "g(): 0xCAFFEE, 0x42 -> 0x42, 0",
+          "instance": "C",
+          "method": "g()",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000caffee",
+            "0x0000000000000000000000000000000000000000000000000000000000000042"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000042",
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xB53c9D82700DD8C8cafacd64CAdFD32760acb32F",
+          "comment": "h() -> 0x42",
+          "instance": "C",
+          "method": "h()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000042"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xB53c9D82700DD8C8cafacd64CAdFD32760acb32F",
+          "comment": "i() -> FAILURE",
+          "instance": "C",
+          "method": "i()",
+          "calldata": [],
+          "expected": {
+            "exception": true
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "calldata_struct_assign_and_return.sol:C"
+  }
+}

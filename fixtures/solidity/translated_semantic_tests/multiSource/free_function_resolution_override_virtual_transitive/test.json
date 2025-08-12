@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "free_function_resolution_override_virtual_transitive",
+      "inputs": [
+        {
+          "caller": "0xCc955fD3B8F01764Aad2452e6a5f13d337e9F112",
+          "comment": "g() -> 1339",
+          "instance": "E",
+          "method": "g()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000000000053b"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "E": "s3.sol:E"
+  }
+}

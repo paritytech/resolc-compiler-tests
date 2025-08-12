@@ -1,0 +1,38 @@
+{
+  "cases": [
+    {
+      "name": "inline_assembly_direct_load",
+      "inputs": [
+        {
+          "caller": "0xC5F78F381A4a384f262Bb30169aB53edD1b12E75",
+          "comment": "f() -> 16",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000010"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xC5F78F381A4a384f262Bb30169aB53edD1b12E75",
+          "comment": "x() -> 16",
+          "instance": "C",
+          "method": "x()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000010"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "inline_assembly_direct_load.sol:C"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "cases": [
+    {
+      "name": "return_storage_pointers",
+      "inputs": [
+        {
+          "caller": "0x13C0E7c715fDeA35c7f9663c719e4D36601275B9",
+          "comment": "g() -> 0, 0",
+          "instance": "C",
+          "method": "g()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000",
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "return_storage_pointers.sol:C"
+  }
+}

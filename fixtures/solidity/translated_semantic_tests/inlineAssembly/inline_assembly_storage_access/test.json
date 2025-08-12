@@ -1,0 +1,38 @@
+{
+  "cases": [
+    {
+      "name": "inline_assembly_storage_access",
+      "inputs": [
+        {
+          "caller": "0x1701F63a1Aa25df5afA154e976D6D6ed56c555E2",
+          "comment": "f() -> true",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1701F63a1Aa25df5afA154e976D6D6ed56c555E2",
+          "comment": "z() -> 7",
+          "instance": "C",
+          "method": "z()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000007"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "inline_assembly_storage_access.sol:C"
+  }
+}

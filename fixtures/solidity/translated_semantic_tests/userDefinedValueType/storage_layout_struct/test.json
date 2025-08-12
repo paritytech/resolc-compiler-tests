@@ -1,0 +1,364 @@
+{
+  "cases": [
+    {
+      "name": "storage_layout_struct",
+      "inputs": [
+        {
+          "caller": "0xC7b45F132228BD62c9c7A81dA099a9f1e292EEb3",
+          "comment": "storage_a() -> 0, 0",
+          "instance": "C",
+          "method": "storage_a()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000",
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xC7b45F132228BD62c9c7A81dA099a9f1e292EEb3",
+          "comment": "set_a(int64,int64): 100, 200 ->",
+          "instance": "C",
+          "method": "set_a(int64,int64)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000064",
+            "0x00000000000000000000000000000000000000000000000000000000000000c8"
+          ],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xC7b45F132228BD62c9c7A81dA099a9f1e292EEb3",
+          "comment": "read_slot(uint256): 0 -> 0xc80000000000000064",
+          "instance": "C",
+          "method": "read_slot(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000c80000000000000064"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xC7b45F132228BD62c9c7A81dA099a9f1e292EEb3",
+          "comment": "storage_ra() -> 1, 0",
+          "instance": "C",
+          "method": "storage_ra()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001",
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xC7b45F132228BD62c9c7A81dA099a9f1e292EEb3",
+          "comment": "set_ra(int64,int64): 100, 200 ->",
+          "instance": "C",
+          "method": "set_ra(int64,int64)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000064",
+            "0x00000000000000000000000000000000000000000000000000000000000000c8"
+          ],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xC7b45F132228BD62c9c7A81dA099a9f1e292EEb3",
+          "comment": "read_slot(uint256): 1 -> 0xc80000000000000064",
+          "instance": "C",
+          "method": "read_slot(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000001"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000c80000000000000064"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xC7b45F132228BD62c9c7A81dA099a9f1e292EEb3",
+          "comment": "storage_b() -> 2, 0",
+          "instance": "C",
+          "method": "storage_b()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000002",
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xC7b45F132228BD62c9c7A81dA099a9f1e292EEb3",
+          "comment": "set_b(int64,int64): 0, 200 ->",
+          "instance": "C",
+          "method": "set_b(int64,int64)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "0x00000000000000000000000000000000000000000000000000000000000000c8"
+          ],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xC7b45F132228BD62c9c7A81dA099a9f1e292EEb3",
+          "comment": "read_slot(uint256): 2 -> 3689348814741910323200",
+          "instance": "C",
+          "method": "read_slot(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000002"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000c80000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xC7b45F132228BD62c9c7A81dA099a9f1e292EEb3",
+          "comment": "storage_rb() -> 3, 0",
+          "instance": "C",
+          "method": "storage_rb()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000003",
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xC7b45F132228BD62c9c7A81dA099a9f1e292EEb3",
+          "comment": "set_rb(int64,int64): 0, 200 ->",
+          "instance": "C",
+          "method": "set_rb(int64,int64)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "0x00000000000000000000000000000000000000000000000000000000000000c8"
+          ],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xC7b45F132228BD62c9c7A81dA099a9f1e292EEb3",
+          "comment": "read_slot(uint256): 3 -> 3689348814741910323200",
+          "instance": "C",
+          "method": "read_slot(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000003"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000c80000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xC7b45F132228BD62c9c7A81dA099a9f1e292EEb3",
+          "comment": "storage_c() -> 4, 0",
+          "instance": "C",
+          "method": "storage_c()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000004",
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xC7b45F132228BD62c9c7A81dA099a9f1e292EEb3",
+          "comment": "set_c(int64,int64): 100, 0 ->",
+          "instance": "C",
+          "method": "set_c(int64,int64)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000064",
+            "0x0000000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xC7b45F132228BD62c9c7A81dA099a9f1e292EEb3",
+          "comment": "read_slot(uint256): 4 -> 0x64",
+          "instance": "C",
+          "method": "read_slot(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000004"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000064"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xC7b45F132228BD62c9c7A81dA099a9f1e292EEb3",
+          "comment": "storage_rc() -> 5, 0",
+          "instance": "C",
+          "method": "storage_rc()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000005",
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xC7b45F132228BD62c9c7A81dA099a9f1e292EEb3",
+          "comment": "set_rc(int64,int64): 100, 0 ->",
+          "instance": "C",
+          "method": "set_rc(int64,int64)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000064",
+            "0x0000000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xC7b45F132228BD62c9c7A81dA099a9f1e292EEb3",
+          "comment": "read_slot(uint256): 5 -> 0x64",
+          "instance": "C",
+          "method": "read_slot(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000005"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000064"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xC7b45F132228BD62c9c7A81dA099a9f1e292EEb3",
+          "comment": "storage_d() -> 6, 0",
+          "instance": "C",
+          "method": "storage_d()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000006",
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xC7b45F132228BD62c9c7A81dA099a9f1e292EEb3",
+          "comment": "set_d(int96,address): 39614081257132168796771975167, 1461501637330902918203684832716283019655932542975 ->",
+          "instance": "C",
+          "method": "set_d(int96,address)",
+          "calldata": [
+            "0x00000000000000000000000000000000000000007fffffffffffffffffffffff",
+            "0x000000000000000000000000ffffffffffffffffffffffffffffffffffffffff"
+          ],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xC7b45F132228BD62c9c7A81dA099a9f1e292EEb3",
+          "comment": "read_slot(uint256): 6 -> -39614081257132168796771975169",
+          "instance": "C",
+          "method": "read_slot(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000006"
+          ],
+          "expected": {
+            "return_data": [
+              "0xffffffffffffffffffffffffffffffffffffffff7fffffffffffffffffffffff"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xC7b45F132228BD62c9c7A81dA099a9f1e292EEb3",
+          "comment": "storage_rd() -> 7, 0",
+          "instance": "C",
+          "method": "storage_rd()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000007",
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xC7b45F132228BD62c9c7A81dA099a9f1e292EEb3",
+          "comment": "set_rd(int96,address): 39614081257132168796771975167, 1461501637330902918203684832716283019655932542975 ->",
+          "instance": "C",
+          "method": "set_rd(int96,address)",
+          "calldata": [
+            "0x00000000000000000000000000000000000000007fffffffffffffffffffffff",
+            "0x000000000000000000000000ffffffffffffffffffffffffffffffffffffffff"
+          ],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xC7b45F132228BD62c9c7A81dA099a9f1e292EEb3",
+          "comment": "read_slot(uint256): 7 -> -39614081257132168796771975169",
+          "instance": "C",
+          "method": "read_slot(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000007"
+          ],
+          "expected": {
+            "return_data": [
+              "0xffffffffffffffffffffffffffffffffffffffff7fffffffffffffffffffffff"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xC7b45F132228BD62c9c7A81dA099a9f1e292EEb3",
+          "comment": "read_contents_asm() -> 0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe, 0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe, 0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffd, 0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffd",
+          "instance": "C",
+          "method": "read_contents_asm()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe",
+              "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe",
+              "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffd",
+              "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffd"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "storage_layout_struct.sol:C"
+  }
+}

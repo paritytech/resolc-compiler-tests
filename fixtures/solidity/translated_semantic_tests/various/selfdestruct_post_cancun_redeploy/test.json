@@ -1,0 +1,159 @@
+{
+  "cases": [
+    {
+      "name": "selfdestruct_post_cancun_redeploy",
+      "inputs": [
+        {
+          "caller": "0xCC7EF4957B0816607eBcE0a00FA5861ACf95E463",
+          "comment": "constructor(), 1 ether ->; gas irOptimized: 132974; gas irOptimized code: 293800; gas legacy: 151236; gas legacy code: 533800; gas legacyOptimized: 131436; gas legacyOptimized code: 276600",
+          "instance": "D",
+          "method": "#deployer",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          },
+          "value": "1000000000000000000 wei"
+        },
+        {
+          "caller": "0xCC7EF4957B0816607eBcE0a00FA5861ACf95E463",
+          "comment": "exists() -> false",
+          "instance": "D",
+          "method": "exists()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xCC7EF4957B0816607eBcE0a00FA5861ACf95E463",
+          "comment": "test_deploy_and_terminate() ->; ~ emit Deployed(address,bytes32) from 0x137aa4dfc0911524504fcd4d98501f179bc13b4a: 0x7e6580007e709ac52945fae182c61131d42634e8, 0x1234000000000000000000000000000000000000000000000000000000000000; gas irOptimized: 96528; gas irOptimized code: 20800; gas legacy: 97788; gas legacy code: 20800; gas legacyOptimized: 96043; gas legacyOptimized code: 20800",
+          "instance": "D",
+          "method": "test_deploy_and_terminate()",
+          "calldata": [],
+          "expected": {
+            "events": [
+              {
+                "address": "0x137Aa4dFC0911524504fcd4d98501F179BC13B4A",
+                "topics": [
+                  "94bfd9af14ef450884c8a7ddb5734e2e1e14e70a1c84f0801cc5a29e34d26428"
+                ],
+                "values": [
+                  "0x0000000000000000000000007e6580007e709ac52945fae182c61131d42634e8",
+                  "0x1234000000000000000000000000000000000000000000000000000000000000"
+                ]
+              }
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xCC7EF4957B0816607eBcE0a00FA5861ACf95E463",
+          "comment": "exists() -> false",
+          "instance": "D",
+          "method": "exists()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xCC7EF4957B0816607eBcE0a00FA5861ACf95E463",
+          "comment": "deploy_create2() ->; ~ emit Deployed(address,bytes32) from 0x137aa4dfc0911524504fcd4d98501f179bc13b4a: 0x7e6580007e709ac52945fae182c61131d42634e8, 0x1234000000000000000000000000000000000000000000000000000000000000",
+          "instance": "D",
+          "method": "deploy_create2()",
+          "calldata": [],
+          "expected": {
+            "events": [
+              {
+                "address": "0x137Aa4dFC0911524504fcd4d98501F179BC13B4A",
+                "topics": [
+                  "94bfd9af14ef450884c8a7ddb5734e2e1e14e70a1c84f0801cc5a29e34d26428"
+                ],
+                "values": [
+                  "0x0000000000000000000000007e6580007e709ac52945fae182c61131d42634e8",
+                  "0x1234000000000000000000000000000000000000000000000000000000000000"
+                ]
+              }
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xCC7EF4957B0816607eBcE0a00FA5861ACf95E463",
+          "comment": "test_balance_after_create() ->",
+          "instance": "D",
+          "method": "test_balance_after_create()",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xCC7EF4957B0816607eBcE0a00FA5861ACf95E463",
+          "comment": "exists() -> true",
+          "instance": "D",
+          "method": "exists()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xCC7EF4957B0816607eBcE0a00FA5861ACf95E463",
+          "comment": "terminate() ->",
+          "instance": "D",
+          "method": "terminate()",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xCC7EF4957B0816607eBcE0a00FA5861ACf95E463",
+          "comment": "test_balance_after_selfdestruct() ->",
+          "instance": "D",
+          "method": "test_balance_after_selfdestruct()",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xCC7EF4957B0816607eBcE0a00FA5861ACf95E463",
+          "comment": "exists() -> true",
+          "instance": "D",
+          "method": "exists()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xCC7EF4957B0816607eBcE0a00FA5861ACf95E463",
+          "comment": "deploy_create2() -> FAILURE; gas irOptimized: 96903654; gas legacy: 96903658; gas legacyOptimized: 96903639",
+          "instance": "D",
+          "method": "deploy_create2()",
+          "calldata": [],
+          "expected": {
+            "exception": true
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "D": "selfdestruct_post_cancun_redeploy.sol:D"
+  }
+}

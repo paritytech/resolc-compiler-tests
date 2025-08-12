@@ -1,0 +1,24 @@
+{
+  "cases": [
+    {
+      "name": "constructor_function_argument",
+      "inputs": [
+        {
+          "caller": "0x4bd1280852Cadb002734647305AFC1db7ddD6Acb",
+          "comment": "constructor(): 0xfdd67305928fcac8d213d1e47bfa6165cd0b87b946644cd0000000000000000 ->",
+          "instance": "D",
+          "method": "#deployer",
+          "calldata": [
+            "0x0fdd67305928fcac8d213d1e47bfa6165cd0b87b946644cd0000000000000000"
+          ],
+          "expected": {
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "D": "constructor_function_argument.sol:D"
+  }
+}

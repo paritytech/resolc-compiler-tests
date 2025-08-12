@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "iterated_keccak256_with_bytes",
+      "inputs": [
+        {
+          "caller": "0x257c50c0cFc863b5Dbc9aFe4e78F1ff5aF69bDeA",
+          "comment": "foo() -> 0xb338eefce206f9f57b83aa738deecd5326dc4b72dd81ee6a7c621a6facb7acdc",
+          "instance": "c",
+          "method": "foo()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0xb338eefce206f9f57b83aa738deecd5326dc4b72dd81ee6a7c621a6facb7acdc"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "c": "iterated_keccak256_with_bytes.sol:c"
+  }
+}

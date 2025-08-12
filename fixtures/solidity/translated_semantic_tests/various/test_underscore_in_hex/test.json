@@ -1,0 +1,42 @@
+{
+  "cases": [
+    {
+      "name": "test_underscore_in_hex",
+      "inputs": [
+        {
+          "caller": "0xF409b83eD82cC14FbC1fb577339b1DFcD0b7D3f1",
+          "comment": "f(bool): true -> 0x1234ab",
+          "instance": "test",
+          "method": "f(bool)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000001"
+          ],
+          "expected": {
+            "return_data": [
+              "0x00000000000000000000000000000000000000000000000000000000001234ab"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xF409b83eD82cC14FbC1fb577339b1DFcD0b7D3f1",
+          "comment": "f(bool): false -> 0x1234abcd1234",
+          "instance": "test",
+          "method": "f(bool)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0x00000000000000000000000000000000000000000000000000001234abcd1234"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "test": "test_underscore_in_hex.sol:test"
+  }
+}

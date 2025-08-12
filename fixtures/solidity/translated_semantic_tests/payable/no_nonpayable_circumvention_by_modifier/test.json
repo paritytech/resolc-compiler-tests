@@ -1,0 +1,29 @@
+{
+  "cases": [
+    {
+      "name": "no_nonpayable_circumvention_by_modifier",
+      "inputs": [
+        {
+          "caller": "0x7E5F4552091A69125d5DfCb7b8C2659029395Bdf",
+          "comment": "f(), 27 wei -> FAILURE",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "exception": true
+          },
+          "value": "27 wei"
+        },
+        {
+          "comment": "balance -> 0",
+          "address": "C.address",
+          "expected_balance": "0x0",
+          "caller": "0x2B5AD5c4795c026514f8317c7a215E218DcCD6cF"
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "no_nonpayable_circumvention_by_modifier.sol:C"
+  }
+}

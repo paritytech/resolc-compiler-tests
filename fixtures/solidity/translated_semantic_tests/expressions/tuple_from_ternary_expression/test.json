@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "tuple_from_ternary_expression",
+      "inputs": [
+        {
+          "caller": "0x476C88ED464EFD251a8b18Eb84785F7C46807873",
+          "comment": "f() -> true",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "tuple_from_ternary_expression.sol:C"
+  }
+}

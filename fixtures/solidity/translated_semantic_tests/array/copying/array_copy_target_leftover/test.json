@@ -1,0 +1,27 @@
+{
+  "cases": [
+    {
+      "name": "array_copy_target_leftover",
+      "inputs": [
+        {
+          "caller": "0x948420AF45D7479E73A3b13CDA7A34cE9486c5B9",
+          "comment": "test() -> 0xffffffff, 0x0000000000000000000000000a00090008000700060005000400030002000100, 0x0000000000000000000000000000000000000000000000000000000000000000; gas irOptimized: 100496; gas legacy: 158109; gas legacyOptimized: 141019",
+          "instance": "c",
+          "method": "test()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x00000000000000000000000000000000000000000000000000000000ffffffff",
+              "0x0000000000000000000000000a00090008000700060005000400030002000100",
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "c": "array_copy_target_leftover.sol:c"
+  }
+}

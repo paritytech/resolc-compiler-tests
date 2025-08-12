@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "addmod_mulmod",
+      "inputs": [
+        {
+          "caller": "0xcF440EB14455D6757a2E05e76A64F02E08cB1AFE",
+          "comment": "test() -> 0",
+          "instance": "C",
+          "method": "test()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "addmod_mulmod.sol:C"
+  }
+}

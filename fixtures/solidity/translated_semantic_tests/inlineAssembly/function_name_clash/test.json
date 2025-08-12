@@ -1,0 +1,38 @@
+{
+  "cases": [
+    {
+      "name": "function_name_clash",
+      "inputs": [
+        {
+          "caller": "0x2e7B4001f4CB3faD6D84af1f36B5daE50CdEeCA2",
+          "comment": "f() -> 1",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x2e7B4001f4CB3faD6D84af1f36B5daE50CdEeCA2",
+          "comment": "g() -> 2",
+          "instance": "C",
+          "method": "g()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000002"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "function_name_clash.sol:C"
+  }
+}

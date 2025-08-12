@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "block_prevrandao_pre_paris",
+      "inputs": [
+        {
+          "caller": "0xfbab5A7a0e6b3b739E6F588b6A00000bcA970291",
+          "comment": "f() -> 2500000000000000",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000008e1bc9bf04000"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "block_prevrandao_pre_paris.sol:C"
+  }
+}

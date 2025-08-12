@@ -1,0 +1,116 @@
+{
+  "cases": [
+    {
+      "name": "int",
+      "inputs": [
+        {
+          "caller": "0xA8c8948fBacc197d233fd1B42055DAAEbe96937B",
+          "comment": "intMinA() -> true",
+          "instance": "test",
+          "method": "intMinA()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xA8c8948fBacc197d233fd1B42055DAAEbe96937B",
+          "comment": "intMinB() -> true",
+          "instance": "test",
+          "method": "intMinB()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xA8c8948fBacc197d233fd1B42055DAAEbe96937B",
+          "comment": "intMinC() -> true",
+          "instance": "test",
+          "method": "intMinC()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xA8c8948fBacc197d233fd1B42055DAAEbe96937B",
+          "comment": "intMinD() -> true",
+          "instance": "test",
+          "method": "intMinD()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xA8c8948fBacc197d233fd1B42055DAAEbe96937B",
+          "comment": "intMaxA() -> true",
+          "instance": "test",
+          "method": "intMaxA()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xA8c8948fBacc197d233fd1B42055DAAEbe96937B",
+          "comment": "intMaxB() -> true",
+          "instance": "test",
+          "method": "intMaxB()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xA8c8948fBacc197d233fd1B42055DAAEbe96937B",
+          "comment": "intMaxC() -> true",
+          "instance": "test",
+          "method": "intMaxC()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xA8c8948fBacc197d233fd1B42055DAAEbe96937B",
+          "comment": "intMaxD() -> true",
+          "instance": "test",
+          "method": "intMaxD()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "test": "int.sol:test"
+  }
+}

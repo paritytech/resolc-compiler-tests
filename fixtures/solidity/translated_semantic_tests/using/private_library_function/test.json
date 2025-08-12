@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "private_library_function",
+      "inputs": [
+        {
+          "caller": "0x82a92299Bd5924053BFa74b88CcdD781391d0DdB",
+          "comment": "f() -> 2",
+          "instance": "L",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000002"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "L": "private_library_function.sol:L"
+  }
+}

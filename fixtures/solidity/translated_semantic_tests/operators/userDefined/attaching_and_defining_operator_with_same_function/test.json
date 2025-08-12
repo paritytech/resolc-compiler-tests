@@ -1,0 +1,38 @@
+{
+  "cases": [
+    {
+      "name": "attaching_and_defining_operator_with_same_function",
+      "inputs": [
+        {
+          "caller": "0xa74fc2A3D10156fF67c07Cd9A5633A1cdBb8F284",
+          "comment": "f() -> 10",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000000000000a"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xa74fc2A3D10156fF67c07Cd9A5633A1cdBb8F284",
+          "comment": "g() -> 13",
+          "instance": "C",
+          "method": "g()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000000000000d"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "attaching_and_defining_operator_with_same_function.sol:C"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "cases": [
+    {
+      "name": "event_no_arguments",
+      "inputs": [
+        {
+          "caller": "0xB540C05D9b2516DA9596A5Ee75d750717a4Be035",
+          "comment": "deposit() ->; ~ emit Deposit()",
+          "instance": "ClientReceipt",
+          "method": "deposit()",
+          "calldata": [],
+          "expected": {
+            "events": [
+              {
+                "topics": [
+                  "ed21248cb703b524cc0029bb8669df941baca560163a3bc6ad184e7e9c268070"
+                ],
+                "values": []
+              }
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "ClientReceipt": "event_no_arguments.sol:ClientReceipt"
+  }
+}

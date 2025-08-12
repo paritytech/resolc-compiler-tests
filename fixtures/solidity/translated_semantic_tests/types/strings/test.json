@@ -1,0 +1,55 @@
+{
+  "cases": [
+    {
+      "name": "strings",
+      "inputs": [
+        {
+          "caller": "0xCA0471F68D848fE3aebdbd89f41e827A6909C30F",
+          "comment": "fixedBytesHex() -> \"\\xaa\\xbb\\x00\\xff\"",
+          "instance": "test",
+          "method": "fixedBytesHex()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x00000000000000000000000000000000000000000000000000000000aabb00ff"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xCA0471F68D848fE3aebdbd89f41e827A6909C30F",
+          "comment": "fixedBytes() -> \"abc\\x00\\xff__\"",
+          "instance": "test",
+          "method": "fixedBytes()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000061626300ff5f5f"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xCA0471F68D848fE3aebdbd89f41e827A6909C30F",
+          "comment": "pipeThrough(bytes2,bool): \"\\x00\\x02\", true -> \"\\x00\\x02\", true",
+          "instance": "test",
+          "method": "pipeThrough(bytes2,bool)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000002",
+            "0x0000000000000000000000000000000000000000000000000000000000000001"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000002",
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "test": "strings.sol:test"
+  }
+}

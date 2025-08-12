@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "creation_function_call_no_args",
+      "inputs": [
+        {
+          "caller": "0x6b06B862A52c8d7E4A82FdF12517A516AFdf6842",
+          "comment": "f() -> 2; gas legacy: 76585; gas legacy code: 23600",
+          "instance": "D",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000002"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "D": "creation_function_call_no_args.sol:D"
+  }
+}

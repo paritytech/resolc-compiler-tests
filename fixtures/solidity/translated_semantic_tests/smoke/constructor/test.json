@@ -1,0 +1,82 @@
+{
+  "cases": [
+    {
+      "name": "constructor",
+      "inputs": [
+        {
+          "caller": "0xe7aFFe11eA58712aaAfeE3666C255e3C128769FC",
+          "comment": "constructor(), 2 wei: 3 ->; gas irOptimized: 78996; gas irOptimized code: 25400; gas legacy: 83055; gas legacy code: 65200; gas legacyOptimized: 78898; gas legacyOptimized code: 27800",
+          "instance": "C",
+          "method": "#deployer",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000003"
+          ],
+          "expected": {
+            "exception": false
+          },
+          "value": "2 wei"
+        },
+        {
+          "caller": "0xe7aFFe11eA58712aaAfeE3666C255e3C128769FC",
+          "comment": "state() -> 3",
+          "instance": "C",
+          "method": "state()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000003"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xe7aFFe11eA58712aaAfeE3666C255e3C128769FC",
+          "comment": "balance() -> 2",
+          "instance": "C",
+          "method": "balance()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000002"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "comment": "balance -> 2",
+          "address": "C.address",
+          "expected_balance": "0x2",
+          "caller": "0x2da8346AF54f24abfd0C65D1CF3FBC534c2E69B3"
+        },
+        {
+          "caller": "0xe7aFFe11eA58712aaAfeE3666C255e3C128769FC",
+          "comment": "update(uint256): 4",
+          "instance": "C",
+          "method": "update(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000004"
+          ],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xe7aFFe11eA58712aaAfeE3666C255e3C128769FC",
+          "comment": "state() -> 4",
+          "instance": "C",
+          "method": "state()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000004"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "constructor.sol:C"
+  }
+}

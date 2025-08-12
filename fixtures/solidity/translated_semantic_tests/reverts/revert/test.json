@@ -1,0 +1,58 @@
+{
+  "cases": [
+    {
+      "name": "revert",
+      "inputs": [
+        {
+          "caller": "0xf7f9cd772eC5f509287d08c21c5d97Ec3e4b7CdF",
+          "comment": "f() -> FAILURE",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "exception": true
+          }
+        },
+        {
+          "caller": "0xf7f9cd772eC5f509287d08c21c5d97Ec3e4b7CdF",
+          "comment": "a() -> 42",
+          "instance": "C",
+          "method": "a()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000000000002a"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xf7f9cd772eC5f509287d08c21c5d97Ec3e4b7CdF",
+          "comment": "g() -> FAILURE",
+          "instance": "C",
+          "method": "g()",
+          "calldata": [],
+          "expected": {
+            "exception": true
+          }
+        },
+        {
+          "caller": "0xf7f9cd772eC5f509287d08c21c5d97Ec3e4b7CdF",
+          "comment": "a() -> 42",
+          "instance": "C",
+          "method": "a()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000000000002a"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "revert.sol:C"
+  }
+}

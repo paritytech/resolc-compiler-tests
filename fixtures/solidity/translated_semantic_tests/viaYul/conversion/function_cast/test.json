@@ -1,0 +1,56 @@
+{
+  "cases": [
+    {
+      "name": "function_cast",
+      "inputs": [
+        {
+          "caller": "0xc6A210606f2EE6e64aFB9584DB054F3476a5Cc66",
+          "comment": "f(uint256): 2 -> 4",
+          "instance": "C",
+          "method": "f(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000002"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000004"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xc6A210606f2EE6e64aFB9584DB054F3476a5Cc66",
+          "comment": "h(uint256): 2 -> 5",
+          "instance": "C",
+          "method": "h(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000002"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000005"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xc6A210606f2EE6e64aFB9584DB054F3476a5Cc66",
+          "comment": "t() -> 0x1234b3de648b0000000000000000, 0x1234b3de648b0000000000000000",
+          "instance": "C",
+          "method": "t()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000001234b3de648b0000000000000000",
+              "0x0000000000000000000000000000000000001234b3de648b0000000000000000"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "function_cast.sol:C"
+  }
+}

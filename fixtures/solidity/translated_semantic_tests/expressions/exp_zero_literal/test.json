@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "exp_zero_literal",
+      "inputs": [
+        {
+          "caller": "0xC11B8c4B34d627a40dA72b065d3B67002EE5EC9F",
+          "comment": "f() -> 1",
+          "instance": "test",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "test": "exp_zero_literal.sol:test"
+  }
+}

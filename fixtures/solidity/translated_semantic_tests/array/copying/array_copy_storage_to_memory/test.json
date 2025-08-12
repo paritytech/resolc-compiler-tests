@@ -1,0 +1,26 @@
+{
+  "cases": [
+    {
+      "name": "array_copy_storage_to_memory",
+      "inputs": [
+        {
+          "caller": "0x77627020CC1D855D210096C12beD6E8e0dE9264b",
+          "comment": "f() -> 1, 3",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001",
+              "0x0000000000000000000000000000000000000000000000000000000000000003"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "array_copy_storage_to_memory.sol:C"
+  }
+}

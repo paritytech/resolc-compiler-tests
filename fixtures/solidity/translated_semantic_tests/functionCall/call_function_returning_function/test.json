@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "call_function_returning_function",
+      "inputs": [
+        {
+          "caller": "0xAaAD39dcaE4B62B408104ebF5351480CD8b95d67",
+          "comment": "f() -> 2",
+          "instance": "test",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000002"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "test": "call_function_returning_function.sol:test"
+  }
+}

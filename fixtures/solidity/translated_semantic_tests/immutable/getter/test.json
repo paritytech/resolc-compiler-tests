@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "getter",
+      "inputs": [
+        {
+          "caller": "0x10401edf52f3C02A3E5f26D1d3EC9551e7a8e3db",
+          "comment": "x() -> 1",
+          "instance": "C",
+          "method": "x()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "getter.sol:C"
+  }
+}

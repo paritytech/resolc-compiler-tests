@@ -1,0 +1,22 @@
+{
+  "cases": [
+    {
+      "name": "virtual_override_changing_mutability_public",
+      "inputs": [
+        {
+          "caller": "0x9775bDeD05dc2a322de42aafB7800f45c983383B",
+          "comment": "run() ->",
+          "instance": "C",
+          "method": "run()",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "virtual_override_changing_mutability_public.sol:C"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "cases": [
+    {
+      "name": "enum_explicit_overflow_homestead",
+      "inputs": [
+        {
+          "caller": "0x9F7A2385BB9D4119746FfdFA84154ba54A20F75F",
+          "comment": "getChoiceExp(uint256): 3 -> FAILURE",
+          "instance": "test",
+          "method": "getChoiceExp(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000003"
+          ],
+          "expected": {
+            "exception": true
+          }
+        },
+        {
+          "caller": "0x9F7A2385BB9D4119746FfdFA84154ba54A20F75F",
+          "comment": "getChoiceFromSigned(int256): -1 -> FAILURE",
+          "instance": "test",
+          "method": "getChoiceFromSigned(int256)",
+          "calldata": [
+            "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+          ],
+          "expected": {
+            "exception": true
+          }
+        },
+        {
+          "caller": "0x9F7A2385BB9D4119746FfdFA84154ba54A20F75F",
+          "comment": "getChoiceFromMax() -> FAILURE",
+          "instance": "test",
+          "method": "getChoiceFromMax()",
+          "calldata": [],
+          "expected": {
+            "exception": true
+          }
+        },
+        {
+          "caller": "0x9F7A2385BB9D4119746FfdFA84154ba54A20F75F",
+          "comment": "getChoiceExp(uint256): 2 -> 2",
+          "instance": "test",
+          "method": "getChoiceExp(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000002"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000002"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x9F7A2385BB9D4119746FfdFA84154ba54A20F75F",
+          "comment": "getChoiceExp(uint256): 0 -> 0",
+          "instance": "test",
+          "method": "getChoiceExp(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "test": "enum_explicit_overflow_homestead.sol:test"
+  }
+}

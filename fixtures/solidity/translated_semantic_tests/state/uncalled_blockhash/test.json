@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "uncalled_blockhash",
+      "inputs": [
+        {
+          "caller": "0x05Ed2013717b832972cdD850c6Ed10c65fc7E6b3",
+          "comment": "f() -> 0x3737373737373737373737373737373737373737373737373737373737373738",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x3737373737373737373737373737373737373737373737373737373737373738"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "uncalled_blockhash.sol:C"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "cases": [
+    {
+      "name": "event_anonymous_with_signature_collision2",
+      "inputs": [
+        {
+          "caller": "0xdb3ed822B78F0641623a12166607B5FA4dF862Ad",
+          "comment": "deposit(bytes32), 18 wei: 0x1234 ->; ~ emit Withdraw(uint256,string): #0x1234, 0x12",
+          "instance": "ClientReceipt",
+          "method": "deposit(bytes32)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000001234"
+          ],
+          "expected": {
+            "events": [
+              {
+                "topics": [
+                  "5ddaa77ac5bda319ba947e31bee594711f39ed1b20d079d438dbad5ed729fb30",
+                  "0x0000000000000000000000000000000000000000000000000000000000001234"
+                ],
+                "values": [
+                  "0x0000000000000000000000000000000000000000000000000000000000000012"
+                ]
+              }
+            ],
+            "exception": false
+          },
+          "value": "18 wei"
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "ClientReceipt": "event_anonymous_with_signature_collision2.sol:ClientReceipt"
+  }
+}

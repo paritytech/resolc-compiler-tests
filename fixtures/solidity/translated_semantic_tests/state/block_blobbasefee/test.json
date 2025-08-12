@@ -1,0 +1,64 @@
+{
+  "cases": [
+    {
+      "name": "block_blobbasefee",
+      "inputs": [
+        {
+          "caller": "0x98Bd80b1c6679d4622D5905b3eb3a7DbC33b5251",
+          "comment": "f() -> 1",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x98Bd80b1c6679d4622D5905b3eb3a7DbC33b5251",
+          "comment": "g() -> 1",
+          "instance": "C",
+          "method": "g()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x98Bd80b1c6679d4622D5905b3eb3a7DbC33b5251",
+          "comment": "f() -> 1",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x98Bd80b1c6679d4622D5905b3eb3a7DbC33b5251",
+          "comment": "g() -> 1",
+          "instance": "C",
+          "method": "g()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "block_blobbasefee.sol:C"
+  }
+}

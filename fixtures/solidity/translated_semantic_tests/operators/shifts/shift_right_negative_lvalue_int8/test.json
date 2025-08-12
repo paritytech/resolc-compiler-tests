@@ -1,0 +1,204 @@
+{
+  "cases": [
+    {
+      "name": "shift_right_negative_lvalue_int8",
+      "inputs": [
+        {
+          "caller": "0x1A49A185D6D6492660dA08C9DAA9d7A7C5b6eC0D",
+          "comment": "f(int8,uint8): -66, 0 -> -66",
+          "instance": "C",
+          "method": "f(int8,uint8)",
+          "calldata": [
+            "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbe",
+            "0x0000000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbe"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1A49A185D6D6492660dA08C9DAA9d7A7C5b6eC0D",
+          "comment": "f(int8,uint8): -66, 1 -> -33",
+          "instance": "C",
+          "method": "f(int8,uint8)",
+          "calldata": [
+            "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbe",
+            "0x0000000000000000000000000000000000000000000000000000000000000001"
+          ],
+          "expected": {
+            "return_data": [
+              "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffdf"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1A49A185D6D6492660dA08C9DAA9d7A7C5b6eC0D",
+          "comment": "f(int8,uint8): -66, 4 -> -5",
+          "instance": "C",
+          "method": "f(int8,uint8)",
+          "calldata": [
+            "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbe",
+            "0x0000000000000000000000000000000000000000000000000000000000000004"
+          ],
+          "expected": {
+            "return_data": [
+              "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1A49A185D6D6492660dA08C9DAA9d7A7C5b6eC0D",
+          "comment": "f(int8,uint8): -66, 8 -> -1",
+          "instance": "C",
+          "method": "f(int8,uint8)",
+          "calldata": [
+            "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbe",
+            "0x0000000000000000000000000000000000000000000000000000000000000008"
+          ],
+          "expected": {
+            "return_data": [
+              "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1A49A185D6D6492660dA08C9DAA9d7A7C5b6eC0D",
+          "comment": "f(int8,uint8): -66, 16 -> -1",
+          "instance": "C",
+          "method": "f(int8,uint8)",
+          "calldata": [
+            "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbe",
+            "0x0000000000000000000000000000000000000000000000000000000000000010"
+          ],
+          "expected": {
+            "return_data": [
+              "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1A49A185D6D6492660dA08C9DAA9d7A7C5b6eC0D",
+          "comment": "f(int8,uint8): -66, 17 -> -1",
+          "instance": "C",
+          "method": "f(int8,uint8)",
+          "calldata": [
+            "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbe",
+            "0x0000000000000000000000000000000000000000000000000000000000000011"
+          ],
+          "expected": {
+            "return_data": [
+              "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1A49A185D6D6492660dA08C9DAA9d7A7C5b6eC0D",
+          "comment": "f(int8,uint8): -67, 0 -> -67",
+          "instance": "C",
+          "method": "f(int8,uint8)",
+          "calldata": [
+            "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbd",
+            "0x0000000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbd"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1A49A185D6D6492660dA08C9DAA9d7A7C5b6eC0D",
+          "comment": "f(int8,uint8): -67, 1 -> -34",
+          "instance": "C",
+          "method": "f(int8,uint8)",
+          "calldata": [
+            "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbd",
+            "0x0000000000000000000000000000000000000000000000000000000000000001"
+          ],
+          "expected": {
+            "return_data": [
+              "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffde"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1A49A185D6D6492660dA08C9DAA9d7A7C5b6eC0D",
+          "comment": "f(int8,uint8): -67, 4 -> -5",
+          "instance": "C",
+          "method": "f(int8,uint8)",
+          "calldata": [
+            "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbd",
+            "0x0000000000000000000000000000000000000000000000000000000000000004"
+          ],
+          "expected": {
+            "return_data": [
+              "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1A49A185D6D6492660dA08C9DAA9d7A7C5b6eC0D",
+          "comment": "f(int8,uint8): -67, 8 -> -1",
+          "instance": "C",
+          "method": "f(int8,uint8)",
+          "calldata": [
+            "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbd",
+            "0x0000000000000000000000000000000000000000000000000000000000000008"
+          ],
+          "expected": {
+            "return_data": [
+              "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1A49A185D6D6492660dA08C9DAA9d7A7C5b6eC0D",
+          "comment": "f(int8,uint8): -67, 16 -> -1",
+          "instance": "C",
+          "method": "f(int8,uint8)",
+          "calldata": [
+            "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbd",
+            "0x0000000000000000000000000000000000000000000000000000000000000010"
+          ],
+          "expected": {
+            "return_data": [
+              "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x1A49A185D6D6492660dA08C9DAA9d7A7C5b6eC0D",
+          "comment": "f(int8,uint8): -67, 17 -> -1",
+          "instance": "C",
+          "method": "f(int8,uint8)",
+          "calldata": [
+            "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbd",
+            "0x0000000000000000000000000000000000000000000000000000000000000011"
+          ],
+          "expected": {
+            "return_data": [
+              "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "shift_right_negative_lvalue_int8.sol:C"
+  }
+}

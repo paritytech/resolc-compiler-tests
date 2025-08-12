@@ -1,0 +1,42 @@
+{
+  "cases": [
+    {
+      "name": "assert",
+      "inputs": [
+        {
+          "caller": "0x4Eb7Cb5411D13014A69EDc089AA75a6E1fd0Aa68",
+          "comment": "f(bool): true -> 1",
+          "instance": "C",
+          "method": "f(bool)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000001"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x4Eb7Cb5411D13014A69EDc089AA75a6E1fd0Aa68",
+          "comment": "f(bool): false -> 2",
+          "instance": "C",
+          "method": "f(bool)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000002"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "assert.sol:C"
+  }
+}

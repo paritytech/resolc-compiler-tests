@@ -1,0 +1,76 @@
+{
+  "cases": [
+    {
+      "name": "bytes_to_fixed_bytes_cleanup",
+      "inputs": [
+        {
+          "caller": "0x99c9B85dc9081C3d8e12506aA24C954D22CB1D0c",
+          "comment": "fromMemory(bytes): 0x20, 16, \"abcdefghabcdefgh\" -> \"abcdefghabcdef\\0\\0\"",
+          "instance": "C",
+          "method": "fromMemory(bytes)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000020",
+            "0x0000000000000000000000000000000000000000000000000000000000000010",
+            "0x0000000000000000000000000000000061626364656667686162636465666768"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000061626364656667686162636465660000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x99c9B85dc9081C3d8e12506aA24C954D22CB1D0c",
+          "comment": "fromCalldata(bytes): 0x20, 15, \"abcdefghabcdefgh\" -> \"abcdefghabcdefg\\0\"",
+          "instance": "C",
+          "method": "fromCalldata(bytes)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000020",
+            "0x000000000000000000000000000000000000000000000000000000000000000f",
+            "0x0000000000000000000000000000000061626364656667686162636465666768"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000061626364656667686162636465666700"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x99c9B85dc9081C3d8e12506aA24C954D22CB1D0c",
+          "comment": "fromStorage() -> \"abcdefghabcdefghabcdefghabcdefg\\0\"",
+          "instance": "C",
+          "method": "fromStorage()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x6162636465666768616263646566676861626364656667686162636465666700"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x99c9B85dc9081C3d8e12506aA24C954D22CB1D0c",
+          "comment": "fromSlice(bytes): 0x20, 15, \"abcdefghabcdefgh\" -> \"abcdef\\0\\0\"",
+          "instance": "C",
+          "method": "fromSlice(bytes)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000020",
+            "0x000000000000000000000000000000000000000000000000000000000000000f",
+            "0x0000000000000000000000000000000061626364656667686162636465666768"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000006162636465660000"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "bytes_to_fixed_bytes_cleanup.sol:C"
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "cases": [
+    {
+      "name": "malformed_error",
+      "inputs": [
+        {
+          "caller": "0xad91Cf5192F6A18425a6CDC8ce281e3D023fE54D",
+          "comment": "a() -> 0x00",
+          "instance": "C",
+          "method": "a()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xad91Cf5192F6A18425a6CDC8ce281e3D023fE54D",
+          "comment": "b() -> 0x00",
+          "instance": "C",
+          "method": "b()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xad91Cf5192F6A18425a6CDC8ce281e3D023fE54D",
+          "comment": "b2() -> 0x00",
+          "instance": "C",
+          "method": "b2()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xad91Cf5192F6A18425a6CDC8ce281e3D023fE54D",
+          "comment": "b3() -> 0x20, 0x00",
+          "instance": "C",
+          "method": "b3()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000020",
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xad91Cf5192F6A18425a6CDC8ce281e3D023fE54D",
+          "comment": "c() -> 0x20, 7, \"abcdefg\"",
+          "instance": "C",
+          "method": "c()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000020",
+              "0x0000000000000000000000000000000000000000000000000000000000000007",
+              "0x0000000000000000000000000000000000000000000000000061626364656667"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xad91Cf5192F6A18425a6CDC8ce281e3D023fE54D",
+          "comment": "d() -> 0x20, 7, \"abcdefg\"",
+          "instance": "C",
+          "method": "d()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000020",
+              "0x0000000000000000000000000000000000000000000000000000000000000007",
+              "0x0000000000000000000000000000000000000000000000000061626364656667"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "malformed_error.sol:C"
+  }
+}

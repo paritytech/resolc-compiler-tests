@@ -1,0 +1,36 @@
+{
+  "cases": [
+    {
+      "name": "ether_and_data",
+      "inputs": [
+        {
+          "caller": "0xb76e7FEE3A401D1E34Ec3b3b0267Ba2F84a0f484",
+          "comment": "(), 1 ether",
+          "instance": "C",
+          "method": "#fallback",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          },
+          "value": "1000000000000000000 wei"
+        },
+        {
+          "caller": "0xb76e7FEE3A401D1E34Ec3b3b0267Ba2F84a0f484",
+          "comment": "(), 1 ether: 1 -> FAILURE",
+          "instance": "C",
+          "method": "#fallback",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000001"
+          ],
+          "expected": {
+            "exception": true
+          },
+          "value": "1000000000000000000 wei"
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "ether_and_data.sol:C"
+  }
+}

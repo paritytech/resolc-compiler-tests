@@ -1,0 +1,40 @@
+{
+  "cases": [
+    {
+      "name": "last_allowed_storage_slot",
+      "inputs": [
+        {
+          "caller": "0xFFf923d2e5AB16c196D5817fbB2f7b4E1efc4Ba6",
+          "comment": "f(uint256): 4 -> 8",
+          "instance": "C",
+          "method": "f(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000004"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000008"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xFFf923d2e5AB16c196D5817fbB2f7b4E1efc4Ba6",
+          "comment": "x() -> 8",
+          "instance": "C",
+          "method": "x()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000008"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "last_allowed_storage_slot.sol:C"
+  }
+}

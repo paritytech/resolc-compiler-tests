@@ -1,0 +1,74 @@
+{
+  "cases": [
+    {
+      "name": "simple",
+      "inputs": [
+        {
+          "caller": "0x25346934b4FAa00DeE0190C2069156BDe6010c18",
+          "comment": "f() -> 1024",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000400"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x25346934b4FAa00DeE0190C2069156BDe6010c18",
+          "comment": "g() -> 1024",
+          "instance": "C",
+          "method": "g()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000400"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x25346934b4FAa00DeE0190C2069156BDe6010c18",
+          "comment": "h() -> 2",
+          "instance": "C",
+          "method": "h()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000002"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x25346934b4FAa00DeE0190C2069156BDe6010c18",
+          "comment": "i() -> 3",
+          "instance": "C",
+          "method": "i()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000003"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x25346934b4FAa00DeE0190C2069156BDe6010c18",
+          "comment": "j() ->",
+          "instance": "C",
+          "method": "j()",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "simple.sol:C"
+  }
+}

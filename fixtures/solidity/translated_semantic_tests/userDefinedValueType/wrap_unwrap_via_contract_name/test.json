@@ -1,0 +1,72 @@
+{
+  "cases": [
+    {
+      "name": "wrap_unwrap_via_contract_name",
+      "inputs": [
+        {
+          "caller": "0x62e5d4e77639c6b1c7EEb21c9A3bbdb5F87440e3",
+          "comment": "f(uint256): 0x42 -> 0x42",
+          "instance": "D",
+          "method": "f(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000042"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000042"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x62e5d4e77639c6b1c7EEb21c9A3bbdb5F87440e3",
+          "comment": "g(uint256): 0x42 -> 0x42",
+          "instance": "D",
+          "method": "g(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000042"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000042"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x62e5d4e77639c6b1c7EEb21c9A3bbdb5F87440e3",
+          "comment": "h(uint256): 0x42 -> 0x42",
+          "instance": "D",
+          "method": "h(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000042"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000042"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x62e5d4e77639c6b1c7EEb21c9A3bbdb5F87440e3",
+          "comment": "i(uint256): 0x42 -> 0x42",
+          "instance": "D",
+          "method": "i(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000042"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000042"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "D": "wrap_unwrap_via_contract_name.sol:D"
+  }
+}

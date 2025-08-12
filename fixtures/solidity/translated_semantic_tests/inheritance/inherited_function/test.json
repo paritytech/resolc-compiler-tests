@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "inherited_function",
+      "inputs": [
+        {
+          "caller": "0xe826Acf15E76DED94DAfcBaC10a34EE70b33de70",
+          "comment": "g() -> 1",
+          "instance": "B",
+          "method": "g()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "B": "inherited_function.sol:B"
+  }
+}

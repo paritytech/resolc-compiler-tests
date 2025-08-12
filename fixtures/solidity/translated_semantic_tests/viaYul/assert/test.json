@@ -1,0 +1,70 @@
+{
+  "cases": [
+    {
+      "name": "assert",
+      "inputs": [
+        {
+          "caller": "0xd2431CA38735C2fd438e2cAa23F094191D89675b",
+          "comment": "f(bool): true -> true",
+          "instance": "C",
+          "method": "f(bool)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000001"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xd2431CA38735C2fd438e2cAa23F094191D89675b",
+          "comment": "f(bool): false -> FAILURE, hex\"4e487b71\", 0x01",
+          "instance": "C",
+          "method": "f(bool)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000004e487b71",
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": true
+          }
+        },
+        {
+          "caller": "0xd2431CA38735C2fd438e2cAa23F094191D89675b",
+          "comment": "fail() -> FAILURE, hex\"4e487b71\", 0x01",
+          "instance": "C",
+          "method": "fail()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000004e487b71",
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": true
+          }
+        },
+        {
+          "caller": "0xd2431CA38735C2fd438e2cAa23F094191D89675b",
+          "comment": "succeed() -> true",
+          "instance": "C",
+          "method": "succeed()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "assert.sol:C"
+  }
+}

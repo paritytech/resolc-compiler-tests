@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "state_variables_init_order",
+      "inputs": [
+        {
+          "caller": "0x4afF4d8Fa086e079584C5532569135D1AC620a87",
+          "comment": "x() -> 1",
+          "instance": "B",
+          "method": "x()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "B": "state_variables_init_order.sol:B"
+  }
+}

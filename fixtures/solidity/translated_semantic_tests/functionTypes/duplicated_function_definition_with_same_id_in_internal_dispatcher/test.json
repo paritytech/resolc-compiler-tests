@@ -1,0 +1,22 @@
+{
+  "cases": [
+    {
+      "name": "duplicated_function_definition_with_same_id_in_internal_dispatcher",
+      "inputs": [
+        {
+          "caller": "0xA11308e3B741227D41973DdB17534ceB27b8206f",
+          "comment": "f()",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "duplicated_function_definition_with_same_id_in_internal_dispatcher.sol:C"
+  }
+}

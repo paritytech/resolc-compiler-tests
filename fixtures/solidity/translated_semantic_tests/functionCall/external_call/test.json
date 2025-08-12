@@ -1,0 +1,42 @@
+{
+  "cases": [
+    {
+      "name": "external_call",
+      "inputs": [
+        {
+          "caller": "0xf31Ebf81707B6E0F1f1EFdb26f12b9B044930c33",
+          "comment": "g(uint256): 4 -> 5",
+          "instance": "C",
+          "method": "g(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000004"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000005"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xf31Ebf81707B6E0F1f1EFdb26f12b9B044930c33",
+          "comment": "f(uint256): 2 -> 5",
+          "instance": "C",
+          "method": "f(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000002"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000005"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "external_call.sol:C"
+  }
+}

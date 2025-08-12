@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "abi_encode_call_declaration",
+      "inputs": [
+        {
+          "caller": "0x7fF5e44b54742a9D3b64193C18B2E78C5e8Ee539",
+          "comment": "test() -> 11116",
+          "instance": "C",
+          "method": "test()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000002b6c"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "abi_encode_call_declaration.sol:C"
+  }
+}

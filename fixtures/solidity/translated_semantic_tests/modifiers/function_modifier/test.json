@@ -1,0 +1,39 @@
+{
+  "cases": [
+    {
+      "name": "function_modifier",
+      "inputs": [
+        {
+          "caller": "0xC9471cF742D5f5FCDFaBbaacF21228f5361A103a",
+          "comment": "getOne() -> 0",
+          "instance": "C",
+          "method": "getOne()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xC9471cF742D5f5FCDFaBbaacF21228f5361A103a",
+          "comment": "getOne(), 1 wei -> 1",
+          "instance": "C",
+          "method": "getOne()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          },
+          "value": "1 wei"
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "function_modifier.sol:C"
+  }
+}

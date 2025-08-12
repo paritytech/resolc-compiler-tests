@@ -1,0 +1,96 @@
+{
+  "cases": [
+    {
+      "name": "validation_function_type_inside_struct",
+      "inputs": [
+        {
+          "caller": "0x15193c65dDd378a49cb9BFE778A7E0301676D0FF",
+          "comment": "f((function)): \"01234567890123456789abcd\" -> 1",
+          "instance": "C",
+          "method": "f((function))",
+          "calldata": [
+            "0x0000000000000000303132333435363738393031323334353637383961626364"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x15193c65dDd378a49cb9BFE778A7E0301676D0FF",
+          "comment": "f((function)): \"01234567890123456789abcdX\" -> FAILURE",
+          "instance": "C",
+          "method": "f((function))",
+          "calldata": [
+            "0x0000000000000030313233343536373839303132333435363738396162636458"
+          ],
+          "expected": {
+            "exception": true
+          }
+        },
+        {
+          "caller": "0x15193c65dDd378a49cb9BFE778A7E0301676D0FF",
+          "comment": "g((function)): \"01234567890123456789abcd\" -> 2",
+          "instance": "C",
+          "method": "g((function))",
+          "calldata": [
+            "0x0000000000000000303132333435363738393031323334353637383961626364"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000002"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x15193c65dDd378a49cb9BFE778A7E0301676D0FF",
+          "comment": "g((function)): \"01234567890123456789abcdX\" -> 2",
+          "instance": "C",
+          "method": "g((function))",
+          "calldata": [
+            "0x0000000000000030313233343536373839303132333435363738396162636458"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000002"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x15193c65dDd378a49cb9BFE778A7E0301676D0FF",
+          "comment": "h((function)): \"01234567890123456789abcd\" -> 3",
+          "instance": "C",
+          "method": "h((function))",
+          "calldata": [
+            "0x0000000000000000303132333435363738393031323334353637383961626364"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000003"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x15193c65dDd378a49cb9BFE778A7E0301676D0FF",
+          "comment": "h((function)): \"01234567890123456789abcdX\" -> FAILURE",
+          "instance": "C",
+          "method": "h((function))",
+          "calldata": [
+            "0x0000000000000030313233343536373839303132333435363738396162636458"
+          ],
+          "expected": {
+            "exception": true
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "validation_function_type_inside_struct.sol:C"
+  }
+}

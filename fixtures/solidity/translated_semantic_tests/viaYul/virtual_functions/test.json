@@ -1,0 +1,64 @@
+{
+  "cases": [
+    {
+      "name": "virtual_functions",
+      "inputs": [
+        {
+          "caller": "0x0e7B23Cd1fdb7ea3CCC80320AB43843a2f193C36",
+          "comment": "f() -> 3",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000003"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x0e7B23Cd1fdb7ea3CCC80320AB43843a2f193C36",
+          "comment": "f1() -> 3",
+          "instance": "C",
+          "method": "f1()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000003"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x0e7B23Cd1fdb7ea3CCC80320AB43843a2f193C36",
+          "comment": "f2() -> 3",
+          "instance": "C",
+          "method": "f2()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000003"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x0e7B23Cd1fdb7ea3CCC80320AB43843a2f193C36",
+          "comment": "g() -> 3",
+          "instance": "C",
+          "method": "g()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000003"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "virtual_functions.sol:C"
+  }
+}

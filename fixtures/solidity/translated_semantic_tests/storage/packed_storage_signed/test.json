@@ -1,0 +1,28 @@
+{
+  "cases": [
+    {
+      "name": "packed_storage_signed",
+      "inputs": [
+        {
+          "caller": "0xC92Fb2E3F1a8f9861876ee812DfdEdb3e845D13A",
+          "comment": "test() -> -2, 4, -112, 0",
+          "instance": "C",
+          "method": "test()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe",
+              "0x0000000000000000000000000000000000000000000000000000000000000004",
+              "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff90",
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "packed_storage_signed.sol:C"
+  }
+}

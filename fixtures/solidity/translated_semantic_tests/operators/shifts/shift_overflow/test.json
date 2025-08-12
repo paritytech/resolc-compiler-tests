@@ -1,0 +1,92 @@
+{
+  "cases": [
+    {
+      "name": "shift_overflow",
+      "inputs": [
+        {
+          "caller": "0xBd7dB03210E124aFE9493d4aB0E16C07391Bda48",
+          "comment": "leftU(uint8,uint8): 255, 8 -> 0",
+          "instance": "C",
+          "method": "leftU(uint8,uint8)",
+          "calldata": [
+            "0x00000000000000000000000000000000000000000000000000000000000000ff",
+            "0x0000000000000000000000000000000000000000000000000000000000000008"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xBd7dB03210E124aFE9493d4aB0E16C07391Bda48",
+          "comment": "leftU(uint8,uint8): 255, 1 -> 254",
+          "instance": "C",
+          "method": "leftU(uint8,uint8)",
+          "calldata": [
+            "0x00000000000000000000000000000000000000000000000000000000000000ff",
+            "0x0000000000000000000000000000000000000000000000000000000000000001"
+          ],
+          "expected": {
+            "return_data": [
+              "0x00000000000000000000000000000000000000000000000000000000000000fe"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xBd7dB03210E124aFE9493d4aB0E16C07391Bda48",
+          "comment": "leftU(uint8,uint8): 255, 0 -> 255",
+          "instance": "C",
+          "method": "leftU(uint8,uint8)",
+          "calldata": [
+            "0x00000000000000000000000000000000000000000000000000000000000000ff",
+            "0x0000000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0x00000000000000000000000000000000000000000000000000000000000000ff"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xBd7dB03210E124aFE9493d4aB0E16C07391Bda48",
+          "comment": "leftS(int8,uint8): 1, 7 -> -128",
+          "instance": "C",
+          "method": "leftS(int8,uint8)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000001",
+            "0x0000000000000000000000000000000000000000000000000000000000000007"
+          ],
+          "expected": {
+            "return_data": [
+              "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff80"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xBd7dB03210E124aFE9493d4aB0E16C07391Bda48",
+          "comment": "leftS(int8,uint8): 1, 6 -> 64",
+          "instance": "C",
+          "method": "leftS(int8,uint8)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000001",
+            "0x0000000000000000000000000000000000000000000000000000000000000006"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000040"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "shift_overflow.sol:C"
+  }
+}

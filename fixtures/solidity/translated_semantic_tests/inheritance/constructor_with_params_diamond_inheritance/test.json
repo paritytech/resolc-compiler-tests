@@ -1,0 +1,64 @@
+{
+  "cases": [
+    {
+      "name": "constructor_with_params_diamond_inheritance",
+      "inputs": [
+        {
+          "caller": "0xA109a7F5b9Dc69893D021b6C4253c5051B27a724",
+          "comment": "constructor(): 2, 0 ->; gas irOptimized: 124350; gas irOptimized code: 27600; gas legacy: 128222; gas legacy code: 40400; gas legacyOptimized: 123920; gas legacyOptimized code: 20600",
+          "instance": "D",
+          "method": "#deployer",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000002",
+            "0x0000000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xA109a7F5b9Dc69893D021b6C4253c5051B27a724",
+          "comment": "i() -> 2",
+          "instance": "D",
+          "method": "i()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000002"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xA109a7F5b9Dc69893D021b6C4253c5051B27a724",
+          "comment": "j() -> 2",
+          "instance": "D",
+          "method": "j()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000002"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xA109a7F5b9Dc69893D021b6C4253c5051B27a724",
+          "comment": "k() -> 1",
+          "instance": "D",
+          "method": "k()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "D": "constructor_with_params_diamond_inheritance.sol:D"
+  }
+}

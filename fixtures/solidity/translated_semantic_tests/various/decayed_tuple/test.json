@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "decayed_tuple",
+      "inputs": [
+        {
+          "caller": "0xe685a40CA80586574fbAD4B575b355FDEBC142a0",
+          "comment": "f() -> 2",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000002"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "decayed_tuple.sol:C"
+  }
+}

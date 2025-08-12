@@ -1,0 +1,98 @@
+{
+  "cases": [
+    {
+      "name": "array_copy_storage_storage_dyn_dyn",
+      "inputs": [
+        {
+          "caller": "0x143A87518adc8C46aA3D28556f278c6310acc81d",
+          "comment": "setData1(uint256,uint256,uint256): 10, 5, 4 ->",
+          "instance": "c",
+          "method": "setData1(uint256,uint256,uint256)",
+          "calldata": [
+            "0x000000000000000000000000000000000000000000000000000000000000000a",
+            "0x0000000000000000000000000000000000000000000000000000000000000005",
+            "0x0000000000000000000000000000000000000000000000000000000000000004"
+          ],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x143A87518adc8C46aA3D28556f278c6310acc81d",
+          "comment": "copyStorageStorage() ->; gas irOptimized: 111350; gas legacy: 109272; gas legacyOptimized: 109262",
+          "instance": "c",
+          "method": "copyStorageStorage()",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x143A87518adc8C46aA3D28556f278c6310acc81d",
+          "comment": "getData2(uint256): 5 -> 10, 4",
+          "instance": "c",
+          "method": "getData2(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000005"
+          ],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000000000000a",
+              "0x0000000000000000000000000000000000000000000000000000000000000004"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x143A87518adc8C46aA3D28556f278c6310acc81d",
+          "comment": "setData1(uint256,uint256,uint256): 0, 0, 0 ->",
+          "instance": "c",
+          "method": "setData1(uint256,uint256,uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "0x0000000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x143A87518adc8C46aA3D28556f278c6310acc81d",
+          "comment": "copyStorageStorage() ->",
+          "instance": "c",
+          "method": "copyStorageStorage()",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x143A87518adc8C46aA3D28556f278c6310acc81d",
+          "comment": "getData2(uint256): 0 -> 0, 0",
+          "instance": "c",
+          "method": "getData2(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000",
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "comment": "storageEmpty -> 1",
+          "address": "c.address",
+          "is_storage_empty": true,
+          "caller": "0x7610f0B035066245Ea92e17705B0384b90D5c211"
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "c": "array_copy_storage_storage_dyn_dyn.sol:c"
+  }
+}

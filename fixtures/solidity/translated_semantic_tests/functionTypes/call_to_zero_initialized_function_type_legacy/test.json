@@ -1,0 +1,22 @@
+{
+  "cases": [
+    {
+      "name": "call_to_zero_initialized_function_type_legacy",
+      "inputs": [
+        {
+          "caller": "0x85E4E16Bd367E4259537269633DA9a6Aa4cf95a3",
+          "comment": "t() -> FAILURE",
+          "instance": "C",
+          "method": "t()",
+          "calldata": [],
+          "expected": {
+            "exception": true
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "call_to_zero_initialized_function_type_legacy.sol:C"
+  }
+}

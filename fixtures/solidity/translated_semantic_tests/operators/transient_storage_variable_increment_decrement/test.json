@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "transient_storage_variable_increment_decrement",
+      "inputs": [
+        {
+          "caller": "0x2dF93CA994CCd2829a571b6f7eD28c33b0EF77c1",
+          "comment": "f() -> 1",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "transient_storage_variable_increment_decrement.sol:C"
+  }
+}

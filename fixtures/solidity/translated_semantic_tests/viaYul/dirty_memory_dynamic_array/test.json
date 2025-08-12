@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "dirty_memory_dynamic_array",
+      "inputs": [
+        {
+          "caller": "0xF762854586a40A93D1FdcDe32c062829F3754DE9",
+          "comment": "f() -> true",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "dirty_memory_dynamic_array.sol:C"
+  }
+}

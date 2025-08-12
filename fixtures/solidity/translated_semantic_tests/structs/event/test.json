@@ -1,0 +1,38 @@
+{
+  "cases": [
+    {
+      "name": "event",
+      "inputs": [
+        {
+          "caller": "0x67bF4E901Ba84e38B6Ad8c2B5757D4f5205111f9",
+          "comment": "f() ->; ~ emit Ev((uint256)): 0x01",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "events": [
+              {
+                "topics": [
+                  "d8995181daeaf0ad90300384c4cef95adc251321ff8e5194f1e64733dcbd2746"
+                ],
+                "values": [
+                  "0x0000000000000000000000000000000000000000000000000000000000000001"
+                ]
+              }
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "event.sol:C",
+    "L": "event.sol:L"
+  },
+  "libraries": {
+    "event.sol": {
+      "L": "L"
+    }
+  }
+}

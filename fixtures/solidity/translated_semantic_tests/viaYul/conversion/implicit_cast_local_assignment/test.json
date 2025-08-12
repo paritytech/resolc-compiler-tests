@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "implicit_cast_local_assignment",
+      "inputs": [
+        {
+          "caller": "0x639aCDbd838B81CEa8d6A970136812783fA5Bf5E",
+          "comment": "f() -> 0x78",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000078"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "implicit_cast_local_assignment.sol:C"
+  }
+}

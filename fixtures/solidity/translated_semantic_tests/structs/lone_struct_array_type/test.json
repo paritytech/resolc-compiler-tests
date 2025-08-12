@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "lone_struct_array_type",
+      "inputs": [
+        {
+          "caller": "0xc8ff52ecE34a58D1f56ab25A0D50e6350B44e739",
+          "comment": "f() -> 3",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000003"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "lone_struct_array_type.sol:C"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "cases": [
+    {
+      "name": "salted_create_with_value",
+      "inputs": [
+        {
+          "caller": "0x68063cb04384F8C3bA1A143085a49506468d8a71",
+          "comment": "f(), 10 ether -> 3007, 3008, 3009",
+          "instance": "A",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000bbf",
+              "0x0000000000000000000000000000000000000000000000000000000000000bc0",
+              "0x0000000000000000000000000000000000000000000000000000000000000bc1"
+            ],
+            "exception": false
+          },
+          "value": "10000000000000000000 wei"
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "A": "salted_create_with_value.sol:A"
+  }
+}

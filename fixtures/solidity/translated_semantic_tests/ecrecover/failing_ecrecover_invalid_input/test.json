@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "failing_ecrecover_invalid_input",
+      "inputs": [
+        {
+          "caller": "0x96A6f2CAdeE99eFfB3Dc55aC0acbB38A5F89F0ae",
+          "comment": "f() -> 0",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "failing_ecrecover_invalid_input.sol:C"
+  }
+}

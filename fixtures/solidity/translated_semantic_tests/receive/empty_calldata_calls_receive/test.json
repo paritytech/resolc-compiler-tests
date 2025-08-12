@@ -1,0 +1,108 @@
+{
+  "cases": [
+    {
+      "name": "empty_calldata_calls_receive",
+      "inputs": [
+        {
+          "caller": "0x83f9001569c1C977e15fc7c4c6F5D8d9e4Dbf7CE",
+          "comment": "x() -> 0",
+          "instance": "A",
+          "method": "x()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x83f9001569c1C977e15fc7c4c6F5D8d9e4Dbf7CE",
+          "comment": "()",
+          "instance": "A",
+          "method": "#fallback",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x83f9001569c1C977e15fc7c4c6F5D8d9e4Dbf7CE",
+          "comment": "x() -> 1",
+          "instance": "A",
+          "method": "x()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x83f9001569c1C977e15fc7c4c6F5D8d9e4Dbf7CE",
+          "comment": "(), 1 wei",
+          "instance": "A",
+          "method": "#fallback",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          },
+          "value": "1 wei"
+        },
+        {
+          "caller": "0x83f9001569c1C977e15fc7c4c6F5D8d9e4Dbf7CE",
+          "comment": "x() -> 2",
+          "instance": "A",
+          "method": "x()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000002"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x83f9001569c1C977e15fc7c4c6F5D8d9e4Dbf7CE",
+          "comment": "x(), 1 wei -> FAILURE",
+          "instance": "A",
+          "method": "x()",
+          "calldata": [],
+          "expected": {
+            "exception": true
+          },
+          "value": "1 wei"
+        },
+        {
+          "caller": "0x83f9001569c1C977e15fc7c4c6F5D8d9e4Dbf7CE",
+          "comment": "(): hex\"00\" -> FAILURE",
+          "instance": "A",
+          "method": "#fallback",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "exception": true
+          }
+        },
+        {
+          "caller": "0x83f9001569c1C977e15fc7c4c6F5D8d9e4Dbf7CE",
+          "comment": "(), 1 ether: hex\"00\" -> FAILURE",
+          "instance": "A",
+          "method": "#fallback",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "expected": {
+            "exception": true
+          },
+          "value": "1000000000000000000 wei"
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "A": "empty_calldata_calls_receive.sol:A"
+  }
+}

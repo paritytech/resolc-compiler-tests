@@ -1,0 +1,48 @@
+{
+  "cases": [
+    {
+      "name": "continue_in_modifier",
+      "inputs": [
+        {
+          "caller": "0x803F4Bb1D2e7D31F8929AA9F64a64Fc6efbcE47b",
+          "comment": "x() -> 0",
+          "instance": "C",
+          "method": "x()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x803F4Bb1D2e7D31F8929AA9F64a64Fc6efbcE47b",
+          "comment": "f() ->",
+          "instance": "C",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x803F4Bb1D2e7D31F8929AA9F64a64Fc6efbcE47b",
+          "comment": "x() -> 5",
+          "instance": "C",
+          "method": "x()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000005"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "continue_in_modifier.sol:C"
+  }
+}

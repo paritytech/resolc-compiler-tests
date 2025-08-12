@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "read_in_ctor",
+      "inputs": [
+        {
+          "caller": "0x5d86168a3Be9498F73Ac870d9Df4E973460519be",
+          "comment": "readX() -> 3",
+          "instance": "A",
+          "method": "readX()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000003"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "A": "read_in_ctor.sol:A"
+  }
+}

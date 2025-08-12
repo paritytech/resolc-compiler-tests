@@ -1,0 +1,68 @@
+{
+  "cases": [
+    {
+      "name": "inheritance_state_variable_slot_offset",
+      "inputs": [
+        {
+          "caller": "0xbEdB752F262aABE55d30F77c159394011C5b49f7",
+          "comment": "xSlotOffset() -> 7, 0",
+          "instance": "C",
+          "method": "xSlotOffset()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000007",
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xbEdB752F262aABE55d30F77c159394011C5b49f7",
+          "comment": "ySlotOffset() -> 8, 0",
+          "instance": "C",
+          "method": "ySlotOffset()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000008",
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xbEdB752F262aABE55d30F77c159394011C5b49f7",
+          "comment": "wSlotOffset() -> 8, 16",
+          "instance": "C",
+          "method": "wSlotOffset()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000008",
+              "0x0000000000000000000000000000000000000000000000000000000000000010"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xbEdB752F262aABE55d30F77c159394011C5b49f7",
+          "comment": "zSlotOffset() -> 9, 0",
+          "instance": "C",
+          "method": "zSlotOffset()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000009",
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "inheritance_state_variable_slot_offset.sol:C"
+  }
+}

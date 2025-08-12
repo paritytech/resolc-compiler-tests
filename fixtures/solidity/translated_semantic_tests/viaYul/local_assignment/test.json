@@ -1,0 +1,27 @@
+{
+  "cases": [
+    {
+      "name": "local_assignment",
+      "inputs": [
+        {
+          "caller": "0xEb9AFE072C781401BF364224C75A036e4D832F52",
+          "comment": "f(uint256): 6 -> 6",
+          "instance": "C",
+          "method": "f(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000006"
+          ],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000006"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "local_assignment.sol:C"
+  }
+}

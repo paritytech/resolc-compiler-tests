@@ -1,0 +1,234 @@
+{
+  "cases": [
+    {
+      "name": "selfdestruct_pre_cancun",
+      "inputs": [
+        {
+          "caller": "0x5Ac73638f18191BB0Da2A2f45c52b7935352Cd06",
+          "comment": "constructor(), 1 ether ->; gas irOptimized: 67028; gas irOptimized code: 175400; gas legacy: 76163; gas legacy code: 297400; gas legacyOptimized: 66516; gas legacyOptimized code: 168000",
+          "instance": "D",
+          "method": "#deployer",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          },
+          "value": "1000000000000000000 wei"
+        },
+        {
+          "caller": "0x5Ac73638f18191BB0Da2A2f45c52b7935352Cd06",
+          "comment": "exists() -> false",
+          "instance": "D",
+          "method": "exists()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x5Ac73638f18191BB0Da2A2f45c52b7935352Cd06",
+          "comment": "test_create_and_terminate() ->",
+          "instance": "D",
+          "method": "test_create_and_terminate()",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x5Ac73638f18191BB0Da2A2f45c52b7935352Cd06",
+          "comment": "exists() -> false",
+          "instance": "D",
+          "method": "exists()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x5Ac73638f18191BB0Da2A2f45c52b7935352Cd06",
+          "comment": "terminate() -> FAILURE",
+          "instance": "D",
+          "method": "terminate()",
+          "calldata": [],
+          "expected": {
+            "exception": true
+          }
+        },
+        {
+          "caller": "0x5Ac73638f18191BB0Da2A2f45c52b7935352Cd06",
+          "comment": "deploy_create() ->",
+          "instance": "D",
+          "method": "deploy_create()",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x5Ac73638f18191BB0Da2A2f45c52b7935352Cd06",
+          "comment": "test_balance_after_create() ->",
+          "instance": "D",
+          "method": "test_balance_after_create()",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x5Ac73638f18191BB0Da2A2f45c52b7935352Cd06",
+          "comment": "exists() -> true",
+          "instance": "D",
+          "method": "exists()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x5Ac73638f18191BB0Da2A2f45c52b7935352Cd06",
+          "comment": "terminate() ->",
+          "instance": "D",
+          "method": "terminate()",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x5Ac73638f18191BB0Da2A2f45c52b7935352Cd06",
+          "comment": "test_balance_after_selfdestruct() ->",
+          "instance": "D",
+          "method": "test_balance_after_selfdestruct()",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x5Ac73638f18191BB0Da2A2f45c52b7935352Cd06",
+          "comment": "exists() -> false",
+          "instance": "D",
+          "method": "exists()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x5Ac73638f18191BB0Da2A2f45c52b7935352Cd06",
+          "comment": "test_create2_and_terminate() ->",
+          "instance": "D",
+          "method": "test_create2_and_terminate()",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x5Ac73638f18191BB0Da2A2f45c52b7935352Cd06",
+          "comment": "exists() -> false",
+          "instance": "D",
+          "method": "exists()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x5Ac73638f18191BB0Da2A2f45c52b7935352Cd06",
+          "comment": "deploy_create2() ->",
+          "instance": "D",
+          "method": "deploy_create2()",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x5Ac73638f18191BB0Da2A2f45c52b7935352Cd06",
+          "comment": "test_balance_after_create() ->",
+          "instance": "D",
+          "method": "test_balance_after_create()",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x5Ac73638f18191BB0Da2A2f45c52b7935352Cd06",
+          "comment": "exists() -> true",
+          "instance": "D",
+          "method": "exists()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x5Ac73638f18191BB0Da2A2f45c52b7935352Cd06",
+          "comment": "terminate() ->",
+          "instance": "D",
+          "method": "terminate()",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x5Ac73638f18191BB0Da2A2f45c52b7935352Cd06",
+          "comment": "test_balance_after_selfdestruct() ->",
+          "instance": "D",
+          "method": "test_balance_after_selfdestruct()",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x5Ac73638f18191BB0Da2A2f45c52b7935352Cd06",
+          "comment": "exists() -> false",
+          "instance": "D",
+          "method": "exists()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x5Ac73638f18191BB0Da2A2f45c52b7935352Cd06",
+          "comment": "terminate() -> FAILURE",
+          "instance": "D",
+          "method": "terminate()",
+          "calldata": [],
+          "expected": {
+            "exception": true
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "D": "selfdestruct_pre_cancun.sol:D"
+  }
+}

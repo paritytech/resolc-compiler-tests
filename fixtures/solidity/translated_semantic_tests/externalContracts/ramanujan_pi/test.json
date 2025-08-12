@@ -1,0 +1,35 @@
+{
+  "cases": [
+    {
+      "name": "ramanujan_pi",
+      "inputs": [
+        {
+          "caller": "0xd9cc9905325081de51b54e5Eb81091Ff68d7c8aC",
+          "comment": "constructor(); gas irOptimized: 77816; gas irOptimized code: 307600; gas legacy: 92110; gas legacy code: 523600; gas legacyOptimized: 82667; gas legacyOptimized code: 369200",
+          "instance": "test",
+          "method": "#deployer",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0xd9cc9905325081de51b54e5Eb81091Ff68d7c8aC",
+          "comment": "prb_pi() -> 3141592656369545286; gas irOptimized: 57478; gas legacy: 100657; gas legacyOptimized: 75735",
+          "instance": "test",
+          "method": "prb_pi()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000002b992de047e1f046"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "test": "ramanujan_pi.sol:test"
+  }
+}

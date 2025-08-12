@@ -1,0 +1,38 @@
+{
+  "cases": [
+    {
+      "name": "explicit_base_class",
+      "inputs": [
+        {
+          "caller": "0x3ef3b621cf3DEdEef69B27D5B10378b3534C19aE",
+          "comment": "g() -> 3",
+          "instance": "Derived",
+          "method": "g()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000003"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x3ef3b621cf3DEdEef69B27D5B10378b3534C19aE",
+          "comment": "f() -> 1",
+          "instance": "Derived",
+          "method": "f()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "Derived": "explicit_base_class.sol:Derived"
+  }
+}

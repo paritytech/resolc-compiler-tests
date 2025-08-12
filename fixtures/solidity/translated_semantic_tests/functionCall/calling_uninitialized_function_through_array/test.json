@@ -1,0 +1,26 @@
+{
+  "cases": [
+    {
+      "name": "calling_uninitialized_function_through_array",
+      "inputs": [
+        {
+          "caller": "0xA1F99a1f20E73eF231aa8D6Ad847E28c3A59bCE5",
+          "comment": "t() -> FAILURE, hex\"4e487b71\", 0x51",
+          "instance": "C",
+          "method": "t()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000004e487b71",
+              "0x0000000000000000000000000000000000000000000000000000000000000051"
+            ],
+            "exception": true
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "calling_uninitialized_function_through_array.sol:C"
+  }
+}

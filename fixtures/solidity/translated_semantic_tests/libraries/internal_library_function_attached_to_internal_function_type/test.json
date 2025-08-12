@@ -1,0 +1,27 @@
+{
+  "cases": [
+    {
+      "name": "internal_library_function_attached_to_internal_function_type",
+      "inputs": [
+        {
+          "caller": "0xc83f6FD0873d9598ecAA24A813273A431f5f5216",
+          "comment": "test(uint256): 5 -> 10",
+          "instance": "C",
+          "method": "test(uint256)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000000000000000000000000000005"
+          ],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000000000000a"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "internal_library_function_attached_to_internal_function_type.sol:C"
+  }
+}

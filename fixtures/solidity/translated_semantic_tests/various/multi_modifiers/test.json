@@ -1,0 +1,58 @@
+{
+  "cases": [
+    {
+      "name": "multi_modifiers",
+      "inputs": [
+        {
+          "caller": "0x371b2Bf42b9c622e5622F89E90E921BEf4FA5181",
+          "comment": "f1() ->",
+          "instance": "C",
+          "method": "f1()",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x371b2Bf42b9c622e5622F89E90E921BEf4FA5181",
+          "comment": "x() -> 0x08",
+          "instance": "C",
+          "method": "x()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x0000000000000000000000000000000000000000000000000000000000000008"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x371b2Bf42b9c622e5622F89E90E921BEf4FA5181",
+          "comment": "f2() ->",
+          "instance": "C",
+          "method": "f2()",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x371b2Bf42b9c622e5622F89E90E921BEf4FA5181",
+          "comment": "x() -> 0x0c",
+          "instance": "C",
+          "method": "x()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x000000000000000000000000000000000000000000000000000000000000000c"
+            ],
+            "exception": false
+          }
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "C": "multi_modifiers.sol:C"
+  }
+}

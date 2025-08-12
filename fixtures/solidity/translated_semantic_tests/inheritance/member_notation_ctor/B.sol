@@ -1,4 +1,4 @@
-import "A" as M;
+import "./A.sol" as M;
 contract D is M.C {
 	constructor (int p) M.C(p) public {}
 }

@@ -1,4 +1,4 @@
-import "mod.sol" as M;
+import "./mod.sol" as M;
 contract C {
     bytes data;
     function () pure returns (bytes memory) f;

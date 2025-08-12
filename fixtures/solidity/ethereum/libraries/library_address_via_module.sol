@@ -1,6 +1,6 @@
 ==== Source: a.sol ====
 
-import "a.sol" as M;
+import "./a.sol" as M;
 
 library L {
     function f(uint256 v) external pure returns (uint) {

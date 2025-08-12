@@ -1,4 +1,4 @@
-import "a" as M;
+import "./a.sol" as M;
 contract C {
     uint public x;
     modifier m { x = 1; _; }

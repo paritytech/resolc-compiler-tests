@@ -1,4 +1,4 @@
-==== Source: A ====
+==== Source: A.sol ====
 pragma abicoder v2;
 
 struct Data {
@@ -22,10 +22,10 @@ contract B {
         y = a.get().value;
     }
 }
-==== Source: B ====
+==== Source: B.sol ====
 pragma abicoder v1;
 
-import "A";
+import "./A.sol";
 
 contract C is B {
     function test()

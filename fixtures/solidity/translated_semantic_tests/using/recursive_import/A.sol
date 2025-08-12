@@ -1,5 +1,5 @@
-import {T as U} from "A";
-import "A" as X;
+import {T as U} from "./A.sol";
+import "./A.sol" as X;
 type T is uint;
 function f(T x) pure returns (T) { return T.wrap(T.unwrap(x) + 1); }
 function g(T x) pure returns (uint) { return T.unwrap(x) + 10; }

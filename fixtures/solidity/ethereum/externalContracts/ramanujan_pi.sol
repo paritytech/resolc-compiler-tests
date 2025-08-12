@@ -1,7 +1,7 @@
 ==== ExternalSource: _prbmath/PRBMathCommon.sol ====
 ==== ExternalSource: _prbmath/PRBMathSD59x18.sol ====
 ==== Source: ramanujan_pi.sol ====
-import "_prbmath/PRBMathSD59x18.sol";
+import "./_prbmath/PRBMathSD59x18.sol";
 
 // The goal of this test file is to implement Ramanujan's pi approximation using various libraries.
 

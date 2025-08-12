@@ -1,11 +1,11 @@
-==== Source: A ====
+==== Source: A.sol ====
 contract C {
 	int private x;
 	constructor (int p) public { x = p; }
 	function getX() public returns (int) { return x; }
 }
-==== Source: B ====
-import "A" as M;
+==== Source: B.sol ====
+import "./A.sol" as M;
 
 contract D is M.C {
 	constructor (int p) M.C(p) public {}

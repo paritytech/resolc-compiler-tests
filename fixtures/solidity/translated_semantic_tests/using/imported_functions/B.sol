@@ -4,5 +4,5 @@ contract C {
     }
 }
 using {A.inc, f} for uint;
-import {inc as f} from "A";
-import "A" as A;
+import {inc as f} from "./A.sol";
+import "./A.sol" as A;

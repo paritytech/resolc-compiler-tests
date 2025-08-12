@@ -1,5 +1,5 @@
-import "_base64/base64_inline_asm.sol";
-import "_base64/base64_no_inline_asm.sol";
+import "./_base64/base64_inline_asm.sol";
+import "./_base64/base64_no_inline_asm.sol";
 contract test {
     function encode_inline_asm(bytes memory data) external pure returns (string memory) {
       return InlineAsmBase64.encode(data);

@@ -1,1 +1,1 @@
-import {f as g} from "s1.sol";
+import {f as g} from "./s1.sol";

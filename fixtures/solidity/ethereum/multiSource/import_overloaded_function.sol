@@ -1,8 +1,8 @@
-==== Source: A ====
+==== Source: A.sol ====
 function sub(uint256 x, uint256 y) pure returns (uint) { return 1; }
 function sub(uint256 x) pure returns (uint) { return 2; }
-==== Source: B ====
-import {sub} from "A";
+==== Source: B.sol ====
+import {sub} from "./A.sol";
 contract C
 {
     function f() public pure returns (uint, uint) {

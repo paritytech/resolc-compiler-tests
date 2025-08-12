@@ -1,10 +1,10 @@
-==== Source: A ====
+==== Source: A.sol ====
 struct S { uint x; }
 function set(S storage a, uint v) { a.x = v; }
 
-==== Source: B ====
-import "A";
-import "A" as A;
+==== Source: B.sol ====
+import "./A.sol";
+import "./A.sol" as A;
 contract C {
   A.S data;
   function f(uint v) public returns (uint one, uint two) {

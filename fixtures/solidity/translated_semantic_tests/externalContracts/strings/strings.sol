@@ -1,5 +1,5 @@
 pragma abicoder v2;
-import "_stringutils/stringutils.sol";
+import "./_stringutils/stringutils.sol";
 contract test {
     using strings for bytes32;
     using strings for string;

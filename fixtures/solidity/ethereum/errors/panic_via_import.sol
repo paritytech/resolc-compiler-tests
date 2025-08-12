@@ -1,7 +1,7 @@
 ==== Source: s1.sol ====
 error E(uint);
 ==== Source: s2.sol ====
-import { E as Panic } from "s1.sol";
+import { E as Panic } from "./s1.sol";
 contract C {
     error E(uint);
     function a() public pure {

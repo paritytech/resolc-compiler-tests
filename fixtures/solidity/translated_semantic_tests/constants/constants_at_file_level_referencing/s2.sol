@@ -1,4 +1,4 @@
-import "s1.sol";
+import "./s1.sol";
 uint256 constant c = uint8(a[0]) + 2;
 contract C {
     function f() public returns (bytes memory) {

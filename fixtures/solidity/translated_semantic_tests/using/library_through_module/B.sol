@@ -7,4 +7,4 @@ contract C {
         return x.one_ext();
     }
 }
-import "A" as M;
+import "./A.sol" as M;

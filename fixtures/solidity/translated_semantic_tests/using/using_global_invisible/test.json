@@ -20,7 +20,7 @@
     }
   ],
   "contracts": {
-    "D": "C:D",
+    "D": "C.sol:D",
     "L": "A:L"
   },
   "libraries": {

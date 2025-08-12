@@ -10,7 +10,7 @@ function fre() pure returns (bytes memory) {
 
 ==== Source: s2.sol ====
 
-import "s1.sol";
+import "./s1.sol";
 
 uint256 constant c = uint8(a[0]) + 2;
 

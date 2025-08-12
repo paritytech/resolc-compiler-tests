@@ -6,7 +6,7 @@ contract C {
   }
 }
 ==== Source: s2.sol ====
-import "s1.sol" as M;
+import "./s1.sol" as M;
 function f() pure returns (uint) { return 6; }
 contract D is M.C {
   function g() public pure override returns (uint) {

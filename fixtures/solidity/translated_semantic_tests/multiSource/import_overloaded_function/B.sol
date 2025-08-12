@@ -1,4 +1,4 @@
-import {sub} from "A";
+import {sub} from "./A.sol";
 contract C
 {
     function f() public pure returns (uint, uint) {

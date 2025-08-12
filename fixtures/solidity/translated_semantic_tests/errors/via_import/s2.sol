@@ -1,1 +1,1 @@
-import "s1.sol" as S;
+import "./s1.sol" as S;

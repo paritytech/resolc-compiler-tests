@@ -1,5 +1,5 @@
-==== Source: a ====
-import "a" as M;
+==== Source: a.sol ====
+import "./a.sol" as M;
 contract C {
     uint public x;
     modifier m { x = 1; _; }

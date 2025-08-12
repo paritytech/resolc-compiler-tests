@@ -3,4 +3,4 @@ contract C {
         r1 = r1.inc().inc();
     }
 }
-import {T} from "A";
+import {T} from "./A.sol";

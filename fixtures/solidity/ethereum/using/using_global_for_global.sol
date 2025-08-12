@@ -1,9 +1,9 @@
-==== Source: A ====
+==== Source: A.sol ====
 type global is uint;
 using { f } for global global;
 function f(global x) pure returns (global) { return global.wrap(global.unwrap(x) + 1); }
-==== Source: B ====
-import { global } from "A";
+==== Source: B.sol ====
+import { global } from "./A.sol";
 
 function g(global x) pure returns (global) { return global.wrap(global.unwrap(x) + 10); }
 

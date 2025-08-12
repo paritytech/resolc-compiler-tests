@@ -4,4 +4,4 @@ contract C {
         r2 = r1.dec();
     }
 }
-import {T} from "A";
+import {T} from "./A.sol";

@@ -20,6 +20,6 @@
     }
   ],
   "contracts": {
-    "C": "B:C"
+    "C": "B.sol:C"
   }
 }

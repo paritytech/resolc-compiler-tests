@@ -21,7 +21,7 @@
     }
   ],
   "contracts": {
-    "C": "B:C",
+    "C": "B.sol:C",
     "L": "A:L"
   },
   "libraries": {

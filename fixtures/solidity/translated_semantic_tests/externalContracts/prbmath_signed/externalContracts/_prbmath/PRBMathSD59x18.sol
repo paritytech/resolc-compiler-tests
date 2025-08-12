@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: WTFPL
 pragma solidity >=0.8.0;
 
-import "./PRBMathCommon.sol";
+import "././PRBMathCommon.sol";
 
 /// @title PRBMathSD59x18
 /// @author Paul Razvan Berg
@@ -17,16 +17,20 @@ library PRBMathSD59x18 {
     int256 internal constant HALF_SCALE = 5e17;
 
     /// @dev The maximum value a signed 59.18-decimal fixed-point number can have.
-    int256 internal constant MAX_SD59x18 = 57896044618658097711785492504343953926634992332820282019728792003956564819967;
+    int256 internal constant MAX_SD59x18 =
+        57896044618658097711785492504343953926634992332820282019728792003956564819967;
 
     /// @dev The maximum whole value a signed 59.18-decimal fixed-point number can have.
-    int256 internal constant MAX_WHOLE_SD59x18 = 57896044618658097711785492504343953926634992332820282019728000000000000000000;
+    int256 internal constant MAX_WHOLE_SD59x18 =
+        57896044618658097711785492504343953926634992332820282019728000000000000000000;
 
     /// @dev The minimum value a signed 59.18-decimal fixed-point number can have.
-    int256 internal constant MIN_SD59x18 = -57896044618658097711785492504343953926634992332820282019728792003956564819968;
+    int256 internal constant MIN_SD59x18 =
+        -57896044618658097711785492504343953926634992332820282019728792003956564819968;
 
     /// @dev The minimum whole value a signed 59.18-decimal fixed-point number can have.
-    int256 internal constant MIN_WHOLE_SD59x18 = -57896044618658097711785492504343953926634992332820282019728000000000000000000;
+    int256 internal constant MIN_WHOLE_SD59x18 =
+        -57896044618658097711785492504343953926634992332820282019728000000000000000000;
 
     /// @dev How many trailing decimals can be represented.
     int256 internal constant SCALE = 1e18;
@@ -128,7 +132,9 @@ library PRBMathSD59x18 {
 
         // XOR over sx and sy. This is basically checking whether the inputs have the same sign. If yes, the result
         // should be positive. Otherwise, it should be negative.
-        result = sx ^ sy == 1 ? -int256(resultUnsigned) : int256(resultUnsigned);
+        result = sx ^ sy == 1
+            ? -int256(resultUnsigned)
+            : int256(resultUnsigned);
     }
 
     /// @notice Returns Euler's number as a signed 59.18-decimal fixed-point number.
@@ -185,7 +191,9 @@ library PRBMathSD59x18 {
             }
 
             // Do the fixed-point inversion inline to save gas. The numerator is SCALE * SCALE.
-            unchecked { result = 1e36 / exp2(-x); }
+            unchecked {
+                result = 1e36 / exp2(-x);
+            }
         } else {
             // 2**128 doesn't fit within the 128.128-bit fixed-point representation.
             require(x < 128e18);
@@ -232,7 +240,9 @@ library PRBMathSD59x18 {
     /// @param x The signed 59.18-decimal fixed-point number to get the fractional part of.
     /// @param result The fractional part of x as a signed 59.18-decimal fixed-point number.
     function frac(int256 x) internal pure returns (int256 result) {
-        unchecked { result = x % SCALE; }
+        unchecked {
+            result = x % SCALE;
+        }
     }
 
     /// @notice Calculates geometric mean of x and y, i.e. sqrt(x * y), rounding down.
@@ -293,7 +303,9 @@ library PRBMathSD59x18 {
     function ln(int256 x) internal pure returns (int256 result) {
         // Do the fixed-point multiplication inline to save gas. This is overflow-safe because the maximum value that log2(x)
         // can return is 195205294292027477728.
-        unchecked { result = (log2(x) * SCALE) / LOG2_E; }
+        unchecked {
+            result = (log2(x) * SCALE) / LOG2_E;
+        }
     }
 
     /// @notice Calculates the common logarithm of x.
@@ -400,7 +412,9 @@ library PRBMathSD59x18 {
 
         if (result == MAX_SD59x18) {
             // Do the fixed-point division inline to save gas. The denominator is log2(10).
-            unchecked { result = (log2(x) * SCALE) / 332192809488736234; }
+            unchecked {
+                result = (log2(x) * SCALE) / 332192809488736234;
+            }
         }
     }
 
@@ -500,7 +514,9 @@ library PRBMathSD59x18 {
                 sx := sgt(x, sub(0, 1))
                 sy := sgt(y, sub(0, 1))
             }
-            result = sx ^ sy == 1 ? -int256(resultUnsigned) : int256(resultUnsigned);
+            result = sx ^ sy == 1
+                ? -int256(resultUnsigned)
+                : int256(resultUnsigned);
         }
     }
 
@@ -568,7 +584,9 @@ library PRBMathSD59x18 {
     /// @return result The result as a signed 59.18-decimal fixed-point .
     function sqrt(int256 x) internal pure returns (int256 result) {
         require(x >= 0);
-        require(x < 57896044618658097711785492504343953926634992332820282019729);
+        require(
+            x < 57896044618658097711785492504343953926634992332820282019729
+        );
         unchecked {
             // Multiply x by the SCALE to account for the factor of SCALE that is picked up when multiplying two signed
             // 59.18-decimal fixed-point numbers together (in this case, those two numbers are both the square root).

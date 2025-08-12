@@ -1,4 +1,4 @@
-==== Source: A ====
+==== Source: A.sol ====
 library L {
     function id(uint x) internal pure returns (uint) {
         return x;
@@ -11,7 +11,7 @@ library L {
 
 }
 
-==== Source: B ====
+==== Source: B.sol ====
 contract C {
     using M.L for uint;
     function f(uint x) public pure returns (uint) {
@@ -22,7 +22,7 @@ contract C {
     }
 }
 
-import "A" as M;
+import "./A.sol" as M;
 
 // ----
 // library: "A":L

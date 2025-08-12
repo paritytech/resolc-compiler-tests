@@ -1,6 +1,6 @@
-import "s1.sol" as S;
-import "s2.sol" as T;
-import "s1.sol";
+import "./s1.sol" as S;
+import "./s2.sol" as T;
+import "./s1.sol";
 contract C {
   function x() public pure {
     revert E(1);

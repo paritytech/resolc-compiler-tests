@@ -1,4 +1,4 @@
-==== Source: A ====
+==== Source: A.sol ====
 enum E {A, B}
 struct S { uint x; }
 type T is uint;
@@ -17,7 +17,7 @@ library L {
     }
 }
 
-==== Source: B ====
+==== Source: B.sol ====
 contract C {
     function f() public pure returns (uint a, uint b, uint c) {
         E e = E.B;
@@ -30,7 +30,7 @@ contract C {
     }
 }
 
-import {E, S, T} from "A";
+import {E, S, T} from "./A.sol";
 
 // ----
 // f() -> 1, 7, 9

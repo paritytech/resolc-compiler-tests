@@ -1,4 +1,4 @@
-import {C} from "B";
+import {C} from "./B.sol";
 contract D {
     function test() public returns (uint) {
         C c = new C();

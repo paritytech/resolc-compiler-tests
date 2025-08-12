@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: WTFPL
 pragma solidity >=0.8.0;
 
-import "./PRBMathCommon.sol";
+import "././PRBMathCommon.sol";
 
 /// @title PRBMathUD60x18
 /// @author Paul Razvan Berg
@@ -17,10 +17,12 @@ library PRBMathUD60x18 {
     uint256 internal constant LOG2_E = 1442695040888963407;
 
     /// @dev The maximum value an unsigned 60.18-decimal fixed-point number can have.
-    uint256 internal constant MAX_UD60x18 = 115792089237316195423570985008687907853269984665640564039457584007913129639935;
+    uint256 internal constant MAX_UD60x18 =
+        115792089237316195423570985008687907853269984665640564039457584007913129639935;
 
     /// @dev The maximum whole value an unsigned 60.18-decimal fixed-point number can have.
-    uint256 internal constant MAX_WHOLE_UD60x18 = 115792089237316195423570985008687907853269984665640564039457000000000000000000;
+    uint256 internal constant MAX_WHOLE_UD60x18 =
+        115792089237316195423570985008687907853269984665640564039457000000000000000000;
 
     /// @dev How many trailing decimals can be represented.
     uint256 internal constant SCALE = 1e18;
@@ -205,7 +207,9 @@ library PRBMathUD60x18 {
     function ln(uint256 x) internal pure returns (uint256 result) {
         // Do the fixed-point multiplication inline to save gas. This is overflow-safe because the maximum value that log2(x)
         // can return is 196205294292027477728.
-        unchecked { result = (log2(x) * SCALE) / LOG2_E; }
+        unchecked {
+            result = (log2(x) * SCALE) / LOG2_E;
+        }
     }
 
     /// @notice Calculates the common logarithm of x.
@@ -313,7 +317,9 @@ library PRBMathUD60x18 {
 
         if (result == MAX_UD60x18) {
             // Do the fixed-point division inline to save gas. The denominator is log2(10).
-            unchecked { result = (log2(x) * SCALE) / 332192809488736234; }
+            unchecked {
+                result = (log2(x) * SCALE) / 332192809488736234;
+            }
         }
     }
 
@@ -427,7 +433,9 @@ library PRBMathUD60x18 {
     /// @param x The unsigned 60.18-decimal fixed-point number for which to calculate the square root.
     /// @return result The result as an unsigned 60.18-decimal fixed-point .
     function sqrt(uint256 x) internal pure returns (uint256 result) {
-        require(x < 115792089237316195423570985008687907853269984665640564039458);
+        require(
+            x < 115792089237316195423570985008687907853269984665640564039458
+        );
         unchecked {
             // Multiply x by the SCALE to account for the factor of SCALE that is picked up when multiplying two unsigned
             // 60.18-decimal fixed-point numbers together (in this case, those two numbers are both the square root).

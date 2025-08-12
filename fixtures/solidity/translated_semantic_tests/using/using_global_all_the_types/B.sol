@@ -9,4 +9,4 @@ contract C {
         c = t.f();
     }
 }
-import {E, S, T} from "A";
+import {E, S, T} from "./A.sol";

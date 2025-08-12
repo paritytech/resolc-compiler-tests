@@ -4,4 +4,4 @@ contract C {
     }
 }
 using {M.g, M.f} for uint;
-import "B" as M;
+import "./B.sol" as M;

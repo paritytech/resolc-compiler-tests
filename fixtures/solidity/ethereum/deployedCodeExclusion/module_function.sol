@@ -16,7 +16,7 @@ function longdata() pure returns (bytes memory) {
         "anosumantkudkc,djntudkantuadnc,ui,c.ud,.nujdncud,j.rsch'pkl.'pih";
 }
 ==== Source: main.sol ====
-import "mod.sol" as M;
+import "./mod.sol" as M;
 
 contract C {
     bytes data;

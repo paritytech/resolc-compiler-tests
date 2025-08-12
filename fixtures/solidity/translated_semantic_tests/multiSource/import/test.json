@@ -37,6 +37,6 @@
     }
   ],
   "contracts": {
-    "B": "B:B"
+    "B": "B.sol:B"
   }
 }

@@ -1,4 +1,4 @@
-import "_prbmath/PRBMathSD59x18.sol";
+import "./_prbmath/PRBMathSD59x18.sol";
 // The goal of this test file is to implement Ramanujan's pi approximation using various libraries.
 function factorial(uint n) pure returns (uint ret) {
     ret = 1;

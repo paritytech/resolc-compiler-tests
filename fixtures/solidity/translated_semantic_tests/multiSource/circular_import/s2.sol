@@ -1,4 +1,4 @@
-import {f as g} from "s1.sol";
+import {f as g} from "./s1.sol";
 function f() pure returns (uint) { return 2; }
 contract C {
   function foo() public pure returns (uint) {

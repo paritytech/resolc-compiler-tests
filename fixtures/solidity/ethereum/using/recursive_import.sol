@@ -1,6 +1,6 @@
-==== Source: A ====
-import {T as U} from "A";
-import "A" as X;
+==== Source: A.sol ====
+import {T as U} from "./A.sol";
+import "./A.sol" as X;
 
 type T is uint;
 function f(T x) pure returns (T) { return T.wrap(T.unwrap(x) + 1); }
@@ -11,8 +11,8 @@ using { g } for T global;
 
 function cr() pure returns (T) {}
 
-==== Source: B ====
-import { cr } from "A";
+==== Source: B.sol ====
+import { cr } from "./A.sol";
 
 contract C {
     function f() public returns (uint) {

@@ -1,8 +1,8 @@
-==== Source: A ====
+==== Source: A.sol ====
 contract D {
 }
-==== Source: B ====
-import "A" as M;
+==== Source: B.sol ====
+import "./A.sol" as M;
 
 contract C {
     function f() public pure returns (bool) {

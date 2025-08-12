@@ -1,4 +1,4 @@
-import "_prbmath/PRBMathSD59x18.sol";
+import "./_prbmath/PRBMathSD59x18.sol";
 contract test {
     using PRBMathSD59x18 for int256;
     function div(int256 x, int256 y) external pure returns (int256 ret) {

@@ -1,5 +1,5 @@
 pragma abicoder v1;
-import "A";
+import "./A.sol";
 contract C is B {
     function test()
         public

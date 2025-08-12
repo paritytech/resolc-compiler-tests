@@ -1,4 +1,4 @@
-==== Source: A ====
+==== Source: A.sol ====
 type T is uint;
 using L for T global;
 library L {
@@ -10,7 +10,7 @@ library L {
     }
 }
 
-==== Source: B ====
+==== Source: B.sol ====
 contract C {
     function f() public pure returns (T r1, T r2) {
         r1 = r1.inc().inc();
@@ -18,7 +18,7 @@ contract C {
     }
 }
 
-import {T} from "A";
+import {T} from "./A.sol";
 
 // ----
 // library: "A":L

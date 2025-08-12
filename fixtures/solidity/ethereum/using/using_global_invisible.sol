@@ -1,4 +1,4 @@
-==== Source: A ====
+==== Source: A.sol ====
 type T is uint;
 using L for T global;
 library L {
@@ -14,17 +14,17 @@ function unwrap(T x) pure returns (uint) {
     return T.unwrap(x);
 }
 
-==== Source: B ====
+==== Source: B.sol ====
 contract C {
     function f() public pure returns (T r1) {
         r1 = r1.inc().inc();
     }
 }
 
-import {T} from "A";
+import {T} from "./A.sol";
 
-==== Source: C ====
-import {C} from "B";
+==== Source: C.sol ====
+import {C} from "./B.sol";
 
 contract D {
     function test() public returns (uint) {

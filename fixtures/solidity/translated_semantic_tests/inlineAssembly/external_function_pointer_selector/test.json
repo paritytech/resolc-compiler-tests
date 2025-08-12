@@ -11,7 +11,7 @@
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x00000000000000000000000000000000000000000000000000000000e16b4a9b"
+              "0xe16b4a9b"
             ],
             "exception": false
           }
@@ -24,7 +24,7 @@
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x00000000000000000000000000000000000000000000000000000000e16b4a9b"
+              "0xe16b4a9b"
             ],
             "exception": false
           }

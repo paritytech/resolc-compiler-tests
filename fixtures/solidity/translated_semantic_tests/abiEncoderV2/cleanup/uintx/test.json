@@ -9,11 +9,11 @@
           "instance": "C",
           "method": "f8(uint256)",
           "calldata": [
-            "0x0000000000000000000000000000000000000000000000000000000000000000"
+            "0x"
           ],
           "expected": {
             "return_data": [
-              "0x0000000000000000000000000000000000000000000000000000000000000000"
+              "0x"
             ],
             "exception": false
           }
@@ -24,11 +24,11 @@
           "instance": "C",
           "method": "ggg8(uint8)",
           "calldata": [
-            "0x0000000000000000000000000000000000000000000000000000000000000000"
+            "0x"
           ],
           "expected": {
             "return_data": [
-              "0x0000000000000000000000000000000000000000000000000000000000000000"
+              "0x"
             ],
             "exception": false
           }
@@ -39,11 +39,11 @@
           "instance": "C",
           "method": "f8(uint256)",
           "calldata": [
-            "0x0000000000000000000000000000000000000000000000000000000000000001"
+            "0x01"
           ],
           "expected": {
             "return_data": [
-              "0x0000000000000000000000000000000000000000000000000000000000000001"
+              "0x01"
             ],
             "exception": false
           }
@@ -54,11 +54,11 @@
           "instance": "C",
           "method": "ggg8(uint8)",
           "calldata": [
-            "0x0000000000000000000000000000000000000000000000000000000000000001"
+            "0x01"
           ],
           "expected": {
             "return_data": [
-              "0x0000000000000000000000000000000000000000000000000000000000000001"
+              "0x01"
             ],
             "exception": false
           }
@@ -69,11 +69,11 @@
           "instance": "C",
           "method": "f8(uint256)",
           "calldata": [
-            "0x00000000000000000000000000000000000000000000000000000000000000fe"
+            "0xfe"
           ],
           "expected": {
             "return_data": [
-              "0x00000000000000000000000000000000000000000000000000000000000000fe"
+              "0xfe"
             ],
             "exception": false
           }
@@ -84,11 +84,11 @@
           "instance": "C",
           "method": "ggg8(uint8)",
           "calldata": [
-            "0x00000000000000000000000000000000000000000000000000000000000000fe"
+            "0xfe"
           ],
           "expected": {
             "return_data": [
-              "0x00000000000000000000000000000000000000000000000000000000000000fe"
+              "0xfe"
             ],
             "exception": false
           }
@@ -99,11 +99,11 @@
           "instance": "C",
           "method": "f8(uint256)",
           "calldata": [
-            "0x00000000000000000000000000000000000000000000000000000000000000ff"
+            "0xff"
           ],
           "expected": {
             "return_data": [
-              "0x00000000000000000000000000000000000000000000000000000000000000ff"
+              "0xff"
             ],
             "exception": false
           }
@@ -114,11 +114,11 @@
           "instance": "C",
           "method": "ggg8(uint8)",
           "calldata": [
-            "0x00000000000000000000000000000000000000000000000000000000000000ff"
+            "0xff"
           ],
           "expected": {
             "return_data": [
-              "0x00000000000000000000000000000000000000000000000000000000000000ff"
+              "0xff"
             ],
             "exception": false
           }
@@ -129,11 +129,11 @@
           "instance": "C",
           "method": "f8(uint256)",
           "calldata": [
-            "0x0000000000000000000000000000000000000000000000000000000000000100"
+            "0x0100"
           ],
           "expected": {
             "return_data": [
-              "0x0000000000000000000000000000000000000000000000000000000000000000"
+              "0x"
             ],
             "exception": false
           }
@@ -144,7 +144,7 @@
           "instance": "C",
           "method": "ggg8(uint8)",
           "calldata": [
-            "0x0000000000000000000000000000000000000000000000000000000000000100"
+            "0x0100"
           ],
           "expected": {
             "exception": true
@@ -156,11 +156,11 @@
           "instance": "C",
           "method": "f8(uint256)",
           "calldata": [
-            "0x0000000000000000000000000000000000000000000000000000000000000101"
+            "0x0101"
           ],
           "expected": {
             "return_data": [
-              "0x0000000000000000000000000000000000000000000000000000000000000001"
+              "0x01"
             ],
             "exception": false
           }
@@ -171,7 +171,7 @@
           "instance": "C",
           "method": "ggg8(uint8)",
           "calldata": [
-            "0x0000000000000000000000000000000000000000000000000000000000000101"
+            "0x0101"
           ],
           "expected": {
             "exception": true
@@ -187,7 +187,7 @@
           ],
           "expected": {
             "return_data": [
-              "0x00000000000000000000000000000000000000000000000000000000000000ff"
+              "0xff"
             ],
             "exception": false
           }
@@ -210,11 +210,11 @@
           "instance": "C",
           "method": "f16(uint256)",
           "calldata": [
-            "0x0000000000000000000000000000000000000000000000000000000000000000"
+            "0x"
           ],
           "expected": {
             "return_data": [
-              "0x0000000000000000000000000000000000000000000000000000000000000000"
+              "0x"
             ],
             "exception": false
           }
@@ -225,11 +225,11 @@
           "instance": "C",
           "method": "gg16(uint16)",
           "calldata": [
-            "0x0000000000000000000000000000000000000000000000000000000000000000"
+            "0x"
           ],
           "expected": {
             "return_data": [
-              "0x0000000000000000000000000000000000000000000000000000000000000000"
+              "0x"
             ],
             "exception": false
           }
@@ -240,11 +240,11 @@
           "instance": "C",
           "method": "f16(uint256)",
           "calldata": [
-            "0x0000000000000000000000000000000000000000000000000000000000000001"
+            "0x01"
           ],
           "expected": {
             "return_data": [
-              "0x0000000000000000000000000000000000000000000000000000000000000001"
+              "0x01"
             ],
             "exception": false
           }
@@ -255,11 +255,11 @@
           "instance": "C",
           "method": "gg16(uint16)",
           "calldata": [
-            "0x0000000000000000000000000000000000000000000000000000000000000001"
+            "0x01"
           ],
           "expected": {
             "return_data": [
-              "0x0000000000000000000000000000000000000000000000000000000000000001"
+              "0x01"
             ],
             "exception": false
           }
@@ -270,11 +270,11 @@
           "instance": "C",
           "method": "f16(uint256)",
           "calldata": [
-            "0x000000000000000000000000000000000000000000000000000000000000fffe"
+            "0xfffe"
           ],
           "expected": {
             "return_data": [
-              "0x000000000000000000000000000000000000000000000000000000000000fffe"
+              "0xfffe"
             ],
             "exception": false
           }
@@ -285,11 +285,11 @@
           "instance": "C",
           "method": "gg16(uint16)",
           "calldata": [
-            "0x000000000000000000000000000000000000000000000000000000000000fffe"
+            "0xfffe"
           ],
           "expected": {
             "return_data": [
-              "0x000000000000000000000000000000000000000000000000000000000000fffe"
+              "0xfffe"
             ],
             "exception": false
           }
@@ -300,11 +300,11 @@
           "instance": "C",
           "method": "f16(uint256)",
           "calldata": [
-            "0x000000000000000000000000000000000000000000000000000000000000ffff"
+            "0xffff"
           ],
           "expected": {
             "return_data": [
-              "0x000000000000000000000000000000000000000000000000000000000000ffff"
+              "0xffff"
             ],
             "exception": false
           }
@@ -315,11 +315,11 @@
           "instance": "C",
           "method": "gg16(uint16)",
           "calldata": [
-            "0x000000000000000000000000000000000000000000000000000000000000ffff"
+            "0xffff"
           ],
           "expected": {
             "return_data": [
-              "0x000000000000000000000000000000000000000000000000000000000000ffff"
+              "0xffff"
             ],
             "exception": false
           }
@@ -330,11 +330,11 @@
           "instance": "C",
           "method": "f16(uint256)",
           "calldata": [
-            "0x0000000000000000000000000000000000000000000000000000000000010000"
+            "0x010000"
           ],
           "expected": {
             "return_data": [
-              "0x0000000000000000000000000000000000000000000000000000000000000000"
+              "0x"
             ],
             "exception": false
           }
@@ -345,7 +345,7 @@
           "instance": "C",
           "method": "gg16(uint16)",
           "calldata": [
-            "0x0000000000000000000000000000000000000000000000000000000000010000"
+            "0x010000"
           ],
           "expected": {
             "exception": true
@@ -357,11 +357,11 @@
           "instance": "C",
           "method": "f16(uint256)",
           "calldata": [
-            "0x0000000000000000000000000000000000000000000000000000000000010001"
+            "0x010001"
           ],
           "expected": {
             "return_data": [
-              "0x0000000000000000000000000000000000000000000000000000000000000001"
+              "0x01"
             ],
             "exception": false
           }
@@ -372,7 +372,7 @@
           "instance": "C",
           "method": "gg16(uint16)",
           "calldata": [
-            "0x0000000000000000000000000000000000000000000000000000000000010001"
+            "0x010001"
           ],
           "expected": {
             "exception": true
@@ -388,7 +388,7 @@
           ],
           "expected": {
             "return_data": [
-              "0x000000000000000000000000000000000000000000000000000000000000ffff"
+              "0xffff"
             ],
             "exception": false
           }
@@ -411,11 +411,11 @@
           "instance": "C",
           "method": "f32(uint256)",
           "calldata": [
-            "0x0000000000000000000000000000000000000000000000000000000000000000"
+            "0x"
           ],
           "expected": {
             "return_data": [
-              "0x0000000000000000000000000000000000000000000000000000000000000000"
+              "0x"
             ],
             "exception": false
           }
@@ -426,11 +426,11 @@
           "instance": "C",
           "method": "gg32(uint32)",
           "calldata": [
-            "0x0000000000000000000000000000000000000000000000000000000000000000"
+            "0x"
           ],
           "expected": {
             "return_data": [
-              "0x0000000000000000000000000000000000000000000000000000000000000000"
+              "0x"
             ],
             "exception": false
           }
@@ -441,11 +441,11 @@
           "instance": "C",
           "method": "f32(uint256)",
           "calldata": [
-            "0x0000000000000000000000000000000000000000000000000000000000000001"
+            "0x01"
           ],
           "expected": {
             "return_data": [
-              "0x0000000000000000000000000000000000000000000000000000000000000001"
+              "0x01"
             ],
             "exception": false
           }
@@ -456,11 +456,11 @@
           "instance": "C",
           "method": "gg32(uint32)",
           "calldata": [
-            "0x0000000000000000000000000000000000000000000000000000000000000001"
+            "0x01"
           ],
           "expected": {
             "return_data": [
-              "0x0000000000000000000000000000000000000000000000000000000000000001"
+              "0x01"
             ],
             "exception": false
           }
@@ -471,11 +471,11 @@
           "instance": "C",
           "method": "f32(uint256)",
           "calldata": [
-            "0x00000000000000000000000000000000000000000000000000000000fffffffe"
+            "0xfffffffe"
           ],
           "expected": {
             "return_data": [
-              "0x00000000000000000000000000000000000000000000000000000000fffffffe"
+              "0xfffffffe"
             ],
             "exception": false
           }
@@ -486,11 +486,11 @@
           "instance": "C",
           "method": "gg32(uint32)",
           "calldata": [
-            "0x00000000000000000000000000000000000000000000000000000000fffffffe"
+            "0xfffffffe"
           ],
           "expected": {
             "return_data": [
-              "0x00000000000000000000000000000000000000000000000000000000fffffffe"
+              "0xfffffffe"
             ],
             "exception": false
           }
@@ -501,11 +501,11 @@
           "instance": "C",
           "method": "f32(uint256)",
           "calldata": [
-            "0x00000000000000000000000000000000000000000000000000000000ffffffff"
+            "0xffffffff"
           ],
           "expected": {
             "return_data": [
-              "0x00000000000000000000000000000000000000000000000000000000ffffffff"
+              "0xffffffff"
             ],
             "exception": false
           }
@@ -516,11 +516,11 @@
           "instance": "C",
           "method": "gg32(uint32)",
           "calldata": [
-            "0x00000000000000000000000000000000000000000000000000000000ffffffff"
+            "0xffffffff"
           ],
           "expected": {
             "return_data": [
-              "0x00000000000000000000000000000000000000000000000000000000ffffffff"
+              "0xffffffff"
             ],
             "exception": false
           }
@@ -531,11 +531,11 @@
           "instance": "C",
           "method": "f32(uint256)",
           "calldata": [
-            "0x0000000000000000000000000000000000000000000000000000000100000000"
+            "0x0100000000"
           ],
           "expected": {
             "return_data": [
-              "0x0000000000000000000000000000000000000000000000000000000000000000"
+              "0x"
             ],
             "exception": false
           }
@@ -546,7 +546,7 @@
           "instance": "C",
           "method": "gg32(uint32)",
           "calldata": [
-            "0x0000000000000000000000000000000000000000000000000000000100000000"
+            "0x0100000000"
           ],
           "expected": {
             "exception": true
@@ -558,11 +558,11 @@
           "instance": "C",
           "method": "f32(uint256)",
           "calldata": [
-            "0x0000000000000000000000000000000000000000000000000000000100000001"
+            "0x0100000001"
           ],
           "expected": {
             "return_data": [
-              "0x0000000000000000000000000000000000000000000000000000000000000001"
+              "0x01"
             ],
             "exception": false
           }
@@ -573,7 +573,7 @@
           "instance": "C",
           "method": "gg32(uint32)",
           "calldata": [
-            "0x0000000000000000000000000000000000000000000000000000000100000001"
+            "0x0100000001"
           ],
           "expected": {
             "exception": true
@@ -589,7 +589,7 @@
           ],
           "expected": {
             "return_data": [
-              "0x00000000000000000000000000000000000000000000000000000000ffffffff"
+              "0xffffffff"
             ],
             "exception": false
           }
@@ -612,11 +612,11 @@
           "instance": "C",
           "method": "f64(uint256)",
           "calldata": [
-            "0x0000000000000000000000000000000000000000000000000000000000000000"
+            "0x"
           ],
           "expected": {
             "return_data": [
-              "0x0000000000000000000000000000000000000000000000000000000000000000"
+              "0x"
             ],
             "exception": false
           }
@@ -627,11 +627,11 @@
           "instance": "C",
           "method": "gg64(uint64)",
           "calldata": [
-            "0x0000000000000000000000000000000000000000000000000000000000000000"
+            "0x"
           ],
           "expected": {
             "return_data": [
-              "0x0000000000000000000000000000000000000000000000000000000000000000"
+              "0x"
             ],
             "exception": false
           }
@@ -642,11 +642,11 @@
           "instance": "C",
           "method": "f64(uint256)",
           "calldata": [
-            "0x0000000000000000000000000000000000000000000000000000000000000001"
+            "0x01"
           ],
           "expected": {
             "return_data": [
-              "0x0000000000000000000000000000000000000000000000000000000000000001"
+              "0x01"
             ],
             "exception": false
           }
@@ -657,11 +657,11 @@
           "instance": "C",
           "method": "gg64(uint64)",
           "calldata": [
-            "0x0000000000000000000000000000000000000000000000000000000000000001"
+            "0x01"
           ],
           "expected": {
             "return_data": [
-              "0x0000000000000000000000000000000000000000000000000000000000000001"
+              "0x01"
             ],
             "exception": false
           }
@@ -672,11 +672,11 @@
           "instance": "C",
           "method": "f64(uint256)",
           "calldata": [
-            "0x000000000000000000000000000000000000000000000000fffffffffffffffe"
+            "0xfffffffffffffffe"
           ],
           "expected": {
             "return_data": [
-              "0x000000000000000000000000000000000000000000000000fffffffffffffffe"
+              "0xfffffffffffffffe"
             ],
             "exception": false
           }
@@ -687,11 +687,11 @@
           "instance": "C",
           "method": "gg64(uint64)",
           "calldata": [
-            "0x000000000000000000000000000000000000000000000000fffffffffffffffe"
+            "0xfffffffffffffffe"
           ],
           "expected": {
             "return_data": [
-              "0x000000000000000000000000000000000000000000000000fffffffffffffffe"
+              "0xfffffffffffffffe"
             ],
             "exception": false
           }
@@ -702,11 +702,11 @@
           "instance": "C",
           "method": "f64(uint256)",
           "calldata": [
-            "0x000000000000000000000000000000000000000000000000ffffffffffffffff"
+            "0xffffffffffffffff"
           ],
           "expected": {
             "return_data": [
-              "0x000000000000000000000000000000000000000000000000ffffffffffffffff"
+              "0xffffffffffffffff"
             ],
             "exception": false
           }
@@ -717,11 +717,11 @@
           "instance": "C",
           "method": "gg64(uint64)",
           "calldata": [
-            "0x000000000000000000000000000000000000000000000000ffffffffffffffff"
+            "0xffffffffffffffff"
           ],
           "expected": {
             "return_data": [
-              "0x000000000000000000000000000000000000000000000000ffffffffffffffff"
+              "0xffffffffffffffff"
             ],
             "exception": false
           }
@@ -732,11 +732,11 @@
           "instance": "C",
           "method": "f64(uint256)",
           "calldata": [
-            "0x0000000000000000000000000000000000000000000000010000000000000000"
+            "0x010000000000000000"
           ],
           "expected": {
             "return_data": [
-              "0x0000000000000000000000000000000000000000000000000000000000000000"
+              "0x"
             ],
             "exception": false
           }
@@ -747,7 +747,7 @@
           "instance": "C",
           "method": "gg64(uint64)",
           "calldata": [
-            "0x0000000000000000000000000000000000000000000000010000000000000000"
+            "0x010000000000000000"
           ],
           "expected": {
             "exception": true
@@ -759,11 +759,11 @@
           "instance": "C",
           "method": "f64(uint256)",
           "calldata": [
-            "0x0000000000000000000000000000000000000000000000010000000000000001"
+            "0x010000000000000001"
           ],
           "expected": {
             "return_data": [
-              "0x0000000000000000000000000000000000000000000000000000000000000001"
+              "0x01"
             ],
             "exception": false
           }
@@ -774,7 +774,7 @@
           "instance": "C",
           "method": "gg64(uint64)",
           "calldata": [
-            "0x0000000000000000000000000000000000000000000000010000000000000001"
+            "0x010000000000000001"
           ],
           "expected": {
             "exception": true
@@ -790,7 +790,7 @@
           ],
           "expected": {
             "return_data": [
-              "0x000000000000000000000000000000000000000000000000ffffffffffffffff"
+              "0xffffffffffffffff"
             ],
             "exception": false
           }
@@ -813,11 +813,11 @@
           "instance": "C",
           "method": "f128(uint256)",
           "calldata": [
-            "0x0000000000000000000000000000000000000000000000000000000000000000"
+            "0x"
           ],
           "expected": {
             "return_data": [
-              "0x0000000000000000000000000000000000000000000000000000000000000000"
+              "0x"
             ],
             "exception": false
           }
@@ -828,11 +828,11 @@
           "instance": "C",
           "method": "g128(uint128)",
           "calldata": [
-            "0x0000000000000000000000000000000000000000000000000000000000000000"
+            "0x"
           ],
           "expected": {
             "return_data": [
-              "0x0000000000000000000000000000000000000000000000000000000000000000"
+              "0x"
             ],
             "exception": false
           }
@@ -843,11 +843,11 @@
           "instance": "C",
           "method": "f128(uint256)",
           "calldata": [
-            "0x0000000000000000000000000000000000000000000000000000000000000001"
+            "0x01"
           ],
           "expected": {
             "return_data": [
-              "0x0000000000000000000000000000000000000000000000000000000000000001"
+              "0x01"
             ],
             "exception": false
           }
@@ -858,11 +858,11 @@
           "instance": "C",
           "method": "g128(uint128)",
           "calldata": [
-            "0x0000000000000000000000000000000000000000000000000000000000000001"
+            "0x01"
           ],
           "expected": {
             "return_data": [
-              "0x0000000000000000000000000000000000000000000000000000000000000001"
+              "0x01"
             ],
             "exception": false
           }
@@ -873,11 +873,11 @@
           "instance": "C",
           "method": "f128(uint256)",
           "calldata": [
-            "0x00000000000000000000000000000000fffffffffffffffffffffffffffffffe"
+            "0xfffffffffffffffffffffffffffffffe"
           ],
           "expected": {
             "return_data": [
-              "0x00000000000000000000000000000000fffffffffffffffffffffffffffffffe"
+              "0xfffffffffffffffffffffffffffffffe"
             ],
             "exception": false
           }
@@ -888,11 +888,11 @@
           "instance": "C",
           "method": "g128(uint128)",
           "calldata": [
-            "0x00000000000000000000000000000000fffffffffffffffffffffffffffffffe"
+            "0xfffffffffffffffffffffffffffffffe"
           ],
           "expected": {
             "return_data": [
-              "0x00000000000000000000000000000000fffffffffffffffffffffffffffffffe"
+              "0xfffffffffffffffffffffffffffffffe"
             ],
             "exception": false
           }
@@ -903,11 +903,11 @@
           "instance": "C",
           "method": "f128(uint256)",
           "calldata": [
-            "0x00000000000000000000000000000000ffffffffffffffffffffffffffffffff"
+            "0xffffffffffffffffffffffffffffffff"
           ],
           "expected": {
             "return_data": [
-              "0x00000000000000000000000000000000ffffffffffffffffffffffffffffffff"
+              "0xffffffffffffffffffffffffffffffff"
             ],
             "exception": false
           }
@@ -918,11 +918,11 @@
           "instance": "C",
           "method": "g128(uint128)",
           "calldata": [
-            "0x00000000000000000000000000000000ffffffffffffffffffffffffffffffff"
+            "0xffffffffffffffffffffffffffffffff"
           ],
           "expected": {
             "return_data": [
-              "0x00000000000000000000000000000000ffffffffffffffffffffffffffffffff"
+              "0xffffffffffffffffffffffffffffffff"
             ],
             "exception": false
           }
@@ -933,11 +933,11 @@
           "instance": "C",
           "method": "f128(uint256)",
           "calldata": [
-            "0x0000000000000000000000000000000100000000000000000000000000000000"
+            "0x0100000000000000000000000000000000"
           ],
           "expected": {
             "return_data": [
-              "0x0000000000000000000000000000000000000000000000000000000000000000"
+              "0x"
             ],
             "exception": false
           }
@@ -948,7 +948,7 @@
           "instance": "C",
           "method": "g128(uint128)",
           "calldata": [
-            "0x0000000000000000000000000000000100000000000000000000000000000000"
+            "0x0100000000000000000000000000000000"
           ],
           "expected": {
             "exception": true
@@ -960,11 +960,11 @@
           "instance": "C",
           "method": "f128(uint256)",
           "calldata": [
-            "0x0000000000000000000000000000000100000000000000000000000000000001"
+            "0x0100000000000000000000000000000001"
           ],
           "expected": {
             "return_data": [
-              "0x0000000000000000000000000000000000000000000000000000000000000001"
+              "0x01"
             ],
             "exception": false
           }
@@ -975,7 +975,7 @@
           "instance": "C",
           "method": "g128(uint128)",
           "calldata": [
-            "0x0000000000000000000000000000000100000000000000000000000000000001"
+            "0x0100000000000000000000000000000001"
           ],
           "expected": {
             "exception": true
@@ -991,7 +991,7 @@
           ],
           "expected": {
             "return_data": [
-              "0x00000000000000000000000000000000ffffffffffffffffffffffffffffffff"
+              "0xffffffffffffffffffffffffffffffff"
             ],
             "exception": false
           }

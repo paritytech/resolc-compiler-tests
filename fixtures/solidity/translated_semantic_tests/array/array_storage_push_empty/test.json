@@ -9,7 +9,7 @@
           "instance": "C",
           "method": "pushEmpty(uint256)",
           "calldata": [
-            "0x0000000000000000000000000000000000000000000000000000000000000080"
+            "0x80"
           ],
           "expected": {
             "exception": false
@@ -21,7 +21,7 @@
           "instance": "C",
           "method": "pushEmpty(uint256)",
           "calldata": [
-            "0x0000000000000000000000000000000000000000000000000000000000000100"
+            "0x0100"
           ],
           "expected": {
             "exception": false
@@ -33,7 +33,7 @@
           "instance": "C",
           "method": "pushEmpty(uint256)",
           "calldata": [
-            "0x00000000000000000000000000000000000000000000000000000000000097d5"
+            "0x97d5"
           ],
           "expected": {
             "exception": true

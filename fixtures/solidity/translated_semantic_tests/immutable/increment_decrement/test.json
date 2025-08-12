@@ -12,7 +12,7 @@
           "expected": {
             "return_data": [
               "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
-              "0x0000000000000000000000000000000000000000000000000000000000000004"
+              "0x04"
             ],
             "exception": false
           }

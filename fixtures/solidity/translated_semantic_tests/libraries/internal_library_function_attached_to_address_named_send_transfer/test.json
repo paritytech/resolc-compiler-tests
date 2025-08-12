@@ -9,7 +9,7 @@
           "instance": "C",
           "method": "useTransfer(address)",
           "calldata": [
-            "0x000000000000000000000000111122223333444455556666777788889999aaaa"
+            "0x111122223333444455556666777788889999aaaa"
           ],
           "expected": {
             "exception": false
@@ -21,7 +21,7 @@
           "instance": "C",
           "method": "useSend(address)",
           "calldata": [
-            "0x000000000000000000000000111122223333444455556666777788889999aaaa"
+            "0x111122223333444455556666777788889999aaaa"
           ],
           "expected": {
             "exception": false

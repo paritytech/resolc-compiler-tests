@@ -9,12 +9,12 @@
           "instance": "C",
           "method": "shl(uint256,uint256)",
           "calldata": [
-            "0x0000000000000000000000000000000000000000000000000000000000000001",
-            "0x0000000000000000000000000000000000000000000000000000000000000002"
+            "0x01",
+            "0x02"
           ],
           "expected": {
             "return_data": [
-              "0x0000000000000000000000000000000000000000000000000000000000000004"
+              "0x04"
             ],
             "exception": false
           }
@@ -26,7 +26,7 @@
           "method": "shl(uint256,uint256)",
           "calldata": [
             "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
-            "0x0000000000000000000000000000000000000000000000000000000000000001"
+            "0x01"
           ],
           "expected": {
             "return_data": [
@@ -42,11 +42,11 @@
           "method": "shl(uint256,uint256)",
           "calldata": [
             "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
-            "0x0000000000000000000000000000000000000000000000000000000000000100"
+            "0x0100"
           ],
           "expected": {
             "return_data": [
-              "0x0000000000000000000000000000000000000000000000000000000000000000"
+              "0x"
             ],
             "exception": false
           }
@@ -57,12 +57,12 @@
           "instance": "C",
           "method": "shr(uint256,uint256)",
           "calldata": [
-            "0x0000000000000000000000000000000000000000000000000000000000000003",
-            "0x0000000000000000000000000000000000000000000000000000000000000001"
+            "0x03",
+            "0x01"
           ],
           "expected": {
             "return_data": [
-              "0x0000000000000000000000000000000000000000000000000000000000000001"
+              "0x01"
             ],
             "exception": false
           }
@@ -74,7 +74,7 @@
           "method": "shr(uint256,uint256)",
           "calldata": [
             "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
-            "0x0000000000000000000000000000000000000000000000000000000000000001"
+            "0x01"
           ],
           "expected": {
             "return_data": [
@@ -90,11 +90,11 @@
           "method": "shr(uint256,uint256)",
           "calldata": [
             "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
-            "0x00000000000000000000000000000000000000000000000000000000000000ff"
+            "0xff"
           ],
           "expected": {
             "return_data": [
-              "0x0000000000000000000000000000000000000000000000000000000000000001"
+              "0x01"
             ],
             "exception": false
           }
@@ -106,11 +106,11 @@
           "method": "shr(uint256,uint256)",
           "calldata": [
             "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
-            "0x0000000000000000000000000000000000000000000000000000000000000100"
+            "0x0100"
           ],
           "expected": {
             "return_data": [
-              "0x0000000000000000000000000000000000000000000000000000000000000000"
+              "0x"
             ],
             "exception": false
           }
@@ -121,12 +121,12 @@
           "instance": "C",
           "method": "sar(uint256,uint256)",
           "calldata": [
-            "0x0000000000000000000000000000000000000000000000000000000000000003",
-            "0x0000000000000000000000000000000000000000000000000000000000000001"
+            "0x03",
+            "0x01"
           ],
           "expected": {
             "return_data": [
-              "0x0000000000000000000000000000000000000000000000000000000000000001"
+              "0x01"
             ],
             "exception": false
           }
@@ -138,7 +138,7 @@
           "method": "sar(uint256,uint256)",
           "calldata": [
             "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
-            "0x0000000000000000000000000000000000000000000000000000000000000001"
+            "0x01"
           ],
           "expected": {
             "return_data": [
@@ -154,7 +154,7 @@
           "method": "sar(uint256,uint256)",
           "calldata": [
             "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
-            "0x00000000000000000000000000000000000000000000000000000000000000ff"
+            "0xff"
           ],
           "expected": {
             "return_data": [
@@ -170,7 +170,7 @@
           "method": "sar(uint256,uint256)",
           "calldata": [
             "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
-            "0x0000000000000000000000000000000000000000000000000000000000000100"
+            "0x0100"
           ],
           "expected": {
             "return_data": [

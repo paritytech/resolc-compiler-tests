@@ -11,7 +11,7 @@
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x00000000000000000000000000000000000000000000000000000000000000ff"
+              "0xff"
             ],
             "exception": false
           }

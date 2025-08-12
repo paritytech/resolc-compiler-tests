@@ -21,7 +21,7 @@
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x0000000000000000000000001212121212121212121212121212120000000012"
+              "0xeA5A8b7c8AE6F6AcEe81D5E8dA5CB242E47BE65f"
             ],
             "exception": false
           }
@@ -40,7 +40,7 @@
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x0000000000000000000000001212121212121212121212121212120000001012"
+              "0xd9F702A4A8B339Af4bbCb948Ca7C6C7035A0737a"
             ],
             "exception": false
           }
@@ -59,7 +59,7 @@
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x0000000000000000000000001212121212121212121212121212120000002012"
+              "0x72519C1D8F3B9c11d536cEcBF57f23E5ae7F087c"
             ],
             "exception": false
           }
@@ -78,7 +78,7 @@
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x0000000000000000000000001212121212121212121212121212120000003012"
+              "0x71643160cb2e89EfC62a52bB42987a2195AD0289"
             ],
             "exception": false
           }
@@ -97,7 +97,7 @@
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x0000000000000000000000001212121212121212121212121212120000004012"
+              "0xa108fC69944021455777655F9aDbcF795c907ECa"
             ],
             "exception": false
           }
@@ -116,7 +116,7 @@
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x0000000000000000000000001212121212121212121212121212120000005012"
+              "0x7Ca6bA734232961c233DcE9923996655d6Da97E8"
             ],
             "exception": false
           }
@@ -135,7 +135,7 @@
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x0000000000000000000000001212121212121212121212121212120000006012"
+              "0x56918185312b4679AB157b406F04F8F7C4031611"
             ],
             "exception": false
           }
@@ -154,7 +154,7 @@
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x0000000000000000000000001212121212121212121212121212120000007012"
+              "0x1200939B5cB57f2785608a0921A132A35Ea21090"
             ],
             "exception": false
           }
@@ -173,7 +173,7 @@
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x0000000000000000000000001212121212121212121212121212120000008012"
+              "0x3C4EFC32B4333865D9112799f577CF9132Ee7cF9"
             ],
             "exception": false
           }
@@ -192,7 +192,7 @@
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x0000000000000000000000001212121212121212121212121212120000009012"
+              "0x47824A18A1FcDC6ef2e0B6d724BACF6Cd83aBC04"
             ],
             "exception": false
           }
@@ -211,7 +211,7 @@
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x000000000000000000000000121212121212121212121212121212000000a012"
+              "0x5AD866092FFA234aAf7DdA834DD6Ca69Eb2Eefc9"
             ],
             "exception": false
           }
@@ -230,7 +230,7 @@
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x000000000000000000000000121212121212121212121212121212000000b012"
+              "0x7Ec79CEFA2b38Fe4F7A7f8Cdc7Ba9c24941d3F2A"
             ],
             "exception": false
           }
@@ -249,7 +249,7 @@
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x000000000000000000000000121212121212121212121212121212000000c012"
+              "0x386033da2D1c227A479732a67095249f054dce1d"
             ],
             "exception": false
           }

@@ -12,9 +12,9 @@
           "expected": {
             "return_data": [
               "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe",
-              "0x0000000000000000000000000000000000000000000000000000000000000004",
+              "0x04",
               "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff90",
-              "0x0000000000000000000000000000000000000000000000000000000000000000"
+              "0x"
             ],
             "exception": false
           }

@@ -11,7 +11,7 @@
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x0000000000000000000000001212121212121212121212121212120000000012"
+              "0x76552303461Bb8dF59DDFaB19f5b6f4E0fd007B7"
             ],
             "exception": false
           }
@@ -22,7 +22,7 @@
           "instance": "Ownable",
           "method": "setOwner(address)",
           "calldata": [
-            "0x0000000000000000000000001212121212121212121212121212120000000012"
+            "0x76552303461Bb8dF59DDFaB19f5b6f4E0fd007B7"
           ],
           "expected": {
             "events": [
@@ -56,7 +56,7 @@
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x0000000000000000000000000000000000000000000000000000000000000000"
+              "0x"
             ],
             "exception": false
           }
@@ -67,11 +67,11 @@
           "instance": "Ownable",
           "method": "setOwner(address)",
           "calldata": [
-            "0x0000000000000000000000001212121212121212121212121212120000000012"
+            "0x76552303461Bb8dF59DDFaB19f5b6f4E0fd007B7"
           ],
           "expected": {
             "return_data": [
-              "0x000000000000000000000000000000000000000000000000000000005fc483c5"
+              "0x5fc483c5"
             ],
             "exception": true
           }

@@ -9,7 +9,7 @@
           "instance": "Test",
           "method": "x(uint256)",
           "calldata": [
-            "0x0000000000000000000000000000000000000000000000000000000000000000"
+            "0x"
           ],
           "expected": {
             "return_data": [
@@ -24,7 +24,7 @@
           "instance": "Test",
           "method": "x(uint256)",
           "calldata": [
-            "0x0000000000000000000000000000000000000000000000000000000000000001"
+            "0x01"
           ],
           "expected": {
             "return_data": [
@@ -39,7 +39,7 @@
           "instance": "Test",
           "method": "y(uint256)",
           "calldata": [
-            "0x0000000000000000000000000000000000000000000000000000000000000000"
+            "0x"
           ],
           "expected": {
             "return_data": [
@@ -54,7 +54,7 @@
           "instance": "Test",
           "method": "y(uint256)",
           "calldata": [
-            "0x0000000000000000000000000000000000000000000000000000000000000001"
+            "0x01"
           ],
           "expected": {
             "return_data": [
@@ -71,8 +71,8 @@
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x0000000000000000000000000000000000000000000000000000000000000020",
-              "0x0000000000000000000000000000000000000000000000000000000000000002",
+              "0x20",
+              "0x02",
               "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffd",
               "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc"
             ],

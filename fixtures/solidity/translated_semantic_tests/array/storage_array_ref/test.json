@@ -9,7 +9,7 @@
           "instance": "Store",
           "method": "find(uint256)",
           "calldata": [
-            "0x0000000000000000000000000000000000000000000000000000000000000007"
+            "0x07"
           ],
           "expected": {
             "return_data": [
@@ -24,7 +24,7 @@
           "instance": "Store",
           "method": "add(uint256)",
           "calldata": [
-            "0x0000000000000000000000000000000000000000000000000000000000000007"
+            "0x07"
           ],
           "expected": {
             "exception": false
@@ -36,11 +36,11 @@
           "instance": "Store",
           "method": "find(uint256)",
           "calldata": [
-            "0x0000000000000000000000000000000000000000000000000000000000000007"
+            "0x07"
           ],
           "expected": {
             "return_data": [
-              "0x0000000000000000000000000000000000000000000000000000000000000000"
+              "0x"
             ],
             "exception": false
           }
@@ -51,7 +51,7 @@
           "instance": "Store",
           "method": "add(uint256)",
           "calldata": [
-            "0x000000000000000000000000000000000000000000000000000000000000000b"
+            "0x0b"
           ],
           "expected": {
             "exception": false
@@ -63,7 +63,7 @@
           "instance": "Store",
           "method": "add(uint256)",
           "calldata": [
-            "0x0000000000000000000000000000000000000000000000000000000000000011"
+            "0x11"
           ],
           "expected": {
             "exception": false
@@ -75,7 +75,7 @@
           "instance": "Store",
           "method": "add(uint256)",
           "calldata": [
-            "0x000000000000000000000000000000000000000000000000000000000000001b"
+            "0x1b"
           ],
           "expected": {
             "exception": false
@@ -87,7 +87,7 @@
           "instance": "Store",
           "method": "add(uint256)",
           "calldata": [
-            "0x000000000000000000000000000000000000000000000000000000000000001f"
+            "0x1f"
           ],
           "expected": {
             "exception": false
@@ -99,7 +99,7 @@
           "instance": "Store",
           "method": "add(uint256)",
           "calldata": [
-            "0x0000000000000000000000000000000000000000000000000000000000000020"
+            "0x20"
           ],
           "expected": {
             "exception": false
@@ -111,7 +111,7 @@
           "instance": "Store",
           "method": "add(uint256)",
           "calldata": [
-            "0x0000000000000000000000000000000000000000000000000000000000000042"
+            "0x42"
           ],
           "expected": {
             "exception": false
@@ -123,7 +123,7 @@
           "instance": "Store",
           "method": "add(uint256)",
           "calldata": [
-            "0x00000000000000000000000000000000000000000000000000000000000000b1"
+            "0xb1"
           ],
           "expected": {
             "exception": false
@@ -135,11 +135,11 @@
           "instance": "Store",
           "method": "find(uint256)",
           "calldata": [
-            "0x0000000000000000000000000000000000000000000000000000000000000007"
+            "0x07"
           ],
           "expected": {
             "return_data": [
-              "0x0000000000000000000000000000000000000000000000000000000000000000"
+              "0x"
             ],
             "exception": false
           }
@@ -150,11 +150,11 @@
           "instance": "Store",
           "method": "find(uint256)",
           "calldata": [
-            "0x000000000000000000000000000000000000000000000000000000000000001b"
+            "0x1b"
           ],
           "expected": {
             "return_data": [
-              "0x0000000000000000000000000000000000000000000000000000000000000003"
+              "0x03"
             ],
             "exception": false
           }
@@ -165,11 +165,11 @@
           "instance": "Store",
           "method": "find(uint256)",
           "calldata": [
-            "0x0000000000000000000000000000000000000000000000000000000000000020"
+            "0x20"
           ],
           "expected": {
             "return_data": [
-              "0x0000000000000000000000000000000000000000000000000000000000000005"
+              "0x05"
             ],
             "exception": false
           }
@@ -180,7 +180,7 @@
           "instance": "Store",
           "method": "find(uint256)",
           "calldata": [
-            "0x00000000000000000000000000000000000000000000000000000000000000b0"
+            "0xb0"
           ],
           "expected": {
             "return_data": [
@@ -195,7 +195,7 @@
           "instance": "Store",
           "method": "find(uint256)",
           "calldata": [
-            "0x0000000000000000000000000000000000000000000000000000000000000000"
+            "0x"
           ],
           "expected": {
             "return_data": [
@@ -210,7 +210,7 @@
           "instance": "Store",
           "method": "find(uint256)",
           "calldata": [
-            "0x0000000000000000000000000000000000000000000000000000000000000190"
+            "0x0190"
           ],
           "expected": {
             "return_data": [

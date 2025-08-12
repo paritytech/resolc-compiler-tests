@@ -11,7 +11,7 @@
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x0000000000000000000000000000000000000000000000000000000000000000"
+              "0x"
             ],
             "exception": false
           }
@@ -22,7 +22,7 @@
           "instance": "Derived",
           "method": "setViaA(uint256)",
           "calldata": [
-            "0x0000000000000000000000000000000000000000000000000000000000000017"
+            "0x17"
           ],
           "expected": {
             "exception": false
@@ -36,7 +36,7 @@
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x0000000000000000000000000000000000000000000000000000000000000017"
+              "0x17"
             ],
             "exception": false
           }

@@ -9,7 +9,7 @@
           "instance": "A",
           "method": "#fallback",
           "calldata": [
-            "0"
+            "0x0000000000000000000000000000000000000000000000000000000000000000"
           ],
           "expected": {
             "exception": true

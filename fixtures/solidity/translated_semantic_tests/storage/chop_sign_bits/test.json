@@ -9,11 +9,11 @@
           "instance": "Test",
           "method": "x(uint256)",
           "calldata": [
-            "0"
+            "0x0000000000000000000000000000000000000000000000000000000000000000"
           ],
           "expected": {
             "return_data": [
-              "115792089237316195423570985008687907853269984665640564039457584007913129639935"
+              "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
             ],
             "exception": false
           }
@@ -24,11 +24,11 @@
           "instance": "Test",
           "method": "x(uint256)",
           "calldata": [
-            "1"
+            "0x0000000000000000000000000000000000000000000000000000000000000001"
           ],
           "expected": {
             "return_data": [
-              "115792089237316195423570985008687907853269984665640564039457584007913129639934"
+              "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe"
             ],
             "exception": false
           }
@@ -39,11 +39,11 @@
           "instance": "Test",
           "method": "y(uint256)",
           "calldata": [
-            "0"
+            "0x0000000000000000000000000000000000000000000000000000000000000000"
           ],
           "expected": {
             "return_data": [
-              "115792089237316195423570985008687907853269984665640564039457584007913129639931"
+              "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb"
             ],
             "exception": false
           }
@@ -54,11 +54,11 @@
           "instance": "Test",
           "method": "y(uint256)",
           "calldata": [
-            "1"
+            "0x0000000000000000000000000000000000000000000000000000000000000001"
           ],
           "expected": {
             "return_data": [
-              "115792089237316195423570985008687907853269984665640564039457584007913129639930"
+              "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa"
             ],
             "exception": false
           }
@@ -71,10 +71,10 @@
           "calldata": [],
           "expected": {
             "return_data": [
-              "32",
-              "2",
-              "115792089237316195423570985008687907853269984665640564039457584007913129639933",
-              "115792089237316195423570985008687907853269984665640564039457584007913129639932"
+              "0x0000000000000000000000000000000000000000000000000000000000000020",
+              "0x0000000000000000000000000000000000000000000000000000000000000002",
+              "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffd",
+              "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc"
             ],
             "exception": false
           }
@@ -87,8 +87,8 @@
           "calldata": [],
           "expected": {
             "return_data": [
-              "115792089237316195423570985008687907853269984665640564039457584007913129639933",
-              "115792089237316195423570985008687907853269984665640564039457584007913129639932"
+              "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffd",
+              "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc"
             ],
             "exception": false
           }
@@ -99,11 +99,11 @@
           "instance": "Test",
           "method": "h(int8)",
           "calldata": [
-            "115792089237316195423570985008687907853269984665640564039457584007913129639926"
+            "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff6"
           ],
           "expected": {
             "return_data": [
-              "115792089237316195423570985008687907853269984665640564039457584007913129639926"
+              "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff6"
             ],
             "exception": false
           }

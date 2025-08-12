@@ -1,3 +1,5 @@
+#![allow(clippy::field_reassign_with_default)]
+
 use std::collections::HashMap;
 use std::fs::{File, create_dir_all, read_dir};
 use std::path::{Path, PathBuf};
@@ -122,7 +124,7 @@ pub fn handle_semantic_tests_translation(
 
                 let library_path = library_path
                     .strip_prefix(original_test_directory)
-                    .unwrap_or_else(|_| library_path.as_path());
+                    .unwrap_or(library_path.as_path());
 
                 metadata
                     .libraries

@@ -21,7 +21,7 @@
           "calldata": [],
           "expected": {
             "return_data": [
-              "3735928559"
+              "0x00000000000000000000000000000000000000000000000000000000deadbeef"
             ],
             "exception": false
           }
@@ -34,7 +34,7 @@
           "calldata": [],
           "expected": {
             "return_data": [
-              "3735928559"
+              "0x00000000000000000000000000000000000000000000000000000000deadbeef"
             ],
             "exception": false
           }

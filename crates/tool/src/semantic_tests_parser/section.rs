@@ -423,17 +423,9 @@ mod test {
             );
             let sections = sections.unwrap();
 
-            if sections
-                .iter()
-                .find(|section| {
-                    if let SemanticTestSection::TestInputs { .. } = section {
-                        true
-                    } else {
-                        false
-                    }
-                })
-                .is_none()
-            {
+            if !sections.iter().any(|section| {
+                matches!(section, SemanticTestSection::TestInputs { .. })
+            }) {
                 continue;
             }
 

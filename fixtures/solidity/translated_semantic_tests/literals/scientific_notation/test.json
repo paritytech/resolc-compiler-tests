@@ -11,7 +11,7 @@
           "calldata": [],
           "expected": {
             "return_data": [
-              "20000000000"
+              "0x00000000000000000000000000000000000000000000000000000004a817c800"
             ],
             "exception": false
           }
@@ -24,7 +24,7 @@
           "calldata": [],
           "expected": {
             "return_data": [
-              "2"
+              "0x0000000000000000000000000000000000000000000000000000000000000002"
             ],
             "exception": false
           }
@@ -37,7 +37,7 @@
           "calldata": [],
           "expected": {
             "return_data": [
-              "25"
+              "0x0000000000000000000000000000000000000000000000000000000000000019"
             ],
             "exception": false
           }
@@ -50,7 +50,7 @@
           "calldata": [],
           "expected": {
             "return_data": [
-              "115792089237316195423570985008687907853269984665640564039457584007893129639936"
+              "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffb57e83800"
             ],
             "exception": false
           }
@@ -63,7 +63,7 @@
           "calldata": [],
           "expected": {
             "return_data": [
-              "115792089237316195423570985008687907853269984665640564039457584007913129639934"
+              "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe"
             ],
             "exception": false
           }
@@ -76,7 +76,7 @@
           "calldata": [],
           "expected": {
             "return_data": [
-              "115792089237316195423570985008687907853269984665640564039457584007913129639911"
+              "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe7"
             ],
             "exception": false
           }

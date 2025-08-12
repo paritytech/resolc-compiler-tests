@@ -9,12 +9,12 @@
           "instance": "C",
           "method": "f(int16,uint16)",
           "calldata": [
-            "65433",
-            "0"
+            "0x000000000000000000000000000000000000000000000000000000000000ff99",
+            "0x0000000000000000000000000000000000000000000000000000000000000000"
           ],
           "expected": {
             "return_data": [
-              "115792089237316195423570985008687907853269984665640564039457584007913129639833"
+              "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff99"
             ],
             "exception": false
           }
@@ -25,12 +25,12 @@
           "instance": "C",
           "method": "f(int16,uint16)",
           "calldata": [
-            "65433",
-            "1"
+            "0x000000000000000000000000000000000000000000000000000000000000ff99",
+            "0x0000000000000000000000000000000000000000000000000000000000000001"
           ],
           "expected": {
             "return_data": [
-              "115792089237316195423570985008687907853269984665640564039457584007913129639884"
+              "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffcc"
             ],
             "exception": false
           }
@@ -41,12 +41,12 @@
           "instance": "C",
           "method": "f(int16,uint16)",
           "calldata": [
-            "65433",
-            "2"
+            "0x000000000000000000000000000000000000000000000000000000000000ff99",
+            "0x0000000000000000000000000000000000000000000000000000000000000002"
           ],
           "expected": {
             "return_data": [
-              "115792089237316195423570985008687907853269984665640564039457584007913129639910"
+              "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe6"
             ],
             "exception": false
           }
@@ -57,12 +57,12 @@
           "instance": "C",
           "method": "f(int16,uint16)",
           "calldata": [
-            "65433",
-            "4"
+            "0x000000000000000000000000000000000000000000000000000000000000ff99",
+            "0x0000000000000000000000000000000000000000000000000000000000000004"
           ],
           "expected": {
             "return_data": [
-              "115792089237316195423570985008687907853269984665640564039457584007913129639929"
+              "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff9"
             ],
             "exception": false
           }
@@ -73,12 +73,12 @@
           "instance": "C",
           "method": "f(int16,uint16)",
           "calldata": [
-            "65433",
-            "8"
+            "0x000000000000000000000000000000000000000000000000000000000000ff99",
+            "0x0000000000000000000000000000000000000000000000000000000000000008"
           ],
           "expected": {
             "return_data": [
-              "115792089237316195423570985008687907853269984665640564039457584007913129639935"
+              "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
             ],
             "exception": false
           }

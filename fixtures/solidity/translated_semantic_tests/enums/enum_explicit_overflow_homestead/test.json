@@ -9,7 +9,7 @@
           "instance": "test",
           "method": "getChoiceExp(uint256)",
           "calldata": [
-            "3"
+            "0x0000000000000000000000000000000000000000000000000000000000000003"
           ],
           "expected": {
             "exception": true
@@ -21,7 +21,7 @@
           "instance": "test",
           "method": "getChoiceFromSigned(int256)",
           "calldata": [
-            "115792089237316195423570985008687907853269984665640564039457584007913129639935"
+            "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
           ],
           "expected": {
             "exception": true
@@ -43,11 +43,11 @@
           "instance": "test",
           "method": "getChoiceExp(uint256)",
           "calldata": [
-            "2"
+            "0x0000000000000000000000000000000000000000000000000000000000000002"
           ],
           "expected": {
             "return_data": [
-              "2"
+              "0x0000000000000000000000000000000000000000000000000000000000000002"
             ],
             "exception": false
           }
@@ -58,11 +58,11 @@
           "instance": "test",
           "method": "getChoiceExp(uint256)",
           "calldata": [
-            "0"
+            "0x0000000000000000000000000000000000000000000000000000000000000000"
           ],
           "expected": {
             "return_data": [
-              "0"
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
             ],
             "exception": false
           }

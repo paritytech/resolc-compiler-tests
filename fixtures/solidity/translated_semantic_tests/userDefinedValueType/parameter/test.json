@@ -9,11 +9,11 @@
           "instance": "C",
           "method": "id(address)",
           "calldata": [
-            "5"
+            "0x0000000000000000000000000000000000000000000000000000000000000005"
           ],
           "expected": {
             "return_data": [
-              "5"
+              "0x0000000000000000000000000000000000000000000000000000000000000005"
             ],
             "exception": false
           }
@@ -24,11 +24,11 @@
           "instance": "C",
           "method": "id(address)",
           "calldata": [
-            "1461501637330902918203684832716283019655932542975"
+            "0x000000000000000000000000ffffffffffffffffffffffffffffffffffffffff"
           ],
           "expected": {
             "return_data": [
-              "1461501637330902918203684832716283019655932542975"
+              "0x000000000000000000000000ffffffffffffffffffffffffffffffffffffffff"
             ],
             "exception": false
           }
@@ -39,7 +39,7 @@
           "instance": "C",
           "method": "id(address)",
           "calldata": [
-            "115792089237316195423570985008687907853269984665640564039457584007913129639935"
+            "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
           ],
           "expected": {
             "exception": true
@@ -51,11 +51,11 @@
           "instance": "C",
           "method": "unwrap(address)",
           "calldata": [
-            "5"
+            "0x0000000000000000000000000000000000000000000000000000000000000005"
           ],
           "expected": {
             "return_data": [
-              "5"
+              "0x0000000000000000000000000000000000000000000000000000000000000005"
             ],
             "exception": false
           }
@@ -66,11 +66,11 @@
           "instance": "C",
           "method": "unwrap(address)",
           "calldata": [
-            "1461501637330902918203684832716283019655932542975"
+            "0x000000000000000000000000ffffffffffffffffffffffffffffffffffffffff"
           ],
           "expected": {
             "return_data": [
-              "1461501637330902918203684832716283019655932542975"
+              "0x000000000000000000000000ffffffffffffffffffffffffffffffffffffffff"
             ],
             "exception": false
           }
@@ -81,7 +81,7 @@
           "instance": "C",
           "method": "unwrap(address)",
           "calldata": [
-            "115792089237316195423570985008687907853269984665640564039457584007913129639935"
+            "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
           ],
           "expected": {
             "exception": true
@@ -93,11 +93,11 @@
           "instance": "C",
           "method": "wrap(address)",
           "calldata": [
-            "5"
+            "0x0000000000000000000000000000000000000000000000000000000000000005"
           ],
           "expected": {
             "return_data": [
-              "5"
+              "0x0000000000000000000000000000000000000000000000000000000000000005"
             ],
             "exception": false
           }
@@ -108,11 +108,11 @@
           "instance": "C",
           "method": "wrap(address)",
           "calldata": [
-            "1461501637330902918203684832716283019655932542975"
+            "0x000000000000000000000000ffffffffffffffffffffffffffffffffffffffff"
           ],
           "expected": {
             "return_data": [
-              "1461501637330902918203684832716283019655932542975"
+              "0x000000000000000000000000ffffffffffffffffffffffffffffffffffffffff"
             ],
             "exception": false
           }
@@ -123,7 +123,7 @@
           "instance": "C",
           "method": "wrap(address)",
           "calldata": [
-            "115792089237316195423570985008687907853269984665640564039457584007913129639935"
+            "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
           ],
           "expected": {
             "exception": true
@@ -135,11 +135,11 @@
           "instance": "C",
           "method": "unwrap_assembly(address)",
           "calldata": [
-            "5"
+            "0x0000000000000000000000000000000000000000000000000000000000000005"
           ],
           "expected": {
             "return_data": [
-              "5"
+              "0x0000000000000000000000000000000000000000000000000000000000000005"
             ],
             "exception": false
           }
@@ -150,11 +150,11 @@
           "instance": "C",
           "method": "unwrap_assembly(address)",
           "calldata": [
-            "1461501637330902918203684832716283019655932542975"
+            "0x000000000000000000000000ffffffffffffffffffffffffffffffffffffffff"
           ],
           "expected": {
             "return_data": [
-              "1461501637330902918203684832716283019655932542975"
+              "0x000000000000000000000000ffffffffffffffffffffffffffffffffffffffff"
             ],
             "exception": false
           }
@@ -165,7 +165,7 @@
           "instance": "C",
           "method": "unwrap_assembly(address)",
           "calldata": [
-            "115792089237316195423570985008687907853269984665640564039457584007913129639935"
+            "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
           ],
           "expected": {
             "exception": true
@@ -177,11 +177,11 @@
           "instance": "C",
           "method": "wrap_assembly(address)",
           "calldata": [
-            "5"
+            "0x0000000000000000000000000000000000000000000000000000000000000005"
           ],
           "expected": {
             "return_data": [
-              "5"
+              "0x0000000000000000000000000000000000000000000000000000000000000005"
             ],
             "exception": false
           }
@@ -192,11 +192,11 @@
           "instance": "C",
           "method": "wrap_assembly(address)",
           "calldata": [
-            "1461501637330902918203684832716283019655932542975"
+            "0x000000000000000000000000ffffffffffffffffffffffffffffffffffffffff"
           ],
           "expected": {
             "return_data": [
-              "1461501637330902918203684832716283019655932542975"
+              "0x000000000000000000000000ffffffffffffffffffffffffffffffffffffffff"
             ],
             "exception": false
           }
@@ -207,7 +207,7 @@
           "instance": "C",
           "method": "wrap_assembly(address)",
           "calldata": [
-            "115792089237316195423570985008687907853269984665640564039457584007913129639935"
+            "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
           ],
           "expected": {
             "exception": true

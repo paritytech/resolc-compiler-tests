@@ -19,7 +19,7 @@ pub fn handle_caller_replacement(
 ) -> Result<U256> {
     let metadata_file_paths = if path.is_dir() {
         Box::new(MetadataFile::SUPPORTED_EXTENSIONS.iter().copied().fold(
-            FilesWithExtensionIterator::new(path.to_path_buf()),
+            FilesWithExtensionIterator::new(path),
             FilesWithExtensionIterator::with_allowed_extension,
         )) as Box<dyn Iterator<Item = _>>
     } else {

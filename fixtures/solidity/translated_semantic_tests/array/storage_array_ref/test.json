@@ -9,11 +9,11 @@
           "instance": "Store",
           "method": "find(uint256)",
           "calldata": [
-            "7"
+            "0x0000000000000000000000000000000000000000000000000000000000000007"
           ],
           "expected": {
             "return_data": [
-              "115792089237316195423570985008687907853269984665640564039457584007913129639935"
+              "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
             ],
             "exception": false
           }
@@ -24,7 +24,7 @@
           "instance": "Store",
           "method": "add(uint256)",
           "calldata": [
-            "7"
+            "0x0000000000000000000000000000000000000000000000000000000000000007"
           ],
           "expected": {
             "exception": false
@@ -36,11 +36,11 @@
           "instance": "Store",
           "method": "find(uint256)",
           "calldata": [
-            "7"
+            "0x0000000000000000000000000000000000000000000000000000000000000007"
           ],
           "expected": {
             "return_data": [
-              "0"
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
             ],
             "exception": false
           }
@@ -51,7 +51,7 @@
           "instance": "Store",
           "method": "add(uint256)",
           "calldata": [
-            "11"
+            "0x000000000000000000000000000000000000000000000000000000000000000b"
           ],
           "expected": {
             "exception": false
@@ -63,7 +63,7 @@
           "instance": "Store",
           "method": "add(uint256)",
           "calldata": [
-            "17"
+            "0x0000000000000000000000000000000000000000000000000000000000000011"
           ],
           "expected": {
             "exception": false
@@ -75,7 +75,7 @@
           "instance": "Store",
           "method": "add(uint256)",
           "calldata": [
-            "27"
+            "0x000000000000000000000000000000000000000000000000000000000000001b"
           ],
           "expected": {
             "exception": false
@@ -87,7 +87,7 @@
           "instance": "Store",
           "method": "add(uint256)",
           "calldata": [
-            "31"
+            "0x000000000000000000000000000000000000000000000000000000000000001f"
           ],
           "expected": {
             "exception": false
@@ -99,7 +99,7 @@
           "instance": "Store",
           "method": "add(uint256)",
           "calldata": [
-            "32"
+            "0x0000000000000000000000000000000000000000000000000000000000000020"
           ],
           "expected": {
             "exception": false
@@ -111,7 +111,7 @@
           "instance": "Store",
           "method": "add(uint256)",
           "calldata": [
-            "66"
+            "0x0000000000000000000000000000000000000000000000000000000000000042"
           ],
           "expected": {
             "exception": false
@@ -123,7 +123,7 @@
           "instance": "Store",
           "method": "add(uint256)",
           "calldata": [
-            "177"
+            "0x00000000000000000000000000000000000000000000000000000000000000b1"
           ],
           "expected": {
             "exception": false
@@ -135,11 +135,11 @@
           "instance": "Store",
           "method": "find(uint256)",
           "calldata": [
-            "7"
+            "0x0000000000000000000000000000000000000000000000000000000000000007"
           ],
           "expected": {
             "return_data": [
-              "0"
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
             ],
             "exception": false
           }
@@ -150,11 +150,11 @@
           "instance": "Store",
           "method": "find(uint256)",
           "calldata": [
-            "27"
+            "0x000000000000000000000000000000000000000000000000000000000000001b"
           ],
           "expected": {
             "return_data": [
-              "3"
+              "0x0000000000000000000000000000000000000000000000000000000000000003"
             ],
             "exception": false
           }
@@ -165,11 +165,11 @@
           "instance": "Store",
           "method": "find(uint256)",
           "calldata": [
-            "32"
+            "0x0000000000000000000000000000000000000000000000000000000000000020"
           ],
           "expected": {
             "return_data": [
-              "5"
+              "0x0000000000000000000000000000000000000000000000000000000000000005"
             ],
             "exception": false
           }
@@ -180,11 +180,11 @@
           "instance": "Store",
           "method": "find(uint256)",
           "calldata": [
-            "176"
+            "0x00000000000000000000000000000000000000000000000000000000000000b0"
           ],
           "expected": {
             "return_data": [
-              "115792089237316195423570985008687907853269984665640564039457584007913129639935"
+              "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
             ],
             "exception": false
           }
@@ -195,11 +195,11 @@
           "instance": "Store",
           "method": "find(uint256)",
           "calldata": [
-            "0"
+            "0x0000000000000000000000000000000000000000000000000000000000000000"
           ],
           "expected": {
             "return_data": [
-              "115792089237316195423570985008687907853269984665640564039457584007913129639935"
+              "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
             ],
             "exception": false
           }
@@ -210,11 +210,11 @@
           "instance": "Store",
           "method": "find(uint256)",
           "calldata": [
-            "400"
+            "0x0000000000000000000000000000000000000000000000000000000000000190"
           ],
           "expected": {
             "return_data": [
-              "115792089237316195423570985008687907853269984665640564039457584007913129639935"
+              "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
             ],
             "exception": false
           }

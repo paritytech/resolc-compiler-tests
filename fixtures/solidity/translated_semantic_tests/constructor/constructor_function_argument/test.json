@@ -9,7 +9,7 @@
           "instance": "D",
           "method": "#deployer",
           "calldata": [
-            "7175878113405833249322534082293024008058894263807714200339205169476534272000"
+            "0x0fdd67305928fcac8d213d1e47bfa6165cd0b87b946644cd0000000000000000"
           ],
           "expected": {
             "exception": false

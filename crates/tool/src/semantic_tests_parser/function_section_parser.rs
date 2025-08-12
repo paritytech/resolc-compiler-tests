@@ -1,3 +1,5 @@
+#![allow(clippy::enum_variant_names)]
+
 use std::{
     fmt::{Debug, Display},
     io::{Cursor, Read},
@@ -45,7 +47,7 @@ macro_rules! define_single_char_nodes {
                         Ok(Some(Token::NonAlphanumericCharacter(char))) if char.0 == char_to_expect => {
                             Ok(Self)
                         }
-                        r @ _ => {
+                        r => {
                             bail!(
                                 "Failed to interpret {r:?} as {} of character {char_to_expect}",
                                 stringify!($ty_ident)
@@ -74,7 +76,7 @@ macro_rules! define_identifier_nodes {
                         Ok(Some(Token::Identifier(string))) if string.0 == string_to_expect => {
                             Ok(Self)
                         }
-                        r @ _ => {
+                        r => {
                             bail!(
                                 "Failed to interpret {r:?} as {} of string {string_to_expect}",
                                 stringify!($ty_ident)
@@ -219,8 +221,8 @@ impl DocumentItem {
     pub fn new(node: Node, line: String) -> Self {
         static REGEX: LazyLock<Regex> =
             LazyLock::new(|| Regex::new(r"\s+").unwrap());
-        line.replace("\n", "");
-        let line = REGEX.replace_all(&line.trim(), " ").to_string();
+        let line = line.replace("\n", "");
+        let line = REGEX.replace_all(line.trim(), " ").to_string();
         Self { node, line }
     }
 }
@@ -455,7 +457,7 @@ impl Parse for ArgumentType {
                     break;
                 }
                 Some(Token::NonAlphanumericCharacter(
-                    NonAlphanumericCharacter(c @ _),
+                    NonAlphanumericCharacter(c),
                 )) => {
                     arg.push(c);
                 }
@@ -739,7 +741,7 @@ impl Parse for U256 {
     fn parse(parser: &mut Parser<impl AsRef<[u8]>>) -> Result<Self> {
         match parser.next_token() {
             Ok(Some(Token::UnsignedNumber(value))) => Ok(value),
-            e @ _ => bail!("Can't interpret as a U256 {e:?}"),
+            e => bail!("Can't interpret as a U256 {e:?}"),
         }
     }
 }
@@ -748,7 +750,7 @@ impl Parse for I256 {
     fn parse(parser: &mut Parser<impl AsRef<[u8]>>) -> Result<Self> {
         match parser.next_token() {
             Ok(Some(Token::SignedNumber(value))) => Ok(value),
-            e @ _ => bail!("Can't interpret as a I256 {e:?}"),
+            e => bail!("Can't interpret as a I256 {e:?}"),
         }
     }
 }
@@ -757,7 +759,7 @@ impl Parse for StringLiteral {
     fn parse(parser: &mut Parser<impl AsRef<[u8]>>) -> Result<Self> {
         match parser.next_token() {
             Ok(Some(Token::StringLiteral(value))) => Ok(value),
-            e @ _ => bail!("Can't interpret as a StringLiteral {e:?}"),
+            e => bail!("Can't interpret as a StringLiteral {e:?}"),
         }
     }
 }
@@ -766,7 +768,7 @@ impl Parse for Identifier {
     fn parse(parser: &mut Parser<impl AsRef<[u8]>>) -> Result<Self> {
         match parser.next_token() {
             Ok(Some(Token::Identifier(value))) => Ok(value),
-            e @ _ => bail!("Can't interpret as a Identifier {e:?}"),
+            e => bail!("Can't interpret as a Identifier {e:?}"),
         }
     }
 }
@@ -775,7 +777,7 @@ impl Parse for NonAlphanumericCharacter {
     fn parse(parser: &mut Parser<impl AsRef<[u8]>>) -> Result<Self> {
         match parser.next_token() {
             Ok(Some(Token::NonAlphanumericCharacter(value))) => Ok(value),
-            e @ _ => bail!("Can't interpret as a char {e:?}"),
+            e => bail!("Can't interpret as a char {e:?}"),
         }
     }
 }
@@ -810,12 +812,10 @@ impl<T: Parse + Debug, D: Parse> Parse for DelimitedCollection<T, D> {
                 } else {
                     break;
                 }
+            } else if parser.peek_and_take::<D>().is_ok() {
+                vector.push(parser.parse()?)
             } else {
-                if parser.peek_and_take::<D>().is_ok() {
-                    vector.push(parser.parse()?)
-                } else {
-                    break;
-                }
+                break;
             }
         }
 

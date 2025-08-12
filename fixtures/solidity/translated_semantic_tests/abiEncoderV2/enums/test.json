@@ -9,11 +9,11 @@
           "instance": "C",
           "method": "f(uint8)",
           "calldata": [
-            "0"
+            "0x0000000000000000000000000000000000000000000000000000000000000000"
           ],
           "expected": {
             "return_data": [
-              "0"
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
             ],
             "exception": false
           }
@@ -24,11 +24,11 @@
           "instance": "C",
           "method": "f(uint8)",
           "calldata": [
-            "1"
+            "0x0000000000000000000000000000000000000000000000000000000000000001"
           ],
           "expected": {
             "return_data": [
-              "1"
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
             ],
             "exception": false
           }
@@ -39,7 +39,7 @@
           "instance": "C",
           "method": "f(uint8)",
           "calldata": [
-            "2"
+            "0x0000000000000000000000000000000000000000000000000000000000000002"
           ],
           "expected": {
             "exception": true
@@ -51,7 +51,7 @@
           "instance": "C",
           "method": "f(uint8)",
           "calldata": [
-            "115792089237316195423570985008687907853269984665640564039457584007913129639935"
+            "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
           ],
           "expected": {
             "exception": true

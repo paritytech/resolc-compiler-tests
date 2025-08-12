@@ -11,10 +11,10 @@
           "calldata": [],
           "expected": {
             "return_data": [
-              "115792089237316195423570985008687907853269984665640564039457584007913129639934",
-              "4",
-              "115792089237316195423570985008687907853269984665640564039457584007913129639824",
-              "0"
+              "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe",
+              "0x0000000000000000000000000000000000000000000000000000000000000004",
+              "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff90",
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
             ],
             "exception": false
           }

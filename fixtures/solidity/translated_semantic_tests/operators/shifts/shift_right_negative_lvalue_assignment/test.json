@@ -9,12 +9,12 @@
           "instance": "C",
           "method": "f(int256,uint256)",
           "calldata": [
-            "115792089237316195423570985008687907853269984665640564039457584007913129635670",
-            "0"
+            "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffef56",
+            "0x0000000000000000000000000000000000000000000000000000000000000000"
           ],
           "expected": {
             "return_data": [
-              "115792089237316195423570985008687907853269984665640564039457584007913129635670"
+              "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffef56"
             ],
             "exception": false
           }
@@ -25,12 +25,12 @@
           "instance": "C",
           "method": "f(int256,uint256)",
           "calldata": [
-            "115792089237316195423570985008687907853269984665640564039457584007913129635670",
-            "1"
+            "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffef56",
+            "0x0000000000000000000000000000000000000000000000000000000000000001"
           ],
           "expected": {
             "return_data": [
-              "115792089237316195423570985008687907853269984665640564039457584007913129637803"
+              "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff7ab"
             ],
             "exception": false
           }
@@ -41,12 +41,12 @@
           "instance": "C",
           "method": "f(int256,uint256)",
           "calldata": [
-            "115792089237316195423570985008687907853269984665640564039457584007913129635670",
-            "4"
+            "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffef56",
+            "0x0000000000000000000000000000000000000000000000000000000000000004"
           ],
           "expected": {
             "return_data": [
-              "115792089237316195423570985008687907853269984665640564039457584007913129639669"
+              "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffef5"
             ],
             "exception": false
           }
@@ -57,12 +57,12 @@
           "instance": "C",
           "method": "f(int256,uint256)",
           "calldata": [
-            "115792089237316195423570985008687907853269984665640564039457584007913129635670",
-            "8"
+            "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffef56",
+            "0x0000000000000000000000000000000000000000000000000000000000000008"
           ],
           "expected": {
             "return_data": [
-              "115792089237316195423570985008687907853269984665640564039457584007913129639919"
+              "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffef"
             ],
             "exception": false
           }
@@ -73,12 +73,12 @@
           "instance": "C",
           "method": "f(int256,uint256)",
           "calldata": [
-            "115792089237316195423570985008687907853269984665640564039457584007913129635670",
-            "16"
+            "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffef56",
+            "0x0000000000000000000000000000000000000000000000000000000000000010"
           ],
           "expected": {
             "return_data": [
-              "115792089237316195423570985008687907853269984665640564039457584007913129639935"
+              "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
             ],
             "exception": false
           }
@@ -89,12 +89,12 @@
           "instance": "C",
           "method": "f(int256,uint256)",
           "calldata": [
-            "115792089237316195423570985008687907853269984665640564039457584007913129635670",
-            "17"
+            "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffef56",
+            "0x0000000000000000000000000000000000000000000000000000000000000011"
           ],
           "expected": {
             "return_data": [
-              "115792089237316195423570985008687907853269984665640564039457584007913129639935"
+              "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
             ],
             "exception": false
           }
@@ -105,12 +105,12 @@
           "instance": "C",
           "method": "f(int256,uint256)",
           "calldata": [
-            "115792089237316195423570985008687907853269984665640564039457584007913129635669",
-            "0"
+            "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffef55",
+            "0x0000000000000000000000000000000000000000000000000000000000000000"
           ],
           "expected": {
             "return_data": [
-              "115792089237316195423570985008687907853269984665640564039457584007913129635669"
+              "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffef55"
             ],
             "exception": false
           }
@@ -121,12 +121,12 @@
           "instance": "C",
           "method": "f(int256,uint256)",
           "calldata": [
-            "115792089237316195423570985008687907853269984665640564039457584007913129635669",
-            "1"
+            "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffef55",
+            "0x0000000000000000000000000000000000000000000000000000000000000001"
           ],
           "expected": {
             "return_data": [
-              "115792089237316195423570985008687907853269984665640564039457584007913129637802"
+              "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff7aa"
             ],
             "exception": false
           }
@@ -137,12 +137,12 @@
           "instance": "C",
           "method": "f(int256,uint256)",
           "calldata": [
-            "115792089237316195423570985008687907853269984665640564039457584007913129635669",
-            "4"
+            "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffef55",
+            "0x0000000000000000000000000000000000000000000000000000000000000004"
           ],
           "expected": {
             "return_data": [
-              "115792089237316195423570985008687907853269984665640564039457584007913129639669"
+              "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffef5"
             ],
             "exception": false
           }
@@ -153,12 +153,12 @@
           "instance": "C",
           "method": "f(int256,uint256)",
           "calldata": [
-            "115792089237316195423570985008687907853269984665640564039457584007913129635669",
-            "8"
+            "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffef55",
+            "0x0000000000000000000000000000000000000000000000000000000000000008"
           ],
           "expected": {
             "return_data": [
-              "115792089237316195423570985008687907853269984665640564039457584007913129639919"
+              "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffef"
             ],
             "exception": false
           }
@@ -169,12 +169,12 @@
           "instance": "C",
           "method": "f(int256,uint256)",
           "calldata": [
-            "115792089237316195423570985008687907853269984665640564039457584007913129635669",
-            "16"
+            "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffef55",
+            "0x0000000000000000000000000000000000000000000000000000000000000010"
           ],
           "expected": {
             "return_data": [
-              "115792089237316195423570985008687907853269984665640564039457584007913129639935"
+              "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
             ],
             "exception": false
           }
@@ -185,12 +185,12 @@
           "instance": "C",
           "method": "f(int256,uint256)",
           "calldata": [
-            "115792089237316195423570985008687907853269984665640564039457584007913129635669",
-            "17"
+            "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffef55",
+            "0x0000000000000000000000000000000000000000000000000000000000000011"
           ],
           "expected": {
             "return_data": [
-              "115792089237316195423570985008687907853269984665640564039457584007913129639935"
+              "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
             ],
             "exception": false
           }

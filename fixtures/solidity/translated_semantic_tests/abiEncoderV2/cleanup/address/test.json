@@ -9,11 +9,11 @@
           "instance": "C",
           "method": "f(uint256)",
           "calldata": [
-            "0"
+            "0x0000000000000000000000000000000000000000000000000000000000000000"
           ],
           "expected": {
             "return_data": [
-              "0"
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
             ],
             "exception": false
           }
@@ -24,11 +24,11 @@
           "instance": "C",
           "method": "g(address)",
           "calldata": [
-            "0"
+            "0x0000000000000000000000000000000000000000000000000000000000000000"
           ],
           "expected": {
             "return_data": [
-              "0"
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
             ],
             "exception": false
           }
@@ -39,11 +39,11 @@
           "instance": "C",
           "method": "f(uint256)",
           "calldata": [
-            "1"
+            "0x0000000000000000000000000000000000000000000000000000000000000001"
           ],
           "expected": {
             "return_data": [
-              "1"
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
             ],
             "exception": false
           }
@@ -54,11 +54,11 @@
           "instance": "C",
           "method": "g(address)",
           "calldata": [
-            "1"
+            "0x0000000000000000000000000000000000000000000000000000000000000001"
           ],
           "expected": {
             "return_data": [
-              "1"
+              "0x0000000000000000000000000000000000000000000000000000000000000001"
             ],
             "exception": false
           }
@@ -69,11 +69,11 @@
           "instance": "C",
           "method": "f(uint256)",
           "calldata": [
-            "2"
+            "0x0000000000000000000000000000000000000000000000000000000000000002"
           ],
           "expected": {
             "return_data": [
-              "2"
+              "0x0000000000000000000000000000000000000000000000000000000000000002"
             ],
             "exception": false
           }
@@ -84,11 +84,11 @@
           "instance": "C",
           "method": "g(address)",
           "calldata": [
-            "2"
+            "0x0000000000000000000000000000000000000000000000000000000000000002"
           ],
           "expected": {
             "return_data": [
-              "2"
+              "0x0000000000000000000000000000000000000000000000000000000000000002"
             ],
             "exception": false
           }
@@ -99,11 +99,11 @@
           "instance": "C",
           "method": "f(uint256)",
           "calldata": [
-            "980829894800078742339098726298021775428853559295"
+            "0x000000000000000000000000abcdef0123456789abcdef0123456789abcdefff"
           ],
           "expected": {
             "return_data": [
-              "980829894800078742339098726298021775428853559295"
+              "0x000000000000000000000000abcdef0123456789abcdef0123456789abcdefff"
             ],
             "exception": false
           }
@@ -114,11 +114,11 @@
           "instance": "C",
           "method": "g(address)",
           "calldata": [
-            "980829894800078742339098726298021775428853559295"
+            "0x000000000000000000000000abcdef0123456789abcdef0123456789abcdefff"
           ],
           "expected": {
             "return_data": [
-              "980829894800078742339098726298021775428853559295"
+              "0x000000000000000000000000abcdef0123456789abcdef0123456789abcdefff"
             ],
             "exception": false
           }
@@ -129,11 +129,11 @@
           "instance": "C",
           "method": "f(uint256)",
           "calldata": [
-            "1461501637330902918203684832716283019655932542975"
+            "0x000000000000000000000000ffffffffffffffffffffffffffffffffffffffff"
           ],
           "expected": {
             "return_data": [
-              "1461501637330902918203684832716283019655932542975"
+              "0x000000000000000000000000ffffffffffffffffffffffffffffffffffffffff"
             ],
             "exception": false
           }
@@ -144,11 +144,11 @@
           "instance": "C",
           "method": "g(address)",
           "calldata": [
-            "1461501637330902918203684832716283019655932542975"
+            "0x000000000000000000000000ffffffffffffffffffffffffffffffffffffffff"
           ],
           "expected": {
             "return_data": [
-              "1461501637330902918203684832716283019655932542975"
+              "0x000000000000000000000000ffffffffffffffffffffffffffffffffffffffff"
             ],
             "exception": false
           }
@@ -159,11 +159,11 @@
           "instance": "C",
           "method": "f(uint256)",
           "calldata": [
-            "1461501637330902918203684832716283019655932542976"
+            "0x0000000000000000000000010000000000000000000000000000000000000000"
           ],
           "expected": {
             "return_data": [
-              "0"
+              "0x0000000000000000000000000000000000000000000000000000000000000000"
             ],
             "exception": false
           }
@@ -174,7 +174,7 @@
           "instance": "C",
           "method": "g(address)",
           "calldata": [
-            "1461501637330902918203684832716283019655932542976"
+            "0x0000000000000000000000010000000000000000000000000000000000000000"
           ],
           "expected": {
             "exception": true
@@ -186,11 +186,11 @@
           "instance": "C",
           "method": "f(uint256)",
           "calldata": [
-            "2442331532130981660542783559014304795084786102271"
+            "0x000000000000000000000001abcdef0123456789abcdef0123456789abcdefff"
           ],
           "expected": {
             "return_data": [
-              "980829894800078742339098726298021775428853559295"
+              "0x000000000000000000000000abcdef0123456789abcdef0123456789abcdefff"
             ],
             "exception": false
           }
@@ -201,7 +201,7 @@
           "instance": "C",
           "method": "g(address)",
           "calldata": [
-            "2442331532130981660542783559014304795084786102271"
+            "0x000000000000000000000001abcdef0123456789abcdef0123456789abcdefff"
           ],
           "expected": {
             "exception": true
@@ -213,11 +213,11 @@
           "instance": "C",
           "method": "f(uint256)",
           "calldata": [
-            "2923003274661805836407369665432566039311865085951"
+            "0x000000000000000000000001ffffffffffffffffffffffffffffffffffffffff"
           ],
           "expected": {
             "return_data": [
-              "1461501637330902918203684832716283019655932542975"
+              "0x000000000000000000000000ffffffffffffffffffffffffffffffffffffffff"
             ],
             "exception": false
           }
@@ -228,7 +228,7 @@
           "instance": "C",
           "method": "g(address)",
           "calldata": [
-            "2923003274661805836407369665432566039311865085951"
+            "0x000000000000000000000001ffffffffffffffffffffffffffffffffffffffff"
           ],
           "expected": {
             "exception": true
@@ -240,11 +240,11 @@
           "instance": "C",
           "method": "f(uint256)",
           "calldata": [
-            "115792089237316195423570985008687907853269984665640564039457584007913129639935"
+            "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
           ],
           "expected": {
             "return_data": [
-              "1461501637330902918203684832716283019655932542975"
+              "0x000000000000000000000000ffffffffffffffffffffffffffffffffffffffff"
             ],
             "exception": false
           }
@@ -255,7 +255,7 @@
           "instance": "C",
           "method": "g(address)",
           "calldata": [
-            "115792089237316195423570985008687907853269984665640564039457584007913129639935"
+            "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
           ],
           "expected": {
             "exception": true

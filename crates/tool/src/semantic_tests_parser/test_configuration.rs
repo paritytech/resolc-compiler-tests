@@ -188,19 +188,19 @@ impl FromStr for EvmVersionRequirement {
     fn from_str(s: &str) -> std::result::Result<Self, Self::Err> {
         match s.as_bytes() {
             [b'>', b'=', remaining @ ..] => Ok(Self::GreaterThanOrEqual(
-                str::from_utf8(remaining)?.try_into()?,
+                str::from_utf8(remaining)?.to_string(),
             )),
             [b'>', remaining @ ..] => {
-                Ok(Self::GreaterThan(str::from_utf8(remaining)?.try_into()?))
+                Ok(Self::GreaterThan(str::from_utf8(remaining)?.to_string()))
             }
             [b'<', b'=', remaining @ ..] => Ok(Self::LessThanOrEqual(
-                str::from_utf8(remaining)?.try_into()?,
+                str::from_utf8(remaining)?.to_string(),
             )),
             [b'<', remaining @ ..] => {
-                Ok(Self::LessThan(str::from_utf8(remaining)?.try_into()?))
+                Ok(Self::LessThan(str::from_utf8(remaining)?.to_string()))
             }
             [b'=', remaining @ ..] => {
-                Ok(Self::EqualTo(str::from_utf8(remaining)?.try_into()?))
+                Ok(Self::EqualTo(str::from_utf8(remaining)?.to_string()))
             }
             _ => bail!("Invalid EVM version requirement {s}"),
         }

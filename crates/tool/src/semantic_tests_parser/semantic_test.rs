@@ -6,12 +6,16 @@
 
 use std::{
     collections::{HashMap, HashSet},
+    fmt::Display,
     fs::read_to_string,
     path::{Path, PathBuf},
     str::FromStr,
 };
 
-use alloy::primitives::{Address, FixedBytes, U256, address};
+use alloy::{
+    hex::ToHexExt,
+    primitives::{Address, B256, FixedBytes, U256, address},
+};
 use anyhow::{Context, Error, Result, bail};
 use revive_dt_common::define_wrapper_type;
 
@@ -287,7 +291,13 @@ define_wrapper_type! {
     /// Represents a word that can be encountered in the input or output of
     /// functions and events in the semantic tests.
     #[derive(Clone, Copy, Debug, PartialEq, Eq, PartialOrd, Ord, Hash)]
-    pub struct IOValue(U256);
+    pub struct IOValue(B256);
+}
+
+impl Display for IOValue {
+    fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
+        write!(f, "0x{}", self.0.encode_hex())
+    }
 }
 
 impl TryFrom<Value> for IOValue {
@@ -345,7 +355,7 @@ impl TryFrom<Value> for IOValue {
                 bail!("Failure token can not be converted into an IO value")
             }
         };
-        Ok(Self(value))
+        Ok(Self(value.to_be_bytes::<32>().into()))
     }
 }
 
@@ -372,13 +382,9 @@ impl SemanticTest {
 
         // If there's no test section then we throw it out since there's no
         // tests to parse.
-        if sections
-            .iter()
-            .find(|section| {
-                matches!(section, SemanticTestSection::TestInputs { .. })
-            })
-            .is_none()
-        {
+        if !sections.iter().any(|section| {
+            matches!(section, SemanticTestSection::TestInputs { .. })
+        }) {
             return Ok(None);
         }
 
@@ -389,7 +395,7 @@ impl SemanticTest {
             .main_contract_ident_and_path()
             .context("No main contract found in the Solidity semantic test")?;
         let main_contract_source_path = main_contract_source_path
-            .unwrap_or_else(|| &semantic_test_path)
+            .unwrap_or(&semantic_test_path)
             .to_path_buf();
         let mut steps = Vec::<TestStep>::new();
         let mut configuration = TestConfiguration::new();
@@ -446,11 +452,7 @@ impl SemanticTest {
                             Node::StorageEmptyAssertion(
                                 StorageEmptyAssertionNode { is_empty, .. },
                             ) => {
-                                let is_empty = if is_empty == U256::ZERO {
-                                    false
-                                } else {
-                                    true
-                                };
+                                let is_empty = is_empty != U256::ZERO;
                                 steps.push(TestStep::StorageEmptyAssertion(
                                     TestStepStorageEmptyAssertion {
                                         is_empty,
@@ -657,7 +659,7 @@ impl SemanticTest {
                                 let mut function = TestStepFunctionCall {
                                     caller,
                                     function: signature,
-                                    value: value,
+                                    value,
                                     arguments: Default::default(),
                                     expected_output: Default::default(),
                                     comment: line,

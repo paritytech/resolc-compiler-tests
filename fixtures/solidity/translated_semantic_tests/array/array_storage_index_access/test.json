@@ -9,7 +9,7 @@
           "instance": "C",
           "method": "test_indices(uint256)",
           "calldata": [
-            "1"
+            "0x0000000000000000000000000000000000000000000000000000000000000001"
           ],
           "expected": {
             "exception": false
@@ -21,7 +21,7 @@
           "instance": "C",
           "method": "test_indices(uint256)",
           "calldata": [
-            "129"
+            "0x0000000000000000000000000000000000000000000000000000000000000081"
           ],
           "expected": {
             "exception": false
@@ -33,7 +33,7 @@
           "instance": "C",
           "method": "test_indices(uint256)",
           "calldata": [
-            "5"
+            "0x0000000000000000000000000000000000000000000000000000000000000005"
           ],
           "expected": {
             "exception": false
@@ -45,7 +45,7 @@
           "instance": "C",
           "method": "test_indices(uint256)",
           "calldata": [
-            "10"
+            "0x000000000000000000000000000000000000000000000000000000000000000a"
           ],
           "expected": {
             "exception": false
@@ -57,7 +57,7 @@
           "instance": "C",
           "method": "test_indices(uint256)",
           "calldata": [
-            "15"
+            "0x000000000000000000000000000000000000000000000000000000000000000f"
           ],
           "expected": {
             "exception": false
@@ -69,7 +69,7 @@
           "instance": "C",
           "method": "test_indices(uint256)",
           "calldata": [
-            "255"
+            "0x00000000000000000000000000000000000000000000000000000000000000ff"
           ],
           "expected": {
             "exception": false
@@ -81,7 +81,7 @@
           "instance": "C",
           "method": "test_indices(uint256)",
           "calldata": [
-            "1000"
+            "0x00000000000000000000000000000000000000000000000000000000000003e8"
           ],
           "expected": {
             "exception": false
@@ -93,7 +93,7 @@
           "instance": "C",
           "method": "test_indices(uint256)",
           "calldata": [
-            "129"
+            "0x0000000000000000000000000000000000000000000000000000000000000081"
           ],
           "expected": {
             "exception": false
@@ -105,7 +105,7 @@
           "instance": "C",
           "method": "test_indices(uint256)",
           "calldata": [
-            "128"
+            "0x0000000000000000000000000000000000000000000000000000000000000080"
           ],
           "expected": {
             "exception": false
@@ -117,7 +117,7 @@
           "instance": "C",
           "method": "test_indices(uint256)",
           "calldata": [
-            "1"
+            "0x0000000000000000000000000000000000000000000000000000000000000001"
           ],
           "expected": {
             "exception": false

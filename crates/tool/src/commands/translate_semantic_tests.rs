@@ -167,7 +167,7 @@ pub fn handle_semantic_tests_translation(
                     };
 
                     let calldata = Calldata::new_compound(
-                        arguments.iter().map(|arg| arg.to_string()),
+                        arguments.hex_strings_iterator(),
                     );
 
                     let expected = {
@@ -175,9 +175,7 @@ pub fn handle_semantic_tests_translation(
                             compiler_version: None,
                             return_data: (output.len() > 0).then(|| {
                                 Calldata::new_compound(
-                                    output
-                                        .io_values_iterator()
-                                        .map(|v| v.to_string()),
+                                    output.io_values().hex_strings_iterator(),
                                 )
                             }),
                             events: None,
@@ -198,16 +196,11 @@ pub fn handle_semantic_tests_translation(
                             }
 
                             translated_event.topics.extend(
-                                event.indexed_values.iter().map(|value| {
-                                    value.into_inner().to_string()
-                                }),
+                                event.indexed_values.hex_strings_iterator(),
                             );
 
                             translated_event.values = Calldata::new_compound(
-                                event
-                                    .unindexed_values
-                                    .iter()
-                                    .map(|value| value.to_string()),
+                                event.unindexed_values.hex_strings_iterator(),
                             );
 
                             expected

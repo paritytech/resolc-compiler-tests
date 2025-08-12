@@ -41,9 +41,7 @@
                 "topics": [
                   "8ce0bd46ec50cf39f0d0ea8686a686eb226af5796dcda4231b26fb84b5ef1234"
                 ],
-                "values": [
-                  "0x5082a85c489be6aa0f2e6693bf09cc1bbd35e988"
-                ]
+                "values": []
               }
             ],
             "exception": false
@@ -67,10 +65,7 @@
                 "topics": [
                   "e1fffcc4923d04b559f4d29a8bfc6cda04eb5b0d3c460751c2402c5c5cc9109c"
                 ],
-                "values": [
-                  "0x5082a85c489be6aa0f2e6693bf09cc1bbd35e988",
-                  "0x64"
-                ]
+                "values": []
               }
             ],
             "exception": false
@@ -94,10 +89,7 @@
                 "topics": [
                   "7f3da37377f230fdb322dae312d8928ed16559533400bc0480a48960bd534893"
                 ],
-                "values": [
-                  "0x5082a85c489be6aa0f2e6693bf09cc1bbd35e988",
-                  "0x"
-                ]
+                "values": []
               }
             ],
             "exception": false

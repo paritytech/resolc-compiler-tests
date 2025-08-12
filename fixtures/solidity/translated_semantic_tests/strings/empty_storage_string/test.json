@@ -143,8 +143,8 @@
           "calldata": [],
           "expected": {
             "return_data": [
-              "0xd3f13430",
-              "0x20",
+              "0xd3f1343000000000000000000000000000000000000000000000000000000000",
+              "0x2000000000000000000000000000000000000000000000000000000000",
               "0x"
             ],
             "exception": true
@@ -162,10 +162,7 @@
                 "topics": [
                   "b9c15e96b55b1a0e6173f7fa2f341b73298293e98b5ccdb75aa8bd1da2d11970"
                 ],
-                "values": [
-                  "0x20",
-                  "0x"
-                ]
+                "values": []
               }
             ],
             "exception": false
@@ -183,10 +180,7 @@
                 "topics": [
                   "b9c15e96b55b1a0e6173f7fa2f341b73298293e98b5ccdb75aa8bd1da2d11970"
                 ],
-                "values": [
-                  "0x20",
-                  "0x"
-                ]
+                "values": []
               }
             ],
             "exception": false

@@ -15,33 +15,25 @@
                 "topics": [
                   "5b8cd8f3a67af1dee11ad4321a05f79a76cc7ea517810fc56d6d96c1e60d3686"
                 ],
-                "values": [
-                  "0x"
-                ]
+                "values": []
               },
               {
                 "topics": [
                   "5b8cd8f3a67af1dee11ad4321a05f79a76cc7ea517810fc56d6d96c1e60d3686"
                 ],
-                "values": [
-                  "0x01"
-                ]
+                "values": []
               },
               {
                 "topics": [
                   "5b8cd8f3a67af1dee11ad4321a05f79a76cc7ea517810fc56d6d96c1e60d3686"
                 ],
-                "values": [
-                  "0x02"
-                ]
+                "values": []
               },
               {
                 "topics": [
                   "5b8cd8f3a67af1dee11ad4321a05f79a76cc7ea517810fc56d6d96c1e60d3686"
                 ],
-                "values": [
-                  "0x03"
-                ]
+                "values": []
               }
             ],
             "exception": false
@@ -59,49 +51,37 @@
                 "topics": [
                   "5b8cd8f3a67af1dee11ad4321a05f79a76cc7ea517810fc56d6d96c1e60d3686"
                 ],
-                "values": [
-                  "0x"
-                ]
+                "values": []
               },
               {
                 "topics": [
                   "5b8cd8f3a67af1dee11ad4321a05f79a76cc7ea517810fc56d6d96c1e60d3686"
                 ],
-                "values": [
-                  "0x01"
-                ]
+                "values": []
               },
               {
                 "topics": [
                   "5b8cd8f3a67af1dee11ad4321a05f79a76cc7ea517810fc56d6d96c1e60d3686"
                 ],
-                "values": [
-                  "0x02"
-                ]
+                "values": []
               },
               {
                 "topics": [
                   "5b8cd8f3a67af1dee11ad4321a05f79a76cc7ea517810fc56d6d96c1e60d3686"
                 ],
-                "values": [
-                  "0x03"
-                ]
+                "values": []
               },
               {
                 "topics": [
                   "5b8cd8f3a67af1dee11ad4321a05f79a76cc7ea517810fc56d6d96c1e60d3686"
                 ],
-                "values": [
-                  "0x04"
-                ]
+                "values": []
               },
               {
                 "topics": [
                   "5b8cd8f3a67af1dee11ad4321a05f79a76cc7ea517810fc56d6d96c1e60d3686"
                 ],
-                "values": [
-                  "0x05"
-                ]
+                "values": []
               }
             ],
             "exception": false
@@ -119,49 +99,37 @@
                 "topics": [
                   "5b8cd8f3a67af1dee11ad4321a05f79a76cc7ea517810fc56d6d96c1e60d3686"
                 ],
-                "values": [
-                  "0x"
-                ]
+                "values": []
               },
               {
                 "topics": [
                   "5b8cd8f3a67af1dee11ad4321a05f79a76cc7ea517810fc56d6d96c1e60d3686"
                 ],
-                "values": [
-                  "0x01"
-                ]
+                "values": []
               },
               {
                 "topics": [
                   "5b8cd8f3a67af1dee11ad4321a05f79a76cc7ea517810fc56d6d96c1e60d3686"
                 ],
-                "values": [
-                  "0x02"
-                ]
+                "values": []
               },
               {
                 "topics": [
                   "5b8cd8f3a67af1dee11ad4321a05f79a76cc7ea517810fc56d6d96c1e60d3686"
                 ],
-                "values": [
-                  "0x03"
-                ]
+                "values": []
               },
               {
                 "topics": [
                   "5b8cd8f3a67af1dee11ad4321a05f79a76cc7ea517810fc56d6d96c1e60d3686"
                 ],
-                "values": [
-                  "0x04"
-                ]
+                "values": []
               },
               {
                 "topics": [
                   "5b8cd8f3a67af1dee11ad4321a05f79a76cc7ea517810fc56d6d96c1e60d3686"
                 ],
-                "values": [
-                  "0x05"
-                ]
+                "values": []
               }
             ],
             "exception": false
@@ -179,73 +147,55 @@
                 "topics": [
                   "5b8cd8f3a67af1dee11ad4321a05f79a76cc7ea517810fc56d6d96c1e60d3686"
                 ],
-                "values": [
-                  "0x"
-                ]
+                "values": []
               },
               {
                 "topics": [
                   "5b8cd8f3a67af1dee11ad4321a05f79a76cc7ea517810fc56d6d96c1e60d3686"
                 ],
-                "values": [
-                  "0x01"
-                ]
+                "values": []
               },
               {
                 "topics": [
                   "582c3a3af27a0ef352a02f8e9b0bea3043a2002c978baf77e6739da27a705cbb"
                 ],
-                "values": [
-                  "0x"
-                ]
+                "values": []
               },
               {
                 "topics": [
                   "5b8cd8f3a67af1dee11ad4321a05f79a76cc7ea517810fc56d6d96c1e60d3686"
                 ],
-                "values": [
-                  "0x02"
-                ]
+                "values": []
               },
               {
                 "topics": [
                   "5b8cd8f3a67af1dee11ad4321a05f79a76cc7ea517810fc56d6d96c1e60d3686"
                 ],
-                "values": [
-                  "0x03"
-                ]
+                "values": []
               },
               {
                 "topics": [
                   "582c3a3af27a0ef352a02f8e9b0bea3043a2002c978baf77e6739da27a705cbb"
                 ],
-                "values": [
-                  "0x"
-                ]
+                "values": []
               },
               {
                 "topics": [
                   "5b8cd8f3a67af1dee11ad4321a05f79a76cc7ea517810fc56d6d96c1e60d3686"
                 ],
-                "values": [
-                  "0x04"
-                ]
+                "values": []
               },
               {
                 "topics": [
                   "5b8cd8f3a67af1dee11ad4321a05f79a76cc7ea517810fc56d6d96c1e60d3686"
                 ],
-                "values": [
-                  "0x05"
-                ]
+                "values": []
               },
               {
                 "topics": [
                   "582c3a3af27a0ef352a02f8e9b0bea3043a2002c978baf77e6739da27a705cbb"
                 ],
-                "values": [
-                  "0x"
-                ]
+                "values": []
               }
             ],
             "exception": false

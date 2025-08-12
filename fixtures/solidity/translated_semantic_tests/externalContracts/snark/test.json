@@ -57,11 +57,7 @@
                 "topics": [
                   "3f3cfdb26fb5f9f1786ab4f1a1f9cd4c0b5e726cbdfc26e495261731aad44e39"
                 ],
-                "values": [
-                  "0x20",
-                  "0x16",
-                  "0x5375636365737366756c6c792076657269666965642e"
-                ]
+                "values": []
               }
             ],
             "exception": false

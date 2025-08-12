@@ -45,7 +45,7 @@
           "instance": "A",
           "method": "#fallback",
           "calldata": [
-            "0x42ef"
+            "0x42ef000000000000000000000000000000000000000000000000000000000000"
           ],
           "expected": {
             "exception": false
@@ -122,7 +122,7 @@
           "instance": "A",
           "method": "#fallback",
           "calldata": [
-            "0xfefe"
+            "0xfefe000000000000000000000000000000000000000000000000000000000000"
           ],
           "expected": {
             "exception": false

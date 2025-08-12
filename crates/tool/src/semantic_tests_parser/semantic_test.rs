@@ -6,17 +6,16 @@
 
 use std::{
     collections::{HashMap, HashSet},
-    fmt::Display,
     fs::read_to_string,
     path::{Path, PathBuf},
     str::FromStr,
 };
 
 use alloy::{
-    hex::ToHexExt,
+    hex::{self, ToHexExt},
     primitives::{Address, B256, FixedBytes, U256, address},
 };
-use anyhow::{Context, Error, Result, bail};
+use anyhow::{Context, Result, bail};
 use revive_dt_common::define_wrapper_type;
 
 use super::function_section_parser::*;
@@ -99,7 +98,7 @@ pub struct TestStepFunctionCall {
     pub value: U256,
 
     /// This is the set of arguments that the function should be invoked with.
-    pub arguments: Vec<IOValue>,
+    pub arguments: IOValues,
 
     /// This is the expected outcome of the function call, which can either be
     /// a success with some output or a failure with some failure reason.
@@ -142,57 +141,21 @@ pub struct TestStepExpectations {
 pub enum TestStepExpectedOutput {
     /// This case means that the test steps is expected to succeed and the
     /// output values are provided in the vector of [`IOValue`]s.
-    Success { output: Vec<IOValue> },
+    Success { output: IOValues },
 
     /// This case means that the test steps is expected to fail and the failure
     /// reason is provided in the vector of [`IOValue`]s
-    Failure { failure_reason: Vec<IOValue> },
+    Failure { failure_reason: IOValues },
 }
 
 impl TestStepExpectedOutput {
-    fn with_value(self, value: Value) -> Result<Self> {
-        match value {
-            v @ (Value::UnsignedNumber(_)
-            | Value::SignedNumber(_)
-            | Value::Boolean(_)
-            | Value::String(_)
-            | Value::HexString(_)
-            | Value::RightAlignedValue(_)
-            | Value::LeftAlignedValue(_)) => {
-                v.try_into().map(|value| self.with_io_value(value))
-            }
-            Value::Failure(_) => match self {
-                Self::Failure {
-                    failure_reason: values,
-                }
-                | Self::Success { output: values } => Ok(Self::Failure {
-                    failure_reason: values,
-                }),
-            },
-        }
-    }
-
-    fn with_io_value(self, value: IOValue) -> Self {
+    pub fn io_values(&self) -> &IOValues {
         match self {
-            TestStepExpectedOutput::Success { mut output } => {
-                output.push(value);
-                Self::Success { output }
-            }
-            TestStepExpectedOutput::Failure { mut failure_reason } => {
-                failure_reason.push(value);
-                Self::Failure { failure_reason }
-            }
-        }
-    }
-
-    pub fn io_values_iterator(&self) -> impl Iterator<Item = &IOValue> {
-        let values = match self {
             TestStepExpectedOutput::Success { output } => output,
             TestStepExpectedOutput::Failure { failure_reason } => {
                 failure_reason
             }
-        };
-        values.iter()
+        }
     }
 
     pub fn is_success(&self) -> bool {
@@ -204,12 +167,7 @@ impl TestStepExpectedOutput {
     }
 
     pub fn len(&self) -> usize {
-        match self {
-            TestStepExpectedOutput::Success { output } => output.len(),
-            TestStepExpectedOutput::Failure { failure_reason } => {
-                failure_reason.len()
-            }
-        }
+        self.io_values().len()
     }
 }
 
@@ -248,10 +206,10 @@ pub struct TestStepExpectedEvent {
     pub ident: EventIdentifier,
 
     /// The set of indexed values to expect the event to have emitted.
-    pub indexed_values: Vec<IOValue>,
+    pub indexed_values: IOValues,
 
     /// The set of unindexed values to expect the event to have emitted.
-    pub unindexed_values: Vec<IOValue>,
+    pub unindexed_values: IOValues,
 }
 
 /// Represents the identifier of the event that was emitted. This could either
@@ -288,83 +246,105 @@ pub struct TestStepStorageEmptyAssertion {
 }
 
 define_wrapper_type! {
-    /// Represents a word that can be encountered in the input or output of
-    /// functions and events in the semantic tests.
-    #[derive(Clone, Copy, Debug, PartialEq, Eq, PartialOrd, Ord, Hash)]
-    pub struct IOValue(B256);
+    /// Represents a vector of 256 bit values (words) that are used in the IO
+    /// of functions and events in the semantic tests.
+    #[derive(Clone, Debug, PartialEq, Eq, PartialOrd, Ord, Hash, Default)]
+    pub struct IOValues(Vec<B256>);
 }
 
-impl Display for IOValue {
-    fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
-        write!(
-            f,
-            "0x{}",
-            self.0
-                .iter()
-                .skip_while(|value| value == &&0)
-                .copied()
-                .collect::<Vec<_>>()
-                .encode_hex()
-        )
+impl IOValues {
+    /// Attempts to convert a vector of values parsed from the semantic tests
+    /// into vector of words.
+    ///
+    /// Note that this function will ignore `FAILURE` if encountered.
+    fn try_from_values(
+        values: impl IntoIterator<Item = Value>,
+    ) -> Result<Self> {
+        let mut buffer = Vec::<u8>::new();
+
+        for value in values {
+            let bytes = match value {
+                Value::UnsignedNumber(value)
+                | Value::RightAlignedValue(RightAlignedValue {
+                    value: AlignmentAllowedValue::UnsignedNumber(value),
+                    ..
+                }) => value.to_be_bytes_vec(),
+                Value::SignedNumber(value)
+                | Value::RightAlignedValue(RightAlignedValue {
+                    value: AlignmentAllowedValue::SignedNumber(value),
+                    ..
+                }) => value.to_be_bytes::<32>().to_vec(),
+                Value::Boolean(Boolean::True(_))
+                | Value::RightAlignedValue(RightAlignedValue {
+                    value: AlignmentAllowedValue::Boolean(Boolean::True(..)),
+                    ..
+                }) => U256::ONE.to_be_bytes_vec(),
+                Value::Boolean(Boolean::False(..))
+                | Value::RightAlignedValue(RightAlignedValue {
+                    value: AlignmentAllowedValue::Boolean(Boolean::False(..)),
+                    ..
+                }) => U256::ZERO.to_be_bytes_vec(),
+                Value::String(value) => {
+                    let value = unescape_string(value.as_str())?;
+                    U256::from_be_slice(value.as_slice()).to_be_bytes_vec()
+                }
+                Value::HexString(value) => {
+                    hex::decode(value.hex.replace("_", ""))?
+                }
+                Value::LeftAlignedValue(LeftAlignedValue {
+                    value: AlignmentAllowedValue::Boolean(Boolean::True(_)),
+                    ..
+                }) => handle_alignment(U256::ONE, Alignment::Left)
+                    .to_be_bytes_vec(),
+                Value::LeftAlignedValue(LeftAlignedValue {
+                    value: AlignmentAllowedValue::Boolean(Boolean::False(_)),
+                    ..
+                }) => handle_alignment(U256::ZERO, Alignment::Left)
+                    .to_be_bytes_vec(),
+                Value::LeftAlignedValue(LeftAlignedValue {
+                    value: AlignmentAllowedValue::SignedNumber(value),
+                    ..
+                }) => handle_alignment(
+                    U256::from_be_bytes(value.to_be_bytes::<32>()),
+                    Alignment::Left,
+                )
+                .to_be_bytes_vec(),
+                Value::LeftAlignedValue(LeftAlignedValue {
+                    value: AlignmentAllowedValue::UnsignedNumber(value),
+                    ..
+                }) => {
+                    handle_alignment(value, Alignment::Left).to_be_bytes_vec()
+                }
+                Value::Failure(..) => continue,
+            };
+            buffer.extend(bytes);
+        }
+
+        let mut words = Vec::new();
+        for chunk in buffer.chunks(32) {
+            if chunk.len() == 32 {
+                words.push(B256::from_slice(chunk))
+            } else {
+                let mut chunk = chunk.to_vec();
+                chunk.resize(32, 0);
+                words.push(B256::from_slice(&chunk))
+            }
+        }
+        Ok(Self(words))
     }
-}
 
-impl TryFrom<Value> for IOValue {
-    type Error = Error;
-
-    fn try_from(value: Value) -> std::result::Result<Self, Self::Error> {
-        let value = match value {
-            Value::UnsignedNumber(value)
-            | Value::RightAlignedValue(RightAlignedValue {
-                value: AlignmentAllowedValue::UnsignedNumber(value),
-                ..
-            }) => value,
-            Value::SignedNumber(value)
-            | Value::RightAlignedValue(RightAlignedValue {
-                value: AlignmentAllowedValue::SignedNumber(value),
-                ..
-            }) => U256::from_be_bytes(value.to_be_bytes::<32>()),
-            Value::Boolean(Boolean::True(..))
-            | Value::RightAlignedValue(RightAlignedValue {
-                value: AlignmentAllowedValue::Boolean(Boolean::True(..)),
-                ..
-            }) => U256::ONE,
-            Value::Boolean(Boolean::False(..))
-            | Value::RightAlignedValue(RightAlignedValue {
-                value: AlignmentAllowedValue::Boolean(Boolean::False(..)),
-                ..
-            }) => U256::ZERO,
-            Value::String(value) => {
-                let value = unescape_string(value.as_str())?;
-                U256::from_be_slice(value.as_slice())
-            }
-            Value::HexString(value) => {
-                U256::from_str_radix(&value.hex.replace("_", ""), 16)?
-            }
-            Value::LeftAlignedValue(LeftAlignedValue {
-                value: AlignmentAllowedValue::Boolean(Boolean::True(_)),
-                ..
-            }) => handle_alignment(U256::ONE, Alignment::Left),
-            Value::LeftAlignedValue(LeftAlignedValue {
-                value: AlignmentAllowedValue::Boolean(Boolean::False(_)),
-                ..
-            }) => handle_alignment(U256::ZERO, Alignment::Left),
-            Value::LeftAlignedValue(LeftAlignedValue {
-                value: AlignmentAllowedValue::SignedNumber(value),
-                ..
-            }) => handle_alignment(
-                U256::from_be_bytes(value.to_be_bytes::<32>()),
-                Alignment::Left,
-            ),
-            Value::LeftAlignedValue(LeftAlignedValue {
-                value: AlignmentAllowedValue::UnsignedNumber(value),
-                ..
-            }) => handle_alignment(value, Alignment::Left),
-            Value::Failure(..) => {
-                bail!("Failure token can not be converted into an IO value")
-            }
-        };
-        Ok(Self(value.to_be_bytes::<32>().into()))
+    /// Creates an iterator of hexadecimal strings of the words.
+    pub fn hex_strings_iterator(&self) -> impl Iterator<Item = String> {
+        self.as_inner().iter().map(|word| {
+            format!(
+                "0x{}",
+                word.iter()
+                    .skip_while(|value| **value == 0)
+                    .copied()
+                    .collect::<Vec<_>>()
+                    .encode_hex()
+            )
+        })
     }
 }
 
@@ -604,24 +584,39 @@ impl SemanticTest {
                                         unindexed_values: Default::default(),
                                     };
 
-                                for value in values.into_iter().flat_map(
-                                    |(_, values)| values.0.into_boxed_slice(),
-                                ) {
-                                    match value {
-                                        EventValue::Indexed(
-                                            IndexedEventValue { value, .. },
-                                        ) => {
-                                            event_assertion
-                                                .indexed_values
-                                                .push(value.try_into()?);
+                                let indexed_values = values
+                                    .iter()
+                                    .flat_map(|(_, values)| values.0.iter())
+                                    .filter_map(|value| {
+                                        if let EventValue::Indexed(value) =
+                                            value
+                                        {
+                                            Some(&value.value)
+                                        } else {
+                                            None
                                         }
-                                        EventValue::Unindexed(value) => {
-                                            event_assertion
-                                                .unindexed_values
-                                                .push(value.try_into()?);
+                                    })
+                                    .cloned();
+                                let unindexed_values = values
+                                    .iter()
+                                    .flat_map(|(_, values)| values.0.iter())
+                                    .filter_map(|value| {
+                                        if let EventValue::Indexed(value) =
+                                            value
+                                        {
+                                            Some(&value.value)
+                                        } else {
+                                            None
                                         }
-                                    }
-                                }
+                                    })
+                                    .cloned();
+
+                                event_assertion.indexed_values =
+                                    IOValues::try_from_values(indexed_values)?;
+                                event_assertion.unindexed_values =
+                                    IOValues::try_from_values(
+                                        unindexed_values,
+                                    )?;
 
                                 expected_output.events.push(event_assertion);
                             }
@@ -674,24 +669,40 @@ impl SemanticTest {
                                     comment: line,
                                 };
 
-                                for argument in arguments
-                                    .into_iter()
-                                    .flat_map(|(_, args)| args.0.into_iter())
-                                {
-                                    function
-                                        .arguments
-                                        .push(argument.try_into()?);
-                                }
+                                function.arguments = IOValues::try_from_values(
+                                    arguments.into_iter().flat_map(
+                                        |(_, args)| args.0.into_iter(),
+                                    ),
+                                )?;
 
-                                function.expected_output.output = returns
-                                    .into_iter()
-                                    .flat_map(|(_, returns)| {
-                                        returns.0.into_iter()
-                                    })
-                                    .try_fold(
-                                        TestStepExpectedOutput::default(),
-                                        TestStepExpectedOutput::with_value,
-                                    )?;
+                                let is_failure = returns
+                                    .iter()
+                                    .flat_map(|(_, returns)| returns.0.iter())
+                                    .any(|value| {
+                                        matches!(value, Value::Failure(..))
+                                    });
+
+                                let output = IOValues::try_from_values(
+                                    returns
+                                        .iter()
+                                        .flat_map(|(_, returns)| {
+                                            returns.0.iter()
+                                        })
+                                        .cloned(),
+                                )?;
+                                function.expected_output.output =
+                                    match is_failure {
+                                        true => {
+                                            TestStepExpectedOutput::Failure {
+                                                failure_reason: output,
+                                            }
+                                        }
+                                        false => {
+                                            TestStepExpectedOutput::Success {
+                                                output,
+                                            }
+                                        }
+                                    };
 
                                 steps.push(TestStep::FunctionCall(function));
                             }

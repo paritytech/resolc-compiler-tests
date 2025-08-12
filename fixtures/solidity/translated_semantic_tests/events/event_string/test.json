@@ -15,11 +15,7 @@
                 "topics": [
                   "3e9992c940c54ea252d3a34557cc3d3014281525c43d694f89d5f3dfd820b07d"
                 ],
-                "values": [
-                  "0x20",
-                  "0x0b",
-                  "0x48454c4c4f20574f524c44"
-                ]
+                "values": []
               }
             ],
             "exception": false

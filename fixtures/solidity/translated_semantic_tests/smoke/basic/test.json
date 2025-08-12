@@ -124,7 +124,7 @@
           "instance": "C",
           "method": "k()",
           "calldata": [
-            "0x4200efef"
+            "0x4200efef00000000000000000000000000000000000000000000000000000000"
           ],
           "expected": {
             "return_data": [

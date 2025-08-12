@@ -9,7 +9,7 @@
           "instance": "A",
           "method": "#fallback",
           "calldata": [
-            "0xd88e0b"
+            "0xd88e0b0000000000000000000000000000000000000000000000000000000000"
           ],
           "expected": {
             "exception": false
@@ -34,7 +34,7 @@
           "instance": "A",
           "method": "#fallback",
           "calldata": [
-            "0xd88e0b00"
+            "0xd88e0b0000000000000000000000000000000000000000000000000000000000"
           ],
           "expected": {
             "exception": false
@@ -59,7 +59,7 @@
           "instance": "A",
           "method": "#fallback",
           "calldata": [
-            "0xd88e"
+            "0xd88e000000000000000000000000000000000000000000000000000000000000"
           ],
           "expected": {
             "exception": false
@@ -84,7 +84,7 @@
           "instance": "A",
           "method": "#fallback",
           "calldata": [
-            "0xd88e0b00"
+            "0xd88e0b0000000000000000000000000000000000000000000000000000000000"
           ],
           "expected": {
             "exception": false
@@ -109,7 +109,7 @@
           "instance": "A",
           "method": "#fallback",
           "calldata": [
-            "0xd8"
+            "0xd800000000000000000000000000000000000000000000000000000000000000"
           ],
           "expected": {
             "exception": false

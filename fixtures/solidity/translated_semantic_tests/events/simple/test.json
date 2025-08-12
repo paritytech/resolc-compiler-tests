@@ -21,10 +21,7 @@
                 "topics": [
                   "85208890daa7be9cd9fdad8086c3160be23e8311b12b6ec707334c53be63a743"
                 ],
-                "values": [
-                  "0x01",
-                  "0x02"
-                ]
+                "values": []
               }
             ],
             "exception": false

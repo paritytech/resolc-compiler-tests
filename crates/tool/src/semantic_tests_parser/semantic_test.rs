@@ -296,7 +296,16 @@ define_wrapper_type! {
 
 impl Display for IOValue {
     fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
-        write!(f, "0x{}", self.0.encode_hex())
+        write!(
+            f,
+            "0x{}",
+            self.0
+                .iter()
+                .skip_while(|value| value == &&0)
+                .copied()
+                .collect::<Vec<_>>()
+                .encode_hex()
+        )
     }
 }
 

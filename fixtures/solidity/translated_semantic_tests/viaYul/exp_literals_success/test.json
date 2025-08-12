@@ -9,7 +9,7 @@
           "instance": "C",
           "method": "exp_2(uint256)",
           "calldata": [
-            "0x00000000000000000000000000000000000000000000000000000000000000ff"
+            "0xff"
           ],
           "expected": {
             "return_data": [
@@ -24,7 +24,7 @@
           "instance": "C",
           "method": "exp_minus_2(uint256)",
           "calldata": [
-            "0x00000000000000000000000000000000000000000000000000000000000000ff"
+            "0xff"
           ],
           "expected": {
             "return_data": [
@@ -39,7 +39,7 @@
           "instance": "C",
           "method": "exp_uint_max(uint256)",
           "calldata": [
-            "0x0000000000000000000000000000000000000000000000000000000000000001"
+            "0x01"
           ],
           "expected": {
             "return_data": [
@@ -54,7 +54,7 @@
           "instance": "C",
           "method": "exp_int_max(uint256)",
           "calldata": [
-            "0x0000000000000000000000000000000000000000000000000000000000000001"
+            "0x01"
           ],
           "expected": {
             "return_data": [
@@ -69,7 +69,7 @@
           "instance": "C",
           "method": "exp_5(uint256)",
           "calldata": [
-            "0x000000000000000000000000000000000000000000000000000000000000006e"
+            "0x6e"
           ],
           "expected": {
             "return_data": [
@@ -84,7 +84,7 @@
           "instance": "C",
           "method": "exp_minus_5(uint256)",
           "calldata": [
-            "0x000000000000000000000000000000000000000000000000000000000000006d"
+            "0x6d"
           ],
           "expected": {
             "return_data": [
@@ -99,7 +99,7 @@
           "instance": "C",
           "method": "exp_256(uint256)",
           "calldata": [
-            "0x000000000000000000000000000000000000000000000000000000000000001f"
+            "0x1f"
           ],
           "expected": {
             "return_data": [
@@ -114,7 +114,7 @@
           "instance": "C",
           "method": "exp_minus_256(uint256)",
           "calldata": [
-            "0x000000000000000000000000000000000000000000000000000000000000001f"
+            "0x1f"
           ],
           "expected": {
             "return_data": [

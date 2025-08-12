@@ -9,11 +9,11 @@
           "instance": "C",
           "method": "id(address)",
           "calldata": [
-            "0x0000000000000000000000000000000000000000000000000000000000000005"
+            "0x05"
           ],
           "expected": {
             "return_data": [
-              "0x0000000000000000000000000000000000000000000000000000000000000005"
+              "0x05"
             ],
             "exception": false
           }
@@ -24,11 +24,11 @@
           "instance": "C",
           "method": "id(address)",
           "calldata": [
-            "0x000000000000000000000000ffffffffffffffffffffffffffffffffffffffff"
+            "0xffffffffffffffffffffffffffffffffffffffff"
           ],
           "expected": {
             "return_data": [
-              "0x000000000000000000000000ffffffffffffffffffffffffffffffffffffffff"
+              "0xffffffffffffffffffffffffffffffffffffffff"
             ],
             "exception": false
           }
@@ -51,11 +51,11 @@
           "instance": "C",
           "method": "unwrap(address)",
           "calldata": [
-            "0x0000000000000000000000000000000000000000000000000000000000000005"
+            "0x05"
           ],
           "expected": {
             "return_data": [
-              "0x0000000000000000000000000000000000000000000000000000000000000005"
+              "0x05"
             ],
             "exception": false
           }
@@ -66,11 +66,11 @@
           "instance": "C",
           "method": "unwrap(address)",
           "calldata": [
-            "0x000000000000000000000000ffffffffffffffffffffffffffffffffffffffff"
+            "0xffffffffffffffffffffffffffffffffffffffff"
           ],
           "expected": {
             "return_data": [
-              "0x000000000000000000000000ffffffffffffffffffffffffffffffffffffffff"
+              "0xffffffffffffffffffffffffffffffffffffffff"
             ],
             "exception": false
           }
@@ -93,11 +93,11 @@
           "instance": "C",
           "method": "wrap(address)",
           "calldata": [
-            "0x0000000000000000000000000000000000000000000000000000000000000005"
+            "0x05"
           ],
           "expected": {
             "return_data": [
-              "0x0000000000000000000000000000000000000000000000000000000000000005"
+              "0x05"
             ],
             "exception": false
           }
@@ -108,11 +108,11 @@
           "instance": "C",
           "method": "wrap(address)",
           "calldata": [
-            "0x000000000000000000000000ffffffffffffffffffffffffffffffffffffffff"
+            "0xffffffffffffffffffffffffffffffffffffffff"
           ],
           "expected": {
             "return_data": [
-              "0x000000000000000000000000ffffffffffffffffffffffffffffffffffffffff"
+              "0xffffffffffffffffffffffffffffffffffffffff"
             ],
             "exception": false
           }
@@ -135,11 +135,11 @@
           "instance": "C",
           "method": "unwrap_assembly(address)",
           "calldata": [
-            "0x0000000000000000000000000000000000000000000000000000000000000005"
+            "0x05"
           ],
           "expected": {
             "return_data": [
-              "0x0000000000000000000000000000000000000000000000000000000000000005"
+              "0x05"
             ],
             "exception": false
           }
@@ -150,11 +150,11 @@
           "instance": "C",
           "method": "unwrap_assembly(address)",
           "calldata": [
-            "0x000000000000000000000000ffffffffffffffffffffffffffffffffffffffff"
+            "0xffffffffffffffffffffffffffffffffffffffff"
           ],
           "expected": {
             "return_data": [
-              "0x000000000000000000000000ffffffffffffffffffffffffffffffffffffffff"
+              "0xffffffffffffffffffffffffffffffffffffffff"
             ],
             "exception": false
           }
@@ -177,11 +177,11 @@
           "instance": "C",
           "method": "wrap_assembly(address)",
           "calldata": [
-            "0x0000000000000000000000000000000000000000000000000000000000000005"
+            "0x05"
           ],
           "expected": {
             "return_data": [
-              "0x0000000000000000000000000000000000000000000000000000000000000005"
+              "0x05"
             ],
             "exception": false
           }
@@ -192,11 +192,11 @@
           "instance": "C",
           "method": "wrap_assembly(address)",
           "calldata": [
-            "0x000000000000000000000000ffffffffffffffffffffffffffffffffffffffff"
+            "0xffffffffffffffffffffffffffffffffffffffff"
           ],
           "expected": {
             "return_data": [
-              "0x000000000000000000000000ffffffffffffffffffffffffffffffffffffffff"
+              "0xffffffffffffffffffffffffffffffffffffffff"
             ],
             "exception": false
           }

@@ -11,15 +11,15 @@
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x0000000000000000000000000000000000000000000000000000000000000020",
-              "0x0000000000000000000000000000000000000000000000000000000000000008",
+              "0x20",
+              "0x08",
               "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
               "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
-              "0x0000000000000000000000000000000000000000000000000000000000000008",
+              "0x08",
               "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff0",
               "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe",
-              "0x0000000000000000000000000000000000000000000000000000000000000006",
-              "0x0000000000000000000000000000000000000000000000000000000000000008",
+              "0x06",
+              "0x08",
               "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
             ],
             "exception": false

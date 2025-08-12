@@ -9,12 +9,12 @@
           "instance": "C",
           "method": "f(int256,int256)",
           "calldata": [
-            "0x0000000000000000000000000000000000000000000000000000000000000007",
-            "0x0000000000000000000000000000000000000000000000000000000000000005"
+            "0x07",
+            "0x05"
           ],
           "expected": {
             "return_data": [
-              "0x0000000000000000000000000000000000000000000000000000000000000002"
+              "0x02"
             ],
             "exception": false
           }
@@ -25,12 +25,12 @@
           "instance": "C",
           "method": "f(int256,int256)",
           "calldata": [
-            "0x0000000000000000000000000000000000000000000000000000000000000007",
+            "0x07",
             "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb"
           ],
           "expected": {
             "return_data": [
-              "0x0000000000000000000000000000000000000000000000000000000000000002"
+              "0x02"
             ],
             "exception": false
           }
@@ -42,7 +42,7 @@
           "method": "f(int256,int256)",
           "calldata": [
             "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff9",
-            "0x0000000000000000000000000000000000000000000000000000000000000005"
+            "0x05"
           ],
           "expected": {
             "return_data": [
@@ -58,7 +58,7 @@
           "method": "f(int256,int256)",
           "calldata": [
             "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff9",
-            "0x0000000000000000000000000000000000000000000000000000000000000005"
+            "0x05"
           ],
           "expected": {
             "return_data": [
@@ -78,7 +78,7 @@
           ],
           "expected": {
             "return_data": [
-              "0x0000000000000000000000000000000000000000000000000000000000000000"
+              "0x"
             ],
             "exception": false
           }
@@ -89,12 +89,12 @@
           "instance": "C",
           "method": "g(bool)",
           "calldata": [
-            "0x0000000000000000000000000000000000000000000000000000000000000001"
+            "0x01"
           ],
           "expected": {
             "return_data": [
-              "0x000000000000000000000000000000000000000000000000000000004e487b71",
-              "0x0000000000000000000000000000000000000000000000000000000000000011"
+              "0x4e487b71",
+              "0x11"
             ],
             "exception": true
           }
@@ -105,7 +105,7 @@
           "instance": "C",
           "method": "g(bool)",
           "calldata": [
-            "0x0000000000000000000000000000000000000000000000000000000000000000"
+            "0x"
           ],
           "expected": {
             "return_data": [

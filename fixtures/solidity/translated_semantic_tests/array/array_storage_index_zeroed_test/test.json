@@ -9,7 +9,7 @@
           "instance": "C",
           "method": "test_zeroed_indices(uint256)",
           "calldata": [
-            "0x0000000000000000000000000000000000000000000000000000000000000001"
+            "0x01"
           ],
           "expected": {
             "exception": false
@@ -21,7 +21,7 @@
           "instance": "C",
           "method": "test_zeroed_indices(uint256)",
           "calldata": [
-            "0x0000000000000000000000000000000000000000000000000000000000000005"
+            "0x05"
           ],
           "expected": {
             "exception": false
@@ -33,7 +33,7 @@
           "instance": "C",
           "method": "test_zeroed_indices(uint256)",
           "calldata": [
-            "0x000000000000000000000000000000000000000000000000000000000000000a"
+            "0x0a"
           ],
           "expected": {
             "exception": false
@@ -45,7 +45,7 @@
           "instance": "C",
           "method": "test_zeroed_indices(uint256)",
           "calldata": [
-            "0x000000000000000000000000000000000000000000000000000000000000000f"
+            "0x0f"
           ],
           "expected": {
             "exception": false
@@ -57,7 +57,7 @@
           "instance": "C",
           "method": "test_zeroed_indices(uint256)",
           "calldata": [
-            "0x00000000000000000000000000000000000000000000000000000000000000ff"
+            "0xff"
           ],
           "expected": {
             "exception": false

@@ -9,12 +9,12 @@
           "instance": "C",
           "method": "f(int256,uint256)",
           "calldata": [
-            "0x0000000000000000000000000000000000000000000000000000000000000001",
+            "0x01",
             "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
           ],
           "expected": {
             "return_data": [
-              "0x0000000000000000000000000000000000000000000000000000000000000000"
+              "0x"
             ],
             "exception": false
           }
@@ -25,12 +25,12 @@
           "instance": "C",
           "method": "g(int256,uint256)",
           "calldata": [
-            "0x0000000000000000000000000000000000000000000000000000000000000001",
+            "0x01",
             "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
           ],
           "expected": {
             "return_data": [
-              "0x0000000000000000000000000000000000000000000000000000000000000000"
+              "0x"
             ],
             "exception": false
           }

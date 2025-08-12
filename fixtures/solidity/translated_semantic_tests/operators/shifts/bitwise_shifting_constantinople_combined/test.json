@@ -9,11 +9,11 @@
           "instance": "C",
           "method": "shl_zero(uint256)",
           "calldata": [
-            "0x0000000000000000000000000000000000000000000000000000000000000000"
+            "0x"
           ],
           "expected": {
             "return_data": [
-              "0x0000000000000000000000000000000000000000000000000000000000000000"
+              "0x"
             ],
             "exception": false
           }
@@ -24,11 +24,11 @@
           "instance": "C",
           "method": "shl_zero(uint256)",
           "calldata": [
-            "0x000000000000000000000000000000000000000000000000000000000000ffff"
+            "0xffff"
           ],
           "expected": {
             "return_data": [
-              "0x000000000000000000000000000000000000000000000000000000000000ffff"
+              "0xffff"
             ],
             "exception": false
           }
@@ -54,11 +54,11 @@
           "instance": "C",
           "method": "shr_zero(uint256)",
           "calldata": [
-            "0x0000000000000000000000000000000000000000000000000000000000000000"
+            "0x"
           ],
           "expected": {
             "return_data": [
-              "0x0000000000000000000000000000000000000000000000000000000000000000"
+              "0x"
             ],
             "exception": false
           }
@@ -84,11 +84,11 @@
           "instance": "C",
           "method": "sar_zero(uint256)",
           "calldata": [
-            "0x0000000000000000000000000000000000000000000000000000000000000000"
+            "0x"
           ],
           "expected": {
             "return_data": [
-              "0x0000000000000000000000000000000000000000000000000000000000000000"
+              "0x"
             ],
             "exception": false
           }
@@ -114,11 +114,11 @@
           "instance": "C",
           "method": "shl_large(uint256)",
           "calldata": [
-            "0x0000000000000000000000000000000000000000000000000000000000000000"
+            "0x"
           ],
           "expected": {
             "return_data": [
-              "0x0000000000000000000000000000000000000000000000000000000000000000"
+              "0x"
             ],
             "exception": false
           }
@@ -129,11 +129,11 @@
           "instance": "C",
           "method": "shl_large(uint256)",
           "calldata": [
-            "0x000000000000000000000000000000000000000000000000000000000000ffff"
+            "0xffff"
           ],
           "expected": {
             "return_data": [
-              "0x0000000000000000000000000000000000000000000000000000000000000000"
+              "0x"
             ],
             "exception": false
           }
@@ -148,7 +148,7 @@
           ],
           "expected": {
             "return_data": [
-              "0x0000000000000000000000000000000000000000000000000000000000000000"
+              "0x"
             ],
             "exception": false
           }
@@ -159,11 +159,11 @@
           "instance": "C",
           "method": "shr_large(uint256)",
           "calldata": [
-            "0x0000000000000000000000000000000000000000000000000000000000000000"
+            "0x"
           ],
           "expected": {
             "return_data": [
-              "0x0000000000000000000000000000000000000000000000000000000000000000"
+              "0x"
             ],
             "exception": false
           }
@@ -178,7 +178,7 @@
           ],
           "expected": {
             "return_data": [
-              "0x0000000000000000000000000000000000000000000000000000000000000000"
+              "0x"
             ],
             "exception": false
           }
@@ -189,11 +189,11 @@
           "instance": "C",
           "method": "sar_large(uint256)",
           "calldata": [
-            "0x0000000000000000000000000000000000000000000000000000000000000000"
+            "0x"
           ],
           "expected": {
             "return_data": [
-              "0x0000000000000000000000000000000000000000000000000000000000000000"
+              "0x"
             ],
             "exception": false
           }
@@ -208,7 +208,7 @@
           ],
           "expected": {
             "return_data": [
-              "0x0000000000000000000000000000000000000000000000000000000000000000"
+              "0x"
             ],
             "exception": false
           }
@@ -234,11 +234,11 @@
           "instance": "C",
           "method": "shl_combined(uint256)",
           "calldata": [
-            "0x0000000000000000000000000000000000000000000000000000000000000000"
+            "0x"
           ],
           "expected": {
             "return_data": [
-              "0x0000000000000000000000000000000000000000000000000000000000000000"
+              "0x"
             ],
             "exception": false
           }
@@ -249,11 +249,11 @@
           "instance": "C",
           "method": "shl_combined(uint256)",
           "calldata": [
-            "0x000000000000000000000000000000000000000000000000000000000000ffff"
+            "0xffff"
           ],
           "expected": {
             "return_data": [
-              "0x00000000000000000000000000000000000000000000000000000000ffff0000"
+              "0xffff0000"
             ],
             "exception": false
           }
@@ -279,11 +279,11 @@
           "instance": "C",
           "method": "shr_combined(uint256)",
           "calldata": [
-            "0x0000000000000000000000000000000000000000000000000000000000000000"
+            "0x"
           ],
           "expected": {
             "return_data": [
-              "0x0000000000000000000000000000000000000000000000000000000000000000"
+              "0x"
             ],
             "exception": false
           }
@@ -298,7 +298,7 @@
           ],
           "expected": {
             "return_data": [
-              "0x0000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+              "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
             ],
             "exception": false
           }
@@ -309,11 +309,11 @@
           "instance": "C",
           "method": "sar_combined(uint256)",
           "calldata": [
-            "0x0000000000000000000000000000000000000000000000000000000000000000"
+            "0x"
           ],
           "expected": {
             "return_data": [
-              "0x0000000000000000000000000000000000000000000000000000000000000000"
+              "0x"
             ],
             "exception": false
           }
@@ -328,7 +328,7 @@
           ],
           "expected": {
             "return_data": [
-              "0x00007fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+              "0x7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
             ],
             "exception": false
           }
@@ -354,11 +354,11 @@
           "instance": "C",
           "method": "shl_combined_large(uint256)",
           "calldata": [
-            "0x0000000000000000000000000000000000000000000000000000000000000000"
+            "0x"
           ],
           "expected": {
             "return_data": [
-              "0x0000000000000000000000000000000000000000000000000000000000000000"
+              "0x"
             ],
             "exception": false
           }
@@ -369,11 +369,11 @@
           "instance": "C",
           "method": "shl_combined_large(uint256)",
           "calldata": [
-            "0x000000000000000000000000000000000000000000000000000000000000ffff"
+            "0xffff"
           ],
           "expected": {
             "return_data": [
-              "0x0000000000000000000000000000000000000000000000000000000000000000"
+              "0x"
             ],
             "exception": false
           }
@@ -388,7 +388,7 @@
           ],
           "expected": {
             "return_data": [
-              "0x0000000000000000000000000000000000000000000000000000000000000000"
+              "0x"
             ],
             "exception": false
           }
@@ -399,11 +399,11 @@
           "instance": "C",
           "method": "shl_combined_overflow(uint256)",
           "calldata": [
-            "0x0000000000000000000000000000000000000000000000000000000000000002"
+            "0x02"
           ],
           "expected": {
             "return_data": [
-              "0x0000000000000000000000000000000000000000000000000000000000000000"
+              "0x"
             ],
             "exception": false
           }
@@ -414,11 +414,11 @@
           "instance": "C",
           "method": "shr_combined_large(uint256)",
           "calldata": [
-            "0x0000000000000000000000000000000000000000000000000000000000000000"
+            "0x"
           ],
           "expected": {
             "return_data": [
-              "0x0000000000000000000000000000000000000000000000000000000000000000"
+              "0x"
             ],
             "exception": false
           }
@@ -433,7 +433,7 @@
           ],
           "expected": {
             "return_data": [
-              "0x0000000000000000000000000000000000000000000000000000000000000000"
+              "0x"
             ],
             "exception": false
           }
@@ -444,11 +444,11 @@
           "instance": "C",
           "method": "shr_combined_overflow(uint256)",
           "calldata": [
-            "0x0000000000000000000000000000000000000000000000000000000000000002"
+            "0x02"
           ],
           "expected": {
             "return_data": [
-              "0x0000000000000000000000000000000000000000000000000000000000000000"
+              "0x"
             ],
             "exception": false
           }
@@ -459,11 +459,11 @@
           "instance": "C",
           "method": "sar_combined_large(uint256)",
           "calldata": [
-            "0x0000000000000000000000000000000000000000000000000000000000000000"
+            "0x"
           ],
           "expected": {
             "return_data": [
-              "0x0000000000000000000000000000000000000000000000000000000000000000"
+              "0x"
             ],
             "exception": false
           }
@@ -478,7 +478,7 @@
           ],
           "expected": {
             "return_data": [
-              "0x0000000000000000000000000000000000000000000000000000000000000000"
+              "0x"
             ],
             "exception": false
           }

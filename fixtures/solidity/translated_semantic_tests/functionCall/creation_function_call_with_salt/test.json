@@ -9,7 +9,7 @@
           "instance": "D",
           "method": "#deployer",
           "calldata": [
-            "0x0000000000000000000000000000000000000000000000000000000000000002"
+            "0x02"
           ],
           "expected": {
             "exception": false
@@ -23,7 +23,7 @@
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x0000000000000000000000000000000000000000000000000000000000000002"
+              "0x02"
             ],
             "exception": false
           }

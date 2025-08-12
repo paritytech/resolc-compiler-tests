@@ -81,7 +81,7 @@ pub fn handle_semantic_tests_translation(
         for (source_path, source) in semantic_test.sources.into_iter() {
             let source_path = test_directory.join(
                 source_path
-                    .strip_prefix(root_directory)
+                    .strip_prefix(original_test_directory)
                     .unwrap_or_else(|_| &source_path),
             );
             write_to_file_create_all_dirs(

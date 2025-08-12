@@ -4,22 +4,22 @@
       "name": "bool_conversion_v1",
       "inputs": [
         {
-          "caller": "0x4BFd618F42bB85EF8D0fCCB64867668D2C320905",
+          "caller": "0x75BD57C68d7482697Ae08371bb94BD64f728C443",
           "comment": "f(bool): 0x0 -> 0x0",
           "instance": "C",
           "method": "f(bool)",
           "calldata": [
-            "0x"
+            "0x00"
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0x4BFd618F42bB85EF8D0fCCB64867668D2C320905",
+          "caller": "0x75BD57C68d7482697Ae08371bb94BD64f728C443",
           "comment": "f(bool): 0x1 -> 0x1",
           "instance": "C",
           "method": "f(bool)",
@@ -34,7 +34,7 @@
           }
         },
         {
-          "caller": "0x4BFd618F42bB85EF8D0fCCB64867668D2C320905",
+          "caller": "0x75BD57C68d7482697Ae08371bb94BD64f728C443",
           "comment": "f(bool): 0x2 -> 0x1",
           "instance": "C",
           "method": "f(bool)",
@@ -49,7 +49,7 @@
           }
         },
         {
-          "caller": "0x4BFd618F42bB85EF8D0fCCB64867668D2C320905",
+          "caller": "0x75BD57C68d7482697Ae08371bb94BD64f728C443",
           "comment": "f(bool): 0x3 -> 0x1",
           "instance": "C",
           "method": "f(bool)",
@@ -64,7 +64,7 @@
           }
         },
         {
-          "caller": "0x4BFd618F42bB85EF8D0fCCB64867668D2C320905",
+          "caller": "0x75BD57C68d7482697Ae08371bb94BD64f728C443",
           "comment": "f(bool): 0xff -> 0x1",
           "instance": "C",
           "method": "f(bool)",
@@ -79,22 +79,22 @@
           }
         },
         {
-          "caller": "0x4BFd618F42bB85EF8D0fCCB64867668D2C320905",
+          "caller": "0x75BD57C68d7482697Ae08371bb94BD64f728C443",
           "comment": "g(bool): 0x0 -> 0x0",
           "instance": "C",
           "method": "g(bool)",
           "calldata": [
-            "0x"
+            "0x00"
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0x4BFd618F42bB85EF8D0fCCB64867668D2C320905",
+          "caller": "0x75BD57C68d7482697Ae08371bb94BD64f728C443",
           "comment": "g(bool): 0x1 -> 0x1",
           "instance": "C",
           "method": "g(bool)",
@@ -109,7 +109,7 @@
           }
         },
         {
-          "caller": "0x4BFd618F42bB85EF8D0fCCB64867668D2C320905",
+          "caller": "0x75BD57C68d7482697Ae08371bb94BD64f728C443",
           "comment": "g(bool): 0x2 -> 0x1",
           "instance": "C",
           "method": "g(bool)",
@@ -124,7 +124,7 @@
           }
         },
         {
-          "caller": "0x4BFd618F42bB85EF8D0fCCB64867668D2C320905",
+          "caller": "0x75BD57C68d7482697Ae08371bb94BD64f728C443",
           "comment": "g(bool): 0x3 -> 0x1",
           "instance": "C",
           "method": "g(bool)",
@@ -139,7 +139,7 @@
           }
         },
         {
-          "caller": "0x4BFd618F42bB85EF8D0fCCB64867668D2C320905",
+          "caller": "0x75BD57C68d7482697Ae08371bb94BD64f728C443",
           "comment": "g(bool): 0xff -> 0x1",
           "instance": "C",
           "method": "g(bool)",

@@ -4,7 +4,7 @@
       "name": "array_function_pointers",
       "inputs": [
         {
-          "caller": "0xDfd72118dc0895b60159Ba49DB1d6d8b951DA2aB",
+          "caller": "0x0b5Ac632c26B48b83cB61E0a8aC068785AB8D917",
           "comment": "f(uint256,uint256): 1823621, 12323 -> FAILURE",
           "instance": "C",
           "method": "f(uint256,uint256)",
@@ -17,7 +17,7 @@
           }
         },
         {
-          "caller": "0xDfd72118dc0895b60159Ba49DB1d6d8b951DA2aB",
+          "caller": "0x0b5Ac632c26B48b83cB61E0a8aC068785AB8D917",
           "comment": "f2(uint256,uint256,uint256,uint256): 18723921, 1823621, 123, 12323 -> FAILURE",
           "instance": "C",
           "method": "f2(uint256,uint256,uint256,uint256)",
@@ -32,7 +32,7 @@
           }
         },
         {
-          "caller": "0xDfd72118dc0895b60159Ba49DB1d6d8b951DA2aB",
+          "caller": "0x0b5Ac632c26B48b83cB61E0a8aC068785AB8D917",
           "comment": "g(uint256,uint256): 1823621, 12323 -> FAILURE",
           "instance": "C",
           "method": "g(uint256,uint256)",
@@ -45,7 +45,7 @@
           }
         },
         {
-          "caller": "0xDfd72118dc0895b60159Ba49DB1d6d8b951DA2aB",
+          "caller": "0x0b5Ac632c26B48b83cB61E0a8aC068785AB8D917",
           "comment": "g2(uint256,uint256,uint256,uint256): 18723921, 1823621, 123, 12323 -> FAILURE",
           "instance": "C",
           "method": "g2(uint256,uint256,uint256,uint256)",

@@ -4,7 +4,7 @@
       "name": "mapping_arguments_in_library",
       "inputs": [
         {
-          "caller": "0xdEbb592532659c9F66c69145Ba2bc8b52e97730e",
+          "caller": "0x3A108c0FfFd2C90539A080C940794698f50eF9C3",
           "comment": "set(uint256,uint256): 1, 42 -> 0",
           "instance": "Test",
           "method": "set(uint256,uint256)",
@@ -14,13 +14,13 @@
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0xdEbb592532659c9F66c69145Ba2bc8b52e97730e",
+          "caller": "0x3A108c0FfFd2C90539A080C940794698f50eF9C3",
           "comment": "set(uint256,uint256): 2, 84 -> 0",
           "instance": "Test",
           "method": "set(uint256,uint256)",
@@ -30,13 +30,13 @@
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0xdEbb592532659c9F66c69145Ba2bc8b52e97730e",
+          "caller": "0x3A108c0FfFd2C90539A080C940794698f50eF9C3",
           "comment": "set(uint256,uint256): 21, 7 -> 0",
           "instance": "Test",
           "method": "set(uint256,uint256)",
@@ -46,28 +46,28 @@
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0xdEbb592532659c9F66c69145Ba2bc8b52e97730e",
+          "caller": "0x3A108c0FfFd2C90539A080C940794698f50eF9C3",
           "comment": "get(uint256): 0 -> 0",
           "instance": "Test",
           "method": "get(uint256)",
           "calldata": [
-            "0x"
+            "0x00"
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0xdEbb592532659c9F66c69145Ba2bc8b52e97730e",
+          "caller": "0x3A108c0FfFd2C90539A080C940794698f50eF9C3",
           "comment": "get(uint256): 1 -> 0x2a",
           "instance": "Test",
           "method": "get(uint256)",
@@ -82,7 +82,7 @@
           }
         },
         {
-          "caller": "0xdEbb592532659c9F66c69145Ba2bc8b52e97730e",
+          "caller": "0x3A108c0FfFd2C90539A080C940794698f50eF9C3",
           "comment": "get(uint256): 2 -> 0x54",
           "instance": "Test",
           "method": "get(uint256)",
@@ -97,7 +97,7 @@
           }
         },
         {
-          "caller": "0xdEbb592532659c9F66c69145Ba2bc8b52e97730e",
+          "caller": "0x3A108c0FfFd2C90539A080C940794698f50eF9C3",
           "comment": "get(uint256): 21 -> 7",
           "instance": "Test",
           "method": "get(uint256)",
@@ -112,7 +112,7 @@
           }
         },
         {
-          "caller": "0xdEbb592532659c9F66c69145Ba2bc8b52e97730e",
+          "caller": "0x3A108c0FfFd2C90539A080C940794698f50eF9C3",
           "comment": "set(uint256,uint256): 1, 21 -> 0x2a",
           "instance": "Test",
           "method": "set(uint256,uint256)",
@@ -128,7 +128,7 @@
           }
         },
         {
-          "caller": "0xdEbb592532659c9F66c69145Ba2bc8b52e97730e",
+          "caller": "0x3A108c0FfFd2C90539A080C940794698f50eF9C3",
           "comment": "set(uint256,uint256): 2, 42 -> 0x54",
           "instance": "Test",
           "method": "set(uint256,uint256)",
@@ -144,7 +144,7 @@
           }
         },
         {
-          "caller": "0xdEbb592532659c9F66c69145Ba2bc8b52e97730e",
+          "caller": "0x3A108c0FfFd2C90539A080C940794698f50eF9C3",
           "comment": "set(uint256,uint256): 21, 14 -> 7",
           "instance": "Test",
           "method": "set(uint256,uint256)",
@@ -160,22 +160,22 @@
           }
         },
         {
-          "caller": "0xdEbb592532659c9F66c69145Ba2bc8b52e97730e",
+          "caller": "0x3A108c0FfFd2C90539A080C940794698f50eF9C3",
           "comment": "get(uint256): 0 -> 0",
           "instance": "Test",
           "method": "get(uint256)",
           "calldata": [
-            "0x"
+            "0x00"
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0xdEbb592532659c9F66c69145Ba2bc8b52e97730e",
+          "caller": "0x3A108c0FfFd2C90539A080C940794698f50eF9C3",
           "comment": "get(uint256): 1 -> 0x15",
           "instance": "Test",
           "method": "get(uint256)",
@@ -190,7 +190,7 @@
           }
         },
         {
-          "caller": "0xdEbb592532659c9F66c69145Ba2bc8b52e97730e",
+          "caller": "0x3A108c0FfFd2C90539A080C940794698f50eF9C3",
           "comment": "get(uint256): 2 -> 0x2a",
           "instance": "Test",
           "method": "get(uint256)",
@@ -205,7 +205,7 @@
           }
         },
         {
-          "caller": "0xdEbb592532659c9F66c69145Ba2bc8b52e97730e",
+          "caller": "0x3A108c0FfFd2C90539A080C940794698f50eF9C3",
           "comment": "get(uint256): 21 -> 14",
           "instance": "Test",
           "method": "get(uint256)",

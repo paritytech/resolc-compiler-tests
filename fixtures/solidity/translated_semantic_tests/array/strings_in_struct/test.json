@@ -4,7 +4,7 @@
       "name": "strings_in_struct",
       "inputs": [
         {
-          "caller": "0x83a38708BB18d79DA730741aeEf3c4548c0AdBb1",
+          "caller": "0xD60349c24dB7F1053086eF0D6364b64B1e0313f0",
           "comment": "getFirst() -> 0x0a",
           "instance": "buggystruct",
           "method": "getFirst()",
@@ -17,7 +17,7 @@
           }
         },
         {
-          "caller": "0x83a38708BB18d79DA730741aeEf3c4548c0AdBb1",
+          "caller": "0xD60349c24dB7F1053086eF0D6364b64B1e0313f0",
           "comment": "getSecond() -> 0x14",
           "instance": "buggystruct",
           "method": "getSecond()",
@@ -30,7 +30,7 @@
           }
         },
         {
-          "caller": "0x83a38708BB18d79DA730741aeEf3c4548c0AdBb1",
+          "caller": "0xD60349c24dB7F1053086eF0D6364b64B1e0313f0",
           "comment": "getThird() -> 0x1e",
           "instance": "buggystruct",
           "method": "getThird()",
@@ -43,7 +43,7 @@
           }
         },
         {
-          "caller": "0x83a38708BB18d79DA730741aeEf3c4548c0AdBb1",
+          "caller": "0xD60349c24dB7F1053086eF0D6364b64B1e0313f0",
           "comment": "getLast() -> 0x20, 0x09, \"asdfghjkl\"",
           "instance": "buggystruct",
           "method": "getLast()",

@@ -4,36 +4,36 @@
       "name": "enum_with_256_members",
       "inputs": [
         {
-          "caller": "0x60E1ad3B2604d255B68b42c653ac1F3AB566bE46",
+          "caller": "0x4060fB7bA353f413678Be88fc55099Cc499400b5",
           "comment": "getMinMax() -> 0, 255",
           "instance": "C",
           "method": "getMinMax()",
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x",
+              "0x00",
               "0xff"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0x60E1ad3B2604d255B68b42c653ac1F3AB566bE46",
+          "caller": "0x4060fB7bA353f413678Be88fc55099Cc499400b5",
           "comment": "intToEnum(uint8): 0 -> 0",
           "instance": "C",
           "method": "intToEnum(uint8)",
           "calldata": [
-            "0x"
+            "0x00"
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0x60E1ad3B2604d255B68b42c653ac1F3AB566bE46",
+          "caller": "0x4060fB7bA353f413678Be88fc55099Cc499400b5",
           "comment": "intToEnum(uint8): 255 -> 255",
           "instance": "C",
           "method": "intToEnum(uint8)",
@@ -48,22 +48,22 @@
           }
         },
         {
-          "caller": "0x60E1ad3B2604d255B68b42c653ac1F3AB566bE46",
+          "caller": "0x4060fB7bA353f413678Be88fc55099Cc499400b5",
           "comment": "enumToInt(uint8): 0 -> 0",
           "instance": "C",
           "method": "enumToInt(uint8)",
           "calldata": [
-            "0x"
+            "0x00"
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0x60E1ad3B2604d255B68b42c653ac1F3AB566bE46",
+          "caller": "0x4060fB7bA353f413678Be88fc55099Cc499400b5",
           "comment": "enumToInt(uint8): 255 -> 255",
           "instance": "C",
           "method": "enumToInt(uint8)",
@@ -78,7 +78,7 @@
           }
         },
         {
-          "caller": "0x60E1ad3B2604d255B68b42c653ac1F3AB566bE46",
+          "caller": "0x4060fB7bA353f413678Be88fc55099Cc499400b5",
           "comment": "enumToInt(uint8): 256 -> FAILURE",
           "instance": "C",
           "method": "enumToInt(uint8)",
@@ -90,24 +90,24 @@
           }
         },
         {
-          "caller": "0x60E1ad3B2604d255B68b42c653ac1F3AB566bE46",
+          "caller": "0x4060fB7bA353f413678Be88fc55099Cc499400b5",
           "comment": "decodeEnum(bytes): 0x20, 32, 0 -> 0",
           "instance": "C",
           "method": "decodeEnum(bytes)",
           "calldata": [
             "0x20",
             "0x20",
-            "0x"
+            "0x00"
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0x60E1ad3B2604d255B68b42c653ac1F3AB566bE46",
+          "caller": "0x4060fB7bA353f413678Be88fc55099Cc499400b5",
           "comment": "decodeEnum(bytes): 0x20, 32, 255 -> 255",
           "instance": "C",
           "method": "decodeEnum(bytes)",
@@ -124,7 +124,7 @@
           }
         },
         {
-          "caller": "0x60E1ad3B2604d255B68b42c653ac1F3AB566bE46",
+          "caller": "0x4060fB7bA353f413678Be88fc55099Cc499400b5",
           "comment": "decodeEnum(bytes): 0x20, 32, 256 -> FAILURE",
           "instance": "C",
           "method": "decodeEnum(bytes)",

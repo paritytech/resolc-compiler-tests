@@ -4,7 +4,7 @@
       "name": "array_3d_assignment",
       "inputs": [
         {
-          "caller": "0x879817F248E9fBf75360aBa6F9dE6B51833DdF61",
+          "caller": "0xaB426c93A3Def9362e8b28F9193249a631E2e4D5",
           "comment": "f(uint256): 42 -> 42",
           "instance": "C",
           "method": "f(uint256)",

@@ -289,7 +289,7 @@
           "instance": "C",
           "method": "predecr_u8(uint8)",
           "calldata": [
-            "0x"
+            "0x00"
           ],
           "expected": {
             "return_data": [
@@ -305,7 +305,7 @@
           "instance": "C",
           "method": "postdecr_u8(uint8)",
           "calldata": [
-            "0x"
+            "0x00"
           ],
           "expected": {
             "return_data": [
@@ -325,7 +325,7 @@
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
@@ -475,7 +475,7 @@
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
@@ -486,7 +486,7 @@
           "instance": "C",
           "method": "not(bool)",
           "calldata": [
-            "0x"
+            "0x00"
           ],
           "expected": {
             "return_data": [
@@ -531,7 +531,7 @@
           "instance": "C",
           "method": "bitnot(int256)",
           "calldata": [
-            "0x"
+            "0x00"
           ],
           "expected": {
             "return_data": [
@@ -620,11 +620,11 @@
           "instance": "C",
           "method": "negate(int256)",
           "calldata": [
-            "0x"
+            "0x00"
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }

@@ -13,13 +13,13 @@
             "0x80",
             "0x40",
             "0x60",
-            "0x",
-            "0x"
+            "0x00",
+            "0x00"
           ],
           "expected": {
             "return_data": [
-              "0x",
-              "0x"
+              "0x00",
+              "0x00"
             ],
             "exception": false
           }
@@ -41,8 +41,8 @@
           ],
           "expected": {
             "return_data": [
-              "0x",
-              "0x"
+              "0x00",
+              "0x00"
             ],
             "exception": false
           }
@@ -62,8 +62,8 @@
           ],
           "expected": {
             "return_data": [
-              "0x",
-              "0x"
+              "0x00",
+              "0x00"
             ],
             "exception": false
           }
@@ -78,12 +78,12 @@
             "0x60",
             "0x40",
             "0x40",
-            "0x"
+            "0x00"
           ],
           "expected": {
             "return_data": [
-              "0x",
-              "0x"
+              "0x00",
+              "0x00"
             ],
             "exception": false
           }
@@ -103,8 +103,8 @@
           ],
           "expected": {
             "return_data": [
-              "0x",
-              "0x"
+              "0x00",
+              "0x00"
             ],
             "exception": false
           }

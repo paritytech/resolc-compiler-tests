@@ -4,20 +4,20 @@
       "name": "transient_state_variable_udvt",
       "inputs": [
         {
-          "caller": "0x560697e82e48323b827F26862be60C5b19c1d2CF",
+          "caller": "0xA75B698C5A0Bd2F73f3BEf68b9Fd6e80D1D5329f",
           "comment": "x() -> 0",
           "instance": "C",
           "method": "x()",
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0x560697e82e48323b827F26862be60C5b19c1d2CF",
+          "caller": "0xA75B698C5A0Bd2F73f3BEf68b9Fd6e80D1D5329f",
           "comment": "g() -> 2",
           "instance": "C",
           "method": "g()",
@@ -30,14 +30,14 @@
           }
         },
         {
-          "caller": "0x560697e82e48323b827F26862be60C5b19c1d2CF",
+          "caller": "0xA75B698C5A0Bd2F73f3BEf68b9Fd6e80D1D5329f",
           "comment": "h() -> 0",
           "instance": "C",
           "method": "h()",
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }

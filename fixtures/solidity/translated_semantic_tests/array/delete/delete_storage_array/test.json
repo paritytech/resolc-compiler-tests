@@ -4,27 +4,27 @@
       "name": "delete_storage_array",
       "inputs": [
         {
-          "caller": "0x0c575B9fF5795667a48A403628129908Ae131363",
+          "caller": "0x0f17CcAb520BcF1c9Bd0688117de56e950E67f37",
           "comment": "len() -> 0",
           "instance": "C",
           "method": "len()",
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0x0c575B9fF5795667a48A403628129908Ae131363",
+          "caller": "0x0f17CcAb520BcF1c9Bd0688117de56e950E67f37",
           "comment": "val() -> 0",
           "instance": "C",
           "method": "val()",
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }

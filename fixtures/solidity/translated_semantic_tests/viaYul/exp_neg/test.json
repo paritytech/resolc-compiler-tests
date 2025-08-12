@@ -9,8 +9,8 @@
           "instance": "C",
           "method": "f(int256,uint256)",
           "calldata": [
-            "0x",
-            "0x"
+            "0x00",
+            "0x00"
           ],
           "expected": {
             "return_data": [
@@ -25,12 +25,12 @@
           "instance": "C",
           "method": "f(int256,uint256)",
           "calldata": [
-            "0x",
+            "0x00",
             "0x01"
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
@@ -41,12 +41,12 @@
           "instance": "C",
           "method": "f(int256,uint256)",
           "calldata": [
-            "0x",
+            "0x00",
             "0x02"
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
@@ -58,7 +58,7 @@
           "method": "f(int256,uint256)",
           "calldata": [
             "0x01",
-            "0x"
+            "0x00"
           ],
           "expected": {
             "return_data": [
@@ -106,7 +106,7 @@
           "method": "f(int256,uint256)",
           "calldata": [
             "0x02",
-            "0x"
+            "0x00"
           ],
           "expected": {
             "return_data": [
@@ -186,7 +186,7 @@
           "method": "f(int256,uint256)",
           "calldata": [
             "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
-            "0x"
+            "0x00"
           ],
           "expected": {
             "return_data": [
@@ -234,7 +234,7 @@
           "method": "f(int256,uint256)",
           "calldata": [
             "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe",
-            "0x"
+            "0x00"
           ],
           "expected": {
             "return_data": [

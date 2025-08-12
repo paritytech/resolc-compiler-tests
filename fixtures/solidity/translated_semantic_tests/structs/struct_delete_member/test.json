@@ -4,14 +4,14 @@
       "name": "struct_delete_member",
       "inputs": [
         {
-          "caller": "0x84d9ad19EbDA7F9aDc06C42963FbE8Fd50778382",
+          "caller": "0xaa7625e14fC367C8Cbc2BaDAB9935e477164520f",
           "comment": "deleteMember() -> 0",
           "instance": "test",
           "method": "deleteMember()",
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }

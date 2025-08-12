@@ -4,7 +4,7 @@
       "name": "simple_struct",
       "inputs": [
         {
-          "caller": "0x6ae34Ce38B5491A4b2Ec31Fcd9Ff69ba4bBA0e45",
+          "caller": "0x114dcb7923ab4f5C9Edf849219b6fF98b8E65396",
           "comment": "f(uint256,bytes32): 1, left(0x01) -> 0x20, 0x44, hex\"b63240b0\", 1, left(0x01), hex\"00000000000000000000000000000000000000000000000000000000\"",
           "instance": "C",
           "method": "f(uint256,bytes32)",
@@ -18,13 +18,13 @@
               "0x44",
               "0xb63240b000000000000000000000000000000000000000000000000000000000",
               "0x0101000000000000000000000000000000000000000000000000000000",
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0x6ae34Ce38B5491A4b2Ec31Fcd9Ff69ba4bBA0e45",
+          "caller": "0x114dcb7923ab4f5C9Edf849219b6fF98b8E65396",
           "comment": "gg((uint8,bytes1)): 1, left(0x01) -> 0x20, 0x44, hex\"b63240b0\", 1, left(0x01), hex\"00000000000000000000000000000000000000000000000000000000\"",
           "instance": "C",
           "method": "gg((uint8,bytes1))",
@@ -38,13 +38,13 @@
               "0x44",
               "0xb63240b000000000000000000000000000000000000000000000000000000000",
               "0x0101000000000000000000000000000000000000000000000000000000",
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0x6ae34Ce38B5491A4b2Ec31Fcd9Ff69ba4bBA0e45",
+          "caller": "0x114dcb7923ab4f5C9Edf849219b6fF98b8E65396",
           "comment": "f(uint256,bytes32): 0x0101, left(0x0101) -> 0x20, 0x44, hex\"b63240b0\", 1, left(0x01), hex\"00000000000000000000000000000000000000000000000000000000\"",
           "instance": "C",
           "method": "f(uint256,bytes32)",
@@ -58,13 +58,13 @@
               "0x44",
               "0xb63240b000000000000000000000000000000000000000000000000000000000",
               "0x0101000000000000000000000000000000000000000000000000000000",
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0x6ae34Ce38B5491A4b2Ec31Fcd9Ff69ba4bBA0e45",
+          "caller": "0x114dcb7923ab4f5C9Edf849219b6fF98b8E65396",
           "comment": "gg((uint8,bytes1)): 0x0101, left(0x0101) -> FAILURE",
           "instance": "C",
           "method": "gg((uint8,bytes1))",

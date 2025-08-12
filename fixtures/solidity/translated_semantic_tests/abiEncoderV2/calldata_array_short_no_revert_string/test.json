@@ -4,20 +4,20 @@
       "name": "calldata_array_short_no_revert_string",
       "inputs": [
         {
-          "caller": "0xeEb8154387A84832010eA0C108AF51D8Ea52FD29",
+          "caller": "0xB2d359bc3CD5a761b6B615A307F4c48055a88916",
           "comment": "f(uint256[]): 0x20, 0 ->",
           "instance": "C",
           "method": "f(uint256[])",
           "calldata": [
             "0x20",
-            "0x"
+            "0x00"
           ],
           "expected": {
             "exception": false
           }
         },
         {
-          "caller": "0xeEb8154387A84832010eA0C108AF51D8Ea52FD29",
+          "caller": "0xB2d359bc3CD5a761b6B615A307F4c48055a88916",
           "comment": "f(uint256[]): 0x20, 1 -> FAILURE",
           "instance": "C",
           "method": "f(uint256[])",
@@ -30,7 +30,7 @@
           }
         },
         {
-          "caller": "0xeEb8154387A84832010eA0C108AF51D8Ea52FD29",
+          "caller": "0xB2d359bc3CD5a761b6B615A307F4c48055a88916",
           "comment": "f(uint256[]): 0x20, 2 -> FAILURE",
           "instance": "C",
           "method": "f(uint256[])",

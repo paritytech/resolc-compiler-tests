@@ -4,7 +4,7 @@
       "name": "account",
       "inputs": [
         {
-          "caller": "0xeA5A8b7c8AE6F6AcEe81D5E8dA5CB242E47BE65f",
+          "caller": "0x5D508031B360129DF797e01A2D3D4332289b4d01",
           "comment": "constructor()",
           "instance": "AccountBuiltinTest",
           "method": "#deployer",
@@ -14,42 +14,23 @@
           }
         },
         {
-          "caller": "0xeA5A8b7c8AE6F6AcEe81D5E8dA5CB242E47BE65f",
-          "comment": "who_am_i() -> 0xeA5A8b7c8AE6F6AcEe81D5E8dA5CB242E47BE65f",
+          "caller": "0x5D508031B360129DF797e01A2D3D4332289b4d01",
+          "comment": "who_am_i() -> 0x5D508031B360129DF797e01A2D3D4332289b4d01",
           "instance": "AccountBuiltinTest",
           "method": "who_am_i()",
           "calldata": [],
           "expected": {
             "return_data": [
-              "0xeA5A8b7c8AE6F6AcEe81D5E8dA5CB242E47BE65f"
+              "0x5D508031B360129DF797e01A2D3D4332289b4d01"
             ],
             "exception": false
           }
         },
         {
-          "comment": "balance: 0xeA5A8b7c8AE6F6AcEe81D5E8dA5CB242E47BE65f -> 1267650600228229401496703205376",
-          "address": "0xeA5A8b7c8AE6F6AcEe81D5E8dA5CB242E47BE65f",
+          "comment": "balance: 0x5D508031B360129DF797e01A2D3D4332289b4d01 -> 1267650600228229401496703205376",
+          "address": "0x5D508031B360129DF797e01A2D3D4332289b4d01",
           "expected_balance": "0x10000000000000000000000000",
-          "caller": "0x5D508031B360129DF797e01A2D3D4332289b4d01"
-        },
-        {
-          "caller": "0xd9F702A4A8B339Af4bbCb948Ca7C6C7035A0737a",
-          "comment": "who_am_i() -> 0xd9F702A4A8B339Af4bbCb948Ca7C6C7035A0737a",
-          "instance": "AccountBuiltinTest",
-          "method": "who_am_i()",
-          "calldata": [],
-          "expected": {
-            "return_data": [
-              "0xd9F702A4A8B339Af4bbCb948Ca7C6C7035A0737a"
-            ],
-            "exception": false
-          }
-        },
-        {
-          "comment": "balance: 0xd9F702A4A8B339Af4bbCb948Ca7C6C7035A0737a -> 1267650600228229401496703205376",
-          "address": "0xd9F702A4A8B339Af4bbCb948Ca7C6C7035A0737a",
-          "expected_balance": "0x10000000000000000000000000",
-          "caller": "0x5D508031B360129DF797e01A2D3D4332289b4d01"
+          "caller": "0xd9F702A4A8B339Af4bbCb948Ca7C6C7035A0737a"
         },
         {
           "caller": "0x72519C1D8F3B9c11d536cEcBF57f23E5ae7F087c",
@@ -68,7 +49,7 @@
           "comment": "balance: 0x72519C1D8F3B9c11d536cEcBF57f23E5ae7F087c -> 1267650600228229401496703205376",
           "address": "0x72519C1D8F3B9c11d536cEcBF57f23E5ae7F087c",
           "expected_balance": "0x10000000000000000000000000",
-          "caller": "0x5D508031B360129DF797e01A2D3D4332289b4d01"
+          "caller": "0xd9F702A4A8B339Af4bbCb948Ca7C6C7035A0737a"
         },
         {
           "caller": "0x71643160cb2e89EfC62a52bB42987a2195AD0289",
@@ -87,7 +68,7 @@
           "comment": "balance: 0x71643160cb2e89EfC62a52bB42987a2195AD0289 -> 1267650600228229401496703205376",
           "address": "0x71643160cb2e89EfC62a52bB42987a2195AD0289",
           "expected_balance": "0x10000000000000000000000000",
-          "caller": "0x5D508031B360129DF797e01A2D3D4332289b4d01"
+          "caller": "0xd9F702A4A8B339Af4bbCb948Ca7C6C7035A0737a"
         },
         {
           "caller": "0xa108fC69944021455777655F9aDbcF795c907ECa",
@@ -106,7 +87,7 @@
           "comment": "balance: 0xa108fC69944021455777655F9aDbcF795c907ECa -> 1267650600228229401496703205376",
           "address": "0xa108fC69944021455777655F9aDbcF795c907ECa",
           "expected_balance": "0x10000000000000000000000000",
-          "caller": "0x5D508031B360129DF797e01A2D3D4332289b4d01"
+          "caller": "0xd9F702A4A8B339Af4bbCb948Ca7C6C7035A0737a"
         },
         {
           "caller": "0x7Ca6bA734232961c233DcE9923996655d6Da97E8",
@@ -125,7 +106,7 @@
           "comment": "balance: 0x7Ca6bA734232961c233DcE9923996655d6Da97E8 -> 1267650600228229401496703205376",
           "address": "0x7Ca6bA734232961c233DcE9923996655d6Da97E8",
           "expected_balance": "0x10000000000000000000000000",
-          "caller": "0x5D508031B360129DF797e01A2D3D4332289b4d01"
+          "caller": "0xd9F702A4A8B339Af4bbCb948Ca7C6C7035A0737a"
         },
         {
           "caller": "0x56918185312b4679AB157b406F04F8F7C4031611",
@@ -144,7 +125,7 @@
           "comment": "balance: 0x56918185312b4679AB157b406F04F8F7C4031611 -> 1267650600228229401496703205376",
           "address": "0x56918185312b4679AB157b406F04F8F7C4031611",
           "expected_balance": "0x10000000000000000000000000",
-          "caller": "0x5D508031B360129DF797e01A2D3D4332289b4d01"
+          "caller": "0xd9F702A4A8B339Af4bbCb948Ca7C6C7035A0737a"
         },
         {
           "caller": "0x1200939B5cB57f2785608a0921A132A35Ea21090",
@@ -163,7 +144,7 @@
           "comment": "balance: 0x1200939B5cB57f2785608a0921A132A35Ea21090 -> 1267650600228229401496703205376",
           "address": "0x1200939B5cB57f2785608a0921A132A35Ea21090",
           "expected_balance": "0x10000000000000000000000000",
-          "caller": "0x5D508031B360129DF797e01A2D3D4332289b4d01"
+          "caller": "0xd9F702A4A8B339Af4bbCb948Ca7C6C7035A0737a"
         },
         {
           "caller": "0x3C4EFC32B4333865D9112799f577CF9132Ee7cF9",
@@ -182,7 +163,7 @@
           "comment": "balance: 0x3C4EFC32B4333865D9112799f577CF9132Ee7cF9 -> 1267650600228229401496703205376",
           "address": "0x3C4EFC32B4333865D9112799f577CF9132Ee7cF9",
           "expected_balance": "0x10000000000000000000000000",
-          "caller": "0x5D508031B360129DF797e01A2D3D4332289b4d01"
+          "caller": "0xd9F702A4A8B339Af4bbCb948Ca7C6C7035A0737a"
         },
         {
           "caller": "0x47824A18A1FcDC6ef2e0B6d724BACF6Cd83aBC04",
@@ -201,7 +182,7 @@
           "comment": "balance: 0x47824A18A1FcDC6ef2e0B6d724BACF6Cd83aBC04 -> 1267650600228229401496703205376",
           "address": "0x47824A18A1FcDC6ef2e0B6d724BACF6Cd83aBC04",
           "expected_balance": "0x10000000000000000000000000",
-          "caller": "0x5D508031B360129DF797e01A2D3D4332289b4d01"
+          "caller": "0xd9F702A4A8B339Af4bbCb948Ca7C6C7035A0737a"
         },
         {
           "caller": "0x5AD866092FFA234aAf7DdA834DD6Ca69Eb2Eefc9",
@@ -217,10 +198,10 @@
           }
         },
         {
-          "comment": "balance: 0x5AD866092FFA234aAf7DdA834DD6Ca69Eb2Eefc9 -> 0",
+          "comment": "balance: 0x5AD866092FFA234aAf7DdA834DD6Ca69Eb2Eefc9 -> 1267650600228229401496703205376",
           "address": "0x5AD866092FFA234aAf7DdA834DD6Ca69Eb2Eefc9",
-          "expected_balance": "0x0",
-          "caller": "0x5D508031B360129DF797e01A2D3D4332289b4d01"
+          "expected_balance": "0x10000000000000000000000000",
+          "caller": "0xd9F702A4A8B339Af4bbCb948Ca7C6C7035A0737a"
         },
         {
           "caller": "0x7Ec79CEFA2b38Fe4F7A7f8Cdc7Ba9c24941d3F2A",
@@ -239,7 +220,7 @@
           "comment": "balance: 0x7Ec79CEFA2b38Fe4F7A7f8Cdc7Ba9c24941d3F2A -> 0",
           "address": "0x7Ec79CEFA2b38Fe4F7A7f8Cdc7Ba9c24941d3F2A",
           "expected_balance": "0x0",
-          "caller": "0x5D508031B360129DF797e01A2D3D4332289b4d01"
+          "caller": "0xd9F702A4A8B339Af4bbCb948Ca7C6C7035A0737a"
         },
         {
           "caller": "0x386033da2D1c227A479732a67095249f054dce1d",
@@ -258,7 +239,26 @@
           "comment": "balance: 0x386033da2D1c227A479732a67095249f054dce1d -> 0",
           "address": "0x386033da2D1c227A479732a67095249f054dce1d",
           "expected_balance": "0x0",
-          "caller": "0x5D508031B360129DF797e01A2D3D4332289b4d01"
+          "caller": "0xd9F702A4A8B339Af4bbCb948Ca7C6C7035A0737a"
+        },
+        {
+          "caller": "0x06a3DC9F7A60D0c4E9eb1989F266679d03320d3d",
+          "comment": "who_am_i() -> 0x06a3DC9F7A60D0c4E9eb1989F266679d03320d3d",
+          "instance": "AccountBuiltinTest",
+          "method": "who_am_i()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x06a3DC9F7A60D0c4E9eb1989F266679d03320d3d"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "comment": "balance: 0x06a3DC9F7A60D0c4E9eb1989F266679d03320d3d -> 0",
+          "address": "0x06a3DC9F7A60D0c4E9eb1989F266679d03320d3d",
+          "expected_balance": "0x0",
+          "caller": "0xd9F702A4A8B339Af4bbCb948Ca7C6C7035A0737a"
         }
       ]
     }

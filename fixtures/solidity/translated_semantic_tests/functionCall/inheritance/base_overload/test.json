@@ -4,33 +4,33 @@
       "name": "base_overload",
       "inputs": [
         {
-          "caller": "0x9510BB587234430871d9246C98Ece4a13Fb9116d",
+          "caller": "0x1804441f896dE428ECF5D0ED1A015730b8ce12ca",
           "comment": "x() -> 0",
           "instance": "Child",
           "method": "x()",
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0x9510BB587234430871d9246C98Ece4a13Fb9116d",
+          "caller": "0x1804441f896dE428ECF5D0ED1A015730b8ce12ca",
           "comment": "y() -> 0",
           "instance": "Child",
           "method": "y()",
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0x9510BB587234430871d9246C98Ece4a13Fb9116d",
+          "caller": "0x1804441f896dE428ECF5D0ED1A015730b8ce12ca",
           "comment": "cInit(uint256): 2 ->",
           "instance": "Child",
           "method": "cInit(uint256)",
@@ -42,7 +42,7 @@
           }
         },
         {
-          "caller": "0x9510BB587234430871d9246C98Ece4a13Fb9116d",
+          "caller": "0x1804441f896dE428ECF5D0ED1A015730b8ce12ca",
           "comment": "x() -> 2",
           "instance": "Child",
           "method": "x()",
@@ -55,20 +55,20 @@
           }
         },
         {
-          "caller": "0x9510BB587234430871d9246C98Ece4a13Fb9116d",
+          "caller": "0x1804441f896dE428ECF5D0ED1A015730b8ce12ca",
           "comment": "y() -> 0",
           "instance": "Child",
           "method": "y()",
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0x9510BB587234430871d9246C98Ece4a13Fb9116d",
+          "caller": "0x1804441f896dE428ECF5D0ED1A015730b8ce12ca",
           "comment": "cInit(uint256,uint256): 3, 3 ->",
           "instance": "Child",
           "method": "cInit(uint256,uint256)",
@@ -81,7 +81,7 @@
           }
         },
         {
-          "caller": "0x9510BB587234430871d9246C98Ece4a13Fb9116d",
+          "caller": "0x1804441f896dE428ECF5D0ED1A015730b8ce12ca",
           "comment": "x() -> 3",
           "instance": "Child",
           "method": "x()",
@@ -94,7 +94,7 @@
           }
         },
         {
-          "caller": "0x9510BB587234430871d9246C98Ece4a13Fb9116d",
+          "caller": "0x1804441f896dE428ECF5D0ED1A015730b8ce12ca",
           "comment": "y() -> 3",
           "instance": "Child",
           "method": "y()",

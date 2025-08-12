@@ -12,7 +12,7 @@
           "expected": {
             "return_data": [
               "0x20",
-              "0x"
+              "0x00"
             ],
             "exception": false
           }

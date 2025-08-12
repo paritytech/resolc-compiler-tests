@@ -4,24 +4,24 @@
       "name": "inline_assembly_for2",
       "inputs": [
         {
-          "caller": "0xB3Ef70F39C555CE0BF9f3382b8b90B3d860Ce095",
+          "caller": "0xcddD9Fd5916E4DFBc41FDc34Ff0edfB3358E9F95",
           "comment": "f(uint256): 0 -> 0, 2, 0",
           "instance": "C",
           "method": "f(uint256)",
           "calldata": [
-            "0x"
+            "0x00"
           ],
           "expected": {
             "return_data": [
-              "0x",
+              "0x00",
               "0x02",
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0xB3Ef70F39C555CE0BF9f3382b8b90B3d860Ce095",
+          "caller": "0xcddD9Fd5916E4DFBc41FDc34Ff0edfB3358E9F95",
           "comment": "f(uint256): 1 -> 1, 4, 3",
           "instance": "C",
           "method": "f(uint256)",
@@ -38,7 +38,7 @@
           }
         },
         {
-          "caller": "0xB3Ef70F39C555CE0BF9f3382b8b90B3d860Ce095",
+          "caller": "0xcddD9Fd5916E4DFBc41FDc34Ff0edfB3358E9F95",
           "comment": "f(uint256): 2 -> 0, 2, 0",
           "instance": "C",
           "method": "f(uint256)",
@@ -47,9 +47,9 @@
           ],
           "expected": {
             "return_data": [
-              "0x",
+              "0x00",
               "0x02",
-              "0x"
+              "0x00"
             ],
             "exception": false
           }

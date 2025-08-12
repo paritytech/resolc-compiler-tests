@@ -4,7 +4,7 @@
       "name": "transient_storage_low_level_calls",
       "inputs": [
         {
-          "caller": "0xD344172dFae4316dBF57b931C8348099fd4d3c42",
+          "caller": "0x73f384B10A04eb88bb9Eb1A61e83ed6aBB4C6B7B",
           "comment": "testDelegateCall() -> true",
           "instance": "C",
           "method": "testDelegateCall()",
@@ -17,7 +17,7 @@
           }
         },
         {
-          "caller": "0xD344172dFae4316dBF57b931C8348099fd4d3c42",
+          "caller": "0x73f384B10A04eb88bb9Eb1A61e83ed6aBB4C6B7B",
           "comment": "testCall() -> true",
           "instance": "C",
           "method": "testCall()",
@@ -30,7 +30,7 @@
           }
         },
         {
-          "caller": "0xD344172dFae4316dBF57b931C8348099fd4d3c42",
+          "caller": "0x73f384B10A04eb88bb9Eb1A61e83ed6aBB4C6B7B",
           "comment": "tloadAllowedStaticCall() -> true",
           "instance": "C",
           "method": "tloadAllowedStaticCall()",
@@ -43,7 +43,7 @@
           }
         },
         {
-          "caller": "0xD344172dFae4316dBF57b931C8348099fd4d3c42",
+          "caller": "0x73f384B10A04eb88bb9Eb1A61e83ed6aBB4C6B7B",
           "comment": "tstoreNotAllowedStaticCall() -> true; gas irOptimized: 98419721; gas irOptimized code: 19000; gas legacy: 98409087; gas legacy code: 30000; gas legacyOptimized: 98420962; gas legacyOptimized code: 17800",
           "instance": "C",
           "method": "tstoreNotAllowedStaticCall()",

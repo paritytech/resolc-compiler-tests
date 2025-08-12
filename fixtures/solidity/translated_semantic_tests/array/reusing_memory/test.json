@@ -4,7 +4,7 @@
       "name": "reusing_memory",
       "inputs": [
         {
-          "caller": "0x367b30A94c5a275A4C78e6F8C2436CBE20966e83",
+          "caller": "0x1A2206Cd13Bc4526c30971Bb5D531C1723375A6C",
           "comment": "f(uint256): 0x34 -> 0x46bddb1178e94d7f2892ff5f366840eb658911794f2c3a44c450aa2c505186c1; gas irOptimized: 99552; gas irOptimized code: 12400; gas legacy: 101551; gas legacy code: 23600; gas legacyOptimized: 99612; gas legacyOptimized code: 13400",
           "instance": "Main",
           "method": "f(uint256)",

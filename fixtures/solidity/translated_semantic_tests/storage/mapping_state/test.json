@@ -4,22 +4,22 @@
       "name": "mapping_state",
       "inputs": [
         {
-          "caller": "0x89cDb38D3aAc16f35d280bf8e85261F2Cc1CB082",
+          "caller": "0xF42d3AefC6849F32C978299807542b24fe1E461F",
           "comment": "getVoteCount(address): 0 -> 0",
           "instance": "Ballot",
           "method": "getVoteCount(address)",
           "calldata": [
-            "0x"
+            "0x00"
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0x89cDb38D3aAc16f35d280bf8e85261F2Cc1CB082",
+          "caller": "0xF42d3AefC6849F32C978299807542b24fe1E461F",
           "comment": "getVoteCount(address): 1 -> 0",
           "instance": "Ballot",
           "method": "getVoteCount(address)",
@@ -28,13 +28,13 @@
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0x89cDb38D3aAc16f35d280bf8e85261F2Cc1CB082",
+          "caller": "0xF42d3AefC6849F32C978299807542b24fe1E461F",
           "comment": "getVoteCount(address): 2 -> 0",
           "instance": "Ballot",
           "method": "getVoteCount(address)",
@@ -43,44 +43,44 @@
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0x89cDb38D3aAc16f35d280bf8e85261F2Cc1CB082",
+          "caller": "0xF42d3AefC6849F32C978299807542b24fe1E461F",
           "comment": "vote(address,address): 0, 2 -> false",
           "instance": "Ballot",
           "method": "vote(address,address)",
           "calldata": [
-            "0x",
+            "0x00",
             "0x02"
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0x89cDb38D3aAc16f35d280bf8e85261F2Cc1CB082",
+          "caller": "0xF42d3AefC6849F32C978299807542b24fe1E461F",
           "comment": "getVoteCount(address): 0 -> 0",
           "instance": "Ballot",
           "method": "getVoteCount(address)",
           "calldata": [
-            "0x"
+            "0x00"
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0x89cDb38D3aAc16f35d280bf8e85261F2Cc1CB082",
+          "caller": "0xF42d3AefC6849F32C978299807542b24fe1E461F",
           "comment": "getVoteCount(address): 1 -> 0",
           "instance": "Ballot",
           "method": "getVoteCount(address)",
@@ -89,13 +89,13 @@
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0x89cDb38D3aAc16f35d280bf8e85261F2Cc1CB082",
+          "caller": "0xF42d3AefC6849F32C978299807542b24fe1E461F",
           "comment": "getVoteCount(address): 2 -> 0",
           "instance": "Ballot",
           "method": "getVoteCount(address)",
@@ -104,25 +104,25 @@
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0x89cDb38D3aAc16f35d280bf8e85261F2Cc1CB082",
+          "caller": "0xF42d3AefC6849F32C978299807542b24fe1E461F",
           "comment": "grantVoteRight(address): 0 ->",
           "instance": "Ballot",
           "method": "grantVoteRight(address)",
           "calldata": [
-            "0x"
+            "0x00"
           ],
           "expected": {
             "exception": false
           }
         },
         {
-          "caller": "0x89cDb38D3aAc16f35d280bf8e85261F2Cc1CB082",
+          "caller": "0xF42d3AefC6849F32C978299807542b24fe1E461F",
           "comment": "grantVoteRight(address): 1 ->",
           "instance": "Ballot",
           "method": "grantVoteRight(address)",
@@ -134,12 +134,12 @@
           }
         },
         {
-          "caller": "0x89cDb38D3aAc16f35d280bf8e85261F2Cc1CB082",
+          "caller": "0xF42d3AefC6849F32C978299807542b24fe1E461F",
           "comment": "vote(address,address): 0, 2 -> true",
           "instance": "Ballot",
           "method": "vote(address,address)",
           "calldata": [
-            "0x",
+            "0x00",
             "0x02"
           ],
           "expected": {
@@ -150,22 +150,22 @@
           }
         },
         {
-          "caller": "0x89cDb38D3aAc16f35d280bf8e85261F2Cc1CB082",
+          "caller": "0xF42d3AefC6849F32C978299807542b24fe1E461F",
           "comment": "getVoteCount(address): 0 -> 0",
           "instance": "Ballot",
           "method": "getVoteCount(address)",
           "calldata": [
-            "0x"
+            "0x00"
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0x89cDb38D3aAc16f35d280bf8e85261F2Cc1CB082",
+          "caller": "0xF42d3AefC6849F32C978299807542b24fe1E461F",
           "comment": "getVoteCount(address): 1 -> 0",
           "instance": "Ballot",
           "method": "getVoteCount(address)",
@@ -174,13 +174,13 @@
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0x89cDb38D3aAc16f35d280bf8e85261F2Cc1CB082",
+          "caller": "0xF42d3AefC6849F32C978299807542b24fe1E461F",
           "comment": "getVoteCount(address): 2 -> 1",
           "instance": "Ballot",
           "method": "getVoteCount(address)",
@@ -195,38 +195,38 @@
           }
         },
         {
-          "caller": "0x89cDb38D3aAc16f35d280bf8e85261F2Cc1CB082",
+          "caller": "0xF42d3AefC6849F32C978299807542b24fe1E461F",
           "comment": "vote(address,address): 0, 1 -> false",
           "instance": "Ballot",
           "method": "vote(address,address)",
           "calldata": [
-            "0x",
+            "0x00",
             "0x01"
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0x89cDb38D3aAc16f35d280bf8e85261F2Cc1CB082",
+          "caller": "0xF42d3AefC6849F32C978299807542b24fe1E461F",
           "comment": "getVoteCount(address): 0 -> 0",
           "instance": "Ballot",
           "method": "getVoteCount(address)",
           "calldata": [
-            "0x"
+            "0x00"
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0x89cDb38D3aAc16f35d280bf8e85261F2Cc1CB082",
+          "caller": "0xF42d3AefC6849F32C978299807542b24fe1E461F",
           "comment": "getVoteCount(address): 1 -> 0",
           "instance": "Ballot",
           "method": "getVoteCount(address)",
@@ -235,13 +235,13 @@
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0x89cDb38D3aAc16f35d280bf8e85261F2Cc1CB082",
+          "caller": "0xF42d3AefC6849F32C978299807542b24fe1E461F",
           "comment": "getVoteCount(address): 2 -> 1",
           "instance": "Ballot",
           "method": "getVoteCount(address)",
@@ -256,7 +256,7 @@
           }
         },
         {
-          "caller": "0x89cDb38D3aAc16f35d280bf8e85261F2Cc1CB082",
+          "caller": "0xF42d3AefC6849F32C978299807542b24fe1E461F",
           "comment": "vote(address,address): 2, 1 -> false",
           "instance": "Ballot",
           "method": "vote(address,address)",
@@ -266,28 +266,28 @@
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0x89cDb38D3aAc16f35d280bf8e85261F2Cc1CB082",
+          "caller": "0xF42d3AefC6849F32C978299807542b24fe1E461F",
           "comment": "getVoteCount(address): 0 -> 0",
           "instance": "Ballot",
           "method": "getVoteCount(address)",
           "calldata": [
-            "0x"
+            "0x00"
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0x89cDb38D3aAc16f35d280bf8e85261F2Cc1CB082",
+          "caller": "0xF42d3AefC6849F32C978299807542b24fe1E461F",
           "comment": "getVoteCount(address): 1 -> 0",
           "instance": "Ballot",
           "method": "getVoteCount(address)",
@@ -296,13 +296,13 @@
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0x89cDb38D3aAc16f35d280bf8e85261F2Cc1CB082",
+          "caller": "0xF42d3AefC6849F32C978299807542b24fe1E461F",
           "comment": "getVoteCount(address): 2 -> 1",
           "instance": "Ballot",
           "method": "getVoteCount(address)",
@@ -317,7 +317,7 @@
           }
         },
         {
-          "caller": "0x89cDb38D3aAc16f35d280bf8e85261F2Cc1CB082",
+          "caller": "0xF42d3AefC6849F32C978299807542b24fe1E461F",
           "comment": "grantVoteRight(address): 2 ->",
           "instance": "Ballot",
           "method": "grantVoteRight(address)",
@@ -329,7 +329,7 @@
           }
         },
         {
-          "caller": "0x89cDb38D3aAc16f35d280bf8e85261F2Cc1CB082",
+          "caller": "0xF42d3AefC6849F32C978299807542b24fe1E461F",
           "comment": "vote(address,address): 2, 1 -> true",
           "instance": "Ballot",
           "method": "vote(address,address)",
@@ -345,22 +345,22 @@
           }
         },
         {
-          "caller": "0x89cDb38D3aAc16f35d280bf8e85261F2Cc1CB082",
+          "caller": "0xF42d3AefC6849F32C978299807542b24fe1E461F",
           "comment": "getVoteCount(address): 0 -> 0",
           "instance": "Ballot",
           "method": "getVoteCount(address)",
           "calldata": [
-            "0x"
+            "0x00"
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0x89cDb38D3aAc16f35d280bf8e85261F2Cc1CB082",
+          "caller": "0xF42d3AefC6849F32C978299807542b24fe1E461F",
           "comment": "getVoteCount(address): 1 -> 1",
           "instance": "Ballot",
           "method": "getVoteCount(address)",
@@ -375,7 +375,7 @@
           }
         },
         {
-          "caller": "0x89cDb38D3aAc16f35d280bf8e85261F2Cc1CB082",
+          "caller": "0xF42d3AefC6849F32C978299807542b24fe1E461F",
           "comment": "getVoteCount(address): 2 -> 1",
           "instance": "Ballot",
           "method": "getVoteCount(address)",

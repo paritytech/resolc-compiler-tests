@@ -4,20 +4,20 @@
       "name": "simple",
       "inputs": [
         {
-          "caller": "0x9217b8704509f85835d5b4bFd28194d301eDC535",
+          "caller": "0xb4c0cf22CbD2cd0D7cAe59a8455E18226d248686",
           "comment": "f() -> 0",
           "instance": "C",
           "method": "f()",
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0x9217b8704509f85835d5b4bFd28194d301eDC535",
+          "caller": "0xb4c0cf22CbD2cd0D7cAe59a8455E18226d248686",
           "comment": "g() -> 1, 1",
           "instance": "C",
           "method": "g()",

@@ -4,7 +4,7 @@
       "name": "different_call_type_transient",
       "inputs": [
         {
-          "caller": "0x18597Bb8FED44a268a7eE526C295271123C4CceB",
+          "caller": "0xEFE70F5f8b26d9818915820C5C0C46D35D1d2774",
           "comment": "testDelegate() -> 7, 0",
           "instance": "Test",
           "method": "testDelegate()",
@@ -12,34 +12,34 @@
           "expected": {
             "return_data": [
               "0x07",
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0x18597Bb8FED44a268a7eE526C295271123C4CceB",
+          "caller": "0xEFE70F5f8b26d9818915820C5C0C46D35D1d2774",
           "comment": "testCall() -> 0, 8",
           "instance": "Test",
           "method": "testCall()",
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x",
+              "0x00",
               "0x08"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0x18597Bb8FED44a268a7eE526C295271123C4CceB",
+          "caller": "0xEFE70F5f8b26d9818915820C5C0C46D35D1d2774",
           "comment": "testStatic() -> false; gas irOptimized: 96900694; gas legacy: 96901136; gas legacyOptimized: 96900725",
           "instance": "Test",
           "method": "testStatic()",
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }

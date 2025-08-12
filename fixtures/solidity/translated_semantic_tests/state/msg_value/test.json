@@ -4,20 +4,20 @@
       "name": "msg_value",
       "inputs": [
         {
-          "caller": "0x2EFC611666aec9958F510dbEF1572a63A23cf551",
+          "caller": "0x04291d359e253F81Bd609A625f99C73BCA384594",
           "comment": "f() -> 0",
           "instance": "C",
           "method": "f()",
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0x2EFC611666aec9958F510dbEF1572a63A23cf551",
+          "caller": "0x04291d359e253F81Bd609A625f99C73BCA384594",
           "comment": "f(), 12 ether -> 12000000000000000000",
           "instance": "C",
           "method": "f()",

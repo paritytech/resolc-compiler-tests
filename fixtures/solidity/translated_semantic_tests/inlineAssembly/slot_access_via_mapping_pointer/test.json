@@ -4,23 +4,23 @@
       "name": "slot_access_via_mapping_pointer",
       "inputs": [
         {
-          "caller": "0xA24dB7adA30324bCe2436Aaaba8511bfB729E3Da",
+          "caller": "0x18f85288151a7276942905cE065eDF0b19a96Afa",
           "comment": "f(uint256): 0 -> 0, 0",
           "instance": "C",
           "method": "f(uint256)",
           "calldata": [
-            "0x"
+            "0x00"
           ],
           "expected": {
             "return_data": [
-              "0x",
-              "0x"
+              "0x00",
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0xA24dB7adA30324bCe2436Aaaba8511bfB729E3Da",
+          "caller": "0x18f85288151a7276942905cE065eDF0b19a96Afa",
           "comment": "f(uint256): 1 -> 1, 0",
           "instance": "C",
           "method": "f(uint256)",
@@ -30,13 +30,13 @@
           "expected": {
             "return_data": [
               "0x01",
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0xA24dB7adA30324bCe2436Aaaba8511bfB729E3Da",
+          "caller": "0x18f85288151a7276942905cE065eDF0b19a96Afa",
           "comment": "f(uint256): 2 -> 2, 0",
           "instance": "C",
           "method": "f(uint256)",
@@ -46,7 +46,7 @@
           "expected": {
             "return_data": [
               "0x02",
-              "0x"
+              "0x00"
             ],
             "exception": false
           }

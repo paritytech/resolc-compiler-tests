@@ -4,20 +4,20 @@
       "name": "array_of_struct_calldata_to_memory",
       "inputs": [
         {
-          "caller": "0x377c40a451729d0aDef2B704C7e3ED8D9Aa4830C",
+          "caller": "0x7Ba3eE0EdF3BeAD7200E36B8fE0618BeC1dcD796",
           "comment": "f((uint128,uint64,uint128)[3]): 0, 0, 12, 0, 11, 0, 10, 0, 0 -> 10, 11, 12",
           "instance": "C",
           "method": "f((uint128,uint64,uint128)[3])",
           "calldata": [
-            "0x",
-            "0x",
+            "0x00",
+            "0x00",
             "0x0c",
-            "0x",
+            "0x00",
             "0x0b",
-            "0x",
+            "0x00",
             "0x0a",
-            "0x",
-            "0x"
+            "0x00",
+            "0x00"
           ],
           "expected": {
             "return_data": [
@@ -29,22 +29,22 @@
           }
         },
         {
-          "caller": "0x377c40a451729d0aDef2B704C7e3ED8D9Aa4830C",
+          "caller": "0x7Ba3eE0EdF3BeAD7200E36B8fE0618BeC1dcD796",
           "comment": "g((uint128,uint64,uint128)[]): 0x20, 3, 0, 0, 12, 0, 11, 0, 10, 0, 0 -> 10, 11, 12",
           "instance": "C",
           "method": "g((uint128,uint64,uint128)[])",
           "calldata": [
             "0x20",
             "0x03",
-            "0x",
-            "0x",
+            "0x00",
+            "0x00",
             "0x0c",
-            "0x",
+            "0x00",
             "0x0b",
-            "0x",
+            "0x00",
             "0x0a",
-            "0x",
-            "0x"
+            "0x00",
+            "0x00"
           ],
           "expected": {
             "return_data": [

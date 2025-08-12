@@ -4,7 +4,7 @@
       "name": "state_variable_arithmetic_expression",
       "inputs": [
         {
-          "caller": "0xF0DFC0e20503dCD32309d26ebF6A1E7e7C71dDff",
+          "caller": "0x0e5B11ABff3aFd8aCE2b2fb74565E2340080FAf3",
           "comment": "f(uint256): 2 -> 0",
           "instance": "C",
           "method": "f(uint256)",
@@ -13,13 +13,13 @@
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0xF0DFC0e20503dCD32309d26ebF6A1E7e7C71dDff",
+          "caller": "0x0e5B11ABff3aFd8aCE2b2fb74565E2340080FAf3",
           "comment": "f(uint256): 3 -> 5",
           "instance": "C",
           "method": "f(uint256)",
@@ -34,7 +34,7 @@
           }
         },
         {
-          "caller": "0xF0DFC0e20503dCD32309d26ebF6A1E7e7C71dDff",
+          "caller": "0x0e5B11ABff3aFd8aCE2b2fb74565E2340080FAf3",
           "comment": "f(uint256): 5 -> 15",
           "instance": "C",
           "method": "f(uint256)",
@@ -49,7 +49,7 @@
           }
         },
         {
-          "caller": "0xF0DFC0e20503dCD32309d26ebF6A1E7e7C71dDff",
+          "caller": "0x0e5B11ABff3aFd8aCE2b2fb74565E2340080FAf3",
           "comment": "x() -> 10",
           "instance": "C",
           "method": "x()",
@@ -62,7 +62,7 @@
           }
         },
         {
-          "caller": "0xF0DFC0e20503dCD32309d26ebF6A1E7e7C71dDff",
+          "caller": "0x0e5B11ABff3aFd8aCE2b2fb74565E2340080FAf3",
           "comment": "y() -> 17",
           "instance": "C",
           "method": "y()",
@@ -75,7 +75,7 @@
           }
         },
         {
-          "caller": "0xF0DFC0e20503dCD32309d26ebF6A1E7e7C71dDff",
+          "caller": "0x0e5B11ABff3aFd8aCE2b2fb74565E2340080FAf3",
           "comment": "z() -> 15",
           "instance": "C",
           "method": "z()",

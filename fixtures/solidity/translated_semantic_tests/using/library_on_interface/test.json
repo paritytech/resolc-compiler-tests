@@ -4,7 +4,7 @@
       "name": "library_on_interface",
       "inputs": [
         {
-          "caller": "0xEFabCdebb92e910D8f1c3BbcD1732dbF3ac02596",
+          "caller": "0x28d06F4684eC6FdCd07d417B8f9B1c74a4E653Cd",
           "comment": "x() -> 7",
           "instance": "C",
           "method": "x()",

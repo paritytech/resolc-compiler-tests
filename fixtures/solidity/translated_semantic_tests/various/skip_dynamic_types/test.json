@@ -4,7 +4,7 @@
       "name": "skip_dynamic_types",
       "inputs": [
         {
-          "caller": "0x8B244426E6F728A93E2E15e63eb348D9BeF4E1C6",
+          "caller": "0xB2AC99BC1140e9F9211843dAb96374414702A64A",
           "comment": "g() -> 7, 8",
           "instance": "C",
           "method": "g()",

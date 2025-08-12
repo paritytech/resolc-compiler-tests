@@ -4,20 +4,20 @@
       "name": "transient_storage_multiple_transactions",
       "inputs": [
         {
-          "caller": "0x6E364FC20A24B08F6f4890a808773d5C7Fc155b5",
+          "caller": "0x1701F63a1Aa25df5afA154e976D6D6ed56c555E2",
           "comment": "g() -> 0",
           "instance": "C",
           "method": "g()",
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0x6E364FC20A24B08F6f4890a808773d5C7Fc155b5",
+          "caller": "0x1701F63a1Aa25df5afA154e976D6D6ed56c555E2",
           "comment": "f() ->",
           "instance": "C",
           "method": "f()",
@@ -27,20 +27,20 @@
           }
         },
         {
-          "caller": "0x6E364FC20A24B08F6f4890a808773d5C7Fc155b5",
+          "caller": "0x1701F63a1Aa25df5afA154e976D6D6ed56c555E2",
           "comment": "g() -> 0",
           "instance": "C",
           "method": "g()",
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0x6E364FC20A24B08F6f4890a808773d5C7Fc155b5",
+          "caller": "0x1701F63a1Aa25df5afA154e976D6D6ed56c555E2",
           "comment": "h() -> 0x63",
           "instance": "C",
           "method": "h()",
@@ -53,14 +53,14 @@
           }
         },
         {
-          "caller": "0x6E364FC20A24B08F6f4890a808773d5C7Fc155b5",
+          "caller": "0x1701F63a1Aa25df5afA154e976D6D6ed56c555E2",
           "comment": "g() -> 0",
           "instance": "C",
           "method": "g()",
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }

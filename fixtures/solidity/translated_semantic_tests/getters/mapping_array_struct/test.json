@@ -9,8 +9,8 @@
           "instance": "C",
           "method": "m(uint256,uint256)",
           "calldata": [
-            "0x",
-            "0x"
+            "0x00",
+            "0x00"
           ],
           "expected": {
             "exception": true
@@ -23,7 +23,7 @@
           "method": "m(uint256,uint256)",
           "calldata": [
             "0x01",
-            "0x"
+            "0x00"
           ],
           "expected": {
             "return_data": [
@@ -69,13 +69,13 @@
           "instance": "C",
           "method": "n(uint256,uint256)",
           "calldata": [
-            "0x",
-            "0x"
+            "0x00",
+            "0x00"
           ],
           "expected": {
             "return_data": [
-              "0x",
-              "0x"
+              "0x00",
+              "0x00"
             ],
             "exception": false
           }
@@ -87,7 +87,7 @@
           "method": "n(uint256,uint256)",
           "calldata": [
             "0x01",
-            "0x"
+            "0x00"
           ],
           "expected": {
             "return_data": [
@@ -125,8 +125,8 @@
           ],
           "expected": {
             "return_data": [
-              "0x",
-              "0x"
+              "0x00",
+              "0x00"
             ],
             "exception": false
           }

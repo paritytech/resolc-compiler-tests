@@ -4,7 +4,7 @@
       "name": "uncalled_blobhash",
       "inputs": [
         {
-          "caller": "0x4f93A983F802b278a36aF06D6D3e2a8791E40927",
+          "caller": "0x05Ed2013717b832972cdD850c6Ed10c65fc7E6b3",
           "comment": "f() -> 0x0100000000000000000000000000000000000000000000000000000000000001",
           "instance": "C",
           "method": "f()",

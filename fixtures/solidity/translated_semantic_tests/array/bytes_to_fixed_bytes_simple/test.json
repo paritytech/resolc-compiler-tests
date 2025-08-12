@@ -4,7 +4,7 @@
       "name": "bytes_to_fixed_bytes_simple",
       "inputs": [
         {
-          "caller": "0x0f035C5D4b60EFB17f6B1e9922cD8dB52E4662Ca",
+          "caller": "0x2F4FAC96F86d7Ca0b3aBB5a5B2cF01d3F7d65C31",
           "comment": "fromMemory(bytes): 0x20, 16, \"abcdefghabcdefgh\" -> \"abcdefghabcdefgh\"",
           "instance": "C",
           "method": "fromMemory(bytes)",
@@ -21,7 +21,7 @@
           }
         },
         {
-          "caller": "0x0f035C5D4b60EFB17f6B1e9922cD8dB52E4662Ca",
+          "caller": "0x2F4FAC96F86d7Ca0b3aBB5a5B2cF01d3F7d65C31",
           "comment": "fromCalldata(bytes): 0x20, 16, \"abcdefghabcdefgh\" -> \"abcdefghabcdefgh\"",
           "instance": "C",
           "method": "fromCalldata(bytes)",
@@ -38,7 +38,7 @@
           }
         },
         {
-          "caller": "0x0f035C5D4b60EFB17f6B1e9922cD8dB52E4662Ca",
+          "caller": "0x2F4FAC96F86d7Ca0b3aBB5a5B2cF01d3F7d65C31",
           "comment": "fromStorage() -> \"abcdefghabcdefgh\"",
           "instance": "C",
           "method": "fromStorage()",
@@ -51,7 +51,7 @@
           }
         },
         {
-          "caller": "0x0f035C5D4b60EFB17f6B1e9922cD8dB52E4662Ca",
+          "caller": "0x2F4FAC96F86d7Ca0b3aBB5a5B2cF01d3F7d65C31",
           "comment": "fromStorageLong() -> \"abcdefghabcdefghabcdefghabcdefgh\"",
           "instance": "C",
           "method": "fromStorageLong()",
@@ -64,7 +64,7 @@
           }
         },
         {
-          "caller": "0x0f035C5D4b60EFB17f6B1e9922cD8dB52E4662Ca",
+          "caller": "0x2F4FAC96F86d7Ca0b3aBB5a5B2cF01d3F7d65C31",
           "comment": "fromSlice(bytes): 0x20, 16, \"abcdefghabcdefgh\" -> \"bcdefgha\"",
           "instance": "C",
           "method": "fromSlice(bytes)",

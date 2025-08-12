@@ -4,7 +4,7 @@
       "name": "failure",
       "inputs": [
         {
-          "caller": "0x9D48d6b177CE785ae3670aa40ea9494b1fCFD849",
+          "caller": "0x21D153B82583e78700529aFD3D4b2AA402788Bcf",
           "comment": "_() -> FAILURE",
           "instance": "C",
           "method": "_()",
@@ -14,7 +14,7 @@
           }
         },
         {
-          "caller": "0x9D48d6b177CE785ae3670aa40ea9494b1fCFD849",
+          "caller": "0x21D153B82583e78700529aFD3D4b2AA402788Bcf",
           "comment": "e() -> FAILURE, hex\"08c379a0\", 0x20, 0x13, \"Transaction failed.\"",
           "instance": "C",
           "method": "e()",
@@ -30,29 +30,29 @@
           }
         },
         {
-          "caller": "0x9D48d6b177CE785ae3670aa40ea9494b1fCFD849",
+          "caller": "0x21D153B82583e78700529aFD3D4b2AA402788Bcf",
           "comment": "f(bool): false -> FAILURE, hex\"08c379a0\", 0x20, 0x00",
           "instance": "C",
           "method": "f(bool)",
           "calldata": [
-            "0x"
+            "0x00"
           ],
           "expected": {
             "return_data": [
               "0x08c379a000000000000000000000000000000000000000000000000000000000",
               "0x2000000000000000000000000000000000000000000000000000000000",
-              "0x"
+              "0x00"
             ],
             "exception": true
           }
         },
         {
-          "caller": "0x9D48d6b177CE785ae3670aa40ea9494b1fCFD849",
+          "caller": "0x21D153B82583e78700529aFD3D4b2AA402788Bcf",
           "comment": "g(bool): false -> FAILURE, hex\"08c379a0\", 0x20, 0x0f, \"Value is false.\"",
           "instance": "C",
           "method": "g(bool)",
           "calldata": [
-            "0x"
+            "0x00"
           ],
           "expected": {
             "return_data": [
@@ -65,7 +65,7 @@
           }
         },
         {
-          "caller": "0x9D48d6b177CE785ae3670aa40ea9494b1fCFD849",
+          "caller": "0x21D153B82583e78700529aFD3D4b2AA402788Bcf",
           "comment": "h() -> FAILURE, hex\"4e487b71\", 0x01",
           "instance": "C",
           "method": "h()",

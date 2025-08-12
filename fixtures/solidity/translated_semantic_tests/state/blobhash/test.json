@@ -4,12 +4,12 @@
       "name": "blobhash",
       "inputs": [
         {
-          "caller": "0xBd39bd58df6e31b4D89063ee59538b290f2d08C5",
+          "caller": "0x606fCeAa8119a56E0b95F63ed0Ccd9d493a27127",
           "comment": "f(uint256): 0 -> 0x0100000000000000000000000000000000000000000000000000000000000001",
           "instance": "C",
           "method": "f(uint256)",
           "calldata": [
-            "0x"
+            "0x00"
           ],
           "expected": {
             "return_data": [
@@ -19,7 +19,7 @@
           }
         },
         {
-          "caller": "0xBd39bd58df6e31b4D89063ee59538b290f2d08C5",
+          "caller": "0x606fCeAa8119a56E0b95F63ed0Ccd9d493a27127",
           "comment": "f(uint256): 1 -> 0x0100000000000000000000000000000000000000000000000000000000000002",
           "instance": "C",
           "method": "f(uint256)",
@@ -34,7 +34,7 @@
           }
         },
         {
-          "caller": "0xBd39bd58df6e31b4D89063ee59538b290f2d08C5",
+          "caller": "0x606fCeAa8119a56E0b95F63ed0Ccd9d493a27127",
           "comment": "f(uint256): 2 -> 0x00",
           "instance": "C",
           "method": "f(uint256)",
@@ -43,13 +43,13 @@
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0xBd39bd58df6e31b4D89063ee59538b290f2d08C5",
+          "caller": "0x606fCeAa8119a56E0b95F63ed0Ccd9d493a27127",
           "comment": "f(uint256): 255 -> 0x00",
           "instance": "C",
           "method": "f(uint256)",
@@ -58,13 +58,13 @@
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0xBd39bd58df6e31b4D89063ee59538b290f2d08C5",
+          "caller": "0x606fCeAa8119a56E0b95F63ed0Ccd9d493a27127",
           "comment": "f(uint256): 256 -> 0x00",
           "instance": "C",
           "method": "f(uint256)",
@@ -73,13 +73,13 @@
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0xBd39bd58df6e31b4D89063ee59538b290f2d08C5",
+          "caller": "0x606fCeAa8119a56E0b95F63ed0Ccd9d493a27127",
           "comment": "f(uint256): 257 -> 0x00",
           "instance": "C",
           "method": "f(uint256)",
@@ -88,7 +88,7 @@
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }

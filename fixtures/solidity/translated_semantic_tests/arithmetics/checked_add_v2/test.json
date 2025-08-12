@@ -10,7 +10,7 @@
           "method": "f(uint16,uint16)",
           "calldata": [
             "0xfffe",
-            "0x"
+            "0x00"
           ],
           "expected": {
             "return_data": [
@@ -26,7 +26,7 @@
           "method": "f(uint16,uint16)",
           "calldata": [
             "0x010000",
-            "0x"
+            "0x00"
           ],
           "expected": {
             "exception": true
@@ -39,7 +39,7 @@
           "method": "f(uint16,uint16)",
           "calldata": [
             "0xffff",
-            "0x"
+            "0x00"
           ],
           "expected": {
             "return_data": [

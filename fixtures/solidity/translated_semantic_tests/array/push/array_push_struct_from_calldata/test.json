@@ -4,7 +4,7 @@
       "name": "array_push_struct_from_calldata",
       "inputs": [
         {
-          "caller": "0xec470B5aC4ADfa27577967AE0f6A74fD89f9AFB0",
+          "caller": "0x4DF4cFa80276BE848C2BA37a930c224A54F230C1",
           "comment": "test((uint16,uint16,uint16[3],uint16[])): 0x20, 2, 3, 0, 0, 4, 0xC0, 4, 0, 0, 5, 0, 0 -> 2, 3, 4, 5; gas irOptimized: 137153; gas legacy: 142414; gas legacyOptimized: 137975",
           "instance": "c",
           "method": "test((uint16,uint16,uint16[3],uint16[]))",
@@ -12,16 +12,16 @@
             "0x20",
             "0x02",
             "0x03",
-            "0x",
-            "0x",
+            "0x00",
+            "0x00",
             "0x04",
             "0xc0",
             "0x04",
-            "0x",
-            "0x",
+            "0x00",
+            "0x00",
             "0x05",
-            "0x",
-            "0x"
+            "0x00",
+            "0x00"
           ],
           "expected": {
             "return_data": [

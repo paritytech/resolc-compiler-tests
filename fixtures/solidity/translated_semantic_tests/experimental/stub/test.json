@@ -4,22 +4,22 @@
       "name": "stub",
       "inputs": [
         {
-          "caller": "0x63B58cb931d0942EF970b2906d0AaB632F880715",
+          "caller": "0xe7aFFe11eA58712aaAfeE3666C255e3C128769FC",
           "comment": "(): 0 -> 0",
           "instance": "C",
           "method": "#fallback",
           "calldata": [
-            "0x"
+            "0x00"
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0x63B58cb931d0942EF970b2906d0AaB632F880715",
+          "caller": "0xe7aFFe11eA58712aaAfeE3666C255e3C128769FC",
           "comment": "(): 1 -> 544",
           "instance": "C",
           "method": "#fallback",

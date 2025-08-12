@@ -4,21 +4,21 @@
       "name": "fallback_or_receive",
       "inputs": [
         {
-          "caller": "0x40961E33AF8Be3228027e82BE7632e52b751B0F4",
+          "caller": "0x34fcB3E2d51cC9DC5AFC8622E1a1d26bAcCE98Aa",
           "comment": "f() -> 0, 0",
           "instance": "C",
           "method": "f()",
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x",
-              "0x"
+              "0x00",
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0x40961E33AF8Be3228027e82BE7632e52b751B0F4",
+          "caller": "0x34fcB3E2d51cC9DC5AFC8622E1a1d26bAcCE98Aa",
           "comment": "() ->",
           "instance": "C",
           "method": "#fallback",
@@ -28,21 +28,21 @@
           }
         },
         {
-          "caller": "0x40961E33AF8Be3228027e82BE7632e52b751B0F4",
+          "caller": "0x34fcB3E2d51cC9DC5AFC8622E1a1d26bAcCE98Aa",
           "comment": "f() -> 0, 1",
           "instance": "C",
           "method": "f()",
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x",
+              "0x00",
               "0x01"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0x40961E33AF8Be3228027e82BE7632e52b751B0F4",
+          "caller": "0x34fcB3E2d51cC9DC5AFC8622E1a1d26bAcCE98Aa",
           "comment": "(), 1 ether ->",
           "instance": "C",
           "method": "#fallback",
@@ -53,21 +53,21 @@
           "value": "1000000000000000000 wei"
         },
         {
-          "caller": "0x40961E33AF8Be3228027e82BE7632e52b751B0F4",
+          "caller": "0x34fcB3E2d51cC9DC5AFC8622E1a1d26bAcCE98Aa",
           "comment": "f() -> 0, 2",
           "instance": "C",
           "method": "f()",
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x",
+              "0x00",
               "0x02"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0x40961E33AF8Be3228027e82BE7632e52b751B0F4",
+          "caller": "0x34fcB3E2d51cC9DC5AFC8622E1a1d26bAcCE98Aa",
           "comment": "(): 1 ->",
           "instance": "C",
           "method": "#fallback",
@@ -79,7 +79,7 @@
           }
         },
         {
-          "caller": "0x40961E33AF8Be3228027e82BE7632e52b751B0F4",
+          "caller": "0x34fcB3E2d51cC9DC5AFC8622E1a1d26bAcCE98Aa",
           "comment": "f() -> 1, 2",
           "instance": "C",
           "method": "f()",
@@ -93,7 +93,7 @@
           }
         },
         {
-          "caller": "0x40961E33AF8Be3228027e82BE7632e52b751B0F4",
+          "caller": "0x34fcB3E2d51cC9DC5AFC8622E1a1d26bAcCE98Aa",
           "comment": "(), 1 ether: 1 ->",
           "instance": "C",
           "method": "#fallback",
@@ -106,7 +106,7 @@
           "value": "1000000000000000000 wei"
         },
         {
-          "caller": "0x40961E33AF8Be3228027e82BE7632e52b751B0F4",
+          "caller": "0x34fcB3E2d51cC9DC5AFC8622E1a1d26bAcCE98Aa",
           "comment": "f() -> 2, 2",
           "instance": "C",
           "method": "f()",

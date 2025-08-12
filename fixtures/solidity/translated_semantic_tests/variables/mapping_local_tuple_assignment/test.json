@@ -12,8 +12,8 @@
           "expected": {
             "return_data": [
               "0x2a",
-              "0x",
-              "0x",
+              "0x00",
+              "0x00",
               "0x15"
             ],
             "exception": false

@@ -4,7 +4,7 @@
       "name": "mappings_array2d_pop_delete",
       "inputs": [
         {
-          "caller": "0xBfDc26484c3B223ec9F40629f8FB4432780DB843",
+          "caller": "0x1353e0761fAd723CCff02f91f19768d83Fc1c41e",
           "comment": "n1(uint256,uint256): 42, 64 ->",
           "instance": "C",
           "method": "n1(uint256,uint256)",
@@ -17,7 +17,7 @@
           }
         },
         {
-          "caller": "0xBfDc26484c3B223ec9F40629f8FB4432780DB843",
+          "caller": "0x1353e0761fAd723CCff02f91f19768d83Fc1c41e",
           "comment": "map(uint256): 42 -> 64",
           "instance": "C",
           "method": "map(uint256)",
@@ -32,7 +32,7 @@
           }
         },
         {
-          "caller": "0xBfDc26484c3B223ec9F40629f8FB4432780DB843",
+          "caller": "0x1353e0761fAd723CCff02f91f19768d83Fc1c41e",
           "comment": "p() ->",
           "instance": "C",
           "method": "p()",
@@ -42,7 +42,7 @@
           }
         },
         {
-          "caller": "0xBfDc26484c3B223ec9F40629f8FB4432780DB843",
+          "caller": "0x1353e0761fAd723CCff02f91f19768d83Fc1c41e",
           "comment": "n2() ->",
           "instance": "C",
           "method": "n2()",
@@ -52,7 +52,7 @@
           }
         },
         {
-          "caller": "0xBfDc26484c3B223ec9F40629f8FB4432780DB843",
+          "caller": "0x1353e0761fAd723CCff02f91f19768d83Fc1c41e",
           "comment": "map(uint256): 42 -> 64",
           "instance": "C",
           "method": "map(uint256)",
@@ -67,20 +67,20 @@
           }
         },
         {
-          "caller": "0xBfDc26484c3B223ec9F40629f8FB4432780DB843",
+          "caller": "0x1353e0761fAd723CCff02f91f19768d83Fc1c41e",
           "comment": "d() -> 0",
           "instance": "C",
           "method": "d()",
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0xBfDc26484c3B223ec9F40629f8FB4432780DB843",
+          "caller": "0x1353e0761fAd723CCff02f91f19768d83Fc1c41e",
           "comment": "n2() ->",
           "instance": "C",
           "method": "n2()",
@@ -90,7 +90,7 @@
           }
         },
         {
-          "caller": "0xBfDc26484c3B223ec9F40629f8FB4432780DB843",
+          "caller": "0x1353e0761fAd723CCff02f91f19768d83Fc1c41e",
           "comment": "map(uint256): 42 -> 64",
           "instance": "C",
           "method": "map(uint256)",

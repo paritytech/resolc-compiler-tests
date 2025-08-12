@@ -4,20 +4,20 @@
       "name": "constructor_with_params",
       "inputs": [
         {
-          "caller": "0x4a0e93932653967b3d639f32068eeb5439c92F02",
+          "caller": "0x72c7A47C5D01BDdf9067EaBb345f5DAaBDEAd13f",
           "comment": "constructor(): 2, 0 ->; gas irOptimized: 81170; gas irOptimized code: 20200; gas legacy: 83613; gas legacy code: 32000",
           "instance": "C",
           "method": "#deployer",
           "calldata": [
             "0x02",
-            "0x"
+            "0x00"
           ],
           "expected": {
             "exception": false
           }
         },
         {
-          "caller": "0x4a0e93932653967b3d639f32068eeb5439c92F02",
+          "caller": "0x72c7A47C5D01BDdf9067EaBb345f5DAaBDEAd13f",
           "comment": "i() -> 2",
           "instance": "C",
           "method": "i()",
@@ -30,14 +30,14 @@
           }
         },
         {
-          "caller": "0x4a0e93932653967b3d639f32068eeb5439c92F02",
+          "caller": "0x72c7A47C5D01BDdf9067EaBb345f5DAaBDEAd13f",
           "comment": "k() -> 0",
           "instance": "C",
           "method": "k()",
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }

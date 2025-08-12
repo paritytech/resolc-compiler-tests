@@ -9,11 +9,11 @@
           "instance": "test",
           "method": "m1(uint256)",
           "calldata": [
-            "0x"
+            "0x00"
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
@@ -28,7 +28,7 @@
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
@@ -43,7 +43,7 @@
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
@@ -67,11 +67,11 @@
           "instance": "test",
           "method": "m1(uint256)",
           "calldata": [
-            "0x"
+            "0x00"
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
@@ -101,7 +101,7 @@
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
@@ -112,7 +112,7 @@
           "instance": "test",
           "method": "set(uint256,uint256)",
           "calldata": [
-            "0x",
+            "0x00",
             "0xef"
           ],
           "expected": {
@@ -125,7 +125,7 @@
           "instance": "test",
           "method": "m1(uint256)",
           "calldata": [
-            "0x"
+            "0x00"
           ],
           "expected": {
             "return_data": [
@@ -159,7 +159,7 @@
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
@@ -183,7 +183,7 @@
           "instance": "test",
           "method": "m1(uint256)",
           "calldata": [
-            "0x"
+            "0x00"
           ],
           "expected": {
             "return_data": [
@@ -217,7 +217,7 @@
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
@@ -228,12 +228,12 @@
           "instance": "test",
           "method": "m2(uint256,uint256)",
           "calldata": [
-            "0x",
-            "0x"
+            "0x00",
+            "0x00"
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
@@ -244,12 +244,12 @@
           "instance": "test",
           "method": "m2(uint256,uint256)",
           "calldata": [
-            "0x",
+            "0x00",
             "0x01"
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
@@ -261,11 +261,11 @@
           "method": "m2(uint256,uint256)",
           "calldata": [
             "0xa7",
-            "0x"
+            "0x00"
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
@@ -281,7 +281,7 @@
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
@@ -306,12 +306,12 @@
           "instance": "test",
           "method": "m2(uint256,uint256)",
           "calldata": [
-            "0x",
+            "0x00",
             "0x01"
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
@@ -323,11 +323,11 @@
           "method": "m2(uint256,uint256)",
           "calldata": [
             "0xa7",
-            "0x"
+            "0x00"
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
@@ -354,7 +354,7 @@
           "instance": "test",
           "method": "set(uint256,uint256,uint256)",
           "calldata": [
-            "0x",
+            "0x00",
             "0x01",
             "0xef"
           ],
@@ -368,7 +368,7 @@
           "instance": "test",
           "method": "m2(uint256,uint256)",
           "calldata": [
-            "0x",
+            "0x00",
             "0x01"
           ],
           "expected": {
@@ -385,11 +385,11 @@
           "method": "m2(uint256,uint256)",
           "calldata": [
             "0xa7",
-            "0x"
+            "0x00"
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }

@@ -4,33 +4,33 @@
       "name": "malformed_panic_4",
       "inputs": [
         {
-          "caller": "0x7F1d642DbfD62aD4A8fA9810eA619707d09825D0",
+          "caller": "0x5935897A39AFABbedA5a599D38236E7Df151C8b8",
           "comment": "a() -> 0x00",
           "instance": "C",
           "method": "a()",
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0x7F1d642DbfD62aD4A8fA9810eA619707d09825D0",
+          "caller": "0x5935897A39AFABbedA5a599D38236E7Df151C8b8",
           "comment": "b() -> 0x00",
           "instance": "C",
           "method": "b()",
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0x7F1d642DbfD62aD4A8fA9810eA619707d09825D0",
+          "caller": "0x5935897A39AFABbedA5a599D38236E7Df151C8b8",
           "comment": "c() -> 0x43",
           "instance": "C",
           "method": "c()",

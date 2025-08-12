@@ -4,7 +4,7 @@
       "name": "subassembly_deduplication",
       "inputs": [
         {
-          "caller": "0x0Cf555f691d7Bab8A429b9e4976D5Def0F51c17c",
+          "caller": "0x2921BDD05002c00C103259C7f0490F5F3Cf6bd47",
           "comment": "test() -> true",
           "instance": "C",
           "method": "test()",

@@ -4,7 +4,7 @@
       "name": "constructor",
       "inputs": [
         {
-          "caller": "0x674087CcF021ecBefeEE5404ee93eeE01599e927",
+          "caller": "0xbEdB752F262aABE55d30F77c159394011C5b49f7",
           "comment": "constructor(): 1, 2, 3; gas irOptimized: 104178; gas irOptimized code: 30000; gas legacy: 114749; gas legacy code: 71400; gas legacyOptimized: 106296; gas legacyOptimized code: 31400",
           "instance": "C",
           "method": "#deployer",
@@ -18,7 +18,7 @@
           }
         },
         {
-          "caller": "0x674087CcF021ecBefeEE5404ee93eeE01599e927",
+          "caller": "0xbEdB752F262aABE55d30F77c159394011C5b49f7",
           "comment": "x() -> 2",
           "instance": "C",
           "method": "x()",
@@ -31,7 +31,7 @@
           }
         },
         {
-          "caller": "0x674087CcF021ecBefeEE5404ee93eeE01599e927",
+          "caller": "0xbEdB752F262aABE55d30F77c159394011C5b49f7",
           "comment": "y() -> 4",
           "instance": "C",
           "method": "y()",
@@ -44,7 +44,7 @@
           }
         },
         {
-          "caller": "0x674087CcF021ecBefeEE5404ee93eeE01599e927",
+          "caller": "0xbEdB752F262aABE55d30F77c159394011C5b49f7",
           "comment": "z() -> 6",
           "instance": "C",
           "method": "z()",

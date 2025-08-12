@@ -4,7 +4,7 @@
       "name": "selfbalance",
       "inputs": [
         {
-          "caller": "0x337b74971eAAfB02646622E84978d62816be1Fdf",
+          "caller": "0xc3316da7120D88032cB0632F619640735694D2Dc",
           "comment": "f(), 254 wei -> 254",
           "instance": "C",
           "method": "f()",

@@ -4,23 +4,23 @@
       "name": "struct_mapping_abstract_constructor_param",
       "inputs": [
         {
-          "caller": "0x19D8511fC3842e0B65C032a0C189712cfF4FcBdB",
+          "caller": "0x169Ec1283999D6A1e9dfc30949482d068051dD72",
           "comment": "getM(uint256,uint256): 0, 0 -> 0",
           "instance": "C",
           "method": "getM(uint256,uint256)",
           "calldata": [
-            "0x",
-            "0x"
+            "0x00",
+            "0x00"
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0x19D8511fC3842e0B65C032a0C189712cfF4FcBdB",
+          "caller": "0x169Ec1283999D6A1e9dfc30949482d068051dD72",
           "comment": "getM(uint256,uint256): 1, 5 -> 0x10",
           "instance": "C",
           "method": "getM(uint256,uint256)",
@@ -36,17 +36,17 @@
           }
         },
         {
-          "caller": "0x19D8511fC3842e0B65C032a0C189712cfF4FcBdB",
+          "caller": "0x169Ec1283999D6A1e9dfc30949482d068051dD72",
           "comment": "getM(uint256,uint256): 1, 0 -> 0",
           "instance": "C",
           "method": "getM(uint256,uint256)",
           "calldata": [
             "0x01",
-            "0x"
+            "0x00"
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }

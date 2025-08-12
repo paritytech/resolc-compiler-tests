@@ -4,21 +4,21 @@
       "name": "transient_state_variable_slot_offset",
       "inputs": [
         {
-          "caller": "0x4e9E57cc74830AE255771cE944a977F976Fb9A3F",
+          "caller": "0xA88743d49Cb1dBe421633eC506592C1a89bf486a",
           "comment": "xSlotOffset() -> 0, 0",
           "instance": "C",
           "method": "xSlotOffset()",
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x",
-              "0x"
+              "0x00",
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0x4e9E57cc74830AE255771cE944a977F976Fb9A3F",
+          "caller": "0xA88743d49Cb1dBe421633eC506592C1a89bf486a",
           "comment": "ySlotOffset() -> 7, 0",
           "instance": "C",
           "method": "ySlotOffset()",
@@ -26,13 +26,13 @@
           "expected": {
             "return_data": [
               "0x07",
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0x4e9E57cc74830AE255771cE944a977F976Fb9A3F",
+          "caller": "0xA88743d49Cb1dBe421633eC506592C1a89bf486a",
           "comment": "wSlotOffset() -> 1, 0",
           "instance": "C",
           "method": "wSlotOffset()",
@@ -40,13 +40,13 @@
           "expected": {
             "return_data": [
               "0x01",
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0x4e9E57cc74830AE255771cE944a977F976Fb9A3F",
+          "caller": "0xA88743d49Cb1dBe421633eC506592C1a89bf486a",
           "comment": "zSlotOffset() -> 8, 0",
           "instance": "C",
           "method": "zSlotOffset()",
@@ -54,7 +54,7 @@
           "expected": {
             "return_data": [
               "0x08",
-              "0x"
+              "0x00"
             ],
             "exception": false
           }

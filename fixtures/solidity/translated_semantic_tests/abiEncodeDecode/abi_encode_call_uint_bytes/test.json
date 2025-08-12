@@ -4,7 +4,7 @@
       "name": "abi_encode_call_uint_bytes",
       "inputs": [
         {
-          "caller": "0x06BaB76F512b0f66ff15CC44B620CeFd1084C886",
+          "caller": "0x40e519d2B3DE6ca483F9aDbDCe4c2Aa3e2ab6c50",
           "comment": "f() -> 0x20, 0x60, 0x1234000000000000000000000000000000000000000000000000000000000000, 0x6162000000000000000000000000000000000000000000000000000000000000, 0x1234000000000000000000000000000000000000000000000000000000000000",
           "instance": "C",
           "method": "f()",
@@ -21,7 +21,7 @@
           }
         },
         {
-          "caller": "0x06BaB76F512b0f66ff15CC44B620CeFd1084C886",
+          "caller": "0x40e519d2B3DE6ca483F9aDbDCe4c2Aa3e2ab6c50",
           "comment": "f2() -> 0x20, 0x40, 0x1234, 0x1234",
           "instance": "C",
           "method": "f2()",

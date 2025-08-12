@@ -15,7 +15,7 @@
           "expected": {
             "return_data": [
               "0x14",
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
@@ -26,12 +26,12 @@
           "instance": "test",
           "method": "f(bool,uint256)",
           "calldata": [
-            "0x",
+            "0x00",
             "0x14"
           ],
           "expected": {
             "return_data": [
-              "0x",
+              "0x00",
               "0x14"
             ],
             "exception": false

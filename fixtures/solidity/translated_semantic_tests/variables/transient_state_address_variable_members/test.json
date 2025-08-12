@@ -14,13 +14,13 @@
           }
         },
         {
-          "comment": "balance: 0x200051E1CDeD828E35D62667E717D031aC5607e5 -> 1267650600228229401496703205376",
-          "address": "0x200051E1CDeD828E35D62667E717D031aC5607e5",
+          "comment": "balance: 0xb7e197565d51aA8a078B0B9860d9aC05eEf2F62c -> 1267650600228229401496703205376",
+          "address": "0xb7e197565d51aA8a078B0B9860d9aC05eEf2F62c",
           "expected_balance": "0x10000000000000000000000000",
           "caller": "0x23952e6b6aE9A89FDe6204bE4312cc9E4fE0c59a"
         },
         {
-          "caller": "0x200051E1CDeD828E35D62667E717D031aC5607e5",
+          "caller": "0xb7e197565d51aA8a078B0B9860d9aC05eEf2F62c",
           "comment": "f() -> 1267650600228229401496703205376",
           "instance": "C",
           "method": "f()",
@@ -33,14 +33,14 @@
           }
         },
         {
-          "caller": "0x200051E1CDeD828E35D62667E717D031aC5607e5",
+          "caller": "0xb7e197565d51aA8a078B0B9860d9aC05eEf2F62c",
           "comment": "g() -> 0",
           "instance": "C",
           "method": "g()",
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }

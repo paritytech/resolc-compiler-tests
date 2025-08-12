@@ -4,7 +4,7 @@
       "name": "strings",
       "inputs": [
         {
-          "caller": "0x28B6C95772B0957a02F8E652B60f86B242849325",
+          "caller": "0xdF89A440951CcFD3ae0Ba66852d236e7E31Dac8d",
           "comment": "constructor(); gas irOptimized: 95303; gas irOptimized code: 520000; gas legacy: 126346; gas legacy code: 932600; gas legacyOptimized: 102639; gas legacyOptimized code: 612400",
           "instance": "test",
           "method": "#deployer",
@@ -14,7 +14,7 @@
           }
         },
         {
-          "caller": "0x28B6C95772B0957a02F8E652B60f86B242849325",
+          "caller": "0xdF89A440951CcFD3ae0Ba66852d236e7E31Dac8d",
           "comment": "toSlice(string): 0x20, 11, \"hello world\" -> 11, 0xa0; gas irOptimized: 22660; gas legacy: 23190; gas legacyOptimized: 22508",
           "instance": "test",
           "method": "toSlice(string)",
@@ -32,7 +32,7 @@
           }
         },
         {
-          "caller": "0x28B6C95772B0957a02F8E652B60f86B242849325",
+          "caller": "0xdF89A440951CcFD3ae0Ba66852d236e7E31Dac8d",
           "comment": "roundtrip(string): 0x20, 11, \"hello world\" -> 0x20, 11, \"hello world\"; gas irOptimized: 23408; gas legacy: 23820; gas legacyOptimized: 23123",
           "instance": "test",
           "method": "roundtrip(string)",
@@ -51,7 +51,7 @@
           }
         },
         {
-          "caller": "0x28B6C95772B0957a02F8E652B60f86B242849325",
+          "caller": "0xdF89A440951CcFD3ae0Ba66852d236e7E31Dac8d",
           "comment": "utf8len(string): 0x20, 16, \"\\xf0\\x9f\\x98\\x83\\xf0\\x9f\\x98\\x83\\xf0\\x9f\\x98\\x83\\xf0\\x9f\\x98\\x83\" -> 4; gas irOptimized: 24026; gas legacy: 25716; gas legacyOptimized: 24115",
           "instance": "test",
           "method": "utf8len(string)",
@@ -68,7 +68,7 @@
           }
         },
         {
-          "caller": "0x28B6C95772B0957a02F8E652B60f86B242849325",
+          "caller": "0xdF89A440951CcFD3ae0Ba66852d236e7E31Dac8d",
           "comment": "multiconcat(string,uint256): 0x40, 3, 11, \"hello world\" -> 0x20, 0x58, 0x68656c6c6f20776f726c6468656c6c6f20776f726c6468656c6c6f20776f726c, 0x6468656c6c6f20776f726c6468656c6c6f20776f726c6468656c6c6f20776f72, 49027192869463622675296414541903001712009715982962058146354235762728281047040; gas irOptimized: 28440; gas legacy: 31621; gas legacyOptimized: 27914",
           "instance": "test",
           "method": "multiconcat(string,uint256)",
@@ -90,7 +90,7 @@
           }
         },
         {
-          "caller": "0x28B6C95772B0957a02F8E652B60f86B242849325",
+          "caller": "0xdF89A440951CcFD3ae0Ba66852d236e7E31Dac8d",
           "comment": "benchmark(string,bytes32): 0x40, 0x0842021, 8, \"solidity\" -> 0x2020; gas irOptimized: 1976778; gas legacy: 4234020; gas legacyOptimized: 2318668",
           "instance": "test",
           "method": "benchmark(string,bytes32)",

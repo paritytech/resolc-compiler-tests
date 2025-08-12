@@ -4,20 +4,20 @@
       "name": "multiple_functions",
       "inputs": [
         {
-          "caller": "0x06d31BD867343e5A9D8A82b99618253b38f63b8c",
+          "caller": "0x732aC438f8e6d7955D9bD5d62bAfbabCD019fD80",
           "comment": "a() -> 0",
           "instance": "test",
           "method": "a()",
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0x06d31BD867343e5A9D8A82b99618253b38f63b8c",
+          "caller": "0x732aC438f8e6d7955D9bD5d62bAfbabCD019fD80",
           "comment": "b() -> 1",
           "instance": "test",
           "method": "b()",
@@ -30,7 +30,7 @@
           }
         },
         {
-          "caller": "0x06d31BD867343e5A9D8A82b99618253b38f63b8c",
+          "caller": "0x732aC438f8e6d7955D9bD5d62bAfbabCD019fD80",
           "comment": "c() -> 2",
           "instance": "test",
           "method": "c()",
@@ -43,7 +43,7 @@
           }
         },
         {
-          "caller": "0x06d31BD867343e5A9D8A82b99618253b38f63b8c",
+          "caller": "0x732aC438f8e6d7955D9bD5d62bAfbabCD019fD80",
           "comment": "f() -> 3",
           "instance": "test",
           "method": "f()",
@@ -56,7 +56,7 @@
           }
         },
         {
-          "caller": "0x06d31BD867343e5A9D8A82b99618253b38f63b8c",
+          "caller": "0x732aC438f8e6d7955D9bD5d62bAfbabCD019fD80",
           "comment": "i_am_not_there() -> FAILURE",
           "instance": "test",
           "method": "i_am_not_there()",

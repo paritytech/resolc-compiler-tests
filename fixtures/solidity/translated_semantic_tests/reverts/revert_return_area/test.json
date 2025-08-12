@@ -4,14 +4,14 @@
       "name": "revert_return_area",
       "inputs": [
         {
-          "caller": "0x3B46d71636278C3fe3634D00Bb84EbEB051B5d30",
+          "caller": "0xf7f9cd772eC5f509287d08c21c5d97Ec3e4b7CdF",
           "comment": "f() -> 0x00, 0x08c379a000000000000000000000000000000000000000000000000000000000",
           "instance": "C",
           "method": "f()",
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x",
+              "0x00",
               "0x08c379a000000000000000000000000000000000000000000000000000000000"
             ],
             "exception": false

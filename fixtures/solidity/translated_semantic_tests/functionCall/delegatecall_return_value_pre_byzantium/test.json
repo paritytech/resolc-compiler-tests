@@ -4,20 +4,20 @@
       "name": "delegatecall_return_value_pre_byzantium",
       "inputs": [
         {
-          "caller": "0x51B7AA9B4bCcE1Fa09bF592DB5E6A9d13b60c10c",
+          "caller": "0x371a8682606cE34c71135D1aDe452C263dD46B26",
           "comment": "get() -> 0x00",
           "instance": "C",
           "method": "get()",
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0x51B7AA9B4bCcE1Fa09bF592DB5E6A9d13b60c10c",
+          "caller": "0x371a8682606cE34c71135D1aDe452C263dD46B26",
           "comment": "assert0_delegated() -> true",
           "instance": "C",
           "method": "assert0_delegated()",
@@ -30,7 +30,7 @@
           }
         },
         {
-          "caller": "0x51B7AA9B4bCcE1Fa09bF592DB5E6A9d13b60c10c",
+          "caller": "0x371a8682606cE34c71135D1aDe452C263dD46B26",
           "comment": "get_delegated() -> true",
           "instance": "C",
           "method": "get_delegated()",
@@ -43,7 +43,7 @@
           }
         },
         {
-          "caller": "0x51B7AA9B4bCcE1Fa09bF592DB5E6A9d13b60c10c",
+          "caller": "0x371a8682606cE34c71135D1aDe452C263dD46B26",
           "comment": "set(uint256): 0x01 ->",
           "instance": "C",
           "method": "set(uint256)",
@@ -55,7 +55,7 @@
           }
         },
         {
-          "caller": "0x51B7AA9B4bCcE1Fa09bF592DB5E6A9d13b60c10c",
+          "caller": "0x371a8682606cE34c71135D1aDe452C263dD46B26",
           "comment": "get() -> 0x01",
           "instance": "C",
           "method": "get()",
@@ -68,20 +68,20 @@
           }
         },
         {
-          "caller": "0x51B7AA9B4bCcE1Fa09bF592DB5E6A9d13b60c10c",
+          "caller": "0x371a8682606cE34c71135D1aDe452C263dD46B26",
           "comment": "assert0_delegated() -> false",
           "instance": "C",
           "method": "assert0_delegated()",
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0x51B7AA9B4bCcE1Fa09bF592DB5E6A9d13b60c10c",
+          "caller": "0x371a8682606cE34c71135D1aDe452C263dD46B26",
           "comment": "get_delegated() -> true",
           "instance": "C",
           "method": "get_delegated()",
@@ -94,7 +94,7 @@
           }
         },
         {
-          "caller": "0x51B7AA9B4bCcE1Fa09bF592DB5E6A9d13b60c10c",
+          "caller": "0x371a8682606cE34c71135D1aDe452C263dD46B26",
           "comment": "set(uint256): 0x2a ->",
           "instance": "C",
           "method": "set(uint256)",
@@ -106,7 +106,7 @@
           }
         },
         {
-          "caller": "0x51B7AA9B4bCcE1Fa09bF592DB5E6A9d13b60c10c",
+          "caller": "0x371a8682606cE34c71135D1aDe452C263dD46B26",
           "comment": "get() -> 0x2a",
           "instance": "C",
           "method": "get()",
@@ -119,20 +119,20 @@
           }
         },
         {
-          "caller": "0x51B7AA9B4bCcE1Fa09bF592DB5E6A9d13b60c10c",
+          "caller": "0x371a8682606cE34c71135D1aDe452C263dD46B26",
           "comment": "assert0_delegated() -> false",
           "instance": "C",
           "method": "assert0_delegated()",
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0x51B7AA9B4bCcE1Fa09bF592DB5E6A9d13b60c10c",
+          "caller": "0x371a8682606cE34c71135D1aDe452C263dD46B26",
           "comment": "get_delegated() -> true",
           "instance": "C",
           "method": "get_delegated()",

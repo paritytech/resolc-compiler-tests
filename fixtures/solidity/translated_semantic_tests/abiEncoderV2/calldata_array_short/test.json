@@ -4,20 +4,20 @@
       "name": "calldata_array_short",
       "inputs": [
         {
-          "caller": "0x2a1648C79F5bC22E0540581EC6a441b4C2D22726",
+          "caller": "0x8A50C218f9a291982A3Bc671b5f6dD97DA603296",
           "comment": "f(uint256[]): 0x20, 0 ->",
           "instance": "C",
           "method": "f(uint256[])",
           "calldata": [
             "0x20",
-            "0x"
+            "0x00"
           ],
           "expected": {
             "exception": false
           }
         },
         {
-          "caller": "0x2a1648C79F5bC22E0540581EC6a441b4C2D22726",
+          "caller": "0x8A50C218f9a291982A3Bc671b5f6dD97DA603296",
           "comment": "f(uint256[]): 0x20, 1 -> FAILURE",
           "instance": "C",
           "method": "f(uint256[])",
@@ -30,7 +30,7 @@
           }
         },
         {
-          "caller": "0x2a1648C79F5bC22E0540581EC6a441b4C2D22726",
+          "caller": "0x8A50C218f9a291982A3Bc671b5f6dD97DA603296",
           "comment": "f(uint256[]): 0x20, 2 -> FAILURE",
           "instance": "C",
           "method": "f(uint256[])",

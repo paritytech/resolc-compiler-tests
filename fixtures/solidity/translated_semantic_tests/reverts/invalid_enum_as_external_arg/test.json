@@ -4,7 +4,7 @@
       "name": "invalid_enum_as_external_arg",
       "inputs": [
         {
-          "caller": "0xE75721D039E8D1fEAA9e59b19cE344A2B1eA6751",
+          "caller": "0x70f291d1113A312a38BeA4e3EF8B53b8455D68aa",
           "comment": "test() -> FAILURE, hex\"4e487b71\", 0x21",
           "instance": "C",
           "method": "test()",

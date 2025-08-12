@@ -4,7 +4,7 @@
       "name": "call_unimplemented_base",
       "inputs": [
         {
-          "caller": "0x022c53567A99D26aAbDd033B4Efef258ED6DD76A",
+          "caller": "0x4B4733799E141B63F74694dc8B0beA4506A2a41F",
           "comment": "b() -> 42",
           "instance": "C",
           "method": "b()",

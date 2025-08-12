@@ -4,21 +4,21 @@
       "name": "dynamic_arrays_in_storage",
       "inputs": [
         {
-          "caller": "0x14672fd74C1013b5f1A9e662dC5864eBb9b9264d",
+          "caller": "0xD4142994A365BDAB27d085f3dC4A232A04E25a86",
           "comment": "getLengths() -> 0, 0",
           "instance": "c",
           "method": "getLengths()",
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x",
-              "0x"
+              "0x00",
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0x14672fd74C1013b5f1A9e662dC5864eBb9b9264d",
+          "caller": "0xD4142994A365BDAB27d085f3dC4A232A04E25a86",
           "comment": "setLengths(uint256,uint256): 48, 49 ->; gas irOptimized: 112674; gas legacy: 108272; gas legacyOptimized: 100268",
           "instance": "c",
           "method": "setLengths(uint256,uint256)",
@@ -31,7 +31,7 @@
           }
         },
         {
-          "caller": "0x14672fd74C1013b5f1A9e662dC5864eBb9b9264d",
+          "caller": "0xD4142994A365BDAB27d085f3dC4A232A04E25a86",
           "comment": "getLengths() -> 48, 49",
           "instance": "c",
           "method": "getLengths()",
@@ -45,7 +45,7 @@
           }
         },
         {
-          "caller": "0x14672fd74C1013b5f1A9e662dC5864eBb9b9264d",
+          "caller": "0xD4142994A365BDAB27d085f3dC4A232A04E25a86",
           "comment": "setIDStatic(uint256): 11 ->",
           "instance": "c",
           "method": "setIDStatic(uint256)",
@@ -57,7 +57,7 @@
           }
         },
         {
-          "caller": "0x14672fd74C1013b5f1A9e662dC5864eBb9b9264d",
+          "caller": "0xD4142994A365BDAB27d085f3dC4A232A04E25a86",
           "comment": "getID(uint256): 2 -> 11",
           "instance": "c",
           "method": "getID(uint256)",
@@ -72,7 +72,7 @@
           }
         },
         {
-          "caller": "0x14672fd74C1013b5f1A9e662dC5864eBb9b9264d",
+          "caller": "0xD4142994A365BDAB27d085f3dC4A232A04E25a86",
           "comment": "setID(uint256,uint256): 7, 8 ->",
           "instance": "c",
           "method": "setID(uint256,uint256)",
@@ -85,7 +85,7 @@
           }
         },
         {
-          "caller": "0x14672fd74C1013b5f1A9e662dC5864eBb9b9264d",
+          "caller": "0xD4142994A365BDAB27d085f3dC4A232A04E25a86",
           "comment": "getID(uint256): 7 -> 8",
           "instance": "c",
           "method": "getID(uint256)",
@@ -100,7 +100,7 @@
           }
         },
         {
-          "caller": "0x14672fd74C1013b5f1A9e662dC5864eBb9b9264d",
+          "caller": "0xD4142994A365BDAB27d085f3dC4A232A04E25a86",
           "comment": "setData(uint256,uint256,uint256): 7, 8, 9 ->",
           "instance": "c",
           "method": "setData(uint256,uint256,uint256)",
@@ -114,7 +114,7 @@
           }
         },
         {
-          "caller": "0x14672fd74C1013b5f1A9e662dC5864eBb9b9264d",
+          "caller": "0xD4142994A365BDAB27d085f3dC4A232A04E25a86",
           "comment": "setData(uint256,uint256,uint256): 8, 10, 11 ->",
           "instance": "c",
           "method": "setData(uint256,uint256,uint256)",
@@ -128,7 +128,7 @@
           }
         },
         {
-          "caller": "0x14672fd74C1013b5f1A9e662dC5864eBb9b9264d",
+          "caller": "0xD4142994A365BDAB27d085f3dC4A232A04E25a86",
           "comment": "getData(uint256): 7 -> 8, 9",
           "instance": "c",
           "method": "getData(uint256)",
@@ -144,7 +144,7 @@
           }
         },
         {
-          "caller": "0x14672fd74C1013b5f1A9e662dC5864eBb9b9264d",
+          "caller": "0xD4142994A365BDAB27d085f3dC4A232A04E25a86",
           "comment": "getData(uint256): 8 -> 10, 11",
           "instance": "c",
           "method": "getData(uint256)",

@@ -4,20 +4,20 @@
       "name": "access_through_module_name",
       "inputs": [
         {
-          "caller": "0xD917a1c6cE2b52E446341D9275846BF578a322F0",
+          "caller": "0x34082F555aa6822c71e6eAB22956B5Da6BcF4eE5",
           "comment": "x() -> 0x00",
           "instance": "C",
           "method": "x()",
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0xD917a1c6cE2b52E446341D9275846BF578a322F0",
+          "caller": "0x34082F555aa6822c71e6eAB22956B5Da6BcF4eE5",
           "comment": "f() -> 1, 9",
           "instance": "C",
           "method": "f()",
@@ -31,7 +31,7 @@
           }
         },
         {
-          "caller": "0xD917a1c6cE2b52E446341D9275846BF578a322F0",
+          "caller": "0x34082F555aa6822c71e6eAB22956B5Da6BcF4eE5",
           "comment": "x() -> 3",
           "instance": "C",
           "method": "x()",
@@ -44,7 +44,7 @@
           }
         },
         {
-          "caller": "0xD917a1c6cE2b52E446341D9275846BF578a322F0",
+          "caller": "0x34082F555aa6822c71e6eAB22956B5Da6BcF4eE5",
           "comment": "g() -> 1, 0x0a",
           "instance": "C",
           "method": "g()",
@@ -58,7 +58,7 @@
           }
         },
         {
-          "caller": "0xD917a1c6cE2b52E446341D9275846BF578a322F0",
+          "caller": "0x34082F555aa6822c71e6eAB22956B5Da6BcF4eE5",
           "comment": "x() -> 4",
           "instance": "C",
           "method": "x()",
@@ -71,7 +71,7 @@
           }
         },
         {
-          "caller": "0xD917a1c6cE2b52E446341D9275846BF578a322F0",
+          "caller": "0x34082F555aa6822c71e6eAB22956B5Da6BcF4eE5",
           "comment": "f() -> 1, 9",
           "instance": "C",
           "method": "f()",
@@ -85,7 +85,7 @@
           }
         },
         {
-          "caller": "0xD917a1c6cE2b52E446341D9275846BF578a322F0",
+          "caller": "0x34082F555aa6822c71e6eAB22956B5Da6BcF4eE5",
           "comment": "x() -> 3",
           "instance": "C",
           "method": "x()",

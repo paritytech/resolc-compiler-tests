@@ -4,7 +4,7 @@
       "name": "constant_string_literal",
       "inputs": [
         {
-          "caller": "0x739Ed8A324EA923971176d33c9A79875B67cf4d7",
+          "caller": "0x160D42a1D559CFC8dCCecD2d6aa73002eA4cA10e",
           "comment": "b() -> 0x6162636465666768696a6b6c6d6e6f7071000000000000000000000000000000",
           "instance": "Test",
           "method": "b()",
@@ -17,7 +17,7 @@
           }
         },
         {
-          "caller": "0x739Ed8A324EA923971176d33c9A79875B67cf4d7",
+          "caller": "0x160D42a1D559CFC8dCCecD2d6aa73002eA4cA10e",
           "comment": "x() -> 0x20, 0x35, 0x616265666768696a6b6c6d6e6f70716162636465666768696a6b6c6d6e6f7071, 44048183304486788312148433451363384677562177293131179093971701692629931524096",
           "instance": "Test",
           "method": "x()",
@@ -33,7 +33,7 @@
           }
         },
         {
-          "caller": "0x739Ed8A324EA923971176d33c9A79875B67cf4d7",
+          "caller": "0x160D42a1D559CFC8dCCecD2d6aa73002eA4cA10e",
           "comment": "getB() -> 0x6162636465666768696a6b6c6d6e6f7071000000000000000000000000000000",
           "instance": "Test",
           "method": "getB()",
@@ -46,7 +46,7 @@
           }
         },
         {
-          "caller": "0x739Ed8A324EA923971176d33c9A79875B67cf4d7",
+          "caller": "0x160D42a1D559CFC8dCCecD2d6aa73002eA4cA10e",
           "comment": "getX() -> 0x20, 0x35, 0x616265666768696a6b6c6d6e6f70716162636465666768696a6b6c6d6e6f7071, 44048183304486788312148433451363384677562177293131179093971701692629931524096",
           "instance": "Test",
           "method": "getX()",
@@ -62,7 +62,7 @@
           }
         },
         {
-          "caller": "0x739Ed8A324EA923971176d33c9A79875B67cf4d7",
+          "caller": "0x160D42a1D559CFC8dCCecD2d6aa73002eA4cA10e",
           "comment": "getX2() -> 0x20, 0x35, 0x616265666768696a6b6c6d6e6f70716162636465666768696a6b6c6d6e6f7071, 44048183304486788312148433451363384677562177293131179093971701692629931524096",
           "instance": "Test",
           "method": "getX2()",
@@ -78,7 +78,7 @@
           }
         },
         {
-          "caller": "0x739Ed8A324EA923971176d33c9A79875B67cf4d7",
+          "caller": "0x160D42a1D559CFC8dCCecD2d6aa73002eA4cA10e",
           "comment": "unused() -> 2",
           "instance": "Test",
           "method": "unused()",

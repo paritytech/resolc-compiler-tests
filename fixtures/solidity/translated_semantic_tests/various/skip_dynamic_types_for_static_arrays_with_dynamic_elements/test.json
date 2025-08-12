@@ -4,7 +4,7 @@
       "name": "skip_dynamic_types_for_static_arrays_with_dynamic_elements",
       "inputs": [
         {
-          "caller": "0x7Bc7399A3af04b3F22A7Bb82990f8a4Dd859Ba47",
+          "caller": "0xD473508FD1eeEB33982693787390975d9001c859",
           "comment": "g() -> 5, 6",
           "instance": "C",
           "method": "g()",

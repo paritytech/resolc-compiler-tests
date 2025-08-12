@@ -4,14 +4,14 @@
       "name": "asm_address_constant_regression",
       "inputs": [
         {
-          "caller": "0xfAB7264909Ce70EEA9ab0627197666B3c6b7E29B",
+          "caller": "0xB9B4184f7aE7B57909Ccdf39326fF220e2770324",
           "comment": "f() -> 0x00",
           "instance": "C",
           "method": "f()",
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }

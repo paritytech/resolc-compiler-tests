@@ -4,7 +4,7 @@
       "name": "array_storage_index_boundary_test",
       "inputs": [
         {
-          "caller": "0x3Bc5ae281F48f7Fd9F7eB712A1574d772131fa99",
+          "caller": "0x6D399bC2689b3D30d439d03f662321b7A65c8F6c",
           "comment": "test_boundary_check(uint256,uint256): 10, 11 -> FAILURE, hex\"4e487b71\", 0x32",
           "instance": "C",
           "method": "test_boundary_check(uint256,uint256)",
@@ -21,7 +21,7 @@
           }
         },
         {
-          "caller": "0x3Bc5ae281F48f7Fd9F7eB712A1574d772131fa99",
+          "caller": "0x6D399bC2689b3D30d439d03f662321b7A65c8F6c",
           "comment": "test_boundary_check(uint256,uint256): 10, 9 -> 0",
           "instance": "C",
           "method": "test_boundary_check(uint256,uint256)",
@@ -31,13 +31,13 @@
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0x3Bc5ae281F48f7Fd9F7eB712A1574d772131fa99",
+          "caller": "0x6D399bC2689b3D30d439d03f662321b7A65c8F6c",
           "comment": "test_boundary_check(uint256,uint256): 1, 9 -> FAILURE, hex\"4e487b71\", 0x32",
           "instance": "C",
           "method": "test_boundary_check(uint256,uint256)",
@@ -54,7 +54,7 @@
           }
         },
         {
-          "caller": "0x3Bc5ae281F48f7Fd9F7eB712A1574d772131fa99",
+          "caller": "0x6D399bC2689b3D30d439d03f662321b7A65c8F6c",
           "comment": "test_boundary_check(uint256,uint256): 1, 1 -> FAILURE, hex\"4e487b71\", 0x32",
           "instance": "C",
           "method": "test_boundary_check(uint256,uint256)",
@@ -71,7 +71,7 @@
           }
         },
         {
-          "caller": "0x3Bc5ae281F48f7Fd9F7eB712A1574d772131fa99",
+          "caller": "0x6D399bC2689b3D30d439d03f662321b7A65c8F6c",
           "comment": "test_boundary_check(uint256,uint256): 10, 10 -> FAILURE, hex\"4e487b71\", 0x32",
           "instance": "C",
           "method": "test_boundary_check(uint256,uint256)",
@@ -88,7 +88,7 @@
           }
         },
         {
-          "caller": "0x3Bc5ae281F48f7Fd9F7eB712A1574d772131fa99",
+          "caller": "0x6D399bC2689b3D30d439d03f662321b7A65c8F6c",
           "comment": "test_boundary_check(uint256,uint256): 256, 256 -> FAILURE, hex\"4e487b71\", 0x32; gas irOptimized: 147246; gas legacy: 133632; gas legacyOptimized: 114353",
           "instance": "C",
           "method": "test_boundary_check(uint256,uint256)",
@@ -105,7 +105,7 @@
           }
         },
         {
-          "caller": "0x3Bc5ae281F48f7Fd9F7eB712A1574d772131fa99",
+          "caller": "0x6D399bC2689b3D30d439d03f662321b7A65c8F6c",
           "comment": "test_boundary_check(uint256,uint256): 256, 255 -> 0; gas irOptimized: 149422; gas legacy: 135948; gas legacyOptimized: 116532",
           "instance": "C",
           "method": "test_boundary_check(uint256,uint256)",
@@ -115,13 +115,13 @@
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0x3Bc5ae281F48f7Fd9F7eB712A1574d772131fa99",
+          "caller": "0x6D399bC2689b3D30d439d03f662321b7A65c8F6c",
           "comment": "test_boundary_check(uint256,uint256): 256, 0xFFFF -> FAILURE, hex\"4e487b71\", 0x32",
           "instance": "C",
           "method": "test_boundary_check(uint256,uint256)",
@@ -138,7 +138,7 @@
           }
         },
         {
-          "caller": "0x3Bc5ae281F48f7Fd9F7eB712A1574d772131fa99",
+          "caller": "0x6D399bC2689b3D30d439d03f662321b7A65c8F6c",
           "comment": "test_boundary_check(uint256,uint256): 256, 2 -> 0",
           "instance": "C",
           "method": "test_boundary_check(uint256,uint256)",
@@ -148,7 +148,7 @@
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }

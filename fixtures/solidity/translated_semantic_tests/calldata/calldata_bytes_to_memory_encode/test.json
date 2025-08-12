@@ -4,7 +4,7 @@
       "name": "calldata_bytes_to_memory_encode",
       "inputs": [
         {
-          "caller": "0xd6dC4C39c757604822Adc47BFD9b13AA2dE4df32",
+          "caller": "0xc76f012e39424426436D892A3394606963618Ff2",
           "comment": "f(bytes): 0x20, 0x08, \"abcdefgh\" -> 0x20, 0x60, 0x20, 8, 44048183304486788309563647967830685498285570828042699209880294173606615711744",
           "instance": "C",
           "method": "f(bytes)",

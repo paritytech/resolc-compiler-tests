@@ -336,14 +336,16 @@ impl IOValues {
     /// Creates an iterator of hexadecimal strings of the words.
     pub fn hex_strings_iterator(&self) -> impl Iterator<Item = String> {
         self.as_inner().iter().map(|word| {
-            format!(
-                "0x{}",
-                word.iter()
-                    .skip_while(|value| **value == 0)
-                    .copied()
-                    .collect::<Vec<_>>()
-                    .encode_hex()
-            )
+            let mut bytes = word
+                .iter()
+                .skip_while(|value| **value == 0)
+                .copied()
+                .collect::<Vec<_>>();
+            if bytes.is_empty() {
+                bytes.push(0);
+            }
+
+            format!("0x{}", bytes.encode_hex())
         })
     }
 }

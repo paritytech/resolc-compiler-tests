@@ -4,20 +4,20 @@
       "name": "mediocre_struct",
       "inputs": [
         {
-          "caller": "0x493c8bC625ce5Ca0B9cdd1eA9D939757721480eE",
+          "caller": "0x2946A35AaF53AB85986E2bd5DA3f4FD56e6eEAE3",
           "comment": "f(uint256,(address)[2],uint256): 7, 0, 0, 8 -> 7, 0, 8",
           "instance": "C",
           "method": "f(uint256,(address)[2],uint256)",
           "calldata": [
             "0x07",
-            "0x",
-            "0x",
+            "0x00",
+            "0x00",
             "0x08"
           ],
           "expected": {
             "return_data": [
               "0x07",
-              "0x",
+              "0x00",
               "0x08"
             ],
             "exception": false

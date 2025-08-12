@@ -9,7 +9,7 @@
           "instance": "C",
           "method": "f(bool)",
           "calldata": [
-            "0x"
+            "0x00"
           ],
           "expected": {
             "return_data": [
@@ -27,7 +27,7 @@
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }

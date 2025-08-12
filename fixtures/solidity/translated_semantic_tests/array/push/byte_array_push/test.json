@@ -4,14 +4,14 @@
       "name": "byte_array_push",
       "inputs": [
         {
-          "caller": "0x4214C985b0402B8d3d8a4C173b174218aB1aDB7C",
+          "caller": "0x01C1e43545FfCa5C2635b5393289D9d2ACb83777",
           "comment": "test() -> false",
           "instance": "c",
           "method": "test()",
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }

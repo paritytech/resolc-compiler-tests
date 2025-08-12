@@ -4,14 +4,14 @@
       "name": "byte_array_transitional_2",
       "inputs": [
         {
-          "caller": "0xdd9d6c7F96ccFf7128C7F976E86927993E747344",
+          "caller": "0x5F8720e9b95c8605d936E34F22d6Cf7D71C4Be65",
           "comment": "test() -> 0; gas irOptimized: 122717; gas legacy: 147108; gas legacyOptimized: 144200",
           "instance": "c",
           "method": "test()",
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }

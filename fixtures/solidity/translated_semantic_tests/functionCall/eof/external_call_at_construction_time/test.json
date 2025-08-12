@@ -4,19 +4,19 @@
       "name": "external_call_at_construction_time",
       "inputs": [
         {
-          "caller": "0x86b1B106aeac5c5d2b16F9596755811CF976f34E",
+          "caller": "0x42BAD1F7f974dB66B46CF53758b14BB246035279",
           "comment": "f(uint256): 0 -> FAILURE",
           "instance": "C",
           "method": "f(uint256)",
           "calldata": [
-            "0x"
+            "0x00"
           ],
           "expected": {
             "exception": true
           }
         },
         {
-          "caller": "0x86b1B106aeac5c5d2b16F9596755811CF976f34E",
+          "caller": "0x42BAD1F7f974dB66B46CF53758b14BB246035279",
           "comment": "f(uint256): 1 -> FAILURE",
           "instance": "C",
           "method": "f(uint256)",
@@ -28,7 +28,7 @@
           }
         },
         {
-          "caller": "0x86b1B106aeac5c5d2b16F9596755811CF976f34E",
+          "caller": "0x42BAD1F7f974dB66B46CF53758b14BB246035279",
           "comment": "f(uint256): 2 -> 3",
           "instance": "C",
           "method": "f(uint256)",

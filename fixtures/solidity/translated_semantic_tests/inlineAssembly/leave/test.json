@@ -4,7 +4,7 @@
       "name": "leave",
       "inputs": [
         {
-          "caller": "0x2Abc535f771112D410Ca31cF57c922442d98cA74",
+          "caller": "0xB3Ef70F39C555CE0BF9f3382b8b90B3d860Ce095",
           "comment": "f() -> 2",
           "instance": "C",
           "method": "f()",

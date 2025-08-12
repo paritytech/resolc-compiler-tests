@@ -9,13 +9,13 @@
           "instance": "X",
           "method": "test(uint256)",
           "calldata": [
-            "0x"
+            "0x00"
           ],
           "expected": {
             "return_data": [
-              "0x",
+              "0x00",
               "0x40",
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
@@ -30,9 +30,9 @@
           ],
           "expected": {
             "return_data": [
-              "0x",
+              "0x00",
               "0x40",
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
@@ -53,13 +53,13 @@
           "instance": "X",
           "method": "test(uint256)",
           "calldata": [
-            "0x"
+            "0x00"
           ],
           "expected": {
             "return_data": [
-              "0x",
+              "0x00",
               "0x40",
-              "0x"
+              "0x00"
             ],
             "exception": false
           }

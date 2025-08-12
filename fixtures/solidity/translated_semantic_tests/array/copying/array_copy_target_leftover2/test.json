@@ -4,7 +4,7 @@
       "name": "array_copy_target_leftover2",
       "inputs": [
         {
-          "caller": "0x0a53C1675d2bc61034c90b9731dC001F314F9EDc",
+          "caller": "0x656B65DDa61E16c97B0c6ae8eebCE4C1fb02bF4D",
           "comment": "test() -> 0x04000000000000000000000000000000000000000000000000, 0x0, 0x0; gas irOptimized: 93858; gas legacy: 97451; gas legacyOptimized: 94200",
           "instance": "c",
           "method": "test()",
@@ -12,8 +12,8 @@
           "expected": {
             "return_data": [
               "0x04000000000000000000000000000000000000000000000000",
-              "0x",
-              "0x"
+              "0x00",
+              "0x00"
             ],
             "exception": false
           }

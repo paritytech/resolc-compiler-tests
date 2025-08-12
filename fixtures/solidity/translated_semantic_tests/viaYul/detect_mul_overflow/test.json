@@ -240,11 +240,11 @@
           "method": "f(uint256,uint256)",
           "calldata": [
             "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
-            "0x"
+            "0x00"
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
@@ -255,12 +255,12 @@
           "instance": "C",
           "method": "f(uint256,uint256)",
           "calldata": [
-            "0x",
+            "0x00",
             "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
@@ -404,11 +404,11 @@
           "method": "g(uint8,uint8)",
           "calldata": [
             "0xff",
-            "0x"
+            "0x00"
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
@@ -419,12 +419,12 @@
           "instance": "C",
           "method": "g(uint8,uint8)",
           "calldata": [
-            "0x",
+            "0x00",
             "0xff"
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }

@@ -24,7 +24,7 @@
           "instance": "C",
           "method": "f(bool)",
           "calldata": [
-            "0x"
+            "0x00"
           ],
           "expected": {
             "exception": true
@@ -74,7 +74,7 @@
           "instance": "C",
           "method": "f2(bool)",
           "calldata": [
-            "0x"
+            "0x00"
           ],
           "expected": {
             "return_data": [
@@ -107,7 +107,7 @@
           "instance": "C",
           "method": "f3(bool)",
           "calldata": [
-            "0x"
+            "0x00"
           ],
           "expected": {
             "return_data": [
@@ -140,13 +140,13 @@
           "instance": "C",
           "method": "f4(bool)",
           "calldata": [
-            "0x"
+            "0x00"
           ],
           "expected": {
             "return_data": [
               "0x08c379a000000000000000000000000000000000000000000000000000000000",
               "0x2000000000000000000000000000000000000000000000000000000000",
-              "0x"
+              "0x00"
             ],
             "exception": true
           }

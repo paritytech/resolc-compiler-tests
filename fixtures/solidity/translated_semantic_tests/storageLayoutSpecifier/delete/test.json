@@ -4,7 +4,7 @@
       "name": "delete",
       "inputs": [
         {
-          "caller": "0x93bb3deFa5C60301c84A8f2298554af13bE6B8e3",
+          "caller": "0x4e9E57cc74830AE255771cE944a977F976Fb9A3F",
           "comment": "fillArray() -> 3; gas irOptimized: 111121; gas legacy: 110730; gas legacyOptimized: 110307",
           "instance": "C",
           "method": "fillArray()",
@@ -17,7 +17,7 @@
           }
         },
         {
-          "caller": "0x93bb3deFa5C60301c84A8f2298554af13bE6B8e3",
+          "caller": "0x4e9E57cc74830AE255771cE944a977F976Fb9A3F",
           "comment": "arrayLength() -> 3",
           "instance": "C",
           "method": "arrayLength()",
@@ -30,7 +30,7 @@
           }
         },
         {
-          "caller": "0x93bb3deFa5C60301c84A8f2298554af13bE6B8e3",
+          "caller": "0x4e9E57cc74830AE255771cE944a977F976Fb9A3F",
           "comment": "array(uint256): 2 -> 3",
           "instance": "C",
           "method": "array(uint256)",
@@ -45,7 +45,7 @@
           }
         },
         {
-          "caller": "0x93bb3deFa5C60301c84A8f2298554af13bE6B8e3",
+          "caller": "0x4e9E57cc74830AE255771cE944a977F976Fb9A3F",
           "comment": "deleteLast() ->",
           "instance": "C",
           "method": "deleteLast()",
@@ -55,7 +55,7 @@
           }
         },
         {
-          "caller": "0x93bb3deFa5C60301c84A8f2298554af13bE6B8e3",
+          "caller": "0x4e9E57cc74830AE255771cE944a977F976Fb9A3F",
           "comment": "array(uint256): 2 -> 0",
           "instance": "C",
           "method": "array(uint256)",
@@ -64,13 +64,13 @@
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0x93bb3deFa5C60301c84A8f2298554af13bE6B8e3",
+          "caller": "0x4e9E57cc74830AE255771cE944a977F976Fb9A3F",
           "comment": "deleteArray() ->",
           "instance": "C",
           "method": "deleteArray()",
@@ -80,14 +80,14 @@
           }
         },
         {
-          "caller": "0x93bb3deFa5C60301c84A8f2298554af13bE6B8e3",
+          "caller": "0x4e9E57cc74830AE255771cE944a977F976Fb9A3F",
           "comment": "arrayLength() -> 0",
           "instance": "C",
           "method": "arrayLength()",
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }

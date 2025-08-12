@@ -4,7 +4,7 @@
       "name": "library_delegatecall_guard_view_needed",
       "inputs": [
         {
-          "caller": "0x7121207b118BbaCF0340A989527474Bd4495c3C6",
+          "caller": "0x69F9f18B86b3668bf86D802091f21BEBDC3e36EA",
           "comment": "f() -> 1",
           "instance": "C",
           "method": "f()",
@@ -17,7 +17,7 @@
           }
         },
         {
-          "caller": "0x7121207b118BbaCF0340A989527474Bd4495c3C6",
+          "caller": "0x69F9f18B86b3668bf86D802091f21BEBDC3e36EA",
           "comment": "g() -> true, 1",
           "instance": "C",
           "method": "g()",
@@ -31,7 +31,7 @@
           }
         },
         {
-          "caller": "0x7121207b118BbaCF0340A989527474Bd4495c3C6",
+          "caller": "0x69F9f18B86b3668bf86D802091f21BEBDC3e36EA",
           "comment": "h() -> true, 0",
           "instance": "C",
           "method": "h()",
@@ -39,7 +39,7 @@
           "expected": {
             "return_data": [
               "0x01",
-              "0x"
+              "0x00"
             ],
             "exception": false
           }

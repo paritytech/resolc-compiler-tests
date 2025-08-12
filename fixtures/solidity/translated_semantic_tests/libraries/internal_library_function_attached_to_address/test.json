@@ -4,7 +4,7 @@
       "name": "internal_library_function_attached_to_address",
       "inputs": [
         {
-          "caller": "0xbDB7ff04152e424f3614489C8CfB20e09717b8f1",
+          "caller": "0x3ECB4f6Dfa8b124AD0ce64Be17f076BA855239A2",
           "comment": "foo(address,address): 0x111122223333444455556666777788889999aAaa, 0x111122223333444455556666777788889999aAaa -> true",
           "instance": "C",
           "method": "foo(address,address)",
@@ -20,17 +20,17 @@
           }
         },
         {
-          "caller": "0xbDB7ff04152e424f3614489C8CfB20e09717b8f1",
+          "caller": "0x3ECB4f6Dfa8b124AD0ce64Be17f076BA855239A2",
           "comment": "foo(address,address): 0x111122223333444455556666777788889999aAaa, 0x0000000000000000000000000000000000000000 -> false",
           "instance": "C",
           "method": "foo(address,address)",
           "calldata": [
             "0x111122223333444455556666777788889999aaaa",
-            "0x"
+            "0x00"
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }

@@ -4,16 +4,16 @@
       "name": "struct_delete_storage_nested_small",
       "inputs": [
         {
-          "caller": "0xbD7B567059c74A520a00086504068ADD7B4e8760",
+          "caller": "0x08963ADC118C91aed106aE1987bfd53fc3011249",
           "comment": "f() -> 0, 0, 0; gas irOptimized: 117101",
           "instance": "C",
           "method": "f()",
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x",
-              "0x",
-              "0x"
+              "0x00",
+              "0x00",
+              "0x00"
             ],
             "exception": false
           }

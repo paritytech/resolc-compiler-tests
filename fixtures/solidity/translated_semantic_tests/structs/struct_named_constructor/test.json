@@ -4,7 +4,7 @@
       "name": "struct_named_constructor",
       "inputs": [
         {
-          "caller": "0x4C2435f2D9192762210e255be7e8b4E5F4e5e26D",
+          "caller": "0xe11b870B95347309982DD118BF7b5b5dA1fA39b5",
           "comment": "s() -> 1, true",
           "instance": "C",
           "method": "s()",

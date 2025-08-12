@@ -4,7 +4,7 @@
       "name": "using_for_function_on_struct",
       "inputs": [
         {
-          "caller": "0xF8b10dF973Ce20Ed07E70Eb3AFc9C2E35c06225b",
+          "caller": "0x41460F4543DEB04d8f09b9e6A367568384744522",
           "comment": "f(uint256): 7 -> 0x15",
           "instance": "C",
           "method": "f(uint256)",
@@ -19,7 +19,7 @@
           }
         },
         {
-          "caller": "0xF8b10dF973Ce20Ed07E70Eb3AFc9C2E35c06225b",
+          "caller": "0x41460F4543DEB04d8f09b9e6A367568384744522",
           "comment": "x() -> 0x15",
           "instance": "C",
           "method": "x()",

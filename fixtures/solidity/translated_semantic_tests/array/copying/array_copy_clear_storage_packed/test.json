@@ -4,40 +4,40 @@
       "name": "array_copy_clear_storage_packed",
       "inputs": [
         {
-          "caller": "0xD11085be0f3437214C1578A60863E28D7903d903",
+          "caller": "0x3a7d21795d1FA93E16b296dBA109A378DaeA038B",
           "comment": "f() -> 0; gas irOptimized: 92800; gas legacy: 93006; gas legacyOptimized: 92261",
           "instance": "C",
           "method": "f()",
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0xD11085be0f3437214C1578A60863E28D7903d903",
+          "caller": "0x3a7d21795d1FA93E16b296dBA109A378DaeA038B",
           "comment": "g() -> 0",
           "instance": "C",
           "method": "g()",
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0xD11085be0f3437214C1578A60863E28D7903d903",
+          "caller": "0x3a7d21795d1FA93E16b296dBA109A378DaeA038B",
           "comment": "h() -> 0; gas irOptimized: 92862; gas legacy: 93028; gas legacyOptimized: 92303",
           "instance": "C",
           "method": "h()",
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }

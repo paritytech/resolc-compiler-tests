@@ -4,7 +4,7 @@
       "name": "transient_storage_reentrancy_lock",
       "inputs": [
         {
-          "caller": "0x8e33849B11e10013f4FBbB5d8014719f8Fb32445",
+          "caller": "0x7954b6Fa0da7Bc9d53c2a76c72a6E9a36F66a458",
           "comment": "test(address,bool): 0x1234abcd, true -> FAILURE, hex\"08c379a0\", 0x20, 0x12, \"Reentrancy attempt\"",
           "instance": "C",
           "method": "test(address,bool)",
@@ -23,13 +23,13 @@
           }
         },
         {
-          "caller": "0x8e33849B11e10013f4FBbB5d8014719f8Fb32445",
+          "caller": "0x7954b6Fa0da7Bc9d53c2a76c72a6E9a36F66a458",
           "comment": "test(address,bool): 0x1234abcd, false ->",
           "instance": "C",
           "method": "test(address,bool)",
           "calldata": [
             "0x1234abcd",
-            "0x"
+            "0x00"
           ],
           "expected": {
             "exception": false

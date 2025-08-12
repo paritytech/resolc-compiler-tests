@@ -4,7 +4,7 @@
       "name": "mapping_key",
       "inputs": [
         {
-          "caller": "0xb4c0cf22CbD2cd0D7cAe59a8455E18226d248686",
+          "caller": "0x8F090523A30ba25bdF59EFf42b5A8B9E58395b07",
           "comment": "set(int256,int256): 1, 1 ->",
           "instance": "C",
           "method": "set(int256,int256)",
@@ -17,7 +17,7 @@
           }
         },
         {
-          "caller": "0xb4c0cf22CbD2cd0D7cAe59a8455E18226d248686",
+          "caller": "0x8F090523A30ba25bdF59EFf42b5A8B9E58395b07",
           "comment": "m(int256): 1 -> 1",
           "instance": "C",
           "method": "m(int256)",
@@ -32,7 +32,7 @@
           }
         },
         {
-          "caller": "0xb4c0cf22CbD2cd0D7cAe59a8455E18226d248686",
+          "caller": "0x8F090523A30ba25bdF59EFf42b5A8B9E58395b07",
           "comment": "set_unwrapped(int256,int256): 1, 2 ->",
           "instance": "C",
           "method": "set_unwrapped(int256,int256)",
@@ -45,7 +45,7 @@
           }
         },
         {
-          "caller": "0xb4c0cf22CbD2cd0D7cAe59a8455E18226d248686",
+          "caller": "0x8F090523A30ba25bdF59EFf42b5A8B9E58395b07",
           "comment": "m(int256): 1 -> 2",
           "instance": "C",
           "method": "m(int256)",
@@ -60,7 +60,7 @@
           }
         },
         {
-          "caller": "0xb4c0cf22CbD2cd0D7cAe59a8455E18226d248686",
+          "caller": "0x8F090523A30ba25bdF59EFf42b5A8B9E58395b07",
           "comment": "m(int256): 2 -> 0",
           "instance": "C",
           "method": "m(int256)",
@@ -69,7 +69,7 @@
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }

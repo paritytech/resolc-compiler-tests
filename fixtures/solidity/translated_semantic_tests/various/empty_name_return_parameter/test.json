@@ -4,7 +4,7 @@
       "name": "empty_name_return_parameter",
       "inputs": [
         {
-          "caller": "0x3cf063a22D1b8D11089Cff7Db4B56742407B7F7c",
+          "caller": "0x94BF4A5Dc2117DDE1B16E7C421e659948b6e6C22",
           "comment": "f(uint256): 9 -> 9",
           "instance": "test",
           "method": "f(uint256)",

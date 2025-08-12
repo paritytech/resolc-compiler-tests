@@ -4,7 +4,7 @@
       "name": "struct_validation",
       "inputs": [
         {
-          "caller": "0x2FeEdCD856e514d9677b0a65671FB7E175120D87",
+          "caller": "0x15193c65dDd378a49cb9BFE778A7E0301676D0FF",
           "comment": "f((int16,uint8,bytes2)): 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff01, 0xff, \"ab\" -> 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff01, 0xff, \"ab\"",
           "instance": "C",
           "method": "f((int16,uint8,bytes2))",
@@ -23,7 +23,7 @@
           }
         },
         {
-          "caller": "0x2FeEdCD856e514d9677b0a65671FB7E175120D87",
+          "caller": "0x15193c65dDd378a49cb9BFE778A7E0301676D0FF",
           "comment": "f((int16,uint8,bytes2)): 0xff010, 0xff, \"ab\" -> FAILURE",
           "instance": "C",
           "method": "f((int16,uint8,bytes2))",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0x2FeEdCD856e514d9677b0a65671FB7E175120D87",
+          "caller": "0x15193c65dDd378a49cb9BFE778A7E0301676D0FF",
           "comment": "f((int16,uint8,bytes2)): 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff01, 0xff0002, \"ab\" -> FAILURE",
           "instance": "C",
           "method": "f((int16,uint8,bytes2))",
@@ -51,7 +51,7 @@
           }
         },
         {
-          "caller": "0x2FeEdCD856e514d9677b0a65671FB7E175120D87",
+          "caller": "0x15193c65dDd378a49cb9BFE778A7E0301676D0FF",
           "comment": "f((int16,uint8,bytes2)): 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff01, 0xff, \"abcd\" -> FAILURE",
           "instance": "C",
           "method": "f((int16,uint8,bytes2))",

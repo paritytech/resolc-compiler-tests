@@ -4,7 +4,7 @@
       "name": "string_tuples",
       "inputs": [
         {
-          "caller": "0x7b2f7c677A9BA526074738b0Fbe9837E35939F88",
+          "caller": "0x8e33849B11e10013f4FBbB5d8014719f8Fb32445",
           "comment": "f() -> 0x40, 0x8, 0x3, \"abc\"",
           "instance": "C",
           "method": "f()",
@@ -20,7 +20,7 @@
           }
         },
         {
-          "caller": "0x7b2f7c677A9BA526074738b0Fbe9837E35939F88",
+          "caller": "0x8e33849B11e10013f4FBbB5d8014719f8Fb32445",
           "comment": "g() -> 0x40, 0x80, 0x3, \"abc\", 0x3, \"def\"",
           "instance": "C",
           "method": "g()",

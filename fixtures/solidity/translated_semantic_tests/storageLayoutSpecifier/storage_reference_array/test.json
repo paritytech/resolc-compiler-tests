@@ -4,7 +4,7 @@
       "name": "storage_reference_array",
       "inputs": [
         {
-          "caller": "0xa1cFDd607BbA6C347c35b8E952Eae2F9dBB85ff3",
+          "caller": "0x6a87Bfd9876Bdbc2ab8E9Ad19bf8692DEe529e2D",
           "comment": "initUsingReference() ->; gas irOptimized: 273556; gas legacy: 274795; gas legacyOptimized: 271954",
           "instance": "C",
           "method": "initUsingReference()",
@@ -14,12 +14,12 @@
           }
         },
         {
-          "caller": "0xa1cFDd607BbA6C347c35b8E952Eae2F9dBB85ff3",
+          "caller": "0x6a87Bfd9876Bdbc2ab8E9Ad19bf8692DEe529e2D",
           "comment": "array(uint256): 0 -> 1",
           "instance": "C",
           "method": "array(uint256)",
           "calldata": [
-            "0x"
+            "0x00"
           ],
           "expected": {
             "return_data": [
@@ -29,7 +29,7 @@
           }
         },
         {
-          "caller": "0xa1cFDd607BbA6C347c35b8E952Eae2F9dBB85ff3",
+          "caller": "0x6a87Bfd9876Bdbc2ab8E9Ad19bf8692DEe529e2D",
           "comment": "array(uint256): 9 -> 10",
           "instance": "C",
           "method": "array(uint256)",

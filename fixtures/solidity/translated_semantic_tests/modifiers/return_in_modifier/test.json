@@ -4,20 +4,20 @@
       "name": "return_in_modifier",
       "inputs": [
         {
-          "caller": "0x0654e77A0385Db8BB70e0E7590642A7a9B1Cc6E2",
+          "caller": "0x6deEda3Ef29DaE1e7A3E62073F88d3a911D95dDb",
           "comment": "x() -> 0",
           "instance": "C",
           "method": "x()",
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0x0654e77A0385Db8BB70e0E7590642A7a9B1Cc6E2",
+          "caller": "0x6deEda3Ef29DaE1e7A3E62073F88d3a911D95dDb",
           "comment": "f() ->",
           "instance": "C",
           "method": "f()",
@@ -27,7 +27,7 @@
           }
         },
         {
-          "caller": "0x0654e77A0385Db8BB70e0E7590642A7a9B1Cc6E2",
+          "caller": "0x6deEda3Ef29DaE1e7A3E62073F88d3a911D95dDb",
           "comment": "x() -> 4",
           "instance": "C",
           "method": "x()",

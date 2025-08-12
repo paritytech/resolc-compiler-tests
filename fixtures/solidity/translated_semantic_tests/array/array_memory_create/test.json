@@ -4,22 +4,22 @@
       "name": "array_memory_create",
       "inputs": [
         {
-          "caller": "0xF5Badc43e80A1ba8d914169ebE958eB5Fa4815b9",
+          "caller": "0xE4038Bf99cdEC2513df22F57BCA38Ac8a46b3E98",
           "comment": "create(uint256): 0 -> 0",
           "instance": "C",
           "method": "create(uint256)",
           "calldata": [
-            "0x"
+            "0x00"
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0xF5Badc43e80A1ba8d914169ebE958eB5Fa4815b9",
+          "caller": "0xE4038Bf99cdEC2513df22F57BCA38Ac8a46b3E98",
           "comment": "create(uint256): 7 -> 7",
           "instance": "C",
           "method": "create(uint256)",
@@ -34,7 +34,7 @@
           }
         },
         {
-          "caller": "0xF5Badc43e80A1ba8d914169ebE958eB5Fa4815b9",
+          "caller": "0xE4038Bf99cdEC2513df22F57BCA38Ac8a46b3E98",
           "comment": "create(uint256): 10 -> 10",
           "instance": "C",
           "method": "create(uint256)",

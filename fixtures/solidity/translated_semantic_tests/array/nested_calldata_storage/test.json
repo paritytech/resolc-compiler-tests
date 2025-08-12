@@ -4,7 +4,7 @@
       "name": "nested_calldata_storage",
       "inputs": [
         {
-          "caller": "0x93BDBe2c9f0F5cec59175C51D0a39fAee42A4a6e",
+          "caller": "0x5EEEbcd9A01Bf40F40F1c4Ae81b13691D0a98a3f",
           "comment": "i(uint256[][2]): 0x20, 0x40, 0xC0, 3, 0x0A01, 0x0A02, 0x0A03, 4, 0x0B01, 0x0B02, 0x0B03, 0x0B04; gas irOptimized: 223100",
           "instance": "C",
           "method": "i(uint256[][2])",
@@ -27,13 +27,13 @@
           }
         },
         {
-          "caller": "0x93BDBe2c9f0F5cec59175C51D0a39fAee42A4a6e",
+          "caller": "0x5EEEbcd9A01Bf40F40F1c4Ae81b13691D0a98a3f",
           "comment": "tmp_i(uint256,uint256): 0, 0 -> 0x0A01",
           "instance": "C",
           "method": "tmp_i(uint256,uint256)",
           "calldata": [
-            "0x",
-            "0x"
+            "0x00",
+            "0x00"
           ],
           "expected": {
             "return_data": [
@@ -43,13 +43,13 @@
           }
         },
         {
-          "caller": "0x93BDBe2c9f0F5cec59175C51D0a39fAee42A4a6e",
+          "caller": "0x5EEEbcd9A01Bf40F40F1c4Ae81b13691D0a98a3f",
           "comment": "tmp_i(uint256,uint256): 1, 0 -> 0x0B01",
           "instance": "C",
           "method": "tmp_i(uint256,uint256)",
           "calldata": [
             "0x01",
-            "0x"
+            "0x00"
           ],
           "expected": {
             "return_data": [

@@ -4,7 +4,7 @@
       "name": "failed_create",
       "inputs": [
         {
-          "caller": "0x8E034b46aB96785b3aa1Ef570f6134756EB99C46",
+          "caller": "0x013527F95A72f2f95bff5D10d3F7C20c42f74801",
           "comment": "constructor(), 20 wei; gas irOptimized: 59688; gas irOptimized code: 81800; gas legacy: 64468; gas legacy code: 145400; gas legacyOptimized: 60443; gas legacyOptimized code: 91200",
           "instance": "C",
           "method": "#deployer",
@@ -15,7 +15,7 @@
           "value": "20 wei"
         },
         {
-          "caller": "0x8E034b46aB96785b3aa1Ef570f6134756EB99C46",
+          "caller": "0x013527F95A72f2f95bff5D10d3F7C20c42f74801",
           "comment": "f(uint256): 20 ->",
           "instance": "C",
           "method": "f(uint256)",
@@ -27,7 +27,7 @@
           }
         },
         {
-          "caller": "0x8E034b46aB96785b3aa1Ef570f6134756EB99C46",
+          "caller": "0x013527F95A72f2f95bff5D10d3F7C20c42f74801",
           "comment": "x() -> 1",
           "instance": "C",
           "method": "x()",
@@ -40,7 +40,7 @@
           }
         },
         {
-          "caller": "0x8E034b46aB96785b3aa1Ef570f6134756EB99C46",
+          "caller": "0x013527F95A72f2f95bff5D10d3F7C20c42f74801",
           "comment": "f(uint256): 20 -> FAILURE",
           "instance": "C",
           "method": "f(uint256)",
@@ -52,7 +52,7 @@
           }
         },
         {
-          "caller": "0x8E034b46aB96785b3aa1Ef570f6134756EB99C46",
+          "caller": "0x013527F95A72f2f95bff5D10d3F7C20c42f74801",
           "comment": "x() -> 1",
           "instance": "C",
           "method": "x()",
@@ -65,7 +65,7 @@
           }
         },
         {
-          "caller": "0x8E034b46aB96785b3aa1Ef570f6134756EB99C46",
+          "caller": "0x013527F95A72f2f95bff5D10d3F7C20c42f74801",
           "comment": "stack(uint256): 1023 -> FAILURE; gas irOptimized: 298110; gas legacy: 527207; gas legacyOptimized: 353607",
           "instance": "C",
           "method": "stack(uint256)",
@@ -77,7 +77,7 @@
           }
         },
         {
-          "caller": "0x8E034b46aB96785b3aa1Ef570f6134756EB99C46",
+          "caller": "0x013527F95A72f2f95bff5D10d3F7C20c42f74801",
           "comment": "x() -> 1",
           "instance": "C",
           "method": "x()",
@@ -90,7 +90,7 @@
           }
         },
         {
-          "caller": "0x8E034b46aB96785b3aa1Ef570f6134756EB99C46",
+          "caller": "0x013527F95A72f2f95bff5D10d3F7C20c42f74801",
           "comment": "stack(uint256): 10 ->",
           "instance": "C",
           "method": "stack(uint256)",
@@ -102,7 +102,7 @@
           }
         },
         {
-          "caller": "0x8E034b46aB96785b3aa1Ef570f6134756EB99C46",
+          "caller": "0x013527F95A72f2f95bff5D10d3F7C20c42f74801",
           "comment": "x() -> 2",
           "instance": "C",
           "method": "x()",

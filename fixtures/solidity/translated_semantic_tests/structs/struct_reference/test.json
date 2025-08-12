@@ -4,20 +4,20 @@
       "name": "struct_reference",
       "inputs": [
         {
-          "caller": "0xE2c4A295D6A0DAA455a5d49F30B881E69165DA8f",
+          "caller": "0x296f8bbBde215aE40948c3dEb736C804c9fc64FF",
           "comment": "check() -> false",
           "instance": "test",
           "method": "check()",
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0xE2c4A295D6A0DAA455a5d49F30B881E69165DA8f",
+          "caller": "0x296f8bbBde215aE40948c3dEb736C804c9fc64FF",
           "comment": "set() ->",
           "instance": "test",
           "method": "set()",
@@ -27,7 +27,7 @@
           }
         },
         {
-          "caller": "0xE2c4A295D6A0DAA455a5d49F30B881E69165DA8f",
+          "caller": "0x296f8bbBde215aE40948c3dEb736C804c9fc64FF",
           "comment": "check() -> true",
           "instance": "test",
           "method": "check()",

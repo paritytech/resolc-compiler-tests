@@ -4,7 +4,7 @@
       "name": "simple",
       "inputs": [
         {
-          "caller": "0x6f64f6D0d58ACABD288774e993d9caCFa3FC88eE",
+          "caller": "0x949e63296823174a1d244FfbC90EC87d75C40936",
           "comment": "f(bool): true -> 1, 2",
           "instance": "C",
           "method": "f(bool)",
@@ -20,12 +20,12 @@
           }
         },
         {
-          "caller": "0x6f64f6D0d58ACABD288774e993d9caCFa3FC88eE",
+          "caller": "0x949e63296823174a1d244FfbC90EC87d75C40936",
           "comment": "f(bool): false -> 9, 10",
           "instance": "C",
           "method": "f(bool)",
           "calldata": [
-            "0x"
+            "0x00"
           ],
           "expected": {
             "return_data": [

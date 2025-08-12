@@ -78,7 +78,7 @@
           "method": "deposit(address,bool)",
           "calldata": [
             "0x5082a85c489be6aa0f2e6693bf09cc1bbd35e988",
-            "0x"
+            "0x00"
           ],
           "expected": {
             "return_data": [

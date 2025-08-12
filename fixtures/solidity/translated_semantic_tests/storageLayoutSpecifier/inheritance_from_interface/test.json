@@ -4,7 +4,7 @@
       "name": "inheritance_from_interface",
       "inputs": [
         {
-          "caller": "0x020b7F091689120D2d59955ad1c0C4E5f9595E54",
+          "caller": "0xB0d676ad5F03159494E5Daa4cc972d5BD3837428",
           "comment": "f(uint256): 8 -> 6",
           "instance": "C",
           "method": "f(uint256)",
@@ -19,7 +19,7 @@
           }
         },
         {
-          "caller": "0x020b7F091689120D2d59955ad1c0C4E5f9595E54",
+          "caller": "0xB0d676ad5F03159494E5Daa4cc972d5BD3837428",
           "comment": "y() -> 6",
           "instance": "C",
           "method": "y()",

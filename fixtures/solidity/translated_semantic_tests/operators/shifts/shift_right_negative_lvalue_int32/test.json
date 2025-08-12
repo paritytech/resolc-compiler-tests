@@ -4,13 +4,13 @@
       "name": "shift_right_negative_lvalue_int32",
       "inputs": [
         {
-          "caller": "0x85335d04F26AF5Dd8c92bb25058c87eFdD1A7B67",
+          "caller": "0x760716763D2f310f6285892E4353BB238d0F5e97",
           "comment": "f(int32,uint32): -4266, 0 -> -4266",
           "instance": "C",
           "method": "f(int32,uint32)",
           "calldata": [
             "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffef56",
-            "0x"
+            "0x00"
           ],
           "expected": {
             "return_data": [
@@ -20,7 +20,7 @@
           }
         },
         {
-          "caller": "0x85335d04F26AF5Dd8c92bb25058c87eFdD1A7B67",
+          "caller": "0x760716763D2f310f6285892E4353BB238d0F5e97",
           "comment": "f(int32,uint32): -4266, 1 -> -2133",
           "instance": "C",
           "method": "f(int32,uint32)",
@@ -36,7 +36,7 @@
           }
         },
         {
-          "caller": "0x85335d04F26AF5Dd8c92bb25058c87eFdD1A7B67",
+          "caller": "0x760716763D2f310f6285892E4353BB238d0F5e97",
           "comment": "f(int32,uint32): -4266, 4 -> -267",
           "instance": "C",
           "method": "f(int32,uint32)",
@@ -52,7 +52,7 @@
           }
         },
         {
-          "caller": "0x85335d04F26AF5Dd8c92bb25058c87eFdD1A7B67",
+          "caller": "0x760716763D2f310f6285892E4353BB238d0F5e97",
           "comment": "f(int32,uint32): -4266, 8 -> -17",
           "instance": "C",
           "method": "f(int32,uint32)",
@@ -68,7 +68,7 @@
           }
         },
         {
-          "caller": "0x85335d04F26AF5Dd8c92bb25058c87eFdD1A7B67",
+          "caller": "0x760716763D2f310f6285892E4353BB238d0F5e97",
           "comment": "f(int32,uint32): -4266, 16 -> -1",
           "instance": "C",
           "method": "f(int32,uint32)",
@@ -84,7 +84,7 @@
           }
         },
         {
-          "caller": "0x85335d04F26AF5Dd8c92bb25058c87eFdD1A7B67",
+          "caller": "0x760716763D2f310f6285892E4353BB238d0F5e97",
           "comment": "f(int32,uint32): -4266, 17 -> -1",
           "instance": "C",
           "method": "f(int32,uint32)",
@@ -100,13 +100,13 @@
           }
         },
         {
-          "caller": "0x85335d04F26AF5Dd8c92bb25058c87eFdD1A7B67",
+          "caller": "0x760716763D2f310f6285892E4353BB238d0F5e97",
           "comment": "f(int32,uint32): -4267, 0 -> -4267",
           "instance": "C",
           "method": "f(int32,uint32)",
           "calldata": [
             "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffef55",
-            "0x"
+            "0x00"
           ],
           "expected": {
             "return_data": [
@@ -116,7 +116,7 @@
           }
         },
         {
-          "caller": "0x85335d04F26AF5Dd8c92bb25058c87eFdD1A7B67",
+          "caller": "0x760716763D2f310f6285892E4353BB238d0F5e97",
           "comment": "f(int32,uint32): -4267, 1 -> -2134",
           "instance": "C",
           "method": "f(int32,uint32)",
@@ -132,7 +132,7 @@
           }
         },
         {
-          "caller": "0x85335d04F26AF5Dd8c92bb25058c87eFdD1A7B67",
+          "caller": "0x760716763D2f310f6285892E4353BB238d0F5e97",
           "comment": "f(int32,uint32): -4267, 4 -> -267",
           "instance": "C",
           "method": "f(int32,uint32)",
@@ -148,7 +148,7 @@
           }
         },
         {
-          "caller": "0x85335d04F26AF5Dd8c92bb25058c87eFdD1A7B67",
+          "caller": "0x760716763D2f310f6285892E4353BB238d0F5e97",
           "comment": "f(int32,uint32): -4267, 8 -> -17",
           "instance": "C",
           "method": "f(int32,uint32)",
@@ -164,7 +164,7 @@
           }
         },
         {
-          "caller": "0x85335d04F26AF5Dd8c92bb25058c87eFdD1A7B67",
+          "caller": "0x760716763D2f310f6285892E4353BB238d0F5e97",
           "comment": "f(int32,uint32): -4267, 16 -> -1",
           "instance": "C",
           "method": "f(int32,uint32)",
@@ -180,7 +180,7 @@
           }
         },
         {
-          "caller": "0x85335d04F26AF5Dd8c92bb25058c87eFdD1A7B67",
+          "caller": "0x760716763D2f310f6285892E4353BB238d0F5e97",
           "comment": "f(int32,uint32): -4267, 17 -> -1",
           "instance": "C",
           "method": "f(int32,uint32)",

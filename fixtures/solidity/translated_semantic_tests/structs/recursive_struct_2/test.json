@@ -4,17 +4,17 @@
       "name": "recursive_struct_2",
       "inputs": [
         {
-          "caller": "0x7336F9943498f0bbCD00594d4e4c87CAF9E54C11",
+          "caller": "0xbD7B567059c74A520a00086504068ADD7B4e8760",
           "comment": "f() -> 0, 0, 0, 0",
           "instance": "C",
           "method": "f()",
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x",
-              "0x",
-              "0x",
-              "0x"
+              "0x00",
+              "0x00",
+              "0x00",
+              "0x00"
             ],
             "exception": false
           }

@@ -4,14 +4,14 @@
       "name": "function_modifier_empty",
       "inputs": [
         {
-          "caller": "0x72BB013676D4dA221A29cbA5e755d2e43bFd995b",
+          "caller": "0xc4131E2eFAf5cC135C87459D51F6BAe574b900d8",
           "comment": "f() -> false",
           "instance": "C",
           "method": "f()",
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }

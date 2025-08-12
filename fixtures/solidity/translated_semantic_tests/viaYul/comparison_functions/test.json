@@ -12,8 +12,8 @@
           "expected": {
             "return_data": [
               "0x01",
-              "0x",
-              "0x"
+              "0x00",
+              "0x00"
             ],
             "exception": false
           }
@@ -26,7 +26,7 @@
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x",
+              "0x00",
               "0x01",
               "0x01"
             ],

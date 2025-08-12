@@ -26,7 +26,7 @@
           "method": "div(uint256,uint256)",
           "calldata": [
             "0x07",
-            "0x"
+            "0x00"
           ],
           "expected": {
             "return_data": [
@@ -59,7 +59,7 @@
           "method": "mod(uint256,uint256)",
           "calldata": [
             "0x07",
-            "0x"
+            "0x00"
           ],
           "expected": {
             "return_data": [

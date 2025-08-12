@@ -4,7 +4,7 @@
       "name": "empty_string_input",
       "inputs": [
         {
-          "caller": "0x135df6db8c0aB992a00eda63e9c3169b1dD693E8",
+          "caller": "0x8D695F844e155f43575b398Ef7fB8adD1E87C7d9",
           "comment": "f() -> 0x20, 0",
           "instance": "C",
           "method": "f()",
@@ -12,87 +12,87 @@
           "expected": {
             "return_data": [
               "0x20",
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0x135df6db8c0aB992a00eda63e9c3169b1dD693E8",
+          "caller": "0x8D695F844e155f43575b398Ef7fB8adD1E87C7d9",
           "comment": "g(string): 0x20, 0, \"\" -> 0x20, 0",
           "instance": "C",
           "method": "g(string)",
           "calldata": [
             "0x20",
-            "0x",
-            "0x"
+            "0x00",
+            "0x00"
           ],
           "expected": {
             "return_data": [
               "0x20",
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0x135df6db8c0aB992a00eda63e9c3169b1dD693E8",
+          "caller": "0x8D695F844e155f43575b398Ef7fB8adD1E87C7d9",
           "comment": "g(string): 0x20, 0 -> 0x20, 0",
           "instance": "C",
           "method": "g(string)",
           "calldata": [
             "0x20",
-            "0x"
+            "0x00"
           ],
           "expected": {
             "return_data": [
               "0x20",
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0x135df6db8c0aB992a00eda63e9c3169b1dD693E8",
+          "caller": "0x8D695F844e155f43575b398Ef7fB8adD1E87C7d9",
           "comment": "h(string,uint256): 0x40, 0x888, 0, \"\" -> 0x40, 0x0888, 0",
           "instance": "C",
           "method": "h(string,uint256)",
           "calldata": [
             "0x40",
             "0x0888",
-            "0x",
-            "0x"
+            "0x00",
+            "0x00"
           ],
           "expected": {
             "return_data": [
               "0x40",
               "0x0888",
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0x135df6db8c0aB992a00eda63e9c3169b1dD693E8",
+          "caller": "0x8D695F844e155f43575b398Ef7fB8adD1E87C7d9",
           "comment": "h(string,uint256): 0x40, 0x888, 0 -> 0x40, 0x0888, 0",
           "instance": "C",
           "method": "h(string,uint256)",
           "calldata": [
             "0x40",
             "0x0888",
-            "0x"
+            "0x00"
           ],
           "expected": {
             "return_data": [
               "0x40",
               "0x0888",
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0x135df6db8c0aB992a00eda63e9c3169b1dD693E8",
+          "caller": "0x8D695F844e155f43575b398Ef7fB8adD1E87C7d9",
           "comment": "i(string,uint256,string): 0x60, 0x888, 0x60, 0, \"\" -> 0x60, 0x80, 0x0888, 0, 0",
           "instance": "C",
           "method": "i(string,uint256,string)",
@@ -100,22 +100,22 @@
             "0x60",
             "0x0888",
             "0x60",
-            "0x",
-            "0x"
+            "0x00",
+            "0x00"
           ],
           "expected": {
             "return_data": [
               "0x60",
               "0x80",
               "0x0888",
-              "0x",
-              "0x"
+              "0x00",
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0x135df6db8c0aB992a00eda63e9c3169b1dD693E8",
+          "caller": "0x8D695F844e155f43575b398Ef7fB8adD1E87C7d9",
           "comment": "i(string,uint256,string): 0x60, 0x888, 0x60, 0 -> 0x60, 0x80, 0x0888, 0, 0",
           "instance": "C",
           "method": "i(string,uint256,string)",
@@ -123,58 +123,58 @@
             "0x60",
             "0x0888",
             "0x60",
-            "0x"
+            "0x00"
           ],
           "expected": {
             "return_data": [
               "0x60",
               "0x80",
               "0x0888",
-              "0x",
-              "0x"
+              "0x00",
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0x135df6db8c0aB992a00eda63e9c3169b1dD693E8",
+          "caller": "0x8D695F844e155f43575b398Ef7fB8adD1E87C7d9",
           "comment": "j(string,uint256): 0x40, 0x888, 0, \"\" -> 0x60, 0x80, 0x0888, 0, 0",
           "instance": "C",
           "method": "j(string,uint256)",
           "calldata": [
             "0x40",
             "0x0888",
-            "0x",
-            "0x"
+            "0x00",
+            "0x00"
           ],
           "expected": {
             "return_data": [
               "0x60",
               "0x80",
               "0x0888",
-              "0x",
-              "0x"
+              "0x00",
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0x135df6db8c0aB992a00eda63e9c3169b1dD693E8",
+          "caller": "0x8D695F844e155f43575b398Ef7fB8adD1E87C7d9",
           "comment": "j(string,uint256): 0x40, 0x888, 0 -> 0x60, 0x80, 0x0888, 0, 0",
           "instance": "C",
           "method": "j(string,uint256)",
           "calldata": [
             "0x40",
             "0x0888",
-            "0x"
+            "0x00"
           ],
           "expected": {
             "return_data": [
               "0x60",
               "0x80",
               "0x0888",
-              "0x",
-              "0x"
+              "0x00",
+              "0x00"
             ],
             "exception": false
           }

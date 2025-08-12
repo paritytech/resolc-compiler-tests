@@ -4,20 +4,20 @@
       "name": "array_push_return_reference",
       "inputs": [
         {
-          "caller": "0xD560A93C87d4a9844Ecd60DB4406216325e3b17e",
+          "caller": "0x3b23ec1d122f4e51b02db674fadDF40737Bc14C4",
           "comment": "getLength() -> 0",
           "instance": "C",
           "method": "getLength()",
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0xD560A93C87d4a9844Ecd60DB4406216325e3b17e",
+          "caller": "0x3b23ec1d122f4e51b02db674fadDF40737Bc14C4",
           "comment": "test(uint256): 42 ->",
           "instance": "C",
           "method": "test(uint256)",
@@ -29,7 +29,7 @@
           }
         },
         {
-          "caller": "0xD560A93C87d4a9844Ecd60DB4406216325e3b17e",
+          "caller": "0x3b23ec1d122f4e51b02db674fadDF40737Bc14C4",
           "comment": "getLength() -> 1",
           "instance": "C",
           "method": "getLength()",
@@ -42,12 +42,12 @@
           }
         },
         {
-          "caller": "0xD560A93C87d4a9844Ecd60DB4406216325e3b17e",
+          "caller": "0x3b23ec1d122f4e51b02db674fadDF40737Bc14C4",
           "comment": "fetch(uint256): 0 -> 42",
           "instance": "C",
           "method": "fetch(uint256)",
           "calldata": [
-            "0x"
+            "0x00"
           ],
           "expected": {
             "return_data": [
@@ -57,7 +57,7 @@
           }
         },
         {
-          "caller": "0xD560A93C87d4a9844Ecd60DB4406216325e3b17e",
+          "caller": "0x3b23ec1d122f4e51b02db674fadDF40737Bc14C4",
           "comment": "fetch(uint256): 1 -> FAILURE, hex\"4e487b71\", 0x32",
           "instance": "C",
           "method": "fetch(uint256)",
@@ -73,7 +73,7 @@
           }
         },
         {
-          "caller": "0xD560A93C87d4a9844Ecd60DB4406216325e3b17e",
+          "caller": "0x3b23ec1d122f4e51b02db674fadDF40737Bc14C4",
           "comment": "test(uint256): 23 ->",
           "instance": "C",
           "method": "test(uint256)",
@@ -85,7 +85,7 @@
           }
         },
         {
-          "caller": "0xD560A93C87d4a9844Ecd60DB4406216325e3b17e",
+          "caller": "0x3b23ec1d122f4e51b02db674fadDF40737Bc14C4",
           "comment": "getLength() -> 2",
           "instance": "C",
           "method": "getLength()",
@@ -98,12 +98,12 @@
           }
         },
         {
-          "caller": "0xD560A93C87d4a9844Ecd60DB4406216325e3b17e",
+          "caller": "0x3b23ec1d122f4e51b02db674fadDF40737Bc14C4",
           "comment": "fetch(uint256): 0 -> 42",
           "instance": "C",
           "method": "fetch(uint256)",
           "calldata": [
-            "0x"
+            "0x00"
           ],
           "expected": {
             "return_data": [
@@ -113,7 +113,7 @@
           }
         },
         {
-          "caller": "0xD560A93C87d4a9844Ecd60DB4406216325e3b17e",
+          "caller": "0x3b23ec1d122f4e51b02db674fadDF40737Bc14C4",
           "comment": "fetch(uint256): 1 -> 23",
           "instance": "C",
           "method": "fetch(uint256)",
@@ -128,7 +128,7 @@
           }
         },
         {
-          "caller": "0xD560A93C87d4a9844Ecd60DB4406216325e3b17e",
+          "caller": "0x3b23ec1d122f4e51b02db674fadDF40737Bc14C4",
           "comment": "fetch(uint256): 2 -> FAILURE, hex\"4e487b71\", 0x32",
           "instance": "C",
           "method": "fetch(uint256)",

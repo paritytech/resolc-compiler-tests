@@ -4,12 +4,12 @@
       "name": "inline_assembly_for",
       "inputs": [
         {
-          "caller": "0x6b16720578590DD254FfaA75A6a5D474fbfA63ba",
+          "caller": "0xaDBdE0c7Ac71e61DdA2B8d8DC1190EC483a5e4A6",
           "comment": "f(uint256): 0 -> 1",
           "instance": "C",
           "method": "f(uint256)",
           "calldata": [
-            "0x"
+            "0x00"
           ],
           "expected": {
             "return_data": [
@@ -19,7 +19,7 @@
           }
         },
         {
-          "caller": "0x6b16720578590DD254FfaA75A6a5D474fbfA63ba",
+          "caller": "0xaDBdE0c7Ac71e61DdA2B8d8DC1190EC483a5e4A6",
           "comment": "f(uint256): 1 -> 1",
           "instance": "C",
           "method": "f(uint256)",
@@ -34,7 +34,7 @@
           }
         },
         {
-          "caller": "0x6b16720578590DD254FfaA75A6a5D474fbfA63ba",
+          "caller": "0xaDBdE0c7Ac71e61DdA2B8d8DC1190EC483a5e4A6",
           "comment": "f(uint256): 2 -> 2",
           "instance": "C",
           "method": "f(uint256)",
@@ -49,7 +49,7 @@
           }
         },
         {
-          "caller": "0x6b16720578590DD254FfaA75A6a5D474fbfA63ba",
+          "caller": "0xaDBdE0c7Ac71e61DdA2B8d8DC1190EC483a5e4A6",
           "comment": "f(uint256): 3 -> 6",
           "instance": "C",
           "method": "f(uint256)",
@@ -64,7 +64,7 @@
           }
         },
         {
-          "caller": "0x6b16720578590DD254FfaA75A6a5D474fbfA63ba",
+          "caller": "0xaDBdE0c7Ac71e61DdA2B8d8DC1190EC483a5e4A6",
           "comment": "f(uint256): 4 -> 24",
           "instance": "C",
           "method": "f(uint256)",

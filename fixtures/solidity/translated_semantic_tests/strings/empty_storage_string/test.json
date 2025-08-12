@@ -4,7 +4,7 @@
       "name": "empty_storage_string",
       "inputs": [
         {
-          "caller": "0xc703897f680BDAd492ABE202e5aB6913393A22C3",
+          "caller": "0x7000eA6EfAbc779Cf51d5cDF2a58Cf3F99002660",
           "comment": "f() -> 0x20, 0",
           "instance": "C",
           "method": "f()",
@@ -12,13 +12,13 @@
           "expected": {
             "return_data": [
               "0x20",
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0xc703897f680BDAd492ABE202e5aB6913393A22C3",
+          "caller": "0x7000eA6EfAbc779Cf51d5cDF2a58Cf3F99002660",
           "comment": "g() -> 0x40, 0x60, 0, 0",
           "instance": "C",
           "method": "g()",
@@ -27,14 +27,14 @@
             "return_data": [
               "0x40",
               "0x60",
-              "0x",
-              "0x"
+              "0x00",
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0xc703897f680BDAd492ABE202e5aB6913393A22C3",
+          "caller": "0x7000eA6EfAbc779Cf51d5cDF2a58Cf3F99002660",
           "comment": "h() -> 0x40, 0x60, 0, 0x1a, 38178759162904981154304545770567765692299154484752076569098748838215919075328",
           "instance": "C",
           "method": "h()",
@@ -43,7 +43,7 @@
             "return_data": [
               "0x40",
               "0x60",
-              "0x",
+              "0x00",
               "0x1a",
               "0x546869732069732061206e6f6e20656d70747920737472696e67000000000000"
             ],
@@ -51,7 +51,7 @@
           }
         },
         {
-          "caller": "0xc703897f680BDAd492ABE202e5aB6913393A22C3",
+          "caller": "0x7000eA6EfAbc779Cf51d5cDF2a58Cf3F99002660",
           "comment": "i() -> 0x40, 0x80, 0x1a, 38178759162904981154304545770567765692299154484752076569098748838215919075328, 0",
           "instance": "C",
           "method": "i()",
@@ -62,31 +62,31 @@
               "0x80",
               "0x1a",
               "0x546869732069732061206e6f6e20656d70747920737472696e67000000000000",
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0xc703897f680BDAd492ABE202e5aB6913393A22C3",
+          "caller": "0x7000eA6EfAbc779Cf51d5cDF2a58Cf3F99002660",
           "comment": "j(string): 0x20, 0, \"\" -> 0x20, 0",
           "instance": "C",
           "method": "j(string)",
           "calldata": [
             "0x20",
-            "0x",
-            "0x"
+            "0x00",
+            "0x00"
           ],
           "expected": {
             "return_data": [
               "0x20",
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0xc703897f680BDAd492ABE202e5aB6913393A22C3",
+          "caller": "0x7000eA6EfAbc779Cf51d5cDF2a58Cf3F99002660",
           "comment": "k() -> 0x20, 0",
           "instance": "C",
           "method": "k()",
@@ -94,33 +94,33 @@
           "expected": {
             "return_data": [
               "0x20",
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0xc703897f680BDAd492ABE202e5aB6913393A22C3",
+          "caller": "0x7000eA6EfAbc779Cf51d5cDF2a58Cf3F99002660",
           "comment": "l(string): 0x20, 0, \"\" -> 0x20, 0x40, 0x20, 0",
           "instance": "C",
           "method": "l(string)",
           "calldata": [
             "0x20",
-            "0x",
-            "0x"
+            "0x00",
+            "0x00"
           ],
           "expected": {
             "return_data": [
               "0x20",
               "0x40",
               "0x20",
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0xc703897f680BDAd492ABE202e5aB6913393A22C3",
+          "caller": "0x7000eA6EfAbc779Cf51d5cDF2a58Cf3F99002660",
           "comment": "m() -> 0x20, 0x40, 0x20, 0",
           "instance": "C",
           "method": "m()",
@@ -130,13 +130,13 @@
               "0x20",
               "0x40",
               "0x20",
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0xc703897f680BDAd492ABE202e5aB6913393A22C3",
+          "caller": "0x7000eA6EfAbc779Cf51d5cDF2a58Cf3F99002660",
           "comment": "n() -> FAILURE, hex\"d3f13430\", hex\"0000000000000000000000000000000000000000000000000000000000000020\", hex\"0000000000000000000000000000000000000000000000000000000000000000\"",
           "instance": "C",
           "method": "n()",
@@ -145,13 +145,13 @@
             "return_data": [
               "0xd3f1343000000000000000000000000000000000000000000000000000000000",
               "0x2000000000000000000000000000000000000000000000000000000000",
-              "0x"
+              "0x00"
             ],
             "exception": true
           }
         },
         {
-          "caller": "0xc703897f680BDAd492ABE202e5aB6913393A22C3",
+          "caller": "0x7000eA6EfAbc779Cf51d5cDF2a58Cf3F99002660",
           "comment": "o() ->; ~ emit EmptyEvent(string): 0x20, 0x00",
           "instance": "C",
           "method": "o()",
@@ -169,7 +169,7 @@
           }
         },
         {
-          "caller": "0xc703897f680BDAd492ABE202e5aB6913393A22C3",
+          "caller": "0x7000eA6EfAbc779Cf51d5cDF2a58Cf3F99002660",
           "comment": "p() ->; ~ emit EmptyEvent(string): 0x20, 0x00",
           "instance": "C",
           "method": "p()",
@@ -187,7 +187,7 @@
           }
         },
         {
-          "caller": "0xc703897f680BDAd492ABE202e5aB6913393A22C3",
+          "caller": "0x7000eA6EfAbc779Cf51d5cDF2a58Cf3F99002660",
           "comment": "q() -> 0x20, 0",
           "instance": "C",
           "method": "q()",
@@ -195,13 +195,13 @@
           "expected": {
             "return_data": [
               "0x20",
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0xc703897f680BDAd492ABE202e5aB6913393A22C3",
+          "caller": "0x7000eA6EfAbc779Cf51d5cDF2a58Cf3F99002660",
           "comment": "r() -> 0x20, 0x40, 0x20, 0",
           "instance": "C",
           "method": "r()",
@@ -211,13 +211,13 @@
               "0x20",
               "0x40",
               "0x20",
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0xc703897f680BDAd492ABE202e5aB6913393A22C3",
+          "caller": "0x7000eA6EfAbc779Cf51d5cDF2a58Cf3F99002660",
           "comment": "s() -> 0x20, 0x40, 0x20, 0",
           "instance": "C",
           "method": "s()",
@@ -227,27 +227,27 @@
               "0x20",
               "0x40",
               "0x20",
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0xc703897f680BDAd492ABE202e5aB6913393A22C3",
+          "caller": "0x7000eA6EfAbc779Cf51d5cDF2a58Cf3F99002660",
           "comment": "set(string): 0x20, 0, \"\" ->",
           "instance": "C",
           "method": "set(string)",
           "calldata": [
             "0x20",
-            "0x",
-            "0x"
+            "0x00",
+            "0x00"
           ],
           "expected": {
             "exception": false
           }
         },
         {
-          "caller": "0xc703897f680BDAd492ABE202e5aB6913393A22C3",
+          "caller": "0x7000eA6EfAbc779Cf51d5cDF2a58Cf3F99002660",
           "comment": "get() -> 0x20, 0",
           "instance": "C",
           "method": "get()",
@@ -255,7 +255,7 @@
           "expected": {
             "return_data": [
               "0x20",
-              "0x"
+              "0x00"
             ],
             "exception": false
           }

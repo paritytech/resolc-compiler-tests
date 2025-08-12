@@ -4,7 +4,7 @@
       "name": "free_functions_individual",
       "inputs": [
         {
-          "caller": "0x8247CDE48C7e7c4f95dfF6647b566a533934D224",
+          "caller": "0x0E2D615144883F359CB3471425f1377F16D45CE7",
           "comment": "f(uint256): 10 -> 10",
           "instance": "C",
           "method": "f(uint256)",
@@ -19,7 +19,7 @@
           }
         },
         {
-          "caller": "0x8247CDE48C7e7c4f95dfF6647b566a533934D224",
+          "caller": "0x0E2D615144883F359CB3471425f1377F16D45CE7",
           "comment": "g(uint256): 10 -> 0",
           "instance": "C",
           "method": "g(uint256)",
@@ -28,13 +28,13 @@
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0x8247CDE48C7e7c4f95dfF6647b566a533934D224",
+          "caller": "0x0E2D615144883F359CB3471425f1377F16D45CE7",
           "comment": "f(uint256): 256 -> 0x0100",
           "instance": "C",
           "method": "f(uint256)",
@@ -49,7 +49,7 @@
           }
         },
         {
-          "caller": "0x8247CDE48C7e7c4f95dfF6647b566a533934D224",
+          "caller": "0x0E2D615144883F359CB3471425f1377F16D45CE7",
           "comment": "g(uint256): 256 -> 0",
           "instance": "C",
           "method": "g(uint256)",
@@ -58,7 +58,7 @@
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }

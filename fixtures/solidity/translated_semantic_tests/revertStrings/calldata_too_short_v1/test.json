@@ -11,7 +11,7 @@
           "calldata": [
             "0x20",
             "0x01",
-            "0x"
+            "0x00"
           ],
           "expected": {
             "exception": true

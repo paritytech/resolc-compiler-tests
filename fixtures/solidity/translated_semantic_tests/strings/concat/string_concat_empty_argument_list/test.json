@@ -4,7 +4,7 @@
       "name": "string_concat_empty_argument_list",
       "inputs": [
         {
-          "caller": "0x6f437497D8c307a32cf3915a244a8B46C1f63749",
+          "caller": "0x6a0ee527be7D1f431D1A03A8D4497Cfda59eFd37",
           "comment": "f() -> 0x20, 0",
           "instance": "C",
           "method": "f()",
@@ -12,7 +12,7 @@
           "expected": {
             "return_data": [
               "0x20",
-              "0x"
+              "0x00"
             ],
             "exception": false
           }

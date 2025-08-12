@@ -25,7 +25,7 @@
           "instance": "A",
           "method": "f(bool)",
           "calldata": [
-            "0x"
+            "0x00"
           ],
           "expected": {
             "return_data": [

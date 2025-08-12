@@ -4,7 +4,7 @@
       "name": "free_namesake_contract_function",
       "inputs": [
         {
-          "caller": "0xe79b8124a79e7889DA839B0849Cf0aab21730D28",
+          "caller": "0x0C763315F196Bc043Ca85D9FDAf523Ec23ab245c",
           "comment": "f() -> FAILURE",
           "instance": "C",
           "method": "f()",

@@ -4,17 +4,17 @@
       "name": "mapping_returns_in_library_named",
       "inputs": [
         {
-          "caller": "0xD1a4142e58690aD49d27Cf4730247138b2c20512",
+          "caller": "0xb820dAa430F5ceD02fC3BE3b7E7Fe06049836F1D",
           "comment": "f() -> 0, 0x2a, 0, 0, 0x15, 0x54",
           "instance": "Test",
           "method": "f()",
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x",
+              "0x00",
               "0x2a",
-              "0x",
-              "0x",
+              "0x00",
+              "0x00",
               "0x15",
               "0x54"
             ],
@@ -22,17 +22,17 @@
           }
         },
         {
-          "caller": "0xD1a4142e58690aD49d27Cf4730247138b2c20512",
+          "caller": "0xb820dAa430F5ceD02fC3BE3b7E7Fe06049836F1D",
           "comment": "g() -> 0, 0x2a, 0, 0, 0x15, 0x11",
           "instance": "Test",
           "method": "g()",
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x",
+              "0x00",
               "0x2a",
-              "0x",
-              "0x",
+              "0x00",
+              "0x00",
               "0x15",
               "0x11"
             ],

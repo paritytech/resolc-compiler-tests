@@ -4,7 +4,7 @@
       "name": "keccak256_assembly",
       "inputs": [
         {
-          "caller": "0x07060607D82e53A720e2E86a880f69B9f1edf1Ce",
+          "caller": "0xf767268D86A3829739F2FD0d121bbb18062ff703",
           "comment": "f() -> 0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470",
           "instance": "C",
           "method": "f()",

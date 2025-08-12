@@ -4,7 +4,7 @@
       "name": "enum_explicit_overflow",
       "inputs": [
         {
-          "caller": "0x4060fB7bA353f413678Be88fc55099Cc499400b5",
+          "caller": "0xfd75328746E9B8B521718A4A9451458609B88e1f",
           "comment": "getChoiceExp(uint256): 2 -> 2",
           "instance": "test",
           "method": "getChoiceExp(uint256)",
@@ -19,7 +19,7 @@
           }
         },
         {
-          "caller": "0x4060fB7bA353f413678Be88fc55099Cc499400b5",
+          "caller": "0xfd75328746E9B8B521718A4A9451458609B88e1f",
           "comment": "getChoiceExp(uint256): 3 -> FAILURE, hex\"4e487b71\", 0x21",
           "instance": "test",
           "method": "getChoiceExp(uint256)",
@@ -35,7 +35,7 @@
           }
         },
         {
-          "caller": "0x4060fB7bA353f413678Be88fc55099Cc499400b5",
+          "caller": "0xfd75328746E9B8B521718A4A9451458609B88e1f",
           "comment": "getChoiceFromSigned(int256): -1 -> FAILURE, hex\"4e487b71\", 0x21",
           "instance": "test",
           "method": "getChoiceFromSigned(int256)",
@@ -51,7 +51,7 @@
           }
         },
         {
-          "caller": "0x4060fB7bA353f413678Be88fc55099Cc499400b5",
+          "caller": "0xfd75328746E9B8B521718A4A9451458609B88e1f",
           "comment": "getChoiceFromMax() -> FAILURE, hex\"4e487b71\", 0x21",
           "instance": "test",
           "method": "getChoiceFromMax()",
@@ -65,7 +65,7 @@
           }
         },
         {
-          "caller": "0x4060fB7bA353f413678Be88fc55099Cc499400b5",
+          "caller": "0xfd75328746E9B8B521718A4A9451458609B88e1f",
           "comment": "getChoiceExp(uint256): 2 -> 2",
           "instance": "test",
           "method": "getChoiceExp(uint256)",
@@ -80,16 +80,16 @@
           }
         },
         {
-          "caller": "0x4060fB7bA353f413678Be88fc55099Cc499400b5",
+          "caller": "0xfd75328746E9B8B521718A4A9451458609B88e1f",
           "comment": "getChoiceExp(uint256): 0 -> 0",
           "instance": "test",
           "method": "getChoiceExp(uint256)",
           "calldata": [
-            "0x"
+            "0x00"
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }

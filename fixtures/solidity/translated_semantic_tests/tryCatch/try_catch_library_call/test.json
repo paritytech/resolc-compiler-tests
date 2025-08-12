@@ -4,7 +4,7 @@
       "name": "try_catch_library_call",
       "inputs": [
         {
-          "caller": "0x50217Eb78a64440a90eb3EC3D0BC7Cb6D8dFFfD7",
+          "caller": "0x6EcD30c83a756baE1C22440841E0f90b587C7d79",
           "comment": "f(bool): true -> 8, 0x40, 0",
           "instance": "C",
           "method": "f(bool)",
@@ -15,18 +15,18 @@
             "return_data": [
               "0x08",
               "0x40",
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0x50217Eb78a64440a90eb3EC3D0BC7Cb6D8dFFfD7",
+          "caller": "0x6EcD30c83a756baE1C22440841E0f90b587C7d79",
           "comment": "f(bool): false -> 18, 0x40, 7, \"failure\"",
           "instance": "C",
           "method": "f(bool)",
           "calldata": [
-            "0x"
+            "0x00"
           ],
           "expected": {
             "return_data": [
@@ -39,7 +39,7 @@
           }
         },
         {
-          "caller": "0x50217Eb78a64440a90eb3EC3D0BC7Cb6D8dFFfD7",
+          "caller": "0x6EcD30c83a756baE1C22440841E0f90b587C7d79",
           "comment": "g(bool): true -> 9, 0x40, 0",
           "instance": "C",
           "method": "g(bool)",
@@ -50,18 +50,18 @@
             "return_data": [
               "0x09",
               "0x40",
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0x50217Eb78a64440a90eb3EC3D0BC7Cb6D8dFFfD7",
+          "caller": "0x6EcD30c83a756baE1C22440841E0f90b587C7d79",
           "comment": "g(bool): false -> 19, 0x40, 7, \"failure\"",
           "instance": "C",
           "method": "g(bool)",
           "calldata": [
-            "0x"
+            "0x00"
           ],
           "expected": {
             "return_data": [

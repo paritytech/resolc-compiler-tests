@@ -4,20 +4,20 @@
       "name": "minmax",
       "inputs": [
         {
-          "caller": "0xEAF6995caE4780e050Aae56F3D4575A5392CA83E",
+          "caller": "0x50a9f6bdAfF02A23DbC0ba4a890EF18d84AA0f78",
           "comment": "min() -> 0",
           "instance": "test",
           "method": "min()",
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0xEAF6995caE4780e050Aae56F3D4575A5392CA83E",
+          "caller": "0x50a9f6bdAfF02A23DbC0ba4a890EF18d84AA0f78",
           "comment": "max() -> 3",
           "instance": "test",
           "method": "max()",

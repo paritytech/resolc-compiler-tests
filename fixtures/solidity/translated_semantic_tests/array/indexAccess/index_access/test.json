@@ -4,24 +4,24 @@
       "name": "index_access",
       "inputs": [
         {
-          "caller": "0x5a2fD78981874E858e49E660842EC08Cb3B0796a",
+          "caller": "0x97c004220a1c96F377C58AFc2ebAb589E25455Ef",
           "comment": "to_little_endian_64(uint64): 0 -> 0x20, 8, 0x00",
           "instance": "C",
           "method": "to_little_endian_64(uint64)",
           "calldata": [
-            "0x"
+            "0x00"
           ],
           "expected": {
             "return_data": [
               "0x20",
               "0x08",
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0x5a2fD78981874E858e49E660842EC08Cb3B0796a",
+          "caller": "0x97c004220a1c96F377C58AFc2ebAb589E25455Ef",
           "comment": "to_little_endian_64(uint64): 0x0102030405060708 -> 0x20, 8, 0x0807060504030201000000000000000000000000000000000000000000000000",
           "instance": "C",
           "method": "to_little_endian_64(uint64)",

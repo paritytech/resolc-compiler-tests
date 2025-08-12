@@ -4,33 +4,33 @@
       "name": "base_base_overload",
       "inputs": [
         {
-          "caller": "0x6f577b2d57898504A2757E65e45e6A263649b164",
+          "caller": "0x53542ceC3E0568A88fDfe48fD94dF8d31426c84A",
           "comment": "x() -> 0",
           "instance": "Child",
           "method": "x()",
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0x6f577b2d57898504A2757E65e45e6A263649b164",
+          "caller": "0x53542ceC3E0568A88fDfe48fD94dF8d31426c84A",
           "comment": "y() -> 0",
           "instance": "Child",
           "method": "y()",
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0x6f577b2d57898504A2757E65e45e6A263649b164",
+          "caller": "0x53542ceC3E0568A88fDfe48fD94dF8d31426c84A",
           "comment": "cInit(uint256): 2 ->",
           "instance": "Child",
           "method": "cInit(uint256)",
@@ -42,7 +42,7 @@
           }
         },
         {
-          "caller": "0x6f577b2d57898504A2757E65e45e6A263649b164",
+          "caller": "0x53542ceC3E0568A88fDfe48fD94dF8d31426c84A",
           "comment": "x() -> 2",
           "instance": "Child",
           "method": "x()",
@@ -55,20 +55,20 @@
           }
         },
         {
-          "caller": "0x6f577b2d57898504A2757E65e45e6A263649b164",
+          "caller": "0x53542ceC3E0568A88fDfe48fD94dF8d31426c84A",
           "comment": "y() -> 0",
           "instance": "Child",
           "method": "y()",
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0x6f577b2d57898504A2757E65e45e6A263649b164",
+          "caller": "0x53542ceC3E0568A88fDfe48fD94dF8d31426c84A",
           "comment": "cInit(uint256,uint256): 3, 3 ->",
           "instance": "Child",
           "method": "cInit(uint256,uint256)",
@@ -81,7 +81,7 @@
           }
         },
         {
-          "caller": "0x6f577b2d57898504A2757E65e45e6A263649b164",
+          "caller": "0x53542ceC3E0568A88fDfe48fD94dF8d31426c84A",
           "comment": "x() -> 3",
           "instance": "Child",
           "method": "x()",
@@ -94,7 +94,7 @@
           }
         },
         {
-          "caller": "0x6f577b2d57898504A2757E65e45e6A263649b164",
+          "caller": "0x53542ceC3E0568A88fDfe48fD94dF8d31426c84A",
           "comment": "y() -> 3",
           "instance": "Child",
           "method": "y()",
@@ -107,7 +107,7 @@
           }
         },
         {
-          "caller": "0x6f577b2d57898504A2757E65e45e6A263649b164",
+          "caller": "0x53542ceC3E0568A88fDfe48fD94dF8d31426c84A",
           "comment": "bInit(uint256): 4 ->",
           "instance": "Child",
           "method": "bInit(uint256)",
@@ -119,7 +119,7 @@
           }
         },
         {
-          "caller": "0x6f577b2d57898504A2757E65e45e6A263649b164",
+          "caller": "0x53542ceC3E0568A88fDfe48fD94dF8d31426c84A",
           "comment": "x() -> 5",
           "instance": "Child",
           "method": "x()",
@@ -132,7 +132,7 @@
           }
         },
         {
-          "caller": "0x6f577b2d57898504A2757E65e45e6A263649b164",
+          "caller": "0x53542ceC3E0568A88fDfe48fD94dF8d31426c84A",
           "comment": "bInit(uint256,uint256): 9, 10 ->",
           "instance": "Child",
           "method": "bInit(uint256,uint256)",
@@ -145,7 +145,7 @@
           }
         },
         {
-          "caller": "0x6f577b2d57898504A2757E65e45e6A263649b164",
+          "caller": "0x53542ceC3E0568A88fDfe48fD94dF8d31426c84A",
           "comment": "x() -> 10",
           "instance": "Child",
           "method": "x()",
@@ -158,7 +158,7 @@
           }
         },
         {
-          "caller": "0x6f577b2d57898504A2757E65e45e6A263649b164",
+          "caller": "0x53542ceC3E0568A88fDfe48fD94dF8d31426c84A",
           "comment": "y() -> 9",
           "instance": "Child",
           "method": "y()",

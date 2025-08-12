@@ -4,14 +4,14 @@
       "name": "push0",
       "inputs": [
         {
-          "caller": "0xb03cB7f5857Fb47E59A3fFCF342cFd61B56ec741",
+          "caller": "0x7CDD6E3B151e04d9D219380Ee689Ff937aFCe3ab",
           "comment": "zero() -> 0",
           "instance": "C",
           "method": "zero()",
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }

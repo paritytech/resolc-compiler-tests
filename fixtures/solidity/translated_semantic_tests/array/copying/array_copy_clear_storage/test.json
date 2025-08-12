@@ -4,14 +4,14 @@
       "name": "array_copy_clear_storage",
       "inputs": [
         {
-          "caller": "0xf4ce4846eDd8441FAbfC17707898F7852598C73a",
+          "caller": "0xC25E6a4CB8B344c5D2530aA4D0F2Eb0f983766D0",
           "comment": "f() -> 0; gas irOptimized: 108229; gas legacy: 108216; gas legacyOptimized: 107625",
           "instance": "C",
           "method": "f()",
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }

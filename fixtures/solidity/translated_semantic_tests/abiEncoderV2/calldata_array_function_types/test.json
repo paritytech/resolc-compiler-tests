@@ -4,12 +4,12 @@
       "name": "calldata_array_function_types",
       "inputs": [
         {
-          "caller": "0x0049CdA3305ccB9cB23E7Ce2528ceF555E9a5B32",
+          "caller": "0xbE594cd7cbF3a1212D87a12e8D286d2872C0e023",
           "comment": "g(bool): false -> 23, 37, 71",
           "instance": "C",
           "method": "g(bool)",
           "calldata": [
-            "0x"
+            "0x00"
           ],
           "expected": {
             "return_data": [
@@ -21,7 +21,7 @@
           }
         },
         {
-          "caller": "0x0049CdA3305ccB9cB23E7Ce2528ceF555E9a5B32",
+          "caller": "0xbE594cd7cbF3a1212D87a12e8D286d2872C0e023",
           "comment": "g(bool): true -> 23, 37, 71",
           "instance": "C",
           "method": "g(bool)",

@@ -4,14 +4,14 @@
       "name": "code_access_padding",
       "inputs": [
         {
-          "caller": "0xa5B7Bd3D33D87fF46811fE5D1092d3bD24a0f27c",
+          "caller": "0xdC249431F31b36439071A2a31B132E3775178cB2",
           "comment": "diff() -> 0",
           "instance": "C",
           "method": "diff()",
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }

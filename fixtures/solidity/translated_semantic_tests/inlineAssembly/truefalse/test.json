@@ -4,7 +4,7 @@
       "name": "truefalse",
       "inputs": [
         {
-          "caller": "0x46ab90928E0601Dbc4cf886BD111DC1240d0a0c1",
+          "caller": "0x6b16720578590DD254FfaA75A6a5D474fbfA63ba",
           "comment": "f() -> 1, 0",
           "instance": "C",
           "method": "f()",
@@ -12,7 +12,7 @@
           "expected": {
             "return_data": [
               "0x01",
-              "0x"
+              "0x00"
             ],
             "exception": false
           }

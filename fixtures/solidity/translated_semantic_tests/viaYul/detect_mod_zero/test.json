@@ -30,7 +30,7 @@
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
@@ -62,7 +62,7 @@
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
@@ -74,7 +74,7 @@
           "method": "f(uint256,uint256)",
           "calldata": [
             "0x01",
-            "0x"
+            "0x00"
           ],
           "expected": {
             "return_data": [
@@ -90,8 +90,8 @@
           "instance": "C",
           "method": "f(uint256,uint256)",
           "calldata": [
-            "0x",
-            "0x"
+            "0x00",
+            "0x00"
           ],
           "expected": {
             "return_data": [
@@ -107,12 +107,12 @@
           "instance": "C",
           "method": "f(uint256,uint256)",
           "calldata": [
-            "0x",
+            "0x00",
             "0x01"
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
@@ -144,7 +144,7 @@
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
@@ -176,7 +176,7 @@
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
@@ -188,7 +188,7 @@
           "method": "g(uint8,uint8)",
           "calldata": [
             "0x01",
-            "0x"
+            "0x00"
           ],
           "expected": {
             "return_data": [
@@ -204,8 +204,8 @@
           "instance": "C",
           "method": "g(uint8,uint8)",
           "calldata": [
-            "0x",
-            "0x"
+            "0x00",
+            "0x00"
           ],
           "expected": {
             "return_data": [
@@ -221,12 +221,12 @@
           "instance": "C",
           "method": "g(uint8,uint8)",
           "calldata": [
-            "0x",
+            "0x00",
             "0x01"
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }

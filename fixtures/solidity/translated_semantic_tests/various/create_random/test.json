@@ -4,7 +4,7 @@
       "name": "create_random",
       "inputs": [
         {
-          "caller": "0xd7084870c99267883b9cd38248a930aD5992c0FC",
+          "caller": "0xaE00DD75852453AD5408fF6304196Ea9f69453bE",
           "comment": "addr() -> 0xc06afe3a8444fc0004668591e8306bfb9968e79e",
           "instance": "C",
           "method": "addr()",
@@ -17,7 +17,7 @@
           }
         },
         {
-          "caller": "0xd7084870c99267883b9cd38248a930aD5992c0FC",
+          "caller": "0xaE00DD75852453AD5408fF6304196Ea9f69453bE",
           "comment": "testRunner() -> 0x137aa4dfc0911524504fcd4d98501f179bc13b4a, 0x2c1c30623ddd93e0b765a6caaca0c859eeb0644d",
           "instance": "C",
           "method": "testRunner()",
@@ -31,7 +31,7 @@
           }
         },
         {
-          "caller": "0xd7084870c99267883b9cd38248a930aD5992c0FC",
+          "caller": "0xaE00DD75852453AD5408fF6304196Ea9f69453bE",
           "comment": "testCalc() -> 0x137aa4dfc0911524504fcd4d98501f179bc13b4a, 0x2c1c30623ddd93e0b765a6caaca0c859eeb0644d",
           "instance": "C",
           "method": "testCalc()",

@@ -4,7 +4,7 @@
       "name": "calldata",
       "inputs": [
         {
-          "caller": "0x8d9a3D7843162a297cf5899AD513154c36bC5006",
+          "caller": "0x76552303461Bb8dF59DDFaB19f5b6f4E0fd007B7",
           "comment": "test_f() -> true; gas irOptimized: 122201; gas legacy: 125333; gas legacyOptimized: 122693",
           "instance": "C",
           "method": "test_f()",
@@ -17,7 +17,7 @@
           }
         },
         {
-          "caller": "0x8d9a3D7843162a297cf5899AD513154c36bC5006",
+          "caller": "0x76552303461Bb8dF59DDFaB19f5b6f4E0fd007B7",
           "comment": "test_g() -> true; gas irOptimized: 106408; gas legacy: 111133; gas legacyOptimized: 106925",
           "instance": "C",
           "method": "test_g()",
@@ -30,12 +30,12 @@
           }
         },
         {
-          "caller": "0x8d9a3D7843162a297cf5899AD513154c36bC5006",
+          "caller": "0x76552303461Bb8dF59DDFaB19f5b6f4E0fd007B7",
           "comment": "addresses(uint256): 0 -> 0xFFFFFF24",
           "instance": "C",
           "method": "addresses(uint256)",
           "calldata": [
-            "0x"
+            "0x00"
           ],
           "expected": {
             "return_data": [
@@ -45,7 +45,7 @@
           }
         },
         {
-          "caller": "0x8d9a3D7843162a297cf5899AD513154c36bC5006",
+          "caller": "0x76552303461Bb8dF59DDFaB19f5b6f4E0fd007B7",
           "comment": "addresses(uint256): 1 -> 0xFFFFFF25",
           "instance": "C",
           "method": "addresses(uint256)",
@@ -60,7 +60,7 @@
           }
         },
         {
-          "caller": "0x8d9a3D7843162a297cf5899AD513154c36bC5006",
+          "caller": "0x76552303461Bb8dF59DDFaB19f5b6f4E0fd007B7",
           "comment": "addresses(uint256): 3 -> 0xFFFFFF27",
           "instance": "C",
           "method": "addresses(uint256)",
@@ -75,7 +75,7 @@
           }
         },
         {
-          "caller": "0x8d9a3D7843162a297cf5899AD513154c36bC5006",
+          "caller": "0x76552303461Bb8dF59DDFaB19f5b6f4E0fd007B7",
           "comment": "addresses(uint256): 4 -> 0xFFFFFF28",
           "instance": "C",
           "method": "addresses(uint256)",
@@ -90,7 +90,7 @@
           }
         },
         {
-          "caller": "0x8d9a3D7843162a297cf5899AD513154c36bC5006",
+          "caller": "0x76552303461Bb8dF59DDFaB19f5b6f4E0fd007B7",
           "comment": "addresses(uint256): 5 -> FAILURE",
           "instance": "C",
           "method": "addresses(uint256)",

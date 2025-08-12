@@ -4,22 +4,22 @@
       "name": "recursive_operator",
       "inputs": [
         {
-          "caller": "0x1277F3BE778E5Aebf8f48E033D38011D080Fd865",
+          "caller": "0xa74fc2A3D10156fF67c07Cd9A5633A1cdBb8F284",
           "comment": "testUnary(uint256): 0 -> 0",
           "instance": "C",
           "method": "testUnary(uint256)",
           "calldata": [
-            "0x"
+            "0x00"
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0x1277F3BE778E5Aebf8f48E033D38011D080Fd865",
+          "caller": "0xa74fc2A3D10156fF67c07Cd9A5633A1cdBb8F284",
           "comment": "testUnary(uint256): 1 -> 0",
           "instance": "C",
           "method": "testUnary(uint256)",
@@ -28,61 +28,61 @@
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0x1277F3BE778E5Aebf8f48E033D38011D080Fd865",
+          "caller": "0xa74fc2A3D10156fF67c07Cd9A5633A1cdBb8F284",
           "comment": "testBinary(uint256,uint256): 0, 0 -> 0",
           "instance": "C",
           "method": "testBinary(uint256,uint256)",
           "calldata": [
-            "0x",
-            "0x"
+            "0x00",
+            "0x00"
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0x1277F3BE778E5Aebf8f48E033D38011D080Fd865",
+          "caller": "0xa74fc2A3D10156fF67c07Cd9A5633A1cdBb8F284",
           "comment": "testBinary(uint256,uint256): 1, 0 -> 0",
           "instance": "C",
           "method": "testBinary(uint256,uint256)",
           "calldata": [
             "0x01",
-            "0x"
+            "0x00"
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0x1277F3BE778E5Aebf8f48E033D38011D080Fd865",
+          "caller": "0xa74fc2A3D10156fF67c07Cd9A5633A1cdBb8F284",
           "comment": "testBinary(uint256,uint256): 0, 1 -> 0",
           "instance": "C",
           "method": "testBinary(uint256,uint256)",
           "calldata": [
-            "0x",
+            "0x00",
             "0x01"
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0x1277F3BE778E5Aebf8f48E033D38011D080Fd865",
+          "caller": "0xa74fc2A3D10156fF67c07Cd9A5633A1cdBb8F284",
           "comment": "testBinary(uint256,uint256): 1, 1 -> 0",
           "instance": "C",
           "method": "testBinary(uint256,uint256)",
@@ -92,7 +92,7 @@
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }

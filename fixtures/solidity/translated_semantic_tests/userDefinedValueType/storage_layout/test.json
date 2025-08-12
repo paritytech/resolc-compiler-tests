@@ -4,63 +4,63 @@
       "name": "storage_layout",
       "inputs": [
         {
-          "caller": "0x1e9BD383f88dC3C12A40e6Ce7356D1A9843Cd30e",
+          "caller": "0xD5D77E97DfdA703feCfBCdFc1Fa85Ae696c2E818",
           "comment": "storage_a() -> 0, 0",
           "instance": "C",
           "method": "storage_a()",
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x",
-              "0x"
+              "0x00",
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0x1e9BD383f88dC3C12A40e6Ce7356D1A9843Cd30e",
+          "caller": "0xD5D77E97DfdA703feCfBCdFc1Fa85Ae696c2E818",
           "comment": "storage_b() -> 0, 1",
           "instance": "C",
           "method": "storage_b()",
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x",
+              "0x00",
               "0x01"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0x1e9BD383f88dC3C12A40e6Ce7356D1A9843Cd30e",
+          "caller": "0xD5D77E97DfdA703feCfBCdFc1Fa85Ae696c2E818",
           "comment": "storage_c() -> 0, 2",
           "instance": "C",
           "method": "storage_c()",
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x",
+              "0x00",
               "0x02"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0x1e9BD383f88dC3C12A40e6Ce7356D1A9843Cd30e",
+          "caller": "0xD5D77E97DfdA703feCfBCdFc1Fa85Ae696c2E818",
           "comment": "storage_d() -> 0, 3",
           "instance": "C",
           "method": "storage_d()",
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x",
+              "0x00",
               "0x03"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0x1e9BD383f88dC3C12A40e6Ce7356D1A9843Cd30e",
+          "caller": "0xD5D77E97DfdA703feCfBCdFc1Fa85Ae696c2E818",
           "comment": "storage_e() -> 1, 0",
           "instance": "C",
           "method": "storage_e()",
@@ -68,13 +68,13 @@
           "expected": {
             "return_data": [
               "0x01",
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0x1e9BD383f88dC3C12A40e6Ce7356D1A9843Cd30e",
+          "caller": "0xD5D77E97DfdA703feCfBCdFc1Fa85Ae696c2E818",
           "comment": "storage_f() -> 2, 0",
           "instance": "C",
           "method": "storage_f()",
@@ -82,13 +82,13 @@
           "expected": {
             "return_data": [
               "0x02",
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0x1e9BD383f88dC3C12A40e6Ce7356D1A9843Cd30e",
+          "caller": "0xD5D77E97DfdA703feCfBCdFc1Fa85Ae696c2E818",
           "comment": "storage_g() -> 2, 0x14",
           "instance": "C",
           "method": "storage_g()",

@@ -4,24 +4,24 @@
       "name": "memory_types_initialisation",
       "inputs": [
         {
-          "caller": "0x6EBEa4992fE1AFAaC2BC1EEA94e02237Faf8CB7e",
+          "caller": "0xA5bB247C4e2eb1829c3487c32cBF788D45659c87",
           "comment": "stat() -> 0, 0, 0, 0, 0",
           "instance": "Test",
           "method": "stat()",
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x",
-              "0x",
-              "0x",
-              "0x",
-              "0x"
+              "0x00",
+              "0x00",
+              "0x00",
+              "0x00",
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0x6EBEa4992fE1AFAaC2BC1EEA94e02237Faf8CB7e",
+          "caller": "0xA5bB247C4e2eb1829c3487c32cBF788D45659c87",
           "comment": "dyn() -> 0x20, 0",
           "instance": "Test",
           "method": "dyn()",
@@ -29,13 +29,13 @@
           "expected": {
             "return_data": [
               "0x20",
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0x6EBEa4992fE1AFAaC2BC1EEA94e02237Faf8CB7e",
+          "caller": "0xA5bB247C4e2eb1829c3487c32cBF788D45659c87",
           "comment": "nested() -> 0x20, 0",
           "instance": "Test",
           "method": "nested()",
@@ -43,40 +43,40 @@
           "expected": {
             "return_data": [
               "0x20",
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0x6EBEa4992fE1AFAaC2BC1EEA94e02237Faf8CB7e",
+          "caller": "0xA5bB247C4e2eb1829c3487c32cBF788D45659c87",
           "comment": "nestedStat() -> 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0",
           "instance": "Test",
           "method": "nestedStat()",
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x",
-              "0x",
-              "0x",
-              "0x",
-              "0x",
-              "0x",
-              "0x",
-              "0x",
-              "0x",
-              "0x",
-              "0x",
-              "0x",
-              "0x",
-              "0x",
-              "0x",
-              "0x",
-              "0x",
-              "0x",
-              "0x",
-              "0x",
-              "0x"
+              "0x00",
+              "0x00",
+              "0x00",
+              "0x00",
+              "0x00",
+              "0x00",
+              "0x00",
+              "0x00",
+              "0x00",
+              "0x00",
+              "0x00",
+              "0x00",
+              "0x00",
+              "0x00",
+              "0x00",
+              "0x00",
+              "0x00",
+              "0x00",
+              "0x00",
+              "0x00",
+              "0x00"
             ],
             "exception": false
           }

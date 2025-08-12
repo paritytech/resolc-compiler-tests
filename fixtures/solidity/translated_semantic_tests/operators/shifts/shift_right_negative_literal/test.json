@@ -4,7 +4,7 @@
       "name": "shift_right_negative_literal",
       "inputs": [
         {
-          "caller": "0xa4580C1eBb76e1c7Ae80725a80F032bD93dC3487",
+          "caller": "0x38dD5d19Bd03bf855C73c0a0a1bEb34bb8f6F878",
           "comment": "f1() -> true",
           "instance": "C",
           "method": "f1()",
@@ -17,7 +17,7 @@
           }
         },
         {
-          "caller": "0xa4580C1eBb76e1c7Ae80725a80F032bD93dC3487",
+          "caller": "0x38dD5d19Bd03bf855C73c0a0a1bEb34bb8f6F878",
           "comment": "f2() -> true",
           "instance": "C",
           "method": "f2()",
@@ -30,7 +30,7 @@
           }
         },
         {
-          "caller": "0xa4580C1eBb76e1c7Ae80725a80F032bD93dC3487",
+          "caller": "0x38dD5d19Bd03bf855C73c0a0a1bEb34bb8f6F878",
           "comment": "f3() -> true",
           "instance": "C",
           "method": "f3()",
@@ -43,7 +43,7 @@
           }
         },
         {
-          "caller": "0xa4580C1eBb76e1c7Ae80725a80F032bD93dC3487",
+          "caller": "0x38dD5d19Bd03bf855C73c0a0a1bEb34bb8f6F878",
           "comment": "f4() -> true",
           "instance": "C",
           "method": "f4()",
@@ -56,7 +56,7 @@
           }
         },
         {
-          "caller": "0xa4580C1eBb76e1c7Ae80725a80F032bD93dC3487",
+          "caller": "0x38dD5d19Bd03bf855C73c0a0a1bEb34bb8f6F878",
           "comment": "f5() -> true",
           "instance": "C",
           "method": "f5()",
@@ -69,7 +69,7 @@
           }
         },
         {
-          "caller": "0xa4580C1eBb76e1c7Ae80725a80F032bD93dC3487",
+          "caller": "0x38dD5d19Bd03bf855C73c0a0a1bEb34bb8f6F878",
           "comment": "f6() -> true",
           "instance": "C",
           "method": "f6()",
@@ -82,7 +82,7 @@
           }
         },
         {
-          "caller": "0xa4580C1eBb76e1c7Ae80725a80F032bD93dC3487",
+          "caller": "0x38dD5d19Bd03bf855C73c0a0a1bEb34bb8f6F878",
           "comment": "g1() -> true",
           "instance": "C",
           "method": "g1()",
@@ -95,7 +95,7 @@
           }
         },
         {
-          "caller": "0xa4580C1eBb76e1c7Ae80725a80F032bD93dC3487",
+          "caller": "0x38dD5d19Bd03bf855C73c0a0a1bEb34bb8f6F878",
           "comment": "g2() -> true",
           "instance": "C",
           "method": "g2()",
@@ -108,7 +108,7 @@
           }
         },
         {
-          "caller": "0xa4580C1eBb76e1c7Ae80725a80F032bD93dC3487",
+          "caller": "0x38dD5d19Bd03bf855C73c0a0a1bEb34bb8f6F878",
           "comment": "g3() -> true",
           "instance": "C",
           "method": "g3()",
@@ -121,7 +121,7 @@
           }
         },
         {
-          "caller": "0xa4580C1eBb76e1c7Ae80725a80F032bD93dC3487",
+          "caller": "0x38dD5d19Bd03bf855C73c0a0a1bEb34bb8f6F878",
           "comment": "g4() -> true",
           "instance": "C",
           "method": "g4()",
@@ -134,7 +134,7 @@
           }
         },
         {
-          "caller": "0xa4580C1eBb76e1c7Ae80725a80F032bD93dC3487",
+          "caller": "0x38dD5d19Bd03bf855C73c0a0a1bEb34bb8f6F878",
           "comment": "g5() -> true",
           "instance": "C",
           "method": "g5()",
@@ -147,7 +147,7 @@
           }
         },
         {
-          "caller": "0xa4580C1eBb76e1c7Ae80725a80F032bD93dC3487",
+          "caller": "0x38dD5d19Bd03bf855C73c0a0a1bEb34bb8f6F878",
           "comment": "g6() -> true",
           "instance": "C",
           "method": "g6()",

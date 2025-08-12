@@ -9,7 +9,7 @@
           "instance": "C",
           "method": "f(uint256,uint256,uint256)",
           "calldata": [
-            "0x",
+            "0x00",
             "0x0200",
             "0x60"
           ],
@@ -23,7 +23,7 @@
           "instance": "C",
           "method": "f(uint256,uint256,uint256)",
           "calldata": [
-            "0x",
+            "0x00",
             "0x20",
             "0x60"
           ],

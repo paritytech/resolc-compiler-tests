@@ -4,7 +4,7 @@
       "name": "transient_storage_reset_between_creation_runtime",
       "inputs": [
         {
-          "caller": "0x1A89eb90c0e8f1A25D6d1875b44C5fFD73170769",
+          "caller": "0xef1D6dB5525B7953bF0B23DB999927E93Cd9cec2",
           "comment": "constructor() ->",
           "instance": "C",
           "method": "#deployer",
@@ -14,14 +14,14 @@
           }
         },
         {
-          "caller": "0x1A89eb90c0e8f1A25D6d1875b44C5fFD73170769",
+          "caller": "0xef1D6dB5525B7953bF0B23DB999927E93Cd9cec2",
           "comment": "f() -> 0",
           "instance": "C",
           "method": "f()",
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }

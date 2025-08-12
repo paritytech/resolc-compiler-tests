@@ -4,20 +4,20 @@
       "name": "slot_access",
       "inputs": [
         {
-          "caller": "0x92aFbbc3E3f77E660a761ecF1279f2e00b2c79B8",
+          "caller": "0xA24dB7adA30324bCe2436Aaaba8511bfB729E3Da",
           "comment": "get() -> 0",
           "instance": "C",
           "method": "get()",
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0x92aFbbc3E3f77E660a761ecF1279f2e00b2c79B8",
+          "caller": "0xA24dB7adA30324bCe2436Aaaba8511bfB729E3Da",
           "comment": "mappingAccess(uint256): 1 -> 0, 0",
           "instance": "C",
           "method": "mappingAccess(uint256)",
@@ -26,14 +26,14 @@
           ],
           "expected": {
             "return_data": [
-              "0x",
-              "0x"
+              "0x00",
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0x92aFbbc3E3f77E660a761ecF1279f2e00b2c79B8",
+          "caller": "0xA24dB7adA30324bCe2436Aaaba8511bfB729E3Da",
           "comment": "set(uint256): 4",
           "instance": "C",
           "method": "set(uint256)",
@@ -45,7 +45,7 @@
           }
         },
         {
-          "caller": "0x92aFbbc3E3f77E660a761ecF1279f2e00b2c79B8",
+          "caller": "0xA24dB7adA30324bCe2436Aaaba8511bfB729E3Da",
           "comment": "get() -> 4",
           "instance": "C",
           "method": "get()",
@@ -58,7 +58,7 @@
           }
         },
         {
-          "caller": "0x92aFbbc3E3f77E660a761ecF1279f2e00b2c79B8",
+          "caller": "0xA24dB7adA30324bCe2436Aaaba8511bfB729E3Da",
           "comment": "mappingAccess(uint256): 1 -> 4, 0",
           "instance": "C",
           "method": "mappingAccess(uint256)",
@@ -68,7 +68,7 @@
           "expected": {
             "return_data": [
               "0x04",
-              "0x"
+              "0x00"
             ],
             "exception": false
           }

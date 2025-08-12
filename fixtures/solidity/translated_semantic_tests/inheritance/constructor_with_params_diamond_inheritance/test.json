@@ -4,20 +4,20 @@
       "name": "constructor_with_params_diamond_inheritance",
       "inputs": [
         {
-          "caller": "0xA109a7F5b9Dc69893D021b6C4253c5051B27a724",
+          "caller": "0xF6afF0B5A655086C728c241370Bc9D174e319c21",
           "comment": "constructor(): 2, 0 ->; gas irOptimized: 124350; gas irOptimized code: 27600; gas legacy: 128222; gas legacy code: 40400; gas legacyOptimized: 123920; gas legacyOptimized code: 20600",
           "instance": "D",
           "method": "#deployer",
           "calldata": [
             "0x02",
-            "0x"
+            "0x00"
           ],
           "expected": {
             "exception": false
           }
         },
         {
-          "caller": "0xA109a7F5b9Dc69893D021b6C4253c5051B27a724",
+          "caller": "0xF6afF0B5A655086C728c241370Bc9D174e319c21",
           "comment": "i() -> 2",
           "instance": "D",
           "method": "i()",
@@ -30,7 +30,7 @@
           }
         },
         {
-          "caller": "0xA109a7F5b9Dc69893D021b6C4253c5051B27a724",
+          "caller": "0xF6afF0B5A655086C728c241370Bc9D174e319c21",
           "comment": "j() -> 2",
           "instance": "D",
           "method": "j()",
@@ -43,7 +43,7 @@
           }
         },
         {
-          "caller": "0xA109a7F5b9Dc69893D021b6C4253c5051B27a724",
+          "caller": "0xF6afF0B5A655086C728c241370Bc9D174e319c21",
           "comment": "k() -> 1",
           "instance": "D",
           "method": "k()",

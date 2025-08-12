@@ -4,7 +4,7 @@
       "name": "bytes_memory_index_access",
       "inputs": [
         {
-          "caller": "0xE94B1B14E7B329FDa9116b872BEd352EBF0dAcDC",
+          "caller": "0x54e8a27e9F6a1471030ee095753F1bC50e903630",
           "comment": "set(bytes,uint256): 0x40, 0x03, 0x08, \"abcdefgh\" -> 0x08, \"d\"",
           "instance": "Test",
           "method": "set(bytes,uint256)",

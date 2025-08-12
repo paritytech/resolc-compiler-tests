@@ -4,7 +4,7 @@
       "name": "inline_assembly_storage_access_via_pointer",
       "inputs": [
         {
-          "caller": "0x067552D1BE7A0A5266D11565E7138d8c165caD02",
+          "caller": "0x12Ccdd526F3251fcBf48ca8a807115cE95515b7b",
           "comment": "f() -> true",
           "instance": "C",
           "method": "f()",
@@ -17,7 +17,7 @@
           }
         },
         {
-          "caller": "0x067552D1BE7A0A5266D11565E7138d8c165caD02",
+          "caller": "0x12Ccdd526F3251fcBf48ca8a807115cE95515b7b",
           "comment": "a() -> 7",
           "instance": "C",
           "method": "a()",
@@ -30,27 +30,27 @@
           }
         },
         {
-          "caller": "0x067552D1BE7A0A5266D11565E7138d8c165caD02",
+          "caller": "0x12Ccdd526F3251fcBf48ca8a807115cE95515b7b",
           "comment": "separator() -> 0",
           "instance": "C",
           "method": "separator()",
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0x067552D1BE7A0A5266D11565E7138d8c165caD02",
+          "caller": "0x12Ccdd526F3251fcBf48ca8a807115cE95515b7b",
           "comment": "separator2() -> 0",
           "instance": "C",
           "method": "separator2()",
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }

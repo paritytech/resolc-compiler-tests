@@ -4,7 +4,7 @@
       "name": "transient_storage_creation",
       "inputs": [
         {
-          "caller": "0x48d1Cd66CD90F53B72eE154Cec3250408B48a50B",
+          "caller": "0x6c82F433e265a54AAA1Ea96dFC5598fA95320bcd",
           "comment": "constructor() ->",
           "instance": "C",
           "method": "#deployer",

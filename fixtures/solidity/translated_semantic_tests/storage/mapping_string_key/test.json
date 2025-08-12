@@ -4,7 +4,7 @@
       "name": "mapping_string_key",
       "inputs": [
         {
-          "caller": "0xdb2c17F2c7e0acB40274560de0C73Ef84941f5e3",
+          "caller": "0xFdd26606d6A772f82Ad434E8868336D2B5dC699b",
           "comment": "set(string,uint256): 0x40, 8, 3, \"abc\" ->",
           "instance": "C",
           "method": "set(string,uint256)",
@@ -19,7 +19,7 @@
           }
         },
         {
-          "caller": "0xdb2c17F2c7e0acB40274560de0C73Ef84941f5e3",
+          "caller": "0xFdd26606d6A772f82Ad434E8868336D2B5dC699b",
           "comment": "get(string): 0x20, 3, \"abc\" -> 8",
           "instance": "C",
           "method": "get(string)",
@@ -36,7 +36,7 @@
           }
         },
         {
-          "caller": "0xdb2c17F2c7e0acB40274560de0C73Ef84941f5e3",
+          "caller": "0xFdd26606d6A772f82Ad434E8868336D2B5dC699b",
           "comment": "get(string): 0x20, 3, \"abe\" -> 0",
           "instance": "C",
           "method": "get(string)",
@@ -47,26 +47,26 @@
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0xdb2c17F2c7e0acB40274560de0C73Ef84941f5e3",
+          "caller": "0xFdd26606d6A772f82Ad434E8868336D2B5dC699b",
           "comment": "getFixed() -> 0",
           "instance": "C",
           "method": "getFixed()",
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0xdb2c17F2c7e0acB40274560de0C73Ef84941f5e3",
+          "caller": "0xFdd26606d6A772f82Ad434E8868336D2B5dC699b",
           "comment": "setFixed(uint256): 9 ->",
           "instance": "C",
           "method": "setFixed(uint256)",
@@ -78,7 +78,7 @@
           }
         },
         {
-          "caller": "0xdb2c17F2c7e0acB40274560de0C73Ef84941f5e3",
+          "caller": "0xFdd26606d6A772f82Ad434E8868336D2B5dC699b",
           "comment": "getFixed() -> 9",
           "instance": "C",
           "method": "getFixed()",

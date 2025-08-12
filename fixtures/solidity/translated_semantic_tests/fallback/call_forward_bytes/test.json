@@ -4,7 +4,7 @@
       "name": "call_forward_bytes",
       "inputs": [
         {
-          "caller": "0xDCB85fA9B4CF0a8e40B77a3dF2f7dc5Ea8Dad8E4",
+          "caller": "0x0093F3c023941CB49cb19e76C465168e19d2C428",
           "comment": "recv(uint256): 7 ->",
           "instance": "sender",
           "method": "recv(uint256)",
@@ -16,20 +16,20 @@
           }
         },
         {
-          "caller": "0xDCB85fA9B4CF0a8e40B77a3dF2f7dc5Ea8Dad8E4",
+          "caller": "0x0093F3c023941CB49cb19e76C465168e19d2C428",
           "comment": "val() -> 0",
           "instance": "sender",
           "method": "val()",
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0xDCB85fA9B4CF0a8e40B77a3dF2f7dc5Ea8Dad8E4",
+          "caller": "0x0093F3c023941CB49cb19e76C465168e19d2C428",
           "comment": "forward() -> true",
           "instance": "sender",
           "method": "forward()",
@@ -42,7 +42,7 @@
           }
         },
         {
-          "caller": "0xDCB85fA9B4CF0a8e40B77a3dF2f7dc5Ea8Dad8E4",
+          "caller": "0x0093F3c023941CB49cb19e76C465168e19d2C428",
           "comment": "val() -> 8",
           "instance": "sender",
           "method": "val()",
@@ -55,7 +55,7 @@
           }
         },
         {
-          "caller": "0xDCB85fA9B4CF0a8e40B77a3dF2f7dc5Ea8Dad8E4",
+          "caller": "0x0093F3c023941CB49cb19e76C465168e19d2C428",
           "comment": "clear() -> true",
           "instance": "sender",
           "method": "clear()",
@@ -68,7 +68,7 @@
           }
         },
         {
-          "caller": "0xDCB85fA9B4CF0a8e40B77a3dF2f7dc5Ea8Dad8E4",
+          "caller": "0x0093F3c023941CB49cb19e76C465168e19d2C428",
           "comment": "val() -> 8",
           "instance": "sender",
           "method": "val()",
@@ -81,7 +81,7 @@
           }
         },
         {
-          "caller": "0xDCB85fA9B4CF0a8e40B77a3dF2f7dc5Ea8Dad8E4",
+          "caller": "0x0093F3c023941CB49cb19e76C465168e19d2C428",
           "comment": "forward() -> true",
           "instance": "sender",
           "method": "forward()",
@@ -94,7 +94,7 @@
           }
         },
         {
-          "caller": "0xDCB85fA9B4CF0a8e40B77a3dF2f7dc5Ea8Dad8E4",
+          "caller": "0x0093F3c023941CB49cb19e76C465168e19d2C428",
           "comment": "val() -> 0x80",
           "instance": "sender",
           "method": "val()",

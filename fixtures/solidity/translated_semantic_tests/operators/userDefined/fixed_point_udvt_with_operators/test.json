@@ -4,7 +4,7 @@
       "name": "fixed_point_udvt_with_operators",
       "inputs": [
         {
-          "caller": "0x044dadB41daF803C7f5a3391D33811A6E2E95872",
+          "caller": "0xD716757239976425A1f204c0Bb9de5138D575ee6",
           "comment": "applyInterest(int128,int128): 500000000000000000000, 100000000000000000 -> 550000000000000000000",
           "instance": "C",
           "method": "applyInterest(int128,int128)",

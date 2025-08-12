@@ -4,20 +4,20 @@
       "name": "library_address",
       "inputs": [
         {
-          "caller": "0xDceF077aac3c1cA2Ebb43eae9500c90DEed0f94C",
+          "caller": "0x83E658A045a4082526efC8D37072E3a5fF09F1e3",
           "comment": "addr() -> false",
           "instance": "C",
           "method": "addr()",
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0xDceF077aac3c1cA2Ebb43eae9500c90DEed0f94C",
+          "caller": "0x83E658A045a4082526efC8D37072E3a5fF09F1e3",
           "comment": "g(uint256): 1 -> 1",
           "instance": "C",
           "method": "g(uint256)",
@@ -32,7 +32,7 @@
           }
         },
         {
-          "caller": "0xDceF077aac3c1cA2Ebb43eae9500c90DEed0f94C",
+          "caller": "0x83E658A045a4082526efC8D37072E3a5fF09F1e3",
           "comment": "g(uint256): 2 -> 4",
           "instance": "C",
           "method": "g(uint256)",
@@ -47,7 +47,7 @@
           }
         },
         {
-          "caller": "0xDceF077aac3c1cA2Ebb43eae9500c90DEed0f94C",
+          "caller": "0x83E658A045a4082526efC8D37072E3a5fF09F1e3",
           "comment": "g(uint256): 4 -> 16",
           "instance": "C",
           "method": "g(uint256)",
@@ -62,7 +62,7 @@
           }
         },
         {
-          "caller": "0xDceF077aac3c1cA2Ebb43eae9500c90DEed0f94C",
+          "caller": "0x83E658A045a4082526efC8D37072E3a5fF09F1e3",
           "comment": "h(uint256): 1 -> 1",
           "instance": "C",
           "method": "h(uint256)",
@@ -77,7 +77,7 @@
           }
         },
         {
-          "caller": "0xDceF077aac3c1cA2Ebb43eae9500c90DEed0f94C",
+          "caller": "0x83E658A045a4082526efC8D37072E3a5fF09F1e3",
           "comment": "h(uint256): 2 -> 4",
           "instance": "C",
           "method": "h(uint256)",
@@ -92,7 +92,7 @@
           }
         },
         {
-          "caller": "0xDceF077aac3c1cA2Ebb43eae9500c90DEed0f94C",
+          "caller": "0x83E658A045a4082526efC8D37072E3a5fF09F1e3",
           "comment": "h(uint256): 4 -> 16",
           "instance": "C",
           "method": "h(uint256)",
@@ -107,7 +107,7 @@
           }
         },
         {
-          "caller": "0xDceF077aac3c1cA2Ebb43eae9500c90DEed0f94C",
+          "caller": "0x83E658A045a4082526efC8D37072E3a5fF09F1e3",
           "comment": "i(uint256): 1 -> 1",
           "instance": "C",
           "method": "i(uint256)",
@@ -122,7 +122,7 @@
           }
         },
         {
-          "caller": "0xDceF077aac3c1cA2Ebb43eae9500c90DEed0f94C",
+          "caller": "0x83E658A045a4082526efC8D37072E3a5fF09F1e3",
           "comment": "i(uint256): 2 -> 4",
           "instance": "C",
           "method": "i(uint256)",
@@ -137,7 +137,7 @@
           }
         },
         {
-          "caller": "0xDceF077aac3c1cA2Ebb43eae9500c90DEed0f94C",
+          "caller": "0x83E658A045a4082526efC8D37072E3a5fF09F1e3",
           "comment": "i(uint256): 4 -> 16",
           "instance": "C",
           "method": "i(uint256)",
@@ -152,7 +152,7 @@
           }
         },
         {
-          "caller": "0xDceF077aac3c1cA2Ebb43eae9500c90DEed0f94C",
+          "caller": "0x83E658A045a4082526efC8D37072E3a5fF09F1e3",
           "comment": "j(uint256): 1 -> 1",
           "instance": "C",
           "method": "j(uint256)",
@@ -167,7 +167,7 @@
           }
         },
         {
-          "caller": "0xDceF077aac3c1cA2Ebb43eae9500c90DEed0f94C",
+          "caller": "0x83E658A045a4082526efC8D37072E3a5fF09F1e3",
           "comment": "j(uint256): 2 -> 4",
           "instance": "C",
           "method": "j(uint256)",
@@ -182,7 +182,7 @@
           }
         },
         {
-          "caller": "0xDceF077aac3c1cA2Ebb43eae9500c90DEed0f94C",
+          "caller": "0x83E658A045a4082526efC8D37072E3a5fF09F1e3",
           "comment": "j(uint256): 4 -> 16",
           "instance": "C",
           "method": "j(uint256)",
@@ -197,7 +197,7 @@
           }
         },
         {
-          "caller": "0xDceF077aac3c1cA2Ebb43eae9500c90DEed0f94C",
+          "caller": "0x83E658A045a4082526efC8D37072E3a5fF09F1e3",
           "comment": "k(uint256): 1 -> FAILURE, hex\"4e487b71\", 0x01",
           "instance": "C",
           "method": "k(uint256)",
@@ -213,7 +213,7 @@
           }
         },
         {
-          "caller": "0xDceF077aac3c1cA2Ebb43eae9500c90DEed0f94C",
+          "caller": "0x83E658A045a4082526efC8D37072E3a5fF09F1e3",
           "comment": "k(uint256): 2 -> FAILURE, hex\"4e487b71\", 0x01",
           "instance": "C",
           "method": "k(uint256)",
@@ -229,7 +229,7 @@
           }
         },
         {
-          "caller": "0xDceF077aac3c1cA2Ebb43eae9500c90DEed0f94C",
+          "caller": "0x83E658A045a4082526efC8D37072E3a5fF09F1e3",
           "comment": "k(uint256): 4 -> FAILURE, hex\"4e487b71\", 0x01",
           "instance": "C",
           "method": "k(uint256)",

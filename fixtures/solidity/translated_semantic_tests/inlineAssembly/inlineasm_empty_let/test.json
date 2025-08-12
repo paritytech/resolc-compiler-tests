@@ -4,15 +4,15 @@
       "name": "inlineasm_empty_let",
       "inputs": [
         {
-          "caller": "0xD2e69e3b857AEB3c4fa84A7CA5977ADDA14d7Be6",
+          "caller": "0x46ab90928E0601Dbc4cf886BD111DC1240d0a0c1",
           "comment": "f() -> 0, 0",
           "instance": "C",
           "method": "f()",
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x",
-              "0x"
+              "0x00",
+              "0x00"
             ],
             "exception": false
           }

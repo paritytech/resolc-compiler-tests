@@ -4,7 +4,7 @@
       "name": "function_unreferenced",
       "inputs": [
         {
-          "caller": "0x1E9E7b47766564a54Fc10A53a0839868A6b9f2fF",
+          "caller": "0x64f66C6a7D3D0e0931B0aAcE06B3ee08793adc25",
           "comment": "f() -> 0xe2179b8e00000000000000000000000000000000000000000000000000000000",
           "instance": "C",
           "method": "f()",

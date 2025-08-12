@@ -4,7 +4,7 @@
       "name": "internal_library_function_attached_to_bool",
       "inputs": [
         {
-          "caller": "0xc88634156937c316e5401D587eD4f998Eb0B777C",
+          "caller": "0x16fb7667089738A5055e45Bd0B260845Eaedbe44",
           "comment": "foo(bool,bool): true, true -> false",
           "instance": "C",
           "method": "foo(bool,bool)",
@@ -14,19 +14,19 @@
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0xc88634156937c316e5401D587eD4f998Eb0B777C",
+          "caller": "0x16fb7667089738A5055e45Bd0B260845Eaedbe44",
           "comment": "foo(bool,bool): true, false -> true",
           "instance": "C",
           "method": "foo(bool,bool)",
           "calldata": [
             "0x01",
-            "0x"
+            "0x00"
           ],
           "expected": {
             "return_data": [
@@ -36,12 +36,12 @@
           }
         },
         {
-          "caller": "0xc88634156937c316e5401D587eD4f998Eb0B777C",
+          "caller": "0x16fb7667089738A5055e45Bd0B260845Eaedbe44",
           "comment": "foo(bool,bool): false, true -> true",
           "instance": "C",
           "method": "foo(bool,bool)",
           "calldata": [
-            "0x",
+            "0x00",
             "0x01"
           ],
           "expected": {
@@ -52,17 +52,17 @@
           }
         },
         {
-          "caller": "0xc88634156937c316e5401D587eD4f998Eb0B777C",
+          "caller": "0x16fb7667089738A5055e45Bd0B260845Eaedbe44",
           "comment": "foo(bool,bool): false, false -> false",
           "instance": "C",
           "method": "foo(bool,bool)",
           "calldata": [
-            "0x",
-            "0x"
+            "0x00",
+            "0x00"
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }

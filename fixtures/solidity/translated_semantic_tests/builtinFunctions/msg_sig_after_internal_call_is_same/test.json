@@ -4,12 +4,12 @@
       "name": "msg_sig_after_internal_call_is_same",
       "inputs": [
         {
-          "caller": "0x4c44377F452c5CA87766Aee2682FE14C35D12aE8",
+          "caller": "0xcaB2C7650b23536774c8bfB0ac2e04Bc2eb8FF09",
           "comment": "foo(uint256): 0x0 -> 0x2fbebd3800000000000000000000000000000000000000000000000000000000",
           "instance": "test",
           "method": "foo(uint256)",
           "calldata": [
-            "0x"
+            "0x00"
           ],
           "expected": {
             "return_data": [

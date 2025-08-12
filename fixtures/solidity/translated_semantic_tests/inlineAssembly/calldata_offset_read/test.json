@@ -4,14 +4,14 @@
       "name": "calldata_offset_read",
       "inputs": [
         {
-          "caller": "0xA6CE0165F01Fccb751c401F1bcBb2F96C522c88A",
+          "caller": "0x067552D1BE7A0A5266D11565E7138d8c165caD02",
           "comment": "f(bytes): 0x20, 0, 0 -> 0x44",
           "instance": "C",
           "method": "f(bytes)",
           "calldata": [
             "0x20",
-            "0x",
-            "0x"
+            "0x00",
+            "0x00"
           ],
           "expected": {
             "return_data": [
@@ -21,15 +21,15 @@
           }
         },
         {
-          "caller": "0xA6CE0165F01Fccb751c401F1bcBb2F96C522c88A",
+          "caller": "0x067552D1BE7A0A5266D11565E7138d8c165caD02",
           "comment": "f(bytes): 0x22, 0, 0, 0 -> 0x46",
           "instance": "C",
           "method": "f(bytes)",
           "calldata": [
             "0x22",
-            "0x",
-            "0x",
-            "0x"
+            "0x00",
+            "0x00",
+            "0x00"
           ],
           "expected": {
             "return_data": [
@@ -39,7 +39,7 @@
           }
         },
         {
-          "caller": "0xA6CE0165F01Fccb751c401F1bcBb2F96C522c88A",
+          "caller": "0x067552D1BE7A0A5266D11565E7138d8c165caD02",
           "comment": "f(uint256,bytes,uint256): 7, 0x60, 8, 2, 0 -> 0x84, 2",
           "instance": "C",
           "method": "f(uint256,bytes,uint256)",
@@ -48,7 +48,7 @@
             "0x60",
             "0x08",
             "0x02",
-            "0x"
+            "0x00"
           ],
           "expected": {
             "return_data": [
@@ -59,19 +59,19 @@
           }
         },
         {
-          "caller": "0xA6CE0165F01Fccb751c401F1bcBb2F96C522c88A",
+          "caller": "0x067552D1BE7A0A5266D11565E7138d8c165caD02",
           "comment": "f(uint256,bytes,uint256): 0, 0, 0 -> 0x24, 0x00",
           "instance": "C",
           "method": "f(uint256,bytes,uint256)",
           "calldata": [
-            "0x",
-            "0x",
-            "0x"
+            "0x00",
+            "0x00",
+            "0x00"
           ],
           "expected": {
             "return_data": [
               "0x24",
-              "0x"
+              "0x00"
             ],
             "exception": false
           }

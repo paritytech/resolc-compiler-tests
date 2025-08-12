@@ -4,7 +4,7 @@
       "name": "array_storage_index_zeroed_test",
       "inputs": [
         {
-          "caller": "0x8463C9046C6d86c6c3e95f4a9ca69Af743ba6e65",
+          "caller": "0x470e35F4B175Aec252c69278BF2f7Ba68d31e748",
           "comment": "test_zeroed_indices(uint256): 1 ->",
           "instance": "C",
           "method": "test_zeroed_indices(uint256)",
@@ -16,7 +16,7 @@
           }
         },
         {
-          "caller": "0x8463C9046C6d86c6c3e95f4a9ca69Af743ba6e65",
+          "caller": "0x470e35F4B175Aec252c69278BF2f7Ba68d31e748",
           "comment": "test_zeroed_indices(uint256): 5 ->; gas irOptimized: 133763; gas legacy: 131664; gas legacyOptimized: 129990",
           "instance": "C",
           "method": "test_zeroed_indices(uint256)",
@@ -28,7 +28,7 @@
           }
         },
         {
-          "caller": "0x8463C9046C6d86c6c3e95f4a9ca69Af743ba6e65",
+          "caller": "0x470e35F4B175Aec252c69278BF2f7Ba68d31e748",
           "comment": "test_zeroed_indices(uint256): 10 ->; gas irOptimized: 228556; gas legacy: 225215; gas legacyOptimized: 222351",
           "instance": "C",
           "method": "test_zeroed_indices(uint256)",
@@ -40,7 +40,7 @@
           }
         },
         {
-          "caller": "0x8463C9046C6d86c6c3e95f4a9ca69Af743ba6e65",
+          "caller": "0x470e35F4B175Aec252c69278BF2f7Ba68d31e748",
           "comment": "test_zeroed_indices(uint256): 15 ->; gas irOptimized: 327360; gas legacy: 322899; gas legacyOptimized: 318907",
           "instance": "C",
           "method": "test_zeroed_indices(uint256)",
@@ -52,7 +52,7 @@
           }
         },
         {
-          "caller": "0x8463C9046C6d86c6c3e95f4a9ca69Af743ba6e65",
+          "caller": "0x470e35F4B175Aec252c69278BF2f7Ba68d31e748",
           "comment": "test_zeroed_indices(uint256): 0xFF ->; gas irOptimized: 5180120; gas legacy: 5093135; gas legacyOptimized: 5020523",
           "instance": "C",
           "method": "test_zeroed_indices(uint256)",

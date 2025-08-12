@@ -15,7 +15,7 @@
             "return_data": [
               "0x15",
               "0x15",
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
@@ -26,7 +26,7 @@
           "instance": "C",
           "method": "f(bool)",
           "calldata": [
-            "0x"
+            "0x00"
           ],
           "expected": {
             "return_data": [

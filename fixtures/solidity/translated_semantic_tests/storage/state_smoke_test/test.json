@@ -4,22 +4,22 @@
       "name": "state_smoke_test",
       "inputs": [
         {
-          "caller": "0xEFbaB5185b420539B8b173c67749Fc8414FC3176",
+          "caller": "0x27380909B16CC109D9F31D07F646d09c7CD72Fac",
           "comment": "get(uint8): 0x00 -> 0",
           "instance": "test",
           "method": "get(uint8)",
           "calldata": [
-            "0x"
+            "0x00"
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0xEFbaB5185b420539B8b173c67749Fc8414FC3176",
+          "caller": "0x27380909B16CC109D9F31D07F646d09c7CD72Fac",
           "comment": "get(uint8): 0x01 -> 0",
           "instance": "test",
           "method": "get(uint8)",
@@ -28,18 +28,18 @@
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0xEFbaB5185b420539B8b173c67749Fc8414FC3176",
+          "caller": "0x27380909B16CC109D9F31D07F646d09c7CD72Fac",
           "comment": "set(uint8,uint256): 0x00, 0x1234 ->",
           "instance": "test",
           "method": "set(uint8,uint256)",
           "calldata": [
-            "0x",
+            "0x00",
             "0x1234"
           ],
           "expected": {
@@ -47,7 +47,7 @@
           }
         },
         {
-          "caller": "0xEFbaB5185b420539B8b173c67749Fc8414FC3176",
+          "caller": "0x27380909B16CC109D9F31D07F646d09c7CD72Fac",
           "comment": "set(uint8,uint256): 0x01, 0x8765 ->",
           "instance": "test",
           "method": "set(uint8,uint256)",
@@ -60,12 +60,12 @@
           }
         },
         {
-          "caller": "0xEFbaB5185b420539B8b173c67749Fc8414FC3176",
+          "caller": "0x27380909B16CC109D9F31D07F646d09c7CD72Fac",
           "comment": "get(uint8): 0x00 -> 0x1234",
           "instance": "test",
           "method": "get(uint8)",
           "calldata": [
-            "0x"
+            "0x00"
           ],
           "expected": {
             "return_data": [
@@ -75,7 +75,7 @@
           }
         },
         {
-          "caller": "0xEFbaB5185b420539B8b173c67749Fc8414FC3176",
+          "caller": "0x27380909B16CC109D9F31D07F646d09c7CD72Fac",
           "comment": "get(uint8): 0x01 -> 0x8765",
           "instance": "test",
           "method": "get(uint8)",
@@ -90,12 +90,12 @@
           }
         },
         {
-          "caller": "0xEFbaB5185b420539B8b173c67749Fc8414FC3176",
+          "caller": "0x27380909B16CC109D9F31D07F646d09c7CD72Fac",
           "comment": "set(uint8,uint256): 0x00, 0x03 ->",
           "instance": "test",
           "method": "set(uint8,uint256)",
           "calldata": [
-            "0x",
+            "0x00",
             "0x03"
           ],
           "expected": {
@@ -103,12 +103,12 @@
           }
         },
         {
-          "caller": "0xEFbaB5185b420539B8b173c67749Fc8414FC3176",
+          "caller": "0x27380909B16CC109D9F31D07F646d09c7CD72Fac",
           "comment": "get(uint8): 0x00 -> 0x03",
           "instance": "test",
           "method": "get(uint8)",
           "calldata": [
-            "0x"
+            "0x00"
           ],
           "expected": {
             "return_data": [

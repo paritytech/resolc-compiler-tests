@@ -7,10 +7,10 @@
           "comment": "storageEmpty -> 1",
           "address": "c.address",
           "is_storage_empty": true,
-          "caller": "0x1F040CcF5F86AfadA466e88815A3acdDf5C920E5"
+          "caller": "0x809D6DEe076e847e84D49b3D1Da5F9Ce3b029236"
         },
         {
-          "caller": "0x809D6DEe076e847e84D49b3D1Da5F9Ce3b029236",
+          "caller": "0x816550bC8f73DEa55aC62Da7Ca5502Ca60b559f3",
           "comment": "test_short() -> 1780731860627700044960722568376587075150542249149356309979516913770823710; gas legacy: 59838; gas legacyOptimized: 58606",
           "instance": "c",
           "method": "test_short()",
@@ -26,10 +26,10 @@
           "comment": "storageEmpty -> 0",
           "address": "c.address",
           "is_storage_empty": false,
-          "caller": "0x1F040CcF5F86AfadA466e88815A3acdDf5C920E5"
+          "caller": "0x809D6DEe076e847e84D49b3D1Da5F9Ce3b029236"
         },
         {
-          "caller": "0x809D6DEe076e847e84D49b3D1Da5F9Ce3b029236",
+          "caller": "0x816550bC8f73DEa55aC62Da7Ca5502Ca60b559f3",
           "comment": "test_long() -> 67; gas irOptimized: 89148; gas legacy: 101607; gas legacyOptimized: 100479",
           "instance": "c",
           "method": "test_long()",
@@ -45,10 +45,10 @@
           "comment": "storageEmpty -> 0",
           "address": "c.address",
           "is_storage_empty": false,
-          "caller": "0x1F040CcF5F86AfadA466e88815A3acdDf5C920E5"
+          "caller": "0x809D6DEe076e847e84D49b3D1Da5F9Ce3b029236"
         },
         {
-          "caller": "0x809D6DEe076e847e84D49b3D1Da5F9Ce3b029236",
+          "caller": "0x816550bC8f73DEa55aC62Da7Ca5502Ca60b559f3",
           "comment": "test_pop() -> 1780731860627700044960722568376592200742329637303199754547598369979433020; gas legacy: 61930; gas legacyOptimized: 59404",
           "instance": "c",
           "method": "test_pop()",
@@ -64,7 +64,7 @@
           "comment": "storageEmpty -> 0",
           "address": "c.address",
           "is_storage_empty": false,
-          "caller": "0x1F040CcF5F86AfadA466e88815A3acdDf5C920E5"
+          "caller": "0x809D6DEe076e847e84D49b3D1Da5F9Ce3b029236"
         }
       ]
     }

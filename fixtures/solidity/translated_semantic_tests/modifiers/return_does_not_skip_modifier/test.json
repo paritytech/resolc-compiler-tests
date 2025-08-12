@@ -4,20 +4,20 @@
       "name": "return_does_not_skip_modifier",
       "inputs": [
         {
-          "caller": "0x4DbA3B0Cd5679FAE0b8f5AEfFCf02621f9cC2026",
+          "caller": "0x903b71f706610F45b4628BfC54BA691f873899Aa",
           "comment": "x() -> 0",
           "instance": "C",
           "method": "x()",
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0x4DbA3B0Cd5679FAE0b8f5AEfFCf02621f9cC2026",
+          "caller": "0x903b71f706610F45b4628BfC54BA691f873899Aa",
           "comment": "f() -> 2",
           "instance": "C",
           "method": "f()",
@@ -30,7 +30,7 @@
           }
         },
         {
-          "caller": "0x4DbA3B0Cd5679FAE0b8f5AEfFCf02621f9cC2026",
+          "caller": "0x903b71f706610F45b4628BfC54BA691f873899Aa",
           "comment": "x() -> 9",
           "instance": "C",
           "method": "x()",

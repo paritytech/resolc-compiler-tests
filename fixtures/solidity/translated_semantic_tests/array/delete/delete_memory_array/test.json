@@ -4,14 +4,14 @@
       "name": "delete_memory_array",
       "inputs": [
         {
-          "caller": "0x75e018793110cCB59e82bB60327C0c433D00739a",
+          "caller": "0x1F040CcF5F86AfadA466e88815A3acdDf5C920E5",
           "comment": "len() -> 0",
           "instance": "C",
           "method": "len()",
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }

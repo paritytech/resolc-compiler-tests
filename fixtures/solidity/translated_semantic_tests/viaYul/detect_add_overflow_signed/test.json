@@ -46,7 +46,7 @@
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
@@ -62,7 +62,7 @@
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
@@ -258,7 +258,7 @@
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
@@ -274,7 +274,7 @@
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
@@ -434,7 +434,7 @@
           "method": "g(int8,int8)",
           "calldata": [
             "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff80",
-            "0x"
+            "0x00"
           ],
           "expected": {
             "return_data": [
@@ -449,7 +449,7 @@
           "instance": "C",
           "method": "g(int8,int8)",
           "calldata": [
-            "0x",
+            "0x00",
             "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff80"
           ],
           "expected": {

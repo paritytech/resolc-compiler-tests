@@ -4,17 +4,17 @@
       "name": "mapping_internal_return",
       "inputs": [
         {
-          "caller": "0x2EC950Ff79147e05118257B341C2055a0300f028",
+          "caller": "0xd13B256D1F258E88e06c4caec898F3452FA4E02f",
           "comment": "g() -> 0, 42, 0, 0, 84, 21",
           "instance": "test",
           "method": "g()",
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x",
+              "0x00",
               "0x2a",
-              "0x",
-              "0x",
+              "0x00",
+              "0x00",
               "0x54",
               "0x15"
             ],
@@ -22,17 +22,17 @@
           }
         },
         {
-          "caller": "0x2EC950Ff79147e05118257B341C2055a0300f028",
+          "caller": "0xd13B256D1F258E88e06c4caec898F3452FA4E02f",
           "comment": "h() -> 0, 42, 0, 0, 84, 17",
           "instance": "test",
           "method": "h()",
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x",
+              "0x00",
               "0x2a",
-              "0x",
-              "0x",
+              "0x00",
+              "0x00",
               "0x54",
               "0x11"
             ],

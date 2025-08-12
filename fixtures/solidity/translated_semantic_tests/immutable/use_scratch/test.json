@@ -4,7 +4,7 @@
       "name": "use_scratch",
       "inputs": [
         {
-          "caller": "0xEa5c58F6335C4E851E43c434C7341Fd38044957a",
+          "caller": "0x5F326181523C87Ccf4d9fEF16E5fFfD6419fB3A3",
           "comment": "constructor(): 3 ->; gas irOptimized: 81194; gas irOptimized code: 42400; gas legacy: 88244; gas legacy code: 109400; gas legacyOptimized: 81858; gas legacyOptimized code: 55800",
           "instance": "C",
           "method": "#deployer",
@@ -16,7 +16,7 @@
           }
         },
         {
-          "caller": "0xEa5c58F6335C4E851E43c434C7341Fd38044957a",
+          "caller": "0x5F326181523C87Ccf4d9fEF16E5fFfD6419fB3A3",
           "comment": "f() -> 84, 23",
           "instance": "C",
           "method": "f()",
@@ -30,7 +30,7 @@
           }
         },
         {
-          "caller": "0xEa5c58F6335C4E851E43c434C7341Fd38044957a",
+          "caller": "0x5F326181523C87Ccf4d9fEF16E5fFfD6419fB3A3",
           "comment": "m(uint256): 3 -> 7",
           "instance": "C",
           "method": "m(uint256)",

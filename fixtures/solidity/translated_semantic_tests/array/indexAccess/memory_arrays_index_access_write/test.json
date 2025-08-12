@@ -4,24 +4,24 @@
       "name": "memory_arrays_index_access_write",
       "inputs": [
         {
-          "caller": "0x6c2dc34d6B3f413f63Be8125b6D732Be57E284d5",
+          "caller": "0xA530dEaA2Ee269163c5Dd3536146F473e5129B95",
           "comment": "f() -> 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x07",
           "instance": "Test",
           "method": "f()",
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x",
-              "0x",
-              "0x",
-              "0x",
-              "0x",
-              "0x",
-              "0x",
-              "0x",
+              "0x00",
+              "0x00",
+              "0x00",
+              "0x00",
+              "0x00",
+              "0x00",
+              "0x00",
+              "0x00",
               "0x01",
-              "0x",
-              "0x",
+              "0x00",
+              "0x00",
               "0x07"
             ],
             "exception": false

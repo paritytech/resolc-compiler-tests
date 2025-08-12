@@ -4,7 +4,7 @@
       "name": "positive_integers_to_signed",
       "inputs": [
         {
-          "caller": "0x59d504A541544b36a109579b69aE63406ff1622c",
+          "caller": "0x2fFd5CBc1b2bF0B83001640d522d594CB3966291",
           "comment": "x() -> 2",
           "instance": "test",
           "method": "x()",
@@ -17,7 +17,7 @@
           }
         },
         {
-          "caller": "0x59d504A541544b36a109579b69aE63406ff1622c",
+          "caller": "0x2fFd5CBc1b2bF0B83001640d522d594CB3966291",
           "comment": "y() -> 127",
           "instance": "test",
           "method": "y()",
@@ -30,7 +30,7 @@
           }
         },
         {
-          "caller": "0x59d504A541544b36a109579b69aE63406ff1622c",
+          "caller": "0x2fFd5CBc1b2bF0B83001640d522d594CB3966291",
           "comment": "q() -> 250",
           "instance": "test",
           "method": "q()",

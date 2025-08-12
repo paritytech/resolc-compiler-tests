@@ -4,20 +4,20 @@
       "name": "break_in_modifier",
       "inputs": [
         {
-          "caller": "0xB426970747ACFbe0df037dE14278AA6e3fe8ae92",
+          "caller": "0x803F4Bb1D2e7D31F8929AA9F64a64Fc6efbcE47b",
           "comment": "x() -> 0",
           "instance": "C",
           "method": "x()",
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0xB426970747ACFbe0df037dE14278AA6e3fe8ae92",
+          "caller": "0x803F4Bb1D2e7D31F8929AA9F64a64Fc6efbcE47b",
           "comment": "f() ->",
           "instance": "C",
           "method": "f()",
@@ -27,7 +27,7 @@
           }
         },
         {
-          "caller": "0xB426970747ACFbe0df037dE14278AA6e3fe8ae92",
+          "caller": "0x803F4Bb1D2e7D31F8929AA9F64a64Fc6efbcE47b",
           "comment": "x() -> 2",
           "instance": "C",
           "method": "x()",

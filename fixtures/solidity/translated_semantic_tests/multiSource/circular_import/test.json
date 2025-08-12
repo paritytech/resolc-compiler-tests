@@ -4,7 +4,7 @@
       "name": "circular_import",
       "inputs": [
         {
-          "caller": "0xcd54b46b1D281Ba1B54A3D84C33E8faD8099A9c5",
+          "caller": "0xCc955fD3B8F01764Aad2452e6a5f13d337e9F112",
           "comment": "foo() -> 1",
           "instance": "C",
           "method": "foo()",

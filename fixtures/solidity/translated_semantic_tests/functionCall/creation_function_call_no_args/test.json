@@ -4,7 +4,7 @@
       "name": "creation_function_call_no_args",
       "inputs": [
         {
-          "caller": "0x6b06B862A52c8d7E4A82FdF12517A516AFdf6842",
+          "caller": "0x179585cdbd4C8C4DC2e16E2F0F637Cd7E040AffB",
           "comment": "f() -> 2; gas legacy: 76585; gas legacy code: 23600",
           "instance": "D",
           "method": "f()",

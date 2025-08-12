@@ -4,7 +4,7 @@
       "name": "block_blobbasefee",
       "inputs": [
         {
-          "caller": "0x98Bd80b1c6679d4622D5905b3eb3a7DbC33b5251",
+          "caller": "0xaCbb51cb336e39Cf43509Efe09803B2d40631E65",
           "comment": "f() -> 1",
           "instance": "C",
           "method": "f()",
@@ -17,7 +17,7 @@
           }
         },
         {
-          "caller": "0x98Bd80b1c6679d4622D5905b3eb3a7DbC33b5251",
+          "caller": "0xaCbb51cb336e39Cf43509Efe09803B2d40631E65",
           "comment": "g() -> 1",
           "instance": "C",
           "method": "g()",
@@ -30,7 +30,7 @@
           }
         },
         {
-          "caller": "0x98Bd80b1c6679d4622D5905b3eb3a7DbC33b5251",
+          "caller": "0xaCbb51cb336e39Cf43509Efe09803B2d40631E65",
           "comment": "f() -> 1",
           "instance": "C",
           "method": "f()",
@@ -43,7 +43,7 @@
           }
         },
         {
-          "caller": "0x98Bd80b1c6679d4622D5905b3eb3a7DbC33b5251",
+          "caller": "0xaCbb51cb336e39Cf43509Efe09803B2d40631E65",
           "comment": "g() -> 1",
           "instance": "C",
           "method": "g()",

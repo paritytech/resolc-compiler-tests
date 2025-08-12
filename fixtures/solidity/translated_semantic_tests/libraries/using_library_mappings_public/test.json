@@ -4,7 +4,7 @@
       "name": "using_library_mappings_public",
       "inputs": [
         {
-          "caller": "0xC2D59ED6487586c7eA35E370DEDAD0A357808614",
+          "caller": "0x237b5431e14834eA9B54b92Ac95F8B0d98a0c4E4",
           "comment": "f() -> 1, 0, 0x2a, 0x17, 0, 0x63; gas irOptimized: 119837; gas legacy: 124661; gas legacyOptimized: 119665",
           "instance": "Test",
           "method": "f()",
@@ -12,10 +12,10 @@
           "expected": {
             "return_data": [
               "0x01",
-              "0x",
+              "0x00",
               "0x2a",
               "0x17",
-              "0x",
+              "0x00",
               "0x63"
             ],
             "exception": false

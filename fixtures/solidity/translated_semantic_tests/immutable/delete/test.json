@@ -4,40 +4,40 @@
       "name": "delete",
       "inputs": [
         {
-          "caller": "0x9ee726AaaC8D6D14E9e7af08EFC0CDB7439AA03b",
+          "caller": "0xa7c8dD79C8A8897A6962B284AD057177E1c261e5",
           "comment": "a() -> 0",
           "instance": "C",
           "method": "a()",
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0x9ee726AaaC8D6D14E9e7af08EFC0CDB7439AA03b",
+          "caller": "0xa7c8dD79C8A8897A6962B284AD057177E1c261e5",
           "comment": "b() -> 0",
           "instance": "C",
           "method": "b()",
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0x9ee726AaaC8D6D14E9e7af08EFC0CDB7439AA03b",
+          "caller": "0xa7c8dD79C8A8897A6962B284AD057177E1c261e5",
           "comment": "c() -> 0",
           "instance": "C",
           "method": "c()",
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }

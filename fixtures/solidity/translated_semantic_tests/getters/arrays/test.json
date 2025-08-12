@@ -9,8 +9,8 @@
           "instance": "C",
           "method": "a(uint256,uint256)",
           "calldata": [
-            "0x",
-            "0x"
+            "0x00",
+            "0x00"
           ],
           "expected": {
             "exception": true
@@ -23,7 +23,7 @@
           "method": "a(uint256,uint256)",
           "calldata": [
             "0x01",
-            "0x"
+            "0x00"
           ],
           "expected": {
             "return_data": [
@@ -55,7 +55,7 @@
           "method": "a(uint256,uint256)",
           "calldata": [
             "0x02",
-            "0x"
+            "0x00"
           ],
           "expected": {
             "exception": true

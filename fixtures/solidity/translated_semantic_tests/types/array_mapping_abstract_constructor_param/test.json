@@ -4,27 +4,27 @@
       "name": "array_mapping_abstract_constructor_param",
       "inputs": [
         {
-          "caller": "0xe7e9ea53043A9BE2Cc92e8e2CdeE9055c4c67586",
+          "caller": "0xc1736c9394beE83611891CF9Cd4d6884ff21bE6D",
           "comment": "m(uint256,uint256,uint256): 0, 0, 0 -> FAILURE",
           "instance": "C",
           "method": "m(uint256,uint256,uint256)",
           "calldata": [
-            "0x",
-            "0x",
-            "0x"
+            "0x00",
+            "0x00",
+            "0x00"
           ],
           "expected": {
             "exception": true
           }
         },
         {
-          "caller": "0xe7e9ea53043A9BE2Cc92e8e2CdeE9055c4c67586",
+          "caller": "0xc1736c9394beE83611891CF9Cd4d6884ff21bE6D",
           "comment": "m(uint256,uint256,uint256): 1, 0, 1 -> 2",
           "instance": "C",
           "method": "m(uint256,uint256,uint256)",
           "calldata": [
             "0x01",
-            "0x",
+            "0x00",
             "0x01"
           ],
           "expected": {
@@ -35,18 +35,18 @@
           }
         },
         {
-          "caller": "0xe7e9ea53043A9BE2Cc92e8e2CdeE9055c4c67586",
+          "caller": "0xc1736c9394beE83611891CF9Cd4d6884ff21bE6D",
           "comment": "m(uint256,uint256,uint256): 1, 0, 5 -> 0",
           "instance": "C",
           "method": "m(uint256,uint256,uint256)",
           "calldata": [
             "0x01",
-            "0x",
+            "0x00",
             "0x05"
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }

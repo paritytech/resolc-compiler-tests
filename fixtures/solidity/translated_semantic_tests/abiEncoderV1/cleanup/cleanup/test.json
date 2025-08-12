@@ -56,16 +56,16 @@
           "method": "f(uint16,int16,address,bytes3,bool)",
           "calldata": [
             "0xffffff",
-            "0x",
-            "0x",
+            "0x00",
+            "0x00",
             "0x626364",
             "0x01"
           ],
           "expected": {
             "return_data": [
               "0xffff",
-              "0x",
-              "0x",
+              "0x00",
+              "0x00",
               "0x626364",
               "0x01"
             ],
@@ -78,17 +78,17 @@
           "instance": "C",
           "method": "f(uint16,int16,address,bytes3,bool)",
           "calldata": [
-            "0x",
+            "0x00",
             "0x01ffff",
-            "0x",
+            "0x00",
             "0x6162",
             "0x01"
           ],
           "expected": {
             "return_data": [
-              "0x",
+              "0x00",
               "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
-              "0x",
+              "0x00",
               "0x6162",
               "0x01"
             ],
@@ -101,16 +101,16 @@
           "instance": "C",
           "method": "f(uint16,int16,address,bytes3,bool)",
           "calldata": [
-            "0x",
-            "0x",
+            "0x00",
+            "0x00",
             "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
             "0x6164",
             "0x01"
           ],
           "expected": {
             "return_data": [
-              "0x",
-              "0x",
+              "0x00",
+              "0x00",
               "0xffffffffffffffffffffffffffffffffffffffff",
               "0x6164",
               "0x01"
@@ -124,17 +124,17 @@
           "instance": "C",
           "method": "f(uint16,int16,address,bytes3,bool)",
           "calldata": [
-            "0x",
-            "0x",
-            "0x",
+            "0x00",
+            "0x00",
+            "0x00",
             "0x61626364",
             "0x01"
           ],
           "expected": {
             "return_data": [
-              "0x",
-              "0x",
-              "0x",
+              "0x00",
+              "0x00",
+              "0x00",
               "0x616263",
               "0x01"
             ],
@@ -147,17 +147,17 @@
           "instance": "C",
           "method": "f(uint16,int16,address,bytes3,bool)",
           "calldata": [
-            "0x",
-            "0x",
-            "0x",
+            "0x00",
+            "0x00",
+            "0x00",
             "0x616263",
             "0x02"
           ],
           "expected": {
             "return_data": [
-              "0x",
-              "0x",
-              "0x",
+              "0x00",
+              "0x00",
+              "0x00",
               "0x616263",
               "0x01"
             ],

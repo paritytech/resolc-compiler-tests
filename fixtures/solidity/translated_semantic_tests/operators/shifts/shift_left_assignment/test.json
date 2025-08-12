@@ -4,13 +4,13 @@
       "name": "shift_left_assignment",
       "inputs": [
         {
-          "caller": "0x0506C8e848FA42768d9a8c2259a06a636C841eDF",
+          "caller": "0x98e57ca396FDAbD82Af44b90Bf7321Ccb94b0067",
           "comment": "f(uint256,uint256): 0x4266, 0x0 -> 0x4266",
           "instance": "C",
           "method": "f(uint256,uint256)",
           "calldata": [
             "0x4266",
-            "0x"
+            "0x00"
           ],
           "expected": {
             "return_data": [
@@ -20,7 +20,7 @@
           }
         },
         {
-          "caller": "0x0506C8e848FA42768d9a8c2259a06a636C841eDF",
+          "caller": "0x98e57ca396FDAbD82Af44b90Bf7321Ccb94b0067",
           "comment": "f(uint256,uint256): 0x4266, 0x8 -> 0x426600",
           "instance": "C",
           "method": "f(uint256,uint256)",
@@ -36,7 +36,7 @@
           }
         },
         {
-          "caller": "0x0506C8e848FA42768d9a8c2259a06a636C841eDF",
+          "caller": "0x98e57ca396FDAbD82Af44b90Bf7321Ccb94b0067",
           "comment": "f(uint256,uint256): 0x4266, 0x10 -> 0x42660000",
           "instance": "C",
           "method": "f(uint256,uint256)",
@@ -52,7 +52,7 @@
           }
         },
         {
-          "caller": "0x0506C8e848FA42768d9a8c2259a06a636C841eDF",
+          "caller": "0x98e57ca396FDAbD82Af44b90Bf7321Ccb94b0067",
           "comment": "f(uint256,uint256): 0x4266, 0x11 -> 0x84cc0000",
           "instance": "C",
           "method": "f(uint256,uint256)",
@@ -68,7 +68,7 @@
           }
         },
         {
-          "caller": "0x0506C8e848FA42768d9a8c2259a06a636C841eDF",
+          "caller": "0x98e57ca396FDAbD82Af44b90Bf7321Ccb94b0067",
           "comment": "f(uint256,uint256): 0x4266, 0xf0 -> 0x4266000000000000000000000000000000000000000000000000000000000000",
           "instance": "C",
           "method": "f(uint256,uint256)",
@@ -84,7 +84,7 @@
           }
         },
         {
-          "caller": "0x0506C8e848FA42768d9a8c2259a06a636C841eDF",
+          "caller": "0x98e57ca396FDAbD82Af44b90Bf7321Ccb94b0067",
           "comment": "f(uint256,uint256): 0x4266, 0x100 -> 0",
           "instance": "C",
           "method": "f(uint256,uint256)",
@@ -94,7 +94,7 @@
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }

@@ -6,8 +6,8 @@ contract C {
     }
 }
 contract D {
-    address account1 = payable(0x1111111111111111111111111111111111111111);
-    address account2 = payable(0x2222222222222222222222222222222222222222);
+    address account1 = payable(0x3111111111111111111111111111111111111111);
+    address account2 = payable(0x3222222222222222222222222222222222222222);
     C public c;
     constructor() payable {}
     function deploy() public payable {

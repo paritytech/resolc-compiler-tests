@@ -4,7 +4,7 @@
       "name": "event",
       "inputs": [
         {
-          "caller": "0x67bF4E901Ba84e38B6Ad8c2B5757D4f5205111f9",
+          "caller": "0x7336F9943498f0bbCD00594d4e4c87CAF9E54C11",
           "comment": "f() ->; ~ emit Ev((uint256)): 0x01",
           "instance": "C",
           "method": "f()",

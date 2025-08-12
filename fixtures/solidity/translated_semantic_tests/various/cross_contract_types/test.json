@@ -4,7 +4,7 @@
       "name": "cross_contract_types",
       "inputs": [
         {
-          "caller": "0xaE00DD75852453AD5408fF6304196Ea9f69453bE",
+          "caller": "0xCEa6704aD24080e040a06a8d075347b315A14d9d",
           "comment": "f() -> 3",
           "instance": "Test",
           "method": "f()",

@@ -4,14 +4,14 @@
       "name": "failing_ecrecover_invalid_input_proper",
       "inputs": [
         {
-          "caller": "0x120616fF95b384A629D582A6600e4F3Ee30790Fb",
+          "caller": "0x415F38041f97A6D7199f2625c87dA1597F24b93a",
           "comment": "f() -> 0",
           "instance": "C",
           "method": "f()",
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }

@@ -4,20 +4,20 @@
       "name": "static_memory_array_allocation",
       "inputs": [
         {
-          "caller": "0xA5bB247C4e2eb1829c3487c32cBF788D45659c87",
+          "caller": "0xEa6ffDCcf9167E754531553D3F7b743fB296ee72",
           "comment": "withValue() -> 0x00",
           "instance": "C",
           "method": "withValue()",
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0xA5bB247C4e2eb1829c3487c32cBF788D45659c87",
+          "caller": "0xEa6ffDCcf9167E754531553D3F7b743fB296ee72",
           "comment": "withoutValue() -> 0x0280",
           "instance": "C",
           "method": "withoutValue()",

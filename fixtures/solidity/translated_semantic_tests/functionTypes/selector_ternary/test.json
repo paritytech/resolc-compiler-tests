@@ -24,7 +24,7 @@
           "instance": "C",
           "method": "h(bool)",
           "calldata": [
-            "0x"
+            "0x00"
           ],
           "expected": {
             "return_data": [

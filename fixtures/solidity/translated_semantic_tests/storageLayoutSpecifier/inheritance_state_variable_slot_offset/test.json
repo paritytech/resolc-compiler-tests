@@ -4,7 +4,7 @@
       "name": "inheritance_state_variable_slot_offset",
       "inputs": [
         {
-          "caller": "0xbEdB752F262aABE55d30F77c159394011C5b49f7",
+          "caller": "0xC5F78F381A4a384f262Bb30169aB53edD1b12E75",
           "comment": "xSlotOffset() -> 7, 0",
           "instance": "C",
           "method": "xSlotOffset()",
@@ -12,13 +12,13 @@
           "expected": {
             "return_data": [
               "0x07",
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0xbEdB752F262aABE55d30F77c159394011C5b49f7",
+          "caller": "0xC5F78F381A4a384f262Bb30169aB53edD1b12E75",
           "comment": "ySlotOffset() -> 8, 0",
           "instance": "C",
           "method": "ySlotOffset()",
@@ -26,13 +26,13 @@
           "expected": {
             "return_data": [
               "0x08",
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0xbEdB752F262aABE55d30F77c159394011C5b49f7",
+          "caller": "0xC5F78F381A4a384f262Bb30169aB53edD1b12E75",
           "comment": "wSlotOffset() -> 8, 16",
           "instance": "C",
           "method": "wSlotOffset()",
@@ -46,7 +46,7 @@
           }
         },
         {
-          "caller": "0xbEdB752F262aABE55d30F77c159394011C5b49f7",
+          "caller": "0xC5F78F381A4a384f262Bb30169aB53edD1b12E75",
           "comment": "zSlotOffset() -> 9, 0",
           "instance": "C",
           "method": "zSlotOffset()",
@@ -54,7 +54,7 @@
           "expected": {
             "return_data": [
               "0x09",
-              "0x"
+              "0x00"
             ],
             "exception": false
           }

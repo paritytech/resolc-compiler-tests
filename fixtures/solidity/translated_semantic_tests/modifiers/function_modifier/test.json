@@ -4,20 +4,20 @@
       "name": "function_modifier",
       "inputs": [
         {
-          "caller": "0xC9471cF742D5f5FCDFaBbaacF21228f5361A103a",
+          "caller": "0x4DbA3B0Cd5679FAE0b8f5AEfFCf02621f9cC2026",
           "comment": "getOne() -> 0",
           "instance": "C",
           "method": "getOne()",
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0xC9471cF742D5f5FCDFaBbaacF21228f5361A103a",
+          "caller": "0x4DbA3B0Cd5679FAE0b8f5AEfFCf02621f9cC2026",
           "comment": "getOne(), 1 wei -> 1",
           "instance": "C",
           "method": "getOne()",

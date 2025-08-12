@@ -4,25 +4,25 @@
       "name": "memory_arrays_delete",
       "inputs": [
         {
-          "caller": "0x5E6A7d2AD7d32540847ba89cF45874bdc569879f",
+          "caller": "0xf7901C3272668D114527229ea5136F251795d008",
           "comment": "del() -> 0, 1, 2, 0, 0, 0, 0x20, 0x21, 0x22, 0x30, 0x31, 0",
           "instance": "Test",
           "method": "del()",
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x",
+              "0x00",
               "0x01",
               "0x02",
-              "0x",
-              "0x",
-              "0x",
+              "0x00",
+              "0x00",
+              "0x00",
               "0x20",
               "0x21",
               "0x22",
               "0x30",
               "0x31",
-              "0x"
+              "0x00"
             ],
             "exception": false
           }

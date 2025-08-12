@@ -13,7 +13,7 @@
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
@@ -24,7 +24,7 @@
           "instance": "C",
           "method": "f(address)",
           "calldata": [
-            "0x"
+            "0x00"
           ],
           "expected": {
             "return_data": [
@@ -73,7 +73,7 @@
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
@@ -89,7 +89,7 @@
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
@@ -105,7 +105,7 @@
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
@@ -121,7 +121,7 @@
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
@@ -185,7 +185,7 @@
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
@@ -201,7 +201,7 @@
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
@@ -249,7 +249,7 @@
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
@@ -281,7 +281,7 @@
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
@@ -313,7 +313,7 @@
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
@@ -341,7 +341,7 @@
           "method": "slt(int256,int256)",
           "calldata": [
             "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
-            "0x"
+            "0x00"
           ],
           "expected": {
             "return_data": [
@@ -356,12 +356,12 @@
           "instance": "C",
           "method": "slt(int256,int256)",
           "calldata": [
-            "0x",
-            "0x"
+            "0x00",
+            "0x00"
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
@@ -373,11 +373,11 @@
           "method": "slt(int256,int256)",
           "calldata": [
             "0x01",
-            "0x"
+            "0x00"
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
@@ -389,11 +389,11 @@
           "method": "sgt(int256,int256)",
           "calldata": [
             "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
-            "0x"
+            "0x00"
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
@@ -404,12 +404,12 @@
           "instance": "C",
           "method": "sgt(int256,int256)",
           "calldata": [
-            "0x",
-            "0x"
+            "0x00",
+            "0x00"
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
@@ -421,7 +421,7 @@
           "method": "sgt(int256,int256)",
           "calldata": [
             "0x01",
-            "0x"
+            "0x00"
           ],
           "expected": {
             "return_data": [
@@ -437,7 +437,7 @@
           "method": "slte(int256,int256)",
           "calldata": [
             "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
-            "0x"
+            "0x00"
           ],
           "expected": {
             "return_data": [
@@ -452,8 +452,8 @@
           "instance": "C",
           "method": "slte(int256,int256)",
           "calldata": [
-            "0x",
-            "0x"
+            "0x00",
+            "0x00"
           ],
           "expected": {
             "return_data": [
@@ -469,11 +469,11 @@
           "method": "slte(int256,int256)",
           "calldata": [
             "0x01",
-            "0x"
+            "0x00"
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
@@ -485,11 +485,11 @@
           "method": "sgte(int256,int256)",
           "calldata": [
             "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
-            "0x"
+            "0x00"
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
@@ -500,8 +500,8 @@
           "instance": "C",
           "method": "sgte(int256,int256)",
           "calldata": [
-            "0x",
-            "0x"
+            "0x00",
+            "0x00"
           ],
           "expected": {
             "return_data": [
@@ -517,7 +517,7 @@
           "method": "sgte(int256,int256)",
           "calldata": [
             "0x01",
-            "0x"
+            "0x00"
           ],
           "expected": {
             "return_data": [

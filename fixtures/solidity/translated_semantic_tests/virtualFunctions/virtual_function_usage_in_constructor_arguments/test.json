@@ -4,7 +4,7 @@
       "name": "virtual_function_usage_in_constructor_arguments",
       "inputs": [
         {
-          "caller": "0x7372616c7e3f19aE50d14B26a3555421f4088c97",
+          "caller": "0x016e4CdBd7dE6697a451082A39d8298de0953d9D",
           "comment": "getA() -> 2",
           "instance": "Derived",
           "method": "getA()",

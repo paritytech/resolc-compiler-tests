@@ -4,7 +4,7 @@
       "name": "shifts",
       "inputs": [
         {
-          "caller": "0x50c9DdC16E355522950BcA553F56b410E3194812",
+          "caller": "0x5FbE32df8C95600172eE537FB03296aF17200AF0",
           "comment": "f(uint256): 7 -> 28",
           "instance": "C",
           "method": "f(uint256)",

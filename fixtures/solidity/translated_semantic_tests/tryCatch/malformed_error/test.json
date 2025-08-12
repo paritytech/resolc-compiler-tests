@@ -4,46 +4,46 @@
       "name": "malformed_error",
       "inputs": [
         {
-          "caller": "0xad91Cf5192F6A18425a6CDC8ce281e3D023fE54D",
+          "caller": "0x247a672A05E7B0c2e46757C8738B8232dAA98B59",
           "comment": "a() -> 0x00",
           "instance": "C",
           "method": "a()",
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0xad91Cf5192F6A18425a6CDC8ce281e3D023fE54D",
+          "caller": "0x247a672A05E7B0c2e46757C8738B8232dAA98B59",
           "comment": "b() -> 0x00",
           "instance": "C",
           "method": "b()",
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0xad91Cf5192F6A18425a6CDC8ce281e3D023fE54D",
+          "caller": "0x247a672A05E7B0c2e46757C8738B8232dAA98B59",
           "comment": "b2() -> 0x00",
           "instance": "C",
           "method": "b2()",
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0xad91Cf5192F6A18425a6CDC8ce281e3D023fE54D",
+          "caller": "0x247a672A05E7B0c2e46757C8738B8232dAA98B59",
           "comment": "b3() -> 0x20, 0x00",
           "instance": "C",
           "method": "b3()",
@@ -51,13 +51,13 @@
           "expected": {
             "return_data": [
               "0x20",
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0xad91Cf5192F6A18425a6CDC8ce281e3D023fE54D",
+          "caller": "0x247a672A05E7B0c2e46757C8738B8232dAA98B59",
           "comment": "c() -> 0x20, 7, \"abcdefg\"",
           "instance": "C",
           "method": "c()",
@@ -72,7 +72,7 @@
           }
         },
         {
-          "caller": "0xad91Cf5192F6A18425a6CDC8ce281e3D023fE54D",
+          "caller": "0x247a672A05E7B0c2e46757C8738B8232dAA98B59",
           "comment": "d() -> 0x20, 7, \"abcdefg\"",
           "instance": "C",
           "method": "d()",

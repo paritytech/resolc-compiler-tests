@@ -4,7 +4,7 @@
       "name": "type_class",
       "inputs": [
         {
-          "caller": "0xdfB20E2E0Cc2531642BBc603CF0cc6Fd87eEdb41",
+          "caller": "0x63B58cb931d0942EF970b2906d0AaB632F880715",
           "comment": "() -> 1, 0",
           "instance": "C",
           "method": "#fallback",
@@ -12,7 +12,7 @@
           "expected": {
             "return_data": [
               "0x01",
-              "0x"
+              "0x00"
             ],
             "exception": false
           }

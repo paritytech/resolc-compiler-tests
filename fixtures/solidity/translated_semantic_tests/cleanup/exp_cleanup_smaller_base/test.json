@@ -4,14 +4,14 @@
       "name": "exp_cleanup_smaller_base",
       "inputs": [
         {
-          "caller": "0xc491904529E13E6A0aCdEF24036350b600397d88",
+          "caller": "0x3447659E07332bb8D6E2E1985FB12e8fD6175645",
           "comment": "f() -> 0x00",
           "instance": "C",
           "method": "f()",
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }

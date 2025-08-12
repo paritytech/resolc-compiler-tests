@@ -4,7 +4,7 @@
       "name": "structs",
       "inputs": [
         {
-          "caller": "0xfF4584C1686b5e6AB2eB300B02213e820541a8F5",
+          "caller": "0x9D48d6b177CE785ae3670aa40ea9494b1fCFD849",
           "comment": "s() -> 23, 42",
           "instance": "C",
           "method": "s()",
@@ -18,7 +18,7 @@
           }
         },
         {
-          "caller": "0xfF4584C1686b5e6AB2eB300B02213e820541a8F5",
+          "caller": "0x9D48d6b177CE785ae3670aa40ea9494b1fCFD849",
           "comment": "t() -> 0x20, 23, 42, 0x60, 3, \"any\"",
           "instance": "C",
           "method": "t()",

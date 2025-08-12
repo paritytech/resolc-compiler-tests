@@ -4,7 +4,7 @@
       "name": "send_zero_ether",
       "inputs": [
         {
-          "caller": "0xeE94bFa723830A244CF390Bbc9C2cE43966109d5",
+          "caller": "0x1023272cE9334Ab3b9388C0353DAbF34BE6E977d",
           "comment": "constructor(), 20 wei ->; gas irOptimized: 100264; gas legacy: 57555; gas legacy code: 53000; gas legacyOptimized: 100361",
           "instance": "Main",
           "method": "#deployer",
@@ -15,7 +15,7 @@
           "value": "20 wei"
         },
         {
-          "caller": "0xeE94bFa723830A244CF390Bbc9C2cE43966109d5",
+          "caller": "0x1023272cE9334Ab3b9388C0353DAbF34BE6E977d",
           "comment": "s() -> true",
           "instance": "Main",
           "method": "s()",

@@ -4,7 +4,7 @@
       "name": "state_variable_struct",
       "inputs": [
         {
-          "caller": "0x42E0D526bf25f0fafaECA8B43da6fB031Cc7A48D",
+          "caller": "0xF0DFC0e20503dCD32309d26ebF6A1E7e7C71dDff",
           "comment": "initS1() -> 7, 0x0abc, 1",
           "instance": "C",
           "method": "initS1()",
@@ -19,7 +19,7 @@
           }
         },
         {
-          "caller": "0x42E0D526bf25f0fafaECA8B43da6fB031Cc7A48D",
+          "caller": "0xF0DFC0e20503dCD32309d26ebF6A1E7e7C71dDff",
           "comment": "initS2() -> 8, 0x0def, 0",
           "instance": "C",
           "method": "initS2()",
@@ -28,13 +28,13 @@
             "return_data": [
               "0x08",
               "0x0def",
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0x42E0D526bf25f0fafaECA8B43da6fB031Cc7A48D",
+          "caller": "0xF0DFC0e20503dCD32309d26ebF6A1E7e7C71dDff",
           "comment": "s1() -> 7, 0x0abc, 1",
           "instance": "C",
           "method": "s1()",
@@ -49,7 +49,7 @@
           }
         },
         {
-          "caller": "0x42E0D526bf25f0fafaECA8B43da6fB031Cc7A48D",
+          "caller": "0xF0DFC0e20503dCD32309d26ebF6A1E7e7C71dDff",
           "comment": "s2() -> 8, 0x0def, 0",
           "instance": "C",
           "method": "s2()",
@@ -58,7 +58,7 @@
             "return_data": [
               "0x08",
               "0x0def",
-              "0x"
+              "0x00"
             ],
             "exception": false
           }

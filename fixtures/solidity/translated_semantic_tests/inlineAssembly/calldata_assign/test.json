@@ -4,14 +4,14 @@
       "name": "calldata_assign",
       "inputs": [
         {
-          "caller": "0x52197500F1E092E854488ba00aCc645A9fD576F6",
+          "caller": "0xe82d5371997A63e520Fa7b520B59909c45456B7d",
           "comment": "f(bytes): 0x20, 0, 0 -> 0x20, 3, 0x5754f80000000000000000000000000000000000000000000000000000000000",
           "instance": "C",
           "method": "f(bytes)",
           "calldata": [
             "0x20",
-            "0x",
-            "0x"
+            "0x00",
+            "0x00"
           ],
           "expected": {
             "return_data": [

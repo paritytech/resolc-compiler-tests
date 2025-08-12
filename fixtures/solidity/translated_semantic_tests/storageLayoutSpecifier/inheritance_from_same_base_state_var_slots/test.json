@@ -4,20 +4,20 @@
       "name": "inheritance_from_same_base_state_var_slots",
       "inputs": [
         {
-          "caller": "0xCe469C349B00581b3B1f4e83438a8bf767042291",
+          "caller": "0x3D17E498891051EcaE7954DE789041B6d4C39abf",
           "comment": "contractASlots() -> 0",
           "instance": "Test",
           "method": "contractASlots()",
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0xCe469C349B00581b3B1f4e83438a8bf767042291",
+          "caller": "0x3D17E498891051EcaE7954DE789041B6d4C39abf",
           "comment": "contractBSlots() -> 5, 6",
           "instance": "Test",
           "method": "contractBSlots()",
@@ -31,7 +31,7 @@
           }
         },
         {
-          "caller": "0xCe469C349B00581b3B1f4e83438a8bf767042291",
+          "caller": "0x3D17E498891051EcaE7954DE789041B6d4C39abf",
           "comment": "contractCSlots() -> 9, 10",
           "instance": "Test",
           "method": "contractCSlots()",

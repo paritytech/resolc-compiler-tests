@@ -4,7 +4,7 @@
       "name": "checked_operators",
       "inputs": [
         {
-          "caller": "0x0C52AAeB10797a5C3A3637926dEbb7667E14e84C",
+          "caller": "0x3C861E543d7e2C4eA4bE2c7F00643b177d552BA9",
           "comment": "testCheckedOperator() -> FAILURE, hex\"4e487b71\", 0x11",
           "instance": "C",
           "method": "testCheckedOperator()",
@@ -18,7 +18,7 @@
           }
         },
         {
-          "caller": "0x0C52AAeB10797a5C3A3637926dEbb7667E14e84C",
+          "caller": "0x3C861E543d7e2C4eA4bE2c7F00643b177d552BA9",
           "comment": "testCheckedOperatorInUncheckedBlock() -> FAILURE, hex\"4e487b71\", 0x11",
           "instance": "C",
           "method": "testCheckedOperatorInUncheckedBlock()",

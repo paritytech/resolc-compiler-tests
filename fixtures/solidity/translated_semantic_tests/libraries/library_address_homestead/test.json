@@ -4,7 +4,7 @@
       "name": "library_address_homestead",
       "inputs": [
         {
-          "caller": "0x028e4874E619e56D60434E2D10B818A82D6E3EbD",
+          "caller": "0x1dA5fCeA86D6CCf9C8182a82cf06d15b0e15Cc30",
           "comment": "g(uint256,uint256): 1, 1 -> true",
           "instance": "C",
           "method": "g(uint256,uint256)",
@@ -20,7 +20,7 @@
           }
         },
         {
-          "caller": "0x028e4874E619e56D60434E2D10B818A82D6E3EbD",
+          "caller": "0x1dA5fCeA86D6CCf9C8182a82cf06d15b0e15Cc30",
           "comment": "g(uint256,uint256): 1, 2 -> false",
           "instance": "C",
           "method": "g(uint256,uint256)",
@@ -30,13 +30,13 @@
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0x028e4874E619e56D60434E2D10B818A82D6E3EbD",
+          "caller": "0x1dA5fCeA86D6CCf9C8182a82cf06d15b0e15Cc30",
           "comment": "g(uint256,uint256): 2, 3 -> false",
           "instance": "C",
           "method": "g(uint256,uint256)",
@@ -46,13 +46,13 @@
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0x028e4874E619e56D60434E2D10B818A82D6E3EbD",
+          "caller": "0x1dA5fCeA86D6CCf9C8182a82cf06d15b0e15Cc30",
           "comment": "g(uint256,uint256): 2, 4 -> true",
           "instance": "C",
           "method": "g(uint256,uint256)",
@@ -68,7 +68,7 @@
           }
         },
         {
-          "caller": "0x028e4874E619e56D60434E2D10B818A82D6E3EbD",
+          "caller": "0x1dA5fCeA86D6CCf9C8182a82cf06d15b0e15Cc30",
           "comment": "g(uint256,uint256): 2, 5 -> false",
           "instance": "C",
           "method": "g(uint256,uint256)",
@@ -78,13 +78,13 @@
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0x028e4874E619e56D60434E2D10B818A82D6E3EbD",
+          "caller": "0x1dA5fCeA86D6CCf9C8182a82cf06d15b0e15Cc30",
           "comment": "g(uint256,uint256): 4, 15 -> false",
           "instance": "C",
           "method": "g(uint256,uint256)",
@@ -94,13 +94,13 @@
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0x028e4874E619e56D60434E2D10B818A82D6E3EbD",
+          "caller": "0x1dA5fCeA86D6CCf9C8182a82cf06d15b0e15Cc30",
           "comment": "g(uint256,uint256): 4, 16 -> true",
           "instance": "C",
           "method": "g(uint256,uint256)",
@@ -116,7 +116,7 @@
           }
         },
         {
-          "caller": "0x028e4874E619e56D60434E2D10B818A82D6E3EbD",
+          "caller": "0x1dA5fCeA86D6CCf9C8182a82cf06d15b0e15Cc30",
           "comment": "g(uint256,uint256): 4, 17 -> false",
           "instance": "C",
           "method": "g(uint256,uint256)",
@@ -126,7 +126,7 @@
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }

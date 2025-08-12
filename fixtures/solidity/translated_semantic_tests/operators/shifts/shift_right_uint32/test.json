@@ -4,13 +4,13 @@
       "name": "shift_right_uint32",
       "inputs": [
         {
-          "caller": "0x66260Cfc85C85806b98eb1c6e1E1b34a661414e8",
+          "caller": "0xa4580C1eBb76e1c7Ae80725a80F032bD93dC3487",
           "comment": "f(uint32,uint32): 0x4266, 0x0 -> 0x4266",
           "instance": "C",
           "method": "f(uint32,uint32)",
           "calldata": [
             "0x4266",
-            "0x"
+            "0x00"
           ],
           "expected": {
             "return_data": [
@@ -20,7 +20,7 @@
           }
         },
         {
-          "caller": "0x66260Cfc85C85806b98eb1c6e1E1b34a661414e8",
+          "caller": "0xa4580C1eBb76e1c7Ae80725a80F032bD93dC3487",
           "comment": "f(uint32,uint32): 0x4266, 0x8 -> 0x42",
           "instance": "C",
           "method": "f(uint32,uint32)",
@@ -36,7 +36,7 @@
           }
         },
         {
-          "caller": "0x66260Cfc85C85806b98eb1c6e1E1b34a661414e8",
+          "caller": "0xa4580C1eBb76e1c7Ae80725a80F032bD93dC3487",
           "comment": "f(uint32,uint32): 0x4266, 0x10 -> 0",
           "instance": "C",
           "method": "f(uint32,uint32)",
@@ -46,13 +46,13 @@
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0x66260Cfc85C85806b98eb1c6e1E1b34a661414e8",
+          "caller": "0xa4580C1eBb76e1c7Ae80725a80F032bD93dC3487",
           "comment": "f(uint32,uint32): 0x4266, 0x11 -> 0",
           "instance": "C",
           "method": "f(uint32,uint32)",
@@ -62,7 +62,7 @@
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }

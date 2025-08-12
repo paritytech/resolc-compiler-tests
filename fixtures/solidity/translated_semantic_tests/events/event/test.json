@@ -37,7 +37,7 @@
           "method": "deposit(bytes32,bool)",
           "calldata": [
             "0x1234",
-            "0x"
+            "0x00"
           ],
           "expected": {
             "events": [

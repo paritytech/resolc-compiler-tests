@@ -4,14 +4,14 @@
       "name": "function_modifier_overriding",
       "inputs": [
         {
-          "caller": "0xc4131E2eFAf5cC135C87459D51F6BAe574b900d8",
+          "caller": "0xfD17057d5eb4D1D75BE46a222A45D4626fEAcCEE",
           "comment": "f() -> false",
           "instance": "C",
           "method": "f()",
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }

@@ -4,20 +4,20 @@
       "name": "dynamic_out_of_bounds_array_access",
       "inputs": [
         {
-          "caller": "0x4552a1e5c1275ff46B23ea493438604273AD7B87",
+          "caller": "0x12F7735826EFA17D50D35f6205b6bfF4B7703709",
           "comment": "length() -> 0",
           "instance": "c",
           "method": "length()",
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0x4552a1e5c1275ff46B23ea493438604273AD7B87",
+          "caller": "0x12F7735826EFA17D50D35f6205b6bfF4B7703709",
           "comment": "get(uint256): 3 -> FAILURE, hex\"4e487b71\", 0x32",
           "instance": "c",
           "method": "get(uint256)",
@@ -33,7 +33,7 @@
           }
         },
         {
-          "caller": "0x4552a1e5c1275ff46B23ea493438604273AD7B87",
+          "caller": "0x12F7735826EFA17D50D35f6205b6bfF4B7703709",
           "comment": "enlarge(uint256): 4 -> 4",
           "instance": "c",
           "method": "enlarge(uint256)",
@@ -48,7 +48,7 @@
           }
         },
         {
-          "caller": "0x4552a1e5c1275ff46B23ea493438604273AD7B87",
+          "caller": "0x12F7735826EFA17D50D35f6205b6bfF4B7703709",
           "comment": "length() -> 4",
           "instance": "c",
           "method": "length()",
@@ -61,7 +61,7 @@
           }
         },
         {
-          "caller": "0x4552a1e5c1275ff46B23ea493438604273AD7B87",
+          "caller": "0x12F7735826EFA17D50D35f6205b6bfF4B7703709",
           "comment": "set(uint256,uint256): 3, 4 -> true",
           "instance": "c",
           "method": "set(uint256,uint256)",
@@ -77,7 +77,7 @@
           }
         },
         {
-          "caller": "0x4552a1e5c1275ff46B23ea493438604273AD7B87",
+          "caller": "0x12F7735826EFA17D50D35f6205b6bfF4B7703709",
           "comment": "get(uint256): 3 -> 4",
           "instance": "c",
           "method": "get(uint256)",
@@ -92,7 +92,7 @@
           }
         },
         {
-          "caller": "0x4552a1e5c1275ff46B23ea493438604273AD7B87",
+          "caller": "0x12F7735826EFA17D50D35f6205b6bfF4B7703709",
           "comment": "length() -> 4",
           "instance": "c",
           "method": "length()",
@@ -105,7 +105,7 @@
           }
         },
         {
-          "caller": "0x4552a1e5c1275ff46B23ea493438604273AD7B87",
+          "caller": "0x12F7735826EFA17D50D35f6205b6bfF4B7703709",
           "comment": "set(uint256,uint256): 4, 8 -> FAILURE, hex\"4e487b71\", 0x32",
           "instance": "c",
           "method": "set(uint256,uint256)",
@@ -122,7 +122,7 @@
           }
         },
         {
-          "caller": "0x4552a1e5c1275ff46B23ea493438604273AD7B87",
+          "caller": "0x12F7735826EFA17D50D35f6205b6bfF4B7703709",
           "comment": "length() -> 4",
           "instance": "c",
           "method": "length()",

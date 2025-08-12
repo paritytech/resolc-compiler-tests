@@ -7,10 +7,10 @@
           "comment": "storageEmpty -> 1",
           "address": "StorageNotEmpty.address",
           "is_storage_empty": true,
-          "caller": "0x28745426D7C9f8e9209773d8EaeC5074C1D1e401"
+          "caller": "0xFC65DA473e714a78BF183C0Fd2aC8765e119aF5E"
         },
         {
-          "caller": "0xFC65DA473e714a78BF183C0Fd2aC8765e119aF5E",
+          "caller": "0xd607F2b8F5e74cF73940141a9a8E939480b993c2",
           "comment": "set(uint256): 1 ->",
           "instance": "StorageNotEmpty",
           "method": "set(uint256)",
@@ -25,7 +25,7 @@
           "comment": "storageEmpty -> 0",
           "address": "StorageNotEmpty.address",
           "is_storage_empty": false,
-          "caller": "0x28745426D7C9f8e9209773d8EaeC5074C1D1e401"
+          "caller": "0xFC65DA473e714a78BF183C0Fd2aC8765e119aF5E"
         }
       ]
     }

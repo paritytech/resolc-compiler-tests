@@ -4,7 +4,7 @@
       "name": "prevrandao",
       "inputs": [
         {
-          "caller": "0xaAdFE6F009bc4F07504d70E46bC9a748bFe82EFA",
+          "caller": "0x672Af98A98d265bEC84106Ed78b11e5DdE3FFb4f",
           "comment": "f() -> 2500000000000000",
           "instance": "C",
           "method": "f()",

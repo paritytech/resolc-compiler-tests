@@ -4,20 +4,20 @@
       "name": "bytes_length_member",
       "inputs": [
         {
-          "caller": "0x7708FF2064578dcbb261Bde44f5Fd0bA6B727D7d",
+          "caller": "0xbd92ce769718a8Bd35FEa068C404a0Ed21dbaD68",
           "comment": "getLength() -> 0",
           "instance": "c",
           "method": "getLength()",
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0x7708FF2064578dcbb261Bde44f5Fd0bA6B727D7d",
+          "caller": "0xbd92ce769718a8Bd35FEa068C404a0Ed21dbaD68",
           "comment": "set(): 1, 2 -> true; gas irOptimized: 110422; gas legacy: 110951; gas legacyOptimized: 110576",
           "instance": "c",
           "method": "set()",
@@ -33,7 +33,7 @@
           }
         },
         {
-          "caller": "0x7708FF2064578dcbb261Bde44f5Fd0bA6B727D7d",
+          "caller": "0xbd92ce769718a8Bd35FEa068C404a0Ed21dbaD68",
           "comment": "getLength() -> 68",
           "instance": "c",
           "method": "getLength()",

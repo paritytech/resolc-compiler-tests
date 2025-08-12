@@ -4,12 +4,12 @@
       "name": "shift_right_garbled_signed_v2",
       "inputs": [
         {
-          "caller": "0x257ff2E3E81c9d7025af86e41342EA5457950B83",
+          "caller": "0x6C93F29088a5856cc9ee327A57B3652B68e85037",
           "comment": "f(int8,uint8): 0x00, 0x03 -> 0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe",
           "instance": "C",
           "method": "f(int8,uint8)",
           "calldata": [
-            "0x",
+            "0x00",
             "0x03"
           ],
           "expected": {
@@ -20,12 +20,12 @@
           }
         },
         {
-          "caller": "0x257ff2E3E81c9d7025af86e41342EA5457950B83",
+          "caller": "0x6C93F29088a5856cc9ee327A57B3652B68e85037",
           "comment": "f(int8,uint8): 0x00, 0x04 -> 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
           "instance": "C",
           "method": "f(int8,uint8)",
           "calldata": [
-            "0x",
+            "0x00",
             "0x04"
           ],
           "expected": {
@@ -36,12 +36,12 @@
           }
         },
         {
-          "caller": "0x257ff2E3E81c9d7025af86e41342EA5457950B83",
+          "caller": "0x6C93F29088a5856cc9ee327A57B3652B68e85037",
           "comment": "f(int8,uint8): 0x00, 0xff -> 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
           "instance": "C",
           "method": "f(int8,uint8)",
           "calldata": [
-            "0x",
+            "0x00",
             "0xff"
           ],
           "expected": {
@@ -52,12 +52,12 @@
           }
         },
         {
-          "caller": "0x257ff2E3E81c9d7025af86e41342EA5457950B83",
+          "caller": "0x6C93F29088a5856cc9ee327A57B3652B68e85037",
           "comment": "f(int8,uint8): 0x00, 0x1003 -> FAILURE",
           "instance": "C",
           "method": "f(int8,uint8)",
           "calldata": [
-            "0x",
+            "0x00",
             "0x1003"
           ],
           "expected": {
@@ -65,12 +65,12 @@
           }
         },
         {
-          "caller": "0x257ff2E3E81c9d7025af86e41342EA5457950B83",
+          "caller": "0x6C93F29088a5856cc9ee327A57B3652B68e85037",
           "comment": "f(int8,uint8): 0x00, 0x1004 -> FAILURE",
           "instance": "C",
           "method": "f(int8,uint8)",
           "calldata": [
-            "0x",
+            "0x00",
             "0x1004"
           ],
           "expected": {
@@ -78,12 +78,12 @@
           }
         },
         {
-          "caller": "0x257ff2E3E81c9d7025af86e41342EA5457950B83",
+          "caller": "0x6C93F29088a5856cc9ee327A57B3652B68e85037",
           "comment": "g(int8,uint8): 0x00, 0x03 -> 0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe",
           "instance": "C",
           "method": "g(int8,uint8)",
           "calldata": [
-            "0x",
+            "0x00",
             "0x03"
           ],
           "expected": {
@@ -94,12 +94,12 @@
           }
         },
         {
-          "caller": "0x257ff2E3E81c9d7025af86e41342EA5457950B83",
+          "caller": "0x6C93F29088a5856cc9ee327A57B3652B68e85037",
           "comment": "g(int8,uint8): 0x00, 0x04 -> 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
           "instance": "C",
           "method": "g(int8,uint8)",
           "calldata": [
-            "0x",
+            "0x00",
             "0x04"
           ],
           "expected": {
@@ -110,12 +110,12 @@
           }
         },
         {
-          "caller": "0x257ff2E3E81c9d7025af86e41342EA5457950B83",
+          "caller": "0x6C93F29088a5856cc9ee327A57B3652B68e85037",
           "comment": "g(int8,uint8): 0x00, 0xff -> 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
           "instance": "C",
           "method": "g(int8,uint8)",
           "calldata": [
-            "0x",
+            "0x00",
             "0xff"
           ],
           "expected": {
@@ -126,12 +126,12 @@
           }
         },
         {
-          "caller": "0x257ff2E3E81c9d7025af86e41342EA5457950B83",
+          "caller": "0x6C93F29088a5856cc9ee327A57B3652B68e85037",
           "comment": "g(int8,uint8): 0x00, 0x1003 -> FAILURE",
           "instance": "C",
           "method": "g(int8,uint8)",
           "calldata": [
-            "0x",
+            "0x00",
             "0x1003"
           ],
           "expected": {
@@ -139,12 +139,12 @@
           }
         },
         {
-          "caller": "0x257ff2E3E81c9d7025af86e41342EA5457950B83",
+          "caller": "0x6C93F29088a5856cc9ee327A57B3652B68e85037",
           "comment": "g(int8,uint8): 0x00, 0x1004 -> FAILURE",
           "instance": "C",
           "method": "g(int8,uint8)",
           "calldata": [
-            "0x",
+            "0x00",
             "0x1004"
           ],
           "expected": {

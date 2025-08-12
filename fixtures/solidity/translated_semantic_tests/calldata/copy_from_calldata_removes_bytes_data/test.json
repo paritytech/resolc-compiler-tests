@@ -4,7 +4,7 @@
       "name": "copy_from_calldata_removes_bytes_data",
       "inputs": [
         {
-          "caller": "0x96DceBEeFFB58Ac8FF6AEc69822a7c9C4Df8880D",
+          "caller": "0x7Ef53ac1EdAd90604578148e9633393d4C1Dd926",
           "comment": "(): 1, 2, 3, 4, 5 ->; gas irOptimized: 155122; gas legacy: 155473; gas legacyOptimized: 155295",
           "instance": "c",
           "method": "#fallback",
@@ -20,20 +20,20 @@
           }
         },
         {
-          "caller": "0x96DceBEeFFB58Ac8FF6AEc69822a7c9C4Df8880D",
+          "caller": "0x7Ef53ac1EdAd90604578148e9633393d4C1Dd926",
           "comment": "checkIfDataIsEmpty() -> false",
           "instance": "c",
           "method": "checkIfDataIsEmpty()",
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0x96DceBEeFFB58Ac8FF6AEc69822a7c9C4Df8880D",
+          "caller": "0x7Ef53ac1EdAd90604578148e9633393d4C1Dd926",
           "comment": "sendMessage() -> true, 0x40, 0",
           "instance": "c",
           "method": "sendMessage()",
@@ -42,13 +42,13 @@
             "return_data": [
               "0x01",
               "0x40",
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0x96DceBEeFFB58Ac8FF6AEc69822a7c9C4Df8880D",
+          "caller": "0x7Ef53ac1EdAd90604578148e9633393d4C1Dd926",
           "comment": "checkIfDataIsEmpty() -> true",
           "instance": "c",
           "method": "checkIfDataIsEmpty()",

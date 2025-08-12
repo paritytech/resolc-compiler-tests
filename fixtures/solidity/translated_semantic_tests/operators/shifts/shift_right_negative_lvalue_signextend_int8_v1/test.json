@@ -4,13 +4,13 @@
       "name": "shift_right_negative_lvalue_signextend_int8_v1",
       "inputs": [
         {
-          "caller": "0xdc6a472aEAfd3F8f5660f015E7A1677215828547",
+          "caller": "0x2dF93CA994CCd2829a571b6f7eD28c33b0EF77c1",
           "comment": "f(int8,uint8): 0x99, 0x00 -> 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff99",
           "instance": "C",
           "method": "f(int8,uint8)",
           "calldata": [
             "0x99",
-            "0x"
+            "0x00"
           ],
           "expected": {
             "return_data": [
@@ -20,7 +20,7 @@
           }
         },
         {
-          "caller": "0xdc6a472aEAfd3F8f5660f015E7A1677215828547",
+          "caller": "0x2dF93CA994CCd2829a571b6f7eD28c33b0EF77c1",
           "comment": "f(int8,uint8): 0x99, 0x01 -> 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffcc",
           "instance": "C",
           "method": "f(int8,uint8)",
@@ -36,7 +36,7 @@
           }
         },
         {
-          "caller": "0xdc6a472aEAfd3F8f5660f015E7A1677215828547",
+          "caller": "0x2dF93CA994CCd2829a571b6f7eD28c33b0EF77c1",
           "comment": "f(int8,uint8): 0x99, 0x02 -> 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe6",
           "instance": "C",
           "method": "f(int8,uint8)",
@@ -52,7 +52,7 @@
           }
         },
         {
-          "caller": "0xdc6a472aEAfd3F8f5660f015E7A1677215828547",
+          "caller": "0x2dF93CA994CCd2829a571b6f7eD28c33b0EF77c1",
           "comment": "f(int8,uint8): 0x99, 0x04 -> 0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff9",
           "instance": "C",
           "method": "f(int8,uint8)",
@@ -68,7 +68,7 @@
           }
         },
         {
-          "caller": "0xdc6a472aEAfd3F8f5660f015E7A1677215828547",
+          "caller": "0x2dF93CA994CCd2829a571b6f7eD28c33b0EF77c1",
           "comment": "f(int8,uint8): 0x99, 0x08 -> 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
           "instance": "C",
           "method": "f(int8,uint8)",

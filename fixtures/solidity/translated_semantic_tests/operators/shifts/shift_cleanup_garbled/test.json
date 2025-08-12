@@ -4,14 +4,14 @@
       "name": "shift_cleanup_garbled",
       "inputs": [
         {
-          "caller": "0x96E2357AbD476c9ca377Cde0a3B3FD86eEA9FD06",
+          "caller": "0xe159DE64D372A057c818A9cB02529300b69e6d21",
           "comment": "f() -> 0x0",
           "instance": "C",
           "method": "f()",
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }

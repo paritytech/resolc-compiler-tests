@@ -4,14 +4,14 @@
       "name": "blockhash_shadow_resolution",
       "inputs": [
         {
-          "caller": "0x451cEA11ffB4D908ED458A3D4507f1ECd183f99c",
+          "caller": "0xfD646B43e978266CF7A6B845B99b806Fa7d51A34",
           "comment": "f() -> 0",
           "instance": "C",
           "method": "f()",
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }

@@ -4,13 +4,13 @@
       "name": "shift_right_negative_lvalue",
       "inputs": [
         {
-          "caller": "0xe159DE64D372A057c818A9cB02529300b69e6d21",
+          "caller": "0x26d4f0AcfA110eCF2A4110F0c7639B2cDA324f95",
           "comment": "f(int256,uint256): -4266, 0 -> -4266",
           "instance": "C",
           "method": "f(int256,uint256)",
           "calldata": [
             "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffef56",
-            "0x"
+            "0x00"
           ],
           "expected": {
             "return_data": [
@@ -20,7 +20,7 @@
           }
         },
         {
-          "caller": "0xe159DE64D372A057c818A9cB02529300b69e6d21",
+          "caller": "0x26d4f0AcfA110eCF2A4110F0c7639B2cDA324f95",
           "comment": "f(int256,uint256): -4266, 1 -> -2133",
           "instance": "C",
           "method": "f(int256,uint256)",
@@ -36,7 +36,7 @@
           }
         },
         {
-          "caller": "0xe159DE64D372A057c818A9cB02529300b69e6d21",
+          "caller": "0x26d4f0AcfA110eCF2A4110F0c7639B2cDA324f95",
           "comment": "f(int256,uint256): -4266, 4 -> -267",
           "instance": "C",
           "method": "f(int256,uint256)",
@@ -52,7 +52,7 @@
           }
         },
         {
-          "caller": "0xe159DE64D372A057c818A9cB02529300b69e6d21",
+          "caller": "0x26d4f0AcfA110eCF2A4110F0c7639B2cDA324f95",
           "comment": "f(int256,uint256): -4266, 8 -> -17",
           "instance": "C",
           "method": "f(int256,uint256)",
@@ -68,7 +68,7 @@
           }
         },
         {
-          "caller": "0xe159DE64D372A057c818A9cB02529300b69e6d21",
+          "caller": "0x26d4f0AcfA110eCF2A4110F0c7639B2cDA324f95",
           "comment": "f(int256,uint256): -4266, 16 -> -1",
           "instance": "C",
           "method": "f(int256,uint256)",
@@ -84,7 +84,7 @@
           }
         },
         {
-          "caller": "0xe159DE64D372A057c818A9cB02529300b69e6d21",
+          "caller": "0x26d4f0AcfA110eCF2A4110F0c7639B2cDA324f95",
           "comment": "f(int256,uint256): -4266, 17 -> -1",
           "instance": "C",
           "method": "f(int256,uint256)",
@@ -100,13 +100,13 @@
           }
         },
         {
-          "caller": "0xe159DE64D372A057c818A9cB02529300b69e6d21",
+          "caller": "0x26d4f0AcfA110eCF2A4110F0c7639B2cDA324f95",
           "comment": "f(int256,uint256): -4267, 0 -> -4267",
           "instance": "C",
           "method": "f(int256,uint256)",
           "calldata": [
             "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffef55",
-            "0x"
+            "0x00"
           ],
           "expected": {
             "return_data": [
@@ -116,7 +116,7 @@
           }
         },
         {
-          "caller": "0xe159DE64D372A057c818A9cB02529300b69e6d21",
+          "caller": "0x26d4f0AcfA110eCF2A4110F0c7639B2cDA324f95",
           "comment": "f(int256,uint256): -4267, 1 -> -2134",
           "instance": "C",
           "method": "f(int256,uint256)",
@@ -132,7 +132,7 @@
           }
         },
         {
-          "caller": "0xe159DE64D372A057c818A9cB02529300b69e6d21",
+          "caller": "0x26d4f0AcfA110eCF2A4110F0c7639B2cDA324f95",
           "comment": "f(int256,uint256): -4267, 4 -> -267",
           "instance": "C",
           "method": "f(int256,uint256)",
@@ -148,7 +148,7 @@
           }
         },
         {
-          "caller": "0xe159DE64D372A057c818A9cB02529300b69e6d21",
+          "caller": "0x26d4f0AcfA110eCF2A4110F0c7639B2cDA324f95",
           "comment": "f(int256,uint256): -4267, 8 -> -17",
           "instance": "C",
           "method": "f(int256,uint256)",
@@ -164,7 +164,7 @@
           }
         },
         {
-          "caller": "0xe159DE64D372A057c818A9cB02529300b69e6d21",
+          "caller": "0x26d4f0AcfA110eCF2A4110F0c7639B2cDA324f95",
           "comment": "f(int256,uint256): -4267, 16 -> -1",
           "instance": "C",
           "method": "f(int256,uint256)",
@@ -180,7 +180,7 @@
           }
         },
         {
-          "caller": "0xe159DE64D372A057c818A9cB02529300b69e6d21",
+          "caller": "0x26d4f0AcfA110eCF2A4110F0c7639B2cDA324f95",
           "comment": "f(int256,uint256): -4267, 17 -> -1",
           "instance": "C",
           "method": "f(int256,uint256)",

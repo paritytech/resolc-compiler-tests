@@ -30,7 +30,7 @@
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
@@ -110,7 +110,7 @@
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
@@ -122,7 +122,7 @@
           "method": "f(int256,int256)",
           "calldata": [
             "0x01",
-            "0x"
+            "0x00"
           ],
           "expected": {
             "return_data": [
@@ -139,7 +139,7 @@
           "method": "f(int256,int256)",
           "calldata": [
             "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
-            "0x"
+            "0x00"
           ],
           "expected": {
             "return_data": [
@@ -155,8 +155,8 @@
           "instance": "C",
           "method": "f(int256,int256)",
           "calldata": [
-            "0x",
-            "0x"
+            "0x00",
+            "0x00"
           ],
           "expected": {
             "return_data": [
@@ -172,12 +172,12 @@
           "instance": "C",
           "method": "f(int256,int256)",
           "calldata": [
-            "0x",
+            "0x00",
             "0x01"
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
@@ -188,12 +188,12 @@
           "instance": "C",
           "method": "f(int256,int256)",
           "calldata": [
-            "0x",
+            "0x00",
             "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
@@ -225,7 +225,7 @@
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
@@ -305,7 +305,7 @@
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
@@ -317,7 +317,7 @@
           "method": "g(int8,int8)",
           "calldata": [
             "0x01",
-            "0x"
+            "0x00"
           ],
           "expected": {
             "return_data": [
@@ -334,7 +334,7 @@
           "method": "g(int8,int8)",
           "calldata": [
             "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
-            "0x"
+            "0x00"
           ],
           "expected": {
             "return_data": [
@@ -350,8 +350,8 @@
           "instance": "C",
           "method": "g(int8,int8)",
           "calldata": [
-            "0x",
-            "0x"
+            "0x00",
+            "0x00"
           ],
           "expected": {
             "return_data": [
@@ -367,12 +367,12 @@
           "instance": "C",
           "method": "g(int8,int8)",
           "calldata": [
-            "0x",
+            "0x00",
             "0x01"
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
@@ -383,12 +383,12 @@
           "instance": "C",
           "method": "g(int8,int8)",
           "calldata": [
-            "0x",
+            "0x00",
             "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }
@@ -404,7 +404,7 @@
           ],
           "expected": {
             "return_data": [
-              "0x"
+              "0x00"
             ],
             "exception": false
           }

@@ -386,7 +386,7 @@
         },
         {
           "caller": "0xB1782E0816a29e457CF92b98B061fF02D7497165",
-          "comment": "disown(string,address): 0x40, 0x124FFFF, 3, \"def\" ->; ~ emit Changed(string): #0x34607c9bbfeb9c23509680f04363f298fdb0b5f9abe327304ecd1daca08cda9c; ~ emit Changed(string): #0x34607c9bbfeb9c23509680f04363f298fdb0b5f9abe327304ecd1daca08cda9c",
+          "comment": "disown(string,address): 0x40, 0x124FFFF, 3, \"def\" ->; ~ emit Changed(string): #0x34607c9bbfeb9c23509680f04363f298fdb0b5f9abe327304ecd1daca08cda9c",
           "instance": "FixedFeeRegistrar",
           "method": "disown(string,address)",
           "calldata": [
@@ -397,15 +397,6 @@
           ],
           "expected": {
             "events": [
-              {
-                "topics": [
-                  "0x1cf7652f1f9289dc41763c5bd36534c9772d48aa26021274d212f227d4b69765",
-                  "0x34607c9bbfeb9c23509680f04363f298fdb0b5f9abe327304ecd1daca08cda9c"
-                ],
-                "values": [
-                  "0x34607c9bbfeb9c23509680f04363f298fdb0b5f9abe327304ecd1daca08cda9c"
-                ]
-              },
               {
                 "topics": [
                   "0x1cf7652f1f9289dc41763c5bd36534c9772d48aa26021274d212f227d4b69765",

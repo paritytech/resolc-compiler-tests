@@ -4,7 +4,7 @@
       "name": "store2",
       "inputs": [
         {
-          "caller": "0x9B65bA56c2CEf1e85eB0F861A60f515b54c6965D",
+          "caller": "0x288D9dAA8b66764d062279DF7d685e91e70C088b",
           "comment": "run() -> FAILURE, hex\"4e487b71\", 0x51",
           "instance": "InvalidTest",
           "method": "run()",

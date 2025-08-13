@@ -4,7 +4,7 @@
       "name": "array_to_mapping",
       "inputs": [
         {
-          "caller": "0x4f08AD826a19023280723F641C530C9A9d917f06",
+          "caller": "0x6D7927E04b86B9255B1BE6B8fDda6EB6578FDa2F",
           "comment": "from_storage() -> 0x20, 2, 0x40, 0xa0, 2, 10, 11, 3, 12, 13, 14; gas irOptimized: 147755; gas legacy: 148892; gas legacyOptimized: 146917",
           "instance": "C",
           "method": "from_storage()",
@@ -27,7 +27,7 @@
           }
         },
         {
-          "caller": "0x4f08AD826a19023280723F641C530C9A9d917f06",
+          "caller": "0x6D7927E04b86B9255B1BE6B8fDda6EB6578FDa2F",
           "comment": "from_storage_ptr() -> 0x20, 2, 0x40, 0xa0, 2, 10, 11, 3, 12, 13, 14",
           "instance": "C",
           "method": "from_storage_ptr()",
@@ -50,7 +50,7 @@
           }
         },
         {
-          "caller": "0x4f08AD826a19023280723F641C530C9A9d917f06",
+          "caller": "0x6D7927E04b86B9255B1BE6B8fDda6EB6578FDa2F",
           "comment": "from_memory() -> 0x20, 2, 0x40, 0xa0, 2, 10, 11, 3, 12, 13, 14",
           "instance": "C",
           "method": "from_memory()",

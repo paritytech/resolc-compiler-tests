@@ -4,7 +4,7 @@
       "name": "abi_functions_member_access",
       "inputs": [
         {
-          "caller": "0xd7d938266bAF1e8A3d8D1e05c97B9C8d6Cb26bAc",
+          "caller": "0xAB8ECD9c951F7F57b77b3c4578C7e9c26c4eE8D9",
           "comment": "f() ->",
           "instance": "C",
           "method": "f()",

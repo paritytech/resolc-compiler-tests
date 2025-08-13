@@ -4,7 +4,7 @@
       "name": "array_accessor",
       "inputs": [
         {
-          "caller": "0xEFbaB5185b420539B8b173c67749Fc8414FC3176",
+          "caller": "0xbEc5c09999375F60f91633a30bfED85440B10496",
           "comment": "data(uint256): 0 -> 8",
           "instance": "test",
           "method": "data(uint256)",
@@ -19,7 +19,7 @@
           }
         },
         {
-          "caller": "0xEFbaB5185b420539B8b173c67749Fc8414FC3176",
+          "caller": "0xbEc5c09999375F60f91633a30bfED85440B10496",
           "comment": "data(uint256): 8 -> FAILURE",
           "instance": "test",
           "method": "data(uint256)",
@@ -31,7 +31,7 @@
           }
         },
         {
-          "caller": "0xEFbaB5185b420539B8b173c67749Fc8414FC3176",
+          "caller": "0xbEc5c09999375F60f91633a30bfED85440B10496",
           "comment": "dynamicData(uint256): 2 -> 8",
           "instance": "test",
           "method": "dynamicData(uint256)",
@@ -46,7 +46,7 @@
           }
         },
         {
-          "caller": "0xEFbaB5185b420539B8b173c67749Fc8414FC3176",
+          "caller": "0xbEc5c09999375F60f91633a30bfED85440B10496",
           "comment": "dynamicData(uint256): 8 -> FAILURE",
           "instance": "test",
           "method": "dynamicData(uint256)",
@@ -58,7 +58,7 @@
           }
         },
         {
-          "caller": "0xEFbaB5185b420539B8b173c67749Fc8414FC3176",
+          "caller": "0xbEc5c09999375F60f91633a30bfED85440B10496",
           "comment": "smallTypeData(uint256): 1 -> 22",
           "instance": "test",
           "method": "smallTypeData(uint256)",
@@ -73,7 +73,7 @@
           }
         },
         {
-          "caller": "0xEFbaB5185b420539B8b173c67749Fc8414FC3176",
+          "caller": "0xbEc5c09999375F60f91633a30bfED85440B10496",
           "comment": "smallTypeData(uint256): 127 -> 2",
           "instance": "test",
           "method": "smallTypeData(uint256)",
@@ -88,7 +88,7 @@
           }
         },
         {
-          "caller": "0xEFbaB5185b420539B8b173c67749Fc8414FC3176",
+          "caller": "0xbEc5c09999375F60f91633a30bfED85440B10496",
           "comment": "smallTypeData(uint256): 128 -> FAILURE",
           "instance": "test",
           "method": "smallTypeData(uint256)",
@@ -100,7 +100,7 @@
           }
         },
         {
-          "caller": "0xEFbaB5185b420539B8b173c67749Fc8414FC3176",
+          "caller": "0xbEc5c09999375F60f91633a30bfED85440B10496",
           "comment": "multiple_map(uint256,uint256,uint256): 2, 1, 2 -> 3",
           "instance": "test",
           "method": "multiple_map(uint256,uint256,uint256)",

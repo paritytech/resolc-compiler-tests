@@ -4,7 +4,7 @@
       "name": "function_modifier_calling_functions_in_creation_context",
       "inputs": [
         {
-          "caller": "0xfDC1f086823EF916cB979Ef98D339A2187b0eE98",
+          "caller": "0x6deEda3Ef29DaE1e7A3E62073F88d3a911D95dDb",
           "comment": "getData() -> 0x4300",
           "instance": "C",
           "method": "getData()",

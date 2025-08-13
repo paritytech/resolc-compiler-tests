@@ -4,7 +4,7 @@
       "name": "inline_assembly_storage_access_local_var",
       "inputs": [
         {
-          "caller": "0xD2e69e3b857AEB3c4fa84A7CA5977ADDA14d7Be6",
+          "caller": "0xa9DAc1ccc70Eb26365daCafd1C72F5195ee2ce5B",
           "comment": "f() -> 7",
           "instance": "C",
           "method": "f()",

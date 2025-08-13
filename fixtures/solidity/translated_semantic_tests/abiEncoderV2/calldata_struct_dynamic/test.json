@@ -4,7 +4,7 @@
       "name": "calldata_struct_dynamic",
       "inputs": [
         {
-          "caller": "0x300D76C7145753f6f2515f150F39a14A6f198F7F",
+          "caller": "0x2946A35AaF53AB85986E2bd5DA3f4FD56e6eEAE3",
           "comment": "f((uint256[])): 0x20, 0x20, 3, 42, 23, 17 -> 32, 192, 0x20, 0x20, 3, 42, 23, 17",
           "instance": "C",
           "method": "f((uint256[]))",
@@ -31,7 +31,7 @@
           }
         },
         {
-          "caller": "0x300D76C7145753f6f2515f150F39a14A6f198F7F",
+          "caller": "0x2946A35AaF53AB85986E2bd5DA3f4FD56e6eEAE3",
           "comment": "g((uint256[])): 0x20, 0x20, 3, 42, 23, 17 -> 32, 192, 0x20, 0x20, 3, 42, 23, 17",
           "instance": "C",
           "method": "g((uint256[]))",

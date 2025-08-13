@@ -4,7 +4,7 @@
       "name": "public_state_overridding_mapping_to_dynamic_struct",
       "inputs": [
         {
-          "caller": "0xc0981804421D1C21f4B77eF722329C47d45D5A31",
+          "caller": "0x1A13C9253Bdd84D3C498f84E655e28AeFA917474",
           "comment": "test(uint256): 0 -> 0, 64, 0",
           "instance": "X",
           "method": "test(uint256)",
@@ -21,7 +21,7 @@
           }
         },
         {
-          "caller": "0xc0981804421D1C21f4B77eF722329C47d45D5A31",
+          "caller": "0x1A13C9253Bdd84D3C498f84E655e28AeFA917474",
           "comment": "test(uint256): 42 -> 0, 64, 0",
           "instance": "X",
           "method": "test(uint256)",
@@ -38,7 +38,7 @@
           }
         },
         {
-          "caller": "0xc0981804421D1C21f4B77eF722329C47d45D5A31",
+          "caller": "0x1A13C9253Bdd84D3C498f84E655e28AeFA917474",
           "comment": "set() ->",
           "instance": "X",
           "method": "set()",
@@ -48,7 +48,7 @@
           }
         },
         {
-          "caller": "0xc0981804421D1C21f4B77eF722329C47d45D5A31",
+          "caller": "0x1A13C9253Bdd84D3C498f84E655e28AeFA917474",
           "comment": "test(uint256): 0 -> 0, 64, 0",
           "instance": "X",
           "method": "test(uint256)",
@@ -65,7 +65,7 @@
           }
         },
         {
-          "caller": "0xc0981804421D1C21f4B77eF722329C47d45D5A31",
+          "caller": "0x1A13C9253Bdd84D3C498f84E655e28AeFA917474",
           "comment": "test(uint256): 42 -> 2, 0x40, 8, \"statevar\"",
           "instance": "X",
           "method": "test(uint256)",

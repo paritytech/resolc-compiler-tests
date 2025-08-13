@@ -4,7 +4,7 @@
       "name": "address_code_complex",
       "inputs": [
         {
-          "caller": "0xa36e735aD19638288370a604A496fcc58c42F3da",
+          "caller": "0xe34ac72Ca84deEdF06f8B3fc74114ADbb5a6c507",
           "comment": "f() -> 0x20, 0x20, 0x48aa5566000000",
           "instance": "C",
           "method": "f()",
@@ -19,7 +19,7 @@
           }
         },
         {
-          "caller": "0xa36e735aD19638288370a604A496fcc58c42F3da",
+          "caller": "0xe34ac72Ca84deEdF06f8B3fc74114ADbb5a6c507",
           "comment": "g() -> 0x20",
           "instance": "C",
           "method": "g()",

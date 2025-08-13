@@ -4,7 +4,7 @@
       "name": "invalid_enum_stored",
       "inputs": [
         {
-          "caller": "0x3B46d71636278C3fe3634D00Bb84EbEB051B5d30",
+          "caller": "0xE75721D039E8D1fEAA9e59b19cE344A2B1eA6751",
           "comment": "test_store_ok() -> 1",
           "instance": "C",
           "method": "test_store_ok()",
@@ -17,7 +17,7 @@
           }
         },
         {
-          "caller": "0x3B46d71636278C3fe3634D00Bb84EbEB051B5d30",
+          "caller": "0xE75721D039E8D1fEAA9e59b19cE344A2B1eA6751",
           "comment": "x() -> 0",
           "instance": "C",
           "method": "x()",
@@ -30,7 +30,7 @@
           }
         },
         {
-          "caller": "0x3B46d71636278C3fe3634D00Bb84EbEB051B5d30",
+          "caller": "0xE75721D039E8D1fEAA9e59b19cE344A2B1eA6751",
           "comment": "test_store() -> FAILURE, hex\"4e487b71\", 33",
           "instance": "C",
           "method": "test_store()",

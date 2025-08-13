@@ -4,7 +4,7 @@
       "name": "string_literal_assign_to_storage_bytes",
       "inputs": [
         {
-          "caller": "0xAb2948F95BB7e52D1712F7dE1443baCE57cFB825",
+          "caller": "0x4552a1e5c1275ff46B23ea493438604273AD7B87",
           "comment": "s() -> 0x20, 3, \"abc\"",
           "instance": "C",
           "method": "s()",
@@ -19,7 +19,7 @@
           }
         },
         {
-          "caller": "0xAb2948F95BB7e52D1712F7dE1443baCE57cFB825",
+          "caller": "0x4552a1e5c1275ff46B23ea493438604273AD7B87",
           "comment": "s1() -> 0x20, 4, \"abcd\"",
           "instance": "C",
           "method": "s1()",
@@ -34,7 +34,7 @@
           }
         },
         {
-          "caller": "0xAb2948F95BB7e52D1712F7dE1443baCE57cFB825",
+          "caller": "0x4552a1e5c1275ff46B23ea493438604273AD7B87",
           "comment": "f() ->",
           "instance": "C",
           "method": "f()",
@@ -44,7 +44,7 @@
           }
         },
         {
-          "caller": "0xAb2948F95BB7e52D1712F7dE1443baCE57cFB825",
+          "caller": "0x4552a1e5c1275ff46B23ea493438604273AD7B87",
           "comment": "s() -> 0x20, 4, \"abcd\"",
           "instance": "C",
           "method": "s()",
@@ -59,7 +59,7 @@
           }
         },
         {
-          "caller": "0xAb2948F95BB7e52D1712F7dE1443baCE57cFB825",
+          "caller": "0x4552a1e5c1275ff46B23ea493438604273AD7B87",
           "comment": "s1() -> 0x20, 3, \"abc\"",
           "instance": "C",
           "method": "s1()",
@@ -74,7 +74,7 @@
           }
         },
         {
-          "caller": "0xAb2948F95BB7e52D1712F7dE1443baCE57cFB825",
+          "caller": "0x4552a1e5c1275ff46B23ea493438604273AD7B87",
           "comment": "g() ->",
           "instance": "C",
           "method": "g()",
@@ -84,7 +84,7 @@
           }
         },
         {
-          "caller": "0xAb2948F95BB7e52D1712F7dE1443baCE57cFB825",
+          "caller": "0x4552a1e5c1275ff46B23ea493438604273AD7B87",
           "comment": "s() -> 0x20, 3, \"abc\"",
           "instance": "C",
           "method": "s()",
@@ -99,7 +99,7 @@
           }
         },
         {
-          "caller": "0xAb2948F95BB7e52D1712F7dE1443baCE57cFB825",
+          "caller": "0x4552a1e5c1275ff46B23ea493438604273AD7B87",
           "comment": "s1() -> 0x20, 4, \"abcd\"",
           "instance": "C",
           "method": "s1()",

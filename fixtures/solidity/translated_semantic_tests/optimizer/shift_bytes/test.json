@@ -4,7 +4,7 @@
       "name": "shift_bytes",
       "inputs": [
         {
-          "caller": "0x7372616c7e3f19aE50d14B26a3555421f4088c97",
+          "caller": "0x34fcB3E2d51cC9DC5AFC8622E1a1d26bAcCE98Aa",
           "comment": "f(uint256): 0x0102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f -> 0x1f, 0x1f, 3",
           "instance": "C",
           "method": "f(uint256)",
@@ -21,7 +21,7 @@
           }
         },
         {
-          "caller": "0x7372616c7e3f19aE50d14B26a3555421f4088c97",
+          "caller": "0x34fcB3E2d51cC9DC5AFC8622E1a1d26bAcCE98Aa",
           "comment": "g(uint256): 0x0102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f -> 1, 3, 5",
           "instance": "C",
           "method": "g(uint256)",

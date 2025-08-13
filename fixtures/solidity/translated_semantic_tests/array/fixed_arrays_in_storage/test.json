@@ -4,7 +4,7 @@
       "name": "fixed_arrays_in_storage",
       "inputs": [
         {
-          "caller": "0x06Bdb7426dabC4978868831590099afc25D4D430",
+          "caller": "0xbf397e9E8c1c8BA47447b728FA30f1E6e516ea41",
           "comment": "setIDStatic(uint256): 0xb ->",
           "instance": "c",
           "method": "setIDStatic(uint256)",
@@ -16,7 +16,7 @@
           }
         },
         {
-          "caller": "0x06Bdb7426dabC4978868831590099afc25D4D430",
+          "caller": "0xbf397e9E8c1c8BA47447b728FA30f1E6e516ea41",
           "comment": "getID(uint256): 0x2 -> 0xb",
           "instance": "c",
           "method": "getID(uint256)",
@@ -31,7 +31,7 @@
           }
         },
         {
-          "caller": "0x06Bdb7426dabC4978868831590099afc25D4D430",
+          "caller": "0xbf397e9E8c1c8BA47447b728FA30f1E6e516ea41",
           "comment": "setID(uint256,uint256): 0x7, 0x8 ->",
           "instance": "c",
           "method": "setID(uint256,uint256)",
@@ -44,7 +44,7 @@
           }
         },
         {
-          "caller": "0x06Bdb7426dabC4978868831590099afc25D4D430",
+          "caller": "0xbf397e9E8c1c8BA47447b728FA30f1E6e516ea41",
           "comment": "getID(uint256): 0x7 -> 0x8",
           "instance": "c",
           "method": "getID(uint256)",
@@ -59,7 +59,7 @@
           }
         },
         {
-          "caller": "0x06Bdb7426dabC4978868831590099afc25D4D430",
+          "caller": "0xbf397e9E8c1c8BA47447b728FA30f1E6e516ea41",
           "comment": "setData(uint256,uint256,uint256): 0x7, 0x8, 0x9 ->",
           "instance": "c",
           "method": "setData(uint256,uint256,uint256)",
@@ -73,7 +73,7 @@
           }
         },
         {
-          "caller": "0x06Bdb7426dabC4978868831590099afc25D4D430",
+          "caller": "0xbf397e9E8c1c8BA47447b728FA30f1E6e516ea41",
           "comment": "setData(uint256,uint256,uint256): 0x8, 0xa, 0xb ->",
           "instance": "c",
           "method": "setData(uint256,uint256,uint256)",
@@ -87,7 +87,7 @@
           }
         },
         {
-          "caller": "0x06Bdb7426dabC4978868831590099afc25D4D430",
+          "caller": "0xbf397e9E8c1c8BA47447b728FA30f1E6e516ea41",
           "comment": "getData(uint256): 0x7 -> 0x8, 0x9",
           "instance": "c",
           "method": "getData(uint256)",
@@ -103,7 +103,7 @@
           }
         },
         {
-          "caller": "0x06Bdb7426dabC4978868831590099afc25D4D430",
+          "caller": "0xbf397e9E8c1c8BA47447b728FA30f1E6e516ea41",
           "comment": "getData(uint256): 0x8 -> 0xa, 0xb",
           "instance": "c",
           "method": "getData(uint256)",
@@ -119,7 +119,7 @@
           }
         },
         {
-          "caller": "0x06Bdb7426dabC4978868831590099afc25D4D430",
+          "caller": "0xbf397e9E8c1c8BA47447b728FA30f1E6e516ea41",
           "comment": "getLengths() -> 0x400, 0x403",
           "instance": "c",
           "method": "getLengths()",

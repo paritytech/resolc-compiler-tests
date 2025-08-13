@@ -4,7 +4,7 @@
       "name": "inline_assembly_write_to_stack",
       "inputs": [
         {
-          "caller": "0x4ED0bE1dfB5d83f49aAFD5fB722a0eE9e6A71039",
+          "caller": "0x1701F63a1Aa25df5afA154e976D6D6ed56c555E2",
           "comment": "f() -> 7, \"abcdef\"",
           "instance": "C",
           "method": "f()",

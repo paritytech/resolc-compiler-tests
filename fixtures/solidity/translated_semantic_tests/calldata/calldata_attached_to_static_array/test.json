@@ -4,7 +4,7 @@
       "name": "calldata_attached_to_static_array",
       "inputs": [
         {
-          "caller": "0x2410945cE2CFB15B79697F1E20842c0ED7283D2e",
+          "caller": "0xF2ef1F83a8B0C4C756EBcA455824FA403af30850",
           "comment": "test(uint256,uint256[2],uint256): 7, 66, 77, 4 -> 77, 66",
           "instance": "C",
           "method": "test(uint256,uint256[2],uint256)",

@@ -4,7 +4,7 @@
       "name": "internal_library_function_attached_to_address_named_send_transfer",
       "inputs": [
         {
-          "caller": "0xE7dD275c3D33605FDd4F3d5073ae9fe3c38Fa3b1",
+          "caller": "0x1dA5fCeA86D6CCf9C8182a82cf06d15b0e15Cc30",
           "comment": "useTransfer(address): 0x111122223333444455556666777788889999aAaa ->",
           "instance": "C",
           "method": "useTransfer(address)",
@@ -16,7 +16,7 @@
           }
         },
         {
-          "caller": "0xE7dD275c3D33605FDd4F3d5073ae9fe3c38Fa3b1",
+          "caller": "0x1dA5fCeA86D6CCf9C8182a82cf06d15b0e15Cc30",
           "comment": "useSend(address): 0x111122223333444455556666777788889999aAaa ->",
           "instance": "C",
           "method": "useSend(address)",

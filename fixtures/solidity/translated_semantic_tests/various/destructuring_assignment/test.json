@@ -4,7 +4,7 @@
       "name": "destructuring_assignment",
       "inputs": [
         {
-          "caller": "0x778eC180D7286B8fea84a2d42429965F35ec16F6",
+          "caller": "0xD473508FD1eeEB33982693787390975d9001c859",
           "comment": "f(bytes): 0x20, 0x5, \"abcde\" -> 0; gas irOptimized: 242027; gas legacy: 243281; gas legacyOptimized: 242392",
           "instance": "C",
           "method": "f(bytes)",

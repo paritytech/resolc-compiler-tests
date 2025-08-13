@@ -4,7 +4,7 @@
       "name": "operator_parameter_and_return_cleanup_between_calls",
       "inputs": [
         {
-          "caller": "0x0C52AAeB10797a5C3A3637926dEbb7667E14e84C",
+          "caller": "0x760716763D2f310f6285892E4353BB238d0F5e97",
           "comment": "divAddNoOverflow(uint8,uint8,uint8): 4, 0xff, 3 -> 0",
           "instance": "C",
           "method": "divAddNoOverflow(uint8,uint8,uint8)",

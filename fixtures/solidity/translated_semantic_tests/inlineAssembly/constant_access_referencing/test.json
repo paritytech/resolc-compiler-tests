@@ -4,7 +4,7 @@
       "name": "constant_access_referencing",
       "inputs": [
         {
-          "caller": "0x6EEB6703e056C514516Db4b781344A14781b5Ebb",
+          "caller": "0xcddD9Fd5916E4DFBc41FDc34Ff0edfB3358E9F95",
           "comment": "f() -> 2, left(0xabcd), left(0x616263), true, 0x1212121212121212121212121212121212121212",
           "instance": "C",
           "method": "f()",

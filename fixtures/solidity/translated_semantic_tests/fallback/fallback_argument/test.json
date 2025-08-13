@@ -4,7 +4,7 @@
       "name": "fallback_argument",
       "inputs": [
         {
-          "caller": "0x9179C69b22a9fC2494E130819c26A3daB60dB0fc",
+          "caller": "0x238882Ed0CA605E44021374bFD3b76Ed6e46c3fe",
           "comment": "f() -> 0x01, 0x40, 0x00",
           "instance": "A",
           "method": "f()",
@@ -19,7 +19,7 @@
           }
         },
         {
-          "caller": "0x9179C69b22a9fC2494E130819c26A3daB60dB0fc",
+          "caller": "0x238882Ed0CA605E44021374bFD3b76Ed6e46c3fe",
           "comment": "x() -> 3",
           "instance": "A",
           "method": "x()",

@@ -4,7 +4,7 @@
       "name": "transient_storage_state_variable_abstract_contract",
       "inputs": [
         {
-          "caller": "0xf1C3317b950618a3aE1f663c97b3335cd1F0660D",
+          "caller": "0xf7f9cd772eC5f509287d08c21c5d97Ec3e4b7CdF",
           "comment": "f() -> 1, 1, 2, 2",
           "instance": "C",
           "method": "f()",

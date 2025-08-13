@@ -4,7 +4,7 @@
       "name": "inline_assembly_storage_access_inside_function",
       "inputs": [
         {
-          "caller": "0x337b74971eAAfB02646622E84978d62816be1Fdf",
+          "caller": "0x18f85288151a7276942905cE065eDF0b19a96Afa",
           "comment": "f() -> true",
           "instance": "C",
           "method": "f()",
@@ -17,7 +17,7 @@
           }
         },
         {
-          "caller": "0x337b74971eAAfB02646622E84978d62816be1Fdf",
+          "caller": "0x18f85288151a7276942905cE065eDF0b19a96Afa",
           "comment": "z() -> 7",
           "instance": "C",
           "method": "z()",

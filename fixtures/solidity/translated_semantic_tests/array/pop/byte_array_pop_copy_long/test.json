@@ -4,7 +4,7 @@
       "name": "byte_array_pop_copy_long",
       "inputs": [
         {
-          "caller": "0xD9b4580C8Ee95c4Af527AdF04417f47dd3f6C436",
+          "caller": "0xa0D8C7260f6f68091A5eA78F24B9dab0334D7429",
           "comment": "test() -> 0x20, 29, 0x0303030303030303030303030303030303030303030303030303030303000000; gas irOptimized: 109310; gas legacy: 101220; gas legacyOptimized: 123422",
           "instance": "c",
           "method": "test()",

@@ -4,7 +4,7 @@
       "name": "empty_string_input",
       "inputs": [
         {
-          "caller": "0x8D695F844e155f43575b398Ef7fB8adD1E87C7d9",
+          "caller": "0xEa5c58F6335C4E851E43c434C7341Fd38044957a",
           "comment": "f() -> 0x20, 0",
           "instance": "C",
           "method": "f()",
@@ -18,7 +18,7 @@
           }
         },
         {
-          "caller": "0x8D695F844e155f43575b398Ef7fB8adD1E87C7d9",
+          "caller": "0xEa5c58F6335C4E851E43c434C7341Fd38044957a",
           "comment": "g(string): 0x20, 0, \"\" -> 0x20, 0",
           "instance": "C",
           "method": "g(string)",
@@ -35,7 +35,7 @@
           }
         },
         {
-          "caller": "0x8D695F844e155f43575b398Ef7fB8adD1E87C7d9",
+          "caller": "0xEa5c58F6335C4E851E43c434C7341Fd38044957a",
           "comment": "g(string): 0x20, 0 -> 0x20, 0",
           "instance": "C",
           "method": "g(string)",
@@ -52,7 +52,7 @@
           }
         },
         {
-          "caller": "0x8D695F844e155f43575b398Ef7fB8adD1E87C7d9",
+          "caller": "0xEa5c58F6335C4E851E43c434C7341Fd38044957a",
           "comment": "h(string,uint256): 0x40, 0x888, 0, \"\" -> 0x40, 0x0888, 0",
           "instance": "C",
           "method": "h(string,uint256)",
@@ -71,7 +71,7 @@
           }
         },
         {
-          "caller": "0x8D695F844e155f43575b398Ef7fB8adD1E87C7d9",
+          "caller": "0xEa5c58F6335C4E851E43c434C7341Fd38044957a",
           "comment": "h(string,uint256): 0x40, 0x888, 0 -> 0x40, 0x0888, 0",
           "instance": "C",
           "method": "h(string,uint256)",
@@ -90,7 +90,7 @@
           }
         },
         {
-          "caller": "0x8D695F844e155f43575b398Ef7fB8adD1E87C7d9",
+          "caller": "0xEa5c58F6335C4E851E43c434C7341Fd38044957a",
           "comment": "i(string,uint256,string): 0x60, 0x888, 0x60, 0, \"\" -> 0x60, 0x80, 0x0888, 0, 0",
           "instance": "C",
           "method": "i(string,uint256,string)",
@@ -112,7 +112,7 @@
           }
         },
         {
-          "caller": "0x8D695F844e155f43575b398Ef7fB8adD1E87C7d9",
+          "caller": "0xEa5c58F6335C4E851E43c434C7341Fd38044957a",
           "comment": "i(string,uint256,string): 0x60, 0x888, 0x60, 0 -> 0x60, 0x80, 0x0888, 0, 0",
           "instance": "C",
           "method": "i(string,uint256,string)",
@@ -134,7 +134,7 @@
           }
         },
         {
-          "caller": "0x8D695F844e155f43575b398Ef7fB8adD1E87C7d9",
+          "caller": "0xEa5c58F6335C4E851E43c434C7341Fd38044957a",
           "comment": "j(string,uint256): 0x40, 0x888, 0, \"\" -> 0x60, 0x80, 0x0888, 0, 0",
           "instance": "C",
           "method": "j(string,uint256)",
@@ -155,7 +155,7 @@
           }
         },
         {
-          "caller": "0x8D695F844e155f43575b398Ef7fB8adD1E87C7d9",
+          "caller": "0xEa5c58F6335C4E851E43c434C7341Fd38044957a",
           "comment": "j(string,uint256): 0x40, 0x888, 0 -> 0x60, 0x80, 0x0888, 0, 0",
           "instance": "C",
           "method": "j(string,uint256)",

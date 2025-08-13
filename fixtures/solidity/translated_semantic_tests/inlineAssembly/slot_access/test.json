@@ -4,7 +4,7 @@
       "name": "slot_access",
       "inputs": [
         {
-          "caller": "0xA24dB7adA30324bCe2436Aaaba8511bfB729E3Da",
+          "caller": "0x0643c83e41C2685e4A397Ed6b84ABe1D33Ca4a0f",
           "comment": "get() -> 0",
           "instance": "C",
           "method": "get()",
@@ -17,7 +17,7 @@
           }
         },
         {
-          "caller": "0xA24dB7adA30324bCe2436Aaaba8511bfB729E3Da",
+          "caller": "0x0643c83e41C2685e4A397Ed6b84ABe1D33Ca4a0f",
           "comment": "mappingAccess(uint256): 1 -> 0, 0",
           "instance": "C",
           "method": "mappingAccess(uint256)",
@@ -33,7 +33,7 @@
           }
         },
         {
-          "caller": "0xA24dB7adA30324bCe2436Aaaba8511bfB729E3Da",
+          "caller": "0x0643c83e41C2685e4A397Ed6b84ABe1D33Ca4a0f",
           "comment": "set(uint256): 4",
           "instance": "C",
           "method": "set(uint256)",
@@ -45,7 +45,7 @@
           }
         },
         {
-          "caller": "0xA24dB7adA30324bCe2436Aaaba8511bfB729E3Da",
+          "caller": "0x0643c83e41C2685e4A397Ed6b84ABe1D33Ca4a0f",
           "comment": "get() -> 4",
           "instance": "C",
           "method": "get()",
@@ -58,7 +58,7 @@
           }
         },
         {
-          "caller": "0xA24dB7adA30324bCe2436Aaaba8511bfB729E3Da",
+          "caller": "0x0643c83e41C2685e4A397Ed6b84ABe1D33Ca4a0f",
           "comment": "mappingAccess(uint256): 1 -> 4, 0",
           "instance": "C",
           "method": "mappingAccess(uint256)",

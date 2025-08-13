@@ -4,7 +4,7 @@
       "name": "calldata_internal_function_pointer",
       "inputs": [
         {
-          "caller": "0x11e4D73d806288b22f928e79A6Bf84613434C0d0",
+          "caller": "0x4884ABe82470adf54f4e19Fa39712384c05112be",
           "comment": "g() -> 0x0700000000000000000000000000000000000000000000000000000000000000",
           "instance": "C",
           "method": "g()",

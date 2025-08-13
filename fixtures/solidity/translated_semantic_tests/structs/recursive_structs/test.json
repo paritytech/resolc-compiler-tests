@@ -4,7 +4,7 @@
       "name": "recursive_structs",
       "inputs": [
         {
-          "caller": "0x46FA34F88b8612006f78F4655aeFa624DdD93e19",
+          "caller": "0x8161599edD4670c63D8344e7f63011A0eC284777",
           "comment": "f() -> 1",
           "instance": "C",
           "method": "f()",

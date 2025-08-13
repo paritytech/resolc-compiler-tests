@@ -4,7 +4,7 @@
       "name": "calldata_offset_read",
       "inputs": [
         {
-          "caller": "0x067552D1BE7A0A5266D11565E7138d8c165caD02",
+          "caller": "0x2Fc337315bFE83AB4bF9e825A68FBD2C5aE62d19",
           "comment": "f(bytes): 0x20, 0, 0 -> 0x44",
           "instance": "C",
           "method": "f(bytes)",
@@ -21,7 +21,7 @@
           }
         },
         {
-          "caller": "0x067552D1BE7A0A5266D11565E7138d8c165caD02",
+          "caller": "0x2Fc337315bFE83AB4bF9e825A68FBD2C5aE62d19",
           "comment": "f(bytes): 0x22, 0, 0, 0 -> 0x46",
           "instance": "C",
           "method": "f(bytes)",
@@ -39,7 +39,7 @@
           }
         },
         {
-          "caller": "0x067552D1BE7A0A5266D11565E7138d8c165caD02",
+          "caller": "0x2Fc337315bFE83AB4bF9e825A68FBD2C5aE62d19",
           "comment": "f(uint256,bytes,uint256): 7, 0x60, 8, 2, 0 -> 0x84, 2",
           "instance": "C",
           "method": "f(uint256,bytes,uint256)",
@@ -59,7 +59,7 @@
           }
         },
         {
-          "caller": "0x067552D1BE7A0A5266D11565E7138d8c165caD02",
+          "caller": "0x2Fc337315bFE83AB4bF9e825A68FBD2C5aE62d19",
           "comment": "f(uint256,bytes,uint256): 0, 0, 0 -> 0x24, 0x00",
           "instance": "C",
           "method": "f(uint256,bytes,uint256)",

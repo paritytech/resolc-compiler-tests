@@ -4,7 +4,7 @@
       "name": "error_struct",
       "inputs": [
         {
-          "caller": "0x1e94346A41939597DAb5626D9fEA2bA4979451e9",
+          "caller": "0x8a398504e8d84B6D8325AbDeD7BC9ba3b2C36E48",
           "comment": "f() -> FAILURE, hex\"f8a8fd6d\"",
           "instance": "C",
           "method": "f()",
@@ -17,7 +17,7 @@
           }
         },
         {
-          "caller": "0x1e94346A41939597DAb5626D9fEA2bA4979451e9",
+          "caller": "0x8a398504e8d84B6D8325AbDeD7BC9ba3b2C36E48",
           "comment": "g(uint256): 7 -> 7",
           "instance": "C",
           "method": "g(uint256)",

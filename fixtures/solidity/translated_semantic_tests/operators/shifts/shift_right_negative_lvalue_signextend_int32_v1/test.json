@@ -4,7 +4,7 @@
       "name": "shift_right_negative_lvalue_signextend_int32_v1",
       "inputs": [
         {
-          "caller": "0x3c466e671D728D66331C05892f7B61982CD5c339",
+          "caller": "0x70f6dbc8a53c9083B982cad2aE78F28108Ae7Fa4",
           "comment": "f(int32,uint32): 0xffffff99, 0x00 -> 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff99",
           "instance": "C",
           "method": "f(int32,uint32)",
@@ -20,7 +20,7 @@
           }
         },
         {
-          "caller": "0x3c466e671D728D66331C05892f7B61982CD5c339",
+          "caller": "0x70f6dbc8a53c9083B982cad2aE78F28108Ae7Fa4",
           "comment": "f(int32,uint32): 0xffffff99, 0x01 -> 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffcc",
           "instance": "C",
           "method": "f(int32,uint32)",
@@ -36,7 +36,7 @@
           }
         },
         {
-          "caller": "0x3c466e671D728D66331C05892f7B61982CD5c339",
+          "caller": "0x70f6dbc8a53c9083B982cad2aE78F28108Ae7Fa4",
           "comment": "f(int32,uint32): 0xffffff99, 0x02 -> 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe6",
           "instance": "C",
           "method": "f(int32,uint32)",
@@ -52,7 +52,7 @@
           }
         },
         {
-          "caller": "0x3c466e671D728D66331C05892f7B61982CD5c339",
+          "caller": "0x70f6dbc8a53c9083B982cad2aE78F28108Ae7Fa4",
           "comment": "f(int32,uint32): 0xffffff99, 0x04 -> 0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff9",
           "instance": "C",
           "method": "f(int32,uint32)",
@@ -68,7 +68,7 @@
           }
         },
         {
-          "caller": "0x3c466e671D728D66331C05892f7B61982CD5c339",
+          "caller": "0x70f6dbc8a53c9083B982cad2aE78F28108Ae7Fa4",
           "comment": "f(int32,uint32): 0xffffff99, 0x08 -> 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
           "instance": "C",
           "method": "f(int32,uint32)",

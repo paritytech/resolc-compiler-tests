@@ -4,7 +4,7 @@
       "name": "library_staticcall_delegatecall",
       "inputs": [
         {
-          "caller": "0x7F582b149845d5767E61a79F16F662B72Fdaa880",
+          "caller": "0x162FBde4FC05C93872F8f88b36e33c5551D23245",
           "comment": "f() -> 1",
           "instance": "Test",
           "method": "f()",

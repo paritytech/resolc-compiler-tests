@@ -4,7 +4,7 @@
       "name": "bytes_and_strings",
       "inputs": [
         {
-          "caller": "0xfF4584C1686b5e6AB2eB300B02213e820541a8F5",
+          "caller": "0xe7aFFe11eA58712aaAfeE3666C255e3C128769FC",
           "comment": "e(bytes): 32, 3, hex\"AB33BB\" -> 32, 3, left(0xAB33BB)",
           "instance": "C",
           "method": "e(bytes)",
@@ -23,7 +23,7 @@
           }
         },
         {
-          "caller": "0xfF4584C1686b5e6AB2eB300B02213e820541a8F5",
+          "caller": "0xe7aFFe11eA58712aaAfeE3666C255e3C128769FC",
           "comment": "e(bytes): 32, 32, 0x20 -> 32, 32, 0x20",
           "instance": "C",
           "method": "e(bytes)",
@@ -42,7 +42,7 @@
           }
         },
         {
-          "caller": "0xfF4584C1686b5e6AB2eB300B02213e820541a8F5",
+          "caller": "0xe7aFFe11eA58712aaAfeE3666C255e3C128769FC",
           "comment": "e(bytes): 32, 3, hex\"AB33FF\" -> 32, 3, hex\"ab33ff0000000000000000000000000000000000000000000000000000000000\"",
           "instance": "C",
           "method": "e(bytes)",
@@ -61,7 +61,7 @@
           }
         },
         {
-          "caller": "0xfF4584C1686b5e6AB2eB300B02213e820541a8F5",
+          "caller": "0xe7aFFe11eA58712aaAfeE3666C255e3C128769FC",
           "comment": "f() -> 0x40, 0x80, 3, \"any\", 3, \"any\"",
           "instance": "C",
           "method": "f()",
@@ -78,7 +78,7 @@
           }
         },
         {
-          "caller": "0xfF4584C1686b5e6AB2eB300B02213e820541a8F5",
+          "caller": "0xe7aFFe11eA58712aaAfeE3666C255e3C128769FC",
           "comment": "g() -> 0x60, 0x2a, 0xa0, 3, \"any\", 3, \"any\"",
           "instance": "C",
           "method": "g()",
@@ -96,7 +96,7 @@
           }
         },
         {
-          "caller": "0xfF4584C1686b5e6AB2eB300B02213e820541a8F5",
+          "caller": "0xe7aFFe11eA58712aaAfeE3666C255e3C128769FC",
           "comment": "h() -> 0x20, 3, \"any\"",
           "instance": "C",
           "method": "h()",

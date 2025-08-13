@@ -4,7 +4,7 @@
       "name": "keccak256_multiple_arguments",
       "inputs": [
         {
-          "caller": "0xe10f74ec1BD3DDe2C55B589aAe47f0f23D15b090",
+          "caller": "0x04aE342aD5eBab6fc75b7D5a20aD7D3aC00626d6",
           "comment": "foo(uint256,uint256,uint256): 0xa, 0xc, 0xd -> 0xbc740a98aae5923e8f04c9aa798c9ee82f69e319997699f2782c40828db9fd81",
           "instance": "c",
           "method": "foo(uint256,uint256,uint256)",

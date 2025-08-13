@@ -4,7 +4,7 @@
       "name": "transient_state_variable_slot_offset",
       "inputs": [
         {
-          "caller": "0xA88743d49Cb1dBe421633eC506592C1a89bf486a",
+          "caller": "0xCe469C349B00581b3B1f4e83438a8bf767042291",
           "comment": "xSlotOffset() -> 0, 0",
           "instance": "C",
           "method": "xSlotOffset()",
@@ -18,7 +18,7 @@
           }
         },
         {
-          "caller": "0xA88743d49Cb1dBe421633eC506592C1a89bf486a",
+          "caller": "0xCe469C349B00581b3B1f4e83438a8bf767042291",
           "comment": "ySlotOffset() -> 7, 0",
           "instance": "C",
           "method": "ySlotOffset()",
@@ -32,7 +32,7 @@
           }
         },
         {
-          "caller": "0xA88743d49Cb1dBe421633eC506592C1a89bf486a",
+          "caller": "0xCe469C349B00581b3B1f4e83438a8bf767042291",
           "comment": "wSlotOffset() -> 1, 0",
           "instance": "C",
           "method": "wSlotOffset()",
@@ -46,7 +46,7 @@
           }
         },
         {
-          "caller": "0xA88743d49Cb1dBe421633eC506592C1a89bf486a",
+          "caller": "0xCe469C349B00581b3B1f4e83438a8bf767042291",
           "comment": "zSlotOffset() -> 8, 0",
           "instance": "C",
           "method": "zSlotOffset()",

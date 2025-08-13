@@ -4,7 +4,7 @@
       "name": "fallback",
       "inputs": [
         {
-          "caller": "0xb560174A6C1A3dda3CC08A64d96adba7819cBD64",
+          "caller": "0x420C2a9306C343900B945757B3d001C13ce3d390",
           "comment": "data() -> 0",
           "instance": "A",
           "method": "data()",
@@ -17,7 +17,7 @@
           }
         },
         {
-          "caller": "0xb560174A6C1A3dda3CC08A64d96adba7819cBD64",
+          "caller": "0x420C2a9306C343900B945757B3d001C13ce3d390",
           "comment": "()",
           "instance": "A",
           "method": "#fallback",
@@ -27,7 +27,7 @@
           }
         },
         {
-          "caller": "0xb560174A6C1A3dda3CC08A64d96adba7819cBD64",
+          "caller": "0x420C2a9306C343900B945757B3d001C13ce3d390",
           "comment": "data() -> 1",
           "instance": "A",
           "method": "data()",
@@ -40,7 +40,7 @@
           }
         },
         {
-          "caller": "0xb560174A6C1A3dda3CC08A64d96adba7819cBD64",
+          "caller": "0x420C2a9306C343900B945757B3d001C13ce3d390",
           "comment": "(): hex\"42ef\"",
           "instance": "A",
           "method": "#fallback",
@@ -52,7 +52,7 @@
           }
         },
         {
-          "caller": "0xb560174A6C1A3dda3CC08A64d96adba7819cBD64",
+          "caller": "0x420C2a9306C343900B945757B3d001C13ce3d390",
           "comment": "data() -> 2",
           "instance": "A",
           "method": "data()",
@@ -65,7 +65,7 @@
           }
         },
         {
-          "caller": "0xb560174A6C1A3dda3CC08A64d96adba7819cBD64",
+          "caller": "0x420C2a9306C343900B945757B3d001C13ce3d390",
           "comment": "externalData() -> 0x20, 2, left(0x42ef)",
           "instance": "A",
           "method": "externalData()",
@@ -80,7 +80,7 @@
           }
         },
         {
-          "caller": "0xb560174A6C1A3dda3CC08A64d96adba7819cBD64",
+          "caller": "0x420C2a9306C343900B945757B3d001C13ce3d390",
           "comment": "balance() -> 0",
           "instance": "A",
           "method": "balance()",
@@ -93,7 +93,7 @@
           }
         },
         {
-          "caller": "0xb560174A6C1A3dda3CC08A64d96adba7819cBD64",
+          "caller": "0x420C2a9306C343900B945757B3d001C13ce3d390",
           "comment": "(), 1 wei",
           "instance": "A",
           "method": "#fallback",
@@ -104,7 +104,7 @@
           "value": "1 wei"
         },
         {
-          "caller": "0xb560174A6C1A3dda3CC08A64d96adba7819cBD64",
+          "caller": "0x420C2a9306C343900B945757B3d001C13ce3d390",
           "comment": "balance() -> 1",
           "instance": "A",
           "method": "balance()",
@@ -117,7 +117,7 @@
           }
         },
         {
-          "caller": "0xb560174A6C1A3dda3CC08A64d96adba7819cBD64",
+          "caller": "0x420C2a9306C343900B945757B3d001C13ce3d390",
           "comment": "(), 2 wei: hex\"fefe\"",
           "instance": "A",
           "method": "#fallback",
@@ -130,7 +130,7 @@
           "value": "2 wei"
         },
         {
-          "caller": "0xb560174A6C1A3dda3CC08A64d96adba7819cBD64",
+          "caller": "0x420C2a9306C343900B945757B3d001C13ce3d390",
           "comment": "balance() -> 2",
           "instance": "A",
           "method": "balance()",
@@ -143,7 +143,7 @@
           }
         },
         {
-          "caller": "0xb560174A6C1A3dda3CC08A64d96adba7819cBD64",
+          "caller": "0x420C2a9306C343900B945757B3d001C13ce3d390",
           "comment": "externalData() -> 0x20, 2, left(0xfefe)",
           "instance": "A",
           "method": "externalData()",

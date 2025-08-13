@@ -4,7 +4,7 @@
       "name": "array_copy_storage_storage_struct",
       "inputs": [
         {
-          "caller": "0xc41215a31b2014336Ee56cd0f238F3b420785e93",
+          "caller": "0x0597B283754c5d5433b6e459f33715Ee80619DD9",
           "comment": "test() -> 4, 5; gas irOptimized: 190628; gas legacy: 190828; gas legacyOptimized: 189657",
           "instance": "c",
           "method": "test()",
@@ -21,7 +21,7 @@
           "comment": "storageEmpty -> 1",
           "address": "c.address",
           "is_storage_empty": true,
-          "caller": "0x54ac55173646aDadd2FFE5F50E3C7E52ad0b7c24"
+          "caller": "0x0DE29F88B21D0D4D99C6F5E3BA294A770f6eDa27"
         }
       ]
     }

@@ -4,7 +4,7 @@
       "name": "shift_constant_right",
       "inputs": [
         {
-          "caller": "0x999d23573cC75ef9D611435dCEdDfe7690D11AB6",
+          "caller": "0x48868f54dC026077028B38d39485C31E4e641EB5",
           "comment": "a() -> 0x42",
           "instance": "C",
           "method": "a()",

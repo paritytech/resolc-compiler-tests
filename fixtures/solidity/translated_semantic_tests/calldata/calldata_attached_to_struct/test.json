@@ -4,7 +4,7 @@
       "name": "calldata_attached_to_struct",
       "inputs": [
         {
-          "caller": "0xe8d43A4D44Ff579436F47B8C7DdECd3df04546AE",
+          "caller": "0xEE3a3160c364DB89ba7e090121822ccd21495aa2",
           "comment": "test(uint256,(uint256,uint256),uint256): 7, 66, 77, 4 -> 77, 66",
           "instance": "C",
           "method": "test(uint256,(uint256,uint256),uint256)",

@@ -4,7 +4,7 @@
       "name": "inline_assembly_storage_access_via_pointer",
       "inputs": [
         {
-          "caller": "0x12Ccdd526F3251fcBf48ca8a807115cE95515b7b",
+          "caller": "0x9c1525C85AA77085a614f9808b97ce617b724b01",
           "comment": "f() -> true",
           "instance": "C",
           "method": "f()",
@@ -17,7 +17,7 @@
           }
         },
         {
-          "caller": "0x12Ccdd526F3251fcBf48ca8a807115cE95515b7b",
+          "caller": "0x9c1525C85AA77085a614f9808b97ce617b724b01",
           "comment": "a() -> 7",
           "instance": "C",
           "method": "a()",
@@ -30,7 +30,7 @@
           }
         },
         {
-          "caller": "0x12Ccdd526F3251fcBf48ca8a807115cE95515b7b",
+          "caller": "0x9c1525C85AA77085a614f9808b97ce617b724b01",
           "comment": "separator() -> 0",
           "instance": "C",
           "method": "separator()",
@@ -43,7 +43,7 @@
           }
         },
         {
-          "caller": "0x12Ccdd526F3251fcBf48ca8a807115cE95515b7b",
+          "caller": "0x9c1525C85AA77085a614f9808b97ce617b724b01",
           "comment": "separator2() -> 0",
           "instance": "C",
           "method": "separator2()",

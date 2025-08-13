@@ -4,7 +4,7 @@
       "name": "shift_right_uint8",
       "inputs": [
         {
-          "caller": "0xb4FF2ce9461Ea3fb1d4d6A270B33d4cB3230355C",
+          "caller": "0x7dc5e7a04f7dD981DdDff2B2ece9B1F887dF36f0",
           "comment": "f(uint8,uint8): 0x66, 0x0 -> 0x66",
           "instance": "C",
           "method": "f(uint8,uint8)",
@@ -20,7 +20,7 @@
           }
         },
         {
-          "caller": "0xb4FF2ce9461Ea3fb1d4d6A270B33d4cB3230355C",
+          "caller": "0x7dc5e7a04f7dD981DdDff2B2ece9B1F887dF36f0",
           "comment": "f(uint8,uint8): 0x66, 0x8 -> 0x0",
           "instance": "C",
           "method": "f(uint8,uint8)",

@@ -4,7 +4,7 @@
       "name": "type_class",
       "inputs": [
         {
-          "caller": "0x63B58cb931d0942EF970b2906d0AaB632F880715",
+          "caller": "0x75386FB8999486b9C6C009E92405f0Fd42446e96",
           "comment": "() -> 1, 0",
           "instance": "C",
           "method": "#fallback",

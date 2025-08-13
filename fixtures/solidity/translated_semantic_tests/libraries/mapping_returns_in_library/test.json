@@ -4,7 +4,7 @@
       "name": "mapping_returns_in_library",
       "inputs": [
         {
-          "caller": "0x359a58550015E98A33ECA9E7c972d02F62B47C7d",
+          "caller": "0x5754fB1F67b5cecbf28ACD89e675d34b4FD2c8ED",
           "comment": "set(bool,uint256,uint256): true, 1, 42 -> 0",
           "instance": "Test",
           "method": "set(bool,uint256,uint256)",
@@ -21,7 +21,7 @@
           }
         },
         {
-          "caller": "0x359a58550015E98A33ECA9E7c972d02F62B47C7d",
+          "caller": "0x5754fB1F67b5cecbf28ACD89e675d34b4FD2c8ED",
           "comment": "set(bool,uint256,uint256): true, 2, 84 -> 0",
           "instance": "Test",
           "method": "set(bool,uint256,uint256)",
@@ -38,7 +38,7 @@
           }
         },
         {
-          "caller": "0x359a58550015E98A33ECA9E7c972d02F62B47C7d",
+          "caller": "0x5754fB1F67b5cecbf28ACD89e675d34b4FD2c8ED",
           "comment": "set(bool,uint256,uint256): true, 21, 7 -> 0",
           "instance": "Test",
           "method": "set(bool,uint256,uint256)",
@@ -55,7 +55,7 @@
           }
         },
         {
-          "caller": "0x359a58550015E98A33ECA9E7c972d02F62B47C7d",
+          "caller": "0x5754fB1F67b5cecbf28ACD89e675d34b4FD2c8ED",
           "comment": "set(bool,uint256,uint256): false, 1, 10 -> 0",
           "instance": "Test",
           "method": "set(bool,uint256,uint256)",
@@ -72,7 +72,7 @@
           }
         },
         {
-          "caller": "0x359a58550015E98A33ECA9E7c972d02F62B47C7d",
+          "caller": "0x5754fB1F67b5cecbf28ACD89e675d34b4FD2c8ED",
           "comment": "set(bool,uint256,uint256): false, 2, 11 -> 0",
           "instance": "Test",
           "method": "set(bool,uint256,uint256)",
@@ -89,7 +89,7 @@
           }
         },
         {
-          "caller": "0x359a58550015E98A33ECA9E7c972d02F62B47C7d",
+          "caller": "0x5754fB1F67b5cecbf28ACD89e675d34b4FD2c8ED",
           "comment": "set(bool,uint256,uint256): false, 21, 12 -> 0",
           "instance": "Test",
           "method": "set(bool,uint256,uint256)",
@@ -106,7 +106,7 @@
           }
         },
         {
-          "caller": "0x359a58550015E98A33ECA9E7c972d02F62B47C7d",
+          "caller": "0x5754fB1F67b5cecbf28ACD89e675d34b4FD2c8ED",
           "comment": "get(bool,uint256): true, 0 -> 0",
           "instance": "Test",
           "method": "get(bool,uint256)",
@@ -122,7 +122,7 @@
           }
         },
         {
-          "caller": "0x359a58550015E98A33ECA9E7c972d02F62B47C7d",
+          "caller": "0x5754fB1F67b5cecbf28ACD89e675d34b4FD2c8ED",
           "comment": "get(bool,uint256): true, 1 -> 0x2a",
           "instance": "Test",
           "method": "get(bool,uint256)",
@@ -138,7 +138,7 @@
           }
         },
         {
-          "caller": "0x359a58550015E98A33ECA9E7c972d02F62B47C7d",
+          "caller": "0x5754fB1F67b5cecbf28ACD89e675d34b4FD2c8ED",
           "comment": "get(bool,uint256): true, 2 -> 0x54",
           "instance": "Test",
           "method": "get(bool,uint256)",
@@ -154,7 +154,7 @@
           }
         },
         {
-          "caller": "0x359a58550015E98A33ECA9E7c972d02F62B47C7d",
+          "caller": "0x5754fB1F67b5cecbf28ACD89e675d34b4FD2c8ED",
           "comment": "get(bool,uint256): true, 21 -> 7",
           "instance": "Test",
           "method": "get(bool,uint256)",
@@ -170,7 +170,7 @@
           }
         },
         {
-          "caller": "0x359a58550015E98A33ECA9E7c972d02F62B47C7d",
+          "caller": "0x5754fB1F67b5cecbf28ACD89e675d34b4FD2c8ED",
           "comment": "get_a(uint256): 0 -> 0",
           "instance": "Test",
           "method": "get_a(uint256)",
@@ -185,7 +185,7 @@
           }
         },
         {
-          "caller": "0x359a58550015E98A33ECA9E7c972d02F62B47C7d",
+          "caller": "0x5754fB1F67b5cecbf28ACD89e675d34b4FD2c8ED",
           "comment": "get_a(uint256): 1 -> 0x2a",
           "instance": "Test",
           "method": "get_a(uint256)",
@@ -200,7 +200,7 @@
           }
         },
         {
-          "caller": "0x359a58550015E98A33ECA9E7c972d02F62B47C7d",
+          "caller": "0x5754fB1F67b5cecbf28ACD89e675d34b4FD2c8ED",
           "comment": "get_a(uint256): 2 -> 0x54",
           "instance": "Test",
           "method": "get_a(uint256)",
@@ -215,7 +215,7 @@
           }
         },
         {
-          "caller": "0x359a58550015E98A33ECA9E7c972d02F62B47C7d",
+          "caller": "0x5754fB1F67b5cecbf28ACD89e675d34b4FD2c8ED",
           "comment": "get_a(uint256): 21 -> 7",
           "instance": "Test",
           "method": "get_a(uint256)",
@@ -230,7 +230,7 @@
           }
         },
         {
-          "caller": "0x359a58550015E98A33ECA9E7c972d02F62B47C7d",
+          "caller": "0x5754fB1F67b5cecbf28ACD89e675d34b4FD2c8ED",
           "comment": "get(bool,uint256): false, 0 -> 0",
           "instance": "Test",
           "method": "get(bool,uint256)",
@@ -246,7 +246,7 @@
           }
         },
         {
-          "caller": "0x359a58550015E98A33ECA9E7c972d02F62B47C7d",
+          "caller": "0x5754fB1F67b5cecbf28ACD89e675d34b4FD2c8ED",
           "comment": "get(bool,uint256): false, 1 -> 10",
           "instance": "Test",
           "method": "get(bool,uint256)",
@@ -262,7 +262,7 @@
           }
         },
         {
-          "caller": "0x359a58550015E98A33ECA9E7c972d02F62B47C7d",
+          "caller": "0x5754fB1F67b5cecbf28ACD89e675d34b4FD2c8ED",
           "comment": "get(bool,uint256): false, 2 -> 11",
           "instance": "Test",
           "method": "get(bool,uint256)",
@@ -278,7 +278,7 @@
           }
         },
         {
-          "caller": "0x359a58550015E98A33ECA9E7c972d02F62B47C7d",
+          "caller": "0x5754fB1F67b5cecbf28ACD89e675d34b4FD2c8ED",
           "comment": "get(bool,uint256): false, 21 -> 12",
           "instance": "Test",
           "method": "get(bool,uint256)",
@@ -294,7 +294,7 @@
           }
         },
         {
-          "caller": "0x359a58550015E98A33ECA9E7c972d02F62B47C7d",
+          "caller": "0x5754fB1F67b5cecbf28ACD89e675d34b4FD2c8ED",
           "comment": "get_b(uint256): 0 -> 0",
           "instance": "Test",
           "method": "get_b(uint256)",
@@ -309,7 +309,7 @@
           }
         },
         {
-          "caller": "0x359a58550015E98A33ECA9E7c972d02F62B47C7d",
+          "caller": "0x5754fB1F67b5cecbf28ACD89e675d34b4FD2c8ED",
           "comment": "get_b(uint256): 1 -> 10",
           "instance": "Test",
           "method": "get_b(uint256)",
@@ -324,7 +324,7 @@
           }
         },
         {
-          "caller": "0x359a58550015E98A33ECA9E7c972d02F62B47C7d",
+          "caller": "0x5754fB1F67b5cecbf28ACD89e675d34b4FD2c8ED",
           "comment": "get_b(uint256): 2 -> 11",
           "instance": "Test",
           "method": "get_b(uint256)",
@@ -339,7 +339,7 @@
           }
         },
         {
-          "caller": "0x359a58550015E98A33ECA9E7c972d02F62B47C7d",
+          "caller": "0x5754fB1F67b5cecbf28ACD89e675d34b4FD2c8ED",
           "comment": "get_b(uint256): 21 -> 12",
           "instance": "Test",
           "method": "get_b(uint256)",
@@ -354,7 +354,7 @@
           }
         },
         {
-          "caller": "0x359a58550015E98A33ECA9E7c972d02F62B47C7d",
+          "caller": "0x5754fB1F67b5cecbf28ACD89e675d34b4FD2c8ED",
           "comment": "set(bool,uint256,uint256): true, 1, 21 -> 0x2a",
           "instance": "Test",
           "method": "set(bool,uint256,uint256)",
@@ -371,7 +371,7 @@
           }
         },
         {
-          "caller": "0x359a58550015E98A33ECA9E7c972d02F62B47C7d",
+          "caller": "0x5754fB1F67b5cecbf28ACD89e675d34b4FD2c8ED",
           "comment": "set(bool,uint256,uint256): true, 2, 42 -> 0x54",
           "instance": "Test",
           "method": "set(bool,uint256,uint256)",
@@ -388,7 +388,7 @@
           }
         },
         {
-          "caller": "0x359a58550015E98A33ECA9E7c972d02F62B47C7d",
+          "caller": "0x5754fB1F67b5cecbf28ACD89e675d34b4FD2c8ED",
           "comment": "set(bool,uint256,uint256): true, 21, 14 -> 7",
           "instance": "Test",
           "method": "set(bool,uint256,uint256)",
@@ -405,7 +405,7 @@
           }
         },
         {
-          "caller": "0x359a58550015E98A33ECA9E7c972d02F62B47C7d",
+          "caller": "0x5754fB1F67b5cecbf28ACD89e675d34b4FD2c8ED",
           "comment": "set(bool,uint256,uint256): false, 1, 30 -> 10",
           "instance": "Test",
           "method": "set(bool,uint256,uint256)",
@@ -422,7 +422,7 @@
           }
         },
         {
-          "caller": "0x359a58550015E98A33ECA9E7c972d02F62B47C7d",
+          "caller": "0x5754fB1F67b5cecbf28ACD89e675d34b4FD2c8ED",
           "comment": "set(bool,uint256,uint256): false, 2, 31 -> 11",
           "instance": "Test",
           "method": "set(bool,uint256,uint256)",
@@ -439,7 +439,7 @@
           }
         },
         {
-          "caller": "0x359a58550015E98A33ECA9E7c972d02F62B47C7d",
+          "caller": "0x5754fB1F67b5cecbf28ACD89e675d34b4FD2c8ED",
           "comment": "set(bool,uint256,uint256): false, 21, 32 -> 12",
           "instance": "Test",
           "method": "set(bool,uint256,uint256)",
@@ -456,7 +456,7 @@
           }
         },
         {
-          "caller": "0x359a58550015E98A33ECA9E7c972d02F62B47C7d",
+          "caller": "0x5754fB1F67b5cecbf28ACD89e675d34b4FD2c8ED",
           "comment": "get_a(uint256): 0 -> 0",
           "instance": "Test",
           "method": "get_a(uint256)",
@@ -471,7 +471,7 @@
           }
         },
         {
-          "caller": "0x359a58550015E98A33ECA9E7c972d02F62B47C7d",
+          "caller": "0x5754fB1F67b5cecbf28ACD89e675d34b4FD2c8ED",
           "comment": "get_a(uint256): 1 -> 0x15",
           "instance": "Test",
           "method": "get_a(uint256)",
@@ -486,7 +486,7 @@
           }
         },
         {
-          "caller": "0x359a58550015E98A33ECA9E7c972d02F62B47C7d",
+          "caller": "0x5754fB1F67b5cecbf28ACD89e675d34b4FD2c8ED",
           "comment": "get_a(uint256): 2 -> 0x2a",
           "instance": "Test",
           "method": "get_a(uint256)",
@@ -501,7 +501,7 @@
           }
         },
         {
-          "caller": "0x359a58550015E98A33ECA9E7c972d02F62B47C7d",
+          "caller": "0x5754fB1F67b5cecbf28ACD89e675d34b4FD2c8ED",
           "comment": "get_a(uint256): 21 -> 14",
           "instance": "Test",
           "method": "get_a(uint256)",
@@ -516,7 +516,7 @@
           }
         },
         {
-          "caller": "0x359a58550015E98A33ECA9E7c972d02F62B47C7d",
+          "caller": "0x5754fB1F67b5cecbf28ACD89e675d34b4FD2c8ED",
           "comment": "get(bool,uint256): true, 0 -> 0",
           "instance": "Test",
           "method": "get(bool,uint256)",
@@ -532,7 +532,7 @@
           }
         },
         {
-          "caller": "0x359a58550015E98A33ECA9E7c972d02F62B47C7d",
+          "caller": "0x5754fB1F67b5cecbf28ACD89e675d34b4FD2c8ED",
           "comment": "get(bool,uint256): true, 1 -> 0x15",
           "instance": "Test",
           "method": "get(bool,uint256)",
@@ -548,7 +548,7 @@
           }
         },
         {
-          "caller": "0x359a58550015E98A33ECA9E7c972d02F62B47C7d",
+          "caller": "0x5754fB1F67b5cecbf28ACD89e675d34b4FD2c8ED",
           "comment": "get(bool,uint256): true, 2 -> 0x2a",
           "instance": "Test",
           "method": "get(bool,uint256)",
@@ -564,7 +564,7 @@
           }
         },
         {
-          "caller": "0x359a58550015E98A33ECA9E7c972d02F62B47C7d",
+          "caller": "0x5754fB1F67b5cecbf28ACD89e675d34b4FD2c8ED",
           "comment": "get(bool,uint256): true, 21 -> 14",
           "instance": "Test",
           "method": "get(bool,uint256)",
@@ -580,7 +580,7 @@
           }
         },
         {
-          "caller": "0x359a58550015E98A33ECA9E7c972d02F62B47C7d",
+          "caller": "0x5754fB1F67b5cecbf28ACD89e675d34b4FD2c8ED",
           "comment": "get_b(uint256): 0 -> 0",
           "instance": "Test",
           "method": "get_b(uint256)",
@@ -595,7 +595,7 @@
           }
         },
         {
-          "caller": "0x359a58550015E98A33ECA9E7c972d02F62B47C7d",
+          "caller": "0x5754fB1F67b5cecbf28ACD89e675d34b4FD2c8ED",
           "comment": "get_b(uint256): 1 -> 0x1e",
           "instance": "Test",
           "method": "get_b(uint256)",
@@ -610,7 +610,7 @@
           }
         },
         {
-          "caller": "0x359a58550015E98A33ECA9E7c972d02F62B47C7d",
+          "caller": "0x5754fB1F67b5cecbf28ACD89e675d34b4FD2c8ED",
           "comment": "get_b(uint256): 2 -> 0x1f",
           "instance": "Test",
           "method": "get_b(uint256)",
@@ -625,7 +625,7 @@
           }
         },
         {
-          "caller": "0x359a58550015E98A33ECA9E7c972d02F62B47C7d",
+          "caller": "0x5754fB1F67b5cecbf28ACD89e675d34b4FD2c8ED",
           "comment": "get_b(uint256): 21 -> 0x20",
           "instance": "Test",
           "method": "get_b(uint256)",
@@ -640,7 +640,7 @@
           }
         },
         {
-          "caller": "0x359a58550015E98A33ECA9E7c972d02F62B47C7d",
+          "caller": "0x5754fB1F67b5cecbf28ACD89e675d34b4FD2c8ED",
           "comment": "get(bool,uint256): false, 0 -> 0",
           "instance": "Test",
           "method": "get(bool,uint256)",
@@ -656,7 +656,7 @@
           }
         },
         {
-          "caller": "0x359a58550015E98A33ECA9E7c972d02F62B47C7d",
+          "caller": "0x5754fB1F67b5cecbf28ACD89e675d34b4FD2c8ED",
           "comment": "get(bool,uint256): false, 1 -> 0x1e",
           "instance": "Test",
           "method": "get(bool,uint256)",
@@ -672,7 +672,7 @@
           }
         },
         {
-          "caller": "0x359a58550015E98A33ECA9E7c972d02F62B47C7d",
+          "caller": "0x5754fB1F67b5cecbf28ACD89e675d34b4FD2c8ED",
           "comment": "get(bool,uint256): false, 2 -> 0x1f",
           "instance": "Test",
           "method": "get(bool,uint256)",
@@ -688,7 +688,7 @@
           }
         },
         {
-          "caller": "0x359a58550015E98A33ECA9E7c972d02F62B47C7d",
+          "caller": "0x5754fB1F67b5cecbf28ACD89e675d34b4FD2c8ED",
           "comment": "get(bool,uint256): false, 21 -> 0x20",
           "instance": "Test",
           "method": "get(bool,uint256)",

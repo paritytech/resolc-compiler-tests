@@ -4,7 +4,7 @@
       "name": "same_constants_different_files",
       "inputs": [
         {
-          "caller": "0x657551717B4045e2A31bf4f0Db82f5A131510Aff",
+          "caller": "0x6f64f6D0d58ACABD288774e993d9caCFa3FC88eE",
           "comment": "f() -> 0x0d, 0x59, 0x59, 0x59",
           "instance": "C",
           "method": "f()",

@@ -4,7 +4,7 @@
       "name": "super_alone",
       "inputs": [
         {
-          "caller": "0xF0Ed5f5B0EC5Ae202f7CEd057a2Cbb51fCB81F4a",
+          "caller": "0x9535828bBbE5436717f44dfFd6e2d162Be84987c",
           "comment": "f() ->",
           "instance": "A",
           "method": "f()",

@@ -4,7 +4,7 @@
       "name": "external_types_in_calls",
       "inputs": [
         {
-          "caller": "0x5275D06Bc9dE3661783331380a810Da55cD31544",
+          "caller": "0x091B0Be4F794FBDa45F107051C3E2e4eFf03Da7b",
           "comment": "test() -> 9, 7; gas legacy: 80314; gas legacy code: 47400",
           "instance": "C",
           "method": "test()",
@@ -18,7 +18,7 @@
           }
         },
         {
-          "caller": "0x5275D06Bc9dE3661783331380a810Da55cD31544",
+          "caller": "0x091B0Be4F794FBDa45F107051C3E2e4eFf03Da7b",
           "comment": "t2() -> 9",
           "instance": "C",
           "method": "t2()",

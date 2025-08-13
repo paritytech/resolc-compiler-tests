@@ -4,7 +4,7 @@
       "name": "array_copy_storage_to_memory",
       "inputs": [
         {
-          "caller": "0x6D7927E04b86B9255B1BE6B8fDda6EB6578FDa2F",
+          "caller": "0x73C81a89e7866e40a89bff0bFcC79bfE07C876AF",
           "comment": "f() -> 1, 3",
           "instance": "C",
           "method": "f()",

@@ -4,7 +4,7 @@
       "name": "calldata_array_dynamic_static_in_library",
       "inputs": [
         {
-          "caller": "0x9CaD951a57D174A8F0A425D5Ee6920415165fdAA",
+          "caller": "0xC5dD36466e26300Faa039730035d7CcE2Ba24D2b",
           "comment": "f(uint256[],uint256[1]): 0x40, 0xff, 1, 0xffff -> 0x40, 0xff, 0x01, 0xffff",
           "instance": "C",
           "method": "f(uint256[],uint256[1])",

@@ -4,7 +4,7 @@
       "name": "calldata_array_two_static",
       "inputs": [
         {
-          "caller": "0x60f95f92b26ec225546d762781d60F88b6C988a7",
+          "caller": "0xd79FFa521dE3A9D53E5caf565700cdB416aC4C75",
           "comment": "f(uint256[3],uint256[2],bool): 23, 42, 87, 51, 72, true -> 32, 96, 23, 42, 87",
           "instance": "C",
           "method": "f(uint256[3],uint256[2],bool)",
@@ -28,7 +28,7 @@
           }
         },
         {
-          "caller": "0x60f95f92b26ec225546d762781d60F88b6C988a7",
+          "caller": "0xd79FFa521dE3A9D53E5caf565700cdB416aC4C75",
           "comment": "f(uint256[3],uint256[2],bool): 23, 42, 87, 51, 72, false -> 32, 64, 51, 72",
           "instance": "C",
           "method": "f(uint256[3],uint256[2],bool)",
@@ -51,7 +51,7 @@
           }
         },
         {
-          "caller": "0x60f95f92b26ec225546d762781d60F88b6C988a7",
+          "caller": "0xd79FFa521dE3A9D53E5caf565700cdB416aC4C75",
           "comment": "g(uint256[3],uint256[2],bool): 23, 42, 87, 51, 72, true -> 32, 96, 23, 42, 87",
           "instance": "C",
           "method": "g(uint256[3],uint256[2],bool)",
@@ -75,7 +75,7 @@
           }
         },
         {
-          "caller": "0x60f95f92b26ec225546d762781d60F88b6C988a7",
+          "caller": "0xd79FFa521dE3A9D53E5caf565700cdB416aC4C75",
           "comment": "g(uint256[3],uint256[2],bool): 23, 42, 87, 51, 72, false -> 32, 64, 51, 72",
           "instance": "C",
           "method": "g(uint256[3],uint256[2],bool)",

@@ -4,7 +4,7 @@
       "name": "fixed_bytes_length_access",
       "inputs": [
         {
-          "caller": "0x2710255eD57E2329a8664a6F5DC224075c556256",
+          "caller": "0xE5c1eA09A12d5B9A51b32489032884C809D0c936",
           "comment": "f(bytes32): \"789\" -> 32, 16, 8",
           "instance": "C",
           "method": "f(bytes32)",

@@ -4,7 +4,7 @@
       "name": "inline_assembly_recursion",
       "inputs": [
         {
-          "caller": "0x1dE2D3D730633dE1Fb58B5cb5a14a9b40eE6c1A4",
+          "caller": "0xaAdFE6F009bc4F07504d70E46bC9a748bFe82EFA",
           "comment": "f(uint256): 0 -> 1",
           "instance": "C",
           "method": "f(uint256)",
@@ -19,7 +19,7 @@
           }
         },
         {
-          "caller": "0x1dE2D3D730633dE1Fb58B5cb5a14a9b40eE6c1A4",
+          "caller": "0xaAdFE6F009bc4F07504d70E46bC9a748bFe82EFA",
           "comment": "f(uint256): 1 -> 1",
           "instance": "C",
           "method": "f(uint256)",
@@ -34,7 +34,7 @@
           }
         },
         {
-          "caller": "0x1dE2D3D730633dE1Fb58B5cb5a14a9b40eE6c1A4",
+          "caller": "0xaAdFE6F009bc4F07504d70E46bC9a748bFe82EFA",
           "comment": "f(uint256): 2 -> 2",
           "instance": "C",
           "method": "f(uint256)",
@@ -49,7 +49,7 @@
           }
         },
         {
-          "caller": "0x1dE2D3D730633dE1Fb58B5cb5a14a9b40eE6c1A4",
+          "caller": "0xaAdFE6F009bc4F07504d70E46bC9a748bFe82EFA",
           "comment": "f(uint256): 3 -> 6",
           "instance": "C",
           "method": "f(uint256)",
@@ -64,7 +64,7 @@
           }
         },
         {
-          "caller": "0x1dE2D3D730633dE1Fb58B5cb5a14a9b40eE6c1A4",
+          "caller": "0xaAdFE6F009bc4F07504d70E46bC9a748bFe82EFA",
           "comment": "f(uint256): 4 -> 24",
           "instance": "C",
           "method": "f(uint256)",

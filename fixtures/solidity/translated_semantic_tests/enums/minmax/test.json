@@ -4,7 +4,7 @@
       "name": "minmax",
       "inputs": [
         {
-          "caller": "0x50a9f6bdAfF02A23DbC0ba4a890EF18d84AA0f78",
+          "caller": "0x60E1ad3B2604d255B68b42c653ac1F3AB566bE46",
           "comment": "min() -> 0",
           "instance": "test",
           "method": "min()",
@@ -17,7 +17,7 @@
           }
         },
         {
-          "caller": "0x50a9f6bdAfF02A23DbC0ba4a890EF18d84AA0f78",
+          "caller": "0x60E1ad3B2604d255B68b42c653ac1F3AB566bE46",
           "comment": "max() -> 3",
           "instance": "test",
           "method": "max()",

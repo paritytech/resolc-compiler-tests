@@ -4,7 +4,7 @@
       "name": "virtual_functions",
       "inputs": [
         {
-          "caller": "0x85EdbB66472c71E0a8a68b266D76e95d152B8F1a",
+          "caller": "0xbEdB752F262aABE55d30F77c159394011C5b49f7",
           "comment": "f() -> 1",
           "instance": "C",
           "method": "f()",
@@ -17,7 +17,7 @@
           }
         },
         {
-          "caller": "0x85EdbB66472c71E0a8a68b266D76e95d152B8F1a",
+          "caller": "0xbEdB752F262aABE55d30F77c159394011C5b49f7",
           "comment": "g() -> 3",
           "instance": "C",
           "method": "g()",
@@ -30,7 +30,7 @@
           }
         },
         {
-          "caller": "0x85EdbB66472c71E0a8a68b266D76e95d152B8F1a",
+          "caller": "0xbEdB752F262aABE55d30F77c159394011C5b49f7",
           "comment": "h() -> 6",
           "instance": "C",
           "method": "h()",
@@ -43,7 +43,7 @@
           }
         },
         {
-          "caller": "0x85EdbB66472c71E0a8a68b266D76e95d152B8F1a",
+          "caller": "0xbEdB752F262aABE55d30F77c159394011C5b49f7",
           "comment": "x() -> 1",
           "instance": "C",
           "method": "x()",
@@ -56,7 +56,7 @@
           }
         },
         {
-          "caller": "0x85EdbB66472c71E0a8a68b266D76e95d152B8F1a",
+          "caller": "0xbEdB752F262aABE55d30F77c159394011C5b49f7",
           "comment": "y() -> 3",
           "instance": "C",
           "method": "y()",
@@ -69,7 +69,7 @@
           }
         },
         {
-          "caller": "0x85EdbB66472c71E0a8a68b266D76e95d152B8F1a",
+          "caller": "0xbEdB752F262aABE55d30F77c159394011C5b49f7",
           "comment": "z() -> 6",
           "instance": "C",
           "method": "z()",

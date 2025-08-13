@@ -4,7 +4,7 @@
       "name": "nested_calldata_struct",
       "inputs": [
         {
-          "caller": "0x9DB78Ef366F0AB9A7B1C0e12b4371C8C922d2e16",
+          "caller": "0x59d504A541544b36a109579b69aE63406ff1622c",
           "comment": "f((uint256,uint256,(uint256,uint256),uint256)): 1, 2, 3, 4, 5 -> 1, 2, 3, 4, 5",
           "instance": "C",
           "method": "f((uint256,uint256,(uint256,uint256),uint256))",

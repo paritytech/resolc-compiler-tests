@@ -4,7 +4,7 @@
       "name": "state_variables_init_order_3",
       "inputs": [
         {
-          "caller": "0xA109a7F5b9Dc69893D021b6C4253c5051B27a724",
+          "caller": "0x333fe004b28627eA079682F37eB6102657D9b835",
           "comment": "a() -> 17",
           "instance": "B",
           "method": "a()",
@@ -17,7 +17,7 @@
           }
         },
         {
-          "caller": "0xA109a7F5b9Dc69893D021b6C4253c5051B27a724",
+          "caller": "0x333fe004b28627eA079682F37eB6102657D9b835",
           "comment": "b() -> 42",
           "instance": "B",
           "method": "b()",
@@ -30,7 +30,7 @@
           }
         },
         {
-          "caller": "0xA109a7F5b9Dc69893D021b6C4253c5051B27a724",
+          "caller": "0x333fe004b28627eA079682F37eB6102657D9b835",
           "comment": "c() -> 51",
           "instance": "B",
           "method": "c()",
@@ -43,7 +43,7 @@
           }
         },
         {
-          "caller": "0xA109a7F5b9Dc69893D021b6C4253c5051B27a724",
+          "caller": "0x333fe004b28627eA079682F37eB6102657D9b835",
           "comment": "b_a() -> 17",
           "instance": "B",
           "method": "b_a()",
@@ -56,7 +56,7 @@
           }
         },
         {
-          "caller": "0xA109a7F5b9Dc69893D021b6C4253c5051B27a724",
+          "caller": "0x333fe004b28627eA079682F37eB6102657D9b835",
           "comment": "b_b() -> 42",
           "instance": "B",
           "method": "b_b()",
@@ -69,7 +69,7 @@
           }
         },
         {
-          "caller": "0xA109a7F5b9Dc69893D021b6C4253c5051B27a724",
+          "caller": "0x333fe004b28627eA079682F37eB6102657D9b835",
           "comment": "b_c() -> 51",
           "instance": "B",
           "method": "b_c()",
@@ -82,7 +82,7 @@
           }
         },
         {
-          "caller": "0xA109a7F5b9Dc69893D021b6C4253c5051B27a724",
+          "caller": "0x333fe004b28627eA079682F37eB6102657D9b835",
           "comment": "d() -> 23",
           "instance": "B",
           "method": "d()",
@@ -95,7 +95,7 @@
           }
         },
         {
-          "caller": "0xA109a7F5b9Dc69893D021b6C4253c5051B27a724",
+          "caller": "0x333fe004b28627eA079682F37eB6102657D9b835",
           "comment": "e() -> 42",
           "instance": "B",
           "method": "e()",

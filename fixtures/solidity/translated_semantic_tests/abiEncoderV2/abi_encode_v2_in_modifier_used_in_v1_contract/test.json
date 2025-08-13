@@ -4,7 +4,7 @@
       "name": "abi_encode_v2_in_modifier_used_in_v1_contract",
       "inputs": [
         {
-          "caller": "0xeB60b2F6fFC7c2ea03e85765B6C6D32dE4505b7A",
+          "caller": "0x7f46600b36fA56b4f775d9B7Bf164651B588CBf8",
           "comment": "test() -> 5, 10; gas irOptimized: 87337; gas legacy: 66250; gas legacy code: 36400",
           "instance": "C",
           "method": "test()",

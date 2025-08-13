@@ -4,7 +4,7 @@
       "name": "try_catch_library_call",
       "inputs": [
         {
-          "caller": "0x6EcD30c83a756baE1C22440841E0f90b587C7d79",
+          "caller": "0xDCcF45e948d13DdCeD5660Daa2e22f7EDe15b0db",
           "comment": "f(bool): true -> 8, 0x40, 0",
           "instance": "C",
           "method": "f(bool)",
@@ -21,7 +21,7 @@
           }
         },
         {
-          "caller": "0x6EcD30c83a756baE1C22440841E0f90b587C7d79",
+          "caller": "0xDCcF45e948d13DdCeD5660Daa2e22f7EDe15b0db",
           "comment": "f(bool): false -> 18, 0x40, 7, \"failure\"",
           "instance": "C",
           "method": "f(bool)",
@@ -39,7 +39,7 @@
           }
         },
         {
-          "caller": "0x6EcD30c83a756baE1C22440841E0f90b587C7d79",
+          "caller": "0xDCcF45e948d13DdCeD5660Daa2e22f7EDe15b0db",
           "comment": "g(bool): true -> 9, 0x40, 0",
           "instance": "C",
           "method": "g(bool)",
@@ -56,7 +56,7 @@
           }
         },
         {
-          "caller": "0x6EcD30c83a756baE1C22440841E0f90b587C7d79",
+          "caller": "0xDCcF45e948d13DdCeD5660Daa2e22f7EDe15b0db",
           "comment": "g(bool): false -> 19, 0x40, 7, \"failure\"",
           "instance": "C",
           "method": "g(bool)",

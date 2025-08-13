@@ -4,7 +4,7 @@
       "name": "account",
       "inputs": [
         {
-          "caller": "0x5D508031B360129DF797e01A2D3D4332289b4d01",
+          "caller": "0x3de1d125dec845c438D997D3554e6D105421C076",
           "comment": "constructor()",
           "instance": "AccountBuiltinTest",
           "method": "#deployer",
@@ -12,6 +12,101 @@
           "expected": {
             "exception": false
           }
+        },
+        {
+          "caller": "0x3de1d125dec845c438D997D3554e6D105421C076",
+          "comment": "who_am_i() -> 0x3de1d125dec845c438D997D3554e6D105421C076",
+          "instance": "AccountBuiltinTest",
+          "method": "who_am_i()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x3de1d125dec845c438D997D3554e6D105421C076"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "comment": "balance: 0x3de1d125dec845c438D997D3554e6D105421C076 -> 1267650600228229401496703205376",
+          "address": "0x3de1d125dec845c438D997D3554e6D105421C076",
+          "expected_balance": "0x10000000000000000000000000",
+          "caller": "0x4FDEf89f07d857DD1B77d2DAaf8Aca2b445ab881"
+        },
+        {
+          "caller": "0xD75668AD0AB5917c79d453309Cc2cA31120c0b02",
+          "comment": "who_am_i() -> 0xD75668AD0AB5917c79d453309Cc2cA31120c0b02",
+          "instance": "AccountBuiltinTest",
+          "method": "who_am_i()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0xD75668AD0AB5917c79d453309Cc2cA31120c0b02"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "comment": "balance: 0xD75668AD0AB5917c79d453309Cc2cA31120c0b02 -> 1267650600228229401496703205376",
+          "address": "0xD75668AD0AB5917c79d453309Cc2cA31120c0b02",
+          "expected_balance": "0x10000000000000000000000000",
+          "caller": "0x4FDEf89f07d857DD1B77d2DAaf8Aca2b445ab881"
+        },
+        {
+          "caller": "0xd7d938266bAF1e8A3d8D1e05c97B9C8d6Cb26bAc",
+          "comment": "who_am_i() -> 0xd7d938266bAF1e8A3d8D1e05c97B9C8d6Cb26bAc",
+          "instance": "AccountBuiltinTest",
+          "method": "who_am_i()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0xd7d938266bAF1e8A3d8D1e05c97B9C8d6Cb26bAc"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "comment": "balance: 0xd7d938266bAF1e8A3d8D1e05c97B9C8d6Cb26bAc -> 1267650600228229401496703205376",
+          "address": "0xd7d938266bAF1e8A3d8D1e05c97B9C8d6Cb26bAc",
+          "expected_balance": "0x10000000000000000000000000",
+          "caller": "0x4FDEf89f07d857DD1B77d2DAaf8Aca2b445ab881"
+        },
+        {
+          "caller": "0x2B489cBa91b57E1c66f43A35d386f0f6BBe53066",
+          "comment": "who_am_i() -> 0x2B489cBa91b57E1c66f43A35d386f0f6BBe53066",
+          "instance": "AccountBuiltinTest",
+          "method": "who_am_i()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0x2B489cBa91b57E1c66f43A35d386f0f6BBe53066"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "comment": "balance: 0x2B489cBa91b57E1c66f43A35d386f0f6BBe53066 -> 1267650600228229401496703205376",
+          "address": "0x2B489cBa91b57E1c66f43A35d386f0f6BBe53066",
+          "expected_balance": "0x10000000000000000000000000",
+          "caller": "0x4FDEf89f07d857DD1B77d2DAaf8Aca2b445ab881"
+        },
+        {
+          "caller": "0xeA5A8b7c8AE6F6AcEe81D5E8dA5CB242E47BE65f",
+          "comment": "who_am_i() -> 0xeA5A8b7c8AE6F6AcEe81D5E8dA5CB242E47BE65f",
+          "instance": "AccountBuiltinTest",
+          "method": "who_am_i()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0xeA5A8b7c8AE6F6AcEe81D5E8dA5CB242E47BE65f"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "comment": "balance: 0xeA5A8b7c8AE6F6AcEe81D5E8dA5CB242E47BE65f -> 1267650600228229401496703205376",
+          "address": "0xeA5A8b7c8AE6F6AcEe81D5E8dA5CB242E47BE65f",
+          "expected_balance": "0x10000000000000000000000000",
+          "caller": "0x4FDEf89f07d857DD1B77d2DAaf8Aca2b445ab881"
         },
         {
           "caller": "0x5D508031B360129DF797e01A2D3D4332289b4d01",
@@ -30,7 +125,26 @@
           "comment": "balance: 0x5D508031B360129DF797e01A2D3D4332289b4d01 -> 1267650600228229401496703205376",
           "address": "0x5D508031B360129DF797e01A2D3D4332289b4d01",
           "expected_balance": "0x10000000000000000000000000",
-          "caller": "0xd9F702A4A8B339Af4bbCb948Ca7C6C7035A0737a"
+          "caller": "0x4FDEf89f07d857DD1B77d2DAaf8Aca2b445ab881"
+        },
+        {
+          "caller": "0xd9F702A4A8B339Af4bbCb948Ca7C6C7035A0737a",
+          "comment": "who_am_i() -> 0xd9F702A4A8B339Af4bbCb948Ca7C6C7035A0737a",
+          "instance": "AccountBuiltinTest",
+          "method": "who_am_i()",
+          "calldata": [],
+          "expected": {
+            "return_data": [
+              "0xd9F702A4A8B339Af4bbCb948Ca7C6C7035A0737a"
+            ],
+            "exception": false
+          }
+        },
+        {
+          "comment": "balance: 0xd9F702A4A8B339Af4bbCb948Ca7C6C7035A0737a -> 1267650600228229401496703205376",
+          "address": "0xd9F702A4A8B339Af4bbCb948Ca7C6C7035A0737a",
+          "expected_balance": "0x10000000000000000000000000",
+          "caller": "0x4FDEf89f07d857DD1B77d2DAaf8Aca2b445ab881"
         },
         {
           "caller": "0x72519C1D8F3B9c11d536cEcBF57f23E5ae7F087c",
@@ -49,7 +163,7 @@
           "comment": "balance: 0x72519C1D8F3B9c11d536cEcBF57f23E5ae7F087c -> 1267650600228229401496703205376",
           "address": "0x72519C1D8F3B9c11d536cEcBF57f23E5ae7F087c",
           "expected_balance": "0x10000000000000000000000000",
-          "caller": "0xd9F702A4A8B339Af4bbCb948Ca7C6C7035A0737a"
+          "caller": "0x4FDEf89f07d857DD1B77d2DAaf8Aca2b445ab881"
         },
         {
           "caller": "0x71643160cb2e89EfC62a52bB42987a2195AD0289",
@@ -68,7 +182,7 @@
           "comment": "balance: 0x71643160cb2e89EfC62a52bB42987a2195AD0289 -> 1267650600228229401496703205376",
           "address": "0x71643160cb2e89EfC62a52bB42987a2195AD0289",
           "expected_balance": "0x10000000000000000000000000",
-          "caller": "0xd9F702A4A8B339Af4bbCb948Ca7C6C7035A0737a"
+          "caller": "0x4FDEf89f07d857DD1B77d2DAaf8Aca2b445ab881"
         },
         {
           "caller": "0xa108fC69944021455777655F9aDbcF795c907ECa",
@@ -87,7 +201,7 @@
           "comment": "balance: 0xa108fC69944021455777655F9aDbcF795c907ECa -> 1267650600228229401496703205376",
           "address": "0xa108fC69944021455777655F9aDbcF795c907ECa",
           "expected_balance": "0x10000000000000000000000000",
-          "caller": "0xd9F702A4A8B339Af4bbCb948Ca7C6C7035A0737a"
+          "caller": "0x4FDEf89f07d857DD1B77d2DAaf8Aca2b445ab881"
         },
         {
           "caller": "0x7Ca6bA734232961c233DcE9923996655d6Da97E8",
@@ -103,10 +217,10 @@
           }
         },
         {
-          "comment": "balance: 0x7Ca6bA734232961c233DcE9923996655d6Da97E8 -> 1267650600228229401496703205376",
+          "comment": "balance: 0x7Ca6bA734232961c233DcE9923996655d6Da97E8 -> 0",
           "address": "0x7Ca6bA734232961c233DcE9923996655d6Da97E8",
-          "expected_balance": "0x10000000000000000000000000",
-          "caller": "0xd9F702A4A8B339Af4bbCb948Ca7C6C7035A0737a"
+          "expected_balance": "0x0",
+          "caller": "0x4FDEf89f07d857DD1B77d2DAaf8Aca2b445ab881"
         },
         {
           "caller": "0x56918185312b4679AB157b406F04F8F7C4031611",
@@ -122,10 +236,10 @@
           }
         },
         {
-          "comment": "balance: 0x56918185312b4679AB157b406F04F8F7C4031611 -> 1267650600228229401496703205376",
+          "comment": "balance: 0x56918185312b4679AB157b406F04F8F7C4031611 -> 0",
           "address": "0x56918185312b4679AB157b406F04F8F7C4031611",
-          "expected_balance": "0x10000000000000000000000000",
-          "caller": "0xd9F702A4A8B339Af4bbCb948Ca7C6C7035A0737a"
+          "expected_balance": "0x0",
+          "caller": "0x4FDEf89f07d857DD1B77d2DAaf8Aca2b445ab881"
         },
         {
           "caller": "0x1200939B5cB57f2785608a0921A132A35Ea21090",
@@ -141,124 +255,10 @@
           }
         },
         {
-          "comment": "balance: 0x1200939B5cB57f2785608a0921A132A35Ea21090 -> 1267650600228229401496703205376",
+          "comment": "balance: 0x1200939B5cB57f2785608a0921A132A35Ea21090 -> 0",
           "address": "0x1200939B5cB57f2785608a0921A132A35Ea21090",
-          "expected_balance": "0x10000000000000000000000000",
-          "caller": "0xd9F702A4A8B339Af4bbCb948Ca7C6C7035A0737a"
-        },
-        {
-          "caller": "0x3C4EFC32B4333865D9112799f577CF9132Ee7cF9",
-          "comment": "who_am_i() -> 0x3C4EFC32B4333865D9112799f577CF9132Ee7cF9",
-          "instance": "AccountBuiltinTest",
-          "method": "who_am_i()",
-          "calldata": [],
-          "expected": {
-            "return_data": [
-              "0x3C4EFC32B4333865D9112799f577CF9132Ee7cF9"
-            ],
-            "exception": false
-          }
-        },
-        {
-          "comment": "balance: 0x3C4EFC32B4333865D9112799f577CF9132Ee7cF9 -> 1267650600228229401496703205376",
-          "address": "0x3C4EFC32B4333865D9112799f577CF9132Ee7cF9",
-          "expected_balance": "0x10000000000000000000000000",
-          "caller": "0xd9F702A4A8B339Af4bbCb948Ca7C6C7035A0737a"
-        },
-        {
-          "caller": "0x47824A18A1FcDC6ef2e0B6d724BACF6Cd83aBC04",
-          "comment": "who_am_i() -> 0x47824A18A1FcDC6ef2e0B6d724BACF6Cd83aBC04",
-          "instance": "AccountBuiltinTest",
-          "method": "who_am_i()",
-          "calldata": [],
-          "expected": {
-            "return_data": [
-              "0x47824A18A1FcDC6ef2e0B6d724BACF6Cd83aBC04"
-            ],
-            "exception": false
-          }
-        },
-        {
-          "comment": "balance: 0x47824A18A1FcDC6ef2e0B6d724BACF6Cd83aBC04 -> 1267650600228229401496703205376",
-          "address": "0x47824A18A1FcDC6ef2e0B6d724BACF6Cd83aBC04",
-          "expected_balance": "0x10000000000000000000000000",
-          "caller": "0xd9F702A4A8B339Af4bbCb948Ca7C6C7035A0737a"
-        },
-        {
-          "caller": "0x5AD866092FFA234aAf7DdA834DD6Ca69Eb2Eefc9",
-          "comment": "who_am_i() -> 0x5AD866092FFA234aAf7DdA834DD6Ca69Eb2Eefc9",
-          "instance": "AccountBuiltinTest",
-          "method": "who_am_i()",
-          "calldata": [],
-          "expected": {
-            "return_data": [
-              "0x5AD866092FFA234aAf7DdA834DD6Ca69Eb2Eefc9"
-            ],
-            "exception": false
-          }
-        },
-        {
-          "comment": "balance: 0x5AD866092FFA234aAf7DdA834DD6Ca69Eb2Eefc9 -> 1267650600228229401496703205376",
-          "address": "0x5AD866092FFA234aAf7DdA834DD6Ca69Eb2Eefc9",
-          "expected_balance": "0x10000000000000000000000000",
-          "caller": "0xd9F702A4A8B339Af4bbCb948Ca7C6C7035A0737a"
-        },
-        {
-          "caller": "0x7Ec79CEFA2b38Fe4F7A7f8Cdc7Ba9c24941d3F2A",
-          "comment": "who_am_i() -> 0x7Ec79CEFA2b38Fe4F7A7f8Cdc7Ba9c24941d3F2A",
-          "instance": "AccountBuiltinTest",
-          "method": "who_am_i()",
-          "calldata": [],
-          "expected": {
-            "return_data": [
-              "0x7Ec79CEFA2b38Fe4F7A7f8Cdc7Ba9c24941d3F2A"
-            ],
-            "exception": false
-          }
-        },
-        {
-          "comment": "balance: 0x7Ec79CEFA2b38Fe4F7A7f8Cdc7Ba9c24941d3F2A -> 0",
-          "address": "0x7Ec79CEFA2b38Fe4F7A7f8Cdc7Ba9c24941d3F2A",
           "expected_balance": "0x0",
-          "caller": "0xd9F702A4A8B339Af4bbCb948Ca7C6C7035A0737a"
-        },
-        {
-          "caller": "0x386033da2D1c227A479732a67095249f054dce1d",
-          "comment": "who_am_i() -> 0x386033da2D1c227A479732a67095249f054dce1d",
-          "instance": "AccountBuiltinTest",
-          "method": "who_am_i()",
-          "calldata": [],
-          "expected": {
-            "return_data": [
-              "0x386033da2D1c227A479732a67095249f054dce1d"
-            ],
-            "exception": false
-          }
-        },
-        {
-          "comment": "balance: 0x386033da2D1c227A479732a67095249f054dce1d -> 0",
-          "address": "0x386033da2D1c227A479732a67095249f054dce1d",
-          "expected_balance": "0x0",
-          "caller": "0xd9F702A4A8B339Af4bbCb948Ca7C6C7035A0737a"
-        },
-        {
-          "caller": "0x06a3DC9F7A60D0c4E9eb1989F266679d03320d3d",
-          "comment": "who_am_i() -> 0x06a3DC9F7A60D0c4E9eb1989F266679d03320d3d",
-          "instance": "AccountBuiltinTest",
-          "method": "who_am_i()",
-          "calldata": [],
-          "expected": {
-            "return_data": [
-              "0x06a3DC9F7A60D0c4E9eb1989F266679d03320d3d"
-            ],
-            "exception": false
-          }
-        },
-        {
-          "comment": "balance: 0x06a3DC9F7A60D0c4E9eb1989F266679d03320d3d -> 0",
-          "address": "0x06a3DC9F7A60D0c4E9eb1989F266679d03320d3d",
-          "expected_balance": "0x0",
-          "caller": "0xd9F702A4A8B339Af4bbCb948Ca7C6C7035A0737a"
+          "caller": "0x4FDEf89f07d857DD1B77d2DAaf8Aca2b445ab881"
         }
       ]
     }

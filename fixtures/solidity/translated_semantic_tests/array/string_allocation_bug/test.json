@@ -4,7 +4,7 @@
       "name": "string_allocation_bug",
       "inputs": [
         {
-          "caller": "0x0c575B9fF5795667a48A403628129908Ae131363",
+          "caller": "0xe2B9DfB85E0aD894968f71343dfcc4cE369C2C5A",
           "comment": "p(uint256): 0x0 -> 0xbbbb, 0xcccc, 0x80, 0xc0, 0x05, \"hello\", 0x05, \"world\"",
           "instance": "Sample",
           "method": "p(uint256)",

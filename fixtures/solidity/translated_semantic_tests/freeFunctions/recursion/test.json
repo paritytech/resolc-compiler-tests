@@ -4,7 +4,7 @@
       "name": "recursion",
       "inputs": [
         {
-          "caller": "0xAaae89B9a7847599bF53ff291986B78f9A6d176F",
+          "caller": "0xBeBae81Aff55f9538BF1f2894C415A4D9FDDc59F",
           "comment": "g(uint256,uint256): 0, 0 -> 1",
           "instance": "C",
           "method": "g(uint256,uint256)",
@@ -20,7 +20,7 @@
           }
         },
         {
-          "caller": "0xAaae89B9a7847599bF53ff291986B78f9A6d176F",
+          "caller": "0xBeBae81Aff55f9538BF1f2894C415A4D9FDDc59F",
           "comment": "g(uint256,uint256): 0, 1 -> 0x00",
           "instance": "C",
           "method": "g(uint256,uint256)",
@@ -36,7 +36,7 @@
           }
         },
         {
-          "caller": "0xAaae89B9a7847599bF53ff291986B78f9A6d176F",
+          "caller": "0xBeBae81Aff55f9538BF1f2894C415A4D9FDDc59F",
           "comment": "g(uint256,uint256): 1, 0 -> 1",
           "instance": "C",
           "method": "g(uint256,uint256)",
@@ -52,7 +52,7 @@
           }
         },
         {
-          "caller": "0xAaae89B9a7847599bF53ff291986B78f9A6d176F",
+          "caller": "0xBeBae81Aff55f9538BF1f2894C415A4D9FDDc59F",
           "comment": "g(uint256,uint256): 2, 3 -> 8",
           "instance": "C",
           "method": "g(uint256,uint256)",
@@ -68,7 +68,7 @@
           }
         },
         {
-          "caller": "0xAaae89B9a7847599bF53ff291986B78f9A6d176F",
+          "caller": "0xBeBae81Aff55f9538BF1f2894C415A4D9FDDc59F",
           "comment": "g(uint256,uint256): 3, 10 -> 59049",
           "instance": "C",
           "method": "g(uint256,uint256)",
@@ -84,7 +84,7 @@
           }
         },
         {
-          "caller": "0xAaae89B9a7847599bF53ff291986B78f9A6d176F",
+          "caller": "0xBeBae81Aff55f9538BF1f2894C415A4D9FDDc59F",
           "comment": "g(uint256,uint256): 2, 255 -> -57896044618658097711785492504343953926634992332820282019728792003956564819968",
           "instance": "C",
           "method": "g(uint256,uint256)",

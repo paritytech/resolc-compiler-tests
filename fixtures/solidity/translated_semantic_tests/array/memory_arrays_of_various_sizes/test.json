@@ -4,7 +4,7 @@
       "name": "memory_arrays_of_various_sizes",
       "inputs": [
         {
-          "caller": "0xD6259cFA851e006fA76B466d80B013f831dFfca4",
+          "caller": "0xF5Badc43e80A1ba8d914169ebE958eB5Fa4815b9",
           "comment": "f(uint256,uint256): 3, 1 -> 1",
           "instance": "C",
           "method": "f(uint256,uint256)",
@@ -20,7 +20,7 @@
           }
         },
         {
-          "caller": "0xD6259cFA851e006fA76B466d80B013f831dFfca4",
+          "caller": "0xF5Badc43e80A1ba8d914169ebE958eB5Fa4815b9",
           "comment": "f(uint256,uint256): 9, 5 -> 70",
           "instance": "C",
           "method": "f(uint256,uint256)",

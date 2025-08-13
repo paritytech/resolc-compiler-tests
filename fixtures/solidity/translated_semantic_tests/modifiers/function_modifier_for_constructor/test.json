@@ -4,7 +4,7 @@
       "name": "function_modifier_for_constructor",
       "inputs": [
         {
-          "caller": "0x943901c3F328354e72cC5Ed975cC88aa1c2727a3",
+          "caller": "0x72BB013676D4dA221A29cbA5e755d2e43bFd995b",
           "comment": "getData() -> 6",
           "instance": "C",
           "method": "getData()",

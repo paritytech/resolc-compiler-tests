@@ -4,7 +4,7 @@
       "name": "calldata_array_as_argument_internal_function",
       "inputs": [
         {
-          "caller": "0x8E4CDdc803690bfCE147AC6B2Bb99BF615D65147",
+          "caller": "0x755c55b190a5Fef18836712A5cFA874B37Dba7bb",
           "comment": "g(uint256[]): 0x20, 4, 1, 2, 3, 4 -> 4, 1",
           "instance": "Test",
           "method": "g(uint256[])",
@@ -25,7 +25,7 @@
           }
         },
         {
-          "caller": "0x8E4CDdc803690bfCE147AC6B2Bb99BF615D65147",
+          "caller": "0x755c55b190a5Fef18836712A5cFA874B37Dba7bb",
           "comment": "h(uint256[],uint256,uint256): 0x60, 1, 3, 4, 1, 2, 3, 4 -> 2, 2",
           "instance": "Test",
           "method": "h(uint256[],uint256,uint256)",

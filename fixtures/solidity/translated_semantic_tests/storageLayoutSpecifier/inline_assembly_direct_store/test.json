@@ -4,7 +4,7 @@
       "name": "inline_assembly_direct_store",
       "inputs": [
         {
-          "caller": "0x90682e55650b3044aE0370a39Ff83b9d0fC27506",
+          "caller": "0x80c685b9360fBBe49F90798e27cc9c4768cc13AE",
           "comment": "f() -> 16",
           "instance": "C",
           "method": "f()",
@@ -17,7 +17,7 @@
           }
         },
         {
-          "caller": "0x90682e55650b3044aE0370a39Ff83b9d0fC27506",
+          "caller": "0x80c685b9360fBBe49F90798e27cc9c4768cc13AE",
           "comment": "x() -> 16",
           "instance": "C",
           "method": "x()",

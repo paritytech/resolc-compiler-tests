@@ -4,7 +4,7 @@
       "name": "constants_at_file_level_referencing",
       "inputs": [
         {
-          "caller": "0x1822ACA0CE28256BCF771421258C8E9DB6857C30",
+          "caller": "0x657551717B4045e2A31bf4f0Db82f5A131510Aff",
           "comment": "f() -> 0x20, 3, \"\\x03\\x01\\x02\"",
           "instance": "C",
           "method": "f()",
@@ -19,7 +19,7 @@
           }
         },
         {
-          "caller": "0x1822ACA0CE28256BCF771421258C8E9DB6857C30",
+          "caller": "0x657551717B4045e2A31bf4f0Db82f5A131510Aff",
           "comment": "g() -> 0x20, 3, \"\\x03\\x01\\x02\"",
           "instance": "C",
           "method": "g()",
@@ -34,7 +34,7 @@
           }
         },
         {
-          "caller": "0x1822ACA0CE28256BCF771421258C8E9DB6857C30",
+          "caller": "0x657551717B4045e2A31bf4f0Db82f5A131510Aff",
           "comment": "h() -> 5",
           "instance": "C",
           "method": "h()",
@@ -47,7 +47,7 @@
           }
         },
         {
-          "caller": "0x1822ACA0CE28256BCF771421258C8E9DB6857C30",
+          "caller": "0x657551717B4045e2A31bf4f0Db82f5A131510Aff",
           "comment": "i() -> 0x20, 3, \"\\x03\\x01\\x02\"",
           "instance": "C",
           "method": "i()",

@@ -4,7 +4,7 @@
       "name": "block_gaslimit",
       "inputs": [
         {
-          "caller": "0xeEfb983b6E144eEaeaca2D6061F3957158451E63",
+          "caller": "0x53AA270F05b2AEd600f92969131cD714eFDE1BB9",
           "comment": "f() -> 0x40000000",
           "instance": "C",
           "method": "f()",
@@ -17,7 +17,7 @@
           }
         },
         {
-          "caller": "0xeEfb983b6E144eEaeaca2D6061F3957158451E63",
+          "caller": "0x53AA270F05b2AEd600f92969131cD714eFDE1BB9",
           "comment": "f() -> 0x40000000",
           "instance": "C",
           "method": "f()",
@@ -30,7 +30,7 @@
           }
         },
         {
-          "caller": "0xeEfb983b6E144eEaeaca2D6061F3957158451E63",
+          "caller": "0x53AA270F05b2AEd600f92969131cD714eFDE1BB9",
           "comment": "f() -> 0x40000000",
           "instance": "C",
           "method": "f()",

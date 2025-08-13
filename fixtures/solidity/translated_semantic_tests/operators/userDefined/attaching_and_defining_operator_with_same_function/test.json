@@ -4,7 +4,7 @@
       "name": "attaching_and_defining_operator_with_same_function",
       "inputs": [
         {
-          "caller": "0x228B2DD10A83c778CaDA5864E33F70B959e63970",
+          "caller": "0x7Aaf0406b4A74Fa676A779e992eA614c2Eac7e35",
           "comment": "f() -> 10",
           "instance": "C",
           "method": "f()",
@@ -17,7 +17,7 @@
           }
         },
         {
-          "caller": "0x228B2DD10A83c778CaDA5864E33F70B959e63970",
+          "caller": "0x7Aaf0406b4A74Fa676A779e992eA614c2Eac7e35",
           "comment": "g() -> 13",
           "instance": "C",
           "method": "g()",

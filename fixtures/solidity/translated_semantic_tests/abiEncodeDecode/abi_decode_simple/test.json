@@ -4,7 +4,7 @@
       "name": "abi_decode_simple",
       "inputs": [
         {
-          "caller": "0x06BaB76F512b0f66ff15CC44B620CeFd1084C886",
+          "caller": "0x31bE3d82cfA89cEc5380BeaDF49Dbb2fC03baB8c",
           "comment": "f(bytes): 0x20, 0x80, 0x21, 0x40, 0x7, \"abcdefg\" -> 0x21, 0x40, 0x7, \"abcdefg\"",
           "instance": "C",
           "method": "f(bytes)",

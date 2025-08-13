@@ -4,7 +4,7 @@
       "name": "storage_string_as_mapping_key_without_variable",
       "inputs": [
         {
-          "caller": "0x7b2f7c677A9BA526074738b0Fbe9837E35939F88",
+          "caller": "0x5bc5aA8842e9cdA8A1F55657d67Fd07Af381C38f",
           "comment": "f() -> 2",
           "instance": "Test",
           "method": "f()",

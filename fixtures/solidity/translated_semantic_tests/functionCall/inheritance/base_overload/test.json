@@ -4,7 +4,7 @@
       "name": "base_overload",
       "inputs": [
         {
-          "caller": "0x1804441f896dE428ECF5D0ED1A015730b8ce12ca",
+          "caller": "0x53542ceC3E0568A88fDfe48fD94dF8d31426c84A",
           "comment": "x() -> 0",
           "instance": "Child",
           "method": "x()",
@@ -17,7 +17,7 @@
           }
         },
         {
-          "caller": "0x1804441f896dE428ECF5D0ED1A015730b8ce12ca",
+          "caller": "0x53542ceC3E0568A88fDfe48fD94dF8d31426c84A",
           "comment": "y() -> 0",
           "instance": "Child",
           "method": "y()",
@@ -30,7 +30,7 @@
           }
         },
         {
-          "caller": "0x1804441f896dE428ECF5D0ED1A015730b8ce12ca",
+          "caller": "0x53542ceC3E0568A88fDfe48fD94dF8d31426c84A",
           "comment": "cInit(uint256): 2 ->",
           "instance": "Child",
           "method": "cInit(uint256)",
@@ -42,7 +42,7 @@
           }
         },
         {
-          "caller": "0x1804441f896dE428ECF5D0ED1A015730b8ce12ca",
+          "caller": "0x53542ceC3E0568A88fDfe48fD94dF8d31426c84A",
           "comment": "x() -> 2",
           "instance": "Child",
           "method": "x()",
@@ -55,7 +55,7 @@
           }
         },
         {
-          "caller": "0x1804441f896dE428ECF5D0ED1A015730b8ce12ca",
+          "caller": "0x53542ceC3E0568A88fDfe48fD94dF8d31426c84A",
           "comment": "y() -> 0",
           "instance": "Child",
           "method": "y()",
@@ -68,7 +68,7 @@
           }
         },
         {
-          "caller": "0x1804441f896dE428ECF5D0ED1A015730b8ce12ca",
+          "caller": "0x53542ceC3E0568A88fDfe48fD94dF8d31426c84A",
           "comment": "cInit(uint256,uint256): 3, 3 ->",
           "instance": "Child",
           "method": "cInit(uint256,uint256)",
@@ -81,7 +81,7 @@
           }
         },
         {
-          "caller": "0x1804441f896dE428ECF5D0ED1A015730b8ce12ca",
+          "caller": "0x53542ceC3E0568A88fDfe48fD94dF8d31426c84A",
           "comment": "x() -> 3",
           "instance": "Child",
           "method": "x()",
@@ -94,7 +94,7 @@
           }
         },
         {
-          "caller": "0x1804441f896dE428ECF5D0ED1A015730b8ce12ca",
+          "caller": "0x53542ceC3E0568A88fDfe48fD94dF8d31426c84A",
           "comment": "y() -> 3",
           "instance": "Child",
           "method": "y()",

@@ -4,7 +4,7 @@
       "name": "empty_for_loop",
       "inputs": [
         {
-          "caller": "0x3de1d125dec845c438D997D3554e6D105421C076",
+          "caller": "0x179585cdbd4C8C4DC2e16E2F0F637Cd7E040AffB",
           "comment": "f() -> 10",
           "instance": "test",
           "method": "f()",

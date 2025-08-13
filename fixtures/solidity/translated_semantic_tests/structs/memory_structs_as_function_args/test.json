@@ -4,7 +4,7 @@
       "name": "memory_structs_as_function_args",
       "inputs": [
         {
-          "caller": "0xF8b10dF973Ce20Ed07E70Eb3AFc9C2E35c06225b",
+          "caller": "0x46FA34F88b8612006f78F4655aeFa624DdD93e19",
           "comment": "test() -> 1, 2, 3",
           "instance": "Test",
           "method": "test()",

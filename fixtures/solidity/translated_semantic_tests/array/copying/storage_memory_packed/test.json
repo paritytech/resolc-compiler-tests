@@ -4,7 +4,7 @@
       "name": "storage_memory_packed",
       "inputs": [
         {
-          "caller": "0xb60A6C4Fef0D6D6403af1d94a8AA9CBEc0f7eac2",
+          "caller": "0xB03D165f913E34cD50ee7fCa0c35f49567BbB82e",
           "comment": "f() -> 2, 3, 4",
           "instance": "C",
           "method": "f()",

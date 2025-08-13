@@ -4,7 +4,7 @@
       "name": "increment_decrement",
       "inputs": [
         {
-          "caller": "0xCB23A49829818CE7AdE2fAB15D5385C66028fBE9",
+          "caller": "0xd8582C4a1f2Bd553eef3cEb29583EBCE688FdDDC",
           "comment": "f() -> -1, 4",
           "instance": "C",
           "method": "f()",

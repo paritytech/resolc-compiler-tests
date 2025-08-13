@@ -4,7 +4,7 @@
       "name": "creation_function_call_with_args",
       "inputs": [
         {
-          "caller": "0x1774f6563C621D83b79F13561EA367387ab0ccC8",
+          "caller": "0x7a39EDC351E6f527857d17c6A4378f176F3cfd10",
           "comment": "constructor(): 2 ->; gas irOptimized: 138930; gas irOptimized code: 53800; gas legacy: 145569; gas legacy code: 95600; gas legacyOptimized: 138297; gas legacyOptimized code: 54600",
           "instance": "D",
           "method": "#deployer",
@@ -16,7 +16,7 @@
           }
         },
         {
-          "caller": "0x1774f6563C621D83b79F13561EA367387ab0ccC8",
+          "caller": "0x7a39EDC351E6f527857d17c6A4378f176F3cfd10",
           "comment": "f() -> 2",
           "instance": "D",
           "method": "f()",

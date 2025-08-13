@@ -4,7 +4,7 @@
       "name": "stub",
       "inputs": [
         {
-          "caller": "0xe7aFFe11eA58712aaAfeE3666C255e3C128769FC",
+          "caller": "0xCBfda3B0e7Dc2D4997c8E757aefB5Ab68b973D29",
           "comment": "(): 0 -> 0",
           "instance": "C",
           "method": "#fallback",
@@ -19,7 +19,7 @@
           }
         },
         {
-          "caller": "0xe7aFFe11eA58712aaAfeE3666C255e3C128769FC",
+          "caller": "0xCBfda3B0e7Dc2D4997c8E757aefB5Ab68b973D29",
           "comment": "(): 1 -> 544",
           "instance": "C",
           "method": "#fallback",

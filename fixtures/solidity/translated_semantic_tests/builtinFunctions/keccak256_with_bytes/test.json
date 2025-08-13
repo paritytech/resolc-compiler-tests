@@ -4,7 +4,7 @@
       "name": "keccak256_with_bytes",
       "inputs": [
         {
-          "caller": "0xA2C2756F1dA843640571fe88c600ed305F340ED7",
+          "caller": "0x451cEA11ffB4D908ED458A3D4507f1ECd183f99c",
           "comment": "foo() -> true",
           "instance": "c",
           "method": "foo()",

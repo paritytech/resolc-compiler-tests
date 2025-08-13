@@ -4,7 +4,7 @@
       "name": "shift_right_uint32",
       "inputs": [
         {
-          "caller": "0xa4580C1eBb76e1c7Ae80725a80F032bD93dC3487",
+          "caller": "0x234776D0d351e914366251F920BB1C72f14fd42E",
           "comment": "f(uint32,uint32): 0x4266, 0x0 -> 0x4266",
           "instance": "C",
           "method": "f(uint32,uint32)",
@@ -20,7 +20,7 @@
           }
         },
         {
-          "caller": "0xa4580C1eBb76e1c7Ae80725a80F032bD93dC3487",
+          "caller": "0x234776D0d351e914366251F920BB1C72f14fd42E",
           "comment": "f(uint32,uint32): 0x4266, 0x8 -> 0x42",
           "instance": "C",
           "method": "f(uint32,uint32)",
@@ -36,7 +36,7 @@
           }
         },
         {
-          "caller": "0xa4580C1eBb76e1c7Ae80725a80F032bD93dC3487",
+          "caller": "0x234776D0d351e914366251F920BB1C72f14fd42E",
           "comment": "f(uint32,uint32): 0x4266, 0x10 -> 0",
           "instance": "C",
           "method": "f(uint32,uint32)",
@@ -52,7 +52,7 @@
           }
         },
         {
-          "caller": "0xa4580C1eBb76e1c7Ae80725a80F032bD93dC3487",
+          "caller": "0x234776D0d351e914366251F920BB1C72f14fd42E",
           "comment": "f(uint32,uint32): 0x4266, 0x11 -> 0",
           "instance": "C",
           "method": "f(uint32,uint32)",

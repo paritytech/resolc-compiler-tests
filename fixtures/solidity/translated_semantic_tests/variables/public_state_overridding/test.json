@@ -4,7 +4,7 @@
       "name": "public_state_overridding",
       "inputs": [
         {
-          "caller": "0xE0E6582d8b28eCda1B9E8bC1742d25F7B6001E2e",
+          "caller": "0xF3D302ACBcfA43a64E3f40564be2aE1df8262FA9",
           "comment": "test() -> 0",
           "instance": "X",
           "method": "test()",
@@ -17,7 +17,7 @@
           }
         },
         {
-          "caller": "0xE0E6582d8b28eCda1B9E8bC1742d25F7B6001E2e",
+          "caller": "0xF3D302ACBcfA43a64E3f40564be2aE1df8262FA9",
           "comment": "set() ->",
           "instance": "X",
           "method": "set()",
@@ -27,7 +27,7 @@
           }
         },
         {
-          "caller": "0xE0E6582d8b28eCda1B9E8bC1742d25F7B6001E2e",
+          "caller": "0xF3D302ACBcfA43a64E3f40564be2aE1df8262FA9",
           "comment": "test() -> 2",
           "instance": "X",
           "method": "test()",

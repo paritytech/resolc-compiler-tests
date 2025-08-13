@@ -4,7 +4,7 @@
       "name": "store_bytes",
       "inputs": [
         {
-          "caller": "0xaef5444A14CF47d9c023A33B47435E3C8634096c",
+          "caller": "0x7ae3181bE62B0326E2C9a2Dc678dDbC234d1F8F5",
           "comment": "save() -> 24",
           "instance": "C",
           "method": "save()",
@@ -17,7 +17,7 @@
           }
         },
         {
-          "caller": "0xaef5444A14CF47d9c023A33B47435E3C8634096c",
+          "caller": "0x7ae3181bE62B0326E2C9a2Dc678dDbC234d1F8F5",
           "comment": "save(): \"abcdefg\" -> 24",
           "instance": "C",
           "method": "save()",

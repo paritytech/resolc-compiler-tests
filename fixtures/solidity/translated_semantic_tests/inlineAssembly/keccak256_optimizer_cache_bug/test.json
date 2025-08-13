@@ -4,7 +4,7 @@
       "name": "keccak256_optimizer_cache_bug",
       "inputs": [
         {
-          "caller": "0x7f3BAfcb01EAB8DBdc314c07B9Ed43f15C4a2DDc",
+          "caller": "0x9D6ac4ec00137a3a50A601fC5684F7CB6279FC30",
           "comment": "val() -> true",
           "instance": "C",
           "method": "val()",

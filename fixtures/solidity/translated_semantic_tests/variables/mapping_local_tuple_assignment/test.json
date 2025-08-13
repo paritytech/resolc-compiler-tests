@@ -4,7 +4,7 @@
       "name": "mapping_local_tuple_assignment",
       "inputs": [
         {
-          "caller": "0xDECA0C20C7Dfc84B056C3E8A58Fe03Cd72Ec14F5",
+          "caller": "0xD84c7B83f08FBeE79aCc06bB173749a4C6846d46",
           "comment": "f() -> 42, 0, 0, 21",
           "instance": "test",
           "method": "f()",

@@ -4,7 +4,7 @@
       "name": "internal_function_pointer",
       "inputs": [
         {
-          "caller": "0xcc9a01DD6f27Be141EAEfb8A8ed468f7e40170B9",
+          "caller": "0x903b71f706610F45b4628BfC54BA691f873899Aa",
           "comment": "f() -> 7",
           "instance": "C",
           "method": "f()",
@@ -17,7 +17,7 @@
           }
         },
         {
-          "caller": "0xcc9a01DD6f27Be141EAEfb8A8ed468f7e40170B9",
+          "caller": "0x903b71f706610F45b4628BfC54BA691f873899Aa",
           "comment": "callZ() -> 7",
           "instance": "C",
           "method": "callZ()",

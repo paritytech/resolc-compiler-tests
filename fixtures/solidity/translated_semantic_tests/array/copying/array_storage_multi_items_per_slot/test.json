@@ -4,7 +4,7 @@
       "name": "array_storage_multi_items_per_slot",
       "inputs": [
         {
-          "caller": "0xB93F51B7B123C6a8F5070983170Db53011029010",
+          "caller": "0x27a2300E49f009aa766833f6b6a56ab5edd06105",
           "comment": "f() -> 1, 2, 3; gas irOptimized: 131939; gas legacy: 134605; gas legacyOptimized: 131938",
           "instance": "C",
           "method": "f()",

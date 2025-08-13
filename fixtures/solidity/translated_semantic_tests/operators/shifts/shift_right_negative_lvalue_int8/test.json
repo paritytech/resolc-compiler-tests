@@ -4,7 +4,7 @@
       "name": "shift_right_negative_lvalue_int8",
       "inputs": [
         {
-          "caller": "0x85335d04F26AF5Dd8c92bb25058c87eFdD1A7B67",
+          "caller": "0xC66D6f9162a1dA94e524680039175CA98856eb43",
           "comment": "f(int8,uint8): -66, 0 -> -66",
           "instance": "C",
           "method": "f(int8,uint8)",
@@ -20,7 +20,7 @@
           }
         },
         {
-          "caller": "0x85335d04F26AF5Dd8c92bb25058c87eFdD1A7B67",
+          "caller": "0xC66D6f9162a1dA94e524680039175CA98856eb43",
           "comment": "f(int8,uint8): -66, 1 -> -33",
           "instance": "C",
           "method": "f(int8,uint8)",
@@ -36,7 +36,7 @@
           }
         },
         {
-          "caller": "0x85335d04F26AF5Dd8c92bb25058c87eFdD1A7B67",
+          "caller": "0xC66D6f9162a1dA94e524680039175CA98856eb43",
           "comment": "f(int8,uint8): -66, 4 -> -5",
           "instance": "C",
           "method": "f(int8,uint8)",
@@ -52,7 +52,7 @@
           }
         },
         {
-          "caller": "0x85335d04F26AF5Dd8c92bb25058c87eFdD1A7B67",
+          "caller": "0xC66D6f9162a1dA94e524680039175CA98856eb43",
           "comment": "f(int8,uint8): -66, 8 -> -1",
           "instance": "C",
           "method": "f(int8,uint8)",
@@ -68,7 +68,7 @@
           }
         },
         {
-          "caller": "0x85335d04F26AF5Dd8c92bb25058c87eFdD1A7B67",
+          "caller": "0xC66D6f9162a1dA94e524680039175CA98856eb43",
           "comment": "f(int8,uint8): -66, 16 -> -1",
           "instance": "C",
           "method": "f(int8,uint8)",
@@ -84,7 +84,7 @@
           }
         },
         {
-          "caller": "0x85335d04F26AF5Dd8c92bb25058c87eFdD1A7B67",
+          "caller": "0xC66D6f9162a1dA94e524680039175CA98856eb43",
           "comment": "f(int8,uint8): -66, 17 -> -1",
           "instance": "C",
           "method": "f(int8,uint8)",
@@ -100,7 +100,7 @@
           }
         },
         {
-          "caller": "0x85335d04F26AF5Dd8c92bb25058c87eFdD1A7B67",
+          "caller": "0xC66D6f9162a1dA94e524680039175CA98856eb43",
           "comment": "f(int8,uint8): -67, 0 -> -67",
           "instance": "C",
           "method": "f(int8,uint8)",
@@ -116,7 +116,7 @@
           }
         },
         {
-          "caller": "0x85335d04F26AF5Dd8c92bb25058c87eFdD1A7B67",
+          "caller": "0xC66D6f9162a1dA94e524680039175CA98856eb43",
           "comment": "f(int8,uint8): -67, 1 -> -34",
           "instance": "C",
           "method": "f(int8,uint8)",
@@ -132,7 +132,7 @@
           }
         },
         {
-          "caller": "0x85335d04F26AF5Dd8c92bb25058c87eFdD1A7B67",
+          "caller": "0xC66D6f9162a1dA94e524680039175CA98856eb43",
           "comment": "f(int8,uint8): -67, 4 -> -5",
           "instance": "C",
           "method": "f(int8,uint8)",
@@ -148,7 +148,7 @@
           }
         },
         {
-          "caller": "0x85335d04F26AF5Dd8c92bb25058c87eFdD1A7B67",
+          "caller": "0xC66D6f9162a1dA94e524680039175CA98856eb43",
           "comment": "f(int8,uint8): -67, 8 -> -1",
           "instance": "C",
           "method": "f(int8,uint8)",
@@ -164,7 +164,7 @@
           }
         },
         {
-          "caller": "0x85335d04F26AF5Dd8c92bb25058c87eFdD1A7B67",
+          "caller": "0xC66D6f9162a1dA94e524680039175CA98856eb43",
           "comment": "f(int8,uint8): -67, 16 -> -1",
           "instance": "C",
           "method": "f(int8,uint8)",
@@ -180,7 +180,7 @@
           }
         },
         {
-          "caller": "0x85335d04F26AF5Dd8c92bb25058c87eFdD1A7B67",
+          "caller": "0xC66D6f9162a1dA94e524680039175CA98856eb43",
           "comment": "f(int8,uint8): -67, 17 -> -1",
           "instance": "C",
           "method": "f(int8,uint8)",

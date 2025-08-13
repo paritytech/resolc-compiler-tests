@@ -4,7 +4,7 @@
       "name": "small_types_in_reverse",
       "inputs": [
         {
-          "caller": "0xce7EAA325a84a7e5c28174582c041D93863E2031",
+          "caller": "0xDdD219e55B852f549887aDd87ebA06594cF04936",
           "comment": "a() -> 4660",
           "instance": "A",
           "method": "a()",
@@ -17,7 +17,7 @@
           }
         },
         {
-          "caller": "0xce7EAA325a84a7e5c28174582c041D93863E2031",
+          "caller": "0xDdD219e55B852f549887aDd87ebA06594cF04936",
           "comment": "b() -> 0x0f0f",
           "instance": "A",
           "method": "b()",
@@ -30,7 +30,7 @@
           }
         },
         {
-          "caller": "0xce7EAA325a84a7e5c28174582c041D93863E2031",
+          "caller": "0xDdD219e55B852f549887aDd87ebA06594cF04936",
           "comment": "c() -> 0xffff",
           "instance": "A",
           "method": "c()",
@@ -43,7 +43,7 @@
           }
         },
         {
-          "caller": "0xce7EAA325a84a7e5c28174582c041D93863E2031",
+          "caller": "0xDdD219e55B852f549887aDd87ebA06594cF04936",
           "comment": "x(uint256): 0 -> 4660",
           "instance": "A",
           "method": "x(uint256)",
@@ -58,7 +58,7 @@
           }
         },
         {
-          "caller": "0xce7EAA325a84a7e5c28174582c041D93863E2031",
+          "caller": "0xDdD219e55B852f549887aDd87ebA06594cF04936",
           "comment": "x(uint256): 1 -> 0x0f0f",
           "instance": "A",
           "method": "x(uint256)",
@@ -73,7 +73,7 @@
           }
         },
         {
-          "caller": "0xce7EAA325a84a7e5c28174582c041D93863E2031",
+          "caller": "0xDdD219e55B852f549887aDd87ebA06594cF04936",
           "comment": "x(uint256): 2 -> 0xffff",
           "instance": "A",
           "method": "x(uint256)",

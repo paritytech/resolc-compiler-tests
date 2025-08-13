@@ -4,7 +4,7 @@
       "name": "state_variable_slot_offset",
       "inputs": [
         {
-          "caller": "0x48e1B073c40dB927DB47cF85c2E61895De81AC1c",
+          "caller": "0x64D5266D56063F56edAaa51Ffb955cE6Cdb09436",
           "comment": "xSlotOffset() -> 7, 0",
           "instance": "C",
           "method": "xSlotOffset()",
@@ -18,7 +18,7 @@
           }
         },
         {
-          "caller": "0x48e1B073c40dB927DB47cF85c2E61895De81AC1c",
+          "caller": "0x64D5266D56063F56edAaa51Ffb955cE6Cdb09436",
           "comment": "ySlotOffset() -> 7, 1",
           "instance": "C",
           "method": "ySlotOffset()",
@@ -32,7 +32,7 @@
           }
         },
         {
-          "caller": "0x48e1B073c40dB927DB47cF85c2E61895De81AC1c",
+          "caller": "0x64D5266D56063F56edAaa51Ffb955cE6Cdb09436",
           "comment": "zSlotOffset() -> 8, 0",
           "instance": "C",
           "method": "zSlotOffset()",

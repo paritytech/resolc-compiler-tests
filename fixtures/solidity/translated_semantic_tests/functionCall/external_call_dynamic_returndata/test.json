@@ -4,7 +4,7 @@
       "name": "external_call_dynamic_returndata",
       "inputs": [
         {
-          "caller": "0x648bA970a9285Ec2867d9FE1088D0B865c7072eA",
+          "caller": "0x68fF675590844734C4f5284A1A4d47DE69Bc8Cb3",
           "comment": "dt(uint256): 4 -> 6",
           "instance": "C",
           "method": "dt(uint256)",

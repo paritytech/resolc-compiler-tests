@@ -4,7 +4,7 @@
       "name": "internal_library_function_attached_to_bool",
       "inputs": [
         {
-          "caller": "0x16fb7667089738A5055e45Bd0B260845Eaedbe44",
+          "caller": "0x359a58550015E98A33ECA9E7c972d02F62B47C7d",
           "comment": "foo(bool,bool): true, true -> false",
           "instance": "C",
           "method": "foo(bool,bool)",
@@ -20,7 +20,7 @@
           }
         },
         {
-          "caller": "0x16fb7667089738A5055e45Bd0B260845Eaedbe44",
+          "caller": "0x359a58550015E98A33ECA9E7c972d02F62B47C7d",
           "comment": "foo(bool,bool): true, false -> true",
           "instance": "C",
           "method": "foo(bool,bool)",
@@ -36,7 +36,7 @@
           }
         },
         {
-          "caller": "0x16fb7667089738A5055e45Bd0B260845Eaedbe44",
+          "caller": "0x359a58550015E98A33ECA9E7c972d02F62B47C7d",
           "comment": "foo(bool,bool): false, true -> true",
           "instance": "C",
           "method": "foo(bool,bool)",
@@ -52,7 +52,7 @@
           }
         },
         {
-          "caller": "0x16fb7667089738A5055e45Bd0B260845Eaedbe44",
+          "caller": "0x359a58550015E98A33ECA9E7c972d02F62B47C7d",
           "comment": "foo(bool,bool): false, false -> false",
           "instance": "C",
           "method": "foo(bool,bool)",

@@ -4,7 +4,7 @@
       "name": "internal_virtual_function_calls_through_dispatch",
       "inputs": [
         {
-          "caller": "0x9775bDeD05dc2a322de42aafB7800f45c983383B",
+          "caller": "0x4Db82405f276CEC135bbACb08A41ecf8a4931Ec8",
           "comment": "h() -> 2",
           "instance": "Derived",
           "method": "h()",

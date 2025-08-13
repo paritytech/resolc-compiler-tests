@@ -4,7 +4,7 @@
       "name": "function_type_array_to_storage",
       "inputs": [
         {
-          "caller": "0xD11085be0f3437214C1578A60863E28D7903d903",
+          "caller": "0x9339681642F3784ab2A15345376dc0f951e709c5",
           "comment": "test() -> 0x20, 0x14, \"[a called][b called]\"; gas irOptimized: 116518; gas legacy: 118841; gas legacyOptimized: 116843",
           "instance": "C",
           "method": "test()",
@@ -19,7 +19,7 @@
           }
         },
         {
-          "caller": "0xD11085be0f3437214C1578A60863E28D7903d903",
+          "caller": "0x9339681642F3784ab2A15345376dc0f951e709c5",
           "comment": "test2() -> 0x20, 0x14, \"[b called][a called]\"",
           "instance": "C",
           "method": "test2()",
@@ -34,7 +34,7 @@
           }
         },
         {
-          "caller": "0xD11085be0f3437214C1578A60863E28D7903d903",
+          "caller": "0x9339681642F3784ab2A15345376dc0f951e709c5",
           "comment": "test3() -> 0x20, 0x14, \"[b called][a called]\"; gas irOptimized: 103144; gas legacy: 102654; gas legacyOptimized: 101556",
           "instance": "C",
           "method": "test3()",

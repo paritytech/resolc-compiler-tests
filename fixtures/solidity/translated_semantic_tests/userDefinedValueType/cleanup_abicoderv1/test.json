@@ -4,7 +4,7 @@
       "name": "cleanup_abicoderv1",
       "inputs": [
         {
-          "caller": "0xaec44D50374A514c41C16CC28F052F43eb0673c8",
+          "caller": "0xA6C6f67BE688Fe7dC9C4010548d8c5712b3D72Ed",
           "comment": "ret() -> 0xff",
           "instance": "C",
           "method": "ret()",
@@ -17,7 +17,7 @@
           }
         },
         {
-          "caller": "0xaec44D50374A514c41C16CC28F052F43eb0673c8",
+          "caller": "0xA6C6f67BE688Fe7dC9C4010548d8c5712b3D72Ed",
           "comment": "f(uint8): 0x1ff -> 0xff",
           "instance": "C",
           "method": "f(uint8)",
@@ -32,7 +32,7 @@
           }
         },
         {
-          "caller": "0xaec44D50374A514c41C16CC28F052F43eb0673c8",
+          "caller": "0xA6C6f67BE688Fe7dC9C4010548d8c5712b3D72Ed",
           "comment": "f(uint8): 0xff -> 0xff",
           "instance": "C",
           "method": "f(uint8)",
@@ -47,7 +47,7 @@
           }
         },
         {
-          "caller": "0xaec44D50374A514c41C16CC28F052F43eb0673c8",
+          "caller": "0xA6C6f67BE688Fe7dC9C4010548d8c5712b3D72Ed",
           "comment": "mem() -> 0x20, 2, 0x01ff, 0xff",
           "instance": "C",
           "method": "mem()",
@@ -63,7 +63,7 @@
           }
         },
         {
-          "caller": "0xaec44D50374A514c41C16CC28F052F43eb0673c8",
+          "caller": "0xA6C6f67BE688Fe7dC9C4010548d8c5712b3D72Ed",
           "comment": "stor() -> 1, 0xff, 2",
           "instance": "C",
           "method": "stor()",

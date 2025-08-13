@@ -4,7 +4,7 @@
       "name": "struct_storage_to_mapping",
       "inputs": [
         {
-          "caller": "0xb63bCAf2DF4b621E83caE95A1364b8a0ffb40998",
+          "caller": "0x04ab6D70F397E3DF5abDf1EAcD53a9De8F597c81",
           "comment": "f() -> true",
           "instance": "C",
           "method": "f()",

@@ -4,7 +4,7 @@
       "name": "constant_string",
       "inputs": [
         {
-          "caller": "0x1E9E7b47766564a54Fc10A53a0839868A6b9f2fF",
+          "caller": "0x19e119167095b4F035A906eAFBb66d733545E208",
           "comment": "f() -> 0x20, 3, \"\\x03\\x01\\x02\"",
           "instance": "C",
           "method": "f()",
@@ -19,7 +19,7 @@
           }
         },
         {
-          "caller": "0x1E9E7b47766564a54Fc10A53a0839868A6b9f2fF",
+          "caller": "0x19e119167095b4F035A906eAFBb66d733545E208",
           "comment": "g() -> 0x20, 3, \"\\x03\\x01\\x02\"",
           "instance": "C",
           "method": "g()",
@@ -34,7 +34,7 @@
           }
         },
         {
-          "caller": "0x1E9E7b47766564a54Fc10A53a0839868A6b9f2fF",
+          "caller": "0x19e119167095b4F035A906eAFBb66d733545E208",
           "comment": "h() -> 0x20, 5, \"hello\"",
           "instance": "C",
           "method": "h()",

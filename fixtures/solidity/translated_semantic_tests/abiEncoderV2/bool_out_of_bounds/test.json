@@ -4,7 +4,7 @@
       "name": "bool_out_of_bounds",
       "inputs": [
         {
-          "caller": "0xcDe61A6e920518bb911CD7d71EC334f020fF0716",
+          "caller": "0x94aC62949C0fBDe52d97A6D10A45815ffC090528",
           "comment": "f(bool): true -> true",
           "instance": "C",
           "method": "f(bool)",
@@ -19,7 +19,7 @@
           }
         },
         {
-          "caller": "0xcDe61A6e920518bb911CD7d71EC334f020fF0716",
+          "caller": "0x94aC62949C0fBDe52d97A6D10A45815ffC090528",
           "comment": "f(bool): false -> false",
           "instance": "C",
           "method": "f(bool)",
@@ -34,7 +34,7 @@
           }
         },
         {
-          "caller": "0xcDe61A6e920518bb911CD7d71EC334f020fF0716",
+          "caller": "0x94aC62949C0fBDe52d97A6D10A45815ffC090528",
           "comment": "f(bool): 0x000000 -> false",
           "instance": "C",
           "method": "f(bool)",
@@ -49,7 +49,7 @@
           }
         },
         {
-          "caller": "0xcDe61A6e920518bb911CD7d71EC334f020fF0716",
+          "caller": "0x94aC62949C0fBDe52d97A6D10A45815ffC090528",
           "comment": "f(bool): 0xffffff -> FAILURE",
           "instance": "C",
           "method": "f(bool)",

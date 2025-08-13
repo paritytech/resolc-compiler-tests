@@ -4,7 +4,7 @@
       "name": "function_modifier_empty",
       "inputs": [
         {
-          "caller": "0xc4131E2eFAf5cC135C87459D51F6BAe574b900d8",
+          "caller": "0x05A7b14fc77017C378f8Bd068de392c2fA57653A",
           "comment": "f() -> false",
           "instance": "C",
           "method": "f()",

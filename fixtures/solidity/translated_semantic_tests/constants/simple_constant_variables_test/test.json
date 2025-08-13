@@ -4,7 +4,7 @@
       "name": "simple_constant_variables_test",
       "inputs": [
         {
-          "caller": "0xfAB7264909Ce70EEA9ab0627197666B3c6b7E29B",
+          "caller": "0x0ED230aB86cB615FCC86eda28657EBf322B8c77D",
           "comment": "getX() -> 56",
           "instance": "Foo",
           "method": "getX()",

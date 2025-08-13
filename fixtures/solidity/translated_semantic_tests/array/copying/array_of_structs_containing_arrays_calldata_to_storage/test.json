@@ -4,7 +4,7 @@
       "name": "array_of_structs_containing_arrays_calldata_to_storage",
       "inputs": [
         {
-          "caller": "0x2A9a2dD2FAf922A97C618e2424A12d16A932723e",
+          "caller": "0x52655D480c8293CCe070e573a50803645eB95E55",
           "comment": "f((uint256[])[]): 0x20, 3, 0x60, 0x60, 0x60, 0x20, 3, 1, 2, 3 -> 3, 1; gas irOptimized: 327456",
           "instance": "C",
           "method": "f((uint256[])[])",

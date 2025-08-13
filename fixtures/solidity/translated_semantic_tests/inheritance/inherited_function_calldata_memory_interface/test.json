@@ -4,7 +4,7 @@
       "name": "inherited_function_calldata_memory_interface",
       "inputs": [
         {
-          "caller": "0x4F4b87eAa145273Bc5e2872686826D6D4f305901",
+          "caller": "0xCa7B487EF7E9E78A0462d1870C4Bd75de321f32A",
           "comment": "g() -> 42; gas irOptimized: 100282; gas legacy: 56839; gas legacy code: 123600; gas legacyOptimized: 55001; gas legacyOptimized code: 60600",
           "instance": "B",
           "method": "g()",

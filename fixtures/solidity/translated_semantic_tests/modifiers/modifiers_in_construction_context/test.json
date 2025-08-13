@@ -4,7 +4,7 @@
       "name": "modifiers_in_construction_context",
       "inputs": [
         {
-          "caller": "0xAb39e66Cd6d5fAe25b964678FA76a3B1bC20175B",
+          "caller": "0x9e1B26Ab54aE133B93317cf28FDFb2aAF4Ac9605",
           "comment": "constructor() ->",
           "instance": "B",
           "method": "#deployer",

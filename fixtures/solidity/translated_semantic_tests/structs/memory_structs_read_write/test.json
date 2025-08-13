@@ -4,7 +4,7 @@
       "name": "memory_structs_read_write",
       "inputs": [
         {
-          "caller": "0x8a398504e8d84B6D8325AbDeD7BC9ba3b2C36E48",
+          "caller": "0x22772E88586f04F87ca07b4C7Adf308133a48834",
           "comment": "testInit() -> 0, 0, 0, 0, true",
           "instance": "Test",
           "method": "testInit()",
@@ -21,7 +21,7 @@
           }
         },
         {
-          "caller": "0x8a398504e8d84B6D8325AbDeD7BC9ba3b2C36E48",
+          "caller": "0x22772E88586f04F87ca07b4C7Adf308133a48834",
           "comment": "testCopyRead() -> 1, 2, 3, 4",
           "instance": "Test",
           "method": "testCopyRead()",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0x8a398504e8d84B6D8325AbDeD7BC9ba3b2C36E48",
+          "caller": "0x22772E88586f04F87ca07b4C7Adf308133a48834",
           "comment": "testAssign() -> 1, 2, 3, 4",
           "instance": "Test",
           "method": "testAssign()",

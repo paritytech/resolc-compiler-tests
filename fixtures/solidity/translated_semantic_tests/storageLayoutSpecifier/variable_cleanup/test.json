@@ -11,13 +11,13 @@
           "calldata": [
             "0x0100",
             "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff7f",
-            "0x616263"
+            "0x6162630000000000000000000000000000000000000000000000000000000000"
           ],
           "expected": {
             "return_data": [
               "0x00",
               "0x7f",
-              "0x6162"
+              "0x6162000000000000000000000000000000000000000000000000000000000000"
             ],
             "exception": false
           }

@@ -74,7 +74,6 @@
           "method": "j(string)",
           "calldata": [
             "0x20",
-            "0x00",
             "0x00"
           ],
           "expected": {
@@ -106,7 +105,6 @@
           "method": "l(string)",
           "calldata": [
             "0x20",
-            "0x00",
             "0x00"
           ],
           "expected": {
@@ -239,7 +237,6 @@
           "method": "set(string)",
           "calldata": [
             "0x20",
-            "0x00",
             "0x00"
           ],
           "expected": {

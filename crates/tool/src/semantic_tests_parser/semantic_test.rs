@@ -284,10 +284,7 @@ impl IOValues {
                     value: AlignmentAllowedValue::Boolean(Boolean::False(..)),
                     ..
                 }) => U256::ZERO.to_be_bytes_vec(),
-                Value::String(value) => {
-                    let value = unescape_string(value.as_str())?;
-                    U256::from_be_slice(value.as_slice()).to_be_bytes_vec()
-                }
+                Value::String(value) => unescape_string(value.as_str())?,
                 Value::HexString(value) => {
                     hex::decode(value.hex.replace("_", ""))?
                 }
@@ -320,17 +317,20 @@ impl IOValues {
             buffer.extend(bytes);
         }
 
-        let mut words = Vec::new();
-        for chunk in buffer.chunks(32) {
-            if chunk.len() == 32 {
-                words.push(B256::from_slice(chunk))
-            } else {
-                let mut chunk = chunk.to_vec();
-                chunk.resize(32, 0);
-                words.push(B256::from_slice(&chunk))
-            }
+        // Ensure buffer length is a multiple of 32 by padding with zeros
+        let remainder = buffer.len() % 32;
+        if remainder != 0 {
+            buffer.resize(buffer.len() + (32 - remainder), 0);
         }
-        Ok(Self(words))
+
+        Ok(Self(buffer.chunks(32).fold(
+            Vec::new(),
+            |mut vec, chunk| {
+                assert_eq!(chunk.len(), 32);
+                vec.push(B256::from_slice(chunk));
+                vec
+            },
+        )))
     }
 
     /// Creates an iterator of hexadecimal strings of the words.

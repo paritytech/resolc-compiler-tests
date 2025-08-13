@@ -9,7 +9,7 @@
           "instance": "Test",
           "method": "bytesToUint(bytes1)",
           "calldata": [
-            "0x61"
+            "0x6100000000000000000000000000000000000000000000000000000000000000"
           ],
           "expected": {
             "return_data": [

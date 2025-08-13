@@ -8,9 +8,7 @@
           "comment": "f(string): \"\" -> false",
           "instance": "C",
           "method": "f(string)",
-          "calldata": [
-            "0x00"
-          ],
+          "calldata": [],
           "expected": {
             "return_data": [
               "0x00"
@@ -26,7 +24,7 @@
           "calldata": [
             "0x20",
             "0x05",
-            "0x68656c6c6f"
+            "0x68656c6c6f000000000000000000000000000000000000000000000000000000"
           ],
           "expected": {
             "return_data": [

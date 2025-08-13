@@ -23,9 +23,7 @@
           "comment": "g(string): \"\" -> FAILURE, hex\"08c379a0\", 0x20, 0",
           "instance": "C",
           "method": "g(string)",
-          "calldata": [
-            "0x00"
-          ],
+          "calldata": [],
           "expected": {
             "return_data": [
               "0x08c379a000000000000000000000000000000000000000000000000000000000",
@@ -42,7 +40,6 @@
           "method": "g(string)",
           "calldata": [
             "0x20",
-            "0x00",
             "0x00"
           ],
           "expected": {

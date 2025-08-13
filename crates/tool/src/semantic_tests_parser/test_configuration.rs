@@ -19,6 +19,10 @@ pub struct TestConfiguration {
     pub allow_non_existing_functions: Option<bool>,
     /// The list of bytecode formats that this test should be run against.
     pub bytecode_format: Option<Vec<BytecodeFormat>>,
+    /// Controls if the test should be ignored or not.
+    pub ignore: Option<bool>,
+    /// A comment on the test case.
+    pub comment: Option<String>,
 }
 
 impl TestConfiguration {
@@ -59,6 +63,8 @@ impl TestConfiguration {
                         .collect::<Result<Vec<_>>>()?,
                 )
             }
+            "ignore" => self.ignore = Some(value.as_ref().parse()?),
+            "comment" => self.comment = Some(value.as_ref().to_string()),
             _ => bail!("Unknown test configuration {}", key.as_ref()),
         };
         Ok(self)

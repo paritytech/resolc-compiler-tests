@@ -1,4 +1,6 @@
 {
+  "comment": "Constant gas limit used, we do not support variables.",
+  "ignore": true,
   "cases": [
     {
       "name": "block_gaslimit",

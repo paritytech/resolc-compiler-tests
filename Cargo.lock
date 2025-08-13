@@ -2922,7 +2922,7 @@ dependencies = [
 [[package]]
 name = "revive-dt-common"
 version = "0.1.0"
-source = "git+https://github.com/paritytech/revive-differential-tests?rev=c47b66de3b93a9768fb61ea3a8d4eb5fd5d9de08#c47b66de3b93a9768fb61ea3a8d4eb5fd5d9de08"
+source = "git+https://github.com/paritytech/revive-differential-tests?rev=0797cd99fc331f014fc7c668ebae4e554a608b20#0797cd99fc331f014fc7c668ebae4e554a608b20"
 dependencies = [
  "anyhow",
  "semver 1.0.26",
@@ -2932,7 +2932,7 @@ dependencies = [
 [[package]]
 name = "revive-dt-format"
 version = "0.1.0"
-source = "git+https://github.com/paritytech/revive-differential-tests?rev=c47b66de3b93a9768fb61ea3a8d4eb5fd5d9de08#c47b66de3b93a9768fb61ea3a8d4eb5fd5d9de08"
+source = "git+https://github.com/paritytech/revive-differential-tests?rev=0797cd99fc331f014fc7c668ebae4e554a608b20#0797cd99fc331f014fc7c668ebae4e554a608b20"
 dependencies = [
  "alloy",
  "alloy-primitives",

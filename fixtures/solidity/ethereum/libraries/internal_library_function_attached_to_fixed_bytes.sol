@@ -12,4 +12,4 @@ contract C {
     }
 }
 // ----
-// sum(bytes2,bytes2): left(0x1100), left(0x0022) -> left(0x1122)
+// sum(bytes2,bytes2): left(0x1100), hex"0022" -> left(0x1122)

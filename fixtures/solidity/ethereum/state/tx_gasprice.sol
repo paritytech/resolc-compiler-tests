@@ -3,6 +3,8 @@ contract C {
         return tx.gasprice;
     }
 }
+// ====
+// ignore: true
 // ----
 // f() -> 3000000000
 // f() -> 3000000000

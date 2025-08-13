@@ -5,39 +5,39 @@
       "inputs": [
         {
           "caller": "0xe79b8124a79e7889DA839B0849Cf0aab21730D28",
-          "comment": "f() -> 280",
+          "comment": "f() -> 0x420420420",
           "instance": "C",
           "method": "f()",
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x0118"
+              "0x0420420420"
             ],
             "exception": false
           }
         },
         {
           "caller": "0xe79b8124a79e7889DA839B0849Cf0aab21730D28",
-          "comment": "f() -> 280",
+          "comment": "f() -> 0x420420420",
           "instance": "C",
           "method": "f()",
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x0118"
+              "0x0420420420"
             ],
             "exception": false
           }
         },
         {
           "caller": "0xe79b8124a79e7889DA839B0849Cf0aab21730D28",
-          "comment": "f() -> 280",
+          "comment": "f() -> 0x420420420",
           "instance": "C",
           "method": "f()",
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x0118"
+              "0x0420420420"
             ],
             "exception": false
           }

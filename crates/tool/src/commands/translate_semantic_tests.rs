@@ -273,6 +273,10 @@ pub fn handle_semantic_tests_translation(
             metadata.required_evm_version = Some(requirement);
         }
 
+        // Adding additional metadata
+        metadata.ignore = semantic_test.configuration.ignore;
+        metadata.comment = semantic_test.configuration.comment;
+
         let test_file = File::options()
             .write(true)
             .truncate(true)

@@ -1,4 +1,6 @@
 {
+  "comment": "Ignored since it's using constants",
+  "ignore": true,
   "cases": [
     {
       "name": "uncalled_blobhash",

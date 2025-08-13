@@ -6,7 +6,10 @@ contract C {
         return (blobhash)(0);
     }
 }
+
 // ====
+// ignore: true
+// comment: Ignored since it's using constants
 // EVMVersion: >=cancun
 // ----
 // f() -> 0x0100000000000000000000000000000000000000000000000000000000000001

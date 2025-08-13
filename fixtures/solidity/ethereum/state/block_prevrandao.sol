@@ -3,7 +3,10 @@ contract C {
         return block.prevrandao;
     }
 }
+
 // ====
+// ignore: true
+// comment: Ignored since it's using constants
 // EVMVersion: >=paris
 // ----
 // f() -> 2500000000000000

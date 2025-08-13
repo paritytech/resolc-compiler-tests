@@ -412,5 +412,8 @@
   ],
   "contracts": {
     "C": "calldata_three_dimensional_dynamic_array_index_access.sol:C"
+  },
+  "compiler_directives": {
+    "revert_string_handling": "debug"
   }
 }

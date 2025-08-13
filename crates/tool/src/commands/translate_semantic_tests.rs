@@ -291,6 +291,28 @@ pub fn handle_semantic_tests_translation(
             )
         }
 
+        if let Some(revert_string_handling) =
+            semantic_test.configuration.revert_strings
+        {
+            metadata
+                .compiler_directives
+                .get_or_insert_default()
+                .revert_string_handling = Some(match revert_string_handling {
+                RevertString::Default => {
+                    revive_dt_format::metadata::RevertString::Default
+                }
+                RevertString::Debug => {
+                    revive_dt_format::metadata::RevertString::Debug
+                }
+                RevertString::Strip => {
+                    revive_dt_format::metadata::RevertString::Strip
+                }
+                RevertString::VerboseDebug => {
+                    revive_dt_format::metadata::RevertString::VerboseDebug
+                }
+            })
+        }
+
         // Adding additional metadata
         metadata.ignore = semantic_test.configuration.ignore;
         metadata.comment = semantic_test.configuration.comment;

@@ -24,5 +24,8 @@
   "contracts": {
     "C": "enum_v2.sol:C"
   },
-  "required_evm_version": ">=byzantium"
+  "required_evm_version": ">=byzantium",
+  "compiler_directives": {
+    "revert_string_handling": "debug"
+  }
 }

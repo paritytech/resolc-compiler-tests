@@ -21,5 +21,8 @@
   "contracts": {
     "A": "unknown_sig_no_fallback.sol:A"
   },
-  "required_evm_version": ">=byzantium"
+  "required_evm_version": ">=byzantium",
+  "compiler_directives": {
+    "revert_string_handling": "debug"
+  }
 }

@@ -25,5 +25,8 @@
   "contracts": {
     "C": "calldata_tail_short.sol:C"
   },
-  "required_evm_version": ">=byzantium"
+  "required_evm_version": ">=byzantium",
+  "compiler_directives": {
+    "revert_string_handling": "debug"
+  }
 }

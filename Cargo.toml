@@ -19,5 +19,5 @@ indoc = { version = "2.0.6", default-features = false }
 regex = { version = "1.11.1" }
 serde_json = { version = "1.0.141", features = ["preserve_order"] }
 
-revive-dt-common = { git = "https://github.com/paritytech/revive-differential-tests", rev = "0797cd99fc331f014fc7c668ebae4e554a608b20" }
-revive-dt-format = { git = "https://github.com/paritytech/revive-differential-tests", rev = "0797cd99fc331f014fc7c668ebae4e554a608b20" }
+revive-dt-common = { git = "https://github.com/paritytech/revive-differential-tests", rev = "e98f42978d61b5bda7ea936b35f50763edb72112" }
+revive-dt-format = { git = "https://github.com/paritytech/revive-differential-tests", rev = "e98f42978d61b5bda7ea936b35f50763edb72112" }

@@ -420,5 +420,8 @@
   ],
   "contracts": {
     "C": "calldata_nested_array_reencode.sol:C"
+  },
+  "compiler_directives": {
+    "revert_string_handling": "debug"
   }
 }

@@ -47,5 +47,8 @@
   ],
   "contracts": {
     "C": "calldata_array_short.sol:C"
+  },
+  "compiler_directives": {
+    "revert_string_handling": "debug"
   }
 }

@@ -284,7 +284,14 @@ impl IOValues {
                     value: AlignmentAllowedValue::Boolean(Boolean::False(..)),
                     ..
                 }) => U256::ZERO.to_be_bytes_vec(),
-                Value::String(value) => unescape_string(value.as_str())?,
+                Value::String(value) => {
+                    let mut buffer = unescape_string(value.as_str())?;
+                    let remainder = buffer.len() % 32;
+                    if remainder != 0 {
+                        buffer.resize(buffer.len() + (32 - remainder), 0);
+                    }
+                    buffer
+                }
                 Value::HexString(value) => {
                     hex::decode(value.hex.replace("_", ""))?
                 }
@@ -317,7 +324,6 @@ impl IOValues {
             buffer.extend(bytes);
         }
 
-        // Ensure buffer length is a multiple of 32 by padding with zeros
         let remainder = buffer.len() % 32;
         if remainder != 0 {
             buffer.resize(buffer.len() + (32 - remainder), 0);

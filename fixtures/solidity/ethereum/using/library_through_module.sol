@@ -25,7 +25,7 @@ contract C {
 import "./A.sol" as M;
 
 // ----
-// library: "A":L
+// library: "A.sol":L
 // f(uint256): 5 -> 5
 // f(uint256): 10 -> 10
 // g(uint256): 5 -> 1

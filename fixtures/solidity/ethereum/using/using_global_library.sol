@@ -21,5 +21,5 @@ contract C {
 import {T} from "./A.sol";
 
 // ----
-// library: "A":L
+// library: "A.sol":L
 // f() -> 2, 1

@@ -21,10 +21,10 @@
   ],
   "contracts": {
     "D": "C.sol:D",
-    "L": "A:L"
+    "L": "A.sol:L"
   },
   "libraries": {
-    "A": {
+    "A.sol": {
       "L": "L"
     }
   }

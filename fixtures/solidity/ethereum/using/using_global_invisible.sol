@@ -38,7 +38,7 @@ contract D {
     }
 }
 // ----
-// library: "A":L
+// library: "A.sol":L
 // test() -> 3
 // gas legacy: 59680
 // gas legacy code: 61200

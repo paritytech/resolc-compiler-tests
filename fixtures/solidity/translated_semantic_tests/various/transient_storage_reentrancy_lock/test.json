@@ -40,5 +40,6 @@
   ],
   "contracts": {
     "C": "transient_storage_reentrancy_lock.sol:C"
-  }
+  },
+  "required_evm_version": ">=cancun"
 }

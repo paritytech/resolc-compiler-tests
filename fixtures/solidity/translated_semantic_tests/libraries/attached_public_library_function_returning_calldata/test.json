@@ -32,5 +32,6 @@
     "attached_public_library_function_returning_calldata.sol": {
       "D": "D"
     }
-  }
+  },
+  "required_evm_version": ">homestead"
 }

@@ -91,5 +91,6 @@
   ],
   "contracts": {
     "C": "malformed_error.sol:C"
-  }
+  },
+  "required_evm_version": ">=byzantium"
 }

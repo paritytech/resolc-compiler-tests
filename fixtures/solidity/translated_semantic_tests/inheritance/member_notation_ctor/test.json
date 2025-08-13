@@ -38,5 +38,6 @@
   ],
   "contracts": {
     "A": "B.sol:A"
-  }
+  },
+  "required_evm_version": ">=constantinople"
 }

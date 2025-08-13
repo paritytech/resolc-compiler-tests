@@ -21,5 +21,6 @@
   ],
   "contracts": {
     "C": "abi_encode_call_declaration.sol:C"
-  }
+  },
+  "required_evm_version": ">=byzantium"
 }

@@ -28,5 +28,6 @@
     "library_non_view_call.sol": {
       "L": "L"
     }
-  }
+  },
+  "required_evm_version": ">=byzantium"
 }

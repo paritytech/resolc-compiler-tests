@@ -21,5 +21,6 @@
   ],
   "contracts": {
     "C": "transient_state_variable_value_type.sol:C"
-  }
+  },
+  "required_evm_version": ">=cancun"
 }

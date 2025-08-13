@@ -24,5 +24,6 @@
   ],
   "contracts": {
     "A": "fallback_return_data.sol:A"
-  }
+  },
+  "required_evm_version": ">=byzantium"
 }

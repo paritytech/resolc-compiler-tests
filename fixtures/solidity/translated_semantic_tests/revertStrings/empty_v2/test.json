@@ -77,5 +77,6 @@
   ],
   "contracts": {
     "C": "empty_v2.sol:C"
-  }
+  },
+  "required_evm_version": ">=byzantium"
 }

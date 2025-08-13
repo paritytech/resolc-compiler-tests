@@ -119,5 +119,6 @@
   ],
   "contracts": {
     "C": "failed_create.sol:C"
-  }
+  },
+  "required_evm_version": ">=constantinople"
 }

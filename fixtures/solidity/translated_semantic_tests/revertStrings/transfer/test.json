@@ -58,5 +58,6 @@
   ],
   "contracts": {
     "C": "transfer.sol:C"
-  }
+  },
+  "required_evm_version": ">=byzantium"
 }

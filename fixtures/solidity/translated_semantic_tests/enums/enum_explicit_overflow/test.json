@@ -99,5 +99,6 @@
   ],
   "contracts": {
     "test": "enum_explicit_overflow.sol:test"
-  }
+  },
+  "required_evm_version": ">=byzantium"
 }

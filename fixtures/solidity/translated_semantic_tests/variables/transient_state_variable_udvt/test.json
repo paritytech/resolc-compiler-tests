@@ -47,5 +47,6 @@
   ],
   "contracts": {
     "C": "transient_state_variable_udvt.sol:C"
-  }
+  },
+  "required_evm_version": ">=cancun"
 }

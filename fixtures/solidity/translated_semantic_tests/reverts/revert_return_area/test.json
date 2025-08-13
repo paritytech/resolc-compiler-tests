@@ -22,5 +22,6 @@
   ],
   "contracts": {
     "C": "revert_return_area.sol:C"
-  }
+  },
+  "required_evm_version": ">=byzantium"
 }

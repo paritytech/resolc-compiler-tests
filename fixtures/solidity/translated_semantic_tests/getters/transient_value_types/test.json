@@ -47,5 +47,6 @@
   ],
   "contracts": {
     "C": "transient_value_types.sol:C"
-  }
+  },
+  "required_evm_version": ">=cancun"
 }

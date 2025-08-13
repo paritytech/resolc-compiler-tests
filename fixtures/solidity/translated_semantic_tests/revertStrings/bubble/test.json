@@ -24,5 +24,6 @@
   ],
   "contracts": {
     "C": "bubble.sol:C"
-  }
+  },
+  "required_evm_version": ">=byzantium"
 }

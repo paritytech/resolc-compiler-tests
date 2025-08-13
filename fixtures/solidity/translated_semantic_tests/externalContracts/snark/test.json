@@ -74,5 +74,6 @@
     "snark.sol": {
       "Pairing": "Pairing"
     }
-  }
+  },
+  "required_evm_version": ">=constantinople"
 }

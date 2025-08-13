@@ -227,5 +227,6 @@
   ],
   "contracts": {
     "C": "precompiles_ignoring_trailing_input.sol:C"
-  }
+  },
+  "required_evm_version": ">=byzantium"
 }

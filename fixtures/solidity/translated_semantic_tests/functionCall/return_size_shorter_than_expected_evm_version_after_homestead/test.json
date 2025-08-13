@@ -18,5 +18,6 @@
   ],
   "contracts": {
     "Test": "return_size_shorter_than_expected_evm_version_after_homestead.sol:Test"
-  }
+  },
+  "required_evm_version": ">homestead"
 }

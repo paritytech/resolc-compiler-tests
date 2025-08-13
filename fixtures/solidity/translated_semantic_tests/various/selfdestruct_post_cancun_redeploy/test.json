@@ -149,5 +149,6 @@
   ],
   "contracts": {
     "D": "selfdestruct_post_cancun_redeploy.sol:D"
-  }
+  },
+  "required_evm_version": ">=cancun"
 }

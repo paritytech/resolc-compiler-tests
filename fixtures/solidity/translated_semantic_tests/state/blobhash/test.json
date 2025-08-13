@@ -98,5 +98,6 @@
   ],
   "contracts": {
     "C": "blobhash.sol:C"
-  }
+  },
+  "required_evm_version": ">=cancun"
 }

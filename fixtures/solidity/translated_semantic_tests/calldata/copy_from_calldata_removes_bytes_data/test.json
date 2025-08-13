@@ -65,5 +65,6 @@
   ],
   "contracts": {
     "c": "copy_from_calldata_removes_bytes_data.sol:c"
-  }
+  },
+  "required_evm_version": ">=byzantium"
 }

@@ -84,5 +84,6 @@
     "try_catch_library_call.sol": {
       "L": "L"
     }
-  }
+  },
+  "required_evm_version": ">=byzantium"
 }

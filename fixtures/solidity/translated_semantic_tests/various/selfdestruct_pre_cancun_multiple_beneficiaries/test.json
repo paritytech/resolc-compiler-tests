@@ -205,5 +205,6 @@
   ],
   "contracts": {
     "D": "selfdestruct_pre_cancun_multiple_beneficiaries.sol:D"
-  }
+  },
+  "required_evm_version": "<=shanghai"
 }

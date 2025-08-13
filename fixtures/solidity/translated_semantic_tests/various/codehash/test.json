@@ -47,5 +47,6 @@
   ],
   "contracts": {
     "C": "codehash.sol:C"
-  }
+  },
+  "required_evm_version": ">=constantinople"
 }

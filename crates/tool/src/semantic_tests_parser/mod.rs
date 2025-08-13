@@ -7,3 +7,4 @@ mod semantic_test;
 mod test_configuration;
 
 pub use semantic_test::*;
+pub use test_configuration::*;

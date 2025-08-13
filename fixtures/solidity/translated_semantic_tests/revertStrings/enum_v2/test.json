@@ -23,5 +23,6 @@
   ],
   "contracts": {
     "C": "enum_v2.sol:C"
-  }
+  },
+  "required_evm_version": ">=byzantium"
 }

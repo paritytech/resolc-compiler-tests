@@ -29,5 +29,6 @@
   ],
   "contracts": {
     "C": "ether_non_payable_function.sol:C"
-  }
+  },
+  "required_evm_version": ">=byzantium"
 }

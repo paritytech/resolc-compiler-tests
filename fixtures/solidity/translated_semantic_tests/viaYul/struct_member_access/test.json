@@ -115,5 +115,6 @@
   ],
   "contracts": {
     "C": "struct_member_access.sol:C"
-  }
+  },
+  "required_evm_version": ">homestead"
 }

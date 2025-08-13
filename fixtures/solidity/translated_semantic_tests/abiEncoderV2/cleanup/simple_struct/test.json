@@ -81,5 +81,6 @@
   ],
   "contracts": {
     "C": "simple_struct.sol:C"
-  }
+  },
+  "required_evm_version": ">homestead"
 }

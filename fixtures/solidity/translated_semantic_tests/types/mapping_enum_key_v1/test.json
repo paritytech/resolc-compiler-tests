@@ -262,5 +262,6 @@
   ],
   "contracts": {
     "test": "mapping_enum_key_v1.sol:test"
-  }
+  },
+  "required_evm_version": ">=byzantium"
 }

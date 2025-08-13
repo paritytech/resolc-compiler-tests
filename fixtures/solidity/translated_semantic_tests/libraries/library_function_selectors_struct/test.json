@@ -44,5 +44,6 @@
     "library_function_selectors_struct.sol": {
       "L": "L"
     }
-  }
+  },
+  "required_evm_version": ">homestead"
 }

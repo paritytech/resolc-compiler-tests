@@ -27,5 +27,6 @@
   ],
   "contracts": {
     "C": "mcopy_empty.sol:C"
-  }
+  },
+  "required_evm_version": ">=cancun"
 }

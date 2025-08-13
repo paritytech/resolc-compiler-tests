@@ -50,5 +50,6 @@
   ],
   "contracts": {
     "C": "return_dynamic_types_cross_call_out_of_range_2.sol:C"
-  }
+  },
+  "required_evm_version": ">homestead"
 }

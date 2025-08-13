@@ -49,5 +49,6 @@
   ],
   "contracts": {
     "C": "create_random.sol:C"
-  }
+  },
+  "required_evm_version": ">=constantinople"
 }

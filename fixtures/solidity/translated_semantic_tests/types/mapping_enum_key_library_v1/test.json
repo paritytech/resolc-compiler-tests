@@ -237,5 +237,6 @@
     "mapping_enum_key_library_v1.sol": {
       "L": "L"
     }
-  }
+  },
+  "required_evm_version": ">=byzantium"
 }

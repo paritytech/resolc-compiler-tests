@@ -48,5 +48,6 @@
   ],
   "contracts": {
     "C": "invalid_enum_stored.sol:C"
-  }
+  },
+  "required_evm_version": ">=byzantium"
 }

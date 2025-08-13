@@ -41,5 +41,6 @@
   ],
   "contracts": {
     "C": "abi_encode_call_uint_bytes.sol:C"
-  }
+  },
+  "required_evm_version": ">homestead"
 }

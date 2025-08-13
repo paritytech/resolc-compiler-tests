@@ -34,5 +34,6 @@
   ],
   "contracts": {
     "C": "blobbasefee_shanghai_function.sol:C"
-  }
+  },
+  "required_evm_version": "<=shanghai"
 }

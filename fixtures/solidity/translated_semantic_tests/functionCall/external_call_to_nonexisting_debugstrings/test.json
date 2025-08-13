@@ -106,5 +106,6 @@
   ],
   "contracts": {
     "C": "external_call_to_nonexisting_debugstrings.sol:C"
-  }
+  },
+  "required_evm_version": ">=byzantium"
 }

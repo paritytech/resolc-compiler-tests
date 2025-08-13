@@ -21,5 +21,6 @@
   ],
   "contracts": {
     "C": "transient_state_variable_cleanup_tstore.sol:C"
-  }
+  },
+  "required_evm_version": ">=cancun"
 }

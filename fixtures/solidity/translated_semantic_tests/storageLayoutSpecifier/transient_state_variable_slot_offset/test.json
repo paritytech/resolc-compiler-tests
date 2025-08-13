@@ -64,5 +64,6 @@
   ],
   "contracts": {
     "C": "transient_state_variable_slot_offset.sol:C"
-  }
+  },
+  "required_evm_version": ">=cancun"
 }

@@ -55,5 +55,6 @@
     "library_delegatecall_guard_pure.sol": {
       "L": "L"
     }
-  }
+  },
+  "required_evm_version": ">homestead"
 }

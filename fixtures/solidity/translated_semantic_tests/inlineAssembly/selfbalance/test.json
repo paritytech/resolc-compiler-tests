@@ -22,5 +22,6 @@
   ],
   "contracts": {
     "C": "selfbalance.sol:C"
-  }
+  },
+  "required_evm_version": ">=istanbul"
 }

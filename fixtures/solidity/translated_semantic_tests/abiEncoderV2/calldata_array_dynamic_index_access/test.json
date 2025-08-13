@@ -261,5 +261,6 @@
   ],
   "contracts": {
     "C": "calldata_array_dynamic_index_access.sol:C"
-  }
+  },
+  "required_evm_version": ">homestead"
 }

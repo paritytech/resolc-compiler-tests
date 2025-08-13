@@ -18,5 +18,6 @@
   ],
   "contracts": {
     "C": "function_entry_checks_v1.sol:C"
-  }
+  },
+  "required_evm_version": ">=byzantium"
 }

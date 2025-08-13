@@ -23,5 +23,6 @@
   ],
   "contracts": {
     "C": "transient_state_variable_tuple_assignment.sol:C"
-  }
+  },
+  "required_evm_version": ">=cancun"
 }

@@ -58,5 +58,6 @@
   ],
   "contracts": {
     "C": "codebalance_assembly.sol:C"
-  }
+  },
+  "required_evm_version": ">=constantinople"
 }

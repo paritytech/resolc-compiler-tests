@@ -34,5 +34,6 @@
   ],
   "contracts": {
     "C": "mcopy_as_identifier_pre_cancun.sol:C"
-  }
+  },
+  "required_evm_version": "<cancun"
 }

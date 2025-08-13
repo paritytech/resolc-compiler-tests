@@ -47,5 +47,6 @@
   ],
   "contracts": {
     "C": "external_call_at_construction_time.sol:C"
-  }
+  },
+  "required_evm_version": ">=byzantium"
 }

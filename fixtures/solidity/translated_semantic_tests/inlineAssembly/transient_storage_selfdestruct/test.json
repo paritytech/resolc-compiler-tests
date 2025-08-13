@@ -38,5 +38,6 @@
   ],
   "contracts": {
     "D": "transient_storage_selfdestruct.sol:D"
-  }
+  },
+  "required_evm_version": ">=cancun"
 }

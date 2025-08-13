@@ -23,5 +23,6 @@
   ],
   "contracts": {
     "C": "calldata_array_dynamic_static_short_decode.sol:C"
-  }
+  },
+  "required_evm_version": ">=byzantium"
 }

@@ -50,5 +50,6 @@
   ],
   "contracts": {
     "C": "transient_state_address_variable_members.sol:C"
-  }
+  },
+  "required_evm_version": ">=cancun"
 }

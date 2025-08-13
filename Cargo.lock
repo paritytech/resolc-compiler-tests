@@ -2702,6 +2702,15 @@ dependencies = [
 ]
 
 [[package]]
+name = "psm"
+version = "0.1.26"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "6e944464ec8536cd1beb0bbfd96987eb5e3b72f2ecdafdc5c769a37f1fa2ae1f"
+dependencies = [
+ "cc",
+]
+
+[[package]]
 name = "quick-error"
 version = "1.2.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -2900,9 +2909,20 @@ dependencies = [
 ]
 
 [[package]]
+name = "revive-common"
+version = "0.1.0-dev.16"
+source = "git+https://github.com/paritytech/revive?rev=3389865af7c3ff6f29a586d82157e8bc573c1a8e#3389865af7c3ff6f29a586d82157e8bc573c1a8e"
+dependencies = [
+ "anyhow",
+ "serde",
+ "serde_json",
+ "serde_stacker",
+]
+
+[[package]]
 name = "revive-dt-common"
 version = "0.1.0"
-source = "git+https://github.com/paritytech/revive-differential-tests?rev=c78e44d7b5b4c0e3ba3ba0e68bc722679c428187#c78e44d7b5b4c0e3ba3ba0e68bc722679c428187"
+source = "git+https://github.com/paritytech/revive-differential-tests?rev=c47b66de3b93a9768fb61ea3a8d4eb5fd5d9de08#c47b66de3b93a9768fb61ea3a8d4eb5fd5d9de08"
 dependencies = [
  "anyhow",
  "semver 1.0.26",
@@ -2912,12 +2932,13 @@ dependencies = [
 [[package]]
 name = "revive-dt-format"
 version = "0.1.0"
-source = "git+https://github.com/paritytech/revive-differential-tests?rev=c78e44d7b5b4c0e3ba3ba0e68bc722679c428187#c78e44d7b5b4c0e3ba3ba0e68bc722679c428187"
+source = "git+https://github.com/paritytech/revive-differential-tests?rev=c47b66de3b93a9768fb61ea3a8d4eb5fd5d9de08#c47b66de3b93a9768fb61ea3a8d4eb5fd5d9de08"
 dependencies = [
  "alloy",
  "alloy-primitives",
  "alloy-sol-types",
  "anyhow",
+ "revive-common",
  "revive-dt-common",
  "semver 1.0.26",
  "serde",
@@ -3219,6 +3240,16 @@ dependencies = [
 ]
 
 [[package]]
+name = "serde_stacker"
+version = "0.1.12"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "69c8defe6c780725cce4ec6ad3bd91e321baf6fa4e255df1f31e345d507ef01a"
+dependencies = [
+ "serde",
+ "stacker",
+]
+
+[[package]]
 name = "serde_urlencoded"
 version = "0.7.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -3368,6 +3399,19 @@ name = "stable_deref_trait"
 version = "1.2.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "a8f112729512f8e442d81f95a8a7ddf2b7c6b8a1a6f509a95864142b30cab2d3"
+
+[[package]]
+name = "stacker"
+version = "0.1.21"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "cddb07e32ddb770749da91081d8d0ac3a16f1a569a18b20348cd371f5dead06b"
+dependencies = [
+ "cc",
+ "cfg-if",
+ "libc",
+ "psm",
+ "windows-sys 0.52.0",
+]
 
 [[package]]
 name = "static_assertions"

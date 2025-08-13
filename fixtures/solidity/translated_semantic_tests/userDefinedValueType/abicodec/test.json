@@ -21,5 +21,6 @@
   ],
   "contracts": {
     "C": "abicodec.sol:C"
-  }
+  },
+  "required_evm_version": ">=byzantium"
 }

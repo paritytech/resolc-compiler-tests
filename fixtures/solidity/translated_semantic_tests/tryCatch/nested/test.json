@@ -88,5 +88,6 @@
   ],
   "contracts": {
     "C": "nested.sol:C"
-  }
+  },
+  "required_evm_version": ">=byzantium"
 }

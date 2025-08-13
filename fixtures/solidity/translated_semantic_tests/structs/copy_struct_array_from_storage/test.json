@@ -60,5 +60,6 @@
   ],
   "contracts": {
     "Test": "copy_struct_array_from_storage.sol:Test"
-  }
+  },
+  "required_evm_version": ">homestead"
 }

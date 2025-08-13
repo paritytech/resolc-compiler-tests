@@ -59,5 +59,6 @@
     "library_function_selectors.sol": {
       "L": "L"
     }
-  }
+  },
+  "required_evm_version": ">homestead"
 }

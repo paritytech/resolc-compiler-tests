@@ -255,5 +255,6 @@
     "library_address.sol": {
       "L": "L"
     }
-  }
+  },
+  "required_evm_version": ">=byzantium"
 }

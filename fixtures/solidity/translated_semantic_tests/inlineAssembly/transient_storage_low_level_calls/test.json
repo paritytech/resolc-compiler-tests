@@ -60,5 +60,6 @@
   ],
   "contracts": {
     "C": "transient_storage_low_level_calls.sol:C"
-  }
+  },
+  "required_evm_version": ">=cancun"
 }

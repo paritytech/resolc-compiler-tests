@@ -48,5 +48,6 @@
   ],
   "contracts": {
     "C": "structuredAndLowLevel.sol:C"
-  }
+  },
+  "required_evm_version": ">=byzantium"
 }

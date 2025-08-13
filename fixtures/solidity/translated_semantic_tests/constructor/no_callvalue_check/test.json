@@ -22,5 +22,6 @@
   ],
   "contracts": {
     "C": "no_callvalue_check.sol:C"
-  }
+  },
+  "required_evm_version": ">=constantinople"
 }

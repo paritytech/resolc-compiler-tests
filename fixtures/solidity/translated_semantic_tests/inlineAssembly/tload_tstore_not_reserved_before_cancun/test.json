@@ -34,5 +34,6 @@
   ],
   "contracts": {
     "C": "tload_tstore_not_reserved_before_cancun.sol:C"
-  }
+  },
+  "required_evm_version": "<cancun"
 }

@@ -21,5 +21,6 @@
   ],
   "contracts": {
     "C": "push0.sol:C"
-  }
+  },
+  "required_evm_version": ">=shanghai"
 }

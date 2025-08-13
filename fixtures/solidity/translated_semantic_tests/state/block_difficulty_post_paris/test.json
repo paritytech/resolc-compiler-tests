@@ -47,5 +47,6 @@
   ],
   "contracts": {
     "C": "block_difficulty_post_paris.sol:C"
-  }
+  },
+  "required_evm_version": ">=paris"
 }

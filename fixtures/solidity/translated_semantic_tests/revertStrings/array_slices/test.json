@@ -44,5 +44,6 @@
   ],
   "contracts": {
     "C": "array_slices.sol:C"
-  }
+  },
+  "required_evm_version": ">=byzantium"
 }

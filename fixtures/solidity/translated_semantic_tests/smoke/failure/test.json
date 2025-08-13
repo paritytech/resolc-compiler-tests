@@ -83,5 +83,6 @@
   ],
   "contracts": {
     "C": "failure.sol:C"
-  }
+  },
+  "required_evm_version": ">homestead"
 }

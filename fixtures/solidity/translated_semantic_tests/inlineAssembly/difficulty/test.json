@@ -21,5 +21,6 @@
   ],
   "contracts": {
     "C": "difficulty.sol:C"
-  }
+  },
+  "required_evm_version": "<paris"
 }

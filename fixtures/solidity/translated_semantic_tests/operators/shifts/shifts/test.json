@@ -23,5 +23,6 @@
   ],
   "contracts": {
     "C": "shifts.sol:C"
-  }
+  },
+  "required_evm_version": ">=constantinople"
 }

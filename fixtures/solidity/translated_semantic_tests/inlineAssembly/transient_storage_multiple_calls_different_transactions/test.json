@@ -28,5 +28,6 @@
   ],
   "contracts": {
     "C": "transient_storage_multiple_calls_different_transactions.sol:C"
-  }
+  },
+  "required_evm_version": ">=cancun"
 }

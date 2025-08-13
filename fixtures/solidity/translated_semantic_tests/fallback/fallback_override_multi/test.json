@@ -23,5 +23,6 @@
   ],
   "contracts": {
     "C": "fallback_override_multi.sol:C"
-  }
+  },
+  "required_evm_version": ">=byzantium"
 }

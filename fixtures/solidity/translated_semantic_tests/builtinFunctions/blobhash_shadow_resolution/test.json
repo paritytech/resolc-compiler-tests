@@ -21,5 +21,6 @@
   ],
   "contracts": {
     "C": "blobhash_shadow_resolution.sol:C"
-  }
+  },
+  "required_evm_version": ">=cancun"
 }

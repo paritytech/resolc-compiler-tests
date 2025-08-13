@@ -21,5 +21,6 @@
   ],
   "contracts": {
     "C": "short_input_array.sol:C"
-  }
+  },
+  "required_evm_version": ">=byzantium"
 }

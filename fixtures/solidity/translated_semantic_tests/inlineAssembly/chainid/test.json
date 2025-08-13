@@ -21,5 +21,6 @@
   ],
   "contracts": {
     "C": "chainid.sol:C"
-  }
+  },
+  "required_evm_version": ">=istanbul"
 }

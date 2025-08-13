@@ -47,5 +47,6 @@
   ],
   "contracts": {
     "C": "block_chainid.sol:C"
-  }
+  },
+  "required_evm_version": ">=istanbul"
 }

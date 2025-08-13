@@ -18,5 +18,6 @@
   ],
   "contracts": {
     "D": "many_subassemblies.sol:D"
-  }
+  },
+  "required_evm_version": ">=constantinople"
 }

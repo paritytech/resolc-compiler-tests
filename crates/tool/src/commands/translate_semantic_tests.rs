@@ -258,6 +258,20 @@ pub fn handle_semantic_tests_translation(
         }
         metadata.cases.push(case);
 
+        // Handling the EVM version requirement.
+        if let Some(evm_version_requirement) =
+            semantic_test.configuration.evm_version
+        {
+            let requirement = match evm_version_requirement {
+                EvmVersionRequirement::GreaterThan(version) => revive_dt_format::metadata::EvmVersionRequirement::new_greater_than(version.as_str().try_into()?),
+                EvmVersionRequirement::GreaterThanOrEqual(version) => revive_dt_format::metadata::EvmVersionRequirement::new_greater_than_or_equals(version.as_str().try_into()?),
+                EvmVersionRequirement::LessThan(version) => revive_dt_format::metadata::EvmVersionRequirement::new_less_than(version.as_str().try_into()?),
+                EvmVersionRequirement::LessThanOrEqual(version) => revive_dt_format::metadata::EvmVersionRequirement::new_less_than_or_equals(version.as_str().try_into()?),
+                EvmVersionRequirement::EqualTo(version) => revive_dt_format::metadata::EvmVersionRequirement::new_equals(version.as_str().try_into()?),
+            };
+            metadata.required_evm_version = Some(requirement);
+        }
+
         let test_file = File::options()
             .write(true)
             .truncate(true)

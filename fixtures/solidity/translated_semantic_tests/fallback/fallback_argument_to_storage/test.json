@@ -38,5 +38,6 @@
   ],
   "contracts": {
     "A": "fallback_argument_to_storage.sol:A"
-  }
+  },
+  "required_evm_version": ">=byzantium"
 }

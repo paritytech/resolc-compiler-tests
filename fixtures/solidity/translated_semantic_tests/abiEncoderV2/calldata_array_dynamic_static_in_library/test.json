@@ -35,5 +35,6 @@
     "calldata_array_dynamic_static_in_library.sol": {
       "L": "L"
     }
-  }
+  },
+  "required_evm_version": ">homestead"
 }

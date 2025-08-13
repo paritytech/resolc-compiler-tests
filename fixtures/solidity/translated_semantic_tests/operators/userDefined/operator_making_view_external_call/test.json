@@ -39,5 +39,6 @@
   ],
   "contracts": {
     "C": "operator_making_view_external_call.sol:C"
-  }
+  },
+  "required_evm_version": ">=constantinople"
 }

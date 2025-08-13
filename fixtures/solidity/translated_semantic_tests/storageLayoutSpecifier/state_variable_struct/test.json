@@ -68,5 +68,6 @@
   ],
   "contracts": {
     "C": "state_variable_struct.sol:C"
-  }
+  },
+  "required_evm_version": ">=cancun"
 }

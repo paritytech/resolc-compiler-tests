@@ -34,5 +34,6 @@
   ],
   "contracts": {
     "C": "blobhash_pre_cancun.sol:C"
-  }
+  },
+  "required_evm_version": "<cancun"
 }

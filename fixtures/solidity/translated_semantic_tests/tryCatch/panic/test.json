@@ -166,5 +166,6 @@
   ],
   "contracts": {
     "C": "panic.sol:C"
-  }
+  },
+  "required_evm_version": ">=byzantium"
 }

@@ -120,5 +120,6 @@
   ],
   "contracts": {
     "C": "calldata_array_static.sol:C"
-  }
+  },
+  "required_evm_version": ">homestead"
 }

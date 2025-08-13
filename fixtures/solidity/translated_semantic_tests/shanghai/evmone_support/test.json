@@ -36,5 +36,6 @@
   ],
   "contracts": {
     "Test": "evmone_support.sol:Test"
-  }
+  },
+  "required_evm_version": ">=shanghai"
 }

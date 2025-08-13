@@ -21,5 +21,6 @@
   ],
   "contracts": {
     "C": "block_prevrandao_pre_paris.sol:C"
-  }
+  },
+  "required_evm_version": "<paris"
 }

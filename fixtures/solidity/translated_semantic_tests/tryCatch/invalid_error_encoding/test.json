@@ -225,5 +225,6 @@
   ],
   "contracts": {
     "C": "invalid_error_encoding.sol:C"
-  }
+  },
+  "required_evm_version": ">=byzantium"
 }

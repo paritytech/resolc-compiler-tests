@@ -300,5 +300,6 @@
   ],
   "contracts": {
     "test": "base64.sol:test"
-  }
+  },
+  "required_evm_version": ">=constantinople"
 }

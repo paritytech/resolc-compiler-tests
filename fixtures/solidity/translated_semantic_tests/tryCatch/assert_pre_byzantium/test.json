@@ -38,5 +38,6 @@
   ],
   "contracts": {
     "C": "assert_pre_byzantium.sol:C"
-  }
+  },
+  "required_evm_version": "<byzantium"
 }

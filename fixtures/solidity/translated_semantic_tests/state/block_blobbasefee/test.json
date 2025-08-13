@@ -60,5 +60,6 @@
   ],
   "contracts": {
     "C": "block_blobbasefee.sol:C"
-  }
+  },
+  "required_evm_version": ">=cancun"
 }

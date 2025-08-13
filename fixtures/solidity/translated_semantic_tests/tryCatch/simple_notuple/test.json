@@ -38,5 +38,6 @@
   ],
   "contracts": {
     "C": "simple_notuple.sol:C"
-  }
+  },
+  "required_evm_version": ">=byzantium"
 }

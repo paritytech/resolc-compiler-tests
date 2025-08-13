@@ -13,13 +13,13 @@
             "events": [
               {
                 "topics": [
-                  "92bbf6e823a631f3c8e09b1c8df90f378fb56f7fbc9701827e1ff8aad7f6a028"
+                  "0x92bbf6e823a631f3c8e09b1c8df90f378fb56f7fbc9701827e1ff8aad7f6a028"
                 ],
                 "values": []
               },
               {
                 "topics": [
-                  "85208890daa7be9cd9fdad8086c3160be23e8311b12b6ec707334c53be63a743"
+                  "0x85208890daa7be9cd9fdad8086c3160be23e8311b12b6ec707334c53be63a743"
                 ],
                 "values": []
               }

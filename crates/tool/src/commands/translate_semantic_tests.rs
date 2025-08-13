@@ -190,9 +190,10 @@ pub fn handle_semantic_tests_translation(
                             if let EventIdentifier::Known { signature } =
                                 event.ident
                             {
-                                translated_event
-                                    .topics
-                                    .push(keccak256(signature).encode_hex());
+                                translated_event.topics.push(
+                                    keccak256(signature)
+                                        .encode_hex_with_prefix(),
+                                );
                             }
 
                             translated_event.topics.extend(

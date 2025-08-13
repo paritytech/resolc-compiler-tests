@@ -13,7 +13,7 @@
             "events": [
               {
                 "topics": [
-                  "431542260c77cfa83d6cf5a3c8f20c1a0dff669d8404ba6031c61522c5b4b50b",
+                  "0x431542260c77cfa83d6cf5a3c8f20c1a0dff669d8404ba6031c61522c5b4b50b",
                   "0x1234c27fc3050000000000000000"
                 ],
                 "values": [
@@ -36,7 +36,7 @@
             "events": [
               {
                 "topics": [
-                  "b3692dee5e874cd3cbe4a2e928dcdf9e62af0216548003c4098e2035cc9cd29c",
+                  "0xb3692dee5e874cd3cbe4a2e928dcdf9e62af0216548003c4098e2035cc9cd29c",
                   "0x1234bf3724af0000000000000000"
                 ],
                 "values": [

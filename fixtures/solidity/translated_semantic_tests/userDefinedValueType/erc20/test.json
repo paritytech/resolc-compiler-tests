@@ -13,7 +13,7 @@
             "events": [
               {
                 "topics": [
-                  "ddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+                  "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
                   "0x00",
                   "0x440d9Ab59A4ED2f575666C23EF8c17c53a96e3e0"
                 ],
@@ -55,7 +55,7 @@
             "events": [
               {
                 "topics": [
-                  "ddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+                  "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
                   "0x440d9Ab59A4ED2f575666C23EF8c17c53a96e3e0",
                   "0x02"
                 ],
@@ -84,7 +84,7 @@
             "events": [
               {
                 "topics": [
-                  "8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925",
+                  "0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925",
                   "0x440d9Ab59A4ED2f575666C23EF8c17c53a96e3e0",
                   "0x02"
                 ],
@@ -130,7 +130,7 @@
             "events": [
               {
                 "topics": [
-                  "ddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+                  "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
                   "0x440d9Ab59A4ED2f575666C23EF8c17c53a96e3e0",
                   "0x02"
                 ],

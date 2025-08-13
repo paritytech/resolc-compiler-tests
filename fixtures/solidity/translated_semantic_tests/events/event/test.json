@@ -16,7 +16,7 @@
             "events": [
               {
                 "topics": [
-                  "19dacbf83c5de6658e14cbf7bcae5c15eca2eedecf1c66fbca928e4d351bea0f",
+                  "0x19dacbf83c5de6658e14cbf7bcae5c15eca2eedecf1c66fbca928e4d351bea0f",
                   "0xA1bA6FC3eA0E89F0E79f89d9Aa0081d010571E4a",
                   "0x1234"
                 ],
@@ -43,7 +43,7 @@
             "events": [
               {
                 "topics": [
-                  "19dacbf83c5de6658e14cbf7bcae5c15eca2eedecf1c66fbca928e4d351bea0f",
+                  "0x19dacbf83c5de6658e14cbf7bcae5c15eca2eedecf1c66fbca928e4d351bea0f",
                   "0xA1bA6FC3eA0E89F0E79f89d9Aa0081d010571E4a",
                   "0x1234"
                 ],

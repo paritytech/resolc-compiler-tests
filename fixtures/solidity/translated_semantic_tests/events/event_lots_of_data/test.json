@@ -17,7 +17,12 @@
                 "topics": [
                   "0x95f016c9564e5db4b6e5851ee7934799bf3299644de9136bfadb23efaee5ada2"
                 ],
-                "values": []
+                "values": [
+                  "0x994907CB80BfD175F9b0B32672CFDE0091368e2E",
+                  "0x1234",
+                  "0x12",
+                  "0x01"
+                ]
               }
             ],
             "exception": false

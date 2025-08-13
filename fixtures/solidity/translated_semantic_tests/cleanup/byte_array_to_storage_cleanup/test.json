@@ -31,7 +31,13 @@
                 "topics": [
                   "0x3b9e7856b49054373bb5f581f0954bf57afd344770e4a2c77a1f44e6d973e921"
                 ],
-                "values": []
+                "values": [
+                  "0x40",
+                  "0x21",
+                  "0x02",
+                  "0x00",
+                  "0x00"
+                ]
               }
             ],
             "exception": false

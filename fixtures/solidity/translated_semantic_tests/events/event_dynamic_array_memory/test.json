@@ -17,7 +17,13 @@
                 "topics": [
                   "0xa413856f491ae4dba12a82257911a2214248dc6f045250e52141654d278b1067"
                 ],
-                "values": []
+                "values": [
+                  "0x20",
+                  "0x03",
+                  "0x2a",
+                  "0x2b",
+                  "0x2c"
+                ]
               }
             ],
             "exception": false

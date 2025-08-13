@@ -603,10 +603,10 @@ impl SemanticTest {
                                     .iter()
                                     .flat_map(|(_, values)| values.0.iter())
                                     .filter_map(|value| {
-                                        if let EventValue::Indexed(value) =
+                                        if let EventValue::Unindexed(value) =
                                             value
                                         {
-                                            Some(&value.value)
+                                            Some(value)
                                         } else {
                                             None
                                         }

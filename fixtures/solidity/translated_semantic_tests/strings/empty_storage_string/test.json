@@ -160,7 +160,10 @@
                 "topics": [
                   "0xb9c15e96b55b1a0e6173f7fa2f341b73298293e98b5ccdb75aa8bd1da2d11970"
                 ],
-                "values": []
+                "values": [
+                  "0x20",
+                  "0x00"
+                ]
               }
             ],
             "exception": false
@@ -178,7 +181,10 @@
                 "topics": [
                   "0xb9c15e96b55b1a0e6173f7fa2f341b73298293e98b5ccdb75aa8bd1da2d11970"
                 ],
-                "values": []
+                "values": [
+                  "0x20",
+                  "0x00"
+                ]
               }
             ],
             "exception": false

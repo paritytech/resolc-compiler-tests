@@ -157,5 +157,8 @@
   ],
   "contracts": {
     "C": "nested_array_of_structs_memory_to_storage.sol:C"
-  }
+  },
+  "modes": [
+    "Y"
+  ]
 }

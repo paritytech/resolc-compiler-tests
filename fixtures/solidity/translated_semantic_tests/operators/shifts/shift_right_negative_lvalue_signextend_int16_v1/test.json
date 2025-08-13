@@ -88,5 +88,8 @@
   ],
   "contracts": {
     "C": "shift_right_negative_lvalue_signextend_int16_v1.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

@@ -21,5 +21,8 @@
   ],
   "contracts": {
     "Test": "uninitialized_internal_storage_function_legacy.sol:Test"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

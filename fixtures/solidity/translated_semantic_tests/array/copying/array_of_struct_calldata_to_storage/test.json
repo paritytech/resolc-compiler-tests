@@ -35,5 +35,8 @@
   ],
   "contracts": {
     "C": "array_of_struct_calldata_to_storage.sol:C"
-  }
+  },
+  "modes": [
+    "Y"
+  ]
 }

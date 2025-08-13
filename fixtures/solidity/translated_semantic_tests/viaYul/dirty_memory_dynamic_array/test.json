@@ -21,5 +21,8 @@
   ],
   "contracts": {
     "C": "dirty_memory_dynamic_array.sol:C"
-  }
+  },
+  "modes": [
+    "Y"
+  ]
 }

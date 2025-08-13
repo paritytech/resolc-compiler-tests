@@ -21,5 +21,8 @@
   ],
   "contracts": {
     "C": "struct_delete_storage_with_arrays_small.sol:C"
-  }
+  },
+  "modes": [
+    "Y"
+  ]
 }

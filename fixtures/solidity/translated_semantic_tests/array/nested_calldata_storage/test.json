@@ -63,5 +63,8 @@
   ],
   "contracts": {
     "C": "nested_calldata_storage.sol:C"
-  }
+  },
+  "modes": [
+    "Y"
+  ]
 }

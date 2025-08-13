@@ -60,5 +60,8 @@
   "contracts": {
     "C": "empty_v1.sol:C"
   },
+  "modes": [
+    "E"
+  ],
   "required_evm_version": ">=byzantium"
 }

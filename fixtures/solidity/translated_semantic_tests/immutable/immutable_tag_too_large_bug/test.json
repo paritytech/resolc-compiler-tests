@@ -32,5 +32,8 @@
   ],
   "contracts": {
     "C": "immutable_tag_too_large_bug.sol:C"
-  }
+  },
+  "modes": [
+    "Y"
+  ]
 }

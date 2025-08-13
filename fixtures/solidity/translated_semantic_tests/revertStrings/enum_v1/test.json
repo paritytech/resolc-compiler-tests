@@ -24,5 +24,8 @@
   "contracts": {
     "C": "enum_v1.sol:C"
   },
+  "modes": [
+    "E"
+  ],
   "required_evm_version": ">=byzantium"
 }

@@ -21,5 +21,8 @@
   ],
   "contracts": {
     "C": "function_modifier_loop_viair.sol:C"
-  }
+  },
+  "modes": [
+    "Y"
+  ]
 }

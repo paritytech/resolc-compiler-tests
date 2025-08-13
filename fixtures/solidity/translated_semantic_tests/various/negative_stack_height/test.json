@@ -18,5 +18,8 @@
   ],
   "contracts": {
     "C": "negative_stack_height.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

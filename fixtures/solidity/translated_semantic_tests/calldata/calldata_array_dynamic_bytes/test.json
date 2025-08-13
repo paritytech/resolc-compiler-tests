@@ -140,5 +140,8 @@
   ],
   "contracts": {
     "C": "calldata_array_dynamic_bytes.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

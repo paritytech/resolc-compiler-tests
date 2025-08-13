@@ -82,5 +82,8 @@
   ],
   "contracts": {
     "C": "cleanup_abicoderv1.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

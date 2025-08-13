@@ -85,5 +85,9 @@
   ],
   "contracts": {
     "C": "byte_array_to_storage_cleanup.sol:C"
-  }
+  },
+  "modes": [
+    "Y",
+    "E"
+  ]
 }

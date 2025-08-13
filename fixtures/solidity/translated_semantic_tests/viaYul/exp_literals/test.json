@@ -256,5 +256,8 @@
   ],
   "contracts": {
     "C": "exp_literals.sol:C"
-  }
+  },
+  "modes": [
+    "Y"
+  ]
 }

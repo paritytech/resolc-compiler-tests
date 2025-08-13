@@ -47,5 +47,8 @@
   ],
   "contracts": {
     "C": "indexed_log_topic_during_explicit_downcast.sol:C"
-  }
+  },
+  "modes": [
+    "Y"
+  ]
 }

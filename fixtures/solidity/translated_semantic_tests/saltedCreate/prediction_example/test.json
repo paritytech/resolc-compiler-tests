@@ -22,5 +22,9 @@
   "contracts": {
     "C": "prediction_example.sol:C"
   },
+  "modes": [
+    "Y",
+    "E"
+  ],
   "required_evm_version": ">=constantinople"
 }

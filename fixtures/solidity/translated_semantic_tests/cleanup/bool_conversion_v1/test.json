@@ -158,5 +158,8 @@
   ],
   "contracts": {
     "C": "bool_conversion_v1.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

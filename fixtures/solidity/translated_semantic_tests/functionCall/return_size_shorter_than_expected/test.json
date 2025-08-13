@@ -22,5 +22,8 @@
   "contracts": {
     "Test": "return_size_shorter_than_expected.sol:Test"
   },
+  "modes": [
+    "Y"
+  ],
   "required_evm_version": "<=homestead"
 }

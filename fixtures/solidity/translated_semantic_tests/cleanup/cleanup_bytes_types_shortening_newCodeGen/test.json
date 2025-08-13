@@ -21,5 +21,8 @@
   ],
   "contracts": {
     "C": "cleanup_bytes_types_shortening_newCodeGen.sol:C"
-  }
+  },
+  "modes": [
+    "Y"
+  ]
 }

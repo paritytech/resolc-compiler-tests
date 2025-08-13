@@ -43,5 +43,8 @@
   ],
   "contracts": {
     "C": "calldata_array_to_mapping.sol:C"
-  }
+  },
+  "modes": [
+    "Y"
+  ]
 }

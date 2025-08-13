@@ -268,5 +268,9 @@
   ],
   "contracts": {
     "C": "empty_storage_string.sol:C"
-  }
+  },
+  "modes": [
+    "Y",
+    "E"
+  ]
 }

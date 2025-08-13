@@ -18,5 +18,8 @@
   ],
   "contracts": {
     "C": "call_to_zero_initialized_function_type_legacy.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

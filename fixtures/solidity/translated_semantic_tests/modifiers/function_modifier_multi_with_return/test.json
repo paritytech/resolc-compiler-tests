@@ -38,5 +38,8 @@
   ],
   "contracts": {
     "C": "function_modifier_multi_with_return.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

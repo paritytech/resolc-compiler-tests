@@ -50,5 +50,9 @@
   ],
   "contracts": {
     "B": "external_public_calldata.sol:B"
-  }
+  },
+  "modes": [
+    "Y",
+    "E"
+  ]
 }

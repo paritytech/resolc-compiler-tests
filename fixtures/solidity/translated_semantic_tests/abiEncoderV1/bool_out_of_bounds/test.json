@@ -68,5 +68,8 @@
   ],
   "contracts": {
     "C": "bool_out_of_bounds.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

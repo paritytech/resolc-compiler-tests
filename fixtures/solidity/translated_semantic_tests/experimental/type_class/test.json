@@ -23,5 +23,8 @@
   "contracts": {
     "C": "type_class.sol:C"
   },
+  "modes": [
+    "Y"
+  ],
   "required_evm_version": ">=constantinople"
 }

@@ -368,5 +368,8 @@
   ],
   "contracts": {
     "C": "conversion_abicoderv1.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

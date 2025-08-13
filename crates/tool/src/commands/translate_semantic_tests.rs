@@ -17,6 +17,7 @@ use revive_dt_format::input::{
 use revive_dt_format::metadata::{
     ContractIdent, ContractInstance, ContractPathAndIdent, Metadata,
 };
+use revive_dt_format::mode::Mode;
 
 use crate::semantic_tests_parser::*;
 
@@ -271,6 +272,23 @@ pub fn handle_semantic_tests_translation(
                 EvmVersionRequirement::EqualTo(version) => revive_dt_format::metadata::EvmVersionRequirement::new_equals(version.as_str().try_into()?),
             };
             metadata.required_evm_version = Some(requirement);
+        }
+
+        // Handling the compilation modes.
+        let modes = match semantic_test.configuration.compile_via_yul {
+            Some(ItemConfig::Boolean(true)) => ["Y"].as_slice(),
+            Some(ItemConfig::Boolean(false)) => ["E"].as_slice(),
+            Some(ItemConfig::Also) => ["Y", "E"].as_slice(),
+            None => [].as_slice(),
+        };
+        if !modes.is_empty() {
+            metadata.modes = Some(
+                modes
+                    .iter()
+                    .map(ToString::to_string)
+                    .map(Mode::Unknown)
+                    .collect(),
+            )
         }
 
         // Adding additional metadata

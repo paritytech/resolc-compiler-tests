@@ -19,5 +19,8 @@
   "contracts": {
     "C": "function_entry_checks_v1.sol:C"
   },
+  "modes": [
+    "E"
+  ],
   "required_evm_version": ">=byzantium"
 }

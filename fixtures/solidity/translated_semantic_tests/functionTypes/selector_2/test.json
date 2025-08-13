@@ -22,5 +22,8 @@
   ],
   "contracts": {
     "D": "selector_2.sol:D"
-  }
+  },
+  "modes": [
+    "Y"
+  ]
 }

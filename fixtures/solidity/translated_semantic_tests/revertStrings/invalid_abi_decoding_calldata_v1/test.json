@@ -54,5 +54,8 @@
   "contracts": {
     "C": "invalid_abi_decoding_calldata_v1.sol:C"
   },
+  "modes": [
+    "E"
+  ],
   "required_evm_version": ">=byzantium"
 }

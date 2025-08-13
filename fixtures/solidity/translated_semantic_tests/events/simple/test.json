@@ -35,5 +35,9 @@
   ],
   "contracts": {
     "Test": "simple.sol:Test"
-  }
+  },
+  "modes": [
+    "Y",
+    "E"
+  ]
 }

@@ -32,5 +32,8 @@
   ],
   "contracts": {
     "C": "consteval_array_length.sol:C"
-  }
+  },
+  "modes": [
+    "Y"
+  ]
 }

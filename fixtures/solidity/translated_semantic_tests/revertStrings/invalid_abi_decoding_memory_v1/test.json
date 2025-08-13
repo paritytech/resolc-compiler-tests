@@ -37,5 +37,8 @@
   "contracts": {
     "C": "invalid_abi_decoding_memory_v1.sol:C"
   },
+  "modes": [
+    "E"
+  ],
   "required_evm_version": ">=byzantium"
 }

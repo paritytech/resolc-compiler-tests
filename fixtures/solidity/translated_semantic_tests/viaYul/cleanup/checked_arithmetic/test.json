@@ -146,5 +146,8 @@
   ],
   "contracts": {
     "C": "checked_arithmetic.sol:C"
-  }
+  },
+  "modes": [
+    "Y"
+  ]
 }

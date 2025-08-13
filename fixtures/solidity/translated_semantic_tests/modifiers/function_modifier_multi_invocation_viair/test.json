@@ -38,5 +38,8 @@
   ],
   "contracts": {
     "C": "function_modifier_multi_invocation_viair.sol:C"
-  }
+  },
+  "modes": [
+    "Y"
+  ]
 }

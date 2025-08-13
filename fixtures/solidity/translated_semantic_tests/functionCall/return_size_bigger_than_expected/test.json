@@ -21,5 +21,8 @@
   ],
   "contracts": {
     "Test": "return_size_bigger_than_expected.sol:Test"
-  }
+  },
+  "modes": [
+    "Y"
+  ]
 }

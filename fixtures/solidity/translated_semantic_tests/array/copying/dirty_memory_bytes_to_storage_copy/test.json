@@ -21,5 +21,8 @@
   ],
   "contracts": {
     "C": "dirty_memory_bytes_to_storage_copy.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

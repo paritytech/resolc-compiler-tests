@@ -169,5 +169,8 @@
   ],
   "contracts": {
     "C": "cleanup.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

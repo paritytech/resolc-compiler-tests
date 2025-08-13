@@ -24,5 +24,8 @@
   ],
   "contracts": {
     "C": "array_of_structs_containing_arrays_memory_to_storage.sol:C"
-  }
+  },
+  "modes": [
+    "Y"
+  ]
 }

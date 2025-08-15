@@ -60,5 +60,8 @@
   ],
   "contracts": {
     "C": "copy_struct_with_nested_array_from_calldata_to_memory.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

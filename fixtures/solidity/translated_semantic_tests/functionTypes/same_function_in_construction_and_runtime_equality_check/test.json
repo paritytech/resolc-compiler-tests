@@ -21,5 +21,8 @@
   ],
   "contracts": {
     "C": "same_function_in_construction_and_runtime_equality_check.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

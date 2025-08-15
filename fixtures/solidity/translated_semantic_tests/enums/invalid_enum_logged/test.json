@@ -45,5 +45,8 @@
   ],
   "contracts": {
     "C": "invalid_enum_logged.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

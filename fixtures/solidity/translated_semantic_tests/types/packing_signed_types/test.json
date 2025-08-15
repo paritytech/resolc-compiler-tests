@@ -21,5 +21,8 @@
   ],
   "contracts": {
     "test": "packing_signed_types.sol:test"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

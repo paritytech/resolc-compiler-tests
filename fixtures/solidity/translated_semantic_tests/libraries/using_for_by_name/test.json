@@ -42,5 +42,8 @@
     "using_for_by_name.sol": {
       "D": "D"
     }
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

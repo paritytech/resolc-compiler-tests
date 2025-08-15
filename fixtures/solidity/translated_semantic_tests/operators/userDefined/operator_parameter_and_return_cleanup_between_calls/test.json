@@ -25,5 +25,8 @@
   ],
   "contracts": {
     "C": "operator_parameter_and_return_cleanup_between_calls.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

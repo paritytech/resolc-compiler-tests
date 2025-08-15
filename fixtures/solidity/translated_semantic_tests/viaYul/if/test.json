@@ -298,5 +298,8 @@
   ],
   "contracts": {
     "C": "if.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

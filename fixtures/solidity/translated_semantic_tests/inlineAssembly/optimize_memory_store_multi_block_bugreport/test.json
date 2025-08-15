@@ -30,5 +30,8 @@
   ],
   "contracts": {
     "Test": "optimize_memory_store_multi_block_bugreport.sol:Test"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

@@ -56,5 +56,8 @@
   ],
   "contracts": {
     "C": "keccak_optimization_bug_string.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

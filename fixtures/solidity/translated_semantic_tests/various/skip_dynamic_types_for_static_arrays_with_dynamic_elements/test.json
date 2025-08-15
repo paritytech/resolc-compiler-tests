@@ -22,5 +22,8 @@
   ],
   "contracts": {
     "C": "skip_dynamic_types_for_static_arrays_with_dynamic_elements.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

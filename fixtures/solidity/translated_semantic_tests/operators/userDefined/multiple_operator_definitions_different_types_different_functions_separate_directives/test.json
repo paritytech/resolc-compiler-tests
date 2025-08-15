@@ -34,5 +34,8 @@
   ],
   "contracts": {
     "C": "multiple_operator_definitions_different_types_different_functions_separate_directives.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

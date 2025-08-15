@@ -40,5 +40,8 @@
   ],
   "contracts": {
     "C": "memory_arrays_of_various_sizes.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

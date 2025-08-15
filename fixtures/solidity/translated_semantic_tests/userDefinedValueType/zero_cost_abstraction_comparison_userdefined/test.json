@@ -62,5 +62,8 @@
   ],
   "contracts": {
     "C": "zero_cost_abstraction_comparison_userdefined.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

@@ -34,5 +34,8 @@
   ],
   "contracts": {
     "ClientReceipt": "event_anonymous_with_topics.sol:ClientReceipt"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

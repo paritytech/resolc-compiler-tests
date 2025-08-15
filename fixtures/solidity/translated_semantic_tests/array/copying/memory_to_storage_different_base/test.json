@@ -24,5 +24,8 @@
   ],
   "contracts": {
     "C": "memory_to_storage_different_base.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

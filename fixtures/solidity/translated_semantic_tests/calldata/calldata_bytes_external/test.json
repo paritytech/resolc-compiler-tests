@@ -26,5 +26,8 @@
   "contracts": {
     "CalldataTest": "calldata_bytes_external.sol:CalldataTest"
   },
+  "modes": [
+    "E"
+  ],
   "required_evm_version": ">=byzantium"
 }

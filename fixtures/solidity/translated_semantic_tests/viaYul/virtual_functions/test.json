@@ -60,5 +60,8 @@
   ],
   "contracts": {
     "C": "virtual_functions.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

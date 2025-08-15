@@ -35,5 +35,8 @@
   ],
   "contracts": {
     "C": "abi_decode_static_array_v2.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

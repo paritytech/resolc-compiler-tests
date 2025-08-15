@@ -112,5 +112,8 @@
   ],
   "contracts": {
     "Test": "interfaces.sol:Test"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

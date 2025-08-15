@@ -111,5 +111,8 @@
   ],
   "contracts": {
     "sender": "call_forward_bytes.sol:sender"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

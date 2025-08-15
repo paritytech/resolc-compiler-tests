@@ -88,5 +88,8 @@
   ],
   "contracts": {
     "test": "mapping_array_internal_argument.sol:test"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

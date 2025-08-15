@@ -21,5 +21,8 @@
   ],
   "contracts": {
     "C": "failing_ecrecover_invalid_input.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

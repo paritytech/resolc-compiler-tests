@@ -164,5 +164,8 @@
   ],
   "contracts": {
     "c": "dynamic_arrays_in_storage.sol:c"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

@@ -82,5 +82,8 @@
   ],
   "contracts": {
     "C": "dynamic_nested_arrays.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

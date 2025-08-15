@@ -32,5 +32,8 @@
   ],
   "contracts": {
     "Main": "send_zero_ether.sol:Main"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

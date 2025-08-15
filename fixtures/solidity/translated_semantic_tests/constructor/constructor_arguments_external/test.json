@@ -47,5 +47,8 @@
   ],
   "contracts": {
     "Main": "constructor_arguments_external.sol:Main"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

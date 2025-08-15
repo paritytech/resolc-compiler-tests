@@ -21,5 +21,8 @@
   ],
   "contracts": {
     "C": "unary_too_long_literal.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

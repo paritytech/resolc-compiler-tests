@@ -106,5 +106,8 @@
   ],
   "contracts": {
     "C": "external_call_to_nonexisting.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

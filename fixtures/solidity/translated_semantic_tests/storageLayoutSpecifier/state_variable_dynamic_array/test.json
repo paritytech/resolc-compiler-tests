@@ -130,5 +130,8 @@
   ],
   "contracts": {
     "C": "state_variable_dynamic_array.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

@@ -1553,5 +1553,8 @@
   ],
   "contracts": {
     "C": "intx.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

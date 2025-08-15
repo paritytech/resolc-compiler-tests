@@ -26,5 +26,8 @@
   ],
   "contracts": {
     "X": "order_of_evaluation.sol:X"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

@@ -64,5 +64,8 @@
   ],
   "contracts": {
     "C": "array_function_pointers.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

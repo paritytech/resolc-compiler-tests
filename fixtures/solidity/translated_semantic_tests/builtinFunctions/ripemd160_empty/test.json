@@ -21,5 +21,8 @@
   ],
   "contracts": {
     "C": "ripemd160_empty.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

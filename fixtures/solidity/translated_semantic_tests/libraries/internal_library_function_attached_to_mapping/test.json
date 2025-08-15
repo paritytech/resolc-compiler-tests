@@ -23,5 +23,8 @@
   ],
   "contracts": {
     "C": "internal_library_function_attached_to_mapping.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

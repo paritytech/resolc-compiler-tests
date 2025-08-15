@@ -22,5 +22,8 @@
   ],
   "contracts": {
     "C": "struct_named_constructor.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

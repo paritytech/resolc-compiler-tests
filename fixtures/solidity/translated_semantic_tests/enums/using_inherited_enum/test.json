@@ -21,5 +21,8 @@
   ],
   "contracts": {
     "test": "using_inherited_enum.sol:test"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

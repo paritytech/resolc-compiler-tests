@@ -21,5 +21,8 @@
   ],
   "contracts": {
     "C": "crazy_elementary_typenames_on_stack.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

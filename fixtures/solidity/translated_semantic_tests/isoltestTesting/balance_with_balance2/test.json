@@ -25,5 +25,8 @@
   ],
   "contracts": {
     "ClientReceipt": "balance_with_balance2.sol:ClientReceipt"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

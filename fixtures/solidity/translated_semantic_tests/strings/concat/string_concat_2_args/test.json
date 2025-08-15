@@ -151,5 +151,8 @@
   ],
   "contracts": {
     "C": "string_concat_2_args.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

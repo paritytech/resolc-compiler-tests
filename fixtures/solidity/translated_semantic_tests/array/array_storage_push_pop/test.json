@@ -110,5 +110,8 @@
   ],
   "contracts": {
     "C": "array_storage_push_pop.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

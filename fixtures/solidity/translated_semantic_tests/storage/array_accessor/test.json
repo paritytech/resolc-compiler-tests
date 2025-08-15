@@ -121,5 +121,8 @@
   ],
   "contracts": {
     "test": "array_accessor.sol:test"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

@@ -52,5 +52,8 @@
   ],
   "contracts": {
     "C": "empty_bytes_copy.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

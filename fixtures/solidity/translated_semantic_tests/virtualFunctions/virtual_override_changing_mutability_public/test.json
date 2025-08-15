@@ -18,5 +18,8 @@
   ],
   "contracts": {
     "C": "virtual_override_changing_mutability_public.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

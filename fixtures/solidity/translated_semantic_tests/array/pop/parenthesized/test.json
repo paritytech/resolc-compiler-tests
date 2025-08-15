@@ -21,5 +21,8 @@
   ],
   "contracts": {
     "C": "parenthesized.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

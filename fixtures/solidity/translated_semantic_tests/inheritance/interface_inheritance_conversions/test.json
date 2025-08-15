@@ -49,5 +49,8 @@
   ],
   "contracts": {
     "C": "interface_inheritance_conversions.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

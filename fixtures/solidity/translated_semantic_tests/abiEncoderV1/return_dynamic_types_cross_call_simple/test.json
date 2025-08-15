@@ -25,5 +25,8 @@
   "contracts": {
     "C": "return_dynamic_types_cross_call_simple.sol:C"
   },
+  "modes": [
+    "E"
+  ],
   "required_evm_version": ">homestead"
 }

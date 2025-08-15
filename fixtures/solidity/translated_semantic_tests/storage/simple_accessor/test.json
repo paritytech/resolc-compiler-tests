@@ -21,5 +21,8 @@
   ],
   "contracts": {
     "test": "simple_accessor.sol:test"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

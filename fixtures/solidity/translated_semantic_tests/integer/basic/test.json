@@ -21,5 +21,8 @@
   ],
   "contracts": {
     "C": "basic.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

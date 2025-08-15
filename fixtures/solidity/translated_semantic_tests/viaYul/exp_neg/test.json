@@ -408,5 +408,8 @@
   ],
   "contracts": {
     "C": "exp_neg.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

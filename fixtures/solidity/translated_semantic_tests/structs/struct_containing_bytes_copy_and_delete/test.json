@@ -119,5 +119,8 @@
   ],
   "contracts": {
     "c": "struct_containing_bytes_copy_and_delete.sol:c"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

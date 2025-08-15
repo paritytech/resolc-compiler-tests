@@ -36,5 +36,8 @@
       "L": "L"
     }
   },
+  "modes": [
+    "E"
+  ],
   "required_evm_version": ">homestead"
 }

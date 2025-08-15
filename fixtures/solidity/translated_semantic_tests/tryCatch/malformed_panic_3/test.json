@@ -61,5 +61,8 @@
   "contracts": {
     "C": "malformed_panic_3.sol:C"
   },
+  "modes": [
+    "E"
+  ],
   "required_evm_version": ">=byzantium"
 }

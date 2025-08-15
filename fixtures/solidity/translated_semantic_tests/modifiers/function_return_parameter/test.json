@@ -23,5 +23,8 @@
   ],
   "contracts": {
     "B": "function_return_parameter.sol:B"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

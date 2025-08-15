@@ -21,5 +21,8 @@
   ],
   "contracts": {
     "Foo": "simple_constant_variables_test.sol:Foo"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

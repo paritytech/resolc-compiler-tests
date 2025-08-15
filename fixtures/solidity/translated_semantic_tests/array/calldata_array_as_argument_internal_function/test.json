@@ -52,5 +52,8 @@
   ],
   "contracts": {
     "Test": "calldata_array_as_argument_internal_function.sol:Test"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

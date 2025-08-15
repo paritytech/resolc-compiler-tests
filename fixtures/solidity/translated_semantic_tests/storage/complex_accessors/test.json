@@ -69,5 +69,8 @@
   ],
   "contracts": {
     "test": "complex_accessors.sol:test"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

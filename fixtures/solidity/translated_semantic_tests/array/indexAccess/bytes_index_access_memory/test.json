@@ -32,5 +32,8 @@
   ],
   "contracts": {
     "Main": "bytes_index_access_memory.sol:Main"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

@@ -34,5 +34,8 @@
   ],
   "contracts": {
     "C": "function_name_clash.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

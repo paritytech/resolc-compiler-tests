@@ -53,5 +53,8 @@
   ],
   "contracts": {
     "C": "sha256.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

@@ -44,5 +44,8 @@
   ],
   "contracts": {
     "C": "continue_in_modifier.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

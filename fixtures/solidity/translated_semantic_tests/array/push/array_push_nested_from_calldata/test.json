@@ -27,5 +27,8 @@
   ],
   "contracts": {
     "C": "array_push_nested_from_calldata.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

@@ -200,5 +200,8 @@
   ],
   "contracts": {
     "C": "shift_right_negative_lvalue_int8.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

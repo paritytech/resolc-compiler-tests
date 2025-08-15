@@ -40,5 +40,8 @@
   ],
   "contracts": {
     "C": "require_error_string_literal.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

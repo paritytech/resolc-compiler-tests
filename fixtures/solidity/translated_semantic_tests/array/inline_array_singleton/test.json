@@ -21,5 +21,8 @@
   ],
   "contracts": {
     "C": "inline_array_singleton.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

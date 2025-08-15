@@ -24,5 +24,8 @@
   ],
   "contracts": {
     "A": "conditional_with_variables.sol:A"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

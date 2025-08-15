@@ -68,5 +68,8 @@
   ],
   "contracts": {
     "B": "inherited.sol:B"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

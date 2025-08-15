@@ -248,5 +248,8 @@
   ],
   "contracts": {
     "C": "calldata_dynamic_array_to_memory.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

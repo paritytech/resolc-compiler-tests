@@ -68,5 +68,8 @@
   ],
   "contracts": {
     "C": "unicode_escapes.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

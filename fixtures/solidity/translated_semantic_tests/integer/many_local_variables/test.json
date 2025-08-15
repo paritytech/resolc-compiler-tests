@@ -25,5 +25,8 @@
   ],
   "contracts": {
     "test": "many_local_variables.sol:test"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

@@ -24,5 +24,8 @@
   ],
   "contracts": {
     "C": "internal_library_function_attached_to_fixed_bytes.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

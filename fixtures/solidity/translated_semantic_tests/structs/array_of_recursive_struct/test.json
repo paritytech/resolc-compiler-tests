@@ -18,5 +18,8 @@
   ],
   "contracts": {
     "Test": "array_of_recursive_struct.sol:Test"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

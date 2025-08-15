@@ -23,5 +23,8 @@
   ],
   "contracts": {
     "Test": "memory_structs_as_function_args.sol:Test"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

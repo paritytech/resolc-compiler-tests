@@ -40,5 +40,8 @@
   ],
   "contracts": {
     "C": "mapping.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

@@ -24,5 +24,8 @@
   "contracts": {
     "B": "fallback_override2.sol:B"
   },
+  "modes": [
+    "E"
+  ],
   "required_evm_version": ">=byzantium"
 }

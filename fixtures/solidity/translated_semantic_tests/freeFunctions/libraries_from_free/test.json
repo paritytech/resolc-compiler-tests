@@ -28,5 +28,8 @@
     "libraries_from_free.sol": {
       "L": "L"
     }
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

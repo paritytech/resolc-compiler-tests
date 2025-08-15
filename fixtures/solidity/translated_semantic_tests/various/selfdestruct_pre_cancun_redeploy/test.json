@@ -168,5 +168,8 @@
   "contracts": {
     "D": "selfdestruct_pre_cancun_redeploy.sol:D"
   },
+  "modes": [
+    "E"
+  ],
   "required_evm_version": "=shanghai"
 }

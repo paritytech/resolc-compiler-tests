@@ -46,5 +46,8 @@
   ],
   "contracts": {
     "C": "mapping_to_struct.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

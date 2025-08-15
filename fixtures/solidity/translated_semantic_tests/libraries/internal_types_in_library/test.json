@@ -28,5 +28,8 @@
     "internal_types_in_library.sol": {
       "Lib": "Lib"
     }
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

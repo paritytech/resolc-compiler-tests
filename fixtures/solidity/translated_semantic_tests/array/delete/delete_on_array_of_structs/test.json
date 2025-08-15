@@ -21,5 +21,8 @@
   ],
   "contracts": {
     "C": "delete_on_array_of_structs.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

@@ -43,5 +43,8 @@
   "contracts": {
     "C": "calldata_struct_simple.sol:C"
   },
+  "modes": [
+    "E"
+  ],
   "required_evm_version": ">homestead"
 }

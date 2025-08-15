@@ -54,5 +54,8 @@
   "contracts": {
     "C": "return_dynamic_types_cross_call_out_of_range_1.sol:C"
   },
+  "modes": [
+    "E"
+  ],
   "required_evm_version": "=homestead"
 }

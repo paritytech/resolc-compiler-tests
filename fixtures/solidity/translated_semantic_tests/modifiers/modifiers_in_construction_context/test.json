@@ -18,5 +18,8 @@
   ],
   "contracts": {
     "B": "modifiers_in_construction_context.sol:B"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

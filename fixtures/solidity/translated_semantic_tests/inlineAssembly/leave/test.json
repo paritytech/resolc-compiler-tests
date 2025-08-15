@@ -21,5 +21,8 @@
   ],
   "contracts": {
     "C": "leave.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

@@ -47,5 +47,8 @@
   "contracts": {
     "C": "structured.sol:C"
   },
+  "modes": [
+    "E"
+  ],
   "required_evm_version": ">=byzantium"
 }

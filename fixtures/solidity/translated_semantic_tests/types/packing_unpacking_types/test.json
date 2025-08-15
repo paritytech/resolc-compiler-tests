@@ -25,5 +25,8 @@
   ],
   "contracts": {
     "test": "packing_unpacking_types.sol:test"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

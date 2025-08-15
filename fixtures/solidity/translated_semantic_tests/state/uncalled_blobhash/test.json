@@ -24,5 +24,8 @@
   "contracts": {
     "C": "uncalled_blobhash.sol:C"
   },
+  "modes": [
+    "E"
+  ],
   "required_evm_version": ">=cancun"
 }

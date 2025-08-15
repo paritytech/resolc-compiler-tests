@@ -21,5 +21,8 @@
   ],
   "contracts": {
     "C": "array_push_nested_from_memory.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

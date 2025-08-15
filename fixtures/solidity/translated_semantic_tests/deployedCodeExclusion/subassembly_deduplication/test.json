@@ -21,5 +21,8 @@
   ],
   "contracts": {
     "C": "subassembly_deduplication.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

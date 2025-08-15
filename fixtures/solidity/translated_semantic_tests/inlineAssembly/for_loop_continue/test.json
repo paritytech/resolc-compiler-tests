@@ -21,5 +21,8 @@
   ],
   "contracts": {
     "C": "for_loop_continue.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

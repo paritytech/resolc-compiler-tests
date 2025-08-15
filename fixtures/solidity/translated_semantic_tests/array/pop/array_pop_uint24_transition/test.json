@@ -28,5 +28,8 @@
   ],
   "contracts": {
     "c": "array_pop_uint24_transition.sol:c"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

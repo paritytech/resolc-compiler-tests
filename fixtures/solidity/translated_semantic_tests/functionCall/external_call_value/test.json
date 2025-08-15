@@ -42,5 +42,8 @@
   ],
   "contracts": {
     "C": "external_call_value.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

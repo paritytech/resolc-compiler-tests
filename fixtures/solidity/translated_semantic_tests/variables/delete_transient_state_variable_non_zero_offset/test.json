@@ -24,5 +24,8 @@
   "contracts": {
     "C": "delete_transient_state_variable_non_zero_offset.sol:C"
   },
+  "modes": [
+    "E"
+  ],
   "required_evm_version": ">=cancun"
 }

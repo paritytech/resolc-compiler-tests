@@ -21,5 +21,8 @@
   ],
   "contracts": {
     "C": "consecutive_operator_invocations.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

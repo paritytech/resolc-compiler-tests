@@ -21,5 +21,8 @@
   ],
   "contracts": {
     "test": "conditional_expression_false_literal.sol:test"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

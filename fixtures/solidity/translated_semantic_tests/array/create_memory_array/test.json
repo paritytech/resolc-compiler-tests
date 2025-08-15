@@ -24,5 +24,8 @@
   ],
   "contracts": {
     "C": "create_memory_array.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

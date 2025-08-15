@@ -29,5 +29,8 @@
   ],
   "contracts": {
     "C": "calldata_2d_bytes_to_memory.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

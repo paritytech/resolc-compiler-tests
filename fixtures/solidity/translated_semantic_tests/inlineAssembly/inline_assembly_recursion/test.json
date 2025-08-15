@@ -83,5 +83,8 @@
   ],
   "contracts": {
     "C": "inline_assembly_recursion.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

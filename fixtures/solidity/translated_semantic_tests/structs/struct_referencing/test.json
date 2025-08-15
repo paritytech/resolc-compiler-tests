@@ -133,5 +133,8 @@
     "struct_referencing.sol": {
       "L": "L"
     }
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

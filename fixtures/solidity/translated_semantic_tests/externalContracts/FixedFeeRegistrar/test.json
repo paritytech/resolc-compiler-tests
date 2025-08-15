@@ -473,5 +473,8 @@
   ],
   "contracts": {
     "FixedFeeRegistrar": "FixedFeeRegistrar.sol:FixedFeeRegistrar"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

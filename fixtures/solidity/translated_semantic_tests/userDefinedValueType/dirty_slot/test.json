@@ -172,5 +172,8 @@
   ],
   "contracts": {
     "C": "dirty_slot.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

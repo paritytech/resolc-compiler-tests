@@ -66,5 +66,8 @@
   ],
   "contracts": {
     "test": "accessors_mapping_for_array.sol:test"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

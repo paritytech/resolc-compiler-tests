@@ -93,5 +93,8 @@
   ],
   "contracts": {
     "C": "nested_array_of_structs_calldata_to_memory.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

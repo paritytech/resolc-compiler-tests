@@ -114,5 +114,8 @@
   ],
   "contracts": {
     "C": "dynamic_memory_copy.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

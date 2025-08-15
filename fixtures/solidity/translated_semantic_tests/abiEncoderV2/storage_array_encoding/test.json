@@ -63,5 +63,8 @@
   "contracts": {
     "C": "storage_array_encoding.sol:C"
   },
+  "modes": [
+    "E"
+  ],
   "required_evm_version": ">homestead"
 }

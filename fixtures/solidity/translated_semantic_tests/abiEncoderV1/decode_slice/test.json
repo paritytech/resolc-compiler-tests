@@ -27,5 +27,8 @@
   ],
   "contracts": {
     "C": "decode_slice.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

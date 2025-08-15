@@ -136,5 +136,8 @@
   ],
   "contracts": {
     "test": "compound_assign.sol:test"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

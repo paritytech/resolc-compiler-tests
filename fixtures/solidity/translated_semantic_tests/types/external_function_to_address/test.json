@@ -36,5 +36,8 @@
   ],
   "contracts": {
     "C": "external_function_to_address.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

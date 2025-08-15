@@ -121,5 +121,8 @@
   "contracts": {
     "C": "calldata_array_static.sol:C"
   },
+  "modes": [
+    "E"
+  ],
   "required_evm_version": ">homestead"
 }

@@ -36,5 +36,8 @@
   ],
   "contracts": {
     "C": "value_test.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

@@ -25,5 +25,8 @@
   "contracts": {
     "C": "transient_storage_state_variable_abstract_contract.sol:C"
   },
+  "modes": [
+    "E"
+  ],
   "required_evm_version": ">=cancun"
 }

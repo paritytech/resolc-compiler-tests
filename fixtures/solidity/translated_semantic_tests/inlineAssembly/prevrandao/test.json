@@ -24,5 +24,8 @@
   "contracts": {
     "C": "prevrandao.sol:C"
   },
+  "modes": [
+    "E"
+  ],
   "required_evm_version": ">=paris"
 }

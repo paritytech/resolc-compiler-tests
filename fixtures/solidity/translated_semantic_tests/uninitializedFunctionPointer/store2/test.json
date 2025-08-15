@@ -22,5 +22,8 @@
   ],
   "contracts": {
     "InvalidTest": "store2.sol:InvalidTest"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

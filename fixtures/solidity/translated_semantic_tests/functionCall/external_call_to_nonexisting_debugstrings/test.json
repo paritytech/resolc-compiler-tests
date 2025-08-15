@@ -107,6 +107,9 @@
   "contracts": {
     "C": "external_call_to_nonexisting_debugstrings.sol:C"
   },
+  "modes": [
+    "E"
+  ],
   "required_evm_version": ">=byzantium",
   "compiler_directives": {
     "revert_string_handling": "debug"

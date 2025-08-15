@@ -74,5 +74,8 @@
   ],
   "contracts": {
     "test": "nested_tuples.sol:test"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

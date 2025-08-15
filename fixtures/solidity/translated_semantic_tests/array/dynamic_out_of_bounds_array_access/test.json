@@ -139,5 +139,8 @@
   ],
   "contracts": {
     "c": "dynamic_out_of_bounds_array_access.sol:c"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

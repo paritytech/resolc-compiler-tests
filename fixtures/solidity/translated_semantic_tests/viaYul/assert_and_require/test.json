@@ -66,5 +66,8 @@
   ],
   "contracts": {
     "C": "assert_and_require.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

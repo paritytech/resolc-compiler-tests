@@ -29,5 +29,8 @@
   ],
   "contracts": {
     "D": "evaluation_order.sol:D"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

@@ -233,5 +233,8 @@
   "contracts": {
     "C": "calldata_array_multi_dynamic.sol:C"
   },
+  "modes": [
+    "E"
+  ],
   "required_evm_version": ">homestead"
 }

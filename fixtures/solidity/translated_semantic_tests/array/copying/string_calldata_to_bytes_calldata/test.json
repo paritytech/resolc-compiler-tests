@@ -27,5 +27,8 @@
   ],
   "contracts": {
     "C": "string_calldata_to_bytes_calldata.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

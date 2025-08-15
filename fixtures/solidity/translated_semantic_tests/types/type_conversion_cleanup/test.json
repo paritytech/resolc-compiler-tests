@@ -21,5 +21,8 @@
   ],
   "contracts": {
     "Test": "type_conversion_cleanup.sol:Test"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

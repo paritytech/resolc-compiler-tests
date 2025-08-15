@@ -23,5 +23,8 @@
   ],
   "contracts": {
     "test": "inline_member_init.sol:test"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

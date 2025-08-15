@@ -49,5 +49,8 @@
   ],
   "contracts": {
     "C": "tx_origin.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

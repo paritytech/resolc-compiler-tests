@@ -22,5 +22,8 @@
   ],
   "contracts": {
     "test": "signed_base.sol:test"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

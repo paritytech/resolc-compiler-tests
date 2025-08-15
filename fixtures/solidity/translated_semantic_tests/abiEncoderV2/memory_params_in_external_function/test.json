@@ -26,5 +26,8 @@
   ],
   "contracts": {
     "C": "memory_params_in_external_function.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

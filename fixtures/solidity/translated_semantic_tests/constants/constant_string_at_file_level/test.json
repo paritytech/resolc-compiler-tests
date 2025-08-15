@@ -68,5 +68,8 @@
   ],
   "contracts": {
     "C": "constant_string_at_file_level.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

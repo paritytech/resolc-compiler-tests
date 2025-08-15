@@ -64,5 +64,8 @@
   ],
   "contracts": {
     "c": "array_copy_calldata_storage.sol:c"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

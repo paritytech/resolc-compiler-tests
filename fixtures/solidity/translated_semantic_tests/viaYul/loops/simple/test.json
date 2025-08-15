@@ -70,5 +70,8 @@
   ],
   "contracts": {
     "C": "simple.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

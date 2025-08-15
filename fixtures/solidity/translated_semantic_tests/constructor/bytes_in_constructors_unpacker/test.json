@@ -55,5 +55,8 @@
   ],
   "contracts": {
     "Test": "bytes_in_constructors_unpacker.sol:Test"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

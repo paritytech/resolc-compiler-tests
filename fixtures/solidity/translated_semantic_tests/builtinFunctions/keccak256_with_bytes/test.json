@@ -21,5 +21,8 @@
   ],
   "contracts": {
     "c": "keccak256_with_bytes.sol:c"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

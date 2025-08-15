@@ -40,5 +40,8 @@
   "contracts": {
     "C": "operator_making_view_external_call.sol:C"
   },
+  "modes": [
+    "E"
+  ],
   "required_evm_version": ">=constantinople"
 }

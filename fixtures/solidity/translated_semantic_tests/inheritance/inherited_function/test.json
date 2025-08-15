@@ -21,5 +21,8 @@
   ],
   "contracts": {
     "B": "inherited_function.sol:B"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

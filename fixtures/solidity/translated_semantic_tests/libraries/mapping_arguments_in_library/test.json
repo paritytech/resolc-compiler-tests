@@ -230,5 +230,8 @@
     "mapping_arguments_in_library.sol": {
       "Lib": "Lib"
     }
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

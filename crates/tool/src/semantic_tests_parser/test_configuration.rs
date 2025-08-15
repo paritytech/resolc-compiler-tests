@@ -6,11 +6,11 @@ use anyhow::{Error, Result, bail};
 #[derive(Clone, Debug, PartialEq, Eq, PartialOrd, Ord, Hash, Default)]
 pub struct TestConfiguration {
     /// Controls if the test case compiles through the Yul IR.
-    pub compile_via_yul: Option<ItemConfig>,
+    pub compile_via_yul: ItemConfig,
     /// Controls if the compilation should be done to EWASM.
-    pub compile_to_ewasm: Option<ItemConfig>,
+    pub compile_to_ewasm: ItemConfig,
     /// Controls if ABI encoding should be restricted to the V1 ABI encoder.
-    pub abi_encoder_v1_only: Option<ItemConfig>,
+    pub abi_encoder_v1_only: ItemConfig,
     /// Controls the EVM Version that the test is compatible with.
     pub evm_version: Option<EvmVersionRequirement>,
     /// Controls how the revert strings should be handled.
@@ -37,13 +37,13 @@ impl TestConfiguration {
     ) -> Result<&mut Self> {
         match key.as_ref() {
             "compileViaYul" => {
-                self.compile_via_yul = Some(value.as_ref().parse()?)
+                self.compile_via_yul = value.as_ref().parse()?;
             }
             "compileToEwasm" => {
-                self.compile_to_ewasm = Some(value.as_ref().parse()?)
+                self.compile_to_ewasm = value.as_ref().parse()?;
             }
             "ABIEncoderV1Only" => {
-                self.abi_encoder_v1_only = Some(value.as_ref().parse()?)
+                self.abi_encoder_v1_only = value.as_ref().parse()?;
             }
             "EVMVersion" => self.evm_version = Some(value.as_ref().parse()?),
             "revertStrings" => {
@@ -91,6 +91,12 @@ pub enum ItemConfig {
     /// The `also` variant specifies that both `true` and `false` should be
     /// executed.
     Also,
+}
+
+impl Default for ItemConfig {
+    fn default() -> Self {
+        Self::Boolean(false)
+    }
 }
 
 impl FromStr for ItemConfig {

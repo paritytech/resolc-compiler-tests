@@ -105,5 +105,8 @@
     "enum_referencing.sol": {
       "L": "L"
     }
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

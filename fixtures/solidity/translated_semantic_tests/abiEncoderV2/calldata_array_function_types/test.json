@@ -42,5 +42,8 @@
   ],
   "contracts": {
     "C": "calldata_array_function_types.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

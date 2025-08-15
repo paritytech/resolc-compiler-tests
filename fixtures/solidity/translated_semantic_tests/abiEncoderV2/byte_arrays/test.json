@@ -52,5 +52,8 @@
   ],
   "contracts": {
     "C": "byte_arrays.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

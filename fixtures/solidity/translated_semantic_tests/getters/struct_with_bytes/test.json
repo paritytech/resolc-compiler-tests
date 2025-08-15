@@ -24,5 +24,8 @@
   ],
   "contracts": {
     "C": "struct_with_bytes.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

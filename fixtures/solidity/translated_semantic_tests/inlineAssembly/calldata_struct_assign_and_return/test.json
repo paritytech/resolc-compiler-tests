@@ -80,5 +80,8 @@
   ],
   "contracts": {
     "C": "calldata_struct_assign_and_return.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

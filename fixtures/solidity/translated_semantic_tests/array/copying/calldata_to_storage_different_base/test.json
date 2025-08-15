@@ -30,5 +30,8 @@
   ],
   "contracts": {
     "C": "calldata_to_storage_different_base.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

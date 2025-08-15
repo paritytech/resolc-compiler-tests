@@ -229,6 +229,9 @@
   "contracts": {
     "C": "bytes_concat_different_types.sol:C"
   },
+  "modes": [
+    "E"
+  ],
   "compiler_directives": {
     "revert_string_handling": "debug"
   }

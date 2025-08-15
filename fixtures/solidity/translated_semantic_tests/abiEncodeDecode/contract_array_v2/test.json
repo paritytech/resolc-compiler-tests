@@ -89,5 +89,8 @@
   ],
   "contracts": {
     "C": "contract_array_v2.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

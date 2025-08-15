@@ -84,5 +84,8 @@
   ],
   "contracts": {
     "C": "abi_encode_with_signature.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

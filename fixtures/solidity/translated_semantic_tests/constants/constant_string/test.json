@@ -53,5 +53,8 @@
   ],
   "contracts": {
     "C": "constant_string.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

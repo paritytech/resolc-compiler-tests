@@ -23,5 +23,8 @@
   ],
   "contracts": {
     "Main": "reusing_memory.sol:Main"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

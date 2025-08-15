@@ -24,5 +24,8 @@
   ],
   "contracts": {
     "test": "struct_assign_reference_to_struct.sol:test"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

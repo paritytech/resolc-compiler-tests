@@ -34,5 +34,8 @@
   ],
   "contracts": {
     "D": "unchecked_operators.sol:D"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

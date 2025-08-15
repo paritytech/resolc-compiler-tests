@@ -22,5 +22,8 @@
   "contracts": {
     "C": "inline_assembly_transient_storage_access_inside_function.sol:C"
   },
+  "modes": [
+    "E"
+  ],
   "required_evm_version": ">=cancun"
 }

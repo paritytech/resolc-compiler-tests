@@ -36,5 +36,8 @@
   ],
   "contracts": {
     "C": "same_function_in_construction_and_runtime.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

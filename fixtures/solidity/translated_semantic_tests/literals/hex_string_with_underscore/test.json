@@ -23,5 +23,8 @@
   ],
   "contracts": {
     "C": "hex_string_with_underscore.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

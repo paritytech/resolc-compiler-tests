@@ -99,5 +99,8 @@
   ],
   "contracts": {
     "C": "copy_struct_to_array_stored_in_mapping.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

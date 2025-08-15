@@ -21,5 +21,8 @@
   ],
   "contracts": {
     "C": "implicit_cast_function_call.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

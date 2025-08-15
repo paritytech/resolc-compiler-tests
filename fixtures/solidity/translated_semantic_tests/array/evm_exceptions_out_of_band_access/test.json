@@ -48,5 +48,8 @@
   ],
   "contracts": {
     "A": "evm_exceptions_out_of_band_access.sol:A"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

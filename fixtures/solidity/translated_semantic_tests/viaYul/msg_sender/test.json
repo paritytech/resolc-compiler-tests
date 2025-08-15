@@ -21,5 +21,8 @@
   ],
   "contracts": {
     "C": "msg_sender.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

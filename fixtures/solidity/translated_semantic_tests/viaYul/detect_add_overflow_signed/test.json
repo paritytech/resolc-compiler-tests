@@ -464,5 +464,8 @@
   ],
   "contracts": {
     "C": "detect_add_overflow_signed.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

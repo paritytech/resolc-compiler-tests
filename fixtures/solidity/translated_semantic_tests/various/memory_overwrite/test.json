@@ -23,5 +23,8 @@
   ],
   "contracts": {
     "C": "memory_overwrite.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

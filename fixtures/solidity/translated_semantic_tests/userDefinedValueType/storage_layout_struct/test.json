@@ -360,5 +360,8 @@
   ],
   "contracts": {
     "C": "storage_layout_struct.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

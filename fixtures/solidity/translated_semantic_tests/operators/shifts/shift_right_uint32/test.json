@@ -72,5 +72,8 @@
   ],
   "contracts": {
     "C": "shift_right_uint32.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

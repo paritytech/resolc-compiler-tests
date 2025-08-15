@@ -44,5 +44,8 @@
   ],
   "contracts": {
     "C": "require_error_multiple_arguments.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

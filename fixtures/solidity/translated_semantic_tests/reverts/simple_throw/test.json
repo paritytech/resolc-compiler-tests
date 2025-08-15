@@ -35,5 +35,8 @@
   ],
   "contracts": {
     "Test": "simple_throw.sol:Test"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

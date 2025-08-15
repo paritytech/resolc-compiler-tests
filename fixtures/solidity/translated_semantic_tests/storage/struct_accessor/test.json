@@ -25,5 +25,8 @@
   ],
   "contracts": {
     "test": "struct_accessor.sol:test"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

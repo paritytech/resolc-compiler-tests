@@ -35,5 +35,8 @@
   "contracts": {
     "A": "salted_create.sol:A"
   },
+  "modes": [
+    "E"
+  ],
   "required_evm_version": ">=constantinople"
 }

@@ -31,5 +31,8 @@
   ],
   "contracts": {
     "C": "nested_calldata_struct.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

@@ -126,5 +126,8 @@
   "contracts": {
     "C": "array_storage_push_empty_length_address.sol:C"
   },
+  "modes": [
+    "E"
+  ],
   "required_evm_version": ">=petersburg"
 }

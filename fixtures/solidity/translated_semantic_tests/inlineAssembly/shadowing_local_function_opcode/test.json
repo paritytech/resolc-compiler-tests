@@ -22,5 +22,8 @@
   ],
   "contracts": {
     "C": "shadowing_local_function_opcode.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

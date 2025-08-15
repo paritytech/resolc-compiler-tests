@@ -79,5 +79,8 @@
   "contracts": {
     "C": "state_variable_reference_types_slot_offset.sol:C"
   },
+  "modes": [
+    "E"
+  ],
   "required_evm_version": ">=cancun"
 }

@@ -60,5 +60,8 @@
   ],
   "contracts": {
     "C": "assign_from_immutables.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

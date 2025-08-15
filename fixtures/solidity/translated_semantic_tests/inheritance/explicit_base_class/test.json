@@ -34,5 +34,8 @@
   ],
   "contracts": {
     "Derived": "explicit_base_class.sol:Derived"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

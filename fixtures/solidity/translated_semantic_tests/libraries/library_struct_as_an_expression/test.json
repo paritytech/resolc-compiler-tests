@@ -21,5 +21,8 @@
   ],
   "contracts": {
     "Tsra": "library_struct_as_an_expression.sol:Tsra"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

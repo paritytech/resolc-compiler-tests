@@ -176,5 +176,8 @@
   "contracts": {
     "D": "selfdestruct_post_cancun_multiple_beneficiaries.sol:D"
   },
+  "modes": [
+    "E"
+  ],
   "required_evm_version": ">=cancun"
 }

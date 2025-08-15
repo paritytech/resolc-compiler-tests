@@ -18,5 +18,8 @@
   ],
   "contracts": {
     "C": "nested_bytes_push.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

@@ -21,5 +21,8 @@
   ],
   "contracts": {
     "C": "calldata_internal_library.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

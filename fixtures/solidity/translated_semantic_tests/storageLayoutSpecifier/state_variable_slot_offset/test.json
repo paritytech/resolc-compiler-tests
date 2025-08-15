@@ -50,5 +50,8 @@
   ],
   "contracts": {
     "C": "state_variable_slot_offset.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

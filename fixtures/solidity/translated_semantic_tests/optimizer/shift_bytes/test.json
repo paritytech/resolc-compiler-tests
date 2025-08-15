@@ -42,5 +42,8 @@
   ],
   "contracts": {
     "C": "shift_bytes.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

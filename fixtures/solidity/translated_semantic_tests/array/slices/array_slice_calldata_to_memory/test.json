@@ -80,5 +80,8 @@
   ],
   "contracts": {
     "C": "array_slice_calldata_to_memory.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

@@ -30,5 +30,8 @@
   ],
   "contracts": {
     "B": "fixed_arrays_as_return_type.sol:B"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

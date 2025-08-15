@@ -14,5 +14,8 @@
   ],
   "contracts": {
     "StorageEmpty": "storage_empty.sol:StorageEmpty"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

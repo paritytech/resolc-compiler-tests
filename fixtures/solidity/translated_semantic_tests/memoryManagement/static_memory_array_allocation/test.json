@@ -34,5 +34,8 @@
   ],
   "contracts": {
     "C": "static_memory_array_allocation.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

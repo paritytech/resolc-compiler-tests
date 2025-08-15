@@ -31,5 +31,8 @@
   ],
   "contracts": {
     "C": "unused_store_storage_removal_bug.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

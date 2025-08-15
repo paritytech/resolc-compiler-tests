@@ -117,5 +117,8 @@
   ],
   "contracts": {
     "C": "bytes_and_strings.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

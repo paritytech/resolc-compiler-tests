@@ -40,5 +40,8 @@
     "user_defined_types_mapping_storage.sol": {
       "L": "L"
     }
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

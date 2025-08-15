@@ -36,5 +36,8 @@
   ],
   "contracts": {
     "C": "calldata_struct_to_memory_tuple_assignment.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

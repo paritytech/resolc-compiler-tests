@@ -68,5 +68,8 @@
   ],
   "contracts": {
     "Homer": "homer_interfaceId.sol:Homer"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

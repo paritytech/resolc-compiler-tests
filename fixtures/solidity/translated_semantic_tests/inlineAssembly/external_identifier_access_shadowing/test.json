@@ -21,5 +21,8 @@
   ],
   "contracts": {
     "C": "external_identifier_access_shadowing.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

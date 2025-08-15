@@ -43,5 +43,8 @@
   ],
   "contracts": {
     "C": "checked_modifier_called_by_unchecked.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

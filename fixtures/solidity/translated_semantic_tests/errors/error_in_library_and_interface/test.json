@@ -53,5 +53,8 @@
   ],
   "contracts": {
     "C": "error_in_library_and_interface.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

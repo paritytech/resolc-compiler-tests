@@ -22,5 +22,8 @@
   ],
   "contracts": {
     "C": "cleanup_in_compound_assign.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

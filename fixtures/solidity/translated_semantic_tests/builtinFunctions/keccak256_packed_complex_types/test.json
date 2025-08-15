@@ -23,5 +23,8 @@
   ],
   "contracts": {
     "C": "keccak256_packed_complex_types.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

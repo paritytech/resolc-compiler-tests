@@ -21,5 +21,8 @@
   ],
   "contracts": {
     "A": "conditional_true_false_literal.sol:A"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

@@ -34,5 +34,8 @@
   "contracts": {
     "D": "creation_function_call_with_salt.sol:D"
   },
+  "modes": [
+    "E"
+  ],
   "required_evm_version": ">=constantinople"
 }

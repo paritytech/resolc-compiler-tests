@@ -158,5 +158,8 @@
   ],
   "contracts": {
     "C": "array_storage_index_boundary_test.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

@@ -23,5 +23,8 @@
   ],
   "contracts": {
     "C": "array_3d_assignment.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

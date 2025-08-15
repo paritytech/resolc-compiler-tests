@@ -21,5 +21,8 @@
   ],
   "contracts": {
     "C": "inline_assembly_read_and_write_stack.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

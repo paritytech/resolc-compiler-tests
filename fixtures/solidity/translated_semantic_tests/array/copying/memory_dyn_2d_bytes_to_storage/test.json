@@ -21,5 +21,8 @@
   ],
   "contracts": {
     "C": "memory_dyn_2d_bytes_to_storage.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

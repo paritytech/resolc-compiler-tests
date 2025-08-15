@@ -34,5 +34,8 @@
   ],
   "contracts": {
     "C": "inline_assembly_direct_load.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

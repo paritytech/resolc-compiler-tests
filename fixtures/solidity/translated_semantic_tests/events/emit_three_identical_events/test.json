@@ -38,5 +38,8 @@
   ],
   "contracts": {
     "C": "emit_three_identical_events.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

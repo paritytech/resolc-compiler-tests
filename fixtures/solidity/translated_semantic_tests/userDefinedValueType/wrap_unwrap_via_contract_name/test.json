@@ -68,5 +68,8 @@
   ],
   "contracts": {
     "D": "wrap_unwrap_via_contract_name.sol:D"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

@@ -92,5 +92,8 @@
   ],
   "contracts": {
     "C": "state_variable_arithmetic_expression.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

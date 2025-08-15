@@ -128,5 +128,8 @@
   ],
   "contracts": {
     "C": "array_storage_index_access.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

@@ -24,5 +24,8 @@
   ],
   "contracts": {
     "c": "array_push_struct.sol:c"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

@@ -23,5 +23,8 @@
   ],
   "contracts": {
     "C": "array_2d_new.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

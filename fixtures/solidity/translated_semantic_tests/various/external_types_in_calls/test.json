@@ -35,5 +35,8 @@
   ],
   "contracts": {
     "C": "external_types_in_calls.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

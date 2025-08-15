@@ -30,5 +30,8 @@
   ],
   "contracts": {
     "C": "array_slice_calldata_to_storage.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

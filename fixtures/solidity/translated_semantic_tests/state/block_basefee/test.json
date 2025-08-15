@@ -61,5 +61,8 @@
   "contracts": {
     "C": "block_basefee.sol:C"
   },
+  "modes": [
+    "E"
+  ],
   "required_evm_version": ">=london"
 }

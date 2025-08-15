@@ -34,5 +34,8 @@
   ],
   "contracts": {
     "C": "create_calldata.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

@@ -60,5 +60,8 @@
   ],
   "contracts": {
     "C": "function_types_sig.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

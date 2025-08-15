@@ -24,5 +24,8 @@
   ],
   "contracts": {
     "D": "inheritance.sol:D"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

@@ -40,5 +40,8 @@
   ],
   "contracts": {
     "C": "shift_underflow_negative_rvalue.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

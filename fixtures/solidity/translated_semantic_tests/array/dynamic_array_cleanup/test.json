@@ -62,5 +62,8 @@
   ],
   "contracts": {
     "c": "dynamic_array_cleanup.sol:c"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

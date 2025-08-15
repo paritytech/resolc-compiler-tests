@@ -71,5 +71,8 @@
   ],
   "contracts": {
     "C": "address_code.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

@@ -23,5 +23,8 @@
   ],
   "contracts": {
     "CopyTest": "recursive_storage_memory.sol:CopyTest"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

@@ -26,5 +26,8 @@
   ],
   "contracts": {
     "C": "struct_constructor_nested.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

@@ -23,5 +23,8 @@
   ],
   "contracts": {
     "C": "variable_cleanup_sstore.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

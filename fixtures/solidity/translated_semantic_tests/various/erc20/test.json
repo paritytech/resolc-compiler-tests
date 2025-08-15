@@ -161,5 +161,8 @@
   ],
   "contracts": {
     "ERC20": "erc20.sol:ERC20"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

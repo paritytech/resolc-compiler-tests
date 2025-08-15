@@ -714,5 +714,8 @@
     "mapping_returns_in_library.sol": {
       "Lib": "Lib"
     }
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

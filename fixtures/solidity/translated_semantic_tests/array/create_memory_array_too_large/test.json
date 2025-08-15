@@ -36,5 +36,8 @@
   ],
   "contracts": {
     "C": "create_memory_array_too_large.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

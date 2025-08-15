@@ -69,5 +69,8 @@
   ],
   "contracts": {
     "C": "state_variable_mapping.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

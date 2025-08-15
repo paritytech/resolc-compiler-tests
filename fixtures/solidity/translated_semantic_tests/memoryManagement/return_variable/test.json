@@ -23,5 +23,8 @@
   ],
   "contracts": {
     "C": "return_variable.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

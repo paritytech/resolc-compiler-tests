@@ -49,5 +49,8 @@
   ],
   "contracts": {
     "C": "block_coinbase.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

@@ -68,5 +68,8 @@
   ],
   "contracts": {
     "C": "string_and_bytes.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

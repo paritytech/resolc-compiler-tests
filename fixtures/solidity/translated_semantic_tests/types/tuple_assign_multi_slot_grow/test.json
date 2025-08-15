@@ -23,5 +23,8 @@
   ],
   "contracts": {
     "C": "tuple_assign_multi_slot_grow.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

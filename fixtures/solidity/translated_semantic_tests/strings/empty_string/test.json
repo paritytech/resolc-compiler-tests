@@ -22,5 +22,8 @@
   ],
   "contracts": {
     "C": "empty_string.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

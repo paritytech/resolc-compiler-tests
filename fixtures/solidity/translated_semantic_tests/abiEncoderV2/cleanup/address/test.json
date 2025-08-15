@@ -266,5 +266,8 @@
   ],
   "contracts": {
     "C": "address.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

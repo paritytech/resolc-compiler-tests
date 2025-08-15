@@ -26,5 +26,8 @@
   ],
   "contracts": {
     "C": "require_inherited_error.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

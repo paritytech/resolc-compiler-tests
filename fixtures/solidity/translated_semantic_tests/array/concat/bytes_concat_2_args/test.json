@@ -151,5 +151,8 @@
   ],
   "contracts": {
     "C": "bytes_concat_2_args.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

@@ -118,5 +118,8 @@
   ],
   "contracts": {
     "C": "string_literal_assign_to_storage_bytes.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

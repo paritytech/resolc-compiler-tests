@@ -433,5 +433,8 @@
   ],
   "contracts": {
     "C": "calldata_struct_array_reencode.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

@@ -37,5 +37,8 @@
   ],
   "contracts": {
     "Test": "calldata_nested_array_copy_to_memory.sol:Test"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

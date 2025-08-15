@@ -156,5 +156,8 @@
   ],
   "contracts": {
     "C": "shift_right_garbled_signed_v2.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

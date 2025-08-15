@@ -167,5 +167,8 @@
   "contracts": {
     "C": "panic.sol:C"
   },
+  "modes": [
+    "E"
+  ],
   "required_evm_version": ">=byzantium"
 }

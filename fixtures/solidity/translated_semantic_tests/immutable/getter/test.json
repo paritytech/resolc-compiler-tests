@@ -21,5 +21,8 @@
   ],
   "contracts": {
     "C": "getter.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

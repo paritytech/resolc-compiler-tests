@@ -100,5 +100,8 @@
   "contracts": {
     "test": "enum_explicit_overflow.sol:test"
   },
+  "modes": [
+    "E"
+  ],
   "required_evm_version": ">=byzantium"
 }

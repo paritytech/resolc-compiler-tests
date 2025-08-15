@@ -111,5 +111,8 @@
   ],
   "contracts": {
     "Child": "base_overload.sol:Child"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

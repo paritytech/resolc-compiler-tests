@@ -39,5 +39,8 @@
   ],
   "contracts": {
     "C": "event_dynamic_nested_array_storage_v2.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

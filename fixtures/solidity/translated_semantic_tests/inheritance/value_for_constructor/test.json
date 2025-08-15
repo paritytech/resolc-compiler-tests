@@ -59,5 +59,8 @@
   ],
   "contracts": {
     "Main": "value_for_constructor.sol:Main"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

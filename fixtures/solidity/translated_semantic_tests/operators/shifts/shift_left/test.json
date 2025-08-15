@@ -104,5 +104,8 @@
   ],
   "contracts": {
     "C": "shift_left.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

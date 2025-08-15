@@ -218,5 +218,8 @@
   ],
   "contracts": {
     "C": "parameter.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

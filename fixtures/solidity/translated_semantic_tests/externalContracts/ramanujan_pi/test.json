@@ -31,5 +31,8 @@
   ],
   "contracts": {
     "test": "ramanujan_pi.sol:test"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

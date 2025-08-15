@@ -23,5 +23,8 @@
   "contracts": {
     "C": "array_storage_pop_zero_length.sol:C"
   },
+  "modes": [
+    "E"
+  ],
   "required_evm_version": ">=petersburg"
 }

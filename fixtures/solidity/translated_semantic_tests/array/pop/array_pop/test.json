@@ -22,5 +22,8 @@
   ],
   "contracts": {
     "c": "array_pop.sol:c"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

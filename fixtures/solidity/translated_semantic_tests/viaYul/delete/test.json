@@ -35,5 +35,8 @@
   ],
   "contracts": {
     "C": "delete.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

@@ -170,5 +170,8 @@
   ],
   "contracts": {
     "C": "abi_encode_call_is_consistent.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

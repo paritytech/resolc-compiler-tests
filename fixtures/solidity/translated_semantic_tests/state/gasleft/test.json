@@ -47,5 +47,8 @@
   ],
   "contracts": {
     "C": "gasleft.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

@@ -21,5 +21,8 @@
   ],
   "contracts": {
     "test": "struct_delete_member.sol:test"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

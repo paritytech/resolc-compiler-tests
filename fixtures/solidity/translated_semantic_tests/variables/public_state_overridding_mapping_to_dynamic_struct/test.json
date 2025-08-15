@@ -87,5 +87,8 @@
   ],
   "contracts": {
     "X": "public_state_overridding_mapping_to_dynamic_struct.sol:X"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

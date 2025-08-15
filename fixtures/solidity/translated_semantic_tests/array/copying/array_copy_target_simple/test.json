@@ -25,5 +25,8 @@
   ],
   "contracts": {
     "c": "array_copy_target_simple.sol:c"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

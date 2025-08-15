@@ -36,5 +36,8 @@
   ],
   "contracts": {
     "C": "calldata_dyn_2d_bytes_to_memory.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

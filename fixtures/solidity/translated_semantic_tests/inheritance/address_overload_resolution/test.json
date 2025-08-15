@@ -35,5 +35,8 @@
   "contracts": {
     "D": "address_overload_resolution.sol:D"
   },
+  "modes": [
+    "E"
+  ],
   "required_evm_version": ">=constantinople"
 }

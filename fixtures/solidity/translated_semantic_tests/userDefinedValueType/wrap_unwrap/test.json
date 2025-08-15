@@ -18,5 +18,8 @@
   ],
   "contracts": {
     "C": "wrap_unwrap.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

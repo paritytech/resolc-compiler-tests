@@ -23,5 +23,8 @@
   ],
   "contracts": {
     "c": "array_copy_target_leftover.sol:c"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

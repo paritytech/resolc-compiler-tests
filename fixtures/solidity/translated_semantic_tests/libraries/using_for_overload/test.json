@@ -42,5 +42,8 @@
     "using_for_overload.sol": {
       "D": "D"
     }
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

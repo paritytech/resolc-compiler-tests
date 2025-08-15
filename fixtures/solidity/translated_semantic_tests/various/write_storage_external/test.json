@@ -47,5 +47,8 @@
   ],
   "contracts": {
     "D": "write_storage_external.sol:D"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

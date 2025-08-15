@@ -53,5 +53,8 @@
   ],
   "contracts": {
     "Test": "name_other_contract.sol:Test"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

@@ -64,5 +64,8 @@
   ],
   "contracts": {
     "C": "inheritance_state_variable_slot_offset.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

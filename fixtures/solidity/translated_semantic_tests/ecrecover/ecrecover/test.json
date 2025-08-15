@@ -26,5 +26,8 @@
   ],
   "contracts": {
     "test": "ecrecover.sol:test"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

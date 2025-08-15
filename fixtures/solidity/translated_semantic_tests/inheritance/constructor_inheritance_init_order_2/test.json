@@ -31,5 +31,8 @@
   ],
   "contracts": {
     "B": "constructor_inheritance_init_order_2.sol:B"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

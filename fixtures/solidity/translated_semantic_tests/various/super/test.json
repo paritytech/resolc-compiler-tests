@@ -21,5 +21,8 @@
   ],
   "contracts": {
     "D": "super.sol:D"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

@@ -68,5 +68,8 @@
   ],
   "contracts": {
     "C": "inline_assembly_switch.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

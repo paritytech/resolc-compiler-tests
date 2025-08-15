@@ -61,5 +61,8 @@
   ],
   "contracts": {
     "C": "constructor.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

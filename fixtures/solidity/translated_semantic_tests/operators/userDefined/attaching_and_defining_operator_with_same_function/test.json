@@ -34,5 +34,8 @@
   ],
   "contracts": {
     "C": "attaching_and_defining_operator_with_same_function.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

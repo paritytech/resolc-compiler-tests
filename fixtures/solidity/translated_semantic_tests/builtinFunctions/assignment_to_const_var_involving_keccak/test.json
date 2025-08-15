@@ -21,5 +21,8 @@
   ],
   "contracts": {
     "C": "assignment_to_const_var_involving_keccak.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

@@ -70,5 +70,8 @@
   ],
   "contracts": {
     "C": "copy_byte_array_in_struct_to_storage.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

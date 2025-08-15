@@ -104,5 +104,8 @@
   ],
   "contracts": {
     "A": "empty_calldata_calls_receive.sol:A"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

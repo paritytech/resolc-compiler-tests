@@ -21,5 +21,8 @@
   ],
   "contracts": {
     "C": "nested_struct_allocation.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

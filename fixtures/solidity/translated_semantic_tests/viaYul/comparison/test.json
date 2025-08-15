@@ -531,5 +531,8 @@
   ],
   "contracts": {
     "C": "comparison.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

@@ -21,5 +21,8 @@
   ],
   "contracts": {
     "Test": "function_modifier_library.sol:Test"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

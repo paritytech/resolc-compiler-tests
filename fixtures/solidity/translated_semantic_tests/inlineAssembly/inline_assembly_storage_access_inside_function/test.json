@@ -34,5 +34,8 @@
   ],
   "contracts": {
     "C": "inline_assembly_storage_access_inside_function.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

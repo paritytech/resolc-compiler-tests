@@ -103,5 +103,8 @@
   ],
   "contracts": {
     "C": "calldata_array_dynamic_invalid.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

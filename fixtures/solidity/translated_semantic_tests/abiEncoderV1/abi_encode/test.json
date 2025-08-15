@@ -91,5 +91,8 @@
   ],
   "contracts": {
     "C": "abi_encode.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

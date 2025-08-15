@@ -22,5 +22,8 @@
   ],
   "contracts": {
     "C": "calling_uninitialized_function_in_detail.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

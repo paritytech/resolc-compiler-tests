@@ -94,5 +94,8 @@
   "contracts": {
     "C": "mcopy_overlap.sol:C"
   },
+  "modes": [
+    "E"
+  ],
   "required_evm_version": ">=cancun"
 }

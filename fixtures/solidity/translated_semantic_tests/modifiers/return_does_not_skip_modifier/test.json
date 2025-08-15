@@ -47,5 +47,8 @@
   ],
   "contracts": {
     "C": "return_does_not_skip_modifier.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

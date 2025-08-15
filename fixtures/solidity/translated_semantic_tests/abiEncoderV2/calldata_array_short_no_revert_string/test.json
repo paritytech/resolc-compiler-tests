@@ -47,5 +47,8 @@
   ],
   "contracts": {
     "C": "calldata_array_short_no_revert_string.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

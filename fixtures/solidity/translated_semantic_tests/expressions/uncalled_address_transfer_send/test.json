@@ -18,5 +18,8 @@
   ],
   "contracts": {
     "TransferTest": "uncalled_address_transfer_send.sol:TransferTest"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

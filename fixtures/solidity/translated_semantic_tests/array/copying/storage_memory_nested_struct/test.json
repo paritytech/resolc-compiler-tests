@@ -26,5 +26,8 @@
   ],
   "contracts": {
     "C": "storage_memory_nested_struct.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

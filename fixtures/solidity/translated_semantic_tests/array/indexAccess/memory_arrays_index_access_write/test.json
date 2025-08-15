@@ -32,5 +32,8 @@
   ],
   "contracts": {
     "Test": "memory_arrays_index_access_write.sol:Test"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

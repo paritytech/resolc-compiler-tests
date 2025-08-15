@@ -40,5 +40,8 @@
   ],
   "contracts": {
     "A": "conditional_tuple.sol:A"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

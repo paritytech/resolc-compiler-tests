@@ -338,7 +338,7 @@ mod test {
                     content: "\ncontract C {\n    function f() public pure returns (uint) {\n        return 1;\n    }\n}".to_string()
                 },
                 SemanticTestSection::TestConfiguration {
-                    configuration: TestConfiguration { compile_via_yul: Some(true.into()), ..Default::default() },
+                    configuration: TestConfiguration { compile_via_yul: true.into(), ..Default::default() },
                 },
                 SemanticTestSection::TestInputs {
                     lines: vec!["f() -> 1".to_string()]
@@ -391,7 +391,7 @@ mod test {
                     content: "\nlibrary Lib {\n    function f() internal pure returns (uint) {\n        return 1;\n    }\n}".to_string()
                 },
                 SemanticTestSection::TestConfiguration {
-                    configuration: TestConfiguration { compile_via_yul: Some(true.into()), ..Default::default() },
+                    configuration: TestConfiguration { compile_via_yul: true.into(), ..Default::default() },
                 },
                 SemanticTestSection::TestInputs {
                     lines: vec!["f() -> 1".to_string()]

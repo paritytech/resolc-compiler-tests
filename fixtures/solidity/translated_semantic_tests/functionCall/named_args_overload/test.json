@@ -98,5 +98,8 @@
   ],
   "contracts": {
     "C": "named_args_overload.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

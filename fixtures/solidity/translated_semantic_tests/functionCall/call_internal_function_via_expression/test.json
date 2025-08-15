@@ -34,5 +34,8 @@
   ],
   "contracts": {
     "C": "call_internal_function_via_expression.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

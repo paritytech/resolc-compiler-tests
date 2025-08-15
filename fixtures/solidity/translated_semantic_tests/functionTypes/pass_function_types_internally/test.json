@@ -23,5 +23,8 @@
   ],
   "contracts": {
     "C": "pass_function_types_internally.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

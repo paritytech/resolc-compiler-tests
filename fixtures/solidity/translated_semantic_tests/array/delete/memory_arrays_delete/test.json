@@ -32,5 +32,8 @@
   ],
   "contracts": {
     "Test": "memory_arrays_delete.sol:Test"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

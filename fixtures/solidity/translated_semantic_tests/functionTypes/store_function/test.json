@@ -21,5 +21,8 @@
   ],
   "contracts": {
     "C": "store_function.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

@@ -358,5 +358,8 @@
   ],
   "contracts": {
     "C": "calldata_array_length.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

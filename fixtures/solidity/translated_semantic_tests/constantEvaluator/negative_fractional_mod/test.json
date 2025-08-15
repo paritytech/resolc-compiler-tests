@@ -22,5 +22,8 @@
   ],
   "contracts": {
     "C": "negative_fractional_mod.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

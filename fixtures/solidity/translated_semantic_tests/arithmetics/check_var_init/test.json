@@ -36,5 +36,8 @@
   ],
   "contracts": {
     "D": "check_var_init.sol:D"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

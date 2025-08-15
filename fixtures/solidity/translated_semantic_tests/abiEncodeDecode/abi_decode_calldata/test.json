@@ -31,5 +31,8 @@
   ],
   "contracts": {
     "C": "abi_decode_calldata.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

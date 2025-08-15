@@ -21,5 +21,8 @@
   ],
   "contracts": {
     "C": "super_function_deployed.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

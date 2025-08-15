@@ -181,5 +181,8 @@
   ],
   "contracts": {
     "TestFixedMath": "fixedpoint.sol:TestFixedMath"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

@@ -26,5 +26,8 @@
   ],
   "contracts": {
     "C": "inline_array_storage_to_memory_conversion_strings.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

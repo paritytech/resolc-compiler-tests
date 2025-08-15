@@ -109,5 +109,8 @@
   ],
   "contracts": {
     "C": "exp_associativity.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

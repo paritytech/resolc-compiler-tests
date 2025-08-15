@@ -95,5 +95,8 @@
   ],
   "contracts": {
     "Test": "constant_string_literal.sol:Test"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

@@ -37,5 +37,8 @@
   ],
   "contracts": {
     "C": "array_copy_memory_to_storage.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

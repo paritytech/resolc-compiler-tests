@@ -24,5 +24,8 @@
   ],
   "contracts": {
     "C": "rounding.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

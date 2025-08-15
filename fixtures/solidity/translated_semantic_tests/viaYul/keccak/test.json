@@ -34,5 +34,8 @@
   ],
   "contracts": {
     "C": "keccak.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

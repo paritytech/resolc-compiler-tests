@@ -28,5 +28,8 @@
   "contracts": {
     "C": "mcopy_empty.sol:C"
   },
+  "modes": [
+    "E"
+  ],
   "required_evm_version": ">=cancun"
 }

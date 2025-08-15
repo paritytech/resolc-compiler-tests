@@ -58,5 +58,8 @@
   ],
   "contracts": {
     "test": "gas_and_value_basic.sol:test"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

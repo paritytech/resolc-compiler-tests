@@ -105,5 +105,8 @@
   ],
   "contracts": {
     "C": "function_memory_array.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

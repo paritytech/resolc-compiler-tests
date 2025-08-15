@@ -57,5 +57,8 @@
   ],
   "contracts": {
     "Test": "memory_structs_read_write.sol:Test"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

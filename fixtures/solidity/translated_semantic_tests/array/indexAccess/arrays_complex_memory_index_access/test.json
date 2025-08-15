@@ -45,5 +45,8 @@
   ],
   "contracts": {
     "Test": "arrays_complex_memory_index_access.sol:Test"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

@@ -248,5 +248,8 @@
   ],
   "contracts": {
     "Test": "empty_nonempty_empty.sol:Test"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

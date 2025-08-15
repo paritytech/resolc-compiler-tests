@@ -27,5 +27,8 @@
   ],
   "contracts": {
     "C": "event_indexed_function.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

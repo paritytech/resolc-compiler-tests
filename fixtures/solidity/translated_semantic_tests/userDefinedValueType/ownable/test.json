@@ -81,5 +81,8 @@
   ],
   "contracts": {
     "Ownable": "ownable.sol:Ownable"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

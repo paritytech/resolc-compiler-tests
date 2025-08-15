@@ -30,5 +30,8 @@
   ],
   "contracts": {
     "c": "array_copy_nested_array.sol:c"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

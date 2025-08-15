@@ -24,5 +24,8 @@
   ],
   "contracts": {
     "C": "inline_assembly_function_call2.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

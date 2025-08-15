@@ -34,5 +34,8 @@
   "contracts": {
     "C": "transient_storage_sanity_checks.sol:C"
   },
+  "modes": [
+    "E"
+  ],
   "required_evm_version": ">=cancun"
 }

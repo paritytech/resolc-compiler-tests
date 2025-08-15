@@ -64,5 +64,8 @@
   ],
   "contracts": {
     "D": "multiple_inheritance_state_var_slots.sol:D"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

@@ -42,5 +42,8 @@
     "using_for_function_on_struct.sol": {
       "D": "D"
     }
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

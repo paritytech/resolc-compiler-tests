@@ -29,5 +29,8 @@
   ],
   "contracts": {
     "C": "calldata_bytes_to_memory_encode.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

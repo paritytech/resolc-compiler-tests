@@ -34,5 +34,8 @@
   ],
   "contracts": {
     "test": "call_function_returning_nothing_via_pointer.sol:test"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

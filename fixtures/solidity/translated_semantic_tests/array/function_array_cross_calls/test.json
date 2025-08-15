@@ -23,5 +23,8 @@
   ],
   "contracts": {
     "C": "function_array_cross_calls.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

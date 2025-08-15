@@ -47,5 +47,8 @@
   ],
   "contracts": {
     "C": "inheritance_simple.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

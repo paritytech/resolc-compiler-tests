@@ -23,5 +23,8 @@
   ],
   "contracts": {
     "C": "code_length_contract_member.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

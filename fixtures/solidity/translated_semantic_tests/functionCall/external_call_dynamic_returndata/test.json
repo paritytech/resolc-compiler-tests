@@ -24,5 +24,8 @@
   "contracts": {
     "C": "external_call_dynamic_returndata.sol:C"
   },
+  "modes": [
+    "E"
+  ],
   "required_evm_version": ">=byzantium"
 }

@@ -106,5 +106,8 @@
   ],
   "contracts": {
     "C": "calldata.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

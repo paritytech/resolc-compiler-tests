@@ -34,5 +34,8 @@
   ],
   "contracts": {
     "C": "code_access_content.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

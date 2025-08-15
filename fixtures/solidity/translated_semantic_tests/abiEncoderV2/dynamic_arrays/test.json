@@ -35,5 +35,8 @@
   ],
   "contracts": {
     "C": "dynamic_arrays.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

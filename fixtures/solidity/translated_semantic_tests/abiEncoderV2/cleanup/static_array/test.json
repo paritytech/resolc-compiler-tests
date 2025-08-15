@@ -82,5 +82,8 @@
   "contracts": {
     "C": "static_array.sol:C"
   },
+  "modes": [
+    "E"
+  ],
   "required_evm_version": ">homestead"
 }

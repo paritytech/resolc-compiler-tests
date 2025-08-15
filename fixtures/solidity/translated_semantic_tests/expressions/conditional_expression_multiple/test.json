@@ -68,5 +68,8 @@
   ],
   "contracts": {
     "test": "conditional_expression_multiple.sol:test"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

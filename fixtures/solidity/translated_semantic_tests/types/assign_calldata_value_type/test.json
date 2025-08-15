@@ -24,5 +24,8 @@
   ],
   "contracts": {
     "C": "assign_calldata_value_type.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

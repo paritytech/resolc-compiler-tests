@@ -21,5 +21,8 @@
   ],
   "contracts": {
     "D": "s2.sol:D"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

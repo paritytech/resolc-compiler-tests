@@ -21,5 +21,8 @@
   ],
   "contracts": {
     "C": "call_unimplemented_base.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

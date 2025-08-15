@@ -21,5 +21,8 @@
   ],
   "contracts": {
     "C": "exp_cleanup.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

@@ -21,5 +21,8 @@
   ],
   "contracts": {
     "c": "struct_copy_via_local.sol:c"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

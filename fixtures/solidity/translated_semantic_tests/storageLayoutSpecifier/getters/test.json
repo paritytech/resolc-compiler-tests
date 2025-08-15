@@ -47,5 +47,8 @@
   ],
   "contracts": {
     "C": "getters.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

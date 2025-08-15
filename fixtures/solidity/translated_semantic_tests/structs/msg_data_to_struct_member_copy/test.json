@@ -104,5 +104,8 @@
   ],
   "contracts": {
     "C": "msg_data_to_struct_member_copy.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

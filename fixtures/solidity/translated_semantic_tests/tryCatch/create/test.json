@@ -41,5 +41,8 @@
   "contracts": {
     "C": "create.sol:C"
   },
+  "modes": [
+    "E"
+  ],
   "required_evm_version": ">=byzantium"
 }

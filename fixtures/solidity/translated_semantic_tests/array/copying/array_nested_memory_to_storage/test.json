@@ -60,5 +60,8 @@
   ],
   "contracts": {
     "Test": "array_nested_memory_to_storage.sol:Test"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

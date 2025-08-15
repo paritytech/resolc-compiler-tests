@@ -27,5 +27,8 @@
   ],
   "contracts": {
     "C": "calldata_array_dynamic_to_storage.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

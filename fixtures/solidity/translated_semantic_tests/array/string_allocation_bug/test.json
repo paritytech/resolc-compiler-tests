@@ -30,5 +30,8 @@
   ],
   "contracts": {
     "Sample": "string_allocation_bug.sol:Sample"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

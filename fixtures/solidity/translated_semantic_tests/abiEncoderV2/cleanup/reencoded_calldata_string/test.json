@@ -26,5 +26,8 @@
   "contracts": {
     "C": "reencoded_calldata_string.sol:C"
   },
+  "modes": [
+    "E"
+  ],
   "required_evm_version": ">homestead"
 }

@@ -21,5 +21,8 @@
   ],
   "contracts": {
     "D": "super_parentheses.sol:D"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

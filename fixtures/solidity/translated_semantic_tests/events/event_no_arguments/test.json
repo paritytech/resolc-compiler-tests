@@ -26,5 +26,8 @@
   ],
   "contracts": {
     "ClientReceipt": "event_no_arguments.sol:ClientReceipt"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

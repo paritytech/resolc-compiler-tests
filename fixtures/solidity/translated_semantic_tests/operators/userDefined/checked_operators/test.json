@@ -36,5 +36,8 @@
   ],
   "contracts": {
     "C": "checked_operators.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

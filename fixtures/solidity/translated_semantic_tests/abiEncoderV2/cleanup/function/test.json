@@ -140,5 +140,8 @@
   ],
   "contracts": {
     "C": "function.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

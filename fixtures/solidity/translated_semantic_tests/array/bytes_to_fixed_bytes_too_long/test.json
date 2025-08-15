@@ -75,5 +75,8 @@
   ],
   "contracts": {
     "C": "bytes_to_fixed_bytes_too_long.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

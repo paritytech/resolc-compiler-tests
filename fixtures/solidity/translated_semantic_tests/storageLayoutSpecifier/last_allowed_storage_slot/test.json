@@ -36,5 +36,8 @@
   ],
   "contracts": {
     "C": "last_allowed_storage_slot.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

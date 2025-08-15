@@ -23,5 +23,8 @@
   ],
   "contracts": {
     "C": "explicit_cast_local_assignment.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

@@ -49,5 +49,8 @@
   ],
   "contracts": {
     "C": "use_scratch.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

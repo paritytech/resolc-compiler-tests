@@ -106,5 +106,8 @@
   ],
   "contracts": {
     "C": "detect_sub_overflow.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

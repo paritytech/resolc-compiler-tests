@@ -66,5 +66,8 @@
   ],
   "contracts": {
     "C": "s2.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

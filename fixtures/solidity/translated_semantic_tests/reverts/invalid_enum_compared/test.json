@@ -50,5 +50,8 @@
   "contracts": {
     "C": "invalid_enum_compared.sol:C"
   },
+  "modes": [
+    "E"
+  ],
   "required_evm_version": ">=byzantium"
 }

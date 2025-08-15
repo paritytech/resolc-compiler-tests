@@ -36,5 +36,8 @@
   ],
   "contracts": {
     "C": "require_error_uint256.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

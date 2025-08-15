@@ -47,5 +47,8 @@
   ],
   "contracts": {
     "c": "delete_removes_bytes_data.sol:c"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

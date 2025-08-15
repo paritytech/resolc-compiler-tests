@@ -23,5 +23,8 @@
   ],
   "contracts": {
     "C": "local_bool_assignment.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

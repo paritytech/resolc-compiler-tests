@@ -39,5 +39,8 @@
   "contracts": {
     "A": "B.sol:A"
   },
+  "modes": [
+    "E"
+  ],
   "required_evm_version": ">=constantinople"
 }

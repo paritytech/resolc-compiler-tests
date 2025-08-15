@@ -111,5 +111,8 @@
   ],
   "contracts": {
     "A": "function_return_parameter_complex.sol:A"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

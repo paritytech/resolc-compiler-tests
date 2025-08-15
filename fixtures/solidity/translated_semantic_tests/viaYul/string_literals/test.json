@@ -98,5 +98,8 @@
   ],
   "contracts": {
     "C": "string_literals.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

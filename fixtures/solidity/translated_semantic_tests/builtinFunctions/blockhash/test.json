@@ -49,5 +49,8 @@
   ],
   "contracts": {
     "C": "blockhash.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

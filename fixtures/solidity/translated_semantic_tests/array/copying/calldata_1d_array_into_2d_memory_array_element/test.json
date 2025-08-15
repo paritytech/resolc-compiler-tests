@@ -22,5 +22,8 @@
   "contracts": {
     "Test": "calldata_1d_array_into_2d_memory_array_element.sol:Test"
   },
+  "modes": [
+    "E"
+  ],
   "required_evm_version": ">homestead"
 }

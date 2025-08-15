@@ -22,5 +22,8 @@
   ],
   "contracts": {
     "C": "overloads.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

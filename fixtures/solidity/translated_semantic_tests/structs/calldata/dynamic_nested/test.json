@@ -31,5 +31,8 @@
   ],
   "contracts": {
     "C": "dynamic_nested.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

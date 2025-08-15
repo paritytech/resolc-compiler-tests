@@ -54,5 +54,8 @@
   ],
   "contracts": {
     "C": "multi_modifiers.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

@@ -34,5 +34,8 @@
   ],
   "contracts": {
     "C": "state_variable_constant_and_immutable.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

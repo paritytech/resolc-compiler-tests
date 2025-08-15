@@ -24,5 +24,8 @@
   ],
   "contracts": {
     "Test": "memory_structs_nested.sol:Test"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

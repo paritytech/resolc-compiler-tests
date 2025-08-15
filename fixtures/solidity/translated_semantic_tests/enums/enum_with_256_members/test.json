@@ -142,5 +142,8 @@
   ],
   "contracts": {
     "C": "enum_with_256_members.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

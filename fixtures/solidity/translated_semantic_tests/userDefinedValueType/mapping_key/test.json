@@ -79,5 +79,8 @@
   ],
   "contracts": {
     "C": "mapping_key.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

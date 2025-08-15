@@ -32,5 +32,8 @@
   ],
   "contracts": {
     "C": "internal_library_function_attached_to_address_named_send_transfer.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

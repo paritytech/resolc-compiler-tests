@@ -29,5 +29,8 @@
     "external_call_with_storage_array_parameter.sol": {
       "L": "L"
     }
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

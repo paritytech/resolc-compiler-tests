@@ -21,5 +21,8 @@
   ],
   "contracts": {
     "C": "asm_address_constant_regression.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

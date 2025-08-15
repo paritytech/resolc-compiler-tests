@@ -96,5 +96,8 @@
   "contracts": {
     "C": "dynamic_array.sol:C"
   },
+  "modes": [
+    "E"
+  ],
   "required_evm_version": ">homestead"
 }

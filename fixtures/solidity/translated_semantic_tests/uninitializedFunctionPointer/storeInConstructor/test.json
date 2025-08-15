@@ -36,5 +36,8 @@
   ],
   "contracts": {
     "InvalidTest": "storeInConstructor.sol:InvalidTest"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

@@ -25,5 +25,8 @@
   ],
   "contracts": {
     "C": "inline_array_return.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

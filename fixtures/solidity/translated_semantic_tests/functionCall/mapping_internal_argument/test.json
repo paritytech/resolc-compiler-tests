@@ -76,5 +76,8 @@
   ],
   "contracts": {
     "test": "mapping_internal_argument.sol:test"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

@@ -36,5 +36,8 @@
   ],
   "contracts": {
     "C": "store_bytes.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

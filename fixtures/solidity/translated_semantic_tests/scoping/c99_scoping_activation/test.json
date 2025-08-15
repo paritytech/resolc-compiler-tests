@@ -63,5 +63,8 @@
   ],
   "contracts": {
     "test": "c99_scoping_activation.sol:test"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

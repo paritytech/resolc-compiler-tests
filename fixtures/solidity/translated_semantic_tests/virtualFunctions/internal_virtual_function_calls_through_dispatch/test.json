@@ -21,5 +21,8 @@
   ],
   "contracts": {
     "Derived": "internal_virtual_function_calls_through_dispatch.sol:Derived"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

@@ -88,5 +88,8 @@
   ],
   "contracts": {
     "C": "array_nested_storage_to_memory.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

@@ -70,5 +70,8 @@
   ],
   "contracts": {
     "test": "member_accessors.sol:test"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

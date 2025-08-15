@@ -61,5 +61,8 @@
   "contracts": {
     "C": "transient_value_types_multi_frame_call.sol:C"
   },
+  "modes": [
+    "E"
+  ],
   "required_evm_version": ">=cancun"
 }

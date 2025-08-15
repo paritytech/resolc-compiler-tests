@@ -21,5 +21,8 @@
   ],
   "contracts": {
     "C": "iszero_bnot_correct.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

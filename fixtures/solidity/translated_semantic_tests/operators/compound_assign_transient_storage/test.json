@@ -137,5 +137,8 @@
   "contracts": {
     "test": "compound_assign_transient_storage.sol:test"
   },
+  "modes": [
+    "E"
+  ],
   "required_evm_version": ">=cancun"
 }

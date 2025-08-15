@@ -36,5 +36,8 @@
   ],
   "contracts": {
     "C": "operator_parameter_cleanup.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

@@ -32,5 +32,8 @@
   ],
   "contracts": {
     "ClientReceipt": "event_really_really_lots_of_data_from_storage.sol:ClientReceipt"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

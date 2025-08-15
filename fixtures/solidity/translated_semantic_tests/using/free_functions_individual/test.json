@@ -68,5 +68,8 @@
   ],
   "contracts": {
     "C": "free_functions_individual.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

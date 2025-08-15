@@ -35,5 +35,8 @@
   ],
   "contracts": {
     "C": "code_length.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

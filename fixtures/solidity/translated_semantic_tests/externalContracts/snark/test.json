@@ -79,5 +79,8 @@
       "Pairing": "Pairing"
     }
   },
+  "modes": [
+    "E"
+  ],
   "required_evm_version": ">=constantinople"
 }

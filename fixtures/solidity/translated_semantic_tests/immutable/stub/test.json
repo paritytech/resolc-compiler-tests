@@ -22,5 +22,8 @@
   ],
   "contracts": {
     "C": "stub.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

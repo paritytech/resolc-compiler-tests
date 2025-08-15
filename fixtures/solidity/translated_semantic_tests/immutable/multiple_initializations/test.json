@@ -21,5 +21,8 @@
   ],
   "contracts": {
     "C": "multiple_initializations.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

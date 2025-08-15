@@ -23,5 +23,8 @@
   ],
   "contracts": {
     "C": "blockhash_shadow_resolution.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

@@ -21,5 +21,8 @@
   ],
   "contracts": {
     "test": "string_escapes.sol:test"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

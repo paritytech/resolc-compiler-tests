@@ -19,5 +19,8 @@
   "contracts": {
     "C": "tstore_hidden_staticcall.sol:C"
   },
+  "modes": [
+    "E"
+  ],
   "required_evm_version": ">=cancun"
 }

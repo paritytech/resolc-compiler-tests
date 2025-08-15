@@ -21,5 +21,8 @@
   ],
   "contracts": {
     "test": "inc_dec_operators.sol:test"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

@@ -21,5 +21,8 @@
   ],
   "contracts": {
     "Lotto": "accessor_for_const_state_variable.sol:Lotto"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

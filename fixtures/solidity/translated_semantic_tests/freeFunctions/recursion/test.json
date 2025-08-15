@@ -104,5 +104,8 @@
   ],
   "contracts": {
     "C": "recursion.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

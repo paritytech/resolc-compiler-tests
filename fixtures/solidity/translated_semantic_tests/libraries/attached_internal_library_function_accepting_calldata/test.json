@@ -26,5 +26,8 @@
   ],
   "contracts": {
     "C": "attached_internal_library_function_accepting_calldata.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

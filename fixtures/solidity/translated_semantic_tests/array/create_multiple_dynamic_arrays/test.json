@@ -21,5 +21,8 @@
   ],
   "contracts": {
     "C": "create_multiple_dynamic_arrays.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

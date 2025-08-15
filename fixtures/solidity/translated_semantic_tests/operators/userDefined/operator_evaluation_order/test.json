@@ -256,5 +256,8 @@
   ],
   "contracts": {
     "C": "operator_evaluation_order.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

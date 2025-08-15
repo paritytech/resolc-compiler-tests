@@ -23,5 +23,8 @@
   ],
   "contracts": {
     "C": "uninitialized.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

@@ -36,5 +36,8 @@
   ],
   "contracts": {
     "C": "function_modifier_multiple_times_local_vars.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

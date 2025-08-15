@@ -34,5 +34,8 @@
   ],
   "contracts": {
     "Main": "constructor_arguments_internal.sol:Main"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

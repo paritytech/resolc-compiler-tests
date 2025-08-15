@@ -32,5 +32,8 @@
   ],
   "contracts": {
     "test": "balance.sol:test"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

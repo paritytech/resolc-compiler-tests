@@ -23,5 +23,8 @@
   ],
   "contracts": {
     "test": "msg_sig.sol:test"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

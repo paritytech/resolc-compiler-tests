@@ -30,5 +30,8 @@
   ],
   "contracts": {
     "C": "internal_library_function_attached_to_string_accepting_storage.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

@@ -21,5 +21,8 @@
   ],
   "contracts": {
     "test": "small_signed_types.sol:test"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

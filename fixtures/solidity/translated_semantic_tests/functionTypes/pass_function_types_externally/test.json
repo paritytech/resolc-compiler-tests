@@ -38,5 +38,8 @@
   ],
   "contracts": {
     "C": "pass_function_types_externally.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

@@ -21,5 +21,8 @@
   ],
   "contracts": {
     "B": "super_skip_unimplemented_in_abstract_contract.sol:B"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

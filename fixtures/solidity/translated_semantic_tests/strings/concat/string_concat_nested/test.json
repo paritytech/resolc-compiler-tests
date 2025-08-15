@@ -29,5 +29,8 @@
   ],
   "contracts": {
     "C": "string_concat_nested.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

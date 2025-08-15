@@ -22,5 +22,8 @@
   "contracts": {
     "C": "transient_storage_variable_increment_decrement.sol:C"
   },
+  "modes": [
+    "E"
+  ],
   "required_evm_version": ">=cancun"
 }

@@ -22,5 +22,8 @@
   "contracts": {
     "C": "code_access_runtime.sol:C"
   },
+  "modes": [
+    "E"
+  ],
   "required_evm_version": ">=constantinople"
 }

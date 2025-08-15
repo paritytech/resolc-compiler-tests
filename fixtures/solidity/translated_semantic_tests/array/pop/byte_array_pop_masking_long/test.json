@@ -24,5 +24,8 @@
   ],
   "contracts": {
     "c": "byte_array_pop_masking_long.sol:c"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

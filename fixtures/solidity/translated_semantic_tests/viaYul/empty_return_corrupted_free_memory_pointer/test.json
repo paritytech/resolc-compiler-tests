@@ -18,5 +18,8 @@
   ],
   "contracts": {
     "C": "empty_return_corrupted_free_memory_pointer.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

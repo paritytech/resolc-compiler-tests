@@ -67,5 +67,8 @@
   ],
   "contracts": {
     "C": "constant_var_as_array_length.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

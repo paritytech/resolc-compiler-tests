@@ -43,5 +43,8 @@
   ],
   "contracts": {
     "C": "msg_data.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

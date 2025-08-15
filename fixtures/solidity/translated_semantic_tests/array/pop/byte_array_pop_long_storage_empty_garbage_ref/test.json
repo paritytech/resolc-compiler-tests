@@ -24,5 +24,8 @@
   ],
   "contracts": {
     "c": "byte_array_pop_long_storage_empty_garbage_ref.sol:c"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

@@ -45,5 +45,8 @@
   "contracts": {
     "C": "precompile_extcodesize_check.sol:C"
   },
+  "modes": [
+    "E"
+  ],
   "required_evm_version": ">=constantinople"
 }

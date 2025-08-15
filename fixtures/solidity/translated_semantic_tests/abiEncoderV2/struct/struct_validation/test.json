@@ -69,5 +69,8 @@
   ],
   "contracts": {
     "C": "struct_validation.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

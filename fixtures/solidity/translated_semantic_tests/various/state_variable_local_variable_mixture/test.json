@@ -21,5 +21,8 @@
   ],
   "contracts": {
     "A": "state_variable_local_variable_mixture.sol:A"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

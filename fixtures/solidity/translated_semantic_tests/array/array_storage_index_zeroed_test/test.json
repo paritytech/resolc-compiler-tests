@@ -68,5 +68,8 @@
   ],
   "contracts": {
     "C": "array_storage_index_zeroed_test.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

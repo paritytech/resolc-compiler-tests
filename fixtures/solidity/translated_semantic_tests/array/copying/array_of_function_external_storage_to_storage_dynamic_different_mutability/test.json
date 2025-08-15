@@ -34,5 +34,8 @@
   ],
   "contracts": {
     "C": "array_of_function_external_storage_to_storage_dynamic_different_mutability.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

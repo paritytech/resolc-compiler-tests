@@ -21,5 +21,8 @@
   ],
   "contracts": {
     "C": "cleanup_bytes_types_v2.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

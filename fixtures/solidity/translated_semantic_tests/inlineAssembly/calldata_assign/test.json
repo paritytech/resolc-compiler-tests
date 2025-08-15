@@ -27,5 +27,8 @@
   ],
   "contracts": {
     "C": "calldata_assign.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

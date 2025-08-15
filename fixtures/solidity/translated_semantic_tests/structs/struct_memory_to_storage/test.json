@@ -23,5 +23,8 @@
   ],
   "contracts": {
     "C": "struct_memory_to_storage.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

@@ -141,5 +141,8 @@
   ],
   "contracts": {
     "C": "push_no_args_struct.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

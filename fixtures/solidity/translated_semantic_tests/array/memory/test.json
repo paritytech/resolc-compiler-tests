@@ -44,5 +44,8 @@
   ],
   "contracts": {
     "C": "memory.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

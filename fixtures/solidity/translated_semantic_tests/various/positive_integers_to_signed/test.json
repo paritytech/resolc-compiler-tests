@@ -47,5 +47,8 @@
   ],
   "contracts": {
     "test": "positive_integers_to_signed.sol:test"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

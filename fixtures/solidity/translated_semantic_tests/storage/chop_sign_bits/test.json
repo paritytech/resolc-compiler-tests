@@ -113,5 +113,8 @@
   ],
   "contracts": {
     "Test": "chop_sign_bits.sol:Test"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

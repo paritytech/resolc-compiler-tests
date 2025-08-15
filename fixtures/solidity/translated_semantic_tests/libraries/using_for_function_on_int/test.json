@@ -29,5 +29,8 @@
     "using_for_function_on_int.sol": {
       "D": "D"
     }
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

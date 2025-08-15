@@ -383,5 +383,8 @@
   ],
   "contracts": {
     "test": "mapping_enum_key_getter_v2.sol:test"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

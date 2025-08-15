@@ -41,5 +41,8 @@
   ],
   "contracts": {
     "E": "abi_encoder_v2_head_overflow_with_static_array_cleanup_bug.sol:E"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

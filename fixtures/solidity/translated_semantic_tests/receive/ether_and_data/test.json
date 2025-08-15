@@ -32,5 +32,8 @@
   ],
   "contracts": {
     "C": "ether_and_data.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

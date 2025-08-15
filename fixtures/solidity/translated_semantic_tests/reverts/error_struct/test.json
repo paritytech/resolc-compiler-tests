@@ -36,5 +36,8 @@
   ],
   "contracts": {
     "C": "error_struct.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

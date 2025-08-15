@@ -24,5 +24,8 @@
   ],
   "contracts": {
     "C": "abi_encode_rational_v2.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

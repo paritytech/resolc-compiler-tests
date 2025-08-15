@@ -46,5 +46,8 @@
   ],
   "contracts": {
     "C": "struct_short.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

@@ -41,5 +41,8 @@
   ],
   "contracts": {
     "C": "mediocre2_struct.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

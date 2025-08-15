@@ -21,5 +21,8 @@
   ],
   "contracts": {
     "Scope": "state_variable_under_contract_name.sol:Scope"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

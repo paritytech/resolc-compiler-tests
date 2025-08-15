@@ -22,5 +22,8 @@
   ],
   "contracts": {
     "Test": "invalidInConstructor.sol:Test"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

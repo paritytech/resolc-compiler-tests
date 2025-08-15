@@ -49,5 +49,8 @@
   ],
   "contracts": {
     "Test": "inheritance_from_same_base_state_var_slots.sol:Test"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

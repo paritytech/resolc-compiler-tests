@@ -23,5 +23,8 @@
   ],
   "contracts": {
     "Child": "call_base_explicit.sol:Child"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

@@ -28,5 +28,8 @@
   ],
   "contracts": {
     "C": "mapping_storage_end.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

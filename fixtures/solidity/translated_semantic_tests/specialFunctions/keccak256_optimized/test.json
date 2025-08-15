@@ -35,5 +35,8 @@
   ],
   "contracts": {
     "C": "keccak256_optimized.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

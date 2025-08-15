@@ -21,5 +21,8 @@
   ],
   "contracts": {
     "C": "code_access_create.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

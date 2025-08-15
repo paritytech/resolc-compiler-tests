@@ -34,5 +34,8 @@
   ],
   "contracts": {
     "C": "derived_overload_base_function_indirect.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

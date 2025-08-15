@@ -32,5 +32,8 @@
   ],
   "contracts": {
     "D": "senders_balance.sol:D"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

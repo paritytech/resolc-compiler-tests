@@ -136,5 +136,8 @@
   ],
   "contracts": {
     "test": "literal_base.sol:test"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

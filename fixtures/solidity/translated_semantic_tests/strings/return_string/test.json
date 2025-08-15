@@ -67,5 +67,8 @@
   ],
   "contracts": {
     "Main": "return_string.sol:Main"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

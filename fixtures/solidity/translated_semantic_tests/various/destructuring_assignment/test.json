@@ -25,5 +25,8 @@
   ],
   "contracts": {
     "C": "destructuring_assignment.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

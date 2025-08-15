@@ -56,5 +56,8 @@
   ],
   "contracts": {
     "C": "array_mapping_abstract_constructor_param.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

@@ -117,5 +117,8 @@
   ],
   "contracts": {
     "sender": "copying_bytes_multiassign.sol:sender"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

@@ -29,5 +29,8 @@
   "contracts": {
     "C": "abi_encode_calldata_slice.sol:C"
   },
+  "modes": [
+    "E"
+  ],
   "required_evm_version": ">homestead"
 }

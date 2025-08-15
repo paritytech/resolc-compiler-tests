@@ -227,5 +227,8 @@
   ],
   "contracts": {
     "test": "mapping_contract_key.sol:test"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

@@ -38,5 +38,8 @@
   ],
   "contracts": {
     "C": "mapping_abstract_constructor_param.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

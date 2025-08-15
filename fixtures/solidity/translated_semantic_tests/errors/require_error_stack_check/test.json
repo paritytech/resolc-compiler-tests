@@ -36,5 +36,8 @@
   ],
   "contracts": {
     "C": "require_error_stack_check.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

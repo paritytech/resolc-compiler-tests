@@ -21,5 +21,8 @@
   ],
   "contracts": {
     "C": "operator_definition_shadowing_builtin_keccak256.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

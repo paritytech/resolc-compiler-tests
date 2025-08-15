@@ -74,5 +74,8 @@
   ],
   "contracts": {
     "C": "array_memory_as_parameter.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

@@ -24,5 +24,8 @@
   ],
   "contracts": {
     "C": "calldata_memory_mixed.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

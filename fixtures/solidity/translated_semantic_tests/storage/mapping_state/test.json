@@ -394,5 +394,8 @@
   ],
   "contracts": {
     "Ballot": "mapping_state.sol:Ballot"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

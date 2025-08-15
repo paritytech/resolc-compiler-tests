@@ -157,5 +157,8 @@
   "contracts": {
     "C": "require.sol:C"
   },
+  "modes": [
+    "E"
+  ],
   "required_evm_version": ">=byzantium"
 }

@@ -21,5 +21,8 @@
   ],
   "contracts": {
     "Derived": "function_usage_in_constructor_arguments.sol:Derived"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

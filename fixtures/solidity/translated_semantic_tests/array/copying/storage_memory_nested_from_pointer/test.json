@@ -27,5 +27,8 @@
   ],
   "contracts": {
     "C": "storage_memory_nested_from_pointer.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

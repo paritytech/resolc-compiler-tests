@@ -21,5 +21,8 @@
   ],
   "contracts": {
     "D": "new_operator.sol:D"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

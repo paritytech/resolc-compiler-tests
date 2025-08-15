@@ -21,5 +21,8 @@
   ],
   "contracts": {
     "C": "return_and_convert.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

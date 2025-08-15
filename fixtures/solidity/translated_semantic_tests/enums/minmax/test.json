@@ -34,5 +34,8 @@
   ],
   "contracts": {
     "test": "minmax.sol:test"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

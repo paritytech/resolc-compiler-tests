@@ -47,5 +47,8 @@
   ],
   "contracts": {
     "c": "array_copy_including_array.sol:c"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

@@ -29,5 +29,8 @@
     "payable_function_calls_library.sol": {
       "L": "L"
     }
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

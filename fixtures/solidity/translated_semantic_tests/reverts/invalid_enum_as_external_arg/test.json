@@ -23,5 +23,8 @@
   "contracts": {
     "C": "invalid_enum_as_external_arg.sol:C"
   },
+  "modes": [
+    "E"
+  ],
   "required_evm_version": ">=byzantium"
 }

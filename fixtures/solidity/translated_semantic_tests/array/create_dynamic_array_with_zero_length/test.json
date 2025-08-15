@@ -21,5 +21,8 @@
   ],
   "contracts": {
     "C": "create_dynamic_array_with_zero_length.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

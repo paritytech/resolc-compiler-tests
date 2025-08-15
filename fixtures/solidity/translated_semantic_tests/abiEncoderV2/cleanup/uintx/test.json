@@ -1013,5 +1013,8 @@
   ],
   "contracts": {
     "C": "uintx.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

@@ -40,5 +40,8 @@
     "call_attached_library_function_on_string.sol": {
       "D": "D"
     }
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

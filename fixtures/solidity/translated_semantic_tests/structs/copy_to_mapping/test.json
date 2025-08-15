@@ -102,5 +102,8 @@
   ],
   "contracts": {
     "C": "copy_to_mapping.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

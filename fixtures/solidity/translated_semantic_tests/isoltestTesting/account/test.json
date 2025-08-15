@@ -265,5 +265,8 @@
   ],
   "contracts": {
     "AccountBuiltinTest": "account.sol:AccountBuiltinTest"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

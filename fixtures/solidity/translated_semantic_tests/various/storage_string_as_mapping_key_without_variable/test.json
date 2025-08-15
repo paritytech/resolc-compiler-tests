@@ -21,5 +21,8 @@
   ],
   "contracts": {
     "Test": "storage_string_as_mapping_key_without_variable.sol:Test"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

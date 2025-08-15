@@ -23,5 +23,8 @@
   ],
   "contracts": {
     "Test": "convert_uint_to_fixed_bytes_same_min_size.sol:Test"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

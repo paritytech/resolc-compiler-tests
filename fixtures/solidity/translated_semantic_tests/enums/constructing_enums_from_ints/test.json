@@ -21,5 +21,8 @@
   ],
   "contracts": {
     "c": "constructing_enums_from_ints.sol:c"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

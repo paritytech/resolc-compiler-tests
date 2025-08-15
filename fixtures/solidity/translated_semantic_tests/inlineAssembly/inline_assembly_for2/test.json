@@ -59,5 +59,8 @@
   ],
   "contracts": {
     "C": "inline_assembly_for2.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

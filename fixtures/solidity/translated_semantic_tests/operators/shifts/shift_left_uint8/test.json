@@ -40,5 +40,8 @@
   ],
   "contracts": {
     "C": "shift_left_uint8.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

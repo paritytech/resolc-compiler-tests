@@ -46,5 +46,8 @@
   ],
   "contracts": {
     "C": "multiline_comments.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

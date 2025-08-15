@@ -22,5 +22,8 @@
   ],
   "contracts": {
     "C": "function_modifier_return_reference.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

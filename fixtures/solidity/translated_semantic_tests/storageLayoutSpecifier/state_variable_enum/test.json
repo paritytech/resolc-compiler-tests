@@ -58,5 +58,8 @@
   ],
   "contracts": {
     "C": "state_variable_enum.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

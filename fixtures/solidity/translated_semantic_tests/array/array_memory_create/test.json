@@ -53,5 +53,8 @@
   ],
   "contracts": {
     "C": "array_memory_create.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

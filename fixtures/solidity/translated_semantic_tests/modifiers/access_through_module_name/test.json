@@ -102,5 +102,8 @@
   ],
   "contracts": {
     "C": "a.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

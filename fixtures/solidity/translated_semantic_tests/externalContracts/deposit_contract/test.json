@@ -307,5 +307,8 @@
   ],
   "contracts": {
     "DepositContract": "deposit_contract.sol:DepositContract"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

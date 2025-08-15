@@ -56,5 +56,8 @@
   ],
   "contracts": {
     "C": "slot_access_via_mapping_pointer.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

@@ -24,5 +24,8 @@
   "contracts": {
     "C": "shifts.sol:C"
   },
+  "modes": [
+    "E"
+  ],
   "required_evm_version": ">=constantinople"
 }

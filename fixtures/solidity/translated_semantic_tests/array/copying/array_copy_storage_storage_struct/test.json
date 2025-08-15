@@ -28,5 +28,8 @@
   ],
   "contracts": {
     "c": "array_copy_storage_storage_struct.sol:c"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

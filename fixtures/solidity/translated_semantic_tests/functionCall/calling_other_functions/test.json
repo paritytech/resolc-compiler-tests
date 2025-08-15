@@ -83,5 +83,8 @@
   ],
   "contracts": {
     "collatz": "calling_other_functions.sol:collatz"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

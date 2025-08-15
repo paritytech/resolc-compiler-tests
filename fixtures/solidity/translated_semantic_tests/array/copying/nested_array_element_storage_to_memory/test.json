@@ -163,5 +163,8 @@
   ],
   "contracts": {
     "C": "nested_array_element_storage_to_memory.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

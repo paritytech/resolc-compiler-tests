@@ -50,5 +50,8 @@
   ],
   "contracts": {
     "c": "bytes_length_member.sol:c"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

@@ -46,5 +46,8 @@
   ],
   "contracts": {
     "C": "calldata_offset_read_write.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

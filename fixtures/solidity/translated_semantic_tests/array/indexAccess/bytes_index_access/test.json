@@ -59,5 +59,8 @@
   ],
   "contracts": {
     "c": "bytes_index_access.sol:c"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

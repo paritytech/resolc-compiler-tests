@@ -456,5 +456,8 @@
   ],
   "contracts": {
     "C": "exp_neg_overflow.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

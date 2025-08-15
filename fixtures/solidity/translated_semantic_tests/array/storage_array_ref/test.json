@@ -224,5 +224,8 @@
   ],
   "contracts": {
     "Store": "storage_array_ref.sol:Store"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

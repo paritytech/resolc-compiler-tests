@@ -137,5 +137,8 @@
   "contracts": {
     "C": "callvalue_check.sol:C"
   },
+  "modes": [
+    "E"
+  ],
   "required_evm_version": ">homestead"
 }

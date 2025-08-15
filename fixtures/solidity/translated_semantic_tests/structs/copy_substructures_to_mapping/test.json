@@ -81,5 +81,8 @@
   ],
   "contracts": {
     "C": "copy_substructures_to_mapping.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

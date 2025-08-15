@@ -233,5 +233,8 @@
     "mapping_contract_key_library.sol": {
       "L": "L"
     }
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

@@ -29,5 +29,8 @@
   ],
   "contracts": {
     "C": "storage_calldata_refs.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

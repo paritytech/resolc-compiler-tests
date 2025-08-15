@@ -25,5 +25,8 @@
   ],
   "contracts": {
     "C": "simple_assignment.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

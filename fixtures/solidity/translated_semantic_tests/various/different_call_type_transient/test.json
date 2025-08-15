@@ -50,5 +50,8 @@
   "contracts": {
     "Test": "different_call_type_transient.sol:Test"
   },
+  "modes": [
+    "E"
+  ],
   "required_evm_version": ">=cancun"
 }

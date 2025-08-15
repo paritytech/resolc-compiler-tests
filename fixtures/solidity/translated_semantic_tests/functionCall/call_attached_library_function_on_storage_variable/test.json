@@ -42,5 +42,8 @@
     "call_attached_library_function_on_storage_variable.sol": {
       "D": "D"
     }
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

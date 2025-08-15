@@ -30,5 +30,8 @@
   ],
   "contracts": {
     "ClientReceipt": "event_constructor.sol:ClientReceipt"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

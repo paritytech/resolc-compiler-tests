@@ -22,5 +22,8 @@
   ],
   "contracts": {
     "C": "bytes_concat_empty_argument_list.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

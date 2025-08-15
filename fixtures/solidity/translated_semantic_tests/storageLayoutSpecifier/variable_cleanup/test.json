@@ -27,5 +27,8 @@
   ],
   "contracts": {
     "C": "variable_cleanup.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

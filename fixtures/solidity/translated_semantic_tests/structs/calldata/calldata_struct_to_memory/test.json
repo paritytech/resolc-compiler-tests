@@ -27,5 +27,8 @@
   ],
   "contracts": {
     "C": "calldata_struct_to_memory.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

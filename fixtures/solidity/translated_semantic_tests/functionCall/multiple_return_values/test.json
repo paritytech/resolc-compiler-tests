@@ -26,5 +26,8 @@
   ],
   "contracts": {
     "test": "multiple_return_values.sol:test"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

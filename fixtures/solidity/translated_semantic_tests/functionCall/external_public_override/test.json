@@ -34,5 +34,8 @@
   ],
   "contracts": {
     "B": "external_public_override.sol:B"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

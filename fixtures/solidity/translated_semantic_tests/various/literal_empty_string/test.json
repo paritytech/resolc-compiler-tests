@@ -70,5 +70,8 @@
   ],
   "contracts": {
     "C": "literal_empty_string.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

@@ -27,5 +27,8 @@
     "call_attached_library_function_on_function.sol": {
       "L": "L"
     }
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

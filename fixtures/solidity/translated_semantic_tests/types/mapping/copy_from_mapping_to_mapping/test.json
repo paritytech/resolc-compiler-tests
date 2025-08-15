@@ -35,5 +35,8 @@
   ],
   "contracts": {
     "C": "copy_from_mapping_to_mapping.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

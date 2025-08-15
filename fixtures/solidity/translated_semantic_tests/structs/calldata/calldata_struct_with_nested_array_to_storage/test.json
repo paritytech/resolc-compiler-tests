@@ -36,5 +36,8 @@
   ],
   "contracts": {
     "C": "calldata_struct_with_nested_array_to_storage.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

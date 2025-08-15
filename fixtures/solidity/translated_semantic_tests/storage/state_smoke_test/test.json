@@ -122,5 +122,8 @@
   ],
   "contracts": {
     "test": "state_smoke_test.sol:test"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

@@ -137,5 +137,8 @@
   ],
   "contracts": {
     "c": "fixed_arrays_in_storage.sol:c"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

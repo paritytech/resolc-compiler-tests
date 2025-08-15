@@ -36,5 +36,8 @@
   ],
   "contracts": {
     "D": "event_emit_from_a_foreign_contract_same_name.sol:D"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

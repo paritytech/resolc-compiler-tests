@@ -125,5 +125,8 @@
   ],
   "contracts": {
     "C": "value_types.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

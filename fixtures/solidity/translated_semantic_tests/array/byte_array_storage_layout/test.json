@@ -71,5 +71,8 @@
   ],
   "contracts": {
     "c": "byte_array_storage_layout.sol:c"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

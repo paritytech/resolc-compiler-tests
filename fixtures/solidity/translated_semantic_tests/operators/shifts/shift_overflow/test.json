@@ -88,5 +88,8 @@
   ],
   "contracts": {
     "C": "shift_overflow.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

@@ -18,5 +18,8 @@
   ],
   "contracts": {
     "C": "negation_bug.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

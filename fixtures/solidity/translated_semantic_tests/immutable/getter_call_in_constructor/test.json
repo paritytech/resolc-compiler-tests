@@ -22,5 +22,8 @@
   "contracts": {
     "C": "getter_call_in_constructor.sol:C"
   },
+  "modes": [
+    "E"
+  ],
   "required_evm_version": ">=tangerineWhistle"
 }

@@ -21,5 +21,8 @@
   ],
   "contracts": {
     "C": "recursive_structs.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

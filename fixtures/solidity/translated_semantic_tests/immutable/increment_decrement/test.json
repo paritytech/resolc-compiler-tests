@@ -22,5 +22,8 @@
   ],
   "contracts": {
     "C": "increment_decrement.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

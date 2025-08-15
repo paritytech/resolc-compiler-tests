@@ -21,5 +21,8 @@
   ],
   "contracts": {
     "C": "array_copy_cleanup_uint128.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

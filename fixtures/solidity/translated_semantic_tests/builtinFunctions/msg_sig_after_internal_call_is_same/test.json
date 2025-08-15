@@ -23,5 +23,8 @@
   ],
   "contracts": {
     "test": "msg_sig_after_internal_call_is_same.sol:test"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

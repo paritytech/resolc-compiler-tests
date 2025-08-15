@@ -162,5 +162,8 @@
   ],
   "contracts": {
     "A": "fallback.sol:A"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

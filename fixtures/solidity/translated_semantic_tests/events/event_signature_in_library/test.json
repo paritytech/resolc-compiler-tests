@@ -30,5 +30,8 @@
   ],
   "contracts": {
     "C": "event_signature_in_library.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

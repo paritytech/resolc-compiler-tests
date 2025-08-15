@@ -23,5 +23,8 @@
   ],
   "contracts": {
     "C": "named_error_args.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

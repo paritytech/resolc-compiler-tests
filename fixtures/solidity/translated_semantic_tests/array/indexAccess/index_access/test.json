@@ -42,5 +42,8 @@
   ],
   "contracts": {
     "C": "index_access.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

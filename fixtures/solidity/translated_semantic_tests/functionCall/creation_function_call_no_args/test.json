@@ -21,5 +21,8 @@
   ],
   "contracts": {
     "D": "creation_function_call_no_args.sol:D"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

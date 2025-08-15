@@ -21,5 +21,8 @@
   ],
   "contracts": {
     "C": "asm_constant_file_level.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

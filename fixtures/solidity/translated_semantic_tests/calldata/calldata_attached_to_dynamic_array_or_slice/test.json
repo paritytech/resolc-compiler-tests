@@ -50,5 +50,8 @@
   ],
   "contracts": {
     "C": "calldata_attached_to_dynamic_array_or_slice.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

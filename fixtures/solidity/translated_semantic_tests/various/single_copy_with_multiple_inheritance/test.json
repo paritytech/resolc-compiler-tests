@@ -46,5 +46,8 @@
   ],
   "contracts": {
     "Derived": "single_copy_with_multiple_inheritance.sol:Derived"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

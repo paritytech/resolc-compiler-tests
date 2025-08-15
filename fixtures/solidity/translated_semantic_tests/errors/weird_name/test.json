@@ -22,5 +22,8 @@
   ],
   "contracts": {
     "C": "weird_name.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

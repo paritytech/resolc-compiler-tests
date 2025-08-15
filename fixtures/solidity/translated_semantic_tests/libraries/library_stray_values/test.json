@@ -29,5 +29,8 @@
     "library_stray_values.sol": {
       "Lib": "Lib"
     }
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

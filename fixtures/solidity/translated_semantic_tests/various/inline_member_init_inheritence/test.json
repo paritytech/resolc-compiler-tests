@@ -34,5 +34,8 @@
   ],
   "contracts": {
     "Derived": "inline_member_init_inheritence.sol:Derived"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

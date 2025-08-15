@@ -166,5 +166,8 @@
   ],
   "contracts": {
     "C": "blockhash_basic.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

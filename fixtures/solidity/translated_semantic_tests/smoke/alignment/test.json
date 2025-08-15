@@ -105,5 +105,8 @@
   ],
   "contracts": {
     "D": "alignment.sol:D"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

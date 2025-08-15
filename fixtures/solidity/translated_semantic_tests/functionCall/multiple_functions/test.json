@@ -70,5 +70,8 @@
   ],
   "contracts": {
     "test": "multiple_functions.sol:test"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

@@ -185,5 +185,8 @@
   "contracts": {
     "C": "bitwise_shifting_constantinople.sol:C"
   },
+  "modes": [
+    "E"
+  ],
   "required_evm_version": ">=constantinople"
 }

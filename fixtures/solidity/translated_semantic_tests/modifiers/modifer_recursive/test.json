@@ -49,5 +49,8 @@
   ],
   "contracts": {
     "C": "modifer_recursive.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

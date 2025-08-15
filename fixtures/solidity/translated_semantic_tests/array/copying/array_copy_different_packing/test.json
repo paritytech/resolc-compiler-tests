@@ -25,5 +25,8 @@
   ],
   "contracts": {
     "c": "array_copy_different_packing.sol:c"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

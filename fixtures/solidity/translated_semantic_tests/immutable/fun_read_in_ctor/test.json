@@ -34,5 +34,8 @@
   ],
   "contracts": {
     "A": "fun_read_in_ctor.sol:A"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

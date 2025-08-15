@@ -23,5 +23,8 @@
   ],
   "contracts": {
     "test": "empty_name_return_parameter.sol:test"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

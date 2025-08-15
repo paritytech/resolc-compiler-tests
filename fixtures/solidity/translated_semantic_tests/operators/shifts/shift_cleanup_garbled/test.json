@@ -21,5 +21,8 @@
   ],
   "contracts": {
     "C": "shift_cleanup_garbled.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

@@ -38,5 +38,8 @@
   ],
   "contracts": {
     "test": "overloaded_function_call_with_if_else.sol:test"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

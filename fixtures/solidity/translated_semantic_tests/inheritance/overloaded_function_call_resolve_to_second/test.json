@@ -21,5 +21,8 @@
   ],
   "contracts": {
     "test": "overloaded_function_call_resolve_to_second.sol:test"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

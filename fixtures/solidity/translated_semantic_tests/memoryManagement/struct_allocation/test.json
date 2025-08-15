@@ -34,5 +34,8 @@
   ],
   "contracts": {
     "C": "struct_allocation.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

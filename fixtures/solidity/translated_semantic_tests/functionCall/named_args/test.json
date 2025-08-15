@@ -34,5 +34,8 @@
   ],
   "contracts": {
     "test": "named_args.sol:test"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

@@ -28,5 +28,8 @@
     "using_library_structs.sol": {
       "Lib": "Lib"
     }
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

@@ -112,5 +112,8 @@
   ],
   "contracts": {
     "C": "array_elements_to_mapping.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

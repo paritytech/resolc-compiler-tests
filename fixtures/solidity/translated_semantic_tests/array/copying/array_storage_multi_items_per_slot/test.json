@@ -23,5 +23,8 @@
   ],
   "contracts": {
     "C": "array_storage_multi_items_per_slot.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

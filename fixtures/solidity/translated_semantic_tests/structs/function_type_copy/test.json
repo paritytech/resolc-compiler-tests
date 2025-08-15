@@ -22,5 +22,8 @@
   "contracts": {
     "Test": "function_type_copy.sol:Test"
   },
+  "modes": [
+    "E"
+  ],
   "required_evm_version": ">homestead"
 }

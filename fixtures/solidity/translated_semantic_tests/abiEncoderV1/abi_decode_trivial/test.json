@@ -25,5 +25,8 @@
   ],
   "contracts": {
     "C": "abi_decode_trivial.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

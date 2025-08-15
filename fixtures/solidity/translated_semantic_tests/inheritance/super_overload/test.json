@@ -34,5 +34,8 @@
   ],
   "contracts": {
     "C": "super_overload.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

@@ -25,5 +25,8 @@
   ],
   "contracts": {
     "C": "calldata_bytes_to_storage.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

@@ -24,5 +24,8 @@
   ],
   "contracts": {
     "C": "inline_assembly_embedded_function_call.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

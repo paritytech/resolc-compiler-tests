@@ -69,5 +69,8 @@
   ],
   "contracts": {
     "C": "calldata_bytes_array_bounds.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

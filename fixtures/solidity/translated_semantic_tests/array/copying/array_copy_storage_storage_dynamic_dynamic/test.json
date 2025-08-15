@@ -22,5 +22,8 @@
   ],
   "contracts": {
     "c": "array_copy_storage_storage_dynamic_dynamic.sol:c"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

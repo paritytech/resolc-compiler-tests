@@ -31,5 +31,8 @@
   ],
   "contracts": {
     "C": "cleanup_during_multi_element_per_slot_copy.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

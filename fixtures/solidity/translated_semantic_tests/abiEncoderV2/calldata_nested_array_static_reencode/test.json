@@ -177,5 +177,8 @@
   ],
   "contracts": {
     "C": "calldata_nested_array_static_reencode.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

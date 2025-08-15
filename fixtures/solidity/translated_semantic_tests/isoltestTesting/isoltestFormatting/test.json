@@ -42,5 +42,8 @@
   ],
   "contracts": {
     "C": "isoltestFormatting.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

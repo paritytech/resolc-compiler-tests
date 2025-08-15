@@ -36,5 +36,8 @@
   ],
   "contracts": {
     "C": "immutable_signed.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

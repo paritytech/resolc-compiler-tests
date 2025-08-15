@@ -44,5 +44,8 @@
     "ternary_contract_library_internal_function.sol": {
       "L": "L"
     }
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

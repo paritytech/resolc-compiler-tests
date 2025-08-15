@@ -51,5 +51,8 @@
   "contracts": {
     "C": "transient_state_variable_slot_inline_assembly.sol:C"
   },
+  "modes": [
+    "E"
+  ],
   "required_evm_version": ">=cancun"
 }

@@ -115,5 +115,8 @@
   ],
   "contracts": {
     "c": "bytes_inside_mappings.sol:c"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

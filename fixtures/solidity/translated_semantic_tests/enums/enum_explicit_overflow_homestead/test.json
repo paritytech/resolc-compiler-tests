@@ -73,5 +73,8 @@
   "contracts": {
     "test": "enum_explicit_overflow_homestead.sol:test"
   },
+  "modes": [
+    "E"
+  ],
   "required_evm_version": "<byzantium"
 }

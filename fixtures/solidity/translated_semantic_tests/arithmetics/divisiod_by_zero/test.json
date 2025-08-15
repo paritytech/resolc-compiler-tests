@@ -74,5 +74,8 @@
   ],
   "contracts": {
     "C": "divisiod_by_zero.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

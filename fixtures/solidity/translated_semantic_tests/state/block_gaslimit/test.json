@@ -49,5 +49,8 @@
   ],
   "contracts": {
     "C": "block_gaslimit.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

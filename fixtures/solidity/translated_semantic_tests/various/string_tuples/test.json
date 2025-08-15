@@ -42,5 +42,8 @@
   ],
   "contracts": {
     "C": "string_tuples.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

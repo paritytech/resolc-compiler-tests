@@ -22,5 +22,8 @@
   ],
   "contracts": {
     "C": "address_member.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

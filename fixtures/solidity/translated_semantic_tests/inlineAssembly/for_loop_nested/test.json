@@ -68,5 +68,8 @@
   ],
   "contracts": {
     "C": "for_loop_nested.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

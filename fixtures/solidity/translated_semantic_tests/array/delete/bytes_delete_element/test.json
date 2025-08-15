@@ -21,5 +21,8 @@
   ],
   "contracts": {
     "c": "bytes_delete_element.sol:c"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

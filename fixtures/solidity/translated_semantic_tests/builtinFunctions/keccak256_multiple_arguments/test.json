@@ -25,5 +25,8 @@
   ],
   "contracts": {
     "c": "keccak256_multiple_arguments.sol:c"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

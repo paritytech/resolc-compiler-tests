@@ -92,5 +92,8 @@
   ],
   "contracts": {
     "C": "assembly_access_bytes2_abicoder_v2.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

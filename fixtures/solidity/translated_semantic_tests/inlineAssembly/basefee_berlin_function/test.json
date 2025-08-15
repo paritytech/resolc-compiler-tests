@@ -35,5 +35,8 @@
   "contracts": {
     "C": "basefee_berlin_function.sol:C"
   },
+  "modes": [
+    "E"
+  ],
   "required_evm_version": "<=berlin"
 }

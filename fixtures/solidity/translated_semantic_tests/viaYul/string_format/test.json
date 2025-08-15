@@ -65,5 +65,8 @@
   ],
   "contracts": {
     "C": "string_format.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

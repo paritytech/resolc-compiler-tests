@@ -21,5 +21,8 @@
   ],
   "contracts": {
     "C": "call_internal_function_with_multislot_arguments_via_pointer.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

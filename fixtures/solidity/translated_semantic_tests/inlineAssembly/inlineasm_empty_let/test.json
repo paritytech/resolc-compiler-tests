@@ -22,5 +22,8 @@
   ],
   "contracts": {
     "C": "inlineasm_empty_let.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

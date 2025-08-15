@@ -150,5 +150,8 @@
   "contracts": {
     "C": "delegatecall_return_value_pre_byzantium.sol:C"
   },
+  "modes": [
+    "E"
+  ],
   "required_evm_version": "<byzantium"
 }

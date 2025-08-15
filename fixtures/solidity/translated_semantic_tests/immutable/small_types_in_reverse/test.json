@@ -92,5 +92,8 @@
   ],
   "contracts": {
     "A": "small_types_in_reverse.sol:A"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

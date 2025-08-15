@@ -49,5 +49,8 @@
   ],
   "contracts": {
     "Creator": "fixed_arrays_in_constructors.sol:Creator"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

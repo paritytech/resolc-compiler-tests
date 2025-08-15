@@ -32,5 +32,8 @@
     "struct_storage_ptr.sol": {
       "L": "L"
     }
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

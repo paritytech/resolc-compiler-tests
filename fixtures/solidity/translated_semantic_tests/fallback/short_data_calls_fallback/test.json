@@ -133,5 +133,8 @@
   ],
   "contracts": {
     "A": "short_data_calls_fallback.sol:A"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

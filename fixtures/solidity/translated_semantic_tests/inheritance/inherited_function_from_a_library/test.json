@@ -21,5 +21,8 @@
   ],
   "contracts": {
     "B": "inherited_function_from_a_library.sol:B"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

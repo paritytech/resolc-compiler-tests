@@ -41,5 +41,8 @@
   ],
   "contracts": {
     "C": "calling_nonexisting_contract_throws.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

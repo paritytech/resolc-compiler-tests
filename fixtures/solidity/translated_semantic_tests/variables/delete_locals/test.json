@@ -22,5 +22,8 @@
   ],
   "contracts": {
     "test": "delete_locals.sol:test"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

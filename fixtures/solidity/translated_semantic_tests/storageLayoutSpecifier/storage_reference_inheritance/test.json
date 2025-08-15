@@ -32,5 +32,8 @@
   ],
   "contracts": {
     "C": "storage_reference_inheritance.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

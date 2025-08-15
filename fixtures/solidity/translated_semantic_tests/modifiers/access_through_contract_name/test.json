@@ -99,5 +99,8 @@
   ],
   "contracts": {
     "C": "access_through_contract_name.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

@@ -85,5 +85,8 @@
   ],
   "contracts": {
     "C": "array_zeroed_memory_index_access.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

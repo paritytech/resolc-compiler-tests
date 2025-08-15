@@ -116,5 +116,8 @@
   ],
   "contracts": {
     "Test": "arrays_from_and_to_storage.sol:Test"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

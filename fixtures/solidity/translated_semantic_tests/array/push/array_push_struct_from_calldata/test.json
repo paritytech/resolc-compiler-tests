@@ -38,5 +38,8 @@
   ],
   "contracts": {
     "c": "array_push_struct_from_calldata.sol:c"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

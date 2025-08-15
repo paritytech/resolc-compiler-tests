@@ -30,5 +30,8 @@
   ],
   "contracts": {
     "c": "array_copy_storage_abi_signed.sol:c"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

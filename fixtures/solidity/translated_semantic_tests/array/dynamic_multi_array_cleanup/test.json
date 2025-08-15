@@ -49,5 +49,8 @@
   ],
   "contracts": {
     "c": "dynamic_multi_array_cleanup.sol:c"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

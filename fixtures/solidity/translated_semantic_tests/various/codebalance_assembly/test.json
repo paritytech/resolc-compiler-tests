@@ -59,5 +59,8 @@
   "contracts": {
     "C": "codebalance_assembly.sol:C"
   },
+  "modes": [
+    "E"
+  ],
   "required_evm_version": ">=constantinople"
 }

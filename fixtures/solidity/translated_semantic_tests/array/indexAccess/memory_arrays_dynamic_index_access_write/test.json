@@ -34,5 +34,8 @@
   ],
   "contracts": {
     "Test": "memory_arrays_dynamic_index_access_write.sol:Test"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

@@ -24,5 +24,8 @@
   ],
   "contracts": {
     "test": "mapping_local_assignment.sol:test"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

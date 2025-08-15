@@ -21,5 +21,8 @@
   ],
   "contracts": {
     "B": "inherited_function_calldata_calldata_interface.sol:B"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

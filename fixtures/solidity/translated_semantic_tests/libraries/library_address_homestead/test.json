@@ -142,5 +142,8 @@
     "library_address_homestead.sol": {
       "L": "L"
     }
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

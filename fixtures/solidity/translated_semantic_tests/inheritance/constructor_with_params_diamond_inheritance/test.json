@@ -60,5 +60,8 @@
   ],
   "contracts": {
     "D": "constructor_with_params_diamond_inheritance.sol:D"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

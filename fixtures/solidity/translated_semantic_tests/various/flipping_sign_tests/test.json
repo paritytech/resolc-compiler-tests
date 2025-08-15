@@ -21,5 +21,8 @@
   ],
   "contracts": {
     "test": "flipping_sign_tests.sol:test"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

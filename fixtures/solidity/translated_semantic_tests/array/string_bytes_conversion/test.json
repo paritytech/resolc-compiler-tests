@@ -39,5 +39,8 @@
   ],
   "contracts": {
     "Test": "string_bytes_conversion.sol:Test"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

@@ -63,5 +63,8 @@
   "contracts": {
     "C": "memory_dynamic_array_and_calldata_bytes.sol:C"
   },
+  "modes": [
+    "E"
+  ],
   "required_evm_version": ">homestead"
 }

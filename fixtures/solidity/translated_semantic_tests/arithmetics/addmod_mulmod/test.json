@@ -21,5 +21,8 @@
   ],
   "contracts": {
     "C": "addmod_mulmod.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

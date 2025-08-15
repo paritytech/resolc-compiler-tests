@@ -21,5 +21,8 @@
   ],
   "contracts": {
     "C": "tuple_from_ternary_expression.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

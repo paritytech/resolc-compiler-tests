@@ -45,5 +45,8 @@
   ],
   "contracts": {
     "c": "external_array_args.sol:c"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

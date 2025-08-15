@@ -252,5 +252,8 @@
   ],
   "contracts": {
     "C": "calldata_overlapped_dynamic_arrays.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

@@ -34,5 +34,8 @@
   ],
   "contracts": {
     "D": "constructor_with_params_inheritance_2.sol:D"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

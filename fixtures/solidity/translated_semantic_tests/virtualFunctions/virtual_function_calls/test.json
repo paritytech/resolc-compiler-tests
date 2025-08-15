@@ -34,5 +34,8 @@
   ],
   "contracts": {
     "Derived": "virtual_function_calls.sol:Derived"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

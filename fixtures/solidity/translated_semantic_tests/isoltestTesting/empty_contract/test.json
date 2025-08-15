@@ -18,5 +18,8 @@
   ],
   "contracts": {
     "test": "empty_contract.sol:test"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

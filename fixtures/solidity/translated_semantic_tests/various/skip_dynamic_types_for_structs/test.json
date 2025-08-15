@@ -22,5 +22,8 @@
   ],
   "contracts": {
     "C": "skip_dynamic_types_for_structs.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

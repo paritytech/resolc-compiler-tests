@@ -38,5 +38,8 @@
   ],
   "contracts": {
     "C": "event_shadowing_file_level.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

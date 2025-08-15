@@ -29,5 +29,8 @@
   ],
   "contracts": {
     "Creator": "bytes_in_constructors_packer.sol:Creator"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

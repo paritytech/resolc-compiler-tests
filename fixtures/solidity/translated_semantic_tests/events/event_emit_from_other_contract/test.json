@@ -44,5 +44,8 @@
   ],
   "contracts": {
     "C": "event_emit_from_other_contract.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

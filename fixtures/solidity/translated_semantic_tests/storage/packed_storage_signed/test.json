@@ -24,5 +24,8 @@
   ],
   "contracts": {
     "C": "packed_storage_signed.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

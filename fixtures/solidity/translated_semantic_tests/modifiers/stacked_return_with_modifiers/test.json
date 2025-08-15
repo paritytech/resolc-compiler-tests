@@ -47,5 +47,8 @@
   ],
   "contracts": {
     "C": "stacked_return_with_modifiers.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

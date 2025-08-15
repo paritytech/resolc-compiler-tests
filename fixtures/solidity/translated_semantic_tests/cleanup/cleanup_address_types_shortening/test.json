@@ -34,5 +34,8 @@
   ],
   "contracts": {
     "C": "cleanup_address_types_shortening.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

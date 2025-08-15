@@ -124,5 +124,8 @@
   ],
   "contracts": {
     "C": "fallback_or_receive.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

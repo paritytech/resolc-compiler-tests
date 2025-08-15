@@ -59,5 +59,8 @@
   ],
   "contracts": {
     "C": "bytes_concat_3_args.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

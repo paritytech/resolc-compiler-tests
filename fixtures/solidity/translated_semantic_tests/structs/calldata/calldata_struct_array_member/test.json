@@ -29,5 +29,8 @@
   ],
   "contracts": {
     "C": "calldata_struct_array_member.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

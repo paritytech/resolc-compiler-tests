@@ -27,5 +27,8 @@
     "library_staticcall_delegatecall.sol": {
       "Lib": "Lib"
     }
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

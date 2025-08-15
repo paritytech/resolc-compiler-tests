@@ -21,5 +21,8 @@
   ],
   "contracts": {
     "C": "inline_assembly_storage_access_local_var.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

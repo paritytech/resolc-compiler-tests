@@ -122,5 +122,8 @@
   ],
   "contracts": {
     "C": "bool.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

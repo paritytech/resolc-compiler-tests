@@ -21,5 +21,8 @@
   ],
   "contracts": {
     "B": "state_variables_init_order_2.sol:B"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

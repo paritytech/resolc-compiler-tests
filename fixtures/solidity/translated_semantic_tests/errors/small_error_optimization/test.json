@@ -21,5 +21,8 @@
   ],
   "contracts": {
     "B": "small_error_optimization.sol:B"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

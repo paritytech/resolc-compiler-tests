@@ -22,5 +22,8 @@
   ],
   "contracts": {
     "Flow": "struct_with_external_function.sol:Flow"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

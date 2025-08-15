@@ -32,5 +32,8 @@
   ],
   "contracts": {
     "ClientReceipt": "event_anonymous_with_signature_collision2.sol:ClientReceipt"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

@@ -51,5 +51,8 @@
   ],
   "contracts": {
     "Derived": "access_base_storage.sol:Derived"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

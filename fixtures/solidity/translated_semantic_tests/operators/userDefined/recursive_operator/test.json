@@ -102,5 +102,8 @@
   ],
   "contracts": {
     "C": "recursive_operator.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

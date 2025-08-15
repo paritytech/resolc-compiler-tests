@@ -29,5 +29,8 @@
   ],
   "contracts": {
     "C": "dynamically_encoded.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

@@ -99,5 +99,8 @@
   ],
   "contracts": {
     "C": "abi_encode_with_selectorv2.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

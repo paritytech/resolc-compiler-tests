@@ -34,5 +34,8 @@
   ],
   "contracts": {
     "C": "delete_bytes_array.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

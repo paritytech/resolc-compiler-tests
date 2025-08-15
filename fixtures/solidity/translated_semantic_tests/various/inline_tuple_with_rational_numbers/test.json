@@ -21,5 +21,8 @@
   ],
   "contracts": {
     "c": "inline_tuple_with_rational_numbers.sol:c"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

@@ -36,5 +36,8 @@
   ],
   "contracts": {
     "C": "address_code_complex.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

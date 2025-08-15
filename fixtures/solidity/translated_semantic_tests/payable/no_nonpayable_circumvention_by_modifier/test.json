@@ -25,5 +25,8 @@
   ],
   "contracts": {
     "C": "no_nonpayable_circumvention_by_modifier.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

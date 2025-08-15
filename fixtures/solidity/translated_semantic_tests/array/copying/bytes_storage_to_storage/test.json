@@ -132,5 +132,8 @@
   ],
   "contracts": {
     "c": "bytes_storage_to_storage.sol:c"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

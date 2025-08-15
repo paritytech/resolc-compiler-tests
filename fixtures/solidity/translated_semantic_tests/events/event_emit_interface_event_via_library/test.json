@@ -26,5 +26,8 @@
   ],
   "contracts": {
     "C": "event_emit_interface_event_via_library.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

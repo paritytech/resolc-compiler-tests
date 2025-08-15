@@ -27,5 +27,8 @@
     "library_return_struct_with_mapping.sol": {
       "Lib": "Lib"
     }
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

@@ -36,5 +36,8 @@
   ],
   "contracts": {
     "C": "event_static_calldata_uint_array_and_dynamic_array.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

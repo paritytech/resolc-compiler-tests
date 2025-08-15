@@ -21,5 +21,8 @@
   ],
   "contracts": {
     "C": "multi_variable_declaration.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

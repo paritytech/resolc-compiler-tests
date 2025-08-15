@@ -24,5 +24,8 @@
   ],
   "contracts": {
     "C": "packed_storage_overflow.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

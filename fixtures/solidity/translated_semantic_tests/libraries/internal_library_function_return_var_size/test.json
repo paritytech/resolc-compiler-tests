@@ -21,5 +21,8 @@
   ],
   "contracts": {
     "C": "internal_library_function_return_var_size.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

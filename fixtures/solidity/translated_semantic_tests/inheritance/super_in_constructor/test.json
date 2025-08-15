@@ -21,5 +21,8 @@
   ],
   "contracts": {
     "D": "super_in_constructor.sol:D"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

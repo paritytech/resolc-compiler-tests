@@ -92,5 +92,8 @@
   ],
   "contracts": {
     "C": "validation_function_type_inside_struct.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

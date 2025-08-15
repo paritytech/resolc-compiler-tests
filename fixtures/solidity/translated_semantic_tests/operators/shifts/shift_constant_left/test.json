@@ -21,5 +21,8 @@
   ],
   "contracts": {
     "C": "shift_constant_left.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

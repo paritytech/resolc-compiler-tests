@@ -21,5 +21,8 @@
   ],
   "contracts": {
     "C": "store_internal_unused_function_in_constructor.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

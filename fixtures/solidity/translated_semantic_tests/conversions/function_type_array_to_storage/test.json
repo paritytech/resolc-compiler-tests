@@ -50,5 +50,8 @@
   ],
   "contracts": {
     "C": "function_type_array_to_storage.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

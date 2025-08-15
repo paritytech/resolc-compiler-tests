@@ -21,5 +21,8 @@
   ],
   "contracts": {
     "C": "keccak256_optimizer_cache_bug.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

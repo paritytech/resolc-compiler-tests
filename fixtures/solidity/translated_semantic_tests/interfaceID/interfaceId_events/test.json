@@ -34,5 +34,8 @@
   ],
   "contracts": {
     "Test": "interfaceId_events.sol:Test"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

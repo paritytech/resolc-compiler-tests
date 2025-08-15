@@ -21,5 +21,8 @@
   ],
   "contracts": {
     "C": "various_inline_asm.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

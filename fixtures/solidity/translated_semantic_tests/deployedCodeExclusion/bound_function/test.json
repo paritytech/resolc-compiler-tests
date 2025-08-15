@@ -21,5 +21,8 @@
   ],
   "contracts": {
     "C": "bound_function.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

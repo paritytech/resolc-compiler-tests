@@ -21,5 +21,8 @@
   ],
   "contracts": {
     "Test": "function_modifier_library_inheritance.sol:Test"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

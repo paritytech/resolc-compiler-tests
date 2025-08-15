@@ -94,5 +94,8 @@
   ],
   "contracts": {
     "c": "array_copy_storage_storage_dyn_dyn.sol:c"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

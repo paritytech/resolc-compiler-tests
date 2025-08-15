@@ -26,5 +26,8 @@
   ],
   "contracts": {
     "C": "dirty_calldata_dynamic_array.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

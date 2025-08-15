@@ -25,5 +25,8 @@
   ],
   "contracts": {
     "c": "external_function.sol:c"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

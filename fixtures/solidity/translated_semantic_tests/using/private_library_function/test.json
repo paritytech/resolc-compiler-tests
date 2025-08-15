@@ -21,5 +21,8 @@
   ],
   "contracts": {
     "L": "private_library_function.sol:L"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

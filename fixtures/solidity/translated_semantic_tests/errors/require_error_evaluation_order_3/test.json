@@ -38,5 +38,8 @@
   ],
   "contracts": {
     "C": "require_error_evaluation_order_3.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

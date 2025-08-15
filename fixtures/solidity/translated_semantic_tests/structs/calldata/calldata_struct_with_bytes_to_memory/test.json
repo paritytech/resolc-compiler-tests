@@ -31,5 +31,8 @@
   ],
   "contracts": {
     "C": "calldata_struct_with_bytes_to_memory.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

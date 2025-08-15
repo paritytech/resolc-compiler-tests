@@ -21,5 +21,8 @@
   ],
   "contracts": {
     "c": "byte_array_push.sol:c"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

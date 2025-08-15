@@ -21,5 +21,8 @@
   ],
   "contracts": {
     "test": "disordered_named_args.sol:test"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

@@ -21,5 +21,8 @@
   ],
   "contracts": {
     "C": "internal_call_unattached_with_parentheses.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

@@ -44,5 +44,8 @@
     "calldata_struct_as_argument_of_lib_function.sol": {
       "L": "L"
     }
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

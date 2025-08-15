@@ -23,5 +23,8 @@
   ],
   "contracts": {
     "C": "calldata_assign_from_nowhere.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

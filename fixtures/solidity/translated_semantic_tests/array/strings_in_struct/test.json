@@ -62,5 +62,8 @@
   ],
   "contracts": {
     "buggystruct": "strings_in_struct.sol:buggystruct"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

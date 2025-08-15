@@ -34,5 +34,8 @@
   ],
   "contracts": {
     "C": "gasleft_decrease.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

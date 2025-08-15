@@ -27,5 +27,8 @@
   ],
   "contracts": {
     "C": "format_raw_string_with_control_chars.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

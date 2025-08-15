@@ -106,5 +106,8 @@
   ],
   "contracts": {
     "C": "storage_layout.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

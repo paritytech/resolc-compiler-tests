@@ -21,5 +21,8 @@
   ],
   "contracts": {
     "Final": "pass_dynamic_arguments_to_the_base.sol:Final"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

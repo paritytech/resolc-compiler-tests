@@ -21,5 +21,8 @@
   ],
   "contracts": {
     "test": "call_function_returning_function.sol:test"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

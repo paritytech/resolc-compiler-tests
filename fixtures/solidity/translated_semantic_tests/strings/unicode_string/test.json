@@ -38,5 +38,8 @@
   ],
   "contracts": {
     "C": "unicode_string.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

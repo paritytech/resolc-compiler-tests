@@ -276,10 +276,9 @@ pub fn handle_semantic_tests_translation(
 
         // Handling the compilation modes.
         let modes = match semantic_test.configuration.compile_via_yul {
-            Some(ItemConfig::Boolean(true)) => ["Y"].as_slice(),
-            Some(ItemConfig::Boolean(false)) => ["E"].as_slice(),
-            Some(ItemConfig::Also) => ["Y", "E"].as_slice(),
-            None => [].as_slice(),
+            ItemConfig::Boolean(true) => ["Y"].as_slice(),
+            ItemConfig::Boolean(false) => ["E"].as_slice(),
+            ItemConfig::Also => ["Y", "E"].as_slice(),
         };
         if !modes.is_empty() {
             metadata.modes = Some(

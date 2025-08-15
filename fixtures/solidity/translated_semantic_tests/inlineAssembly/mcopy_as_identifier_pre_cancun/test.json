@@ -35,5 +35,8 @@
   "contracts": {
     "C": "mcopy_as_identifier_pre_cancun.sol:C"
   },
+  "modes": [
+    "E"
+  ],
   "required_evm_version": "<cancun"
 }

@@ -36,5 +36,8 @@
   ],
   "contracts": {
     "C": "calldata_struct_as_memory_argument.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

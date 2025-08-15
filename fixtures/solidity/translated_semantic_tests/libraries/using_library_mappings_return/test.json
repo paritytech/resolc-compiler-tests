@@ -32,5 +32,8 @@
     "using_library_mappings_return.sol": {
       "Lib": "Lib"
     }
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

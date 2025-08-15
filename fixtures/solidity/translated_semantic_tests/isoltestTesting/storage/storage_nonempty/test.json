@@ -32,5 +32,8 @@
   ],
   "contracts": {
     "StorageNotEmpty": "storage_nonempty.sol:StorageNotEmpty"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

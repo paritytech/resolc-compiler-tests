@@ -44,5 +44,8 @@
   ],
   "contracts": {
     "X": "public_state_overridding.sol:X"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

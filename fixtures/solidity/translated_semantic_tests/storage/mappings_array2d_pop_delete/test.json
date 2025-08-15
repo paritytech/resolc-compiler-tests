@@ -109,5 +109,8 @@
   ],
   "contracts": {
     "C": "mappings_array2d_pop_delete.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

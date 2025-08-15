@@ -35,5 +35,8 @@
   ],
   "contracts": {
     "C": "function_modifier.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

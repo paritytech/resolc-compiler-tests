@@ -21,5 +21,8 @@
   ],
   "contracts": {
     "C": "s3.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

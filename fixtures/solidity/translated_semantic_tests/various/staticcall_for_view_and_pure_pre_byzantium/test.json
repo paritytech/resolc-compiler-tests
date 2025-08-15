@@ -48,5 +48,8 @@
   "contracts": {
     "D": "staticcall_for_view_and_pure_pre_byzantium.sol:D"
   },
+  "modes": [
+    "E"
+  ],
   "required_evm_version": "<byzantium"
 }

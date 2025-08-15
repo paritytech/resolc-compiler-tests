@@ -21,5 +21,8 @@
   ],
   "contracts": {
     "A": "read_in_ctor.sol:A"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

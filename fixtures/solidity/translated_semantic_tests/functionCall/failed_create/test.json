@@ -120,5 +120,8 @@
   "contracts": {
     "C": "failed_create.sol:C"
   },
+  "modes": [
+    "E"
+  ],
   "required_evm_version": ">=constantinople"
 }

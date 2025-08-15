@@ -566,5 +566,8 @@
   ],
   "contracts": {
     "C": "calldata_array_two_dimensional.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

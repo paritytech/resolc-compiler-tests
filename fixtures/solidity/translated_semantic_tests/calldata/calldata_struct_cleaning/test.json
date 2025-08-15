@@ -51,5 +51,8 @@
   ],
   "contracts": {
     "C": "calldata_struct_cleaning.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

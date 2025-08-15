@@ -545,5 +545,8 @@
   ],
   "contracts": {
     "C": "calldata_with_garbage.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

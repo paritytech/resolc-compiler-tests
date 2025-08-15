@@ -18,5 +18,8 @@
   ],
   "contracts": {
     "C": "free_namesake_contract_function.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

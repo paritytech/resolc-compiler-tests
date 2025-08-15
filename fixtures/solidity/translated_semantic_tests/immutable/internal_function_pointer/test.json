@@ -34,5 +34,8 @@
   ],
   "contracts": {
     "C": "internal_function_pointer.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

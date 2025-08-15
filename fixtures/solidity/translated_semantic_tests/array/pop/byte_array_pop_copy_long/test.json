@@ -23,5 +23,8 @@
   ],
   "contracts": {
     "c": "byte_array_pop_copy_long.sol:c"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

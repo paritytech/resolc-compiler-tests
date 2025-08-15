@@ -41,5 +41,8 @@
   ],
   "contracts": {
     "C": "require_error_function_join_control_flow.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

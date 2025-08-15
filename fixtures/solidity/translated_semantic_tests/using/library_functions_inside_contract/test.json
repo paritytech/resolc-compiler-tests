@@ -53,5 +53,8 @@
     "library_functions_inside_contract.sol": {
       "L": "L"
     }
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

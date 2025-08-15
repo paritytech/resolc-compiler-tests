@@ -23,5 +23,8 @@
   ],
   "contracts": {
     "test": "bit_operators.sol:test"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

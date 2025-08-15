@@ -22,5 +22,8 @@
   ],
   "contracts": {
     "c": "byte_array_pop_empty_exception.sol:c"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

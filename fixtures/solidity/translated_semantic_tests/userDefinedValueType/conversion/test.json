@@ -359,5 +359,8 @@
   ],
   "contracts": {
     "C": "conversion.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

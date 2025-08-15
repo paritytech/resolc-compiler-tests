@@ -68,5 +68,8 @@
   ],
   "contracts": {
     "Lisa": "lisa.sol:Lisa"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

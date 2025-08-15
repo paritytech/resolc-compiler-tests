@@ -68,5 +68,8 @@
   ],
   "contracts": {
     "C": "free_function_braces.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

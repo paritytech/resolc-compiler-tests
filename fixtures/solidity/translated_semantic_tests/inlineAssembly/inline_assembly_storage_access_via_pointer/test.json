@@ -60,5 +60,8 @@
   ],
   "contracts": {
     "C": "inline_assembly_storage_access_via_pointer.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

@@ -34,5 +34,8 @@
   ],
   "contracts": {
     "C": "event_dynamic_array_memory_v2.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

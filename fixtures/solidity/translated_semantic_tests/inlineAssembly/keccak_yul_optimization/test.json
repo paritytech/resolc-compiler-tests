@@ -34,5 +34,8 @@
   ],
   "contracts": {
     "C": "keccak_yul_optimization.sol:C"
-  }
+  },
+  "modes": [
+    "E"
+  ]
 }

@@ -1,4 +1,6 @@
 {
+  "comment": "Assumes a constant block hash which is not the case for us",
+  "ignore": true,
   "cases": [
     {
       "name": "blockhash",

@@ -1,4 +1,6 @@
 {
+  "comment": "We're running on a full blockchain so the above might not be zero.",
+  "ignore": true,
   "cases": [
     {
       "name": "blockhash_shadow_resolution",

@@ -5,13 +5,13 @@
       "inputs": [
         {
           "caller": "0x7140eC0f21C8591703FF58D59B25624EB451469A",
-          "comment": "f() -> 0x420420420",
+          "comment": "f() -> 420420420",
           "instance": "C",
           "method": "f()",
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x0420420420"
+              "0x190f1b44"
             ],
             "exception": false
           }

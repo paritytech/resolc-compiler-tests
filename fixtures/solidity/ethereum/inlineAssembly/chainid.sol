@@ -8,4 +8,4 @@ contract C {
 // ====
 // EVMVersion: >=istanbul
 // ----
-// f() -> 0x420420420
+// f() -> 420420420

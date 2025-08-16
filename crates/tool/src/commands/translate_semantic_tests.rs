@@ -185,8 +185,7 @@ pub fn handle_semantic_tests_translation(
 
                         for event in events {
                             let mut translated_event = Event::default();
-                            translated_event.address =
-                                event.emitter.map(|value| value.to_string());
+                            translated_event.address = None;
 
                             if let EventIdentifier::Known { signature } =
                                 event.ident

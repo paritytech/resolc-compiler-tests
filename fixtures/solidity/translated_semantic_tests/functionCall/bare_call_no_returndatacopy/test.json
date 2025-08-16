@@ -1,16 +1,17 @@
 {
+  "comment": "In the EVM this returns `true` if the address has no code so their test is probably incorrect.",
   "cases": [
     {
       "name": "bare_call_no_returndatacopy",
       "inputs": [
         {
           "caller": "0x3132918a3ecb2eba30ed58e8dc7dc1427f0d6097",
-          "comment": "f() -> false",
+          "comment": "f() -> true",
           "instance": "C",
           "method": "f()",
           "calldata": [],
           "expected": {
-            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "exception": false
           }
         }

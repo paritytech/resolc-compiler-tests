@@ -17,9 +17,7 @@
                   "0x00",
                   "0x4e3B02fd687bF5275F1Fea653AFd25fC55F7E36F"
                 ],
-                "values": [
-                  "0x14"
-                ]
+                "values": "0x0000000000000000000000000000000000000000000000000000000000000014"
               }
             ],
             "exception": false
@@ -32,9 +30,7 @@
           "method": "totalSupply()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x14"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000014",
             "exception": false
           }
         },
@@ -43,14 +39,9 @@
           "comment": "transfer(address,uint256): 2, 5 -> true; ~ emit Transfer(address,address,uint256): #0x4e3B02fd687bF5275F1Fea653AFd25fC55F7E36F, #0x02, 0x05; gas irOptimized: 48471; gas legacy: 49317; gas legacyOptimized: 48491",
           "instance": "ERC20",
           "method": "transfer(address,uint256)",
-          "calldata": [
-            "0x02",
-            "0x05"
-          ],
+          "calldata": "0x00000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000005",
           "expected": {
-            "return_data": [
-              "0x01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "events": [
               {
                 "topics": [
@@ -58,9 +49,7 @@
                   "0x4e3B02fd687bF5275F1Fea653AFd25fC55F7E36F",
                   "0x02"
                 ],
-                "values": [
-                  "0x05"
-                ]
+                "values": "0x0000000000000000000000000000000000000000000000000000000000000005"
               }
             ],
             "exception": false
@@ -71,14 +60,9 @@
           "comment": "decreaseAllowance(address,uint256): 2, 0 -> true; ~ emit Approval(address,address,uint256): #0x4e3B02fd687bF5275F1Fea653AFd25fC55F7E36F, #0x02, 0x00; gas irOptimized: 26275; gas legacy: 27012; gas legacyOptimized: 26275",
           "instance": "ERC20",
           "method": "decreaseAllowance(address,uint256)",
-          "calldata": [
-            "0x02",
-            "0x00"
-          ],
+          "calldata": "0x00000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000000",
           "expected": {
-            "return_data": [
-              "0x01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "events": [
               {
                 "topics": [
@@ -86,9 +70,7 @@
                   "0x4e3B02fd687bF5275F1Fea653AFd25fC55F7E36F",
                   "0x02"
                 ],
-                "values": [
-                  "0x00"
-                ]
+                "values": "0x0000000000000000000000000000000000000000000000000000000000000000"
               }
             ],
             "exception": false
@@ -99,15 +81,9 @@
           "comment": "decreaseAllowance(address,uint256): 2, 1 -> FAILURE, hex\"4e487b71\", 0x11; gas irOptimized: 24042; gas legacy: 24467; gas legacyOptimized: 24056",
           "instance": "ERC20",
           "method": "decreaseAllowance(address,uint256)",
-          "calldata": [
-            "0x02",
-            "0x01"
-          ],
+          "calldata": "0x00000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000001",
           "expected": {
-            "return_data": [
-              "0x4e487b7100000000000000000000000000000000000000000000000000000000",
-              "0x1100000000000000000000000000000000000000000000000000000000"
-            ],
+            "return_data": "0x4e487b710000000000000000000000000000000000000000000000000000000000000011",
             "exception": true
           }
         },
@@ -116,14 +92,9 @@
           "comment": "transfer(address,uint256): 2, 14 -> true; ~ emit Transfer(address,address,uint256): #0x4e3B02fd687bF5275F1Fea653AFd25fC55F7E36F, #0x02, 0x0e; gas irOptimized: 28571; gas legacy: 29417; gas legacyOptimized: 28591",
           "instance": "ERC20",
           "method": "transfer(address,uint256)",
-          "calldata": [
-            "0x02",
-            "0x0e"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000000e",
           "expected": {
-            "return_data": [
-              "0x01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "events": [
               {
                 "topics": [
@@ -131,9 +102,7 @@
                   "0x4e3B02fd687bF5275F1Fea653AFd25fC55F7E36F",
                   "0x02"
                 ],
-                "values": [
-                  "0x0e"
-                ]
+                "values": "0x000000000000000000000000000000000000000000000000000000000000000e"
               }
             ],
             "exception": false
@@ -144,15 +113,9 @@
           "comment": "transfer(address,uint256): 2, 2 -> FAILURE, hex\"4e487b71\", 0x11; gas irOptimized: 24071; gas legacy: 24453; gas legacyOptimized: 24053",
           "instance": "ERC20",
           "method": "transfer(address,uint256)",
-          "calldata": [
-            "0x02",
-            "0x02"
-          ],
+          "calldata": "0x00000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000002",
           "expected": {
-            "return_data": [
-              "0x4e487b7100000000000000000000000000000000000000000000000000000000",
-              "0x1100000000000000000000000000000000000000000000000000000000"
-            ],
+            "return_data": "0x4e487b710000000000000000000000000000000000000000000000000000000000000011",
             "exception": true
           }
         }
@@ -163,6 +126,6 @@
     "ERC20": "erc20.sol:ERC20"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

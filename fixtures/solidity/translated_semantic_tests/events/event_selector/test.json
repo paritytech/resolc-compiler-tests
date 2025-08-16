@@ -10,12 +10,7 @@
           "method": "test1()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x92bbf6e823a631f3c8e09b1c8df90f378fb56f7fbc9701827e1ff8aad7f6a028",
-              "0x2ff0672f372fbe844b353429d4510ea5e43683af134c54f75f789ff57bc0c0",
-              "0x92bbf6e823a631f3c8e09b1c8df90f378fb56f7fbc9701827e1ff8aad7f6a028",
-              "0x92bbf6e823a631f3c8e09b1c8df90f378fb56f7fbc9701827e1ff8aad7f6a028"
-            ],
+            "return_data": "0x92bbf6e823a631f3c8e09b1c8df90f378fb56f7fbc9701827e1ff8aad7f6a028002ff0672f372fbe844b353429d4510ea5e43683af134c54f75f789ff57bc0c092bbf6e823a631f3c8e09b1c8df90f378fb56f7fbc9701827e1ff8aad7f6a02892bbf6e823a631f3c8e09b1c8df90f378fb56f7fbc9701827e1ff8aad7f6a028",
             "exception": false
           }
         },
@@ -26,13 +21,7 @@
           "method": "test2()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x92bbf6e823a631f3c8e09b1c8df90f378fb56f7fbc9701827e1ff8aad7f6a028",
-              "0x2ff0672f372fbe844b353429d4510ea5e43683af134c54f75f789ff57bc0c0",
-              "0x92bbf6e823a631f3c8e09b1c8df90f378fb56f7fbc9701827e1ff8aad7f6a028",
-              "0x92bbf6e823a631f3c8e09b1c8df90f378fb56f7fbc9701827e1ff8aad7f6a028",
-              "0x92bbf6e823a631f3c8e09b1c8df90f378fb56f7fbc9701827e1ff8aad7f6a028"
-            ],
+            "return_data": "0x92bbf6e823a631f3c8e09b1c8df90f378fb56f7fbc9701827e1ff8aad7f6a028002ff0672f372fbe844b353429d4510ea5e43683af134c54f75f789ff57bc0c092bbf6e823a631f3c8e09b1c8df90f378fb56f7fbc9701827e1ff8aad7f6a02892bbf6e823a631f3c8e09b1c8df90f378fb56f7fbc9701827e1ff8aad7f6a02892bbf6e823a631f3c8e09b1c8df90f378fb56f7fbc9701827e1ff8aad7f6a028",
             "exception": false
           }
         },
@@ -43,9 +32,7 @@
           "method": "test3()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x28811f5935c16a099486acb976b3a6b4942950a1425a74e9eb3e9b7f7135e12a"
-            ],
+            "return_data": "0x28811f5935c16a099486acb976b3a6b4942950a1425a74e9eb3e9b7f7135e12a",
             "exception": false
           }
         }
@@ -56,7 +43,7 @@
     "C": "event_selector.sol:C"
   },
   "modes": [
-    "Y+",
-    "E+"
+    "Y-",
+    "E-"
   ]
 }

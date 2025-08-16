@@ -8,13 +8,9 @@
           "comment": "use(uint16): 3 -> 0xfff9",
           "instance": "C",
           "method": "use(uint16)",
-          "calldata": [
-            "0x03"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000003",
           "expected": {
-            "return_data": [
-              "0xfff9"
-            ],
+            "return_data": "0x000000000000000000000000000000000000000000000000000000000000fff9",
             "exception": false
           }
         },
@@ -25,9 +21,7 @@
           "method": "result_in_constructor()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0xfffb"
-            ],
+            "return_data": "0x000000000000000000000000000000000000000000000000000000000000fffb",
             "exception": false
           }
         },
@@ -38,9 +32,7 @@
           "method": "other()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x1fff"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000001fff",
             "exception": false
           }
         }
@@ -51,6 +43,6 @@
     "C": "store_function_in_constructor_packed.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

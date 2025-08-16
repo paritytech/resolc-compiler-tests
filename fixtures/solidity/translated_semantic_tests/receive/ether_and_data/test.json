@@ -19,9 +19,7 @@
           "comment": "(), 1 ether: 1 -> FAILURE",
           "instance": "C",
           "method": "#fallback",
-          "calldata": [
-            "0x01"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000001",
           "expected": {
             "exception": true
           },
@@ -34,6 +32,6 @@
     "C": "ether_and_data.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

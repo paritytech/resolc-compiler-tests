@@ -8,14 +8,9 @@
           "comment": "applyInterest(int128,int128): 500000000000000000000, 100000000000000000 -> 550000000000000000000",
           "instance": "C",
           "method": "applyInterest(int128,int128)",
-          "calldata": [
-            "0x1b1ae4d6e2ef500000",
-            "0x016345785d8a0000"
-          ],
+          "calldata": "0x00000000000000000000000000000000000000000000001b1ae4d6e2ef500000000000000000000000000000000000000000000000000000016345785d8a0000",
           "expected": {
-            "return_data": [
-              "0x1dd0c885f9a0d80000"
-            ],
+            "return_data": "0x00000000000000000000000000000000000000000000001dd0c885f9a0d80000",
             "exception": false
           }
         }
@@ -26,6 +21,6 @@
     "C": "fixed_point_udvt_with_operators.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

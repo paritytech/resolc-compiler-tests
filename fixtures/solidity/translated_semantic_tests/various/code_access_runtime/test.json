@@ -10,9 +10,7 @@
           "method": "test()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x2a"
-            ],
+            "return_data": "0x000000000000000000000000000000000000000000000000000000000000002a",
             "exception": false
           }
         }
@@ -23,7 +21,7 @@
     "C": "code_access_runtime.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ],
   "required_evm_version": ">=constantinople"
 }

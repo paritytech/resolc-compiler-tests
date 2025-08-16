@@ -1,4 +1,6 @@
 {
+  "comment": "Ignored since we can't tell the address of the created contract before its creation",
+  "ignore": true,
   "cases": [
     {
       "name": "selfdestruct_post_cancun_redeploy",
@@ -21,9 +23,7 @@
           "method": "exists()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x00"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000000",
             "exception": false
           }
         },
@@ -39,10 +39,7 @@
                 "topics": [
                   "0x94bfd9af14ef450884c8a7ddb5734e2e1e14e70a1c84f0801cc5a29e34d26428"
                 ],
-                "values": [
-                  "0x7e6580007e709ac52945fae182c61131d42634e8",
-                  "0x1234000000000000000000000000000000000000000000000000000000000000"
-                ]
+                "values": "0x0000000000000000000000007e6580007e709ac52945fae182c61131d42634e81234000000000000000000000000000000000000000000000000000000000000"
               }
             ],
             "exception": false
@@ -55,9 +52,7 @@
           "method": "exists()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x00"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000000",
             "exception": false
           }
         },
@@ -73,10 +68,7 @@
                 "topics": [
                   "0x94bfd9af14ef450884c8a7ddb5734e2e1e14e70a1c84f0801cc5a29e34d26428"
                 ],
-                "values": [
-                  "0x7e6580007e709ac52945fae182c61131d42634e8",
-                  "0x1234000000000000000000000000000000000000000000000000000000000000"
-                ]
+                "values": "0x0000000000000000000000007e6580007e709ac52945fae182c61131d42634e81234000000000000000000000000000000000000000000000000000000000000"
               }
             ],
             "exception": false
@@ -99,9 +91,7 @@
           "method": "exists()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "exception": false
           }
         },
@@ -132,9 +122,7 @@
           "method": "exists()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "exception": false
           }
         },
@@ -155,7 +143,7 @@
     "D": "selfdestruct_post_cancun_redeploy.sol:D"
   },
   "modes": [
-    "E+"
+    "E-"
   ],
   "required_evm_version": ">=cancun"
 }

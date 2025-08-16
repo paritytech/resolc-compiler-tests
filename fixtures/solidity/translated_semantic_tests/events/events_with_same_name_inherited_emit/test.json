@@ -10,9 +10,7 @@
           "method": "deposit()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "events": [
               {
                 "topics": [
@@ -29,21 +27,15 @@
           "comment": "deposit(address): 0x5082a85c489be6aa0f2e6693bf09cc1bbd35e988 -> 1; ~ emit Deposit(address): 0x5082a85c489be6aa0f2e6693bf09cc1bbd35e988",
           "instance": "ClientReceipt",
           "method": "deposit(address)",
-          "calldata": [
-            "0x5082a85c489be6aa0f2e6693bf09cc1bbd35e988"
-          ],
+          "calldata": "0x0000000000000000000000005082a85c489be6aa0f2e6693bf09cc1bbd35e988",
           "expected": {
-            "return_data": [
-              "0x01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "events": [
               {
                 "topics": [
                   "0x8ce0bd46ec50cf39f0d0ea8686a686eb226af5796dcda4231b26fb84b5ef1234"
                 ],
-                "values": [
-                  "0x5082a85c489be6aa0f2e6693bf09cc1bbd35e988"
-                ]
+                "values": "0x0000000000000000000000005082a85c489be6aa0f2e6693bf09cc1bbd35e988"
               }
             ],
             "exception": false
@@ -54,23 +46,15 @@
           "comment": "deposit(address,uint256): 0x5082a85c489be6aa0f2e6693bf09cc1bbd35e988, 100 -> 1; ~ emit Deposit(address,uint256): 0x5082a85c489be6aa0f2e6693bf09cc1bbd35e988, 0x64",
           "instance": "ClientReceipt",
           "method": "deposit(address,uint256)",
-          "calldata": [
-            "0x5082a85c489be6aa0f2e6693bf09cc1bbd35e988",
-            "0x64"
-          ],
+          "calldata": "0x0000000000000000000000005082a85c489be6aa0f2e6693bf09cc1bbd35e9880000000000000000000000000000000000000000000000000000000000000064",
           "expected": {
-            "return_data": [
-              "0x01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "events": [
               {
                 "topics": [
                   "0xe1fffcc4923d04b559f4d29a8bfc6cda04eb5b0d3c460751c2402c5c5cc9109c"
                 ],
-                "values": [
-                  "0x5082a85c489be6aa0f2e6693bf09cc1bbd35e988",
-                  "0x64"
-                ]
+                "values": "0x0000000000000000000000005082a85c489be6aa0f2e6693bf09cc1bbd35e9880000000000000000000000000000000000000000000000000000000000000064"
               }
             ],
             "exception": false
@@ -83,6 +67,6 @@
     "ClientReceipt": "events_with_same_name_inherited_emit.sol:ClientReceipt"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

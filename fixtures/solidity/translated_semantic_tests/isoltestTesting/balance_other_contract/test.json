@@ -33,6 +33,6 @@
     "C": "balance_other_contract.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

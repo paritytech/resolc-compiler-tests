@@ -10,10 +10,7 @@
           "method": "f0()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x02",
-              "0x01"
-            ],
+            "return_data": "0x00000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000001",
             "exception": false
           }
         },
@@ -24,9 +21,7 @@
           "method": "f1()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "exception": false
           }
         },
@@ -37,9 +32,7 @@
           "method": "f2()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x02"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000002",
             "exception": false
           }
         },
@@ -50,9 +43,7 @@
           "method": "f3()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x03"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000003",
             "exception": false
           }
         },
@@ -63,9 +54,7 @@
           "method": "f4()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x04"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000004",
             "exception": false
           }
         }
@@ -76,6 +65,6 @@
     "test": "nested_tuples.sol:test"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

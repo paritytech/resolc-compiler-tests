@@ -20,9 +20,7 @@
           "method": "who_am_i()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0xB40d73153EA796AF4e5Eef4626942022aaB84175"
-            ],
+            "return_data": "0x0000000000000000000000001212121212121212121212121212120000000012",
             "exception": false
           }
         },
@@ -33,9 +31,7 @@
           "method": "who_am_i()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x3de1d125dec845c438D997D3554e6D105421C076"
-            ],
+            "return_data": "0x0000000000000000000000001212121212121212121212121212120000001012",
             "exception": false
           }
         },
@@ -46,9 +42,7 @@
           "method": "who_am_i()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x4FDEf89f07d857DD1B77d2DAaf8Aca2b445ab881"
-            ],
+            "return_data": "0x0000000000000000000000001212121212121212121212121212120000002012",
             "exception": false
           }
         },
@@ -59,9 +53,7 @@
           "method": "who_am_i()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0xD75668AD0AB5917c79d453309Cc2cA31120c0b02"
-            ],
+            "return_data": "0x0000000000000000000000001212121212121212121212121212120000003012",
             "exception": false
           }
         },
@@ -72,9 +64,7 @@
           "method": "who_am_i()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0xd7d938266bAF1e8A3d8D1e05c97B9C8d6Cb26bAc"
-            ],
+            "return_data": "0x0000000000000000000000001212121212121212121212121212120000004012",
             "exception": false
           }
         },
@@ -85,9 +75,7 @@
           "method": "who_am_i()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x2B489cBa91b57E1c66f43A35d386f0f6BBe53066"
-            ],
+            "return_data": "0x0000000000000000000000001212121212121212121212121212120000005012",
             "exception": false
           }
         },
@@ -98,9 +86,7 @@
           "method": "who_am_i()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0xeA5A8b7c8AE6F6AcEe81D5E8dA5CB242E47BE65f"
-            ],
+            "return_data": "0x0000000000000000000000001212121212121212121212121212120000006012",
             "exception": false
           }
         },
@@ -111,9 +97,7 @@
           "method": "who_am_i()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x5D508031B360129DF797e01A2D3D4332289b4d01"
-            ],
+            "return_data": "0x0000000000000000000000001212121212121212121212121212120000007012",
             "exception": false
           }
         },
@@ -124,9 +108,7 @@
           "method": "who_am_i()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0xd9F702A4A8B339Af4bbCb948Ca7C6C7035A0737a"
-            ],
+            "return_data": "0x0000000000000000000000001212121212121212121212121212120000008012",
             "exception": false
           }
         },
@@ -137,9 +119,7 @@
           "method": "who_am_i()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x72519C1D8F3B9c11d536cEcBF57f23E5ae7F087c"
-            ],
+            "return_data": "0x0000000000000000000000001212121212121212121212121212120000009012",
             "exception": false
           }
         },
@@ -150,9 +130,7 @@
           "method": "who_am_i()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x71643160cb2e89EfC62a52bB42987a2195AD0289"
-            ],
+            "return_data": "0x000000000000000000000000121212121212121212121212121212000000a012",
             "exception": false
           }
         },
@@ -163,9 +141,7 @@
           "method": "who_am_i()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0xa108fC69944021455777655F9aDbcF795c907ECa"
-            ],
+            "return_data": "0x000000000000000000000000121212121212121212121212121212000000b012",
             "exception": false
           }
         },
@@ -176,9 +152,7 @@
           "method": "who_am_i()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x7Ca6bA734232961c233DcE9923996655d6Da97E8"
-            ],
+            "return_data": "0x000000000000000000000000121212121212121212121212121212000000c012",
             "exception": false
           }
         }
@@ -189,6 +163,6 @@
     "AccountBuiltinTest": "account.sol:AccountBuiltinTest"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

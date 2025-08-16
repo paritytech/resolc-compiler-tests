@@ -10,9 +10,7 @@
           "method": "f()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x2a"
-            ],
+            "return_data": "0x000000000000000000000000000000000000000000000000000000000000002a",
             "exception": false
           }
         }
@@ -23,6 +21,6 @@
     "C": "selector_expression_side_effect.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

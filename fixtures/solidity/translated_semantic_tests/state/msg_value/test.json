@@ -10,9 +10,7 @@
           "method": "f()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x00"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000000",
             "exception": false
           }
         },
@@ -23,9 +21,7 @@
           "method": "f()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0xa688906bd8b00000"
-            ],
+            "return_data": "0x000000000000000000000000000000000000000000000000a688906bd8b00000",
             "exception": false
           },
           "value": "12000000000000000000 wei"
@@ -37,6 +33,6 @@
     "C": "msg_value.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

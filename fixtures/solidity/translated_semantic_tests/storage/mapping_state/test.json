@@ -8,13 +8,9 @@
           "comment": "getVoteCount(address): 0 -> 0",
           "instance": "Ballot",
           "method": "getVoteCount(address)",
-          "calldata": [
-            "0x00"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000000",
           "expected": {
-            "return_data": [
-              "0x00"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000000",
             "exception": false
           }
         },
@@ -23,13 +19,9 @@
           "comment": "getVoteCount(address): 1 -> 0",
           "instance": "Ballot",
           "method": "getVoteCount(address)",
-          "calldata": [
-            "0x01"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000001",
           "expected": {
-            "return_data": [
-              "0x00"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000000",
             "exception": false
           }
         },
@@ -38,13 +30,9 @@
           "comment": "getVoteCount(address): 2 -> 0",
           "instance": "Ballot",
           "method": "getVoteCount(address)",
-          "calldata": [
-            "0x02"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000002",
           "expected": {
-            "return_data": [
-              "0x00"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000000",
             "exception": false
           }
         },
@@ -53,14 +41,9 @@
           "comment": "vote(address,address): 0, 2 -> false",
           "instance": "Ballot",
           "method": "vote(address,address)",
-          "calldata": [
-            "0x00",
-            "0x02"
-          ],
+          "calldata": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002",
           "expected": {
-            "return_data": [
-              "0x00"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000000",
             "exception": false
           }
         },
@@ -69,13 +52,9 @@
           "comment": "getVoteCount(address): 0 -> 0",
           "instance": "Ballot",
           "method": "getVoteCount(address)",
-          "calldata": [
-            "0x00"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000000",
           "expected": {
-            "return_data": [
-              "0x00"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000000",
             "exception": false
           }
         },
@@ -84,13 +63,9 @@
           "comment": "getVoteCount(address): 1 -> 0",
           "instance": "Ballot",
           "method": "getVoteCount(address)",
-          "calldata": [
-            "0x01"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000001",
           "expected": {
-            "return_data": [
-              "0x00"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000000",
             "exception": false
           }
         },
@@ -99,13 +74,9 @@
           "comment": "getVoteCount(address): 2 -> 0",
           "instance": "Ballot",
           "method": "getVoteCount(address)",
-          "calldata": [
-            "0x02"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000002",
           "expected": {
-            "return_data": [
-              "0x00"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000000",
             "exception": false
           }
         },
@@ -114,9 +85,7 @@
           "comment": "grantVoteRight(address): 0 ->",
           "instance": "Ballot",
           "method": "grantVoteRight(address)",
-          "calldata": [
-            "0x00"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000000",
           "expected": {
             "exception": false
           }
@@ -126,9 +95,7 @@
           "comment": "grantVoteRight(address): 1 ->",
           "instance": "Ballot",
           "method": "grantVoteRight(address)",
-          "calldata": [
-            "0x01"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000001",
           "expected": {
             "exception": false
           }
@@ -138,14 +105,9 @@
           "comment": "vote(address,address): 0, 2 -> true",
           "instance": "Ballot",
           "method": "vote(address,address)",
-          "calldata": [
-            "0x00",
-            "0x02"
-          ],
+          "calldata": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002",
           "expected": {
-            "return_data": [
-              "0x01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "exception": false
           }
         },
@@ -154,13 +116,9 @@
           "comment": "getVoteCount(address): 0 -> 0",
           "instance": "Ballot",
           "method": "getVoteCount(address)",
-          "calldata": [
-            "0x00"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000000",
           "expected": {
-            "return_data": [
-              "0x00"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000000",
             "exception": false
           }
         },
@@ -169,13 +127,9 @@
           "comment": "getVoteCount(address): 1 -> 0",
           "instance": "Ballot",
           "method": "getVoteCount(address)",
-          "calldata": [
-            "0x01"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000001",
           "expected": {
-            "return_data": [
-              "0x00"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000000",
             "exception": false
           }
         },
@@ -184,13 +138,9 @@
           "comment": "getVoteCount(address): 2 -> 1",
           "instance": "Ballot",
           "method": "getVoteCount(address)",
-          "calldata": [
-            "0x02"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000002",
           "expected": {
-            "return_data": [
-              "0x01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "exception": false
           }
         },
@@ -199,14 +149,9 @@
           "comment": "vote(address,address): 0, 1 -> false",
           "instance": "Ballot",
           "method": "vote(address,address)",
-          "calldata": [
-            "0x00",
-            "0x01"
-          ],
+          "calldata": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001",
           "expected": {
-            "return_data": [
-              "0x00"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000000",
             "exception": false
           }
         },
@@ -215,13 +160,9 @@
           "comment": "getVoteCount(address): 0 -> 0",
           "instance": "Ballot",
           "method": "getVoteCount(address)",
-          "calldata": [
-            "0x00"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000000",
           "expected": {
-            "return_data": [
-              "0x00"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000000",
             "exception": false
           }
         },
@@ -230,13 +171,9 @@
           "comment": "getVoteCount(address): 1 -> 0",
           "instance": "Ballot",
           "method": "getVoteCount(address)",
-          "calldata": [
-            "0x01"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000001",
           "expected": {
-            "return_data": [
-              "0x00"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000000",
             "exception": false
           }
         },
@@ -245,13 +182,9 @@
           "comment": "getVoteCount(address): 2 -> 1",
           "instance": "Ballot",
           "method": "getVoteCount(address)",
-          "calldata": [
-            "0x02"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000002",
           "expected": {
-            "return_data": [
-              "0x01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "exception": false
           }
         },
@@ -260,14 +193,9 @@
           "comment": "vote(address,address): 2, 1 -> false",
           "instance": "Ballot",
           "method": "vote(address,address)",
-          "calldata": [
-            "0x02",
-            "0x01"
-          ],
+          "calldata": "0x00000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000001",
           "expected": {
-            "return_data": [
-              "0x00"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000000",
             "exception": false
           }
         },
@@ -276,13 +204,9 @@
           "comment": "getVoteCount(address): 0 -> 0",
           "instance": "Ballot",
           "method": "getVoteCount(address)",
-          "calldata": [
-            "0x00"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000000",
           "expected": {
-            "return_data": [
-              "0x00"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000000",
             "exception": false
           }
         },
@@ -291,13 +215,9 @@
           "comment": "getVoteCount(address): 1 -> 0",
           "instance": "Ballot",
           "method": "getVoteCount(address)",
-          "calldata": [
-            "0x01"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000001",
           "expected": {
-            "return_data": [
-              "0x00"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000000",
             "exception": false
           }
         },
@@ -306,13 +226,9 @@
           "comment": "getVoteCount(address): 2 -> 1",
           "instance": "Ballot",
           "method": "getVoteCount(address)",
-          "calldata": [
-            "0x02"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000002",
           "expected": {
-            "return_data": [
-              "0x01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "exception": false
           }
         },
@@ -321,9 +237,7 @@
           "comment": "grantVoteRight(address): 2 ->",
           "instance": "Ballot",
           "method": "grantVoteRight(address)",
-          "calldata": [
-            "0x02"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000002",
           "expected": {
             "exception": false
           }
@@ -333,14 +247,9 @@
           "comment": "vote(address,address): 2, 1 -> true",
           "instance": "Ballot",
           "method": "vote(address,address)",
-          "calldata": [
-            "0x02",
-            "0x01"
-          ],
+          "calldata": "0x00000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000001",
           "expected": {
-            "return_data": [
-              "0x01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "exception": false
           }
         },
@@ -349,13 +258,9 @@
           "comment": "getVoteCount(address): 0 -> 0",
           "instance": "Ballot",
           "method": "getVoteCount(address)",
-          "calldata": [
-            "0x00"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000000",
           "expected": {
-            "return_data": [
-              "0x00"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000000",
             "exception": false
           }
         },
@@ -364,13 +269,9 @@
           "comment": "getVoteCount(address): 1 -> 1",
           "instance": "Ballot",
           "method": "getVoteCount(address)",
-          "calldata": [
-            "0x01"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000001",
           "expected": {
-            "return_data": [
-              "0x01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "exception": false
           }
         },
@@ -379,13 +280,9 @@
           "comment": "getVoteCount(address): 2 -> 1",
           "instance": "Ballot",
           "method": "getVoteCount(address)",
-          "calldata": [
-            "0x02"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000002",
           "expected": {
-            "return_data": [
-              "0x01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "exception": false
           }
         }
@@ -396,6 +293,6 @@
     "Ballot": "mapping_state.sol:Ballot"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

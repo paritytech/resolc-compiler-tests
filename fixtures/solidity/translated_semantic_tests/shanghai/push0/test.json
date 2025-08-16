@@ -10,9 +10,7 @@
           "method": "zero()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x00"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000000",
             "exception": false
           }
         }
@@ -23,8 +21,8 @@
     "C": "push0.sol:C"
   },
   "modes": [
-    "Y+",
-    "E+"
+    "Y-",
+    "E-"
   ],
   "required_evm_version": ">=shanghai"
 }

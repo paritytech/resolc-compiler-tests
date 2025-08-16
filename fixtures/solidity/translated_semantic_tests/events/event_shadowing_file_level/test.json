@@ -10,11 +10,7 @@
           "method": "main()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x3e9992c940c54ea252d3a34557cc3d3014281525c43d694f89d5f3dfd820b07d",
-              "0x3e9992c940c54ea252d3a34557cc3d3014281525c43d694f89d5f3dfd820b07d",
-              "0x92bbf6e823a631f3c8e09b1c8df90f378fb56f7fbc9701827e1ff8aad7f6a028"
-            ],
+            "return_data": "0x3e9992c940c54ea252d3a34557cc3d3014281525c43d694f89d5f3dfd820b07d3e9992c940c54ea252d3a34557cc3d3014281525c43d694f89d5f3dfd820b07d92bbf6e823a631f3c8e09b1c8df90f378fb56f7fbc9701827e1ff8aad7f6a028",
             "exception": false
           }
         },
@@ -25,11 +21,7 @@
           "method": "k_main()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x92bbf6e823a631f3c8e09b1c8df90f378fb56f7fbc9701827e1ff8aad7f6a028",
-              "0x3e9992c940c54ea252d3a34557cc3d3014281525c43d694f89d5f3dfd820b07d",
-              "0x92bbf6e823a631f3c8e09b1c8df90f378fb56f7fbc9701827e1ff8aad7f6a028"
-            ],
+            "return_data": "0x92bbf6e823a631f3c8e09b1c8df90f378fb56f7fbc9701827e1ff8aad7f6a0283e9992c940c54ea252d3a34557cc3d3014281525c43d694f89d5f3dfd820b07d92bbf6e823a631f3c8e09b1c8df90f378fb56f7fbc9701827e1ff8aad7f6a028",
             "exception": false
           }
         }
@@ -40,6 +32,6 @@
     "C": "event_shadowing_file_level.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

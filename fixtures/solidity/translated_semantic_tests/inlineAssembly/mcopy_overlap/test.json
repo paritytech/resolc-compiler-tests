@@ -10,13 +10,7 @@
           "method": "mcopy_to_right_overlap()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x20",
-              "0x60",
-              "0x2222222222222222333333333333333344444444444444445555555555555555",
-              "0x4444444444444444555555555555555566666666666666667777777777777777",
-              "0x88888888888888889999999999999999ccccccccccccccccdddddddddddddddd"
-            ],
+            "return_data": "0x000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000000602222222222222222333333333333333344444444444444445555555555555555444444444444444455555555555555556666666666666666777777777777777788888888888888889999999999999999ccccccccccccccccdddddddddddddddd",
             "exception": false
           }
         },
@@ -27,13 +21,7 @@
           "method": "mcopy_to_left_overlap()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x20",
-              "0x60",
-              "0x2222222222222222333333333333333366666666666666667777777777777777",
-              "0x88888888888888889999999999999999aaaaaaaaaaaaaaaabbbbbbbbbbbbbbbb",
-              "0xaaaaaaaaaaaaaaaabbbbbbbbbbbbbbbbccccccccccccccccdddddddddddddddd"
-            ],
+            "return_data": "0x00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000060222222222222222233333333333333336666666666666666777777777777777788888888888888889999999999999999aaaaaaaaaaaaaaaabbbbbbbbbbbbbbbbaaaaaaaaaaaaaaaabbbbbbbbbbbbbbbbccccccccccccccccdddddddddddddddd",
             "exception": false
           }
         },
@@ -44,13 +32,7 @@
           "method": "mcopy_in_place()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x20",
-              "0x60",
-              "0x2222222222222222333333333333333344444444444444445555555555555555",
-              "0x6666666666666666777777777777777788888888888888889999999999999999",
-              "0xaaaaaaaaaaaaaaaabbbbbbbbbbbbbbbbccccccccccccccccdddddddddddddddd"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000006022222222222222223333333333333333444444444444444455555555555555556666666666666666777777777777777788888888888888889999999999999999aaaaaaaaaaaaaaaabbbbbbbbbbbbbbbbccccccccccccccccdddddddddddddddd",
             "exception": false
           }
         },
@@ -61,13 +43,7 @@
           "method": "mcopy_to_right_no_overlap()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x20",
-              "0x60",
-              "0x2222222222222222333333333333333344444444444444445555555555555555",
-              "0x6666666666666666777777777777777744444444444444445555555555555555",
-              "0x66666666666666667777777777777777ccccccccccccccccdddddddddddddddd"
-            ],
+            "return_data": "0x000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000000602222222222222222333333333333333344444444444444445555555555555555666666666666666677777777777777774444444444444444555555555555555566666666666666667777777777777777ccccccccccccccccdddddddddddddddd",
             "exception": false
           }
         },
@@ -78,13 +54,7 @@
           "method": "mcopy_to_left_no_overlap()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x20",
-              "0x60",
-              "0x2222222222222222333333333333333388888888888888889999999999999999",
-              "0xaaaaaaaaaaaaaaaabbbbbbbbbbbbbbbb88888888888888889999999999999999",
-              "0xaaaaaaaaaaaaaaaabbbbbbbbbbbbbbbbccccccccccccccccdddddddddddddddd"
-            ],
+            "return_data": "0x000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000000602222222222222222333333333333333388888888888888889999999999999999aaaaaaaaaaaaaaaabbbbbbbbbbbbbbbb88888888888888889999999999999999aaaaaaaaaaaaaaaabbbbbbbbbbbbbbbbccccccccccccccccdddddddddddddddd",
             "exception": false
           }
         }
@@ -95,7 +65,7 @@
     "C": "mcopy_overlap.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ],
   "required_evm_version": ">=cancun"
 }

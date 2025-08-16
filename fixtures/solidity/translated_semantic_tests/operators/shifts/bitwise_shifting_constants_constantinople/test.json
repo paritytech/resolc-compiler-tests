@@ -10,9 +10,7 @@
           "method": "shl_1()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "exception": false
           }
         },
@@ -23,9 +21,7 @@
           "method": "shl_2()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "exception": false
           }
         },
@@ -36,9 +32,7 @@
           "method": "shl_3()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "exception": false
           }
         },
@@ -49,9 +43,7 @@
           "method": "shr_1()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "exception": false
           }
         },
@@ -62,9 +54,7 @@
           "method": "shr_2()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "exception": false
           }
         },
@@ -75,9 +65,7 @@
           "method": "shr_3()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "exception": false
           }
         }
@@ -88,7 +76,7 @@
     "C": "bitwise_shifting_constants_constantinople.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ],
   "required_evm_version": ">=constantinople"
 }

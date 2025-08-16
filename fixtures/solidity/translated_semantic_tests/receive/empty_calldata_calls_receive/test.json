@@ -10,9 +10,7 @@
           "method": "x()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x00"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000000",
             "exception": false
           }
         },
@@ -33,9 +31,7 @@
           "method": "x()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "exception": false
           }
         },
@@ -57,9 +53,7 @@
           "method": "x()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x02"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000002",
             "exception": false
           }
         },
@@ -79,9 +73,7 @@
           "comment": "(): hex\"00\" -> FAILURE",
           "instance": "A",
           "method": "#fallback",
-          "calldata": [
-            "0x00"
-          ],
+          "calldata": "0x00",
           "expected": {
             "exception": true
           }
@@ -91,9 +83,7 @@
           "comment": "(), 1 ether: hex\"00\" -> FAILURE",
           "instance": "A",
           "method": "#fallback",
-          "calldata": [
-            "0x00"
-          ],
+          "calldata": "0x00",
           "expected": {
             "exception": true
           },
@@ -106,6 +96,6 @@
     "A": "empty_calldata_calls_receive.sol:A"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

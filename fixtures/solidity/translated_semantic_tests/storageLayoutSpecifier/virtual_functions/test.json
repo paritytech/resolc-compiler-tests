@@ -10,9 +10,7 @@
           "method": "f()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "exception": false
           }
         },
@@ -23,9 +21,7 @@
           "method": "g()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x03"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000003",
             "exception": false
           }
         },
@@ -36,9 +32,7 @@
           "method": "h()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x06"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000006",
             "exception": false
           }
         },
@@ -49,9 +43,7 @@
           "method": "x()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "exception": false
           }
         },
@@ -62,9 +54,7 @@
           "method": "y()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x03"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000003",
             "exception": false
           }
         },
@@ -75,9 +65,7 @@
           "method": "z()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x06"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000006",
             "exception": false
           }
         }
@@ -88,6 +76,6 @@
     "C": "virtual_functions.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

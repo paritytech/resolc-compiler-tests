@@ -31,7 +31,7 @@
     "C": "ether_non_payable_function.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ],
   "required_evm_version": ">=byzantium",
   "compiler_directives": {

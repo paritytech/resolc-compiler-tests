@@ -8,13 +8,9 @@
           "comment": "create(uint256): 0 -> 0",
           "instance": "C",
           "method": "create(uint256)",
-          "calldata": [
-            "0x00"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000000",
           "expected": {
-            "return_data": [
-              "0x00"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000000",
             "exception": false
           }
         },
@@ -23,13 +19,9 @@
           "comment": "create(uint256): 7 -> 7",
           "instance": "C",
           "method": "create(uint256)",
-          "calldata": [
-            "0x07"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000007",
           "expected": {
-            "return_data": [
-              "0x07"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000007",
             "exception": false
           }
         },
@@ -38,13 +30,9 @@
           "comment": "create(uint256): 10 -> 10",
           "instance": "C",
           "method": "create(uint256)",
-          "calldata": [
-            "0x0a"
-          ],
+          "calldata": "0x000000000000000000000000000000000000000000000000000000000000000a",
           "expected": {
-            "return_data": [
-              "0x0a"
-            ],
+            "return_data": "0x000000000000000000000000000000000000000000000000000000000000000a",
             "exception": false
           }
         }
@@ -55,6 +43,6 @@
     "C": "array_memory_create.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

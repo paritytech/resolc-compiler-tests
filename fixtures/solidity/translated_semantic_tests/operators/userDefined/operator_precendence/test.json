@@ -50,6 +50,6 @@
     "C": "operator_precendence.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

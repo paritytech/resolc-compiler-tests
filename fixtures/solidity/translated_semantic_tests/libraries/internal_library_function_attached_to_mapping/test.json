@@ -8,13 +8,9 @@
           "comment": "mapValue(uint256): 42 -> 0x24",
           "instance": "C",
           "method": "mapValue(uint256)",
-          "calldata": [
-            "0x2a"
-          ],
+          "calldata": "0x000000000000000000000000000000000000000000000000000000000000002a",
           "expected": {
-            "return_data": [
-              "0x24"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000024",
             "exception": false
           }
         }
@@ -25,6 +21,6 @@
     "C": "internal_library_function_attached_to_mapping.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

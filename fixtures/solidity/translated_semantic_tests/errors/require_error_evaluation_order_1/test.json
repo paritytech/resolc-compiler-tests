@@ -10,9 +10,7 @@
           "method": "f()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x07"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000007",
             "exception": false
           }
         },
@@ -23,9 +21,7 @@
           "method": "g()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x07"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000007",
             "exception": false
           }
         }
@@ -36,6 +32,6 @@
     "C": "require_error_evaluation_order_1.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

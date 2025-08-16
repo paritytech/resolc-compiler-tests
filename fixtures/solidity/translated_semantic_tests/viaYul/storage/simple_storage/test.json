@@ -8,13 +8,9 @@
           "comment": "setX(uint256): 6 -> 6",
           "instance": "C",
           "method": "setX(uint256)",
-          "calldata": [
-            "0x06"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000006",
           "expected": {
-            "return_data": [
-              "0x06"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000006",
             "exception": false
           }
         },
@@ -23,13 +19,9 @@
           "comment": "setY(uint256): 2 -> 2",
           "instance": "C",
           "method": "setY(uint256)",
-          "calldata": [
-            "0x02"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000002",
           "expected": {
-            "return_data": [
-              "0x02"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000002",
             "exception": false
           }
         }
@@ -40,6 +32,6 @@
     "C": "simple_storage.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

@@ -10,9 +10,7 @@
           "method": "testYul()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x1234"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000001234",
             "exception": false
           }
         },
@@ -23,9 +21,7 @@
           "method": "testSol()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x1234"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000001234",
             "exception": false
           }
         }
@@ -36,6 +32,6 @@
     "C": "external_function_pointer_address.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

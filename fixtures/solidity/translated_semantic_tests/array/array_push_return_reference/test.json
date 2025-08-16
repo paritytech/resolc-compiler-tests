@@ -10,9 +10,7 @@
           "method": "getLength()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x00"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000000",
             "exception": false
           }
         },
@@ -21,9 +19,7 @@
           "comment": "test(uint256): 42 ->",
           "instance": "C",
           "method": "test(uint256)",
-          "calldata": [
-            "0x2a"
-          ],
+          "calldata": "0x000000000000000000000000000000000000000000000000000000000000002a",
           "expected": {
             "exception": false
           }
@@ -35,9 +31,7 @@
           "method": "getLength()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "exception": false
           }
         },
@@ -46,13 +40,9 @@
           "comment": "fetch(uint256): 0 -> 42",
           "instance": "C",
           "method": "fetch(uint256)",
-          "calldata": [
-            "0x00"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000000",
           "expected": {
-            "return_data": [
-              "0x2a"
-            ],
+            "return_data": "0x000000000000000000000000000000000000000000000000000000000000002a",
             "exception": false
           }
         },
@@ -61,14 +51,9 @@
           "comment": "fetch(uint256): 1 -> FAILURE, hex\"4e487b71\", 0x32",
           "instance": "C",
           "method": "fetch(uint256)",
-          "calldata": [
-            "0x01"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000001",
           "expected": {
-            "return_data": [
-              "0x4e487b7100000000000000000000000000000000000000000000000000000000",
-              "0x3200000000000000000000000000000000000000000000000000000000"
-            ],
+            "return_data": "0x4e487b710000000000000000000000000000000000000000000000000000000000000032",
             "exception": true
           }
         },
@@ -77,9 +62,7 @@
           "comment": "test(uint256): 23 ->",
           "instance": "C",
           "method": "test(uint256)",
-          "calldata": [
-            "0x17"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000017",
           "expected": {
             "exception": false
           }
@@ -91,9 +74,7 @@
           "method": "getLength()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x02"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000002",
             "exception": false
           }
         },
@@ -102,13 +83,9 @@
           "comment": "fetch(uint256): 0 -> 42",
           "instance": "C",
           "method": "fetch(uint256)",
-          "calldata": [
-            "0x00"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000000",
           "expected": {
-            "return_data": [
-              "0x2a"
-            ],
+            "return_data": "0x000000000000000000000000000000000000000000000000000000000000002a",
             "exception": false
           }
         },
@@ -117,13 +94,9 @@
           "comment": "fetch(uint256): 1 -> 23",
           "instance": "C",
           "method": "fetch(uint256)",
-          "calldata": [
-            "0x01"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000001",
           "expected": {
-            "return_data": [
-              "0x17"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000017",
             "exception": false
           }
         },
@@ -132,14 +105,9 @@
           "comment": "fetch(uint256): 2 -> FAILURE, hex\"4e487b71\", 0x32",
           "instance": "C",
           "method": "fetch(uint256)",
-          "calldata": [
-            "0x02"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000002",
           "expected": {
-            "return_data": [
-              "0x4e487b7100000000000000000000000000000000000000000000000000000000",
-              "0x3200000000000000000000000000000000000000000000000000000000"
-            ],
+            "return_data": "0x4e487b710000000000000000000000000000000000000000000000000000000000000032",
             "exception": true
           }
         }
@@ -150,6 +118,6 @@
     "C": "array_push_return_reference.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

@@ -10,9 +10,7 @@
           "method": "g()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x0a"
-            ],
+            "return_data": "0x000000000000000000000000000000000000000000000000000000000000000a",
             "exception": false
           }
         },
@@ -23,9 +21,7 @@
           "method": "h()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x02"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000002",
             "exception": false
           }
         }
@@ -36,6 +32,6 @@
     "C": "super_overload.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

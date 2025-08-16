@@ -8,13 +8,9 @@
           "comment": "f(bool): true -> true",
           "instance": "C",
           "method": "f(bool)",
-          "calldata": [
-            "0x01"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000001",
           "expected": {
-            "return_data": [
-              "0x01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "exception": false
           }
         },
@@ -23,13 +19,9 @@
           "comment": "f(bool): false -> false",
           "instance": "C",
           "method": "f(bool)",
-          "calldata": [
-            "0x00"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000000",
           "expected": {
-            "return_data": [
-              "0x00"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000000",
             "exception": false
           }
         },
@@ -38,13 +30,9 @@
           "comment": "f(bool): 0x000000 -> false",
           "instance": "C",
           "method": "f(bool)",
-          "calldata": [
-            "0x00"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000000",
           "expected": {
-            "return_data": [
-              "0x00"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000000",
             "exception": false
           }
         },
@@ -53,13 +41,9 @@
           "comment": "f(bool): 0xffffff -> true",
           "instance": "C",
           "method": "f(bool)",
-          "calldata": [
-            "0xffffff"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000ffffff",
           "expected": {
-            "return_data": [
-              "0x01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "exception": false
           }
         }
@@ -70,6 +54,6 @@
     "C": "bool_out_of_bounds.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

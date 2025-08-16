@@ -10,9 +10,7 @@
           "method": "f()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x7b"
-            ],
+            "return_data": "0x000000000000000000000000000000000000000000000000000000000000007b",
             "exception": false
           }
         }
@@ -29,6 +27,6 @@
     }
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

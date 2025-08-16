@@ -8,13 +8,9 @@
           "comment": "f(uint256): 11 -> 21",
           "instance": "Test",
           "method": "f(uint256)",
-          "calldata": [
-            "0x0b"
-          ],
+          "calldata": "0x000000000000000000000000000000000000000000000000000000000000000b",
           "expected": {
-            "return_data": [
-              "0x15"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000015",
             "exception": false
           }
         },
@@ -23,9 +19,7 @@
           "comment": "f(uint256): 1 -> FAILURE",
           "instance": "Test",
           "method": "f(uint256)",
-          "calldata": [
-            "0x01"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000001",
           "expected": {
             "exception": true
           }
@@ -37,6 +31,6 @@
     "Test": "simple_throw.sol:Test"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

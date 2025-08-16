@@ -8,17 +8,9 @@
           "comment": "f(uint256,int256,bytes3): 0x0100, 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff7f, \"abc\" -> 0x00, 0x7f, \"ab\"",
           "instance": "C",
           "method": "f(uint256,int256,bytes3)",
-          "calldata": [
-            "0x0100",
-            "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff7f",
-            "0x6162630000000000000000000000000000000000000000000000000000000000"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000100ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff7f6162630000000000000000000000000000000000000000000000000000000000",
           "expected": {
-            "return_data": [
-              "0x00",
-              "0x7f",
-              "0x6162000000000000000000000000000000000000000000000000000000000000"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000007f6162000000000000000000000000000000000000000000000000000000000000",
             "exception": false
           }
         }
@@ -29,6 +21,6 @@
     "C": "variable_cleanup.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

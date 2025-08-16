@@ -8,9 +8,7 @@
           "comment": "(): hex\"d88e0b\"",
           "instance": "A",
           "method": "#fallback",
-          "calldata": [
-            "0xd88e0b0000000000000000000000000000000000000000000000000000000000"
-          ],
+          "calldata": "0xd88e0b",
           "expected": {
             "exception": false
           }
@@ -22,9 +20,7 @@
           "method": "x()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x02"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000002",
             "exception": false
           }
         },
@@ -33,9 +29,7 @@
           "comment": "(): hex\"d88e0b00\"",
           "instance": "A",
           "method": "#fallback",
-          "calldata": [
-            "0xd88e0b0000000000000000000000000000000000000000000000000000000000"
-          ],
+          "calldata": "0xd88e0b00",
           "expected": {
             "exception": false
           }
@@ -47,9 +41,7 @@
           "method": "x()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x03"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000003",
             "exception": false
           }
         },
@@ -58,9 +50,7 @@
           "comment": "(): hex\"d88e\"",
           "instance": "A",
           "method": "#fallback",
-          "calldata": [
-            "0xd88e000000000000000000000000000000000000000000000000000000000000"
-          ],
+          "calldata": "0xd88e",
           "expected": {
             "exception": false
           }
@@ -72,9 +62,7 @@
           "method": "x()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x02"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000002",
             "exception": false
           }
         },
@@ -83,9 +71,7 @@
           "comment": "(): hex\"d88e0b00\"",
           "instance": "A",
           "method": "#fallback",
-          "calldata": [
-            "0xd88e0b0000000000000000000000000000000000000000000000000000000000"
-          ],
+          "calldata": "0xd88e0b00",
           "expected": {
             "exception": false
           }
@@ -97,9 +83,7 @@
           "method": "x()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x03"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000003",
             "exception": false
           }
         },
@@ -108,9 +92,7 @@
           "comment": "(): hex\"d8\"",
           "instance": "A",
           "method": "#fallback",
-          "calldata": [
-            "0xd800000000000000000000000000000000000000000000000000000000000000"
-          ],
+          "calldata": "0xd8",
           "expected": {
             "exception": false
           }
@@ -122,9 +104,7 @@
           "method": "x()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x02"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000002",
             "exception": false
           }
         }
@@ -135,6 +115,6 @@
     "A": "short_data_calls_fallback.sol:A"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

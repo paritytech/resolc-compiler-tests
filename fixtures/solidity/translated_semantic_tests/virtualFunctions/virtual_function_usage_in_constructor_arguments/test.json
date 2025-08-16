@@ -10,9 +10,7 @@
           "method": "getA()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x02"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000002",
             "exception": false
           }
         }
@@ -23,6 +21,6 @@
     "Derived": "virtual_function_usage_in_constructor_arguments.sol:Derived"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

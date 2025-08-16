@@ -10,18 +10,7 @@
           "method": "test()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x20",
-              "0x08",
-              "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
-              "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
-              "0x08",
-              "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff0",
-              "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe",
-              "0x06",
-              "0x08",
-              "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
-            ],
+            "return_data": "0x00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000008ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff0000000000000000000000000000000000000000000000000000000000000008fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff0fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe00000000000000000000000000000000000000000000000000000000000000060000000000000000000000000000000000000000000000000000000000000008ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
             "exception": false
           }
         }
@@ -32,6 +21,6 @@
     "c": "array_copy_storage_abi_signed.sol:c"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

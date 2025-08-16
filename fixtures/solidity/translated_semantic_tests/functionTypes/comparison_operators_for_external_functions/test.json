@@ -10,9 +10,7 @@
           "method": "comparison_operators_for_external_functions()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "exception": false
           }
         },
@@ -23,9 +21,7 @@
           "method": "comparison_operators_for_local_external_function_pointers()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "exception": false
           }
         }
@@ -36,6 +32,6 @@
     "C": "comparison_operators_for_external_functions.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

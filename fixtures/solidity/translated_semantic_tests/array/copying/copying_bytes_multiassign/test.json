@@ -8,9 +8,7 @@
           "comment": "(): 7 ->; gas irOptimized: 110822; gas legacy: 111388; gas legacyOptimized: 111065",
           "instance": "sender",
           "method": "#fallback",
-          "calldata": [
-            "0x07"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000007",
           "expected": {
             "exception": false
           }
@@ -22,9 +20,7 @@
           "method": "val()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x00"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000000",
             "exception": false
           }
         },
@@ -33,13 +29,9 @@
           "comment": "forward(bool): true -> true",
           "instance": "sender",
           "method": "forward(bool)",
-          "calldata": [
-            "0x01"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000001",
           "expected": {
-            "return_data": [
-              "0x01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "exception": false
           }
         },
@@ -50,9 +42,7 @@
           "method": "val()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x80"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000080",
             "exception": false
           }
         },
@@ -61,13 +51,9 @@
           "comment": "forward(bool): false -> true",
           "instance": "sender",
           "method": "forward(bool)",
-          "calldata": [
-            "0x00"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000000",
           "expected": {
-            "return_data": [
-              "0x01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "exception": false
           }
         },
@@ -78,9 +64,7 @@
           "method": "val()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x80"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000080",
             "exception": false
           }
         },
@@ -89,13 +73,9 @@
           "comment": "forward(bool): true -> true",
           "instance": "sender",
           "method": "forward(bool)",
-          "calldata": [
-            "0x01"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000001",
           "expected": {
-            "return_data": [
-              "0x01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "exception": false
           }
         },
@@ -106,9 +86,7 @@
           "method": "val()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x80"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000080",
             "exception": false
           }
         }
@@ -119,6 +97,6 @@
     "sender": "copying_bytes_multiassign.sol:sender"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

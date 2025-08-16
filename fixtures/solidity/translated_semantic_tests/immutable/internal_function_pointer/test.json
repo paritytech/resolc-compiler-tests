@@ -10,9 +10,7 @@
           "method": "f()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x07"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000007",
             "exception": false
           }
         },
@@ -23,9 +21,7 @@
           "method": "callZ()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x07"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000007",
             "exception": false
           }
         }
@@ -36,6 +32,6 @@
     "C": "internal_function_pointer.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

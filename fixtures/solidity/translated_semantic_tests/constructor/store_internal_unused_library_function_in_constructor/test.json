@@ -10,9 +10,7 @@
           "method": "t()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x07"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000007",
             "exception": false
           }
         }
@@ -23,6 +21,6 @@
     "C": "store_internal_unused_library_function_in_constructor.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

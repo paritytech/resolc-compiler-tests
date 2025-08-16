@@ -10,9 +10,7 @@
           "method": "get()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x00"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000000",
             "exception": false
           }
         },
@@ -23,9 +21,7 @@
           "method": "assert0_delegated()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "exception": false
           }
         },
@@ -36,9 +32,7 @@
           "method": "get_delegated()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "exception": false
           }
         },
@@ -47,9 +41,7 @@
           "comment": "set(uint256): 0x01 ->",
           "instance": "C",
           "method": "set(uint256)",
-          "calldata": [
-            "0x01"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000001",
           "expected": {
             "exception": false
           }
@@ -61,9 +53,7 @@
           "method": "get()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "exception": false
           }
         },
@@ -74,9 +64,7 @@
           "method": "assert0_delegated()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x00"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000000",
             "exception": false
           }
         },
@@ -87,9 +75,7 @@
           "method": "get_delegated()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "exception": false
           }
         },
@@ -98,9 +84,7 @@
           "comment": "set(uint256): 0x2a ->",
           "instance": "C",
           "method": "set(uint256)",
-          "calldata": [
-            "0x2a"
-          ],
+          "calldata": "0x000000000000000000000000000000000000000000000000000000000000002a",
           "expected": {
             "exception": false
           }
@@ -112,9 +96,7 @@
           "method": "get()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x2a"
-            ],
+            "return_data": "0x000000000000000000000000000000000000000000000000000000000000002a",
             "exception": false
           }
         },
@@ -125,9 +107,7 @@
           "method": "assert0_delegated()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x00"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000000",
             "exception": false
           }
         },
@@ -138,9 +118,7 @@
           "method": "get_delegated()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "exception": false
           }
         }
@@ -151,7 +129,7 @@
     "C": "delegatecall_return_value_pre_byzantium.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ],
   "required_evm_version": "<byzantium"
 }

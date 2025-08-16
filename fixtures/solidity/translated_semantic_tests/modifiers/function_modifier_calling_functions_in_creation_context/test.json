@@ -10,9 +10,7 @@
           "method": "getData()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x4300"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000004300",
             "exception": false
           }
         }
@@ -23,6 +21,6 @@
     "C": "function_modifier_calling_functions_in_creation_context.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

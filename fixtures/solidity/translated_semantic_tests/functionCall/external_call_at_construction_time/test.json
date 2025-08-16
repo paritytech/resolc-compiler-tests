@@ -8,9 +8,7 @@
           "comment": "f(uint256): 0 -> FAILURE",
           "instance": "C",
           "method": "f(uint256)",
-          "calldata": [
-            "0x00"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000000",
           "expected": {
             "exception": true
           }
@@ -20,9 +18,7 @@
           "comment": "f(uint256): 1 -> FAILURE",
           "instance": "C",
           "method": "f(uint256)",
-          "calldata": [
-            "0x01"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000001",
           "expected": {
             "exception": true
           }
@@ -32,13 +28,9 @@
           "comment": "f(uint256): 2 -> 3",
           "instance": "C",
           "method": "f(uint256)",
-          "calldata": [
-            "0x02"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000002",
           "expected": {
-            "return_data": [
-              "0x03"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000003",
             "exception": false
           }
         }
@@ -49,7 +41,7 @@
     "C": "external_call_at_construction_time.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ],
   "required_evm_version": ">=byzantium"
 }

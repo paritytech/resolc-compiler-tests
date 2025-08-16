@@ -12,9 +12,7 @@
           "method": "addr()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0xc06afe3a8444fc0004668591e8306bfb9968e79e"
-            ],
+            "return_data": "0x000000000000000000000000c06afe3a8444fc0004668591e8306bfb9968e79e",
             "exception": false
           }
         },
@@ -25,10 +23,7 @@
           "method": "testRunner()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x137aa4dfc0911524504fcd4d98501f179bc13b4a",
-              "0x2c1c30623ddd93e0b765a6caaca0c859eeb0644d"
-            ],
+            "return_data": "0x000000000000000000000000137aa4dfc0911524504fcd4d98501f179bc13b4a0000000000000000000000002c1c30623ddd93e0b765a6caaca0c859eeb0644d",
             "exception": false
           }
         },
@@ -39,10 +34,7 @@
           "method": "testCalc()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x137aa4dfc0911524504fcd4d98501f179bc13b4a",
-              "0x2c1c30623ddd93e0b765a6caaca0c859eeb0644d"
-            ],
+            "return_data": "0x000000000000000000000000137aa4dfc0911524504fcd4d98501f179bc13b4a0000000000000000000000002c1c30623ddd93e0b765a6caaca0c859eeb0644d",
             "exception": false
           }
         }
@@ -53,7 +45,7 @@
     "C": "create_random.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ],
   "required_evm_version": ">=constantinople"
 }

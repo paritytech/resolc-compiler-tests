@@ -10,9 +10,7 @@
           "method": "t()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x09"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000009",
             "exception": false
           }
         }
@@ -23,6 +21,6 @@
     "C": "store_function.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

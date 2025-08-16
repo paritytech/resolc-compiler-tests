@@ -10,9 +10,7 @@
           "method": "test1()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "exception": false
           }
         },
@@ -23,9 +21,7 @@
           "method": "test2()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "exception": false
           }
         },
@@ -36,9 +32,7 @@
           "method": "test3()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "exception": false
           }
         },
@@ -49,9 +43,7 @@
           "method": "test4()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "exception": false
           }
         }
@@ -62,7 +54,7 @@
     "Test": "copy_struct_array_from_storage.sol:Test"
   },
   "modes": [
-    "E+"
+    "E-"
   ],
   "required_evm_version": ">homestead"
 }

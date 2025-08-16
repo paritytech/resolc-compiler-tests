@@ -10,9 +10,7 @@
           "method": "getOne()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x00"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000000",
             "exception": false
           }
         },
@@ -23,9 +21,7 @@
           "method": "getOne()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "exception": false
           },
           "value": "1 wei"
@@ -37,6 +33,6 @@
     "C": "function_modifier.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

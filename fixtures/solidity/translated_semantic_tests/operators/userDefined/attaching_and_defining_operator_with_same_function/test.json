@@ -10,9 +10,7 @@
           "method": "f()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x0a"
-            ],
+            "return_data": "0x000000000000000000000000000000000000000000000000000000000000000a",
             "exception": false
           }
         },
@@ -23,9 +21,7 @@
           "method": "g()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x0d"
-            ],
+            "return_data": "0x000000000000000000000000000000000000000000000000000000000000000d",
             "exception": false
           }
         }
@@ -36,6 +32,6 @@
     "C": "attaching_and_defining_operator_with_same_function.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

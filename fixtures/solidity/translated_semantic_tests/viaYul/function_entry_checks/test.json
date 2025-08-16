@@ -10,9 +10,7 @@
           "method": "f()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x00"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000000",
             "exception": false
           }
         },
@@ -21,14 +19,9 @@
           "comment": "g(uint256,uint256): 1, -2 -> 0",
           "instance": "C",
           "method": "g(uint256,uint256)",
-          "calldata": [
-            "0x01",
-            "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000001fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe",
           "expected": {
-            "return_data": [
-              "0x00"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000000",
             "exception": false
           }
         },
@@ -39,9 +32,7 @@
           "method": "h()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x00"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000000",
             "exception": false
           },
           "value": "1000000000000000000 wei"
@@ -51,9 +42,7 @@
           "comment": "i(bytes32), 1 ether: 2 -> FAILURE",
           "instance": "C",
           "method": "i(bytes32)",
-          "calldata": [
-            "0x02"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000002",
           "expected": {
             "exception": true
           },
@@ -64,13 +53,9 @@
           "comment": "i(bytes32): 2 -> 0",
           "instance": "C",
           "method": "i(bytes32)",
-          "calldata": [
-            "0x02"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000002",
           "expected": {
-            "return_data": [
-              "0x00"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000000",
             "exception": false
           }
         },
@@ -79,13 +64,9 @@
           "comment": "j(bool): true -> false",
           "instance": "C",
           "method": "j(bool)",
-          "calldata": [
-            "0x01"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000001",
           "expected": {
-            "return_data": [
-              "0x00"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000000",
             "exception": false
           }
         },
@@ -94,13 +75,9 @@
           "comment": "k(bytes32): 0x31 -> 0x00",
           "instance": "C",
           "method": "k(bytes32)",
-          "calldata": [
-            "0x31"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000031",
           "expected": {
-            "return_data": [
-              "0x00"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000000",
             "exception": false
           }
         },
@@ -109,14 +86,9 @@
           "comment": "s(): hex\"4200ef\" -> 0x20, 0",
           "instance": "C",
           "method": "s()",
-          "calldata": [
-            "0x4200ef0000000000000000000000000000000000000000000000000000000000"
-          ],
+          "calldata": "0x4200ef",
           "expected": {
-            "return_data": [
-              "0x20",
-              "0x00"
-            ],
+            "return_data": "0x00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000000",
             "exception": false
           }
         },
@@ -137,6 +109,6 @@
     "C": "function_entry_checks.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

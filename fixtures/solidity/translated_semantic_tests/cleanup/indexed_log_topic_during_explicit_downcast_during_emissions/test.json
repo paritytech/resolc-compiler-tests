@@ -48,6 +48,6 @@
     "C": "indexed_log_topic_during_explicit_downcast_during_emissions.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

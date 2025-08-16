@@ -10,9 +10,7 @@
           "method": "ticketPrice()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x022b"
-            ],
+            "return_data": "0x000000000000000000000000000000000000000000000000000000000000022b",
             "exception": false
           }
         }
@@ -23,6 +21,6 @@
     "Lotto": "accessor_for_const_state_variable.sol:Lotto"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

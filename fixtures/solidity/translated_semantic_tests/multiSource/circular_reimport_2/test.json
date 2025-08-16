@@ -10,9 +10,7 @@
           "method": "foo()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x2324"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000002324",
             "exception": false
           }
         }
@@ -23,6 +21,6 @@
     "C": "s3.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

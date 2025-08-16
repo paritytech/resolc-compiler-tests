@@ -10,9 +10,7 @@
           "method": "answer()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "exception": false
           }
         }
@@ -23,6 +21,6 @@
     "test": "using_inherited_enum_excplicitly.sol:test"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

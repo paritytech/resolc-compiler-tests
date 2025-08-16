@@ -10,9 +10,7 @@
           "method": "foo()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x03"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000003",
             "exception": false
           }
         }
@@ -23,6 +21,6 @@
     "C": "internal_call_unattached_with_parentheses.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

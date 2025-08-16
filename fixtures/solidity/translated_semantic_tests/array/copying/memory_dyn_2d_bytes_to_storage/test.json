@@ -10,9 +10,7 @@
           "method": "f()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x03"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000003",
             "exception": false
           }
         }
@@ -23,6 +21,6 @@
     "C": "memory_dyn_2d_bytes_to_storage.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

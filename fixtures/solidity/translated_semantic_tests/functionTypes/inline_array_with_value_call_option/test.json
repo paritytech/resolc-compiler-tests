@@ -10,9 +10,7 @@
           "method": "h()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "exception": false
           },
           "value": "1000000000000000000 wei"
@@ -24,6 +22,6 @@
     "C": "inline_array_with_value_call_option.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

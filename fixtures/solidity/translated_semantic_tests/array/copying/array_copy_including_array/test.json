@@ -10,9 +10,7 @@
           "method": "test()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x02000202"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000002000202",
             "exception": false
           }
         },
@@ -29,10 +27,7 @@
           "method": "clear()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x00",
-              "0x00"
-            ],
+            "return_data": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
             "exception": false
           }
         },
@@ -49,6 +44,6 @@
     "c": "array_copy_including_array.sol:c"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

@@ -10,9 +10,7 @@
           "method": "f()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x10"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000010",
             "exception": false
           }
         }
@@ -23,6 +21,6 @@
     "C": "constructor_function_complex.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

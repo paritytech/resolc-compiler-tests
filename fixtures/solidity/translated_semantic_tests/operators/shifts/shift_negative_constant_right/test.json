@@ -10,9 +10,7 @@
           "method": "a()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbe"
-            ],
+            "return_data": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbe",
             "exception": false
           }
         }
@@ -23,6 +21,6 @@
     "C": "shift_negative_constant_right.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

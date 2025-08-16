@@ -8,13 +8,9 @@
           "comment": "set_get_length(uint256): 0 -> 0",
           "instance": "C",
           "method": "set_get_length(uint256)",
-          "calldata": [
-            "0x00"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000000",
           "expected": {
-            "return_data": [
-              "0x00"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000000",
             "exception": false
           }
         },
@@ -23,13 +19,9 @@
           "comment": "set_get_length(uint256): 1 -> 1",
           "instance": "C",
           "method": "set_get_length(uint256)",
-          "calldata": [
-            "0x01"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000001",
           "expected": {
-            "return_data": [
-              "0x01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "exception": false
           }
         },
@@ -38,13 +30,9 @@
           "comment": "set_get_length(uint256): 10 -> 10",
           "instance": "C",
           "method": "set_get_length(uint256)",
-          "calldata": [
-            "0x0a"
-          ],
+          "calldata": "0x000000000000000000000000000000000000000000000000000000000000000a",
           "expected": {
-            "return_data": [
-              "0x0a"
-            ],
+            "return_data": "0x000000000000000000000000000000000000000000000000000000000000000a",
             "exception": false
           }
         },
@@ -53,13 +41,9 @@
           "comment": "set_get_length(uint256): 20 -> 20",
           "instance": "C",
           "method": "set_get_length(uint256)",
-          "calldata": [
-            "0x14"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000014",
           "expected": {
-            "return_data": [
-              "0x14"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000014",
             "exception": false
           }
         },
@@ -68,13 +52,9 @@
           "comment": "set_get_length(uint256): 0xFF -> 0xFF; gas irOptimized: 96690; gas legacy: 128571; gas legacyOptimized: 110143",
           "instance": "C",
           "method": "set_get_length(uint256)",
-          "calldata": [
-            "0xff"
-          ],
+          "calldata": "0x00000000000000000000000000000000000000000000000000000000000000ff",
           "expected": {
-            "return_data": [
-              "0xff"
-            ],
+            "return_data": "0x00000000000000000000000000000000000000000000000000000000000000ff",
             "exception": false
           }
         },
@@ -83,13 +63,9 @@
           "comment": "set_get_length(uint256): 0xFFF -> 0xFFF; gas irOptimized: 1209116; gas legacy: 1689548; gas legacyOptimized: 1393535",
           "instance": "C",
           "method": "set_get_length(uint256)",
-          "calldata": [
-            "0x0fff"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000fff",
           "expected": {
-            "return_data": [
-              "0x0fff"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000fff",
             "exception": false
           }
         },
@@ -98,9 +74,7 @@
           "comment": "set_get_length(uint256): 0xFFFFF -> FAILURE",
           "instance": "C",
           "method": "set_get_length(uint256)",
-          "calldata": [
-            "0x0fffff"
-          ],
+          "calldata": "0x00000000000000000000000000000000000000000000000000000000000fffff",
           "expected": {
             "exception": true
           }
@@ -112,6 +86,6 @@
     "C": "array_storage_length_access.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

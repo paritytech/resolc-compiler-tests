@@ -10,9 +10,7 @@
           "method": "f()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x92bbf6e800000000000000000000000000000000000000000000000000000000"
-            ],
+            "return_data": "0x92bbf6e8",
             "exception": true
           }
         }
@@ -23,6 +21,6 @@
     "B": "small_error_optimization.sol:B"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

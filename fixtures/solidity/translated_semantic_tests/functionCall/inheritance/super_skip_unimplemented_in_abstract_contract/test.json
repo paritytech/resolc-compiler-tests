@@ -10,9 +10,7 @@
           "method": "f()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x2a"
-            ],
+            "return_data": "0x000000000000000000000000000000000000000000000000000000000000002a",
             "exception": false
           }
         }
@@ -23,6 +21,6 @@
     "B": "super_skip_unimplemented_in_abstract_contract.sol:B"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

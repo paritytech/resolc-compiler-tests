@@ -8,13 +8,9 @@
           "comment": "g(uint256): 4 -> 8",
           "instance": "Child",
           "method": "g(uint256)",
-          "calldata": [
-            "0x04"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000004",
           "expected": {
-            "return_data": [
-              "0x08"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000008",
             "exception": false
           }
         }
@@ -25,6 +21,6 @@
     "Child": "call_base_explicit.sol:Child"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

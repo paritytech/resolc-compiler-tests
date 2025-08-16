@@ -10,9 +10,7 @@
           "method": "f()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x1122334455667788990011223344556677889900"
-            ],
+            "return_data": "0x0000000000000000000000001122334455667788990011223344556677889900",
             "exception": false
           }
         },
@@ -23,9 +21,7 @@
           "method": "g()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x1122334455667788990011223344556677889900"
-            ],
+            "return_data": "0x0000000000000000000000001122334455667788990011223344556677889900",
             "exception": false
           }
         }
@@ -36,6 +32,6 @@
     "C": "cleanup_address_types_shortening.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

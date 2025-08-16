@@ -10,9 +10,7 @@
           "method": "testRuntime()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "exception": false
           }
         },
@@ -23,9 +21,7 @@
           "method": "testCreation()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "exception": false
           }
         }
@@ -36,6 +32,6 @@
     "C": "code_access_content.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

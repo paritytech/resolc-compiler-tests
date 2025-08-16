@@ -8,13 +8,9 @@
           "comment": "equalsA(uint256): 0 -> true",
           "instance": "C",
           "method": "equalsA(uint256)",
-          "calldata": [
-            "0x00"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000000",
           "expected": {
-            "return_data": [
-              "0x01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "exception": false
           }
         },
@@ -23,13 +19,9 @@
           "comment": "equalsA(uint256): 1 -> false",
           "instance": "C",
           "method": "equalsA(uint256)",
-          "calldata": [
-            "0x01"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000001",
           "expected": {
-            "return_data": [
-              "0x00"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000000",
             "exception": false
           }
         }
@@ -40,6 +32,6 @@
     "C": "internal_library_function_attached_to_enum.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

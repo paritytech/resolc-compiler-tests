@@ -20,9 +20,7 @@
           "method": "z()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "exception": false
           }
         }
@@ -33,6 +31,6 @@
     "C": "selector_assignment_expression.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

@@ -10,9 +10,7 @@
           "method": "a()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x11"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000011",
             "exception": false
           }
         },
@@ -23,9 +21,7 @@
           "method": "b()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x2a"
-            ],
+            "return_data": "0x000000000000000000000000000000000000000000000000000000000000002a",
             "exception": false
           }
         },
@@ -36,9 +32,7 @@
           "method": "c()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x33"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000033",
             "exception": false
           }
         },
@@ -49,9 +43,7 @@
           "method": "b_a()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x11"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000011",
             "exception": false
           }
         },
@@ -62,9 +54,7 @@
           "method": "b_b()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x2a"
-            ],
+            "return_data": "0x000000000000000000000000000000000000000000000000000000000000002a",
             "exception": false
           }
         },
@@ -75,9 +65,7 @@
           "method": "b_c()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x33"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000033",
             "exception": false
           }
         },
@@ -88,9 +76,7 @@
           "method": "d()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x17"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000017",
             "exception": false
           }
         },
@@ -101,9 +87,7 @@
           "method": "e()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x2a"
-            ],
+            "return_data": "0x000000000000000000000000000000000000000000000000000000000000002a",
             "exception": false
           }
         }
@@ -114,6 +98,6 @@
     "B": "state_variables_init_order_3.sol:B"
   },
   "modes": [
-    "Y+"
+    "Y-"
   ]
 }

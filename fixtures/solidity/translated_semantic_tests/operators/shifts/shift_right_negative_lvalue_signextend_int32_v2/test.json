@@ -8,10 +8,7 @@
           "comment": "f(int32,uint32): 0xffffff99, 0x00 -> FAILURE",
           "instance": "C",
           "method": "f(int32,uint32)",
-          "calldata": [
-            "0xffffff99",
-            "0x00"
-          ],
+          "calldata": "0x00000000000000000000000000000000000000000000000000000000ffffff990000000000000000000000000000000000000000000000000000000000000000",
           "expected": {
             "exception": true
           }
@@ -21,10 +18,7 @@
           "comment": "f(int32,uint32): 0xffffff99, 0x01 -> FAILURE",
           "instance": "C",
           "method": "f(int32,uint32)",
-          "calldata": [
-            "0xffffff99",
-            "0x01"
-          ],
+          "calldata": "0x00000000000000000000000000000000000000000000000000000000ffffff990000000000000000000000000000000000000000000000000000000000000001",
           "expected": {
             "exception": true
           }
@@ -34,10 +28,7 @@
           "comment": "f(int32,uint32): 0xffffff99, 0x02 -> FAILURE",
           "instance": "C",
           "method": "f(int32,uint32)",
-          "calldata": [
-            "0xffffff99",
-            "0x02"
-          ],
+          "calldata": "0x00000000000000000000000000000000000000000000000000000000ffffff990000000000000000000000000000000000000000000000000000000000000002",
           "expected": {
             "exception": true
           }
@@ -47,10 +38,7 @@
           "comment": "f(int32,uint32): 0xffffff99, 0x04 -> FAILURE",
           "instance": "C",
           "method": "f(int32,uint32)",
-          "calldata": [
-            "0xffffff99",
-            "0x04"
-          ],
+          "calldata": "0x00000000000000000000000000000000000000000000000000000000ffffff990000000000000000000000000000000000000000000000000000000000000004",
           "expected": {
             "exception": true
           }
@@ -60,10 +48,7 @@
           "comment": "f(int32,uint32): 0xffffff99, 0x08 -> FAILURE",
           "instance": "C",
           "method": "f(int32,uint32)",
-          "calldata": [
-            "0xffffff99",
-            "0x08"
-          ],
+          "calldata": "0x00000000000000000000000000000000000000000000000000000000ffffff990000000000000000000000000000000000000000000000000000000000000008",
           "expected": {
             "exception": true
           }
@@ -75,6 +60,6 @@
     "C": "shift_right_negative_lvalue_signextend_int32_v2.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

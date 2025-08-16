@@ -10,9 +10,7 @@
           "method": "f()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x190f1b44"
-            ],
+            "return_data": "0x00000000000000000000000000000000000000000000000000000000190f1b44",
             "exception": false
           }
         }
@@ -23,7 +21,7 @@
     "C": "chainid.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ],
   "required_evm_version": ">=istanbul"
 }

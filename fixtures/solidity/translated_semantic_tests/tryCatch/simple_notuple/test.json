@@ -8,13 +8,9 @@
           "comment": "f(bool): true -> 13",
           "instance": "C",
           "method": "f(bool)",
-          "calldata": [
-            "0x01"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000001",
           "expected": {
-            "return_data": [
-              "0x0d"
-            ],
+            "return_data": "0x000000000000000000000000000000000000000000000000000000000000000d",
             "exception": false
           }
         },
@@ -23,13 +19,9 @@
           "comment": "f(bool): false -> 9",
           "instance": "C",
           "method": "f(bool)",
-          "calldata": [
-            "0x00"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000000",
           "expected": {
-            "return_data": [
-              "0x09"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000009",
             "exception": false
           }
         }
@@ -40,7 +32,7 @@
     "C": "simple_notuple.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ],
   "required_evm_version": ">=byzantium"
 }

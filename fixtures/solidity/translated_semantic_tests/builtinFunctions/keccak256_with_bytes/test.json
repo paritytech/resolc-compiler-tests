@@ -10,9 +10,7 @@
           "method": "foo()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "exception": false
           }
         }
@@ -23,6 +21,6 @@
     "c": "keccak256_with_bytes.sol:c"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

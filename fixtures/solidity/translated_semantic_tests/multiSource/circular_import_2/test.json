@@ -10,9 +10,7 @@
           "method": "foo()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x03e0"
-            ],
+            "return_data": "0x00000000000000000000000000000000000000000000000000000000000003e0",
             "exception": false
           }
         }
@@ -23,6 +21,6 @@
     "C": "s2.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

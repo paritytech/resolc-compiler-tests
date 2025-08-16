@@ -10,12 +10,7 @@
           "method": "test()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe",
-              "0x04",
-              "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff90",
-              "0x00"
-            ],
+            "return_data": "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe0000000000000000000000000000000000000000000000000000000000000004ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff900000000000000000000000000000000000000000000000000000000000000000",
             "exception": false
           }
         }
@@ -26,6 +21,6 @@
     "C": "packed_storage_signed.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

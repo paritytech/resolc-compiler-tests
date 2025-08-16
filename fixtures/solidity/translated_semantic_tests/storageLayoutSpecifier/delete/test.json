@@ -10,9 +10,7 @@
           "method": "fillArray()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x03"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000003",
             "exception": false
           }
         },
@@ -23,9 +21,7 @@
           "method": "arrayLength()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x03"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000003",
             "exception": false
           }
         },
@@ -34,13 +30,9 @@
           "comment": "array(uint256): 2 -> 3",
           "instance": "C",
           "method": "array(uint256)",
-          "calldata": [
-            "0x02"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000002",
           "expected": {
-            "return_data": [
-              "0x03"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000003",
             "exception": false
           }
         },
@@ -59,13 +51,9 @@
           "comment": "array(uint256): 2 -> 0",
           "instance": "C",
           "method": "array(uint256)",
-          "calldata": [
-            "0x02"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000002",
           "expected": {
-            "return_data": [
-              "0x00"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000000",
             "exception": false
           }
         },
@@ -86,9 +74,7 @@
           "method": "arrayLength()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x00"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000000",
             "exception": false
           }
         }
@@ -99,6 +85,6 @@
     "C": "delete.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

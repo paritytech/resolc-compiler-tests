@@ -8,13 +8,9 @@
           "comment": "f(uint256): 42 -> 42",
           "instance": "C",
           "method": "f(uint256)",
-          "calldata": [
-            "0x2a"
-          ],
+          "calldata": "0x000000000000000000000000000000000000000000000000000000000000002a",
           "expected": {
-            "return_data": [
-              "0x2a"
-            ],
+            "return_data": "0x000000000000000000000000000000000000000000000000000000000000002a",
             "exception": false
           }
         }
@@ -25,6 +21,6 @@
     "C": "array_2d_assignment.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

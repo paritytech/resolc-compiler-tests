@@ -10,9 +10,7 @@
           "method": "contractASlots()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x00"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000000",
             "exception": false
           }
         },
@@ -23,10 +21,7 @@
           "method": "contractBSlots()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x05",
-              "0x06"
-            ],
+            "return_data": "0x00000000000000000000000000000000000000000000000000000000000000050000000000000000000000000000000000000000000000000000000000000006",
             "exception": false
           }
         },
@@ -37,10 +32,7 @@
           "method": "contractCSlots()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x09",
-              "0x0a"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000009000000000000000000000000000000000000000000000000000000000000000a",
             "exception": false
           }
         }
@@ -51,6 +43,6 @@
     "Test": "inheritance_from_same_base_state_var_slots.sol:Test"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

@@ -10,9 +10,7 @@
           "method": "g()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x03"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000003",
             "exception": false
           }
         }
@@ -23,6 +21,6 @@
     "test": "overloaded_function_call_resolve_to_first.sol:test"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

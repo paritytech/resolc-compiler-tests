@@ -8,10 +8,7 @@
           "comment": "createDSalted(bytes32,uint256): 42, 64 ->; gas legacy: 78573; gas legacy code: 23600",
           "instance": "C",
           "method": "createDSalted(bytes32,uint256)",
-          "calldata": [
-            "0x2a",
-            "0x40"
-          ],
+          "calldata": "0x000000000000000000000000000000000000000000000000000000000000002a0000000000000000000000000000000000000000000000000000000000000040",
           "expected": {
             "exception": false
           }
@@ -23,8 +20,8 @@
     "C": "prediction_example.sol:C"
   },
   "modes": [
-    "Y+",
-    "E+"
+    "Y-",
+    "E-"
   ],
   "required_evm_version": ">=constantinople"
 }

@@ -8,13 +8,9 @@
           "comment": "bytesToUint(bytes1): \"a\" -> 0x61",
           "instance": "Test",
           "method": "bytesToUint(bytes1)",
-          "calldata": [
-            "0x6100000000000000000000000000000000000000000000000000000000000000"
-          ],
+          "calldata": "0x6100000000000000000000000000000000000000000000000000000000000000",
           "expected": {
-            "return_data": [
-              "0x61"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000061",
             "exception": false
           }
         }
@@ -25,6 +21,6 @@
     "Test": "convert_fixed_bytes_to_uint_same_min_size.sol:Test"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

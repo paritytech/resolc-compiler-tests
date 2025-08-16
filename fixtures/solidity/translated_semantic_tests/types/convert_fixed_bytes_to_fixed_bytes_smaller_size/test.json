@@ -8,13 +8,9 @@
           "comment": "bytesToBytes(bytes4): \"abcd\" -> \"ab\"",
           "instance": "Test",
           "method": "bytesToBytes(bytes4)",
-          "calldata": [
-            "0x6162636400000000000000000000000000000000000000000000000000000000"
-          ],
+          "calldata": "0x6162636400000000000000000000000000000000000000000000000000000000",
           "expected": {
-            "return_data": [
-              "0x6162000000000000000000000000000000000000000000000000000000000000"
-            ],
+            "return_data": "0x6162000000000000000000000000000000000000000000000000000000000000",
             "exception": false
           }
         }
@@ -25,6 +21,6 @@
     "Test": "convert_fixed_bytes_to_fixed_bytes_smaller_size.sol:Test"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

@@ -8,10 +8,7 @@
           "comment": "e(bytes): 0x20, 7 -> FAILURE",
           "instance": "C",
           "method": "e(bytes)",
-          "calldata": [
-            "0x20",
-            "0x07"
-          ],
+          "calldata": "0x00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000007",
           "expected": {
             "exception": true
           }
@@ -23,7 +20,7 @@
     "C": "short_input_bytes.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ],
   "required_evm_version": ">=byzantium",
   "compiler_directives": {

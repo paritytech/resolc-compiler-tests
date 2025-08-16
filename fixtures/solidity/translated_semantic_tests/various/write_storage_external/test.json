@@ -10,9 +10,7 @@
           "method": "f()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x03"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000003",
             "exception": false
           }
         },
@@ -23,9 +21,7 @@
           "method": "g()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x08"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000008",
             "exception": false
           }
         },
@@ -36,9 +32,7 @@
           "method": "h()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x0c"
-            ],
+            "return_data": "0x000000000000000000000000000000000000000000000000000000000000000c",
             "exception": false
           }
         }
@@ -49,6 +43,6 @@
     "D": "write_storage_external.sol:D"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

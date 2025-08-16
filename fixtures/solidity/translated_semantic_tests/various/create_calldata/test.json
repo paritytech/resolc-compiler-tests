@@ -8,9 +8,7 @@
           "comment": "constructor(): 42 ->; gas irOptimized: 68239; gas irOptimized code: 69000; gas legacy: 78076; gas legacy code: 90200; gas legacyOptimized: 68321; gas legacyOptimized code: 64600",
           "instance": "C",
           "method": "#deployer",
-          "calldata": [
-            "0x2a"
-          ],
+          "calldata": "0x000000000000000000000000000000000000000000000000000000000000002a",
           "expected": {
             "exception": false
           }
@@ -22,10 +20,7 @@
           "method": "s()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x20",
-              "0x00"
-            ],
+            "return_data": "0x00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000000",
             "exception": false
           }
         }
@@ -36,6 +31,6 @@
     "C": "create_calldata.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

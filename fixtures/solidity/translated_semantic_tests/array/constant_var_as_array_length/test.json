@@ -8,11 +8,7 @@
           "comment": "constructor(): 1, 2, 3 ->; gas irOptimized: 124991; gas irOptimized code: 14800; gas legacy: 134317; gas legacy code: 46200; gas legacyOptimized: 127166; gas legacyOptimized code: 23400",
           "instance": "C",
           "method": "#deployer",
-          "calldata": [
-            "0x01",
-            "0x02",
-            "0x03"
-          ],
+          "calldata": "0x000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000003",
           "expected": {
             "exception": false
           }
@@ -22,13 +18,9 @@
           "comment": "a(uint256): 0 -> 1",
           "instance": "C",
           "method": "a(uint256)",
-          "calldata": [
-            "0x00"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000000",
           "expected": {
-            "return_data": [
-              "0x01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "exception": false
           }
         },
@@ -37,13 +29,9 @@
           "comment": "a(uint256): 1 -> 2",
           "instance": "C",
           "method": "a(uint256)",
-          "calldata": [
-            "0x01"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000001",
           "expected": {
-            "return_data": [
-              "0x02"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000002",
             "exception": false
           }
         },
@@ -52,13 +40,9 @@
           "comment": "a(uint256): 2 -> 3",
           "instance": "C",
           "method": "a(uint256)",
-          "calldata": [
-            "0x02"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000002",
           "expected": {
-            "return_data": [
-              "0x03"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000003",
             "exception": false
           }
         }
@@ -69,6 +53,6 @@
     "C": "constant_var_as_array_length.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

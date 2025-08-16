@@ -10,9 +10,7 @@
           "method": "getName()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x6162630000000000000000000000000000000000000000000000000000000000"
-            ],
+            "return_data": "0x6162630000000000000000000000000000000000000000000000000000000000",
             "exception": false
           }
         }
@@ -23,6 +21,6 @@
     "Test": "functions_called_by_constructor.sol:Test"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

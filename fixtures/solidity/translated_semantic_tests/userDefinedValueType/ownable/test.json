@@ -10,9 +10,7 @@
           "method": "owner()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x633616968c87CEC8F228B02616B890e80Bf994cA"
-            ],
+            "return_data": "0x0000000000000000000000001212121212121212121212121212120000000012",
             "exception": false
           }
         },
@@ -21,9 +19,7 @@
           "comment": "setOwner(address): 0x633616968c87CEC8F228B02616B890e80Bf994cA ->; ~ emit OwnershipTransferred(address,address): #0x633616968c87CEC8F228B02616B890e80Bf994cA, #0x633616968c87CEC8F228B02616B890e80Bf994cA",
           "instance": "Ownable",
           "method": "setOwner(address)",
-          "calldata": [
-            "0x633616968c87CEC8F228B02616B890e80Bf994cA"
-          ],
+          "calldata": "0x0000000000000000000000001212121212121212121212121212120000000012",
           "expected": {
             "events": [
               {
@@ -55,9 +51,7 @@
           "method": "owner()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x00"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000000",
             "exception": false
           }
         },
@@ -66,13 +60,9 @@
           "comment": "setOwner(address): 0x633616968c87CEC8F228B02616B890e80Bf994cA -> FAILURE, hex\"5fc483c5\"",
           "instance": "Ownable",
           "method": "setOwner(address)",
-          "calldata": [
-            "0x633616968c87CEC8F228B02616B890e80Bf994cA"
-          ],
+          "calldata": "0x0000000000000000000000001212121212121212121212121212120000000012",
           "expected": {
-            "return_data": [
-              "0x5fc483c500000000000000000000000000000000000000000000000000000000"
-            ],
+            "return_data": "0x5fc483c5",
             "exception": true
           }
         }
@@ -83,6 +73,6 @@
     "Ownable": "ownable.sol:Ownable"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

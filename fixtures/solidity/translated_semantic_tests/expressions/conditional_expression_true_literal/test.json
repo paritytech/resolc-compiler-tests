@@ -10,9 +10,7 @@
           "method": "f()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x05"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000005",
             "exception": false
           }
         }
@@ -23,6 +21,6 @@
     "test": "conditional_expression_true_literal.sol:test"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

@@ -10,9 +10,7 @@
           "method": "f()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x0f"
-            ],
+            "return_data": "0x000000000000000000000000000000000000000000000000000000000000000f",
             "exception": false
           }
         }
@@ -23,6 +21,6 @@
     "D": "super.sol:D"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

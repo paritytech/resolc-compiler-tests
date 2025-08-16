@@ -10,9 +10,7 @@
           "method": "s()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x01925c317317e232abd2ce57aa86fc6cd3698c7c097ed0a903275f48"
-            ],
+            "return_data": "0x0000000001925c317317e232abd2ce57aa86fc6cd3698c7c097ed0a903275f48",
             "exception": false
           }
         },
@@ -23,9 +21,7 @@
           "method": "t()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x01925c317317e232abd2ce57aa86fc6cd3698c7c097ed0a903275f48"
-            ],
+            "return_data": "0x0000000001925c317317e232abd2ce57aa86fc6cd3698c7c097ed0a903275f48",
             "exception": false
           }
         },
@@ -36,9 +32,7 @@
           "method": "u()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x01925c317317e232abd2ce57aa86fc6cd3698c7c097ed0a903275f48"
-            ],
+            "return_data": "0x0000000001925c317317e232abd2ce57aa86fc6cd3698c7c097ed0a903275f48",
             "exception": false
           }
         }
@@ -49,6 +43,6 @@
     "C": "constant.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

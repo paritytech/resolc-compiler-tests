@@ -10,9 +10,7 @@
           "method": "run()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0xc8"
-            ],
+            "return_data": "0x00000000000000000000000000000000000000000000000000000000000000c8",
             "exception": false
           }
         }
@@ -23,6 +21,6 @@
     "test": "small_signed_types.sol:test"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

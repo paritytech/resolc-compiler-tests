@@ -22,6 +22,6 @@
     "ClientReceipt": "balance_without_balance.sol:ClientReceipt"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

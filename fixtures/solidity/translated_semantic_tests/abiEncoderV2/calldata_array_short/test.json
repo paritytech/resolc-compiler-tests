@@ -8,10 +8,7 @@
           "comment": "f(uint256[]): 0x20, 0 ->",
           "instance": "C",
           "method": "f(uint256[])",
-          "calldata": [
-            "0x20",
-            "0x00"
-          ],
+          "calldata": "0x00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000000",
           "expected": {
             "exception": false
           }
@@ -21,10 +18,7 @@
           "comment": "f(uint256[]): 0x20, 1 -> FAILURE",
           "instance": "C",
           "method": "f(uint256[])",
-          "calldata": [
-            "0x20",
-            "0x01"
-          ],
+          "calldata": "0x00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000001",
           "expected": {
             "exception": true
           }
@@ -34,10 +28,7 @@
           "comment": "f(uint256[]): 0x20, 2 -> FAILURE",
           "instance": "C",
           "method": "f(uint256[])",
-          "calldata": [
-            "0x20",
-            "0x02"
-          ],
+          "calldata": "0x00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000002",
           "expected": {
             "exception": true
           }
@@ -49,7 +40,7 @@
     "C": "calldata_array_short.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ],
   "compiler_directives": {
     "revert_string_handling": "debug"

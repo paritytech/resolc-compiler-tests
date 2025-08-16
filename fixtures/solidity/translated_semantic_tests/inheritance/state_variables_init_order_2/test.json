@@ -10,9 +10,7 @@
           "method": "z()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "exception": false
           }
         }
@@ -23,6 +21,6 @@
     "B": "state_variables_init_order_2.sol:B"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

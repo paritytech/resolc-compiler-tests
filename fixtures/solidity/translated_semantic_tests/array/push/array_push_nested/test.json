@@ -20,6 +20,6 @@
     "C": "array_push_nested.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

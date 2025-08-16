@@ -8,13 +8,9 @@
           "comment": "f(uint256): 1001 -> 1000",
           "instance": "test",
           "method": "f(uint256)",
-          "calldata": [
-            "0x03e9"
-          ],
+          "calldata": "0x00000000000000000000000000000000000000000000000000000000000003e9",
           "expected": {
-            "return_data": [
-              "0x03e8"
-            ],
+            "return_data": "0x00000000000000000000000000000000000000000000000000000000000003e8",
             "exception": false
           }
         },
@@ -23,13 +19,9 @@
           "comment": "f(uint256): 500 -> 100",
           "instance": "test",
           "method": "f(uint256)",
-          "calldata": [
-            "0x01f4"
-          ],
+          "calldata": "0x00000000000000000000000000000000000000000000000000000000000001f4",
           "expected": {
-            "return_data": [
-              "0x64"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000064",
             "exception": false
           }
         },
@@ -38,13 +30,9 @@
           "comment": "f(uint256): 80 -> 50",
           "instance": "test",
           "method": "f(uint256)",
-          "calldata": [
-            "0x50"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000050",
           "expected": {
-            "return_data": [
-              "0x32"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000032",
             "exception": false
           }
         },
@@ -53,13 +41,9 @@
           "comment": "f(uint256): 40 -> 10",
           "instance": "test",
           "method": "f(uint256)",
-          "calldata": [
-            "0x28"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000028",
           "expected": {
-            "return_data": [
-              "0x0a"
-            ],
+            "return_data": "0x000000000000000000000000000000000000000000000000000000000000000a",
             "exception": false
           }
         }
@@ -70,6 +54,6 @@
     "test": "conditional_expression_multiple.sol:test"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

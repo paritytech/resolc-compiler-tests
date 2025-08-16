@@ -10,9 +10,7 @@
           "method": "f()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x04a817c800"
-            ],
+            "return_data": "0x00000000000000000000000000000000000000000000000000000004a817c800",
             "exception": false
           }
         },
@@ -23,9 +21,7 @@
           "method": "g()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x02"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000002",
             "exception": false
           }
         },
@@ -36,9 +32,7 @@
           "method": "h()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x19"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000019",
             "exception": false
           }
         },
@@ -49,9 +43,7 @@
           "method": "i()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffb57e83800"
-            ],
+            "return_data": "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffb57e83800",
             "exception": false
           }
         },
@@ -62,9 +54,7 @@
           "method": "j()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe"
-            ],
+            "return_data": "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe",
             "exception": false
           }
         },
@@ -75,9 +65,7 @@
           "method": "k()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe7"
-            ],
+            "return_data": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe7",
             "exception": false
           }
         }
@@ -88,6 +76,6 @@
     "C": "scientific_notation.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

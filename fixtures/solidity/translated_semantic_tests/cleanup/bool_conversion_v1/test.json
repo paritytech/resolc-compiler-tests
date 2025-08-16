@@ -8,13 +8,9 @@
           "comment": "f(bool): 0x0 -> 0x0",
           "instance": "C",
           "method": "f(bool)",
-          "calldata": [
-            "0x00"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000000",
           "expected": {
-            "return_data": [
-              "0x00"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000000",
             "exception": false
           }
         },
@@ -23,13 +19,9 @@
           "comment": "f(bool): 0x1 -> 0x1",
           "instance": "C",
           "method": "f(bool)",
-          "calldata": [
-            "0x01"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000001",
           "expected": {
-            "return_data": [
-              "0x01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "exception": false
           }
         },
@@ -38,13 +30,9 @@
           "comment": "f(bool): 0x2 -> 0x1",
           "instance": "C",
           "method": "f(bool)",
-          "calldata": [
-            "0x02"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000002",
           "expected": {
-            "return_data": [
-              "0x01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "exception": false
           }
         },
@@ -53,13 +41,9 @@
           "comment": "f(bool): 0x3 -> 0x1",
           "instance": "C",
           "method": "f(bool)",
-          "calldata": [
-            "0x03"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000003",
           "expected": {
-            "return_data": [
-              "0x01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "exception": false
           }
         },
@@ -68,13 +52,9 @@
           "comment": "f(bool): 0xff -> 0x1",
           "instance": "C",
           "method": "f(bool)",
-          "calldata": [
-            "0xff"
-          ],
+          "calldata": "0x00000000000000000000000000000000000000000000000000000000000000ff",
           "expected": {
-            "return_data": [
-              "0x01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "exception": false
           }
         },
@@ -83,13 +63,9 @@
           "comment": "g(bool): 0x0 -> 0x0",
           "instance": "C",
           "method": "g(bool)",
-          "calldata": [
-            "0x00"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000000",
           "expected": {
-            "return_data": [
-              "0x00"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000000",
             "exception": false
           }
         },
@@ -98,13 +74,9 @@
           "comment": "g(bool): 0x1 -> 0x1",
           "instance": "C",
           "method": "g(bool)",
-          "calldata": [
-            "0x01"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000001",
           "expected": {
-            "return_data": [
-              "0x01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "exception": false
           }
         },
@@ -113,13 +85,9 @@
           "comment": "g(bool): 0x2 -> 0x1",
           "instance": "C",
           "method": "g(bool)",
-          "calldata": [
-            "0x02"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000002",
           "expected": {
-            "return_data": [
-              "0x01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "exception": false
           }
         },
@@ -128,13 +96,9 @@
           "comment": "g(bool): 0x3 -> 0x1",
           "instance": "C",
           "method": "g(bool)",
-          "calldata": [
-            "0x03"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000003",
           "expected": {
-            "return_data": [
-              "0x01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "exception": false
           }
         },
@@ -143,13 +107,9 @@
           "comment": "g(bool): 0xff -> 0x1",
           "instance": "C",
           "method": "g(bool)",
-          "calldata": [
-            "0xff"
-          ],
+          "calldata": "0x00000000000000000000000000000000000000000000000000000000000000ff",
           "expected": {
-            "return_data": [
-              "0x01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "exception": false
           }
         }
@@ -160,6 +120,6 @@
     "C": "bool_conversion_v1.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

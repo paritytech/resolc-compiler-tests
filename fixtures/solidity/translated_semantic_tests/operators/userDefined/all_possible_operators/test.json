@@ -40,6 +40,6 @@
     "C": "all_possible_operators.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

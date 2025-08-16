@@ -10,9 +10,7 @@
           "method": "getFirst()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x0a"
-            ],
+            "return_data": "0x000000000000000000000000000000000000000000000000000000000000000a",
             "exception": false
           }
         },
@@ -23,9 +21,7 @@
           "method": "getSecond()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x14"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000014",
             "exception": false
           }
         },
@@ -36,9 +32,7 @@
           "method": "getThird()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x1e"
-            ],
+            "return_data": "0x000000000000000000000000000000000000000000000000000000000000001e",
             "exception": false
           }
         },
@@ -49,11 +43,7 @@
           "method": "getLast()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x20",
-              "0x09",
-              "0x6173646667686a6b6c0000000000000000000000000000000000000000000000"
-            ],
+            "return_data": "0x000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000000096173646667686a6b6c0000000000000000000000000000000000000000000000",
             "exception": false
           }
         }
@@ -64,6 +54,6 @@
     "buggystruct": "strings_in_struct.sol:buggystruct"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

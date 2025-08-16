@@ -10,9 +10,7 @@
           "method": "f()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x0202"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000202",
             "exception": false
           }
         }
@@ -23,6 +21,6 @@
     "Test": "function_modifier_library.sol:Test"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

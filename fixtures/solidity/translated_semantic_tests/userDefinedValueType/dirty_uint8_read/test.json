@@ -10,9 +10,7 @@
           "method": "x()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb"
-            ],
+            "return_data": "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb",
             "exception": false
           }
         },
@@ -33,9 +31,7 @@
           "method": "read_unclean_value()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb"
-            ],
+            "return_data": "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb",
             "exception": false
           }
         }
@@ -46,6 +42,6 @@
     "C": "dirty_uint8_read.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

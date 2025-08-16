@@ -8,9 +8,7 @@
           "comment": "(): 7 ->",
           "instance": "c",
           "method": "#fallback",
-          "calldata": [
-            "0x07"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000007",
           "expected": {
             "exception": false
           }
@@ -26,13 +24,9 @@
           "comment": "del(): 7 -> true",
           "instance": "c",
           "method": "del()",
-          "calldata": [
-            "0x07"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000007",
           "expected": {
-            "return_data": [
-              "0x01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "exception": false
           }
         },
@@ -49,6 +43,6 @@
     "c": "delete_removes_bytes_data.sol:c"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

@@ -10,9 +10,7 @@
           "method": "g()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x9999999999999999999999999999999999999999"
-            ],
+            "return_data": "0x0000000000000000000000009999999999999999999999999999999999999999",
             "exception": false
           }
         }
@@ -23,6 +21,6 @@
     "C": "consecutive_operator_invocations.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

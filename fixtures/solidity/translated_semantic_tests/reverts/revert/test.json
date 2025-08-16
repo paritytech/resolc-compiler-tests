@@ -20,9 +20,7 @@
           "method": "a()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x2a"
-            ],
+            "return_data": "0x000000000000000000000000000000000000000000000000000000000000002a",
             "exception": false
           }
         },
@@ -43,9 +41,7 @@
           "method": "a()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x2a"
-            ],
+            "return_data": "0x000000000000000000000000000000000000000000000000000000000000002a",
             "exception": false
           }
         }
@@ -56,6 +52,6 @@
     "C": "revert.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

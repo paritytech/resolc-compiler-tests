@@ -10,9 +10,7 @@
           "method": "hello_world()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0xc6be8b5800000000000000000000000000000000000000000000000000000000"
-            ],
+            "return_data": "0xc6be8b5800000000000000000000000000000000000000000000000000000000",
             "exception": false
           }
         },
@@ -23,9 +21,7 @@
           "method": "hello_world_with_event()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0xc6be8b5800000000000000000000000000000000000000000000000000000000"
-            ],
+            "return_data": "0xc6be8b5800000000000000000000000000000000000000000000000000000000",
             "exception": false
           }
         }
@@ -36,6 +32,6 @@
     "Test": "interfaceId_events.sol:Test"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

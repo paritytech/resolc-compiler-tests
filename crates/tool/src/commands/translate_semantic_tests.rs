@@ -11,8 +11,8 @@ use revive_dt_common::iterators::*;
 use anyhow::{Context, Result, bail};
 use revive_dt_format::case::Case;
 use revive_dt_format::input::{
-    BalanceAssertion, Calldata, EtherValue, Event, Expected, ExpectedOutput,
-    Input, Method, Step, StorageEmptyAssertion,
+    BalanceAssertion, EtherValue, Event, Expected, ExpectedOutput, Input,
+    Method, Step, StorageEmptyAssertion,
 };
 use revive_dt_format::metadata::{
     ContractIdent, ContractInstance, ContractPathAndIdent, Metadata,
@@ -167,18 +167,13 @@ pub fn handle_semantic_tests_translation(
                         }
                     };
 
-                    let calldata = Calldata::new_compound(
-                        arguments.hex_strings_iterator(),
-                    );
+                    let calldata = arguments.into();
 
                     let expected = {
                         let mut expected = ExpectedOutput {
                             compiler_version: None,
-                            return_data: (output.len() > 0).then(|| {
-                                Calldata::new_compound(
-                                    output.io_values().hex_strings_iterator(),
-                                )
-                            }),
+                            return_data: (output.len() > 0)
+                                .then(|| output.io_values().clone().into()),
                             events: None,
                             exception: output.is_failure(),
                         };
@@ -200,9 +195,8 @@ pub fn handle_semantic_tests_translation(
                                 event.indexed_values.hex_strings_iterator(),
                             );
 
-                            translated_event.values = Calldata::new_compound(
-                                event.unindexed_values.hex_strings_iterator(),
-                            );
+                            translated_event.values =
+                                event.unindexed_values.into();
 
                             expected
                                 .events
@@ -273,11 +267,13 @@ pub fn handle_semantic_tests_translation(
             metadata.required_evm_version = Some(requirement);
         }
 
-        // Handling the compilation modes.
+        // Handling the compilation modes. Note that we disable the optimizer
+        // as one of the tests fails on Geth if the optimizer is enabled. The
+        // test is "copy_from_calldata_removes_bytes_data".
         let modes = match semantic_test.configuration.compile_via_yul {
-            ItemConfig::Boolean(true) => ["Y"].as_slice(),
-            ItemConfig::Boolean(false) => ["E"].as_slice(),
-            ItemConfig::Also => ["Y", "E"].as_slice(),
+            ItemConfig::Boolean(true) => ["Y-"].as_slice(),
+            ItemConfig::Boolean(false) => ["E-"].as_slice(),
+            ItemConfig::Also => ["Y-", "E-"].as_slice(),
         };
         if !modes.is_empty() {
             metadata.modes = Some(

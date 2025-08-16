@@ -8,15 +8,9 @@
           "comment": "divAddNoOverflow(uint8,uint8,uint8): 4, 0xff, 3 -> 0",
           "instance": "C",
           "method": "divAddNoOverflow(uint8,uint8,uint8)",
-          "calldata": [
-            "0x04",
-            "0xff",
-            "0x03"
-          ],
+          "calldata": "0x000000000000000000000000000000000000000000000000000000000000000400000000000000000000000000000000000000000000000000000000000000ff0000000000000000000000000000000000000000000000000000000000000003",
           "expected": {
-            "return_data": [
-              "0x00"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000000",
             "exception": false
           }
         }
@@ -27,6 +21,6 @@
     "C": "operator_parameter_and_return_cleanup_between_calls.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

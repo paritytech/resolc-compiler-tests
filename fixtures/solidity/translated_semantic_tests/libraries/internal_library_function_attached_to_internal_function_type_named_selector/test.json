@@ -8,13 +8,9 @@
           "comment": "test(uint256): 5 -> 10",
           "instance": "C",
           "method": "test(uint256)",
-          "calldata": [
-            "0x05"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000005",
           "expected": {
-            "return_data": [
-              "0x0a"
-            ],
+            "return_data": "0x000000000000000000000000000000000000000000000000000000000000000a",
             "exception": false
           }
         }
@@ -25,6 +21,6 @@
     "C": "internal_library_function_attached_to_internal_function_type_named_selector.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

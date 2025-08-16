@@ -20,6 +20,6 @@
     "C": "invalid_instruction.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

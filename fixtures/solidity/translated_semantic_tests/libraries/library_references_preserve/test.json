@@ -10,9 +10,7 @@
           "method": "aSum()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x04"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000004",
             "exception": false
           }
         },
@@ -23,9 +21,7 @@
           "method": "bSum()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x05"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000005",
             "exception": false
           }
         }
@@ -44,6 +40,6 @@
     }
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

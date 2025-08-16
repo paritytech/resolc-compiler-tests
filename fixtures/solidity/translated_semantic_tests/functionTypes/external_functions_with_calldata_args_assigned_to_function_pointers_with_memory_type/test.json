@@ -10,9 +10,7 @@
           "method": "main()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "exception": false
           }
         }
@@ -23,6 +21,6 @@
     "C": "external_functions_with_calldata_args_assigned_to_function_pointers_with_memory_type.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

@@ -10,9 +10,7 @@
           "method": "f()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x057a"
-            ],
+            "return_data": "0x000000000000000000000000000000000000000000000000000000000000057a",
             "exception": false
           }
         }
@@ -23,6 +21,6 @@
     "C": "assignment_to_const_var_involving_expression.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

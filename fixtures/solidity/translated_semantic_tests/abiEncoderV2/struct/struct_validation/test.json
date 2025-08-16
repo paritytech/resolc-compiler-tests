@@ -8,17 +8,9 @@
           "comment": "f((int16,uint8,bytes2)): 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff01, 0xff, \"ab\" -> 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff01, 0xff, \"ab\"",
           "instance": "C",
           "method": "f((int16,uint8,bytes2))",
-          "calldata": [
-            "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff01",
-            "0xff",
-            "0x6162000000000000000000000000000000000000000000000000000000000000"
-          ],
+          "calldata": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff0100000000000000000000000000000000000000000000000000000000000000ff6162000000000000000000000000000000000000000000000000000000000000",
           "expected": {
-            "return_data": [
-              "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff01",
-              "0xff",
-              "0x6162000000000000000000000000000000000000000000000000000000000000"
-            ],
+            "return_data": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff0100000000000000000000000000000000000000000000000000000000000000ff6162000000000000000000000000000000000000000000000000000000000000",
             "exception": false
           }
         },
@@ -27,11 +19,7 @@
           "comment": "f((int16,uint8,bytes2)): 0xff010, 0xff, \"ab\" -> FAILURE",
           "instance": "C",
           "method": "f((int16,uint8,bytes2))",
-          "calldata": [
-            "0x0ff010",
-            "0xff",
-            "0x6162000000000000000000000000000000000000000000000000000000000000"
-          ],
+          "calldata": "0x00000000000000000000000000000000000000000000000000000000000ff01000000000000000000000000000000000000000000000000000000000000000ff6162000000000000000000000000000000000000000000000000000000000000",
           "expected": {
             "exception": true
           }
@@ -41,11 +29,7 @@
           "comment": "f((int16,uint8,bytes2)): 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff01, 0xff0002, \"ab\" -> FAILURE",
           "instance": "C",
           "method": "f((int16,uint8,bytes2))",
-          "calldata": [
-            "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff01",
-            "0xff0002",
-            "0x6162000000000000000000000000000000000000000000000000000000000000"
-          ],
+          "calldata": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff010000000000000000000000000000000000000000000000000000000000ff00026162000000000000000000000000000000000000000000000000000000000000",
           "expected": {
             "exception": true
           }
@@ -55,11 +39,7 @@
           "comment": "f((int16,uint8,bytes2)): 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff01, 0xff, \"abcd\" -> FAILURE",
           "instance": "C",
           "method": "f((int16,uint8,bytes2))",
-          "calldata": [
-            "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff01",
-            "0xff",
-            "0x6162636400000000000000000000000000000000000000000000000000000000"
-          ],
+          "calldata": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff0100000000000000000000000000000000000000000000000000000000000000ff6162636400000000000000000000000000000000000000000000000000000000",
           "expected": {
             "exception": true
           }
@@ -71,6 +51,6 @@
     "C": "struct_validation.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

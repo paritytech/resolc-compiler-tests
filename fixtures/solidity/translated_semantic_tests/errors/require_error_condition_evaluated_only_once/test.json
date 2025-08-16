@@ -8,14 +8,9 @@
           "comment": "f(bool): false -> FAILURE, hex\"110b3655\", 1",
           "instance": "C",
           "method": "f(bool)",
-          "calldata": [
-            "0x00"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000000",
           "expected": {
-            "return_data": [
-              "0x110b365500000000000000000000000000000000000000000000000000000000",
-              "0x0100000000000000000000000000000000000000000000000000000000"
-            ],
+            "return_data": "0x110b36550000000000000000000000000000000000000000000000000000000000000001",
             "exception": true
           }
         },
@@ -26,9 +21,7 @@
           "method": "getCounter()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x00"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000000",
             "exception": false
           }
         },
@@ -37,9 +30,7 @@
           "comment": "f(bool): true ->",
           "instance": "C",
           "method": "f(bool)",
-          "calldata": [
-            "0x01"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000001",
           "expected": {
             "exception": false
           }
@@ -51,9 +42,7 @@
           "method": "getCounter()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "exception": false
           }
         }
@@ -64,6 +53,6 @@
     "C": "require_error_condition_evaluated_only_once.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

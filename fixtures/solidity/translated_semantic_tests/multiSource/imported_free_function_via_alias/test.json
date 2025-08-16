@@ -10,9 +10,7 @@
           "method": "g()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0xef99"
-            ],
+            "return_data": "0x000000000000000000000000000000000000000000000000000000000000ef99",
             "exception": false
           }
         }
@@ -23,6 +21,6 @@
     "D": "s2.sol:D"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

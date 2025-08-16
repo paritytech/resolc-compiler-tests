@@ -30,7 +30,7 @@
     "C": "transient_storage_multiple_calls_different_transactions.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ],
   "required_evm_version": ">=cancun"
 }

@@ -8,13 +8,9 @@
           "comment": "id(address): 5 -> 5",
           "instance": "C",
           "method": "id(address)",
-          "calldata": [
-            "0x05"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000005",
           "expected": {
-            "return_data": [
-              "0x05"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000005",
             "exception": false
           }
         },
@@ -23,13 +19,9 @@
           "comment": "id(address): 0xffffffffffffffffffffffffffffffffffffffff -> 0xffffffffffffffffffffffffffffffffffffffff",
           "instance": "C",
           "method": "id(address)",
-          "calldata": [
-            "0xffffffffffffffffffffffffffffffffffffffff"
-          ],
+          "calldata": "0x000000000000000000000000ffffffffffffffffffffffffffffffffffffffff",
           "expected": {
-            "return_data": [
-              "0xffffffffffffffffffffffffffffffffffffffff"
-            ],
+            "return_data": "0x000000000000000000000000ffffffffffffffffffffffffffffffffffffffff",
             "exception": false
           }
         },
@@ -38,9 +30,7 @@
           "comment": "id(address): 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff -> FAILURE",
           "instance": "C",
           "method": "id(address)",
-          "calldata": [
-            "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
-          ],
+          "calldata": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
           "expected": {
             "exception": true
           }
@@ -50,13 +40,9 @@
           "comment": "unwrap(address): 5 -> 5",
           "instance": "C",
           "method": "unwrap(address)",
-          "calldata": [
-            "0x05"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000005",
           "expected": {
-            "return_data": [
-              "0x05"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000005",
             "exception": false
           }
         },
@@ -65,13 +51,9 @@
           "comment": "unwrap(address): 0xffffffffffffffffffffffffffffffffffffffff -> 0xffffffffffffffffffffffffffffffffffffffff",
           "instance": "C",
           "method": "unwrap(address)",
-          "calldata": [
-            "0xffffffffffffffffffffffffffffffffffffffff"
-          ],
+          "calldata": "0x000000000000000000000000ffffffffffffffffffffffffffffffffffffffff",
           "expected": {
-            "return_data": [
-              "0xffffffffffffffffffffffffffffffffffffffff"
-            ],
+            "return_data": "0x000000000000000000000000ffffffffffffffffffffffffffffffffffffffff",
             "exception": false
           }
         },
@@ -80,9 +62,7 @@
           "comment": "unwrap(address): 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff -> FAILURE",
           "instance": "C",
           "method": "unwrap(address)",
-          "calldata": [
-            "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
-          ],
+          "calldata": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
           "expected": {
             "exception": true
           }
@@ -92,13 +72,9 @@
           "comment": "wrap(address): 5 -> 5",
           "instance": "C",
           "method": "wrap(address)",
-          "calldata": [
-            "0x05"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000005",
           "expected": {
-            "return_data": [
-              "0x05"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000005",
             "exception": false
           }
         },
@@ -107,13 +83,9 @@
           "comment": "wrap(address): 0xffffffffffffffffffffffffffffffffffffffff -> 0xffffffffffffffffffffffffffffffffffffffff",
           "instance": "C",
           "method": "wrap(address)",
-          "calldata": [
-            "0xffffffffffffffffffffffffffffffffffffffff"
-          ],
+          "calldata": "0x000000000000000000000000ffffffffffffffffffffffffffffffffffffffff",
           "expected": {
-            "return_data": [
-              "0xffffffffffffffffffffffffffffffffffffffff"
-            ],
+            "return_data": "0x000000000000000000000000ffffffffffffffffffffffffffffffffffffffff",
             "exception": false
           }
         },
@@ -122,9 +94,7 @@
           "comment": "wrap(address): 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff -> FAILURE",
           "instance": "C",
           "method": "wrap(address)",
-          "calldata": [
-            "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
-          ],
+          "calldata": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
           "expected": {
             "exception": true
           }
@@ -134,13 +104,9 @@
           "comment": "unwrap_assembly(address): 5 -> 5",
           "instance": "C",
           "method": "unwrap_assembly(address)",
-          "calldata": [
-            "0x05"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000005",
           "expected": {
-            "return_data": [
-              "0x05"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000005",
             "exception": false
           }
         },
@@ -149,13 +115,9 @@
           "comment": "unwrap_assembly(address): 0xffffffffffffffffffffffffffffffffffffffff -> 0xffffffffffffffffffffffffffffffffffffffff",
           "instance": "C",
           "method": "unwrap_assembly(address)",
-          "calldata": [
-            "0xffffffffffffffffffffffffffffffffffffffff"
-          ],
+          "calldata": "0x000000000000000000000000ffffffffffffffffffffffffffffffffffffffff",
           "expected": {
-            "return_data": [
-              "0xffffffffffffffffffffffffffffffffffffffff"
-            ],
+            "return_data": "0x000000000000000000000000ffffffffffffffffffffffffffffffffffffffff",
             "exception": false
           }
         },
@@ -164,9 +126,7 @@
           "comment": "unwrap_assembly(address): 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff -> FAILURE",
           "instance": "C",
           "method": "unwrap_assembly(address)",
-          "calldata": [
-            "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
-          ],
+          "calldata": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
           "expected": {
             "exception": true
           }
@@ -176,13 +136,9 @@
           "comment": "wrap_assembly(address): 5 -> 5",
           "instance": "C",
           "method": "wrap_assembly(address)",
-          "calldata": [
-            "0x05"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000005",
           "expected": {
-            "return_data": [
-              "0x05"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000005",
             "exception": false
           }
         },
@@ -191,13 +147,9 @@
           "comment": "wrap_assembly(address): 0xffffffffffffffffffffffffffffffffffffffff -> 0xffffffffffffffffffffffffffffffffffffffff",
           "instance": "C",
           "method": "wrap_assembly(address)",
-          "calldata": [
-            "0xffffffffffffffffffffffffffffffffffffffff"
-          ],
+          "calldata": "0x000000000000000000000000ffffffffffffffffffffffffffffffffffffffff",
           "expected": {
-            "return_data": [
-              "0xffffffffffffffffffffffffffffffffffffffff"
-            ],
+            "return_data": "0x000000000000000000000000ffffffffffffffffffffffffffffffffffffffff",
             "exception": false
           }
         },
@@ -206,9 +158,7 @@
           "comment": "wrap_assembly(address): 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff -> FAILURE",
           "instance": "C",
           "method": "wrap_assembly(address)",
-          "calldata": [
-            "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
-          ],
+          "calldata": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
           "expected": {
             "exception": true
           }
@@ -220,6 +170,6 @@
     "C": "parameter.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

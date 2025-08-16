@@ -10,9 +10,7 @@
           "method": "f()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "events": [
               {
                 "topics": [
@@ -31,6 +29,6 @@
     "B": "event_access_through_base_name_emit.sol:B"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

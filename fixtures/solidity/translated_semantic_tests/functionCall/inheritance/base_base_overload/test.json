@@ -10,9 +10,7 @@
           "method": "x()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x00"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000000",
             "exception": false
           }
         },
@@ -23,9 +21,7 @@
           "method": "y()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x00"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000000",
             "exception": false
           }
         },
@@ -34,9 +30,7 @@
           "comment": "cInit(uint256): 2 ->",
           "instance": "Child",
           "method": "cInit(uint256)",
-          "calldata": [
-            "0x02"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000002",
           "expected": {
             "exception": false
           }
@@ -48,9 +42,7 @@
           "method": "x()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x02"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000002",
             "exception": false
           }
         },
@@ -61,9 +53,7 @@
           "method": "y()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x00"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000000",
             "exception": false
           }
         },
@@ -72,10 +62,7 @@
           "comment": "cInit(uint256,uint256): 3, 3 ->",
           "instance": "Child",
           "method": "cInit(uint256,uint256)",
-          "calldata": [
-            "0x03",
-            "0x03"
-          ],
+          "calldata": "0x00000000000000000000000000000000000000000000000000000000000000030000000000000000000000000000000000000000000000000000000000000003",
           "expected": {
             "exception": false
           }
@@ -87,9 +74,7 @@
           "method": "x()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x03"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000003",
             "exception": false
           }
         },
@@ -100,9 +85,7 @@
           "method": "y()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x03"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000003",
             "exception": false
           }
         },
@@ -111,9 +94,7 @@
           "comment": "bInit(uint256): 4 ->",
           "instance": "Child",
           "method": "bInit(uint256)",
-          "calldata": [
-            "0x04"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000004",
           "expected": {
             "exception": false
           }
@@ -125,9 +106,7 @@
           "method": "x()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x05"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000005",
             "exception": false
           }
         },
@@ -136,10 +115,7 @@
           "comment": "bInit(uint256,uint256): 9, 10 ->",
           "instance": "Child",
           "method": "bInit(uint256,uint256)",
-          "calldata": [
-            "0x09",
-            "0x0a"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000009000000000000000000000000000000000000000000000000000000000000000a",
           "expected": {
             "exception": false
           }
@@ -151,9 +127,7 @@
           "method": "x()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x0a"
-            ],
+            "return_data": "0x000000000000000000000000000000000000000000000000000000000000000a",
             "exception": false
           }
         },
@@ -164,9 +138,7 @@
           "method": "y()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x09"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000009",
             "exception": false
           }
         }
@@ -177,6 +149,6 @@
     "Child": "base_base_overload.sol:Child"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

@@ -8,13 +8,9 @@
           "comment": "index(uint256): 0 -> true",
           "instance": "C",
           "method": "index(uint256)",
-          "calldata": [
-            "0x00"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000000",
           "expected": {
-            "return_data": [
-              "0x01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "exception": false
           }
         },
@@ -23,13 +19,9 @@
           "comment": "index(uint256): 10 -> true",
           "instance": "C",
           "method": "index(uint256)",
-          "calldata": [
-            "0x0a"
-          ],
+          "calldata": "0x000000000000000000000000000000000000000000000000000000000000000a",
           "expected": {
-            "return_data": [
-              "0x01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "exception": false
           }
         },
@@ -38,13 +30,9 @@
           "comment": "index(uint256): 20 -> true",
           "instance": "C",
           "method": "index(uint256)",
-          "calldata": [
-            "0x14"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000014",
           "expected": {
-            "return_data": [
-              "0x01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "exception": false
           }
         },
@@ -53,13 +41,9 @@
           "comment": "index(uint256): 0xFF -> true; gas irOptimized: 108272; gas legacy: 181536; gas legacyOptimized: 117442",
           "instance": "C",
           "method": "index(uint256)",
-          "calldata": [
-            "0xff"
-          ],
+          "calldata": "0x00000000000000000000000000000000000000000000000000000000000000ff",
           "expected": {
-            "return_data": [
-              "0x01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "exception": false
           }
         },
@@ -68,14 +52,9 @@
           "comment": "accessIndex(uint256,int256): 10, 1 -> 2",
           "instance": "C",
           "method": "accessIndex(uint256,int256)",
-          "calldata": [
-            "0x0a",
-            "0x01"
-          ],
+          "calldata": "0x000000000000000000000000000000000000000000000000000000000000000a0000000000000000000000000000000000000000000000000000000000000001",
           "expected": {
-            "return_data": [
-              "0x02"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000002",
             "exception": false
           }
         },
@@ -84,14 +63,9 @@
           "comment": "accessIndex(uint256,int256): 10, 0 -> 1",
           "instance": "C",
           "method": "accessIndex(uint256,int256)",
-          "calldata": [
-            "0x0a",
-            "0x00"
-          ],
+          "calldata": "0x000000000000000000000000000000000000000000000000000000000000000a0000000000000000000000000000000000000000000000000000000000000000",
           "expected": {
-            "return_data": [
-              "0x01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "exception": false
           }
         },
@@ -100,15 +74,9 @@
           "comment": "accessIndex(uint256,int256): 10, 11 -> FAILURE, hex\"4e487b71\", 0x32",
           "instance": "C",
           "method": "accessIndex(uint256,int256)",
-          "calldata": [
-            "0x0a",
-            "0x0b"
-          ],
+          "calldata": "0x000000000000000000000000000000000000000000000000000000000000000a000000000000000000000000000000000000000000000000000000000000000b",
           "expected": {
-            "return_data": [
-              "0x4e487b7100000000000000000000000000000000000000000000000000000000",
-              "0x3200000000000000000000000000000000000000000000000000000000"
-            ],
+            "return_data": "0x4e487b710000000000000000000000000000000000000000000000000000000000000032",
             "exception": true
           }
         },
@@ -117,15 +85,9 @@
           "comment": "accessIndex(uint256,int256): 10, 10 -> FAILURE, hex\"4e487b71\", 0x32",
           "instance": "C",
           "method": "accessIndex(uint256,int256)",
-          "calldata": [
-            "0x0a",
-            "0x0a"
-          ],
+          "calldata": "0x000000000000000000000000000000000000000000000000000000000000000a000000000000000000000000000000000000000000000000000000000000000a",
           "expected": {
-            "return_data": [
-              "0x4e487b7100000000000000000000000000000000000000000000000000000000",
-              "0x3200000000000000000000000000000000000000000000000000000000"
-            ],
+            "return_data": "0x4e487b710000000000000000000000000000000000000000000000000000000000000032",
             "exception": true
           }
         },
@@ -134,15 +96,9 @@
           "comment": "accessIndex(uint256,int256): 10, -1 -> FAILURE, hex\"4e487b71\", 0x32",
           "instance": "C",
           "method": "accessIndex(uint256,int256)",
-          "calldata": [
-            "0x0a",
-            "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
-          ],
+          "calldata": "0x000000000000000000000000000000000000000000000000000000000000000affffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
           "expected": {
-            "return_data": [
-              "0x4e487b7100000000000000000000000000000000000000000000000000000000",
-              "0x3200000000000000000000000000000000000000000000000000000000"
-            ],
+            "return_data": "0x4e487b710000000000000000000000000000000000000000000000000000000000000032",
             "exception": true
           }
         }
@@ -153,6 +109,6 @@
     "C": "array_memory_index_access.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

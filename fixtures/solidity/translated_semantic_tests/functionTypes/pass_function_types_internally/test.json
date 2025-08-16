@@ -8,13 +8,9 @@
           "comment": "f(uint256): 7 -> 8",
           "instance": "C",
           "method": "f(uint256)",
-          "calldata": [
-            "0x07"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000007",
           "expected": {
-            "return_data": [
-              "0x08"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000008",
             "exception": false
           }
         }
@@ -25,6 +21,6 @@
     "C": "pass_function_types_internally.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

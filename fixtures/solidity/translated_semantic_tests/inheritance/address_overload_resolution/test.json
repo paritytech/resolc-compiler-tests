@@ -10,9 +10,7 @@
           "method": "f()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "exception": false
           }
         },
@@ -23,9 +21,7 @@
           "method": "g()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x05"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000005",
             "exception": false
           }
         }
@@ -36,7 +32,7 @@
     "D": "address_overload_resolution.sol:D"
   },
   "modes": [
-    "E+"
+    "E-"
   ],
   "required_evm_version": ">=constantinople"
 }

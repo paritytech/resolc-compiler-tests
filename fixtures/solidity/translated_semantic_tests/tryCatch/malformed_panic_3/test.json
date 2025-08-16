@@ -10,9 +10,7 @@
           "method": "a()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x4e487b0000000000000000000000000000000000000000000000000000000000"
-            ],
+            "return_data": "0x4e487b",
             "exception": true
           }
         },
@@ -23,9 +21,7 @@
           "method": "b()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x4e487b7100000000000000000000000000000000000000000000000000000000"
-            ],
+            "return_data": "0x4e487b710000",
             "exception": true
           }
         },
@@ -36,9 +32,7 @@
           "method": "c()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x43"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000043",
             "exception": false
           }
         },
@@ -49,9 +43,7 @@
           "method": "d()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x43"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000043",
             "exception": false
           }
         }
@@ -62,7 +54,7 @@
     "C": "malformed_panic_3.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ],
   "required_evm_version": ">=byzantium"
 }

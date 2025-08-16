@@ -8,17 +8,9 @@
           "comment": "mcopy_zero(bytes): 0x20, 0x20, 0xffeeddccbbaa9988776655443322110000112233445566778899aabbccddeeff -> 0x20, 0x20, 0xffeeddccbbaa9988776655443322110000112233445566778899aabbccddeeff",
           "instance": "C",
           "method": "mcopy_zero(bytes)",
-          "calldata": [
-            "0x20",
-            "0x20",
-            "0xffeeddccbbaa9988776655443322110000112233445566778899aabbccddeeff"
-          ],
+          "calldata": "0x00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000020ffeeddccbbaa9988776655443322110000112233445566778899aabbccddeeff",
           "expected": {
-            "return_data": [
-              "0x20",
-              "0x20",
-              "0xffeeddccbbaa9988776655443322110000112233445566778899aabbccddeeff"
-            ],
+            "return_data": "0x00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000020ffeeddccbbaa9988776655443322110000112233445566778899aabbccddeeff",
             "exception": false
           }
         }
@@ -29,7 +21,7 @@
     "C": "mcopy_empty.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ],
   "required_evm_version": ">=cancun"
 }

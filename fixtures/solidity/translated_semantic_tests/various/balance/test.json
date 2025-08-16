@@ -21,9 +21,7 @@
           "method": "getBalance()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x17"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000017",
             "exception": false
           }
         }
@@ -34,6 +32,6 @@
     "test": "balance.sol:test"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

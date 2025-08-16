@@ -8,13 +8,9 @@
           "comment": "f(uint256): 0x60 -> true",
           "instance": "C",
           "method": "f(uint256)",
-          "calldata": [
-            "0x60"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000060",
           "expected": {
-            "return_data": [
-              "0x01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "exception": false
           }
         },
@@ -23,13 +19,9 @@
           "comment": "f(uint256): 0x7f -> true",
           "instance": "C",
           "method": "f(uint256)",
-          "calldata": [
-            "0x7f"
-          ],
+          "calldata": "0x000000000000000000000000000000000000000000000000000000000000007f",
           "expected": {
-            "return_data": [
-              "0x01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "exception": false
           }
         },
@@ -38,13 +30,9 @@
           "comment": "f(uint256): 0x80 -> true",
           "instance": "C",
           "method": "f(uint256)",
-          "calldata": [
-            "0x80"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000080",
           "expected": {
-            "return_data": [
-              "0x01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "exception": false
           }
         }
@@ -55,7 +43,7 @@
     "C": "return_dynamic_types_cross_call_out_of_range_1.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ],
   "required_evm_version": "=homestead"
 }

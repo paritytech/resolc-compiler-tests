@@ -8,13 +8,9 @@
           "comment": "f8(uint256): 0 -> 0",
           "instance": "C",
           "method": "f8(uint256)",
-          "calldata": [
-            "0x00"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000000",
           "expected": {
-            "return_data": [
-              "0x00"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000000",
             "exception": false
           }
         },
@@ -23,13 +19,9 @@
           "comment": "ggg8(uint8): 0 -> 0",
           "instance": "C",
           "method": "ggg8(uint8)",
-          "calldata": [
-            "0x00"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000000",
           "expected": {
-            "return_data": [
-              "0x00"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000000",
             "exception": false
           }
         },
@@ -38,13 +30,9 @@
           "comment": "f8(uint256): 1 -> 1",
           "instance": "C",
           "method": "f8(uint256)",
-          "calldata": [
-            "0x01"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000001",
           "expected": {
-            "return_data": [
-              "0x01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "exception": false
           }
         },
@@ -53,13 +41,9 @@
           "comment": "ggg8(uint8): 1 -> 1",
           "instance": "C",
           "method": "ggg8(uint8)",
-          "calldata": [
-            "0x01"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000001",
           "expected": {
-            "return_data": [
-              "0x01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "exception": false
           }
         },
@@ -68,13 +52,9 @@
           "comment": "f8(uint256): 0xFE -> 0xFE",
           "instance": "C",
           "method": "f8(uint256)",
-          "calldata": [
-            "0xfe"
-          ],
+          "calldata": "0x00000000000000000000000000000000000000000000000000000000000000fe",
           "expected": {
-            "return_data": [
-              "0xfe"
-            ],
+            "return_data": "0x00000000000000000000000000000000000000000000000000000000000000fe",
             "exception": false
           }
         },
@@ -83,13 +63,9 @@
           "comment": "ggg8(uint8): 0xFE -> 0xFE",
           "instance": "C",
           "method": "ggg8(uint8)",
-          "calldata": [
-            "0xfe"
-          ],
+          "calldata": "0x00000000000000000000000000000000000000000000000000000000000000fe",
           "expected": {
-            "return_data": [
-              "0xfe"
-            ],
+            "return_data": "0x00000000000000000000000000000000000000000000000000000000000000fe",
             "exception": false
           }
         },
@@ -98,13 +74,9 @@
           "comment": "f8(uint256): 0xFF -> 0xFF",
           "instance": "C",
           "method": "f8(uint256)",
-          "calldata": [
-            "0xff"
-          ],
+          "calldata": "0x00000000000000000000000000000000000000000000000000000000000000ff",
           "expected": {
-            "return_data": [
-              "0xff"
-            ],
+            "return_data": "0x00000000000000000000000000000000000000000000000000000000000000ff",
             "exception": false
           }
         },
@@ -113,13 +85,9 @@
           "comment": "ggg8(uint8): 0xFF -> 0xFF",
           "instance": "C",
           "method": "ggg8(uint8)",
-          "calldata": [
-            "0xff"
-          ],
+          "calldata": "0x00000000000000000000000000000000000000000000000000000000000000ff",
           "expected": {
-            "return_data": [
-              "0xff"
-            ],
+            "return_data": "0x00000000000000000000000000000000000000000000000000000000000000ff",
             "exception": false
           }
         },
@@ -128,13 +96,9 @@
           "comment": "f8(uint256): 0x0100 -> 0x00",
           "instance": "C",
           "method": "f8(uint256)",
-          "calldata": [
-            "0x0100"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000100",
           "expected": {
-            "return_data": [
-              "0x00"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000000",
             "exception": false
           }
         },
@@ -143,9 +107,7 @@
           "comment": "ggg8(uint8): 0x0100 -> FAILURE",
           "instance": "C",
           "method": "ggg8(uint8)",
-          "calldata": [
-            "0x0100"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000100",
           "expected": {
             "exception": true
           }
@@ -155,13 +117,9 @@
           "comment": "f8(uint256): 0x0101 -> 0x01",
           "instance": "C",
           "method": "f8(uint256)",
-          "calldata": [
-            "0x0101"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000101",
           "expected": {
-            "return_data": [
-              "0x01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "exception": false
           }
         },
@@ -170,9 +128,7 @@
           "comment": "ggg8(uint8): 0x0101 -> FAILURE",
           "instance": "C",
           "method": "ggg8(uint8)",
-          "calldata": [
-            "0x0101"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000101",
           "expected": {
             "exception": true
           }
@@ -182,13 +138,9 @@
           "comment": "f8(uint256): -1 -> 0xFF",
           "instance": "C",
           "method": "f8(uint256)",
-          "calldata": [
-            "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
-          ],
+          "calldata": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
           "expected": {
-            "return_data": [
-              "0xff"
-            ],
+            "return_data": "0x00000000000000000000000000000000000000000000000000000000000000ff",
             "exception": false
           }
         },
@@ -197,9 +149,7 @@
           "comment": "ggg8(uint8): -1 -> FAILURE",
           "instance": "C",
           "method": "ggg8(uint8)",
-          "calldata": [
-            "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
-          ],
+          "calldata": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
           "expected": {
             "exception": true
           }
@@ -209,13 +159,9 @@
           "comment": "f16(uint256): 0 -> 0",
           "instance": "C",
           "method": "f16(uint256)",
-          "calldata": [
-            "0x00"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000000",
           "expected": {
-            "return_data": [
-              "0x00"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000000",
             "exception": false
           }
         },
@@ -224,13 +170,9 @@
           "comment": "gg16(uint16): 0 -> 0",
           "instance": "C",
           "method": "gg16(uint16)",
-          "calldata": [
-            "0x00"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000000",
           "expected": {
-            "return_data": [
-              "0x00"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000000",
             "exception": false
           }
         },
@@ -239,13 +181,9 @@
           "comment": "f16(uint256): 1 -> 1",
           "instance": "C",
           "method": "f16(uint256)",
-          "calldata": [
-            "0x01"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000001",
           "expected": {
-            "return_data": [
-              "0x01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "exception": false
           }
         },
@@ -254,13 +192,9 @@
           "comment": "gg16(uint16): 1 -> 1",
           "instance": "C",
           "method": "gg16(uint16)",
-          "calldata": [
-            "0x01"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000001",
           "expected": {
-            "return_data": [
-              "0x01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "exception": false
           }
         },
@@ -269,13 +203,9 @@
           "comment": "f16(uint256): 0xFFFE -> 0xFFFE",
           "instance": "C",
           "method": "f16(uint256)",
-          "calldata": [
-            "0xfffe"
-          ],
+          "calldata": "0x000000000000000000000000000000000000000000000000000000000000fffe",
           "expected": {
-            "return_data": [
-              "0xfffe"
-            ],
+            "return_data": "0x000000000000000000000000000000000000000000000000000000000000fffe",
             "exception": false
           }
         },
@@ -284,13 +214,9 @@
           "comment": "gg16(uint16): 0xFFFE -> 0xFFFE",
           "instance": "C",
           "method": "gg16(uint16)",
-          "calldata": [
-            "0xfffe"
-          ],
+          "calldata": "0x000000000000000000000000000000000000000000000000000000000000fffe",
           "expected": {
-            "return_data": [
-              "0xfffe"
-            ],
+            "return_data": "0x000000000000000000000000000000000000000000000000000000000000fffe",
             "exception": false
           }
         },
@@ -299,13 +225,9 @@
           "comment": "f16(uint256): 0xFFFF -> 0xFFFF",
           "instance": "C",
           "method": "f16(uint256)",
-          "calldata": [
-            "0xffff"
-          ],
+          "calldata": "0x000000000000000000000000000000000000000000000000000000000000ffff",
           "expected": {
-            "return_data": [
-              "0xffff"
-            ],
+            "return_data": "0x000000000000000000000000000000000000000000000000000000000000ffff",
             "exception": false
           }
         },
@@ -314,13 +236,9 @@
           "comment": "gg16(uint16): 0xFFFF -> 0xFFFF",
           "instance": "C",
           "method": "gg16(uint16)",
-          "calldata": [
-            "0xffff"
-          ],
+          "calldata": "0x000000000000000000000000000000000000000000000000000000000000ffff",
           "expected": {
-            "return_data": [
-              "0xffff"
-            ],
+            "return_data": "0x000000000000000000000000000000000000000000000000000000000000ffff",
             "exception": false
           }
         },
@@ -329,13 +247,9 @@
           "comment": "f16(uint256): 0x010000 -> 0x0000",
           "instance": "C",
           "method": "f16(uint256)",
-          "calldata": [
-            "0x010000"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000010000",
           "expected": {
-            "return_data": [
-              "0x00"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000000",
             "exception": false
           }
         },
@@ -344,9 +258,7 @@
           "comment": "gg16(uint16): 0x010000 -> FAILURE",
           "instance": "C",
           "method": "gg16(uint16)",
-          "calldata": [
-            "0x010000"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000010000",
           "expected": {
             "exception": true
           }
@@ -356,13 +268,9 @@
           "comment": "f16(uint256): 0x010001 -> 0x0001",
           "instance": "C",
           "method": "f16(uint256)",
-          "calldata": [
-            "0x010001"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000010001",
           "expected": {
-            "return_data": [
-              "0x01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "exception": false
           }
         },
@@ -371,9 +279,7 @@
           "comment": "gg16(uint16): 0x010001 -> FAILURE",
           "instance": "C",
           "method": "gg16(uint16)",
-          "calldata": [
-            "0x010001"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000010001",
           "expected": {
             "exception": true
           }
@@ -383,13 +289,9 @@
           "comment": "f16(uint256): -1 -> 0xFFFF",
           "instance": "C",
           "method": "f16(uint256)",
-          "calldata": [
-            "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
-          ],
+          "calldata": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
           "expected": {
-            "return_data": [
-              "0xffff"
-            ],
+            "return_data": "0x000000000000000000000000000000000000000000000000000000000000ffff",
             "exception": false
           }
         },
@@ -398,9 +300,7 @@
           "comment": "gg16(uint16): -1 -> FAILURE",
           "instance": "C",
           "method": "gg16(uint16)",
-          "calldata": [
-            "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
-          ],
+          "calldata": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
           "expected": {
             "exception": true
           }
@@ -410,13 +310,9 @@
           "comment": "f32(uint256): 0 -> 0",
           "instance": "C",
           "method": "f32(uint256)",
-          "calldata": [
-            "0x00"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000000",
           "expected": {
-            "return_data": [
-              "0x00"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000000",
             "exception": false
           }
         },
@@ -425,13 +321,9 @@
           "comment": "gg32(uint32): 0 -> 0",
           "instance": "C",
           "method": "gg32(uint32)",
-          "calldata": [
-            "0x00"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000000",
           "expected": {
-            "return_data": [
-              "0x00"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000000",
             "exception": false
           }
         },
@@ -440,13 +332,9 @@
           "comment": "f32(uint256): 1 -> 1",
           "instance": "C",
           "method": "f32(uint256)",
-          "calldata": [
-            "0x01"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000001",
           "expected": {
-            "return_data": [
-              "0x01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "exception": false
           }
         },
@@ -455,13 +343,9 @@
           "comment": "gg32(uint32): 1 -> 1",
           "instance": "C",
           "method": "gg32(uint32)",
-          "calldata": [
-            "0x01"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000001",
           "expected": {
-            "return_data": [
-              "0x01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "exception": false
           }
         },
@@ -470,13 +354,9 @@
           "comment": "f32(uint256): 0xFFFFFFFE -> 0xFFFFFFFE",
           "instance": "C",
           "method": "f32(uint256)",
-          "calldata": [
-            "0xfffffffe"
-          ],
+          "calldata": "0x00000000000000000000000000000000000000000000000000000000fffffffe",
           "expected": {
-            "return_data": [
-              "0xfffffffe"
-            ],
+            "return_data": "0x00000000000000000000000000000000000000000000000000000000fffffffe",
             "exception": false
           }
         },
@@ -485,13 +365,9 @@
           "comment": "gg32(uint32): 0xFFFFFFFE -> 0xFFFFFFFE",
           "instance": "C",
           "method": "gg32(uint32)",
-          "calldata": [
-            "0xfffffffe"
-          ],
+          "calldata": "0x00000000000000000000000000000000000000000000000000000000fffffffe",
           "expected": {
-            "return_data": [
-              "0xfffffffe"
-            ],
+            "return_data": "0x00000000000000000000000000000000000000000000000000000000fffffffe",
             "exception": false
           }
         },
@@ -500,13 +376,9 @@
           "comment": "f32(uint256): 0xFFFFFFFF -> 0xFFFFFFFF",
           "instance": "C",
           "method": "f32(uint256)",
-          "calldata": [
-            "0xffffffff"
-          ],
+          "calldata": "0x00000000000000000000000000000000000000000000000000000000ffffffff",
           "expected": {
-            "return_data": [
-              "0xffffffff"
-            ],
+            "return_data": "0x00000000000000000000000000000000000000000000000000000000ffffffff",
             "exception": false
           }
         },
@@ -515,13 +387,9 @@
           "comment": "gg32(uint32): 0xFFFFFFFF -> 0xFFFFFFFF",
           "instance": "C",
           "method": "gg32(uint32)",
-          "calldata": [
-            "0xffffffff"
-          ],
+          "calldata": "0x00000000000000000000000000000000000000000000000000000000ffffffff",
           "expected": {
-            "return_data": [
-              "0xffffffff"
-            ],
+            "return_data": "0x00000000000000000000000000000000000000000000000000000000ffffffff",
             "exception": false
           }
         },
@@ -530,13 +398,9 @@
           "comment": "f32(uint256): 0x0100000000 -> 0x00000000",
           "instance": "C",
           "method": "f32(uint256)",
-          "calldata": [
-            "0x0100000000"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000100000000",
           "expected": {
-            "return_data": [
-              "0x00"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000000",
             "exception": false
           }
         },
@@ -545,9 +409,7 @@
           "comment": "gg32(uint32): 0x0100000000 -> FAILURE",
           "instance": "C",
           "method": "gg32(uint32)",
-          "calldata": [
-            "0x0100000000"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000100000000",
           "expected": {
             "exception": true
           }
@@ -557,13 +419,9 @@
           "comment": "f32(uint256): 0x0100000001 -> 0x00000001",
           "instance": "C",
           "method": "f32(uint256)",
-          "calldata": [
-            "0x0100000001"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000100000001",
           "expected": {
-            "return_data": [
-              "0x01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "exception": false
           }
         },
@@ -572,9 +430,7 @@
           "comment": "gg32(uint32): 0x0100000001 -> FAILURE",
           "instance": "C",
           "method": "gg32(uint32)",
-          "calldata": [
-            "0x0100000001"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000100000001",
           "expected": {
             "exception": true
           }
@@ -584,13 +440,9 @@
           "comment": "f32(uint256): -1 -> 0xFFFFFFFF",
           "instance": "C",
           "method": "f32(uint256)",
-          "calldata": [
-            "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
-          ],
+          "calldata": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
           "expected": {
-            "return_data": [
-              "0xffffffff"
-            ],
+            "return_data": "0x00000000000000000000000000000000000000000000000000000000ffffffff",
             "exception": false
           }
         },
@@ -599,9 +451,7 @@
           "comment": "gg32(uint32): -1 -> FAILURE",
           "instance": "C",
           "method": "gg32(uint32)",
-          "calldata": [
-            "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
-          ],
+          "calldata": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
           "expected": {
             "exception": true
           }
@@ -611,13 +461,9 @@
           "comment": "f64(uint256): 0 -> 0",
           "instance": "C",
           "method": "f64(uint256)",
-          "calldata": [
-            "0x00"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000000",
           "expected": {
-            "return_data": [
-              "0x00"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000000",
             "exception": false
           }
         },
@@ -626,13 +472,9 @@
           "comment": "gg64(uint64): 0 -> 0",
           "instance": "C",
           "method": "gg64(uint64)",
-          "calldata": [
-            "0x00"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000000",
           "expected": {
-            "return_data": [
-              "0x00"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000000",
             "exception": false
           }
         },
@@ -641,13 +483,9 @@
           "comment": "f64(uint256): 1 -> 1",
           "instance": "C",
           "method": "f64(uint256)",
-          "calldata": [
-            "0x01"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000001",
           "expected": {
-            "return_data": [
-              "0x01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "exception": false
           }
         },
@@ -656,13 +494,9 @@
           "comment": "gg64(uint64): 1 -> 1",
           "instance": "C",
           "method": "gg64(uint64)",
-          "calldata": [
-            "0x01"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000001",
           "expected": {
-            "return_data": [
-              "0x01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "exception": false
           }
         },
@@ -671,13 +505,9 @@
           "comment": "f64(uint256): 0xFFFFFFFFFFFFFFFE -> 0xFFFFFFFFFFFFFFFE",
           "instance": "C",
           "method": "f64(uint256)",
-          "calldata": [
-            "0xfffffffffffffffe"
-          ],
+          "calldata": "0x000000000000000000000000000000000000000000000000fffffffffffffffe",
           "expected": {
-            "return_data": [
-              "0xfffffffffffffffe"
-            ],
+            "return_data": "0x000000000000000000000000000000000000000000000000fffffffffffffffe",
             "exception": false
           }
         },
@@ -686,13 +516,9 @@
           "comment": "gg64(uint64): 0xFFFFFFFFFFFFFFFE -> 0xFFFFFFFFFFFFFFFE",
           "instance": "C",
           "method": "gg64(uint64)",
-          "calldata": [
-            "0xfffffffffffffffe"
-          ],
+          "calldata": "0x000000000000000000000000000000000000000000000000fffffffffffffffe",
           "expected": {
-            "return_data": [
-              "0xfffffffffffffffe"
-            ],
+            "return_data": "0x000000000000000000000000000000000000000000000000fffffffffffffffe",
             "exception": false
           }
         },
@@ -701,13 +527,9 @@
           "comment": "f64(uint256): 0xFFFFFFFFFFFFFFFF -> 0xFFFFFFFFFFFFFFFF",
           "instance": "C",
           "method": "f64(uint256)",
-          "calldata": [
-            "0xffffffffffffffff"
-          ],
+          "calldata": "0x000000000000000000000000000000000000000000000000ffffffffffffffff",
           "expected": {
-            "return_data": [
-              "0xffffffffffffffff"
-            ],
+            "return_data": "0x000000000000000000000000000000000000000000000000ffffffffffffffff",
             "exception": false
           }
         },
@@ -716,13 +538,9 @@
           "comment": "gg64(uint64): 0xFFFFFFFFFFFFFFFF -> 0xFFFFFFFFFFFFFFFF",
           "instance": "C",
           "method": "gg64(uint64)",
-          "calldata": [
-            "0xffffffffffffffff"
-          ],
+          "calldata": "0x000000000000000000000000000000000000000000000000ffffffffffffffff",
           "expected": {
-            "return_data": [
-              "0xffffffffffffffff"
-            ],
+            "return_data": "0x000000000000000000000000000000000000000000000000ffffffffffffffff",
             "exception": false
           }
         },
@@ -731,13 +549,9 @@
           "comment": "f64(uint256): 0x010000000000000000 -> 0x0000000000000000",
           "instance": "C",
           "method": "f64(uint256)",
-          "calldata": [
-            "0x010000000000000000"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000010000000000000000",
           "expected": {
-            "return_data": [
-              "0x00"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000000",
             "exception": false
           }
         },
@@ -746,9 +560,7 @@
           "comment": "gg64(uint64): 0x010000000000000000 -> FAILURE",
           "instance": "C",
           "method": "gg64(uint64)",
-          "calldata": [
-            "0x010000000000000000"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000010000000000000000",
           "expected": {
             "exception": true
           }
@@ -758,13 +570,9 @@
           "comment": "f64(uint256): 0x010000000000000001 -> 0x0000000000000001",
           "instance": "C",
           "method": "f64(uint256)",
-          "calldata": [
-            "0x010000000000000001"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000010000000000000001",
           "expected": {
-            "return_data": [
-              "0x01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "exception": false
           }
         },
@@ -773,9 +581,7 @@
           "comment": "gg64(uint64): 0x010000000000000001 -> FAILURE",
           "instance": "C",
           "method": "gg64(uint64)",
-          "calldata": [
-            "0x010000000000000001"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000010000000000000001",
           "expected": {
             "exception": true
           }
@@ -785,13 +591,9 @@
           "comment": "f64(uint256): -1 -> 0xFFFFFFFFFFFFFFFF",
           "instance": "C",
           "method": "f64(uint256)",
-          "calldata": [
-            "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
-          ],
+          "calldata": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
           "expected": {
-            "return_data": [
-              "0xffffffffffffffff"
-            ],
+            "return_data": "0x000000000000000000000000000000000000000000000000ffffffffffffffff",
             "exception": false
           }
         },
@@ -800,9 +602,7 @@
           "comment": "gg64(uint64): -1 -> FAILURE",
           "instance": "C",
           "method": "gg64(uint64)",
-          "calldata": [
-            "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
-          ],
+          "calldata": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
           "expected": {
             "exception": true
           }
@@ -812,13 +612,9 @@
           "comment": "f128(uint256): 0 -> 0",
           "instance": "C",
           "method": "f128(uint256)",
-          "calldata": [
-            "0x00"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000000",
           "expected": {
-            "return_data": [
-              "0x00"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000000",
             "exception": false
           }
         },
@@ -827,13 +623,9 @@
           "comment": "g128(uint128): 0 -> 0",
           "instance": "C",
           "method": "g128(uint128)",
-          "calldata": [
-            "0x00"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000000",
           "expected": {
-            "return_data": [
-              "0x00"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000000",
             "exception": false
           }
         },
@@ -842,13 +634,9 @@
           "comment": "f128(uint256): 1 -> 1",
           "instance": "C",
           "method": "f128(uint256)",
-          "calldata": [
-            "0x01"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000001",
           "expected": {
-            "return_data": [
-              "0x01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "exception": false
           }
         },
@@ -857,13 +645,9 @@
           "comment": "g128(uint128): 1 -> 1",
           "instance": "C",
           "method": "g128(uint128)",
-          "calldata": [
-            "0x01"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000001",
           "expected": {
-            "return_data": [
-              "0x01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "exception": false
           }
         },
@@ -872,13 +656,9 @@
           "comment": "f128(uint256): 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE -> 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE",
           "instance": "C",
           "method": "f128(uint256)",
-          "calldata": [
-            "0xfffffffffffffffffffffffffffffffe"
-          ],
+          "calldata": "0x00000000000000000000000000000000fffffffffffffffffffffffffffffffe",
           "expected": {
-            "return_data": [
-              "0xfffffffffffffffffffffffffffffffe"
-            ],
+            "return_data": "0x00000000000000000000000000000000fffffffffffffffffffffffffffffffe",
             "exception": false
           }
         },
@@ -887,13 +667,9 @@
           "comment": "g128(uint128): 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE -> 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE",
           "instance": "C",
           "method": "g128(uint128)",
-          "calldata": [
-            "0xfffffffffffffffffffffffffffffffe"
-          ],
+          "calldata": "0x00000000000000000000000000000000fffffffffffffffffffffffffffffffe",
           "expected": {
-            "return_data": [
-              "0xfffffffffffffffffffffffffffffffe"
-            ],
+            "return_data": "0x00000000000000000000000000000000fffffffffffffffffffffffffffffffe",
             "exception": false
           }
         },
@@ -902,13 +678,9 @@
           "comment": "f128(uint256): 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF -> 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF",
           "instance": "C",
           "method": "f128(uint256)",
-          "calldata": [
-            "0xffffffffffffffffffffffffffffffff"
-          ],
+          "calldata": "0x00000000000000000000000000000000ffffffffffffffffffffffffffffffff",
           "expected": {
-            "return_data": [
-              "0xffffffffffffffffffffffffffffffff"
-            ],
+            "return_data": "0x00000000000000000000000000000000ffffffffffffffffffffffffffffffff",
             "exception": false
           }
         },
@@ -917,13 +689,9 @@
           "comment": "g128(uint128): 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF -> 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF",
           "instance": "C",
           "method": "g128(uint128)",
-          "calldata": [
-            "0xffffffffffffffffffffffffffffffff"
-          ],
+          "calldata": "0x00000000000000000000000000000000ffffffffffffffffffffffffffffffff",
           "expected": {
-            "return_data": [
-              "0xffffffffffffffffffffffffffffffff"
-            ],
+            "return_data": "0x00000000000000000000000000000000ffffffffffffffffffffffffffffffff",
             "exception": false
           }
         },
@@ -932,13 +700,9 @@
           "comment": "f128(uint256): 0x0100000000000000000000000000000000 -> 0x00000000000000000000000000000000",
           "instance": "C",
           "method": "f128(uint256)",
-          "calldata": [
-            "0x0100000000000000000000000000000000"
-          ],
+          "calldata": "0x0000000000000000000000000000000100000000000000000000000000000000",
           "expected": {
-            "return_data": [
-              "0x00"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000000",
             "exception": false
           }
         },
@@ -947,9 +711,7 @@
           "comment": "g128(uint128): 0x0100000000000000000000000000000000 -> FAILURE",
           "instance": "C",
           "method": "g128(uint128)",
-          "calldata": [
-            "0x0100000000000000000000000000000000"
-          ],
+          "calldata": "0x0000000000000000000000000000000100000000000000000000000000000000",
           "expected": {
             "exception": true
           }
@@ -959,13 +721,9 @@
           "comment": "f128(uint256): 0x0100000000000000000000000000000001 -> 0x00000000000000000000000000000001",
           "instance": "C",
           "method": "f128(uint256)",
-          "calldata": [
-            "0x0100000000000000000000000000000001"
-          ],
+          "calldata": "0x0000000000000000000000000000000100000000000000000000000000000001",
           "expected": {
-            "return_data": [
-              "0x01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "exception": false
           }
         },
@@ -974,9 +732,7 @@
           "comment": "g128(uint128): 0x0100000000000000000000000000000001 -> FAILURE",
           "instance": "C",
           "method": "g128(uint128)",
-          "calldata": [
-            "0x0100000000000000000000000000000001"
-          ],
+          "calldata": "0x0000000000000000000000000000000100000000000000000000000000000001",
           "expected": {
             "exception": true
           }
@@ -986,13 +742,9 @@
           "comment": "f128(uint256): -1 -> 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF",
           "instance": "C",
           "method": "f128(uint256)",
-          "calldata": [
-            "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
-          ],
+          "calldata": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
           "expected": {
-            "return_data": [
-              "0xffffffffffffffffffffffffffffffff"
-            ],
+            "return_data": "0x00000000000000000000000000000000ffffffffffffffffffffffffffffffff",
             "exception": false
           }
         },
@@ -1001,9 +753,7 @@
           "comment": "g128(uint128): -1 -> FAILURE",
           "instance": "C",
           "method": "g128(uint128)",
-          "calldata": [
-            "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
-          ],
+          "calldata": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
           "expected": {
             "exception": true
           }
@@ -1015,6 +765,6 @@
     "C": "uintx.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

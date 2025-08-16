@@ -8,13 +8,9 @@
           "comment": "g(bool): true -> 3",
           "instance": "test",
           "method": "g(bool)",
-          "calldata": [
-            "0x01"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000001",
           "expected": {
-            "return_data": [
-              "0x03"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000003",
             "exception": false
           }
         },
@@ -23,13 +19,9 @@
           "comment": "g(bool): false -> 10",
           "instance": "test",
           "method": "g(bool)",
-          "calldata": [
-            "0x00"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000000",
           "expected": {
-            "return_data": [
-              "0x0a"
-            ],
+            "return_data": "0x000000000000000000000000000000000000000000000000000000000000000a",
             "exception": false
           }
         }
@@ -40,6 +32,6 @@
     "test": "overloaded_function_call_with_if_else.sol:test"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

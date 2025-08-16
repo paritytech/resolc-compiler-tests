@@ -8,13 +8,9 @@
           "comment": "f(uint256): 8 -> 6",
           "instance": "C",
           "method": "f(uint256)",
-          "calldata": [
-            "0x08"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000008",
           "expected": {
-            "return_data": [
-              "0x06"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000006",
             "exception": false
           }
         },
@@ -25,9 +21,7 @@
           "method": "y()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x06"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000006",
             "exception": false
           }
         }
@@ -38,6 +32,6 @@
     "C": "inheritance_from_interface.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

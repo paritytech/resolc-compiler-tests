@@ -10,9 +10,7 @@
           "method": "g()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x0700000000000000000000000000000000000000000000000000000000000000"
-            ],
+            "return_data": "0x0700000000000000000000000000000000000000000000000000000000000000",
             "exception": false
           }
         }
@@ -23,6 +21,6 @@
     "C": "calldata_internal_function_pointer.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

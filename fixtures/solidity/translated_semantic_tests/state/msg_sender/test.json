@@ -10,9 +10,7 @@
           "method": "f()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x773A741c7BaFc7a1Dc51427cf3a33193f67617f9"
-            ],
+            "return_data": "0x0000000000000000000000001212121212121212121212121212120000000012",
             "exception": false
           }
         }
@@ -23,6 +21,6 @@
     "C": "msg_sender.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

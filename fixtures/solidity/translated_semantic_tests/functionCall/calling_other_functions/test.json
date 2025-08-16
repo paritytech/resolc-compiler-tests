@@ -8,13 +8,9 @@
           "comment": "run(uint256): 0 -> 0",
           "instance": "collatz",
           "method": "run(uint256)",
-          "calldata": [
-            "0x00"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000000",
           "expected": {
-            "return_data": [
-              "0x00"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000000",
             "exception": false
           }
         },
@@ -23,13 +19,9 @@
           "comment": "run(uint256): 1 -> 1",
           "instance": "collatz",
           "method": "run(uint256)",
-          "calldata": [
-            "0x01"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000001",
           "expected": {
-            "return_data": [
-              "0x01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "exception": false
           }
         },
@@ -38,13 +30,9 @@
           "comment": "run(uint256): 2 -> 1",
           "instance": "collatz",
           "method": "run(uint256)",
-          "calldata": [
-            "0x02"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000002",
           "expected": {
-            "return_data": [
-              "0x01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "exception": false
           }
         },
@@ -53,13 +41,9 @@
           "comment": "run(uint256): 8 -> 1",
           "instance": "collatz",
           "method": "run(uint256)",
-          "calldata": [
-            "0x08"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000008",
           "expected": {
-            "return_data": [
-              "0x01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "exception": false
           }
         },
@@ -68,13 +52,9 @@
           "comment": "run(uint256): 127 -> 1",
           "instance": "collatz",
           "method": "run(uint256)",
-          "calldata": [
-            "0x7f"
-          ],
+          "calldata": "0x000000000000000000000000000000000000000000000000000000000000007f",
           "expected": {
-            "return_data": [
-              "0x01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "exception": false
           }
         }
@@ -85,6 +65,6 @@
     "collatz": "calling_other_functions.sol:collatz"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

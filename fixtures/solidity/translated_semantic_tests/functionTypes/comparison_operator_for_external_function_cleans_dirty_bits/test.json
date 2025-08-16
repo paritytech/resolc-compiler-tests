@@ -10,9 +10,7 @@
           "method": "comparison_operators_for_external_function_pointers_with_dirty_bits()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "exception": false
           }
         }
@@ -23,7 +21,7 @@
     "C": "comparison_operator_for_external_function_cleans_dirty_bits.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ],
   "required_evm_version": ">=constantinople"
 }

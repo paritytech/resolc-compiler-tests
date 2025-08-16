@@ -8,14 +8,9 @@
           "comment": "f(int256,uint256): 1, -1 -> 0",
           "instance": "C",
           "method": "f(int256,uint256)",
-          "calldata": [
-            "0x01",
-            "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000001ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
           "expected": {
-            "return_data": [
-              "0x00"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000000",
             "exception": false
           }
         },
@@ -24,14 +19,9 @@
           "comment": "g(int256,uint256): 1, -1 -> 0",
           "instance": "C",
           "method": "g(int256,uint256)",
-          "calldata": [
-            "0x01",
-            "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000001ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
           "expected": {
-            "return_data": [
-              "0x00"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000000",
             "exception": false
           }
         }
@@ -42,6 +32,6 @@
     "C": "shift_underflow_negative_rvalue.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

@@ -10,9 +10,7 @@
           "method": "stateBool()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "exception": false
           }
         },
@@ -23,9 +21,7 @@
           "method": "stateBool()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "exception": false
           }
         },
@@ -36,9 +32,7 @@
           "method": "stateDecimal()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x2a"
-            ],
+            "return_data": "0x000000000000000000000000000000000000000000000000000000000000002a",
             "exception": false
           }
         },
@@ -49,9 +43,7 @@
           "method": "stateDecimal()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x2a"
-            ],
+            "return_data": "0x000000000000000000000000000000000000000000000000000000000000002a",
             "exception": false
           }
         },
@@ -62,9 +54,7 @@
           "method": "stateBytes()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x4200ef0000000000000000000000000000000000000000000000000000000000"
-            ],
+            "return_data": "0x4200ef0000000000000000000000000000000000000000000000000000000000",
             "exception": false
           }
         },
@@ -75,9 +65,7 @@
           "method": "internalStateDecimal()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x20"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000020",
             "exception": false
           }
         },
@@ -86,17 +74,9 @@
           "comment": "update(bool,uint256,bytes32): false, -23, left(0x2300ef) -> false, -23, left(0x2300ef)",
           "instance": "D",
           "method": "update(bool,uint256,bytes32)",
-          "calldata": [
-            "0x00",
-            "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe9",
-            "0x2300ef0000000000000000000000000000000000000000000000000000000000"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe92300ef0000000000000000000000000000000000000000000000000000000000",
           "expected": {
-            "return_data": [
-              "0x00",
-              "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe9",
-              "0x2300ef0000000000000000000000000000000000000000000000000000000000"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe92300ef0000000000000000000000000000000000000000000000000000000000",
             "exception": false
           }
         }
@@ -107,6 +87,6 @@
     "D": "alignment.sol:D"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

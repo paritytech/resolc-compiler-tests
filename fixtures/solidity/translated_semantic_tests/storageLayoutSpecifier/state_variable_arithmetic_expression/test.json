@@ -8,13 +8,9 @@
           "comment": "f(uint256): 2 -> 0",
           "instance": "C",
           "method": "f(uint256)",
-          "calldata": [
-            "0x02"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000002",
           "expected": {
-            "return_data": [
-              "0x00"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000000",
             "exception": false
           }
         },
@@ -23,13 +19,9 @@
           "comment": "f(uint256): 3 -> 5",
           "instance": "C",
           "method": "f(uint256)",
-          "calldata": [
-            "0x03"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000003",
           "expected": {
-            "return_data": [
-              "0x05"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000005",
             "exception": false
           }
         },
@@ -38,13 +30,9 @@
           "comment": "f(uint256): 5 -> 15",
           "instance": "C",
           "method": "f(uint256)",
-          "calldata": [
-            "0x05"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000005",
           "expected": {
-            "return_data": [
-              "0x0f"
-            ],
+            "return_data": "0x000000000000000000000000000000000000000000000000000000000000000f",
             "exception": false
           }
         },
@@ -55,9 +43,7 @@
           "method": "x()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x0a"
-            ],
+            "return_data": "0x000000000000000000000000000000000000000000000000000000000000000a",
             "exception": false
           }
         },
@@ -68,9 +54,7 @@
           "method": "y()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x11"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000011",
             "exception": false
           }
         },
@@ -81,9 +65,7 @@
           "method": "z()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x0f"
-            ],
+            "return_data": "0x000000000000000000000000000000000000000000000000000000000000000f",
             "exception": false
           }
         }
@@ -94,6 +76,6 @@
     "C": "state_variable_arithmetic_expression.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

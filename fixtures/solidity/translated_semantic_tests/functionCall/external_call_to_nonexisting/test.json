@@ -19,9 +19,7 @@
           "comment": "f(uint256): 0 -> FAILURE",
           "instance": "C",
           "method": "f(uint256)",
-          "calldata": [
-            "0x00"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000000",
           "expected": {
             "exception": true
           }
@@ -31,9 +29,7 @@
           "comment": "f(uint256): 1 -> FAILURE",
           "instance": "C",
           "method": "f(uint256)",
-          "calldata": [
-            "0x01"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000001",
           "expected": {
             "exception": true
           }
@@ -43,9 +39,7 @@
           "comment": "f(uint256): 2 -> FAILURE",
           "instance": "C",
           "method": "f(uint256)",
-          "calldata": [
-            "0x02"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000002",
           "expected": {
             "exception": true
           }
@@ -55,9 +49,7 @@
           "comment": "f(uint256): 3 -> FAILURE",
           "instance": "C",
           "method": "f(uint256)",
-          "calldata": [
-            "0x03"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000003",
           "expected": {
             "exception": true
           }
@@ -67,9 +59,7 @@
           "comment": "f(uint256): 4 -> FAILURE",
           "instance": "C",
           "method": "f(uint256)",
-          "calldata": [
-            "0x04"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000004",
           "expected": {
             "exception": true
           }
@@ -79,9 +69,7 @@
           "comment": "f(uint256): 5 -> FAILURE",
           "instance": "C",
           "method": "f(uint256)",
-          "calldata": [
-            "0x05"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000005",
           "expected": {
             "exception": true
           }
@@ -91,13 +79,9 @@
           "comment": "f(uint256): 6 -> 7",
           "instance": "C",
           "method": "f(uint256)",
-          "calldata": [
-            "0x06"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000006",
           "expected": {
-            "return_data": [
-              "0x07"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000007",
             "exception": false
           }
         }
@@ -108,6 +92,6 @@
     "C": "external_call_to_nonexisting.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

@@ -20,9 +20,7 @@
           "method": "y()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x2a"
-            ],
+            "return_data": "0x000000000000000000000000000000000000000000000000000000000000002a",
             "exception": false
           }
         }
@@ -33,6 +31,6 @@
     "B": "constructor_inheritance_init_order_2.sol:B"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

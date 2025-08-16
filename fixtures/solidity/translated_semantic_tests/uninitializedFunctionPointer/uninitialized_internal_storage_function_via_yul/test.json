@@ -10,9 +10,7 @@
           "method": "f()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "exception": false
           }
         }
@@ -23,6 +21,6 @@
     "Test": "uninitialized_internal_storage_function_via_yul.sol:Test"
   },
   "modes": [
-    "Y+"
+    "Y-"
   ]
 }

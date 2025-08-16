@@ -21,6 +21,6 @@
     "C": "payable_constructor.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

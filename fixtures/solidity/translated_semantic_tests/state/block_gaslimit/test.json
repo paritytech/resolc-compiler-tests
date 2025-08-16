@@ -12,9 +12,7 @@
           "method": "f()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x40000000"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000040000000",
             "exception": false
           }
         },
@@ -25,9 +23,7 @@
           "method": "f()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x40000000"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000040000000",
             "exception": false
           }
         },
@@ -38,9 +34,7 @@
           "method": "f()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x40000000"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000040000000",
             "exception": false
           }
         }
@@ -51,6 +45,6 @@
     "C": "block_gaslimit.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

@@ -8,9 +8,7 @@
           "comment": "test_zeroed_indices(uint256): 1 ->",
           "instance": "C",
           "method": "test_zeroed_indices(uint256)",
-          "calldata": [
-            "0x01"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000001",
           "expected": {
             "exception": false
           }
@@ -20,9 +18,7 @@
           "comment": "test_zeroed_indices(uint256): 5 ->; gas irOptimized: 133763; gas legacy: 131664; gas legacyOptimized: 129990",
           "instance": "C",
           "method": "test_zeroed_indices(uint256)",
-          "calldata": [
-            "0x05"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000005",
           "expected": {
             "exception": false
           }
@@ -32,9 +28,7 @@
           "comment": "test_zeroed_indices(uint256): 10 ->; gas irOptimized: 228556; gas legacy: 225215; gas legacyOptimized: 222351",
           "instance": "C",
           "method": "test_zeroed_indices(uint256)",
-          "calldata": [
-            "0x0a"
-          ],
+          "calldata": "0x000000000000000000000000000000000000000000000000000000000000000a",
           "expected": {
             "exception": false
           }
@@ -44,9 +38,7 @@
           "comment": "test_zeroed_indices(uint256): 15 ->; gas irOptimized: 327360; gas legacy: 322899; gas legacyOptimized: 318907",
           "instance": "C",
           "method": "test_zeroed_indices(uint256)",
-          "calldata": [
-            "0x0f"
-          ],
+          "calldata": "0x000000000000000000000000000000000000000000000000000000000000000f",
           "expected": {
             "exception": false
           }
@@ -56,9 +48,7 @@
           "comment": "test_zeroed_indices(uint256): 0xFF ->; gas irOptimized: 5180120; gas legacy: 5093135; gas legacyOptimized: 5020523",
           "instance": "C",
           "method": "test_zeroed_indices(uint256)",
-          "calldata": [
-            "0xff"
-          ],
+          "calldata": "0x00000000000000000000000000000000000000000000000000000000000000ff",
           "expected": {
             "exception": false
           }
@@ -70,6 +60,6 @@
     "C": "array_storage_index_zeroed_test.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

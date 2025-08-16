@@ -10,9 +10,7 @@
           "method": "test()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x4d"
-            ],
+            "return_data": "0x000000000000000000000000000000000000000000000000000000000000004d",
             "exception": false
           }
         }
@@ -23,6 +21,6 @@
     "C": "B.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

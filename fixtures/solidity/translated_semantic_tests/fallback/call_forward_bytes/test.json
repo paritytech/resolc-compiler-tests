@@ -8,9 +8,7 @@
           "comment": "recv(uint256): 7 ->",
           "instance": "sender",
           "method": "recv(uint256)",
-          "calldata": [
-            "0x07"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000007",
           "expected": {
             "exception": false
           }
@@ -22,9 +20,7 @@
           "method": "val()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x00"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000000",
             "exception": false
           }
         },
@@ -35,9 +31,7 @@
           "method": "forward()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "exception": false
           }
         },
@@ -48,9 +42,7 @@
           "method": "val()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x08"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000008",
             "exception": false
           }
         },
@@ -61,9 +53,7 @@
           "method": "clear()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "exception": false
           }
         },
@@ -74,9 +64,7 @@
           "method": "val()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x08"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000008",
             "exception": false
           }
         },
@@ -87,9 +75,7 @@
           "method": "forward()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "exception": false
           }
         },
@@ -100,9 +86,7 @@
           "method": "val()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x80"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000080",
             "exception": false
           }
         }
@@ -113,6 +97,6 @@
     "sender": "call_forward_bytes.sol:sender"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

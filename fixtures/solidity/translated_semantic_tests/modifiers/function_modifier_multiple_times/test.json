@@ -8,13 +8,9 @@
           "comment": "f(uint256): 3 -> 10",
           "instance": "C",
           "method": "f(uint256)",
-          "calldata": [
-            "0x03"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000003",
           "expected": {
-            "return_data": [
-              "0x0a"
-            ],
+            "return_data": "0x000000000000000000000000000000000000000000000000000000000000000a",
             "exception": false
           }
         },
@@ -25,9 +21,7 @@
           "method": "a()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x0a"
-            ],
+            "return_data": "0x000000000000000000000000000000000000000000000000000000000000000a",
             "exception": false
           }
         }
@@ -38,6 +32,6 @@
     "C": "function_modifier_multiple_times.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

@@ -10,9 +10,7 @@
           "method": "f()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x0a"
-            ],
+            "return_data": "0x000000000000000000000000000000000000000000000000000000000000000a",
             "exception": false
           }
         }
@@ -23,6 +21,6 @@
     "test": "empty_for_loop.sol:test"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

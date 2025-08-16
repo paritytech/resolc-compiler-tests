@@ -10,9 +10,7 @@
           "method": "foo()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0xb338eefce206f9f57b83aa738deecd5326dc4b72dd81ee6a7c621a6facb7acdc"
-            ],
+            "return_data": "0xb338eefce206f9f57b83aa738deecd5326dc4b72dd81ee6a7c621a6facb7acdc",
             "exception": false
           }
         }
@@ -23,6 +21,6 @@
     "c": "iterated_keccak256_with_bytes.sol:c"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

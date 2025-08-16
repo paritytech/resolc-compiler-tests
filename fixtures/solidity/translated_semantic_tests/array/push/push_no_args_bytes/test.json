@@ -10,9 +10,7 @@
           "method": "l()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x00"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000000",
             "exception": false
           }
         },
@@ -21,9 +19,7 @@
           "comment": "g(uint256): 70 ->; gas irOptimized: 181778; gas legacy: 175192; gas legacyOptimized: 175005",
           "instance": "C",
           "method": "g(uint256)",
-          "calldata": [
-            "0x46"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000046",
           "expected": {
             "exception": false
           }
@@ -35,9 +31,7 @@
           "method": "l()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x46"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000046",
             "exception": false
           }
         },
@@ -46,13 +40,9 @@
           "comment": "a(uint256): 69 -> left(69)",
           "instance": "C",
           "method": "a(uint256)",
-          "calldata": [
-            "0x45"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000045",
           "expected": {
-            "return_data": [
-              "0x4500000000000000000000000000000000000000000000000000000000000000"
-            ],
+            "return_data": "0x4500000000000000000000000000000000000000000000000000000000000000",
             "exception": false
           }
         },
@@ -73,9 +63,7 @@
           "method": "l()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x47"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000047",
             "exception": false
           }
         },
@@ -84,13 +72,9 @@
           "comment": "a(uint256): 70 -> 0",
           "instance": "C",
           "method": "a(uint256)",
-          "calldata": [
-            "0x46"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000046",
           "expected": {
-            "return_data": [
-              "0x00"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000000",
             "exception": false
           }
         }
@@ -101,6 +85,6 @@
     "C": "push_no_args_bytes.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

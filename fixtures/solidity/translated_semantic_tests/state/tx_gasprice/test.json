@@ -11,9 +11,7 @@
           "method": "f()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0xb2d05e00"
-            ],
+            "return_data": "0x00000000000000000000000000000000000000000000000000000000b2d05e00",
             "exception": false
           }
         },
@@ -24,9 +22,7 @@
           "method": "f()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0xb2d05e00"
-            ],
+            "return_data": "0x00000000000000000000000000000000000000000000000000000000b2d05e00",
             "exception": false
           }
         },
@@ -37,9 +33,7 @@
           "method": "f()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0xb2d05e00"
-            ],
+            "return_data": "0x00000000000000000000000000000000000000000000000000000000b2d05e00",
             "exception": false
           }
         }
@@ -50,6 +44,6 @@
     "C": "tx_gasprice.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

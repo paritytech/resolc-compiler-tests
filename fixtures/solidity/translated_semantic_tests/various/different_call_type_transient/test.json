@@ -10,10 +10,7 @@
           "method": "testDelegate()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x07",
-              "0x00"
-            ],
+            "return_data": "0x00000000000000000000000000000000000000000000000000000000000000070000000000000000000000000000000000000000000000000000000000000000",
             "exception": false
           }
         },
@@ -24,10 +21,7 @@
           "method": "testCall()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x00",
-              "0x08"
-            ],
+            "return_data": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000008",
             "exception": false
           }
         },
@@ -38,9 +32,7 @@
           "method": "testStatic()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x00"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000000",
             "exception": false
           }
         }
@@ -51,7 +43,7 @@
     "Test": "different_call_type_transient.sol:Test"
   },
   "modes": [
-    "E+"
+    "E-"
   ],
   "required_evm_version": ">=cancun"
 }

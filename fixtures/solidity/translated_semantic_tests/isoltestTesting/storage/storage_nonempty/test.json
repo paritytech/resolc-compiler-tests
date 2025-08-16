@@ -14,9 +14,7 @@
           "comment": "set(uint256): 1 ->",
           "instance": "StorageNotEmpty",
           "method": "set(uint256)",
-          "calldata": [
-            "0x01"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000001",
           "expected": {
             "exception": false
           }
@@ -34,6 +32,6 @@
     "StorageNotEmpty": "storage_nonempty.sol:StorageNotEmpty"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

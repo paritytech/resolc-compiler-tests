@@ -10,9 +10,7 @@
           "method": "test_function()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "exception": false
           }
         }
@@ -23,6 +21,6 @@
     "C": "stack_height_check_on_adding_gas_variable_to_function.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

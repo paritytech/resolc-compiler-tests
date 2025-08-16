@@ -27,9 +27,7 @@
           "comment": "f2(uint256): 1 ->; ~ emit TestB(function): #0x1234bf3724af0000000000000000",
           "instance": "C",
           "method": "f2(uint256)",
-          "calldata": [
-            "0x01"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000001",
           "expected": {
             "events": [
               {
@@ -50,6 +48,6 @@
     "C": "event_indexed_function2.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

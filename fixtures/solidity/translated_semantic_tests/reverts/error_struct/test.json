@@ -10,9 +10,7 @@
           "method": "f()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0xf8a8fd6d00000000000000000000000000000000000000000000000000000000"
-            ],
+            "return_data": "0xf8a8fd6d",
             "exception": true
           }
         },
@@ -21,13 +19,9 @@
           "comment": "g(uint256): 7 -> 7",
           "instance": "C",
           "method": "g(uint256)",
-          "calldata": [
-            "0x07"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000007",
           "expected": {
-            "return_data": [
-              "0x07"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000007",
             "exception": false
           }
         }
@@ -38,6 +32,6 @@
     "C": "error_struct.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

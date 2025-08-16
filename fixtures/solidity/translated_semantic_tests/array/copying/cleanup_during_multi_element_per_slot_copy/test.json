@@ -20,9 +20,7 @@
           "method": "f()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x00"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000000",
             "exception": false
           }
         }
@@ -33,6 +31,6 @@
     "C": "cleanup_during_multi_element_per_slot_copy.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

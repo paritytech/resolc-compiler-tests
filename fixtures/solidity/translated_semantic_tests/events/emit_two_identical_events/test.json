@@ -34,6 +34,6 @@
     "C": "emit_two_identical_events.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

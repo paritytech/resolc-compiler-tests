@@ -10,9 +10,7 @@
           "method": "f()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x6465616462656566000000000000000000000000000000000000000000000010"
-            ],
+            "return_data": "0x6465616462656566000000000000000000000000000000000000000000000010",
             "exception": false
           }
         }
@@ -23,6 +21,6 @@
     "C": "dirty_memory_bytes_to_storage_copy_ir.sol:C"
   },
   "modes": [
-    "Y+"
+    "Y-"
   ]
 }

@@ -10,9 +10,7 @@
           "method": "test()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x00"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000000",
             "exception": false
           }
         }
@@ -23,6 +21,6 @@
     "c": "byte_array_transitional_2.sol:c"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

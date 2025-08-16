@@ -10,10 +10,7 @@
           "method": "f()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x09",
-              "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe5"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000009ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe5",
             "exception": false
           }
         }
@@ -24,6 +21,6 @@
     "test": "signed_base.sol:test"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

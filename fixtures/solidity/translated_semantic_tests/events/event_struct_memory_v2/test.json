@@ -8,18 +8,14 @@
           "comment": "createEvent(uint256): 42 ->; ~ emit E((uint256)): 0x2a",
           "instance": "C",
           "method": "createEvent(uint256)",
-          "calldata": [
-            "0x2a"
-          ],
+          "calldata": "0x000000000000000000000000000000000000000000000000000000000000002a",
           "expected": {
             "events": [
               {
                 "topics": [
                   "0xdb7c15eb416c7028693224ffb718d13661df9f900b8db24786c57612ee461dd4"
                 ],
-                "values": [
-                  "0x2a"
-                ]
+                "values": "0x000000000000000000000000000000000000000000000000000000000000002a"
               }
             ],
             "exception": false
@@ -32,6 +28,6 @@
     "C": "event_struct_memory_v2.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

@@ -10,9 +10,7 @@
           "method": "f()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x02"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000002",
             "exception": false
           }
         }
@@ -23,6 +21,6 @@
     "Derived": "internal_virtual_function_calls.sol:Derived"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

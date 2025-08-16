@@ -8,9 +8,7 @@
           "comment": "constructor(): 0xfdd67305928fcac8d213d1e47bfa6165cd0b87b946644cd0000000000000000 ->",
           "instance": "D",
           "method": "#deployer",
-          "calldata": [
-            "0x0fdd67305928fcac8d213d1e47bfa6165cd0b87b946644cd0000000000000000"
-          ],
+          "calldata": "0x0fdd67305928fcac8d213d1e47bfa6165cd0b87b946644cd0000000000000000",
           "expected": {
             "exception": false
           }
@@ -22,6 +20,6 @@
     "D": "constructor_function_argument.sol:D"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

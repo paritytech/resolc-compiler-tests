@@ -16,9 +16,7 @@
           "method": "fill()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x08"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000008",
             "exception": false
           }
         },
@@ -51,6 +49,6 @@
     "c": "dynamic_multi_array_cleanup.sol:c"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

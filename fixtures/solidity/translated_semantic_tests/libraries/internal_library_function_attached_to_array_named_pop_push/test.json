@@ -20,6 +20,6 @@
     "C": "internal_library_function_attached_to_array_named_pop_push.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

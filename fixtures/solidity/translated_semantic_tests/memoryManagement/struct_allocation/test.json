@@ -10,9 +10,7 @@
           "method": "withValue()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x00"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000000",
             "exception": false
           }
         },
@@ -23,9 +21,7 @@
           "method": "withoutValue()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x60"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000060",
             "exception": false
           }
         }
@@ -36,6 +32,6 @@
     "C": "struct_allocation.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

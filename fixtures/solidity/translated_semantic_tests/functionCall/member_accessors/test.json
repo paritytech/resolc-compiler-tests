@@ -10,9 +10,7 @@
           "method": "data()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x08"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000008",
             "exception": false
           }
         },
@@ -23,9 +21,7 @@
           "method": "name()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x43656c696e610000000000000000000000000000000000000000000000000000"
-            ],
+            "return_data": "0x43656c696e610000000000000000000000000000000000000000000000000000",
             "exception": false
           }
         },
@@ -36,9 +32,7 @@
           "method": "a_hash()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0xa91eddf639b0b768929589c1a9fd21dcb0107199bdd82e55c5348018a1572f52"
-            ],
+            "return_data": "0xa91eddf639b0b768929589c1a9fd21dcb0107199bdd82e55c5348018a1572f52",
             "exception": false
           }
         },
@@ -49,9 +43,7 @@
           "method": "an_address()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x1337"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000001337",
             "exception": false
           }
         },
@@ -72,6 +64,6 @@
     "test": "member_accessors.sol:test"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

@@ -10,9 +10,7 @@
           "method": "f()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x46"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000046",
             "exception": false
           }
         }
@@ -23,6 +21,6 @@
     "C": "various_inline_asm.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

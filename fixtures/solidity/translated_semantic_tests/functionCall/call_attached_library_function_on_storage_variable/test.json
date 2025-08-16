@@ -8,13 +8,9 @@
           "comment": "f(uint256): 7 -> 0x2a",
           "instance": "C",
           "method": "f(uint256)",
-          "calldata": [
-            "0x07"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000007",
           "expected": {
-            "return_data": [
-              "0x2a"
-            ],
+            "return_data": "0x000000000000000000000000000000000000000000000000000000000000002a",
             "exception": false
           }
         },
@@ -25,9 +21,7 @@
           "method": "x()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x2a"
-            ],
+            "return_data": "0x000000000000000000000000000000000000000000000000000000000000002a",
             "exception": false
           }
         }
@@ -44,6 +38,6 @@
     }
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

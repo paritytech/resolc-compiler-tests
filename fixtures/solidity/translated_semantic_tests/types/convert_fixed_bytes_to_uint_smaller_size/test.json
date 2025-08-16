@@ -8,13 +8,9 @@
           "comment": "bytesToUint(bytes4): \"abcd\" -> 0x6364",
           "instance": "Test",
           "method": "bytesToUint(bytes4)",
-          "calldata": [
-            "0x6162636400000000000000000000000000000000000000000000000000000000"
-          ],
+          "calldata": "0x6162636400000000000000000000000000000000000000000000000000000000",
           "expected": {
-            "return_data": [
-              "0x6364"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000006364",
             "exception": false
           }
         }
@@ -25,6 +21,6 @@
     "Test": "convert_fixed_bytes_to_uint_smaller_size.sol:Test"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

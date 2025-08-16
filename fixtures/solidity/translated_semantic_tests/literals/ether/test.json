@@ -10,9 +10,7 @@
           "method": "f()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x0de0b6b3a7640000"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000de0b6b3a7640000",
             "exception": false
           }
         }
@@ -23,6 +21,6 @@
     "C": "ether.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

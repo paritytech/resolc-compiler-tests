@@ -10,9 +10,7 @@
           "method": "g()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x17"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000017",
             "exception": false
           }
         }
@@ -23,6 +21,6 @@
     "B": "inherited_function_calldata_memory.sol:B"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

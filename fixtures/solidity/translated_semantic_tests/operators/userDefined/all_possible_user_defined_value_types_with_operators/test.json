@@ -90,6 +90,6 @@
     "C": "all_possible_user_defined_value_types_with_operators.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

@@ -10,9 +10,7 @@
           "method": "test()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x18"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000018",
             "exception": false
           }
         },
@@ -23,9 +21,7 @@
           "method": "test1()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x03"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000003",
             "exception": false
           }
         },
@@ -36,9 +32,7 @@
           "method": "test2()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x06"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000006",
             "exception": false
           }
         },
@@ -49,9 +43,7 @@
           "method": "test3()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x18"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000018",
             "exception": false
           }
         }
@@ -62,6 +54,6 @@
     "Test": "array_nested_memory_to_storage.sol:Test"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

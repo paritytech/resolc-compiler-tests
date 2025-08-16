@@ -10,9 +10,7 @@
           "method": "f()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x0b"
-            ],
+            "return_data": "0x000000000000000000000000000000000000000000000000000000000000000b",
             "exception": false
           }
         },
@@ -23,9 +21,7 @@
           "method": "g()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0xc8"
-            ],
+            "return_data": "0x00000000000000000000000000000000000000000000000000000000000000c8",
             "exception": false
           }
         }
@@ -36,6 +32,6 @@
     "C": "state_variable_constant_and_immutable.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

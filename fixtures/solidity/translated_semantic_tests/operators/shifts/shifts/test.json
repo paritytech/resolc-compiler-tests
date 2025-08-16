@@ -8,13 +8,9 @@
           "comment": "f(uint256): 7 -> 28",
           "instance": "C",
           "method": "f(uint256)",
-          "calldata": [
-            "0x07"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000007",
           "expected": {
-            "return_data": [
-              "0x1c"
-            ],
+            "return_data": "0x000000000000000000000000000000000000000000000000000000000000001c",
             "exception": false
           }
         }
@@ -25,7 +21,7 @@
     "C": "shifts.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ],
   "required_evm_version": ">=constantinople"
 }

@@ -30,9 +30,7 @@
           "method": "h()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x07"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000007",
             "exception": false
           }
         }
@@ -43,6 +41,6 @@
     "C": "calling_nonexisting_contract_throws.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

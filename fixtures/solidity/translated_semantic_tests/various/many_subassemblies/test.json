@@ -20,7 +20,7 @@
     "D": "many_subassemblies.sol:D"
   },
   "modes": [
-    "E+"
+    "E-"
   ],
   "required_evm_version": ">=constantinople"
 }

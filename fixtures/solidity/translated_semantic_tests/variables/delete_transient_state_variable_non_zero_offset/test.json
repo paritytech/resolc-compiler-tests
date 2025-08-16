@@ -10,11 +10,7 @@
           "method": "f()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0xffffffffffffffffffffffffffff000000000000000000000000000000000000",
-              "0x00",
-              "0xffffffffffffffffffffffffffff"
-            ],
+            "return_data": "0xffffffffffffffffffffffffffff0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffffffffffffffffffffffff",
             "exception": false
           }
         }
@@ -25,7 +21,7 @@
     "C": "delete_transient_state_variable_non_zero_offset.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ],
   "required_evm_version": ">=cancun"
 }

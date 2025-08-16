@@ -10,10 +10,7 @@
           "method": "f()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x271b1dfa0000000000000000000000000000000000001234f37cdc8e00000000",
-              "0x00"
-            ],
+            "return_data": "0x271b1dfa0000000000000000000000000000000000001234f37cdc8e0000000000000000",
             "exception": true
           }
         }
@@ -24,6 +21,6 @@
     "C": "require_error_function_pointer_parameter.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

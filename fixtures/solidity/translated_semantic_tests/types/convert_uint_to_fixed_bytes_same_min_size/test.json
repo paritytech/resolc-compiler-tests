@@ -8,13 +8,9 @@
           "comment": "UintToBytes(uint8): 0x61 -> \"a\"",
           "instance": "Test",
           "method": "UintToBytes(uint8)",
-          "calldata": [
-            "0x61"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000061",
           "expected": {
-            "return_data": [
-              "0x6100000000000000000000000000000000000000000000000000000000000000"
-            ],
+            "return_data": "0x6100000000000000000000000000000000000000000000000000000000000000",
             "exception": false
           }
         }
@@ -25,6 +21,6 @@
     "Test": "convert_uint_to_fixed_bytes_same_min_size.sol:Test"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

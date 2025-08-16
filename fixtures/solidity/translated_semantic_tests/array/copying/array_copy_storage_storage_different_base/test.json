@@ -10,10 +10,7 @@
           "method": "test()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x05",
-              "0x04"
-            ],
+            "return_data": "0x00000000000000000000000000000000000000000000000000000000000000050000000000000000000000000000000000000000000000000000000000000004",
             "exception": false
           }
         }
@@ -24,6 +21,6 @@
     "c": "array_copy_storage_storage_different_base.sol:c"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

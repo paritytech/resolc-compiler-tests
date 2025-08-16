@@ -145,6 +145,7 @@ contract FixedFeeRegistrar is Registrar {
     uint constant c_fee = 69 ether;
 }
 // ----
+// account: 0 -> 0x1212121212121212121212121212120000000012
 // constructor()
 // gas irOptimized: 78076
 // gas irOptimized code: 307400

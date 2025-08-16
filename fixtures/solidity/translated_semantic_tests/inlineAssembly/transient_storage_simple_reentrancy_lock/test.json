@@ -8,9 +8,7 @@
           "comment": "f(bool): false ->",
           "instance": "C",
           "method": "f(bool)",
-          "calldata": [
-            "0x00"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000000",
           "expected": {
             "exception": false
           }
@@ -20,9 +18,7 @@
           "comment": "f(bool): true -> FAILURE",
           "instance": "C",
           "method": "f(bool)",
-          "calldata": [
-            "0x01"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000001",
           "expected": {
             "exception": true
           }
@@ -34,7 +30,7 @@
     "C": "transient_storage_simple_reentrancy_lock.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ],
   "required_evm_version": ">=cancun"
 }

@@ -21,9 +21,7 @@
           "method": "getFlag()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "exception": false
           }
         },
@@ -34,9 +32,7 @@
           "method": "getName()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x6162630000000000000000000000000000000000000000000000000000000000"
-            ],
+            "return_data": "0x6162630000000000000000000000000000000000000000000000000000000000",
             "exception": false
           }
         },
@@ -47,10 +43,7 @@
           "method": "getBalances()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x0c",
-              "0x0a"
-            ],
+            "return_data": "0x000000000000000000000000000000000000000000000000000000000000000c000000000000000000000000000000000000000000000000000000000000000a",
             "exception": false
           }
         }
@@ -61,6 +54,6 @@
     "Main": "value_for_constructor.sol:Main"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

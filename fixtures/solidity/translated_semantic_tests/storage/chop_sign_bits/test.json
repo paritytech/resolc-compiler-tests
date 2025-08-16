@@ -8,13 +8,9 @@
           "comment": "x(uint256): 0 -> -1",
           "instance": "Test",
           "method": "x(uint256)",
-          "calldata": [
-            "0x00"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000000",
           "expected": {
-            "return_data": [
-              "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
-            ],
+            "return_data": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
             "exception": false
           }
         },
@@ -23,13 +19,9 @@
           "comment": "x(uint256): 1 -> -2",
           "instance": "Test",
           "method": "x(uint256)",
-          "calldata": [
-            "0x01"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000001",
           "expected": {
-            "return_data": [
-              "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe"
-            ],
+            "return_data": "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe",
             "exception": false
           }
         },
@@ -38,13 +30,9 @@
           "comment": "y(uint256): 0 -> -5",
           "instance": "Test",
           "method": "y(uint256)",
-          "calldata": [
-            "0x00"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000000",
           "expected": {
-            "return_data": [
-              "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb"
-            ],
+            "return_data": "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb",
             "exception": false
           }
         },
@@ -53,13 +41,9 @@
           "comment": "y(uint256): 1 -> -6",
           "instance": "Test",
           "method": "y(uint256)",
-          "calldata": [
-            "0x01"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000001",
           "expected": {
-            "return_data": [
-              "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa"
-            ],
+            "return_data": "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa",
             "exception": false
           }
         },
@@ -70,12 +54,7 @@
           "method": "f()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x20",
-              "0x02",
-              "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffd",
-              "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc"
-            ],
+            "return_data": "0x00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000002fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffdfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc",
             "exception": false
           }
         },
@@ -86,10 +65,7 @@
           "method": "g()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffd",
-              "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc"
-            ],
+            "return_data": "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffdfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc",
             "exception": false
           }
         },
@@ -98,13 +74,9 @@
           "comment": "h(int8): -10 -> -10",
           "instance": "Test",
           "method": "h(int8)",
-          "calldata": [
-            "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff6"
-          ],
+          "calldata": "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff6",
           "expected": {
-            "return_data": [
-              "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff6"
-            ],
+            "return_data": "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff6",
             "exception": false
           }
         }
@@ -115,6 +87,6 @@
     "Test": "chop_sign_bits.sol:Test"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

@@ -10,10 +10,7 @@
           "method": "g()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x05",
-              "0x06"
-            ],
+            "return_data": "0x00000000000000000000000000000000000000000000000000000000000000050000000000000000000000000000000000000000000000000000000000000006",
             "exception": false
           }
         }
@@ -24,6 +21,6 @@
     "C": "skip_dynamic_types_for_static_arrays_with_dynamic_elements.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

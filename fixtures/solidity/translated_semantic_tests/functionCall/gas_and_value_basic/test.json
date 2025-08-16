@@ -19,13 +19,9 @@
           "comment": "sendAmount(uint256): 5 -> 5",
           "instance": "test",
           "method": "sendAmount(uint256)",
-          "calldata": [
-            "0x05"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000005",
           "expected": {
-            "return_data": [
-              "0x05"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000005",
             "exception": false
           }
         },
@@ -46,10 +42,7 @@
           "method": "checkState()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x00",
-              "0x0f"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000f",
             "exception": false
           }
         }
@@ -60,6 +53,6 @@
     "test": "gas_and_value_basic.sol:test"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

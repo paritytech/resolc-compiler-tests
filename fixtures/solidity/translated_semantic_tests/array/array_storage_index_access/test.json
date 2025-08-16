@@ -8,9 +8,7 @@
           "comment": "test_indices(uint256): 1 ->",
           "instance": "C",
           "method": "test_indices(uint256)",
-          "calldata": [
-            "0x01"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000001",
           "expected": {
             "exception": false
           }
@@ -20,9 +18,7 @@
           "comment": "test_indices(uint256): 129 ->; gas irOptimized: 3017687; gas legacy: 3038668; gas legacyOptimized: 2995964",
           "instance": "C",
           "method": "test_indices(uint256)",
-          "calldata": [
-            "0x81"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000081",
           "expected": {
             "exception": false
           }
@@ -32,9 +28,7 @@
           "comment": "test_indices(uint256): 5 ->; gas irOptimized: 579670; gas legacy: 573821; gas legacyOptimized: 571847",
           "instance": "C",
           "method": "test_indices(uint256)",
-          "calldata": [
-            "0x05"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000005",
           "expected": {
             "exception": false
           }
@@ -44,9 +38,7 @@
           "comment": "test_indices(uint256): 10 ->; gas irOptimized: 157953; gas legacy: 160122; gas legacyOptimized: 156996",
           "instance": "C",
           "method": "test_indices(uint256)",
-          "calldata": [
-            "0x0a"
-          ],
+          "calldata": "0x000000000000000000000000000000000000000000000000000000000000000a",
           "expected": {
             "exception": false
           }
@@ -56,9 +48,7 @@
           "comment": "test_indices(uint256): 15 ->; gas irOptimized: 172733; gas legacy: 175987; gas legacyOptimized: 171596",
           "instance": "C",
           "method": "test_indices(uint256)",
-          "calldata": [
-            "0x0f"
-          ],
+          "calldata": "0x000000000000000000000000000000000000000000000000000000000000000f",
           "expected": {
             "exception": false
           }
@@ -68,9 +58,7 @@
           "comment": "test_indices(uint256): 0xFF ->; gas irOptimized: 5673823; gas legacy: 5715762; gas legacyOptimized: 5632556",
           "instance": "C",
           "method": "test_indices(uint256)",
-          "calldata": [
-            "0xff"
-          ],
+          "calldata": "0x00000000000000000000000000000000000000000000000000000000000000ff",
           "expected": {
             "exception": false
           }
@@ -80,9 +68,7 @@
           "comment": "test_indices(uint256): 1000 ->; gas irOptimized: 18173005; gas legacy: 18347824; gas legacyOptimized: 18037248",
           "instance": "C",
           "method": "test_indices(uint256)",
-          "calldata": [
-            "0x03e8"
-          ],
+          "calldata": "0x00000000000000000000000000000000000000000000000000000000000003e8",
           "expected": {
             "exception": false
           }
@@ -92,9 +78,7 @@
           "comment": "test_indices(uint256): 129 ->; gas irOptimized: 4166279; gas legacy: 4140124; gas legacyOptimized: 4108272",
           "instance": "C",
           "method": "test_indices(uint256)",
-          "calldata": [
-            "0x81"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000081",
           "expected": {
             "exception": false
           }
@@ -104,9 +88,7 @@
           "comment": "test_indices(uint256): 128 ->; gas irOptimized: 405522; gas legacy: 433512; gas legacyOptimized: 400909",
           "instance": "C",
           "method": "test_indices(uint256)",
-          "calldata": [
-            "0x80"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000080",
           "expected": {
             "exception": false
           }
@@ -116,9 +98,7 @@
           "comment": "test_indices(uint256): 1 ->; gas irOptimized: 583437; gas legacy: 576726; gas legacyOptimized: 575542",
           "instance": "C",
           "method": "test_indices(uint256)",
-          "calldata": [
-            "0x01"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000001",
           "expected": {
             "exception": false
           }
@@ -130,6 +110,6 @@
     "C": "array_storage_index_access.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

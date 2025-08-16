@@ -10,9 +10,7 @@
           "method": "i()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x02"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000002",
             "exception": false
           }
         },
@@ -23,9 +21,7 @@
           "method": "k()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "exception": false
           }
         }
@@ -36,6 +32,6 @@
     "D": "constructor_with_params_inheritance_2.sol:D"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

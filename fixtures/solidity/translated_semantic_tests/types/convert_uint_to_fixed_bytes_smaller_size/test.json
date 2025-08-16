@@ -8,13 +8,9 @@
           "comment": "uintToBytes(uint32): 0x61626364 -> \"cd\"",
           "instance": "Test",
           "method": "uintToBytes(uint32)",
-          "calldata": [
-            "0x61626364"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000061626364",
           "expected": {
-            "return_data": [
-              "0x6364000000000000000000000000000000000000000000000000000000000000"
-            ],
+            "return_data": "0x6364000000000000000000000000000000000000000000000000000000000000",
             "exception": false
           }
         }
@@ -25,6 +21,6 @@
     "Test": "convert_uint_to_fixed_bytes_smaller_size.sol:Test"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

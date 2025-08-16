@@ -10,9 +10,7 @@
           "method": "f()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x07"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000007",
             "exception": false
           }
         }
@@ -23,6 +21,6 @@
     "B": "inherited_constant_state_var.sol:B"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

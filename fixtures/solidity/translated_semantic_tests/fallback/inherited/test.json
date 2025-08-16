@@ -10,9 +10,7 @@
           "method": "getData()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x00"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000000",
             "exception": false
           }
         },
@@ -21,9 +19,7 @@
           "comment": "(): 42 ->",
           "instance": "B",
           "method": "#fallback",
-          "calldata": [
-            "0x2a"
-          ],
+          "calldata": "0x000000000000000000000000000000000000000000000000000000000000002a",
           "expected": {
             "exception": false
           }
@@ -35,9 +31,7 @@
           "method": "getData()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "exception": false
           }
         }
@@ -48,6 +42,6 @@
     "B": "inherited.sol:B"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

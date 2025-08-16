@@ -8,14 +8,9 @@
           "comment": "f(int8,uint256): 2, 6 -> 64",
           "instance": "C",
           "method": "f(int8,uint256)",
-          "calldata": [
-            "0x02",
-            "0x06"
-          ],
+          "calldata": "0x00000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000006",
           "expected": {
-            "return_data": [
-              "0x40"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000040",
             "exception": false
           }
         },
@@ -24,15 +19,9 @@
           "comment": "f(int8,uint256): 2, 7 -> FAILURE, hex\"4e487b71\", 0x11",
           "instance": "C",
           "method": "f(int8,uint256)",
-          "calldata": [
-            "0x02",
-            "0x07"
-          ],
+          "calldata": "0x00000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000007",
           "expected": {
-            "return_data": [
-              "0x4e487b7100000000000000000000000000000000000000000000000000000000",
-              "0x1100000000000000000000000000000000000000000000000000000000"
-            ],
+            "return_data": "0x4e487b710000000000000000000000000000000000000000000000000000000000000011",
             "exception": true
           }
         },
@@ -41,15 +30,9 @@
           "comment": "f(int8,uint256): 2, 8 -> FAILURE, hex\"4e487b71\", 0x11",
           "instance": "C",
           "method": "f(int8,uint256)",
-          "calldata": [
-            "0x02",
-            "0x08"
-          ],
+          "calldata": "0x00000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000008",
           "expected": {
-            "return_data": [
-              "0x4e487b7100000000000000000000000000000000000000000000000000000000",
-              "0x1100000000000000000000000000000000000000000000000000000000"
-            ],
+            "return_data": "0x4e487b710000000000000000000000000000000000000000000000000000000000000011",
             "exception": true
           }
         },
@@ -58,14 +41,9 @@
           "comment": "f(int8,uint256): -2, 6 -> 64",
           "instance": "C",
           "method": "f(int8,uint256)",
-          "calldata": [
-            "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe",
-            "0x06"
-          ],
+          "calldata": "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe0000000000000000000000000000000000000000000000000000000000000006",
           "expected": {
-            "return_data": [
-              "0x40"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000040",
             "exception": false
           }
         },
@@ -74,14 +52,9 @@
           "comment": "f(int8,uint256): -2, 7 -> -128",
           "instance": "C",
           "method": "f(int8,uint256)",
-          "calldata": [
-            "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe",
-            "0x07"
-          ],
+          "calldata": "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe0000000000000000000000000000000000000000000000000000000000000007",
           "expected": {
-            "return_data": [
-              "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff80"
-            ],
+            "return_data": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff80",
             "exception": false
           }
         },
@@ -90,15 +63,9 @@
           "comment": "f(int8,uint256): -2, 8 -> FAILURE, hex\"4e487b71\", 0x11",
           "instance": "C",
           "method": "f(int8,uint256)",
-          "calldata": [
-            "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe",
-            "0x08"
-          ],
+          "calldata": "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe0000000000000000000000000000000000000000000000000000000000000008",
           "expected": {
-            "return_data": [
-              "0x4e487b7100000000000000000000000000000000000000000000000000000000",
-              "0x1100000000000000000000000000000000000000000000000000000000"
-            ],
+            "return_data": "0x4e487b710000000000000000000000000000000000000000000000000000000000000011",
             "exception": true
           }
         },
@@ -107,15 +74,9 @@
           "comment": "f(int8,uint256): 6, 3 -> FAILURE, hex\"4e487b71\", 0x11",
           "instance": "C",
           "method": "f(int8,uint256)",
-          "calldata": [
-            "0x06",
-            "0x03"
-          ],
+          "calldata": "0x00000000000000000000000000000000000000000000000000000000000000060000000000000000000000000000000000000000000000000000000000000003",
           "expected": {
-            "return_data": [
-              "0x4e487b7100000000000000000000000000000000000000000000000000000000",
-              "0x1100000000000000000000000000000000000000000000000000000000"
-            ],
+            "return_data": "0x4e487b710000000000000000000000000000000000000000000000000000000000000011",
             "exception": true
           }
         },
@@ -124,14 +85,9 @@
           "comment": "f(int8,uint256): 7, 2 -> 0x31",
           "instance": "C",
           "method": "f(int8,uint256)",
-          "calldata": [
-            "0x07",
-            "0x02"
-          ],
+          "calldata": "0x00000000000000000000000000000000000000000000000000000000000000070000000000000000000000000000000000000000000000000000000000000002",
           "expected": {
-            "return_data": [
-              "0x31"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000031",
             "exception": false
           }
         },
@@ -140,15 +96,9 @@
           "comment": "f(int8,uint256): 7, 3 -> FAILURE, hex\"4e487b71\", 0x11",
           "instance": "C",
           "method": "f(int8,uint256)",
-          "calldata": [
-            "0x07",
-            "0x03"
-          ],
+          "calldata": "0x00000000000000000000000000000000000000000000000000000000000000070000000000000000000000000000000000000000000000000000000000000003",
           "expected": {
-            "return_data": [
-              "0x4e487b7100000000000000000000000000000000000000000000000000000000",
-              "0x1100000000000000000000000000000000000000000000000000000000"
-            ],
+            "return_data": "0x4e487b710000000000000000000000000000000000000000000000000000000000000011",
             "exception": true
           }
         },
@@ -157,14 +107,9 @@
           "comment": "f(int8,uint256): -7, 2 -> 0x31",
           "instance": "C",
           "method": "f(int8,uint256)",
-          "calldata": [
-            "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff9",
-            "0x02"
-          ],
+          "calldata": "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff90000000000000000000000000000000000000000000000000000000000000002",
           "expected": {
-            "return_data": [
-              "0x31"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000031",
             "exception": false
           }
         },
@@ -173,15 +118,9 @@
           "comment": "f(int8,uint256): -7, 3 -> FAILURE, hex\"4e487b71\", 0x11",
           "instance": "C",
           "method": "f(int8,uint256)",
-          "calldata": [
-            "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff9",
-            "0x03"
-          ],
+          "calldata": "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff90000000000000000000000000000000000000000000000000000000000000003",
           "expected": {
-            "return_data": [
-              "0x4e487b7100000000000000000000000000000000000000000000000000000000",
-              "0x1100000000000000000000000000000000000000000000000000000000"
-            ],
+            "return_data": "0x4e487b710000000000000000000000000000000000000000000000000000000000000011",
             "exception": true
           }
         },
@@ -190,15 +129,9 @@
           "comment": "f(int8,uint256): -7, 4 -> FAILURE, hex\"4e487b71\", 0x11",
           "instance": "C",
           "method": "f(int8,uint256)",
-          "calldata": [
-            "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff9",
-            "0x04"
-          ],
+          "calldata": "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff90000000000000000000000000000000000000000000000000000000000000004",
           "expected": {
-            "return_data": [
-              "0x4e487b7100000000000000000000000000000000000000000000000000000000",
-              "0x1100000000000000000000000000000000000000000000000000000000"
-            ],
+            "return_data": "0x4e487b710000000000000000000000000000000000000000000000000000000000000011",
             "exception": true
           }
         },
@@ -207,15 +140,9 @@
           "comment": "f(int8,uint256): 127, 31 -> FAILURE, hex\"4e487b71\", 0x11",
           "instance": "C",
           "method": "f(int8,uint256)",
-          "calldata": [
-            "0x7f",
-            "0x1f"
-          ],
+          "calldata": "0x000000000000000000000000000000000000000000000000000000000000007f000000000000000000000000000000000000000000000000000000000000001f",
           "expected": {
-            "return_data": [
-              "0x4e487b7100000000000000000000000000000000000000000000000000000000",
-              "0x1100000000000000000000000000000000000000000000000000000000"
-            ],
+            "return_data": "0x4e487b710000000000000000000000000000000000000000000000000000000000000011",
             "exception": true
           }
         },
@@ -224,15 +151,9 @@
           "comment": "f(int8,uint256): 127, 131 -> FAILURE, hex\"4e487b71\", 0x11",
           "instance": "C",
           "method": "f(int8,uint256)",
-          "calldata": [
-            "0x7f",
-            "0x83"
-          ],
+          "calldata": "0x000000000000000000000000000000000000000000000000000000000000007f0000000000000000000000000000000000000000000000000000000000000083",
           "expected": {
-            "return_data": [
-              "0x4e487b7100000000000000000000000000000000000000000000000000000000",
-              "0x1100000000000000000000000000000000000000000000000000000000"
-            ],
+            "return_data": "0x4e487b710000000000000000000000000000000000000000000000000000000000000011",
             "exception": true
           }
         },
@@ -241,14 +162,9 @@
           "comment": "f(int8,uint256): -128, 0 -> 1",
           "instance": "C",
           "method": "f(int8,uint256)",
-          "calldata": [
-            "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff80",
-            "0x00"
-          ],
+          "calldata": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff800000000000000000000000000000000000000000000000000000000000000000",
           "expected": {
-            "return_data": [
-              "0x01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "exception": false
           }
         },
@@ -257,14 +173,9 @@
           "comment": "f(int8,uint256): -128, 1 -> -128",
           "instance": "C",
           "method": "f(int8,uint256)",
-          "calldata": [
-            "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff80",
-            "0x01"
-          ],
+          "calldata": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff800000000000000000000000000000000000000000000000000000000000000001",
           "expected": {
-            "return_data": [
-              "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff80"
-            ],
+            "return_data": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff80",
             "exception": false
           }
         },
@@ -273,15 +184,9 @@
           "comment": "f(int8,uint256): -128, 31 -> FAILURE, hex\"4e487b71\", 0x11",
           "instance": "C",
           "method": "f(int8,uint256)",
-          "calldata": [
-            "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff80",
-            "0x1f"
-          ],
+          "calldata": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff80000000000000000000000000000000000000000000000000000000000000001f",
           "expected": {
-            "return_data": [
-              "0x4e487b7100000000000000000000000000000000000000000000000000000000",
-              "0x1100000000000000000000000000000000000000000000000000000000"
-            ],
+            "return_data": "0x4e487b710000000000000000000000000000000000000000000000000000000000000011",
             "exception": true
           }
         },
@@ -290,15 +195,9 @@
           "comment": "f(int8,uint256): -128, 131 -> FAILURE, hex\"4e487b71\", 0x11",
           "instance": "C",
           "method": "f(int8,uint256)",
-          "calldata": [
-            "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff80",
-            "0x83"
-          ],
+          "calldata": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff800000000000000000000000000000000000000000000000000000000000000083",
           "expected": {
-            "return_data": [
-              "0x4e487b7100000000000000000000000000000000000000000000000000000000",
-              "0x1100000000000000000000000000000000000000000000000000000000"
-            ],
+            "return_data": "0x4e487b710000000000000000000000000000000000000000000000000000000000000011",
             "exception": true
           }
         },
@@ -307,14 +206,9 @@
           "comment": "f(int8,uint256): -11, 2 -> 121",
           "instance": "C",
           "method": "f(int8,uint256)",
-          "calldata": [
-            "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff5",
-            "0x02"
-          ],
+          "calldata": "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff50000000000000000000000000000000000000000000000000000000000000002",
           "expected": {
-            "return_data": [
-              "0x79"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000079",
             "exception": false
           }
         },
@@ -323,15 +217,9 @@
           "comment": "f(int8,uint256): -12, 2 -> FAILURE, hex\"4e487b71\", 0x11",
           "instance": "C",
           "method": "f(int8,uint256)",
-          "calldata": [
-            "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff4",
-            "0x02"
-          ],
+          "calldata": "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff40000000000000000000000000000000000000000000000000000000000000002",
           "expected": {
-            "return_data": [
-              "0x4e487b7100000000000000000000000000000000000000000000000000000000",
-              "0x1100000000000000000000000000000000000000000000000000000000"
-            ],
+            "return_data": "0x4e487b710000000000000000000000000000000000000000000000000000000000000011",
             "exception": true
           }
         },
@@ -340,15 +228,9 @@
           "comment": "f(int8,uint256): 12, 2 -> FAILURE, hex\"4e487b71\", 0x11",
           "instance": "C",
           "method": "f(int8,uint256)",
-          "calldata": [
-            "0x0c",
-            "0x02"
-          ],
+          "calldata": "0x000000000000000000000000000000000000000000000000000000000000000c0000000000000000000000000000000000000000000000000000000000000002",
           "expected": {
-            "return_data": [
-              "0x4e487b7100000000000000000000000000000000000000000000000000000000",
-              "0x1100000000000000000000000000000000000000000000000000000000"
-            ],
+            "return_data": "0x4e487b710000000000000000000000000000000000000000000000000000000000000011",
             "exception": true
           }
         },
@@ -357,14 +239,9 @@
           "comment": "f(int8,uint256): -5, 3 -> -125",
           "instance": "C",
           "method": "f(int8,uint256)",
-          "calldata": [
-            "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb",
-            "0x03"
-          ],
+          "calldata": "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb0000000000000000000000000000000000000000000000000000000000000003",
           "expected": {
-            "return_data": [
-              "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff83"
-            ],
+            "return_data": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff83",
             "exception": false
           }
         },
@@ -373,15 +250,9 @@
           "comment": "f(int8,uint256): -6, 3 -> FAILURE, hex\"4e487b71\", 0x11",
           "instance": "C",
           "method": "f(int8,uint256)",
-          "calldata": [
-            "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa",
-            "0x03"
-          ],
+          "calldata": "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0000000000000000000000000000000000000000000000000000000000000003",
           "expected": {
-            "return_data": [
-              "0x4e487b7100000000000000000000000000000000000000000000000000000000",
-              "0x1100000000000000000000000000000000000000000000000000000000"
-            ],
+            "return_data": "0x4e487b710000000000000000000000000000000000000000000000000000000000000011",
             "exception": true
           }
         },
@@ -390,14 +261,9 @@
           "comment": "g(int256,uint256): -7, 90 -> 11450477594321044359340126713545146077054004823284978858214566372120240027249",
           "instance": "C",
           "method": "g(int256,uint256)",
-          "calldata": [
-            "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff9",
-            "0x5a"
-          ],
+          "calldata": "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff9000000000000000000000000000000000000000000000000000000000000005a",
           "expected": {
-            "return_data": [
-              "0x1950bd9b362e1f21a325a5d9eeb892d6962d104393b877caf58ef549916f7671"
-            ],
+            "return_data": "0x1950bd9b362e1f21a325a5d9eeb892d6962d104393b877caf58ef549916f7671",
             "exception": false
           }
         },
@@ -406,15 +272,9 @@
           "comment": "g(int256,uint256): -7, 91 -> FAILURE, hex\"4e487b71\", 0x11",
           "instance": "C",
           "method": "g(int256,uint256)",
-          "calldata": [
-            "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff9",
-            "0x5b"
-          ],
+          "calldata": "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff9000000000000000000000000000000000000000000000000000000000000005b",
           "expected": {
-            "return_data": [
-              "0x4e487b7100000000000000000000000000000000000000000000000000000000",
-              "0x1100000000000000000000000000000000000000000000000000000000"
-            ],
+            "return_data": "0x4e487b710000000000000000000000000000000000000000000000000000000000000011",
             "exception": true
           }
         },
@@ -423,14 +283,9 @@
           "comment": "g(int256,uint256): -63, 42 -> 3735107253208426854890677539053540390278853997836851167913009474475553834369",
           "instance": "C",
           "method": "g(int256,uint256)",
-          "calldata": [
-            "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc1",
-            "0x2a"
-          ],
+          "calldata": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc1000000000000000000000000000000000000000000000000000000000000002a",
           "expected": {
-            "return_data": [
-              "0x0841feebf884f86c0504d91944696d6b186835b6c7d905932d46189986d5c581"
-            ],
+            "return_data": "0x0841feebf884f86c0504d91944696d6b186835b6c7d905932d46189986d5c581",
             "exception": false
           }
         },
@@ -439,15 +294,9 @@
           "comment": "g(int256,uint256): -63, 43 -> FAILURE, hex\"4e487b71\", 0x11",
           "instance": "C",
           "method": "g(int256,uint256)",
-          "calldata": [
-            "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc1",
-            "0x2b"
-          ],
+          "calldata": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc1000000000000000000000000000000000000000000000000000000000000002b",
           "expected": {
-            "return_data": [
-              "0x4e487b7100000000000000000000000000000000000000000000000000000000",
-              "0x1100000000000000000000000000000000000000000000000000000000"
-            ],
+            "return_data": "0x4e487b710000000000000000000000000000000000000000000000000000000000000011",
             "exception": true
           }
         }
@@ -458,6 +307,6 @@
     "C": "exp_neg_overflow.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

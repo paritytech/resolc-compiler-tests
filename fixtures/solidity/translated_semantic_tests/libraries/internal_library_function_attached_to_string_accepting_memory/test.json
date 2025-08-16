@@ -10,9 +10,7 @@
           "method": "secondChar()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x62"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000062",
             "exception": false
           }
         }
@@ -23,6 +21,6 @@
     "C": "internal_library_function_attached_to_string_accepting_memory.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

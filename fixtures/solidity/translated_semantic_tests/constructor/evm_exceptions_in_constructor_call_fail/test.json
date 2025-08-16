@@ -20,9 +20,7 @@
           "method": "test()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x02"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000002",
             "exception": false
           }
         }
@@ -33,6 +31,6 @@
     "B": "evm_exceptions_in_constructor_call_fail.sol:B"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

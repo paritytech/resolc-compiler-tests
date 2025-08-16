@@ -19,9 +19,7 @@
           "comment": "f(uint256): 20 ->",
           "instance": "C",
           "method": "f(uint256)",
-          "calldata": [
-            "0x14"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000014",
           "expected": {
             "exception": false
           }
@@ -33,9 +31,7 @@
           "method": "x()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "exception": false
           }
         },
@@ -44,9 +40,7 @@
           "comment": "f(uint256): 20 -> FAILURE",
           "instance": "C",
           "method": "f(uint256)",
-          "calldata": [
-            "0x14"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000014",
           "expected": {
             "exception": true
           }
@@ -58,9 +52,7 @@
           "method": "x()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "exception": false
           }
         },
@@ -69,9 +61,7 @@
           "comment": "stack(uint256): 1023 -> FAILURE; gas irOptimized: 298110; gas legacy: 527207; gas legacyOptimized: 353607",
           "instance": "C",
           "method": "stack(uint256)",
-          "calldata": [
-            "0x03ff"
-          ],
+          "calldata": "0x00000000000000000000000000000000000000000000000000000000000003ff",
           "expected": {
             "exception": true
           }
@@ -83,9 +73,7 @@
           "method": "x()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "exception": false
           }
         },
@@ -94,9 +82,7 @@
           "comment": "stack(uint256): 10 ->",
           "instance": "C",
           "method": "stack(uint256)",
-          "calldata": [
-            "0x0a"
-          ],
+          "calldata": "0x000000000000000000000000000000000000000000000000000000000000000a",
           "expected": {
             "exception": false
           }
@@ -108,9 +94,7 @@
           "method": "x()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x02"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000002",
             "exception": false
           }
         }
@@ -121,7 +105,7 @@
     "C": "failed_create.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ],
   "required_evm_version": ">=constantinople"
 }

@@ -10,9 +10,7 @@
           "method": "a()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x02"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000002",
             "exception": false
           }
         }
@@ -23,6 +21,6 @@
     "A": "state_variable_local_variable_mixture.sol:A"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

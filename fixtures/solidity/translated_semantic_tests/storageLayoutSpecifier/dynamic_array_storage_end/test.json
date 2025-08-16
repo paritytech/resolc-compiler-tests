@@ -40,6 +40,6 @@
     "C": "dynamic_array_storage_end.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

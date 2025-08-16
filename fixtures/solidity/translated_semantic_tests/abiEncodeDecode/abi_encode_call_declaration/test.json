@@ -10,9 +10,7 @@
           "method": "test()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x2b6c"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000002b6c",
             "exception": false
           }
         }
@@ -23,7 +21,7 @@
     "C": "abi_encode_call_declaration.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ],
   "required_evm_version": ">=byzantium"
 }

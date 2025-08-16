@@ -10,9 +10,7 @@
           "method": "x()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x02"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000002",
             "exception": false
           }
         },
@@ -23,9 +21,7 @@
           "method": "y()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x7f"
-            ],
+            "return_data": "0x000000000000000000000000000000000000000000000000000000000000007f",
             "exception": false
           }
         },
@@ -36,9 +32,7 @@
           "method": "q()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0xfa"
-            ],
+            "return_data": "0x00000000000000000000000000000000000000000000000000000000000000fa",
             "exception": false
           }
         }
@@ -49,6 +43,6 @@
     "test": "positive_integers_to_signed.sol:test"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

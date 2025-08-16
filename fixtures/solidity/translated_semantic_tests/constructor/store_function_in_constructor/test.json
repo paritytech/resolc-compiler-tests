@@ -8,13 +8,9 @@
           "comment": "use(uint256): 3 -> 6",
           "instance": "C",
           "method": "use(uint256)",
-          "calldata": [
-            "0x03"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000003",
           "expected": {
-            "return_data": [
-              "0x06"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000006",
             "exception": false
           }
         },
@@ -25,9 +21,7 @@
           "method": "result_in_constructor()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x04"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000004",
             "exception": false
           }
         }
@@ -38,6 +32,6 @@
     "C": "store_function_in_constructor.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

@@ -10,21 +10,34 @@ contract Factory {
         //        selfdestruct(payable(msg.sender));
         //    }
         //}
-        bytes memory initCode =
-            hex"6080806040526068908160108239f3fe6004361015600b575f80fd5b5f3560e0"
+        bytes
+            memory initCode = hex"6080806040526068908160108239f3fe6004361015600b575f80fd5b5f3560e0"
             hex"1c630c08bf8814601d575f80fd5b34602e575f366003190112602e5733ff5b5f"
             hex"80fdfea2646970667358221220fe3c4fe66c1838016e2efdc5b65538e5ff3dbf"
             hex"ced7eff135da3556db4bd841aa64736f6c63430008180033";
 
-        address target = address(uint160(uint256(keccak256(abi.encodePacked(
-            bytes1(0xff),
-            address(this),
-            _salt,
-            keccak256(abi.encodePacked(initCode))
-        )))));
+        address target = address(
+            uint160(
+                uint256(
+                    keccak256(
+                        abi.encodePacked(
+                            bytes1(0xff),
+                            address(this),
+                            _salt,
+                            keccak256(abi.encodePacked(initCode))
+                        )
+                    )
+                )
+            )
+        );
 
         assembly {
-            implAddr := create2(callvalue(), add(initCode, 0x20), mload(initCode), _salt)
+            implAddr := create2(
+                callvalue(),
+                add(initCode, 0x20),
+                mload(initCode),
+                _salt
+            )
             if iszero(extcodesize(implAddr)) {
                 revert(0, 0)
             }
@@ -81,6 +94,8 @@ contract D {
 // ====
 // EVMVersion: >=cancun
 // bytecodeFormat: legacy
+// ignore: true
+// comment: Ignored since we can't tell the address of the created contract before its creation
 // ----
 // constructor(), 1 ether ->
 // gas irOptimized: 132974

@@ -8,9 +8,7 @@
           "comment": "emitEvent(uint256): 100 ->; ~ emit Event(address,uint256): #0xe0dd44773F7657b11019062879D65F3D9862460c, 0x64",
           "instance": "C",
           "method": "emitEvent(uint256)",
-          "calldata": [
-            "0x64"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000064",
           "expected": {
             "events": [
               {
@@ -18,9 +16,7 @@
                   "0xfceb437c298f40d64702ac26411b2316e79f3c28ffa60edfc891ad4fc8ab82ca",
                   "0xe0dd44773F7657b11019062879D65F3D9862460c"
                 ],
-                "values": [
-                  "0x64"
-                ]
+                "values": "0x0000000000000000000000000000000000000000000000000000000000000064"
               }
             ],
             "exception": false
@@ -33,6 +29,6 @@
     "C": "event_emit_via_interface.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

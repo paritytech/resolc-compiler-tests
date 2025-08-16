@@ -10,9 +10,7 @@
           "method": "readX()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x03"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000003",
             "exception": false
           }
         },
@@ -23,9 +21,7 @@
           "method": "readA()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x03"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000003",
             "exception": false
           }
         }
@@ -36,6 +32,6 @@
     "A": "fun_read_in_ctor.sol:A"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

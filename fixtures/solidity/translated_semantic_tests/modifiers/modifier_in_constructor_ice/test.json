@@ -20,6 +20,6 @@
     "B": "modifier_in_constructor_ice.sol:B"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

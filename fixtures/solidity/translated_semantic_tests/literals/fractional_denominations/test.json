@@ -10,9 +10,7 @@
           "method": "g()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x59682f00"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000059682f00",
             "exception": false
           }
         },
@@ -23,9 +21,7 @@
           "method": "e()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x14d1120d7b160000"
-            ],
+            "return_data": "0x00000000000000000000000000000000000000000000000014d1120d7b160000",
             "exception": false
           }
         },
@@ -36,9 +32,7 @@
           "method": "m()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x5a"
-            ],
+            "return_data": "0x000000000000000000000000000000000000000000000000000000000000005a",
             "exception": false
           }
         },
@@ -49,9 +43,7 @@
           "method": "h()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x1518"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000001518",
             "exception": false
           }
         },
@@ -62,9 +54,7 @@
           "method": "d()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x01fa40"
-            ],
+            "return_data": "0x000000000000000000000000000000000000000000000000000000000001fa40",
             "exception": false
           }
         },
@@ -75,9 +65,7 @@
           "method": "w()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x0dd7c0"
-            ],
+            "return_data": "0x00000000000000000000000000000000000000000000000000000000000dd7c0",
             "exception": false
           }
         }
@@ -88,6 +76,6 @@
     "C": "fractional_denominations.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

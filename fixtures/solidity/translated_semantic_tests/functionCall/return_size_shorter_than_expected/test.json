@@ -10,9 +10,7 @@
           "method": "test()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x0500"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000500",
             "exception": false
           }
         }
@@ -23,7 +21,7 @@
     "Test": "return_size_shorter_than_expected.sol:Test"
   },
   "modes": [
-    "Y+"
+    "Y-"
   ],
   "required_evm_version": "<=homestead"
 }

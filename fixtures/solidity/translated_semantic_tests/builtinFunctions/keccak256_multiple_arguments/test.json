@@ -8,15 +8,9 @@
           "comment": "foo(uint256,uint256,uint256): 0xa, 0xc, 0xd -> 0xbc740a98aae5923e8f04c9aa798c9ee82f69e319997699f2782c40828db9fd81",
           "instance": "c",
           "method": "foo(uint256,uint256,uint256)",
-          "calldata": [
-            "0x0a",
-            "0x0c",
-            "0x0d"
-          ],
+          "calldata": "0x000000000000000000000000000000000000000000000000000000000000000a000000000000000000000000000000000000000000000000000000000000000c000000000000000000000000000000000000000000000000000000000000000d",
           "expected": {
-            "return_data": [
-              "0xbc740a98aae5923e8f04c9aa798c9ee82f69e319997699f2782c40828db9fd81"
-            ],
+            "return_data": "0xbc740a98aae5923e8f04c9aa798c9ee82f69e319997699f2782c40828db9fd81",
             "exception": false
           }
         }
@@ -27,6 +21,6 @@
     "c": "keccak256_multiple_arguments.sol:c"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

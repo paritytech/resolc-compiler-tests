@@ -8,13 +8,9 @@
           "comment": "supportsInterface(bytes4): left(0x01ffc9a0) -> false",
           "instance": "Homer",
           "method": "supportsInterface(bytes4)",
-          "calldata": [
-            "0x01ffc9a000000000000000000000000000000000000000000000000000000000"
-          ],
+          "calldata": "0x01ffc9a000000000000000000000000000000000000000000000000000000000",
           "expected": {
-            "return_data": [
-              "0x00"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000000",
             "exception": false
           }
         },
@@ -23,13 +19,9 @@
           "comment": "supportsInterface(bytes4): left(0x01ffc9a7) -> true",
           "instance": "Homer",
           "method": "supportsInterface(bytes4)",
-          "calldata": [
-            "0x01ffc9a700000000000000000000000000000000000000000000000000000000"
-          ],
+          "calldata": "0x01ffc9a700000000000000000000000000000000000000000000000000000000",
           "expected": {
-            "return_data": [
-              "0x01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "exception": false
           }
         },
@@ -38,13 +30,9 @@
           "comment": "supportsInterface(bytes4): left(0x73b6b492) -> true",
           "instance": "Homer",
           "method": "supportsInterface(bytes4)",
-          "calldata": [
-            "0x73b6b49200000000000000000000000000000000000000000000000000000000"
-          ],
+          "calldata": "0x73b6b49200000000000000000000000000000000000000000000000000000000",
           "expected": {
-            "return_data": [
-              "0x01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "exception": false
           }
         },
@@ -53,13 +41,9 @@
           "comment": "supportsInterface(bytes4): left(0x70b6b492) -> false",
           "instance": "Homer",
           "method": "supportsInterface(bytes4)",
-          "calldata": [
-            "0x70b6b49200000000000000000000000000000000000000000000000000000000"
-          ],
+          "calldata": "0x70b6b49200000000000000000000000000000000000000000000000000000000",
           "expected": {
-            "return_data": [
-              "0x00"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000000",
             "exception": false
           }
         }
@@ -70,6 +54,6 @@
     "Homer": "homer.sol:Homer"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

@@ -8,10 +8,7 @@
           "comment": "f(uint256[][]): 0x20, 1 -> FAILURE",
           "instance": "C",
           "method": "f(uint256[][])",
-          "calldata": [
-            "0x20",
-            "0x01"
-          ],
+          "calldata": "0x00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000001",
           "expected": {
             "exception": true
           }
@@ -23,7 +20,7 @@
     "C": "calldata_array_dynamic_invalid.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ],
   "required_evm_version": ">=byzantium",
   "compiler_directives": {

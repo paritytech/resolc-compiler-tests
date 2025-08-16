@@ -10,9 +10,7 @@
           "method": "f()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x053866"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000053866",
             "exception": false
           }
         }
@@ -23,6 +21,6 @@
     "test": "inc_dec_operators.sol:test"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

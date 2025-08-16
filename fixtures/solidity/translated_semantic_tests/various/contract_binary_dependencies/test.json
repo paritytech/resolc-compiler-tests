@@ -20,6 +20,6 @@
     "C": "contract_binary_dependencies.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

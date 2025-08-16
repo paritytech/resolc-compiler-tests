@@ -39,9 +39,7 @@
           "method": "exists()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x00"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000000",
             "exception": false
           }
         },
@@ -62,9 +60,7 @@
           "method": "exists()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x00"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000000",
             "exception": false
           }
         },
@@ -103,9 +99,7 @@
           "method": "exists()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "exception": false
           }
         },
@@ -132,9 +126,7 @@
           "comment": "terminate(address): 0x1111111111111111111111111111111111111111 ->",
           "instance": "D",
           "method": "terminate(address)",
-          "calldata": [
-            "0x1111111111111111111111111111111111111111"
-          ],
+          "calldata": "0x0000000000000000000000001111111111111111111111111111111111111111",
           "expected": {
             "exception": false
           }
@@ -164,9 +156,7 @@
           "method": "exists()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "exception": false
           }
         }
@@ -177,7 +167,7 @@
     "D": "selfdestruct_post_cancun_multiple_beneficiaries.sol:D"
   },
   "modes": [
-    "E+"
+    "E-"
   ],
   "required_evm_version": ">=cancun"
 }

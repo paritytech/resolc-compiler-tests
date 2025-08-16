@@ -20,9 +20,7 @@
           "method": "prb_pi()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x2b992de047e1f046"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000002b992de047e1f046",
             "exception": false
           }
         }
@@ -33,6 +31,6 @@
     "test": "ramanujan_pi.sol:test"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

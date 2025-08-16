@@ -10,9 +10,7 @@
           "method": "a()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x1234"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000001234",
             "exception": false
           }
         },
@@ -23,9 +21,7 @@
           "method": "b()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x0f0f"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000f0f",
             "exception": false
           }
         },
@@ -36,9 +32,7 @@
           "method": "c()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0xffff"
-            ],
+            "return_data": "0x000000000000000000000000000000000000000000000000000000000000ffff",
             "exception": false
           }
         },
@@ -47,13 +41,9 @@
           "comment": "x(uint256): 0 -> 4660",
           "instance": "A",
           "method": "x(uint256)",
-          "calldata": [
-            "0x00"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000000",
           "expected": {
-            "return_data": [
-              "0x1234"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000001234",
             "exception": false
           }
         },
@@ -62,13 +52,9 @@
           "comment": "x(uint256): 1 -> 0x0f0f",
           "instance": "A",
           "method": "x(uint256)",
-          "calldata": [
-            "0x01"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000001",
           "expected": {
-            "return_data": [
-              "0x0f0f"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000f0f",
             "exception": false
           }
         },
@@ -77,13 +63,9 @@
           "comment": "x(uint256): 2 -> 0xffff",
           "instance": "A",
           "method": "x(uint256)",
-          "calldata": [
-            "0x02"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000002",
           "expected": {
-            "return_data": [
-              "0xffff"
-            ],
+            "return_data": "0x000000000000000000000000000000000000000000000000000000000000ffff",
             "exception": false
           }
         }
@@ -94,6 +76,6 @@
     "A": "small_types_in_reverse.sol:A"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

@@ -10,9 +10,7 @@
           "method": "test()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0xffffffffffffffffffffffffffffffff"
-            ],
+            "return_data": "0x00000000000000000000000000000000ffffffffffffffffffffffffffffffff",
             "exception": false
           }
         }
@@ -23,6 +21,6 @@
     "Test": "type_conversion_cleanup.sol:Test"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

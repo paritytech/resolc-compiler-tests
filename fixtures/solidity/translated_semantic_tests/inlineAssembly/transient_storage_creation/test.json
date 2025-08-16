@@ -20,7 +20,7 @@
     "C": "transient_storage_creation.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ],
   "required_evm_version": ">=cancun"
 }

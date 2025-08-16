@@ -8,9 +8,7 @@
           "comment": "deposit(bytes32), 18 wei: 0x1234 ->; ~ emit <anonymous>: #0x2012159ca6b6372f102c535a4814d13a00bfc5568ddfd72151364061b00355d1, #0x1234, 0x12",
           "instance": "ClientReceipt",
           "method": "deposit(bytes32)",
-          "calldata": [
-            "0x1234"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000001234",
           "expected": {
             "events": [
               {
@@ -18,9 +16,7 @@
                   "0x2012159ca6b6372f102c535a4814d13a00bfc5568ddfd72151364061b00355d1",
                   "0x1234"
                 ],
-                "values": [
-                  "0x12"
-                ]
+                "values": "0x0000000000000000000000000000000000000000000000000000000000000012"
               }
             ],
             "exception": false
@@ -34,6 +30,6 @@
     "ClientReceipt": "event_anonymous_with_signature_collision.sol:ClientReceipt"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

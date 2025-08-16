@@ -10,9 +10,7 @@
           "method": "f()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x08"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000008",
             "exception": false
           }
         }
@@ -23,6 +21,6 @@
     "test": "exp_operator_const.sol:test"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

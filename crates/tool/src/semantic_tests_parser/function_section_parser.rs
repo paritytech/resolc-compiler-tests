@@ -421,7 +421,7 @@ impl Parse for ArgumentType {
         let mut arg = String::new();
         loop {
             match parser.next_token()? {
-                Some(Token::UnsignedNumber(uint)) => {
+                Some(Token::UnsignedNumber { value: uint, .. }) => {
                     arg.push_str(uint.to_string().as_str());
                 }
                 Some(Token::SignedNumber(signed)) => {
@@ -559,9 +559,35 @@ define_nodes_enum! {
     /// ```
     #[derive(Clone, Debug, PartialEq, Eq, PartialOrd, Ord, Hash)]
     pub enum AlignmentAllowedValue {
-        UnsignedNumber(U256),
+        UnsignedNumber(PaddingAwareUnsignedInt),
         SignedNumber(I256),
         Boolean(Boolean),
+    }
+}
+
+impl AlignmentAllowedValue {
+    pub fn to_bytes(&self) -> Vec<u8> {
+        match self {
+            AlignmentAllowedValue::UnsignedNumber(
+                PaddingAwareUnsignedInt {
+                    value,
+                    leading_zeros,
+                },
+            ) => {
+                let mut buffer = vec![0u8; (leading_zeros / 2) as usize];
+                buffer.extend(value.to_be_bytes_trimmed_vec());
+                buffer
+            }
+            AlignmentAllowedValue::SignedNumber(signed) => {
+                signed.to_be_bytes::<32>().to_vec()
+            }
+            AlignmentAllowedValue::Boolean(Boolean::True(..)) => {
+                U256::ONE.to_be_bytes::<32>().to_vec()
+            }
+            AlignmentAllowedValue::Boolean(Boolean::False(..)) => {
+                U256::ZERO.to_be_bytes::<32>().to_vec()
+            }
+        }
     }
 }
 
@@ -740,7 +766,7 @@ trait Parse: Sized {
 impl Parse for U256 {
     fn parse(parser: &mut Parser<impl AsRef<[u8]>>) -> Result<Self> {
         match parser.next_token() {
-            Ok(Some(Token::UnsignedNumber(value))) => Ok(value),
+            Ok(Some(Token::UnsignedNumber { value, .. })) => Ok(value),
             e => bail!("Can't interpret as a U256 {e:?}"),
         }
     }
@@ -884,6 +910,29 @@ define_nodes_enum! {
 }
 
 type Arrow = (DashToken, GtToken);
+
+#[derive(Clone, Copy, Debug, PartialEq, Eq, PartialOrd, Ord, Hash)]
+pub struct PaddingAwareUnsignedInt {
+    value: U256,
+    leading_zeros: u16,
+}
+
+impl Parse for PaddingAwareUnsignedInt {
+    fn parse(parser: &mut Parser<impl AsRef<[u8]>>) -> Result<Self> {
+        match parser.next_token() {
+            Ok(Some(Token::UnsignedNumber {
+                value,
+                leading_zeros,
+            })) => Ok(Self {
+                value,
+                leading_zeros,
+            }),
+            r => bail!(
+                "Failed to interpret {r:?} as a padding aware unsigned number"
+            ),
+        }
+    }
+}
 
 /// A higher-level syntax tree parser built on top of the token lexer.
 struct Parser<T>(Lexer<T>);
@@ -1078,7 +1127,10 @@ where
                         .is_some() =>
                 {
                     *state_machine =
-                        Some(LexerStateMachine::UnsignedHexNumber(U256::ZERO))
+                        Some(LexerStateMachine::UnsignedHexNumber {
+                            value: U256::ZERO,
+                            leading_zeros: 0,
+                        })
                 }
                 (state_machine @ None, '0'..='9') => {
                     *state_machine =
@@ -1135,7 +1187,10 @@ where
                 }
                 (Some(LexerStateMachine::UnsignedDecimalNumber(number)), _) => {
                     self.rewind_by(1);
-                    return Ok(Some(Token::UnsignedNumber(*number)));
+                    return Ok(Some(Token::UnsignedNumber {
+                        value: *number,
+                        leading_zeros: 0,
+                    }));
                 }
                 // Signed Number state of the state machine
                 (Some(LexerStateMachine::SignedDecimalNumber(number)), _) => {
@@ -1154,16 +1209,32 @@ where
                 }
                 // Hex number state of the state machine
                 (
-                    Some(LexerStateMachine::UnsignedHexNumber(number)),
+                    Some(LexerStateMachine::UnsignedHexNumber {
+                        value: number,
+                        leading_zeros,
+                    }),
                     '0'..='9' | 'a'..='f' | 'A'..='F',
                 ) => {
+                    if next_char == '0' && *number == U256::ZERO {
+                        *leading_zeros += 1
+                    }
+
                     let digit = hex_char_to_t::<U256>(next_char);
                     *number *= U256::from(16);
                     *number += digit;
                 }
-                (Some(LexerStateMachine::UnsignedHexNumber(number)), _) => {
+                (
+                    Some(LexerStateMachine::UnsignedHexNumber {
+                        value,
+                        leading_zeros,
+                    }),
+                    _,
+                ) => {
                     self.rewind_by(1);
-                    return Ok(Some(Token::UnsignedNumber(*number)));
+                    return Ok(Some(Token::UnsignedNumber {
+                        value: *value,
+                        leading_zeros: *leading_zeros,
+                    }));
                 }
                 // Quoted string state of the state machine
                 (
@@ -1216,10 +1287,19 @@ where
             }
         }
         match state_machine {
-            Some(
-                LexerStateMachine::UnsignedDecimalNumber(number)
-                | LexerStateMachine::UnsignedHexNumber(number),
-            ) => Ok(Some(Token::UnsignedNumber(number))),
+            Some(LexerStateMachine::UnsignedDecimalNumber(value)) => {
+                Ok(Some(Token::UnsignedNumber {
+                    value,
+                    leading_zeros: 0,
+                }))
+            }
+            Some(LexerStateMachine::UnsignedHexNumber {
+                value,
+                leading_zeros,
+            }) => Ok(Some(Token::UnsignedNumber {
+                value,
+                leading_zeros,
+            })),
             Some(LexerStateMachine::SignedDecimalNumber(number)) => {
                 let limit = U256::from(1) << 255;
 
@@ -1246,7 +1326,10 @@ where
 enum LexerStateMachine {
     SignedDecimalNumber(U256),
     UnsignedDecimalNumber(U256),
-    UnsignedHexNumber(U256),
+    UnsignedHexNumber {
+        value: U256,
+        leading_zeros: u16,
+    },
     Identifier(String),
     StringLiteral {
         string: String,
@@ -1277,7 +1360,7 @@ enum Token {
     ///
     /// An unsigned number token is any sequence of numbers found in the char
     /// stream.
-    UnsignedNumber(U256),
+    UnsignedNumber { value: U256, leading_zeros: u16 },
 
     /// A signed number token.
     ///
@@ -1311,7 +1394,10 @@ impl Token {
     pub fn new_unsigned_number(
         value: impl TryInto<U256, Error: Debug>,
     ) -> Self {
-        Self::UnsignedNumber(value.try_into().unwrap())
+        Self::UnsignedNumber {
+            value: value.try_into().unwrap(),
+            leading_zeros: 0,
+        }
     }
 
     pub fn new_signed_number(value: impl TryInto<I256, Error: Debug>) -> Self {
@@ -1510,7 +1596,11 @@ mod test {
         let token = lexer.next_token();
 
         // Assert
-        let Ok(Some(Token::UnsignedNumber(address))) = token else {
+        let Ok(Some(Token::UnsignedNumber {
+            value: address,
+            leading_zeros: 0,
+        })) = token
+        else {
             panic!("Lexing address failed")
         };
         let address =

@@ -8,14 +8,9 @@
           "comment": "foo(uint256,uint256): 8, 42 -> 50",
           "instance": "C",
           "method": "foo(uint256,uint256)",
-          "calldata": [
-            "0x08",
-            "0x2a"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000008000000000000000000000000000000000000000000000000000000000000002a",
           "expected": {
-            "return_data": [
-              "0x32"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000032",
             "exception": false
           }
         }
@@ -26,6 +21,6 @@
     "C": "internal_library_function_attached_to_integer.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

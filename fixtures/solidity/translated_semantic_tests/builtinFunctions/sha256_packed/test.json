@@ -8,13 +8,9 @@
           "comment": "f(int256): 4 -> 0x804e0d7003cfd70fc925dc103174d9f898ebb142ecc2a286da1abd22ac2ce3ac",
           "instance": "C",
           "method": "f(int256)",
-          "calldata": [
-            "0x04"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000004",
           "expected": {
-            "return_data": [
-              "0x804e0d7003cfd70fc925dc103174d9f898ebb142ecc2a286da1abd22ac2ce3ac"
-            ],
+            "return_data": "0x804e0d7003cfd70fc925dc103174d9f898ebb142ecc2a286da1abd22ac2ce3ac",
             "exception": false
           }
         },
@@ -23,13 +19,9 @@
           "comment": "f(int256): 5 -> 0xe94921945f9068726c529a290a954f412bcac53184bb41224208a31edbf63cf0",
           "instance": "C",
           "method": "f(int256)",
-          "calldata": [
-            "0x05"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000005",
           "expected": {
-            "return_data": [
-              "0xe94921945f9068726c529a290a954f412bcac53184bb41224208a31edbf63cf0"
-            ],
+            "return_data": "0xe94921945f9068726c529a290a954f412bcac53184bb41224208a31edbf63cf0",
             "exception": false
           }
         },
@@ -38,13 +30,9 @@
           "comment": "f(int256): -1 -> 0xf14def4d07cd185ddd8b10a81b2238326196a38867e6e6adbcc956dc913488c7",
           "instance": "C",
           "method": "f(int256)",
-          "calldata": [
-            "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
-          ],
+          "calldata": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
           "expected": {
-            "return_data": [
-              "0xf14def4d07cd185ddd8b10a81b2238326196a38867e6e6adbcc956dc913488c7"
-            ],
+            "return_data": "0xf14def4d07cd185ddd8b10a81b2238326196a38867e6e6adbcc956dc913488c7",
             "exception": false
           }
         }
@@ -55,6 +43,6 @@
     "C": "sha256_packed.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

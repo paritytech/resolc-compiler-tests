@@ -20,6 +20,6 @@
     "Foo": "constant_variables.sol:Foo"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

@@ -10,9 +10,7 @@
           "method": "f()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0xfe"
-            ],
+            "return_data": "0x00000000000000000000000000000000000000000000000000000000000000fe",
             "exception": false
           },
           "value": "254 wei"
@@ -24,7 +22,7 @@
     "C": "selfbalance.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ],
   "required_evm_version": ">=istanbul"
 }

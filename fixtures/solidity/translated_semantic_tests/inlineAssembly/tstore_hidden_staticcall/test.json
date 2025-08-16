@@ -20,7 +20,7 @@
     "C": "tstore_hidden_staticcall.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ],
   "required_evm_version": ">=cancun"
 }

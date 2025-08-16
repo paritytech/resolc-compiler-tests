@@ -21,9 +21,7 @@
           "method": "s()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "exception": false
           }
         }
@@ -34,6 +32,6 @@
     "Main": "send_zero_ether.sol:Main"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

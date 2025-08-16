@@ -26,6 +26,6 @@
     "c": "byte_array_pop_storage_empty.sol:c"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

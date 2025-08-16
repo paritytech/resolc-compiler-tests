@@ -10,9 +10,7 @@
           "method": "copyExternalStorageArraysOfFunctionType()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "exception": false
           }
         },
@@ -23,9 +21,7 @@
           "method": "copyInternalArrayOfFunctionType()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "exception": false
           }
         }
@@ -36,6 +32,6 @@
     "C": "array_of_function_external_storage_to_storage_dynamic_different_mutability.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

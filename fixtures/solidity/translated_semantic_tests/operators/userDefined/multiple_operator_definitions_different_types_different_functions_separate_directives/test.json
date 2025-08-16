@@ -10,9 +10,7 @@
           "method": "small()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x03"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000003",
             "exception": false
           }
         },
@@ -23,9 +21,7 @@
           "method": "big()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x46"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000046",
             "exception": false
           }
         }
@@ -36,6 +32,6 @@
     "C": "multiple_operator_definitions_different_types_different_functions_separate_directives.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

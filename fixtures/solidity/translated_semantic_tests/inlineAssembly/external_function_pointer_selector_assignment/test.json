@@ -8,13 +8,9 @@
           "comment": "testYul(uint32): 0x12345678 -> 0x12345678",
           "instance": "C",
           "method": "testYul(uint32)",
-          "calldata": [
-            "0x12345678"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000012345678",
           "expected": {
-            "return_data": [
-              "0x12345678"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000012345678",
             "exception": false
           }
         },
@@ -23,13 +19,9 @@
           "comment": "testYul(uint32): 0xABCDEF00 -> 0xABCDEF00",
           "instance": "C",
           "method": "testYul(uint32)",
-          "calldata": [
-            "0xabcdef00"
-          ],
+          "calldata": "0x00000000000000000000000000000000000000000000000000000000abcdef00",
           "expected": {
-            "return_data": [
-              "0xabcdef00"
-            ],
+            "return_data": "0x00000000000000000000000000000000000000000000000000000000abcdef00",
             "exception": false
           }
         }
@@ -40,6 +32,6 @@
     "C": "external_function_pointer_selector_assignment.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

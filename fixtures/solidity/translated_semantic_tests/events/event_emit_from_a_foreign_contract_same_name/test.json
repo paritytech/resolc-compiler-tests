@@ -15,17 +15,13 @@
                 "topics": [
                   "0x002ff0672f372fbe844b353429d4510ea5e43683af134c54f75f789ff57bc0c0"
                 ],
-                "values": [
-                  "0x01"
-                ]
+                "values": "0x0000000000000000000000000000000000000000000000000000000000000001"
               },
               {
                 "topics": [
                   "0x002ff0672f372fbe844b353429d4510ea5e43683af134c54f75f789ff57bc0c0"
                 ],
-                "values": [
-                  "0x02"
-                ]
+                "values": "0x0000000000000000000000000000000000000000000000000000000000000002"
               }
             ],
             "exception": false
@@ -38,6 +34,6 @@
     "D": "event_emit_from_a_foreign_contract_same_name.sol:D"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

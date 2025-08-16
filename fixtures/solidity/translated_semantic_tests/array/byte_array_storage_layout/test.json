@@ -16,9 +16,7 @@
           "method": "test_short()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x0102030405060708090a0b0c0d0e000000000000000000000000000000001e"
-            ],
+            "return_data": "0x000102030405060708090a0b0c0d0e000000000000000000000000000000001e",
             "exception": false
           }
         },
@@ -35,9 +33,7 @@
           "method": "test_long()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x43"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000043",
             "exception": false
           }
         },
@@ -54,9 +50,7 @@
           "method": "test_pop()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x0102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d003c"
-            ],
+            "return_data": "0x000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d003c",
             "exception": false
           }
         },
@@ -73,6 +67,6 @@
     "c": "byte_array_storage_layout.sol:c"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

@@ -10,9 +10,7 @@
           "method": "f()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x08e1bc9bf04000"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000008e1bc9bf04000",
             "exception": false
           }
         },
@@ -23,9 +21,7 @@
           "method": "f()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x08e1bc9bf04000"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000008e1bc9bf04000",
             "exception": false
           }
         },
@@ -36,9 +32,7 @@
           "method": "f()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x08e1bc9bf04000"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000008e1bc9bf04000",
             "exception": false
           }
         }
@@ -49,7 +43,7 @@
     "C": "block_difficulty.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ],
   "required_evm_version": "<paris"
 }

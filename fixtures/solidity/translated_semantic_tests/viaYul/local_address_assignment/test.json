@@ -8,13 +8,9 @@
           "comment": "f(address): 0x1234 -> 0x1234",
           "instance": "C",
           "method": "f(address)",
-          "calldata": [
-            "0x1234"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000001234",
           "expected": {
-            "return_data": [
-              "0x1234"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000001234",
             "exception": false
           }
         }
@@ -25,6 +21,6 @@
     "C": "local_address_assignment.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

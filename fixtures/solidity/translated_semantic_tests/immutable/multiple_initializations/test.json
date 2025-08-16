@@ -10,9 +10,7 @@
           "method": "get()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0xff"
-            ],
+            "return_data": "0x00000000000000000000000000000000000000000000000000000000000000ff",
             "exception": false
           }
         }
@@ -23,6 +21,6 @@
     "C": "multiple_initializations.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

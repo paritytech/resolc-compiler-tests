@@ -10,9 +10,7 @@
           "method": "m_i()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x04"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000004",
             "exception": false
           }
         }
@@ -23,6 +21,6 @@
     "Final": "pass_dynamic_arguments_to_the_base.sol:Final"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

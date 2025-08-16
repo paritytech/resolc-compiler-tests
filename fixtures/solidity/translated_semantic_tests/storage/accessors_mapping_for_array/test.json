@@ -8,14 +8,9 @@
           "comment": "data(uint256,uint256): 2, 2 -> 8",
           "instance": "test",
           "method": "data(uint256,uint256)",
-          "calldata": [
-            "0x02",
-            "0x02"
-          ],
+          "calldata": "0x00000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000002",
           "expected": {
-            "return_data": [
-              "0x08"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000008",
             "exception": false
           }
         },
@@ -24,10 +19,7 @@
           "comment": "data(uint256,uint256): 2, 8 -> FAILURE",
           "instance": "test",
           "method": "data(uint256,uint256)",
-          "calldata": [
-            "0x02",
-            "0x08"
-          ],
+          "calldata": "0x00000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000008",
           "expected": {
             "exception": true
           }
@@ -37,14 +29,9 @@
           "comment": "dynamicData(uint256,uint256): 2, 2 -> 8",
           "instance": "test",
           "method": "dynamicData(uint256,uint256)",
-          "calldata": [
-            "0x02",
-            "0x02"
-          ],
+          "calldata": "0x00000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000002",
           "expected": {
-            "return_data": [
-              "0x08"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000008",
             "exception": false
           }
         },
@@ -53,10 +40,7 @@
           "comment": "dynamicData(uint256,uint256): 2, 8 -> FAILURE",
           "instance": "test",
           "method": "dynamicData(uint256,uint256)",
-          "calldata": [
-            "0x02",
-            "0x08"
-          ],
+          "calldata": "0x00000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000008",
           "expected": {
             "exception": true
           }
@@ -68,6 +52,6 @@
     "test": "accessors_mapping_for_array.sol:test"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

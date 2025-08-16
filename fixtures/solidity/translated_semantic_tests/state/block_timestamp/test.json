@@ -22,9 +22,7 @@
           "method": "f()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0xdeadbeef"
-            ],
+            "return_data": "0x00000000000000000000000000000000000000000000000000000000deadbeef",
             "exception": false
           }
         },
@@ -35,9 +33,7 @@
           "method": "f()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0xdeadbeef"
-            ],
+            "return_data": "0x00000000000000000000000000000000000000000000000000000000deadbeef",
             "exception": false
           }
         }
@@ -48,6 +44,6 @@
     "C": "block_timestamp.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

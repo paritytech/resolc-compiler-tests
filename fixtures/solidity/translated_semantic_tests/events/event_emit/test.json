@@ -8,9 +8,7 @@
           "comment": "deposit(bytes32), 18 wei: 0x1234 ->; ~ emit Deposit(address,bytes32,uint256): #0xFe6032A0810e90D025a3a39dd29844F964ee102c, #0x1234, 0x12",
           "instance": "ClientReceipt",
           "method": "deposit(bytes32)",
-          "calldata": [
-            "0x1234"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000001234",
           "expected": {
             "events": [
               {
@@ -19,9 +17,7 @@
                   "0xFe6032A0810e90D025a3a39dd29844F964ee102c",
                   "0x1234"
                 ],
-                "values": [
-                  "0x12"
-                ]
+                "values": "0x0000000000000000000000000000000000000000000000000000000000000012"
               }
             ],
             "exception": false
@@ -35,6 +31,6 @@
     "ClientReceipt": "event_emit.sol:ClientReceipt"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

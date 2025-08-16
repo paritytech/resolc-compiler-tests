@@ -10,9 +10,7 @@
           "method": "test()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "exception": false
           }
         }
@@ -23,7 +21,7 @@
     "Test": "calldata_1d_array_into_2d_memory_array_element.sol:Test"
   },
   "modes": [
-    "E+"
+    "E-"
   ],
   "required_evm_version": ">homestead"
 }

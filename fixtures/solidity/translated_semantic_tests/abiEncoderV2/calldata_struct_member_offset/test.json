@@ -10,10 +10,7 @@
           "method": "f()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x0b",
-              "0x0b"
-            ],
+            "return_data": "0x000000000000000000000000000000000000000000000000000000000000000b000000000000000000000000000000000000000000000000000000000000000b",
             "exception": false
           }
         }
@@ -24,6 +21,6 @@
     "C": "calldata_struct_member_offset.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

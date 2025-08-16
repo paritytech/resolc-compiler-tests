@@ -20,9 +20,7 @@
           "method": "sender()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x465B409123544BA12315262d11a8274F73846e7D"
-            ],
+            "return_data": "0x0000000000000000000000001212121212121212121212121212120000000012",
             "exception": false
           }
         }
@@ -39,7 +37,7 @@
     }
   },
   "modes": [
-    "E+"
+    "E-"
   ],
   "required_evm_version": ">=homestead"
 }

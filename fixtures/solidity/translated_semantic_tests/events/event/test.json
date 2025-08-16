@@ -8,10 +8,7 @@
           "comment": "deposit(bytes32,bool), 18 wei: 0x1234, true ->; ~ emit Deposit(address,bytes32,uint256): #0xA1bA6FC3eA0E89F0E79f89d9Aa0081d010571E4a, #0x1234, 0x12",
           "instance": "ClientReceipt",
           "method": "deposit(bytes32,bool)",
-          "calldata": [
-            "0x1234",
-            "0x01"
-          ],
+          "calldata": "0x00000000000000000000000000000000000000000000000000000000000012340000000000000000000000000000000000000000000000000000000000000001",
           "expected": {
             "events": [
               {
@@ -20,9 +17,7 @@
                   "0xA1bA6FC3eA0E89F0E79f89d9Aa0081d010571E4a",
                   "0x1234"
                 ],
-                "values": [
-                  "0x12"
-                ]
+                "values": "0x0000000000000000000000000000000000000000000000000000000000000012"
               }
             ],
             "exception": false
@@ -34,10 +29,7 @@
           "comment": "deposit(bytes32,bool), 18 wei: 0x1234, false ->; ~ emit Deposit(address,bytes32,uint256): #0xA1bA6FC3eA0E89F0E79f89d9Aa0081d010571E4a, #0x1234, 0x12",
           "instance": "ClientReceipt",
           "method": "deposit(bytes32,bool)",
-          "calldata": [
-            "0x1234",
-            "0x00"
-          ],
+          "calldata": "0x00000000000000000000000000000000000000000000000000000000000012340000000000000000000000000000000000000000000000000000000000000000",
           "expected": {
             "events": [
               {
@@ -46,9 +38,7 @@
                   "0xA1bA6FC3eA0E89F0E79f89d9Aa0081d010571E4a",
                   "0x1234"
                 ],
-                "values": [
-                  "0x12"
-                ]
+                "values": "0x0000000000000000000000000000000000000000000000000000000000000012"
               }
             ],
             "exception": false
@@ -62,6 +52,6 @@
     "ClientReceipt": "event.sol:ClientReceipt"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

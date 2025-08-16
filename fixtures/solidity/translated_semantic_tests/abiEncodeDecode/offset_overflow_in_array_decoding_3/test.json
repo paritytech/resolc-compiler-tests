@@ -20,6 +20,6 @@
     "Test": "offset_overflow_in_array_decoding_3.sol:Test"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

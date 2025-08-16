@@ -8,13 +8,9 @@
           "comment": "to_string_map(uint256): 42 -> \"24\"",
           "instance": "test",
           "method": "to_string_map(uint256)",
-          "calldata": [
-            "0x2a"
-          ],
+          "calldata": "0x000000000000000000000000000000000000000000000000000000000000002a",
           "expected": {
-            "return_data": [
-              "0x3234000000000000000000000000000000000000000000000000000000000000"
-            ],
+            "return_data": "0x3234000000000000000000000000000000000000000000000000000000000000",
             "exception": false
           }
         },
@@ -23,13 +19,9 @@
           "comment": "to_bool_map(uint256): 42 -> false",
           "instance": "test",
           "method": "to_bool_map(uint256)",
-          "calldata": [
-            "0x2a"
-          ],
+          "calldata": "0x000000000000000000000000000000000000000000000000000000000000002a",
           "expected": {
-            "return_data": [
-              "0x00"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000000",
             "exception": false
           }
         },
@@ -38,13 +30,9 @@
           "comment": "to_uint_map(uint256): 42 -> 12",
           "instance": "test",
           "method": "to_uint_map(uint256)",
-          "calldata": [
-            "0x2a"
-          ],
+          "calldata": "0x000000000000000000000000000000000000000000000000000000000000002a",
           "expected": {
-            "return_data": [
-              "0x0c"
-            ],
+            "return_data": "0x000000000000000000000000000000000000000000000000000000000000000c",
             "exception": false
           }
         },
@@ -53,14 +41,9 @@
           "comment": "to_multiple_map(uint256,uint256): 42, 23 -> 31",
           "instance": "test",
           "method": "to_multiple_map(uint256,uint256)",
-          "calldata": [
-            "0x2a",
-            "0x17"
-          ],
+          "calldata": "0x000000000000000000000000000000000000000000000000000000000000002a0000000000000000000000000000000000000000000000000000000000000017",
           "expected": {
-            "return_data": [
-              "0x1f"
-            ],
+            "return_data": "0x000000000000000000000000000000000000000000000000000000000000001f",
             "exception": false
           }
         }
@@ -71,6 +54,6 @@
     "test": "complex_accessors.sol:test"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

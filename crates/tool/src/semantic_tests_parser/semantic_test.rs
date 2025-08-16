@@ -13,10 +13,11 @@ use std::{
 
 use alloy::{
     hex::{self, ToHexExt},
-    primitives::{Address, B256, FixedBytes, U256, address},
+    primitives::{Address, FixedBytes, U256, address},
 };
 use anyhow::{Context, Result, bail};
 use revive_dt_common::define_wrapper_type;
+use revive_dt_format::input::Calldata;
 
 use super::function_section_parser::*;
 use super::section::*;
@@ -249,7 +250,7 @@ define_wrapper_type! {
     /// Represents a vector of 256 bit values (words) that are used in the IO
     /// of functions and events in the semantic tests.
     #[derive(Clone, Debug, PartialEq, Eq, PartialOrd, Ord, Hash, Default)]
-    pub struct IOValues(Vec<B256>);
+    pub struct IOValues(Vec<u8>);
 }
 
 impl IOValues {
@@ -264,84 +265,50 @@ impl IOValues {
 
         for value in values {
             let bytes = match value {
-                Value::UnsignedNumber(value)
-                | Value::RightAlignedValue(RightAlignedValue {
-                    value: AlignmentAllowedValue::UnsignedNumber(value),
-                    ..
-                }) => value.to_be_bytes_vec(),
-                Value::SignedNumber(value)
-                | Value::RightAlignedValue(RightAlignedValue {
-                    value: AlignmentAllowedValue::SignedNumber(value),
-                    ..
-                }) => value.to_be_bytes::<32>().to_vec(),
-                Value::Boolean(Boolean::True(_))
-                | Value::RightAlignedValue(RightAlignedValue {
-                    value: AlignmentAllowedValue::Boolean(Boolean::True(..)),
-                    ..
-                }) => U256::ONE.to_be_bytes_vec(),
-                Value::Boolean(Boolean::False(..))
-                | Value::RightAlignedValue(RightAlignedValue {
-                    value: AlignmentAllowedValue::Boolean(Boolean::False(..)),
-                    ..
-                }) => U256::ZERO.to_be_bytes_vec(),
+                Value::UnsignedNumber(value) => value.to_be_bytes_vec(),
+                Value::SignedNumber(value) => {
+                    value.to_be_bytes::<32>().to_vec()
+                }
+                Value::Boolean(Boolean::True(_)) => U256::ONE.to_be_bytes_vec(),
+                Value::Boolean(Boolean::False(..)) => {
+                    U256::ZERO.to_be_bytes_vec()
+                }
                 Value::String(value) => {
                     let mut buffer = unescape_string(value.as_str())?;
                     let remainder = buffer.len() % 32;
                     if remainder != 0 {
                         buffer.resize(buffer.len() + (32 - remainder), 0);
                     }
+                    if buffer.is_empty() {
+                        buffer.extend([0; 32])
+                    }
                     buffer
                 }
                 Value::HexString(value) => {
                     hex::decode(value.hex.replace("_", ""))?
                 }
-                Value::LeftAlignedValue(LeftAlignedValue {
-                    value: AlignmentAllowedValue::Boolean(Boolean::True(_)),
-                    ..
-                }) => handle_alignment(U256::ONE, Alignment::Left)
-                    .to_be_bytes_vec(),
-                Value::LeftAlignedValue(LeftAlignedValue {
-                    value: AlignmentAllowedValue::Boolean(Boolean::False(_)),
-                    ..
-                }) => handle_alignment(U256::ZERO, Alignment::Left)
-                    .to_be_bytes_vec(),
-                Value::LeftAlignedValue(LeftAlignedValue {
-                    value: AlignmentAllowedValue::SignedNumber(value),
-                    ..
-                }) => handle_alignment(
-                    U256::from_be_bytes(value.to_be_bytes::<32>()),
-                    Alignment::Left,
-                )
-                .to_be_bytes_vec(),
-                Value::LeftAlignedValue(LeftAlignedValue {
-                    value: AlignmentAllowedValue::UnsignedNumber(value),
-                    ..
-                }) => {
-                    handle_alignment(value, Alignment::Left).to_be_bytes_vec()
+                Value::LeftAlignedValue(LeftAlignedValue { value, .. }) => {
+                    handle_alignment_v2(
+                        value.to_bytes().as_slice(),
+                        Alignment::Left,
+                    )
                 }
+                Value::RightAlignedValue(RightAlignedValue {
+                    value, ..
+                }) => handle_alignment_v2(
+                    value.to_bytes().as_slice(),
+                    Alignment::Right,
+                ),
                 Value::Failure(..) => continue,
             };
             buffer.extend(bytes);
         }
-
-        let remainder = buffer.len() % 32;
-        if remainder != 0 {
-            buffer.resize(buffer.len() + (32 - remainder), 0);
-        }
-
-        Ok(Self(buffer.chunks(32).fold(
-            Vec::new(),
-            |mut vec, chunk| {
-                assert_eq!(chunk.len(), 32);
-                vec.push(B256::from_slice(chunk));
-                vec
-            },
-        )))
+        Ok(Self(buffer))
     }
 
     /// Creates an iterator of hexadecimal strings of the words.
     pub fn hex_strings_iterator(&self) -> impl Iterator<Item = String> {
-        self.as_inner().iter().map(|word| {
+        self.as_inner().chunks(32).map(|word| {
             let mut bytes = word
                 .iter()
                 .skip_while(|value| **value == 0)
@@ -353,6 +320,16 @@ impl IOValues {
 
             format!("0x{}", bytes.encode_hex())
         })
+    }
+}
+
+impl From<IOValues> for Calldata {
+    fn from(value: IOValues) -> Self {
+        if !value.is_empty() {
+            Self::new_single(value.as_inner().clone())
+        } else {
+            Self::Compound(Default::default())
+        }
     }
 }
 
@@ -746,6 +723,27 @@ fn handle_alignment(value: U256, alignment: Alignment) -> U256 {
             let mut result = [0u8; 32];
             result[..compact_bytes.len()].copy_from_slice(&compact_bytes);
             U256::from_be_bytes(result)
+        }
+    }
+}
+
+fn handle_alignment_v2(value: &[u8], alignment: Alignment) -> Vec<u8> {
+    assert!(value.len() <= 32);
+
+    if value.len() == 32 {
+        return value.to_vec();
+    }
+
+    match alignment {
+        Alignment::Left => {
+            let mut buffer = value.to_vec();
+            buffer.resize(32, 0);
+            buffer
+        }
+        Alignment::Right => {
+            let mut buffer = vec![0u8; 32 - value.len()];
+            buffer.extend(value);
+            buffer
         }
     }
 }

@@ -10,9 +10,7 @@
           "method": "secondItem()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x22"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000022",
             "exception": false
           }
         }
@@ -23,6 +21,6 @@
     "C": "internal_library_function_attached_to_dynamic_array.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

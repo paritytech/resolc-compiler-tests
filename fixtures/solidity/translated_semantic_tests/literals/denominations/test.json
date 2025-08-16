@@ -10,9 +10,7 @@
           "method": "f()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x0de0b6b3e2feca01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000de0b6b3e2feca01",
             "exception": false
           }
         }
@@ -23,6 +21,6 @@
     "C": "denominations.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

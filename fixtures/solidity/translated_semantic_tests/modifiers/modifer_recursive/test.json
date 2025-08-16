@@ -10,9 +10,7 @@
           "method": "called()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x00"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000000",
             "exception": false
           }
         },
@@ -21,13 +19,9 @@
           "comment": "f(uint256): 5 -> 0x0100000000",
           "instance": "C",
           "method": "f(uint256)",
-          "calldata": [
-            "0x05"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000005",
           "expected": {
-            "return_data": [
-              "0x0100000000"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000100000000",
             "exception": false
           }
         },
@@ -38,9 +32,7 @@
           "method": "called()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x06"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000006",
             "exception": false
           }
         }
@@ -51,6 +43,6 @@
     "C": "modifer_recursive.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

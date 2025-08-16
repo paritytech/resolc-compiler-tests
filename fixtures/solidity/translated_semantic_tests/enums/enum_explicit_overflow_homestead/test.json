@@ -8,9 +8,7 @@
           "comment": "getChoiceExp(uint256): 3 -> FAILURE",
           "instance": "test",
           "method": "getChoiceExp(uint256)",
-          "calldata": [
-            "0x03"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000003",
           "expected": {
             "exception": true
           }
@@ -20,9 +18,7 @@
           "comment": "getChoiceFromSigned(int256): -1 -> FAILURE",
           "instance": "test",
           "method": "getChoiceFromSigned(int256)",
-          "calldata": [
-            "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
-          ],
+          "calldata": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
           "expected": {
             "exception": true
           }
@@ -42,13 +38,9 @@
           "comment": "getChoiceExp(uint256): 2 -> 2",
           "instance": "test",
           "method": "getChoiceExp(uint256)",
-          "calldata": [
-            "0x02"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000002",
           "expected": {
-            "return_data": [
-              "0x02"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000002",
             "exception": false
           }
         },
@@ -57,13 +49,9 @@
           "comment": "getChoiceExp(uint256): 0 -> 0",
           "instance": "test",
           "method": "getChoiceExp(uint256)",
-          "calldata": [
-            "0x00"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000000",
           "expected": {
-            "return_data": [
-              "0x00"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000000",
             "exception": false
           }
         }
@@ -74,7 +62,7 @@
     "test": "enum_explicit_overflow_homestead.sol:test"
   },
   "modes": [
-    "E+"
+    "E-"
   ],
   "required_evm_version": "<byzantium"
 }

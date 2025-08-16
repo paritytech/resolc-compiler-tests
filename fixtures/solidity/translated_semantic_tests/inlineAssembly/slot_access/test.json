@@ -10,9 +10,7 @@
           "method": "get()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x00"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000000",
             "exception": false
           }
         },
@@ -21,14 +19,9 @@
           "comment": "mappingAccess(uint256): 1 -> 0, 0",
           "instance": "C",
           "method": "mappingAccess(uint256)",
-          "calldata": [
-            "0x01"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000001",
           "expected": {
-            "return_data": [
-              "0x00",
-              "0x00"
-            ],
+            "return_data": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
             "exception": false
           }
         },
@@ -37,9 +30,7 @@
           "comment": "set(uint256): 4",
           "instance": "C",
           "method": "set(uint256)",
-          "calldata": [
-            "0x04"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000004",
           "expected": {
             "exception": false
           }
@@ -51,9 +42,7 @@
           "method": "get()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x04"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000004",
             "exception": false
           }
         },
@@ -62,14 +51,9 @@
           "comment": "mappingAccess(uint256): 1 -> 4, 0",
           "instance": "C",
           "method": "mappingAccess(uint256)",
-          "calldata": [
-            "0x01"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000001",
           "expected": {
-            "return_data": [
-              "0x04",
-              "0x00"
-            ],
+            "return_data": "0x00000000000000000000000000000000000000000000000000000000000000040000000000000000000000000000000000000000000000000000000000000000",
             "exception": false
           }
         }
@@ -80,6 +64,6 @@
     "C": "slot_access.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

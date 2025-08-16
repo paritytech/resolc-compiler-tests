@@ -8,13 +8,9 @@
           "comment": "m(uint256): 1 -> 0",
           "instance": "C",
           "method": "m(uint256)",
-          "calldata": [
-            "0x01"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000001",
           "expected": {
-            "return_data": [
-              "0x00"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000000",
             "exception": false
           }
         },
@@ -23,13 +19,9 @@
           "comment": "m(uint256): 5 -> 20",
           "instance": "C",
           "method": "m(uint256)",
-          "calldata": [
-            "0x05"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000005",
           "expected": {
-            "return_data": [
-              "0x14"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000014",
             "exception": false
           }
         }
@@ -40,6 +32,6 @@
     "C": "mapping_abstract_constructor_param.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

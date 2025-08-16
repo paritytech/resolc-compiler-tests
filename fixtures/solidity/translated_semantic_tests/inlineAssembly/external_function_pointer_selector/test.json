@@ -10,9 +10,7 @@
           "method": "testYul()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0xe16b4a9b"
-            ],
+            "return_data": "0x00000000000000000000000000000000000000000000000000000000e16b4a9b",
             "exception": false
           }
         },
@@ -23,9 +21,7 @@
           "method": "testSol()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0xe16b4a9b"
-            ],
+            "return_data": "0x00000000000000000000000000000000000000000000000000000000e16b4a9b",
             "exception": false
           }
         }
@@ -36,6 +32,6 @@
     "C": "external_function_pointer_selector.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

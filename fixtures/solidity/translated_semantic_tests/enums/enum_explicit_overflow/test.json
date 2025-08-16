@@ -8,13 +8,9 @@
           "comment": "getChoiceExp(uint256): 2 -> 2",
           "instance": "test",
           "method": "getChoiceExp(uint256)",
-          "calldata": [
-            "0x02"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000002",
           "expected": {
-            "return_data": [
-              "0x02"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000002",
             "exception": false
           }
         },
@@ -23,14 +19,9 @@
           "comment": "getChoiceExp(uint256): 3 -> FAILURE, hex\"4e487b71\", 0x21",
           "instance": "test",
           "method": "getChoiceExp(uint256)",
-          "calldata": [
-            "0x03"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000003",
           "expected": {
-            "return_data": [
-              "0x4e487b7100000000000000000000000000000000000000000000000000000000",
-              "0x2100000000000000000000000000000000000000000000000000000000"
-            ],
+            "return_data": "0x4e487b710000000000000000000000000000000000000000000000000000000000000021",
             "exception": true
           }
         },
@@ -39,14 +30,9 @@
           "comment": "getChoiceFromSigned(int256): -1 -> FAILURE, hex\"4e487b71\", 0x21",
           "instance": "test",
           "method": "getChoiceFromSigned(int256)",
-          "calldata": [
-            "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
-          ],
+          "calldata": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
           "expected": {
-            "return_data": [
-              "0x4e487b7100000000000000000000000000000000000000000000000000000000",
-              "0x2100000000000000000000000000000000000000000000000000000000"
-            ],
+            "return_data": "0x4e487b710000000000000000000000000000000000000000000000000000000000000021",
             "exception": true
           }
         },
@@ -57,10 +43,7 @@
           "method": "getChoiceFromMax()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x4e487b7100000000000000000000000000000000000000000000000000000000",
-              "0x2100000000000000000000000000000000000000000000000000000000"
-            ],
+            "return_data": "0x4e487b710000000000000000000000000000000000000000000000000000000000000021",
             "exception": true
           }
         },
@@ -69,13 +52,9 @@
           "comment": "getChoiceExp(uint256): 2 -> 2",
           "instance": "test",
           "method": "getChoiceExp(uint256)",
-          "calldata": [
-            "0x02"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000002",
           "expected": {
-            "return_data": [
-              "0x02"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000002",
             "exception": false
           }
         },
@@ -84,13 +63,9 @@
           "comment": "getChoiceExp(uint256): 0 -> 0",
           "instance": "test",
           "method": "getChoiceExp(uint256)",
-          "calldata": [
-            "0x00"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000000",
           "expected": {
-            "return_data": [
-              "0x00"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000000",
             "exception": false
           }
         }
@@ -101,7 +76,7 @@
     "test": "enum_explicit_overflow.sol:test"
   },
   "modes": [
-    "E+"
+    "E-"
   ],
   "required_evm_version": ">=byzantium"
 }

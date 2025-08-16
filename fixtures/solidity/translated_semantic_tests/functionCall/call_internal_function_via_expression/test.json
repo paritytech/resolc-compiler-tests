@@ -10,9 +10,7 @@
           "method": "associated()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x2a"
-            ],
+            "return_data": "0x000000000000000000000000000000000000000000000000000000000000002a",
             "exception": false
           }
         },
@@ -23,9 +21,7 @@
           "method": "unassociated()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x2a"
-            ],
+            "return_data": "0x000000000000000000000000000000000000000000000000000000000000002a",
             "exception": false
           }
         }
@@ -36,6 +32,6 @@
     "C": "call_internal_function_via_expression.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

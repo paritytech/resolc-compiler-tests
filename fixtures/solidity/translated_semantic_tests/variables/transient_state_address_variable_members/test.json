@@ -20,9 +20,7 @@
           "method": "f()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x200051E1CDeD828E35D62667E717D031aC5607e5"
-            ],
+            "return_data": "0x0000000000000000000000003212121212121212121212121212120000000012",
             "exception": false
           }
         },
@@ -33,9 +31,7 @@
           "method": "g()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x00"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000000",
             "exception": false
           }
         }
@@ -46,7 +42,7 @@
     "C": "transient_state_address_variable_members.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ],
   "required_evm_version": ">=cancun"
 }

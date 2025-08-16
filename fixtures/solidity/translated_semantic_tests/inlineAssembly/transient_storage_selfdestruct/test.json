@@ -40,7 +40,7 @@
     "D": "transient_storage_selfdestruct.sol:D"
   },
   "modes": [
-    "E+"
+    "E-"
   ],
   "required_evm_version": ">=cancun"
 }

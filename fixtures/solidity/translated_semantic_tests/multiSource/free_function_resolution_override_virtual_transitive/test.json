@@ -10,9 +10,7 @@
           "method": "g()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x053b"
-            ],
+            "return_data": "0x000000000000000000000000000000000000000000000000000000000000053b",
             "exception": false
           }
         }
@@ -23,6 +21,6 @@
     "E": "s3.sol:E"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

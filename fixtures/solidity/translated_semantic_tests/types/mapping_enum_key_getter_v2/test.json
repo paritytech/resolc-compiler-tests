@@ -8,13 +8,9 @@
           "comment": "table(uint8): 0 -> 0",
           "instance": "test",
           "method": "table(uint8)",
-          "calldata": [
-            "0x00"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000000",
           "expected": {
-            "return_data": [
-              "0x00"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000000",
             "exception": false
           }
         },
@@ -23,13 +19,9 @@
           "comment": "table(uint8): 0x01 -> 0",
           "instance": "test",
           "method": "table(uint8)",
-          "calldata": [
-            "0x01"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000001",
           "expected": {
-            "return_data": [
-              "0x00"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000000",
             "exception": false
           }
         },
@@ -38,9 +30,7 @@
           "comment": "table(uint8): 0xa7 -> FAILURE",
           "instance": "test",
           "method": "table(uint8)",
-          "calldata": [
-            "0xa7"
-          ],
+          "calldata": "0x00000000000000000000000000000000000000000000000000000000000000a7",
           "expected": {
             "exception": true
           }
@@ -50,13 +40,9 @@
           "comment": "get(uint8): 0 -> 0",
           "instance": "test",
           "method": "get(uint8)",
-          "calldata": [
-            "0x00"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000000",
           "expected": {
-            "return_data": [
-              "0x00"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000000",
             "exception": false
           }
         },
@@ -65,13 +51,9 @@
           "comment": "get(uint8): 0x01 -> 0",
           "instance": "test",
           "method": "get(uint8)",
-          "calldata": [
-            "0x01"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000001",
           "expected": {
-            "return_data": [
-              "0x00"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000000",
             "exception": false
           }
         },
@@ -80,9 +62,7 @@
           "comment": "get(uint8): 0xa7 -> FAILURE",
           "instance": "test",
           "method": "get(uint8)",
-          "calldata": [
-            "0xa7"
-          ],
+          "calldata": "0x00000000000000000000000000000000000000000000000000000000000000a7",
           "expected": {
             "exception": true
           }
@@ -92,10 +72,7 @@
           "comment": "set(uint8,uint8): 0x01, 0xa1 ->",
           "instance": "test",
           "method": "set(uint8,uint8)",
-          "calldata": [
-            "0x01",
-            "0xa1"
-          ],
+          "calldata": "0x000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000a1",
           "expected": {
             "exception": false
           }
@@ -105,13 +82,9 @@
           "comment": "table(uint8): 0 -> 0",
           "instance": "test",
           "method": "table(uint8)",
-          "calldata": [
-            "0x00"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000000",
           "expected": {
-            "return_data": [
-              "0x00"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000000",
             "exception": false
           }
         },
@@ -120,13 +93,9 @@
           "comment": "table(uint8): 0x01 -> 0xa1",
           "instance": "test",
           "method": "table(uint8)",
-          "calldata": [
-            "0x01"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000001",
           "expected": {
-            "return_data": [
-              "0xa1"
-            ],
+            "return_data": "0x00000000000000000000000000000000000000000000000000000000000000a1",
             "exception": false
           }
         },
@@ -135,9 +104,7 @@
           "comment": "table(uint8): 0xa7 -> FAILURE",
           "instance": "test",
           "method": "table(uint8)",
-          "calldata": [
-            "0xa7"
-          ],
+          "calldata": "0x00000000000000000000000000000000000000000000000000000000000000a7",
           "expected": {
             "exception": true
           }
@@ -147,13 +114,9 @@
           "comment": "get(uint8): 0 -> 0",
           "instance": "test",
           "method": "get(uint8)",
-          "calldata": [
-            "0x00"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000000",
           "expected": {
-            "return_data": [
-              "0x00"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000000",
             "exception": false
           }
         },
@@ -162,13 +125,9 @@
           "comment": "get(uint8): 0x01 -> 0xa1",
           "instance": "test",
           "method": "get(uint8)",
-          "calldata": [
-            "0x01"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000001",
           "expected": {
-            "return_data": [
-              "0xa1"
-            ],
+            "return_data": "0x00000000000000000000000000000000000000000000000000000000000000a1",
             "exception": false
           }
         },
@@ -177,9 +136,7 @@
           "comment": "get(uint8): 0xa7 -> FAILURE",
           "instance": "test",
           "method": "get(uint8)",
-          "calldata": [
-            "0xa7"
-          ],
+          "calldata": "0x00000000000000000000000000000000000000000000000000000000000000a7",
           "expected": {
             "exception": true
           }
@@ -189,10 +146,7 @@
           "comment": "set(uint8,uint8): 0x00, 0xef ->",
           "instance": "test",
           "method": "set(uint8,uint8)",
-          "calldata": [
-            "0x00",
-            "0xef"
-          ],
+          "calldata": "0x000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000ef",
           "expected": {
             "exception": false
           }
@@ -202,13 +156,9 @@
           "comment": "table(uint8): 0 -> 0xef",
           "instance": "test",
           "method": "table(uint8)",
-          "calldata": [
-            "0x00"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000000",
           "expected": {
-            "return_data": [
-              "0xef"
-            ],
+            "return_data": "0x00000000000000000000000000000000000000000000000000000000000000ef",
             "exception": false
           }
         },
@@ -217,13 +167,9 @@
           "comment": "table(uint8): 0x01 -> 0xa1",
           "instance": "test",
           "method": "table(uint8)",
-          "calldata": [
-            "0x01"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000001",
           "expected": {
-            "return_data": [
-              "0xa1"
-            ],
+            "return_data": "0x00000000000000000000000000000000000000000000000000000000000000a1",
             "exception": false
           }
         },
@@ -232,9 +178,7 @@
           "comment": "table(uint8): 0xa7 -> FAILURE",
           "instance": "test",
           "method": "table(uint8)",
-          "calldata": [
-            "0xa7"
-          ],
+          "calldata": "0x00000000000000000000000000000000000000000000000000000000000000a7",
           "expected": {
             "exception": true
           }
@@ -244,13 +188,9 @@
           "comment": "get(uint8): 0 -> 0xef",
           "instance": "test",
           "method": "get(uint8)",
-          "calldata": [
-            "0x00"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000000",
           "expected": {
-            "return_data": [
-              "0xef"
-            ],
+            "return_data": "0x00000000000000000000000000000000000000000000000000000000000000ef",
             "exception": false
           }
         },
@@ -259,13 +199,9 @@
           "comment": "get(uint8): 0x01 -> 0xa1",
           "instance": "test",
           "method": "get(uint8)",
-          "calldata": [
-            "0x01"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000001",
           "expected": {
-            "return_data": [
-              "0xa1"
-            ],
+            "return_data": "0x00000000000000000000000000000000000000000000000000000000000000a1",
             "exception": false
           }
         },
@@ -274,9 +210,7 @@
           "comment": "get(uint8): 0xa7 -> FAILURE",
           "instance": "test",
           "method": "get(uint8)",
-          "calldata": [
-            "0xa7"
-          ],
+          "calldata": "0x00000000000000000000000000000000000000000000000000000000000000a7",
           "expected": {
             "exception": true
           }
@@ -286,10 +220,7 @@
           "comment": "set(uint8,uint8): 0x01, 0x05 ->",
           "instance": "test",
           "method": "set(uint8,uint8)",
-          "calldata": [
-            "0x01",
-            "0x05"
-          ],
+          "calldata": "0x00000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000005",
           "expected": {
             "exception": false
           }
@@ -299,13 +230,9 @@
           "comment": "table(uint8): 0 -> 0xef",
           "instance": "test",
           "method": "table(uint8)",
-          "calldata": [
-            "0x00"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000000",
           "expected": {
-            "return_data": [
-              "0xef"
-            ],
+            "return_data": "0x00000000000000000000000000000000000000000000000000000000000000ef",
             "exception": false
           }
         },
@@ -314,13 +241,9 @@
           "comment": "table(uint8): 0x01 -> 0x05",
           "instance": "test",
           "method": "table(uint8)",
-          "calldata": [
-            "0x01"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000001",
           "expected": {
-            "return_data": [
-              "0x05"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000005",
             "exception": false
           }
         },
@@ -329,9 +252,7 @@
           "comment": "table(uint8): 0xa7 -> FAILURE",
           "instance": "test",
           "method": "table(uint8)",
-          "calldata": [
-            "0xa7"
-          ],
+          "calldata": "0x00000000000000000000000000000000000000000000000000000000000000a7",
           "expected": {
             "exception": true
           }
@@ -341,13 +262,9 @@
           "comment": "get(uint8): 0 -> 0xef",
           "instance": "test",
           "method": "get(uint8)",
-          "calldata": [
-            "0x00"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000000",
           "expected": {
-            "return_data": [
-              "0xef"
-            ],
+            "return_data": "0x00000000000000000000000000000000000000000000000000000000000000ef",
             "exception": false
           }
         },
@@ -356,13 +273,9 @@
           "comment": "get(uint8): 0x01 -> 0x05",
           "instance": "test",
           "method": "get(uint8)",
-          "calldata": [
-            "0x01"
-          ],
+          "calldata": "0x0000000000000000000000000000000000000000000000000000000000000001",
           "expected": {
-            "return_data": [
-              "0x05"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000005",
             "exception": false
           }
         },
@@ -371,9 +284,7 @@
           "comment": "get(uint8): 0xa7 -> FAILURE",
           "instance": "test",
           "method": "get(uint8)",
-          "calldata": [
-            "0xa7"
-          ],
+          "calldata": "0x00000000000000000000000000000000000000000000000000000000000000a7",
           "expected": {
             "exception": true
           }
@@ -385,6 +296,6 @@
     "test": "mapping_enum_key_getter_v2.sol:test"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

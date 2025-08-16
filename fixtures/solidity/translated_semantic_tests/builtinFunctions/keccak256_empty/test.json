@@ -10,9 +10,7 @@
           "method": "f()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
-            ],
+            "return_data": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470",
             "exception": false
           }
         }
@@ -23,6 +21,6 @@
     "C": "keccak256_empty.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

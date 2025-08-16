@@ -10,9 +10,7 @@
           "method": "getBMember()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x05"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000005",
             "exception": false
           }
         },
@@ -23,9 +21,7 @@
           "method": "getDMember()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x06"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000006",
             "exception": false
           }
         }
@@ -36,6 +32,6 @@
     "Derived": "inline_member_init_inheritence_without_constructor.sol:Derived"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

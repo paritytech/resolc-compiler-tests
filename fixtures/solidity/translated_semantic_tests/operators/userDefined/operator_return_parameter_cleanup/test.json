@@ -10,10 +10,7 @@
           "method": "testUnary()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0xffff",
-              "0xffff"
-            ],
+            "return_data": "0x000000000000000000000000000000000000000000000000000000000000ffff000000000000000000000000000000000000000000000000000000000000ffff",
             "exception": false
           }
         },
@@ -24,10 +21,7 @@
           "method": "testBinary()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0xffff",
-              "0xffff"
-            ],
+            "return_data": "0x000000000000000000000000000000000000000000000000000000000000ffff000000000000000000000000000000000000000000000000000000000000ffff",
             "exception": false
           }
         }
@@ -38,6 +32,6 @@
     "C": "operator_return_parameter_cleanup.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

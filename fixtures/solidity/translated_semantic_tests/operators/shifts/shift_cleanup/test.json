@@ -10,9 +10,7 @@
           "method": "f()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x00"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000000",
             "exception": false
           }
         }
@@ -23,6 +21,6 @@
     "C": "shift_cleanup.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

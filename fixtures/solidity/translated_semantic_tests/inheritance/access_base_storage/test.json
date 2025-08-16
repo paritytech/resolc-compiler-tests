@@ -8,14 +8,9 @@
           "comment": "setData(uint256,uint256): 1, 2 -> true",
           "instance": "Derived",
           "method": "setData(uint256,uint256)",
-          "calldata": [
-            "0x01",
-            "0x02"
-          ],
+          "calldata": "0x00000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000002",
           "expected": {
-            "return_data": [
-              "0x01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "exception": false
           }
         },
@@ -26,9 +21,7 @@
           "method": "getViaBase()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "exception": false
           }
         },
@@ -39,10 +32,7 @@
           "method": "getViaDerived()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x01",
-              "0x02"
-            ],
+            "return_data": "0x00000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000002",
             "exception": false
           }
         }
@@ -53,6 +43,6 @@
     "Derived": "access_base_storage.sol:Derived"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

@@ -10,11 +10,7 @@
           "method": "f()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x0bbf",
-              "0x0bc0",
-              "0x0bc1"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000bbf0000000000000000000000000000000000000000000000000000000000000bc00000000000000000000000000000000000000000000000000000000000000bc1",
             "exception": false
           },
           "value": "10000000000000000000 wei"
@@ -26,7 +22,7 @@
     "A": "salted_create_with_value.sol:A"
   },
   "modes": [
-    "E+"
+    "E-"
   ],
   "required_evm_version": ">=constantinople"
 }

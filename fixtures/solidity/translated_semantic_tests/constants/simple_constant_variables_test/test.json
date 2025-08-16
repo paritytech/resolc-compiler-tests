@@ -10,9 +10,7 @@
           "method": "getX()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x38"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000038",
             "exception": false
           }
         }
@@ -23,6 +21,6 @@
     "Foo": "simple_constant_variables_test.sol:Foo"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

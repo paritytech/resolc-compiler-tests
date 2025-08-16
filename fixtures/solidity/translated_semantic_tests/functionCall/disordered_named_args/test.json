@@ -10,9 +10,7 @@
           "method": "b()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x7b"
-            ],
+            "return_data": "0x000000000000000000000000000000000000000000000000000000000000007b",
             "exception": false
           }
         }
@@ -23,6 +21,6 @@
     "test": "disordered_named_args.sol:test"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

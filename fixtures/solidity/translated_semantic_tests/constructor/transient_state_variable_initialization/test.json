@@ -10,9 +10,7 @@
           "method": "f()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x64"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000064",
             "exception": false
           }
         }
@@ -23,7 +21,7 @@
     "C": "transient_state_variable_initialization.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ],
   "required_evm_version": ">=cancun"
 }

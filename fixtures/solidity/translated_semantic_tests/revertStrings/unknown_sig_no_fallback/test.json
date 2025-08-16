@@ -8,9 +8,7 @@
           "comment": "(): hex\"00\" -> FAILURE",
           "instance": "A",
           "method": "#fallback",
-          "calldata": [
-            "0x00"
-          ],
+          "calldata": "0x00",
           "expected": {
             "exception": true
           }
@@ -22,7 +20,7 @@
     "A": "unknown_sig_no_fallback.sol:A"
   },
   "modes": [
-    "E+"
+    "E-"
   ],
   "required_evm_version": ">=byzantium",
   "compiler_directives": {

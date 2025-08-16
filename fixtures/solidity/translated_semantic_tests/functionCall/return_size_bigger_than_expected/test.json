@@ -10,9 +10,7 @@
           "method": "test()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x20"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000020",
             "exception": false
           }
         }
@@ -23,6 +21,6 @@
     "Test": "return_size_bigger_than_expected.sol:Test"
   },
   "modes": [
-    "Y+"
+    "Y-"
   ]
 }

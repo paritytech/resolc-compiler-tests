@@ -20,7 +20,7 @@
     "C": "called_contract_has_code.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ],
   "required_evm_version": ">=byzantium",
   "compiler_directives": {

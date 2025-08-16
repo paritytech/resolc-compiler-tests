@@ -8,10 +8,7 @@
           "comment": "n1(uint256,uint256): 42, 64 ->",
           "instance": "C",
           "method": "n1(uint256,uint256)",
-          "calldata": [
-            "0x2a",
-            "0x40"
-          ],
+          "calldata": "0x000000000000000000000000000000000000000000000000000000000000002a0000000000000000000000000000000000000000000000000000000000000040",
           "expected": {
             "exception": false
           }
@@ -21,13 +18,9 @@
           "comment": "map(uint256): 42 -> 64",
           "instance": "C",
           "method": "map(uint256)",
-          "calldata": [
-            "0x2a"
-          ],
+          "calldata": "0x000000000000000000000000000000000000000000000000000000000000002a",
           "expected": {
-            "return_data": [
-              "0x40"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000040",
             "exception": false
           }
         },
@@ -56,13 +49,9 @@
           "comment": "map(uint256): 42 -> 64",
           "instance": "C",
           "method": "map(uint256)",
-          "calldata": [
-            "0x2a"
-          ],
+          "calldata": "0x000000000000000000000000000000000000000000000000000000000000002a",
           "expected": {
-            "return_data": [
-              "0x40"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000040",
             "exception": false
           }
         },
@@ -73,9 +62,7 @@
           "method": "d()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x00"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000000",
             "exception": false
           }
         },
@@ -94,13 +81,9 @@
           "comment": "map(uint256): 42 -> 64",
           "instance": "C",
           "method": "map(uint256)",
-          "calldata": [
-            "0x2a"
-          ],
+          "calldata": "0x000000000000000000000000000000000000000000000000000000000000002a",
           "expected": {
-            "return_data": [
-              "0x40"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000040",
             "exception": false
           }
         }
@@ -111,6 +94,6 @@
     "C": "mappings_array_pop_delete.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

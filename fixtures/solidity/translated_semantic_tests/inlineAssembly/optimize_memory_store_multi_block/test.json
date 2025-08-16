@@ -10,9 +10,7 @@
           "method": "f()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x42"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000042",
             "exception": false
           }
         },
@@ -23,9 +21,7 @@
           "method": "g()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0x01"
-            ],
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "exception": false
           }
         }
@@ -36,6 +32,6 @@
     "C": "optimize_memory_store_multi_block.sol:C"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

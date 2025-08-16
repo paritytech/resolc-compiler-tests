@@ -10,9 +10,7 @@
           "method": "run()",
           "calldata": [],
           "expected": {
-            "return_data": [
-              "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa"
-            ],
+            "return_data": "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa",
             "exception": false
           }
         }
@@ -23,6 +21,6 @@
     "test": "packing_signed_types.sol:test"
   },
   "modes": [
-    "E+"
+    "E-"
   ]
 }

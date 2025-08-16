@@ -4,7 +4,7 @@
       "name": "static_base_function",
       "inputs": [
         {
-          "caller": "0xF0DFC0e20503dCD32309d26ebF6A1E7e7C71dDff",
+          "caller": "0x261a6F67485EA7BEc3eDcD062de737124DFfE4d4",
           "comment": "test() -> true",
           "instance": "C",
           "method": "test()",
@@ -23,6 +23,6 @@
     "C": "static_base_function.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

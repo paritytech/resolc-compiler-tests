@@ -4,7 +4,7 @@
       "name": "constant_access",
       "inputs": [
         {
-          "caller": "0x0877D255B2366631bcEe2815F97c503B01C94ec2",
+          "caller": "0xaAdFE6F009bc4F07504d70E46bC9a748bFe82EFA",
           "comment": "f() -> 2, left(0xabcd), left(0x616263), true, 0x1212121212121212121212121212121212121212",
           "instance": "C",
           "method": "f()",
@@ -27,6 +27,6 @@
     "C": "constant_access.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

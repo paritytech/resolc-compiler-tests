@@ -4,7 +4,7 @@
       "name": "enum_explicit_overflow",
       "inputs": [
         {
-          "caller": "0x84FC0eB1Ef869984A4224A1d11ca84f37E14A94c",
+          "caller": "0x0Cf555f691d7Bab8A429b9e4976D5Def0F51c17c",
           "comment": "getChoiceExp(uint256): 2 -> 2",
           "instance": "test",
           "method": "getChoiceExp(uint256)",
@@ -19,7 +19,7 @@
           }
         },
         {
-          "caller": "0x84FC0eB1Ef869984A4224A1d11ca84f37E14A94c",
+          "caller": "0x0Cf555f691d7Bab8A429b9e4976D5Def0F51c17c",
           "comment": "getChoiceExp(uint256): 3 -> FAILURE, hex\"4e487b71\", 0x21",
           "instance": "test",
           "method": "getChoiceExp(uint256)",
@@ -35,7 +35,7 @@
           }
         },
         {
-          "caller": "0x84FC0eB1Ef869984A4224A1d11ca84f37E14A94c",
+          "caller": "0x0Cf555f691d7Bab8A429b9e4976D5Def0F51c17c",
           "comment": "getChoiceFromSigned(int256): -1 -> FAILURE, hex\"4e487b71\", 0x21",
           "instance": "test",
           "method": "getChoiceFromSigned(int256)",
@@ -51,7 +51,7 @@
           }
         },
         {
-          "caller": "0x84FC0eB1Ef869984A4224A1d11ca84f37E14A94c",
+          "caller": "0x0Cf555f691d7Bab8A429b9e4976D5Def0F51c17c",
           "comment": "getChoiceFromMax() -> FAILURE, hex\"4e487b71\", 0x21",
           "instance": "test",
           "method": "getChoiceFromMax()",
@@ -65,7 +65,7 @@
           }
         },
         {
-          "caller": "0x84FC0eB1Ef869984A4224A1d11ca84f37E14A94c",
+          "caller": "0x0Cf555f691d7Bab8A429b9e4976D5Def0F51c17c",
           "comment": "getChoiceExp(uint256): 2 -> 2",
           "instance": "test",
           "method": "getChoiceExp(uint256)",
@@ -80,7 +80,7 @@
           }
         },
         {
-          "caller": "0x84FC0eB1Ef869984A4224A1d11ca84f37E14A94c",
+          "caller": "0x0Cf555f691d7Bab8A429b9e4976D5Def0F51c17c",
           "comment": "getChoiceExp(uint256): 0 -> 0",
           "instance": "test",
           "method": "getChoiceExp(uint256)",
@@ -101,7 +101,7 @@
     "test": "enum_explicit_overflow.sol:test"
   },
   "modes": [
-    "E"
+    "E+"
   ],
   "required_evm_version": ">=byzantium"
 }

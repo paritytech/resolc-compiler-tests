@@ -4,7 +4,7 @@
       "name": "calldata_array_dynamic_static_in_library",
       "inputs": [
         {
-          "caller": "0xC5dD36466e26300Faa039730035d7CcE2Ba24D2b",
+          "caller": "0xA1399D698975A036666892e08C663f90684B3750",
           "comment": "f(uint256[],uint256[1]): 0x40, 0xff, 1, 0xffff -> 0x40, 0xff, 0x01, 0xffff",
           "instance": "C",
           "method": "f(uint256[],uint256[1])",
@@ -37,7 +37,7 @@
     }
   },
   "modes": [
-    "E"
+    "E+"
   ],
   "required_evm_version": ">homestead"
 }

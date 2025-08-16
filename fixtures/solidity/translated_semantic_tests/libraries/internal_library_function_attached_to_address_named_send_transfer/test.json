@@ -4,7 +4,7 @@
       "name": "internal_library_function_attached_to_address_named_send_transfer",
       "inputs": [
         {
-          "caller": "0x1dA5fCeA86D6CCf9C8182a82cf06d15b0e15Cc30",
+          "caller": "0x7CEB3EB751C4C16dd9dE1f0bb1b5630e6194e78a",
           "comment": "useTransfer(address): 0x111122223333444455556666777788889999aAaa ->",
           "instance": "C",
           "method": "useTransfer(address)",
@@ -16,7 +16,7 @@
           }
         },
         {
-          "caller": "0x1dA5fCeA86D6CCf9C8182a82cf06d15b0e15Cc30",
+          "caller": "0x7CEB3EB751C4C16dd9dE1f0bb1b5630e6194e78a",
           "comment": "useSend(address): 0x111122223333444455556666777788889999aAaa ->",
           "instance": "C",
           "method": "useSend(address)",
@@ -34,6 +34,6 @@
     "C": "internal_library_function_attached_to_address_named_send_transfer.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

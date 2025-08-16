@@ -4,7 +4,7 @@
       "name": "blobhash_shadow_resolution",
       "inputs": [
         {
-          "caller": "0x7954E5343200377CCFcCa355b2D43484565E56F9",
+          "caller": "0xfD646B43e978266CF7A6B845B99b806Fa7d51A34",
           "comment": "f() -> 0x03",
           "instance": "C",
           "method": "f()",
@@ -23,7 +23,7 @@
     "C": "blobhash_shadow_resolution.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ],
   "required_evm_version": ">=cancun"
 }

@@ -23,6 +23,6 @@
     "A": "conditional_multiple.sol:A"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

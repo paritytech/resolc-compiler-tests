@@ -40,6 +40,6 @@
     "C": "ternary_contract_public_function.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

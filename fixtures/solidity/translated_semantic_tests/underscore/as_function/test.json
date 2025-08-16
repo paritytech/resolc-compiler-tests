@@ -4,7 +4,7 @@
       "name": "as_function",
       "inputs": [
         {
-          "caller": "0x4f93A983F802b278a36aF06D6D3e2a8791E40927",
+          "caller": "0xeEfb983b6E144eEaeaca2D6061F3957158451E63",
           "comment": "_() -> 88",
           "instance": "C",
           "method": "_()",
@@ -17,7 +17,7 @@
           }
         },
         {
-          "caller": "0x4f93A983F802b278a36aF06D6D3e2a8791E40927",
+          "caller": "0xeEfb983b6E144eEaeaca2D6061F3957158451E63",
           "comment": "g() -> 88",
           "instance": "C",
           "method": "g()",
@@ -30,7 +30,7 @@
           }
         },
         {
-          "caller": "0x4f93A983F802b278a36aF06D6D3e2a8791E40927",
+          "caller": "0xeEfb983b6E144eEaeaca2D6061F3957158451E63",
           "comment": "h() -> 33",
           "instance": "C",
           "method": "h()",
@@ -49,6 +49,6 @@
     "C": "as_function.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

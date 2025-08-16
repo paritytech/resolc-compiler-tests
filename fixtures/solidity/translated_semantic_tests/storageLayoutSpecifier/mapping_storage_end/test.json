@@ -4,7 +4,7 @@
       "name": "mapping_storage_end",
       "inputs": [
         {
-          "caller": "0x82a92299Bd5924053BFa74b88CcdD781391d0DdB",
+          "caller": "0x8247CDE48C7e7c4f95dfF6647b566a533934D224",
           "comment": "init() ->; gas irOptimized: 22266229; gas legacy: 22447245; gas legacyOptimized: 22310238",
           "instance": "C",
           "method": "init()",
@@ -14,7 +14,7 @@
           }
         },
         {
-          "caller": "0x82a92299Bd5924053BFa74b88CcdD781391d0DdB",
+          "caller": "0x8247CDE48C7e7c4f95dfF6647b566a533934D224",
           "comment": "validate() ->; gas irOptimized: 2279210; gas legacy: 2456223; gas legacyOptimized: 2327216",
           "instance": "C",
           "method": "validate()",
@@ -30,6 +30,6 @@
     "C": "mapping_storage_end.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

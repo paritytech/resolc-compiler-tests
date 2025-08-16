@@ -24,6 +24,6 @@
     "Flow": "struct_with_functions.sol:Flow"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

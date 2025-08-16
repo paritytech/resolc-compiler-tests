@@ -72,6 +72,6 @@
     "C": "storing_invalid_boolean.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

@@ -4,7 +4,7 @@
       "name": "library_enum_as_an_expression",
       "inputs": [
         {
-          "caller": "0x7CEB3EB751C4C16dd9dE1f0bb1b5630e6194e78a",
+          "caller": "0x16fb7667089738A5055e45Bd0B260845Eaedbe44",
           "comment": "f() -> 1",
           "instance": "Tsra",
           "method": "f()",
@@ -23,6 +23,6 @@
     "Tsra": "library_enum_as_an_expression.sol:Tsra"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

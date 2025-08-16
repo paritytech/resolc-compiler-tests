@@ -4,7 +4,7 @@
       "name": "validation_function_type_inside_struct",
       "inputs": [
         {
-          "caller": "0x47956Bc9FbF7547349cdC4e424e89DedD9078EC8",
+          "caller": "0x45bcB0dB74dFF4D7B3BCA6cB14Bf35800CCd3100",
           "comment": "f((function)): \"01234567890123456789abcd\" -> 1",
           "instance": "C",
           "method": "f((function))",
@@ -19,7 +19,7 @@
           }
         },
         {
-          "caller": "0x47956Bc9FbF7547349cdC4e424e89DedD9078EC8",
+          "caller": "0x45bcB0dB74dFF4D7B3BCA6cB14Bf35800CCd3100",
           "comment": "f((function)): \"01234567890123456789abcdX\" -> FAILURE",
           "instance": "C",
           "method": "f((function))",
@@ -31,7 +31,7 @@
           }
         },
         {
-          "caller": "0x47956Bc9FbF7547349cdC4e424e89DedD9078EC8",
+          "caller": "0x45bcB0dB74dFF4D7B3BCA6cB14Bf35800CCd3100",
           "comment": "g((function)): \"01234567890123456789abcd\" -> 2",
           "instance": "C",
           "method": "g((function))",
@@ -46,7 +46,7 @@
           }
         },
         {
-          "caller": "0x47956Bc9FbF7547349cdC4e424e89DedD9078EC8",
+          "caller": "0x45bcB0dB74dFF4D7B3BCA6cB14Bf35800CCd3100",
           "comment": "g((function)): \"01234567890123456789abcdX\" -> 2",
           "instance": "C",
           "method": "g((function))",
@@ -61,7 +61,7 @@
           }
         },
         {
-          "caller": "0x47956Bc9FbF7547349cdC4e424e89DedD9078EC8",
+          "caller": "0x45bcB0dB74dFF4D7B3BCA6cB14Bf35800CCd3100",
           "comment": "h((function)): \"01234567890123456789abcd\" -> 3",
           "instance": "C",
           "method": "h((function))",
@@ -76,7 +76,7 @@
           }
         },
         {
-          "caller": "0x47956Bc9FbF7547349cdC4e424e89DedD9078EC8",
+          "caller": "0x45bcB0dB74dFF4D7B3BCA6cB14Bf35800CCd3100",
           "comment": "h((function)): \"01234567890123456789abcdX\" -> FAILURE",
           "instance": "C",
           "method": "h((function))",
@@ -94,6 +94,6 @@
     "C": "validation_function_type_inside_struct.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

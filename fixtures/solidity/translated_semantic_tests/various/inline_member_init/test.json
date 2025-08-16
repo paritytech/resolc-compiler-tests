@@ -4,7 +4,7 @@
       "name": "inline_member_init",
       "inputs": [
         {
-          "caller": "0x7e5Cca507ed53712A03E29014BD010168F84E84c",
+          "caller": "0xE70203fAd2e2B49EF203cb5dB0F70284F61be74f",
           "comment": "get() -> 5, 6, 8",
           "instance": "test",
           "method": "get()",
@@ -25,6 +25,6 @@
     "test": "inline_member_init.sol:test"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

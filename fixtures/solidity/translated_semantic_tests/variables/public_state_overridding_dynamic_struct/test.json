@@ -4,7 +4,7 @@
       "name": "public_state_overridding_dynamic_struct",
       "inputs": [
         {
-          "caller": "0x85F779802aDFCD601D4D3c113Ece9A07Da03F2C1",
+          "caller": "0xA75B698C5A0Bd2F73f3BEf68b9Fd6e80D1D5329f",
           "comment": "test() -> 0, 64, 0",
           "instance": "X",
           "method": "test()",
@@ -19,7 +19,7 @@
           }
         },
         {
-          "caller": "0x85F779802aDFCD601D4D3c113Ece9A07Da03F2C1",
+          "caller": "0xA75B698C5A0Bd2F73f3BEf68b9Fd6e80D1D5329f",
           "comment": "set() ->",
           "instance": "X",
           "method": "set()",
@@ -29,7 +29,7 @@
           }
         },
         {
-          "caller": "0x85F779802aDFCD601D4D3c113Ece9A07Da03F2C1",
+          "caller": "0xA75B698C5A0Bd2F73f3BEf68b9Fd6e80D1D5329f",
           "comment": "test() -> 2, 0x40, 8, \"statevar\"",
           "instance": "X",
           "method": "test()",
@@ -51,6 +51,6 @@
     "X": "public_state_overridding_dynamic_struct.sol:X"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

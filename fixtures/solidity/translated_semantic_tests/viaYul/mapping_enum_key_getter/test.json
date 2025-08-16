@@ -217,6 +217,6 @@
     "test": "mapping_enum_key_getter.sol:test"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

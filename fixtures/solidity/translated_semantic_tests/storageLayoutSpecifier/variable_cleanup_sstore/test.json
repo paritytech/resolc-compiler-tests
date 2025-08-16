@@ -4,7 +4,7 @@
       "name": "variable_cleanup_sstore",
       "inputs": [
         {
-          "caller": "0xEa7fA5D1A0cC55FFF8548C3c7662B5AB2191Ab6b",
+          "caller": "0x28d06F4684eC6FdCd07d417B8f9B1c74a4E653Cd",
           "comment": "f() -> 0x10, 127, \"ab\"",
           "instance": "C",
           "method": "f()",
@@ -25,6 +25,6 @@
     "C": "variable_cleanup_sstore.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

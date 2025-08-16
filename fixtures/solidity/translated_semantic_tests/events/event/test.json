@@ -62,6 +62,6 @@
     "ClientReceipt": "event.sol:ClientReceipt"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

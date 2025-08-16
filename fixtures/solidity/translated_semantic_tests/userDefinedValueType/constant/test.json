@@ -4,7 +4,7 @@
       "name": "constant",
       "inputs": [
         {
-          "caller": "0xbDf75A1CDF0a3FC4618f3529902a340Db6837160",
+          "caller": "0xC7b45F132228BD62c9c7A81dA099a9f1e292EEb3",
           "comment": "s() -> 165521356710917456517261742455526507355687727119203895813322792776",
           "instance": "C",
           "method": "s()",
@@ -17,7 +17,7 @@
           }
         },
         {
-          "caller": "0xbDf75A1CDF0a3FC4618f3529902a340Db6837160",
+          "caller": "0xC7b45F132228BD62c9c7A81dA099a9f1e292EEb3",
           "comment": "t() -> 165521356710917456517261742455526507355687727119203895813322792776",
           "instance": "C",
           "method": "t()",
@@ -30,7 +30,7 @@
           }
         },
         {
-          "caller": "0xbDf75A1CDF0a3FC4618f3529902a340Db6837160",
+          "caller": "0xC7b45F132228BD62c9c7A81dA099a9f1e292EEb3",
           "comment": "u() -> 165521356710917456517261742455526507355687727119203895813322792776",
           "instance": "C",
           "method": "u()",
@@ -49,6 +49,6 @@
     "C": "constant.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

@@ -4,7 +4,7 @@
       "name": "return_string",
       "inputs": [
         {
-          "caller": "0xa7c8dD79C8A8897A6962B284AD057177E1c261e5",
+          "caller": "0xE0C2a77aaceDF29700288f409fE17be15D08e2Db",
           "comment": "set(string): 0x20, 5, \"Julia\" ->",
           "instance": "Main",
           "method": "set(string)",
@@ -18,7 +18,7 @@
           }
         },
         {
-          "caller": "0xa7c8dD79C8A8897A6962B284AD057177E1c261e5",
+          "caller": "0xE0C2a77aaceDF29700288f409fE17be15D08e2Db",
           "comment": "get1() -> 0x20, 5, \"Julia\"",
           "instance": "Main",
           "method": "get1()",
@@ -33,7 +33,7 @@
           }
         },
         {
-          "caller": "0xa7c8dD79C8A8897A6962B284AD057177E1c261e5",
+          "caller": "0xE0C2a77aaceDF29700288f409fE17be15D08e2Db",
           "comment": "get2() -> 0x20, 5, \"Julia\"",
           "instance": "Main",
           "method": "get2()",
@@ -48,7 +48,7 @@
           }
         },
         {
-          "caller": "0xa7c8dD79C8A8897A6962B284AD057177E1c261e5",
+          "caller": "0xE0C2a77aaceDF29700288f409fE17be15D08e2Db",
           "comment": "s() -> 0x20, 5, \"Julia\"",
           "instance": "Main",
           "method": "s()",
@@ -69,6 +69,6 @@
     "Main": "return_string.sol:Main"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

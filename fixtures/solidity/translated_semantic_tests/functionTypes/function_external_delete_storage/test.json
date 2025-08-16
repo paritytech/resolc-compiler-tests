@@ -144,6 +144,6 @@
     "C": "function_external_delete_storage.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

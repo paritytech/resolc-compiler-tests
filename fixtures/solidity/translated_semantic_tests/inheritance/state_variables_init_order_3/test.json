@@ -4,7 +4,7 @@
       "name": "state_variables_init_order_3",
       "inputs": [
         {
-          "caller": "0x333fe004b28627eA079682F37eB6102657D9b835",
+          "caller": "0xf7f9cd772eC5f509287d08c21c5d97Ec3e4b7CdF",
           "comment": "a() -> 17",
           "instance": "B",
           "method": "a()",
@@ -17,7 +17,7 @@
           }
         },
         {
-          "caller": "0x333fe004b28627eA079682F37eB6102657D9b835",
+          "caller": "0xf7f9cd772eC5f509287d08c21c5d97Ec3e4b7CdF",
           "comment": "b() -> 42",
           "instance": "B",
           "method": "b()",
@@ -30,7 +30,7 @@
           }
         },
         {
-          "caller": "0x333fe004b28627eA079682F37eB6102657D9b835",
+          "caller": "0xf7f9cd772eC5f509287d08c21c5d97Ec3e4b7CdF",
           "comment": "c() -> 51",
           "instance": "B",
           "method": "c()",
@@ -43,7 +43,7 @@
           }
         },
         {
-          "caller": "0x333fe004b28627eA079682F37eB6102657D9b835",
+          "caller": "0xf7f9cd772eC5f509287d08c21c5d97Ec3e4b7CdF",
           "comment": "b_a() -> 17",
           "instance": "B",
           "method": "b_a()",
@@ -56,7 +56,7 @@
           }
         },
         {
-          "caller": "0x333fe004b28627eA079682F37eB6102657D9b835",
+          "caller": "0xf7f9cd772eC5f509287d08c21c5d97Ec3e4b7CdF",
           "comment": "b_b() -> 42",
           "instance": "B",
           "method": "b_b()",
@@ -69,7 +69,7 @@
           }
         },
         {
-          "caller": "0x333fe004b28627eA079682F37eB6102657D9b835",
+          "caller": "0xf7f9cd772eC5f509287d08c21c5d97Ec3e4b7CdF",
           "comment": "b_c() -> 51",
           "instance": "B",
           "method": "b_c()",
@@ -82,7 +82,7 @@
           }
         },
         {
-          "caller": "0x333fe004b28627eA079682F37eB6102657D9b835",
+          "caller": "0xf7f9cd772eC5f509287d08c21c5d97Ec3e4b7CdF",
           "comment": "d() -> 23",
           "instance": "B",
           "method": "d()",
@@ -95,7 +95,7 @@
           }
         },
         {
-          "caller": "0x333fe004b28627eA079682F37eB6102657D9b835",
+          "caller": "0xf7f9cd772eC5f509287d08c21c5d97Ec3e4b7CdF",
           "comment": "e() -> 42",
           "instance": "B",
           "method": "e()",
@@ -114,6 +114,6 @@
     "B": "state_variables_init_order_3.sol:B"
   },
   "modes": [
-    "Y"
+    "Y+"
   ]
 }

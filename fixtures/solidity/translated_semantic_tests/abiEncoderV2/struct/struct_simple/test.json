@@ -4,7 +4,7 @@
       "name": "struct_simple",
       "inputs": [
         {
-          "caller": "0x45bcB0dB74dFF4D7B3BCA6cB14Bf35800CCd3100",
+          "caller": "0x4c79e69199EB7F2BC0b904eeacd16C6785dc64d7",
           "comment": "f((uint256,uint8,uint8,bytes2)): 1, 2, 3, \"ab\" -> 1, 2, 3, 0x6162",
           "instance": "C",
           "method": "f((uint256,uint8,uint8,bytes2))",
@@ -31,6 +31,6 @@
     "C": "struct_simple.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

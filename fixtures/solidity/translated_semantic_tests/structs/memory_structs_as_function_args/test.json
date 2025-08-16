@@ -4,7 +4,7 @@
       "name": "memory_structs_as_function_args",
       "inputs": [
         {
-          "caller": "0x46FA34F88b8612006f78F4655aeFa624DdD93e19",
+          "caller": "0x8161599edD4670c63D8344e7f63011A0eC284777",
           "comment": "test() -> 1, 2, 3",
           "instance": "Test",
           "method": "test()",
@@ -25,6 +25,6 @@
     "Test": "memory_structs_as_function_args.sol:Test"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

@@ -6,7 +6,7 @@
       "name": "create_random",
       "inputs": [
         {
-          "caller": "0x8A88439D1Ebd21Fd6a5897Cc7110209895FEC0c4",
+          "caller": "0x22d006EB22FE74f4304154Ea8F9d2eCc78cC746A",
           "comment": "addr() -> 0xc06afe3a8444fc0004668591e8306bfb9968e79e",
           "instance": "C",
           "method": "addr()",
@@ -19,7 +19,7 @@
           }
         },
         {
-          "caller": "0x8A88439D1Ebd21Fd6a5897Cc7110209895FEC0c4",
+          "caller": "0x22d006EB22FE74f4304154Ea8F9d2eCc78cC746A",
           "comment": "testRunner() -> 0x137aa4dfc0911524504fcd4d98501f179bc13b4a, 0x2c1c30623ddd93e0b765a6caaca0c859eeb0644d",
           "instance": "C",
           "method": "testRunner()",
@@ -33,7 +33,7 @@
           }
         },
         {
-          "caller": "0x8A88439D1Ebd21Fd6a5897Cc7110209895FEC0c4",
+          "caller": "0x22d006EB22FE74f4304154Ea8F9d2eCc78cC746A",
           "comment": "testCalc() -> 0x137aa4dfc0911524504fcd4d98501f179bc13b4a, 0x2c1c30623ddd93e0b765a6caaca0c859eeb0644d",
           "instance": "C",
           "method": "testCalc()",
@@ -53,7 +53,7 @@
     "C": "create_random.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ],
   "required_evm_version": ">=constantinople"
 }

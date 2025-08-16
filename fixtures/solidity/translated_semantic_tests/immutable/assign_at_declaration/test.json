@@ -4,7 +4,7 @@
       "name": "assign_at_declaration",
       "inputs": [
         {
-          "caller": "0xA45EcC04F9209637ccC7Ed92eC9FE6F49E94EC05",
+          "caller": "0xDdD219e55B852f549887aDd87ebA06594cF04936",
           "comment": "f() -> 2",
           "instance": "A",
           "method": "f()",
@@ -23,6 +23,6 @@
     "A": "assign_at_declaration.sol:A"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

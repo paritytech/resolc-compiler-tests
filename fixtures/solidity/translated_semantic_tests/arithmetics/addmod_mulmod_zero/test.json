@@ -55,6 +55,6 @@
     "C": "addmod_mulmod_zero.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

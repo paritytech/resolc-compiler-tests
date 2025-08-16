@@ -4,7 +4,7 @@
       "name": "empty_calldata_calls_receive",
       "inputs": [
         {
-          "caller": "0x778eC180D7286B8fea84a2d42429965F35ec16F6",
+          "caller": "0x72CC6F96d909555A93946eA5927717b7553C093d",
           "comment": "x() -> 0",
           "instance": "A",
           "method": "x()",
@@ -17,7 +17,7 @@
           }
         },
         {
-          "caller": "0x778eC180D7286B8fea84a2d42429965F35ec16F6",
+          "caller": "0x72CC6F96d909555A93946eA5927717b7553C093d",
           "comment": "()",
           "instance": "A",
           "method": "#fallback",
@@ -27,7 +27,7 @@
           }
         },
         {
-          "caller": "0x778eC180D7286B8fea84a2d42429965F35ec16F6",
+          "caller": "0x72CC6F96d909555A93946eA5927717b7553C093d",
           "comment": "x() -> 1",
           "instance": "A",
           "method": "x()",
@@ -40,7 +40,7 @@
           }
         },
         {
-          "caller": "0x778eC180D7286B8fea84a2d42429965F35ec16F6",
+          "caller": "0x72CC6F96d909555A93946eA5927717b7553C093d",
           "comment": "(), 1 wei",
           "instance": "A",
           "method": "#fallback",
@@ -51,7 +51,7 @@
           "value": "1 wei"
         },
         {
-          "caller": "0x778eC180D7286B8fea84a2d42429965F35ec16F6",
+          "caller": "0x72CC6F96d909555A93946eA5927717b7553C093d",
           "comment": "x() -> 2",
           "instance": "A",
           "method": "x()",
@@ -64,7 +64,7 @@
           }
         },
         {
-          "caller": "0x778eC180D7286B8fea84a2d42429965F35ec16F6",
+          "caller": "0x72CC6F96d909555A93946eA5927717b7553C093d",
           "comment": "x(), 1 wei -> FAILURE",
           "instance": "A",
           "method": "x()",
@@ -75,7 +75,7 @@
           "value": "1 wei"
         },
         {
-          "caller": "0x778eC180D7286B8fea84a2d42429965F35ec16F6",
+          "caller": "0x72CC6F96d909555A93946eA5927717b7553C093d",
           "comment": "(): hex\"00\" -> FAILURE",
           "instance": "A",
           "method": "#fallback",
@@ -87,7 +87,7 @@
           }
         },
         {
-          "caller": "0x778eC180D7286B8fea84a2d42429965F35ec16F6",
+          "caller": "0x72CC6F96d909555A93946eA5927717b7553C093d",
           "comment": "(), 1 ether: hex\"00\" -> FAILURE",
           "instance": "A",
           "method": "#fallback",
@@ -106,6 +106,6 @@
     "A": "empty_calldata_calls_receive.sol:A"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

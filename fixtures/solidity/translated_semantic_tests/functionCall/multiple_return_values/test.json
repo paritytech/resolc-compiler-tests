@@ -4,7 +4,7 @@
       "name": "multiple_return_values",
       "inputs": [
         {
-          "caller": "0x022c53567A99D26aAbDd033B4Efef258ED6DD76A",
+          "caller": "0x53542ceC3E0568A88fDfe48fD94dF8d31426c84A",
           "comment": "run(bool,uint256): true, 0xcd -> 0xcd, true, 0",
           "instance": "test",
           "method": "run(bool,uint256)",
@@ -28,6 +28,6 @@
     "test": "multiple_return_values.sol:test"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

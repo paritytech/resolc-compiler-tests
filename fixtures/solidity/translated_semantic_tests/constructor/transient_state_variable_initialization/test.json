@@ -23,7 +23,7 @@
     "C": "transient_state_variable_initialization.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ],
   "required_evm_version": ">=cancun"
 }

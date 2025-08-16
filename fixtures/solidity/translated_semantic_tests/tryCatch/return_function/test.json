@@ -4,7 +4,7 @@
       "name": "return_function",
       "inputs": [
         {
-          "caller": "0xa78Cac12f68179fd780Ae347F8D4F170FC615D0C",
+          "caller": "0x5935897A39AFABbedA5a599D38236E7Df151C8b8",
           "comment": "f() -> 0x1, 0x1234946644cd0000000000000000, 9",
           "instance": "C",
           "method": "f()",
@@ -25,6 +25,6 @@
     "C": "return_function.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

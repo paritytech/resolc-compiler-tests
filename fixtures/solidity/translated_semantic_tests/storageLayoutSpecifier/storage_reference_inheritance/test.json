@@ -4,7 +4,7 @@
       "name": "storage_reference_inheritance",
       "inputs": [
         {
-          "caller": "0x6a87Bfd9876Bdbc2ab8E9Ad19bf8692DEe529e2D",
+          "caller": "0x938Bd27F94001Ef308051b25b725aD84Be6cCeC3",
           "comment": "InitUsingReference() ->",
           "instance": "C",
           "method": "InitUsingReference()",
@@ -14,7 +14,7 @@
           }
         },
         {
-          "caller": "0x6a87Bfd9876Bdbc2ab8E9Ad19bf8692DEe529e2D",
+          "caller": "0x938Bd27F94001Ef308051b25b725aD84Be6cCeC3",
           "comment": "s() -> 2, true",
           "instance": "C",
           "method": "s()",
@@ -34,6 +34,6 @@
     "C": "storage_reference_inheritance.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

@@ -4,7 +4,7 @@
       "name": "ripemd160_empty",
       "inputs": [
         {
-          "caller": "0x4c44377F452c5CA87766Aee2682FE14C35D12aE8",
+          "caller": "0xf40e6608698c15fD1fDFA5da87E21569230b6Ef8",
           "comment": "f() -> 0x9c1185a5c5e9fc54612808977ee8f548b2258d31000000000000000000000000",
           "instance": "C",
           "method": "f()",
@@ -23,6 +23,6 @@
     "C": "ripemd160_empty.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

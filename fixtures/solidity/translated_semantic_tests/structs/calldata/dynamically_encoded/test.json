@@ -4,7 +4,7 @@
       "name": "dynamically_encoded",
       "inputs": [
         {
-          "caller": "0xEB4160c9853A33a9d428Eb260c3397E6aCc2FF0e",
+          "caller": "0x0c2aD6ef709d998Bc78AE1F469AfFb34E12c672f",
           "comment": "f((uint256[])): 32, 32, 2, 42, 23 -> 2, 42, 23",
           "instance": "C",
           "method": "f((uint256[]))",
@@ -31,6 +31,6 @@
     "C": "dynamically_encoded.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

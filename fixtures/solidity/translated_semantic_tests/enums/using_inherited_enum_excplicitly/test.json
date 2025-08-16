@@ -4,7 +4,7 @@
       "name": "using_inherited_enum_excplicitly",
       "inputs": [
         {
-          "caller": "0x4422CdAe0a300B8C8d77990DFD72eaCda0Cc3A1D",
+          "caller": "0x4060fB7bA353f413678Be88fc55099Cc499400b5",
           "comment": "answer() -> 1",
           "instance": "test",
           "method": "answer()",
@@ -23,6 +23,6 @@
     "test": "using_inherited_enum_excplicitly.sol:test"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

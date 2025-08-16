@@ -4,7 +4,7 @@
       "name": "iszero_bnot_correct",
       "inputs": [
         {
-          "caller": "0x3dEf9546348813cCaAE524E1a5d5cf47F5a1526D",
+          "caller": "0x1934c9b2AAFd1D902987951858584F80bf2CE77f",
           "comment": "f() -> true",
           "instance": "C",
           "method": "f()",
@@ -23,6 +23,6 @@
     "C": "iszero_bnot_correct.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

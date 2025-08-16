@@ -110,6 +110,6 @@
     "ClientReceipt": "events_with_same_name.sol:ClientReceipt"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

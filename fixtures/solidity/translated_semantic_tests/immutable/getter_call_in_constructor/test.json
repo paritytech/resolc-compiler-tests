@@ -4,7 +4,7 @@
       "name": "getter_call_in_constructor",
       "inputs": [
         {
-          "caller": "0x9ee726AaaC8D6D14E9e7af08EFC0CDB7439AA03b",
+          "caller": "0x5d86168a3Be9498F73Ac870d9Df4E973460519be",
           "comment": "f() -> true",
           "instance": "C",
           "method": "f()",
@@ -23,7 +23,7 @@
     "C": "getter_call_in_constructor.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ],
   "required_evm_version": ">=tangerineWhistle"
 }

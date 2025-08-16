@@ -40,6 +40,6 @@
     "test": "conditional_expression_functions.sol:test"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

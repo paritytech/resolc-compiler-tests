@@ -4,7 +4,7 @@
       "name": "inline_assembly_for2",
       "inputs": [
         {
-          "caller": "0xdF89A440951CcFD3ae0Ba66852d236e7E31Dac8d",
+          "caller": "0x8702e3BD1Aba78bE78a406E6910e29d188e424d4",
           "comment": "f(uint256): 0 -> 0, 2, 0",
           "instance": "C",
           "method": "f(uint256)",
@@ -21,7 +21,7 @@
           }
         },
         {
-          "caller": "0xdF89A440951CcFD3ae0Ba66852d236e7E31Dac8d",
+          "caller": "0x8702e3BD1Aba78bE78a406E6910e29d188e424d4",
           "comment": "f(uint256): 1 -> 1, 4, 3",
           "instance": "C",
           "method": "f(uint256)",
@@ -38,7 +38,7 @@
           }
         },
         {
-          "caller": "0xdF89A440951CcFD3ae0Ba66852d236e7E31Dac8d",
+          "caller": "0x8702e3BD1Aba78bE78a406E6910e29d188e424d4",
           "comment": "f(uint256): 2 -> 0, 2, 0",
           "instance": "C",
           "method": "f(uint256)",
@@ -61,6 +61,6 @@
     "C": "inline_assembly_for2.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

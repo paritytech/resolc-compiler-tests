@@ -4,7 +4,7 @@
       "name": "easy",
       "inputs": [
         {
-          "caller": "0x7CfEbeD7665a7855B4CE93aB20AD37eb2FDb34e8",
+          "caller": "0xF42d3AefC6849F32C978299807542b24fe1E461F",
           "comment": "f(uint256): 7 -> 9",
           "instance": "C",
           "method": "f(uint256)",
@@ -25,6 +25,6 @@
     "C": "easy.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

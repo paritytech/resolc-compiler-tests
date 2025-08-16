@@ -4,7 +4,7 @@
       "name": "global",
       "inputs": [
         {
-          "caller": "0xA01d610D149aD88d913b30e80e9B9aBdff44e348",
+          "caller": "0x6080C5126E2f65F1510245cBa0DaA9E562F81a7b",
           "comment": "f((uint256,uint256)): 42, 23 -> 42, 23",
           "instance": "C",
           "method": "f((uint256,uint256))",
@@ -27,6 +27,6 @@
     "C": "global.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

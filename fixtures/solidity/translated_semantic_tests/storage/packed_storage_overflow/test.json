@@ -4,7 +4,7 @@
       "name": "packed_storage_overflow",
       "inputs": [
         {
-          "caller": "0xdfdb0AAf163786d22cbAaf7F4Bfa72D246dEDd04",
+          "caller": "0xbEc5c09999375F60f91633a30bfED85440B10496",
           "comment": "f() -> 0x1234, 0x0, 0x0, 0xfffe",
           "instance": "C",
           "method": "f()",
@@ -26,6 +26,6 @@
     "C": "packed_storage_overflow.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

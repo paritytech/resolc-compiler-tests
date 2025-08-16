@@ -4,7 +4,7 @@
       "name": "calldata_array_short",
       "inputs": [
         {
-          "caller": "0x300D76C7145753f6f2515f150F39a14A6f198F7F",
+          "caller": "0xC8302bF72b8DED4f64E4c37119999f1e4409E449",
           "comment": "f(uint256[]): 0x20, 0 ->",
           "instance": "C",
           "method": "f(uint256[])",
@@ -17,7 +17,7 @@
           }
         },
         {
-          "caller": "0x300D76C7145753f6f2515f150F39a14A6f198F7F",
+          "caller": "0xC8302bF72b8DED4f64E4c37119999f1e4409E449",
           "comment": "f(uint256[]): 0x20, 1 -> FAILURE",
           "instance": "C",
           "method": "f(uint256[])",
@@ -30,7 +30,7 @@
           }
         },
         {
-          "caller": "0x300D76C7145753f6f2515f150F39a14A6f198F7F",
+          "caller": "0xC8302bF72b8DED4f64E4c37119999f1e4409E449",
           "comment": "f(uint256[]): 0x20, 2 -> FAILURE",
           "instance": "C",
           "method": "f(uint256[])",
@@ -49,7 +49,7 @@
     "C": "calldata_array_short.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ],
   "compiler_directives": {
     "revert_string_handling": "debug"

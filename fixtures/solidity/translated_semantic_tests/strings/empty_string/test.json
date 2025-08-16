@@ -4,7 +4,7 @@
       "name": "empty_string",
       "inputs": [
         {
-          "caller": "0x7000eA6EfAbc779Cf51d5cDF2a58Cf3F99002660",
+          "caller": "0x160D42a1D559CFC8dCCecD2d6aa73002eA4cA10e",
           "comment": "f() -> 0x20, 0",
           "instance": "C",
           "method": "f()",
@@ -24,6 +24,6 @@
     "C": "empty_string.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

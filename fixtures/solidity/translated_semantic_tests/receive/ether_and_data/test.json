@@ -4,7 +4,7 @@
       "name": "ether_and_data",
       "inputs": [
         {
-          "caller": "0x0FC4530b8F6FE6e6a73453CDE827b9C695a3ebe5",
+          "caller": "0xccb867018e70cB887EBaEba28EEd0B1CFB53c14d",
           "comment": "(), 1 ether",
           "instance": "C",
           "method": "#fallback",
@@ -15,7 +15,7 @@
           "value": "1000000000000000000 wei"
         },
         {
-          "caller": "0x0FC4530b8F6FE6e6a73453CDE827b9C695a3ebe5",
+          "caller": "0xccb867018e70cB887EBaEba28EEd0B1CFB53c14d",
           "comment": "(), 1 ether: 1 -> FAILURE",
           "instance": "C",
           "method": "#fallback",
@@ -34,6 +34,6 @@
     "C": "ether_and_data.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

@@ -4,7 +4,7 @@
       "name": "selfbalance",
       "inputs": [
         {
-          "caller": "0xa1C0197B3484B72dCF45D8ACB9FEd02bB85AEaa1",
+          "caller": "0xA24dB7adA30324bCe2436Aaaba8511bfB729E3Da",
           "comment": "f(), 254 wei -> 254",
           "instance": "C",
           "method": "f()",
@@ -24,7 +24,7 @@
     "C": "selfbalance.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ],
   "required_evm_version": ">=istanbul"
 }

@@ -23,6 +23,6 @@
     "C": "explicit_cast_assignment.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

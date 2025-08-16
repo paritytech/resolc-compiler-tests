@@ -4,7 +4,7 @@
       "name": "external_call_dynamic_returndata",
       "inputs": [
         {
-          "caller": "0x68fF675590844734C4f5284A1A4d47DE69Bc8Cb3",
+          "caller": "0x6B8D7d626e89F6D88B69f61391d40308130D3223",
           "comment": "dt(uint256): 4 -> 6",
           "instance": "C",
           "method": "dt(uint256)",
@@ -25,7 +25,7 @@
     "C": "external_call_dynamic_returndata.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ],
   "required_evm_version": ">=byzantium"
 }

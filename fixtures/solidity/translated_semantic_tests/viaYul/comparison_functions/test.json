@@ -40,6 +40,6 @@
     "C": "comparison_functions.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

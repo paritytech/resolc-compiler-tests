@@ -4,7 +4,7 @@
       "name": "free_function_braces",
       "inputs": [
         {
-          "caller": "0x2Fe88f86d9F5Ed0536756BCFB318Bc8AAa014918",
+          "caller": "0x91476fB245cc778c81220850A0D1bBB984Dd2037",
           "comment": "f(uint256): 10 -> 10",
           "instance": "C",
           "method": "f(uint256)",
@@ -19,7 +19,7 @@
           }
         },
         {
-          "caller": "0x2Fe88f86d9F5Ed0536756BCFB318Bc8AAa014918",
+          "caller": "0x91476fB245cc778c81220850A0D1bBB984Dd2037",
           "comment": "g(uint256): 10 -> 0",
           "instance": "C",
           "method": "g(uint256)",
@@ -34,7 +34,7 @@
           }
         },
         {
-          "caller": "0x2Fe88f86d9F5Ed0536756BCFB318Bc8AAa014918",
+          "caller": "0x91476fB245cc778c81220850A0D1bBB984Dd2037",
           "comment": "f(uint256): 256 -> 0x0100",
           "instance": "C",
           "method": "f(uint256)",
@@ -49,7 +49,7 @@
           }
         },
         {
-          "caller": "0x2Fe88f86d9F5Ed0536756BCFB318Bc8AAa014918",
+          "caller": "0x91476fB245cc778c81220850A0D1bBB984Dd2037",
           "comment": "g(uint256): 256 -> 0",
           "instance": "C",
           "method": "g(uint256)",
@@ -70,6 +70,6 @@
     "C": "free_function_braces.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

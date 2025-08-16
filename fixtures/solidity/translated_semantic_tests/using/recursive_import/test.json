@@ -4,7 +4,7 @@
       "name": "recursive_import",
       "inputs": [
         {
-          "caller": "0xD5D77E97DfdA703feCfBCdFc1Fa85Ae696c2E818",
+          "caller": "0x42bA888683427589Be5633b0c97954A1e1665548",
           "comment": "f() -> 11",
           "instance": "C",
           "method": "f()",
@@ -23,6 +23,6 @@
     "C": "B.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

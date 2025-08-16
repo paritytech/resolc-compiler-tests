@@ -54,6 +54,6 @@
     "B": "via_contract_type.sol:B"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

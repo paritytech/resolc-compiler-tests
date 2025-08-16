@@ -4,7 +4,7 @@
       "name": "bytes_concat_empty_argument_list",
       "inputs": [
         {
-          "caller": "0x524e6c87251132Fc449ebD721b3a0AE4F620aef8",
+          "caller": "0x935Fe417924bc79b7FCaB6b569B291F801e6A08D",
           "comment": "f() -> 0x20, 0",
           "instance": "C",
           "method": "f()",
@@ -24,6 +24,6 @@
     "C": "bytes_concat_empty_argument_list.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

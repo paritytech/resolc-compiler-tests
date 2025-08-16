@@ -39,6 +39,6 @@
     "C": "named_parameters_shadowing_types.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

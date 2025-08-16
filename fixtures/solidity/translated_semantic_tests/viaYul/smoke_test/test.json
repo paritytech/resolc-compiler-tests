@@ -20,6 +20,6 @@
     "C": "smoke_test.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

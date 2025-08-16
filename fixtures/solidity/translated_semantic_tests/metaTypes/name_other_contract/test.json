@@ -4,7 +4,7 @@
       "name": "name_other_contract",
       "inputs": [
         {
-          "caller": "0xB1782E0816a29e457CF92b98B061fF02D7497165",
+          "caller": "0x38387Bc252e4a22e9D30A86B13ed75774aB07045",
           "comment": "c() -> 0x20, 1, \"C\"",
           "instance": "Test",
           "method": "c()",
@@ -19,7 +19,7 @@
           }
         },
         {
-          "caller": "0xB1782E0816a29e457CF92b98B061fF02D7497165",
+          "caller": "0x38387Bc252e4a22e9D30A86B13ed75774aB07045",
           "comment": "a() -> 0x20, 1, \"A\"",
           "instance": "Test",
           "method": "a()",
@@ -34,7 +34,7 @@
           }
         },
         {
-          "caller": "0xB1782E0816a29e457CF92b98B061fF02D7497165",
+          "caller": "0x38387Bc252e4a22e9D30A86B13ed75774aB07045",
           "comment": "i() -> 0x20, 1, \"I\"",
           "instance": "Test",
           "method": "i()",
@@ -55,6 +55,6 @@
     "Test": "name_other_contract.sol:Test"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

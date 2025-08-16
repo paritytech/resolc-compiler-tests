@@ -4,7 +4,7 @@
       "name": "staticcall_for_view_and_pure_pre_byzantium",
       "inputs": [
         {
-          "caller": "0xDd49E22E033E8889D38A5d5DbcEdd3F1178F173e",
+          "caller": "0x29BCA4F678F1242B8502B68cF7F79f46F40d567B",
           "comment": "f() -> 0x1",
           "instance": "D",
           "method": "f()",
@@ -17,7 +17,7 @@
           }
         },
         {
-          "caller": "0xDd49E22E033E8889D38A5d5DbcEdd3F1178F173e",
+          "caller": "0x29BCA4F678F1242B8502B68cF7F79f46F40d567B",
           "comment": "fview() -> 1",
           "instance": "D",
           "method": "fview()",
@@ -30,7 +30,7 @@
           }
         },
         {
-          "caller": "0xDd49E22E033E8889D38A5d5DbcEdd3F1178F173e",
+          "caller": "0x29BCA4F678F1242B8502B68cF7F79f46F40d567B",
           "comment": "fpure() -> 1",
           "instance": "D",
           "method": "fpure()",
@@ -49,7 +49,7 @@
     "D": "staticcall_for_view_and_pure_pre_byzantium.sol:D"
   },
   "modes": [
-    "E"
+    "E+"
   ],
   "required_evm_version": "<byzantium"
 }

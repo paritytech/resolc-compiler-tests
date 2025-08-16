@@ -4,7 +4,7 @@
       "name": "empty_name_return_parameter",
       "inputs": [
         {
-          "caller": "0x339bE4f1fe7efDEFD69B54Da36F8a33E395cfe6D",
+          "caller": "0x8B244426E6F728A93E2E15e63eb348D9BeF4E1C6",
           "comment": "f(uint256): 9 -> 9",
           "instance": "test",
           "method": "f(uint256)",
@@ -25,6 +25,6 @@
     "test": "empty_name_return_parameter.sol:test"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

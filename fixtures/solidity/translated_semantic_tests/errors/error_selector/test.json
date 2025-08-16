@@ -55,7 +55,7 @@
     "C": "error_selector.sol:C"
   },
   "modes": [
-    "Y",
-    "E"
+    "Y+",
+    "E+"
   ]
 }

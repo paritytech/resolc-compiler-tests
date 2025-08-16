@@ -4,7 +4,7 @@
       "name": "assert",
       "inputs": [
         {
-          "caller": "0x7F1d642DbfD62aD4A8fA9810eA619707d09825D0",
+          "caller": "0x7cfB587EDd3a782A3a115472a1F297eb83eDea49",
           "comment": "f(bool): true -> 1",
           "instance": "C",
           "method": "f(bool)",
@@ -19,7 +19,7 @@
           }
         },
         {
-          "caller": "0x7F1d642DbfD62aD4A8fA9810eA619707d09825D0",
+          "caller": "0x7cfB587EDd3a782A3a115472a1F297eb83eDea49",
           "comment": "f(bool): false -> 2",
           "instance": "C",
           "method": "f(bool)",
@@ -40,7 +40,7 @@
     "C": "assert.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ],
   "required_evm_version": ">=byzantium"
 }

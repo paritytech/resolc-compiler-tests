@@ -4,7 +4,7 @@
       "name": "create",
       "inputs": [
         {
-          "caller": "0x50A037418affDca323C34D928FBA8a673c7FEf98",
+          "caller": "0x22613cDc37327d103a92860334C9c87eC05D49F8",
           "comment": "f() -> false, 0x40, 13, \"test message.\"",
           "instance": "C",
           "method": "f()",
@@ -20,7 +20,7 @@
           }
         },
         {
-          "caller": "0x50A037418affDca323C34D928FBA8a673c7FEf98",
+          "caller": "0x22613cDc37327d103a92860334C9c87eC05D49F8",
           "comment": "g() -> true, 0x40, 7, \"success\"",
           "instance": "C",
           "method": "g()",
@@ -42,7 +42,7 @@
     "C": "create.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ],
   "required_evm_version": ">=byzantium"
 }

@@ -40,6 +40,6 @@
     "C": "simple_storage.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

@@ -4,7 +4,7 @@
       "name": "array_copy_storage_abi_signed",
       "inputs": [
         {
-          "caller": "0xF6c239EdD6cC0e582e4Cd326F9da7c41FA11Ba11",
+          "caller": "0xc41215a31b2014336Ee56cd0f238F3b420785e93",
           "comment": "test() -> 0x20, 0x8, -1, -1, 8, -16, -2, 6, 8, -1",
           "instance": "c",
           "method": "test()",
@@ -32,6 +32,6 @@
     "c": "array_copy_storage_abi_signed.sol:c"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

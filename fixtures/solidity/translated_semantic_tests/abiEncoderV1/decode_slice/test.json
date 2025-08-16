@@ -29,6 +29,6 @@
     "C": "decode_slice.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

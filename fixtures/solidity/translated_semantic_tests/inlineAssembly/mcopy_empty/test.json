@@ -4,7 +4,7 @@
       "name": "mcopy_empty",
       "inputs": [
         {
-          "caller": "0xd200cB50321301D1eaadEc8b8Dd4B3001608f605",
+          "caller": "0xD344172dFae4316dBF57b931C8348099fd4d3c42",
           "comment": "mcopy_zero(bytes): 0x20, 0x20, 0xffeeddccbbaa9988776655443322110000112233445566778899aabbccddeeff -> 0x20, 0x20, 0xffeeddccbbaa9988776655443322110000112233445566778899aabbccddeeff",
           "instance": "C",
           "method": "mcopy_zero(bytes)",
@@ -29,7 +29,7 @@
     "C": "mcopy_empty.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ],
   "required_evm_version": ">=cancun"
 }

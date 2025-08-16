@@ -517,6 +517,6 @@
     "C": "detect_sub_overflow_signed.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

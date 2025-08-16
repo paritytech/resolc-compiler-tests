@@ -4,7 +4,7 @@
       "name": "private_library_function",
       "inputs": [
         {
-          "caller": "0x1b9F46B9c5F065fa5baf961ac978f457e4Eb0b9C",
+          "caller": "0x681D1eF5Cf0e5D0203271Ff5Ff6CE2e180A8D028",
           "comment": "f() -> 2",
           "instance": "L",
           "method": "f()",
@@ -23,6 +23,6 @@
     "L": "private_library_function.sol:L"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

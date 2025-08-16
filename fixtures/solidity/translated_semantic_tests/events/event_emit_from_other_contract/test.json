@@ -1,4 +1,6 @@
 {
+  "comment": "This depends on the address of contract C which is not known at this point.",
+  "ignore": true,
   "cases": [
     {
       "name": "event_emit_from_other_contract",
@@ -15,7 +17,7 @@
         },
         {
           "caller": "0xB1b7c87e8a0Bf2E7fd1a1C582bd353E4C4529341",
-          "comment": "deposit(bytes32), 18 wei: 0x1234 ->; ~ emit Deposit(address,bytes32,uint256) from 0x137aa4dfc0911524504fcd4d98501f179bc13b4a: #0xc06afe3a8444fc0004668591e8306bfb9968e79e, #0x1234, 0x00",
+          "comment": "deposit(bytes32), 18 wei: 0x1234 ->; ~ emit Deposit(address,bytes32,uint256) from 0x137aa4dfc0911524504fcd4d98501f179bc13b4a: 0xB1b7c87e8a0Bf2E7fd1a1C582bd353E4C4529341, #0x1234, 0x00",
           "instance": "C",
           "method": "deposit(bytes32)",
           "calldata": [
@@ -26,10 +28,10 @@
               {
                 "topics": [
                   "0x19dacbf83c5de6658e14cbf7bcae5c15eca2eedecf1c66fbca928e4d351bea0f",
-                  "0xc06afe3a8444fc0004668591e8306bfb9968e79e",
                   "0x1234"
                 ],
                 "values": [
+                  "0xB1b7c87e8a0Bf2E7fd1a1C582bd353E4C4529341",
                   "0x00"
                 ]
               }
@@ -45,6 +47,6 @@
     "C": "event_emit_from_other_contract.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

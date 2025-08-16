@@ -4,7 +4,7 @@
       "name": "exp_cleanup",
       "inputs": [
         {
-          "caller": "0x98f3E259e91391E7ba7d2F2D0E8D60D9c6dB7E84",
+          "caller": "0xfD7078D12A9D7fdbEF5B24B6C203d59aa55E6D85",
           "comment": "f() -> 0x1",
           "instance": "C",
           "method": "f()",
@@ -23,6 +23,6 @@
     "C": "exp_cleanup.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

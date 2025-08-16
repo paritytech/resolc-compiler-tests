@@ -42,6 +42,6 @@
     "C": "function_selector_via_contract_name.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

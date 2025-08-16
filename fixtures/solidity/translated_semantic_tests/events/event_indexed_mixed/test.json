@@ -35,6 +35,6 @@
     "C": "event_indexed_mixed.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

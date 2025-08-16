@@ -4,7 +4,7 @@
       "name": "abi_functions_member_access",
       "inputs": [
         {
-          "caller": "0xAB8ECD9c951F7F57b77b3c4578C7e9c26c4eE8D9",
+          "caller": "0x18e17CAb792bc6Fddc73f8A0247F8BFCf0dA49AF",
           "comment": "f() ->",
           "instance": "C",
           "method": "f()",
@@ -20,6 +20,6 @@
     "C": "abi_functions_member_access.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

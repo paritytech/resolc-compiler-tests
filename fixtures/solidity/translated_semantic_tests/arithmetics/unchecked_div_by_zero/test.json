@@ -76,6 +76,6 @@
     "C": "unchecked_div_by_zero.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

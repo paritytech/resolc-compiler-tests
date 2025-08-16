@@ -4,7 +4,7 @@
       "name": "creation_function_call_with_salt",
       "inputs": [
         {
-          "caller": "0xE65AE04B635E51d2e3B015b1A7C339f869D1Da08",
+          "caller": "0x5F44453460D1239a29BEa6352f0C1C5512A25783",
           "comment": "constructor(): 2 ->; gas irOptimized: 139112; gas irOptimized code: 53800; gas legacy: 145935; gas legacy code: 95600; gas legacyOptimized: 138529; gas legacyOptimized code: 54600",
           "instance": "D",
           "method": "#deployer",
@@ -16,7 +16,7 @@
           }
         },
         {
-          "caller": "0xE65AE04B635E51d2e3B015b1A7C339f869D1Da08",
+          "caller": "0x5F44453460D1239a29BEa6352f0C1C5512A25783",
           "comment": "f() -> 2",
           "instance": "D",
           "method": "f()",
@@ -35,7 +35,7 @@
     "D": "creation_function_call_with_salt.sol:D"
   },
   "modes": [
-    "E"
+    "E+"
   ],
   "required_evm_version": ">=constantinople"
 }

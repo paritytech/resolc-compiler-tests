@@ -4,7 +4,7 @@
       "name": "super_skip_unimplemented_in_abstract_contract",
       "inputs": [
         {
-          "caller": "0xC49688B27aD04e3493f1bD56052cb060F0E01a82",
+          "caller": "0x24F373840A0B093934434f063b722E74523b09F6",
           "comment": "f() -> 42",
           "instance": "B",
           "method": "f()",
@@ -23,6 +23,6 @@
     "B": "super_skip_unimplemented_in_abstract_contract.sol:B"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

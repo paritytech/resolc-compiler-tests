@@ -4,7 +4,7 @@
       "name": "cleanup_address_types_shortening",
       "inputs": [
         {
-          "caller": "0xC5229a9Aba6247D2B4ab61954735A972D08A74aF",
+          "caller": "0x5CB1B10790C9cDA88D18D0fA93c09ef47bC26D17",
           "comment": "f() -> 0x1122334455667788990011223344556677889900",
           "instance": "C",
           "method": "f()",
@@ -17,7 +17,7 @@
           }
         },
         {
-          "caller": "0xC5229a9Aba6247D2B4ab61954735A972D08A74aF",
+          "caller": "0x5CB1B10790C9cDA88D18D0fA93c09ef47bC26D17",
           "comment": "g() -> 0x1122334455667788990011223344556677889900",
           "instance": "C",
           "method": "g()",
@@ -36,6 +36,6 @@
     "C": "cleanup_address_types_shortening.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

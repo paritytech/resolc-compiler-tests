@@ -4,7 +4,7 @@
       "name": "circular_import",
       "inputs": [
         {
-          "caller": "0x3f373779820F21f9cCC55dD83C48725EC448bf03",
+          "caller": "0x3B7c6AfE1Cdb8DB837b84D14ab35Edf35791BC98",
           "comment": "foo() -> 1",
           "instance": "C",
           "method": "foo()",
@@ -23,6 +23,6 @@
     "C": "s2.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

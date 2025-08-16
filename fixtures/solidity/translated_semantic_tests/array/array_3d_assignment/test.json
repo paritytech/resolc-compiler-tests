@@ -4,7 +4,7 @@
       "name": "array_3d_assignment",
       "inputs": [
         {
-          "caller": "0x0f035C5D4b60EFB17f6B1e9922cD8dB52E4662Ca",
+          "caller": "0x367b30A94c5a275A4C78e6F8C2436CBE20966e83",
           "comment": "f(uint256): 42 -> 42",
           "instance": "C",
           "method": "f(uint256)",
@@ -25,6 +25,6 @@
     "C": "array_3d_assignment.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

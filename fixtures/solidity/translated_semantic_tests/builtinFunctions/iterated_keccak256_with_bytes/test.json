@@ -4,7 +4,7 @@
       "name": "iterated_keccak256_with_bytes",
       "inputs": [
         {
-          "caller": "0xf40e6608698c15fD1fDFA5da87E21569230b6Ef8",
+          "caller": "0x0a1CF03c9f34FF37fA2497A930ad9A60D7E0dF3E",
           "comment": "foo() -> 0xb338eefce206f9f57b83aa738deecd5326dc4b72dd81ee6a7c621a6facb7acdc",
           "instance": "c",
           "method": "foo()",
@@ -23,6 +23,6 @@
     "c": "iterated_keccak256_with_bytes.sol:c"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

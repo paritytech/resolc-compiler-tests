@@ -4,7 +4,7 @@
       "name": "shift_left_larger_type",
       "inputs": [
         {
-          "caller": "0x078f4C6E82c95193fEfc0f36FB433b51BdeAD394",
+          "caller": "0x0506C8e848FA42768d9a8c2259a06a636C841eDF",
           "comment": "f() -> 0",
           "instance": "C",
           "method": "f()",
@@ -23,6 +23,6 @@
     "C": "shift_left_larger_type.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

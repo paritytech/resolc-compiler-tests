@@ -4,7 +4,7 @@
       "name": "truefalse",
       "inputs": [
         {
-          "caller": "0xf767268D86A3829739F2FD0d121bbb18062ff703",
+          "caller": "0xa9DAc1ccc70Eb26365daCafd1C72F5195ee2ce5B",
           "comment": "f() -> 1, 0",
           "instance": "C",
           "method": "f()",
@@ -24,6 +24,6 @@
     "C": "truefalse.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

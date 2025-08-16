@@ -23,6 +23,6 @@
     "test": "conditional_expression_true_literal.sol:test"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

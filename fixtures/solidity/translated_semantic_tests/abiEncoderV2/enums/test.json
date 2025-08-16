@@ -4,7 +4,7 @@
       "name": "enums",
       "inputs": [
         {
-          "caller": "0x15193c65dDd378a49cb9BFE778A7E0301676D0FF",
+          "caller": "0x83209713615B3cfd54a4378fBEfF404D06a0CEE1",
           "comment": "f(uint8): 0 -> 0",
           "instance": "C",
           "method": "f(uint8)",
@@ -19,7 +19,7 @@
           }
         },
         {
-          "caller": "0x15193c65dDd378a49cb9BFE778A7E0301676D0FF",
+          "caller": "0x83209713615B3cfd54a4378fBEfF404D06a0CEE1",
           "comment": "f(uint8): 1 -> 1",
           "instance": "C",
           "method": "f(uint8)",
@@ -34,7 +34,7 @@
           }
         },
         {
-          "caller": "0x15193c65dDd378a49cb9BFE778A7E0301676D0FF",
+          "caller": "0x83209713615B3cfd54a4378fBEfF404D06a0CEE1",
           "comment": "f(uint8): 2 -> FAILURE",
           "instance": "C",
           "method": "f(uint8)",
@@ -46,7 +46,7 @@
           }
         },
         {
-          "caller": "0x15193c65dDd378a49cb9BFE778A7E0301676D0FF",
+          "caller": "0x83209713615B3cfd54a4378fBEfF404D06a0CEE1",
           "comment": "f(uint8): 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff -> FAILURE",
           "instance": "C",
           "method": "f(uint8)",
@@ -64,6 +64,6 @@
     "C": "enums.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

@@ -4,7 +4,7 @@
       "name": "shift_cleanup",
       "inputs": [
         {
-          "caller": "0xccd214f06270caB6921967209e0F5069fdEE442D",
+          "caller": "0x6C93F29088a5856cc9ee327A57B3652B68e85037",
           "comment": "f() -> 0x0",
           "instance": "C",
           "method": "f()",
@@ -23,6 +23,6 @@
     "C": "shift_cleanup.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

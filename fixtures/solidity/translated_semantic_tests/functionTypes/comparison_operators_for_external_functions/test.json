@@ -36,6 +36,6 @@
     "C": "comparison_operators_for_external_functions.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

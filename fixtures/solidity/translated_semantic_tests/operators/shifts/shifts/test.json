@@ -4,7 +4,7 @@
       "name": "shifts",
       "inputs": [
         {
-          "caller": "0xd444427BAE2C90a6C45DC0e6dDD2FCAC50Abc6A7",
+          "caller": "0x016e4CdBd7dE6697a451082A39d8298de0953d9D",
           "comment": "f(uint256): 7 -> 28",
           "instance": "C",
           "method": "f(uint256)",
@@ -25,7 +25,7 @@
     "C": "shifts.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ],
   "required_evm_version": ">=constantinople"
 }

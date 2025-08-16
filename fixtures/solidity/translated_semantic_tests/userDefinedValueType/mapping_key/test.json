@@ -4,7 +4,7 @@
       "name": "mapping_key",
       "inputs": [
         {
-          "caller": "0xaE27703449503033049795A9FFfC638d7ED19F8D",
+          "caller": "0xC30879024494ff81ca060407785dA27dAE9d2C10",
           "comment": "set(int256,int256): 1, 1 ->",
           "instance": "C",
           "method": "set(int256,int256)",
@@ -17,7 +17,7 @@
           }
         },
         {
-          "caller": "0xaE27703449503033049795A9FFfC638d7ED19F8D",
+          "caller": "0xC30879024494ff81ca060407785dA27dAE9d2C10",
           "comment": "m(int256): 1 -> 1",
           "instance": "C",
           "method": "m(int256)",
@@ -32,7 +32,7 @@
           }
         },
         {
-          "caller": "0xaE27703449503033049795A9FFfC638d7ED19F8D",
+          "caller": "0xC30879024494ff81ca060407785dA27dAE9d2C10",
           "comment": "set_unwrapped(int256,int256): 1, 2 ->",
           "instance": "C",
           "method": "set_unwrapped(int256,int256)",
@@ -45,7 +45,7 @@
           }
         },
         {
-          "caller": "0xaE27703449503033049795A9FFfC638d7ED19F8D",
+          "caller": "0xC30879024494ff81ca060407785dA27dAE9d2C10",
           "comment": "m(int256): 1 -> 2",
           "instance": "C",
           "method": "m(int256)",
@@ -60,7 +60,7 @@
           }
         },
         {
-          "caller": "0xaE27703449503033049795A9FFfC638d7ED19F8D",
+          "caller": "0xC30879024494ff81ca060407785dA27dAE9d2C10",
           "comment": "m(int256): 2 -> 0",
           "instance": "C",
           "method": "m(int256)",
@@ -81,6 +81,6 @@
     "C": "mapping_key.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

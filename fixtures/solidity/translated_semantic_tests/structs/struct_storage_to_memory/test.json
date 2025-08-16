@@ -4,7 +4,7 @@
       "name": "struct_storage_to_memory",
       "inputs": [
         {
-          "caller": "0xE1Dc6C05662DE9DBeCF9B5A47b9441fB7a82505B",
+          "caller": "0x41460F4543DEB04d8f09b9e6A367568384744522",
           "comment": "f() -> 42, 23, 34",
           "instance": "C",
           "method": "f()",
@@ -25,6 +25,6 @@
     "C": "struct_storage_to_memory.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

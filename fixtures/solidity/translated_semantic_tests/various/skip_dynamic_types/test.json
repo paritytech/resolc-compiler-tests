@@ -4,7 +4,7 @@
       "name": "skip_dynamic_types",
       "inputs": [
         {
-          "caller": "0xd607F2b8F5e74cF73940141a9a8E939480b993c2",
+          "caller": "0x28745426D7C9f8e9209773d8EaeC5074C1D1e401",
           "comment": "g() -> 7, 8",
           "instance": "C",
           "method": "g()",
@@ -24,6 +24,6 @@
     "C": "skip_dynamic_types.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

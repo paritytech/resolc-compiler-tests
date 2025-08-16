@@ -4,7 +4,7 @@
       "name": "function_modifier_library_inheritance",
       "inputs": [
         {
-          "caller": "0x41ABcA639b47CB89CCEBd3C17Bb6C3e175c1cb74",
+          "caller": "0x05A7b14fc77017C378f8Bd068de392c2fA57653A",
           "comment": "f() -> 0x202",
           "instance": "Test",
           "method": "f()",
@@ -23,6 +23,6 @@
     "Test": "function_modifier_library_inheritance.sol:Test"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

@@ -4,7 +4,7 @@
       "name": "simple_constant_variables_test",
       "inputs": [
         {
-          "caller": "0x0ED230aB86cB615FCC86eda28657EBf322B8c77D",
+          "caller": "0xc3D8008aE66FeA0044187cc7cd0E3Fb202FD4041",
           "comment": "getX() -> 56",
           "instance": "Foo",
           "method": "getX()",
@@ -23,6 +23,6 @@
     "Foo": "simple_constant_variables_test.sol:Foo"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

@@ -51,6 +51,6 @@
     "C": "store_function_in_constructor_packed.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

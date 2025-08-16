@@ -1,10 +1,12 @@
 {
+  "comment": "We do not add any blobs to our transactions and therefore this test fails.",
+  "ignore": true,
   "cases": [
     {
       "name": "blobhash",
       "inputs": [
         {
-          "caller": "0xAaae89B9a7847599bF53ff291986B78f9A6d176F",
+          "caller": "0x7CfEbeD7665a7855B4CE93aB20AD37eb2FDb34e8",
           "comment": "f(uint256): 0 -> 0x0100000000000000000000000000000000000000000000000000000000000001",
           "instance": "C",
           "method": "f(uint256)",
@@ -19,7 +21,7 @@
           }
         },
         {
-          "caller": "0xAaae89B9a7847599bF53ff291986B78f9A6d176F",
+          "caller": "0x7CfEbeD7665a7855B4CE93aB20AD37eb2FDb34e8",
           "comment": "f(uint256): 1 -> 0x0100000000000000000000000000000000000000000000000000000000000002",
           "instance": "C",
           "method": "f(uint256)",
@@ -34,7 +36,7 @@
           }
         },
         {
-          "caller": "0xAaae89B9a7847599bF53ff291986B78f9A6d176F",
+          "caller": "0x7CfEbeD7665a7855B4CE93aB20AD37eb2FDb34e8",
           "comment": "f(uint256): 2 -> 0x00",
           "instance": "C",
           "method": "f(uint256)",
@@ -49,7 +51,7 @@
           }
         },
         {
-          "caller": "0xAaae89B9a7847599bF53ff291986B78f9A6d176F",
+          "caller": "0x7CfEbeD7665a7855B4CE93aB20AD37eb2FDb34e8",
           "comment": "f(uint256): 255 -> 0x00",
           "instance": "C",
           "method": "f(uint256)",
@@ -64,7 +66,7 @@
           }
         },
         {
-          "caller": "0xAaae89B9a7847599bF53ff291986B78f9A6d176F",
+          "caller": "0x7CfEbeD7665a7855B4CE93aB20AD37eb2FDb34e8",
           "comment": "f(uint256): 256 -> 0x00",
           "instance": "C",
           "method": "f(uint256)",
@@ -79,7 +81,7 @@
           }
         },
         {
-          "caller": "0xAaae89B9a7847599bF53ff291986B78f9A6d176F",
+          "caller": "0x7CfEbeD7665a7855B4CE93aB20AD37eb2FDb34e8",
           "comment": "f(uint256): 257 -> 0x00",
           "instance": "C",
           "method": "f(uint256)",
@@ -100,7 +102,7 @@
     "C": "blobhash.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ],
   "required_evm_version": ">=cancun"
 }

@@ -4,7 +4,7 @@
       "name": "shift_right_negative_lvalue_signextend_int16_v1",
       "inputs": [
         {
-          "caller": "0x257ff2E3E81c9d7025af86e41342EA5457950B83",
+          "caller": "0x9c4685B7ef78c9f007f1b21f6762b00A347f30EB",
           "comment": "f(int16,uint16): 0xff99, 0x00 -> 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff99",
           "instance": "C",
           "method": "f(int16,uint16)",
@@ -20,7 +20,7 @@
           }
         },
         {
-          "caller": "0x257ff2E3E81c9d7025af86e41342EA5457950B83",
+          "caller": "0x9c4685B7ef78c9f007f1b21f6762b00A347f30EB",
           "comment": "f(int16,uint16): 0xff99, 0x01 -> 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffcc",
           "instance": "C",
           "method": "f(int16,uint16)",
@@ -36,7 +36,7 @@
           }
         },
         {
-          "caller": "0x257ff2E3E81c9d7025af86e41342EA5457950B83",
+          "caller": "0x9c4685B7ef78c9f007f1b21f6762b00A347f30EB",
           "comment": "f(int16,uint16): 0xff99, 0x02 -> 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe6",
           "instance": "C",
           "method": "f(int16,uint16)",
@@ -52,7 +52,7 @@
           }
         },
         {
-          "caller": "0x257ff2E3E81c9d7025af86e41342EA5457950B83",
+          "caller": "0x9c4685B7ef78c9f007f1b21f6762b00A347f30EB",
           "comment": "f(int16,uint16): 0xff99, 0x04 -> 0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff9",
           "instance": "C",
           "method": "f(int16,uint16)",
@@ -68,7 +68,7 @@
           }
         },
         {
-          "caller": "0x257ff2E3E81c9d7025af86e41342EA5457950B83",
+          "caller": "0x9c4685B7ef78c9f007f1b21f6762b00A347f30EB",
           "comment": "f(int16,uint16): 0xff99, 0x08 -> 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
           "instance": "C",
           "method": "f(int16,uint16)",
@@ -90,6 +90,6 @@
     "C": "shift_right_negative_lvalue_signextend_int16_v1.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

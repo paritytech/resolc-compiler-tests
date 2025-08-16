@@ -4,7 +4,7 @@
       "name": "keccak256_assembly",
       "inputs": [
         {
-          "caller": "0xD344172dFae4316dBF57b931C8348099fd4d3c42",
+          "caller": "0x44ECADAADA93eb4b3E93305197b1bB713478977C",
           "comment": "f() -> 0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470",
           "instance": "C",
           "method": "f()",
@@ -23,6 +23,6 @@
     "C": "keccak256_assembly.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

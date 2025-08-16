@@ -238,6 +238,6 @@
     "C": "detect_mod_zero.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

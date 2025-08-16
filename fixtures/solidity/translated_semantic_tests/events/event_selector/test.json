@@ -56,7 +56,7 @@
     "C": "event_selector.sol:C"
   },
   "modes": [
-    "Y",
-    "E"
+    "Y+",
+    "E+"
   ]
 }

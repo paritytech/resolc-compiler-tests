@@ -4,7 +4,7 @@
       "name": "string_tuples",
       "inputs": [
         {
-          "caller": "0x2Cb2A3304231F5151FEE21680D6F31A060822251",
+          "caller": "0x94BF4A5Dc2117DDE1B16E7C421e659948b6e6C22",
           "comment": "f() -> 0x40, 0x8, 0x3, \"abc\"",
           "instance": "C",
           "method": "f()",
@@ -20,7 +20,7 @@
           }
         },
         {
-          "caller": "0x2Cb2A3304231F5151FEE21680D6F31A060822251",
+          "caller": "0x94BF4A5Dc2117DDE1B16E7C421e659948b6e6C22",
           "comment": "g() -> 0x40, 0x80, 0x3, \"abc\", 0x3, \"def\"",
           "instance": "C",
           "method": "g()",
@@ -44,6 +44,6 @@
     "C": "string_tuples.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

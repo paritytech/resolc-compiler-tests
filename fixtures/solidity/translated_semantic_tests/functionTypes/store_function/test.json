@@ -23,6 +23,6 @@
     "C": "store_function.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

@@ -24,6 +24,6 @@
     "C": "return_storage_pointers.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

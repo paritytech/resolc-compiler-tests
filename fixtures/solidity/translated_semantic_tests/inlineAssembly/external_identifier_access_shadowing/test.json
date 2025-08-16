@@ -4,7 +4,7 @@
       "name": "external_identifier_access_shadowing",
       "inputs": [
         {
-          "caller": "0x73f384B10A04eb88bb9Eb1A61e83ed6aBB4C6B7B",
+          "caller": "0x4095B066CF5C4a4Bf05df5f1A04B7E7D8fbfdB1B",
           "comment": "f() -> 2",
           "instance": "C",
           "method": "f()",
@@ -23,6 +23,6 @@
     "C": "external_identifier_access_shadowing.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

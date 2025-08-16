@@ -4,11 +4,13 @@
       "name": "keccak_optimization_bug_string",
       "inputs": [
         {
-          "caller": "0x2Abc535f771112D410Ca31cF57c922442d98cA74",
+          "caller": "0x41e2D930Cc81e281c8DffD758a6DecdfC0457c19",
           "comment": "f(string): \"\" -> false",
           "instance": "C",
           "method": "f(string)",
-          "calldata": [],
+          "calldata": [
+            "0x00"
+          ],
           "expected": {
             "return_data": [
               "0x00"
@@ -17,7 +19,7 @@
           }
         },
         {
-          "caller": "0x2Abc535f771112D410Ca31cF57c922442d98cA74",
+          "caller": "0x41e2D930Cc81e281c8DffD758a6DecdfC0457c19",
           "comment": "f(string): 0x20, 5, \"hello\" -> false",
           "instance": "C",
           "method": "f(string)",
@@ -34,7 +36,7 @@
           }
         },
         {
-          "caller": "0x2Abc535f771112D410Ca31cF57c922442d98cA74",
+          "caller": "0x41e2D930Cc81e281c8DffD758a6DecdfC0457c19",
           "comment": "f(string): 0x20, 0x2e, 29457663690442756349866640336617293820574110049925353194191585327958485180523, 45859201465615193776739262511799714667061496775486067316261261194408342061056 -> false",
           "instance": "C",
           "method": "f(string)",
@@ -58,6 +60,6 @@
     "C": "keccak_optimization_bug_string.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

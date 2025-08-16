@@ -29,6 +29,6 @@
     "C": "explicit_string_bytes_calldata_cast.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

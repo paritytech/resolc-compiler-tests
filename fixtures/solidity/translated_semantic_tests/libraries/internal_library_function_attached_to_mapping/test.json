@@ -4,7 +4,7 @@
       "name": "internal_library_function_attached_to_mapping",
       "inputs": [
         {
-          "caller": "0x9fBe67E4A55BebC5A91886CF53963d487EbA5B6C",
+          "caller": "0xc88634156937c316e5401D587eD4f998Eb0B777C",
           "comment": "mapValue(uint256): 42 -> 0x24",
           "instance": "C",
           "method": "mapValue(uint256)",
@@ -25,6 +25,6 @@
     "C": "internal_library_function_attached_to_mapping.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

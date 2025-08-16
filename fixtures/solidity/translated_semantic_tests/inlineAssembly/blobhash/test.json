@@ -1,10 +1,12 @@
 {
+  "comment": "We do not add any blobs to our transactions and therefore this test fails.",
+  "ignore": true,
   "cases": [
     {
       "name": "blobhash",
       "inputs": [
         {
-          "caller": "0x8702e3BD1Aba78bE78a406E6910e29d188e424d4",
+          "caller": "0x7140eC0f21C8591703FF58D59B25624EB451469A",
           "comment": "f() -> 0x0100000000000000000000000000000000000000000000000000000000000001",
           "instance": "C",
           "method": "f()",
@@ -23,7 +25,7 @@
     "C": "blobhash.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ],
   "required_evm_version": ">=cancun"
 }

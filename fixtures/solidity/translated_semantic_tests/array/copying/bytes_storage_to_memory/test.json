@@ -4,7 +4,7 @@
       "name": "bytes_storage_to_memory",
       "inputs": [
         {
-          "caller": "0x948420AF45D7479E73A3b13CDA7A34cE9486c5B9",
+          "caller": "0x0a53C1675d2bc61034c90b9731dC001F314F9EDc",
           "comment": "f() -> \"a\"",
           "instance": "C",
           "method": "f()",
@@ -23,6 +23,6 @@
     "C": "bytes_storage_to_memory.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

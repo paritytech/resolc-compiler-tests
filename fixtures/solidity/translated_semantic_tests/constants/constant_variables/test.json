@@ -4,7 +4,7 @@
       "name": "constant_variables",
       "inputs": [
         {
-          "caller": "0xc3D8008aE66FeA0044187cc7cd0E3Fb202FD4041",
+          "caller": "0x19e119167095b4F035A906eAFBb66d733545E208",
           "comment": "constructor() ->",
           "instance": "Foo",
           "method": "#deployer",
@@ -20,6 +20,6 @@
     "Foo": "constant_variables.sol:Foo"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

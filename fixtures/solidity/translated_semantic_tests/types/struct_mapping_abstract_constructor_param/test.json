@@ -4,7 +4,7 @@
       "name": "struct_mapping_abstract_constructor_param",
       "inputs": [
         {
-          "caller": "0xccb6EB197a89E245F57a14B6EA5986E7cb83Fc9A",
+          "caller": "0xd09AaeE8448Db471225e5de66EE532eDCe90647b",
           "comment": "getM(uint256,uint256): 0, 0 -> 0",
           "instance": "C",
           "method": "getM(uint256,uint256)",
@@ -20,7 +20,7 @@
           }
         },
         {
-          "caller": "0xccb6EB197a89E245F57a14B6EA5986E7cb83Fc9A",
+          "caller": "0xd09AaeE8448Db471225e5de66EE532eDCe90647b",
           "comment": "getM(uint256,uint256): 1, 5 -> 0x10",
           "instance": "C",
           "method": "getM(uint256,uint256)",
@@ -36,7 +36,7 @@
           }
         },
         {
-          "caller": "0xccb6EB197a89E245F57a14B6EA5986E7cb83Fc9A",
+          "caller": "0xd09AaeE8448Db471225e5de66EE532eDCe90647b",
           "comment": "getM(uint256,uint256): 1, 0 -> 0",
           "instance": "C",
           "method": "getM(uint256,uint256)",
@@ -58,6 +58,6 @@
     "C": "struct_mapping_abstract_constructor_param.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

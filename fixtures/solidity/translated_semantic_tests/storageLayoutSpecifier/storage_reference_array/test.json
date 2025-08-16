@@ -4,7 +4,7 @@
       "name": "storage_reference_array",
       "inputs": [
         {
-          "caller": "0xB0d676ad5F03159494E5Daa4cc972d5BD3837428",
+          "caller": "0x85EdbB66472c71E0a8a68b266D76e95d152B8F1a",
           "comment": "initUsingReference() ->; gas irOptimized: 273556; gas legacy: 274795; gas legacyOptimized: 271954",
           "instance": "C",
           "method": "initUsingReference()",
@@ -14,7 +14,7 @@
           }
         },
         {
-          "caller": "0xB0d676ad5F03159494E5Daa4cc972d5BD3837428",
+          "caller": "0x85EdbB66472c71E0a8a68b266D76e95d152B8F1a",
           "comment": "array(uint256): 0 -> 1",
           "instance": "C",
           "method": "array(uint256)",
@@ -29,7 +29,7 @@
           }
         },
         {
-          "caller": "0xB0d676ad5F03159494E5Daa4cc972d5BD3837428",
+          "caller": "0x85EdbB66472c71E0a8a68b266D76e95d152B8F1a",
           "comment": "array(uint256): 9 -> 10",
           "instance": "C",
           "method": "array(uint256)",
@@ -50,6 +50,6 @@
     "C": "storage_reference_array.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

@@ -4,7 +4,7 @@
       "name": "return_size_shorter_than_expected",
       "inputs": [
         {
-          "caller": "0x0268D4b21664F1330dAD744fE144f5F9f69F93C1",
+          "caller": "0xbbFeF27f62B76b345Ae5B649a86F64859cFEe03a",
           "comment": "test() -> 0x0500; gas legacy: 131966",
           "instance": "Test",
           "method": "test()",
@@ -23,7 +23,7 @@
     "Test": "return_size_shorter_than_expected.sol:Test"
   },
   "modes": [
-    "Y"
+    "Y+"
   ],
   "required_evm_version": "<=homestead"
 }

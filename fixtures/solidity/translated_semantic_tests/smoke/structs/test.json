@@ -4,7 +4,7 @@
       "name": "structs",
       "inputs": [
         {
-          "caller": "0x63B58cb931d0942EF970b2906d0AaB632F880715",
+          "caller": "0x481ba7cFb99afdbce350A86566eb434916B53153",
           "comment": "s() -> 23, 42",
           "instance": "C",
           "method": "s()",
@@ -18,7 +18,7 @@
           }
         },
         {
-          "caller": "0x63B58cb931d0942EF970b2906d0AaB632F880715",
+          "caller": "0x481ba7cFb99afdbce350A86566eb434916B53153",
           "comment": "t() -> 0x20, 23, 42, 0x60, 3, \"any\"",
           "instance": "C",
           "method": "t()",
@@ -42,6 +42,6 @@
     "C": "structs.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

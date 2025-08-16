@@ -38,7 +38,7 @@
     "C": "invalid_abi_decoding_memory_v1.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ],
   "required_evm_version": ">=byzantium",
   "compiler_directives": {

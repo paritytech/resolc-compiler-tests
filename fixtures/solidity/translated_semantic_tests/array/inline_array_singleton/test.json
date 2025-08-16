@@ -4,7 +4,7 @@
       "name": "inline_array_singleton",
       "inputs": [
         {
-          "caller": "0x4214C985b0402B8d3d8a4C173b174218aB1aDB7C",
+          "caller": "0x0eB7525bdCdD41ef13292f14eB09d297d11a66BD",
           "comment": "f() -> 4",
           "instance": "C",
           "method": "f()",
@@ -23,6 +23,6 @@
     "C": "inline_array_singleton.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

@@ -4,7 +4,7 @@
       "name": "abi_decode_simple",
       "inputs": [
         {
-          "caller": "0x31bE3d82cfA89cEc5380BeaDF49Dbb2fC03baB8c",
+          "caller": "0x9B044A526b0e706C6797629BD4b128b8B60Bc21F",
           "comment": "f(bytes): 0x20, 0x80, 0x21, 0x40, 0x7, \"abcdefg\" -> 0x21, 0x40, 0x7, \"abcdefg\"",
           "instance": "C",
           "method": "f(bytes)",
@@ -33,6 +33,6 @@
     "C": "abi_decode_simple.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

@@ -4,7 +4,7 @@
       "name": "virtual_override_changing_mutability_public",
       "inputs": [
         {
-          "caller": "0x92d8DeAeF3639674e4E85D27aA31A90711D94ab4",
+          "caller": "0x9179C69b22a9fC2494E130819c26A3daB60dB0fc",
           "comment": "run() ->",
           "instance": "C",
           "method": "run()",
@@ -20,6 +20,6 @@
     "C": "virtual_override_changing_mutability_public.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

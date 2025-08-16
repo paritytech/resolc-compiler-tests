@@ -222,6 +222,6 @@
     "C": "detect_div_overflow.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

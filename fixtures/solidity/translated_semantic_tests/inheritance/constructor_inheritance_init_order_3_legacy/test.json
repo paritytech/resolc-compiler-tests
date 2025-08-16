@@ -4,7 +4,7 @@
       "name": "constructor_inheritance_init_order_3_legacy",
       "inputs": [
         {
-          "caller": "0xf8808D84CB04E61FF0F5323035A90C3516F93d7d",
+          "caller": "0xCa7B487EF7E9E78A0462d1870C4Bd75de321f32A",
           "comment": "x() -> 4",
           "instance": "B",
           "method": "x()",
@@ -23,6 +23,6 @@
     "B": "constructor_inheritance_init_order_3_legacy.sol:B"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

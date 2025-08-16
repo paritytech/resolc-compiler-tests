@@ -22,7 +22,7 @@
     "A": "unknown_sig_no_fallback.sol:A"
   },
   "modes": [
-    "E"
+    "E+"
   ],
   "required_evm_version": ">=byzantium",
   "compiler_directives": {

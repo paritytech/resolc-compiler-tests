@@ -4,7 +4,7 @@
       "name": "calldata_array_function_types",
       "inputs": [
         {
-          "caller": "0xB7C8E7F62eCcF41A7Deb17f2a2a265872EEF7E19",
+          "caller": "0x0867234b5D2E8b96bf34F1389d83324143685810",
           "comment": "g(bool): false -> 23, 37, 71",
           "instance": "C",
           "method": "g(bool)",
@@ -21,7 +21,7 @@
           }
         },
         {
-          "caller": "0xB7C8E7F62eCcF41A7Deb17f2a2a265872EEF7E19",
+          "caller": "0x0867234b5D2E8b96bf34F1389d83324143685810",
           "comment": "g(bool): true -> 23, 37, 71",
           "instance": "C",
           "method": "g(bool)",
@@ -44,6 +44,6 @@
     "C": "calldata_array_function_types.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

@@ -4,7 +4,7 @@
       "name": "multiple_operator_definitions_different_types_different_functions_separate_directives",
       "inputs": [
         {
-          "caller": "0xFc319a5e9E6faA3Ea7EdCD6D16F2a08625d20607",
+          "caller": "0xBd7dB03210E124aFE9493d4aB0E16C07391Bda48",
           "comment": "small() -> 3",
           "instance": "C",
           "method": "small()",
@@ -17,7 +17,7 @@
           }
         },
         {
-          "caller": "0xFc319a5e9E6faA3Ea7EdCD6D16F2a08625d20607",
+          "caller": "0xBd7dB03210E124aFE9493d4aB0E16C07391Bda48",
           "comment": "big() -> 70",
           "instance": "C",
           "method": "big()",
@@ -36,6 +36,6 @@
     "C": "multiple_operator_definitions_different_types_different_functions_separate_directives.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

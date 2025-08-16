@@ -38,6 +38,6 @@
     "C": "assign_tuple_from_function_call.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

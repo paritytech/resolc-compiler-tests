@@ -24,6 +24,6 @@
     "C": "require_error_function_pointer_parameter.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

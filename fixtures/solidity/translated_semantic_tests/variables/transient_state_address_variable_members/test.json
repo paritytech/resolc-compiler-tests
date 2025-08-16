@@ -14,26 +14,20 @@
           }
         },
         {
-          "comment": "balance: 0x23952e6b6aE9A89FDe6204bE4312cc9E4fE0c59a -> 1267650600228229401496703205376",
-          "address": "0x23952e6b6aE9A89FDe6204bE4312cc9E4fE0c59a",
-          "expected_balance": "0x10000000000000000000000000",
-          "caller": "0x200051E1CDeD828E35D62667E717D031aC5607e5"
-        },
-        {
-          "caller": "0x23952e6b6aE9A89FDe6204bE4312cc9E4fE0c59a",
-          "comment": "f() -> 1267650600228229401496703205376",
+          "caller": "0x200051E1CDeD828E35D62667E717D031aC5607e5",
+          "comment": "f() -> 0x200051E1CDeD828E35D62667E717D031aC5607e5",
           "instance": "C",
           "method": "f()",
           "calldata": [],
           "expected": {
             "return_data": [
-              "0x10000000000000000000000000"
+              "0x200051E1CDeD828E35D62667E717D031aC5607e5"
             ],
             "exception": false
           }
         },
         {
-          "caller": "0x23952e6b6aE9A89FDe6204bE4312cc9E4fE0c59a",
+          "caller": "0x200051E1CDeD828E35D62667E717D031aC5607e5",
           "comment": "g() -> 0",
           "instance": "C",
           "method": "g()",
@@ -52,7 +46,7 @@
     "C": "transient_state_address_variable_members.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ],
   "required_evm_version": ">=cancun"
 }

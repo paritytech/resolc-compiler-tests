@@ -4,7 +4,7 @@
       "name": "payable_function_calls_library",
       "inputs": [
         {
-          "caller": "0x44b31452836C6052d9FE6013859eD4e0D5287601",
+          "caller": "0xE02695e11eD197FfDb49F94f8699976A2CE76768",
           "comment": "f(): 27 -> 7",
           "instance": "C",
           "method": "f()",
@@ -31,6 +31,6 @@
     }
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

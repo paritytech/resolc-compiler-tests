@@ -6,7 +6,7 @@
       "name": "uncalled_blockhash",
       "inputs": [
         {
-          "caller": "0x1A1364741a50C70b03A1D97b1447B88e64B99315",
+          "caller": "0x9988bFd443d31a48a1666D40790ee9949b9e95D5",
           "comment": "f() -> 0x3737373737373737373737373737373737373737373737373737373737373738",
           "instance": "C",
           "method": "f()",
@@ -25,6 +25,6 @@
     "C": "uncalled_blockhash.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

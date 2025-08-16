@@ -54,6 +54,6 @@
     "C": "using_structs.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

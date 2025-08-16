@@ -4,7 +4,7 @@
       "name": "invalid_enum_as_external_arg",
       "inputs": [
         {
-          "caller": "0x5C685CB25D3ac24280a6f9A2c3A0f49e85E523e0",
+          "caller": "0x095E36033052600DfDb277CdA86f059564C13d8c",
           "comment": "test() -> FAILURE, hex\"4e487b71\", 0x21",
           "instance": "C",
           "method": "test()",
@@ -24,7 +24,7 @@
     "C": "invalid_enum_as_external_arg.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ],
   "required_evm_version": ">=byzantium"
 }

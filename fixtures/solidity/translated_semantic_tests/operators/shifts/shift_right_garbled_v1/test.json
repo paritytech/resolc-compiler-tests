@@ -4,7 +4,7 @@
       "name": "shift_right_garbled_v1",
       "inputs": [
         {
-          "caller": "0xa6619dafF061DA4F8fF3CD14aE8Def4b688524D1",
+          "caller": "0x2cd1240410A7f86a9b08024adbFD8Ec2f360d8d8",
           "comment": "f(uint8,uint8): 0x00, 0x04 -> 0x0f",
           "instance": "C",
           "method": "f(uint8,uint8)",
@@ -20,7 +20,7 @@
           }
         },
         {
-          "caller": "0xa6619dafF061DA4F8fF3CD14aE8Def4b688524D1",
+          "caller": "0x2cd1240410A7f86a9b08024adbFD8Ec2f360d8d8",
           "comment": "f(uint8,uint8): 0x00, 0x1004 -> 0x0f",
           "instance": "C",
           "method": "f(uint8,uint8)",
@@ -42,6 +42,6 @@
     "C": "shift_right_garbled_v1.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

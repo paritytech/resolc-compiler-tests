@@ -4,7 +4,7 @@
       "name": "constant_string",
       "inputs": [
         {
-          "caller": "0x19e119167095b4F035A906eAFBb66d733545E208",
+          "caller": "0x4Eb7Cb5411D13014A69EDc089AA75a6E1fd0Aa68",
           "comment": "f() -> 0x20, 3, \"\\x03\\x01\\x02\"",
           "instance": "C",
           "method": "f()",
@@ -19,7 +19,7 @@
           }
         },
         {
-          "caller": "0x19e119167095b4F035A906eAFBb66d733545E208",
+          "caller": "0x4Eb7Cb5411D13014A69EDc089AA75a6E1fd0Aa68",
           "comment": "g() -> 0x20, 3, \"\\x03\\x01\\x02\"",
           "instance": "C",
           "method": "g()",
@@ -34,7 +34,7 @@
           }
         },
         {
-          "caller": "0x19e119167095b4F035A906eAFBb66d733545E208",
+          "caller": "0x4Eb7Cb5411D13014A69EDc089AA75a6E1fd0Aa68",
           "comment": "h() -> 0x20, 5, \"hello\"",
           "instance": "C",
           "method": "h()",
@@ -55,6 +55,6 @@
     "C": "constant_string.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

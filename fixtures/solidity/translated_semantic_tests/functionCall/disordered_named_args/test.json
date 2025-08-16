@@ -4,7 +4,7 @@
       "name": "disordered_named_args",
       "inputs": [
         {
-          "caller": "0x810944Ec24940a635F8d10398CdCc535eC95B7a6",
+          "caller": "0xb09C68b3d31A05dB6fF1717135679f598a8387D3",
           "comment": "b() -> 123",
           "instance": "test",
           "method": "b()",
@@ -23,6 +23,6 @@
     "test": "disordered_named_args.sol:test"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

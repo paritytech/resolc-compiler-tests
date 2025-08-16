@@ -417,6 +417,6 @@
     "test": "mapping_getters.sol:test"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

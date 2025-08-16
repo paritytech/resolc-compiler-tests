@@ -4,7 +4,7 @@
       "name": "libraries_from_free",
       "inputs": [
         {
-          "caller": "0x55D5E113f34028C47d7D5A0a83Fc5DB6eb8bf143",
+          "caller": "0xdb2c17F2c7e0acB40274560de0C73Ef84941f5e3",
           "comment": "f() -> 7, 8",
           "instance": "C",
           "method": "f()",
@@ -30,6 +30,6 @@
     }
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

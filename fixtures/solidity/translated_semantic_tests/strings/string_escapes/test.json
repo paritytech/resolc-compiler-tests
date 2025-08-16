@@ -4,7 +4,7 @@
       "name": "string_escapes",
       "inputs": [
         {
-          "caller": "0x0022965E5dC526809fA08A6AdeA14b10C7927b8f",
+          "caller": "0x10401edf52f3C02A3E5f26D1d3EC9551e7a8e3db",
           "comment": "f() -> 0x090a0d27225c0000000000000000000000000000000000000000000000000000",
           "instance": "test",
           "method": "f()",
@@ -23,6 +23,6 @@
     "test": "string_escapes.sol:test"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

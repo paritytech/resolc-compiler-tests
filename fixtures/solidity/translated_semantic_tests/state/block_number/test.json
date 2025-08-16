@@ -1,10 +1,12 @@
 {
+  "comment": "block number is not a constant",
+  "ignore": true,
   "cases": [
     {
       "name": "block_number",
       "inputs": [
         {
-          "caller": "0xdBdbAE304FBa6b93a9Cdc90326A5FAdC1c2A1489",
+          "caller": "0xA312aCF89c09fb49835bb7f6db3448b2f5593e88",
           "comment": "constructor()",
           "instance": "C",
           "method": "#deployer",
@@ -14,7 +16,7 @@
           }
         },
         {
-          "caller": "0xdBdbAE304FBa6b93a9Cdc90326A5FAdC1c2A1489",
+          "caller": "0xA312aCF89c09fb49835bb7f6db3448b2f5593e88",
           "comment": "f() -> 2",
           "instance": "C",
           "method": "f()",
@@ -27,7 +29,7 @@
           }
         },
         {
-          "caller": "0xdBdbAE304FBa6b93a9Cdc90326A5FAdC1c2A1489",
+          "caller": "0xA312aCF89c09fb49835bb7f6db3448b2f5593e88",
           "comment": "f() -> 2",
           "instance": "C",
           "method": "f()",
@@ -46,6 +48,6 @@
     "C": "block_number.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

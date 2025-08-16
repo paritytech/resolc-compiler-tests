@@ -4,7 +4,7 @@
       "name": "delete_removes_bytes_data",
       "inputs": [
         {
-          "caller": "0x0c575B9fF5795667a48A403628129908Ae131363",
+          "caller": "0x9cBd71E0e723De216671eE0adCE0ad702f2DA9B5",
           "comment": "(): 7 ->",
           "instance": "c",
           "method": "#fallback",
@@ -19,10 +19,10 @@
           "comment": "storageEmpty -> 0",
           "address": "c.address",
           "is_storage_empty": false,
-          "caller": "0x0f17CcAb520BcF1c9Bd0688117de56e950E67f37"
+          "caller": "0xC7B8e6aaC8561264f4FacA1154D8a3F0598F5E49"
         },
         {
-          "caller": "0x0c575B9fF5795667a48A403628129908Ae131363",
+          "caller": "0x9cBd71E0e723De216671eE0adCE0ad702f2DA9B5",
           "comment": "del(): 7 -> true",
           "instance": "c",
           "method": "del()",
@@ -40,7 +40,7 @@
           "comment": "storageEmpty -> 1",
           "address": "c.address",
           "is_storage_empty": true,
-          "caller": "0x0f17CcAb520BcF1c9Bd0688117de56e950E67f37"
+          "caller": "0xC7B8e6aaC8561264f4FacA1154D8a3F0598F5E49"
         }
       ]
     }
@@ -49,6 +49,6 @@
     "c": "delete_removes_bytes_data.sol:c"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

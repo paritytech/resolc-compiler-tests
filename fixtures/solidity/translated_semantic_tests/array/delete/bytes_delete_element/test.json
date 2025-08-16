@@ -4,7 +4,7 @@
       "name": "bytes_delete_element",
       "inputs": [
         {
-          "caller": "0x3dDabFe6e8DB4D72159c14E18C5299b0A224F569",
+          "caller": "0x7829A3FF31f77dEce1FdbcBF74E0ca92E5F61010",
           "comment": "test1() -> true; gas irOptimized: 218449; gas legacy: 242263; gas legacyOptimized: 241182",
           "instance": "c",
           "method": "test1()",
@@ -23,6 +23,6 @@
     "c": "bytes_delete_element.sol:c"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

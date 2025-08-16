@@ -4,7 +4,7 @@
       "name": "calling_uninitialized_function_in_detail",
       "inputs": [
         {
-          "caller": "0x8E034b46aB96785b3aa1Ef570f6134756EB99C46",
+          "caller": "0x1774f6563C621D83b79F13561EA367387ab0ccC8",
           "comment": "t() -> FAILURE, hex\"4e487b71\", 0x51",
           "instance": "C",
           "method": "t()",
@@ -24,6 +24,6 @@
     "C": "calling_uninitialized_function_in_detail.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

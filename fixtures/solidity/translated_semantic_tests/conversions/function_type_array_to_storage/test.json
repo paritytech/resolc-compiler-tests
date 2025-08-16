@@ -4,7 +4,7 @@
       "name": "function_type_array_to_storage",
       "inputs": [
         {
-          "caller": "0xE4038Bf99cdEC2513df22F57BCA38Ac8a46b3E98",
+          "caller": "0xA7EAEA8d99522258197DDA9422222fbf156bb3a9",
           "comment": "testViewToDefault() -> 12, 22",
           "instance": "C",
           "method": "testViewToDefault()",
@@ -18,7 +18,7 @@
           }
         },
         {
-          "caller": "0xE4038Bf99cdEC2513df22F57BCA38Ac8a46b3E98",
+          "caller": "0xA7EAEA8d99522258197DDA9422222fbf156bb3a9",
           "comment": "testPureToDefault() -> 13, 23",
           "instance": "C",
           "method": "testPureToDefault()",
@@ -32,7 +32,7 @@
           }
         },
         {
-          "caller": "0xE4038Bf99cdEC2513df22F57BCA38Ac8a46b3E98",
+          "caller": "0xA7EAEA8d99522258197DDA9422222fbf156bb3a9",
           "comment": "testPureToView() -> 13, 23",
           "instance": "C",
           "method": "testPureToView()",
@@ -52,6 +52,6 @@
     "C": "function_type_array_to_storage.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

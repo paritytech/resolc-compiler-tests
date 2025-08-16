@@ -4,7 +4,7 @@
       "name": "bool_conversion_v1",
       "inputs": [
         {
-          "caller": "0x5415c45e539fa1D0E3b81C12e706F4087a04c16C",
+          "caller": "0xC5229a9Aba6247D2B4ab61954735A972D08A74aF",
           "comment": "f(bool): 0x0 -> 0x0",
           "instance": "C",
           "method": "f(bool)",
@@ -19,7 +19,7 @@
           }
         },
         {
-          "caller": "0x5415c45e539fa1D0E3b81C12e706F4087a04c16C",
+          "caller": "0xC5229a9Aba6247D2B4ab61954735A972D08A74aF",
           "comment": "f(bool): 0x1 -> 0x1",
           "instance": "C",
           "method": "f(bool)",
@@ -34,7 +34,7 @@
           }
         },
         {
-          "caller": "0x5415c45e539fa1D0E3b81C12e706F4087a04c16C",
+          "caller": "0xC5229a9Aba6247D2B4ab61954735A972D08A74aF",
           "comment": "f(bool): 0x2 -> 0x1",
           "instance": "C",
           "method": "f(bool)",
@@ -49,7 +49,7 @@
           }
         },
         {
-          "caller": "0x5415c45e539fa1D0E3b81C12e706F4087a04c16C",
+          "caller": "0xC5229a9Aba6247D2B4ab61954735A972D08A74aF",
           "comment": "f(bool): 0x3 -> 0x1",
           "instance": "C",
           "method": "f(bool)",
@@ -64,7 +64,7 @@
           }
         },
         {
-          "caller": "0x5415c45e539fa1D0E3b81C12e706F4087a04c16C",
+          "caller": "0xC5229a9Aba6247D2B4ab61954735A972D08A74aF",
           "comment": "f(bool): 0xff -> 0x1",
           "instance": "C",
           "method": "f(bool)",
@@ -79,7 +79,7 @@
           }
         },
         {
-          "caller": "0x5415c45e539fa1D0E3b81C12e706F4087a04c16C",
+          "caller": "0xC5229a9Aba6247D2B4ab61954735A972D08A74aF",
           "comment": "g(bool): 0x0 -> 0x0",
           "instance": "C",
           "method": "g(bool)",
@@ -94,7 +94,7 @@
           }
         },
         {
-          "caller": "0x5415c45e539fa1D0E3b81C12e706F4087a04c16C",
+          "caller": "0xC5229a9Aba6247D2B4ab61954735A972D08A74aF",
           "comment": "g(bool): 0x1 -> 0x1",
           "instance": "C",
           "method": "g(bool)",
@@ -109,7 +109,7 @@
           }
         },
         {
-          "caller": "0x5415c45e539fa1D0E3b81C12e706F4087a04c16C",
+          "caller": "0xC5229a9Aba6247D2B4ab61954735A972D08A74aF",
           "comment": "g(bool): 0x2 -> 0x1",
           "instance": "C",
           "method": "g(bool)",
@@ -124,7 +124,7 @@
           }
         },
         {
-          "caller": "0x5415c45e539fa1D0E3b81C12e706F4087a04c16C",
+          "caller": "0xC5229a9Aba6247D2B4ab61954735A972D08A74aF",
           "comment": "g(bool): 0x3 -> 0x1",
           "instance": "C",
           "method": "g(bool)",
@@ -139,7 +139,7 @@
           }
         },
         {
-          "caller": "0x5415c45e539fa1D0E3b81C12e706F4087a04c16C",
+          "caller": "0xC5229a9Aba6247D2B4ab61954735A972D08A74aF",
           "comment": "g(bool): 0xff -> 0x1",
           "instance": "C",
           "method": "g(bool)",
@@ -160,6 +160,6 @@
     "C": "bool_conversion_v1.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

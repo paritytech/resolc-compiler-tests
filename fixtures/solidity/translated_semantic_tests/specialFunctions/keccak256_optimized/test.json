@@ -4,7 +4,7 @@
       "name": "keccak256_optimized",
       "inputs": [
         {
-          "caller": "0x18e17CAb792bc6Fddc73f8A0247F8BFCf0dA49AF",
+          "caller": "0xf78BcabaD248F0937bdcFb1b9c21Fc403D176860",
           "comment": "short() -> true",
           "instance": "C",
           "method": "short()",
@@ -17,7 +17,7 @@
           }
         },
         {
-          "caller": "0x18e17CAb792bc6Fddc73f8A0247F8BFCf0dA49AF",
+          "caller": "0xf78BcabaD248F0937bdcFb1b9c21Fc403D176860",
           "comment": "long() -> true, true",
           "instance": "C",
           "method": "long()",
@@ -37,6 +37,6 @@
     "C": "keccak256_optimized.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

@@ -4,7 +4,7 @@
       "name": "import_overloaded_function",
       "inputs": [
         {
-          "caller": "0xa5Cec5E029b482c4ed0D307Ced9E33A108D931B3",
+          "caller": "0x87c4acc4593674fD6d263539B6eda5A4f63c0560",
           "comment": "f() -> 1, 2",
           "instance": "C",
           "method": "f()",
@@ -24,6 +24,6 @@
     "C": "B.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

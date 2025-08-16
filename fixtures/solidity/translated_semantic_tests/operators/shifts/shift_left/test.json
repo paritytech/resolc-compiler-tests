@@ -4,7 +4,7 @@
       "name": "shift_left",
       "inputs": [
         {
-          "caller": "0xB055D20faa7c557a699A9FEF9D4e5C0244865d38",
+          "caller": "0x9775bDeD05dc2a322de42aafB7800f45c983383B",
           "comment": "f(uint256,uint256): 0x4266, 0x0 -> 0x4266",
           "instance": "C",
           "method": "f(uint256,uint256)",
@@ -20,7 +20,7 @@
           }
         },
         {
-          "caller": "0xB055D20faa7c557a699A9FEF9D4e5C0244865d38",
+          "caller": "0x9775bDeD05dc2a322de42aafB7800f45c983383B",
           "comment": "f(uint256,uint256): 0x4266, 0x8 -> 0x426600",
           "instance": "C",
           "method": "f(uint256,uint256)",
@@ -36,7 +36,7 @@
           }
         },
         {
-          "caller": "0xB055D20faa7c557a699A9FEF9D4e5C0244865d38",
+          "caller": "0x9775bDeD05dc2a322de42aafB7800f45c983383B",
           "comment": "f(uint256,uint256): 0x4266, 0x10 -> 0x42660000",
           "instance": "C",
           "method": "f(uint256,uint256)",
@@ -52,7 +52,7 @@
           }
         },
         {
-          "caller": "0xB055D20faa7c557a699A9FEF9D4e5C0244865d38",
+          "caller": "0x9775bDeD05dc2a322de42aafB7800f45c983383B",
           "comment": "f(uint256,uint256): 0x4266, 0x11 -> 0x84cc0000",
           "instance": "C",
           "method": "f(uint256,uint256)",
@@ -68,7 +68,7 @@
           }
         },
         {
-          "caller": "0xB055D20faa7c557a699A9FEF9D4e5C0244865d38",
+          "caller": "0x9775bDeD05dc2a322de42aafB7800f45c983383B",
           "comment": "f(uint256,uint256): 0x4266, 0xf0 -> 0x4266000000000000000000000000000000000000000000000000000000000000",
           "instance": "C",
           "method": "f(uint256,uint256)",
@@ -84,7 +84,7 @@
           }
         },
         {
-          "caller": "0xB055D20faa7c557a699A9FEF9D4e5C0244865d38",
+          "caller": "0x9775bDeD05dc2a322de42aafB7800f45c983383B",
           "comment": "f(uint256,uint256): 0x4266, 0x100 -> 0",
           "instance": "C",
           "method": "f(uint256,uint256)",
@@ -106,6 +106,6 @@
     "C": "shift_left.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

@@ -26,6 +26,6 @@
     "test": "mapping_local_compound_assignment.sol:test"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

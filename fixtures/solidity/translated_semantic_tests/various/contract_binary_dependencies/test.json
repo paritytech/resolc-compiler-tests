@@ -4,7 +4,7 @@
       "name": "contract_binary_dependencies",
       "inputs": [
         {
-          "caller": "0x7b2f7c677A9BA526074738b0Fbe9837E35939F88",
+          "caller": "0xEFE70F5f8b26d9818915820C5C0C46D35D1d2774",
           "comment": "constructor() ->; gas irOptimized: 100415",
           "instance": "C",
           "method": "#deployer",
@@ -20,6 +20,6 @@
     "C": "contract_binary_dependencies.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

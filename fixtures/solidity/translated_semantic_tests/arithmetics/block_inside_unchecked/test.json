@@ -23,6 +23,6 @@
     "C": "block_inside_unchecked.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

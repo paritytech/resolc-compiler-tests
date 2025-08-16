@@ -23,6 +23,6 @@
     "C": "ether.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

@@ -4,7 +4,7 @@
       "name": "struct_reference",
       "inputs": [
         {
-          "caller": "0xE2c4A295D6A0DAA455a5d49F30B881E69165DA8f",
+          "caller": "0xC7346965bfeCFa8A065D7C0A55FbCD15d8314E0b",
           "comment": "check() -> false",
           "instance": "test",
           "method": "check()",
@@ -17,7 +17,7 @@
           }
         },
         {
-          "caller": "0xE2c4A295D6A0DAA455a5d49F30B881E69165DA8f",
+          "caller": "0xC7346965bfeCFa8A065D7C0A55FbCD15d8314E0b",
           "comment": "set() ->",
           "instance": "test",
           "method": "set()",
@@ -27,7 +27,7 @@
           }
         },
         {
-          "caller": "0xE2c4A295D6A0DAA455a5d49F30B881E69165DA8f",
+          "caller": "0xC7346965bfeCFa8A065D7C0A55FbCD15d8314E0b",
           "comment": "check() -> true",
           "instance": "test",
           "method": "check()",
@@ -46,6 +46,6 @@
     "test": "struct_reference.sol:test"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

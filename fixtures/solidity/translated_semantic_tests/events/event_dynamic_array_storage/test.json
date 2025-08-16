@@ -36,6 +36,6 @@
     "C": "event_dynamic_array_storage.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

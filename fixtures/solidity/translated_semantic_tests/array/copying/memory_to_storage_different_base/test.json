@@ -4,7 +4,7 @@
       "name": "memory_to_storage_different_base",
       "inputs": [
         {
-          "caller": "0xD7e8E307B7deEBC52bf234882a7646640A06D146",
+          "caller": "0x609350dE01D3255c6805Ec4Ade9880887af7c535",
           "comment": "f() -> 3, \"abcd\", \"bcde\", \"cdef\"",
           "instance": "C",
           "method": "f()",
@@ -26,6 +26,6 @@
     "C": "memory_to_storage_different_base.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

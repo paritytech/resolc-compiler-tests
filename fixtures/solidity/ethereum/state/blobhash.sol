@@ -5,6 +5,8 @@ contract C {
 }
 // ====
 // EVMVersion: >=cancun
+// ignore: true
+// comment: We do not add any blobs to our transactions and therefore this test fails.
 // ----
 // f(uint256): 0 -> 0x0100000000000000000000000000000000000000000000000000000000000001
 // f(uint256): 1 -> 0x0100000000000000000000000000000000000000000000000000000000000002

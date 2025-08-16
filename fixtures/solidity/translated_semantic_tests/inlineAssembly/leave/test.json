@@ -4,7 +4,7 @@
       "name": "leave",
       "inputs": [
         {
-          "caller": "0x28B6C95772B0957a02F8E652B60f86B242849325",
+          "caller": "0x207c9cEF6B38FB0cd2f2847e4971bE76D5bCe033",
           "comment": "f() -> 2",
           "instance": "C",
           "method": "f()",
@@ -23,6 +23,6 @@
     "C": "leave.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

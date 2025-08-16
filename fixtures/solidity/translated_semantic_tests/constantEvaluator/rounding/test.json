@@ -4,7 +4,7 @@
       "name": "rounding",
       "inputs": [
         {
-          "caller": "0x8247CDE48C7e7c4f95dfF6647b566a533934D224",
+          "caller": "0x777b72429357CbA6628b53eF68F295Cf9214a983",
           "comment": "f() -> 2, 2, 2, 2",
           "instance": "C",
           "method": "f()",
@@ -26,6 +26,6 @@
     "C": "rounding.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

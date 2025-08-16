@@ -4,7 +4,7 @@
       "name": "cleanup_in_compound_assign",
       "inputs": [
         {
-          "caller": "0x75BD57C68d7482697Ae08371bb94BD64f728C443",
+          "caller": "0x4BFd618F42bB85EF8D0fCCB64867668D2C320905",
           "comment": "test() -> 0xff, 0xff",
           "instance": "C",
           "method": "test()",
@@ -24,6 +24,6 @@
     "C": "cleanup_in_compound_assign.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

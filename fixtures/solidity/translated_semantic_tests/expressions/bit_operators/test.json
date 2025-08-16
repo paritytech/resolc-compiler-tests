@@ -25,6 +25,6 @@
     "test": "bit_operators.sol:test"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

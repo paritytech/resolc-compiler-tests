@@ -4,7 +4,7 @@
       "name": "shift_cleanup_garbled",
       "inputs": [
         {
-          "caller": "0x9c4685B7ef78c9f007f1b21f6762b00A347f30EB",
+          "caller": "0x98e57ca396FDAbD82Af44b90Bf7321Ccb94b0067",
           "comment": "f() -> 0x0",
           "instance": "C",
           "method": "f()",
@@ -23,6 +23,6 @@
     "C": "shift_cleanup_garbled.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

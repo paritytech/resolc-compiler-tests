@@ -4,7 +4,7 @@
       "name": "super_alone",
       "inputs": [
         {
-          "caller": "0x9535828bBbE5436717f44dfFd6e2d162Be84987c",
+          "caller": "0xa77c5b17338fE12D922A0ca49A632EDD6f385835",
           "comment": "f() ->",
           "instance": "A",
           "method": "f()",
@@ -20,6 +20,6 @@
     "A": "super_alone.sol:A"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

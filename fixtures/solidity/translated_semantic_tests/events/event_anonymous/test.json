@@ -26,6 +26,6 @@
     "ClientReceipt": "event_anonymous.sol:ClientReceipt"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

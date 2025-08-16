@@ -1,10 +1,12 @@
 {
+  "comment": "block timestamp is not a constant",
+  "ignore": true,
   "cases": [
     {
       "name": "block_timestamp",
       "inputs": [
         {
-          "caller": "0xc514a69465f97d2F4086cc2d465aDDd3d2810A85",
+          "caller": "0x40CA26F159a74B58B7b6885F447e09AE1f384524",
           "comment": "constructor()",
           "instance": "C",
           "method": "#deployer",
@@ -14,7 +16,7 @@
           }
         },
         {
-          "caller": "0xc514a69465f97d2F4086cc2d465aDDd3d2810A85",
+          "caller": "0x40CA26F159a74B58B7b6885F447e09AE1f384524",
           "comment": "f() -> 0xdeadbeef",
           "instance": "C",
           "method": "f()",
@@ -27,7 +29,7 @@
           }
         },
         {
-          "caller": "0xc514a69465f97d2F4086cc2d465aDDd3d2810A85",
+          "caller": "0x40CA26F159a74B58B7b6885F447e09AE1f384524",
           "comment": "f() -> 0xdeadbeef",
           "instance": "C",
           "method": "f()",
@@ -46,6 +48,6 @@
     "C": "block_timestamp.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

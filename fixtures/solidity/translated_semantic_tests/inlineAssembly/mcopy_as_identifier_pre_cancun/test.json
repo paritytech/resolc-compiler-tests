@@ -4,7 +4,7 @@
       "name": "mcopy_as_identifier_pre_cancun",
       "inputs": [
         {
-          "caller": "0x231175910d48b0Efb923413d454fa9028C180cde",
+          "caller": "0x28B6C95772B0957a02F8E652B60f86B242849325",
           "comment": "f() -> 1",
           "instance": "C",
           "method": "f()",
@@ -17,7 +17,7 @@
           }
         },
         {
-          "caller": "0x231175910d48b0Efb923413d454fa9028C180cde",
+          "caller": "0x28B6C95772B0957a02F8E652B60f86B242849325",
           "comment": "g() -> 1000",
           "instance": "C",
           "method": "g()",
@@ -36,7 +36,7 @@
     "C": "mcopy_as_identifier_pre_cancun.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ],
   "required_evm_version": "<cancun"
 }

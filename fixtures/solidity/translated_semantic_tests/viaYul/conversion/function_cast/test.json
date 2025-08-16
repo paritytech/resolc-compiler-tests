@@ -54,6 +54,6 @@
     "C": "function_cast.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

@@ -114,6 +114,6 @@
     "test": "int.sol:test"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

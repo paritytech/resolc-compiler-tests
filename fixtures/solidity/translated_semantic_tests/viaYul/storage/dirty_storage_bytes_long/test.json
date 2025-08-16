@@ -23,6 +23,6 @@
     "C": "dirty_storage_bytes_long.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

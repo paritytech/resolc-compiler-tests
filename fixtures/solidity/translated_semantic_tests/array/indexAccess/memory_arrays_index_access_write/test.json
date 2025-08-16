@@ -4,7 +4,7 @@
       "name": "memory_arrays_index_access_write",
       "inputs": [
         {
-          "caller": "0x97c004220a1c96F377C58AFc2ebAb589E25455Ef",
+          "caller": "0x3b23ec1d122f4e51b02db674fadDF40737Bc14C4",
           "comment": "f() -> 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x07",
           "instance": "Test",
           "method": "f()",
@@ -34,6 +34,6 @@
     "Test": "memory_arrays_index_access_write.sol:Test"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

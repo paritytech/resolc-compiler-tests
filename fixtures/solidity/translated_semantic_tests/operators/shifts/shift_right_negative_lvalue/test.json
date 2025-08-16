@@ -4,7 +4,7 @@
       "name": "shift_right_negative_lvalue",
       "inputs": [
         {
-          "caller": "0xbb7E257E6554acf5b35b26EC218212D799D51a5f",
+          "caller": "0x078f4C6E82c95193fEfc0f36FB433b51BdeAD394",
           "comment": "f(int256,uint256): -4266, 0 -> -4266",
           "instance": "C",
           "method": "f(int256,uint256)",
@@ -20,7 +20,7 @@
           }
         },
         {
-          "caller": "0xbb7E257E6554acf5b35b26EC218212D799D51a5f",
+          "caller": "0x078f4C6E82c95193fEfc0f36FB433b51BdeAD394",
           "comment": "f(int256,uint256): -4266, 1 -> -2133",
           "instance": "C",
           "method": "f(int256,uint256)",
@@ -36,7 +36,7 @@
           }
         },
         {
-          "caller": "0xbb7E257E6554acf5b35b26EC218212D799D51a5f",
+          "caller": "0x078f4C6E82c95193fEfc0f36FB433b51BdeAD394",
           "comment": "f(int256,uint256): -4266, 4 -> -267",
           "instance": "C",
           "method": "f(int256,uint256)",
@@ -52,7 +52,7 @@
           }
         },
         {
-          "caller": "0xbb7E257E6554acf5b35b26EC218212D799D51a5f",
+          "caller": "0x078f4C6E82c95193fEfc0f36FB433b51BdeAD394",
           "comment": "f(int256,uint256): -4266, 8 -> -17",
           "instance": "C",
           "method": "f(int256,uint256)",
@@ -68,7 +68,7 @@
           }
         },
         {
-          "caller": "0xbb7E257E6554acf5b35b26EC218212D799D51a5f",
+          "caller": "0x078f4C6E82c95193fEfc0f36FB433b51BdeAD394",
           "comment": "f(int256,uint256): -4266, 16 -> -1",
           "instance": "C",
           "method": "f(int256,uint256)",
@@ -84,7 +84,7 @@
           }
         },
         {
-          "caller": "0xbb7E257E6554acf5b35b26EC218212D799D51a5f",
+          "caller": "0x078f4C6E82c95193fEfc0f36FB433b51BdeAD394",
           "comment": "f(int256,uint256): -4266, 17 -> -1",
           "instance": "C",
           "method": "f(int256,uint256)",
@@ -100,7 +100,7 @@
           }
         },
         {
-          "caller": "0xbb7E257E6554acf5b35b26EC218212D799D51a5f",
+          "caller": "0x078f4C6E82c95193fEfc0f36FB433b51BdeAD394",
           "comment": "f(int256,uint256): -4267, 0 -> -4267",
           "instance": "C",
           "method": "f(int256,uint256)",
@@ -116,7 +116,7 @@
           }
         },
         {
-          "caller": "0xbb7E257E6554acf5b35b26EC218212D799D51a5f",
+          "caller": "0x078f4C6E82c95193fEfc0f36FB433b51BdeAD394",
           "comment": "f(int256,uint256): -4267, 1 -> -2134",
           "instance": "C",
           "method": "f(int256,uint256)",
@@ -132,7 +132,7 @@
           }
         },
         {
-          "caller": "0xbb7E257E6554acf5b35b26EC218212D799D51a5f",
+          "caller": "0x078f4C6E82c95193fEfc0f36FB433b51BdeAD394",
           "comment": "f(int256,uint256): -4267, 4 -> -267",
           "instance": "C",
           "method": "f(int256,uint256)",
@@ -148,7 +148,7 @@
           }
         },
         {
-          "caller": "0xbb7E257E6554acf5b35b26EC218212D799D51a5f",
+          "caller": "0x078f4C6E82c95193fEfc0f36FB433b51BdeAD394",
           "comment": "f(int256,uint256): -4267, 8 -> -17",
           "instance": "C",
           "method": "f(int256,uint256)",
@@ -164,7 +164,7 @@
           }
         },
         {
-          "caller": "0xbb7E257E6554acf5b35b26EC218212D799D51a5f",
+          "caller": "0x078f4C6E82c95193fEfc0f36FB433b51BdeAD394",
           "comment": "f(int256,uint256): -4267, 16 -> -1",
           "instance": "C",
           "method": "f(int256,uint256)",
@@ -180,7 +180,7 @@
           }
         },
         {
-          "caller": "0xbb7E257E6554acf5b35b26EC218212D799D51a5f",
+          "caller": "0x078f4C6E82c95193fEfc0f36FB433b51BdeAD394",
           "comment": "f(int256,uint256): -4267, 17 -> -1",
           "instance": "C",
           "method": "f(int256,uint256)",
@@ -202,6 +202,6 @@
     "C": "shift_right_negative_lvalue.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

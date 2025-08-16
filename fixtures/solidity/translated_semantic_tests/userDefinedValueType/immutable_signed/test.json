@@ -4,7 +4,7 @@
       "name": "immutable_signed",
       "inputs": [
         {
-          "caller": "0x6374caCa1711608F9AD1Dc0cfde72C9d75CF1603",
+          "caller": "0x8F090523A30ba25bdF59EFf42b5A8B9E58395b07",
           "comment": "direct() -> -2, 0x6162000000000000000000000000000000000000000000000000000000000000",
           "instance": "C",
           "method": "direct()",
@@ -18,7 +18,7 @@
           }
         },
         {
-          "caller": "0x6374caCa1711608F9AD1Dc0cfde72C9d75CF1603",
+          "caller": "0x8F090523A30ba25bdF59EFf42b5A8B9E58395b07",
           "comment": "viaasm() -> 0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe, 0x6162000000000000000000000000000000000000000000000000000000000000",
           "instance": "C",
           "method": "viaasm()",
@@ -38,6 +38,6 @@
     "C": "immutable_signed.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

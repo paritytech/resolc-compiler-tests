@@ -4,7 +4,7 @@
       "name": "user_defined_types_mapping_storage",
       "inputs": [
         {
-          "caller": "0x7Da81Cc0B7FDb1c46eE6A8c261560EEFb78639B1",
+          "caller": "0xA2642070f1146D694839956006EE24d07dA26ED3",
           "comment": "testAB() -> true",
           "instance": "C",
           "method": "testAB()",
@@ -17,7 +17,7 @@
           }
         },
         {
-          "caller": "0x7Da81Cc0B7FDb1c46eE6A8c261560EEFb78639B1",
+          "caller": "0xA2642070f1146D694839956006EE24d07dA26ED3",
           "comment": "testUint() -> true",
           "instance": "C",
           "method": "testUint()",
@@ -42,6 +42,6 @@
     }
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

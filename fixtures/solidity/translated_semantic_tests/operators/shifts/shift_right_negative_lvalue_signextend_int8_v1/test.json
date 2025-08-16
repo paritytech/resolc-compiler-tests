@@ -4,7 +4,7 @@
       "name": "shift_right_negative_lvalue_signextend_int8_v1",
       "inputs": [
         {
-          "caller": "0xBd7dB03210E124aFE9493d4aB0E16C07391Bda48",
+          "caller": "0xA17af3a0DcaA1C325a35f4738135AC8cD8d9e8ea",
           "comment": "f(int8,uint8): 0x99, 0x00 -> 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff99",
           "instance": "C",
           "method": "f(int8,uint8)",
@@ -20,7 +20,7 @@
           }
         },
         {
-          "caller": "0xBd7dB03210E124aFE9493d4aB0E16C07391Bda48",
+          "caller": "0xA17af3a0DcaA1C325a35f4738135AC8cD8d9e8ea",
           "comment": "f(int8,uint8): 0x99, 0x01 -> 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffcc",
           "instance": "C",
           "method": "f(int8,uint8)",
@@ -36,7 +36,7 @@
           }
         },
         {
-          "caller": "0xBd7dB03210E124aFE9493d4aB0E16C07391Bda48",
+          "caller": "0xA17af3a0DcaA1C325a35f4738135AC8cD8d9e8ea",
           "comment": "f(int8,uint8): 0x99, 0x02 -> 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe6",
           "instance": "C",
           "method": "f(int8,uint8)",
@@ -52,7 +52,7 @@
           }
         },
         {
-          "caller": "0xBd7dB03210E124aFE9493d4aB0E16C07391Bda48",
+          "caller": "0xA17af3a0DcaA1C325a35f4738135AC8cD8d9e8ea",
           "comment": "f(int8,uint8): 0x99, 0x04 -> 0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff9",
           "instance": "C",
           "method": "f(int8,uint8)",
@@ -68,7 +68,7 @@
           }
         },
         {
-          "caller": "0xBd7dB03210E124aFE9493d4aB0E16C07391Bda48",
+          "caller": "0xA17af3a0DcaA1C325a35f4738135AC8cD8d9e8ea",
           "comment": "f(int8,uint8): 0x99, 0x08 -> 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
           "instance": "C",
           "method": "f(int8,uint8)",
@@ -90,6 +90,6 @@
     "C": "shift_right_negative_lvalue_signextend_int8_v1.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

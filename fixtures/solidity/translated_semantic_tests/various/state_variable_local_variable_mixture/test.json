@@ -4,7 +4,7 @@
       "name": "state_variable_local_variable_mixture",
       "inputs": [
         {
-          "caller": "0xce95F6F5FFf53e403718ec588f9BBe5aE2D49206",
+          "caller": "0x258e14780CF61c5A5b9541046d5c0A010baFad51",
           "comment": "a() -> 2",
           "instance": "A",
           "method": "a()",
@@ -23,6 +23,6 @@
     "A": "state_variable_local_variable_mixture.sol:A"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

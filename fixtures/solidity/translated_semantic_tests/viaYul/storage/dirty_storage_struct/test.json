@@ -23,6 +23,6 @@
     "C": "dirty_storage_struct.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

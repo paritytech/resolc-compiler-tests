@@ -63,6 +63,6 @@
     "C": "function_delete_storage.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

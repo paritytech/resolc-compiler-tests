@@ -4,7 +4,7 @@
       "name": "calldata_internal_multi_fixed_array",
       "inputs": [
         {
-          "caller": "0xc76f012e39424426436D892A3394606963618Ff2",
+          "caller": "0xe8d43A4D44Ff579436F47B8C7DdECd3df04546AE",
           "comment": "g() -> 7, 8",
           "instance": "C",
           "method": "g()",
@@ -24,6 +24,6 @@
     "C": "calldata_internal_multi_fixed_array.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

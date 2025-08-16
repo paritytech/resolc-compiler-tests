@@ -4,7 +4,7 @@
       "name": "function_types_sig",
       "inputs": [
         {
-          "caller": "0xfD646B43e978266CF7A6B845B99b806Fa7d51A34",
+          "caller": "0x257c50c0cFc863b5Dbc9aFe4e78F1ff5aF69bDeA",
           "comment": "f() -> 0x26121ff000000000000000000000000000000000000000000000000000000000",
           "instance": "C",
           "method": "f()",
@@ -17,7 +17,7 @@
           }
         },
         {
-          "caller": "0xfD646B43e978266CF7A6B845B99b806Fa7d51A34",
+          "caller": "0x257c50c0cFc863b5Dbc9aFe4e78F1ff5aF69bDeA",
           "comment": "g() -> 0x26121ff000000000000000000000000000000000000000000000000000000000",
           "instance": "C",
           "method": "g()",
@@ -30,7 +30,7 @@
           }
         },
         {
-          "caller": "0xfD646B43e978266CF7A6B845B99b806Fa7d51A34",
+          "caller": "0x257c50c0cFc863b5Dbc9aFe4e78F1ff5aF69bDeA",
           "comment": "h() -> 0x26121ff000000000000000000000000000000000000000000000000000000000",
           "instance": "C",
           "method": "h()",
@@ -43,7 +43,7 @@
           }
         },
         {
-          "caller": "0xfD646B43e978266CF7A6B845B99b806Fa7d51A34",
+          "caller": "0x257c50c0cFc863b5Dbc9aFe4e78F1ff5aF69bDeA",
           "comment": "i() -> 0x0c55699c00000000000000000000000000000000000000000000000000000000",
           "instance": "C",
           "method": "i()",
@@ -62,6 +62,6 @@
     "C": "function_types_sig.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

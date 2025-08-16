@@ -4,7 +4,7 @@
       "name": "array_pop",
       "inputs": [
         {
-          "caller": "0x9009988B61eA2C09914BbDf897d1ee4e95941DBe",
+          "caller": "0x3F551Cd1bc7559b4E7632427cc7ECCBC35907Eb3",
           "comment": "test() -> 1, 0",
           "instance": "c",
           "method": "test()",
@@ -24,6 +24,6 @@
     "c": "array_pop.sol:c"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

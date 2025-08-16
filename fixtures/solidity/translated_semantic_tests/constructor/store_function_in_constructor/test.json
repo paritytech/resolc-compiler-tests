@@ -38,6 +38,6 @@
     "C": "store_function_in_constructor.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

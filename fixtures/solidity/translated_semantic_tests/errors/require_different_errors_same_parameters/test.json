@@ -46,6 +46,6 @@
     "C": "require_different_errors_same_parameters.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

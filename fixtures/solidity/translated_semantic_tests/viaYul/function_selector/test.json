@@ -38,6 +38,6 @@
     "C": "function_selector.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

@@ -4,7 +4,7 @@
       "name": "constant_var_as_array_length",
       "inputs": [
         {
-          "caller": "0x1F6ebA5f3AD1d902F0e4E39077F58a7C9e4Eb966",
+          "caller": "0x0f035C5D4b60EFB17f6B1e9922cD8dB52E4662Ca",
           "comment": "constructor(): 1, 2, 3 ->; gas irOptimized: 124991; gas irOptimized code: 14800; gas legacy: 134317; gas legacy code: 46200; gas legacyOptimized: 127166; gas legacyOptimized code: 23400",
           "instance": "C",
           "method": "#deployer",
@@ -18,7 +18,7 @@
           }
         },
         {
-          "caller": "0x1F6ebA5f3AD1d902F0e4E39077F58a7C9e4Eb966",
+          "caller": "0x0f035C5D4b60EFB17f6B1e9922cD8dB52E4662Ca",
           "comment": "a(uint256): 0 -> 1",
           "instance": "C",
           "method": "a(uint256)",
@@ -33,7 +33,7 @@
           }
         },
         {
-          "caller": "0x1F6ebA5f3AD1d902F0e4E39077F58a7C9e4Eb966",
+          "caller": "0x0f035C5D4b60EFB17f6B1e9922cD8dB52E4662Ca",
           "comment": "a(uint256): 1 -> 2",
           "instance": "C",
           "method": "a(uint256)",
@@ -48,7 +48,7 @@
           }
         },
         {
-          "caller": "0x1F6ebA5f3AD1d902F0e4E39077F58a7C9e4Eb966",
+          "caller": "0x0f035C5D4b60EFB17f6B1e9922cD8dB52E4662Ca",
           "comment": "a(uint256): 2 -> 3",
           "instance": "C",
           "method": "a(uint256)",
@@ -69,6 +69,6 @@
     "C": "constant_var_as_array_length.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

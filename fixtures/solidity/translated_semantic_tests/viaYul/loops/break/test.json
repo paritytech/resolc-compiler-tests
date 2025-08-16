@@ -49,6 +49,6 @@
     "C": "break.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

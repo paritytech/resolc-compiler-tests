@@ -44,6 +44,6 @@
     "test": "conditional_expression_with_return_values.sol:test"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

@@ -4,7 +4,7 @@
       "name": "same_constants_different_files",
       "inputs": [
         {
-          "caller": "0x6f64f6D0d58ACABD288774e993d9caCFa3FC88eE",
+          "caller": "0x8105660Af15a4eB54Fa0571BC84DFBEC0294A99A",
           "comment": "f() -> 0x0d, 0x59, 0x59, 0x59",
           "instance": "C",
           "method": "f()",
@@ -26,6 +26,6 @@
     "C": "s2.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

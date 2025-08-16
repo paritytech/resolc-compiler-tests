@@ -4,7 +4,7 @@
       "name": "fallback_argument",
       "inputs": [
         {
-          "caller": "0x238882Ed0CA605E44021374bFD3b76Ed6e46c3fe",
+          "caller": "0xDCB85fA9B4CF0a8e40B77a3dF2f7dc5Ea8Dad8E4",
           "comment": "f() -> 0x01, 0x40, 0x00",
           "instance": "A",
           "method": "f()",
@@ -19,7 +19,7 @@
           }
         },
         {
-          "caller": "0x238882Ed0CA605E44021374bFD3b76Ed6e46c3fe",
+          "caller": "0xDCB85fA9B4CF0a8e40B77a3dF2f7dc5Ea8Dad8E4",
           "comment": "x() -> 3",
           "instance": "A",
           "method": "x()",
@@ -38,7 +38,7 @@
     "A": "fallback_argument.sol:A"
   },
   "modes": [
-    "E"
+    "E+"
   ],
   "required_evm_version": ">=byzantium"
 }

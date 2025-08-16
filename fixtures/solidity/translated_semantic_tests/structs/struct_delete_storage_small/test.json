@@ -4,7 +4,7 @@
       "name": "struct_delete_storage_small",
       "inputs": [
         {
-          "caller": "0x9B316f08f7a0182e626E3195Bda70875FeFD726C",
+          "caller": "0xc8ff52ecE34a58D1f56ab25A0D50e6350B44e739",
           "comment": "f() -> 0",
           "instance": "C",
           "method": "f()",
@@ -23,6 +23,6 @@
     "C": "struct_delete_storage_small.sol:C"
   },
   "modes": [
-    "Y"
+    "Y+"
   ]
 }

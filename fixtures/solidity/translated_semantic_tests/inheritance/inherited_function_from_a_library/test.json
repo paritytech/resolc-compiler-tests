@@ -4,7 +4,7 @@
       "name": "inherited_function_from_a_library",
       "inputs": [
         {
-          "caller": "0x4a0e93932653967b3d639f32068eeb5439c92F02",
+          "caller": "0xBb8A8FE4f12953a5840C6570d5e836079329BE46",
           "comment": "g() -> 1",
           "instance": "B",
           "method": "g()",
@@ -23,6 +23,6 @@
     "B": "inherited_function_from_a_library.sol:B"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

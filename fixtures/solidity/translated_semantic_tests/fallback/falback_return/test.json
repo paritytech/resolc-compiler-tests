@@ -4,7 +4,7 @@
       "name": "falback_return",
       "inputs": [
         {
-          "caller": "0x695eDC7280284Cb387E647B00A1C63e2af5116f5",
+          "caller": "0x0DaF524cFa0BbCE0EdfC71cf5A5d7AbBF6253157",
           "comment": "()",
           "instance": "A",
           "method": "#fallback",
@@ -14,7 +14,7 @@
           }
         },
         {
-          "caller": "0x695eDC7280284Cb387E647B00A1C63e2af5116f5",
+          "caller": "0x0DaF524cFa0BbCE0EdfC71cf5A5d7AbBF6253157",
           "comment": "x() -> 1",
           "instance": "A",
           "method": "x()",
@@ -27,7 +27,7 @@
           }
         },
         {
-          "caller": "0x695eDC7280284Cb387E647B00A1C63e2af5116f5",
+          "caller": "0x0DaF524cFa0BbCE0EdfC71cf5A5d7AbBF6253157",
           "comment": "()",
           "instance": "A",
           "method": "#fallback",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0x695eDC7280284Cb387E647B00A1C63e2af5116f5",
+          "caller": "0x0DaF524cFa0BbCE0EdfC71cf5A5d7AbBF6253157",
           "comment": "x() -> 2",
           "instance": "A",
           "method": "x()",
@@ -50,7 +50,7 @@
           }
         },
         {
-          "caller": "0x695eDC7280284Cb387E647B00A1C63e2af5116f5",
+          "caller": "0x0DaF524cFa0BbCE0EdfC71cf5A5d7AbBF6253157",
           "comment": "()",
           "instance": "A",
           "method": "#fallback",
@@ -60,7 +60,7 @@
           }
         },
         {
-          "caller": "0x695eDC7280284Cb387E647B00A1C63e2af5116f5",
+          "caller": "0x0DaF524cFa0BbCE0EdfC71cf5A5d7AbBF6253157",
           "comment": "x() -> 2",
           "instance": "A",
           "method": "x()",
@@ -73,7 +73,7 @@
           }
         },
         {
-          "caller": "0x695eDC7280284Cb387E647B00A1C63e2af5116f5",
+          "caller": "0x0DaF524cFa0BbCE0EdfC71cf5A5d7AbBF6253157",
           "comment": "()",
           "instance": "A",
           "method": "#fallback",
@@ -83,7 +83,7 @@
           }
         },
         {
-          "caller": "0x695eDC7280284Cb387E647B00A1C63e2af5116f5",
+          "caller": "0x0DaF524cFa0BbCE0EdfC71cf5A5d7AbBF6253157",
           "comment": "x() -> 2",
           "instance": "A",
           "method": "x()",
@@ -102,6 +102,6 @@
     "A": "falback_return.sol:A"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

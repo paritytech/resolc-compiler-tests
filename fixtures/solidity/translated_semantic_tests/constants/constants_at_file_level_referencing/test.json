@@ -4,7 +4,7 @@
       "name": "constants_at_file_level_referencing",
       "inputs": [
         {
-          "caller": "0x657551717B4045e2A31bf4f0Db82f5A131510Aff",
+          "caller": "0xd762E1dF1a61F5b70b30Cd74d3127489Af15D974",
           "comment": "f() -> 0x20, 3, \"\\x03\\x01\\x02\"",
           "instance": "C",
           "method": "f()",
@@ -19,7 +19,7 @@
           }
         },
         {
-          "caller": "0x657551717B4045e2A31bf4f0Db82f5A131510Aff",
+          "caller": "0xd762E1dF1a61F5b70b30Cd74d3127489Af15D974",
           "comment": "g() -> 0x20, 3, \"\\x03\\x01\\x02\"",
           "instance": "C",
           "method": "g()",
@@ -34,7 +34,7 @@
           }
         },
         {
-          "caller": "0x657551717B4045e2A31bf4f0Db82f5A131510Aff",
+          "caller": "0xd762E1dF1a61F5b70b30Cd74d3127489Af15D974",
           "comment": "h() -> 5",
           "instance": "C",
           "method": "h()",
@@ -47,7 +47,7 @@
           }
         },
         {
-          "caller": "0x657551717B4045e2A31bf4f0Db82f5A131510Aff",
+          "caller": "0xd762E1dF1a61F5b70b30Cd74d3127489Af15D974",
           "comment": "i() -> 0x20, 3, \"\\x03\\x01\\x02\"",
           "instance": "C",
           "method": "i()",
@@ -68,6 +68,6 @@
     "C": "s2.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

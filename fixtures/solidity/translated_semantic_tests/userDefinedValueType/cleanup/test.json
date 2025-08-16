@@ -4,7 +4,7 @@
       "name": "cleanup",
       "inputs": [
         {
-          "caller": "0xC30879024494ff81ca060407785dA27dAE9d2C10",
+          "caller": "0x62e5d4e77639c6b1c7EEb21c9A3bbdb5F87440e3",
           "comment": "ret() -> 0xff",
           "instance": "C",
           "method": "ret()",
@@ -17,7 +17,7 @@
           }
         },
         {
-          "caller": "0xC30879024494ff81ca060407785dA27dAE9d2C10",
+          "caller": "0x62e5d4e77639c6b1c7EEb21c9A3bbdb5F87440e3",
           "comment": "f(uint8): 0x1ff -> FAILURE",
           "instance": "C",
           "method": "f(uint8)",
@@ -29,7 +29,7 @@
           }
         },
         {
-          "caller": "0xC30879024494ff81ca060407785dA27dAE9d2C10",
+          "caller": "0x62e5d4e77639c6b1c7EEb21c9A3bbdb5F87440e3",
           "comment": "f(uint8): 0xff -> 0xff",
           "instance": "C",
           "method": "f(uint8)",
@@ -44,7 +44,7 @@
           }
         },
         {
-          "caller": "0xC30879024494ff81ca060407785dA27dAE9d2C10",
+          "caller": "0x62e5d4e77639c6b1c7EEb21c9A3bbdb5F87440e3",
           "comment": "mem() -> 0x20, 2, 0xff, 0xff",
           "instance": "C",
           "method": "mem()",
@@ -60,7 +60,7 @@
           }
         },
         {
-          "caller": "0xC30879024494ff81ca060407785dA27dAE9d2C10",
+          "caller": "0x62e5d4e77639c6b1c7EEb21c9A3bbdb5F87440e3",
           "comment": "stor() -> 1, 0xff, 2",
           "instance": "C",
           "method": "stor()",
@@ -81,6 +81,6 @@
     "C": "cleanup.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

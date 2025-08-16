@@ -4,7 +4,7 @@
       "name": "shift_right_garbled_signed_v2",
       "inputs": [
         {
-          "caller": "0xa4F3F9b825d75De870c7d793757D19c8171e68fe",
+          "caller": "0x542947cE62186c70973dD5030a008E79655047A2",
           "comment": "f(int8,uint8): 0x00, 0x03 -> 0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe",
           "instance": "C",
           "method": "f(int8,uint8)",
@@ -20,7 +20,7 @@
           }
         },
         {
-          "caller": "0xa4F3F9b825d75De870c7d793757D19c8171e68fe",
+          "caller": "0x542947cE62186c70973dD5030a008E79655047A2",
           "comment": "f(int8,uint8): 0x00, 0x04 -> 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
           "instance": "C",
           "method": "f(int8,uint8)",
@@ -36,7 +36,7 @@
           }
         },
         {
-          "caller": "0xa4F3F9b825d75De870c7d793757D19c8171e68fe",
+          "caller": "0x542947cE62186c70973dD5030a008E79655047A2",
           "comment": "f(int8,uint8): 0x00, 0xff -> 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
           "instance": "C",
           "method": "f(int8,uint8)",
@@ -52,7 +52,7 @@
           }
         },
         {
-          "caller": "0xa4F3F9b825d75De870c7d793757D19c8171e68fe",
+          "caller": "0x542947cE62186c70973dD5030a008E79655047A2",
           "comment": "f(int8,uint8): 0x00, 0x1003 -> FAILURE",
           "instance": "C",
           "method": "f(int8,uint8)",
@@ -65,7 +65,7 @@
           }
         },
         {
-          "caller": "0xa4F3F9b825d75De870c7d793757D19c8171e68fe",
+          "caller": "0x542947cE62186c70973dD5030a008E79655047A2",
           "comment": "f(int8,uint8): 0x00, 0x1004 -> FAILURE",
           "instance": "C",
           "method": "f(int8,uint8)",
@@ -78,7 +78,7 @@
           }
         },
         {
-          "caller": "0xa4F3F9b825d75De870c7d793757D19c8171e68fe",
+          "caller": "0x542947cE62186c70973dD5030a008E79655047A2",
           "comment": "g(int8,uint8): 0x00, 0x03 -> 0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe",
           "instance": "C",
           "method": "g(int8,uint8)",
@@ -94,7 +94,7 @@
           }
         },
         {
-          "caller": "0xa4F3F9b825d75De870c7d793757D19c8171e68fe",
+          "caller": "0x542947cE62186c70973dD5030a008E79655047A2",
           "comment": "g(int8,uint8): 0x00, 0x04 -> 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
           "instance": "C",
           "method": "g(int8,uint8)",
@@ -110,7 +110,7 @@
           }
         },
         {
-          "caller": "0xa4F3F9b825d75De870c7d793757D19c8171e68fe",
+          "caller": "0x542947cE62186c70973dD5030a008E79655047A2",
           "comment": "g(int8,uint8): 0x00, 0xff -> 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
           "instance": "C",
           "method": "g(int8,uint8)",
@@ -126,7 +126,7 @@
           }
         },
         {
-          "caller": "0xa4F3F9b825d75De870c7d793757D19c8171e68fe",
+          "caller": "0x542947cE62186c70973dD5030a008E79655047A2",
           "comment": "g(int8,uint8): 0x00, 0x1003 -> FAILURE",
           "instance": "C",
           "method": "g(int8,uint8)",
@@ -139,7 +139,7 @@
           }
         },
         {
-          "caller": "0xa4F3F9b825d75De870c7d793757D19c8171e68fe",
+          "caller": "0x542947cE62186c70973dD5030a008E79655047A2",
           "comment": "g(int8,uint8): 0x00, 0x1004 -> FAILURE",
           "instance": "C",
           "method": "g(int8,uint8)",
@@ -158,6 +158,6 @@
     "C": "shift_right_garbled_signed_v2.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

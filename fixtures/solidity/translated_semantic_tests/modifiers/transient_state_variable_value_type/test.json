@@ -4,7 +4,7 @@
       "name": "transient_state_variable_value_type",
       "inputs": [
         {
-          "caller": "0xD917a1c6cE2b52E446341D9275846BF578a322F0",
+          "caller": "0x8944a32cb42F05028DDd3C9755538243Bf4A4F29",
           "comment": "f() -> 100",
           "instance": "C",
           "method": "f()",
@@ -23,7 +23,7 @@
     "C": "transient_state_variable_value_type.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ],
   "required_evm_version": ">=cancun"
 }

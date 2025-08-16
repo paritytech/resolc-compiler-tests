@@ -24,7 +24,7 @@
     "C": "no_callvalue_check.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ],
   "required_evm_version": ">=constantinople"
 }

@@ -68,6 +68,6 @@
     "C": "assert.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

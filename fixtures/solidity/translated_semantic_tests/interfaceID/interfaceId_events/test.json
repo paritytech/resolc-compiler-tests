@@ -4,7 +4,7 @@
       "name": "interfaceId_events",
       "inputs": [
         {
-          "caller": "0xb76e7FEE3A401D1E34Ec3b3b0267Ba2F84a0f484",
+          "caller": "0x83f6729a98485882C02d79a6fc386910fBc3889B",
           "comment": "hello_world() -> left(0xc6be8b58)",
           "instance": "Test",
           "method": "hello_world()",
@@ -17,7 +17,7 @@
           }
         },
         {
-          "caller": "0xb76e7FEE3A401D1E34Ec3b3b0267Ba2F84a0f484",
+          "caller": "0x83f6729a98485882C02d79a6fc386910fBc3889B",
           "comment": "hello_world_with_event() -> left(0xc6be8b58)",
           "instance": "Test",
           "method": "hello_world_with_event()",
@@ -36,6 +36,6 @@
     "Test": "interfaceId_events.sol:Test"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

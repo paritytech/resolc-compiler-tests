@@ -4,7 +4,7 @@
       "name": "shift_constant_left_assignment",
       "inputs": [
         {
-          "caller": "0xa4580C1eBb76e1c7Ae80725a80F032bD93dC3487",
+          "caller": "0x7C92f954cD6756442683c39d598B58f0EA6b3d13",
           "comment": "f() -> 0x4200",
           "instance": "C",
           "method": "f()",
@@ -23,6 +23,6 @@
     "C": "shift_constant_left_assignment.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

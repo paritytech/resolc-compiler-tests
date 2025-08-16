@@ -4,7 +4,7 @@
       "name": "mapping_internal_argument",
       "inputs": [
         {
-          "caller": "0x48159CF1F76426b2ac5ad8208e1B3E5517438D43",
+          "caller": "0x4B4733799E141B63F74694dc8B0beA4506A2a41F",
           "comment": "set(uint8,uint8,uint8): 1, 21, 42 -> 0, 0",
           "instance": "test",
           "method": "set(uint8,uint8,uint8)",
@@ -22,7 +22,7 @@
           }
         },
         {
-          "caller": "0x48159CF1F76426b2ac5ad8208e1B3E5517438D43",
+          "caller": "0x4B4733799E141B63F74694dc8B0beA4506A2a41F",
           "comment": "get(uint8): 1 -> 21, 42",
           "instance": "test",
           "method": "get(uint8)",
@@ -38,7 +38,7 @@
           }
         },
         {
-          "caller": "0x48159CF1F76426b2ac5ad8208e1B3E5517438D43",
+          "caller": "0x4B4733799E141B63F74694dc8B0beA4506A2a41F",
           "comment": "set(uint8,uint8,uint8): 1, 10, 11 -> 21, 42",
           "instance": "test",
           "method": "set(uint8,uint8,uint8)",
@@ -56,7 +56,7 @@
           }
         },
         {
-          "caller": "0x48159CF1F76426b2ac5ad8208e1B3E5517438D43",
+          "caller": "0x4B4733799E141B63F74694dc8B0beA4506A2a41F",
           "comment": "get(uint8): 1 -> 10, 11",
           "instance": "test",
           "method": "get(uint8)",
@@ -78,6 +78,6 @@
     "test": "mapping_internal_argument.sol:test"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

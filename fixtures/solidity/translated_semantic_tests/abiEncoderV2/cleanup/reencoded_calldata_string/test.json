@@ -4,7 +4,7 @@
       "name": "reencoded_calldata_string",
       "inputs": [
         {
-          "caller": "0x6ae34Ce38B5491A4b2Ec31Fcd9Ff69ba4bBA0e45",
+          "caller": "0xa636D0d79DCecc69Ef6b546aCaC88232867BE2E0",
           "comment": "test() -> 0x20, 0x60, 0x20, 3, \"abc\"",
           "instance": "C",
           "method": "test()",
@@ -27,7 +27,7 @@
     "C": "reencoded_calldata_string.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ],
   "required_evm_version": ">homestead"
 }

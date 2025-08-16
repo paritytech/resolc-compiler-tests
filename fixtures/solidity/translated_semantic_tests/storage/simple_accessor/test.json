@@ -4,7 +4,7 @@
       "name": "simple_accessor",
       "inputs": [
         {
-          "caller": "0xEEEB75671a352Af36Df23FAc75C98bDceb7Ce940",
+          "caller": "0x83f9001569c1C977e15fc7c4c6F5D8d9e4Dbf7CE",
           "comment": "data() -> 8",
           "instance": "test",
           "method": "data()",
@@ -23,6 +23,6 @@
     "test": "simple_accessor.sol:test"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

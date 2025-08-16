@@ -4,7 +4,7 @@
       "name": "gasleft_shadow_resolution",
       "inputs": [
         {
-          "caller": "0x868cE70b0d8e9512E3e240E9d8a94cb5Db5b3B48",
+          "caller": "0x18597Bb8FED44a268a7eE526C295271123C4CceB",
           "comment": "f() -> 0",
           "instance": "C",
           "method": "f()",
@@ -23,6 +23,6 @@
     "C": "gasleft_shadow_resolution.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

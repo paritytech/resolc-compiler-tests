@@ -23,6 +23,6 @@
     "C": "basic.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

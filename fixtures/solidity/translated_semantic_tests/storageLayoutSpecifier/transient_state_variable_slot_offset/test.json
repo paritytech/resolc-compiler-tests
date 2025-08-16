@@ -4,7 +4,7 @@
       "name": "transient_state_variable_slot_offset",
       "inputs": [
         {
-          "caller": "0xCe469C349B00581b3B1f4e83438a8bf767042291",
+          "caller": "0x6a87Bfd9876Bdbc2ab8E9Ad19bf8692DEe529e2D",
           "comment": "xSlotOffset() -> 0, 0",
           "instance": "C",
           "method": "xSlotOffset()",
@@ -18,7 +18,7 @@
           }
         },
         {
-          "caller": "0xCe469C349B00581b3B1f4e83438a8bf767042291",
+          "caller": "0x6a87Bfd9876Bdbc2ab8E9Ad19bf8692DEe529e2D",
           "comment": "ySlotOffset() -> 7, 0",
           "instance": "C",
           "method": "ySlotOffset()",
@@ -32,7 +32,7 @@
           }
         },
         {
-          "caller": "0xCe469C349B00581b3B1f4e83438a8bf767042291",
+          "caller": "0x6a87Bfd9876Bdbc2ab8E9Ad19bf8692DEe529e2D",
           "comment": "wSlotOffset() -> 1, 0",
           "instance": "C",
           "method": "wSlotOffset()",
@@ -46,7 +46,7 @@
           }
         },
         {
-          "caller": "0xCe469C349B00581b3B1f4e83438a8bf767042291",
+          "caller": "0x6a87Bfd9876Bdbc2ab8E9Ad19bf8692DEe529e2D",
           "comment": "zSlotOffset() -> 8, 0",
           "instance": "C",
           "method": "zSlotOffset()",
@@ -66,7 +66,7 @@
     "C": "transient_state_variable_slot_offset.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ],
   "required_evm_version": ">=cancun"
 }

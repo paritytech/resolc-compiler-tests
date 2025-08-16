@@ -4,7 +4,7 @@
       "name": "assign_from_immutables",
       "inputs": [
         {
-          "caller": "0x5d86168a3Be9498F73Ac870d9Df4E973460519be",
+          "caller": "0xcc9a01DD6f27Be141EAEfb8A8ed468f7e40170B9",
           "comment": "a() -> 1",
           "instance": "C",
           "method": "a()",
@@ -17,7 +17,7 @@
           }
         },
         {
-          "caller": "0x5d86168a3Be9498F73Ac870d9Df4E973460519be",
+          "caller": "0xcc9a01DD6f27Be141EAEfb8A8ed468f7e40170B9",
           "comment": "b() -> 1",
           "instance": "C",
           "method": "b()",
@@ -30,7 +30,7 @@
           }
         },
         {
-          "caller": "0x5d86168a3Be9498F73Ac870d9Df4E973460519be",
+          "caller": "0xcc9a01DD6f27Be141EAEfb8A8ed468f7e40170B9",
           "comment": "c() -> 1",
           "instance": "C",
           "method": "c()",
@@ -43,7 +43,7 @@
           }
         },
         {
-          "caller": "0x5d86168a3Be9498F73Ac870d9Df4E973460519be",
+          "caller": "0xcc9a01DD6f27Be141EAEfb8A8ed468f7e40170B9",
           "comment": "d() -> 1",
           "instance": "C",
           "method": "d()",
@@ -62,6 +62,6 @@
     "C": "assign_from_immutables.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

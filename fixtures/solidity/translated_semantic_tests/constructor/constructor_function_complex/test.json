@@ -23,6 +23,6 @@
     "C": "constructor_function_complex.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

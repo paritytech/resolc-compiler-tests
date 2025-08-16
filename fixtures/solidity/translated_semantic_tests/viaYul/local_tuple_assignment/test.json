@@ -99,6 +99,6 @@
     "C": "local_tuple_assignment.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

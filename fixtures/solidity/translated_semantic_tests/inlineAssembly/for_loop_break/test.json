@@ -4,7 +4,7 @@
       "name": "for_loop_break",
       "inputs": [
         {
-          "caller": "0x337b74971eAAfB02646622E84978d62816be1Fdf",
+          "caller": "0x9d3636690B584De54c972ad47567a37b6744FcCc",
           "comment": "f() -> 6",
           "instance": "C",
           "method": "f()",
@@ -23,6 +23,6 @@
     "C": "for_loop_break.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

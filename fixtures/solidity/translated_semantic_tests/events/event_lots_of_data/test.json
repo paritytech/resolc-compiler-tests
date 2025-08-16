@@ -36,6 +36,6 @@
     "ClientReceipt": "event_lots_of_data.sol:ClientReceipt"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

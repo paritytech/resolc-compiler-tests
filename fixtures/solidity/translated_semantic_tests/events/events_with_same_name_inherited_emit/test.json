@@ -83,6 +83,6 @@
     "ClientReceipt": "events_with_same_name_inherited_emit.sol:ClientReceipt"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

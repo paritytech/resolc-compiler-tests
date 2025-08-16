@@ -4,7 +4,7 @@
       "name": "storage_calldata_refs",
       "inputs": [
         {
-          "caller": "0x85f55F890392dA8F00AE018146ad8f9B1BF409E0",
+          "caller": "0x55D5E113f34028C47d7D5A0a83Fc5DB6eb8bf143",
           "comment": "f(uint256,uint256[]): 7, 0x40, 3, 8, 9, 10 -> 7, 9",
           "instance": "C",
           "method": "f(uint256,uint256[])",
@@ -31,6 +31,6 @@
     "C": "storage_calldata_refs.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

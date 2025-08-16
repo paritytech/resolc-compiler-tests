@@ -4,7 +4,7 @@
       "name": "dynamic_array",
       "inputs": [
         {
-          "caller": "0xAF51bfA80Ff3958907cCD6ac0561F13898E6C2ac",
+          "caller": "0xA0b2b74d28fd9f31474aEc78Fb6aCc487722D96c",
           "comment": "f(uint256[]): 0x20, 2, 1, 1 -> 0x20, 0x84, hex\"304a4c23\", 0x20, 2, 1, 1, hex\"00000000000000000000000000000000000000000000000000000000\"",
           "instance": "C",
           "method": "f(uint256[])",
@@ -28,7 +28,7 @@
           }
         },
         {
-          "caller": "0xAF51bfA80Ff3958907cCD6ac0561F13898E6C2ac",
+          "caller": "0xA0b2b74d28fd9f31474aEc78Fb6aCc487722D96c",
           "comment": "ggg(uint8[]): 0x20, 2, 1, 1 -> 0x20, 0x84, hex\"304a4c23\", 0x20, 2, 1, 1, hex\"00000000000000000000000000000000000000000000000000000000\"",
           "instance": "C",
           "method": "ggg(uint8[])",
@@ -52,7 +52,7 @@
           }
         },
         {
-          "caller": "0xAF51bfA80Ff3958907cCD6ac0561F13898E6C2ac",
+          "caller": "0xA0b2b74d28fd9f31474aEc78Fb6aCc487722D96c",
           "comment": "f(uint256[]): 0x20, 2, 0x0101, 0x0101 -> 0x20, 0x84, hex\"304a4c23\", 0x20, 2, 1, 1, hex\"00000000000000000000000000000000000000000000000000000000\"",
           "instance": "C",
           "method": "f(uint256[])",
@@ -76,7 +76,7 @@
           }
         },
         {
-          "caller": "0xAF51bfA80Ff3958907cCD6ac0561F13898E6C2ac",
+          "caller": "0xA0b2b74d28fd9f31474aEc78Fb6aCc487722D96c",
           "comment": "ggg(uint8[]): 0x20, 2, 0x0101, 0x0101 -> FAILURE",
           "instance": "C",
           "method": "ggg(uint8[])",
@@ -97,7 +97,7 @@
     "C": "dynamic_array.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ],
   "required_evm_version": ">homestead"
 }

@@ -23,6 +23,6 @@
     "C": "dirty_storage_dynamic_array.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

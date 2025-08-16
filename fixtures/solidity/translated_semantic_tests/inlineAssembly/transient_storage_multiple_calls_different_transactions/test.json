@@ -4,7 +4,7 @@
       "name": "transient_storage_multiple_calls_different_transactions",
       "inputs": [
         {
-          "caller": "0x1dE2D3D730633dE1Fb58B5cb5a14a9b40eE6c1A4",
+          "caller": "0x7abAB00255f19C713f98df89990D112A0afBafbA",
           "comment": "test() ->",
           "instance": "C",
           "method": "test()",
@@ -14,7 +14,7 @@
           }
         },
         {
-          "caller": "0x1dE2D3D730633dE1Fb58B5cb5a14a9b40eE6c1A4",
+          "caller": "0x7abAB00255f19C713f98df89990D112A0afBafbA",
           "comment": "test() ->",
           "instance": "C",
           "method": "test()",
@@ -30,7 +30,7 @@
     "C": "transient_storage_multiple_calls_different_transactions.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ],
   "required_evm_version": ">=cancun"
 }

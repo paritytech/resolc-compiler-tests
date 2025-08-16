@@ -64,6 +64,6 @@
     "C": "require_error_condition_evaluated_only_once.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

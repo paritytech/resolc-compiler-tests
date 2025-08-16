@@ -29,6 +29,6 @@
     "C": "revert_conversion.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

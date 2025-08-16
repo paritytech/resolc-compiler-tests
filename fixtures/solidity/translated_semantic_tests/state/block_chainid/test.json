@@ -4,7 +4,7 @@
       "name": "block_chainid",
       "inputs": [
         {
-          "caller": "0xe79b8124a79e7889DA839B0849Cf0aab21730D28",
+          "caller": "0xAaae89B9a7847599bF53ff291986B78f9A6d176F",
           "comment": "f() -> 420420420",
           "instance": "C",
           "method": "f()",
@@ -17,7 +17,7 @@
           }
         },
         {
-          "caller": "0xe79b8124a79e7889DA839B0849Cf0aab21730D28",
+          "caller": "0xAaae89B9a7847599bF53ff291986B78f9A6d176F",
           "comment": "f() -> 420420420",
           "instance": "C",
           "method": "f()",
@@ -30,7 +30,7 @@
           }
         },
         {
-          "caller": "0xe79b8124a79e7889DA839B0849Cf0aab21730D28",
+          "caller": "0xAaae89B9a7847599bF53ff291986B78f9A6d176F",
           "comment": "f() -> 420420420",
           "instance": "C",
           "method": "f()",
@@ -49,7 +49,7 @@
     "C": "block_chainid.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ],
   "required_evm_version": ">=istanbul"
 }

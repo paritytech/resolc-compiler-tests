@@ -23,6 +23,6 @@
     "C": "dirty_memory_uint32.sol:C"
   },
   "modes": [
-    "Y"
+    "Y+"
   ]
 }

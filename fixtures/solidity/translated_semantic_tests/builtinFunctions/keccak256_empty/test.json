@@ -4,7 +4,7 @@
       "name": "keccak256_empty",
       "inputs": [
         {
-          "caller": "0x0a1CF03c9f34FF37fA2497A930ad9A60D7E0dF3E",
+          "caller": "0x9F7A2385BB9D4119746FfdFA84154ba54A20F75F",
           "comment": "f() -> 0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470",
           "instance": "C",
           "method": "f()",
@@ -23,6 +23,6 @@
     "C": "keccak256_empty.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

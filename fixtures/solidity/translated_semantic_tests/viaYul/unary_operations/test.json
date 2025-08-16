@@ -755,6 +755,6 @@
     "C": "unary_operations.sol:C"
   },
   "modes": [
-    "Y"
+    "Y+"
   ]
 }

@@ -4,7 +4,7 @@
       "name": "calling_nonexisting_contract_throws",
       "inputs": [
         {
-          "caller": "0x3cA5c357047648A84baAD0F32975c57b5CA6203e",
+          "caller": "0x6282DE81b2455222C4B15159b36c03F55d4903D6",
           "comment": "f() -> FAILURE",
           "instance": "C",
           "method": "f()",
@@ -14,7 +14,7 @@
           }
         },
         {
-          "caller": "0x3cA5c357047648A84baAD0F32975c57b5CA6203e",
+          "caller": "0x6282DE81b2455222C4B15159b36c03F55d4903D6",
           "comment": "g() -> FAILURE",
           "instance": "C",
           "method": "g()",
@@ -24,7 +24,7 @@
           }
         },
         {
-          "caller": "0x3cA5c357047648A84baAD0F32975c57b5CA6203e",
+          "caller": "0x6282DE81b2455222C4B15159b36c03F55d4903D6",
           "comment": "h() -> 7",
           "instance": "C",
           "method": "h()",
@@ -43,6 +43,6 @@
     "C": "calling_nonexisting_contract_throws.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

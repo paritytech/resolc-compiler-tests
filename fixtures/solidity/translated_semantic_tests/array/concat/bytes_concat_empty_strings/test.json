@@ -4,7 +4,7 @@
       "name": "bytes_concat_empty_strings",
       "inputs": [
         {
-          "caller": "0x3349D32a7F416Ec0559DF7EF2A8B16cf03f37F8d",
+          "caller": "0x1F00CB66e68CF0b0ed4E3a44fD625eCA7fE0bAf2",
           "comment": "f() -> 0x20, 0",
           "instance": "C",
           "method": "f()",
@@ -18,7 +18,7 @@
           }
         },
         {
-          "caller": "0x3349D32a7F416Ec0559DF7EF2A8B16cf03f37F8d",
+          "caller": "0x1F00CB66e68CF0b0ed4E3a44fD625eCA7fE0bAf2",
           "comment": "g() -> 0x20, 6, \"abcabc\"",
           "instance": "C",
           "method": "g()",
@@ -33,7 +33,7 @@
           }
         },
         {
-          "caller": "0x3349D32a7F416Ec0559DF7EF2A8B16cf03f37F8d",
+          "caller": "0x1F00CB66e68CF0b0ed4E3a44fD625eCA7fE0bAf2",
           "comment": "h() -> 0x20, 6, \"abcabc\"",
           "instance": "C",
           "method": "h()",
@@ -54,6 +54,6 @@
     "C": "bytes_concat_empty_strings.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

@@ -4,7 +4,7 @@
       "name": "failing_ecrecover_invalid_input",
       "inputs": [
         {
-          "caller": "0x044dadB41daF803C7f5a3391D33811A6E2E95872",
+          "caller": "0x6Ae22CD9204aBF5f9EDb22447D5935074A90B650",
           "comment": "f() -> 0",
           "instance": "C",
           "method": "f()",
@@ -23,6 +23,6 @@
     "C": "failing_ecrecover_invalid_input.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

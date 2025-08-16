@@ -125,6 +125,6 @@
     "C": "detect_add_overflow.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

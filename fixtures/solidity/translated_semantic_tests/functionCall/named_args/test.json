@@ -4,7 +4,7 @@
       "name": "named_args",
       "inputs": [
         {
-          "caller": "0xA1F99a1f20E73eF231aa8D6Ad847E28c3A59bCE5",
+          "caller": "0x1804441f896dE428ECF5D0ED1A015730b8ce12ca",
           "comment": "b() -> 123",
           "instance": "test",
           "method": "b()",
@@ -17,7 +17,7 @@
           }
         },
         {
-          "caller": "0xA1F99a1f20E73eF231aa8D6Ad847E28c3A59bCE5",
+          "caller": "0x1804441f896dE428ECF5D0ED1A015730b8ce12ca",
           "comment": "c() -> 123",
           "instance": "test",
           "method": "c()",
@@ -36,6 +36,6 @@
     "test": "named_args.sol:test"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

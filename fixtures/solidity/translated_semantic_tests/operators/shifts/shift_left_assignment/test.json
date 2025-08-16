@@ -4,7 +4,7 @@
       "name": "shift_left_assignment",
       "inputs": [
         {
-          "caller": "0x66260Cfc85C85806b98eb1c6e1E1b34a661414e8",
+          "caller": "0x999d23573cC75ef9D611435dCEdDfe7690D11AB6",
           "comment": "f(uint256,uint256): 0x4266, 0x0 -> 0x4266",
           "instance": "C",
           "method": "f(uint256,uint256)",
@@ -20,7 +20,7 @@
           }
         },
         {
-          "caller": "0x66260Cfc85C85806b98eb1c6e1E1b34a661414e8",
+          "caller": "0x999d23573cC75ef9D611435dCEdDfe7690D11AB6",
           "comment": "f(uint256,uint256): 0x4266, 0x8 -> 0x426600",
           "instance": "C",
           "method": "f(uint256,uint256)",
@@ -36,7 +36,7 @@
           }
         },
         {
-          "caller": "0x66260Cfc85C85806b98eb1c6e1E1b34a661414e8",
+          "caller": "0x999d23573cC75ef9D611435dCEdDfe7690D11AB6",
           "comment": "f(uint256,uint256): 0x4266, 0x10 -> 0x42660000",
           "instance": "C",
           "method": "f(uint256,uint256)",
@@ -52,7 +52,7 @@
           }
         },
         {
-          "caller": "0x66260Cfc85C85806b98eb1c6e1E1b34a661414e8",
+          "caller": "0x999d23573cC75ef9D611435dCEdDfe7690D11AB6",
           "comment": "f(uint256,uint256): 0x4266, 0x11 -> 0x84cc0000",
           "instance": "C",
           "method": "f(uint256,uint256)",
@@ -68,7 +68,7 @@
           }
         },
         {
-          "caller": "0x66260Cfc85C85806b98eb1c6e1E1b34a661414e8",
+          "caller": "0x999d23573cC75ef9D611435dCEdDfe7690D11AB6",
           "comment": "f(uint256,uint256): 0x4266, 0xf0 -> 0x4266000000000000000000000000000000000000000000000000000000000000",
           "instance": "C",
           "method": "f(uint256,uint256)",
@@ -84,7 +84,7 @@
           }
         },
         {
-          "caller": "0x66260Cfc85C85806b98eb1c6e1E1b34a661414e8",
+          "caller": "0x999d23573cC75ef9D611435dCEdDfe7690D11AB6",
           "comment": "f(uint256,uint256): 0x4266, 0x100 -> 0",
           "instance": "C",
           "method": "f(uint256,uint256)",
@@ -106,6 +106,6 @@
     "C": "shift_left_assignment.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

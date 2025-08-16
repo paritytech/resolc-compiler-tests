@@ -4,7 +4,7 @@
       "name": "super_function_deployed",
       "inputs": [
         {
-          "caller": "0x261a6F67485EA7BEc3eDcD062de737124DFfE4d4",
+          "caller": "0x4e9E57cc74830AE255771cE944a977F976Fb9A3F",
           "comment": "test() -> true",
           "instance": "C",
           "method": "test()",
@@ -23,6 +23,6 @@
     "C": "super_function_deployed.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

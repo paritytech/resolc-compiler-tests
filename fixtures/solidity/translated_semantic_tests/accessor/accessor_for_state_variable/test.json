@@ -4,7 +4,7 @@
       "name": "accessor_for_state_variable",
       "inputs": [
         {
-          "caller": "0x1E9E7b47766564a54Fc10A53a0839868A6b9f2fF",
+          "caller": "0x34531c4fC59c3198d7D62d3038348334B879E789",
           "comment": "ticketPrice() -> 500",
           "instance": "Lotto",
           "method": "ticketPrice()",
@@ -23,6 +23,6 @@
     "Lotto": "accessor_for_state_variable.sol:Lotto"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

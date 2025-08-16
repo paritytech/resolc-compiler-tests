@@ -23,6 +23,6 @@
     "test": "bytes_comparison.sol:test"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

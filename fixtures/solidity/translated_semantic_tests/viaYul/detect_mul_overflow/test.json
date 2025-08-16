@@ -436,6 +436,6 @@
     "C": "detect_mul_overflow.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

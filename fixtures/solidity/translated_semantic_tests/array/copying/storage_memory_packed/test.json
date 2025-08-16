@@ -4,7 +4,7 @@
       "name": "storage_memory_packed",
       "inputs": [
         {
-          "caller": "0xB03D165f913E34cD50ee7fCa0c35f49567BbB82e",
+          "caller": "0x54ac55173646aDadd2FFE5F50E3C7E52ad0b7c24",
           "comment": "f() -> 2, 3, 4",
           "instance": "C",
           "method": "f()",
@@ -25,6 +25,6 @@
     "C": "storage_memory_packed.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

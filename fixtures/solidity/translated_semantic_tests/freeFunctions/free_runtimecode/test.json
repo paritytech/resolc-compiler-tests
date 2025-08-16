@@ -4,7 +4,7 @@
       "name": "free_runtimecode",
       "inputs": [
         {
-          "caller": "0x7AC3d1D7B749e8D507DDb38D054111F1bb833871",
+          "caller": "0x89cDb38D3aAc16f35d280bf8e85261F2Cc1CB082",
           "comment": "f() -> true",
           "instance": "D",
           "method": "f()",
@@ -23,6 +23,6 @@
     "D": "free_runtimecode.sol:D"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

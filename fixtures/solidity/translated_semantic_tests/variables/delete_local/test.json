@@ -23,6 +23,6 @@
     "test": "delete_local.sol:test"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

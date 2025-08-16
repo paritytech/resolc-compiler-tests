@@ -36,6 +36,6 @@
     "C": "require_error_evaluation_order_1.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

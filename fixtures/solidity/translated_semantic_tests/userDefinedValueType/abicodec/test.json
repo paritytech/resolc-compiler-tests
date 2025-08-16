@@ -4,7 +4,7 @@
       "name": "abicodec",
       "inputs": [
         {
-          "caller": "0x8d9a3D7843162a297cf5899AD513154c36bC5006",
+          "caller": "0xA6C6f67BE688Fe7dC9C4010548d8c5712b3D72Ed",
           "comment": "g() -> true",
           "instance": "C",
           "method": "g()",
@@ -23,7 +23,7 @@
     "C": "abicodec.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ],
   "required_evm_version": ">=byzantium"
 }

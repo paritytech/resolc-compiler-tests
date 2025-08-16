@@ -118,6 +118,6 @@
     "C": "mapping_of_string.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

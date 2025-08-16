@@ -4,7 +4,7 @@
       "name": "msg_sig",
       "inputs": [
         {
-          "caller": "0x40CA26F159a74B58B7b6885F447e09AE1f384524",
+          "caller": "0x7AC3d1D7B749e8D507DDb38D054111F1bb833871",
           "comment": "f() -> 0x26121ff000000000000000000000000000000000000000000000000000000000",
           "instance": "C",
           "method": "f()",
@@ -17,7 +17,7 @@
           }
         },
         {
-          "caller": "0x40CA26F159a74B58B7b6885F447e09AE1f384524",
+          "caller": "0x7AC3d1D7B749e8D507DDb38D054111F1bb833871",
           "comment": "g() -> 0xe2179b8e00000000000000000000000000000000000000000000000000000000",
           "instance": "C",
           "method": "g()",
@@ -36,6 +36,6 @@
     "C": "msg_sig.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

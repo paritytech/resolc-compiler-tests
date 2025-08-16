@@ -4,7 +4,7 @@
       "name": "memory_arrays_dynamic_index_access_write",
       "inputs": [
         {
-          "caller": "0xD560A93C87d4a9844Ecd60DB4406216325e3b17e",
+          "caller": "0x83a38708BB18d79DA730741aeEf3c4548c0AdBb1",
           "comment": "f() -> 0x20, 0x04, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x07",
           "instance": "Test",
           "method": "f()",
@@ -36,6 +36,6 @@
     "Test": "memory_arrays_dynamic_index_access_write.sol:Test"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

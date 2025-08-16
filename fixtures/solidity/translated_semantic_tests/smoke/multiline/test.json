@@ -4,7 +4,7 @@
       "name": "multiline",
       "inputs": [
         {
-          "caller": "0x9B65bA56c2CEf1e85eB0F861A60f515b54c6965D",
+          "caller": "0x75386FB8999486b9C6C009E92405f0Fd42446e96",
           "comment": "f(uint256,uint256,uint256,uint256,uint256): 1, 1, 1, 1, 1-> 5",
           "instance": "C",
           "method": "f(uint256,uint256,uint256,uint256,uint256)",
@@ -23,7 +23,7 @@
           }
         },
         {
-          "caller": "0x9B65bA56c2CEf1e85eB0F861A60f515b54c6965D",
+          "caller": "0x75386FB8999486b9C6C009E92405f0Fd42446e96",
           "comment": "g()-> FAILURE",
           "instance": "C",
           "method": "g()",
@@ -39,6 +39,6 @@
     "C": "multiline.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

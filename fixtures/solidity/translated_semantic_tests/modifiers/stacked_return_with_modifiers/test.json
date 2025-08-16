@@ -4,7 +4,7 @@
       "name": "stacked_return_with_modifiers",
       "inputs": [
         {
-          "caller": "0x0654e77A0385Db8BB70e0E7590642A7a9B1Cc6E2",
+          "caller": "0x34082F555aa6822c71e6eAB22956B5Da6BcF4eE5",
           "comment": "x() -> 0",
           "instance": "C",
           "method": "x()",
@@ -17,7 +17,7 @@
           }
         },
         {
-          "caller": "0x0654e77A0385Db8BB70e0E7590642A7a9B1Cc6E2",
+          "caller": "0x34082F555aa6822c71e6eAB22956B5Da6BcF4eE5",
           "comment": "f() -> 42",
           "instance": "C",
           "method": "f()",
@@ -30,7 +30,7 @@
           }
         },
         {
-          "caller": "0x0654e77A0385Db8BB70e0E7590642A7a9B1Cc6E2",
+          "caller": "0x34082F555aa6822c71e6eAB22956B5Da6BcF4eE5",
           "comment": "x() -> 4",
           "instance": "C",
           "method": "x()",
@@ -49,6 +49,6 @@
     "C": "stacked_return_with_modifiers.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

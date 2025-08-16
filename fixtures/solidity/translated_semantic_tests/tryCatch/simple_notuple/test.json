@@ -4,7 +4,7 @@
       "name": "simple_notuple",
       "inputs": [
         {
-          "caller": "0x16a208bc0Ae2c93409f5924f5053944409c1A105",
+          "caller": "0x50A037418affDca323C34D928FBA8a673c7FEf98",
           "comment": "f(bool): true -> 13",
           "instance": "C",
           "method": "f(bool)",
@@ -19,7 +19,7 @@
           }
         },
         {
-          "caller": "0x16a208bc0Ae2c93409f5924f5053944409c1A105",
+          "caller": "0x50A037418affDca323C34D928FBA8a673c7FEf98",
           "comment": "f(bool): false -> 9",
           "instance": "C",
           "method": "f(bool)",
@@ -40,7 +40,7 @@
     "C": "simple_notuple.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ],
   "required_evm_version": ">=byzantium"
 }

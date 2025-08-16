@@ -4,7 +4,7 @@
       "name": "internal_library_function_attached_to_interface",
       "inputs": [
         {
-          "caller": "0xC2D59ED6487586c7eA35E370DEDAD0A357808614",
+          "caller": "0xbDB7ff04152e424f3614489C8CfB20e09717b8f1",
           "comment": "test() -> 42",
           "instance": "C",
           "method": "test()",
@@ -23,6 +23,6 @@
     "C": "internal_library_function_attached_to_interface.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

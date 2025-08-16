@@ -4,7 +4,7 @@
       "name": "module_renamed",
       "inputs": [
         {
-          "caller": "0xC9c987066998A6e85358A8EDBcDF1404711A7B46",
+          "caller": "0xD5D77E97DfdA703feCfBCdFc1Fa85Ae696c2E818",
           "comment": "test(uint256,uint256): 1, 1 -> 9, 3",
           "instance": "C",
           "method": "test(uint256,uint256)",
@@ -27,6 +27,6 @@
     "C": "C.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

@@ -4,7 +4,7 @@
       "name": "calldata_array_static_index_access",
       "inputs": [
         {
-          "caller": "0x60f95f92b26ec225546d762781d60F88b6C988a7",
+          "caller": "0x8A50C218f9a291982A3Bc671b5f6dD97DA603296",
           "comment": "f(uint256[3]): 23, 42, 87 -> 32, 96, 23, 42, 87",
           "instance": "C",
           "method": "f(uint256[3])",
@@ -25,7 +25,7 @@
           }
         },
         {
-          "caller": "0x60f95f92b26ec225546d762781d60F88b6C988a7",
+          "caller": "0x8A50C218f9a291982A3Bc671b5f6dD97DA603296",
           "comment": "g(uint256[3][2],uint256): 23, 42, 87, 123, 142, 187, 0 -> 32, 96, 23, 42, 87",
           "instance": "C",
           "method": "g(uint256[3][2],uint256)",
@@ -50,7 +50,7 @@
           }
         },
         {
-          "caller": "0x60f95f92b26ec225546d762781d60F88b6C988a7",
+          "caller": "0x8A50C218f9a291982A3Bc671b5f6dD97DA603296",
           "comment": "g(uint256[3][2],uint256): 23, 42, 87, 123, 142, 187, 1 -> 32, 96, 123, 142, 187",
           "instance": "C",
           "method": "g(uint256[3][2],uint256)",
@@ -75,7 +75,7 @@
           }
         },
         {
-          "caller": "0x60f95f92b26ec225546d762781d60F88b6C988a7",
+          "caller": "0x8A50C218f9a291982A3Bc671b5f6dD97DA603296",
           "comment": "h(uint8[3]): 23, 42, 87 -> 32, 96, 23, 42, 87",
           "instance": "C",
           "method": "h(uint8[3])",
@@ -96,7 +96,7 @@
           }
         },
         {
-          "caller": "0x60f95f92b26ec225546d762781d60F88b6C988a7",
+          "caller": "0x8A50C218f9a291982A3Bc671b5f6dD97DA603296",
           "comment": "i(uint8[3][2],uint256): 23, 42, 87, 123, 142, 187, 0 -> 32, 96, 23, 42, 87",
           "instance": "C",
           "method": "i(uint8[3][2],uint256)",
@@ -121,7 +121,7 @@
           }
         },
         {
-          "caller": "0x60f95f92b26ec225546d762781d60F88b6C988a7",
+          "caller": "0x8A50C218f9a291982A3Bc671b5f6dD97DA603296",
           "comment": "i(uint8[3][2],uint256): 23, 42, 87, 123, 142, 187, 1 -> 32, 96, 123, 142, 187",
           "instance": "C",
           "method": "i(uint8[3][2],uint256)",
@@ -152,7 +152,7 @@
     "C": "calldata_array_static_index_access.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ],
   "required_evm_version": ">homestead"
 }

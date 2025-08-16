@@ -38,6 +38,6 @@
     "C": "require_error_evaluation_order_2.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

@@ -4,7 +4,7 @@
       "name": "push0",
       "inputs": [
         {
-          "caller": "0x6f437497D8c307a32cf3915a244a8B46C1f63749",
+          "caller": "0xc703897f680BDAd492ABE202e5aB6913393A22C3",
           "comment": "zero() -> 0",
           "instance": "C",
           "method": "zero()",
@@ -23,8 +23,8 @@
     "C": "push0.sol:C"
   },
   "modes": [
-    "Y",
-    "E"
+    "Y+",
+    "E+"
   ],
   "required_evm_version": ">=shanghai"
 }

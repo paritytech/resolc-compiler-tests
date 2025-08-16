@@ -24,6 +24,6 @@
     "C": "event_selector_file_level.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

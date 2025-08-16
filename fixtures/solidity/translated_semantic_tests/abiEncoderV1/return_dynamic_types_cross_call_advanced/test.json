@@ -34,7 +34,7 @@
     "C": "return_dynamic_types_cross_call_advanced.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ],
   "required_evm_version": ">homestead"
 }

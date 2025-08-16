@@ -342,6 +342,6 @@
     "C": "exp_overflow.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

@@ -4,7 +4,7 @@
       "name": "shift_right_negative_lvalue_signextend_int16_v2",
       "inputs": [
         {
-          "caller": "0x50c9DdC16E355522950BcA553F56b410E3194812",
+          "caller": "0xB055D20faa7c557a699A9FEF9D4e5C0244865d38",
           "comment": "f(int16,uint16): 0xff99, 0x00 -> FAILURE",
           "instance": "C",
           "method": "f(int16,uint16)",
@@ -17,7 +17,7 @@
           }
         },
         {
-          "caller": "0x50c9DdC16E355522950BcA553F56b410E3194812",
+          "caller": "0xB055D20faa7c557a699A9FEF9D4e5C0244865d38",
           "comment": "f(int16,uint16): 0xff99, 0x01 -> FAILURE",
           "instance": "C",
           "method": "f(int16,uint16)",
@@ -30,7 +30,7 @@
           }
         },
         {
-          "caller": "0x50c9DdC16E355522950BcA553F56b410E3194812",
+          "caller": "0xB055D20faa7c557a699A9FEF9D4e5C0244865d38",
           "comment": "f(int16,uint16): 0xff99, 0x02 -> FAILURE",
           "instance": "C",
           "method": "f(int16,uint16)",
@@ -43,7 +43,7 @@
           }
         },
         {
-          "caller": "0x50c9DdC16E355522950BcA553F56b410E3194812",
+          "caller": "0xB055D20faa7c557a699A9FEF9D4e5C0244865d38",
           "comment": "f(int16,uint16): 0xff99, 0x04 -> FAILURE",
           "instance": "C",
           "method": "f(int16,uint16)",
@@ -56,7 +56,7 @@
           }
         },
         {
-          "caller": "0x50c9DdC16E355522950BcA553F56b410E3194812",
+          "caller": "0xB055D20faa7c557a699A9FEF9D4e5C0244865d38",
           "comment": "f(int16,uint16): 0xff99, 0x08 -> FAILURE",
           "instance": "C",
           "method": "f(int16,uint16)",
@@ -75,6 +75,6 @@
     "C": "shift_right_negative_lvalue_signextend_int16_v2.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

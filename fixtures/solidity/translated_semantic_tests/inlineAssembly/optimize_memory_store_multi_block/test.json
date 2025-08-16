@@ -4,7 +4,7 @@
       "name": "optimize_memory_store_multi_block",
       "inputs": [
         {
-          "caller": "0x6EEB6703e056C514516Db4b781344A14781b5Ebb",
+          "caller": "0x64A793622286De750CE418Fb1E21a3152Bc7EA02",
           "comment": "f() -> 0x42",
           "instance": "C",
           "method": "f()",
@@ -17,7 +17,7 @@
           }
         },
         {
-          "caller": "0x6EEB6703e056C514516Db4b781344A14781b5Ebb",
+          "caller": "0x64A793622286De750CE418Fb1E21a3152Bc7EA02",
           "comment": "g() -> true",
           "instance": "C",
           "method": "g()",
@@ -36,6 +36,6 @@
     "C": "optimize_memory_store_multi_block.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

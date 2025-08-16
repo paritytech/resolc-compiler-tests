@@ -4,7 +4,7 @@
       "name": "invalidStoredInConstructor",
       "inputs": [
         {
-          "caller": "0x7CDD6E3B151e04d9D219380Ee689Ff937aFCe3ab",
+          "caller": "0x930d4220E96eb5F2014FE910C3cdB9FbEA4B9153",
           "comment": "f() -> FAILURE, hex\"4e487b71\", 0x51",
           "instance": "Test",
           "method": "f()",
@@ -24,6 +24,6 @@
     "Test": "invalidStoredInConstructor.sol:Test"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

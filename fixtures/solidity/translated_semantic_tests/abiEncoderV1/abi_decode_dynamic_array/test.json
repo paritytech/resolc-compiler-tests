@@ -37,6 +37,6 @@
     "C": "abi_decode_dynamic_array.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

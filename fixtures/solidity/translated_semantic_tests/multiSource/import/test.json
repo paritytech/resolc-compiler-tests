@@ -4,7 +4,7 @@
       "name": "import",
       "inputs": [
         {
-          "caller": "0x8f96812ACF3b4aEe8c011234328A0E93254627a9",
+          "caller": "0x78717e48eaE5F72AFd086c4Ef14cAaCB593D0730",
           "comment": "f(uint256): 1337 -> 1337",
           "instance": "B",
           "method": "f(uint256)",
@@ -19,7 +19,7 @@
           }
         },
         {
-          "caller": "0x8f96812ACF3b4aEe8c011234328A0E93254627a9",
+          "caller": "0x78717e48eaE5F72AFd086c4Ef14cAaCB593D0730",
           "comment": "g(uint256): 1337 -> 1338",
           "instance": "B",
           "method": "g(uint256)",
@@ -40,6 +40,6 @@
     "B": "B.sol:B"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

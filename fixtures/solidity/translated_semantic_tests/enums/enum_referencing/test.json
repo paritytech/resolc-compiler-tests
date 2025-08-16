@@ -4,7 +4,7 @@
       "name": "enum_referencing",
       "inputs": [
         {
-          "caller": "0x4060fB7bA353f413678Be88fc55099Cc499400b5",
+          "caller": "0xce4746Dd09877B74908eCb74c578143af47FC76e",
           "comment": "f() -> 3",
           "instance": "C",
           "method": "f()",
@@ -17,7 +17,7 @@
           }
         },
         {
-          "caller": "0x4060fB7bA353f413678Be88fc55099Cc499400b5",
+          "caller": "0xce4746Dd09877B74908eCb74c578143af47FC76e",
           "comment": "g() -> 3",
           "instance": "C",
           "method": "g()",
@@ -30,7 +30,7 @@
           }
         },
         {
-          "caller": "0x4060fB7bA353f413678Be88fc55099Cc499400b5",
+          "caller": "0xce4746Dd09877B74908eCb74c578143af47FC76e",
           "comment": "f() -> 3",
           "instance": "C",
           "method": "f()",
@@ -43,7 +43,7 @@
           }
         },
         {
-          "caller": "0x4060fB7bA353f413678Be88fc55099Cc499400b5",
+          "caller": "0xce4746Dd09877B74908eCb74c578143af47FC76e",
           "comment": "g() -> 3",
           "instance": "C",
           "method": "g()",
@@ -56,7 +56,7 @@
           }
         },
         {
-          "caller": "0x4060fB7bA353f413678Be88fc55099Cc499400b5",
+          "caller": "0xce4746Dd09877B74908eCb74c578143af47FC76e",
           "comment": "h() -> 1",
           "instance": "C",
           "method": "h()",
@@ -69,7 +69,7 @@
           }
         },
         {
-          "caller": "0x4060fB7bA353f413678Be88fc55099Cc499400b5",
+          "caller": "0xce4746Dd09877B74908eCb74c578143af47FC76e",
           "comment": "x() -> 1",
           "instance": "C",
           "method": "x()",
@@ -82,7 +82,7 @@
           }
         },
         {
-          "caller": "0x4060fB7bA353f413678Be88fc55099Cc499400b5",
+          "caller": "0xce4746Dd09877B74908eCb74c578143af47FC76e",
           "comment": "y() -> 3",
           "instance": "C",
           "method": "y()",
@@ -107,6 +107,6 @@
     }
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

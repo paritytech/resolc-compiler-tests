@@ -4,7 +4,7 @@
       "name": "inheritance",
       "inputs": [
         {
-          "caller": "0xC9471cF742D5f5FCDFaBbaacF21228f5361A103a",
+          "caller": "0xAb39e66Cd6d5fAe25b964678FA76a3B1bC20175B",
           "comment": "f() -> 4, 3, 2, 1",
           "instance": "D",
           "method": "f()",
@@ -26,6 +26,6 @@
     "D": "inheritance.sol:D"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

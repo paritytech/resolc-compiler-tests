@@ -4,7 +4,7 @@
       "name": "imported_functions",
       "inputs": [
         {
-          "caller": "0x777b72429357CbA6628b53eF68F295Cf9214a983",
+          "caller": "0x1b9F46B9c5F065fa5baf961ac978f457e4Eb0b9C",
           "comment": "f(uint256): 5 -> 12",
           "instance": "C",
           "method": "f(uint256)",
@@ -19,7 +19,7 @@
           }
         },
         {
-          "caller": "0x777b72429357CbA6628b53eF68F295Cf9214a983",
+          "caller": "0x1b9F46B9c5F065fa5baf961ac978f457e4Eb0b9C",
           "comment": "f(uint256): 10 -> 0x16",
           "instance": "C",
           "method": "f(uint256)",
@@ -40,6 +40,6 @@
     "C": "B.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

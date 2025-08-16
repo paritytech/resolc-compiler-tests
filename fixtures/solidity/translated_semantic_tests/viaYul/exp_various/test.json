@@ -634,6 +634,6 @@
     "C": "exp_various.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

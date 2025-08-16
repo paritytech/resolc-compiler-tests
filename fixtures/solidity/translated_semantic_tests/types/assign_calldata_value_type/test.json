@@ -4,7 +4,7 @@
       "name": "assign_calldata_value_type",
       "inputs": [
         {
-          "caller": "0x1A89eb90c0e8f1A25D6d1875b44C5fFD73170769",
+          "caller": "0x1C8D874E771AcDA2638A04f51D5189B2aC367B87",
           "comment": "f(uint256): 23 -> 42, 23",
           "instance": "C",
           "method": "f(uint256)",
@@ -26,6 +26,6 @@
     "C": "assign_calldata_value_type.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

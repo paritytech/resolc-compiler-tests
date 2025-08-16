@@ -4,7 +4,7 @@
       "name": "using_contract_enums_with_explicit_contract_name",
       "inputs": [
         {
-          "caller": "0x740FA512Dd8053391E53B7f96a9E39d12551801A",
+          "caller": "0x2921BDD05002c00C103259C7f0490F5F3Cf6bd47",
           "comment": "answer() -> 1",
           "instance": "test",
           "method": "answer()",
@@ -23,6 +23,6 @@
     "test": "using_contract_enums_with_explicit_contract_name.sol:test"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

@@ -4,7 +4,7 @@
       "name": "simple",
       "inputs": [
         {
-          "caller": "0x808834D2d7E798c341B030F808781CD6eDF09Ef0",
+          "caller": "0xbDf75A1CDF0a3FC4618f3529902a340Db6837160",
           "comment": "f() -> 0",
           "instance": "C",
           "method": "f()",
@@ -17,7 +17,7 @@
           }
         },
         {
-          "caller": "0x808834D2d7E798c341B030F808781CD6eDF09Ef0",
+          "caller": "0xbDf75A1CDF0a3FC4618f3529902a340Db6837160",
           "comment": "g() -> 1, 1",
           "instance": "C",
           "method": "g()",
@@ -37,6 +37,6 @@
     "C": "simple.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

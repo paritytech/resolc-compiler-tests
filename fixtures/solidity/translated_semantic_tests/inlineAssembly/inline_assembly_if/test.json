@@ -4,7 +4,7 @@
       "name": "inline_assembly_if",
       "inputs": [
         {
-          "caller": "0x46ab90928E0601Dbc4cf886BD111DC1240d0a0c1",
+          "caller": "0x6D9A9DF4043Ab5Cd2886EC91a9e987a5C00d321F",
           "comment": "f(uint256): 0 -> 0",
           "instance": "C",
           "method": "f(uint256)",
@@ -19,7 +19,7 @@
           }
         },
         {
-          "caller": "0x46ab90928E0601Dbc4cf886BD111DC1240d0a0c1",
+          "caller": "0x6D9A9DF4043Ab5Cd2886EC91a9e987a5C00d321F",
           "comment": "f(uint256): 1 -> 0",
           "instance": "C",
           "method": "f(uint256)",
@@ -34,7 +34,7 @@
           }
         },
         {
-          "caller": "0x46ab90928E0601Dbc4cf886BD111DC1240d0a0c1",
+          "caller": "0x6D9A9DF4043Ab5Cd2886EC91a9e987a5C00d321F",
           "comment": "f(uint256): 2 -> 2",
           "instance": "C",
           "method": "f(uint256)",
@@ -49,7 +49,7 @@
           }
         },
         {
-          "caller": "0x46ab90928E0601Dbc4cf886BD111DC1240d0a0c1",
+          "caller": "0x6D9A9DF4043Ab5Cd2886EC91a9e987a5C00d321F",
           "comment": "f(uint256): 3 -> 2",
           "instance": "C",
           "method": "f(uint256)",
@@ -70,6 +70,6 @@
     "C": "inline_assembly_if.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

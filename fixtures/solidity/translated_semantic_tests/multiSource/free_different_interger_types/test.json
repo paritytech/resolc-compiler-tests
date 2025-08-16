@@ -4,7 +4,7 @@
       "name": "free_different_interger_types",
       "inputs": [
         {
-          "caller": "0x87c4acc4593674fD6d263539B6eda5A4f63c0560",
+          "caller": "0x3511795c2333c0CD8d05eCf0038abF4895189558",
           "comment": "foo() -> 24, true",
           "instance": "C",
           "method": "foo()",
@@ -24,6 +24,6 @@
     "C": "s2.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

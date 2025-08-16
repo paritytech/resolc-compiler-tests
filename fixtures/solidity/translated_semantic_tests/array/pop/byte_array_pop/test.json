@@ -4,7 +4,7 @@
       "name": "byte_array_pop",
       "inputs": [
         {
-          "caller": "0x7C8975886DAE855EE2484f2529Ae36a8fFaeA7FC",
+          "caller": "0x20eef93B27D29Dc91D011da650Ab19B5Cd22cA62",
           "comment": "test() -> 2, 1, 1",
           "instance": "c",
           "method": "test()",
@@ -25,6 +25,6 @@
     "c": "byte_array_pop.sol:c"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

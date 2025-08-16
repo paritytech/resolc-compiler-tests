@@ -4,7 +4,7 @@
       "name": "inline_assembly_function_call_assignment",
       "inputs": [
         {
-          "caller": "0x6D9A9DF4043Ab5Cd2886EC91a9e987a5C00d321F",
+          "caller": "0x30E6d72D759e629B985016eB7bc7c88b4cC29289",
           "comment": "f() -> 1, 2, 7",
           "instance": "C",
           "method": "f()",
@@ -25,6 +25,6 @@
     "C": "inline_assembly_function_call_assignment.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

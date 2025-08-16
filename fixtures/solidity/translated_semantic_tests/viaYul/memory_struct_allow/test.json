@@ -24,6 +24,6 @@
     "C": "memory_struct_allow.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

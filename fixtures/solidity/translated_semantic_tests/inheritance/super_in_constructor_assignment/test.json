@@ -4,7 +4,7 @@
       "name": "super_in_constructor_assignment",
       "inputs": [
         {
-          "caller": "0xe826Acf15E76DED94DAfcBaC10a34EE70b33de70",
+          "caller": "0x1d6ca4de171575E9E66B8d8360bC6403E7D3f949",
           "comment": "f() -> 15",
           "instance": "D",
           "method": "f()",
@@ -23,6 +23,6 @@
     "D": "super_in_constructor_assignment.sol:D"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

@@ -4,7 +4,7 @@
       "name": "constructor_with_params_inheritance",
       "inputs": [
         {
-          "caller": "0x18D33a2b99f5eBD08375162FaDb20B988619deC8",
+          "caller": "0xb3bCA51Fd22E0B0Dc3549c98DBa37365FDF23438",
           "comment": "constructor(): 2, 0 ->; gas irOptimized: 101581; gas irOptimized code: 20200; gas legacy: 105192; gas legacy code: 32000; gas legacyOptimized: 101503; gas legacyOptimized code: 17000",
           "instance": "D",
           "method": "#deployer",
@@ -17,7 +17,7 @@
           }
         },
         {
-          "caller": "0x18D33a2b99f5eBD08375162FaDb20B988619deC8",
+          "caller": "0xb3bCA51Fd22E0B0Dc3549c98DBa37365FDF23438",
           "comment": "i() -> 2",
           "instance": "D",
           "method": "i()",
@@ -30,7 +30,7 @@
           }
         },
         {
-          "caller": "0x18D33a2b99f5eBD08375162FaDb20B988619deC8",
+          "caller": "0xb3bCA51Fd22E0B0Dc3549c98DBa37365FDF23438",
           "comment": "k() -> 1",
           "instance": "D",
           "method": "k()",
@@ -49,6 +49,6 @@
     "D": "constructor_with_params_inheritance.sol:D"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

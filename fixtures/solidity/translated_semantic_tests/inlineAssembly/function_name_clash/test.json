@@ -4,7 +4,7 @@
       "name": "function_name_clash",
       "inputs": [
         {
-          "caller": "0x7abAB00255f19C713f98df89990D112A0afBafbA",
+          "caller": "0xA2AF9277A7B42Db69DD1d013af6433c2865604D1",
           "comment": "f() -> 1",
           "instance": "C",
           "method": "f()",
@@ -17,7 +17,7 @@
           }
         },
         {
-          "caller": "0x7abAB00255f19C713f98df89990D112A0afBafbA",
+          "caller": "0xA2AF9277A7B42Db69DD1d013af6433c2865604D1",
           "comment": "g() -> 2",
           "instance": "C",
           "method": "g()",
@@ -36,6 +36,6 @@
     "C": "function_name_clash.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

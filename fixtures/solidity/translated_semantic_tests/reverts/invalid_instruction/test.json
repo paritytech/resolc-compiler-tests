@@ -4,7 +4,7 @@
       "name": "invalid_instruction",
       "inputs": [
         {
-          "caller": "0xf3B79F204cb05f417ecBCA5572C0EEC9F3Bf7121",
+          "caller": "0x8a398504e8d84B6D8325AbDeD7BC9ba3b2C36E48",
           "comment": "f() -> FAILURE",
           "instance": "C",
           "method": "f()",
@@ -20,6 +20,6 @@
     "C": "invalid_instruction.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

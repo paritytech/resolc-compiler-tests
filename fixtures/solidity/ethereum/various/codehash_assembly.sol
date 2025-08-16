@@ -4,11 +4,13 @@ contract C {
             ret := extcodehash(0)
         }
     }
+
     function g() public returns (bytes32 ret) {
         assembly {
             ret := extcodehash(1)
         }
     }
+
     function h() public returns (bool ret) {
         assembly {
             ret := iszero(iszero(extcodehash(address())))
@@ -18,6 +20,8 @@ contract C {
 // ====
 // EVMVersion: >=constantinople
 // bytecodeFormat: legacy
+// ignore: true
+// comment: Ignored since we can't predict what the code-hash of some address will be.
 // ----
 // f() -> 0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470
 // g() -> 0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470

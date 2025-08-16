@@ -4,7 +4,7 @@
       "name": "operator_making_view_external_call",
       "inputs": [
         {
-          "caller": "0x2dF93CA994CCd2829a571b6f7eD28c33b0EF77c1",
+          "caller": "0x760716763D2f310f6285892E4353BB238d0F5e97",
           "comment": "testMul(int32,int32): 42, 10 -> 420; gas irOptimized: 102563; gas legacy: 57117; gas legacy code: 127000; gas legacyOptimized: 55246; gas legacyOptimized code: 68400",
           "instance": "C",
           "method": "testMul(int32,int32)",
@@ -20,7 +20,7 @@
           }
         },
         {
-          "caller": "0x2dF93CA994CCd2829a571b6f7eD28c33b0EF77c1",
+          "caller": "0x760716763D2f310f6285892E4353BB238d0F5e97",
           "comment": "testInc(int32): 42 -> 43; gas irOptimized: 102386; gas legacy: 56378; gas legacy code: 127000; gas legacyOptimized: 54943; gas legacyOptimized code: 68400",
           "instance": "C",
           "method": "testInc(int32)",
@@ -41,7 +41,7 @@
     "C": "operator_making_view_external_call.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ],
   "required_evm_version": ">=constantinople"
 }

@@ -4,7 +4,7 @@
       "name": "invalidInConstructor",
       "inputs": [
         {
-          "caller": "0x930d4220E96eb5F2014FE910C3cdB9FbEA4B9153",
+          "caller": "0x288D9dAA8b66764d062279DF7d685e91e70C088b",
           "comment": "f() -> FAILURE, hex\"4e487b71\", 0x51",
           "instance": "Test",
           "method": "f()",
@@ -24,6 +24,6 @@
     "Test": "invalidInConstructor.sol:Test"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

@@ -4,7 +4,7 @@
       "name": "packed_storage_signed",
       "inputs": [
         {
-          "caller": "0x724Fb03770B250cb9e31B8999401313708Bf9af8",
+          "caller": "0x6E2b6CdB8B8EB70807D1F942F8e1Dd1d74285084",
           "comment": "test() -> -2, 4, -112, 0",
           "instance": "C",
           "method": "test()",
@@ -26,6 +26,6 @@
     "C": "packed_storage_signed.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

@@ -4,7 +4,7 @@
       "name": "homer",
       "inputs": [
         {
-          "caller": "0x83f9001569c1C977e15fc7c4c6F5D8d9e4Dbf7CE",
+          "caller": "0xdEcbF1485180DE6e011Bf309D92669A53a0f2C66",
           "comment": "supportsInterface(bytes4): left(0x01ffc9a0) -> false",
           "instance": "Homer",
           "method": "supportsInterface(bytes4)",
@@ -19,7 +19,7 @@
           }
         },
         {
-          "caller": "0x83f9001569c1C977e15fc7c4c6F5D8d9e4Dbf7CE",
+          "caller": "0xdEcbF1485180DE6e011Bf309D92669A53a0f2C66",
           "comment": "supportsInterface(bytes4): left(0x01ffc9a7) -> true",
           "instance": "Homer",
           "method": "supportsInterface(bytes4)",
@@ -34,7 +34,7 @@
           }
         },
         {
-          "caller": "0x83f9001569c1C977e15fc7c4c6F5D8d9e4Dbf7CE",
+          "caller": "0xdEcbF1485180DE6e011Bf309D92669A53a0f2C66",
           "comment": "supportsInterface(bytes4): left(0x73b6b492) -> true",
           "instance": "Homer",
           "method": "supportsInterface(bytes4)",
@@ -49,7 +49,7 @@
           }
         },
         {
-          "caller": "0x83f9001569c1C977e15fc7c4c6F5D8d9e4Dbf7CE",
+          "caller": "0xdEcbF1485180DE6e011Bf309D92669A53a0f2C66",
           "comment": "supportsInterface(bytes4): left(0x70b6b492) -> false",
           "instance": "Homer",
           "method": "supportsInterface(bytes4)",
@@ -70,6 +70,6 @@
     "Homer": "homer.sol:Homer"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

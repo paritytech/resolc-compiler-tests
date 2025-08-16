@@ -4,7 +4,7 @@
       "name": "block_blobbasefee",
       "inputs": [
         {
-          "caller": "0x0C763315F196Bc043Ca85D9FDAf523Ec23ab245c",
+          "caller": "0xc514a69465f97d2F4086cc2d465aDDd3d2810A85",
           "comment": "f() -> 1",
           "instance": "C",
           "method": "f()",
@@ -17,7 +17,7 @@
           }
         },
         {
-          "caller": "0x0C763315F196Bc043Ca85D9FDAf523Ec23ab245c",
+          "caller": "0xc514a69465f97d2F4086cc2d465aDDd3d2810A85",
           "comment": "g() -> 1",
           "instance": "C",
           "method": "g()",
@@ -30,7 +30,7 @@
           }
         },
         {
-          "caller": "0x0C763315F196Bc043Ca85D9FDAf523Ec23ab245c",
+          "caller": "0xc514a69465f97d2F4086cc2d465aDDd3d2810A85",
           "comment": "f() -> 1",
           "instance": "C",
           "method": "f()",
@@ -43,7 +43,7 @@
           }
         },
         {
-          "caller": "0x0C763315F196Bc043Ca85D9FDAf523Ec23ab245c",
+          "caller": "0xc514a69465f97d2F4086cc2d465aDDd3d2810A85",
           "comment": "g() -> 1",
           "instance": "C",
           "method": "g()",
@@ -62,7 +62,7 @@
     "C": "block_blobbasefee.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ],
   "required_evm_version": ">=cancun"
 }

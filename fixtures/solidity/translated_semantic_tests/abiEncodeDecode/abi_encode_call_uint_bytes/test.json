@@ -4,7 +4,7 @@
       "name": "abi_encode_call_uint_bytes",
       "inputs": [
         {
-          "caller": "0xB99C77DE27E36685f776f32543042db2fA66C65A",
+          "caller": "0x94d9709A1cCd46117D962f244B3511Fa75beb80d",
           "comment": "f() -> 0x20, 0x60, 0x1234000000000000000000000000000000000000000000000000000000000000, 0x6162000000000000000000000000000000000000000000000000000000000000, 0x1234000000000000000000000000000000000000000000000000000000000000",
           "instance": "C",
           "method": "f()",
@@ -21,7 +21,7 @@
           }
         },
         {
-          "caller": "0xB99C77DE27E36685f776f32543042db2fA66C65A",
+          "caller": "0x94d9709A1cCd46117D962f244B3511Fa75beb80d",
           "comment": "f2() -> 0x20, 0x40, 0x1234, 0x1234",
           "instance": "C",
           "method": "f2()",
@@ -43,7 +43,7 @@
     "C": "abi_encode_call_uint_bytes.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ],
   "required_evm_version": ">homestead"
 }

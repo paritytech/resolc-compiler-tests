@@ -4,7 +4,7 @@
       "name": "inherited_function_through_dispatch",
       "inputs": [
         {
-          "caller": "0x53dD34eFa388135CC7ea3BCB069D426c25bf76CC",
+          "caller": "0x8c1e27d709FB79B6D1d22E4781018d2dfbaD3927",
           "comment": "g() -> 1",
           "instance": "B",
           "method": "g()",
@@ -23,6 +23,6 @@
     "B": "inherited_function_through_dispatch.sol:B"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

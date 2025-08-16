@@ -4,7 +4,7 @@
       "name": "function_return_parameter",
       "inputs": [
         {
-          "caller": "0x943901c3F328354e72cC5Ed975cC88aa1c2727a3",
+          "caller": "0x857CdDBb4789905e42D14fE9979b82bD85e74246",
           "comment": "f(uint8): 5 -> 0x00",
           "instance": "B",
           "method": "f(uint8)",
@@ -25,6 +25,6 @@
     "B": "function_return_parameter.sol:B"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

@@ -4,7 +4,7 @@
       "name": "uninitialized_internal_storage_function_legacy",
       "inputs": [
         {
-          "caller": "0x321599F3Aa9934eAa5bE89Ac948A89123911cd05",
+          "caller": "0xDf2650bE2f13bCE3993C6EbEBD75ebF5E6536865",
           "comment": "f() -> true",
           "instance": "Test",
           "method": "f()",
@@ -23,6 +23,6 @@
     "Test": "uninitialized_internal_storage_function_legacy.sol:Test"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

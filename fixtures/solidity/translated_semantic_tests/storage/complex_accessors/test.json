@@ -4,7 +4,7 @@
       "name": "complex_accessors",
       "inputs": [
         {
-          "caller": "0x51909c486AC78b189C8794A855FC2BD65635AeB7",
+          "caller": "0x1353e0761fAd723CCff02f91f19768d83Fc1c41e",
           "comment": "to_string_map(uint256): 42 -> \"24\"",
           "instance": "test",
           "method": "to_string_map(uint256)",
@@ -19,7 +19,7 @@
           }
         },
         {
-          "caller": "0x51909c486AC78b189C8794A855FC2BD65635AeB7",
+          "caller": "0x1353e0761fAd723CCff02f91f19768d83Fc1c41e",
           "comment": "to_bool_map(uint256): 42 -> false",
           "instance": "test",
           "method": "to_bool_map(uint256)",
@@ -34,7 +34,7 @@
           }
         },
         {
-          "caller": "0x51909c486AC78b189C8794A855FC2BD65635AeB7",
+          "caller": "0x1353e0761fAd723CCff02f91f19768d83Fc1c41e",
           "comment": "to_uint_map(uint256): 42 -> 12",
           "instance": "test",
           "method": "to_uint_map(uint256)",
@@ -49,7 +49,7 @@
           }
         },
         {
-          "caller": "0x51909c486AC78b189C8794A855FC2BD65635AeB7",
+          "caller": "0x1353e0761fAd723CCff02f91f19768d83Fc1c41e",
           "comment": "to_multiple_map(uint256,uint256): 42, 23 -> 31",
           "instance": "test",
           "method": "to_multiple_map(uint256,uint256)",
@@ -71,6 +71,6 @@
     "test": "complex_accessors.sol:test"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

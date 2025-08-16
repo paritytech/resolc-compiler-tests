@@ -4,7 +4,7 @@
       "name": "lisa",
       "inputs": [
         {
-          "caller": "0xdEcbF1485180DE6e011Bf309D92669A53a0f2C66",
+          "caller": "0xff9086f505A7BA1ca7211CD0A3C56dEDB13332B5",
           "comment": "supportsInterface(bytes4): left(0x01ffc9a0) -> false",
           "instance": "Lisa",
           "method": "supportsInterface(bytes4)",
@@ -19,7 +19,7 @@
           }
         },
         {
-          "caller": "0xdEcbF1485180DE6e011Bf309D92669A53a0f2C66",
+          "caller": "0xff9086f505A7BA1ca7211CD0A3C56dEDB13332B5",
           "comment": "supportsInterface(bytes4): left(0x01ffc9a7) -> true",
           "instance": "Lisa",
           "method": "supportsInterface(bytes4)",
@@ -34,7 +34,7 @@
           }
         },
         {
-          "caller": "0xdEcbF1485180DE6e011Bf309D92669A53a0f2C66",
+          "caller": "0xff9086f505A7BA1ca7211CD0A3C56dEDB13332B5",
           "comment": "supportsInterface(bytes4): left(0x73b6b492) -> true",
           "instance": "Lisa",
           "method": "supportsInterface(bytes4)",
@@ -49,7 +49,7 @@
           }
         },
         {
-          "caller": "0xdEcbF1485180DE6e011Bf309D92669A53a0f2C66",
+          "caller": "0xff9086f505A7BA1ca7211CD0A3C56dEDB13332B5",
           "comment": "supportsInterface(bytes4): left(0x70b6b492) -> false",
           "instance": "Lisa",
           "method": "supportsInterface(bytes4)",
@@ -70,6 +70,6 @@
     "Lisa": "lisa.sol:Lisa"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

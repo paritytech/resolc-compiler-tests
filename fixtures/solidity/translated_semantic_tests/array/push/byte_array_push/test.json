@@ -4,7 +4,7 @@
       "name": "byte_array_push",
       "inputs": [
         {
-          "caller": "0xc98E4Fd64Dc8862B2EE6287C21b20A13bD01279E",
+          "caller": "0x4DF4cFa80276BE848C2BA37a930c224A54F230C1",
           "comment": "test() -> false",
           "instance": "c",
           "method": "test()",
@@ -23,6 +23,6 @@
     "c": "byte_array_push.sol:c"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

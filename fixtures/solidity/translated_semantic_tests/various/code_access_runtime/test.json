@@ -4,7 +4,7 @@
       "name": "code_access_runtime",
       "inputs": [
         {
-          "caller": "0x18597Bb8FED44a268a7eE526C295271123C4CceB",
+          "caller": "0xDf35DF6fE6Cf29C2F6c92FF2f71076f1b1fe82Af",
           "comment": "test() -> 42; gas legacy: 76034; gas legacy code: 24200",
           "instance": "C",
           "method": "test()",
@@ -23,7 +23,7 @@
     "C": "code_access_runtime.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ],
   "required_evm_version": ">=constantinople"
 }

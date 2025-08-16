@@ -26,7 +26,7 @@
     "C": "calldata_tail_short.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ],
   "required_evm_version": ">=byzantium",
   "compiler_directives": {

@@ -36,6 +36,6 @@
     "C": "state_variable_initialization.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

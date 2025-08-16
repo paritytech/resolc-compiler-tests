@@ -4,7 +4,7 @@
       "name": "multiple_initializations",
       "inputs": [
         {
-          "caller": "0x18C466FBF537555AB2587d30EcB3d0369d78f5E2",
+          "caller": "0xc59B82f5B4Eeb5c399B8C369B6bAD9cC87428520",
           "comment": "get() -> 0xff",
           "instance": "C",
           "method": "get()",
@@ -23,6 +23,6 @@
     "C": "multiple_initializations.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

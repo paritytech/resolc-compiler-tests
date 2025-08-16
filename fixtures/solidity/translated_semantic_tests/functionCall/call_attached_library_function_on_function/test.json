@@ -4,7 +4,7 @@
       "name": "call_attached_library_function_on_function",
       "inputs": [
         {
-          "caller": "0x1774f6563C621D83b79F13561EA367387ab0ccC8",
+          "caller": "0xCa611B9Cd569b96B7c7EBEa2f08DC571bF7b0fD7",
           "comment": "f() -> 7",
           "instance": "C",
           "method": "f()",
@@ -29,6 +29,6 @@
     }
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

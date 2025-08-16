@@ -4,7 +4,7 @@
       "name": "function_modifier_loop",
       "inputs": [
         {
-          "caller": "0xB426970747ACFbe0df037dE14278AA6e3fe8ae92",
+          "caller": "0xc4131E2eFAf5cC135C87459D51F6BAe574b900d8",
           "comment": "f() -> 10",
           "instance": "C",
           "method": "f()",
@@ -23,6 +23,6 @@
     "C": "function_modifier_loop.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

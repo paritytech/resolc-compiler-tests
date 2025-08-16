@@ -38,6 +38,6 @@
     "Creator": "arrays_in_constructors.sol:Creator"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

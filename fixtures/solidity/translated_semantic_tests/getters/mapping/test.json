@@ -42,6 +42,6 @@
     "C": "mapping.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

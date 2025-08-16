@@ -4,7 +4,7 @@
       "name": "address",
       "inputs": [
         {
-          "caller": "0xab49D0d40F2D8AE08769c57F787564838f33154E",
+          "caller": "0xB2d359bc3CD5a761b6B615A307F4c48055a88916",
           "comment": "f(uint256): 0 -> 0",
           "instance": "C",
           "method": "f(uint256)",
@@ -19,7 +19,7 @@
           }
         },
         {
-          "caller": "0xab49D0d40F2D8AE08769c57F787564838f33154E",
+          "caller": "0xB2d359bc3CD5a761b6B615A307F4c48055a88916",
           "comment": "g(address): 0 -> 0",
           "instance": "C",
           "method": "g(address)",
@@ -34,7 +34,7 @@
           }
         },
         {
-          "caller": "0xab49D0d40F2D8AE08769c57F787564838f33154E",
+          "caller": "0xB2d359bc3CD5a761b6B615A307F4c48055a88916",
           "comment": "f(uint256): 1 -> 1",
           "instance": "C",
           "method": "f(uint256)",
@@ -49,7 +49,7 @@
           }
         },
         {
-          "caller": "0xab49D0d40F2D8AE08769c57F787564838f33154E",
+          "caller": "0xB2d359bc3CD5a761b6B615A307F4c48055a88916",
           "comment": "g(address): 1 -> 1",
           "instance": "C",
           "method": "g(address)",
@@ -64,7 +64,7 @@
           }
         },
         {
-          "caller": "0xab49D0d40F2D8AE08769c57F787564838f33154E",
+          "caller": "0xB2d359bc3CD5a761b6B615A307F4c48055a88916",
           "comment": "f(uint256): 2 -> 2",
           "instance": "C",
           "method": "f(uint256)",
@@ -79,7 +79,7 @@
           }
         },
         {
-          "caller": "0xab49D0d40F2D8AE08769c57F787564838f33154E",
+          "caller": "0xB2d359bc3CD5a761b6B615A307F4c48055a88916",
           "comment": "g(address): 2 -> 2",
           "instance": "C",
           "method": "g(address)",
@@ -94,7 +94,7 @@
           }
         },
         {
-          "caller": "0xab49D0d40F2D8AE08769c57F787564838f33154E",
+          "caller": "0xB2d359bc3CD5a761b6B615A307F4c48055a88916",
           "comment": "f(uint256): 0xabcdef0123456789abcdef0123456789abcdefff -> 0xabcdef0123456789abcdef0123456789abcdefff",
           "instance": "C",
           "method": "f(uint256)",
@@ -109,7 +109,7 @@
           }
         },
         {
-          "caller": "0xab49D0d40F2D8AE08769c57F787564838f33154E",
+          "caller": "0xB2d359bc3CD5a761b6B615A307F4c48055a88916",
           "comment": "g(address): 0xabcdef0123456789abcdef0123456789abcdefff -> 0xabcdef0123456789abcdef0123456789abcdefff",
           "instance": "C",
           "method": "g(address)",
@@ -124,7 +124,7 @@
           }
         },
         {
-          "caller": "0xab49D0d40F2D8AE08769c57F787564838f33154E",
+          "caller": "0xB2d359bc3CD5a761b6B615A307F4c48055a88916",
           "comment": "f(uint256): 0xffffffffffffffffffffffffffffffffffffffff -> 0xffffffffffffffffffffffffffffffffffffffff",
           "instance": "C",
           "method": "f(uint256)",
@@ -139,7 +139,7 @@
           }
         },
         {
-          "caller": "0xab49D0d40F2D8AE08769c57F787564838f33154E",
+          "caller": "0xB2d359bc3CD5a761b6B615A307F4c48055a88916",
           "comment": "g(address): 0xffffffffffffffffffffffffffffffffffffffff -> 0xffffffffffffffffffffffffffffffffffffffff",
           "instance": "C",
           "method": "g(address)",
@@ -154,7 +154,7 @@
           }
         },
         {
-          "caller": "0xab49D0d40F2D8AE08769c57F787564838f33154E",
+          "caller": "0xB2d359bc3CD5a761b6B615A307F4c48055a88916",
           "comment": "f(uint256): 0x010000000000000000000000000000000000000000 -> 0",
           "instance": "C",
           "method": "f(uint256)",
@@ -169,7 +169,7 @@
           }
         },
         {
-          "caller": "0xab49D0d40F2D8AE08769c57F787564838f33154E",
+          "caller": "0xB2d359bc3CD5a761b6B615A307F4c48055a88916",
           "comment": "g(address): 0x010000000000000000000000000000000000000000 -> FAILURE",
           "instance": "C",
           "method": "g(address)",
@@ -181,7 +181,7 @@
           }
         },
         {
-          "caller": "0xab49D0d40F2D8AE08769c57F787564838f33154E",
+          "caller": "0xB2d359bc3CD5a761b6B615A307F4c48055a88916",
           "comment": "f(uint256): 0x01abcdef0123456789abcdef0123456789abcdefff -> 0xabcdef0123456789abcdef0123456789abcdefff",
           "instance": "C",
           "method": "f(uint256)",
@@ -196,7 +196,7 @@
           }
         },
         {
-          "caller": "0xab49D0d40F2D8AE08769c57F787564838f33154E",
+          "caller": "0xB2d359bc3CD5a761b6B615A307F4c48055a88916",
           "comment": "g(address): 0x01abcdef0123456789abcdef0123456789abcdefff -> FAILURE",
           "instance": "C",
           "method": "g(address)",
@@ -208,7 +208,7 @@
           }
         },
         {
-          "caller": "0xab49D0d40F2D8AE08769c57F787564838f33154E",
+          "caller": "0xB2d359bc3CD5a761b6B615A307F4c48055a88916",
           "comment": "f(uint256): 0x01ffffffffffffffffffffffffffffffffffffffff -> 0xffffffffffffffffffffffffffffffffffffffff",
           "instance": "C",
           "method": "f(uint256)",
@@ -223,7 +223,7 @@
           }
         },
         {
-          "caller": "0xab49D0d40F2D8AE08769c57F787564838f33154E",
+          "caller": "0xB2d359bc3CD5a761b6B615A307F4c48055a88916",
           "comment": "g(address): 0x01ffffffffffffffffffffffffffffffffffffffff -> FAILURE",
           "instance": "C",
           "method": "g(address)",
@@ -235,7 +235,7 @@
           }
         },
         {
-          "caller": "0xab49D0d40F2D8AE08769c57F787564838f33154E",
+          "caller": "0xB2d359bc3CD5a761b6B615A307F4c48055a88916",
           "comment": "f(uint256): -1 -> 0xffffffffffffffffffffffffffffffffffffffff",
           "instance": "C",
           "method": "f(uint256)",
@@ -250,7 +250,7 @@
           }
         },
         {
-          "caller": "0xab49D0d40F2D8AE08769c57F787564838f33154E",
+          "caller": "0xB2d359bc3CD5a761b6B615A307F4c48055a88916",
           "comment": "g(address): -1 -> FAILURE",
           "instance": "C",
           "method": "g(address)",
@@ -268,6 +268,6 @@
     "C": "address.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

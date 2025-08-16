@@ -4,7 +4,7 @@
       "name": "imported_free_function_via_alias",
       "inputs": [
         {
-          "caller": "0xbac431cCcE453e8bBEd585C5a8E235236327977d",
+          "caller": "0xE2cA576427C3B3001D9ac7402769CDD76059010e",
           "comment": "g() -> 61337",
           "instance": "D",
           "method": "g()",
@@ -23,6 +23,6 @@
     "D": "s2.sol:D"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

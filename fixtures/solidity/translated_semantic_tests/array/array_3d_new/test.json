@@ -4,7 +4,7 @@
       "name": "array_3d_new",
       "inputs": [
         {
-          "caller": "0xb6ae911D3bC66f9EF3f583b21222A35C7a8F7251",
+          "caller": "0x680db57d73F9cF6b6244EFD5c57ADd31c5981d1c",
           "comment": "f(uint256): 42 -> 42",
           "instance": "C",
           "method": "f(uint256)",
@@ -25,6 +25,6 @@
     "C": "array_3d_new.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

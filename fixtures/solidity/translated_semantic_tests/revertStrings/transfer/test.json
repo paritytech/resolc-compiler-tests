@@ -60,7 +60,7 @@
     "C": "transfer.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ],
   "required_evm_version": ">=byzantium",
   "compiler_directives": {

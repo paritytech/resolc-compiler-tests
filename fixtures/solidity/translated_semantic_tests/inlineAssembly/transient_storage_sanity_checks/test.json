@@ -4,7 +4,7 @@
       "name": "transient_storage_sanity_checks",
       "inputs": [
         {
-          "caller": "0x07Fcd523A3351065d66a62f9b8ffA857cdF2A72f",
+          "caller": "0x5294144Ef86aAe42b5799920851103c684795A4c",
           "comment": "f() ->",
           "instance": "C",
           "method": "f()",
@@ -14,7 +14,7 @@
           }
         },
         {
-          "caller": "0x07Fcd523A3351065d66a62f9b8ffA857cdF2A72f",
+          "caller": "0x5294144Ef86aAe42b5799920851103c684795A4c",
           "comment": "g() -> 0x2a, 0, 0",
           "instance": "C",
           "method": "g()",
@@ -35,7 +35,7 @@
     "C": "transient_storage_sanity_checks.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ],
   "required_evm_version": ">=cancun"
 }

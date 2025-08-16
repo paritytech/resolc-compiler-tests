@@ -4,7 +4,7 @@
       "name": "bytes_concat_nested",
       "inputs": [
         {
-          "caller": "0x80C2AffDDc0eec938ba701407329826EF9c18fC2",
+          "caller": "0xB535c27f8bAFA4B3239dCb2b89C4e1541f1fb1F0",
           "comment": "f(bytes,bytes,bytes): 0x60, 0x60, 0x60, 2, \"ab\" -> 0x20, 6, \"ababab\"",
           "instance": "C",
           "method": "f(bytes,bytes,bytes)",
@@ -31,6 +31,6 @@
     "C": "bytes_concat_nested.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

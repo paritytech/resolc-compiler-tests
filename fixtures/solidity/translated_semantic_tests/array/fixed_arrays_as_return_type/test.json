@@ -4,7 +4,7 @@
       "name": "fixed_arrays_as_return_type",
       "inputs": [
         {
-          "caller": "0x120914bdF39A940d770d04D9AD8e33771cf11e37",
+          "caller": "0x6FAa10fDAdb5c252F51A7E605A24EC4a28F824e3",
           "comment": "f() -> 2, 3, 4, 5, 6, 1000, 1001, 1002, 1003, 1004; gas irOptimized: 59212; gas irOptimized code: 56600; gas legacy: 68001; gas legacy code: 162000; gas legacyOptimized: 59997; gas legacyOptimized code: 70600",
           "instance": "B",
           "method": "f()",
@@ -32,6 +32,6 @@
     "B": "fixed_arrays_as_return_type.sol:B"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

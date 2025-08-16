@@ -4,7 +4,7 @@
       "name": "basic",
       "inputs": [
         {
-          "caller": "0x2da8346AF54f24abfd0C65D1CF3FBC534c2E69B3",
+          "caller": "0x63B58cb931d0942EF970b2906d0AaB632F880715",
           "comment": "d() ->",
           "instance": "C",
           "method": "d()",
@@ -14,7 +14,7 @@
           }
         },
         {
-          "caller": "0x2da8346AF54f24abfd0C65D1CF3FBC534c2E69B3",
+          "caller": "0x63B58cb931d0942EF970b2906d0AaB632F880715",
           "comment": "e(), 1 wei -> 1",
           "instance": "C",
           "method": "e()",
@@ -28,7 +28,7 @@
           "value": "1 wei"
         },
         {
-          "caller": "0x2da8346AF54f24abfd0C65D1CF3FBC534c2E69B3",
+          "caller": "0x63B58cb931d0942EF970b2906d0AaB632F880715",
           "comment": "e(), 1 ether -> 1000000000000000000",
           "instance": "C",
           "method": "e()",
@@ -42,7 +42,7 @@
           "value": "1000000000000000000 wei"
         },
         {
-          "caller": "0x2da8346AF54f24abfd0C65D1CF3FBC534c2E69B3",
+          "caller": "0x63B58cb931d0942EF970b2906d0AaB632F880715",
           "comment": "f(uint256): 3 -> 3, 3",
           "instance": "C",
           "method": "f(uint256)",
@@ -58,7 +58,7 @@
           }
         },
         {
-          "caller": "0x2da8346AF54f24abfd0C65D1CF3FBC534c2E69B3",
+          "caller": "0x63B58cb931d0942EF970b2906d0AaB632F880715",
           "comment": "g() -> 2, 3",
           "instance": "C",
           "method": "g()",
@@ -72,7 +72,7 @@
           }
         },
         {
-          "caller": "0x2da8346AF54f24abfd0C65D1CF3FBC534c2E69B3",
+          "caller": "0x63B58cb931d0942EF970b2906d0AaB632F880715",
           "comment": "h(uint256,uint256): 1, -2 -> 3",
           "instance": "C",
           "method": "h(uint256,uint256)",
@@ -88,7 +88,7 @@
           }
         },
         {
-          "caller": "0x2da8346AF54f24abfd0C65D1CF3FBC534c2E69B3",
+          "caller": "0x63B58cb931d0942EF970b2906d0AaB632F880715",
           "comment": "i(bool): true -> false",
           "instance": "C",
           "method": "i(bool)",
@@ -103,7 +103,7 @@
           }
         },
         {
-          "caller": "0x2da8346AF54f24abfd0C65D1CF3FBC534c2E69B3",
+          "caller": "0x63B58cb931d0942EF970b2906d0AaB632F880715",
           "comment": "j(bytes32): 0x10001 -> 0x10001, 0x10001",
           "instance": "C",
           "method": "j(bytes32)",
@@ -119,7 +119,7 @@
           }
         },
         {
-          "caller": "0x2da8346AF54f24abfd0C65D1CF3FBC534c2E69B3",
+          "caller": "0x63B58cb931d0942EF970b2906d0AaB632F880715",
           "comment": "k(): hex\"4200efef\" -> 8",
           "instance": "C",
           "method": "k()",
@@ -134,7 +134,7 @@
           }
         },
         {
-          "caller": "0x2da8346AF54f24abfd0C65D1CF3FBC534c2E69B3",
+          "caller": "0x63B58cb931d0942EF970b2906d0AaB632F880715",
           "comment": "l(uint256): 99 -> 693",
           "instance": "C",
           "method": "l(uint256)",
@@ -155,6 +155,6 @@
     "C": "basic.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

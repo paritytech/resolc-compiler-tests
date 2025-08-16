@@ -4,7 +4,7 @@
       "name": "storage_string_as_mapping_key_without_variable",
       "inputs": [
         {
-          "caller": "0x5bc5aA8842e9cdA8A1F55657d67Fd07Af381C38f",
+          "caller": "0x3cf063a22D1b8D11089Cff7Db4B56742407B7F7c",
           "comment": "f() -> 2",
           "instance": "Test",
           "method": "f()",
@@ -23,6 +23,6 @@
     "Test": "storage_string_as_mapping_key_without_variable.sol:Test"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

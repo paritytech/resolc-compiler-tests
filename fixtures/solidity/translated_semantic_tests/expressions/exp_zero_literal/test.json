@@ -23,6 +23,6 @@
     "test": "exp_zero_literal.sol:test"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

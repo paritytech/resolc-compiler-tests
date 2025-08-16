@@ -4,7 +4,7 @@
       "name": "state_variables_init_order_2",
       "inputs": [
         {
-          "caller": "0xA109a7F5b9Dc69893D021b6C4253c5051B27a724",
+          "caller": "0xf1C3317b950618a3aE1f663c97b3335cd1F0660D",
           "comment": "z() -> 1",
           "instance": "B",
           "method": "z()",
@@ -23,6 +23,6 @@
     "B": "state_variables_init_order_2.sol:B"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

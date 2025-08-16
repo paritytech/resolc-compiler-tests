@@ -4,7 +4,7 @@
       "name": "abi_decode_simple_storage",
       "inputs": [
         {
-          "caller": "0x4988AffCeca02fFeD262981C9DC6EBf0fB1236D8",
+          "caller": "0x547571a68675F6f71C100fe285C89940000475e3",
           "comment": "f(bytes): 0x20, 0x80, 0x21, 0x40, 0x7, \"abcdefg\" -> 0x21, 0x40, 0x7, \"abcdefg\"; gas irOptimized: 135499; gas legacy: 137095; gas legacyOptimized: 135823",
           "instance": "C",
           "method": "f(bytes)",
@@ -33,6 +33,6 @@
     "C": "abi_decode_simple_storage.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

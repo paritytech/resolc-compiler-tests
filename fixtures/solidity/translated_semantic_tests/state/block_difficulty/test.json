@@ -4,7 +4,7 @@
       "name": "block_difficulty",
       "inputs": [
         {
-          "caller": "0x4817fCfFC8171bC1a05A23d926849373bfdf600E",
+          "caller": "0xe79b8124a79e7889DA839B0849Cf0aab21730D28",
           "comment": "f() -> 2500000000000000",
           "instance": "C",
           "method": "f()",
@@ -17,7 +17,7 @@
           }
         },
         {
-          "caller": "0x4817fCfFC8171bC1a05A23d926849373bfdf600E",
+          "caller": "0xe79b8124a79e7889DA839B0849Cf0aab21730D28",
           "comment": "f() -> 2500000000000000",
           "instance": "C",
           "method": "f()",
@@ -30,7 +30,7 @@
           }
         },
         {
-          "caller": "0x4817fCfFC8171bC1a05A23d926849373bfdf600E",
+          "caller": "0xe79b8124a79e7889DA839B0849Cf0aab21730D28",
           "comment": "f() -> 2500000000000000",
           "instance": "C",
           "method": "f()",
@@ -49,7 +49,7 @@
     "C": "block_difficulty.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ],
   "required_evm_version": "<paris"
 }

@@ -23,6 +23,6 @@
     "C": "selector_expression_side_effect.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

@@ -4,7 +4,7 @@
       "name": "pass_dynamic_arguments_to_the_base_base",
       "inputs": [
         {
-          "caller": "0xDA4B0a29731a0A7F38eC4Da467399f663E14B1ce",
+          "caller": "0x72c7A47C5D01BDdf9067EaBb345f5DAaBDEAd13f",
           "comment": "m_i() -> 4",
           "instance": "Final",
           "method": "m_i()",
@@ -23,6 +23,6 @@
     "Final": "pass_dynamic_arguments_to_the_base_base.sol:Final"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

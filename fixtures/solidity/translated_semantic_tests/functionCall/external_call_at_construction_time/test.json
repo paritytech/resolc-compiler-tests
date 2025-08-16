@@ -4,7 +4,7 @@
       "name": "external_call_at_construction_time",
       "inputs": [
         {
-          "caller": "0x25910407ea26ddeD1D7Ab60bFA1c0Ae466bf9b46",
+          "caller": "0xa84c917048F3aeE68ef2978f53B3e818Bb489f3e",
           "comment": "f(uint256): 0 -> FAILURE",
           "instance": "C",
           "method": "f(uint256)",
@@ -16,7 +16,7 @@
           }
         },
         {
-          "caller": "0x25910407ea26ddeD1D7Ab60bFA1c0Ae466bf9b46",
+          "caller": "0xa84c917048F3aeE68ef2978f53B3e818Bb489f3e",
           "comment": "f(uint256): 1 -> FAILURE",
           "instance": "C",
           "method": "f(uint256)",
@@ -28,7 +28,7 @@
           }
         },
         {
-          "caller": "0x25910407ea26ddeD1D7Ab60bFA1c0Ae466bf9b46",
+          "caller": "0xa84c917048F3aeE68ef2978f53B3e818Bb489f3e",
           "comment": "f(uint256): 2 -> 3",
           "instance": "C",
           "method": "f(uint256)",
@@ -49,7 +49,7 @@
     "C": "external_call_at_construction_time.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ],
   "required_evm_version": ">=byzantium"
 }

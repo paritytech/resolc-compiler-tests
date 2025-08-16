@@ -4,7 +4,7 @@
       "name": "string_concat_empty_argument_list",
       "inputs": [
         {
-          "caller": "0x135df6db8c0aB992a00eda63e9c3169b1dD693E8",
+          "caller": "0xeBaA04150Ec9c9dc233E833Ba857680748dbe86A",
           "comment": "f() -> 0x20, 0",
           "instance": "C",
           "method": "f()",
@@ -24,6 +24,6 @@
     "C": "string_concat_empty_argument_list.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

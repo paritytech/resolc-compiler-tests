@@ -4,7 +4,7 @@
       "name": "keccak256_with_bytes",
       "inputs": [
         {
-          "caller": "0x451cEA11ffB4D908ED458A3D4507f1ECd183f99c",
+          "caller": "0x95fAd24C9238a1fbD8b5cEC8eBd1bAebB931263A",
           "comment": "foo() -> true",
           "instance": "c",
           "method": "foo()",
@@ -23,6 +23,6 @@
     "c": "keccak256_with_bytes.sol:c"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

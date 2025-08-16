@@ -4,7 +4,7 @@
       "name": "stub",
       "inputs": [
         {
-          "caller": "0xAb39e66Cd6d5fAe25b964678FA76a3B1bC20175B",
+          "caller": "0xbbbf57693526923D5D4fE14DF207cD67BF169CD9",
           "comment": "f() -> 84, 23",
           "instance": "C",
           "method": "f()",
@@ -24,6 +24,6 @@
     "C": "stub.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

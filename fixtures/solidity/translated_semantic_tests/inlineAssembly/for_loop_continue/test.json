@@ -4,7 +4,7 @@
       "name": "for_loop_continue",
       "inputs": [
         {
-          "caller": "0xe82d5371997A63e520Fa7b520B59909c45456B7d",
+          "caller": "0x9D6ac4ec00137a3a50A601fC5684F7CB6279FC30",
           "comment": "f() -> 5",
           "instance": "C",
           "method": "f()",
@@ -23,6 +23,6 @@
     "C": "for_loop_continue.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

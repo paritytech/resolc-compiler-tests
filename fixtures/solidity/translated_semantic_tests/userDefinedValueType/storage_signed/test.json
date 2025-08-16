@@ -4,7 +4,7 @@
       "name": "storage_signed",
       "inputs": [
         {
-          "caller": "0xCA548a3f5Da60E114FEb687D2fAc1579ED4fbdEa",
+          "caller": "0x0e4D535c5CD3cE0ac5058e968c62e8A1ea235b8F",
           "comment": "a() -> -2",
           "instance": "C",
           "method": "a()",
@@ -17,7 +17,7 @@
           }
         },
         {
-          "caller": "0xCA548a3f5Da60E114FEb687D2fAc1579ED4fbdEa",
+          "caller": "0x0e4D535c5CD3cE0ac5058e968c62e8A1ea235b8F",
           "comment": "direct() -> -2",
           "instance": "C",
           "method": "direct()",
@@ -30,7 +30,7 @@
           }
         },
         {
-          "caller": "0xCA548a3f5Da60E114FEb687D2fAc1579ED4fbdEa",
+          "caller": "0x0e4D535c5CD3cE0ac5058e968c62e8A1ea235b8F",
           "comment": "indirect() -> -2",
           "instance": "C",
           "method": "indirect()",
@@ -43,7 +43,7 @@
           }
         },
         {
-          "caller": "0xCA548a3f5Da60E114FEb687D2fAc1579ED4fbdEa",
+          "caller": "0x0e4D535c5CD3cE0ac5058e968c62e8A1ea235b8F",
           "comment": "toMemDirect() -> -2",
           "instance": "C",
           "method": "toMemDirect()",
@@ -56,7 +56,7 @@
           }
         },
         {
-          "caller": "0xCA548a3f5Da60E114FEb687D2fAc1579ED4fbdEa",
+          "caller": "0x0e4D535c5CD3cE0ac5058e968c62e8A1ea235b8F",
           "comment": "toMemIndirect() -> -2",
           "instance": "C",
           "method": "toMemIndirect()",
@@ -69,7 +69,7 @@
           }
         },
         {
-          "caller": "0xCA548a3f5Da60E114FEb687D2fAc1579ED4fbdEa",
+          "caller": "0x0e4D535c5CD3cE0ac5058e968c62e8A1ea235b8F",
           "comment": "div() -> -1",
           "instance": "C",
           "method": "div()",
@@ -82,7 +82,7 @@
           }
         },
         {
-          "caller": "0xCA548a3f5Da60E114FEb687D2fAc1579ED4fbdEa",
+          "caller": "0x0e4D535c5CD3cE0ac5058e968c62e8A1ea235b8F",
           "comment": "viaasm() -> 0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe",
           "instance": "C",
           "method": "viaasm()",
@@ -101,6 +101,6 @@
     "C": "storage_signed.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

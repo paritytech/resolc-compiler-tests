@@ -4,7 +4,7 @@
       "name": "byte_array_pop_copy_long",
       "inputs": [
         {
-          "caller": "0xa0D8C7260f6f68091A5eA78F24B9dab0334D7429",
+          "caller": "0xbAF8F3C65d35c0c9e39670985C5a2B119408050b",
           "comment": "test() -> 0x20, 29, 0x0303030303030303030303030303030303030303030303030303030303000000; gas irOptimized: 109310; gas legacy: 101220; gas legacyOptimized: 123422",
           "instance": "c",
           "method": "test()",
@@ -25,6 +25,6 @@
     "c": "byte_array_pop_copy_long.sol:c"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

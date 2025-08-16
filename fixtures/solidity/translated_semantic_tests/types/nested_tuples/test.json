@@ -4,7 +4,7 @@
       "name": "nested_tuples",
       "inputs": [
         {
-          "caller": "0xD489E6C5C85FC66745BE6A069E24219191Fd9A7F",
+          "caller": "0xA412f3d6553d13B98fd9EA59e0BAe9bc9C6C2B5E",
           "comment": "f0() -> 2, true",
           "instance": "test",
           "method": "f0()",
@@ -18,7 +18,7 @@
           }
         },
         {
-          "caller": "0xD489E6C5C85FC66745BE6A069E24219191Fd9A7F",
+          "caller": "0xA412f3d6553d13B98fd9EA59e0BAe9bc9C6C2B5E",
           "comment": "f1() -> 1",
           "instance": "test",
           "method": "f1()",
@@ -31,7 +31,7 @@
           }
         },
         {
-          "caller": "0xD489E6C5C85FC66745BE6A069E24219191Fd9A7F",
+          "caller": "0xA412f3d6553d13B98fd9EA59e0BAe9bc9C6C2B5E",
           "comment": "f2() -> 2",
           "instance": "test",
           "method": "f2()",
@@ -44,7 +44,7 @@
           }
         },
         {
-          "caller": "0xD489E6C5C85FC66745BE6A069E24219191Fd9A7F",
+          "caller": "0xA412f3d6553d13B98fd9EA59e0BAe9bc9C6C2B5E",
           "comment": "f3() -> 3",
           "instance": "test",
           "method": "f3()",
@@ -57,7 +57,7 @@
           }
         },
         {
-          "caller": "0xD489E6C5C85FC66745BE6A069E24219191Fd9A7F",
+          "caller": "0xA412f3d6553d13B98fd9EA59e0BAe9bc9C6C2B5E",
           "comment": "f4() -> 4",
           "instance": "test",
           "method": "f4()",
@@ -76,6 +76,6 @@
     "test": "nested_tuples.sol:test"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

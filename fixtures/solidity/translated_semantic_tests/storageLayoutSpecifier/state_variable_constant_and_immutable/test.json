@@ -4,7 +4,7 @@
       "name": "state_variable_constant_and_immutable",
       "inputs": [
         {
-          "caller": "0xC5F78F381A4a384f262Bb30169aB53edD1b12E75",
+          "caller": "0x674087CcF021ecBefeEE5404ee93eeE01599e927",
           "comment": "f() -> 11",
           "instance": "C",
           "method": "f()",
@@ -17,7 +17,7 @@
           }
         },
         {
-          "caller": "0xC5F78F381A4a384f262Bb30169aB53edD1b12E75",
+          "caller": "0x674087CcF021ecBefeEE5404ee93eeE01599e927",
           "comment": "g() -> 200",
           "instance": "C",
           "method": "g()",
@@ -36,6 +36,6 @@
     "C": "state_variable_constant_and_immutable.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

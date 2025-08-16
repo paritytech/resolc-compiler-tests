@@ -4,7 +4,7 @@
       "name": "small_exp",
       "inputs": [
         {
-          "caller": "0x05Ed2013717b832972cdD850c6Ed10c65fc7E6b3",
+          "caller": "0x31887F3a1a7319d9CD7D42AA732e9C57f01D6167",
           "comment": "f() -> 4",
           "instance": "test",
           "method": "f()",
@@ -23,6 +23,6 @@
     "test": "small_exp.sol:test"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

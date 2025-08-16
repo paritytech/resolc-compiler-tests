@@ -4,7 +4,7 @@
       "name": "struct_function",
       "inputs": [
         {
-          "caller": "0x120438797937C1b3eCCc83f0B363290E67fe87D4",
+          "caller": "0x8d28D027DB617422768991256dC5c664e03C7ec3",
           "comment": "test() -> 7, 3",
           "instance": "C",
           "method": "test()",
@@ -24,6 +24,6 @@
     "C": "struct_function.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

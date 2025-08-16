@@ -4,7 +4,7 @@
       "name": "require_pre_byzantium",
       "inputs": [
         {
-          "caller": "0x087a54B4a3CEC215c9B14933748C4798a341d6bb",
+          "caller": "0xA2C2756F1dA843640571fe88c600ed305F340ED7",
           "comment": "f(bool): true -> 1",
           "instance": "C",
           "method": "f(bool)",
@@ -19,7 +19,7 @@
           }
         },
         {
-          "caller": "0x087a54B4a3CEC215c9B14933748C4798a341d6bb",
+          "caller": "0xA2C2756F1dA843640571fe88c600ed305F340ED7",
           "comment": "f(bool): false -> 2",
           "instance": "C",
           "method": "f(bool)",
@@ -40,7 +40,7 @@
     "C": "require_pre_byzantium.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ],
   "required_evm_version": "<byzantium"
 }

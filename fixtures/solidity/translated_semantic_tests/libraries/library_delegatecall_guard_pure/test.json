@@ -4,7 +4,7 @@
       "name": "library_delegatecall_guard_pure",
       "inputs": [
         {
-          "caller": "0x2a16c1cAa1Ff1F246BAF58b8d50855FDf30bbEEA",
+          "caller": "0x54D25809a9e0B0F812Ba71d1E3043f1c1311405D",
           "comment": "f() -> 23",
           "instance": "C",
           "method": "f()",
@@ -17,7 +17,7 @@
           }
         },
         {
-          "caller": "0x2a16c1cAa1Ff1F246BAF58b8d50855FDf30bbEEA",
+          "caller": "0x54D25809a9e0B0F812Ba71d1E3043f1c1311405D",
           "comment": "g() -> true, 23",
           "instance": "C",
           "method": "g()",
@@ -31,7 +31,7 @@
           }
         },
         {
-          "caller": "0x2a16c1cAa1Ff1F246BAF58b8d50855FDf30bbEEA",
+          "caller": "0x54D25809a9e0B0F812Ba71d1E3043f1c1311405D",
           "comment": "h() -> true, 23",
           "instance": "C",
           "method": "h()",
@@ -57,7 +57,7 @@
     }
   },
   "modes": [
-    "E"
+    "E+"
   ],
   "required_evm_version": ">homestead"
 }

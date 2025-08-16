@@ -4,7 +4,7 @@
       "name": "internal_virtual_function_calls_through_dispatch",
       "inputs": [
         {
-          "caller": "0x4Db82405f276CEC135bbACb08A41ecf8a4931Ec8",
+          "caller": "0x530d1fd8d252A9c6690C422495A660aB1fF3a680",
           "comment": "h() -> 2",
           "instance": "Derived",
           "method": "h()",
@@ -23,6 +23,6 @@
     "Derived": "internal_virtual_function_calls_through_dispatch.sol:Derived"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

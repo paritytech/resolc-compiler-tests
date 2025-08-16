@@ -30,6 +30,6 @@
     "C": "denominations_in_array_sizes.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

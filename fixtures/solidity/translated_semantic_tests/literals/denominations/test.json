@@ -23,6 +23,6 @@
     "C": "denominations.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

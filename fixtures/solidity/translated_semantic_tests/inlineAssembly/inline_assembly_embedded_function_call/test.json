@@ -4,7 +4,7 @@
       "name": "inline_assembly_embedded_function_call",
       "inputs": [
         {
-          "caller": "0x6c82F433e265a54AAA1Ea96dFC5598fA95320bcd",
+          "caller": "0xd200cB50321301D1eaadEc8b8Dd4B3001608f605",
           "comment": "f() -> 0x1, 0x4, 0x7, 0x10",
           "instance": "C",
           "method": "f()",
@@ -26,6 +26,6 @@
     "C": "inline_assembly_embedded_function_call.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

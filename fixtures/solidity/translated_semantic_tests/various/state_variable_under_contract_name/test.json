@@ -4,7 +4,7 @@
       "name": "state_variable_under_contract_name",
       "inputs": [
         {
-          "caller": "0x7954b6Fa0da7Bc9d53c2a76c72a6E9a36F66a458",
+          "caller": "0x7b2f7c677A9BA526074738b0Fbe9837E35939F88",
           "comment": "getStateVar() -> 42",
           "instance": "Scope",
           "method": "getStateVar()",
@@ -23,6 +23,6 @@
     "Scope": "state_variable_under_contract_name.sol:Scope"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

@@ -58,6 +58,6 @@
     "C": "function_pointers.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

@@ -4,7 +4,7 @@
       "name": "invalid_enum_stored",
       "inputs": [
         {
-          "caller": "0xE75721D039E8D1fEAA9e59b19cE344A2B1eA6751",
+          "caller": "0x5C685CB25D3ac24280a6f9A2c3A0f49e85E523e0",
           "comment": "test_store_ok() -> 1",
           "instance": "C",
           "method": "test_store_ok()",
@@ -17,7 +17,7 @@
           }
         },
         {
-          "caller": "0xE75721D039E8D1fEAA9e59b19cE344A2B1eA6751",
+          "caller": "0x5C685CB25D3ac24280a6f9A2c3A0f49e85E523e0",
           "comment": "x() -> 0",
           "instance": "C",
           "method": "x()",
@@ -30,7 +30,7 @@
           }
         },
         {
-          "caller": "0xE75721D039E8D1fEAA9e59b19cE344A2B1eA6751",
+          "caller": "0x5C685CB25D3ac24280a6f9A2c3A0f49e85E523e0",
           "comment": "test_store() -> FAILURE, hex\"4e487b71\", 33",
           "instance": "C",
           "method": "test_store()",
@@ -50,7 +50,7 @@
     "C": "invalid_enum_stored.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ],
   "required_evm_version": ">=byzantium"
 }

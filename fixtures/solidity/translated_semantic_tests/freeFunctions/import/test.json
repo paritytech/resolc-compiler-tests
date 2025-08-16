@@ -4,7 +4,7 @@
       "name": "import",
       "inputs": [
         {
-          "caller": "0xFdd26606d6A772f82Ad434E8868336D2B5dC699b",
+          "caller": "0x115847a1a3b8d42A8591922cDec97313A526ca24",
           "comment": "f(uint256): 7 -> 7, 8",
           "instance": "C",
           "method": "f(uint256)",
@@ -26,6 +26,6 @@
     "C": "B.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

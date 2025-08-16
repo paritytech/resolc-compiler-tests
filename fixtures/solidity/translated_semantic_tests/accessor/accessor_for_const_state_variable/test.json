@@ -4,7 +4,7 @@
       "name": "accessor_for_const_state_variable",
       "inputs": [
         {
-          "caller": "0x6E73980267421980Eb483aeE686789cb23667181",
+          "caller": "0x0ED230aB86cB615FCC86eda28657EBf322B8c77D",
           "comment": "ticketPrice() -> 555",
           "instance": "Lotto",
           "method": "ticketPrice()",
@@ -23,6 +23,6 @@
     "Lotto": "accessor_for_const_state_variable.sol:Lotto"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

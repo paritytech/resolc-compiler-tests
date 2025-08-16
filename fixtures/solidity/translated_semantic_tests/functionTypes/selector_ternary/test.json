@@ -40,6 +40,6 @@
     "C": "selector_ternary.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

@@ -4,7 +4,7 @@
       "name": "array_zeroed_memory_index_access",
       "inputs": [
         {
-          "caller": "0x6c2dc34d6B3f413f63Be8125b6D732Be57E284d5",
+          "caller": "0xB1F0E3546A30b69e2B24bc157b9B3a66AdA299f5",
           "comment": "set(string,uint256,uint256): 0x60, 5, 0, 32, \"01234567890123456789012345678901\" -> 0",
           "instance": "C",
           "method": "set(string,uint256,uint256)",
@@ -23,7 +23,7 @@
           }
         },
         {
-          "caller": "0x6c2dc34d6B3f413f63Be8125b6D732Be57E284d5",
+          "caller": "0xB1F0E3546A30b69e2B24bc157b9B3a66AdA299f5",
           "comment": "set(string,uint256,uint256): 0x60, 5, 1, 32, \"01234567890123456789012345678901\" -> 0",
           "instance": "C",
           "method": "set(string,uint256,uint256)",
@@ -42,7 +42,7 @@
           }
         },
         {
-          "caller": "0x6c2dc34d6B3f413f63Be8125b6D732Be57E284d5",
+          "caller": "0xB1F0E3546A30b69e2B24bc157b9B3a66AdA299f5",
           "comment": "set(string,uint256,uint256): 0x60, 5, 4, 32, \"01234567890123456789012345678901\" -> 0",
           "instance": "C",
           "method": "set(string,uint256,uint256)",
@@ -61,7 +61,7 @@
           }
         },
         {
-          "caller": "0x6c2dc34d6B3f413f63Be8125b6D732Be57E284d5",
+          "caller": "0xB1F0E3546A30b69e2B24bc157b9B3a66AdA299f5",
           "comment": "set(string,uint256,uint256): 0x60, 5, 5, 32, \"01234567890123456789012345678901\" -> FAILURE, hex\"4e487b71\", 0x32",
           "instance": "C",
           "method": "set(string,uint256,uint256)",
@@ -87,6 +87,6 @@
     "C": "array_zeroed_memory_index_access.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

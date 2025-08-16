@@ -4,7 +4,7 @@
       "name": "shift_constant_right",
       "inputs": [
         {
-          "caller": "0x48868f54dC026077028B38d39485C31E4e641EB5",
+          "caller": "0x7dc5e7a04f7dD981DdDff2B2ece9B1F887dF36f0",
           "comment": "a() -> 0x42",
           "instance": "C",
           "method": "a()",
@@ -23,6 +23,6 @@
     "C": "shift_constant_right.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

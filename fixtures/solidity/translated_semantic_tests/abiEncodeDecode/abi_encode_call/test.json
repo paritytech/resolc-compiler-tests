@@ -4,7 +4,7 @@
       "name": "abi_encode_call",
       "inputs": [
         {
-          "caller": "0x06F6Eb3ea45A3EC5D0BC8342e0dBE53773481F2c",
+          "caller": "0x1E9E7b47766564a54Fc10A53a0839868A6b9f2fF",
           "comment": "callExternal() -> true",
           "instance": "C",
           "method": "callExternal()",
@@ -23,6 +23,6 @@
     "C": "abi_encode_call.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

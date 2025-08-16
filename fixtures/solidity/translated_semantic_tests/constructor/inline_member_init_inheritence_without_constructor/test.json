@@ -36,6 +36,6 @@
     "Derived": "inline_member_init_inheritence_without_constructor.sol:Derived"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

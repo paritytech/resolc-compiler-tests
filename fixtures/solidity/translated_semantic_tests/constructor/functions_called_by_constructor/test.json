@@ -23,6 +23,6 @@
     "Test": "functions_called_by_constructor.sol:Test"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

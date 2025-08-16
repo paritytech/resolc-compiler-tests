@@ -4,7 +4,7 @@
       "name": "modifier_in_constructor_ice",
       "inputs": [
         {
-          "caller": "0xfD17057d5eb4D1D75BE46a222A45D4626fEAcCEE",
+          "caller": "0x72BB013676D4dA221A29cbA5e755d2e43bFd995b",
           "comment": "constructor() ->",
           "instance": "B",
           "method": "#deployer",
@@ -20,6 +20,6 @@
     "B": "modifier_in_constructor_ice.sol:B"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

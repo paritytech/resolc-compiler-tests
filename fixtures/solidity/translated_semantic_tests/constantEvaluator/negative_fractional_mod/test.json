@@ -4,7 +4,7 @@
       "name": "negative_fractional_mod",
       "inputs": [
         {
-          "caller": "0x13fbaFdeEe7fefcBe2f5d3Cb088603d5e1c0e0E4",
+          "caller": "0x50D5a530A6c1aA8bB270D0d0F44a53F599137E4f",
           "comment": "f() -> 11, 10",
           "instance": "C",
           "method": "f()",
@@ -24,6 +24,6 @@
     "C": "negative_fractional_mod.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

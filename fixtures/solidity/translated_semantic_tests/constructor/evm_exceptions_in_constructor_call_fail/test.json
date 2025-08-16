@@ -33,6 +33,6 @@
     "B": "evm_exceptions_in_constructor_call_fail.sol:B"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

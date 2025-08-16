@@ -4,7 +4,7 @@
       "name": "abi_encode_call_memory",
       "inputs": [
         {
-          "caller": "0x64f66C6a7D3D0e0931B0aAcE06B3ee08793adc25",
+          "caller": "0x6E73980267421980Eb483aeE686789cb23667181",
           "comment": "test() -> 0xa7a0d53700000000000000000000000000000000000000000000000000000000",
           "instance": "C",
           "method": "test()",
@@ -23,6 +23,6 @@
     "C": "abi_encode_call_memory.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

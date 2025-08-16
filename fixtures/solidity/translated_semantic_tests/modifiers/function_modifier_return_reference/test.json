@@ -4,7 +4,7 @@
       "name": "function_modifier_return_reference",
       "inputs": [
         {
-          "caller": "0xBdEA164ef6Ef103c68556eF735179AaF321265bc",
+          "caller": "0x8d11b86ea60D6f3E599f5C6f350168F28cf49748",
           "comment": "f() -> 2, 3",
           "instance": "C",
           "method": "f()",
@@ -24,6 +24,6 @@
     "C": "function_modifier_return_reference.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

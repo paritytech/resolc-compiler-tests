@@ -4,7 +4,7 @@
       "name": "value_for_constructor",
       "inputs": [
         {
-          "caller": "0x6773a93d8ba7342E7aF93bA166420a790c0AD6d6",
+          "caller": "0x4afF4d8Fa086e079584C5532569135D1AC620a87",
           "comment": "constructor(), 22 wei ->; gas irOptimized: 143864; gas irOptimized code: 118000; gas legacy: 156599; gas legacy code: 236400; gas legacyOptimized: 143592; gas legacyOptimized code: 118000",
           "instance": "Main",
           "method": "#deployer",
@@ -15,7 +15,7 @@
           "value": "22 wei"
         },
         {
-          "caller": "0x6773a93d8ba7342E7aF93bA166420a790c0AD6d6",
+          "caller": "0x4afF4d8Fa086e079584C5532569135D1AC620a87",
           "comment": "getFlag() -> true",
           "instance": "Main",
           "method": "getFlag()",
@@ -28,7 +28,7 @@
           }
         },
         {
-          "caller": "0x6773a93d8ba7342E7aF93bA166420a790c0AD6d6",
+          "caller": "0x4afF4d8Fa086e079584C5532569135D1AC620a87",
           "comment": "getName() -> \"abc\"",
           "instance": "Main",
           "method": "getName()",
@@ -41,7 +41,7 @@
           }
         },
         {
-          "caller": "0x6773a93d8ba7342E7aF93bA166420a790c0AD6d6",
+          "caller": "0x4afF4d8Fa086e079584C5532569135D1AC620a87",
           "comment": "getBalances() -> 12, 10",
           "instance": "Main",
           "method": "getBalances()",
@@ -61,6 +61,6 @@
     "Main": "value_for_constructor.sol:Main"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

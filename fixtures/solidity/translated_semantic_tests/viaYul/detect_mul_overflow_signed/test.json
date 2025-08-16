@@ -1171,6 +1171,6 @@
     "C": "detect_mul_overflow_signed.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

@@ -4,7 +4,7 @@
       "name": "conditional_with_arguments",
       "inputs": [
         {
-          "caller": "0x86b1B106aeac5c5d2b16F9596755811CF976f34E",
+          "caller": "0x732aC438f8e6d7955D9bD5d62bAfbabCD019fD80",
           "comment": "f() -> 1",
           "instance": "C",
           "method": "f()",
@@ -23,6 +23,6 @@
     "C": "conditional_with_arguments.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

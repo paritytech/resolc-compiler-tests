@@ -83,6 +83,6 @@
     "C": "constructor_static_array_argument.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

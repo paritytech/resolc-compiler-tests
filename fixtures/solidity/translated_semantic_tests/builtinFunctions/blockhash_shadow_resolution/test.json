@@ -6,7 +6,7 @@
       "name": "blockhash_shadow_resolution",
       "inputs": [
         {
-          "caller": "0x57b89E6EF54e676c1479Ac16A0122a979ACfA9b3",
+          "caller": "0x39eB22b26d5Ef4708Bc9e90fa394d35349E7F583",
           "comment": "f() -> 0",
           "instance": "C",
           "method": "f()",
@@ -25,6 +25,6 @@
     "C": "blockhash_shadow_resolution.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

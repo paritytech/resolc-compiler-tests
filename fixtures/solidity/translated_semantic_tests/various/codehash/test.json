@@ -1,10 +1,12 @@
 {
+  "comment": "Ignored since we can't predict what the code-hash of some address will be.",
+  "ignore": true,
   "cases": [
     {
       "name": "codehash",
       "inputs": [
         {
-          "caller": "0xaef5444A14CF47d9c023A33B47435E3C8634096c",
+          "caller": "0xe34ac72Ca84deEdF06f8B3fc74114ADbb5a6c507",
           "comment": "f() -> 0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470",
           "instance": "C",
           "method": "f()",
@@ -17,7 +19,7 @@
           }
         },
         {
-          "caller": "0xaef5444A14CF47d9c023A33B47435E3C8634096c",
+          "caller": "0xe34ac72Ca84deEdF06f8B3fc74114ADbb5a6c507",
           "comment": "g() -> 0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470",
           "instance": "C",
           "method": "g()",
@@ -30,7 +32,7 @@
           }
         },
         {
-          "caller": "0xaef5444A14CF47d9c023A33B47435E3C8634096c",
+          "caller": "0xe34ac72Ca84deEdF06f8B3fc74114ADbb5a6c507",
           "comment": "h() -> true",
           "instance": "C",
           "method": "h()",
@@ -49,7 +51,7 @@
     "C": "codehash.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ],
   "required_evm_version": ">=constantinople"
 }

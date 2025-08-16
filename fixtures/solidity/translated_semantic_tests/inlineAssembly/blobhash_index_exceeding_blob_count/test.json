@@ -4,7 +4,7 @@
       "name": "blobhash_index_exceeding_blob_count",
       "inputs": [
         {
-          "caller": "0x742655f97031EFbB1d218a921F676146D89eF03D",
+          "caller": "0x18f85288151a7276942905cE065eDF0b19a96Afa",
           "comment": "f() -> 0x00",
           "instance": "C",
           "method": "f()",
@@ -23,7 +23,7 @@
     "C": "blobhash_index_exceeding_blob_count.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ],
   "required_evm_version": ">=cancun"
 }

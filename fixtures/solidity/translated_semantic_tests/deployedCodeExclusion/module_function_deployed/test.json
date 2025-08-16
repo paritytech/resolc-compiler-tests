@@ -4,7 +4,7 @@
       "name": "module_function_deployed",
       "inputs": [
         {
-          "caller": "0xA88743d49Cb1dBe421633eC506592C1a89bf486a",
+          "caller": "0x93bb3deFa5C60301c84A8f2298554af13bE6B8e3",
           "comment": "test() -> true",
           "instance": "C",
           "method": "test()",
@@ -23,6 +23,6 @@
     "C": "main.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

@@ -4,7 +4,7 @@
       "name": "call_function_returning_function",
       "inputs": [
         {
-          "caller": "0xB03560698B09Fbd835384C1ba855fbA890646AB1",
+          "caller": "0x1023272cE9334Ab3b9388C0353DAbF34BE6E977d",
           "comment": "f() -> 2",
           "instance": "test",
           "method": "f()",
@@ -23,6 +23,6 @@
     "test": "call_function_returning_function.sol:test"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

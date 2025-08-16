@@ -4,7 +4,7 @@
       "name": "format_raw_string_with_control_chars",
       "inputs": [
         {
-          "caller": "0xDDb436B2a20B648530B7D29573Eb1d85C49B71A3",
+          "caller": "0xEDdE91eD94463c10aC9B0001edCA3C068d8E226b",
           "comment": "f(string): 0x20, 16, \"\\xf0\\x9f\\x98\\x83\\xf0\\x9f\\x98\\x83\\xf0\\x9f\\x98\\x83\\xf0\\x9f\\x98\\x83\" -> 0x20, 16, \"\\xf0\\x9f\\x98\\x83\\xf0\\x9f\\x98\\x83\\xf0\\x9f\\x98\\x83\\xf0\\x9f\\x98\\x83\"",
           "instance": "C",
           "method": "f(string)",
@@ -29,6 +29,6 @@
     "C": "format_raw_string_with_control_chars.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

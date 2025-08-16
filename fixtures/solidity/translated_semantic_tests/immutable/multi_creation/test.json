@@ -4,7 +4,7 @@
       "name": "multi_creation",
       "inputs": [
         {
-          "caller": "0xce7EAA325a84a7e5c28174582c041D93863E2031",
+          "caller": "0x903b71f706610F45b4628BfC54BA691f873899Aa",
           "comment": "f() -> 3, 7, 5; gas irOptimized: 86892; gas irOptimized code: 37200; gas legacy: 87839; gas legacy code: 60800; gas legacyOptimized: 86870; gas legacyOptimized code: 37200",
           "instance": "C",
           "method": "f()",
@@ -19,7 +19,7 @@
           }
         },
         {
-          "caller": "0xce7EAA325a84a7e5c28174582c041D93863E2031",
+          "caller": "0x903b71f706610F45b4628BfC54BA691f873899Aa",
           "comment": "x() -> 7",
           "instance": "C",
           "method": "x()",
@@ -32,7 +32,7 @@
           }
         },
         {
-          "caller": "0xce7EAA325a84a7e5c28174582c041D93863E2031",
+          "caller": "0x903b71f706610F45b4628BfC54BA691f873899Aa",
           "comment": "y() -> 5",
           "instance": "C",
           "method": "y()",
@@ -51,7 +51,7 @@
     "C": "multi_creation.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ],
   "required_evm_version": ">=constantinople"
 }

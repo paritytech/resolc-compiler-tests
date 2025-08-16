@@ -23,6 +23,6 @@
     "test": "exp_operator_const_signed.sol:test"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

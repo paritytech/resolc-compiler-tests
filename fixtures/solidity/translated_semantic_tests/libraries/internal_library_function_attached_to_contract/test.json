@@ -4,7 +4,7 @@
       "name": "internal_library_function_attached_to_contract",
       "inputs": [
         {
-          "caller": "0x32518Dadf4b72AdE0687E05d439a7Eda6f51db70",
+          "caller": "0xF9DF433bE8A58Cc9F80d64725d84369011c70580",
           "comment": "test() -> 42",
           "instance": "C",
           "method": "test()",
@@ -23,6 +23,6 @@
     "C": "internal_library_function_attached_to_contract.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

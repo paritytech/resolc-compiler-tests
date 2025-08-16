@@ -4,7 +4,7 @@
       "name": "asm_address_constant_regression",
       "inputs": [
         {
-          "caller": "0x34531c4fC59c3198d7D62d3038348334B879E789",
+          "caller": "0x657551717B4045e2A31bf4f0Db82f5A131510Aff",
           "comment": "f() -> 0x00",
           "instance": "C",
           "method": "f()",
@@ -23,6 +23,6 @@
     "C": "asm_address_constant_regression.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

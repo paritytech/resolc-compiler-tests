@@ -4,7 +4,7 @@
       "name": "getter",
       "inputs": [
         {
-          "caller": "0xE0C2a77aaceDF29700288f409fE17be15D08e2Db",
+          "caller": "0xCB23A49829818CE7AdE2fAB15D5385C66028fBE9",
           "comment": "x() -> 1",
           "instance": "C",
           "method": "x()",
@@ -23,6 +23,6 @@
     "C": "getter.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

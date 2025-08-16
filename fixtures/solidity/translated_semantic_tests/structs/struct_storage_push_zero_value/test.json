@@ -4,7 +4,7 @@
       "name": "struct_storage_push_zero_value",
       "inputs": [
         {
-          "caller": "0x78B59e306274Dd4C0AF3195Fc89350a3dC407dE4",
+          "caller": "0x2fC525307C2AF545E7127C83dc265a49adea9721",
           "comment": "f() ->",
           "instance": "C",
           "method": "f()",
@@ -20,6 +20,6 @@
     "C": "struct_storage_push_zero_value.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

@@ -1,10 +1,12 @@
 {
+  "comment": "block difficulty is not a constant",
+  "ignore": true,
   "cases": [
     {
       "name": "block_difficulty_post_paris",
       "inputs": [
         {
-          "caller": "0x31887F3a1a7319d9CD7D42AA732e9C57f01D6167",
+          "caller": "0x90De30C3E282f57d0b9CFe0a9c8E58fF8cCc447C",
           "comment": "f() -> 2500000000000000",
           "instance": "C",
           "method": "f()",
@@ -17,7 +19,7 @@
           }
         },
         {
-          "caller": "0x31887F3a1a7319d9CD7D42AA732e9C57f01D6167",
+          "caller": "0x90De30C3E282f57d0b9CFe0a9c8E58fF8cCc447C",
           "comment": "f() -> 2500000000000000",
           "instance": "C",
           "method": "f()",
@@ -30,7 +32,7 @@
           }
         },
         {
-          "caller": "0x31887F3a1a7319d9CD7D42AA732e9C57f01D6167",
+          "caller": "0x90De30C3E282f57d0b9CFe0a9c8E58fF8cCc447C",
           "comment": "f() -> 2500000000000000",
           "instance": "C",
           "method": "f()",
@@ -49,7 +51,7 @@
     "C": "block_difficulty_post_paris.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ],
   "required_evm_version": ">=paris"
 }

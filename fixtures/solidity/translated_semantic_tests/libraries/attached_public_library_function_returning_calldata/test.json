@@ -4,7 +4,7 @@
       "name": "attached_public_library_function_returning_calldata",
       "inputs": [
         {
-          "caller": "0xffC5221Ad0F0834675d87A04BD0f488392F1C540",
+          "caller": "0x162FBde4FC05C93872F8f88b36e33c5551D23245",
           "comment": "f(bytes): 0x20, 4, \"abcd\" -> 0x6100000000000000000000000000000000000000000000000000000000000000, 0x6100000000000000000000000000000000000000000000000000000000000000",
           "instance": "C",
           "method": "f(bytes)",
@@ -34,7 +34,7 @@
     }
   },
   "modes": [
-    "E"
+    "E+"
   ],
   "required_evm_version": ">homestead"
 }

@@ -4,7 +4,7 @@
       "name": "using_enums",
       "inputs": [
         {
-          "caller": "0xFAbfC6eF69eF5B3213eE2554AA43Ec4FCcDe6fab",
+          "caller": "0x740FA512Dd8053391E53B7f96a9E39d12551801A",
           "comment": "getChoice() -> 2",
           "instance": "test",
           "method": "getChoice()",
@@ -23,6 +23,6 @@
     "test": "using_enums.sol:test"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

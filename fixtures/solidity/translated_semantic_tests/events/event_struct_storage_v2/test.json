@@ -32,6 +32,6 @@
     "C": "event_struct_storage_v2.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

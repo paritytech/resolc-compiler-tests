@@ -171,6 +171,6 @@
     "C": "cleanup.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

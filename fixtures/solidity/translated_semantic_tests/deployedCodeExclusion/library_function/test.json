@@ -4,7 +4,7 @@
       "name": "library_function",
       "inputs": [
         {
-          "caller": "0x42E0D526bf25f0fafaECA8B43da6fB031Cc7A48D",
+          "caller": "0xA88743d49Cb1dBe421633eC506592C1a89bf486a",
           "comment": "test() -> true",
           "instance": "C",
           "method": "test()",
@@ -23,6 +23,6 @@
     "C": "library_function.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

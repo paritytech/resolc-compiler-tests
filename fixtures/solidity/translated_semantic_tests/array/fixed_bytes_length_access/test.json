@@ -4,7 +4,7 @@
       "name": "fixed_bytes_length_access",
       "inputs": [
         {
-          "caller": "0xE5c1eA09A12d5B9A51b32489032884C809D0c936",
+          "caller": "0x659487B9Ae520bC25227b46b76afc653a2F5F16D",
           "comment": "f(bytes32): \"789\" -> 32, 16, 8",
           "instance": "C",
           "method": "f(bytes32)",
@@ -27,6 +27,6 @@
     "C": "fixed_bytes_length_access.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

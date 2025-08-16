@@ -26,6 +26,6 @@
     "C": "abi_encode_decode_simple.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

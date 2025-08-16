@@ -25,6 +25,6 @@
     "C": "local_address_assignment.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

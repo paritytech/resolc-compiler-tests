@@ -4,7 +4,7 @@
       "name": "cleanup_bytes_types_shortening_OldCodeGen",
       "inputs": [
         {
-          "caller": "0xfD7078D12A9D7fdbEF5B24B6C203d59aa55E6D85",
+          "caller": "0x537BF82E36aee20520119eeeA0fe2Cad38FBbf27",
           "comment": "f() -> 0xffffffff00000000000000000000000000000000000000000000000000000000",
           "instance": "C",
           "method": "f()",
@@ -23,6 +23,6 @@
     "C": "cleanup_bytes_types_shortening_OldCodeGen.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

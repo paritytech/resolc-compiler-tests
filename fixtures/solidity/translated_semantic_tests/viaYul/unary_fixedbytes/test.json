@@ -211,6 +211,6 @@
     "C": "unary_fixedbytes.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

@@ -41,6 +41,6 @@
     "C": "event_dynamic_nested_array_memory_v2.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

@@ -4,7 +4,7 @@
       "name": "dynamic_nested",
       "inputs": [
         {
-          "caller": "0x2b038e631A69845635BE49636709A1847cF71B80",
+          "caller": "0x8402EC8e3B2b79699D5E0E6eB3Fc5c9481EF91F3",
           "comment": "f((uint256,(uint256)[])): 32, 17, 64, 2, 23, 42 -> 2, 17, 23, 42",
           "instance": "C",
           "method": "f((uint256,(uint256)[]))",
@@ -33,6 +33,6 @@
     "C": "dynamic_nested.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

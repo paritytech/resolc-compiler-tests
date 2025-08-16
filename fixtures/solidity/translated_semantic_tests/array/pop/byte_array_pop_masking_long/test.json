@@ -4,7 +4,7 @@
       "name": "byte_array_pop_masking_long",
       "inputs": [
         {
-          "caller": "0x7708FF2064578dcbb261Bde44f5Fd0bA6B727D7d",
+          "caller": "0xb6ae911D3bC66f9EF3f583b21222A35C7a8F7251",
           "comment": "test() -> 0x20, 33, 0x303030303030303030303030303030303030303030303030303030303030303, 0x0300000000000000000000000000000000000000000000000000000000000000; gas irOptimized: 106762; gas legacy: 121252; gas legacyOptimized: 120370",
           "instance": "c",
           "method": "test()",
@@ -26,6 +26,6 @@
     "c": "byte_array_pop_masking_long.sol:c"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

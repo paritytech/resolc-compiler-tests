@@ -4,7 +4,7 @@
       "name": "block_basefee",
       "inputs": [
         {
-          "caller": "0x773A741c7BaFc7a1Dc51427cf3a33193f67617f9",
+          "caller": "0xBd39bd58df6e31b4D89063ee59538b290f2d08C5",
           "comment": "f() -> 7",
           "instance": "C",
           "method": "f()",
@@ -17,7 +17,7 @@
           }
         },
         {
-          "caller": "0x773A741c7BaFc7a1Dc51427cf3a33193f67617f9",
+          "caller": "0xBd39bd58df6e31b4D89063ee59538b290f2d08C5",
           "comment": "g() -> 7",
           "instance": "C",
           "method": "g()",
@@ -30,7 +30,7 @@
           }
         },
         {
-          "caller": "0x773A741c7BaFc7a1Dc51427cf3a33193f67617f9",
+          "caller": "0xBd39bd58df6e31b4D89063ee59538b290f2d08C5",
           "comment": "f() -> 7",
           "instance": "C",
           "method": "f()",
@@ -43,7 +43,7 @@
           }
         },
         {
-          "caller": "0x773A741c7BaFc7a1Dc51427cf3a33193f67617f9",
+          "caller": "0xBd39bd58df6e31b4D89063ee59538b290f2d08C5",
           "comment": "g() -> 7",
           "instance": "C",
           "method": "g()",
@@ -62,7 +62,7 @@
     "C": "block_basefee.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ],
   "required_evm_version": ">=london"
 }

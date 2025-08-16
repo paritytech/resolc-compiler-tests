@@ -4,7 +4,7 @@
       "name": "blobhash_pre_cancun",
       "inputs": [
         {
-          "caller": "0xc30763F1B6aAecdF9aA2342388863eBe68C26F21",
+          "caller": "0x035F528F379A05D4D616a7e116984E840797Ca06",
           "comment": "f() -> 1",
           "instance": "C",
           "method": "f()",
@@ -17,7 +17,7 @@
           }
         },
         {
-          "caller": "0xc30763F1B6aAecdF9aA2342388863eBe68C26F21",
+          "caller": "0x035F528F379A05D4D616a7e116984E840797Ca06",
           "comment": "g() -> 1000",
           "instance": "C",
           "method": "g()",
@@ -36,7 +36,7 @@
     "C": "blobhash_pre_cancun.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ],
   "required_evm_version": "<cancun"
 }

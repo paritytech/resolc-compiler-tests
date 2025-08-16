@@ -1,10 +1,10 @@
 contract C {
     address transient a;
-    function f() public returns (uint) {
+    function f() public returns (address) {
         a = msg.sender;
-        return a.balance;
+        return a;
     }
-    function g() public returns (uint) {
-        return a.balance;
+    function g() public view returns (address) {
+        return a;
     }
 }

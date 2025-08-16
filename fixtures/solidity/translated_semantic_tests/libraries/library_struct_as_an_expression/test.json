@@ -4,7 +4,7 @@
       "name": "library_struct_as_an_expression",
       "inputs": [
         {
-          "caller": "0x465B409123544BA12315262d11a8274F73846e7D",
+          "caller": "0xBE9f246E0641dA71Fbb89c81d70b1Eb05Deb8b8d",
           "comment": "f() -> 1",
           "instance": "Tsra",
           "method": "f()",
@@ -23,6 +23,6 @@
     "Tsra": "library_struct_as_an_expression.sol:Tsra"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

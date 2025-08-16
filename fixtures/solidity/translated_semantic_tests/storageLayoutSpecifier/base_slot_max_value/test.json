@@ -4,7 +4,7 @@
       "name": "base_slot_max_value",
       "inputs": [
         {
-          "caller": "0x438Ca190209A8E7C14A92198C575Eae3f92152D0",
+          "caller": "0xC5F78F381A4a384f262Bb30169aB53edD1b12E75",
           "comment": "f(uint256): 4 -> 8",
           "instance": "C",
           "method": "f(uint256)",
@@ -25,6 +25,6 @@
     "C": "base_slot_max_value.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

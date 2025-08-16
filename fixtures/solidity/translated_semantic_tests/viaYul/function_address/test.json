@@ -52,6 +52,6 @@
     "C": "function_address.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

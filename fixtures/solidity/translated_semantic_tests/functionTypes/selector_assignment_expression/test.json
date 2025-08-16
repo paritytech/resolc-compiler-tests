@@ -33,6 +33,6 @@
     "C": "selector_assignment_expression.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

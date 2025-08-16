@@ -33,6 +33,6 @@
     "C": "event_emit_via_interface.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

@@ -1,10 +1,12 @@
 {
+  "comment": "Ignored since we can't predict what the code-hash of some address will be.",
+  "ignore": true,
   "cases": [
     {
       "name": "codehash_assembly",
       "inputs": [
         {
-          "caller": "0xE70203fAd2e2B49EF203cb5dB0F70284F61be74f",
+          "caller": "0x7954b6Fa0da7Bc9d53c2a76c72a6E9a36F66a458",
           "comment": "f() -> 0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470",
           "instance": "C",
           "method": "f()",
@@ -17,7 +19,7 @@
           }
         },
         {
-          "caller": "0xE70203fAd2e2B49EF203cb5dB0F70284F61be74f",
+          "caller": "0x7954b6Fa0da7Bc9d53c2a76c72a6E9a36F66a458",
           "comment": "g() -> 0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470",
           "instance": "C",
           "method": "g()",
@@ -30,7 +32,7 @@
           }
         },
         {
-          "caller": "0xE70203fAd2e2B49EF203cb5dB0F70284F61be74f",
+          "caller": "0x7954b6Fa0da7Bc9d53c2a76c72a6E9a36F66a458",
           "comment": "h() -> true",
           "instance": "C",
           "method": "h()",
@@ -49,7 +51,7 @@
     "C": "codehash_assembly.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ],
   "required_evm_version": ">=constantinople"
 }

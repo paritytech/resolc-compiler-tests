@@ -4,7 +4,7 @@
       "name": "free_function_resolution_override_virtual_super",
       "inputs": [
         {
-          "caller": "0x3511795c2333c0CD8d05eCf0038abF4895189558",
+          "caller": "0x40e519d2B3DE6ca483F9aDbDCe4c2Aa3e2ab6c50",
           "comment": "g() -> 1337",
           "instance": "D",
           "method": "g()",
@@ -23,6 +23,6 @@
     "D": "s2.sol:D"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

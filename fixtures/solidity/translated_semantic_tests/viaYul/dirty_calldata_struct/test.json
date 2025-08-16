@@ -28,6 +28,6 @@
     "C": "dirty_calldata_struct.sol:C"
   },
   "modes": [
-    "Y"
+    "Y+"
   ]
 }

@@ -4,7 +4,7 @@
       "name": "free_function_resolution_base_contract",
       "inputs": [
         {
-          "caller": "0x966610eC7434b94840Cf51bBDa7741D3a80Eb4F3",
+          "caller": "0xC221AF949A70E199e467116193B2f00bf04EEfea",
           "comment": "h() -> 1337",
           "instance": "D",
           "method": "h()",
@@ -23,6 +23,6 @@
     "D": "s2.sol:D"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

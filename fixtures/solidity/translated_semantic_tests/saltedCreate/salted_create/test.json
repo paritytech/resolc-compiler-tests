@@ -36,7 +36,7 @@
     "A": "salted_create.sol:A"
   },
   "modes": [
-    "E"
+    "E+"
   ],
   "required_evm_version": ">=constantinople"
 }

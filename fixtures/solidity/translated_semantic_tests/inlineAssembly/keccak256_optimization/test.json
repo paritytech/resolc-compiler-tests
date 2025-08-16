@@ -4,7 +4,7 @@
       "name": "keccak256_optimization",
       "inputs": [
         {
-          "caller": "0x30E6d72D759e629B985016eB7bc7c88b4cC29289",
+          "caller": "0xf767268D86A3829739F2FD0d121bbb18062ff703",
           "comment": "f() -> true",
           "instance": "C",
           "method": "f()",
@@ -23,6 +23,6 @@
     "C": "keccak256_optimization.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

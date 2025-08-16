@@ -23,6 +23,6 @@
     "C": "local_variable_without_init.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

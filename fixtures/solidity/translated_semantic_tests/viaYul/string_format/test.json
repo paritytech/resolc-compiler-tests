@@ -67,6 +67,6 @@
     "C": "string_format.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

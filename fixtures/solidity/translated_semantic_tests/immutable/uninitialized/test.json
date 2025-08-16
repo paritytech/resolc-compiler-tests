@@ -4,7 +4,7 @@
       "name": "uninitialized",
       "inputs": [
         {
-          "caller": "0xc59B82f5B4Eeb5c399B8C369B6bAD9cC87428520",
+          "caller": "0xce7EAA325a84a7e5c28174582c041D93863E2031",
           "comment": "get() -> 0, false, 0x0",
           "instance": "C",
           "method": "get()",
@@ -25,6 +25,6 @@
     "C": "uninitialized.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

@@ -130,6 +130,6 @@
     "C": "exp_literals_success.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

@@ -4,7 +4,7 @@
       "name": "transient_storage_reentrancy_lock",
       "inputs": [
         {
-          "caller": "0xDf35DF6fE6Cf29C2F6c92FF2f71076f1b1fe82Af",
+          "caller": "0x5bc5aA8842e9cdA8A1F55657d67Fd07Af381C38f",
           "comment": "test(address,bool): 0x1234abcd, true -> FAILURE, hex\"08c379a0\", 0x20, 0x12, \"Reentrancy attempt\"",
           "instance": "C",
           "method": "test(address,bool)",
@@ -23,7 +23,7 @@
           }
         },
         {
-          "caller": "0xDf35DF6fE6Cf29C2F6c92FF2f71076f1b1fe82Af",
+          "caller": "0x5bc5aA8842e9cdA8A1F55657d67Fd07Af381C38f",
           "comment": "test(address,bool): 0x1234abcd, false ->",
           "instance": "C",
           "method": "test(address,bool)",
@@ -42,7 +42,7 @@
     "C": "transient_storage_reentrancy_lock.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ],
   "required_evm_version": ">=cancun"
 }

@@ -4,7 +4,7 @@
       "name": "inherited_function_calldata_memory",
       "inputs": [
         {
-          "caller": "0x5CB1B10790C9cDA88D18D0fA93c09ef47bC26D17",
+          "caller": "0xbf4CAB99a68355608Bed736B3B945aCd3C1Ee298",
           "comment": "g() -> 23",
           "instance": "B",
           "method": "g()",
@@ -23,6 +23,6 @@
     "B": "inherited_function_calldata_memory.sol:B"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

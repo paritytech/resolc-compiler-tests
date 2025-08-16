@@ -4,7 +4,7 @@
       "name": "struct_delete_storage",
       "inputs": [
         {
-          "caller": "0x17B1EE8a3345529f8a3669A5D6C5c228fa98C41E",
+          "caller": "0xa01465EFCfe47D3c77656abBEb99935D1D1A7164",
           "comment": "f() ->",
           "instance": "C",
           "method": "f()",
@@ -20,6 +20,6 @@
     "C": "struct_delete_storage.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

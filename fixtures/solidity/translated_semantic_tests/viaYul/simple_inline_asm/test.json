@@ -23,6 +23,6 @@
     "C": "simple_inline_asm.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

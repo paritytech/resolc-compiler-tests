@@ -4,7 +4,7 @@
       "name": "function_modifier_for_constructor",
       "inputs": [
         {
-          "caller": "0x72BB013676D4dA221A29cbA5e755d2e43bFd995b",
+          "caller": "0xa36bbcd0e0aF8f28bB33Dba807dd058aC2Fa433f",
           "comment": "getData() -> 6",
           "instance": "C",
           "method": "getData()",
@@ -23,6 +23,6 @@
     "C": "function_modifier_for_constructor.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

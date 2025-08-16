@@ -4,7 +4,7 @@
       "name": "balance_with_balance2",
       "inputs": [
         {
-          "caller": "0x386033da2D1c227A479732a67095249f054dce1d",
+          "caller": "0x5AD866092FFA234aAf7DdA834DD6Ca69Eb2Eefc9",
           "comment": "constructor(), 1 ether ->",
           "instance": "ClientReceipt",
           "method": "#deployer",
@@ -18,7 +18,7 @@
           "comment": "balance -> 1000000000000000000",
           "address": "ClientReceipt.address",
           "expected_balance": "0xde0b6b3a7640000",
-          "caller": "0x06a3DC9F7A60D0c4E9eb1989F266679d03320d3d"
+          "caller": "0x7Ec79CEFA2b38Fe4F7A7f8Cdc7Ba9c24941d3F2A"
         }
       ]
     }
@@ -27,6 +27,6 @@
     "ClientReceipt": "balance_with_balance2.sol:ClientReceipt"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

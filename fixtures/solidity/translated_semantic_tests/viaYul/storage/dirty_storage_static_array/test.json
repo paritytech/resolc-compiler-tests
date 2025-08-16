@@ -23,6 +23,6 @@
     "C": "dirty_storage_static_array.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

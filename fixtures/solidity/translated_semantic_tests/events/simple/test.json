@@ -37,7 +37,7 @@
     "Test": "simple.sol:Test"
   },
   "modes": [
-    "Y",
-    "E"
+    "Y+",
+    "E+"
   ]
 }

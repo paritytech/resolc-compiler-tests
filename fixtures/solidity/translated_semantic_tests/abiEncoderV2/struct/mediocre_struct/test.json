@@ -4,7 +4,7 @@
       "name": "mediocre_struct",
       "inputs": [
         {
-          "caller": "0x4c79e69199EB7F2BC0b904eeacd16C6785dc64d7",
+          "caller": "0x8C8371709D200875F62257f2E3345A79Fe44231F",
           "comment": "f(uint256,(address)[2],uint256): 7, 0, 0, 8 -> 7, 0, 8",
           "instance": "C",
           "method": "f(uint256,(address)[2],uint256)",
@@ -30,6 +30,6 @@
     "C": "mediocre_struct.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

@@ -4,7 +4,7 @@
       "name": "state_variable_mapping",
       "inputs": [
         {
-          "caller": "0x674087CcF021ecBefeEE5404ee93eeE01599e927",
+          "caller": "0xb2d8dC64Ff47500A5B1A3037EB25909816203cf7",
           "comment": "setup() ->; gas irOptimized: 159082; gas legacy: 161738; gas legacyOptimized: 160222",
           "instance": "C",
           "method": "setup()",
@@ -14,7 +14,7 @@
           }
         },
         {
-          "caller": "0x674087CcF021ecBefeEE5404ee93eeE01599e927",
+          "caller": "0xb2d8dC64Ff47500A5B1A3037EB25909816203cf7",
           "comment": "open(uint256): 3 -> 0x20, 5, \"Empty\"",
           "instance": "C",
           "method": "open(uint256)",
@@ -31,7 +31,7 @@
           }
         },
         {
-          "caller": "0x674087CcF021ecBefeEE5404ee93eeE01599e927",
+          "caller": "0xb2d8dC64Ff47500A5B1A3037EB25909816203cf7",
           "comment": "open(uint256): 2 -> 0x20, 6, \"Locked\"",
           "instance": "C",
           "method": "open(uint256)",
@@ -48,7 +48,7 @@
           }
         },
         {
-          "caller": "0x674087CcF021ecBefeEE5404ee93eeE01599e927",
+          "caller": "0xb2d8dC64Ff47500A5B1A3037EB25909816203cf7",
           "comment": "open(uint256): 1 -> 0x20, 7, \"Monster\"",
           "instance": "C",
           "method": "open(uint256)",
@@ -71,6 +71,6 @@
     "C": "state_variable_mapping.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

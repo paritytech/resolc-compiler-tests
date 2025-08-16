@@ -410,6 +410,6 @@
     "C": "exp_neg.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

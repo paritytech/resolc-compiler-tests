@@ -42,6 +42,6 @@
     "test": "conditional_expression_tuples.sol:test"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

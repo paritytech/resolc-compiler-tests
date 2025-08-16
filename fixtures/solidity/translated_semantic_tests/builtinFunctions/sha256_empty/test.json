@@ -4,7 +4,7 @@
       "name": "sha256_empty",
       "inputs": [
         {
-          "caller": "0xfC47fD1b6CC81BC95962C084DE4cb2194270D6A3",
+          "caller": "0x7d9582A73065E9E3b49DA37Ebd31eAe658019a62",
           "comment": "f() -> 0xe3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
           "instance": "C",
           "method": "f()",
@@ -23,6 +23,6 @@
     "C": "sha256_empty.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

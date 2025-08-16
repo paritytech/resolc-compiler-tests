@@ -4,7 +4,7 @@
       "name": "assert_pre_byzantium",
       "inputs": [
         {
-          "caller": "0x05A86f4C2BEFec5cC3e52624f6E90a84C7bC46dd",
+          "caller": "0x087a54B4a3CEC215c9B14933748C4798a341d6bb",
           "comment": "f(bool): true -> 1",
           "instance": "C",
           "method": "f(bool)",
@@ -19,7 +19,7 @@
           }
         },
         {
-          "caller": "0x05A86f4C2BEFec5cC3e52624f6E90a84C7bC46dd",
+          "caller": "0x087a54B4a3CEC215c9B14933748C4798a341d6bb",
           "comment": "f(bool): false -> 2",
           "instance": "C",
           "method": "f(bool)",
@@ -40,7 +40,7 @@
     "C": "assert_pre_byzantium.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ],
   "required_evm_version": "<byzantium"
 }

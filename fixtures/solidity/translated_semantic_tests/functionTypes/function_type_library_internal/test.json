@@ -29,6 +29,6 @@
     "C": "function_type_library_internal.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

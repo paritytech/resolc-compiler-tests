@@ -4,7 +4,7 @@
       "name": "internal_library_function_attached_to_address",
       "inputs": [
         {
-          "caller": "0x0248feE0aDC2fE831E49504E854ea2d9fe410fB5",
+          "caller": "0x875758999A9a9bd648A4a7a7bDcE1B504Bde9097",
           "comment": "foo(address,address): 0x111122223333444455556666777788889999aAaa, 0x111122223333444455556666777788889999aAaa -> true",
           "instance": "C",
           "method": "foo(address,address)",
@@ -20,7 +20,7 @@
           }
         },
         {
-          "caller": "0x0248feE0aDC2fE831E49504E854ea2d9fe410fB5",
+          "caller": "0x875758999A9a9bd648A4a7a7bDcE1B504Bde9097",
           "comment": "foo(address,address): 0x111122223333444455556666777788889999aAaa, 0x0000000000000000000000000000000000000000 -> false",
           "instance": "C",
           "method": "foo(address,address)",
@@ -42,6 +42,6 @@
     "C": "internal_library_function_attached_to_address.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

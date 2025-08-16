@@ -42,6 +42,6 @@
     "A": "conditional_tuple.sol:A"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

@@ -138,6 +138,6 @@
     "C": "mapping_array_struct.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

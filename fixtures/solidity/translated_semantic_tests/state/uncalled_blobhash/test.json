@@ -6,7 +6,7 @@
       "name": "uncalled_blobhash",
       "inputs": [
         {
-          "caller": "0x16C3dCA110FE5d58fc36Af4fED62F57cD75Ba009",
+          "caller": "0xdBdbAE304FBa6b93a9Cdc90326A5FAdC1c2A1489",
           "comment": "f() -> 0x0100000000000000000000000000000000000000000000000000000000000001",
           "instance": "C",
           "method": "f()",
@@ -25,7 +25,7 @@
     "C": "uncalled_blobhash.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ],
   "required_evm_version": ">=cancun"
 }

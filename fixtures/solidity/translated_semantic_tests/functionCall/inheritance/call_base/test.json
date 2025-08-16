@@ -4,7 +4,7 @@
       "name": "call_base",
       "inputs": [
         {
-          "caller": "0x648bA970a9285Ec2867d9FE1088D0B865c7072eA",
+          "caller": "0xf4f1a4E3b23B00d11460A0ec619600ce4A6be6dd",
           "comment": "g(uint256): 4 -> 8",
           "instance": "Child",
           "method": "g(uint256)",
@@ -25,6 +25,6 @@
     "Child": "call_base.sol:Child"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

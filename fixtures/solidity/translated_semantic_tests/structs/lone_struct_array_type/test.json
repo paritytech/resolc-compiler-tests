@@ -4,7 +4,7 @@
       "name": "lone_struct_array_type",
       "inputs": [
         {
-          "caller": "0xc8ff52ecE34a58D1f56ab25A0D50e6350B44e739",
+          "caller": "0x5B3FCD13cf91f5C1a9724116333A570a2CA2116b",
           "comment": "f() -> 3",
           "instance": "C",
           "method": "f()",
@@ -23,6 +23,6 @@
     "C": "lone_struct_array_type.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

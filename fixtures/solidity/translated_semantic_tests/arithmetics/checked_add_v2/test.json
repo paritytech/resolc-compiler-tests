@@ -72,6 +72,6 @@
     "C": "checked_add_v2.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

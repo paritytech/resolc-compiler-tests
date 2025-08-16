@@ -4,7 +4,7 @@
       "name": "code_length_contract_member",
       "inputs": [
         {
-          "caller": "0xF409b83eD82cC14FbC1fb577339b1DFcD0b7D3f1",
+          "caller": "0x9DB78Ef366F0AB9A7B1C0e12b4371C8C922d2e16",
           "comment": "f() -> 0x20, 0x20, true",
           "instance": "C",
           "method": "f()",
@@ -25,6 +25,6 @@
     "C": "code_length_contract_member.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

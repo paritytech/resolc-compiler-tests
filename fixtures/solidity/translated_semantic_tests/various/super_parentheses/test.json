@@ -4,7 +4,7 @@
       "name": "super_parentheses",
       "inputs": [
         {
-          "caller": "0x371b2Bf42b9c622e5622F89E90E921BEf4FA5181",
+          "caller": "0xd3a2a69752eA2a6f5A7e4121b6b69B39556f0874",
           "comment": "f() -> 15",
           "instance": "D",
           "method": "f()",
@@ -23,6 +23,6 @@
     "D": "super_parentheses.sol:D"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

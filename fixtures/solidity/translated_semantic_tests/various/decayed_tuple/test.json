@@ -4,7 +4,7 @@
       "name": "decayed_tuple",
       "inputs": [
         {
-          "caller": "0xCEa6704aD24080e040a06a8d075347b315A14d9d",
+          "caller": "0xd7084870c99267883b9cd38248a930aD5992c0FC",
           "comment": "f() -> 2",
           "instance": "C",
           "method": "f()",
@@ -23,6 +23,6 @@
     "C": "decayed_tuple.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

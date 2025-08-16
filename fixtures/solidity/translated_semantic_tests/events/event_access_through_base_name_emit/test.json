@@ -31,6 +31,6 @@
     "B": "event_access_through_base_name_emit.sol:B"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

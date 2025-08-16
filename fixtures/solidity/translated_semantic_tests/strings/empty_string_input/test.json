@@ -4,7 +4,7 @@
       "name": "empty_string_input",
       "inputs": [
         {
-          "caller": "0xEa5c58F6335C4E851E43c434C7341Fd38044957a",
+          "caller": "0x9ee726AaaC8D6D14E9e7af08EFC0CDB7439AA03b",
           "comment": "f() -> 0x20, 0",
           "instance": "C",
           "method": "f()",
@@ -18,12 +18,13 @@
           }
         },
         {
-          "caller": "0xEa5c58F6335C4E851E43c434C7341Fd38044957a",
+          "caller": "0x9ee726AaaC8D6D14E9e7af08EFC0CDB7439AA03b",
           "comment": "g(string): 0x20, 0, \"\" -> 0x20, 0",
           "instance": "C",
           "method": "g(string)",
           "calldata": [
             "0x20",
+            "0x00",
             "0x00"
           ],
           "expected": {
@@ -35,7 +36,7 @@
           }
         },
         {
-          "caller": "0xEa5c58F6335C4E851E43c434C7341Fd38044957a",
+          "caller": "0x9ee726AaaC8D6D14E9e7af08EFC0CDB7439AA03b",
           "comment": "g(string): 0x20, 0 -> 0x20, 0",
           "instance": "C",
           "method": "g(string)",
@@ -52,13 +53,14 @@
           }
         },
         {
-          "caller": "0xEa5c58F6335C4E851E43c434C7341Fd38044957a",
+          "caller": "0x9ee726AaaC8D6D14E9e7af08EFC0CDB7439AA03b",
           "comment": "h(string,uint256): 0x40, 0x888, 0, \"\" -> 0x40, 0x0888, 0",
           "instance": "C",
           "method": "h(string,uint256)",
           "calldata": [
             "0x40",
             "0x0888",
+            "0x00",
             "0x00"
           ],
           "expected": {
@@ -71,7 +73,7 @@
           }
         },
         {
-          "caller": "0xEa5c58F6335C4E851E43c434C7341Fd38044957a",
+          "caller": "0x9ee726AaaC8D6D14E9e7af08EFC0CDB7439AA03b",
           "comment": "h(string,uint256): 0x40, 0x888, 0 -> 0x40, 0x0888, 0",
           "instance": "C",
           "method": "h(string,uint256)",
@@ -90,7 +92,7 @@
           }
         },
         {
-          "caller": "0xEa5c58F6335C4E851E43c434C7341Fd38044957a",
+          "caller": "0x9ee726AaaC8D6D14E9e7af08EFC0CDB7439AA03b",
           "comment": "i(string,uint256,string): 0x60, 0x888, 0x60, 0, \"\" -> 0x60, 0x80, 0x0888, 0, 0",
           "instance": "C",
           "method": "i(string,uint256,string)",
@@ -98,6 +100,7 @@
             "0x60",
             "0x0888",
             "0x60",
+            "0x00",
             "0x00"
           ],
           "expected": {
@@ -112,7 +115,7 @@
           }
         },
         {
-          "caller": "0xEa5c58F6335C4E851E43c434C7341Fd38044957a",
+          "caller": "0x9ee726AaaC8D6D14E9e7af08EFC0CDB7439AA03b",
           "comment": "i(string,uint256,string): 0x60, 0x888, 0x60, 0 -> 0x60, 0x80, 0x0888, 0, 0",
           "instance": "C",
           "method": "i(string,uint256,string)",
@@ -134,13 +137,14 @@
           }
         },
         {
-          "caller": "0xEa5c58F6335C4E851E43c434C7341Fd38044957a",
+          "caller": "0x9ee726AaaC8D6D14E9e7af08EFC0CDB7439AA03b",
           "comment": "j(string,uint256): 0x40, 0x888, 0, \"\" -> 0x60, 0x80, 0x0888, 0, 0",
           "instance": "C",
           "method": "j(string,uint256)",
           "calldata": [
             "0x40",
             "0x0888",
+            "0x00",
             "0x00"
           ],
           "expected": {
@@ -155,7 +159,7 @@
           }
         },
         {
-          "caller": "0xEa5c58F6335C4E851E43c434C7341Fd38044957a",
+          "caller": "0x9ee726AaaC8D6D14E9e7af08EFC0CDB7439AA03b",
           "comment": "j(string,uint256): 0x40, 0x888, 0 -> 0x60, 0x80, 0x0888, 0, 0",
           "instance": "C",
           "method": "j(string,uint256)",
@@ -182,6 +186,6 @@
     "C": "empty_string_input.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

@@ -4,7 +4,7 @@
       "name": "super_skip_unimplemented_in_interface",
       "inputs": [
         {
-          "caller": "0x874CdAA40758166f2c6FD5d0F00b6feD44955a9F",
+          "caller": "0x648bA970a9285Ec2867d9FE1088D0B865c7072eA",
           "comment": "f() -> 42",
           "instance": "B",
           "method": "f()",
@@ -23,6 +23,6 @@
     "B": "super_skip_unimplemented_in_interface.sol:B"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

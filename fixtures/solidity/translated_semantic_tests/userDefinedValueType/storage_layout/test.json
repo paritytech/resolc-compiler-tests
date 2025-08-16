@@ -4,7 +4,7 @@
       "name": "storage_layout",
       "inputs": [
         {
-          "caller": "0x76552303461Bb8dF59DDFaB19f5b6f4E0fd007B7",
+          "caller": "0x6374caCa1711608F9AD1Dc0cfde72C9d75CF1603",
           "comment": "storage_a() -> 0, 0",
           "instance": "C",
           "method": "storage_a()",
@@ -18,7 +18,7 @@
           }
         },
         {
-          "caller": "0x76552303461Bb8dF59DDFaB19f5b6f4E0fd007B7",
+          "caller": "0x6374caCa1711608F9AD1Dc0cfde72C9d75CF1603",
           "comment": "storage_b() -> 0, 1",
           "instance": "C",
           "method": "storage_b()",
@@ -32,7 +32,7 @@
           }
         },
         {
-          "caller": "0x76552303461Bb8dF59DDFaB19f5b6f4E0fd007B7",
+          "caller": "0x6374caCa1711608F9AD1Dc0cfde72C9d75CF1603",
           "comment": "storage_c() -> 0, 2",
           "instance": "C",
           "method": "storage_c()",
@@ -46,7 +46,7 @@
           }
         },
         {
-          "caller": "0x76552303461Bb8dF59DDFaB19f5b6f4E0fd007B7",
+          "caller": "0x6374caCa1711608F9AD1Dc0cfde72C9d75CF1603",
           "comment": "storage_d() -> 0, 3",
           "instance": "C",
           "method": "storage_d()",
@@ -60,7 +60,7 @@
           }
         },
         {
-          "caller": "0x76552303461Bb8dF59DDFaB19f5b6f4E0fd007B7",
+          "caller": "0x6374caCa1711608F9AD1Dc0cfde72C9d75CF1603",
           "comment": "storage_e() -> 1, 0",
           "instance": "C",
           "method": "storage_e()",
@@ -74,7 +74,7 @@
           }
         },
         {
-          "caller": "0x76552303461Bb8dF59DDFaB19f5b6f4E0fd007B7",
+          "caller": "0x6374caCa1711608F9AD1Dc0cfde72C9d75CF1603",
           "comment": "storage_f() -> 2, 0",
           "instance": "C",
           "method": "storage_f()",
@@ -88,7 +88,7 @@
           }
         },
         {
-          "caller": "0x76552303461Bb8dF59DDFaB19f5b6f4E0fd007B7",
+          "caller": "0x6374caCa1711608F9AD1Dc0cfde72C9d75CF1603",
           "comment": "storage_g() -> 2, 0x14",
           "instance": "C",
           "method": "storage_g()",
@@ -108,6 +108,6 @@
     "C": "storage_layout.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

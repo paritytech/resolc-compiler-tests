@@ -93,6 +93,6 @@
     "C": "abi_encode.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

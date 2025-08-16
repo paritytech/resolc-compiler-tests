@@ -4,7 +4,7 @@
       "name": "struct_named_constructor",
       "inputs": [
         {
-          "caller": "0x4C2435f2D9192762210e255be7e8b4E5F4e5e26D",
+          "caller": "0x07035e3c6Cc3e2Ed94d913729Cba9775985542ae",
           "comment": "s() -> 1, true",
           "instance": "C",
           "method": "s()",
@@ -24,6 +24,6 @@
     "C": "struct_named_constructor.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

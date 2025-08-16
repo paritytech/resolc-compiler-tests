@@ -7,10 +7,10 @@
           "comment": "storageEmpty -> 1",
           "address": "c.address",
           "is_storage_empty": true,
-          "caller": "0xbe4588401919Fa191C3353FB0462Fd52b83D1CfD"
+          "caller": "0x7f49455C75E2dc445f9400b3aaC4B4409052Cd6D"
         },
         {
-          "caller": "0x73933FAC9450Bcc4C2ceb803E9F1a5F4Cc631BFC",
+          "caller": "0x02f81D0B3d169B11a5A2b6a210502FbF5c08192d",
           "comment": "fill() ->; gas irOptimized: 465013; gas legacy: 468825; gas legacyOptimized: 466238",
           "instance": "c",
           "method": "fill()",
@@ -23,10 +23,10 @@
           "comment": "storageEmpty -> 0",
           "address": "c.address",
           "is_storage_empty": false,
-          "caller": "0xbe4588401919Fa191C3353FB0462Fd52b83D1CfD"
+          "caller": "0x7f49455C75E2dc445f9400b3aaC4B4409052Cd6D"
         },
         {
-          "caller": "0x73933FAC9450Bcc4C2ceb803E9F1a5F4Cc631BFC",
+          "caller": "0x02f81D0B3d169B11a5A2b6a210502FbF5c08192d",
           "comment": "clear() ->; gas irOptimized: 122148; gas legacy: 122440; gas legacyOptimized: 122259",
           "instance": "c",
           "method": "clear()",
@@ -39,7 +39,7 @@
           "comment": "storageEmpty -> 1",
           "address": "c.address",
           "is_storage_empty": true,
-          "caller": "0xbe4588401919Fa191C3353FB0462Fd52b83D1CfD"
+          "caller": "0x7f49455C75E2dc445f9400b3aaC4B4409052Cd6D"
         }
       ]
     }
@@ -48,6 +48,6 @@
     "c": "fixed_array_cleanup.sol:c"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

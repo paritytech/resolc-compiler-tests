@@ -4,7 +4,7 @@
       "name": "fixed_bytes_index_access",
       "inputs": [
         {
-          "caller": "0xE94B1B14E7B329FDa9116b872BEd352EBF0dAcDC",
+          "caller": "0x97c004220a1c96F377C58AFc2ebAb589E25455Ef",
           "comment": "f(bytes32): \"789\" -> \"9\"",
           "instance": "C",
           "method": "f(bytes32)",
@@ -19,7 +19,7 @@
           }
         },
         {
-          "caller": "0xE94B1B14E7B329FDa9116b872BEd352EBF0dAcDC",
+          "caller": "0x97c004220a1c96F377C58AFc2ebAb589E25455Ef",
           "comment": "g(bytes32): \"789\" -> 0x35",
           "instance": "C",
           "method": "g(bytes32)",
@@ -34,7 +34,7 @@
           }
         },
         {
-          "caller": "0xE94B1B14E7B329FDa9116b872BEd352EBF0dAcDC",
+          "caller": "0x97c004220a1c96F377C58AFc2ebAb589E25455Ef",
           "comment": "data(uint256): 0x01 -> \"8\"",
           "instance": "C",
           "method": "data(uint256)",
@@ -55,6 +55,6 @@
     "C": "fixed_bytes_index_access.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

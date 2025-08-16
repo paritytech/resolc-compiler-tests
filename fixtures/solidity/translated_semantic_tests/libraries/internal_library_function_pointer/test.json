@@ -4,7 +4,7 @@
       "name": "internal_library_function_pointer",
       "inputs": [
         {
-          "caller": "0x3A108c0FfFd2C90539A080C940794698f50eF9C3",
+          "caller": "0x87ee0998F32AF3617fCFbe1A745A413238896270",
           "comment": "g() -> 66",
           "instance": "C",
           "method": "g()",
@@ -23,6 +23,6 @@
     "C": "internal_library_function_pointer.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

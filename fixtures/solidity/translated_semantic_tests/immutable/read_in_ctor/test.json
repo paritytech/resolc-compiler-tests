@@ -4,7 +4,7 @@
       "name": "read_in_ctor",
       "inputs": [
         {
-          "caller": "0xcC6DA9786391B5B74537456B76D58a0fa75611fA",
+          "caller": "0xd8582C4a1f2Bd553eef3cEb29583EBCE688FdDDC",
           "comment": "readX() -> 3",
           "instance": "A",
           "method": "readX()",
@@ -23,6 +23,6 @@
     "A": "read_in_ctor.sol:A"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

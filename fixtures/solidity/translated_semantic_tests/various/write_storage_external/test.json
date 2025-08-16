@@ -4,7 +4,7 @@
       "name": "write_storage_external",
       "inputs": [
         {
-          "caller": "0xd3a2a69752eA2a6f5A7e4121b6b69B39556f0874",
+          "caller": "0x339bE4f1fe7efDEFD69B54Da36F8a33E395cfe6D",
           "comment": "f() -> 3",
           "instance": "D",
           "method": "f()",
@@ -17,7 +17,7 @@
           }
         },
         {
-          "caller": "0xd3a2a69752eA2a6f5A7e4121b6b69B39556f0874",
+          "caller": "0x339bE4f1fe7efDEFD69B54Da36F8a33E395cfe6D",
           "comment": "g() -> 8",
           "instance": "D",
           "method": "g()",
@@ -30,7 +30,7 @@
           }
         },
         {
-          "caller": "0xd3a2a69752eA2a6f5A7e4121b6b69B39556f0874",
+          "caller": "0x339bE4f1fe7efDEFD69B54Da36F8a33E395cfe6D",
           "comment": "h() -> 12",
           "instance": "D",
           "method": "h()",
@@ -49,6 +49,6 @@
     "D": "write_storage_external.sol:D"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

@@ -4,7 +4,7 @@
       "name": "packed_storage_structs_enum",
       "inputs": [
         {
-          "caller": "0xd65D814a03aa83C1Ca7D0826c6Dc8EC69B3a0A45",
+          "caller": "0xC92Fb2E3F1a8f9861876ee812DfdEdb3e845D13A",
           "comment": "test() -> 1",
           "instance": "C",
           "method": "test()",
@@ -23,6 +23,6 @@
     "C": "packed_storage_structs_enum.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

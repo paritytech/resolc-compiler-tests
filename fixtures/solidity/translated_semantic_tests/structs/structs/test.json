@@ -4,7 +4,7 @@
       "name": "structs",
       "inputs": [
         {
-          "caller": "0xa00F3Ca022AB2444257C492BF364e7eB328DE6DD",
+          "caller": "0x5fe8F3D73Cd9BF91C1E689D8C4ded3c4eE8C4abA",
           "comment": "check() -> false",
           "instance": "test",
           "method": "check()",
@@ -17,7 +17,7 @@
           }
         },
         {
-          "caller": "0xa00F3Ca022AB2444257C492BF364e7eB328DE6DD",
+          "caller": "0x5fe8F3D73Cd9BF91C1E689D8C4ded3c4eE8C4abA",
           "comment": "set() ->; gas irOptimized: 134073; gas legacy: 135243; gas legacyOptimized: 134062",
           "instance": "test",
           "method": "set()",
@@ -27,7 +27,7 @@
           }
         },
         {
-          "caller": "0xa00F3Ca022AB2444257C492BF364e7eB328DE6DD",
+          "caller": "0x5fe8F3D73Cd9BF91C1E689D8C4ded3c4eE8C4abA",
           "comment": "check() -> true",
           "instance": "test",
           "method": "check()",
@@ -46,6 +46,6 @@
     "test": "structs.sol:test"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

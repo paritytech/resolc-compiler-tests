@@ -4,7 +4,7 @@
       "name": "empty_contract",
       "inputs": [
         {
-          "caller": "0x28745426D7C9f8e9209773d8EaeC5074C1D1e401",
+          "caller": "0xc25C206386e330bdf8E21226B0c5F3cDE9287616",
           "comment": "i_am_not_there() -> FAILURE",
           "instance": "test",
           "method": "i_am_not_there()",
@@ -20,6 +20,6 @@
     "test": "empty_contract.sol:test"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

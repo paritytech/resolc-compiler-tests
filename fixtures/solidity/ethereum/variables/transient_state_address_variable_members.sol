@@ -1,11 +1,11 @@
 contract C {
     address transient a;
-    function f() public returns (uint) {
+    function f() public returns (address) {
         a = msg.sender;
-        return a.balance;
+        return a;
     }
-    function g() public returns (uint) {
-        return a.balance;
+    function g() public view returns (address) {
+        return a;
     }
 }
 // ====
@@ -15,6 +15,5 @@ contract C {
 // gas legacy: 59027
 // gas legacy code: 70400
 // account: 0 -> 0x3212121212121212121212121212120000000012
-// balance: 0x3212121212121212121212121212120000000012 -> 1267650600228229401496703205376
-// f() -> 1267650600228229401496703205376
+// f() -> 0x3212121212121212121212121212120000000012
 // g() -> 0

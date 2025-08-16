@@ -4,7 +4,7 @@
       "name": "access_base_storage",
       "inputs": [
         {
-          "caller": "0x0ae756D1A5BF2153989A8B680F07989F9C61657e",
+          "caller": "0x7c446C130F3d04E0345b33C848FCb5A6f2E39A38",
           "comment": "setData(uint256,uint256): 1, 2 -> true",
           "instance": "Derived",
           "method": "setData(uint256,uint256)",
@@ -20,7 +20,7 @@
           }
         },
         {
-          "caller": "0x0ae756D1A5BF2153989A8B680F07989F9C61657e",
+          "caller": "0x7c446C130F3d04E0345b33C848FCb5A6f2E39A38",
           "comment": "getViaBase() -> 1",
           "instance": "Derived",
           "method": "getViaBase()",
@@ -33,7 +33,7 @@
           }
         },
         {
-          "caller": "0x0ae756D1A5BF2153989A8B680F07989F9C61657e",
+          "caller": "0x7c446C130F3d04E0345b33C848FCb5A6f2E39A38",
           "comment": "getViaDerived() -> 1, 2",
           "instance": "Derived",
           "method": "getViaDerived()",
@@ -53,6 +53,6 @@
     "Derived": "access_base_storage.sol:Derived"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

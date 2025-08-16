@@ -4,7 +4,7 @@
       "name": "chainid",
       "inputs": [
         {
-          "caller": "0x7140eC0f21C8591703FF58D59B25624EB451469A",
+          "caller": "0x61cF540c7F0d924Fb1a87Ae57BB7064b0131d353",
           "comment": "f() -> 420420420",
           "instance": "C",
           "method": "f()",
@@ -23,7 +23,7 @@
     "C": "chainid.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ],
   "required_evm_version": ">=istanbul"
 }

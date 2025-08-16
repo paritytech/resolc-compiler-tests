@@ -4,7 +4,7 @@
       "name": "struct_delete_member",
       "inputs": [
         {
-          "caller": "0x84d9ad19EbDA7F9aDc06C42963FbE8Fd50778382",
+          "caller": "0x1ACE6Ed713Cf442667283E03E9707455C9C1b064",
           "comment": "deleteMember() -> 0",
           "instance": "test",
           "method": "deleteMember()",
@@ -23,6 +23,6 @@
     "test": "struct_delete_member.sol:test"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

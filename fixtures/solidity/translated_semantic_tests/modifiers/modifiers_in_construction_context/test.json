@@ -4,7 +4,7 @@
       "name": "modifiers_in_construction_context",
       "inputs": [
         {
-          "caller": "0x9e1B26Ab54aE133B93317cf28FDFb2aAF4Ac9605",
+          "caller": "0x4218ACDBBdBb68D0c03409648b1602b27AF68d29",
           "comment": "constructor() ->",
           "instance": "B",
           "method": "#deployer",
@@ -20,6 +20,6 @@
     "B": "modifiers_in_construction_context.sol:B"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

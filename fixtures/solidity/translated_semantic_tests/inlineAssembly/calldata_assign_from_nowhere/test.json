@@ -4,7 +4,7 @@
       "name": "calldata_assign_from_nowhere",
       "inputs": [
         {
-          "caller": "0x7f3BAfcb01EAB8DBdc314c07B9Ed43f15C4a2DDc",
+          "caller": "0xDA6FaefC27dff09Bccc5af872a0E5761dda889a0",
           "comment": "f() -> 0x20, 4, 0x26121ff000000000000000000000000000000000000000000000000000000000",
           "instance": "C",
           "method": "f()",
@@ -25,6 +25,6 @@
     "C": "calldata_assign_from_nowhere.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

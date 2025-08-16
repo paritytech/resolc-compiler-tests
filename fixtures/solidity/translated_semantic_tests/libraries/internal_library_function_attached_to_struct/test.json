@@ -4,7 +4,7 @@
       "name": "internal_library_function_attached_to_struct",
       "inputs": [
         {
-          "caller": "0x0FfE74de4D38a23EcbA4200FC0D6a4E50B9b22Ff",
+          "caller": "0x69F9f18B86b3668bf86D802091f21BEBDC3e36EA",
           "comment": "f() -> 2",
           "instance": "C",
           "method": "f()",
@@ -23,6 +23,6 @@
     "C": "internal_library_function_attached_to_struct.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

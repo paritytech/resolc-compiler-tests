@@ -45,6 +45,6 @@
     "C": "checked_called_by_unchecked.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

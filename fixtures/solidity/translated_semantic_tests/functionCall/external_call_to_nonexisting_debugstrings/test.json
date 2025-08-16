@@ -4,7 +4,7 @@
       "name": "external_call_to_nonexisting_debugstrings",
       "inputs": [
         {
-          "caller": "0xd428839228acfA77e9995e0F0114D98B3Cc96Bac",
+          "caller": "0xE65AE04B635E51d2e3B015b1A7C339f869D1Da08",
           "comment": "constructor(), 1 ether ->; gas irOptimized: 98698; gas irOptimized code: 284200; gas legacy: 123258; gas legacy code: 682400; gas legacyOptimized: 106969; gas legacyOptimized code: 386400",
           "instance": "C",
           "method": "#deployer",
@@ -15,7 +15,7 @@
           "value": "1000000000000000000 wei"
         },
         {
-          "caller": "0xd428839228acfA77e9995e0F0114D98B3Cc96Bac",
+          "caller": "0xE65AE04B635E51d2e3B015b1A7C339f869D1Da08",
           "comment": "f(uint256): 0 -> FAILURE",
           "instance": "C",
           "method": "f(uint256)",
@@ -27,7 +27,7 @@
           }
         },
         {
-          "caller": "0xd428839228acfA77e9995e0F0114D98B3Cc96Bac",
+          "caller": "0xE65AE04B635E51d2e3B015b1A7C339f869D1Da08",
           "comment": "f(uint256): 1 -> FAILURE",
           "instance": "C",
           "method": "f(uint256)",
@@ -39,7 +39,7 @@
           }
         },
         {
-          "caller": "0xd428839228acfA77e9995e0F0114D98B3Cc96Bac",
+          "caller": "0xE65AE04B635E51d2e3B015b1A7C339f869D1Da08",
           "comment": "f(uint256): 2 -> FAILURE",
           "instance": "C",
           "method": "f(uint256)",
@@ -51,7 +51,7 @@
           }
         },
         {
-          "caller": "0xd428839228acfA77e9995e0F0114D98B3Cc96Bac",
+          "caller": "0xE65AE04B635E51d2e3B015b1A7C339f869D1Da08",
           "comment": "f(uint256): 3 -> FAILURE",
           "instance": "C",
           "method": "f(uint256)",
@@ -63,7 +63,7 @@
           }
         },
         {
-          "caller": "0xd428839228acfA77e9995e0F0114D98B3Cc96Bac",
+          "caller": "0xE65AE04B635E51d2e3B015b1A7C339f869D1Da08",
           "comment": "f(uint256): 4 -> FAILURE",
           "instance": "C",
           "method": "f(uint256)",
@@ -75,7 +75,7 @@
           }
         },
         {
-          "caller": "0xd428839228acfA77e9995e0F0114D98B3Cc96Bac",
+          "caller": "0xE65AE04B635E51d2e3B015b1A7C339f869D1Da08",
           "comment": "f(uint256): 5 -> FAILURE",
           "instance": "C",
           "method": "f(uint256)",
@@ -87,7 +87,7 @@
           }
         },
         {
-          "caller": "0xd428839228acfA77e9995e0F0114D98B3Cc96Bac",
+          "caller": "0xE65AE04B635E51d2e3B015b1A7C339f869D1Da08",
           "comment": "f(uint256): 6 -> 7",
           "instance": "C",
           "method": "f(uint256)",
@@ -108,7 +108,7 @@
     "C": "external_call_to_nonexisting_debugstrings.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ],
   "required_evm_version": ">=byzantium",
   "compiler_directives": {

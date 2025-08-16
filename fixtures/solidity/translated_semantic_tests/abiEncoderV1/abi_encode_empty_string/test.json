@@ -172,6 +172,6 @@
     "C": "abi_encode_empty_string.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

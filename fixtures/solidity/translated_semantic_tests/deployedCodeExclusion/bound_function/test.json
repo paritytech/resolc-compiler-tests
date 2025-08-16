@@ -4,7 +4,7 @@
       "name": "bound_function",
       "inputs": [
         {
-          "caller": "0xa237Bd223fdae75dE642380c768324B70B5aF5cE",
+          "caller": "0x0e5B11ABff3aFd8aCE2b2fb74565E2340080FAf3",
           "comment": "test() -> true",
           "instance": "C",
           "method": "test()",
@@ -23,6 +23,6 @@
     "C": "bound_function.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

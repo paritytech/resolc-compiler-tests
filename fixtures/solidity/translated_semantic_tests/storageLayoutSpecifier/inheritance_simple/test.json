@@ -4,7 +4,7 @@
       "name": "inheritance_simple",
       "inputs": [
         {
-          "caller": "0x85EdbB66472c71E0a8a68b266D76e95d152B8F1a",
+          "caller": "0x90682e55650b3044aE0370a39Ff83b9d0fC27506",
           "comment": "f() -> 8",
           "instance": "C",
           "method": "f()",
@@ -17,7 +17,7 @@
           }
         },
         {
-          "caller": "0x85EdbB66472c71E0a8a68b266D76e95d152B8F1a",
+          "caller": "0x90682e55650b3044aE0370a39Ff83b9d0fC27506",
           "comment": "x() -> 6",
           "instance": "C",
           "method": "x()",
@@ -30,7 +30,7 @@
           }
         },
         {
-          "caller": "0x85EdbB66472c71E0a8a68b266D76e95d152B8F1a",
+          "caller": "0x90682e55650b3044aE0370a39Ff83b9d0fC27506",
           "comment": "y() -> 8",
           "instance": "C",
           "method": "y()",
@@ -49,6 +49,6 @@
     "C": "inheritance_simple.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

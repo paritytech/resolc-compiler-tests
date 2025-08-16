@@ -4,7 +4,7 @@
       "name": "nested_array_of_structs_with_nested_array_from_storage_to_memory",
       "inputs": [
         {
-          "caller": "0x3a7d21795d1FA93E16b296dBA109A378DaeA038B",
+          "caller": "0x2c559FED4b8A8E12E170740d4daBb4Fc7d3F9B49",
           "comment": "test1() -> 0x20, 2, 0x40, 0x0100, 0x60, 7, 11, 2, 23, 29, 0x60, 17, 19, 1, 31",
           "instance": "C",
           "method": "test1()",
@@ -31,7 +31,7 @@
           }
         },
         {
-          "caller": "0x3a7d21795d1FA93E16b296dBA109A378DaeA038B",
+          "caller": "0x2c559FED4b8A8E12E170740d4daBb4Fc7d3F9B49",
           "comment": "test2() -> 0x20, 0x20, 0x60, 43, 47, 0",
           "instance": "C",
           "method": "test2()",
@@ -55,6 +55,6 @@
     "C": "nested_array_of_structs_with_nested_array_from_storage_to_memory.sol:C"
   },
   "modes": [
-    "Y"
+    "Y+"
   ]
 }

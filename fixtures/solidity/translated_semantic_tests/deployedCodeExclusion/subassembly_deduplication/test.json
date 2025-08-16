@@ -4,7 +4,7 @@
       "name": "subassembly_deduplication",
       "inputs": [
         {
-          "caller": "0x9383416C596bb810a814F6EC8Eef796768914149",
+          "caller": "0xF0DFC0e20503dCD32309d26ebF6A1E7e7C71dDff",
           "comment": "test() -> true",
           "instance": "C",
           "method": "test()",
@@ -23,6 +23,6 @@
     "C": "subassembly_deduplication.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

@@ -23,6 +23,6 @@
     "C": "hex_string_with_non_printable_characters.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

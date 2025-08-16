@@ -4,7 +4,7 @@
       "name": "library_on_interface",
       "inputs": [
         {
-          "caller": "0x50D5a530A6c1aA8bB270D0d0F44a53F599137E4f",
+          "caller": "0x2Fe88f86d9F5Ed0536756BCFB318Bc8AAa014918",
           "comment": "x() -> 7",
           "instance": "C",
           "method": "x()",
@@ -23,6 +23,6 @@
     "C": "library_on_interface.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

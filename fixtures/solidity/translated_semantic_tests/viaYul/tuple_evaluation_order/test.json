@@ -24,6 +24,6 @@
     "C": "tuple_evaluation_order.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

@@ -23,8 +23,8 @@
     "C": "prediction_example.sol:C"
   },
   "modes": [
-    "Y",
-    "E"
+    "Y+",
+    "E+"
   ],
   "required_evm_version": ">=constantinople"
 }

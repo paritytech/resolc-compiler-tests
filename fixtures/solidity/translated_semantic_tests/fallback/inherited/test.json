@@ -4,7 +4,7 @@
       "name": "inherited",
       "inputs": [
         {
-          "caller": "0x0DaF524cFa0BbCE0EdfC71cf5A5d7AbBF6253157",
+          "caller": "0xE4038Bf99cdEC2513df22F57BCA38Ac8a46b3E98",
           "comment": "getData() -> 0",
           "instance": "B",
           "method": "getData()",
@@ -17,7 +17,7 @@
           }
         },
         {
-          "caller": "0x0DaF524cFa0BbCE0EdfC71cf5A5d7AbBF6253157",
+          "caller": "0xE4038Bf99cdEC2513df22F57BCA38Ac8a46b3E98",
           "comment": "(): 42 ->",
           "instance": "B",
           "method": "#fallback",
@@ -29,7 +29,7 @@
           }
         },
         {
-          "caller": "0x0DaF524cFa0BbCE0EdfC71cf5A5d7AbBF6253157",
+          "caller": "0xE4038Bf99cdEC2513df22F57BCA38Ac8a46b3E98",
           "comment": "getData() -> 1",
           "instance": "B",
           "method": "getData()",
@@ -48,6 +48,6 @@
     "B": "inherited.sol:B"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

@@ -4,7 +4,7 @@
       "name": "malformed_error",
       "inputs": [
         {
-          "caller": "0x22613cDc37327d103a92860334C9c87eC05D49F8",
+          "caller": "0xfC47fD1b6CC81BC95962C084DE4cb2194270D6A3",
           "comment": "a() -> 0x00",
           "instance": "C",
           "method": "a()",
@@ -17,7 +17,7 @@
           }
         },
         {
-          "caller": "0x22613cDc37327d103a92860334C9c87eC05D49F8",
+          "caller": "0xfC47fD1b6CC81BC95962C084DE4cb2194270D6A3",
           "comment": "b() -> 0x00",
           "instance": "C",
           "method": "b()",
@@ -30,7 +30,7 @@
           }
         },
         {
-          "caller": "0x22613cDc37327d103a92860334C9c87eC05D49F8",
+          "caller": "0xfC47fD1b6CC81BC95962C084DE4cb2194270D6A3",
           "comment": "b2() -> 0x00",
           "instance": "C",
           "method": "b2()",
@@ -43,7 +43,7 @@
           }
         },
         {
-          "caller": "0x22613cDc37327d103a92860334C9c87eC05D49F8",
+          "caller": "0xfC47fD1b6CC81BC95962C084DE4cb2194270D6A3",
           "comment": "b3() -> 0x20, 0x00",
           "instance": "C",
           "method": "b3()",
@@ -57,7 +57,7 @@
           }
         },
         {
-          "caller": "0x22613cDc37327d103a92860334C9c87eC05D49F8",
+          "caller": "0xfC47fD1b6CC81BC95962C084DE4cb2194270D6A3",
           "comment": "c() -> 0x20, 7, \"abcdefg\"",
           "instance": "C",
           "method": "c()",
@@ -72,7 +72,7 @@
           }
         },
         {
-          "caller": "0x22613cDc37327d103a92860334C9c87eC05D49F8",
+          "caller": "0xfC47fD1b6CC81BC95962C084DE4cb2194270D6A3",
           "comment": "d() -> 0x20, 7, \"abcdefg\"",
           "instance": "C",
           "method": "d()",
@@ -93,7 +93,7 @@
     "C": "malformed_error.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ],
   "required_evm_version": ">=byzantium"
 }

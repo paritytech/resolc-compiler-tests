@@ -4,7 +4,7 @@
       "name": "virtual_function_deployed",
       "inputs": [
         {
-          "caller": "0xE4682E4379706A7a84fF6c967e7C0816251b8CfB",
+          "caller": "0xff7279b0f869C36017FC484aD22757E3Be169393",
           "comment": "test() -> true",
           "instance": "C",
           "method": "test()",
@@ -23,6 +23,6 @@
     "C": "virtual_function_deployed.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

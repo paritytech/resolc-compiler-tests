@@ -4,7 +4,7 @@
       "name": "function_modifier",
       "inputs": [
         {
-          "caller": "0xB4a8305FfA9397E5639F56b8cc01bCBB8bd07A09",
+          "caller": "0x7c8C7feB05BA8D8dC93C1072D0cEc5EA123009d1",
           "comment": "getOne() -> 0",
           "instance": "C",
           "method": "getOne()",
@@ -17,7 +17,7 @@
           }
         },
         {
-          "caller": "0xB4a8305FfA9397E5639F56b8cc01bCBB8bd07A09",
+          "caller": "0x7c8C7feB05BA8D8dC93C1072D0cEc5EA123009d1",
           "comment": "getOne(), 1 wei -> 1",
           "instance": "C",
           "method": "getOne()",
@@ -37,6 +37,6 @@
     "C": "function_modifier.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

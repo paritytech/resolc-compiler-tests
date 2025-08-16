@@ -23,7 +23,7 @@
     "C": "delete_transient_state_variable.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ],
   "required_evm_version": ">=cancun"
 }

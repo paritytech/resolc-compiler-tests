@@ -25,6 +25,7 @@
           "method": "g(string)",
           "calldata": [
             "0x20",
+            "0x00",
             "0x00"
           ],
           "expected": {
@@ -61,7 +62,7 @@
     "C": "empty_v1.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ],
   "required_evm_version": ">=byzantium",
   "compiler_directives": {

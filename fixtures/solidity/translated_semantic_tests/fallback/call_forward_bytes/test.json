@@ -4,7 +4,7 @@
       "name": "call_forward_bytes",
       "inputs": [
         {
-          "caller": "0x99c9B85dc9081C3d8e12506aA24C954D22CB1D0c",
+          "caller": "0xf0Cd998500fC71F8F08C2A85ce3F858B84c36a89",
           "comment": "recv(uint256): 7 ->",
           "instance": "sender",
           "method": "recv(uint256)",
@@ -16,7 +16,7 @@
           }
         },
         {
-          "caller": "0x99c9B85dc9081C3d8e12506aA24C954D22CB1D0c",
+          "caller": "0xf0Cd998500fC71F8F08C2A85ce3F858B84c36a89",
           "comment": "val() -> 0",
           "instance": "sender",
           "method": "val()",
@@ -29,7 +29,7 @@
           }
         },
         {
-          "caller": "0x99c9B85dc9081C3d8e12506aA24C954D22CB1D0c",
+          "caller": "0xf0Cd998500fC71F8F08C2A85ce3F858B84c36a89",
           "comment": "forward() -> true",
           "instance": "sender",
           "method": "forward()",
@@ -42,7 +42,7 @@
           }
         },
         {
-          "caller": "0x99c9B85dc9081C3d8e12506aA24C954D22CB1D0c",
+          "caller": "0xf0Cd998500fC71F8F08C2A85ce3F858B84c36a89",
           "comment": "val() -> 8",
           "instance": "sender",
           "method": "val()",
@@ -55,7 +55,7 @@
           }
         },
         {
-          "caller": "0x99c9B85dc9081C3d8e12506aA24C954D22CB1D0c",
+          "caller": "0xf0Cd998500fC71F8F08C2A85ce3F858B84c36a89",
           "comment": "clear() -> true",
           "instance": "sender",
           "method": "clear()",
@@ -68,7 +68,7 @@
           }
         },
         {
-          "caller": "0x99c9B85dc9081C3d8e12506aA24C954D22CB1D0c",
+          "caller": "0xf0Cd998500fC71F8F08C2A85ce3F858B84c36a89",
           "comment": "val() -> 8",
           "instance": "sender",
           "method": "val()",
@@ -81,7 +81,7 @@
           }
         },
         {
-          "caller": "0x99c9B85dc9081C3d8e12506aA24C954D22CB1D0c",
+          "caller": "0xf0Cd998500fC71F8F08C2A85ce3F858B84c36a89",
           "comment": "forward() -> true",
           "instance": "sender",
           "method": "forward()",
@@ -94,7 +94,7 @@
           }
         },
         {
-          "caller": "0x99c9B85dc9081C3d8e12506aA24C954D22CB1D0c",
+          "caller": "0xf0Cd998500fC71F8F08C2A85ce3F858B84c36a89",
           "comment": "val() -> 0x80",
           "instance": "sender",
           "method": "val()",
@@ -113,6 +113,6 @@
     "sender": "call_forward_bytes.sol:sender"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

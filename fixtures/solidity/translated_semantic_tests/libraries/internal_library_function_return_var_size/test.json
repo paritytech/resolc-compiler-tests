@@ -4,7 +4,7 @@
       "name": "internal_library_function_return_var_size",
       "inputs": [
         {
-          "caller": "0x29a67D0eE992604a9B7332c3a2C8A2231fc0068D",
+          "caller": "0xdEbb592532659c9F66c69145Ba2bc8b52e97730e",
           "comment": "f() -> 2",
           "instance": "C",
           "method": "f()",
@@ -23,6 +23,6 @@
     "C": "internal_library_function_return_var_size.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

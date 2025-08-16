@@ -117,7 +117,7 @@
     "C": "struct_member_access.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ],
   "required_evm_version": ">homestead"
 }

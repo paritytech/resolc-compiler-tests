@@ -4,7 +4,7 @@
       "name": "internal_library_function_attached_to_enum",
       "inputs": [
         {
-          "caller": "0xBE9f246E0641dA71Fbb89c81d70b1Eb05Deb8b8d",
+          "caller": "0xc83f6FD0873d9598ecAA24A813273A431f5f5216",
           "comment": "equalsA(uint256): 0 -> true",
           "instance": "C",
           "method": "equalsA(uint256)",
@@ -19,7 +19,7 @@
           }
         },
         {
-          "caller": "0xBE9f246E0641dA71Fbb89c81d70b1Eb05Deb8b8d",
+          "caller": "0xc83f6FD0873d9598ecAA24A813273A431f5f5216",
           "comment": "equalsA(uint256): 1 -> false",
           "instance": "C",
           "method": "equalsA(uint256)",
@@ -40,6 +40,6 @@
     "C": "internal_library_function_attached_to_enum.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

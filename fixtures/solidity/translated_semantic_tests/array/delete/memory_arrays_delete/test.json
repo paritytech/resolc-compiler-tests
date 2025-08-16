@@ -4,7 +4,7 @@
       "name": "memory_arrays_delete",
       "inputs": [
         {
-          "caller": "0x9cBd71E0e723De216671eE0adCE0ad702f2DA9B5",
+          "caller": "0x06Bdb7426dabC4978868831590099afc25D4D430",
           "comment": "del() -> 0, 1, 2, 0, 0, 0, 0x20, 0x21, 0x22, 0x30, 0x31, 0",
           "instance": "Test",
           "method": "del()",
@@ -34,6 +34,6 @@
     "Test": "memory_arrays_delete.sol:Test"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

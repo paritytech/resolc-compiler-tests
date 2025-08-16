@@ -4,7 +4,7 @@
       "name": "different_call_type_transient",
       "inputs": [
         {
-          "caller": "0x3cf063a22D1b8D11089Cff7Db4B56742407B7F7c",
+          "caller": "0x371b2Bf42b9c622e5622F89E90E921BEf4FA5181",
           "comment": "testDelegate() -> 7, 0",
           "instance": "Test",
           "method": "testDelegate()",
@@ -18,7 +18,7 @@
           }
         },
         {
-          "caller": "0x3cf063a22D1b8D11089Cff7Db4B56742407B7F7c",
+          "caller": "0x371b2Bf42b9c622e5622F89E90E921BEf4FA5181",
           "comment": "testCall() -> 0, 8",
           "instance": "Test",
           "method": "testCall()",
@@ -32,7 +32,7 @@
           }
         },
         {
-          "caller": "0x3cf063a22D1b8D11089Cff7Db4B56742407B7F7c",
+          "caller": "0x371b2Bf42b9c622e5622F89E90E921BEf4FA5181",
           "comment": "testStatic() -> false; gas irOptimized: 96900694; gas legacy: 96901136; gas legacyOptimized: 96900725",
           "instance": "Test",
           "method": "testStatic()",
@@ -51,7 +51,7 @@
     "Test": "different_call_type_transient.sol:Test"
   },
   "modes": [
-    "E"
+    "E+"
   ],
   "required_evm_version": ">=cancun"
 }

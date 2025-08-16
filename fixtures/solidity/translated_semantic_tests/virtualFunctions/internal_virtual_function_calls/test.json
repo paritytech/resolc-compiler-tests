@@ -4,7 +4,7 @@
       "name": "internal_virtual_function_calls",
       "inputs": [
         {
-          "caller": "0x9179C69b22a9fC2494E130819c26A3daB60dB0fc",
+          "caller": "0x2E8e6E90214a3B27c5d05eca2763B7e973CA4B3b",
           "comment": "f() -> 2",
           "instance": "Derived",
           "method": "f()",
@@ -23,6 +23,6 @@
     "Derived": "internal_virtual_function_calls.sol:Derived"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

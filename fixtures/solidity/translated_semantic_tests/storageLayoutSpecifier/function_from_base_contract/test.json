@@ -4,7 +4,7 @@
       "name": "function_from_base_contract",
       "inputs": [
         {
-          "caller": "0x3573EfC788341F2386106c9c066d4a39aC7e6DD3",
+          "caller": "0x48e1B073c40dB927DB47cF85c2E61895De81AC1c",
           "comment": "f() -> 1",
           "instance": "C",
           "method": "f()",
@@ -17,7 +17,7 @@
           }
         },
         {
-          "caller": "0x3573EfC788341F2386106c9c066d4a39aC7e6DD3",
+          "caller": "0x48e1B073c40dB927DB47cF85c2E61895De81AC1c",
           "comment": "g() -> 2",
           "instance": "C",
           "method": "g()",
@@ -30,7 +30,7 @@
           }
         },
         {
-          "caller": "0x3573EfC788341F2386106c9c066d4a39aC7e6DD3",
+          "caller": "0x48e1B073c40dB927DB47cF85c2E61895De81AC1c",
           "comment": "test() -> 6",
           "instance": "C",
           "method": "test()",
@@ -43,7 +43,7 @@
           }
         },
         {
-          "caller": "0x3573EfC788341F2386106c9c066d4a39aC7e6DD3",
+          "caller": "0x48e1B073c40dB927DB47cF85c2E61895De81AC1c",
           "comment": "x() -> 2",
           "instance": "C",
           "method": "x()",
@@ -56,7 +56,7 @@
           }
         },
         {
-          "caller": "0x3573EfC788341F2386106c9c066d4a39aC7e6DD3",
+          "caller": "0x48e1B073c40dB927DB47cF85c2E61895De81AC1c",
           "comment": "y() -> 4",
           "instance": "C",
           "method": "y()",
@@ -69,7 +69,7 @@
           }
         },
         {
-          "caller": "0x3573EfC788341F2386106c9c066d4a39aC7e6DD3",
+          "caller": "0x48e1B073c40dB927DB47cF85c2E61895De81AC1c",
           "comment": "z() -> 6",
           "instance": "C",
           "method": "z()",
@@ -88,6 +88,6 @@
     "C": "function_from_base_contract.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

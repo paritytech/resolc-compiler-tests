@@ -28,6 +28,6 @@
     "D": "event_emit_from_a_foreign_contract.sol:D"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

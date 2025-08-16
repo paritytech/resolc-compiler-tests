@@ -40,6 +40,6 @@
     "test": "conditional_expression_storage_memory_1.sol:test"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

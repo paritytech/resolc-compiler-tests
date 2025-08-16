@@ -4,7 +4,7 @@
       "name": "struct_constructor_nested",
       "inputs": [
         {
-          "caller": "0x8aD21b62EdB25537FCf64b75feF4871f42a44806",
+          "caller": "0xACFE3715C960634708DE52f68268d4B8e3BDb926",
           "comment": "get() -> 0x01, 0x00, 0x09, 0x00, 0x04, 0x05",
           "instance": "C",
           "method": "get()",
@@ -28,6 +28,6 @@
     "C": "struct_constructor_nested.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

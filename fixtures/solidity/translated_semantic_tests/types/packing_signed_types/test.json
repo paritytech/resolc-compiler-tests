@@ -4,7 +4,7 @@
       "name": "packing_signed_types",
       "inputs": [
         {
-          "caller": "0x535dC3Aa182b78A2382Fd822A31a5C604F8B74ac",
+          "caller": "0x78E6933E4641D36D2449c068D13eC23b519172cA",
           "comment": "run() -> 0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa",
           "instance": "test",
           "method": "run()",
@@ -23,6 +23,6 @@
     "test": "packing_signed_types.sol:test"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

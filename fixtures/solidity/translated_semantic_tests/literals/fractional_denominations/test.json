@@ -88,6 +88,6 @@
     "C": "fractional_denominations.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

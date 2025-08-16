@@ -23,6 +23,6 @@
     "Derived": "base_constructor_arguments.sol:Derived"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

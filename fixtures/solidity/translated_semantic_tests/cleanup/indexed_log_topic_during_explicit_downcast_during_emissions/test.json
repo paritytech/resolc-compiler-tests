@@ -4,7 +4,7 @@
       "name": "indexed_log_topic_during_explicit_downcast_during_emissions",
       "inputs": [
         {
-          "caller": "0x93b3f3454AbD694f8D3261f599d5216209716EFc",
+          "caller": "0x543f6FcdF895b0e26d0A431da33920a0f10d2907",
           "comment": "constructor() ->; ~ emit ev0(bytes1): #\"1\"; gas legacy: 168735",
           "instance": "C",
           "method": "#deployer",
@@ -23,7 +23,7 @@
           }
         },
         {
-          "caller": "0x93b3f3454AbD694f8D3261f599d5216209716EFc",
+          "caller": "0x543f6FcdF895b0e26d0A431da33920a0f10d2907",
           "comment": "j() ->; ~ emit ev0(bytes1): #\"1\"",
           "instance": "C",
           "method": "j()",
@@ -48,6 +48,6 @@
     "C": "indexed_log_topic_during_explicit_downcast_during_emissions.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

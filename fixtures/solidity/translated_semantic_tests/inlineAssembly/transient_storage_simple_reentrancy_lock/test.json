@@ -4,7 +4,7 @@
       "name": "transient_storage_simple_reentrancy_lock",
       "inputs": [
         {
-          "caller": "0xB53c9D82700DD8C8cafacd64CAdFD32760acb32F",
+          "caller": "0x742655f97031EFbB1d218a921F676146D89eF03D",
           "comment": "f(bool): false ->",
           "instance": "C",
           "method": "f(bool)",
@@ -16,7 +16,7 @@
           }
         },
         {
-          "caller": "0xB53c9D82700DD8C8cafacd64CAdFD32760acb32F",
+          "caller": "0x742655f97031EFbB1d218a921F676146D89eF03D",
           "comment": "f(bool): true -> FAILURE",
           "instance": "C",
           "method": "f(bool)",
@@ -34,7 +34,7 @@
     "C": "transient_storage_simple_reentrancy_lock.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ],
   "required_evm_version": ">=cancun"
 }

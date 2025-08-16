@@ -20,6 +20,6 @@
     "C": "copy_struct_invalid_ir_bug.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

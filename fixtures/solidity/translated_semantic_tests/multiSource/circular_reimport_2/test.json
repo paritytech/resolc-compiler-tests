@@ -4,7 +4,7 @@
       "name": "circular_reimport_2",
       "inputs": [
         {
-          "caller": "0xc2107079a2DF58df7208B6968044b7fA2b62227A",
+          "caller": "0xa5Cec5E029b482c4ed0D307Ced9E33A108D931B3",
           "comment": "foo() -> 0x2324",
           "instance": "C",
           "method": "foo()",
@@ -23,6 +23,6 @@
     "C": "s3.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

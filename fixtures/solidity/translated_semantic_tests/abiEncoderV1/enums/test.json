@@ -70,6 +70,6 @@
     "C": "enums.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

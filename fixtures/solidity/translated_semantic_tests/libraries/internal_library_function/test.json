@@ -4,7 +4,7 @@
       "name": "internal_library_function",
       "inputs": [
         {
-          "caller": "0x04291d359e253F81Bd609A625f99C73BCA384594",
+          "caller": "0x92128C2e0C0b302f46BA027bD16C24619E62006f",
           "comment": "f() -> 2",
           "instance": "C",
           "method": "f()",
@@ -23,6 +23,6 @@
     "C": "internal_library_function.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

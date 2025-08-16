@@ -137,6 +137,6 @@
     "C": "function_entry_checks.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

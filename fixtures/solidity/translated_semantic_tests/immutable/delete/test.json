@@ -4,7 +4,7 @@
       "name": "delete",
       "inputs": [
         {
-          "caller": "0xA6c576E962f7221102F14d1833b0b4017E4De604",
+          "caller": "0xcC6DA9786391B5B74537456B76D58a0fa75611fA",
           "comment": "a() -> 0",
           "instance": "C",
           "method": "a()",
@@ -17,7 +17,7 @@
           }
         },
         {
-          "caller": "0xA6c576E962f7221102F14d1833b0b4017E4De604",
+          "caller": "0xcC6DA9786391B5B74537456B76D58a0fa75611fA",
           "comment": "b() -> 0",
           "instance": "C",
           "method": "b()",
@@ -30,7 +30,7 @@
           }
         },
         {
-          "caller": "0xA6c576E962f7221102F14d1833b0b4017E4De604",
+          "caller": "0xcC6DA9786391B5B74537456B76D58a0fa75611fA",
           "comment": "c() -> 0",
           "instance": "C",
           "method": "c()",
@@ -49,6 +49,6 @@
     "C": "delete.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

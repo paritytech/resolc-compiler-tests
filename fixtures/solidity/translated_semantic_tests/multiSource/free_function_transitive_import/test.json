@@ -4,7 +4,7 @@
       "name": "free_function_transitive_import",
       "inputs": [
         {
-          "caller": "0x7fF5e44b54742a9D3b64193C18B2E78C5e8Ee539",
+          "caller": "0x06BaB76F512b0f66ff15CC44B620CeFd1084C886",
           "comment": "i() -> 1337",
           "instance": "E",
           "method": "i()",
@@ -23,6 +23,6 @@
     "E": "s3.sol:E"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

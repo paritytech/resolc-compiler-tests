@@ -4,7 +4,7 @@
       "name": "mapping_local_assignment",
       "inputs": [
         {
-          "caller": "0xb7e197565d51aA8a078B0B9860d9aC05eEf2F62c",
+          "caller": "0x23952e6b6aE9A89FDe6204bE4312cc9E4fE0c59a",
           "comment": "f() -> 42, 0, 0, 21",
           "instance": "test",
           "method": "f()",
@@ -26,6 +26,6 @@
     "test": "mapping_local_assignment.sol:test"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

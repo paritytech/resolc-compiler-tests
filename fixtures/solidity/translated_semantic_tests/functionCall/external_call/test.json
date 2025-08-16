@@ -4,7 +4,7 @@
       "name": "external_call",
       "inputs": [
         {
-          "caller": "0x7D38C28A426294b9C2F92963eb60482A8DD3253c",
+          "caller": "0x25910407ea26ddeD1D7Ab60bFA1c0Ae466bf9b46",
           "comment": "g(uint256): 4 -> 5",
           "instance": "C",
           "method": "g(uint256)",
@@ -19,7 +19,7 @@
           }
         },
         {
-          "caller": "0x7D38C28A426294b9C2F92963eb60482A8DD3253c",
+          "caller": "0x25910407ea26ddeD1D7Ab60bFA1c0Ae466bf9b46",
           "comment": "f(uint256): 2 -> 5",
           "instance": "C",
           "method": "f(uint256)",
@@ -40,6 +40,6 @@
     "C": "external_call.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

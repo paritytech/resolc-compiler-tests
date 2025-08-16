@@ -4,7 +4,7 @@
       "name": "external_function_pointer_address_assignment",
       "inputs": [
         {
-          "caller": "0x52197500F1E092E854488ba00aCc645A9fD576F6",
+          "caller": "0xc30763F1B6aAecdF9aA2342388863eBe68C26F21",
           "comment": "testYul(address): 0x1234567890 -> 0x1234567890",
           "instance": "C",
           "method": "testYul(address)",
@@ -19,7 +19,7 @@
           }
         },
         {
-          "caller": "0x52197500F1E092E854488ba00aCc645A9fD576F6",
+          "caller": "0xc30763F1B6aAecdF9aA2342388863eBe68C26F21",
           "comment": "testYul(address): 0xC0FFEE3EA7 -> 0xC0FFEE3EA7",
           "instance": "C",
           "method": "testYul(address)",
@@ -40,6 +40,6 @@
     "C": "external_function_pointer_address_assignment.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

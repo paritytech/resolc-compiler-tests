@@ -30,6 +30,6 @@
     "C": "event_indexed_string.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

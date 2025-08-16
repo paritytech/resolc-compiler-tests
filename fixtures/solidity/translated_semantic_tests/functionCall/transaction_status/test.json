@@ -4,7 +4,7 @@
       "name": "transaction_status",
       "inputs": [
         {
-          "caller": "0x1023272cE9334Ab3b9388C0353DAbF34BE6E977d",
+          "caller": "0xeE94bFa723830A244CF390Bbc9C2cE43966109d5",
           "comment": "f() ->",
           "instance": "test",
           "method": "f()",
@@ -14,7 +14,7 @@
           }
         },
         {
-          "caller": "0x1023272cE9334Ab3b9388C0353DAbF34BE6E977d",
+          "caller": "0xeE94bFa723830A244CF390Bbc9C2cE43966109d5",
           "comment": "g() -> FAILURE",
           "instance": "test",
           "method": "g()",
@@ -24,7 +24,7 @@
           }
         },
         {
-          "caller": "0x1023272cE9334Ab3b9388C0353DAbF34BE6E977d",
+          "caller": "0xeE94bFa723830A244CF390Bbc9C2cE43966109d5",
           "comment": "h() -> FAILURE, hex\"4e487b71\", 0x01",
           "instance": "test",
           "method": "h()",
@@ -44,6 +44,6 @@
     "test": "transaction_status.sol:test"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

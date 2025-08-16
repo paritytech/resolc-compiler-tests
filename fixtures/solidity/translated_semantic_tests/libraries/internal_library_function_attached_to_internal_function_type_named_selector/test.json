@@ -4,7 +4,7 @@
       "name": "internal_library_function_attached_to_internal_function_type_named_selector",
       "inputs": [
         {
-          "caller": "0xF99f2e306a282A64b666D6E3c6983432b9ddeE73",
+          "caller": "0xD1a4142e58690aD49d27Cf4730247138b2c20512",
           "comment": "test(uint256): 5 -> 10",
           "instance": "C",
           "method": "test(uint256)",
@@ -25,6 +25,6 @@
     "C": "internal_library_function_attached_to_internal_function_type_named_selector.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

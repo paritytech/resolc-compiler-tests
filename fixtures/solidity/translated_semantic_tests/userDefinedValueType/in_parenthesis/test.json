@@ -4,7 +4,7 @@
       "name": "in_parenthesis",
       "inputs": [
         {
-          "caller": "0x53aDC7C66eC868A7825e9cB4eacAE0fA71548336",
+          "caller": "0xba0bBe55F76f1b89Eb18A80c0682Cf7a1E7C4C43",
           "comment": "f() -> 5, 10",
           "instance": "C",
           "method": "f()",
@@ -24,6 +24,6 @@
     "C": "in_parenthesis.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

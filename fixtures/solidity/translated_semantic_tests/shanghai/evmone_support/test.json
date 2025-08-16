@@ -4,7 +4,7 @@
       "name": "evmone_support",
       "inputs": [
         {
-          "caller": "0x6a0ee527be7D1f431D1A03A8D4497Cfda59eFd37",
+          "caller": "0x7000eA6EfAbc779Cf51d5cDF2a58Cf3F99002660",
           "comment": "bytecode() -> 0x20, 4, 0x60205ff300000000000000000000000000000000000000000000000000000000",
           "instance": "Test",
           "method": "bytecode()",
@@ -19,7 +19,7 @@
           }
         },
         {
-          "caller": "0x6a0ee527be7D1f431D1A03A8D4497Cfda59eFd37",
+          "caller": "0x7000eA6EfAbc779Cf51d5cDF2a58Cf3F99002660",
           "comment": "isPush0Supported() -> true",
           "instance": "Test",
           "method": "isPush0Supported()",
@@ -38,8 +38,8 @@
     "Test": "evmone_support.sol:Test"
   },
   "modes": [
-    "Y",
-    "E"
+    "Y+",
+    "E+"
   ],
   "required_evm_version": ">=shanghai"
 }

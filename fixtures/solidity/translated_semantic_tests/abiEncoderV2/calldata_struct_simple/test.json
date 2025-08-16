@@ -4,7 +4,7 @@
       "name": "calldata_struct_simple",
       "inputs": [
         {
-          "caller": "0x634DBfFB876995B0e262610f8650c9b80E60677f",
+          "caller": "0x84A533D4AaB3f83B818E3b243C0e4022e535c482",
           "comment": "f((uint256)): 3 -> 32, 32, 3",
           "instance": "C",
           "method": "f((uint256))",
@@ -21,7 +21,7 @@
           }
         },
         {
-          "caller": "0x634DBfFB876995B0e262610f8650c9b80E60677f",
+          "caller": "0x84A533D4AaB3f83B818E3b243C0e4022e535c482",
           "comment": "g((uint256)): 3 -> 32, 32, 3",
           "instance": "C",
           "method": "g((uint256))",
@@ -44,7 +44,7 @@
     "C": "calldata_struct_simple.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ],
   "required_evm_version": ">homestead"
 }

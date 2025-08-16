@@ -4,7 +4,7 @@
       "name": "inline_array_return",
       "inputs": [
         {
-          "caller": "0xB1F0E3546A30b69e2B24bc157b9B3a66AdA299f5",
+          "caller": "0xE94B1B14E7B329FDa9116b872BEd352EBF0dAcDC",
           "comment": "f() -> 1, 2, 3, 4, 5",
           "instance": "C",
           "method": "f()",
@@ -27,6 +27,6 @@
     "C": "inline_array_return.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

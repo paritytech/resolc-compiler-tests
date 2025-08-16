@@ -4,7 +4,7 @@
       "name": "code_access_create",
       "inputs": [
         {
-          "caller": "0x94BF4A5Dc2117DDE1B16E7C421e659948b6e6C22",
+          "caller": "0xce95F6F5FFf53e403718ec588f9BBe5aE2D49206",
           "comment": "test() -> 7; gas legacy: 76647; gas legacy code: 24200",
           "instance": "C",
           "method": "test()",
@@ -23,6 +23,6 @@
     "C": "code_access_create.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

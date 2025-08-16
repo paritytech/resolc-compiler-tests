@@ -4,7 +4,7 @@
       "name": "using_global_library",
       "inputs": [
         {
-          "caller": "0x4736056dAbC0Df39a5Ea201De4adBBb5777318Ea",
+          "caller": "0x76552303461Bb8dF59DDFaB19f5b6f4E0fd007B7",
           "comment": "f() -> 2, 1",
           "instance": "C",
           "method": "f()",
@@ -30,6 +30,6 @@
     }
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

@@ -49,6 +49,6 @@
     "C": "return.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

@@ -4,7 +4,7 @@
       "name": "function_type_copy",
       "inputs": [
         {
-          "caller": "0x1d7CDB84d0d78835d70c815b719ADa278EAd78f3",
+          "caller": "0x514C1129d77BCE9cdBa3FA770d23D0b26558fdfc",
           "comment": "test() -> true",
           "instance": "Test",
           "method": "test()",
@@ -23,7 +23,7 @@
     "Test": "function_type_copy.sol:Test"
   },
   "modes": [
-    "E"
+    "E+"
   ],
   "required_evm_version": ">homestead"
 }

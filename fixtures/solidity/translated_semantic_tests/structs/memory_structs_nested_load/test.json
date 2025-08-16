@@ -4,7 +4,7 @@
       "name": "memory_structs_nested_load",
       "inputs": [
         {
-          "caller": "0x868239788034A8180f939BCDb6b3c40BCb415A34",
+          "caller": "0x6FAb49d80b2B25Bf2D3709DdB20ad1f7b72f3Ae0",
           "comment": "load() -> 0x01, 0x02, 0x03, 0x04, 0x05, 0x06; gas irOptimized: 110772; gas legacy: 112959; gas legacyOptimized: 110876",
           "instance": "Test",
           "method": "load()",
@@ -22,7 +22,7 @@
           }
         },
         {
-          "caller": "0x868239788034A8180f939BCDb6b3c40BCb415A34",
+          "caller": "0x6FAb49d80b2B25Bf2D3709DdB20ad1f7b72f3Ae0",
           "comment": "store() -> 0x01, 0x02, 0x03, 0x04, 0x05, 0x06",
           "instance": "Test",
           "method": "store()",
@@ -46,6 +46,6 @@
     "Test": "memory_structs_nested_load.sol:Test"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

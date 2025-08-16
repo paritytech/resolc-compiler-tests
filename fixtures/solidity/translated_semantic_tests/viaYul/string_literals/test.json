@@ -100,6 +100,6 @@
     "C": "string_literals.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

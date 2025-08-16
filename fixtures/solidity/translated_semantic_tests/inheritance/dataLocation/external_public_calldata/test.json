@@ -4,7 +4,7 @@
       "name": "external_public_calldata",
       "inputs": [
         {
-          "caller": "0x7c446C130F3d04E0345b33C848FCb5A6f2E39A38",
+          "caller": "0x0dC1a2604E31cb77d36ef8D177A2E5dDDd7ecF72",
           "comment": "f(uint256[]): 0x20, 2, 9, 8 -> 0x20, 2, 9, 8",
           "instance": "B",
           "method": "f(uint256[])",
@@ -25,7 +25,7 @@
           }
         },
         {
-          "caller": "0x7c446C130F3d04E0345b33C848FCb5A6f2E39A38",
+          "caller": "0x0dC1a2604E31cb77d36ef8D177A2E5dDDd7ecF72",
           "comment": "g(uint256[]): 0x20, 2, 9, 8 -> 0x20, 2, 9, 8",
           "instance": "B",
           "method": "g(uint256[])",
@@ -52,7 +52,7 @@
     "B": "external_public_calldata.sol:B"
   },
   "modes": [
-    "Y",
-    "E"
+    "Y+",
+    "E+"
   ]
 }

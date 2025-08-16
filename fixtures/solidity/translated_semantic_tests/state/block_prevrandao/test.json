@@ -6,7 +6,7 @@
       "name": "block_prevrandao",
       "inputs": [
         {
-          "caller": "0x90De30C3E282f57d0b9CFe0a9c8E58fF8cCc447C",
+          "caller": "0x1A1364741a50C70b03A1D97b1447B88e64B99315",
           "comment": "f() -> 2500000000000000",
           "instance": "C",
           "method": "f()",
@@ -25,7 +25,7 @@
     "C": "block_prevrandao.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ],
   "required_evm_version": ">=paris"
 }

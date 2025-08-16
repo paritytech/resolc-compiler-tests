@@ -23,6 +23,6 @@
     "C": "stack_height_check_on_adding_gas_variable_to_function.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

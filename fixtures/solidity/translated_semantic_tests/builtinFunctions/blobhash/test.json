@@ -1,10 +1,12 @@
 {
+  "comment": "We do not add any blobs to our transactions and therefore this test fails.",
+  "ignore": true,
   "cases": [
     {
       "name": "blobhash",
       "inputs": [
         {
-          "caller": "0x7FF1D838D1F60696D9E45824f75ee903ec489211",
+          "caller": "0x50a9f6bdAfF02A23DbC0ba4a890EF18d84AA0f78",
           "comment": "f() -> 0x0100000000000000000000000000000000000000000000000000000000000001",
           "instance": "C",
           "method": "f()",
@@ -17,7 +19,7 @@
           }
         },
         {
-          "caller": "0x7FF1D838D1F60696D9E45824f75ee903ec489211",
+          "caller": "0x50a9f6bdAfF02A23DbC0ba4a890EF18d84AA0f78",
           "comment": "g() -> 0x0100000000000000000000000000000000000000000000000000000000000002",
           "instance": "C",
           "method": "g()",
@@ -30,7 +32,7 @@
           }
         },
         {
-          "caller": "0x7FF1D838D1F60696D9E45824f75ee903ec489211",
+          "caller": "0x50a9f6bdAfF02A23DbC0ba4a890EF18d84AA0f78",
           "comment": "h() -> 0x00",
           "instance": "C",
           "method": "h()",
@@ -49,7 +51,7 @@
     "C": "blobhash.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ],
   "required_evm_version": ">=cancun"
 }

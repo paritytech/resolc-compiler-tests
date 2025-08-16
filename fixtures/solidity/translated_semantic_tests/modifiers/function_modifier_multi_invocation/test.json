@@ -4,7 +4,7 @@
       "name": "function_modifier_multi_invocation",
       "inputs": [
         {
-          "caller": "0xAbDbF41398f789e125EC578481808e22534440c4",
+          "caller": "0xD917a1c6cE2b52E446341D9275846BF578a322F0",
           "comment": "f(bool): false -> 1",
           "instance": "C",
           "method": "f(bool)",
@@ -19,7 +19,7 @@
           }
         },
         {
-          "caller": "0xAbDbF41398f789e125EC578481808e22534440c4",
+          "caller": "0xD917a1c6cE2b52E446341D9275846BF578a322F0",
           "comment": "f(bool): true -> 2",
           "instance": "C",
           "method": "f(bool)",
@@ -40,6 +40,6 @@
     "C": "function_modifier_multi_invocation.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

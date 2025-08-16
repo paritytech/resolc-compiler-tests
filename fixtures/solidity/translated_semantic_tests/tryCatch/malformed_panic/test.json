@@ -4,7 +4,7 @@
       "name": "malformed_panic",
       "inputs": [
         {
-          "caller": "0x50217Eb78a64440a90eb3EC3D0BC7Cb6D8dFFfD7",
+          "caller": "0xF6203E95fFb41Fb875301755BDE73D886Fb36b96",
           "comment": "a() -> 0x00",
           "instance": "C",
           "method": "a()",
@@ -17,7 +17,7 @@
           }
         },
         {
-          "caller": "0x50217Eb78a64440a90eb3EC3D0BC7Cb6D8dFFfD7",
+          "caller": "0xF6203E95fFb41Fb875301755BDE73D886Fb36b96",
           "comment": "b() -> 0x00",
           "instance": "C",
           "method": "b()",
@@ -30,7 +30,7 @@
           }
         },
         {
-          "caller": "0x50217Eb78a64440a90eb3EC3D0BC7Cb6D8dFFfD7",
+          "caller": "0xF6203E95fFb41Fb875301755BDE73D886Fb36b96",
           "comment": "c() -> 0x43",
           "instance": "C",
           "method": "c()",
@@ -43,7 +43,7 @@
           }
         },
         {
-          "caller": "0x50217Eb78a64440a90eb3EC3D0BC7Cb6D8dFFfD7",
+          "caller": "0xF6203E95fFb41Fb875301755BDE73D886Fb36b96",
           "comment": "d() -> 0x43",
           "instance": "C",
           "method": "d()",
@@ -62,7 +62,7 @@
     "C": "malformed_panic.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ],
   "required_evm_version": ">=byzantium"
 }

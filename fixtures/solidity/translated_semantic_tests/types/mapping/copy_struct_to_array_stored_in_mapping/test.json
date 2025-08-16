@@ -4,7 +4,7 @@
       "name": "copy_struct_to_array_stored_in_mapping",
       "inputs": [
         {
-          "caller": "0xA2642070f1146D694839956006EE24d07dA26ED3",
+          "caller": "0xE0b5D2Ec78a9d102EC2985c72bc10e3699903Ac4",
           "comment": "from_storage_to_static_array() -> 0, 7",
           "instance": "C",
           "method": "from_storage_to_static_array()",
@@ -18,7 +18,7 @@
           }
         },
         {
-          "caller": "0xA2642070f1146D694839956006EE24d07dA26ED3",
+          "caller": "0xE0b5D2Ec78a9d102EC2985c72bc10e3699903Ac4",
           "comment": "from_storage_to_dynamic_array() -> 0x20, 1, 7",
           "instance": "C",
           "method": "from_storage_to_dynamic_array()",
@@ -33,7 +33,7 @@
           }
         },
         {
-          "caller": "0xA2642070f1146D694839956006EE24d07dA26ED3",
+          "caller": "0xE0b5D2Ec78a9d102EC2985c72bc10e3699903Ac4",
           "comment": "from_memory_to_static_array() -> 0, 7",
           "instance": "C",
           "method": "from_memory_to_static_array()",
@@ -47,7 +47,7 @@
           }
         },
         {
-          "caller": "0xA2642070f1146D694839956006EE24d07dA26ED3",
+          "caller": "0xE0b5D2Ec78a9d102EC2985c72bc10e3699903Ac4",
           "comment": "from_memory_to_dynamic_array() -> 0x20, 1, 7",
           "instance": "C",
           "method": "from_memory_to_dynamic_array()",
@@ -62,7 +62,7 @@
           }
         },
         {
-          "caller": "0xA2642070f1146D694839956006EE24d07dA26ED3",
+          "caller": "0xE0b5D2Ec78a9d102EC2985c72bc10e3699903Ac4",
           "comment": "from_calldata_to_static_array((uint8)): 8 -> 0, 8",
           "instance": "C",
           "method": "from_calldata_to_static_array((uint8))",
@@ -78,7 +78,7 @@
           }
         },
         {
-          "caller": "0xA2642070f1146D694839956006EE24d07dA26ED3",
+          "caller": "0xE0b5D2Ec78a9d102EC2985c72bc10e3699903Ac4",
           "comment": "from_calldata_to_dynamic_array((uint8)): 8 -> 0x20, 1, 8",
           "instance": "C",
           "method": "from_calldata_to_dynamic_array((uint8))",
@@ -101,6 +101,6 @@
     "C": "copy_struct_to_array_stored_in_mapping.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

@@ -35,6 +35,6 @@
     "ClientReceipt": "event_emit.sol:ClientReceipt"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

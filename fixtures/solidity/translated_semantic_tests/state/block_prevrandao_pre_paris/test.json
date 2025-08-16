@@ -4,7 +4,7 @@
       "name": "block_prevrandao_pre_paris",
       "inputs": [
         {
-          "caller": "0xD15AC3141868702E17F18B065feD56D4cD179276",
+          "caller": "0x16C3dCA110FE5d58fc36Af4fED62F57cD75Ba009",
           "comment": "f() -> 2500000000000000",
           "instance": "C",
           "method": "f()",
@@ -23,7 +23,7 @@
     "C": "block_prevrandao_pre_paris.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ],
   "required_evm_version": "<paris"
 }

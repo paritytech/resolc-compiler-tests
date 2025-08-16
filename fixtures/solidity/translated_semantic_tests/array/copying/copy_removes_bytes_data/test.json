@@ -4,7 +4,7 @@
       "name": "copy_removes_bytes_data",
       "inputs": [
         {
-          "caller": "0xC25E6a4CB8B344c5D2530aA4D0F2Eb0f983766D0",
+          "caller": "0xEae4B6035A4455f31944b3A32E8Ae1932289c9d4",
           "comment": "set(): 1, 2, 3, 4, 5 -> true; gas irOptimized: 177344; gas legacy: 177953; gas legacyOptimized: 177550",
           "instance": "c",
           "method": "set()",
@@ -26,10 +26,10 @@
           "comment": "storageEmpty -> 0",
           "address": "c.address",
           "is_storage_empty": false,
-          "caller": "0x4dBca645Eb4BFb707609Bf0196C710c6f0910B6E"
+          "caller": "0xf4ce4846eDd8441FAbfC17707898F7852598C73a"
         },
         {
-          "caller": "0xC25E6a4CB8B344c5D2530aA4D0F2Eb0f983766D0",
+          "caller": "0xEae4B6035A4455f31944b3A32E8Ae1932289c9d4",
           "comment": "reset() -> true",
           "instance": "c",
           "method": "reset()",
@@ -45,7 +45,7 @@
           "comment": "storageEmpty -> 1",
           "address": "c.address",
           "is_storage_empty": true,
-          "caller": "0x4dBca645Eb4BFb707609Bf0196C710c6f0910B6E"
+          "caller": "0xf4ce4846eDd8441FAbfC17707898F7852598C73a"
         }
       ]
     }
@@ -54,6 +54,6 @@
     "c": "copy_removes_bytes_data.sol:c"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

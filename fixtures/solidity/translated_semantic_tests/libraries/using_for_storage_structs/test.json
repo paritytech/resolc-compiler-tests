@@ -4,7 +4,7 @@
       "name": "using_for_storage_structs",
       "inputs": [
         {
-          "caller": "0xCc2B56dbbC99dFCe7a70514Cfb8b667c55f193a1",
+          "caller": "0xC2D59ED6487586c7eA35E370DEDAD0A357808614",
           "comment": "g() -> 7, 7",
           "instance": "C",
           "method": "g()",
@@ -24,6 +24,6 @@
     "C": "using_for_storage_structs.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

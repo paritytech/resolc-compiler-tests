@@ -37,6 +37,6 @@
     "C": "abi_decode_fixed_arrays.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

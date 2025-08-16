@@ -4,7 +4,7 @@
       "name": "file_level_call_via_module",
       "inputs": [
         {
-          "caller": "0xe8c10aC409Fb3788382972A5aC0928DeB5Df0505",
+          "caller": "0x810944Ec24940a635F8d10398CdCc535eC95B7a6",
           "comment": "f() -> 7, 3",
           "instance": "C",
           "method": "f()",
@@ -24,6 +24,6 @@
     "C": "b.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

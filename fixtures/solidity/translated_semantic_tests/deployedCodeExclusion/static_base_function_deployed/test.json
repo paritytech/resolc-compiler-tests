@@ -4,7 +4,7 @@
       "name": "static_base_function_deployed",
       "inputs": [
         {
-          "caller": "0x8fa6DB8600684BB64010c9930856863192D26Cd2",
+          "caller": "0x3A9f54492227D7dE238Db281fda28aDa29E74e25",
           "comment": "test() -> true",
           "instance": "C",
           "method": "test()",
@@ -23,6 +23,6 @@
     "C": "static_base_function_deployed.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

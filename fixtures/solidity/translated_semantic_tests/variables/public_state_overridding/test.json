@@ -4,7 +4,7 @@
       "name": "public_state_overridding",
       "inputs": [
         {
-          "caller": "0xF3D302ACBcfA43a64E3f40564be2aE1df8262FA9",
+          "caller": "0xb7e197565d51aA8a078B0B9860d9aC05eEf2F62c",
           "comment": "test() -> 0",
           "instance": "X",
           "method": "test()",
@@ -17,7 +17,7 @@
           }
         },
         {
-          "caller": "0xF3D302ACBcfA43a64E3f40564be2aE1df8262FA9",
+          "caller": "0xb7e197565d51aA8a078B0B9860d9aC05eEf2F62c",
           "comment": "set() ->",
           "instance": "X",
           "method": "set()",
@@ -27,7 +27,7 @@
           }
         },
         {
-          "caller": "0xF3D302ACBcfA43a64E3f40564be2aE1df8262FA9",
+          "caller": "0xb7e197565d51aA8a078B0B9860d9aC05eEf2F62c",
           "comment": "test() -> 2",
           "instance": "X",
           "method": "test()",
@@ -46,6 +46,6 @@
     "X": "public_state_overridding.sol:X"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

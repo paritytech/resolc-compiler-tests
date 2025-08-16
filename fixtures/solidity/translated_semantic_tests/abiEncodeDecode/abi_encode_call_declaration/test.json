@@ -4,7 +4,7 @@
       "name": "abi_encode_call_declaration",
       "inputs": [
         {
-          "caller": "0xE2cA576427C3B3001D9ac7402769CDD76059010e",
+          "caller": "0xB99C77DE27E36685f776f32543042db2fA66C65A",
           "comment": "test() -> 11116",
           "instance": "C",
           "method": "test()",
@@ -23,7 +23,7 @@
     "C": "abi_encode_call_declaration.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ],
   "required_evm_version": ">=byzantium"
 }

@@ -432,6 +432,6 @@
     "C": "detect_mod_zero_signed.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

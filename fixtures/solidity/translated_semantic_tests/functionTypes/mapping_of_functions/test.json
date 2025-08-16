@@ -88,6 +88,6 @@
     "Flow": "mapping_of_functions.sol:Flow"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

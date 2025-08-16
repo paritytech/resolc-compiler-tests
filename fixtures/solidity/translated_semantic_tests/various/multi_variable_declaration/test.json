@@ -4,7 +4,7 @@
       "name": "multi_variable_declaration",
       "inputs": [
         {
-          "caller": "0xB7c1b720Fa76cbe57258f54aB31b0D9c1BB19f65",
+          "caller": "0x949155c1c74bF891E9d4cDf23488A7AEC6709345",
           "comment": "f() -> true",
           "instance": "C",
           "method": "f()",
@@ -23,6 +23,6 @@
     "C": "multi_variable_declaration.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

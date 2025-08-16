@@ -4,7 +4,7 @@
       "name": "do_while_loop_continue",
       "inputs": [
         {
-          "caller": "0x6b06B862A52c8d7E4A82FdF12517A516AFdf6842",
+          "caller": "0x013527F95A72f2f95bff5D10d3F7C20c42f74801",
           "comment": "f() -> 42",
           "instance": "test",
           "method": "f()",
@@ -23,6 +23,6 @@
     "test": "do_while_loop_continue.sol:test"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

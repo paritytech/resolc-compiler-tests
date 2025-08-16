@@ -23,7 +23,9 @@
           "comment": "g(string): \"\" -> FAILURE, hex\"08c379a0\", 0x20, 0",
           "instance": "C",
           "method": "g(string)",
-          "calldata": [],
+          "calldata": [
+            "0x00"
+          ],
           "expected": {
             "return_data": [
               "0x08c379a000000000000000000000000000000000000000000000000000000000",
@@ -40,6 +42,7 @@
           "method": "g(string)",
           "calldata": [
             "0x20",
+            "0x00",
             "0x00"
           ],
           "expected": {
@@ -76,7 +79,7 @@
     "C": "empty_v2.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ],
   "required_evm_version": ">=byzantium",
   "compiler_directives": {

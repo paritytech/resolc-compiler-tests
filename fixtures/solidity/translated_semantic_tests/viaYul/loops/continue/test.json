@@ -49,6 +49,6 @@
     "C": "continue.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

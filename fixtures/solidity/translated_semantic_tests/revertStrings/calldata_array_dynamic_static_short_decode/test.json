@@ -25,7 +25,7 @@
     "C": "calldata_array_dynamic_static_short_decode.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ],
   "required_evm_version": ">=byzantium",
   "compiler_directives": {

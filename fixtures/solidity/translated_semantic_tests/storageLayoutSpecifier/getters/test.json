@@ -4,7 +4,7 @@
       "name": "getters",
       "inputs": [
         {
-          "caller": "0xF56aC4C71F4609C56F0F4B06200bB6C42c601211",
+          "caller": "0x64D5266D56063F56edAaa51Ffb955cE6Cdb09436",
           "comment": "x() -> 1",
           "instance": "C",
           "method": "x()",
@@ -17,7 +17,7 @@
           }
         },
         {
-          "caller": "0xF56aC4C71F4609C56F0F4B06200bB6C42c601211",
+          "caller": "0x64D5266D56063F56edAaa51Ffb955cE6Cdb09436",
           "comment": "y() -> 2",
           "instance": "C",
           "method": "y()",
@@ -30,7 +30,7 @@
           }
         },
         {
-          "caller": "0xF56aC4C71F4609C56F0F4B06200bB6C42c601211",
+          "caller": "0x64D5266D56063F56edAaa51Ffb955cE6Cdb09436",
           "comment": "z() -> 3",
           "instance": "C",
           "method": "z()",
@@ -49,6 +49,6 @@
     "C": "getters.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

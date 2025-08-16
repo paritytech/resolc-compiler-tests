@@ -68,6 +68,6 @@
     "C": "arrays.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

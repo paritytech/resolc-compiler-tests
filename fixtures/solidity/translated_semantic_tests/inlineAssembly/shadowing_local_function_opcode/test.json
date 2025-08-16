@@ -4,7 +4,7 @@
       "name": "shadowing_local_function_opcode",
       "inputs": [
         {
-          "caller": "0x44ECADAADA93eb4b3E93305197b1bB713478977C",
+          "caller": "0x337b74971eAAfB02646622E84978d62816be1Fdf",
           "comment": "g() -> 7, 3",
           "instance": "C",
           "method": "g()",
@@ -24,6 +24,6 @@
     "C": "shadowing_local_function_opcode.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

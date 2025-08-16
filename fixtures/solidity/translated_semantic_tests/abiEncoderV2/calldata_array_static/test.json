@@ -4,7 +4,7 @@
       "name": "calldata_array_static",
       "inputs": [
         {
-          "caller": "0xbE594cd7cbF3a1212D87a12e8D286d2872C0e023",
+          "caller": "0x60952A51B312cEd28E2fB235057dB6DE4B9300b7",
           "comment": "f(uint256[3]): 23, 42, 87 -> 32, 96, 23, 42, 87",
           "instance": "C",
           "method": "f(uint256[3])",
@@ -25,7 +25,7 @@
           }
         },
         {
-          "caller": "0xbE594cd7cbF3a1212D87a12e8D286d2872C0e023",
+          "caller": "0x60952A51B312cEd28E2fB235057dB6DE4B9300b7",
           "comment": "g(uint256[3]): 23, 42, 87 -> 32, 96, 23, 42, 87",
           "instance": "C",
           "method": "g(uint256[3])",
@@ -46,7 +46,7 @@
           }
         },
         {
-          "caller": "0xbE594cd7cbF3a1212D87a12e8D286d2872C0e023",
+          "caller": "0x60952A51B312cEd28E2fB235057dB6DE4B9300b7",
           "comment": "h(uint8[3]): 23, 42, 87 -> 32, 96, 23, 42, 87",
           "instance": "C",
           "method": "h(uint8[3])",
@@ -67,7 +67,7 @@
           }
         },
         {
-          "caller": "0xbE594cd7cbF3a1212D87a12e8D286d2872C0e023",
+          "caller": "0x60952A51B312cEd28E2fB235057dB6DE4B9300b7",
           "comment": "i(uint8[3]): 23, 42, 87 -> 32, 96, 23, 42, 87",
           "instance": "C",
           "method": "i(uint8[3])",
@@ -88,7 +88,7 @@
           }
         },
         {
-          "caller": "0xbE594cd7cbF3a1212D87a12e8D286d2872C0e023",
+          "caller": "0x60952A51B312cEd28E2fB235057dB6DE4B9300b7",
           "comment": "h(uint8[3]): 0xFF23, 0x1242, 0xAB87 -> FAILURE",
           "instance": "C",
           "method": "h(uint8[3])",
@@ -102,7 +102,7 @@
           }
         },
         {
-          "caller": "0xbE594cd7cbF3a1212D87a12e8D286d2872C0e023",
+          "caller": "0x60952A51B312cEd28E2fB235057dB6DE4B9300b7",
           "comment": "i(uint8[3]): 0xAB23, 0x1242, 0xFF87 -> FAILURE",
           "instance": "C",
           "method": "i(uint8[3])",
@@ -122,7 +122,7 @@
     "C": "calldata_array_static.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ],
   "required_evm_version": ">homestead"
 }

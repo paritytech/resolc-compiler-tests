@@ -4,7 +4,7 @@
       "name": "call_unimplemented_base",
       "inputs": [
         {
-          "caller": "0xf4f1a4E3b23B00d11460A0ec619600ce4A6be6dd",
+          "caller": "0xC49688B27aD04e3493f1bD56052cb060F0E01a82",
           "comment": "b() -> 42",
           "instance": "C",
           "method": "b()",
@@ -23,6 +23,6 @@
     "C": "call_unimplemented_base.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

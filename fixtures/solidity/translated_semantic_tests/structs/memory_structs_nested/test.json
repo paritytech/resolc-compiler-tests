@@ -4,7 +4,7 @@
       "name": "memory_structs_nested",
       "inputs": [
         {
-          "caller": "0x50f7553F052883b5219A2268424C977eBC112CdF",
+          "caller": "0xc262C9561Ad1B8533c9D52E46ea66ae28E400159",
           "comment": "test() -> 1, 2, 3, 4",
           "instance": "Test",
           "method": "test()",
@@ -26,6 +26,6 @@
     "Test": "memory_structs_nested.sol:Test"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

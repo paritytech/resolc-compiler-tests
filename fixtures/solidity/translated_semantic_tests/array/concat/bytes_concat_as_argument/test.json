@@ -4,7 +4,7 @@
       "name": "bytes_concat_as_argument",
       "inputs": [
         {
-          "caller": "0x1F00CB66e68CF0b0ed4E3a44fD625eCA7fE0bAf2",
+          "caller": "0xa2550A3d1806fD2ea471786d2fc60dBAA0Ea9C87",
           "comment": "f(bytes,bytes): 0x40, 0x80, 32, \"abcdabcdabcdabcdabcdabcdabcdabcd\", 5, \"bcdef\" -> 0x1106e19b6f06d1cce71c2d816754f83dfa5b95df958c5cbf12b7c472320c427c",
           "instance": "C",
           "method": "f(bytes,bytes)",
@@ -24,7 +24,7 @@
           }
         },
         {
-          "caller": "0x1F00CB66e68CF0b0ed4E3a44fD625eCA7fE0bAf2",
+          "caller": "0xa2550A3d1806fD2ea471786d2fc60dBAA0Ea9C87",
           "comment": "g(bytes,bytes): 0x40, 0x80, 32, \"abcdabcdabcdabcdabcdabcdabcdabcd\", 5, \"bcdef\" -> 37",
           "instance": "C",
           "method": "g(bytes,bytes)",
@@ -50,6 +50,6 @@
     "C": "bytes_concat_as_argument.sol:C"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

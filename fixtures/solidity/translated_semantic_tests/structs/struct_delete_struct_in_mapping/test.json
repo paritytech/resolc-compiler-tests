@@ -4,7 +4,7 @@
       "name": "struct_delete_struct_in_mapping",
       "inputs": [
         {
-          "caller": "0x2fC525307C2AF545E7127C83dc265a49adea9721",
+          "caller": "0xE1Dc6C05662DE9DBeCF9B5A47b9441fB7a82505B",
           "comment": "deleteIt() -> 0",
           "instance": "test",
           "method": "deleteIt()",
@@ -23,6 +23,6 @@
     "test": "struct_delete_struct_in_mapping.sol:test"
   },
   "modes": [
-    "E"
+    "E+"
   ]
 }

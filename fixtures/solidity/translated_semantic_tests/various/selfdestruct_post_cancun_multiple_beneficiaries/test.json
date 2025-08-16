@@ -4,7 +4,7 @@
       "name": "selfdestruct_post_cancun_multiple_beneficiaries",
       "inputs": [
         {
-          "caller": "0xe65a60ac6727cB5613bA550188d12A337d44024F",
+          "caller": "0xe65a60ac6727cb5613ba550188d12a337d44024f",
           "comment": "constructor(), 2 ether ->; gas irOptimized: 108104; gas irOptimized code: 119200; gas legacy: 120439; gas legacy code: 253800; gas legacyOptimized: 109015; gas legacyOptimized code: 130800",
           "instance": "D",
           "method": "#deployer",
@@ -33,7 +33,7 @@
           "caller": "0xa5B7Bd3D33D87fF46811fE5D1092d3bD24a0f27c"
         },
         {
-          "caller": "0xe65a60ac6727cB5613bA550188d12A337d44024F",
+          "caller": "0xe65a60ac6727cb5613ba550188d12a337d44024f",
           "comment": "exists() -> false",
           "instance": "D",
           "method": "exists()",
@@ -44,7 +44,7 @@
           }
         },
         {
-          "caller": "0xe65a60ac6727cB5613bA550188d12A337d44024F",
+          "caller": "0xe65a60ac6727cb5613ba550188d12a337d44024f",
           "comment": "test_deploy_and_terminate_twice() ->; gas irOptimized: 121395; gas irOptimized code: 14000; gas legacy: 122386; gas legacy code: 43200; gas legacyOptimized: 121596; gas legacyOptimized code: 22800",
           "instance": "D",
           "method": "test_deploy_and_terminate_twice()",
@@ -54,7 +54,7 @@
           }
         },
         {
-          "caller": "0xe65a60ac6727cB5613bA550188d12A337d44024F",
+          "caller": "0xe65a60ac6727cb5613ba550188d12a337d44024f",
           "comment": "exists() -> false",
           "instance": "D",
           "method": "exists()",
@@ -83,7 +83,7 @@
           "caller": "0xa5B7Bd3D33D87fF46811fE5D1092d3bD24a0f27c"
         },
         {
-          "caller": "0xe65a60ac6727cB5613bA550188d12A337d44024F",
+          "caller": "0xe65a60ac6727cb5613ba550188d12a337d44024f",
           "comment": "deploy() ->; gas legacy: 58491; gas legacy code: 43200",
           "instance": "D",
           "method": "deploy()",
@@ -93,7 +93,7 @@
           }
         },
         {
-          "caller": "0xe65a60ac6727cB5613bA550188d12A337d44024F",
+          "caller": "0xe65a60ac6727cb5613ba550188d12a337d44024f",
           "comment": "exists() -> true",
           "instance": "D",
           "method": "exists()",
@@ -122,7 +122,7 @@
           "caller": "0xa5B7Bd3D33D87fF46811fE5D1092d3bD24a0f27c"
         },
         {
-          "caller": "0xe65a60ac6727cB5613bA550188d12A337d44024F",
+          "caller": "0xe65a60ac6727cb5613ba550188d12a337d44024f",
           "comment": "terminate(address): 0x1111111111111111111111111111111111111111 ->",
           "instance": "D",
           "method": "terminate(address)",
@@ -150,7 +150,7 @@
           "caller": "0xa5B7Bd3D33D87fF46811fE5D1092d3bD24a0f27c"
         },
         {
-          "caller": "0xe65a60ac6727cB5613bA550188d12A337d44024F",
+          "caller": "0xe65a60ac6727cb5613ba550188d12a337d44024f",
           "comment": "exists() -> true",
           "instance": "D",
           "method": "exists()",

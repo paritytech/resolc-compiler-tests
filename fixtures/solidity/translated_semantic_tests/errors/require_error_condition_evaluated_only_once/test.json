@@ -4,7 +4,7 @@
       "name": "require_error_condition_evaluated_only_once",
       "inputs": [
         {
-          "caller": "0x3bb9557113FBb052dAE3008A2801a072C432c018",
+          "caller": "0x3bb9557113fbb052dae3008a2801a072c432c018",
           "comment": "f(bool): false -> FAILURE, hex\"110b3655\", 1",
           "instance": "C",
           "method": "f(bool)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x3bb9557113FBb052dAE3008A2801a072C432c018",
+          "caller": "0x3bb9557113fbb052dae3008a2801a072c432c018",
           "comment": "getCounter() -> 0",
           "instance": "C",
           "method": "getCounter()",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0x3bb9557113FBb052dAE3008A2801a072C432c018",
+          "caller": "0x3bb9557113fbb052dae3008a2801a072c432c018",
           "comment": "f(bool): true ->",
           "instance": "C",
           "method": "f(bool)",
@@ -36,7 +36,7 @@
           }
         },
         {
-          "caller": "0x3bb9557113FBb052dAE3008A2801a072C432c018",
+          "caller": "0x3bb9557113fbb052dae3008a2801a072c432c018",
           "comment": "getCounter() -> 1",
           "instance": "C",
           "method": "getCounter()",

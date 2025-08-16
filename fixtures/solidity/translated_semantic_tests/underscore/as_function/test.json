@@ -4,7 +4,7 @@
       "name": "as_function",
       "inputs": [
         {
-          "caller": "0xeEfb983b6E144eEaeaca2D6061F3957158451E63",
+          "caller": "0xeefb983b6e144eeaeaca2d6061f3957158451e63",
           "comment": "_() -> 88",
           "instance": "C",
           "method": "_()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xeEfb983b6E144eEaeaca2D6061F3957158451E63",
+          "caller": "0xeefb983b6e144eeaeaca2d6061f3957158451e63",
           "comment": "g() -> 88",
           "instance": "C",
           "method": "g()",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0xeEfb983b6E144eEaeaca2D6061F3957158451E63",
+          "caller": "0xeefb983b6e144eeaeaca2d6061f3957158451e63",
           "comment": "h() -> 33",
           "instance": "C",
           "method": "h()",

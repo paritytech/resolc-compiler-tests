@@ -4,7 +4,7 @@
       "name": "selfdestruct_pre_cancun_multiple_beneficiaries",
       "inputs": [
         {
-          "caller": "0x9eFfB513062cd378E4865E7f2538ACf560D6e455",
+          "caller": "0x9effb513062cd378e4865e7f2538acf560d6e455",
           "comment": "constructor(), 2 ether ->; gas irOptimized: 108104; gas irOptimized code: 119200; gas legacy: 120424; gas legacy code: 253600; gas legacyOptimized: 109015; gas legacyOptimized code: 130800",
           "instance": "D",
           "method": "#deployer",
@@ -33,7 +33,7 @@
           "caller": "0x7ae3181bE62B0326E2C9a2Dc678dDbC234d1F8F5"
         },
         {
-          "caller": "0x9eFfB513062cd378E4865E7f2538ACf560D6e455",
+          "caller": "0x9effb513062cd378e4865e7f2538acf560d6e455",
           "comment": "exists() -> false",
           "instance": "D",
           "method": "exists()",
@@ -44,7 +44,7 @@
           }
         },
         {
-          "caller": "0x9eFfB513062cd378E4865E7f2538ACf560D6e455",
+          "caller": "0x9effb513062cd378e4865e7f2538acf560d6e455",
           "comment": "test_deploy_and_terminate_twice() ->; gas irOptimized: 121395; gas irOptimized code: 14000; gas legacy: 122384; gas legacy code: 43200; gas legacyOptimized: 121596; gas legacyOptimized code: 22800",
           "instance": "D",
           "method": "test_deploy_and_terminate_twice()",
@@ -54,7 +54,7 @@
           }
         },
         {
-          "caller": "0x9eFfB513062cd378E4865E7f2538ACf560D6e455",
+          "caller": "0x9effb513062cd378e4865e7f2538acf560d6e455",
           "comment": "exists() -> false",
           "instance": "D",
           "method": "exists()",
@@ -83,7 +83,7 @@
           "caller": "0x7ae3181bE62B0326E2C9a2Dc678dDbC234d1F8F5"
         },
         {
-          "caller": "0x9eFfB513062cd378E4865E7f2538ACf560D6e455",
+          "caller": "0x9effb513062cd378e4865e7f2538acf560d6e455",
           "comment": "deploy() ->; gas legacy: 58491; gas legacy code: 43200",
           "instance": "D",
           "method": "deploy()",
@@ -93,7 +93,7 @@
           }
         },
         {
-          "caller": "0x9eFfB513062cd378E4865E7f2538ACf560D6e455",
+          "caller": "0x9effb513062cd378e4865e7f2538acf560d6e455",
           "comment": "exists() -> true",
           "instance": "D",
           "method": "exists()",
@@ -122,7 +122,7 @@
           "caller": "0x7ae3181bE62B0326E2C9a2Dc678dDbC234d1F8F5"
         },
         {
-          "caller": "0x9eFfB513062cd378E4865E7f2538ACf560D6e455",
+          "caller": "0x9effb513062cd378e4865e7f2538acf560d6e455",
           "comment": "terminate(address): 0x3111111111111111111111111111111111111111 ->",
           "instance": "D",
           "method": "terminate(address)",
@@ -150,7 +150,7 @@
           "caller": "0x7ae3181bE62B0326E2C9a2Dc678dDbC234d1F8F5"
         },
         {
-          "caller": "0x9eFfB513062cd378E4865E7f2538ACf560D6e455",
+          "caller": "0x9effb513062cd378e4865e7f2538acf560d6e455",
           "comment": "terminate(address): 0x3222222222222222222222222222222222222222 -> FAILURE",
           "instance": "D",
           "method": "terminate(address)",
@@ -178,7 +178,7 @@
           "caller": "0x7ae3181bE62B0326E2C9a2Dc678dDbC234d1F8F5"
         },
         {
-          "caller": "0x9eFfB513062cd378E4865E7f2538ACf560D6e455",
+          "caller": "0x9effb513062cd378e4865e7f2538acf560d6e455",
           "comment": "exists() -> false",
           "instance": "D",
           "method": "exists()",

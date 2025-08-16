@@ -4,7 +4,7 @@
       "name": "assignment_to_const_var_involving_expression",
       "inputs": [
         {
-          "caller": "0x7e5Cca507ed53712A03E29014BD010168F84E84c",
+          "caller": "0x7e5cca507ed53712a03e29014bd010168f84e84c",
           "comment": "f() -> 0x57a",
           "instance": "C",
           "method": "f()",

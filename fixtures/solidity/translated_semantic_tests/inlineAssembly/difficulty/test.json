@@ -4,7 +4,7 @@
       "name": "difficulty",
       "inputs": [
         {
-          "caller": "0x4ED0bE1dfB5d83f49aAFD5fB722a0eE9e6A71039",
+          "caller": "0x4ed0be1dfb5d83f49aafd5fb722a0ee9e6a71039",
           "comment": "f() -> 2500000000000000",
           "instance": "C",
           "method": "f()",

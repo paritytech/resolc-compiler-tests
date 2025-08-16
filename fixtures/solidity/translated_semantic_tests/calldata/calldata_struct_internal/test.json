@@ -4,7 +4,7 @@
       "name": "calldata_struct_internal",
       "inputs": [
         {
-          "caller": "0xCc955fD3B8F01764Aad2452e6a5f13d337e9F112",
+          "caller": "0xcc955fd3b8f01764aad2452e6a5f13d337e9f112",
           "comment": "f(uint256,(uint256,uint256),uint256): 7, 1, 2, 4 -> 1, 2",
           "instance": "C",
           "method": "f(uint256,(uint256,uint256),uint256)",

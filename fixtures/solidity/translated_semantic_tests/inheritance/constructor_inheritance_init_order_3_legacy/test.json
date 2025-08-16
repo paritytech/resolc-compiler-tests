@@ -4,7 +4,7 @@
       "name": "constructor_inheritance_init_order_3_legacy",
       "inputs": [
         {
-          "caller": "0xCa7B487EF7E9E78A0462d1870C4Bd75de321f32A",
+          "caller": "0xca7b487ef7e9e78a0462d1870c4bd75de321f32a",
           "comment": "x() -> 4",
           "instance": "B",
           "method": "x()",

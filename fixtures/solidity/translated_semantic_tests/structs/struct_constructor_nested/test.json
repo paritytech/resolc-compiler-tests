@@ -4,7 +4,7 @@
       "name": "struct_constructor_nested",
       "inputs": [
         {
-          "caller": "0xACFE3715C960634708DE52f68268d4B8e3BDb926",
+          "caller": "0xacfe3715c960634708de52f68268d4b8e3bdb926",
           "comment": "get() -> 0x01, 0x00, 0x09, 0x00, 0x04, 0x05",
           "instance": "C",
           "method": "get()",

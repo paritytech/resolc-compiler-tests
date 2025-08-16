@@ -4,7 +4,7 @@
       "name": "copy_substructures_to_mapping",
       "inputs": [
         {
-          "caller": "0xC74C4805B15ecE5145F2F04bEF5c09C240937DAc",
+          "caller": "0xc74c4805b15ece5145f2f04bef5c09c240937dac",
           "comment": "from_memory() -> 0x20, 0x60, 0xa0, 0x15, 3, 0x666F6F0000000000000000000000000000000000000000000000000000000000, 2, 13, 14; gas irOptimized: 122720; gas legacy: 130131; gas legacyOptimized: 128648",
           "instance": "C",
           "method": "from_memory()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xC74C4805B15ecE5145F2F04bEF5c09C240937DAc",
+          "caller": "0xc74c4805b15ece5145f2f04bef5c09c240937dac",
           "comment": "from_state() -> 0x20, 0x60, 0xa0, 21, 3, 0x666F6F0000000000000000000000000000000000000000000000000000000000, 2, 13, 14; gas irOptimized: 121424; gas legacy: 123190; gas legacyOptimized: 121758",
           "instance": "C",
           "method": "from_state()",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0xC74C4805B15ecE5145F2F04bEF5c09C240937DAc",
+          "caller": "0xc74c4805b15ece5145f2f04bef5c09c240937dac",
           "comment": "from_calldata((bytes,uint16[],uint16)): 0x20, 0x60, 0xa0, 21, 3, 0x666F6F0000000000000000000000000000000000000000000000000000000000, 2, 13, 14 -> 0x20, 0x60, 0xa0, 0x15, 3, 0x666F6F0000000000000000000000000000000000000000000000000000000000, 2, 13, 14; gas irOptimized: 114852; gas legacy: 122423; gas legacyOptimized: 120698",
           "instance": "C",
           "method": "from_calldata((bytes,uint16[],uint16))",

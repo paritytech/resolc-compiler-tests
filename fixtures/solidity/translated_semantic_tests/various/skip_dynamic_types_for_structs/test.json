@@ -4,7 +4,7 @@
       "name": "skip_dynamic_types_for_structs",
       "inputs": [
         {
-          "caller": "0xB2AC99BC1140e9F9211843dAb96374414702A64A",
+          "caller": "0xb2ac99bc1140e9f9211843dab96374414702a64a",
           "comment": "g() -> 2, 6; gas irOptimized: 178195; gas legacy: 180653; gas legacyOptimized: 179144",
           "instance": "C",
           "method": "g()",

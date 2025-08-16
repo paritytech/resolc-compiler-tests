@@ -4,7 +4,7 @@
       "name": "operator_making_pure_external_call",
       "inputs": [
         {
-          "caller": "0x7Aaf0406b4A74Fa676A779e992eA614c2Eac7e35",
+          "caller": "0x7aaf0406b4a74fa676a779e992ea614c2eac7e35",
           "comment": "testMul(int32,int32): 42, 10 -> 420; gas irOptimized: 102563; gas legacy: 57117; gas legacy code: 127000; gas legacyOptimized: 55246; gas legacyOptimized code: 68400",
           "instance": "C",
           "method": "testMul(int32,int32)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x7Aaf0406b4A74Fa676A779e992eA614c2Eac7e35",
+          "caller": "0x7aaf0406b4a74fa676a779e992ea614c2eac7e35",
           "comment": "testInc(int32): 42 -> 43; gas irOptimized: 102386; gas legacy: 56378; gas legacy code: 127000; gas legacyOptimized: 54943; gas legacyOptimized code: 68400",
           "instance": "C",
           "method": "testInc(int32)",

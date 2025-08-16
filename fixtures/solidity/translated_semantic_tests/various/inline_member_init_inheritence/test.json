@@ -4,7 +4,7 @@
       "name": "inline_member_init_inheritence",
       "inputs": [
         {
-          "caller": "0x76da31D0e141AD2f7b7D8A2a3Eb86C387b02D838",
+          "caller": "0x76da31d0e141ad2f7b7d8a2a3eb86c387b02d838",
           "comment": "getBMember() -> 5",
           "instance": "Derived",
           "method": "getBMember()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x76da31D0e141AD2f7b7D8A2a3Eb86C387b02D838",
+          "caller": "0x76da31d0e141ad2f7b7d8a2a3eb86c387b02d838",
           "comment": "getDMember() -> 6",
           "instance": "Derived",
           "method": "getDMember()",

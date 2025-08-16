@@ -4,7 +4,7 @@
       "name": "storeInConstructor",
       "inputs": [
         {
-          "caller": "0x6f437497D8c307a32cf3915a244a8B46C1f63749",
+          "caller": "0x6f437497d8c307a32cf3915a244a8b46c1f63749",
           "comment": "f() -> FAILURE, hex\"4e487b71\", 0x51",
           "instance": "InvalidTest",
           "method": "f()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x6f437497D8c307a32cf3915a244a8B46C1f63749",
+          "caller": "0x6f437497d8c307a32cf3915a244a8b46c1f63749",
           "comment": "f() -> FAILURE, hex\"4e487b71\", 0x51",
           "instance": "InvalidTest",
           "method": "f()",

@@ -4,7 +4,7 @@
       "name": "mediocre_struct",
       "inputs": [
         {
-          "caller": "0x8C8371709D200875F62257f2E3345A79Fe44231F",
+          "caller": "0x8c8371709d200875f62257f2e3345a79fe44231f",
           "comment": "f(uint256,(address)[2],uint256): 7, 0, 0, 8 -> 7, 0, 8",
           "instance": "C",
           "method": "f(uint256,(address)[2],uint256)",

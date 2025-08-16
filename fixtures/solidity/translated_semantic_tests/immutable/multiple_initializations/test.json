@@ -4,7 +4,7 @@
       "name": "multiple_initializations",
       "inputs": [
         {
-          "caller": "0xc59B82f5B4Eeb5c399B8C369B6bAD9cC87428520",
+          "caller": "0xc59b82f5b4eeb5c399b8c369b6bad9cc87428520",
           "comment": "get() -> 0xff",
           "instance": "C",
           "method": "get()",

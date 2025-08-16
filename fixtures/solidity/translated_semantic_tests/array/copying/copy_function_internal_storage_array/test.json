@@ -4,7 +4,7 @@
       "name": "copy_function_internal_storage_array",
       "inputs": [
         {
-          "caller": "0x6D7927E04b86B9255B1BE6B8fDda6EB6578FDa2F",
+          "caller": "0x6d7927e04b86b9255b1be6b8fdda6eb6578fda2f",
           "comment": "test() -> 7; gas irOptimized: 122459; gas legacy: 205176; gas legacyOptimized: 204971",
           "instance": "C",
           "method": "test()",

@@ -4,7 +4,7 @@
       "name": "gasleft_decrease",
       "inputs": [
         {
-          "caller": "0xDDb436B2a20B648530B7D29573Eb1d85C49B71A3",
+          "caller": "0xddb436b2a20b648530b7d29573eb1d85c49b71a3",
           "comment": "f() -> true",
           "instance": "C",
           "method": "f()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xDDb436B2a20B648530B7D29573Eb1d85C49B71A3",
+          "caller": "0xddb436b2a20b648530b7d29573eb1d85c49b71a3",
           "comment": "g() -> true",
           "instance": "C",
           "method": "g()",

@@ -4,7 +4,7 @@
       "name": "byte_array_pop_long_storage_empty",
       "inputs": [
         {
-          "caller": "0x56ED5E5427017ce33DbCd30777E2A13B9275c008",
+          "caller": "0x56ed5e5427017ce33dbcd30777e2a13b9275c008",
           "comment": "test() -> true; gas irOptimized: 138795; gas legacy: 178396; gas legacyOptimized: 163832",
           "instance": "c",
           "method": "test()",

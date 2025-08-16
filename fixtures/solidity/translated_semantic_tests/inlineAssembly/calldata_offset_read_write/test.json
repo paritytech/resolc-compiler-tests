@@ -4,7 +4,7 @@
       "name": "calldata_offset_read_write",
       "inputs": [
         {
-          "caller": "0x6b16720578590DD254FfaA75A6a5D474fbfA63ba",
+          "caller": "0x6b16720578590dd254ffaa75a6a5d474fbfa63ba",
           "comment": "f(uint256,bytes,uint256): 7, 0x60, 8, 2, 0 -> 8, 0x14",
           "instance": "C",
           "method": "f(uint256,bytes,uint256)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x6b16720578590DD254FfaA75A6a5D474fbfA63ba",
+          "caller": "0x6b16720578590dd254ffaa75a6a5d474fbfa63ba",
           "comment": "f(uint256,bytes,uint256): 0, 0, 0 -> 8, 0x14",
           "instance": "C",
           "method": "f(uint256,bytes,uint256)",

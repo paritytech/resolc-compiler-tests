@@ -4,7 +4,7 @@
       "name": "exp_cleanup_direct",
       "inputs": [
         {
-          "caller": "0xBD3620646aA3d0259f99DFd0125725eC6349Ede2",
+          "caller": "0xbd3620646aa3d0259f99dfd0125725ec6349ede2",
           "comment": "f() -> 0x1",
           "instance": "C",
           "method": "f()",

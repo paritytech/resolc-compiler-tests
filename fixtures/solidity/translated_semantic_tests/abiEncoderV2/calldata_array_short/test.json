@@ -4,7 +4,7 @@
       "name": "calldata_array_short",
       "inputs": [
         {
-          "caller": "0xC8302bF72b8DED4f64E4c37119999f1e4409E449",
+          "caller": "0xc8302bf72b8ded4f64e4c37119999f1e4409e449",
           "comment": "f(uint256[]): 0x20, 0 ->",
           "instance": "C",
           "method": "f(uint256[])",
@@ -14,7 +14,7 @@
           }
         },
         {
-          "caller": "0xC8302bF72b8DED4f64E4c37119999f1e4409E449",
+          "caller": "0xc8302bf72b8ded4f64e4c37119999f1e4409e449",
           "comment": "f(uint256[]): 0x20, 1 -> FAILURE",
           "instance": "C",
           "method": "f(uint256[])",
@@ -24,7 +24,7 @@
           }
         },
         {
-          "caller": "0xC8302bF72b8DED4f64E4c37119999f1e4409E449",
+          "caller": "0xc8302bf72b8ded4f64e4c37119999f1e4409e449",
           "comment": "f(uint256[]): 0x20, 2 -> FAILURE",
           "instance": "C",
           "method": "f(uint256[])",

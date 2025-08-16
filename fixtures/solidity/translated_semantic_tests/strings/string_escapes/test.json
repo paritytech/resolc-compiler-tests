@@ -4,7 +4,7 @@
       "name": "string_escapes",
       "inputs": [
         {
-          "caller": "0x10401edf52f3C02A3E5f26D1d3EC9551e7a8e3db",
+          "caller": "0x10401edf52f3c02a3e5f26d1d3ec9551e7a8e3db",
           "comment": "f() -> 0x090a0d27225c0000000000000000000000000000000000000000000000000000",
           "instance": "test",
           "method": "f()",

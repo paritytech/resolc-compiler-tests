@@ -4,8 +4,8 @@
       "name": "event",
       "inputs": [
         {
-          "caller": "0xA1bA6FC3eA0E89F0E79f89d9Aa0081d010571E4a",
-          "comment": "deposit(bytes32,bool), 18 wei: 0x1234, true ->; ~ emit Deposit(address,bytes32,uint256): #0xA1bA6FC3eA0E89F0E79f89d9Aa0081d010571E4a, #0x1234, 0x12",
+          "caller": "0xa1ba6fc3ea0e89f0e79f89d9aa0081d010571e4a",
+          "comment": "deposit(bytes32,bool), 18 wei: 0x1234, true ->; ~ emit Deposit(address,bytes32,uint256): #0xa1ba6fc3ea0e89f0e79f89d9aa0081d010571e4a, #0x1234, 0x12",
           "instance": "ClientReceipt",
           "method": "deposit(bytes32,bool)",
           "calldata": "0x00000000000000000000000000000000000000000000000000000000000012340000000000000000000000000000000000000000000000000000000000000001",
@@ -14,7 +14,7 @@
               {
                 "topics": [
                   "0x19dacbf83c5de6658e14cbf7bcae5c15eca2eedecf1c66fbca928e4d351bea0f",
-                  "0xA1bA6FC3eA0E89F0E79f89d9Aa0081d010571E4a",
+                  "0xa1ba6fc3ea0e89f0e79f89d9aa0081d010571e4a",
                   "0x1234"
                 ],
                 "values": "0x0000000000000000000000000000000000000000000000000000000000000012"
@@ -25,8 +25,8 @@
           "value": "18 wei"
         },
         {
-          "caller": "0xA1bA6FC3eA0E89F0E79f89d9Aa0081d010571E4a",
-          "comment": "deposit(bytes32,bool), 18 wei: 0x1234, false ->; ~ emit Deposit(address,bytes32,uint256): #0xA1bA6FC3eA0E89F0E79f89d9Aa0081d010571E4a, #0x1234, 0x12",
+          "caller": "0xa1ba6fc3ea0e89f0e79f89d9aa0081d010571e4a",
+          "comment": "deposit(bytes32,bool), 18 wei: 0x1234, false ->; ~ emit Deposit(address,bytes32,uint256): #0xa1ba6fc3ea0e89f0e79f89d9aa0081d010571e4a, #0x1234, 0x12",
           "instance": "ClientReceipt",
           "method": "deposit(bytes32,bool)",
           "calldata": "0x00000000000000000000000000000000000000000000000000000000000012340000000000000000000000000000000000000000000000000000000000000000",
@@ -35,7 +35,7 @@
               {
                 "topics": [
                   "0x19dacbf83c5de6658e14cbf7bcae5c15eca2eedecf1c66fbca928e4d351bea0f",
-                  "0xA1bA6FC3eA0E89F0E79f89d9Aa0081d010571E4a",
+                  "0xa1ba6fc3ea0e89f0e79f89d9aa0081d010571e4a",
                   "0x1234"
                 ],
                 "values": "0x0000000000000000000000000000000000000000000000000000000000000012"

@@ -4,7 +4,7 @@
       "name": "variable_cleanup_sstore",
       "inputs": [
         {
-          "caller": "0x28d06F4684eC6FdCd07d417B8f9B1c74a4E653Cd",
+          "caller": "0x28d06f4684ec6fdcd07d417b8f9b1c74a4e653cd",
           "comment": "f() -> 0x10, 127, \"ab\"",
           "instance": "C",
           "method": "f()",

@@ -4,7 +4,7 @@
       "name": "events_with_same_name_file_level",
       "inputs": [
         {
-          "caller": "0x24D881139Ee639C2A774B4B1851CB7a9d0fce122",
+          "caller": "0x24d881139ee639c2a774b4b1851cb7a9d0fce122",
           "comment": "deposit() -> 1; ~ emit Deposit()",
           "instance": "ClientReceipt",
           "method": "deposit()",
@@ -23,7 +23,7 @@
           }
         },
         {
-          "caller": "0x24D881139Ee639C2A774B4B1851CB7a9d0fce122",
+          "caller": "0x24d881139ee639c2a774b4b1851cb7a9d0fce122",
           "comment": "deposit(address): 0x5082a85c489be6aa0f2e6693bf09cc1bbd35e988 -> 2; ~ emit Deposit(address): 0x5082a85c489be6aa0f2e6693bf09cc1bbd35e988",
           "instance": "ClientReceipt",
           "method": "deposit(address)",
@@ -42,7 +42,7 @@
           }
         },
         {
-          "caller": "0x24D881139Ee639C2A774B4B1851CB7a9d0fce122",
+          "caller": "0x24d881139ee639c2a774b4b1851cb7a9d0fce122",
           "comment": "deposit(address,uint256): 0x5082a85c489be6aa0f2e6693bf09cc1bbd35e988, 100 -> 3; ~ emit Deposit(address,uint256): 0x5082a85c489be6aa0f2e6693bf09cc1bbd35e988, 0x64",
           "instance": "ClientReceipt",
           "method": "deposit(address,uint256)",
@@ -61,7 +61,7 @@
           }
         },
         {
-          "caller": "0x24D881139Ee639C2A774B4B1851CB7a9d0fce122",
+          "caller": "0x24d881139ee639c2a774b4b1851cb7a9d0fce122",
           "comment": "deposit(address,bool): 0x5082a85c489be6aa0f2e6693bf09cc1bbd35e988, false -> 4; ~ emit Deposit(address,bool): 0x5082a85c489be6aa0f2e6693bf09cc1bbd35e988, false",
           "instance": "ClientReceipt",
           "method": "deposit(address,bool)",

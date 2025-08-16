@@ -4,7 +4,7 @@
       "name": "calldata_1d_array_into_2d_memory_array_element",
       "inputs": [
         {
-          "caller": "0x7610f0B035066245Ea92e17705B0384b90D5c211",
+          "caller": "0x7610f0b035066245ea92e17705b0384b90d5c211",
           "comment": "test() -> true",
           "instance": "Test",
           "method": "test()",

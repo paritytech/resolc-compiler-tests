@@ -4,7 +4,7 @@
       "name": "array_of_struct_memory_to_storage",
       "inputs": [
         {
-          "caller": "0x9339681642F3784ab2A15345376dc0f951e709c5",
+          "caller": "0x9339681642f3784ab2a15345376dc0f951e709c5",
           "comment": "f() -> 10, 11, 12; gas irOptimized: 118796",
           "instance": "C",
           "method": "f()",

@@ -4,7 +4,7 @@
       "name": "calldata_struct_struct_member_dynamic",
       "inputs": [
         {
-          "caller": "0x1dCF74D89cD07dC3F1Ad063b90E1A8CBc37d8cB3",
+          "caller": "0x1dcf74d89cd07dc3f1ad063b90e1a8cbc37d8cb3",
           "comment": "f((uint256,(uint64,bytes),uint256)): 0x20, 42, 0x60, 23, 1, 0x40, 2, \"ab\" -> 42, 1, \"a\", 23",
           "instance": "C",
           "method": "f((uint256,(uint64,bytes),uint256))",

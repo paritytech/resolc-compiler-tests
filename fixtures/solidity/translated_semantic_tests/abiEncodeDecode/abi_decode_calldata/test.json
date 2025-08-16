@@ -4,7 +4,7 @@
       "name": "abi_decode_calldata",
       "inputs": [
         {
-          "caller": "0x06F6Eb3ea45A3EC5D0BC8342e0dBE53773481F2c",
+          "caller": "0x06f6eb3ea45a3ec5d0bc8342e0dbe53773481f2c",
           "comment": "f(bytes): 0x20, 0x80, 0x21, 0x40, 0x7, \"abcdefg\" -> 0x21, 0x40, 0x7, \"abcdefg\"",
           "instance": "C",
           "method": "f(bytes)",

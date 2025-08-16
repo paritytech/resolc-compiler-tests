@@ -4,7 +4,7 @@
       "name": "structuredAndLowLevel",
       "inputs": [
         {
-          "caller": "0xb26a74C06DFf56d21D0dd9A41F003530B5376bA3",
+          "caller": "0xb26a74c06dff56d21d0dd9a41f003530b5376ba3",
           "comment": "f(bool): true -> 1, 2, 96, 7, \"success\"",
           "instance": "C",
           "method": "f(bool)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xb26a74C06DFf56d21D0dd9A41F003530B5376bA3",
+          "caller": "0xb26a74c06dff56d21d0dd9a41f003530b5376ba3",
           "comment": "f(bool): false -> 99, 0, 96, 82, \"message longer than 32 bytes 32 \", \"bytes 32 bytes 32 bytes 32 bytes\", \" 32 bytes 32 bytes\"",
           "instance": "C",
           "method": "f(bool)",

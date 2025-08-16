@@ -4,7 +4,7 @@
       "name": "event_dynamic_array_storage",
       "inputs": [
         {
-          "caller": "0xAC32DeF421e36b43629f785Fd04523260E7F2b28",
+          "caller": "0xac32def421e36b43629f785fd04523260e7f2b28",
           "comment": "createEvent(uint256): 42 ->; ~ emit E(uint256[]): 0x20, 0x03, 0x2a, 0x2b, 0x2c; gas irOptimized: 114231; gas legacy: 116313; gas legacyOptimized: 114407",
           "instance": "C",
           "method": "createEvent(uint256)",

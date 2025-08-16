@@ -10,7 +10,7 @@
           "caller": "0x0b5Ac632c26B48b83cB61E0a8aC068785AB8D917"
         },
         {
-          "caller": "0xDFfA2677FB1f2A566a2F3d9B3606925ba6cF2f40",
+          "caller": "0xdffa2677fb1f2a566a2f3d9b3606925ba6cf2f40",
           "comment": "fill() -> 8; gas irOptimized: 122985; gas legacy: 121602; gas legacyOptimized: 120589",
           "instance": "c",
           "method": "fill()",
@@ -27,7 +27,7 @@
           "caller": "0x0b5Ac632c26B48b83cB61E0a8aC068785AB8D917"
         },
         {
-          "caller": "0xDFfA2677FB1f2A566a2F3d9B3606925ba6cF2f40",
+          "caller": "0xdffa2677fb1f2a566a2f3d9b3606925ba6cf2f40",
           "comment": "clear() ->",
           "instance": "c",
           "method": "clear()",

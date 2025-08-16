@@ -10,7 +10,7 @@
           "caller": "0xf308880745C281bf4dA0Dc18f12deB8080a60ff2"
         },
         {
-          "caller": "0xfd1B7EE147B99C27459f081F4a3fA8e22DA45C82",
+          "caller": "0xfd1b7ee147b99c27459f081f4a3fa8e22da45c82",
           "comment": "fill() ->; gas irOptimized: 519494; gas legacy: 518943; gas legacyOptimized: 515555",
           "instance": "c",
           "method": "fill()",
@@ -26,7 +26,7 @@
           "caller": "0xf308880745C281bf4dA0Dc18f12deB8080a60ff2"
         },
         {
-          "caller": "0xfd1B7EE147B99C27459f081F4a3fA8e22DA45C82",
+          "caller": "0xfd1b7ee147b99c27459f081f4a3fa8e22da45c82",
           "comment": "halfClear() ->; gas irOptimized: 113961; gas legacy: 113257; gas legacyOptimized: 113120",
           "instance": "c",
           "method": "halfClear()",
@@ -42,7 +42,7 @@
           "caller": "0xf308880745C281bf4dA0Dc18f12deB8080a60ff2"
         },
         {
-          "caller": "0xfd1B7EE147B99C27459f081F4a3fA8e22DA45C82",
+          "caller": "0xfd1b7ee147b99c27459f081f4a3fa8e22da45c82",
           "comment": "fullClear() ->",
           "instance": "c",
           "method": "fullClear()",

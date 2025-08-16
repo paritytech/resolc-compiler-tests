@@ -4,7 +4,7 @@
       "name": "calldata_array_dynamic_invalid",
       "inputs": [
         {
-          "caller": "0xC375CE036Cbcf2AE7a3D73686632d57FC780e2A4",
+          "caller": "0xc375ce036cbcf2ae7a3d73686632d57fc780e2a4",
           "comment": "f(uint256[][]): 0x20, 1 -> FAILURE",
           "instance": "C",
           "method": "f(uint256[][])",

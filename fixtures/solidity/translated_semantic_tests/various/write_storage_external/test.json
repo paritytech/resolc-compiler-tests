@@ -4,7 +4,7 @@
       "name": "write_storage_external",
       "inputs": [
         {
-          "caller": "0x339bE4f1fe7efDEFD69B54Da36F8a33E395cfe6D",
+          "caller": "0x339be4f1fe7efdefd69b54da36f8a33e395cfe6d",
           "comment": "f() -> 3",
           "instance": "D",
           "method": "f()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x339bE4f1fe7efDEFD69B54Da36F8a33E395cfe6D",
+          "caller": "0x339be4f1fe7efdefd69b54da36f8a33e395cfe6d",
           "comment": "g() -> 8",
           "instance": "D",
           "method": "g()",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0x339bE4f1fe7efDEFD69B54Da36F8a33E395cfe6D",
+          "caller": "0x339be4f1fe7efdefd69b54da36f8a33e395cfe6d",
           "comment": "h() -> 12",
           "instance": "D",
           "method": "h()",

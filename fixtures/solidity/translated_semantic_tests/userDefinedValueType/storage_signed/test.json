@@ -4,7 +4,7 @@
       "name": "storage_signed",
       "inputs": [
         {
-          "caller": "0x0e4D535c5CD3cE0ac5058e968c62e8A1ea235b8F",
+          "caller": "0x0e4d535c5cd3ce0ac5058e968c62e8a1ea235b8f",
           "comment": "a() -> -2",
           "instance": "C",
           "method": "a()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x0e4D535c5CD3cE0ac5058e968c62e8A1ea235b8F",
+          "caller": "0x0e4d535c5cd3ce0ac5058e968c62e8a1ea235b8f",
           "comment": "direct() -> -2",
           "instance": "C",
           "method": "direct()",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0x0e4D535c5CD3cE0ac5058e968c62e8A1ea235b8F",
+          "caller": "0x0e4d535c5cd3ce0ac5058e968c62e8a1ea235b8f",
           "comment": "indirect() -> -2",
           "instance": "C",
           "method": "indirect()",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0x0e4D535c5CD3cE0ac5058e968c62e8A1ea235b8F",
+          "caller": "0x0e4d535c5cd3ce0ac5058e968c62e8a1ea235b8f",
           "comment": "toMemDirect() -> -2",
           "instance": "C",
           "method": "toMemDirect()",
@@ -48,7 +48,7 @@
           }
         },
         {
-          "caller": "0x0e4D535c5CD3cE0ac5058e968c62e8A1ea235b8F",
+          "caller": "0x0e4d535c5cd3ce0ac5058e968c62e8a1ea235b8f",
           "comment": "toMemIndirect() -> -2",
           "instance": "C",
           "method": "toMemIndirect()",
@@ -59,7 +59,7 @@
           }
         },
         {
-          "caller": "0x0e4D535c5CD3cE0ac5058e968c62e8A1ea235b8F",
+          "caller": "0x0e4d535c5cd3ce0ac5058e968c62e8a1ea235b8f",
           "comment": "div() -> -1",
           "instance": "C",
           "method": "div()",
@@ -70,7 +70,7 @@
           }
         },
         {
-          "caller": "0x0e4D535c5CD3cE0ac5058e968c62e8A1ea235b8F",
+          "caller": "0x0e4d535c5cd3ce0ac5058e968c62e8a1ea235b8f",
           "comment": "viaasm() -> 0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe",
           "instance": "C",
           "method": "viaasm()",

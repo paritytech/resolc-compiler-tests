@@ -4,7 +4,7 @@
       "name": "event_indexed_mixed",
       "inputs": [
         {
-          "caller": "0xC2aA6271409c10deE630e79df90C968989ccF2B7",
+          "caller": "0xc2aa6271409c10dee630e79df90c968989ccf2b7",
           "comment": "deposit() ->; ~ emit E(uint256,uint256,uint256,bytes): #0x02, 0x01, 0x03, 0x60, 0x03, \"def\"; gas irOptimized: 23709; gas legacy: 24342; gas legacyOptimized: 23753",
           "instance": "C",
           "method": "deposit()",

@@ -4,7 +4,7 @@
       "name": "named_parameters_shadowing_types",
       "inputs": [
         {
-          "caller": "0xf084BbaaBEe1a700a8FAa404027DB620A5Aa0059",
+          "caller": "0xf084bbaabee1a700a8faa404027db620a5aa0059",
           "comment": "f() -> FAILURE, hex\"33a54193\", hex\"000000000000000000000000000000000000000000000000000000000000002a\"",
           "instance": "C",
           "method": "f()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xf084BbaaBEe1a700a8FAa404027DB620A5Aa0059",
+          "caller": "0xf084bbaabee1a700a8faa404027db620a5aa0059",
           "comment": "g() -> FAILURE, hex\"374b9387\", hex\"0000000000000000000000000000000000000000000000000000000000000001\", hex\"000000000000000000000000000000000000000000000000000000000000002a\"",
           "instance": "C",
           "method": "g()",

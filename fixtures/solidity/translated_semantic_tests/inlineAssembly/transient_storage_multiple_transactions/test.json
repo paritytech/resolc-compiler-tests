@@ -4,7 +4,7 @@
       "name": "transient_storage_multiple_transactions",
       "inputs": [
         {
-          "caller": "0xD2e69e3b857AEB3c4fa84A7CA5977ADDA14d7Be6",
+          "caller": "0xd2e69e3b857aeb3c4fa84a7ca5977adda14d7be6",
           "comment": "g() -> 0",
           "instance": "C",
           "method": "g()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xD2e69e3b857AEB3c4fa84A7CA5977ADDA14d7Be6",
+          "caller": "0xd2e69e3b857aeb3c4fa84a7ca5977adda14d7be6",
           "comment": "f() ->",
           "instance": "C",
           "method": "f()",
@@ -25,7 +25,7 @@
           }
         },
         {
-          "caller": "0xD2e69e3b857AEB3c4fa84A7CA5977ADDA14d7Be6",
+          "caller": "0xd2e69e3b857aeb3c4fa84a7ca5977adda14d7be6",
           "comment": "g() -> 0",
           "instance": "C",
           "method": "g()",
@@ -36,7 +36,7 @@
           }
         },
         {
-          "caller": "0xD2e69e3b857AEB3c4fa84A7CA5977ADDA14d7Be6",
+          "caller": "0xd2e69e3b857aeb3c4fa84a7ca5977adda14d7be6",
           "comment": "h() -> 0x63",
           "instance": "C",
           "method": "h()",
@@ -47,7 +47,7 @@
           }
         },
         {
-          "caller": "0xD2e69e3b857AEB3c4fa84A7CA5977ADDA14d7Be6",
+          "caller": "0xd2e69e3b857aeb3c4fa84a7ca5977adda14d7be6",
           "comment": "g() -> 0",
           "instance": "C",
           "method": "g()",

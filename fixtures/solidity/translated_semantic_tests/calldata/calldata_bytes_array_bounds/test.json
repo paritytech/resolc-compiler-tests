@@ -4,7 +4,7 @@
       "name": "calldata_bytes_array_bounds",
       "inputs": [
         {
-          "caller": "0x96DceBEeFFB58Ac8FF6AEc69822a7c9C4Df8880D",
+          "caller": "0x96dcebeeffb58ac8ff6aec69822a7c9c4df8880d",
           "comment": "f(bytes[],uint256): 0x40, 0, 1, 0x20, 2, hex\"6162\" -> 0x61",
           "instance": "C",
           "method": "f(bytes[],uint256)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x96DceBEeFFB58Ac8FF6AEc69822a7c9C4Df8880D",
+          "caller": "0x96dcebeeffb58ac8ff6aec69822a7c9c4df8880d",
           "comment": "f(bytes[],uint256): 0x40, 1, 1, 0x20, 2, hex\"6162\" -> 0x62",
           "instance": "C",
           "method": "f(bytes[],uint256)",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0x96DceBEeFFB58Ac8FF6AEc69822a7c9C4Df8880D",
+          "caller": "0x96dcebeeffb58ac8ff6aec69822a7c9c4df8880d",
           "comment": "f(bytes[],uint256): 0x40, 2, 1, 0x20, 2, hex\"6162\" -> FAILURE, hex\"4e487b71\", 0x32",
           "instance": "C",
           "method": "f(bytes[],uint256)",

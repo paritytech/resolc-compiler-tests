@@ -4,7 +4,7 @@
       "name": "string_bytes_conversion",
       "inputs": [
         {
-          "caller": "0x650eb616d4dcAdb10021A27E27c442Bd02732664",
+          "caller": "0x650eb616d4dcadb10021a27e27c442bd02732664",
           "comment": "f(string,uint256): 0x40, 0x02, 0x06, \"abcdef\" -> \"c\"",
           "instance": "Test",
           "method": "f(string,uint256)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x650eb616d4dcAdb10021A27E27c442Bd02732664",
+          "caller": "0x650eb616d4dcadb10021a27e27c442bd02732664",
           "comment": "l() -> 0x06",
           "instance": "Test",
           "method": "l()",

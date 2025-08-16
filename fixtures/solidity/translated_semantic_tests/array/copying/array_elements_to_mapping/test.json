@@ -4,7 +4,7 @@
       "name": "array_elements_to_mapping",
       "inputs": [
         {
-          "caller": "0xD7e8E307B7deEBC52bf234882a7646640A06D146",
+          "caller": "0xd7e8e307b7deebc52bf234882a7646640a06d146",
           "comment": "from_storage() -> 0x20, 2, 0x40, 0xa0, 2, 10, 11, 3, 12, 13, 14; gas irOptimized: 149868; gas legacy: 150737; gas legacyOptimized: 148690",
           "instance": "C",
           "method": "from_storage()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xD7e8E307B7deEBC52bf234882a7646640A06D146",
+          "caller": "0xd7e8e307b7deebc52bf234882a7646640a06d146",
           "comment": "from_storage_ptr() -> 0x20, 2, 0x40, 0xa0, 2, 10, 11, 3, 12, 13, 14",
           "instance": "C",
           "method": "from_storage_ptr()",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0xD7e8E307B7deEBC52bf234882a7646640A06D146",
+          "caller": "0xd7e8e307b7deebc52bf234882a7646640a06d146",
           "comment": "from_memory() -> 0x20, 2, 0x40, 0xa0, 2, 10, 11, 3, 12, 13, 14",
           "instance": "C",
           "method": "from_memory()",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0xD7e8E307B7deEBC52bf234882a7646640A06D146",
+          "caller": "0xd7e8e307b7deebc52bf234882a7646640a06d146",
           "comment": "from_calldata(uint8[][]): 0x20, 2, 0x40, 0xa0, 2, 10, 11, 3, 12, 13, 14 -> 0x20, 2, 0x40, 0xa0, 2, 10, 11, 3, 12, 13, 14",
           "instance": "C",
           "method": "from_calldata(uint8[][])",

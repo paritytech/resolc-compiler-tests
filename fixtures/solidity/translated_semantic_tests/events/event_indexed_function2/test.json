@@ -4,7 +4,7 @@
       "name": "event_indexed_function2",
       "inputs": [
         {
-          "caller": "0x4d1Bf28514A4451249908E611366Ec967C3d1558",
+          "caller": "0x4d1bf28514a4451249908e611366ec967c3d1558",
           "comment": "f1() ->; ~ emit TestA(function): #0x1234c27fc3050000000000000000",
           "instance": "C",
           "method": "f1()",
@@ -23,7 +23,7 @@
           }
         },
         {
-          "caller": "0x4d1Bf28514A4451249908E611366Ec967C3d1558",
+          "caller": "0x4d1bf28514a4451249908e611366ec967c3d1558",
           "comment": "f2(uint256): 1 ->; ~ emit TestB(function): #0x1234bf3724af0000000000000000",
           "instance": "C",
           "method": "f2(uint256)",

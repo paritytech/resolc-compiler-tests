@@ -4,7 +4,7 @@
       "name": "delete_transient_state_variable",
       "inputs": [
         {
-          "caller": "0x57320711F4E155E02819d08BCb0aD5B94D295070",
+          "caller": "0x57320711f4e155e02819d08bcb0ad5b94d295070",
           "comment": "f() -> 0",
           "instance": "C",
           "method": "f()",

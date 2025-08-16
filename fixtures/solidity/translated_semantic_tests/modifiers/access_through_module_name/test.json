@@ -4,7 +4,7 @@
       "name": "access_through_module_name",
       "inputs": [
         {
-          "caller": "0x803F4Bb1D2e7D31F8929AA9F64a64Fc6efbcE47b",
+          "caller": "0x803f4bb1d2e7d31f8929aa9f64a64fc6efbce47b",
           "comment": "x() -> 0x00",
           "instance": "C",
           "method": "x()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x803F4Bb1D2e7D31F8929AA9F64a64Fc6efbcE47b",
+          "caller": "0x803f4bb1d2e7d31f8929aa9f64a64fc6efbce47b",
           "comment": "f() -> 1, 9",
           "instance": "C",
           "method": "f()",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0x803F4Bb1D2e7D31F8929AA9F64a64Fc6efbcE47b",
+          "caller": "0x803f4bb1d2e7d31f8929aa9f64a64fc6efbce47b",
           "comment": "x() -> 3",
           "instance": "C",
           "method": "x()",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0x803F4Bb1D2e7D31F8929AA9F64a64Fc6efbcE47b",
+          "caller": "0x803f4bb1d2e7d31f8929aa9f64a64fc6efbce47b",
           "comment": "g() -> 1, 0x0a",
           "instance": "C",
           "method": "g()",
@@ -48,7 +48,7 @@
           }
         },
         {
-          "caller": "0x803F4Bb1D2e7D31F8929AA9F64a64Fc6efbcE47b",
+          "caller": "0x803f4bb1d2e7d31f8929aa9f64a64fc6efbce47b",
           "comment": "x() -> 4",
           "instance": "C",
           "method": "x()",
@@ -59,7 +59,7 @@
           }
         },
         {
-          "caller": "0x803F4Bb1D2e7D31F8929AA9F64a64Fc6efbcE47b",
+          "caller": "0x803f4bb1d2e7d31f8929aa9f64a64fc6efbce47b",
           "comment": "f() -> 1, 9",
           "instance": "C",
           "method": "f()",
@@ -70,7 +70,7 @@
           }
         },
         {
-          "caller": "0x803F4Bb1D2e7D31F8929AA9F64a64Fc6efbcE47b",
+          "caller": "0x803f4bb1d2e7d31f8929aa9f64a64fc6efbce47b",
           "comment": "x() -> 3",
           "instance": "C",
           "method": "x()",

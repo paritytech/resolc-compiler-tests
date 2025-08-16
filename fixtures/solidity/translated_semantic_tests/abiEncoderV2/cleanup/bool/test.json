@@ -4,7 +4,7 @@
       "name": "bool",
       "inputs": [
         {
-          "caller": "0xeEb8154387A84832010eA0C108AF51D8Ea52FD29",
+          "caller": "0xeeb8154387a84832010ea0c108af51d8ea52fd29",
           "comment": "f(uint256): 0 -> false",
           "instance": "C",
           "method": "f(uint256)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xeEb8154387A84832010eA0C108AF51D8Ea52FD29",
+          "caller": "0xeeb8154387a84832010ea0c108af51d8ea52fd29",
           "comment": "gggg(bool): 0 -> false",
           "instance": "C",
           "method": "gggg(bool)",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0xeEb8154387A84832010eA0C108AF51D8Ea52FD29",
+          "caller": "0xeeb8154387a84832010ea0c108af51d8ea52fd29",
           "comment": "f(uint256): 1 -> true",
           "instance": "C",
           "method": "f(uint256)",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0xeEb8154387A84832010eA0C108AF51D8Ea52FD29",
+          "caller": "0xeeb8154387a84832010ea0c108af51d8ea52fd29",
           "comment": "gggg(bool): 1 -> true",
           "instance": "C",
           "method": "gggg(bool)",
@@ -48,7 +48,7 @@
           }
         },
         {
-          "caller": "0xeEb8154387A84832010eA0C108AF51D8Ea52FD29",
+          "caller": "0xeeb8154387a84832010ea0c108af51d8ea52fd29",
           "comment": "f(uint256): 2 -> true",
           "instance": "C",
           "method": "f(uint256)",
@@ -59,7 +59,7 @@
           }
         },
         {
-          "caller": "0xeEb8154387A84832010eA0C108AF51D8Ea52FD29",
+          "caller": "0xeeb8154387a84832010ea0c108af51d8ea52fd29",
           "comment": "gggg(bool): 2 -> FAILURE",
           "instance": "C",
           "method": "gggg(bool)",
@@ -69,7 +69,7 @@
           }
         },
         {
-          "caller": "0xeEb8154387A84832010eA0C108AF51D8Ea52FD29",
+          "caller": "0xeeb8154387a84832010ea0c108af51d8ea52fd29",
           "comment": "f(uint256): 0x1000 -> true",
           "instance": "C",
           "method": "f(uint256)",
@@ -80,7 +80,7 @@
           }
         },
         {
-          "caller": "0xeEb8154387A84832010eA0C108AF51D8Ea52FD29",
+          "caller": "0xeeb8154387a84832010ea0c108af51d8ea52fd29",
           "comment": "gggg(bool): 0x1000 -> FAILURE",
           "instance": "C",
           "method": "gggg(bool)",

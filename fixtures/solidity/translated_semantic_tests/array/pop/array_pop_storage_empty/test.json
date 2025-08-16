@@ -4,7 +4,7 @@
       "name": "array_pop_storage_empty",
       "inputs": [
         {
-          "caller": "0x4FC5E31DAB7FA7Ef9f07a0E8b9055d9c4616FE63",
+          "caller": "0x4fc5e31dab7fa7ef9f07a0e8b9055d9c4616fe63",
           "comment": "test() ->",
           "instance": "c",
           "method": "test()",

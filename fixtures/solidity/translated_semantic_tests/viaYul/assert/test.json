@@ -4,7 +4,7 @@
       "name": "assert",
       "inputs": [
         {
-          "caller": "0xd2431CA38735C2fd438e2cAa23F094191D89675b",
+          "caller": "0xd2431ca38735c2fd438e2caa23f094191d89675b",
           "comment": "f(bool): true -> true",
           "instance": "C",
           "method": "f(bool)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xd2431CA38735C2fd438e2cAa23F094191D89675b",
+          "caller": "0xd2431ca38735c2fd438e2caa23f094191d89675b",
           "comment": "f(bool): false -> FAILURE, hex\"4e487b71\", 0x01",
           "instance": "C",
           "method": "f(bool)",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0xd2431CA38735C2fd438e2cAa23F094191D89675b",
+          "caller": "0xd2431ca38735c2fd438e2caa23f094191d89675b",
           "comment": "fail() -> FAILURE, hex\"4e487b71\", 0x01",
           "instance": "C",
           "method": "fail()",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0xd2431CA38735C2fd438e2cAa23F094191D89675b",
+          "caller": "0xd2431ca38735c2fd438e2caa23f094191d89675b",
           "comment": "succeed() -> true",
           "instance": "C",
           "method": "succeed()",

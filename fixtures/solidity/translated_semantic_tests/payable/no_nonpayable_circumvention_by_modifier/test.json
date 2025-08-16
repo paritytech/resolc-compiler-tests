@@ -4,7 +4,7 @@
       "name": "no_nonpayable_circumvention_by_modifier",
       "inputs": [
         {
-          "caller": "0x7E5F4552091A69125d5DfCb7b8C2659029395Bdf",
+          "caller": "0x7e5f4552091a69125d5dfcb7b8c2659029395bdf",
           "comment": "f(), 27 wei -> FAILURE",
           "instance": "C",
           "method": "f()",

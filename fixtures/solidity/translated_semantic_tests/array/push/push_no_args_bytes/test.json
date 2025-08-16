@@ -4,7 +4,7 @@
       "name": "push_no_args_bytes",
       "inputs": [
         {
-          "caller": "0x2958Ec4A1f4f97d4189cb34d7baE93a92EbE2644",
+          "caller": "0x2958ec4a1f4f97d4189cb34d7bae93a92ebe2644",
           "comment": "l() -> 0",
           "instance": "C",
           "method": "l()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x2958Ec4A1f4f97d4189cb34d7baE93a92EbE2644",
+          "caller": "0x2958ec4a1f4f97d4189cb34d7bae93a92ebe2644",
           "comment": "g(uint256): 70 ->; gas irOptimized: 181778; gas legacy: 175192; gas legacyOptimized: 175005",
           "instance": "C",
           "method": "g(uint256)",
@@ -25,7 +25,7 @@
           }
         },
         {
-          "caller": "0x2958Ec4A1f4f97d4189cb34d7baE93a92EbE2644",
+          "caller": "0x2958ec4a1f4f97d4189cb34d7bae93a92ebe2644",
           "comment": "l() -> 70",
           "instance": "C",
           "method": "l()",
@@ -36,7 +36,7 @@
           }
         },
         {
-          "caller": "0x2958Ec4A1f4f97d4189cb34d7baE93a92EbE2644",
+          "caller": "0x2958ec4a1f4f97d4189cb34d7bae93a92ebe2644",
           "comment": "a(uint256): 69 -> left(69)",
           "instance": "C",
           "method": "a(uint256)",
@@ -47,7 +47,7 @@
           }
         },
         {
-          "caller": "0x2958Ec4A1f4f97d4189cb34d7baE93a92EbE2644",
+          "caller": "0x2958ec4a1f4f97d4189cb34d7bae93a92ebe2644",
           "comment": "f() ->",
           "instance": "C",
           "method": "f()",
@@ -57,7 +57,7 @@
           }
         },
         {
-          "caller": "0x2958Ec4A1f4f97d4189cb34d7baE93a92EbE2644",
+          "caller": "0x2958ec4a1f4f97d4189cb34d7bae93a92ebe2644",
           "comment": "l() -> 71",
           "instance": "C",
           "method": "l()",
@@ -68,7 +68,7 @@
           }
         },
         {
-          "caller": "0x2958Ec4A1f4f97d4189cb34d7baE93a92EbE2644",
+          "caller": "0x2958ec4a1f4f97d4189cb34d7bae93a92ebe2644",
           "comment": "a(uint256): 70 -> 0",
           "instance": "C",
           "method": "a(uint256)",

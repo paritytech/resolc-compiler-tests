@@ -4,7 +4,7 @@
       "name": "shift_right_negative_lvalue_signextend_int32_v2",
       "inputs": [
         {
-          "caller": "0xd444427BAE2C90a6C45DC0e6dDD2FCAC50Abc6A7",
+          "caller": "0xd444427bae2c90a6c45dc0e6ddd2fcac50abc6a7",
           "comment": "f(int32,uint32): 0xffffff99, 0x00 -> FAILURE",
           "instance": "C",
           "method": "f(int32,uint32)",
@@ -14,7 +14,7 @@
           }
         },
         {
-          "caller": "0xd444427BAE2C90a6C45DC0e6dDD2FCAC50Abc6A7",
+          "caller": "0xd444427bae2c90a6c45dc0e6ddd2fcac50abc6a7",
           "comment": "f(int32,uint32): 0xffffff99, 0x01 -> FAILURE",
           "instance": "C",
           "method": "f(int32,uint32)",
@@ -24,7 +24,7 @@
           }
         },
         {
-          "caller": "0xd444427BAE2C90a6C45DC0e6dDD2FCAC50Abc6A7",
+          "caller": "0xd444427bae2c90a6c45dc0e6ddd2fcac50abc6a7",
           "comment": "f(int32,uint32): 0xffffff99, 0x02 -> FAILURE",
           "instance": "C",
           "method": "f(int32,uint32)",
@@ -34,7 +34,7 @@
           }
         },
         {
-          "caller": "0xd444427BAE2C90a6C45DC0e6dDD2FCAC50Abc6A7",
+          "caller": "0xd444427bae2c90a6c45dc0e6ddd2fcac50abc6a7",
           "comment": "f(int32,uint32): 0xffffff99, 0x04 -> FAILURE",
           "instance": "C",
           "method": "f(int32,uint32)",
@@ -44,7 +44,7 @@
           }
         },
         {
-          "caller": "0xd444427BAE2C90a6C45DC0e6dDD2FCAC50Abc6A7",
+          "caller": "0xd444427bae2c90a6c45dc0e6ddd2fcac50abc6a7",
           "comment": "f(int32,uint32): 0xffffff99, 0x08 -> FAILURE",
           "instance": "C",
           "method": "f(int32,uint32)",

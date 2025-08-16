@@ -4,7 +4,7 @@
       "name": "calldata_array_dynamic_static_dynamic",
       "inputs": [
         {
-          "caller": "0x8f227bc3bd0BaeeE99f7b3cF9B69Df8090D09A6C",
+          "caller": "0x8f227bc3bd0baeee99f7b3cf9b69df8090d09a6c",
           "comment": "g() -> 32, 196, hex\"eccb829a\", 32, 1, 32, 32, 1, 42, hex\"00000000000000000000000000000000000000000000000000000000\"",
           "instance": "C",
           "method": "g()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x8f227bc3bd0BaeeE99f7b3cF9B69Df8090D09A6C",
+          "caller": "0x8f227bc3bd0baeee99f7b3cf9b69df8090d09a6c",
           "comment": "h() -> 32, 196, hex\"eccb829a\", 32, 1, 32, 32, 1, 42, hex\"00000000000000000000000000000000000000000000000000000000\"",
           "instance": "C",
           "method": "h()",

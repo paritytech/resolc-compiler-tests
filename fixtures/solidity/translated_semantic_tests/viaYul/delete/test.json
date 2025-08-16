@@ -4,7 +4,7 @@
       "name": "delete",
       "inputs": [
         {
-          "caller": "0x05650444aCe15A01762Bd97EE8fDeb495b3C2436",
+          "caller": "0x05650444ace15a01762bd97ee8fdeb495b3c2436",
           "comment": "call_deleted_internal_func() -> FAILURE, hex\"4e487b71\", 0x51",
           "instance": "C",
           "method": "call_deleted_internal_func()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x05650444aCe15A01762Bd97EE8fDeb495b3C2436",
+          "caller": "0x05650444ace15a01762bd97ee8fdeb495b3c2436",
           "comment": "call_internal_func() -> true",
           "instance": "C",
           "method": "call_internal_func()",

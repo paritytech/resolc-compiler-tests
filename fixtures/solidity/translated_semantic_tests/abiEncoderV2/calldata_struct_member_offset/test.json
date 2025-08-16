@@ -4,7 +4,7 @@
       "name": "calldata_struct_member_offset",
       "inputs": [
         {
-          "caller": "0xbE594cd7cbF3a1212D87a12e8D286d2872C0e023",
+          "caller": "0xbe594cd7cbf3a1212d87a12e8d286d2872c0e023",
           "comment": "f() -> 11, 11",
           "instance": "C",
           "method": "f()",

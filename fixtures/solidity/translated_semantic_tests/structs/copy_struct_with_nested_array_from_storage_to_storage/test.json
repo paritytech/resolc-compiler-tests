@@ -4,7 +4,7 @@
       "name": "copy_struct_with_nested_array_from_storage_to_storage",
       "inputs": [
         {
-          "caller": "0x868239788034A8180f939BCDb6b3c40BCb415A34",
+          "caller": "0x868239788034a8180f939bcdb6b3c40bcb415a34",
           "comment": "test()",
           "instance": "C",
           "method": "test()",

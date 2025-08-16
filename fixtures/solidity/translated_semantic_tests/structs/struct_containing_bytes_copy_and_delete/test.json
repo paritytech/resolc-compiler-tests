@@ -10,7 +10,7 @@
           "caller": "0xEfb3f853E9666F5d34E001eA27aa10C8C6d7dF16"
         },
         {
-          "caller": "0x58F533E9756b69525299880f988c5BEc4959ddFf",
+          "caller": "0x58f533e9756b69525299880f988c5bec4959ddff",
           "comment": "set(uint256,bytes,uint256): 12, 0x60, 13, 33, \"12345678901234567890123456789012\", \"3\" -> true; gas irOptimized: 133557; gas legacy: 134624; gas legacyOptimized: 133856",
           "instance": "c",
           "method": "set(uint256,bytes,uint256)",
@@ -21,7 +21,7 @@
           }
         },
         {
-          "caller": "0x58F533E9756b69525299880f988c5BEc4959ddFf",
+          "caller": "0x58f533e9756b69525299880f988c5bec4959ddff",
           "comment": "test(uint256): 32 -> \"3\"",
           "instance": "c",
           "method": "test(uint256)",
@@ -38,7 +38,7 @@
           "caller": "0xEfb3f853E9666F5d34E001eA27aa10C8C6d7dF16"
         },
         {
-          "caller": "0x58F533E9756b69525299880f988c5BEc4959ddFf",
+          "caller": "0x58f533e9756b69525299880f988c5bec4959ddff",
           "comment": "copy() -> true",
           "instance": "c",
           "method": "copy()",
@@ -55,7 +55,7 @@
           "caller": "0xEfb3f853E9666F5d34E001eA27aa10C8C6d7dF16"
         },
         {
-          "caller": "0x58F533E9756b69525299880f988c5BEc4959ddFf",
+          "caller": "0x58f533e9756b69525299880f988c5bec4959ddff",
           "comment": "set(uint256,bytes,uint256): 12, 0x60, 13, 33, \"12345678901234567890123456789012\", \"3\" -> true; gas irOptimized: 133557; gas legacy: 134624; gas legacyOptimized: 133856",
           "instance": "c",
           "method": "set(uint256,bytes,uint256)",
@@ -72,7 +72,7 @@
           "caller": "0xEfb3f853E9666F5d34E001eA27aa10C8C6d7dF16"
         },
         {
-          "caller": "0x58F533E9756b69525299880f988c5BEc4959ddFf",
+          "caller": "0x58f533e9756b69525299880f988c5bec4959ddff",
           "comment": "del() -> true",
           "instance": "c",
           "method": "del()",

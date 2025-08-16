@@ -4,7 +4,7 @@
       "name": "function_memory_array",
       "inputs": [
         {
-          "caller": "0xff8c3B4Fb8564534A59891C19d7dD842EfFb3484",
+          "caller": "0xff8c3b4fb8564534a59891c19d7dd842effb3484",
           "comment": "test(uint256,uint256): 10, 0 -> 11",
           "instance": "C",
           "method": "test(uint256,uint256)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xff8c3B4Fb8564534A59891C19d7dD842EfFb3484",
+          "caller": "0xff8c3b4fb8564534a59891c19d7dd842effb3484",
           "comment": "test(uint256,uint256): 10, 1 -> 12",
           "instance": "C",
           "method": "test(uint256,uint256)",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0xff8c3B4Fb8564534A59891C19d7dD842EfFb3484",
+          "caller": "0xff8c3b4fb8564534a59891c19d7dd842effb3484",
           "comment": "test(uint256,uint256): 10, 2 -> 13",
           "instance": "C",
           "method": "test(uint256,uint256)",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0xff8c3B4Fb8564534A59891C19d7dD842EfFb3484",
+          "caller": "0xff8c3b4fb8564534a59891c19d7dd842effb3484",
           "comment": "test(uint256,uint256): 10, 3 -> 15",
           "instance": "C",
           "method": "test(uint256,uint256)",
@@ -48,7 +48,7 @@
           }
         },
         {
-          "caller": "0xff8c3B4Fb8564534A59891C19d7dD842EfFb3484",
+          "caller": "0xff8c3b4fb8564534a59891c19d7dd842effb3484",
           "comment": "test(uint256,uint256): 10, 4 -> 18",
           "instance": "C",
           "method": "test(uint256,uint256)",
@@ -59,7 +59,7 @@
           }
         },
         {
-          "caller": "0xff8c3B4Fb8564534A59891C19d7dD842EfFb3484",
+          "caller": "0xff8c3b4fb8564534a59891c19d7dd842effb3484",
           "comment": "test(uint256,uint256): 10, 5 -> FAILURE, hex\"4e487b71\", 0x51",
           "instance": "C",
           "method": "test(uint256,uint256)",

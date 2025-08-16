@@ -4,7 +4,7 @@
       "name": "gwei",
       "inputs": [
         {
-          "caller": "0xA24C85B16a440587793F82e358fa6b204468735B",
+          "caller": "0xa24c85b16a440587793f82e358fa6b204468735b",
           "comment": "f() -> 1000000000",
           "instance": "C",
           "method": "f()",

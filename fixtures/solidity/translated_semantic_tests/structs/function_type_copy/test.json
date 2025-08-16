@@ -4,7 +4,7 @@
       "name": "function_type_copy",
       "inputs": [
         {
-          "caller": "0x514C1129d77BCE9cdBa3FA770d23D0b26558fdfc",
+          "caller": "0x514c1129d77bce9cdba3fa770d23d0b26558fdfc",
           "comment": "test() -> true",
           "instance": "Test",
           "method": "test()",

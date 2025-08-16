@@ -4,7 +4,7 @@
       "name": "shift_right_negative_lvalue_signextend_int8_v2",
       "inputs": [
         {
-          "caller": "0x66260Cfc85C85806b98eb1c6e1E1b34a661414e8",
+          "caller": "0x66260cfc85c85806b98eb1c6e1e1b34a661414e8",
           "comment": "f(int8,uint8): 0x99, 0x00 -> FAILURE",
           "instance": "C",
           "method": "f(int8,uint8)",
@@ -14,7 +14,7 @@
           }
         },
         {
-          "caller": "0x66260Cfc85C85806b98eb1c6e1E1b34a661414e8",
+          "caller": "0x66260cfc85c85806b98eb1c6e1e1b34a661414e8",
           "comment": "f(int8,uint8): 0x99, 0x01 -> FAILURE",
           "instance": "C",
           "method": "f(int8,uint8)",
@@ -24,7 +24,7 @@
           }
         },
         {
-          "caller": "0x66260Cfc85C85806b98eb1c6e1E1b34a661414e8",
+          "caller": "0x66260cfc85c85806b98eb1c6e1e1b34a661414e8",
           "comment": "f(int8,uint8): 0x99, 0x02 -> FAILURE",
           "instance": "C",
           "method": "f(int8,uint8)",
@@ -34,7 +34,7 @@
           }
         },
         {
-          "caller": "0x66260Cfc85C85806b98eb1c6e1E1b34a661414e8",
+          "caller": "0x66260cfc85c85806b98eb1c6e1e1b34a661414e8",
           "comment": "f(int8,uint8): 0x99, 0x04 -> FAILURE",
           "instance": "C",
           "method": "f(int8,uint8)",
@@ -44,7 +44,7 @@
           }
         },
         {
-          "caller": "0x66260Cfc85C85806b98eb1c6e1E1b34a661414e8",
+          "caller": "0x66260cfc85c85806b98eb1c6e1e1b34a661414e8",
           "comment": "f(int8,uint8): 0x99, 0x08 -> FAILURE",
           "instance": "C",
           "method": "f(int8,uint8)",

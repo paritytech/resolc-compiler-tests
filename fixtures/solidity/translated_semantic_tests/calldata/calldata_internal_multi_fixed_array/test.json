@@ -4,7 +4,7 @@
       "name": "calldata_internal_multi_fixed_array",
       "inputs": [
         {
-          "caller": "0xe8d43A4D44Ff579436F47B8C7DdECd3df04546AE",
+          "caller": "0xe8d43a4d44ff579436f47b8c7ddecd3df04546ae",
           "comment": "g() -> 7, 8",
           "instance": "C",
           "method": "g()",

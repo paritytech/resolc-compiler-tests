@@ -4,7 +4,7 @@
       "name": "balance_other_contract",
       "inputs": [
         {
-          "caller": "0x56918185312b4679AB157b406F04F8F7C4031611",
+          "caller": "0x56918185312b4679ab157b406f04f8f7c4031611",
           "comment": "constructor(), 2000 wei ->",
           "instance": "C",
           "method": "#deployer",

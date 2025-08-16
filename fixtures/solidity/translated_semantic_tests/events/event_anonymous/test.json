@@ -4,7 +4,7 @@
       "name": "event_anonymous",
       "inputs": [
         {
-          "caller": "0xeb0E56F32246D043228faC8b63a71687D5199Af1",
+          "caller": "0xeb0e56f32246d043228fac8b63a71687d5199af1",
           "comment": "deposit() ->; ~ emit <anonymous>",
           "instance": "ClientReceipt",
           "method": "deposit()",

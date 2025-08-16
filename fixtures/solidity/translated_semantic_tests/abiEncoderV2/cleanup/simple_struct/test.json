@@ -4,7 +4,7 @@
       "name": "simple_struct",
       "inputs": [
         {
-          "caller": "0xf84e24F94Ff5dC40969Cc38565cda0788ffc256b",
+          "caller": "0xf84e24f94ff5dc40969cc38565cda0788ffc256b",
           "comment": "f(uint256,bytes32): 1, left(0x01) -> 0x20, 0x44, hex\"b63240b0\", 1, left(0x01), hex\"00000000000000000000000000000000000000000000000000000000\"",
           "instance": "C",
           "method": "f(uint256,bytes32)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xf84e24F94Ff5dC40969Cc38565cda0788ffc256b",
+          "caller": "0xf84e24f94ff5dc40969cc38565cda0788ffc256b",
           "comment": "gg((uint8,bytes1)): 1, left(0x01) -> 0x20, 0x44, hex\"b63240b0\", 1, left(0x01), hex\"00000000000000000000000000000000000000000000000000000000\"",
           "instance": "C",
           "method": "gg((uint8,bytes1))",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0xf84e24F94Ff5dC40969Cc38565cda0788ffc256b",
+          "caller": "0xf84e24f94ff5dc40969cc38565cda0788ffc256b",
           "comment": "f(uint256,bytes32): 0x0101, left(0x0101) -> 0x20, 0x44, hex\"b63240b0\", 1, left(0x01), hex\"00000000000000000000000000000000000000000000000000000000\"",
           "instance": "C",
           "method": "f(uint256,bytes32)",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0xf84e24F94Ff5dC40969Cc38565cda0788ffc256b",
+          "caller": "0xf84e24f94ff5dc40969cc38565cda0788ffc256b",
           "comment": "gg((uint8,bytes1)): 0x0101, left(0x0101) -> FAILURE",
           "instance": "C",
           "method": "gg((uint8,bytes1))",

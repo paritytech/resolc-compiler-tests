@@ -4,7 +4,7 @@
       "name": "variable_cleanup",
       "inputs": [
         {
-          "caller": "0xCe469C349B00581b3B1f4e83438a8bf767042291",
+          "caller": "0xce469c349b00581b3b1f4e83438a8bf767042291",
           "comment": "f(uint256,int256,bytes3): 0x0100, 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff7f, \"abc\" -> 0x00, 0x7f, \"ab\"",
           "instance": "C",
           "method": "f(uint256,int256,bytes3)",

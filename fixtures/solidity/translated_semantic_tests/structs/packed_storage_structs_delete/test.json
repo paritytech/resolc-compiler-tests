@@ -4,7 +4,7 @@
       "name": "packed_storage_structs_delete",
       "inputs": [
         {
-          "caller": "0x3cF80350821bFc6734d343C229354FE6985311D1",
+          "caller": "0x3cf80350821bfc6734d343c229354fe6985311d1",
           "comment": "test() -> 1",
           "instance": "C",
           "method": "test()",

@@ -4,7 +4,7 @@
       "name": "inline_array_storage_to_memory_conversion_ints",
       "inputs": [
         {
-          "caller": "0x6c7495107ccC046649F29fF12402B6B08d946F97",
+          "caller": "0x6c7495107ccc046649f29ff12402b6b08d946f97",
           "comment": "f() -> 3, 6",
           "instance": "C",
           "method": "f()",

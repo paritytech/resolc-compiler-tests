@@ -4,7 +4,7 @@
       "name": "struct_with_external_function",
       "inputs": [
         {
-          "caller": "0x0311afD3Bc2Ae250D5f9F2706BAE2eF4164d6912",
+          "caller": "0x0311afd3bc2ae250d5f9f2706bae2ef4164d6912",
           "comment": "f() -> 1, 2",
           "instance": "Flow",
           "method": "f()",

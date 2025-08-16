@@ -4,7 +4,7 @@
       "name": "storage_memory_nested_from_pointer",
       "inputs": [
         {
-          "caller": "0x1eeAFAe4596EDC09AD92bbc49E234131AB61278F",
+          "caller": "0x1eeafae4596edc09ad92bbc49e234131ab61278f",
           "comment": "f() -> 1, 2, 3, 4, 5, 6, 7; gas irOptimized: 206440; gas legacy: 211770; gas legacyOptimized: 211191",
           "instance": "C",
           "method": "f()",

@@ -4,7 +4,7 @@
       "name": "cleanup_address_types_shortening",
       "inputs": [
         {
-          "caller": "0x5CB1B10790C9cDA88D18D0fA93c09ef47bC26D17",
+          "caller": "0x5cb1b10790c9cda88d18d0fa93c09ef47bc26d17",
           "comment": "f() -> 0x1122334455667788990011223344556677889900",
           "instance": "C",
           "method": "f()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x5CB1B10790C9cDA88D18D0fA93c09ef47bC26D17",
+          "caller": "0x5cb1b10790c9cda88d18d0fa93c09ef47bc26d17",
           "comment": "g() -> 0x1122334455667788990011223344556677889900",
           "instance": "C",
           "method": "g()",

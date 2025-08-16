@@ -4,7 +4,7 @@
       "name": "super_skip_unimplemented_in_interface",
       "inputs": [
         {
-          "caller": "0x648bA970a9285Ec2867d9FE1088D0B865c7072eA",
+          "caller": "0x648ba970a9285ec2867d9fe1088d0b865c7072ea",
           "comment": "f() -> 42",
           "instance": "B",
           "method": "f()",

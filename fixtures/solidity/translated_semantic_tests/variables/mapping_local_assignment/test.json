@@ -4,7 +4,7 @@
       "name": "mapping_local_assignment",
       "inputs": [
         {
-          "caller": "0x23952e6b6aE9A89FDe6204bE4312cc9E4fE0c59a",
+          "caller": "0x23952e6b6ae9a89fde6204be4312cc9e4fe0c59a",
           "comment": "f() -> 42, 0, 0, 21",
           "instance": "test",
           "method": "f()",

@@ -4,7 +4,7 @@
       "name": "checked_arithmetic",
       "inputs": [
         {
-          "caller": "0xdb21655B672DACc8dA6F538C899F9D6969604117",
+          "caller": "0xdb21655b672dacc8da6f538c899f9d6969604117",
           "comment": "add() -> 1, 1",
           "instance": "C",
           "method": "add()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xdb21655B672DACc8dA6F538C899F9D6969604117",
+          "caller": "0xdb21655b672dacc8da6f538c899f9d6969604117",
           "comment": "sub() -> 0, 0",
           "instance": "C",
           "method": "sub()",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0xdb21655B672DACc8dA6F538C899F9D6969604117",
+          "caller": "0xdb21655b672dacc8da6f538c899f9d6969604117",
           "comment": "mul() -> 1, 1",
           "instance": "C",
           "method": "mul()",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0xdb21655B672DACc8dA6F538C899F9D6969604117",
+          "caller": "0xdb21655b672dacc8da6f538c899f9d6969604117",
           "comment": "div() -> 1, 1",
           "instance": "C",
           "method": "div()",
@@ -48,7 +48,7 @@
           }
         },
         {
-          "caller": "0xdb21655B672DACc8dA6F538C899F9D6969604117",
+          "caller": "0xdb21655b672dacc8da6f538c899f9d6969604117",
           "comment": "mod() -> 1, 0",
           "instance": "C",
           "method": "mod()",
@@ -59,7 +59,7 @@
           }
         },
         {
-          "caller": "0xdb21655B672DACc8dA6F538C899F9D6969604117",
+          "caller": "0xdb21655b672dacc8da6f538c899f9d6969604117",
           "comment": "inc_pre() -> 1",
           "instance": "C",
           "method": "inc_pre()",
@@ -70,7 +70,7 @@
           }
         },
         {
-          "caller": "0xdb21655B672DACc8dA6F538C899F9D6969604117",
+          "caller": "0xdb21655b672dacc8da6f538c899f9d6969604117",
           "comment": "inc_post() -> 0",
           "instance": "C",
           "method": "inc_post()",
@@ -81,7 +81,7 @@
           }
         },
         {
-          "caller": "0xdb21655B672DACc8dA6F538C899F9D6969604117",
+          "caller": "0xdb21655b672dacc8da6f538c899f9d6969604117",
           "comment": "dec_pre() -> FAILURE, hex\"4e487b71\", 0x11",
           "instance": "C",
           "method": "dec_pre()",
@@ -92,7 +92,7 @@
           }
         },
         {
-          "caller": "0xdb21655B672DACc8dA6F538C899F9D6969604117",
+          "caller": "0xdb21655b672dacc8da6f538c899f9d6969604117",
           "comment": "dec_post() -> FAILURE, hex\"4e487b71\", 0x11",
           "instance": "C",
           "method": "dec_post()",
@@ -103,7 +103,7 @@
           }
         },
         {
-          "caller": "0xdb21655B672DACc8dA6F538C899F9D6969604117",
+          "caller": "0xdb21655b672dacc8da6f538c899f9d6969604117",
           "comment": "neg() -> FAILURE, hex\"4e487b71\", 0x11",
           "instance": "C",
           "method": "neg()",

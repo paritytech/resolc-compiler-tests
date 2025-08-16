@@ -10,7 +10,7 @@
           "caller": "0x0f17CcAb520BcF1c9Bd0688117de56e950E67f37"
         },
         {
-          "caller": "0x788CE6bfD5A5b72B2d3741efCB4B8DdA33d776f4",
+          "caller": "0x788ce6bfd5a5b72b2d3741efcb4b8dda33d776f4",
           "comment": "test_short() -> 1780731860627700044960722568376587075150542249149356309979516913770823710; gas legacy: 59838; gas legacyOptimized: 58606",
           "instance": "c",
           "method": "test_short()",
@@ -27,7 +27,7 @@
           "caller": "0x0f17CcAb520BcF1c9Bd0688117de56e950E67f37"
         },
         {
-          "caller": "0x788CE6bfD5A5b72B2d3741efCB4B8DdA33d776f4",
+          "caller": "0x788ce6bfd5a5b72b2d3741efcb4b8dda33d776f4",
           "comment": "test_long() -> 67; gas irOptimized: 89148; gas legacy: 101607; gas legacyOptimized: 100479",
           "instance": "c",
           "method": "test_long()",
@@ -44,7 +44,7 @@
           "caller": "0x0f17CcAb520BcF1c9Bd0688117de56e950E67f37"
         },
         {
-          "caller": "0x788CE6bfD5A5b72B2d3741efCB4B8DdA33d776f4",
+          "caller": "0x788ce6bfd5a5b72b2d3741efcb4b8dda33d776f4",
           "comment": "test_pop() -> 1780731860627700044960722568376592200742329637303199754547598369979433020; gas legacy: 61930; gas legacyOptimized: 59404",
           "instance": "c",
           "method": "test_pop()",

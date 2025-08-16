@@ -4,7 +4,7 @@
       "name": "member_notation_ctor",
       "inputs": [
         {
-          "caller": "0x0a2eaA86eA890Cf98DC30565bE2A00863D188699",
+          "caller": "0x0a2eaa86ea890cf98dc30565be2a00863d188699",
           "comment": "g(int256): -1 -> -1; gas legacy: 77955; gas legacy code: 24200",
           "instance": "A",
           "method": "g(int256)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x0a2eaA86eA890Cf98DC30565bE2A00863D188699",
+          "caller": "0x0a2eaa86ea890cf98dc30565be2a00863d188699",
           "comment": "g(int256): 10 -> 10; gas legacy: 77583; gas legacy code: 24200",
           "instance": "A",
           "method": "g(int256)",

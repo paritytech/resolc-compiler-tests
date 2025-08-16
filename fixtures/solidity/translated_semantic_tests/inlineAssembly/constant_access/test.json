@@ -4,7 +4,7 @@
       "name": "constant_access",
       "inputs": [
         {
-          "caller": "0xaAdFE6F009bc4F07504d70E46bC9a748bFe82EFA",
+          "caller": "0xaadfe6f009bc4f07504d70e46bc9a748bfe82efa",
           "comment": "f() -> 2, left(0xabcd), left(0x616263), true, 0x1212121212121212121212121212121212121212",
           "instance": "C",
           "method": "f()",

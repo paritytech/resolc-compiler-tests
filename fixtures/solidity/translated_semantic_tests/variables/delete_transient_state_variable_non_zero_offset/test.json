@@ -4,7 +4,7 @@
       "name": "delete_transient_state_variable_non_zero_offset",
       "inputs": [
         {
-          "caller": "0x560697e82e48323b827F26862be60C5b19c1d2CF",
+          "caller": "0x560697e82e48323b827f26862be60c5b19c1d2cf",
           "comment": "f() -> 0xffffffffffffffffffffffffffff000000000000000000000000000000000000, 0, 0xffffffffffffffffffffffffffff",
           "instance": "C",
           "method": "f()",

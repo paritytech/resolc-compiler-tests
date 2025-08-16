@@ -4,7 +4,7 @@
       "name": "assert_require",
       "inputs": [
         {
-          "caller": "0x147C043A2f969781442fDa98661D6B84b77A1CB6",
+          "caller": "0x147c043a2f969781442fda98661d6b84b77a1cb6",
           "comment": "f() -> FAILURE, hex\"4e487b71\", 0x01",
           "instance": "C",
           "method": "f()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x147C043A2f969781442fDa98661D6B84b77A1CB6",
+          "caller": "0x147c043a2f969781442fda98661d6b84b77a1cb6",
           "comment": "g(bool): false -> FAILURE, hex\"4e487b71\", 0x01",
           "instance": "C",
           "method": "g(bool)",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0x147C043A2f969781442fDa98661D6B84b77A1CB6",
+          "caller": "0x147c043a2f969781442fda98661d6b84b77a1cb6",
           "comment": "g(bool): true -> true",
           "instance": "C",
           "method": "g(bool)",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0x147C043A2f969781442fDa98661D6B84b77A1CB6",
+          "caller": "0x147c043a2f969781442fda98661d6b84b77a1cb6",
           "comment": "h(bool): false -> FAILURE",
           "instance": "C",
           "method": "h(bool)",
@@ -47,7 +47,7 @@
           }
         },
         {
-          "caller": "0x147C043A2f969781442fDa98661D6B84b77A1CB6",
+          "caller": "0x147c043a2f969781442fda98661d6b84b77a1cb6",
           "comment": "h(bool): true -> true",
           "instance": "C",
           "method": "h(bool)",

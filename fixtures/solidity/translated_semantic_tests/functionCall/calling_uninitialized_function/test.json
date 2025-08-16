@@ -4,7 +4,7 @@
       "name": "calling_uninitialized_function",
       "inputs": [
         {
-          "caller": "0x3Dd6cE1BEE0c67166c84d3235E5F80c1c023e278",
+          "caller": "0x3dd6ce1bee0c67166c84d3235e5f80c1c023e278",
           "comment": "intern() -> FAILURE, hex\"4e487b71\", 0x51",
           "instance": "C",
           "method": "intern()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x3Dd6cE1BEE0c67166c84d3235E5F80c1c023e278",
+          "caller": "0x3dd6ce1bee0c67166c84d3235e5f80c1c023e278",
           "comment": "extern() -> FAILURE",
           "instance": "C",
           "method": "extern()",

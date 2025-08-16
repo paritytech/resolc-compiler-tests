@@ -4,7 +4,7 @@
       "name": "byte_array_pop_isolated",
       "inputs": [
         {
-          "caller": "0xbd92ce769718a8Bd35FEa068C404a0Ed21dbaD68",
+          "caller": "0xbd92ce769718a8bd35fea068c404a0ed21dbad68",
           "comment": "test() -> 3",
           "instance": "c",
           "method": "test()",

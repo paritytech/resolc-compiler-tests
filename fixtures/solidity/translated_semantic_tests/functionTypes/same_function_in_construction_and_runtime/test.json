@@ -4,7 +4,7 @@
       "name": "same_function_in_construction_and_runtime",
       "inputs": [
         {
-          "caller": "0x63a36aEa8570219476EF835f09024ACdEdfEE95A",
+          "caller": "0x63a36aea8570219476ef835f09024acdedfee95a",
           "comment": "runtime(uint256): 3 -> 6",
           "instance": "C",
           "method": "runtime(uint256)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x63a36aEa8570219476EF835f09024ACdEdfEE95A",
+          "caller": "0x63a36aea8570219476ef835f09024acdedfee95a",
           "comment": "initial() -> 4",
           "instance": "C",
           "method": "initial()",

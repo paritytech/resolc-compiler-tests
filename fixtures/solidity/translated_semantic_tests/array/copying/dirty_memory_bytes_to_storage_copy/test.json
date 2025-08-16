@@ -4,7 +4,7 @@
       "name": "dirty_memory_bytes_to_storage_copy",
       "inputs": [
         {
-          "caller": "0xF2b7ba9b827C1EC367604Adc63E1f45D32C5eeB9",
+          "caller": "0xf2b7ba9b827c1ec367604adc63e1f45d32c5eeb9",
           "comment": "f() -> 0x6465616462656566000000000000000000000000000000000000000000000010",
           "instance": "C",
           "method": "f()",

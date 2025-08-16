@@ -4,7 +4,7 @@
       "name": "tuples",
       "inputs": [
         {
-          "caller": "0xe685a40CA80586574fbAD4B575b355FDEBC142a0",
+          "caller": "0xe685a40ca80586574fbad4b575b355fdebc142a0",
           "comment": "f() -> 0",
           "instance": "C",
           "method": "f()",

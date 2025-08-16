@@ -4,7 +4,7 @@
       "name": "store_internal_unused_library_function_in_constructor",
       "inputs": [
         {
-          "caller": "0x6813Eb9362372EEF6200f3b1dbC3f819671cBA69",
+          "caller": "0x6813eb9362372eef6200f3b1dbc3f819671cba69",
           "comment": "t() -> 7",
           "instance": "C",
           "method": "t()",

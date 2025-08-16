@@ -4,7 +4,7 @@
       "name": "convert_fixed_bytes_to_uint_smaller_size",
       "inputs": [
         {
-          "caller": "0x74c7AFC924C9a0eC2dD72b59133C86c4BFa51dCB",
+          "caller": "0x74c7afc924c9a0ec2dd72b59133c86c4bfa51dcb",
           "comment": "bytesToUint(bytes4): \"abcd\" -> 0x6364",
           "instance": "Test",
           "method": "bytesToUint(bytes4)",

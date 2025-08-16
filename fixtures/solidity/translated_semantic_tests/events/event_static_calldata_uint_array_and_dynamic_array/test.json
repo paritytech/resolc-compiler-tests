@@ -4,7 +4,7 @@
       "name": "event_static_calldata_uint_array_and_dynamic_array",
       "inputs": [
         {
-          "caller": "0xB88C19426F03c6981d1A4281c7414d842b97619a",
+          "caller": "0xb88c19426f03c6981d1a4281c7414d842b97619a",
           "comment": "f(uint256[],uint256[1]): 0x40, 0xff, 1, 0xffff ->; ~ emit E(uint256[],uint256[1]): 0x40, 0xff, 0x01, 0xffff",
           "instance": "C",
           "method": "f(uint256[],uint256[1])",

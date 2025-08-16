@@ -4,7 +4,7 @@
       "name": "inline_array_index_access_strings",
       "inputs": [
         {
-          "caller": "0xD60349c24dB7F1053086eF0D6364b64B1e0313f0",
+          "caller": "0xd60349c24db7f1053086ef0d6364b64b1e0313f0",
           "comment": "test() ->",
           "instance": "C",
           "method": "test()",
@@ -14,7 +14,7 @@
           }
         },
         {
-          "caller": "0xD60349c24dB7F1053086eF0D6364b64B1e0313f0",
+          "caller": "0xd60349c24db7f1053086ef0d6364b64b1e0313f0",
           "comment": "tester() -> 0x20, 0x3, \"abc\"",
           "instance": "C",
           "method": "tester()",

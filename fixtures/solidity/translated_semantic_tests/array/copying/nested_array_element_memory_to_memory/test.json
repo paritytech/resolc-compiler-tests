@@ -4,7 +4,7 @@
       "name": "nested_array_element_memory_to_memory",
       "inputs": [
         {
-          "caller": "0xe721EDebE378d1172Eee38cBaC9ADd80b2153927",
+          "caller": "0xe721edebe378d1172eee38cbac9add80b2153927",
           "comment": "test1(uint8[][][]): 0x20, 2, 0x40, 0x60, 0, 2, 0x40, 0x80, 1, 7, 2, 8, 9 -> 0x20, 2, 0x40, 0x80, 1, 7, 2, 8, 9",
           "instance": "C",
           "method": "test1(uint8[][][])",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xe721EDebE378d1172Eee38cBaC9ADd80b2153927",
+          "caller": "0xe721edebe378d1172eee38cbac9add80b2153927",
           "comment": "test2(uint8[][1][]): 0x20, 2, 0x40, 0xe0, 0x20, 3, 12, 13, 14, 0x20, 3, 15, 16, 17 -> 0x20, 0x20, 3, 12, 13, 14",
           "instance": "C",
           "method": "test2(uint8[][1][])",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0xe721EDebE378d1172Eee38cBaC9ADd80b2153927",
+          "caller": "0xe721edebe378d1172eee38cbac9add80b2153927",
           "comment": "test3(uint8[2][][2]): 0x20, 0x40, 0xa0, 1, 7, 7, 2, 8, 8, 0x09, 9 -> 0x20, 1, 7, 7",
           "instance": "C",
           "method": "test3(uint8[2][][2])",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0xe721EDebE378d1172Eee38cBaC9ADd80b2153927",
+          "caller": "0xe721edebe378d1172eee38cbac9add80b2153927",
           "comment": "test4(uint16[][]): 0x20, 2, 0x40, 0x80, 1, 7, 2, 8, 9 -> 0x20, 2, 0x40, 0x80, 1, 7, 2, 8, 9",
           "instance": "C",
           "method": "test4(uint16[][])",
@@ -48,7 +48,7 @@
           }
         },
         {
-          "caller": "0xe721EDebE378d1172Eee38cBaC9ADd80b2153927",
+          "caller": "0xe721edebe378d1172eee38cbac9add80b2153927",
           "comment": "test5(uint32[][2]): 0x20, 0x40, 0x80, 1, 7, 2, 8, 9 -> 0x20, 0x40, 0x80, 1, 7, 2, 8, 9",
           "instance": "C",
           "method": "test5(uint32[][2])",
@@ -59,7 +59,7 @@
           }
         },
         {
-          "caller": "0xe721EDebE378d1172Eee38cBaC9ADd80b2153927",
+          "caller": "0xe721edebe378d1172eee38cbac9add80b2153927",
           "comment": "test6(uint32[2][]): 0x20, 2, 5, 6, 7, 8 -> 0x20, 2, 5, 6, 7, 8",
           "instance": "C",
           "method": "test6(uint32[2][])",

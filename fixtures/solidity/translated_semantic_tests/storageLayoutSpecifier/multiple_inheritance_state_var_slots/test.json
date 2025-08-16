@@ -4,7 +4,7 @@
       "name": "multiple_inheritance_state_var_slots",
       "inputs": [
         {
-          "caller": "0x020b7F091689120D2d59955ad1c0C4E5f9595E54",
+          "caller": "0x020b7f091689120d2d59955ad1c0c4e5f9595e54",
           "comment": "xSlotOffset() -> 2, 0",
           "instance": "D",
           "method": "xSlotOffset()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x020b7F091689120D2d59955ad1c0C4E5f9595E54",
+          "caller": "0x020b7f091689120d2d59955ad1c0c4e5f9595e54",
           "comment": "ySlotOffset() -> 3, 0",
           "instance": "D",
           "method": "ySlotOffset()",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0x020b7F091689120D2d59955ad1c0C4E5f9595E54",
+          "caller": "0x020b7f091689120d2d59955ad1c0c4e5f9595e54",
           "comment": "wSlotOffset() -> 3, 4",
           "instance": "D",
           "method": "wSlotOffset()",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0x020b7F091689120D2d59955ad1c0C4E5f9595E54",
+          "caller": "0x020b7f091689120d2d59955ad1c0c4e5f9595e54",
           "comment": "zSlotOffset() -> 4, 0",
           "instance": "D",
           "method": "zSlotOffset()",

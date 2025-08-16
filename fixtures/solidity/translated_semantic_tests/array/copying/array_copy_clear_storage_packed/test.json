@@ -4,7 +4,7 @@
       "name": "array_copy_clear_storage_packed",
       "inputs": [
         {
-          "caller": "0x1caA8aae120D89a44e116aB4E9f618997AE154FE",
+          "caller": "0x1caa8aae120d89a44e116ab4e9f618997ae154fe",
           "comment": "f() -> 0; gas irOptimized: 92800; gas legacy: 93006; gas legacyOptimized: 92261",
           "instance": "C",
           "method": "f()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x1caA8aae120D89a44e116aB4E9f618997AE154FE",
+          "caller": "0x1caa8aae120d89a44e116ab4e9f618997ae154fe",
           "comment": "g() -> 0",
           "instance": "C",
           "method": "g()",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0x1caA8aae120D89a44e116aB4E9f618997AE154FE",
+          "caller": "0x1caa8aae120d89a44e116ab4e9f618997ae154fe",
           "comment": "h() -> 0; gas irOptimized: 92862; gas legacy: 93028; gas legacyOptimized: 92303",
           "instance": "C",
           "method": "h()",

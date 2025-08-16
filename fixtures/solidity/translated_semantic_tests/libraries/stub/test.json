@@ -4,7 +4,7 @@
       "name": "stub",
       "inputs": [
         {
-          "caller": "0x757C12B65d71D3eb5F6D7e65160E5943A9c72c29",
+          "caller": "0x757c12b65d71d3eb5f6d7e65160e5943a9c72c29",
           "comment": "g(uint256): 1 -> 1",
           "instance": "C",
           "method": "g(uint256)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x757C12B65d71D3eb5F6D7e65160E5943A9c72c29",
+          "caller": "0x757c12b65d71d3eb5f6d7e65160e5943a9c72c29",
           "comment": "g(uint256): 2 -> 4",
           "instance": "C",
           "method": "g(uint256)",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0x757C12B65d71D3eb5F6D7e65160E5943A9c72c29",
+          "caller": "0x757c12b65d71d3eb5f6d7e65160e5943a9c72c29",
           "comment": "g(uint256): 4 -> 16",
           "instance": "C",
           "method": "g(uint256)",

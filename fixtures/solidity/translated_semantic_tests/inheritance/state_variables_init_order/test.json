@@ -4,7 +4,7 @@
       "name": "state_variables_init_order",
       "inputs": [
         {
-          "caller": "0x3ef3b621cf3DEdEef69B27D5B10378b3534C19aE",
+          "caller": "0x3ef3b621cf3dedeef69b27d5b10378b3534c19ae",
           "comment": "x() -> 1",
           "instance": "B",
           "method": "x()",

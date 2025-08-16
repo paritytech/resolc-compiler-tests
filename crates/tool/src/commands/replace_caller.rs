@@ -6,8 +6,11 @@ use std::{
 
 use revive_dt_common::iterators::FilesWithExtensionIterator;
 
-use alloy::primitives::{Address, FixedBytes};
 use alloy::{hex, primitives::U256};
+use alloy::{
+    hex::ToHexExt,
+    primitives::{Address, FixedBytes},
+};
 use anyhow::{Context, Result, bail};
 use serde_json::Value;
 
@@ -199,8 +202,8 @@ impl CaseWrapper<&mut Value> {
         // sequence.
         let mut case_string = serde_json::to_string(&self.0)?;
         for (old, new) in map.iter() {
-            let old = old.to_string();
-            let new = new.to_string();
+            let old = old.0.encode_hex();
+            let new = new.0.encode_hex();
             case_string =
                 case_insensitive_find_and_replace(&case_string, &old, &new);
         }

@@ -4,7 +4,7 @@
       "name": "struct_mapping_abstract_constructor_param",
       "inputs": [
         {
-          "caller": "0xd09AaeE8448Db471225e5de66EE532eDCe90647b",
+          "caller": "0xd09aaee8448db471225e5de66ee532edce90647b",
           "comment": "getM(uint256,uint256): 0, 0 -> 0",
           "instance": "C",
           "method": "getM(uint256,uint256)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xd09AaeE8448Db471225e5de66EE532eDCe90647b",
+          "caller": "0xd09aaee8448db471225e5de66ee532edce90647b",
           "comment": "getM(uint256,uint256): 1, 5 -> 0x10",
           "instance": "C",
           "method": "getM(uint256,uint256)",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0xd09AaeE8448Db471225e5de66EE532eDCe90647b",
+          "caller": "0xd09aaee8448db471225e5de66ee532edce90647b",
           "comment": "getM(uint256,uint256): 1, 0 -> 0",
           "instance": "C",
           "method": "getM(uint256,uint256)",

@@ -4,7 +4,7 @@
       "name": "transient_state_variable_slot_inline_assembly",
       "inputs": [
         {
-          "caller": "0x2D5cEfE9dBc4D5274ea00C6b870c11d6f0265c7e",
+          "caller": "0x2d5cefe9dbc4d5274ea00c6b870c11d6f0265c7e",
           "comment": "f() -> 0, 0",
           "instance": "C",
           "method": "f()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x2D5cEfE9dBc4D5274ea00C6b870c11d6f0265c7e",
+          "caller": "0x2d5cefe9dbc4d5274ea00c6b870c11d6f0265c7e",
           "comment": "g() -> 1, 0",
           "instance": "C",
           "method": "g()",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0x2D5cEfE9dBc4D5274ea00C6b870c11d6f0265c7e",
+          "caller": "0x2d5cefe9dbc4d5274ea00c6b870c11d6f0265c7e",
           "comment": "h() -> 1, 1",
           "instance": "C",
           "method": "h()",

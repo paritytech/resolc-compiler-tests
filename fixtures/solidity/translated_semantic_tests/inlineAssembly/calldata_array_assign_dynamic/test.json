@@ -4,7 +4,7 @@
       "name": "calldata_array_assign_dynamic",
       "inputs": [
         {
-          "caller": "0xdC55f065e93A81E206F7cB350E47c67a3fA39f34",
+          "caller": "0xdc55f065e93a81e206f7cb350e47c67a3fa39f34",
           "comment": "f(uint256[2][]): 0x0, 1, 8, 7, 6, 5 -> 0x20, 2, 8, 7, 6, 5",
           "instance": "C",
           "method": "f(uint256[2][])",

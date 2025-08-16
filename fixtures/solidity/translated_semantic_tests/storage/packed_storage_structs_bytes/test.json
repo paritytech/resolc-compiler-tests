@@ -4,7 +4,7 @@
       "name": "packed_storage_structs_bytes",
       "inputs": [
         {
-          "caller": "0x7CE4a6EEF91CaeE1f93ea9d6aB2856dcA9C49753",
+          "caller": "0x7ce4a6eef91caee1f93ea9d6ab2856dca9c49753",
           "comment": "test() -> true; gas irOptimized: 132633; gas legacy: 136010; gas legacyOptimized: 133478",
           "instance": "C",
           "method": "test()",

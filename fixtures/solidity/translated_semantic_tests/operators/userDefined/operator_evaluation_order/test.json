@@ -4,7 +4,7 @@
       "name": "operator_evaluation_order",
       "inputs": [
         {
-          "caller": "0xa4779dA1bFf7e702d969994a8A3D5494dB739Abb",
+          "caller": "0xa4779da1bff7e702d969994a8a3d5494db739abb",
           "comment": "testSingleOperator() ->; ~ emit Wrapped(uint256): 0x00; ~ emit Wrapped(uint256): 0x01; ~ emit Wrapped(uint256): 0x02; ~ emit Wrapped(uint256): 0x03",
           "instance": "C",
           "method": "testSingleOperator()",
@@ -40,7 +40,7 @@
           }
         },
         {
-          "caller": "0xa4779dA1bFf7e702d969994a8A3D5494dB739Abb",
+          "caller": "0xa4779da1bff7e702d969994a8a3d5494db739abb",
           "comment": "testTwoBinaryOperators() ->; ~ emit Wrapped(uint256): 0x00; ~ emit Wrapped(uint256): 0x01; ~ emit Wrapped(uint256): 0x02; ~ emit Wrapped(uint256): 0x03; ~ emit Wrapped(uint256): 0x04; ~ emit Wrapped(uint256): 0x05",
           "instance": "C",
           "method": "testTwoBinaryOperators()",
@@ -88,7 +88,7 @@
           }
         },
         {
-          "caller": "0xa4779dA1bFf7e702d969994a8A3D5494dB739Abb",
+          "caller": "0xa4779da1bff7e702d969994a8a3d5494db739abb",
           "comment": "testBinaryAndUnaryOperators() ->; ~ emit Wrapped(uint256): 0x00; ~ emit Wrapped(uint256): 0x01; ~ emit Wrapped(uint256): 0x02; ~ emit Wrapped(uint256): 0x03; ~ emit Wrapped(uint256): 0x04; ~ emit Wrapped(uint256): 0x05",
           "instance": "C",
           "method": "testBinaryAndUnaryOperators()",
@@ -136,7 +136,7 @@
           }
         },
         {
-          "caller": "0xa4779dA1bFf7e702d969994a8A3D5494dB739Abb",
+          "caller": "0xa4779da1bff7e702d969994a8a3d5494db739abb",
           "comment": "testOperatorsNestedInCalls() ->; ~ emit Wrapped(uint256): 0x00; ~ emit Wrapped(uint256): 0x01; ~ emit Probe(bool): 0x00; ~ emit Wrapped(uint256): 0x02; ~ emit Wrapped(uint256): 0x03; ~ emit Probe(bool): 0x00; ~ emit Wrapped(uint256): 0x04; ~ emit Wrapped(uint256): 0x05; ~ emit Probe(bool): 0x00",
           "instance": "C",
           "method": "testOperatorsNestedInCalls()",

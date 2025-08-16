@@ -4,7 +4,7 @@
       "name": "calldata_array_static_dynamic_static",
       "inputs": [
         {
-          "caller": "0x2946A35AaF53AB85986E2bd5DA3f4FD56e6eEAE3",
+          "caller": "0x2946a35aaf53ab85986e2bd5da3f4fd56e6eeae3",
           "comment": "g() -> 32, 132, hex\"15cfcc01\", 32, 32, 1, 42, hex\"00000000000000000000000000000000000000000000000000000000\"",
           "instance": "C",
           "method": "g()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x2946A35AaF53AB85986E2bd5DA3f4FD56e6eEAE3",
+          "caller": "0x2946a35aaf53ab85986e2bd5da3f4fd56e6eeae3",
           "comment": "h() -> 32, 132, hex\"15cfcc01\", 32, 32, 1, 42, hex\"00000000000000000000000000000000000000000000000000000000\"",
           "instance": "C",
           "method": "h()",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0x2946A35AaF53AB85986E2bd5DA3f4FD56e6eEAE3",
+          "caller": "0x2946a35aaf53ab85986e2bd5da3f4fd56e6eeae3",
           "comment": "i() -> 32, 292, hex\"dc0ee233\", 32, 64, 160, 1, 0x42, 0x000142, 1, 0x010042, 0x010142, hex\"00000000000000000000000000000000000000000000000000000000\"",
           "instance": "C",
           "method": "i()",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0x2946A35AaF53AB85986E2bd5DA3f4FD56e6eEAE3",
+          "caller": "0x2946a35aaf53ab85986e2bd5da3f4fd56e6eeae3",
           "comment": "j() -> 32, 292, hex\"dc0ee233\", 32, 64, 160, 1, 0x42, 0x000142, 1, 0x010042, 0x010142, hex\"00000000000000000000000000000000000000000000000000000000\"",
           "instance": "C",
           "method": "j()",

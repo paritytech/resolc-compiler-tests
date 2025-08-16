@@ -4,7 +4,7 @@
       "name": "account",
       "inputs": [
         {
-          "caller": "0xB40d73153EA796AF4e5Eef4626942022aaB84175",
+          "caller": "0xb40d73153ea796af4e5eef4626942022aab84175",
           "comment": "constructor()",
           "instance": "AccountBuiltinTest",
           "method": "#deployer",
@@ -14,145 +14,145 @@
           }
         },
         {
-          "caller": "0xB40d73153EA796AF4e5Eef4626942022aaB84175",
-          "comment": "who_am_i() -> 0xB40d73153EA796AF4e5Eef4626942022aaB84175",
+          "caller": "0xb40d73153ea796af4e5eef4626942022aab84175",
+          "comment": "who_am_i() -> 0xb40d73153ea796af4e5eef4626942022aab84175",
           "instance": "AccountBuiltinTest",
           "method": "who_am_i()",
           "calldata": [],
           "expected": {
-            "return_data": "0x0000000000000000000000001212121212121212121212121212120000000012",
+            "return_data": "0x000000000000000000000000b40d73153ea796af4e5eef4626942022aab84175",
             "exception": false
           }
         },
         {
-          "caller": "0x3de1d125dec845c438D997D3554e6D105421C076",
-          "comment": "who_am_i() -> 0x3de1d125dec845c438D997D3554e6D105421C076",
+          "caller": "0x3de1d125dec845c438d997d3554e6d105421c076",
+          "comment": "who_am_i() -> 0x3de1d125dec845c438d997d3554e6d105421c076",
           "instance": "AccountBuiltinTest",
           "method": "who_am_i()",
           "calldata": [],
           "expected": {
-            "return_data": "0x0000000000000000000000001212121212121212121212121212120000001012",
+            "return_data": "0x0000000000000000000000003de1d125dec845c438d997d3554e6d105421c076",
             "exception": false
           }
         },
         {
-          "caller": "0x4FDEf89f07d857DD1B77d2DAaf8Aca2b445ab881",
-          "comment": "who_am_i() -> 0x4FDEf89f07d857DD1B77d2DAaf8Aca2b445ab881",
+          "caller": "0x4fdef89f07d857dd1b77d2daaf8aca2b445ab881",
+          "comment": "who_am_i() -> 0x4fdef89f07d857dd1b77d2daaf8aca2b445ab881",
           "instance": "AccountBuiltinTest",
           "method": "who_am_i()",
           "calldata": [],
           "expected": {
-            "return_data": "0x0000000000000000000000001212121212121212121212121212120000002012",
+            "return_data": "0x0000000000000000000000004fdef89f07d857dd1b77d2daaf8aca2b445ab881",
             "exception": false
           }
         },
         {
-          "caller": "0xD75668AD0AB5917c79d453309Cc2cA31120c0b02",
-          "comment": "who_am_i() -> 0xD75668AD0AB5917c79d453309Cc2cA31120c0b02",
+          "caller": "0xd75668ad0ab5917c79d453309cc2ca31120c0b02",
+          "comment": "who_am_i() -> 0xd75668ad0ab5917c79d453309cc2ca31120c0b02",
           "instance": "AccountBuiltinTest",
           "method": "who_am_i()",
           "calldata": [],
           "expected": {
-            "return_data": "0x0000000000000000000000001212121212121212121212121212120000003012",
+            "return_data": "0x000000000000000000000000d75668ad0ab5917c79d453309cc2ca31120c0b02",
             "exception": false
           }
         },
         {
-          "caller": "0xd7d938266bAF1e8A3d8D1e05c97B9C8d6Cb26bAc",
-          "comment": "who_am_i() -> 0xd7d938266bAF1e8A3d8D1e05c97B9C8d6Cb26bAc",
+          "caller": "0xd7d938266baf1e8a3d8d1e05c97b9c8d6cb26bac",
+          "comment": "who_am_i() -> 0xd7d938266baf1e8a3d8d1e05c97b9c8d6cb26bac",
           "instance": "AccountBuiltinTest",
           "method": "who_am_i()",
           "calldata": [],
           "expected": {
-            "return_data": "0x0000000000000000000000001212121212121212121212121212120000004012",
+            "return_data": "0x000000000000000000000000d7d938266baf1e8a3d8d1e05c97b9c8d6cb26bac",
             "exception": false
           }
         },
         {
-          "caller": "0x2B489cBa91b57E1c66f43A35d386f0f6BBe53066",
-          "comment": "who_am_i() -> 0x2B489cBa91b57E1c66f43A35d386f0f6BBe53066",
+          "caller": "0x2b489cba91b57e1c66f43a35d386f0f6bbe53066",
+          "comment": "who_am_i() -> 0x2b489cba91b57e1c66f43a35d386f0f6bbe53066",
           "instance": "AccountBuiltinTest",
           "method": "who_am_i()",
           "calldata": [],
           "expected": {
-            "return_data": "0x0000000000000000000000001212121212121212121212121212120000005012",
+            "return_data": "0x0000000000000000000000002b489cba91b57e1c66f43a35d386f0f6bbe53066",
             "exception": false
           }
         },
         {
-          "caller": "0xeA5A8b7c8AE6F6AcEe81D5E8dA5CB242E47BE65f",
-          "comment": "who_am_i() -> 0xeA5A8b7c8AE6F6AcEe81D5E8dA5CB242E47BE65f",
+          "caller": "0xea5a8b7c8ae6f6acee81d5e8da5cb242e47be65f",
+          "comment": "who_am_i() -> 0xea5a8b7c8ae6f6acee81d5e8da5cb242e47be65f",
           "instance": "AccountBuiltinTest",
           "method": "who_am_i()",
           "calldata": [],
           "expected": {
-            "return_data": "0x0000000000000000000000001212121212121212121212121212120000006012",
+            "return_data": "0x000000000000000000000000ea5a8b7c8ae6f6acee81d5e8da5cb242e47be65f",
             "exception": false
           }
         },
         {
-          "caller": "0x5D508031B360129DF797e01A2D3D4332289b4d01",
-          "comment": "who_am_i() -> 0x5D508031B360129DF797e01A2D3D4332289b4d01",
+          "caller": "0x5d508031b360129df797e01a2d3d4332289b4d01",
+          "comment": "who_am_i() -> 0x5d508031b360129df797e01a2d3d4332289b4d01",
           "instance": "AccountBuiltinTest",
           "method": "who_am_i()",
           "calldata": [],
           "expected": {
-            "return_data": "0x0000000000000000000000001212121212121212121212121212120000007012",
+            "return_data": "0x0000000000000000000000005d508031b360129df797e01a2d3d4332289b4d01",
             "exception": false
           }
         },
         {
-          "caller": "0xd9F702A4A8B339Af4bbCb948Ca7C6C7035A0737a",
-          "comment": "who_am_i() -> 0xd9F702A4A8B339Af4bbCb948Ca7C6C7035A0737a",
+          "caller": "0xd9f702a4a8b339af4bbcb948ca7c6c7035a0737a",
+          "comment": "who_am_i() -> 0xd9f702a4a8b339af4bbcb948ca7c6c7035a0737a",
           "instance": "AccountBuiltinTest",
           "method": "who_am_i()",
           "calldata": [],
           "expected": {
-            "return_data": "0x0000000000000000000000001212121212121212121212121212120000008012",
+            "return_data": "0x000000000000000000000000d9f702a4a8b339af4bbcb948ca7c6c7035a0737a",
             "exception": false
           }
         },
         {
-          "caller": "0x72519C1D8F3B9c11d536cEcBF57f23E5ae7F087c",
-          "comment": "who_am_i() -> 0x72519C1D8F3B9c11d536cEcBF57f23E5ae7F087c",
+          "caller": "0x72519c1d8f3b9c11d536cecbf57f23e5ae7f087c",
+          "comment": "who_am_i() -> 0x72519c1d8f3b9c11d536cecbf57f23e5ae7f087c",
           "instance": "AccountBuiltinTest",
           "method": "who_am_i()",
           "calldata": [],
           "expected": {
-            "return_data": "0x0000000000000000000000001212121212121212121212121212120000009012",
+            "return_data": "0x00000000000000000000000072519c1d8f3b9c11d536cecbf57f23e5ae7f087c",
             "exception": false
           }
         },
         {
-          "caller": "0x71643160cb2e89EfC62a52bB42987a2195AD0289",
-          "comment": "who_am_i() -> 0x71643160cb2e89EfC62a52bB42987a2195AD0289",
+          "caller": "0x71643160cb2e89efc62a52bb42987a2195ad0289",
+          "comment": "who_am_i() -> 0x71643160cb2e89efc62a52bb42987a2195ad0289",
           "instance": "AccountBuiltinTest",
           "method": "who_am_i()",
           "calldata": [],
           "expected": {
-            "return_data": "0x000000000000000000000000121212121212121212121212121212000000a012",
+            "return_data": "0x00000000000000000000000071643160cb2e89efc62a52bb42987a2195ad0289",
             "exception": false
           }
         },
         {
-          "caller": "0xa108fC69944021455777655F9aDbcF795c907ECa",
-          "comment": "who_am_i() -> 0xa108fC69944021455777655F9aDbcF795c907ECa",
+          "caller": "0xa108fc69944021455777655f9adbcf795c907eca",
+          "comment": "who_am_i() -> 0xa108fc69944021455777655f9adbcf795c907eca",
           "instance": "AccountBuiltinTest",
           "method": "who_am_i()",
           "calldata": [],
           "expected": {
-            "return_data": "0x000000000000000000000000121212121212121212121212121212000000b012",
+            "return_data": "0x000000000000000000000000a108fc69944021455777655f9adbcf795c907eca",
             "exception": false
           }
         },
         {
-          "caller": "0x7Ca6bA734232961c233DcE9923996655d6Da97E8",
-          "comment": "who_am_i() -> 0x7Ca6bA734232961c233DcE9923996655d6Da97E8",
+          "caller": "0x7ca6ba734232961c233dce9923996655d6da97e8",
+          "comment": "who_am_i() -> 0x7ca6ba734232961c233dce9923996655d6da97e8",
           "instance": "AccountBuiltinTest",
           "method": "who_am_i()",
           "calldata": [],
           "expected": {
-            "return_data": "0x000000000000000000000000121212121212121212121212121212000000c012",
+            "return_data": "0x0000000000000000000000007ca6ba734232961c233dce9923996655d6da97e8",
             "exception": false
           }
         }

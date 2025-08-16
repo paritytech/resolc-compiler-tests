@@ -4,7 +4,7 @@
       "name": "external_call_value",
       "inputs": [
         {
-          "caller": "0x7D38C28A426294b9C2F92963eb60482A8DD3253c",
+          "caller": "0x7d38c28a426294b9c2f92963eb60482a8dd3253c",
           "comment": "g(uint256), 1 ether: 4 -> 1000000000000000000000, 4",
           "instance": "C",
           "method": "g(uint256)",
@@ -16,7 +16,7 @@
           "value": "1000000000000000000 wei"
         },
         {
-          "caller": "0x7D38C28A426294b9C2F92963eb60482A8DD3253c",
+          "caller": "0x7d38c28a426294b9c2f92963eb60482a8dd3253c",
           "comment": "f(uint256), 11 ether: 2 -> 10000, 2",
           "instance": "C",
           "method": "f(uint256)",

@@ -4,7 +4,7 @@
       "name": "delete_removes_bytes_data",
       "inputs": [
         {
-          "caller": "0x9cBd71E0e723De216671eE0adCE0ad702f2DA9B5",
+          "caller": "0x9cbd71e0e723de216671ee0adce0ad702f2da9b5",
           "comment": "(): 7 ->",
           "instance": "c",
           "method": "#fallback",
@@ -20,7 +20,7 @@
           "caller": "0xC7B8e6aaC8561264f4FacA1154D8a3F0598F5E49"
         },
         {
-          "caller": "0x9cBd71E0e723De216671eE0adCE0ad702f2DA9B5",
+          "caller": "0x9cbd71e0e723de216671ee0adce0ad702f2da9b5",
           "comment": "del(): 7 -> true",
           "instance": "c",
           "method": "del()",

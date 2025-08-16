@@ -4,7 +4,7 @@
       "name": "byte_array_to_storage_cleanup",
       "inputs": [
         {
-          "caller": "0xC14c5687Bda23cB36F7B37aE07674835515DcE58",
+          "caller": "0xc14c5687bda23cb36f7b37ae07674835515dce58",
           "comment": "constructor() ->; gas irOptimized: 82100; gas irOptimized code: 357600; gas legacy: 101532; gas legacy code: 604800; gas legacyOptimized: 84956; gas legacyOptimized code: 391800",
           "instance": "C",
           "method": "#deployer",
@@ -14,7 +14,7 @@
           }
         },
         {
-          "caller": "0xC14c5687Bda23cB36F7B37aE07674835515DcE58",
+          "caller": "0xc14c5687bda23cb36f7b37ae07674835515dce58",
           "comment": "h() -> 0x20, 0x40, 0x00, 0; ~ emit ev(uint256[],uint256): 0x40, 0x21, 0x02, 0x00, 0x00",
           "instance": "C",
           "method": "h()",
@@ -33,7 +33,7 @@
           }
         },
         {
-          "caller": "0xC14c5687Bda23cB36F7B37aE07674835515DcE58",
+          "caller": "0xc14c5687bda23cb36f7b37ae07674835515dce58",
           "comment": "g() -> 0x20, 0x40, 0, 0x00",
           "instance": "C",
           "method": "g()",
@@ -44,7 +44,7 @@
           }
         },
         {
-          "caller": "0xC14c5687Bda23cB36F7B37aE07674835515DcE58",
+          "caller": "0xc14c5687bda23cb36f7b37ae07674835515dce58",
           "comment": "f(bytes): 0x20, 33, 0, -1 -> 0x20, 0x22, 0, 0xff00000000000000000000000000000000000000000000000000000000000000",
           "instance": "C",
           "method": "f(bytes)",

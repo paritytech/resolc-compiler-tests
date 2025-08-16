@@ -10,7 +10,7 @@
           "caller": "0x386033da2D1c227A479732a67095249f054dce1d"
         },
         {
-          "caller": "0x06a3DC9F7A60D0c4E9eb1989F266679d03320d3d",
+          "caller": "0x06a3dc9f7a60d0c4e9eb1989f266679d03320d3d",
           "comment": "set(uint256): 1 ->",
           "instance": "StorageNotEmpty",
           "method": "set(uint256)",

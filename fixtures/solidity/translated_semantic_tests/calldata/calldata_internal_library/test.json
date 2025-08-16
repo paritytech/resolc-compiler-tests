@@ -4,7 +4,7 @@
       "name": "calldata_internal_library",
       "inputs": [
         {
-          "caller": "0x726D2748d31e37d07e96bfA18202d15995d65871",
+          "caller": "0x726d2748d31e37d07e96bfa18202d15995d65871",
           "comment": "g() -> 0x0800000000000000000000000000000000000000000000000000000000000000",
           "instance": "C",
           "method": "g()",

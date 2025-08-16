@@ -4,7 +4,7 @@
       "name": "shift_cleanup",
       "inputs": [
         {
-          "caller": "0x6C93F29088a5856cc9ee327A57B3652B68e85037",
+          "caller": "0x6c93f29088a5856cc9ee327a57b3652b68e85037",
           "comment": "f() -> 0x0",
           "instance": "C",
           "method": "f()",

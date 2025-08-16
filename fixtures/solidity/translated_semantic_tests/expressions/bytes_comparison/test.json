@@ -4,7 +4,7 @@
       "name": "bytes_comparison",
       "inputs": [
         {
-          "caller": "0x3577496a436bC4E85842e8061a287D88B1e73523",
+          "caller": "0x3577496a436bc4e85842e8061a287d88b1e73523",
           "comment": "f() -> true",
           "instance": "test",
           "method": "f()",

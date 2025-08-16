@@ -4,7 +4,7 @@
       "name": "bubble",
       "inputs": [
         {
-          "caller": "0x2B1D751c392B788F8e7B07f0A70127EAD881AFD0",
+          "caller": "0x2b1d751c392b788f8e7b07f0a70127ead881afd0",
           "comment": "f() -> FAILURE, hex\"08c379a0\", 0x20, 4, \"fail\"",
           "instance": "C",
           "method": "f()",

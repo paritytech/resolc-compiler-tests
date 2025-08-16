@@ -4,7 +4,7 @@
       "name": "calldata_array_static",
       "inputs": [
         {
-          "caller": "0x60952A51B312cEd28E2fB235057dB6DE4B9300b7",
+          "caller": "0x60952a51b312ced28e2fb235057db6de4b9300b7",
           "comment": "f(uint256[3]): 23, 42, 87 -> 32, 96, 23, 42, 87",
           "instance": "C",
           "method": "f(uint256[3])",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x60952A51B312cEd28E2fB235057dB6DE4B9300b7",
+          "caller": "0x60952a51b312ced28e2fb235057db6de4b9300b7",
           "comment": "g(uint256[3]): 23, 42, 87 -> 32, 96, 23, 42, 87",
           "instance": "C",
           "method": "g(uint256[3])",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0x60952A51B312cEd28E2fB235057dB6DE4B9300b7",
+          "caller": "0x60952a51b312ced28e2fb235057db6de4b9300b7",
           "comment": "h(uint8[3]): 23, 42, 87 -> 32, 96, 23, 42, 87",
           "instance": "C",
           "method": "h(uint8[3])",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0x60952A51B312cEd28E2fB235057dB6DE4B9300b7",
+          "caller": "0x60952a51b312ced28e2fb235057db6de4b9300b7",
           "comment": "i(uint8[3]): 23, 42, 87 -> 32, 96, 23, 42, 87",
           "instance": "C",
           "method": "i(uint8[3])",
@@ -48,7 +48,7 @@
           }
         },
         {
-          "caller": "0x60952A51B312cEd28E2fB235057dB6DE4B9300b7",
+          "caller": "0x60952a51b312ced28e2fb235057db6de4b9300b7",
           "comment": "h(uint8[3]): 0xFF23, 0x1242, 0xAB87 -> FAILURE",
           "instance": "C",
           "method": "h(uint8[3])",
@@ -58,7 +58,7 @@
           }
         },
         {
-          "caller": "0x60952A51B312cEd28E2fB235057dB6DE4B9300b7",
+          "caller": "0x60952a51b312ced28e2fb235057db6de4b9300b7",
           "comment": "i(uint8[3]): 0xAB23, 0x1242, 0xFF87 -> FAILURE",
           "instance": "C",
           "method": "i(uint8[3])",

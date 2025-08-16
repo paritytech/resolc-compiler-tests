@@ -4,7 +4,7 @@
       "name": "enum_v1",
       "inputs": [
         {
-          "caller": "0x03b59646f5D5EaE87652A9dFfC26abB1e248D995",
+          "caller": "0x03b59646f5d5eae87652a9dffc26abb1e248d995",
           "comment": "f(uint8[]): 0x20, 2, 3, 3 -> FAILURE",
           "instance": "C",
           "method": "f(uint8[])",

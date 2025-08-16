@@ -4,7 +4,7 @@
       "name": "internal_library_function_attached_to_dynamic_array",
       "inputs": [
         {
-          "caller": "0x3A3B51f07F02744cbD9C5973f8919394F9fef6a3",
+          "caller": "0x3a3b51f07f02744cbd9c5973f8919394f9fef6a3",
           "comment": "secondItem() -> 0x22",
           "instance": "C",
           "method": "secondItem()",

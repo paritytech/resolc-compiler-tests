@@ -4,7 +4,7 @@
       "name": "array_pop_uint24_transition",
       "inputs": [
         {
-          "caller": "0x76EE60D11Cd54b0C50E4d2Be0561BF0b6B11ffb1",
+          "caller": "0x76ee60d11cd54b0c50e4d2be0561bf0b6b11ffb1",
           "comment": "test() -> 20, 10; gas irOptimized: 125889; gas legacy: 127215; gas legacyOptimized: 122224",
           "instance": "c",
           "method": "test()",

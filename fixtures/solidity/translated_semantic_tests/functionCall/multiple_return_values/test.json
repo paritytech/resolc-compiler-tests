@@ -4,7 +4,7 @@
       "name": "multiple_return_values",
       "inputs": [
         {
-          "caller": "0x53542ceC3E0568A88fDfe48fD94dF8d31426c84A",
+          "caller": "0x53542cec3e0568a88fdfe48fd94df8d31426c84a",
           "comment": "run(bool,uint256): true, 0xcd -> 0xcd, true, 0",
           "instance": "test",
           "method": "run(bool,uint256)",

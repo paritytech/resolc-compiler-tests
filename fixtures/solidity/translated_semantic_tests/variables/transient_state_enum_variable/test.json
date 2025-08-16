@@ -4,7 +4,7 @@
       "name": "transient_state_enum_variable",
       "inputs": [
         {
-          "caller": "0xDECA0C20C7Dfc84B056C3E8A58Fe03Cd72Ec14F5",
+          "caller": "0xdeca0c20c7dfc84b056c3e8a58fe03cd72ec14f5",
           "comment": "f() ->",
           "instance": "C",
           "method": "f()",

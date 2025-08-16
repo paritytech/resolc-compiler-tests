@@ -4,7 +4,7 @@
       "name": "assign_tuple_from_function_call",
       "inputs": [
         {
-          "caller": "0x2174Ca3EE9aCE7dd8C946C97054C72f2B384C4C2",
+          "caller": "0x2174ca3ee9ace7dd8c946c97054c72f2b384c4c2",
           "comment": "g() -> 3, 2, 1",
           "instance": "C",
           "method": "g()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x2174Ca3EE9aCE7dd8C946C97054C72f2B384C4C2",
+          "caller": "0x2174ca3ee9ace7dd8c946c97054c72f2b384c4c2",
           "comment": "h() -> 3",
           "instance": "C",
           "method": "h()",

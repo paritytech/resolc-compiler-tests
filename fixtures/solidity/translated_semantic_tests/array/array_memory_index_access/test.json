@@ -4,7 +4,7 @@
       "name": "array_memory_index_access",
       "inputs": [
         {
-          "caller": "0x997A7AA29f21F6B017eF712CbABA7Fed553d50f5",
+          "caller": "0x997a7aa29f21f6b017ef712cbaba7fed553d50f5",
           "comment": "index(uint256): 0 -> true",
           "instance": "C",
           "method": "index(uint256)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x997A7AA29f21F6B017eF712CbABA7Fed553d50f5",
+          "caller": "0x997a7aa29f21f6b017ef712cbaba7fed553d50f5",
           "comment": "index(uint256): 10 -> true",
           "instance": "C",
           "method": "index(uint256)",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0x997A7AA29f21F6B017eF712CbABA7Fed553d50f5",
+          "caller": "0x997a7aa29f21f6b017ef712cbaba7fed553d50f5",
           "comment": "index(uint256): 20 -> true",
           "instance": "C",
           "method": "index(uint256)",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0x997A7AA29f21F6B017eF712CbABA7Fed553d50f5",
+          "caller": "0x997a7aa29f21f6b017ef712cbaba7fed553d50f5",
           "comment": "index(uint256): 0xFF -> true; gas irOptimized: 108272; gas legacy: 181536; gas legacyOptimized: 117442",
           "instance": "C",
           "method": "index(uint256)",
@@ -48,7 +48,7 @@
           }
         },
         {
-          "caller": "0x997A7AA29f21F6B017eF712CbABA7Fed553d50f5",
+          "caller": "0x997a7aa29f21f6b017ef712cbaba7fed553d50f5",
           "comment": "accessIndex(uint256,int256): 10, 1 -> 2",
           "instance": "C",
           "method": "accessIndex(uint256,int256)",
@@ -59,7 +59,7 @@
           }
         },
         {
-          "caller": "0x997A7AA29f21F6B017eF712CbABA7Fed553d50f5",
+          "caller": "0x997a7aa29f21f6b017ef712cbaba7fed553d50f5",
           "comment": "accessIndex(uint256,int256): 10, 0 -> 1",
           "instance": "C",
           "method": "accessIndex(uint256,int256)",
@@ -70,7 +70,7 @@
           }
         },
         {
-          "caller": "0x997A7AA29f21F6B017eF712CbABA7Fed553d50f5",
+          "caller": "0x997a7aa29f21f6b017ef712cbaba7fed553d50f5",
           "comment": "accessIndex(uint256,int256): 10, 11 -> FAILURE, hex\"4e487b71\", 0x32",
           "instance": "C",
           "method": "accessIndex(uint256,int256)",
@@ -81,7 +81,7 @@
           }
         },
         {
-          "caller": "0x997A7AA29f21F6B017eF712CbABA7Fed553d50f5",
+          "caller": "0x997a7aa29f21f6b017ef712cbaba7fed553d50f5",
           "comment": "accessIndex(uint256,int256): 10, 10 -> FAILURE, hex\"4e487b71\", 0x32",
           "instance": "C",
           "method": "accessIndex(uint256,int256)",
@@ -92,7 +92,7 @@
           }
         },
         {
-          "caller": "0x997A7AA29f21F6B017eF712CbABA7Fed553d50f5",
+          "caller": "0x997a7aa29f21f6b017ef712cbaba7fed553d50f5",
           "comment": "accessIndex(uint256,int256): 10, -1 -> FAILURE, hex\"4e487b71\", 0x32",
           "instance": "C",
           "method": "accessIndex(uint256,int256)",

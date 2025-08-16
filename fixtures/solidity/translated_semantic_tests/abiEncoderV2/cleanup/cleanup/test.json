@@ -4,7 +4,7 @@
       "name": "cleanup",
       "inputs": [
         {
-          "caller": "0xab49D0d40F2D8AE08769c57F787564838f33154E",
+          "caller": "0xab49d0d40f2d8ae08769c57f787564838f33154e",
           "comment": "f(uint16,int16,address,bytes3,bool): 1, 2, 3, \"a\", true -> 1, 2, 3, \"a\", true",
           "instance": "C",
           "method": "f(uint16,int16,address,bytes3,bool)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xab49D0d40F2D8AE08769c57F787564838f33154E",
+          "caller": "0xab49d0d40f2d8ae08769c57f787564838f33154e",
           "comment": "f(uint16,int16,address,bytes3,bool): 0xffffff, 0x1ffff, 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff, \"abcd\", 1 -> FAILURE",
           "instance": "C",
           "method": "f(uint16,int16,address,bytes3,bool)",
@@ -25,7 +25,7 @@
           }
         },
         {
-          "caller": "0xab49D0d40F2D8AE08769c57F787564838f33154E",
+          "caller": "0xab49d0d40f2d8ae08769c57f787564838f33154e",
           "comment": "f(uint16,int16,address,bytes3,bool): 0xffffff, 0, 0, \"bcd\", 1 -> FAILURE",
           "instance": "C",
           "method": "f(uint16,int16,address,bytes3,bool)",
@@ -35,7 +35,7 @@
           }
         },
         {
-          "caller": "0xab49D0d40F2D8AE08769c57F787564838f33154E",
+          "caller": "0xab49d0d40f2d8ae08769c57f787564838f33154e",
           "comment": "f(uint16,int16,address,bytes3,bool): 0, 0x1ffff, 0, \"ab\", 1 -> FAILURE",
           "instance": "C",
           "method": "f(uint16,int16,address,bytes3,bool)",
@@ -45,7 +45,7 @@
           }
         },
         {
-          "caller": "0xab49D0d40F2D8AE08769c57F787564838f33154E",
+          "caller": "0xab49d0d40f2d8ae08769c57f787564838f33154e",
           "comment": "f(uint16,int16,address,bytes3,bool): 0, 0, 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff, \"ad\", 1 -> FAILURE",
           "instance": "C",
           "method": "f(uint16,int16,address,bytes3,bool)",
@@ -55,7 +55,7 @@
           }
         },
         {
-          "caller": "0xab49D0d40F2D8AE08769c57F787564838f33154E",
+          "caller": "0xab49d0d40f2d8ae08769c57f787564838f33154e",
           "comment": "f(uint16,int16,address,bytes3,bool): 0, 0, 0, \"abcd\", 1 -> FAILURE",
           "instance": "C",
           "method": "f(uint16,int16,address,bytes3,bool)",
@@ -65,7 +65,7 @@
           }
         },
         {
-          "caller": "0xab49D0d40F2D8AE08769c57F787564838f33154E",
+          "caller": "0xab49d0d40f2d8ae08769c57f787564838f33154e",
           "comment": "f(uint16,int16,address,bytes3,bool): 0, 0, 0, \"abc\", 2 -> FAILURE",
           "instance": "C",
           "method": "f(uint16,int16,address,bytes3,bool)",

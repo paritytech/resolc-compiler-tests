@@ -4,7 +4,7 @@
       "name": "conditional_expression_true_literal",
       "inputs": [
         {
-          "caller": "0x16373C172d98Dbb55701a9e8F56D4b45e53FB099",
+          "caller": "0x16373c172d98dbb55701a9e8f56d4b45e53fb099",
           "comment": "f() -> 5",
           "instance": "test",
           "method": "f()",

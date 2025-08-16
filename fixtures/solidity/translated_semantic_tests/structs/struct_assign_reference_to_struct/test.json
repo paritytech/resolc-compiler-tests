@@ -4,7 +4,7 @@
       "name": "struct_assign_reference_to_struct",
       "inputs": [
         {
-          "caller": "0x4Cb022C5314E37F9d2647bAf8Bc91B69C907f5Fd",
+          "caller": "0x4cb022c5314e37f9d2647baf8bc91b69c907f5fd",
           "comment": "assign() -> 2, 2, 3, 3",
           "instance": "test",
           "method": "assign()",

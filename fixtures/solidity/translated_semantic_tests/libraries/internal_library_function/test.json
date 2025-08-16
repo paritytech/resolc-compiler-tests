@@ -4,7 +4,7 @@
       "name": "internal_library_function",
       "inputs": [
         {
-          "caller": "0x92128C2e0C0b302f46BA027bD16C24619E62006f",
+          "caller": "0x92128c2e0c0b302f46ba027bd16c24619e62006f",
           "comment": "f() -> 2",
           "instance": "C",
           "method": "f()",

@@ -4,7 +4,7 @@
       "name": "alignment",
       "inputs": [
         {
-          "caller": "0x9B65bA56c2CEf1e85eB0F861A60f515b54c6965D",
+          "caller": "0x9b65ba56c2cef1e85eb0f861a60f515b54c6965d",
           "comment": "stateBool() -> true",
           "instance": "D",
           "method": "stateBool()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x9B65bA56c2CEf1e85eB0F861A60f515b54c6965D",
+          "caller": "0x9b65ba56c2cef1e85eb0f861a60f515b54c6965d",
           "comment": "stateBool() -> right(true)",
           "instance": "D",
           "method": "stateBool()",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0x9B65bA56c2CEf1e85eB0F861A60f515b54c6965D",
+          "caller": "0x9b65ba56c2cef1e85eb0f861a60f515b54c6965d",
           "comment": "stateDecimal() -> 42",
           "instance": "D",
           "method": "stateDecimal()",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0x9B65bA56c2CEf1e85eB0F861A60f515b54c6965D",
+          "caller": "0x9b65ba56c2cef1e85eb0f861a60f515b54c6965d",
           "comment": "stateDecimal() -> right(42)",
           "instance": "D",
           "method": "stateDecimal()",
@@ -48,7 +48,7 @@
           }
         },
         {
-          "caller": "0x9B65bA56c2CEf1e85eB0F861A60f515b54c6965D",
+          "caller": "0x9b65ba56c2cef1e85eb0f861a60f515b54c6965d",
           "comment": "stateBytes() -> left(0x4200ef)",
           "instance": "D",
           "method": "stateBytes()",
@@ -59,7 +59,7 @@
           }
         },
         {
-          "caller": "0x9B65bA56c2CEf1e85eB0F861A60f515b54c6965D",
+          "caller": "0x9b65ba56c2cef1e85eb0f861a60f515b54c6965d",
           "comment": "internalStateDecimal() -> 0x20; gas legacy: 76665; gas legacy code: 23600",
           "instance": "D",
           "method": "internalStateDecimal()",
@@ -70,7 +70,7 @@
           }
         },
         {
-          "caller": "0x9B65bA56c2CEf1e85eB0F861A60f515b54c6965D",
+          "caller": "0x9b65ba56c2cef1e85eb0f861a60f515b54c6965d",
           "comment": "update(bool,uint256,bytes32): false, -23, left(0x2300ef) -> false, -23, left(0x2300ef)",
           "instance": "D",
           "method": "update(bool,uint256,bytes32)",

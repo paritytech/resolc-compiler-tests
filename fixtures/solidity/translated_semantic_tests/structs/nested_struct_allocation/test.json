@@ -4,7 +4,7 @@
       "name": "nested_struct_allocation",
       "inputs": [
         {
-          "caller": "0x04ab6D70F397E3DF5abDf1EAcD53a9De8F597c81",
+          "caller": "0x04ab6d70f397e3df5abdf1eacd53a9de8f597c81",
           "comment": "f() -> 1",
           "instance": "C",
           "method": "f()",

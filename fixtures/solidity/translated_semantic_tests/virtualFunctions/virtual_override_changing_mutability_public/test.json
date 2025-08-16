@@ -4,7 +4,7 @@
       "name": "virtual_override_changing_mutability_public",
       "inputs": [
         {
-          "caller": "0x9179C69b22a9fC2494E130819c26A3daB60dB0fc",
+          "caller": "0x9179c69b22a9fc2494e130819c26a3dab60db0fc",
           "comment": "run() ->",
           "instance": "C",
           "method": "run()",

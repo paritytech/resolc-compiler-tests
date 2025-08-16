@@ -4,7 +4,7 @@
       "name": "bytes_storage_to_memory",
       "inputs": [
         {
-          "caller": "0x0a53C1675d2bc61034c90b9731dC001F314F9EDc",
+          "caller": "0x0a53c1675d2bc61034c90b9731dc001f314f9edc",
           "comment": "f() -> \"a\"",
           "instance": "C",
           "method": "f()",

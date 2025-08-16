@@ -4,7 +4,7 @@
       "name": "addmod_mulmod_zero",
       "inputs": [
         {
-          "caller": "0xc313EBae1497a32cB029aF8C820b9feFBf71F5aF",
+          "caller": "0xc313ebae1497a32cb029af8c820b9fefbf71f5af",
           "comment": "f(uint256): 0 -> FAILURE, hex\"4e487b71\", 0x12",
           "instance": "C",
           "method": "f(uint256)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xc313EBae1497a32cB029aF8C820b9feFBf71F5aF",
+          "caller": "0xc313ebae1497a32cb029af8c820b9fefbf71f5af",
           "comment": "g(uint256): 0 -> FAILURE, hex\"4e487b71\", 0x12",
           "instance": "C",
           "method": "g(uint256)",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0xc313EBae1497a32cB029aF8C820b9feFBf71F5aF",
+          "caller": "0xc313ebae1497a32cb029af8c820b9fefbf71f5af",
           "comment": "h() -> 2",
           "instance": "C",
           "method": "h()",

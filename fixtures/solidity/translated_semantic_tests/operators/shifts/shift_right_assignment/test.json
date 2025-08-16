@@ -4,7 +4,7 @@
       "name": "shift_right_assignment",
       "inputs": [
         {
-          "caller": "0x7372616c7e3f19aE50d14B26a3555421f4088c97",
+          "caller": "0x7372616c7e3f19ae50d14b26a3555421f4088c97",
           "comment": "f(uint256,uint256): 0x4266, 0x0 -> 0x4266",
           "instance": "C",
           "method": "f(uint256,uint256)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x7372616c7e3f19aE50d14B26a3555421f4088c97",
+          "caller": "0x7372616c7e3f19ae50d14b26a3555421f4088c97",
           "comment": "f(uint256,uint256): 0x4266, 0x8 -> 0x42",
           "instance": "C",
           "method": "f(uint256,uint256)",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0x7372616c7e3f19aE50d14B26a3555421f4088c97",
+          "caller": "0x7372616c7e3f19ae50d14b26a3555421f4088c97",
           "comment": "f(uint256,uint256): 0x4266, 0x10 -> 0",
           "instance": "C",
           "method": "f(uint256,uint256)",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0x7372616c7e3f19aE50d14B26a3555421f4088c97",
+          "caller": "0x7372616c7e3f19ae50d14b26a3555421f4088c97",
           "comment": "f(uint256,uint256): 0x4266, 0x11 -> 0",
           "instance": "C",
           "method": "f(uint256,uint256)",

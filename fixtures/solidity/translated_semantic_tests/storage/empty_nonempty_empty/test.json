@@ -4,7 +4,7 @@
       "name": "empty_nonempty_empty",
       "inputs": [
         {
-          "caller": "0x724Fb03770B250cb9e31B8999401313708Bf9af8",
+          "caller": "0x724fb03770b250cb9e31b8999401313708bf9af8",
           "comment": "set(bytes): 0x20, 3, \"abc\"",
           "instance": "Test",
           "method": "set(bytes)",
@@ -20,7 +20,7 @@
           "caller": "0xEFbaB5185b420539B8b173c67749Fc8414FC3176"
         },
         {
-          "caller": "0x724Fb03770B250cb9e31B8999401313708Bf9af8",
+          "caller": "0x724fb03770b250cb9e31b8999401313708bf9af8",
           "comment": "set(bytes): 0x20, 0",
           "instance": "Test",
           "method": "set(bytes)",
@@ -36,7 +36,7 @@
           "caller": "0xEFbaB5185b420539B8b173c67749Fc8414FC3176"
         },
         {
-          "caller": "0x724Fb03770B250cb9e31B8999401313708Bf9af8",
+          "caller": "0x724fb03770b250cb9e31b8999401313708bf9af8",
           "comment": "set(bytes): 0x20, 31, \"1234567890123456789012345678901\"",
           "instance": "Test",
           "method": "set(bytes)",
@@ -52,7 +52,7 @@
           "caller": "0xEFbaB5185b420539B8b173c67749Fc8414FC3176"
         },
         {
-          "caller": "0x724Fb03770B250cb9e31B8999401313708Bf9af8",
+          "caller": "0x724fb03770b250cb9e31b8999401313708bf9af8",
           "comment": "set(bytes): 0x20, 36, \"12345678901234567890123456789012\", \"XXXX\"",
           "instance": "Test",
           "method": "set(bytes)",
@@ -68,7 +68,7 @@
           "caller": "0xEFbaB5185b420539B8b173c67749Fc8414FC3176"
         },
         {
-          "caller": "0x724Fb03770B250cb9e31B8999401313708Bf9af8",
+          "caller": "0x724fb03770b250cb9e31b8999401313708bf9af8",
           "comment": "set(bytes): 0x20, 3, \"abc\"",
           "instance": "Test",
           "method": "set(bytes)",
@@ -84,7 +84,7 @@
           "caller": "0xEFbaB5185b420539B8b173c67749Fc8414FC3176"
         },
         {
-          "caller": "0x724Fb03770B250cb9e31B8999401313708Bf9af8",
+          "caller": "0x724fb03770b250cb9e31b8999401313708bf9af8",
           "comment": "set(bytes): 0x20, 0",
           "instance": "Test",
           "method": "set(bytes)",
@@ -100,7 +100,7 @@
           "caller": "0xEFbaB5185b420539B8b173c67749Fc8414FC3176"
         },
         {
-          "caller": "0x724Fb03770B250cb9e31B8999401313708Bf9af8",
+          "caller": "0x724fb03770b250cb9e31b8999401313708bf9af8",
           "comment": "set(bytes): 0x20, 3, \"abc\"",
           "instance": "Test",
           "method": "set(bytes)",
@@ -116,7 +116,7 @@
           "caller": "0xEFbaB5185b420539B8b173c67749Fc8414FC3176"
         },
         {
-          "caller": "0x724Fb03770B250cb9e31B8999401313708Bf9af8",
+          "caller": "0x724fb03770b250cb9e31b8999401313708bf9af8",
           "comment": "set(bytes): 0x20, 36, \"12345678901234567890123456789012\", \"XXXX\"",
           "instance": "Test",
           "method": "set(bytes)",
@@ -132,7 +132,7 @@
           "caller": "0xEFbaB5185b420539B8b173c67749Fc8414FC3176"
         },
         {
-          "caller": "0x724Fb03770B250cb9e31B8999401313708Bf9af8",
+          "caller": "0x724fb03770b250cb9e31b8999401313708bf9af8",
           "comment": "set(bytes): 0x20, 0",
           "instance": "Test",
           "method": "set(bytes)",
@@ -148,7 +148,7 @@
           "caller": "0xEFbaB5185b420539B8b173c67749Fc8414FC3176"
         },
         {
-          "caller": "0x724Fb03770B250cb9e31B8999401313708Bf9af8",
+          "caller": "0x724fb03770b250cb9e31b8999401313708bf9af8",
           "comment": "set(bytes): 0x20, 66, \"12345678901234567890123456789012\", \"12345678901234567890123456789012\", \"12\"; gas irOptimized: 111849; gas legacy: 112734; gas legacyOptimized: 112084",
           "instance": "Test",
           "method": "set(bytes)",
@@ -164,7 +164,7 @@
           "caller": "0xEFbaB5185b420539B8b173c67749Fc8414FC3176"
         },
         {
-          "caller": "0x724Fb03770B250cb9e31B8999401313708Bf9af8",
+          "caller": "0x724fb03770b250cb9e31b8999401313708bf9af8",
           "comment": "set(bytes): 0x20, 3, \"abc\"",
           "instance": "Test",
           "method": "set(bytes)",
@@ -180,7 +180,7 @@
           "caller": "0xEFbaB5185b420539B8b173c67749Fc8414FC3176"
         },
         {
-          "caller": "0x724Fb03770B250cb9e31B8999401313708Bf9af8",
+          "caller": "0x724fb03770b250cb9e31b8999401313708bf9af8",
           "comment": "set(bytes): 0x20, 0",
           "instance": "Test",
           "method": "set(bytes)",

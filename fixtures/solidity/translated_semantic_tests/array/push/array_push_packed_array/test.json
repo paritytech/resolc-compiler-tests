@@ -4,7 +4,7 @@
       "name": "array_push_packed_array",
       "inputs": [
         {
-          "caller": "0xec470B5aC4ADfa27577967AE0f6A74fD89f9AFB0",
+          "caller": "0xec470b5ac4adfa27577967ae0f6a74fd89f9afb0",
           "comment": "test() -> 1, 2, 3, 4; gas irOptimized: 93017; gas legacy: 92798; gas legacyOptimized: 92062",
           "instance": "c",
           "method": "test()",

@@ -4,7 +4,7 @@
       "name": "array_push_nested_from_calldata",
       "inputs": [
         {
-          "caller": "0xc98E4Fd64Dc8862B2EE6287C21b20A13bD01279E",
+          "caller": "0xc98e4fd64dc8862b2ee6287c21b20a13bd01279e",
           "comment": "f(uint120[]): 0x20, 3, 1, 2, 3 -> 1; gas irOptimized: 112852; gas legacy: 113657; gas legacyOptimized: 113465",
           "instance": "C",
           "method": "f(uint120[])",

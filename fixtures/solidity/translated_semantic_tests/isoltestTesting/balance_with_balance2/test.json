@@ -4,7 +4,7 @@
       "name": "balance_with_balance2",
       "inputs": [
         {
-          "caller": "0x5AD866092FFA234aAf7DdA834DD6Ca69Eb2Eefc9",
+          "caller": "0x5ad866092ffa234aaf7dda834dd6ca69eb2eefc9",
           "comment": "constructor(), 1 ether ->",
           "instance": "ClientReceipt",
           "method": "#deployer",

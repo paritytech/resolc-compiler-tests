@@ -4,7 +4,7 @@
       "name": "multiline_comments",
       "inputs": [
         {
-          "caller": "0xCBfda3B0e7Dc2D4997c8E757aefB5Ab68b973D29",
+          "caller": "0xcbfda3b0e7dc2d4997c8e757aefb5ab68b973d29",
           "comment": "f(uint256,uint256,uint256,uint256,uint256): 1, 1, 1, 1, 1-> 5",
           "instance": "C",
           "method": "f(uint256,uint256,uint256,uint256,uint256)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xCBfda3B0e7Dc2D4997c8E757aefB5Ab68b973D29",
+          "caller": "0xcbfda3b0e7dc2d4997c8e757aefb5ab68b973d29",
           "comment": "f(uint256,uint256,uint256,uint256,uint256):1,1,1,1,1-> 5",
           "instance": "C",
           "method": "f(uint256,uint256,uint256,uint256,uint256)",

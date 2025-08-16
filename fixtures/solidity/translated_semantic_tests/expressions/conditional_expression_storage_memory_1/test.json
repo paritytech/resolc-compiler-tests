@@ -4,7 +4,7 @@
       "name": "conditional_expression_storage_memory_1",
       "inputs": [
         {
-          "caller": "0x3cBBE7e09B229FAE527a81cCa9D880A48eD33145",
+          "caller": "0x3cbbe7e09b229fae527a81cca9d880a48ed33145",
           "comment": "f(bool): true -> 1",
           "instance": "test",
           "method": "f(bool)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x3cBBE7e09B229FAE527a81cCa9D880A48eD33145",
+          "caller": "0x3cbbe7e09b229fae527a81cca9d880a48ed33145",
           "comment": "f(bool): false -> 2",
           "instance": "test",
           "method": "f(bool)",

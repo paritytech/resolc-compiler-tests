@@ -4,7 +4,7 @@
       "name": "constructor",
       "inputs": [
         {
-          "caller": "0xb03cB7f5857Fb47E59A3fFCF342cFd61B56ec741",
+          "caller": "0xb03cb7f5857fb47e59a3ffcf342cfd61b56ec741",
           "comment": "constructor(), 2 wei: 3 ->; gas irOptimized: 78996; gas irOptimized code: 25400; gas legacy: 83055; gas legacy code: 65200; gas legacyOptimized: 78898; gas legacyOptimized code: 27800",
           "instance": "C",
           "method": "#deployer",
@@ -15,7 +15,7 @@
           "value": "2 wei"
         },
         {
-          "caller": "0xb03cB7f5857Fb47E59A3fFCF342cFd61B56ec741",
+          "caller": "0xb03cb7f5857fb47e59a3ffcf342cfd61b56ec741",
           "comment": "state() -> 3",
           "instance": "C",
           "method": "state()",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0xb03cB7f5857Fb47E59A3fFCF342cFd61B56ec741",
+          "caller": "0xb03cb7f5857fb47e59a3ffcf342cfd61b56ec741",
           "comment": "balance() -> 2",
           "instance": "C",
           "method": "balance()",
@@ -43,7 +43,7 @@
           "caller": "0x7CDD6E3B151e04d9D219380Ee689Ff937aFCe3ab"
         },
         {
-          "caller": "0xb03cB7f5857Fb47E59A3fFCF342cFd61B56ec741",
+          "caller": "0xb03cb7f5857fb47e59a3ffcf342cfd61b56ec741",
           "comment": "update(uint256): 4",
           "instance": "C",
           "method": "update(uint256)",
@@ -53,7 +53,7 @@
           }
         },
         {
-          "caller": "0xb03cB7f5857Fb47E59A3fFCF342cFd61B56ec741",
+          "caller": "0xb03cb7f5857fb47e59a3ffcf342cfd61b56ec741",
           "comment": "state() -> 4",
           "instance": "C",
           "method": "state()",

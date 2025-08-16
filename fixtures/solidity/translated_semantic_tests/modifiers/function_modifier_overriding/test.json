@@ -4,7 +4,7 @@
       "name": "function_modifier_overriding",
       "inputs": [
         {
-          "caller": "0xBdEA164ef6Ef103c68556eF735179AaF321265bc",
+          "caller": "0xbdea164ef6ef103c68556ef735179aaf321265bc",
           "comment": "f() -> false",
           "instance": "C",
           "method": "f()",

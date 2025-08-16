@@ -4,7 +4,7 @@
       "name": "internal_library_function_attached_to_address",
       "inputs": [
         {
-          "caller": "0x875758999A9a9bd648A4a7a7bDcE1B504Bde9097",
+          "caller": "0x875758999a9a9bd648a4a7a7bdce1b504bde9097",
           "comment": "foo(address,address): 0x111122223333444455556666777788889999aAaa, 0x111122223333444455556666777788889999aAaa -> true",
           "instance": "C",
           "method": "foo(address,address)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x875758999A9a9bd648A4a7a7bDcE1B504Bde9097",
+          "caller": "0x875758999a9a9bd648a4a7a7bdce1b504bde9097",
           "comment": "foo(address,address): 0x111122223333444455556666777788889999aAaa, 0x0000000000000000000000000000000000000000 -> false",
           "instance": "C",
           "method": "foo(address,address)",

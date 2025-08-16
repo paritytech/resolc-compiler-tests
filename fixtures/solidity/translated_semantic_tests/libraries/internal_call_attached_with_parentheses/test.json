@@ -4,7 +4,7 @@
       "name": "internal_call_attached_with_parentheses",
       "inputs": [
         {
-          "caller": "0x44b31452836C6052d9FE6013859eD4e0D5287601",
+          "caller": "0x44b31452836c6052d9fe6013859ed4e0d5287601",
           "comment": "f() -> 0x0a",
           "instance": "C",
           "method": "f()",

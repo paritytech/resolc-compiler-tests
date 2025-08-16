@@ -4,7 +4,7 @@
       "name": "abi_encode_rational_v2",
       "inputs": [
         {
-          "caller": "0x196e27e3833868782F9C100700f609EA265409Ce",
+          "caller": "0x196e27e3833868782f9c100700f609ea265409ce",
           "comment": "f() -> 0x20, 0x40, 0x1, -2",
           "instance": "C",
           "method": "f()",

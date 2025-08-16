@@ -4,7 +4,7 @@
       "name": "elements_of_nested_array_of_structs_memory_to_storage",
       "inputs": [
         {
-          "caller": "0xC0a406c4aC30e5da403CD4E34036431F017a63b7",
+          "caller": "0xc0a406c4ac30e5da403cd4e34036431f017a63b7",
           "comment": "test1((uint8[],uint8[2])[][][]): 0x20, 1, 0x20, 2, 0x40, 0x0140, 1, 0x20, 0x60, 3, 7, 2, 1, 2, 2, 0x40, 0x0100, 0x60, 17, 19, 2, 11, 13, 0x60, 31, 37, 2, 23, 29 -> 0x20, 2, 0x40, 0x0140, 1, 0x20, 0x60, 3, 7, 2, 1, 2, 2, 0x40, 0x0100, 0x60, 17, 19, 2, 11, 13, 0x60, 31, 37, 2, 23, 29; gas irOptimized: 332567",
           "instance": "C",
           "method": "test1((uint8[],uint8[2])[][][])",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xC0a406c4aC30e5da403CD4E34036431F017a63b7",
+          "caller": "0xc0a406c4ac30e5da403cd4e34036431f017a63b7",
           "comment": "test2((uint8[],uint8[2])[][1][]): 0x20, 2, 0x40, 0x0160, 0x20, 1, 0x20, 0x60, 17, 19, 2, 11, 13, 0x20, 1, 0x20, 0x60, 31, 37, 2, 23, 29 -> 0x20, 0x20, 1, 0x20, 0x60, 17, 19, 2, 11, 13; gas irOptimized: 145409",
           "instance": "C",
           "method": "test2((uint8[],uint8[2])[][1][])",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0xC0a406c4aC30e5da403CD4E34036431F017a63b7",
+          "caller": "0xc0a406c4ac30e5da403cd4e34036431f017a63b7",
           "comment": "test3((uint8[],uint8[2])[1][][2]): 0x20, 0x40, 0x60, 0, 2, 0x40, 288, 0x20, 0x60, 3, 7, 2, 1, 2, 0x20, 0x60, 17, 19, 2, 11, 13 -> 0x20, 2, 0x40, 288, 0x20, 0x60, 3, 7, 2, 1, 2, 0x20, 0x60, 17, 19, 2, 11, 13; gas irOptimized: 192248",
           "instance": "C",
           "method": "test3((uint8[],uint8[2])[1][][2])",

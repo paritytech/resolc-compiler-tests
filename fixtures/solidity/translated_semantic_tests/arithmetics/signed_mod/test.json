@@ -4,7 +4,7 @@
       "name": "signed_mod",
       "inputs": [
         {
-          "caller": "0xd6eF805866bFeA0b3BD1EAE247803D9428914286",
+          "caller": "0xd6ef805866bfea0b3bd1eae247803d9428914286",
           "comment": "f(int256,int256): 7, 5 -> 2",
           "instance": "C",
           "method": "f(int256,int256)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xd6eF805866bFeA0b3BD1EAE247803D9428914286",
+          "caller": "0xd6ef805866bfea0b3bd1eae247803d9428914286",
           "comment": "f(int256,int256): 7, -5 -> 2",
           "instance": "C",
           "method": "f(int256,int256)",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0xd6eF805866bFeA0b3BD1EAE247803D9428914286",
+          "caller": "0xd6ef805866bfea0b3bd1eae247803d9428914286",
           "comment": "f(int256,int256): -7, 5 -> -2",
           "instance": "C",
           "method": "f(int256,int256)",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0xd6eF805866bFeA0b3BD1EAE247803D9428914286",
+          "caller": "0xd6ef805866bfea0b3bd1eae247803d9428914286",
           "comment": "f(int256,int256): -7, 5 -> -2",
           "instance": "C",
           "method": "f(int256,int256)",
@@ -48,7 +48,7 @@
           }
         },
         {
-          "caller": "0xd6eF805866bFeA0b3BD1EAE247803D9428914286",
+          "caller": "0xd6ef805866bfea0b3bd1eae247803d9428914286",
           "comment": "f(int256,int256): -5, -5 -> 0",
           "instance": "C",
           "method": "f(int256,int256)",
@@ -59,7 +59,7 @@
           }
         },
         {
-          "caller": "0xd6eF805866bFeA0b3BD1EAE247803D9428914286",
+          "caller": "0xd6ef805866bfea0b3bd1eae247803d9428914286",
           "comment": "g(bool): true -> FAILURE, hex\"4e487b71\", 0x11",
           "instance": "C",
           "method": "g(bool)",
@@ -70,7 +70,7 @@
           }
         },
         {
-          "caller": "0xd6eF805866bFeA0b3BD1EAE247803D9428914286",
+          "caller": "0xd6ef805866bfea0b3bd1eae247803d9428914286",
           "comment": "g(bool): false -> -57896044618658097711785492504343953926634992332820282019728792003956564819968",
           "instance": "C",
           "method": "g(bool)",

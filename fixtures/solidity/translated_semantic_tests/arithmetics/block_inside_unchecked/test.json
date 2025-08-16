@@ -4,7 +4,7 @@
       "name": "block_inside_unchecked",
       "inputs": [
         {
-          "caller": "0xa17f7B01967Eb2abA46Ae483C15674A93cD39bc5",
+          "caller": "0xa17f7b01967eb2aba46ae483c15674a93cd39bc5",
           "comment": "f() -> 0x00",
           "instance": "C",
           "method": "f()",

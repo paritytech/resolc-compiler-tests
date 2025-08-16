@@ -4,7 +4,7 @@
       "name": "state_variables_init_order_3",
       "inputs": [
         {
-          "caller": "0xf7f9cd772eC5f509287d08c21c5d97Ec3e4b7CdF",
+          "caller": "0xf7f9cd772ec5f509287d08c21c5d97ec3e4b7cdf",
           "comment": "a() -> 17",
           "instance": "B",
           "method": "a()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xf7f9cd772eC5f509287d08c21c5d97Ec3e4b7CdF",
+          "caller": "0xf7f9cd772ec5f509287d08c21c5d97ec3e4b7cdf",
           "comment": "b() -> 42",
           "instance": "B",
           "method": "b()",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0xf7f9cd772eC5f509287d08c21c5d97Ec3e4b7CdF",
+          "caller": "0xf7f9cd772ec5f509287d08c21c5d97ec3e4b7cdf",
           "comment": "c() -> 51",
           "instance": "B",
           "method": "c()",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0xf7f9cd772eC5f509287d08c21c5d97Ec3e4b7CdF",
+          "caller": "0xf7f9cd772ec5f509287d08c21c5d97ec3e4b7cdf",
           "comment": "b_a() -> 17",
           "instance": "B",
           "method": "b_a()",
@@ -48,7 +48,7 @@
           }
         },
         {
-          "caller": "0xf7f9cd772eC5f509287d08c21c5d97Ec3e4b7CdF",
+          "caller": "0xf7f9cd772ec5f509287d08c21c5d97ec3e4b7cdf",
           "comment": "b_b() -> 42",
           "instance": "B",
           "method": "b_b()",
@@ -59,7 +59,7 @@
           }
         },
         {
-          "caller": "0xf7f9cd772eC5f509287d08c21c5d97Ec3e4b7CdF",
+          "caller": "0xf7f9cd772ec5f509287d08c21c5d97ec3e4b7cdf",
           "comment": "b_c() -> 51",
           "instance": "B",
           "method": "b_c()",
@@ -70,7 +70,7 @@
           }
         },
         {
-          "caller": "0xf7f9cd772eC5f509287d08c21c5d97Ec3e4b7CdF",
+          "caller": "0xf7f9cd772ec5f509287d08c21c5d97ec3e4b7cdf",
           "comment": "d() -> 23",
           "instance": "B",
           "method": "d()",
@@ -81,7 +81,7 @@
           }
         },
         {
-          "caller": "0xf7f9cd772eC5f509287d08c21c5d97Ec3e4b7CdF",
+          "caller": "0xf7f9cd772ec5f509287d08c21c5d97ec3e4b7cdf",
           "comment": "e() -> 42",
           "instance": "B",
           "method": "e()",

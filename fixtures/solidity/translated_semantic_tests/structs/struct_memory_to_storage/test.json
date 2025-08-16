@@ -4,7 +4,7 @@
       "name": "struct_memory_to_storage",
       "inputs": [
         {
-          "caller": "0xF8b10dF973Ce20Ed07E70Eb3AFc9C2E35c06225b",
+          "caller": "0xf8b10df973ce20ed07e70eb3afc9c2e35c06225b",
           "comment": "f() -> 42, 23, 34",
           "instance": "C",
           "method": "f()",

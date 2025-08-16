@@ -4,7 +4,7 @@
       "name": "calldata_nested_array_copy_to_memory",
       "inputs": [
         {
-          "caller": "0xEa596bc222F875f7E7C97f1dB546E65664E09Ab2",
+          "caller": "0xea596bc222f875f7e7c97f1db546e65664e09ab2",
           "comment": "killer(uint256[][2]): 0x20, 0x40, 0x40, 2, 1, 2 -> 0x20, 0x20, 0x40, 0xa0, 2, 1, 2, 2, 1, 2",
           "instance": "Test",
           "method": "killer(uint256[][2])",

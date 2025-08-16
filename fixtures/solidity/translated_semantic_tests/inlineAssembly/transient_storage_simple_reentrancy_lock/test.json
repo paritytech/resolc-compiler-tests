@@ -4,7 +4,7 @@
       "name": "transient_storage_simple_reentrancy_lock",
       "inputs": [
         {
-          "caller": "0x742655f97031EFbB1d218a921F676146D89eF03D",
+          "caller": "0x742655f97031efbb1d218a921f676146d89ef03d",
           "comment": "f(bool): false ->",
           "instance": "C",
           "method": "f(bool)",
@@ -14,7 +14,7 @@
           }
         },
         {
-          "caller": "0x742655f97031EFbB1d218a921F676146D89eF03D",
+          "caller": "0x742655f97031efbb1d218a921f676146d89ef03d",
           "comment": "f(bool): true -> FAILURE",
           "instance": "C",
           "method": "f(bool)",

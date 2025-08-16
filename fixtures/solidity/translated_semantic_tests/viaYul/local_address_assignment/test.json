@@ -4,7 +4,7 @@
       "name": "local_address_assignment",
       "inputs": [
         {
-          "caller": "0x417f3b59eF57C641283C2300fae0f27fe98D518C",
+          "caller": "0x417f3b59ef57c641283c2300fae0f27fe98d518c",
           "comment": "f(address): 0x1234 -> 0x1234",
           "instance": "C",
           "method": "f(address)",

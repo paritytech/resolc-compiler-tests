@@ -4,7 +4,7 @@
       "name": "checked_add_v1",
       "inputs": [
         {
-          "caller": "0x2F2F681Ee0b1504500c9962435616E32Aa64dEFd",
+          "caller": "0x2f2f681ee0b1504500c9962435616e32aa64defd",
           "comment": "f(uint16,uint16): 65534, 0 -> 0xfffe",
           "instance": "C",
           "method": "f(uint16,uint16)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x2F2F681Ee0b1504500c9962435616E32Aa64dEFd",
+          "caller": "0x2f2f681ee0b1504500c9962435616e32aa64defd",
           "comment": "f(uint16,uint16): 65536, 0 -> 0x00",
           "instance": "C",
           "method": "f(uint16,uint16)",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0x2F2F681Ee0b1504500c9962435616E32Aa64dEFd",
+          "caller": "0x2f2f681ee0b1504500c9962435616e32aa64defd",
           "comment": "f(uint16,uint16): 65535, 0 -> 0xffff",
           "instance": "C",
           "method": "f(uint16,uint16)",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0x2F2F681Ee0b1504500c9962435616E32Aa64dEFd",
+          "caller": "0x2f2f681ee0b1504500c9962435616e32aa64defd",
           "comment": "f(uint16,uint16): 65535, 1 -> FAILURE, hex\"4e487b71\", 0x11",
           "instance": "C",
           "method": "f(uint16,uint16)",

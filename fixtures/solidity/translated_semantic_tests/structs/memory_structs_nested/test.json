@@ -4,7 +4,7 @@
       "name": "memory_structs_nested",
       "inputs": [
         {
-          "caller": "0xc262C9561Ad1B8533c9D52E46ea66ae28E400159",
+          "caller": "0xc262c9561ad1b8533c9d52e46ea66ae28e400159",
           "comment": "test() -> 1, 2, 3, 4",
           "instance": "Test",
           "method": "test()",

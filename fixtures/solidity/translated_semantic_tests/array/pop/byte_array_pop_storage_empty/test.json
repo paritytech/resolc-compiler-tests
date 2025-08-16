@@ -4,7 +4,7 @@
       "name": "byte_array_pop_storage_empty",
       "inputs": [
         {
-          "caller": "0xE40b20a4a6A84DC0952c0b4e1d6c8A0B593deCE7",
+          "caller": "0xe40b20a4a6a84dc0952c0b4e1d6c8a0b593dece7",
           "comment": "test() ->",
           "instance": "c",
           "method": "test()",

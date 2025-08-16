@@ -4,7 +4,7 @@
       "name": "recursive_operator",
       "inputs": [
         {
-          "caller": "0xdc6a472aEAfd3F8f5660f015E7A1677215828547",
+          "caller": "0xdc6a472aeafd3f8f5660f015e7a1677215828547",
           "comment": "testUnary(uint256): 0 -> 0",
           "instance": "C",
           "method": "testUnary(uint256)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xdc6a472aEAfd3F8f5660f015E7A1677215828547",
+          "caller": "0xdc6a472aeafd3f8f5660f015e7a1677215828547",
           "comment": "testUnary(uint256): 1 -> 0",
           "instance": "C",
           "method": "testUnary(uint256)",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0xdc6a472aEAfd3F8f5660f015E7A1677215828547",
+          "caller": "0xdc6a472aeafd3f8f5660f015e7a1677215828547",
           "comment": "testBinary(uint256,uint256): 0, 0 -> 0",
           "instance": "C",
           "method": "testBinary(uint256,uint256)",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0xdc6a472aEAfd3F8f5660f015E7A1677215828547",
+          "caller": "0xdc6a472aeafd3f8f5660f015e7a1677215828547",
           "comment": "testBinary(uint256,uint256): 1, 0 -> 0",
           "instance": "C",
           "method": "testBinary(uint256,uint256)",
@@ -48,7 +48,7 @@
           }
         },
         {
-          "caller": "0xdc6a472aEAfd3F8f5660f015E7A1677215828547",
+          "caller": "0xdc6a472aeafd3f8f5660f015e7a1677215828547",
           "comment": "testBinary(uint256,uint256): 0, 1 -> 0",
           "instance": "C",
           "method": "testBinary(uint256,uint256)",
@@ -59,7 +59,7 @@
           }
         },
         {
-          "caller": "0xdc6a472aEAfd3F8f5660f015E7A1677215828547",
+          "caller": "0xdc6a472aeafd3f8f5660f015e7a1677215828547",
           "comment": "testBinary(uint256,uint256): 1, 1 -> 0",
           "instance": "C",
           "method": "testBinary(uint256,uint256)",

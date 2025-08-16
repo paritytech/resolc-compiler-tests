@@ -4,7 +4,7 @@
       "name": "block_chainid",
       "inputs": [
         {
-          "caller": "0xAaae89B9a7847599bF53ff291986B78f9A6d176F",
+          "caller": "0xaaae89b9a7847599bf53ff291986b78f9a6d176f",
           "comment": "f() -> 420420420",
           "instance": "C",
           "method": "f()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xAaae89B9a7847599bF53ff291986B78f9A6d176F",
+          "caller": "0xaaae89b9a7847599bf53ff291986b78f9a6d176f",
           "comment": "f() -> 420420420",
           "instance": "C",
           "method": "f()",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0xAaae89B9a7847599bF53ff291986B78f9A6d176F",
+          "caller": "0xaaae89b9a7847599bf53ff291986b78f9a6d176f",
           "comment": "f() -> 420420420",
           "instance": "C",
           "method": "f()",

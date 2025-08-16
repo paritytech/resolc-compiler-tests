@@ -4,11 +4,11 @@
       "name": "internal_library_function_attached_to_fixed_bytes",
       "inputs": [
         {
-          "caller": "0x3ECB4f6Dfa8b124AD0ce64Be17f076BA855239A2",
-          "comment": "sum(bytes2,bytes2): left(0x1100), hex\"0022\" -> left(0x1122)",
+          "caller": "0x3ecb4f6dfa8b124ad0ce64be17f076ba855239a2",
+          "comment": "sum(bytes2,bytes2): left(0x1100), left(0x0022) -> left(0x1122)",
           "instance": "C",
           "method": "sum(bytes2,bytes2)",
-          "calldata": "0x11000000000000000000000000000000000000000000000000000000000000000022",
+          "calldata": "0x11000000000000000000000000000000000000000000000000000000000000000022000000000000000000000000000000000000000000000000000000000000",
           "expected": {
             "return_data": "0x1122000000000000000000000000000000000000000000000000000000000000",
             "exception": false

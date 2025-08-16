@@ -1,7 +1,6 @@
 //! {
 //!   "modes": [
-//!     "Y =0.8.0",
-//!     "I"
+//!     "Y =0.8.0"
 //!   ],
 //!   "ignore": true,
 //!   "comment": "Test case fails even for ML",

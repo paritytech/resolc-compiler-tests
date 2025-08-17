@@ -4,7 +4,7 @@
       "name": "mappings",
       "inputs": [
         {
-          "caller": "0xddf44e34ed40c40624c7b9f20a1030b505a4fac0",
+          "caller": "0xd5fd1d724b74841a0678c0e9da7382ff15c4df50",
           "comment": "test_simple(uint256): 0 -> 3, 4, 5",
           "instance": "C",
           "method": "test_simple(uint256)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xddf44e34ed40c40624c7b9f20a1030b505a4fac0",
+          "caller": "0xd5fd1d724b74841a0678c0e9da7382ff15c4df50",
           "comment": "test_simple(uint256): 1 -> 3, 4, 5",
           "instance": "C",
           "method": "test_simple(uint256)",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0xddf44e34ed40c40624c7b9f20a1030b505a4fac0",
+          "caller": "0xd5fd1d724b74841a0678c0e9da7382ff15c4df50",
           "comment": "test_simple(uint256): 2 -> 3, 4, 5",
           "instance": "C",
           "method": "test_simple(uint256)",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0xddf44e34ed40c40624c7b9f20a1030b505a4fac0",
+          "caller": "0xd5fd1d724b74841a0678c0e9da7382ff15c4df50",
           "comment": "test_cleanup() -> true",
           "instance": "C",
           "method": "test_cleanup()",
@@ -48,7 +48,7 @@
           }
         },
         {
-          "caller": "0xddf44e34ed40c40624c7b9f20a1030b505a4fac0",
+          "caller": "0xd5fd1d724b74841a0678c0e9da7382ff15c4df50",
           "comment": "test_str() -> true",
           "instance": "C",
           "method": "test_str()",
@@ -59,7 +59,7 @@
           }
         },
         {
-          "caller": "0xddf44e34ed40c40624c7b9f20a1030b505a4fac0",
+          "caller": "0xd5fd1d724b74841a0678c0e9da7382ff15c4df50",
           "comment": "test_twodim() -> 0, 3",
           "instance": "C",
           "method": "test_twodim()",

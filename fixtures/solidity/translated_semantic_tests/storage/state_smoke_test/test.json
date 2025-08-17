@@ -4,7 +4,7 @@
       "name": "state_smoke_test",
       "inputs": [
         {
-          "caller": "0xeeeb75671a352af36df23fac75c98bdceb7ce940",
+          "caller": "0xf0ef8144bf98abdb0bc9e48cae83b80ddf8e36bc",
           "comment": "get(uint8): 0x00 -> 0",
           "instance": "test",
           "method": "get(uint8)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xeeeb75671a352af36df23fac75c98bdceb7ce940",
+          "caller": "0xf0ef8144bf98abdb0bc9e48cae83b80ddf8e36bc",
           "comment": "get(uint8): 0x01 -> 0",
           "instance": "test",
           "method": "get(uint8)",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0xeeeb75671a352af36df23fac75c98bdceb7ce940",
+          "caller": "0xf0ef8144bf98abdb0bc9e48cae83b80ddf8e36bc",
           "comment": "set(uint8,uint256): 0x00, 0x1234 ->",
           "instance": "test",
           "method": "set(uint8,uint256)",
@@ -36,7 +36,7 @@
           }
         },
         {
-          "caller": "0xeeeb75671a352af36df23fac75c98bdceb7ce940",
+          "caller": "0xf0ef8144bf98abdb0bc9e48cae83b80ddf8e36bc",
           "comment": "set(uint8,uint256): 0x01, 0x8765 ->",
           "instance": "test",
           "method": "set(uint8,uint256)",
@@ -46,7 +46,7 @@
           }
         },
         {
-          "caller": "0xeeeb75671a352af36df23fac75c98bdceb7ce940",
+          "caller": "0xf0ef8144bf98abdb0bc9e48cae83b80ddf8e36bc",
           "comment": "get(uint8): 0x00 -> 0x1234",
           "instance": "test",
           "method": "get(uint8)",
@@ -57,7 +57,7 @@
           }
         },
         {
-          "caller": "0xeeeb75671a352af36df23fac75c98bdceb7ce940",
+          "caller": "0xf0ef8144bf98abdb0bc9e48cae83b80ddf8e36bc",
           "comment": "get(uint8): 0x01 -> 0x8765",
           "instance": "test",
           "method": "get(uint8)",
@@ -68,7 +68,7 @@
           }
         },
         {
-          "caller": "0xeeeb75671a352af36df23fac75c98bdceb7ce940",
+          "caller": "0xf0ef8144bf98abdb0bc9e48cae83b80ddf8e36bc",
           "comment": "set(uint8,uint256): 0x00, 0x03 ->",
           "instance": "test",
           "method": "set(uint8,uint256)",
@@ -78,7 +78,7 @@
           }
         },
         {
-          "caller": "0xeeeb75671a352af36df23fac75c98bdceb7ce940",
+          "caller": "0xf0ef8144bf98abdb0bc9e48cae83b80ddf8e36bc",
           "comment": "get(uint8): 0x00 -> 0x03",
           "instance": "test",
           "method": "get(uint8)",

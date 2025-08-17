@@ -4,7 +4,7 @@
       "name": "constructor_function_complex",
       "inputs": [
         {
-          "caller": "0xd41c057fd1c78805aac12b0a94a405c0461a6fbb",
+          "caller": "0x7134b5693a95900ab4d6e449ae01604529ddc7db",
           "comment": "f() -> 16; gas legacy: 78477; gas legacy code: 23600",
           "instance": "C",
           "method": "f()",

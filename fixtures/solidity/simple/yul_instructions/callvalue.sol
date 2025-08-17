@@ -7,7 +7,7 @@
 //!           "method": "main",
 //!           "calldata": [],
 //!           "value": "0 wei",
-//!           "caller": "0xCd27e25e1d76210990dB8951cDF6052F38fCb735"
+//!           "caller": "0x5817cc71537a85c526af639f3bcdb903e1509778"
 //!         }
 //!       ],
 //!       "expected": [
@@ -21,7 +21,7 @@
 //!           "method": "main",
 //!           "calldata": [],
 //!           "value": "1 wei",
-//!           "caller": "0x6E81B5B0453824EEDe068aC399091C3981DA4184"
+//!           "caller": "0x2e1415d5b982ca74f5077f4f10e228e5d5d25b48"
 //!         }
 //!       ],
 //!       "expected": [
@@ -35,7 +35,7 @@
 //!           "method": "main",
 //!           "calldata": [],
 //!           "value": "433478394034343 wei",
-//!           "caller": "0x276C6fFF636FD0d268b659444d721044cC479121"
+//!           "caller": "0xbbc381fe518d68acc1c817fcd4bcbf814dfb1810"
 //!         }
 //!       ],
 //!       "expected": [
@@ -51,7 +51,7 @@
 //!           "method": "main",
 //!           "calldata": [],
 //!           "value": "340282366920938463463374607431768211455 wei",
-//!           "caller": "0x17459B918e16b07521CD79600489678Fc5e1C912"
+//!           "caller": "0x508eb50fa3bd58b09488a2538b929dee1d15603a"
 //!         }
 //!       ],
 //!       "expected": [

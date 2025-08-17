@@ -4,7 +4,7 @@
       "name": "explicit_string_bytes_calldata_cast",
       "inputs": [
         {
-          "caller": "0xb3087f34edab33a8182ba29adea4d739d9831a94",
+          "caller": "0x718ed2f6fe86c1251327599de44342ea505f9446",
           "comment": "f(string): 0x20, 3, \"123\" -> 0x20, 3, \"123\"",
           "instance": "C",
           "method": "f(string)",

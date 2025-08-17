@@ -4,7 +4,7 @@
       "name": "constant_variables",
       "inputs": [
         {
-          "caller": "0x19e119167095b4f035a906eafbb66d733545e208",
+          "caller": "0x11cc770a1353033c8e44419043bf9747c69b5129",
           "comment": "constructor() ->",
           "instance": "Foo",
           "method": "#deployer",

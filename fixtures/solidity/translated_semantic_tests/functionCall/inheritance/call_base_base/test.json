@@ -4,7 +4,7 @@
       "name": "call_base_base",
       "inputs": [
         {
-          "caller": "0x68ff675590844734c4f5284a1a4d47de69bc8cb3",
+          "caller": "0x89f4e19ef5be7f3aff73024dd91c82cee1e6b14f",
           "comment": "g(uint256): 4 -> 12",
           "instance": "Child",
           "method": "g(uint256)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x68ff675590844734c4f5284a1a4d47de69bc8cb3",
+          "caller": "0x89f4e19ef5be7f3aff73024dd91c82cee1e6b14f",
           "comment": "h(uint256): 4 -> 16",
           "instance": "Child",
           "method": "h(uint256)",

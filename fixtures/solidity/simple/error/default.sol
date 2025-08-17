@@ -6,7 +6,7 @@
 //!         {
 //!           "method": "require_short",
 //!           "calldata": [],
-//!           "caller": "0x95AE610660e9177d81DbFb16429D022d42B7C9aB"
+//!           "caller": "0x27380909b16cc109d9f31d07f646d09c7cd72fac"
 //!         }
 //!       ],
 //!       "expected": {
@@ -25,7 +25,7 @@
 //!         {
 //!           "method": "require_long",
 //!           "calldata": [],
-//!           "caller": "0xe18ca730Cb9A798Bc016a87728bF8cAa09EbF0f5"
+//!           "caller": "0x5e1bc9feea2fdd416e4feb023e58207acc92d7fd"
 //!         }
 //!       ],
 //!       "expected": {
@@ -50,7 +50,7 @@
 //!         {
 //!           "method": "new_error",
 //!           "calldata": [],
-//!           "caller": "0xF94201A296cc60eCB515BBA915A9b99eAC3Af3c3"
+//!           "caller": "0xbfdc26484c3b223ec9f40629f8fb4432780db843"
 //!         }
 //!       ],
 //!       "expected": {

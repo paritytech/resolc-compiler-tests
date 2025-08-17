@@ -4,8 +4,8 @@
       "name": "event_emit_via_interface",
       "inputs": [
         {
-          "caller": "0xe0dd44773f7657b11019062879d65f3d9862460c",
-          "comment": "emitEvent(uint256): 100 ->; ~ emit Event(address,uint256): #0xe0dd44773f7657b11019062879d65f3d9862460c, 0x64",
+          "caller": "0xa84a618b0e7bdaa27600c4f1062ed0d7d3104e08",
+          "comment": "emitEvent(uint256): 100 ->; ~ emit Event(address,uint256): #0xa84a618b0e7bdaa27600c4f1062ed0d7d3104e08, 0x64",
           "instance": "C",
           "method": "emitEvent(uint256)",
           "calldata": "0x0000000000000000000000000000000000000000000000000000000000000064",
@@ -14,7 +14,7 @@
               {
                 "topics": [
                   "0xfceb437c298f40d64702ac26411b2316e79f3c28ffa60edfc891ad4fc8ab82ca",
-                  "0xe0dd44773f7657b11019062879d65f3d9862460c"
+                  "0xa84a618b0e7bdaa27600c4f1062ed0d7d3104e08"
                 ],
                 "values": "0x0000000000000000000000000000000000000000000000000000000000000064"
               }

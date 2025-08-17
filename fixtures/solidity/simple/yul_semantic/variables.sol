@@ -6,7 +6,7 @@
 //!         {
 //!           "method": "declare_without_value",
 //!           "calldata": [],
-//!           "caller": "0xa47152D418c990De712dab7d1916684819DEA3A4"
+//!           "caller": "0xa41124f9b8d67a11a2d6e31f06f0295c4b28c9cf"
 //!         }
 //!       ],
 //!       "expected": [
@@ -19,7 +19,7 @@
 //!         {
 //!           "method": "declare_tuple_without_value",
 //!           "calldata": [],
-//!           "caller": "0x03292f46611047C1E799C00F1a435EEf5e55F4A2"
+//!           "caller": "0x2e00b3e5bc91e77886990fb801cfae00000df7ba"
 //!         }
 //!       ],
 //!       "expected": [
@@ -34,7 +34,7 @@
 //!         {
 //!           "method": "declare_with_value",
 //!           "calldata": [],
-//!           "caller": "0x0D47e829061b84D00310D9A9D1Dc7Bca49965c16"
+//!           "caller": "0x3540335ec9813f9c6b10dd18117561c9b85e153e"
 //!         }
 //!       ],
 //!       "expected": [
@@ -47,7 +47,7 @@
 //!         {
 //!           "method": "declare_tuple_with_value",
 //!           "calldata": [],
-//!           "caller": "0xd35d56D6d44589AFDF07776b2a9398173a1Dd6f4"
+//!           "caller": "0xf8196bf8b2aa8a87ba3a8547164177931db9a55b"
 //!         }
 //!       ],
 //!       "expected": [
@@ -62,7 +62,7 @@
 //!         {
 //!           "method": "assign",
 //!           "calldata": [],
-//!           "caller": "0x573B5Ba03A42d4FecE00F60B56a76aA2c0c6135f"
+//!           "caller": "0xf91c457878eba23f68704def7c2828f10f6f8870"
 //!         }
 //!       ],
 //!       "expected": [
@@ -75,7 +75,7 @@
 //!         {
 //!           "method": "assign_tuple",
 //!           "calldata": [],
-//!           "caller": "0xFfA09Ea9826F3D2A054Bad6CB065E16B8A0431f7"
+//!           "caller": "0x851cd1c2017a1a133eb097be13fb42e6122ad711"
 //!         }
 //!       ],
 //!       "expected": [

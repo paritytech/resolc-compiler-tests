@@ -6,7 +6,7 @@
 //!         {
 //!           "method": "#deployer",
 //!           "calldata": [],
-//!           "caller": "0x055905e6Dd80D34F8B7D27C2899e7F56adC15af2"
+//!           "caller": "0x4d80d1110a34bc5cc0977d1baaf01218218fcb7a"
 //!         }
 //!       ],
 //!       "expected": {
@@ -30,7 +30,7 @@
 //!         {
 //!           "method": "#deployer",
 //!           "calldata": "0x00",
-//!           "caller": "0x9E38bBFcD2e7F3290356b92F8c15F81a8aA41641"
+//!           "caller": "0x7f5670c0a5f0deee2067a84c4f23e0cf5f32b217"
 //!         }
 //!       ],
 //!       "expected": {
@@ -54,7 +54,7 @@
 //!         {
 //!           "method": "#deployer",
 //!           "calldata": "0x00000000000000000000000000000000000000",
-//!           "caller": "0x15569B0884B7f3d45ca1bba7e169d952982194D9"
+//!           "caller": "0x011fa4b3b09dc0af28f8ff56e4a83fed287b5779"
 //!         }
 //!       ],
 //!       "expected": {
@@ -80,7 +80,7 @@
 //!           "calldata": [
 //!             "0"
 //!           ],
-//!           "caller": "0xec33B5f09296eab508d618C1aFe17cD8351aE9a3"
+//!           "caller": "0xe6576f01af3dacec69e0e99abc68135cde755940"
 //!         }
 //!       ],
 //!       "expected": {
@@ -104,7 +104,7 @@
 //!         {
 //!           "method": "#deployer",
 //!           "calldata": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
-//!           "caller": "0x985B3F2B15092bF249ED55b0B9E62e9209C41B7F"
+//!           "caller": "0xd2d9c27cc20dab5751ae34ceafa5fcc5bce1255a"
 //!         }
 //!       ],
 //!       "expected": {
@@ -136,7 +136,7 @@
 //!             "0",
 //!             "0"
 //!           ],
-//!           "caller": "0x26AC60640C2dc46CD79fe74055aDDd7AC40Bc641"
+//!           "caller": "0x05b829b81a27c4b094a709ad2be3ca3b94e8fd28"
 //!         }
 //!       ],
 //!       "expected": {
@@ -174,12 +174,12 @@
 //!               }
 //!             ]
 //!           },
-//!           "caller": "0xD156A3D35A4264c05178987c6a6830550A5eBC6f"
+//!           "caller": "0x39bdf9d79560028fc073c072e0ee09112e5f919b"
 //!         },
 //!         {
 //!           "method": "runtime",
 //!           "calldata": [],
-//!           "caller": "0xD156A3D35A4264c05178987c6a6830550A5eBC6f"
+//!           "caller": "0x39bdf9d79560028fc073c072e0ee09112e5f919b"
 //!         }
 //!       ],
 //!       "expected": [

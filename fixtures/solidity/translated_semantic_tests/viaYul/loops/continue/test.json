@@ -4,7 +4,7 @@
       "name": "continue",
       "inputs": [
         {
-          "caller": "0x1715eb68afba4d516ef1e068b55f5093bb4a2f59",
+          "caller": "0xa3eb30592fbdb0f4149f95189512085ecaf63b37",
           "comment": "f() -> 11",
           "instance": "C",
           "method": "f()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x1715eb68afba4d516ef1e068b55f5093bb4a2f59",
+          "caller": "0xa3eb30592fbdb0f4149f95189512085ecaf63b37",
           "comment": "g() -> 11",
           "instance": "C",
           "method": "g()",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0x1715eb68afba4d516ef1e068b55f5093bb4a2f59",
+          "caller": "0xa3eb30592fbdb0f4149f95189512085ecaf63b37",
           "comment": "h() -> 5",
           "instance": "C",
           "method": "h()",

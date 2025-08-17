@@ -4,7 +4,7 @@
       "name": "msg_sig",
       "inputs": [
         {
-          "caller": "0x7ac3d1d7b749e8d507ddb38d054111f1bb833871",
+          "caller": "0x09d606aa2013b3b04412debb565a42ece9c20c5f",
           "comment": "f() -> 0x26121ff000000000000000000000000000000000000000000000000000000000",
           "instance": "C",
           "method": "f()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x7ac3d1d7b749e8d507ddb38d054111f1bb833871",
+          "caller": "0x09d606aa2013b3b04412debb565a42ece9c20c5f",
           "comment": "g() -> 0xe2179b8e00000000000000000000000000000000000000000000000000000000",
           "instance": "C",
           "method": "g()",

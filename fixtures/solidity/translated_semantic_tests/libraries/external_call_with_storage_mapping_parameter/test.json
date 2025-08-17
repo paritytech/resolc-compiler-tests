@@ -4,7 +4,7 @@
       "name": "external_call_with_storage_mapping_parameter",
       "inputs": [
         {
-          "caller": "0xa8840243c6fcbd8104f7ce92fa32be0a2172a531",
+          "caller": "0x65a7caa418a73b07dd3f1f7bf1f57ac1786278eb",
           "comment": "g(uint256): 4 -> 16",
           "instance": "C",
           "method": "g(uint256)",

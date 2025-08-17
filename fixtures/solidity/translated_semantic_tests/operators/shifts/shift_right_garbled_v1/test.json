@@ -4,7 +4,7 @@
       "name": "shift_right_garbled_v1",
       "inputs": [
         {
-          "caller": "0x2cd1240410a7f86a9b08024adbfd8ec2f360d8d8",
+          "caller": "0xcd1e4fab2c83be8d8ecbd7d261d05445e6c575d6",
           "comment": "f(uint8,uint8): 0x00, 0x04 -> 0x0f",
           "instance": "C",
           "method": "f(uint8,uint8)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x2cd1240410a7f86a9b08024adbfd8ec2f360d8d8",
+          "caller": "0xcd1e4fab2c83be8d8ecbd7d261d05445e6c575d6",
           "comment": "f(uint8,uint8): 0x00, 0x1004 -> 0x0f",
           "instance": "C",
           "method": "f(uint8,uint8)",

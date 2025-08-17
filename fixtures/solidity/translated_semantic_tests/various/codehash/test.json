@@ -6,7 +6,7 @@
       "name": "codehash",
       "inputs": [
         {
-          "caller": "0xe34ac72ca84deedf06f8b3fc74114adbb5a6c507",
+          "caller": "0xc71368256498c815d169bf23a0945ff92cb97be5",
           "comment": "f() -> 0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470",
           "instance": "C",
           "method": "f()",
@@ -17,7 +17,7 @@
           }
         },
         {
-          "caller": "0xe34ac72ca84deedf06f8b3fc74114adbb5a6c507",
+          "caller": "0xc71368256498c815d169bf23a0945ff92cb97be5",
           "comment": "g() -> 0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470",
           "instance": "C",
           "method": "g()",
@@ -28,7 +28,7 @@
           }
         },
         {
-          "caller": "0xe34ac72ca84deedf06f8b3fc74114adbb5a6c507",
+          "caller": "0xc71368256498c815d169bf23a0945ff92cb97be5",
           "comment": "h() -> true",
           "instance": "C",
           "method": "h()",

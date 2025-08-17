@@ -4,7 +4,7 @@
       "name": "module_function",
       "inputs": [
         {
-          "caller": "0xe4682e4379706a7a84ff6c967e7c0816251b8cfb",
+          "caller": "0xe2b196af5bb90f582ec86470b20d174ec26cf7db",
           "comment": "test() -> true",
           "instance": "C",
           "method": "test()",

@@ -4,7 +4,7 @@
       "name": "return",
       "inputs": [
         {
-          "caller": "0xa01cca6367a84304b6607b76676c66c360b74741",
+          "caller": "0x31ff53c2fa52b9ffbadafe3642a60bf15d7e48a1",
           "comment": "f() -> 1",
           "instance": "C",
           "method": "f()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xa01cca6367a84304b6607b76676c66c360b74741",
+          "caller": "0x31ff53c2fa52b9ffbadafe3642a60bf15d7e48a1",
           "comment": "g() -> 1",
           "instance": "C",
           "method": "g()",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0xa01cca6367a84304b6607b76676c66c360b74741",
+          "caller": "0x31ff53c2fa52b9ffbadafe3642a60bf15d7e48a1",
           "comment": "h() -> 2",
           "instance": "C",
           "method": "h()",

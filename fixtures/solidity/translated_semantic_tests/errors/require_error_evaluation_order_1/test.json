@@ -4,7 +4,7 @@
       "name": "require_error_evaluation_order_1",
       "inputs": [
         {
-          "caller": "0x216faec139a61329ef8b31d982de427d9c007a9e",
+          "caller": "0x29a7c28d63bbf7f9b33060d8cb38d401ca62cd00",
           "comment": "f() -> 7",
           "instance": "C",
           "method": "f()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x216faec139a61329ef8b31d982de427d9c007a9e",
+          "caller": "0x29a7c28d63bbf7f9b33060d8cb38d401ca62cd00",
           "comment": "g() -> 7",
           "instance": "C",
           "method": "g()",

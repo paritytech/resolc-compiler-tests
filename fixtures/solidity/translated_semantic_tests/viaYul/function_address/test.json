@@ -4,7 +4,7 @@
       "name": "function_address",
       "inputs": [
         {
-          "caller": "0xe6b3367318c5e11a6eed3cd0d850ec06a02e9b90",
+          "caller": "0xe09226ad5f9df5801976fb1d8191b9336fa49131",
           "comment": "f() -> 0x1234",
           "instance": "C",
           "method": "f()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xe6b3367318c5e11a6eed3cd0d850ec06a02e9b90",
+          "caller": "0xe09226ad5f9df5801976fb1d8191b9336fa49131",
           "comment": "g() -> true, true",
           "instance": "C",
           "method": "g()",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0xe6b3367318c5e11a6eed3cd0d850ec06a02e9b90",
+          "caller": "0xe09226ad5f9df5801976fb1d8191b9336fa49131",
           "comment": "h(function): left(0x1122334400112233445566778899AABBCCDDEEFF42424242) -> 0x1122334400112233445566778899AABBCCDDEEFF",
           "instance": "C",
           "method": "h(function)",

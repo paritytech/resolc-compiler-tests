@@ -4,7 +4,7 @@
       "name": "assert_and_require",
       "inputs": [
         {
-          "caller": "0x0c95931d95694b3ef74071241827c09f25d40620",
+          "caller": "0xbf9dfce0e29a813707e4a47f159c6a797148b0fe",
           "comment": "f(bool): true -> true",
           "instance": "C",
           "method": "f(bool)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x0c95931d95694b3ef74071241827c09f25d40620",
+          "caller": "0xbf9dfce0e29a813707e4a47f159c6a797148b0fe",
           "comment": "f(bool): false -> FAILURE, hex\"4e487b71\", 0x01",
           "instance": "C",
           "method": "f(bool)",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0x0c95931d95694b3ef74071241827c09f25d40620",
+          "caller": "0xbf9dfce0e29a813707e4a47f159c6a797148b0fe",
           "comment": "f2(bool): true -> true",
           "instance": "C",
           "method": "f2(bool)",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0x0c95931d95694b3ef74071241827c09f25d40620",
+          "caller": "0xbf9dfce0e29a813707e4a47f159c6a797148b0fe",
           "comment": "f2(bool): false -> FAILURE",
           "instance": "C",
           "method": "f2(bool)",

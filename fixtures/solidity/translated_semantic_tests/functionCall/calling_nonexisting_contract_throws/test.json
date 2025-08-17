@@ -4,7 +4,7 @@
       "name": "calling_nonexisting_contract_throws",
       "inputs": [
         {
-          "caller": "0x6282de81b2455222c4b15159b36c03f55d4903d6",
+          "caller": "0xed96c2fb79e08dea27ef8e6d497914c07ed617e1",
           "comment": "f() -> FAILURE",
           "instance": "C",
           "method": "f()",
@@ -14,7 +14,7 @@
           }
         },
         {
-          "caller": "0x6282de81b2455222c4b15159b36c03f55d4903d6",
+          "caller": "0xed96c2fb79e08dea27ef8e6d497914c07ed617e1",
           "comment": "g() -> FAILURE",
           "instance": "C",
           "method": "g()",
@@ -24,7 +24,7 @@
           }
         },
         {
-          "caller": "0x6282de81b2455222c4b15159b36c03f55d4903d6",
+          "caller": "0xed96c2fb79e08dea27ef8e6d497914c07ed617e1",
           "comment": "h() -> 7",
           "instance": "C",
           "method": "h()",

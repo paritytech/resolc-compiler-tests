@@ -4,7 +4,7 @@
       "name": "struct_copy_via_local",
       "inputs": [
         {
-          "caller": "0x17b1ee8a3345529f8a3669a5d6c5c228fa98c41e",
+          "caller": "0x33dc3d41443dc032029e021dc6d7948574e103dc",
           "comment": "test() -> true; gas irOptimized: 109921; gas legacy: 110615; gas legacyOptimized: 109705",
           "instance": "c",
           "method": "test()",

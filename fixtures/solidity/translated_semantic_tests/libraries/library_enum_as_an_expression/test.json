@@ -4,7 +4,7 @@
       "name": "library_enum_as_an_expression",
       "inputs": [
         {
-          "caller": "0x16fb7667089738a5055e45bd0b260845eaedbe44",
+          "caller": "0xd34fa82509519eb1192185aff3aa00603e28629d",
           "comment": "f() -> 1",
           "instance": "Tsra",
           "method": "f()",

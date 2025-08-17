@@ -4,7 +4,7 @@
       "name": "string_to_bytes",
       "inputs": [
         {
-          "caller": "0xf5badc43e80a1ba8d914169ebe958eb5fa4815b9",
+          "caller": "0x4468b452b8ad6a733538a0438aa99ad0d7fe4cfa",
           "comment": "f(string): 32, 5, \"Hello\" -> 32, 5, \"Hello\"",
           "instance": "C",
           "method": "f(string)",

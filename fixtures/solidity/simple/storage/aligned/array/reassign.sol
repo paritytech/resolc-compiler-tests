@@ -1,27 +1,33 @@
-//! { "cases": [ {
-//!     "name": "main",
-//!     "inputs": [
+//! {
+//!   "cases": [
+//!     {
+//!       "name": "main",
+//!       "inputs": [
 //!         {
-//!             "method": "#deployer",
-//!             "instance": "Test",
-//!             "calldata": [
-//!                 "1", 
-//!                 "2", 
-//!                 "3", 
-//!                 "4"
-//!             ]
+//!           "method": "#deployer",
+//!           "instance": "Test",
+//!           "calldata": [
+//!             "1",
+//!             "2",
+//!             "3",
+//!             "4"
+//!           ],
+//!           "caller": "0xb6c49d958c74484d2f3bd1c1e6586a6b70ff955f"
 //!         },
 //!         {
-//!             "method": "main",
-//!             "calldata": [
-//!                 "42"
-//!             ]
+//!           "method": "main",
+//!           "calldata": [
+//!             "42"
+//!           ],
+//!           "caller": "0xb6c49d958c74484d2f3bd1c1e6586a6b70ff955f"
 //!         }
-//!     ],
-//!     "expected": [
+//!       ],
+//!       "expected": [
 //!         "130"
-//!     ]
-//! } ] }
+//!       ]
+//!     }
+//!   ]
+//! }
 
 contract Test {
     uint256[4] data;

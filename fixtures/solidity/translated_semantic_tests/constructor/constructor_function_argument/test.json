@@ -4,7 +4,7 @@
       "name": "constructor_function_argument",
       "inputs": [
         {
-          "caller": "0x4bd1280852cadb002734647305afc1db7ddd6acb",
+          "caller": "0xcafa217252570d81676084e598b07d295c25cacc",
           "comment": "constructor(): 0xfdd67305928fcac8d213d1e47bfa6165cd0b87b946644cd0000000000000000 ->",
           "instance": "D",
           "method": "#deployer",

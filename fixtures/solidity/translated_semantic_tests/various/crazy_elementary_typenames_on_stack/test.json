@@ -4,7 +4,7 @@
       "name": "crazy_elementary_typenames_on_stack",
       "inputs": [
         {
-          "caller": "0xf0ed5f5b0ec5ae202f7ced057a2cbb51fcb81f4a",
+          "caller": "0x20dc887500e79c3e2c69d406f7d2cb0156a0e29b",
           "comment": "f() -> -7",
           "instance": "C",
           "method": "f()",

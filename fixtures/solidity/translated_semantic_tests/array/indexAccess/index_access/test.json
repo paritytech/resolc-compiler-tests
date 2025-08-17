@@ -4,7 +4,7 @@
       "name": "index_access",
       "inputs": [
         {
-          "caller": "0x823a090dc5c3b9358db5658a35af893c0ba96d0f",
+          "caller": "0x25bb51dbf1c3acc952f13da94e1f415185c45ded",
           "comment": "to_little_endian_64(uint64): 0 -> 0x20, 8, 0x00",
           "instance": "C",
           "method": "to_little_endian_64(uint64)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x823a090dc5c3b9358db5658a35af893c0ba96d0f",
+          "caller": "0x25bb51dbf1c3acc952f13da94e1f415185c45ded",
           "comment": "to_little_endian_64(uint64): 0x0102030405060708 -> 0x20, 8, 0x0807060504030201000000000000000000000000000000000000000000000000",
           "instance": "C",
           "method": "to_little_endian_64(uint64)",

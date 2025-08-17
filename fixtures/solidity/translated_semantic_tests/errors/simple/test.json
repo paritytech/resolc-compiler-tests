@@ -4,7 +4,7 @@
       "name": "simple",
       "inputs": [
         {
-          "caller": "0x26324733d604abb6176cf18e4f4a0624ceeddc09",
+          "caller": "0xd792025e14063ca85b16248ef718488e5124284d",
           "comment": "f() -> FAILURE, hex\"85208890\", 2, 7",
           "instance": "C",
           "method": "f()",

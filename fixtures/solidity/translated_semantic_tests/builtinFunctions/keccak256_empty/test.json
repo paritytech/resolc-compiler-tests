@@ -4,7 +4,7 @@
       "name": "keccak256_empty",
       "inputs": [
         {
-          "caller": "0x9f7a2385bb9d4119746ffdfa84154ba54a20f75f",
+          "caller": "0x77495c6886361d8e9b908b8da09727694176a1da",
           "comment": "f() -> 0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470",
           "instance": "C",
           "method": "f()",

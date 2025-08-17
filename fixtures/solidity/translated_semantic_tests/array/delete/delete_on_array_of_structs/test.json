@@ -4,7 +4,7 @@
       "name": "delete_on_array_of_structs",
       "inputs": [
         {
-          "caller": "0x8e4cddc803690bfce147ac6b2bb99bf615d65147",
+          "caller": "0x48cf084516dfded4705c3844bb2f38a6cdfb781e",
           "comment": "f() -> true",
           "instance": "C",
           "method": "f()",

@@ -4,7 +4,7 @@
       "name": "immutable_signed",
       "inputs": [
         {
-          "caller": "0x18c466fbf537555ab2587d30ecb3d0369d78f5e2",
+          "caller": "0x495c1af4714932159225b1f053525ebcdcba6055",
           "comment": "viaasm() -> 0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe, 0x6162000000000000000000000000000000000000000000000000000000000000",
           "instance": "C",
           "method": "viaasm()",

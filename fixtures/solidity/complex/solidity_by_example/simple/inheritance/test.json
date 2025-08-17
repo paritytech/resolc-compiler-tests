@@ -7,7 +7,7 @@
           "instance": "A",
           "method": "foo",
           "calldata": [],
-          "caller": "0x850B94b3B5D31e462d8728a4AF193E5B39Cf3763"
+          "caller": "0x24085d6e443c6a8b132246621ce8406fb63b0066"
         }
       ],
       "expected": [
@@ -23,7 +23,7 @@
           "instance": "B",
           "method": "foo",
           "calldata": [],
-          "caller": "0xE09226AD5f9dF5801976fB1D8191b9336fA49131"
+          "caller": "0xfb4954bf98bf7740dcbb37341505eafbe63cd76b"
         }
       ],
       "expected": [
@@ -39,7 +39,7 @@
           "instance": "C",
           "method": "foo",
           "calldata": [],
-          "caller": "0xD545223833dB67901C56Fe85AF0BaDfE8248CF20"
+          "caller": "0x2591177f73135324d646556fc4c880ac8a149c8e"
         }
       ],
       "expected": [
@@ -55,7 +55,7 @@
           "instance": "D",
           "method": "foo",
           "calldata": [],
-          "caller": "0xdE381C8F3c32529836Ab870878eD78870d29c03e"
+          "caller": "0xd4ce1faf9349c0b3b50da3e419573cc39ee66e02"
         }
       ],
       "expected": [
@@ -71,7 +71,7 @@
           "instance": "E",
           "method": "foo",
           "calldata": [],
-          "caller": "0x88407eE18aD159431D715B066c192b1AC1d80412"
+          "caller": "0xc1e2e825c6998235af611d382722d28890c06c86"
         }
       ],
       "expected": [
@@ -87,7 +87,7 @@
           "instance": "F",
           "method": "foo",
           "calldata": [],
-          "caller": "0xBF9dfce0E29A813707E4a47F159C6A797148B0FE"
+          "caller": "0x33c18461d6a1751875ca993dd0416d5d17bc02fb"
         }
       ],
       "expected": [

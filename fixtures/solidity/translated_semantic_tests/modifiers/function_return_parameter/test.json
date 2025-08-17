@@ -4,7 +4,7 @@
       "name": "function_return_parameter",
       "inputs": [
         {
-          "caller": "0x857cddbb4789905e42d14fe9979b82bd85e74246",
+          "caller": "0xe0109e8359517fc6eb6995ac517fed25cdfd4e95",
           "comment": "f(uint8): 5 -> 0x00",
           "instance": "B",
           "method": "f(uint8)",

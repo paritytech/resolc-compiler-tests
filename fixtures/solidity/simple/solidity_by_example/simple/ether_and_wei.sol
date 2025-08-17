@@ -6,7 +6,7 @@
 //!         {
 //!           "method": "oneWei",
 //!           "calldata": [],
-//!           "caller": "0x3561879948e34Be40AC3cAA8899BF3f52D40C45A"
+//!           "caller": "0x2a1648c79f5bc22e0540581ec6a441b4c2d22726"
 //!         }
 //!       ],
 //!       "expected": [
@@ -19,7 +19,7 @@
 //!         {
 //!           "method": "isOneWei",
 //!           "calldata": [],
-//!           "caller": "0x4B3fd83e4E879964Fb6F63eD37DC76549f1aA582"
+//!           "caller": "0x8a50c218f9a291982a3bc671b5f6dd97da603296"
 //!         }
 //!       ],
 //!       "expected": [
@@ -32,7 +32,7 @@
 //!         {
 //!           "method": "oneEther",
 //!           "calldata": [],
-//!           "caller": "0xf4Fa591dc5E06728ce9E919f67fd15Ca1Bf9A421"
+//!           "caller": "0xae5a889e9e34199595685a7c8b31e0d18bd1ab1c"
 //!         }
 //!       ],
 //!       "expected": [
@@ -45,7 +45,7 @@
 //!         {
 //!           "method": "isOneEther",
 //!           "calldata": [],
-//!           "caller": "0xf70f1539F4d2F2ac793ed206aaff47fc37353162"
+//!           "caller": "0x60f95f92b26ec225546d762781d60f88b6c988a7"
 //!         }
 //!       ],
 //!       "expected": [

@@ -4,7 +4,7 @@
       "name": "typed_multi_variable_declaration",
       "inputs": [
         {
-          "caller": "0xf409b83ed82cc14fbc1fb577339b1dfcd0b7d3f1",
+          "caller": "0x82fee97fb486562aa5e607c60b1533fd5547c1e3",
           "comment": "f() -> true",
           "instance": "C",
           "method": "f()",

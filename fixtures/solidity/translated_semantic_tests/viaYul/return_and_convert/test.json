@@ -4,7 +4,7 @@
       "name": "return_and_convert",
       "inputs": [
         {
-          "caller": "0xfbbc41289f834a76e4320ac238512035560467ee",
+          "caller": "0xe9637467c7e0032362605718bc820db63f30becc",
           "comment": "f() -> 255",
           "instance": "C",
           "method": "f()",

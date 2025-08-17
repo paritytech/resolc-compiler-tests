@@ -4,7 +4,7 @@
       "name": "array_of_function_external_storage_to_storage_dynamic",
       "inputs": [
         {
-          "caller": "0xd4142994a365bdab27d085f3dc4a232a04e25a86",
+          "caller": "0x0fb5b0a1fff0be64c58bee12d3464ba0eaba0011",
           "comment": "copyExternalStorageArrayOfFunctionType() -> true; gas irOptimized: 104566; gas legacy: 108554; gas legacyOptimized: 102405",
           "instance": "C",
           "method": "copyExternalStorageArrayOfFunctionType()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xd4142994a365bdab27d085f3dc4a232a04e25a86",
+          "caller": "0x0fb5b0a1fff0be64c58bee12d3464ba0eaba0011",
           "comment": "copyInternalArrayOfFunctionType() -> true",
           "instance": "C",
           "method": "copyInternalArrayOfFunctionType()",

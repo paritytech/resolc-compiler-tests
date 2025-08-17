@@ -4,7 +4,7 @@
       "name": "free_function_resolution_override_virtual_transitive",
       "inputs": [
         {
-          "caller": "0xc2107079a2df58df7208b6968044b7fa2b62227a",
+          "caller": "0xbd0e69eeaecd69d97a85cab6c90077ccac9b1e02",
           "comment": "g() -> 1339",
           "instance": "E",
           "method": "g()",

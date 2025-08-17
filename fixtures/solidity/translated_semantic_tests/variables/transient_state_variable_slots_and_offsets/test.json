@@ -4,7 +4,7 @@
       "name": "transient_state_variable_slots_and_offsets",
       "inputs": [
         {
-          "caller": "0x85f779802adfcd601d4d3c113ece9a07da03f2c1",
+          "caller": "0x56506346394bdb63aa45d7e1a86cee9c3a97196a",
           "comment": "f() -> 1, 2, 3, 4",
           "instance": "C",
           "method": "f()",

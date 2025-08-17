@@ -4,7 +4,7 @@
       "name": "test_underscore_in_hex",
       "inputs": [
         {
-          "caller": "0x2ffd5cbc1b2bf0b83001640d522d594cb3966291",
+          "caller": "0x009715762d44ab0504a8c0819c69d6c6799745c6",
           "comment": "f(bool): true -> 0x1234ab",
           "instance": "test",
           "method": "f(bool)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x2ffd5cbc1b2bf0b83001640d522d594cb3966291",
+          "caller": "0x009715762d44ab0504a8c0819c69d6c6799745c6",
           "comment": "f(bool): false -> 0x1234abcd1234",
           "instance": "test",
           "method": "f(bool)",

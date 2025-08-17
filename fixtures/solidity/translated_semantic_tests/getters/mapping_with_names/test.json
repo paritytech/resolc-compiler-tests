@@ -4,7 +4,7 @@
       "name": "mapping_with_names",
       "inputs": [
         {
-          "caller": "0xf7055b769ecaa0bfa1a60aa55d5561fe4a168148",
+          "caller": "0xbb0a6437608e1685053f9bed73a89d8a8dbdbdd9",
           "comment": "x(uint256,uint256): 1, 2 -> 3",
           "instance": "C",
           "method": "x(uint256,uint256)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xf7055b769ecaa0bfa1a60aa55d5561fe4a168148",
+          "caller": "0xbb0a6437608e1685053f9bed73a89d8a8dbdbdd9",
           "comment": "x(uint256,uint256): 0, 0 -> 0",
           "instance": "C",
           "method": "x(uint256,uint256)",

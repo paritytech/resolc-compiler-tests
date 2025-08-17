@@ -4,7 +4,7 @@
       "name": "getter",
       "inputs": [
         {
-          "caller": "0xcb23a49829818ce7ade2fab15d5385c66028fbe9",
+          "caller": "0xbf2c78ef65505523be7715997954733d02a518c7",
           "comment": "x() -> 1",
           "instance": "C",
           "method": "x()",

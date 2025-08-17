@@ -4,7 +4,7 @@
       "name": "bit_operators",
       "inputs": [
         {
-          "caller": "0x00f47c27f86b20e1bd18a0caff71b2ec5e23389a",
+          "caller": "0xc4852a7f88b641178ac571a22a344cc869d7c6f1",
           "comment": "f() -> 3855, 268374015, 268370160",
           "instance": "test",
           "method": "f()",

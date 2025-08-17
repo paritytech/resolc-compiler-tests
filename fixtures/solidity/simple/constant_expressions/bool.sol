@@ -6,7 +6,7 @@
 //!         {
 //!           "method": "test",
 //!           "calldata": [],
-//!           "caller": "0x5c7615Bf18956Bf243870b71D639aA725d4eCC53"
+//!           "caller": "0xdf00c4c7e76cb484af5a9dcdf8d86e47206e2e41"
 //!         }
 //!       ],
 //!       "expected": [
@@ -19,7 +19,7 @@
 //!         {
 //!           "method": "test2",
 //!           "calldata": [],
-//!           "caller": "0x0FFC25a827d2f349B8c3040DC9B09a64b8F6A4A7"
+//!           "caller": "0x394045dd0a3765b3adde20c3f2f4dad2a1d2f455"
 //!         }
 //!       ],
 //!       "expected": [

@@ -4,7 +4,7 @@
       "name": "internal_library_function_attached_to_interface",
       "inputs": [
         {
-          "caller": "0xbdb7ff04152e424f3614489c8cfb20e09717b8f1",
+          "caller": "0x15731e041586d6ef75147bdb0f984bc99dac0ee3",
           "comment": "test() -> 42",
           "instance": "C",
           "method": "test()",

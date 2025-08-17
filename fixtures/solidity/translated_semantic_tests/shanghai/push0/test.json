@@ -4,7 +4,7 @@
       "name": "push0",
       "inputs": [
         {
-          "caller": "0xc703897f680bdad492abe202e5ab6913393a22c3",
+          "caller": "0xbaaa8c917993f2ec657a67771556c288b4f431f2",
           "comment": "zero() -> 0",
           "instance": "C",
           "method": "zero()",

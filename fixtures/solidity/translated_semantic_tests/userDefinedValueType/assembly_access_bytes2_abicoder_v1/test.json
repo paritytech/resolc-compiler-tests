@@ -4,7 +4,7 @@
       "name": "assembly_access_bytes2_abicoder_v1",
       "inputs": [
         {
-          "caller": "0xb5f59e6f015ef3ac2cb958ffe2bae73d117fa564",
+          "caller": "0xfe649f67452eda0fed3f978aac9842c5a7ac0bd7",
           "comment": "f(bytes2): \"ab\" -> 0x6162000000000000000000000000000000000000000000000000000000000000",
           "instance": "C",
           "method": "f(bytes2)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xb5f59e6f015ef3ac2cb958ffe2bae73d117fa564",
+          "caller": "0xfe649f67452eda0fed3f978aac9842c5a7ac0bd7",
           "comment": "g(bytes2): \"ab\" -> 0x6162000000000000000000000000000000000000000000000000000000000000",
           "instance": "C",
           "method": "g(bytes2)",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0xb5f59e6f015ef3ac2cb958ffe2bae73d117fa564",
+          "caller": "0xfe649f67452eda0fed3f978aac9842c5a7ac0bd7",
           "comment": "f(bytes2): \"abcdef\" -> 0x6162000000000000000000000000000000000000000000000000000000000000",
           "instance": "C",
           "method": "f(bytes2)",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0xb5f59e6f015ef3ac2cb958ffe2bae73d117fa564",
+          "caller": "0xfe649f67452eda0fed3f978aac9842c5a7ac0bd7",
           "comment": "g(bytes2): \"abcdef\" -> 0x6162000000000000000000000000000000000000000000000000000000000000",
           "instance": "C",
           "method": "g(bytes2)",
@@ -48,7 +48,7 @@
           }
         },
         {
-          "caller": "0xb5f59e6f015ef3ac2cb958ffe2bae73d117fa564",
+          "caller": "0xfe649f67452eda0fed3f978aac9842c5a7ac0bd7",
           "comment": "h(uint256): \"ab\" -> 0x6162000000000000000000000000000000000000000000000000000000000000",
           "instance": "C",
           "method": "h(uint256)",
@@ -59,7 +59,7 @@
           }
         },
         {
-          "caller": "0xb5f59e6f015ef3ac2cb958ffe2bae73d117fa564",
+          "caller": "0xfe649f67452eda0fed3f978aac9842c5a7ac0bd7",
           "comment": "h(uint256): \"abcdef\" -> 0x6162000000000000000000000000000000000000000000000000000000000000",
           "instance": "C",
           "method": "h(uint256)",

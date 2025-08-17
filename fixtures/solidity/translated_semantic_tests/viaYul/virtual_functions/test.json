@@ -4,7 +4,7 @@
       "name": "virtual_functions",
       "inputs": [
         {
-          "caller": "0x0e7b23cd1fdb7ea3ccc80320ab43843a2f193c36",
+          "caller": "0xd42e2959e6a9f83c5176b810fc6cfef6199a3de6",
           "comment": "f() -> 3",
           "instance": "C",
           "method": "f()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x0e7b23cd1fdb7ea3ccc80320ab43843a2f193c36",
+          "caller": "0xd42e2959e6a9f83c5176b810fc6cfef6199a3de6",
           "comment": "f1() -> 3",
           "instance": "C",
           "method": "f1()",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0x0e7b23cd1fdb7ea3ccc80320ab43843a2f193c36",
+          "caller": "0xd42e2959e6a9f83c5176b810fc6cfef6199a3de6",
           "comment": "f2() -> 3",
           "instance": "C",
           "method": "f2()",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0x0e7b23cd1fdb7ea3ccc80320ab43843a2f193c36",
+          "caller": "0xd42e2959e6a9f83c5176b810fc6cfef6199a3de6",
           "comment": "g() -> 3",
           "instance": "C",
           "method": "g()",

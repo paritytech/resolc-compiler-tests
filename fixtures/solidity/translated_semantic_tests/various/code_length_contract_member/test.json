@@ -4,7 +4,7 @@
       "name": "code_length_contract_member",
       "inputs": [
         {
-          "caller": "0x9db78ef366f0ab9a7b1c0e12b4371c8c922d2e16",
+          "caller": "0x812260ba74da7083e1603b8aa779d29ac5a87e65",
           "comment": "f() -> 0x20, 0x20, true",
           "instance": "C",
           "method": "f()",

@@ -4,7 +4,7 @@
       "name": "unary_too_long_literal",
       "inputs": [
         {
-          "caller": "0x9e3cfc917e6b207a0653efaaba75ee572c0ff21b",
+          "caller": "0x81a3627665a315a0290c34b337546387611da4ac",
           "comment": "f() -> true",
           "instance": "C",
           "method": "f()",

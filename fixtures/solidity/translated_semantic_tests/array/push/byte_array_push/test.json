@@ -4,7 +4,7 @@
       "name": "byte_array_push",
       "inputs": [
         {
-          "caller": "0x4df4cfa80276be848c2ba37a930c224a54f230c1",
+          "caller": "0xce330f361b2773842dcd4e35bf54055703840d94",
           "comment": "test() -> false",
           "instance": "c",
           "method": "test()",

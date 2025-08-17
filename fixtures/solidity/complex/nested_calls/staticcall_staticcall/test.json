@@ -10,7 +10,7 @@
             "B.address",
             "C.address"
           ],
-          "caller": "0x8F43F9e13Fb7297937A6Ac2efab449B041E1d536"
+          "caller": "0xc3ee0a4c61a7b484b2cec2b988ce98e7a4607b7e"
         }
       ],
       "expected": {

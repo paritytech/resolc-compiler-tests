@@ -4,7 +4,7 @@
       "name": "FixedFeeRegistrar",
       "inputs": [
         {
-          "caller": "0x120616ff95b384a629d582a6600e4f3ee30790fb",
+          "caller": "0x813cd5948ebfa489a3c0b0153e26464904e1b88d",
           "comment": "constructor(); gas irOptimized: 78076; gas irOptimized code: 307400; gas legacy: 115395; gas legacy code: 792400; gas legacyOptimized: 84598; gas legacyOptimized code: 388000",
           "instance": "FixedFeeRegistrar",
           "method": "#deployer",
@@ -14,7 +14,7 @@
           }
         },
         {
-          "caller": "0x120616ff95b384a629d582a6600e4f3ee30790fb",
+          "caller": "0x813cd5948ebfa489a3c0b0153e26464904e1b88d",
           "comment": "reserve(string), 69 ether: 0x20, 3, \"abc\" ->; ~ emit Changed(string): #0x4e03657aea45a94fc7d47ba826c8d667c0d1e6e33a64a036ec44f58fa12d6c45; gas irOptimized: 45967; gas legacy: 46842; gas legacyOptimized: 46091",
           "instance": "FixedFeeRegistrar",
           "method": "reserve(string)",
@@ -34,18 +34,18 @@
           "value": "69000000000000000000 wei"
         },
         {
-          "caller": "0x120616ff95b384a629d582a6600e4f3ee30790fb",
-          "comment": "owner(string): 0x20, 3, \"abc\" -> 0x120616ff95b384a629d582a6600e4f3ee30790fb",
+          "caller": "0x813cd5948ebfa489a3c0b0153e26464904e1b88d",
+          "comment": "owner(string): 0x20, 3, \"abc\" -> 0x813cd5948ebfa489a3c0b0153e26464904e1b88d",
           "instance": "FixedFeeRegistrar",
           "method": "owner(string)",
           "calldata": "0x000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000000036162630000000000000000000000000000000000000000000000000000000000",
           "expected": {
-            "return_data": "0x000000000000000000000000120616ff95b384a629d582a6600e4f3ee30790fb",
+            "return_data": "0x000000000000000000000000813cd5948ebfa489a3c0b0153e26464904e1b88d",
             "exception": false
           }
         },
         {
-          "caller": "0x120616ff95b384a629d582a6600e4f3ee30790fb",
+          "caller": "0x813cd5948ebfa489a3c0b0153e26464904e1b88d",
           "comment": "reserve(string), 70 ether: 0x20, 3, \"def\" ->; ~ emit Changed(string): #0x34607c9bbfeb9c23509680f04363f298fdb0b5f9abe327304ecd1daca08cda9c",
           "instance": "FixedFeeRegistrar",
           "method": "reserve(string)",
@@ -65,18 +65,18 @@
           "value": "70000000000000000000 wei"
         },
         {
-          "caller": "0x120616ff95b384a629d582a6600e4f3ee30790fb",
-          "comment": "owner(string): 0x20, 3, \"def\" -> 0x120616ff95b384a629d582a6600e4f3ee30790fb",
+          "caller": "0x813cd5948ebfa489a3c0b0153e26464904e1b88d",
+          "comment": "owner(string): 0x20, 3, \"def\" -> 0x813cd5948ebfa489a3c0b0153e26464904e1b88d",
           "instance": "FixedFeeRegistrar",
           "method": "owner(string)",
           "calldata": "0x000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000000036465660000000000000000000000000000000000000000000000000000000000",
           "expected": {
-            "return_data": "0x000000000000000000000000120616ff95b384a629d582a6600e4f3ee30790fb",
+            "return_data": "0x000000000000000000000000813cd5948ebfa489a3c0b0153e26464904e1b88d",
             "exception": false
           }
         },
         {
-          "caller": "0x120616ff95b384a629d582a6600e4f3ee30790fb",
+          "caller": "0x813cd5948ebfa489a3c0b0153e26464904e1b88d",
           "comment": "reserve(string), 68 ether: 0x20, 3, \"ghi\" ->",
           "instance": "FixedFeeRegistrar",
           "method": "reserve(string)",
@@ -87,7 +87,7 @@
           "value": "68000000000000000000 wei"
         },
         {
-          "caller": "0x120616ff95b384a629d582a6600e4f3ee30790fb",
+          "caller": "0x813cd5948ebfa489a3c0b0153e26464904e1b88d",
           "comment": "owner(string): 0x20, 3, \"ghi\" -> 0",
           "instance": "FixedFeeRegistrar",
           "method": "owner(string)",
@@ -98,7 +98,7 @@
           }
         },
         {
-          "caller": "0x415f38041f97a6d7199f2625c87da1597f24b93a",
+          "caller": "0xb133fdb8f9bd596f93649437c2db37f9bd8963a1",
           "comment": "reserve(string), 69 ether: 0x20, 3, \"abc\" ->",
           "instance": "FixedFeeRegistrar",
           "method": "reserve(string)",
@@ -109,18 +109,18 @@
           "value": "69000000000000000000 wei"
         },
         {
-          "caller": "0x415f38041f97a6d7199f2625c87da1597f24b93a",
-          "comment": "owner(string): 0x20, 3, \"abc\" -> 0x120616ff95b384a629d582a6600e4f3ee30790fb",
+          "caller": "0xb133fdb8f9bd596f93649437c2db37f9bd8963a1",
+          "comment": "owner(string): 0x20, 3, \"abc\" -> 0x813cd5948ebfa489a3c0b0153e26464904e1b88d",
           "instance": "FixedFeeRegistrar",
           "method": "owner(string)",
           "calldata": "0x000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000000036162630000000000000000000000000000000000000000000000000000000000",
           "expected": {
-            "return_data": "0x000000000000000000000000120616ff95b384a629d582a6600e4f3ee30790fb",
+            "return_data": "0x000000000000000000000000813cd5948ebfa489a3c0b0153e26464904e1b88d",
             "exception": false
           }
         },
         {
-          "caller": "0x120616ff95b384a629d582a6600e4f3ee30790fb",
+          "caller": "0x813cd5948ebfa489a3c0b0153e26464904e1b88d",
           "comment": "setContent(string,bytes32): 0x40, 0, 3, \"abc\" ->; ~ emit Changed(string): #0x4e03657aea45a94fc7d47ba826c8d667c0d1e6e33a64a036ec44f58fa12d6c45",
           "instance": "FixedFeeRegistrar",
           "method": "setContent(string,bytes32)",
@@ -139,7 +139,7 @@
           }
         },
         {
-          "caller": "0x120616ff95b384a629d582a6600e4f3ee30790fb",
+          "caller": "0x813cd5948ebfa489a3c0b0153e26464904e1b88d",
           "comment": "transfer(string,address): 0x40, 555, 3, \"abc\" ->; ~ emit Changed(string): #0x4e03657aea45a94fc7d47ba826c8d667c0d1e6e33a64a036ec44f58fa12d6c45",
           "instance": "FixedFeeRegistrar",
           "method": "transfer(string,address)",
@@ -158,7 +158,7 @@
           }
         },
         {
-          "caller": "0x120616ff95b384a629d582a6600e4f3ee30790fb",
+          "caller": "0x813cd5948ebfa489a3c0b0153e26464904e1b88d",
           "comment": "owner(string): 0x20, 3, \"abc\" -> 555",
           "instance": "FixedFeeRegistrar",
           "method": "owner(string)",
@@ -169,7 +169,7 @@
           }
         },
         {
-          "caller": "0x120616ff95b384a629d582a6600e4f3ee30790fb",
+          "caller": "0x813cd5948ebfa489a3c0b0153e26464904e1b88d",
           "comment": "content(string): 0x20, 3, \"abc\" -> 0x00",
           "instance": "FixedFeeRegistrar",
           "method": "content(string)",
@@ -180,7 +180,7 @@
           }
         },
         {
-          "caller": "0x120616ff95b384a629d582a6600e4f3ee30790fb",
+          "caller": "0x813cd5948ebfa489a3c0b0153e26464904e1b88d",
           "comment": "setContent(string,bytes32): 0x40, 333, 3, \"def\" ->; ~ emit Changed(string): #0x34607c9bbfeb9c23509680f04363f298fdb0b5f9abe327304ecd1daca08cda9c",
           "instance": "FixedFeeRegistrar",
           "method": "setContent(string,bytes32)",
@@ -199,7 +199,7 @@
           }
         },
         {
-          "caller": "0x120616ff95b384a629d582a6600e4f3ee30790fb",
+          "caller": "0x813cd5948ebfa489a3c0b0153e26464904e1b88d",
           "comment": "setAddr(string,address): 0x40, 124, 3, \"def\" ->; ~ emit Changed(string): #0x34607c9bbfeb9c23509680f04363f298fdb0b5f9abe327304ecd1daca08cda9c",
           "instance": "FixedFeeRegistrar",
           "method": "setAddr(string,address)",
@@ -218,7 +218,7 @@
           }
         },
         {
-          "caller": "0x120616ff95b384a629d582a6600e4f3ee30790fb",
+          "caller": "0x813cd5948ebfa489a3c0b0153e26464904e1b88d",
           "comment": "setSubRegistrar(string,address): 0x40, 125, 3, \"def\" ->; ~ emit Changed(string): #0x34607c9bbfeb9c23509680f04363f298fdb0b5f9abe327304ecd1daca08cda9c",
           "instance": "FixedFeeRegistrar",
           "method": "setSubRegistrar(string,address)",
@@ -237,7 +237,7 @@
           }
         },
         {
-          "caller": "0x120616ff95b384a629d582a6600e4f3ee30790fb",
+          "caller": "0x813cd5948ebfa489a3c0b0153e26464904e1b88d",
           "comment": "content(string): 0x20, 3, \"def\" -> 333",
           "instance": "FixedFeeRegistrar",
           "method": "content(string)",
@@ -248,7 +248,7 @@
           }
         },
         {
-          "caller": "0x120616ff95b384a629d582a6600e4f3ee30790fb",
+          "caller": "0x813cd5948ebfa489a3c0b0153e26464904e1b88d",
           "comment": "addr(string): 0x20, 3, \"def\" -> 124",
           "instance": "FixedFeeRegistrar",
           "method": "addr(string)",
@@ -259,7 +259,7 @@
           }
         },
         {
-          "caller": "0x120616ff95b384a629d582a6600e4f3ee30790fb",
+          "caller": "0x813cd5948ebfa489a3c0b0153e26464904e1b88d",
           "comment": "subRegistrar(string): 0x20, 3, \"def\" -> 125",
           "instance": "FixedFeeRegistrar",
           "method": "subRegistrar(string)",
@@ -273,10 +273,10 @@
           "comment": "balance: 0x124 -> 0",
           "address": "0x0000000000000000000000000000000000000124",
           "expected_balance": "0x0",
-          "caller": "0x96A6f2CAdeE99eFfB3Dc55aC0acbB38A5F89F0ae"
+          "caller": "0xF4D2e04cCb02e6D3E10cFfc24E3A1841B8972EE7"
         },
         {
-          "caller": "0x120616ff95b384a629d582a6600e4f3ee30790fb",
+          "caller": "0x813cd5948ebfa489a3c0b0153e26464904e1b88d",
           "comment": "disown(string,address): 0x40, 0x124FFFF, 3, \"def\" ->; ~ emit Changed(string): #0x34607c9bbfeb9c23509680f04363f298fdb0b5f9abe327304ecd1daca08cda9c",
           "instance": "FixedFeeRegistrar",
           "method": "disown(string,address)",
@@ -298,10 +298,10 @@
           "comment": "balance: 0x124 -> 0",
           "address": "0x0000000000000000000000000000000000000124",
           "expected_balance": "0x0",
-          "caller": "0x96A6f2CAdeE99eFfB3Dc55aC0acbB38A5F89F0ae"
+          "caller": "0xF4D2e04cCb02e6D3E10cFfc24E3A1841B8972EE7"
         },
         {
-          "caller": "0x120616ff95b384a629d582a6600e4f3ee30790fb",
+          "caller": "0x813cd5948ebfa489a3c0b0153e26464904e1b88d",
           "comment": "owner(string): 0x20, 3, \"def\" -> 0",
           "instance": "FixedFeeRegistrar",
           "method": "owner(string)",
@@ -312,7 +312,7 @@
           }
         },
         {
-          "caller": "0x120616ff95b384a629d582a6600e4f3ee30790fb",
+          "caller": "0x813cd5948ebfa489a3c0b0153e26464904e1b88d",
           "comment": "content(string): 0x20, 3, \"def\" -> 0",
           "instance": "FixedFeeRegistrar",
           "method": "content(string)",
@@ -323,7 +323,7 @@
           }
         },
         {
-          "caller": "0x120616ff95b384a629d582a6600e4f3ee30790fb",
+          "caller": "0x813cd5948ebfa489a3c0b0153e26464904e1b88d",
           "comment": "addr(string): 0x20, 3, \"def\" -> 0",
           "instance": "FixedFeeRegistrar",
           "method": "addr(string)",
@@ -334,7 +334,7 @@
           }
         },
         {
-          "caller": "0x120616ff95b384a629d582a6600e4f3ee30790fb",
+          "caller": "0x813cd5948ebfa489a3c0b0153e26464904e1b88d",
           "comment": "subRegistrar(string): 0x20, 3, \"def\" -> 0",
           "instance": "FixedFeeRegistrar",
           "method": "subRegistrar(string)",

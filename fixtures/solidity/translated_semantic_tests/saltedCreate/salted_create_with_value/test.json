@@ -4,7 +4,7 @@
       "name": "salted_create_with_value",
       "inputs": [
         {
-          "caller": "0x2aac428d79d9cc42475ad0222494f411b414a3c5",
+          "caller": "0x8fe5f202b62255e6e1d8c1381fac901929984adf",
           "comment": "f(), 10 ether -> 3007, 3008, 3009; gas irOptimized: 187022; gas irOptimized code: 67200; gas legacy: 190858; gas legacy code: 190200; gas legacyOptimized: 187256; gas legacyOptimized code: 92400",
           "instance": "A",
           "method": "f()",

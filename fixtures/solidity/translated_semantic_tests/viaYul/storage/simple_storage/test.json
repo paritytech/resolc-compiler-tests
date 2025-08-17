@@ -4,7 +4,7 @@
       "name": "simple_storage",
       "inputs": [
         {
-          "caller": "0xe5854075272ca5ef71663d5b87e0cd5ac53b2f36",
+          "caller": "0x808ef4a020f2c0a0124411ea04556fd211180922",
           "comment": "setX(uint256): 6 -> 6",
           "instance": "C",
           "method": "setX(uint256)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xe5854075272ca5ef71663d5b87e0cd5ac53b2f36",
+          "caller": "0x808ef4a020f2c0a0124411ea04556fd211180922",
           "comment": "setY(uint256): 2 -> 2",
           "instance": "C",
           "method": "setY(uint256)",

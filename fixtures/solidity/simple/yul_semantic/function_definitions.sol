@@ -6,7 +6,7 @@
 //!         {
 //!           "method": "no_args_and_ret",
 //!           "calldata": [],
-//!           "caller": "0x95e45b7610ad0070D9f2aE2c30FFdeFF2e6fBa7E"
+//!           "caller": "0x9afa0f06686716522c6089c956c224dc483cdad2"
 //!         }
 //!       ],
 //!       "expected": {
@@ -27,7 +27,7 @@
 //!         {
 //!           "method": "many_args",
 //!           "calldata": [],
-//!           "caller": "0xb25a8c7A5eC83E9BFE347CEB4b3F880218Dd9db7"
+//!           "caller": "0x09ec25d8fdf963438056c6b0fddc6739dfcf245d"
 //!         }
 //!       ],
 //!       "expected": [
@@ -40,7 +40,7 @@
 //!         {
 //!           "method": "many_ret_values",
 //!           "calldata": [],
-//!           "caller": "0xCA0e0fF845D5a4d59276dEc73F62a1d2901212e5"
+//!           "caller": "0xf3fd4cddd828d929d0b4d68ef202658fe656ec58"
 //!         }
 //!       ],
 //!       "expected": [
@@ -53,7 +53,7 @@
 //!         {
 //!           "method": "empty_body_arg_side_effect",
 //!           "calldata": [],
-//!           "caller": "0xe535F67e8132Afe06F53578174be70d5CB5D8aA1"
+//!           "caller": "0xb3258de6d6d5c6de813cd21caa4fd67a466939a4"
 //!         }
 //!       ],
 //!       "expected": {
@@ -74,7 +74,7 @@
 //!         {
 //!           "method": "leave_in_function",
 //!           "calldata": [],
-//!           "caller": "0xB7820c20d8357AAD7261B4daf40B0e6EE240caac"
+//!           "caller": "0xca4efacd04500e051bccb7c6869c3c3d6e8db7cb"
 //!         }
 //!       ],
 //!       "expected": {
@@ -95,7 +95,7 @@
 //!         {
 //!           "method": "return_in_function",
 //!           "calldata": [],
-//!           "caller": "0xb49c59d7fa41F7766CF83417fd67f2c7993dAd18"
+//!           "caller": "0x33230c5ff49b68c3e4eb7bb4046a3cb3035bb4c7"
 //!         }
 //!       ],
 //!       "expected": {
@@ -118,7 +118,7 @@
 //!         {
 //!           "method": "revert_in_function",
 //!           "calldata": [],
-//!           "caller": "0x389a2B0705aBFBbEB9D640b5B2EcDB3fc66d7d50"
+//!           "caller": "0xc398e7417053df075c84c63c988df836e8bbcdfd"
 //!         }
 //!       ],
 //!       "expected": {
@@ -134,7 +134,7 @@
 //!         {
 //!           "method": "default_ret_value",
 //!           "calldata": [],
-//!           "caller": "0x22788E7a84E1312Fc3b0F9Ba8F4F30fD16107096"
+//!           "caller": "0x1bdb63f2187012699c444b21cae2416b06f3eb05"
 //!         }
 //!       ],
 //!       "expected": [

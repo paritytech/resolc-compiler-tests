@@ -6,7 +6,7 @@
       "name": "block_difficulty_post_paris",
       "inputs": [
         {
-          "caller": "0x90de30c3e282f57d0b9cfe0a9c8e58ff8ccc447c",
+          "caller": "0xd630cfb5bede290d1009f6a05a6a0a526b126225",
           "comment": "f() -> 2500000000000000",
           "instance": "C",
           "method": "f()",
@@ -17,7 +17,7 @@
           }
         },
         {
-          "caller": "0x90de30c3e282f57d0b9cfe0a9c8e58ff8ccc447c",
+          "caller": "0xd630cfb5bede290d1009f6a05a6a0a526b126225",
           "comment": "f() -> 2500000000000000",
           "instance": "C",
           "method": "f()",
@@ -28,7 +28,7 @@
           }
         },
         {
-          "caller": "0x90de30c3e282f57d0b9cfe0a9c8e58ff8ccc447c",
+          "caller": "0xd630cfb5bede290d1009f6a05a6a0a526b126225",
           "comment": "f() -> 2500000000000000",
           "instance": "C",
           "method": "f()",

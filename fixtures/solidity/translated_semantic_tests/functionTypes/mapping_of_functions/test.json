@@ -4,7 +4,7 @@
       "name": "mapping_of_functions",
       "inputs": [
         {
-          "caller": "0xa8ce5c40c4aa9278ddeaa418e775985549960e7a",
+          "caller": "0x195338d662fa7bb82eecaefe8db34b81d8652c77",
           "comment": "success() -> false",
           "instance": "Flow",
           "method": "success()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xa8ce5c40c4aa9278ddeaa418e775985549960e7a",
+          "caller": "0x195338d662fa7bb82eecaefe8db34b81d8652c77",
           "comment": "f() -> 7",
           "instance": "Flow",
           "method": "f()",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0xa8ce5c40c4aa9278ddeaa418e775985549960e7a",
+          "caller": "0x195338d662fa7bb82eecaefe8db34b81d8652c77",
           "comment": "f() -> 7",
           "instance": "Flow",
           "method": "f()",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0xa8ce5c40c4aa9278ddeaa418e775985549960e7a",
+          "caller": "0x195338d662fa7bb82eecaefe8db34b81d8652c77",
           "comment": "success() -> false",
           "instance": "Flow",
           "method": "success()",
@@ -48,7 +48,7 @@
           }
         },
         {
-          "caller": "0xa8ce5c40c4aa9278ddeaa418e775985549960e7a",
+          "caller": "0x195338d662fa7bb82eecaefe8db34b81d8652c77",
           "comment": "f() -> 7",
           "instance": "Flow",
           "method": "f()",
@@ -59,7 +59,7 @@
           }
         },
         {
-          "caller": "0xa8ce5c40c4aa9278ddeaa418e775985549960e7a",
+          "caller": "0x195338d662fa7bb82eecaefe8db34b81d8652c77",
           "comment": "success() -> true",
           "instance": "Flow",
           "method": "success()",

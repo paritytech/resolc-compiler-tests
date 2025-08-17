@@ -4,7 +4,7 @@
       "name": "bytes_inside_mappings",
       "inputs": [
         {
-          "caller": "0x73c81a89e7866e40a89bff0bfcc79bfe07c876af",
+          "caller": "0x051b278d990197a96318e8e63b7ef257954c31bb",
           "comment": "set(uint256): 1, 2 -> true; gas irOptimized: 110550; gas legacy: 111310; gas legacyOptimized: 110741",
           "instance": "c",
           "method": "set(uint256)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x73c81a89e7866e40a89bff0bfcc79bfe07c876af",
+          "caller": "0x051b278d990197a96318e8e63b7ef257954c31bb",
           "comment": "set(uint256): 2, 2, 3, 4, 5 -> true; gas irOptimized: 177501; gas legacy: 178312; gas legacyOptimized: 177716",
           "instance": "c",
           "method": "set(uint256)",
@@ -29,10 +29,10 @@
           "comment": "storageEmpty -> 0",
           "address": "c.address",
           "is_storage_empty": false,
-          "caller": "0x04F942cfB220A94c4193d78982ce707B5959215d"
+          "caller": "0xfE3064b2FBBE81d0a8B9fEB8763cCc2950e91936"
         },
         {
-          "caller": "0x73c81a89e7866e40a89bff0bfcc79bfe07c876af",
+          "caller": "0x051b278d990197a96318e8e63b7ef257954c31bb",
           "comment": "copy(uint256,uint256): 1, 2 -> true",
           "instance": "c",
           "method": "copy(uint256,uint256)",
@@ -46,10 +46,10 @@
           "comment": "storageEmpty -> 0",
           "address": "c.address",
           "is_storage_empty": false,
-          "caller": "0x04F942cfB220A94c4193d78982ce707B5959215d"
+          "caller": "0xfE3064b2FBBE81d0a8B9fEB8763cCc2950e91936"
         },
         {
-          "caller": "0x73c81a89e7866e40a89bff0bfcc79bfe07c876af",
+          "caller": "0x051b278d990197a96318e8e63b7ef257954c31bb",
           "comment": "copy(uint256,uint256): 99, 1 -> true",
           "instance": "c",
           "method": "copy(uint256,uint256)",
@@ -63,10 +63,10 @@
           "comment": "storageEmpty -> 0",
           "address": "c.address",
           "is_storage_empty": false,
-          "caller": "0x04F942cfB220A94c4193d78982ce707B5959215d"
+          "caller": "0xfE3064b2FBBE81d0a8B9fEB8763cCc2950e91936"
         },
         {
-          "caller": "0x73c81a89e7866e40a89bff0bfcc79bfe07c876af",
+          "caller": "0x051b278d990197a96318e8e63b7ef257954c31bb",
           "comment": "copy(uint256,uint256): 99, 2 -> true",
           "instance": "c",
           "method": "copy(uint256,uint256)",
@@ -80,7 +80,7 @@
           "comment": "storageEmpty -> 1",
           "address": "c.address",
           "is_storage_empty": true,
-          "caller": "0x04F942cfB220A94c4193d78982ce707B5959215d"
+          "caller": "0xfE3064b2FBBE81d0a8B9fEB8763cCc2950e91936"
         }
       ]
     }

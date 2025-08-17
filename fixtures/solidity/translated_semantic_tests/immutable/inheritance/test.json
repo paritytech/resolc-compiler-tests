@@ -4,7 +4,7 @@
       "name": "inheritance",
       "inputs": [
         {
-          "caller": "0xab39e66cd6d5fae25b964678fa76a3b1bc20175b",
+          "caller": "0xdefac20dcf27733a166e85075a64d673b3147b9d",
           "comment": "f() -> 4, 3, 2, 1",
           "instance": "D",
           "method": "f()",

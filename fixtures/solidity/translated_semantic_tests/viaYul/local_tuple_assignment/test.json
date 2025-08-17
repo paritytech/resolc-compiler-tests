@@ -4,7 +4,7 @@
       "name": "local_tuple_assignment",
       "inputs": [
         {
-          "caller": "0xe8c5025c803f3279d94ea55598e147f601929bf4",
+          "caller": "0x9714b6f66b75f854b3d4aec67acd1eae3a57d83e",
           "comment": "x() -> 17",
           "instance": "C",
           "method": "x()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xe8c5025c803f3279d94ea55598e147f601929bf4",
+          "caller": "0x9714b6f66b75f854b3d4aec67acd1eae3a57d83e",
           "comment": "f(uint256,uint256): 23, 42 -> 23, 42",
           "instance": "C",
           "method": "f(uint256,uint256)",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0xe8c5025c803f3279d94ea55598e147f601929bf4",
+          "caller": "0x9714b6f66b75f854b3d4aec67acd1eae3a57d83e",
           "comment": "x() -> 42",
           "instance": "C",
           "method": "x()",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0xe8c5025c803f3279d94ea55598e147f601929bf4",
+          "caller": "0x9714b6f66b75f854b3d4aec67acd1eae3a57d83e",
           "comment": "g() -> 3, 42, 1",
           "instance": "C",
           "method": "g()",
@@ -48,7 +48,7 @@
           }
         },
         {
-          "caller": "0xe8c5025c803f3279d94ea55598e147f601929bf4",
+          "caller": "0x9714b6f66b75f854b3d4aec67acd1eae3a57d83e",
           "comment": "h() -> 4, 42, 1",
           "instance": "C",
           "method": "h()",
@@ -59,7 +59,7 @@
           }
         },
         {
-          "caller": "0xe8c5025c803f3279d94ea55598e147f601929bf4",
+          "caller": "0x9714b6f66b75f854b3d4aec67acd1eae3a57d83e",
           "comment": "i() -> 42, 23, 17, 13",
           "instance": "C",
           "method": "i()",

@@ -7,10 +7,10 @@
           "comment": "storageEmpty -> 1",
           "address": "c.address",
           "is_storage_empty": true,
-          "caller": "0xEfb3f853E9666F5d34E001eA27aa10C8C6d7dF16"
+          "caller": "0xCF56E7776A97b05E6Bd5C1814F331d5003b8E3e2"
         },
         {
-          "caller": "0x58f533e9756b69525299880f988c5bec4959ddff",
+          "caller": "0xf2dd6d9caf8791351e320a9bf6ac19fb7bf15c84",
           "comment": "set(uint256,bytes,uint256): 12, 0x60, 13, 33, \"12345678901234567890123456789012\", \"3\" -> true; gas irOptimized: 133557; gas legacy: 134624; gas legacyOptimized: 133856",
           "instance": "c",
           "method": "set(uint256,bytes,uint256)",
@@ -21,7 +21,7 @@
           }
         },
         {
-          "caller": "0x58f533e9756b69525299880f988c5bec4959ddff",
+          "caller": "0xf2dd6d9caf8791351e320a9bf6ac19fb7bf15c84",
           "comment": "test(uint256): 32 -> \"3\"",
           "instance": "c",
           "method": "test(uint256)",
@@ -35,10 +35,10 @@
           "comment": "storageEmpty -> 0",
           "address": "c.address",
           "is_storage_empty": false,
-          "caller": "0xEfb3f853E9666F5d34E001eA27aa10C8C6d7dF16"
+          "caller": "0xCF56E7776A97b05E6Bd5C1814F331d5003b8E3e2"
         },
         {
-          "caller": "0x58f533e9756b69525299880f988c5bec4959ddff",
+          "caller": "0xf2dd6d9caf8791351e320a9bf6ac19fb7bf15c84",
           "comment": "copy() -> true",
           "instance": "c",
           "method": "copy()",
@@ -52,10 +52,10 @@
           "comment": "storageEmpty -> 1",
           "address": "c.address",
           "is_storage_empty": true,
-          "caller": "0xEfb3f853E9666F5d34E001eA27aa10C8C6d7dF16"
+          "caller": "0xCF56E7776A97b05E6Bd5C1814F331d5003b8E3e2"
         },
         {
-          "caller": "0x58f533e9756b69525299880f988c5bec4959ddff",
+          "caller": "0xf2dd6d9caf8791351e320a9bf6ac19fb7bf15c84",
           "comment": "set(uint256,bytes,uint256): 12, 0x60, 13, 33, \"12345678901234567890123456789012\", \"3\" -> true; gas irOptimized: 133557; gas legacy: 134624; gas legacyOptimized: 133856",
           "instance": "c",
           "method": "set(uint256,bytes,uint256)",
@@ -69,10 +69,10 @@
           "comment": "storageEmpty -> 0",
           "address": "c.address",
           "is_storage_empty": false,
-          "caller": "0xEfb3f853E9666F5d34E001eA27aa10C8C6d7dF16"
+          "caller": "0xCF56E7776A97b05E6Bd5C1814F331d5003b8E3e2"
         },
         {
-          "caller": "0x58f533e9756b69525299880f988c5bec4959ddff",
+          "caller": "0xf2dd6d9caf8791351e320a9bf6ac19fb7bf15c84",
           "comment": "del() -> true",
           "instance": "c",
           "method": "del()",
@@ -86,7 +86,7 @@
           "comment": "storageEmpty -> 1",
           "address": "c.address",
           "is_storage_empty": true,
-          "caller": "0xEfb3f853E9666F5d34E001eA27aa10C8C6d7dF16"
+          "caller": "0xCF56E7776A97b05E6Bd5C1814F331d5003b8E3e2"
         }
       ]
     }

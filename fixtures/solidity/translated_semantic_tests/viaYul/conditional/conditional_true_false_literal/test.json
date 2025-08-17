@@ -4,7 +4,7 @@
       "name": "conditional_true_false_literal",
       "inputs": [
         {
-          "caller": "0x68efde0cdd917c6da6dab02c23f69e7c9cff51a9",
+          "caller": "0x04f61a5ceec60739011b572ea4704e4b6189b205",
           "comment": "f() -> 2",
           "instance": "A",
           "method": "f()",

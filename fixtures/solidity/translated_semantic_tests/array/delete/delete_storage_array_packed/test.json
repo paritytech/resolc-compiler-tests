@@ -4,7 +4,7 @@
       "name": "delete_storage_array_packed",
       "inputs": [
         {
-          "caller": "0xe2b9dfb85e0ad894968f71343dfcc4ce369c2c5a",
+          "caller": "0xd8af6101f6b414d4b3238a32c977bd3a3cbaf9b7",
           "comment": "f() -> 0, 0, 0; gas irOptimized: 90992; gas legacy: 111037; gas legacyOptimized: 109633",
           "instance": "C",
           "method": "f()",

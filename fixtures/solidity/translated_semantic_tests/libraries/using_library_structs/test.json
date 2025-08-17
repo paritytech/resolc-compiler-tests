@@ -4,7 +4,7 @@
       "name": "using_library_structs",
       "inputs": [
         {
-          "caller": "0x71375f7392155e892c7670417ca14db75512a9f5",
+          "caller": "0xd054edfd2119c321ce12a6b898b00deede05d6a6",
           "comment": "f() -> 7, 8; gas irOptimized: 101818; gas legacy: 101428",
           "instance": "Test",
           "method": "f()",

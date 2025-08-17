@@ -4,7 +4,7 @@
       "name": "mapping_array_struct",
       "inputs": [
         {
-          "caller": "0x8a9d78fac62b156f810bec0717e1c0ea13aeeb75",
+          "caller": "0x09c460b2b5afec3709007b240c703bd619bf554e",
           "comment": "m(uint256,uint256): 0, 0 -> FAILURE",
           "instance": "C",
           "method": "m(uint256,uint256)",
@@ -14,7 +14,7 @@
           }
         },
         {
-          "caller": "0x8a9d78fac62b156f810bec0717e1c0ea13aeeb75",
+          "caller": "0x09c460b2b5afec3709007b240c703bd619bf554e",
           "comment": "m(uint256,uint256): 1, 0 -> 1, 2",
           "instance": "C",
           "method": "m(uint256,uint256)",
@@ -25,7 +25,7 @@
           }
         },
         {
-          "caller": "0x8a9d78fac62b156f810bec0717e1c0ea13aeeb75",
+          "caller": "0x09c460b2b5afec3709007b240c703bd619bf554e",
           "comment": "m(uint256,uint256): 1, 1 -> 3, 4",
           "instance": "C",
           "method": "m(uint256,uint256)",
@@ -36,7 +36,7 @@
           }
         },
         {
-          "caller": "0x8a9d78fac62b156f810bec0717e1c0ea13aeeb75",
+          "caller": "0x09c460b2b5afec3709007b240c703bd619bf554e",
           "comment": "m(uint256,uint256): 1, 2 -> FAILURE",
           "instance": "C",
           "method": "m(uint256,uint256)",
@@ -46,7 +46,7 @@
           }
         },
         {
-          "caller": "0x8a9d78fac62b156f810bec0717e1c0ea13aeeb75",
+          "caller": "0x09c460b2b5afec3709007b240c703bd619bf554e",
           "comment": "n(uint256,uint256): 0, 0 -> 0x00, 0x00",
           "instance": "C",
           "method": "n(uint256,uint256)",
@@ -57,7 +57,7 @@
           }
         },
         {
-          "caller": "0x8a9d78fac62b156f810bec0717e1c0ea13aeeb75",
+          "caller": "0x09c460b2b5afec3709007b240c703bd619bf554e",
           "comment": "n(uint256,uint256): 1, 0 -> 7, 8",
           "instance": "C",
           "method": "n(uint256,uint256)",
@@ -68,7 +68,7 @@
           }
         },
         {
-          "caller": "0x8a9d78fac62b156f810bec0717e1c0ea13aeeb75",
+          "caller": "0x09c460b2b5afec3709007b240c703bd619bf554e",
           "comment": "n(uint256,uint256): 1, 1 -> 9, 0x0a",
           "instance": "C",
           "method": "n(uint256,uint256)",
@@ -79,7 +79,7 @@
           }
         },
         {
-          "caller": "0x8a9d78fac62b156f810bec0717e1c0ea13aeeb75",
+          "caller": "0x09c460b2b5afec3709007b240c703bd619bf554e",
           "comment": "n(uint256,uint256): 1, 2 -> 0x00, 0x00",
           "instance": "C",
           "method": "n(uint256,uint256)",

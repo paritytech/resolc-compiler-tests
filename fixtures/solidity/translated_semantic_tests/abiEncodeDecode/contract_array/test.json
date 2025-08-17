@@ -4,7 +4,7 @@
       "name": "contract_array",
       "inputs": [
         {
-          "caller": "0xb9b4184f7ae7b57909ccdf39326ff220e2770324",
+          "caller": "0xb377d1c7e4c7395ab636dd2fe954ff8276e4c391",
           "comment": "f(bytes): 0x20, 0xA0, 0x20, 3, 0x01, 0x02, 0x03 -> 0x20, 3, 0x01, 0x02, 0x03",
           "instance": "C",
           "method": "f(bytes)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xb9b4184f7ae7b57909ccdf39326ff220e2770324",
+          "caller": "0xb377d1c7e4c7395ab636dd2fe954ff8276e4c391",
           "comment": "g() -> 0x20, 0xa0, 0x20, 3, 0x42, 0x21, 0x23",
           "instance": "C",
           "method": "g()",

@@ -11,7 +11,7 @@
           "instance": "Base",
           "method": "testPrivateFunc",
           "calldata": [],
-          "caller": "0xd42E2959E6a9F83C5176b810FC6CfEf6199A3De6"
+          "caller": "0x700304487c13a4d832c43b404e34045fa0c16489"
         }
       ],
       "expected": [
@@ -27,7 +27,7 @@
           "instance": "Base",
           "method": "testInternalFunc",
           "calldata": [],
-          "caller": "0xe9637467C7E0032362605718BC820Db63f30beCC"
+          "caller": "0x03810fa4b7dbc1796675c892f5b7a157a7c63cc3"
         }
       ],
       "expected": [
@@ -43,7 +43,7 @@
           "instance": "Base",
           "method": "publicFunc",
           "calldata": [],
-          "caller": "0x819c1Cddbdacc3CB55DEBB1c55e428E02045aDA8"
+          "caller": "0x0c691f3ffeebcc2cb4d0451ae7f2e5f4718b8fe8"
         }
       ],
       "expected": [
@@ -59,7 +59,7 @@
           "instance": "Base",
           "method": "externalFunc",
           "calldata": [],
-          "caller": "0xf585020C24b72774A9069185ba330dA2Bfc8449b"
+          "caller": "0x3f4c5f0e71bc8de136b8ff276ebec76ff83f4ace"
         }
       ],
       "expected": [
@@ -75,7 +75,7 @@
           "instance": "Base",
           "method": "publicVar",
           "calldata": [],
-          "caller": "0x046D12e598c8a770c09317dea1C04f967cf673A6"
+          "caller": "0x631bc13504611db1d559f17df60e3665f251b73c"
         }
       ],
       "expected": [
@@ -91,7 +91,7 @@
           "instance": "Child",
           "method": "testInternalFunc",
           "calldata": [],
-          "caller": "0xA3EB30592FBDb0F4149f95189512085eCaF63B37"
+          "caller": "0x2be1349101ffb1f65a462490323df6affd94e05a"
         }
       ],
       "expected": [

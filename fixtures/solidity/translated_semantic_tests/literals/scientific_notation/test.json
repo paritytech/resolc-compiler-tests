@@ -4,7 +4,7 @@
       "name": "scientific_notation",
       "inputs": [
         {
-          "caller": "0x1745ceba112b0a41638e235ec59b35adf37b70ab",
+          "caller": "0x1614b6c40982cdf168469ce908e625874435b7cc",
           "comment": "f() -> 20000000000",
           "instance": "C",
           "method": "f()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x1745ceba112b0a41638e235ec59b35adf37b70ab",
+          "caller": "0x1614b6c40982cdf168469ce908e625874435b7cc",
           "comment": "g() -> 2",
           "instance": "C",
           "method": "g()",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0x1745ceba112b0a41638e235ec59b35adf37b70ab",
+          "caller": "0x1614b6c40982cdf168469ce908e625874435b7cc",
           "comment": "h() -> 25",
           "instance": "C",
           "method": "h()",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0x1745ceba112b0a41638e235ec59b35adf37b70ab",
+          "caller": "0x1614b6c40982cdf168469ce908e625874435b7cc",
           "comment": "i() -> -20000000000",
           "instance": "C",
           "method": "i()",
@@ -48,7 +48,7 @@
           }
         },
         {
-          "caller": "0x1745ceba112b0a41638e235ec59b35adf37b70ab",
+          "caller": "0x1614b6c40982cdf168469ce908e625874435b7cc",
           "comment": "j() -> -2",
           "instance": "C",
           "method": "j()",
@@ -59,7 +59,7 @@
           }
         },
         {
-          "caller": "0x1745ceba112b0a41638e235ec59b35adf37b70ab",
+          "caller": "0x1614b6c40982cdf168469ce908e625874435b7cc",
           "comment": "k() -> -25",
           "instance": "C",
           "method": "k()",

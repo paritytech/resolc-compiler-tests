@@ -6,7 +6,7 @@
 //!         {
 //!           "method": "true_condition",
 //!           "calldata": [],
-//!           "caller": "0xa666079e64319FC8359b21C8754C83F80Cb6E9bf"
+//!           "caller": "0xdd732b570ffe71cc00293c9326e86e3b0db24fdd"
 //!         }
 //!       ],
 //!       "expected": {
@@ -27,7 +27,7 @@
 //!         {
 //!           "method": "false_condition",
 //!           "calldata": [],
-//!           "caller": "0xF2ff3aE1A1Fd4B753876c459EE31b9eBD8212E0d"
+//!           "caller": "0x424e8ee4eebae4adef3cf34dc495f5e29bd8dfef"
 //!         }
 //!       ],
 //!       "expected": {
@@ -48,7 +48,7 @@
 //!         {
 //!           "method": "string_condition",
 //!           "calldata": [],
-//!           "caller": "0xc6640aE21Ae36507912770039a06B7f06fC7821a"
+//!           "caller": "0x8483a6b6279e300ee6e01cf5ba9c3e23c6f80536"
 //!         }
 //!       ],
 //!       "expected": {
@@ -69,7 +69,7 @@
 //!         {
 //!           "method": "empty_string_condition",
 //!           "calldata": [],
-//!           "caller": "0x2D3fA28b84e28331834A3f901CEa901eb27fcDBD"
+//!           "caller": "0x0eae21b0b882f8dbe29b0ca08afc0127c4d26dec"
 //!         }
 //!       ],
 //!       "expected": {
@@ -90,7 +90,7 @@
 //!         {
 //!           "method": "zero_condition",
 //!           "calldata": [],
-//!           "caller": "0xEAFE092AA23a60cEDfDaaE8352EDde6e83745C06"
+//!           "caller": "0x5e57bb010b8820883b400eb8bfe4c8efd73714a9"
 //!         }
 //!       ],
 //!       "expected": {
@@ -111,7 +111,7 @@
 //!         {
 //!           "method": "one_condition",
 //!           "calldata": [],
-//!           "caller": "0x17cBd7998B8060d88EFBBb0985693B7f1C610a1A"
+//!           "caller": "0x2e696d417b0e44013a2fab70646907a04f066306"
 //!         }
 //!       ],
 //!       "expected": {
@@ -132,7 +132,7 @@
 //!         {
 //!           "method": "number_condition",
 //!           "calldata": [],
-//!           "caller": "0x6F6EEeA7316B3ED8F1759119b6bEDF464719CaFF"
+//!           "caller": "0x18c299022dc8fcff0440388e96d14fd6b3c267a5"
 //!         }
 //!       ],
 //!       "expected": {
@@ -153,7 +153,7 @@
 //!         {
 //!           "method": "runtime_condition",
 //!           "calldata": [],
-//!           "caller": "0x040732d4c538f8932758B358a7Ed1d5aF1A30F55"
+//!           "caller": "0x39d6f50b696b3e3e5217953167b1e561f7e1d335"
 //!         }
 //!       ],
 //!       "expected": {
@@ -174,7 +174,7 @@
 //!         {
 //!           "method": "return_in_condition",
 //!           "calldata": [],
-//!           "caller": "0x7a28B7Eb7CdE57C8755f690074f0887b79c5eBF0"
+//!           "caller": "0xc9ddbd3c00253b4b5f54740e68814bbf6384c636"
 //!         }
 //!       ],
 //!       "expected": [
@@ -187,7 +187,7 @@
 //!         {
 //!           "method": "revert_in_condition",
 //!           "calldata": [],
-//!           "caller": "0xd9bD5db3cce14dbcB0c9580B1C664Dfe765A646c"
+//!           "caller": "0x2b850681dcaed3eaddc7a848c13300c0c8d9a2d9"
 //!         }
 //!       ],
 //!       "expected": {
@@ -203,7 +203,7 @@
 //!         {
 //!           "method": "return_in_case",
 //!           "calldata": [],
-//!           "caller": "0x721D21b6d620056A757afC282E96Ed7c060b532B"
+//!           "caller": "0x78a032eccc36d69108781c4c3353401e97a4a7e8"
 //!         }
 //!       ],
 //!       "expected": [
@@ -216,7 +216,7 @@
 //!         {
 //!           "method": "revert_in_case",
 //!           "calldata": [],
-//!           "caller": "0x6C0e734bc61d4a9d6e2F3E49c11912864DF55Ad2"
+//!           "caller": "0x524eb9408cc3e341bc7d08479edab9b2add0a4c5"
 //!         }
 //!       ],
 //!       "expected": {
@@ -232,7 +232,7 @@
 //!         {
 //!           "method": "nested_switchs",
 //!           "calldata": [],
-//!           "caller": "0xd36FB83ccA6028e0D3EbB2BC2C10d388a716e640"
+//!           "caller": "0x0340784a2f3829e1ed1946e767ed3edc5af0b6a8"
 //!         }
 //!       ],
 //!       "expected": [
@@ -245,7 +245,7 @@
 //!         {
 //!           "method": "one_reachable_case",
 //!           "calldata": [],
-//!           "caller": "0x255C4CD7F2D3061fAE83CF8d2B4dE7d64206D0CA"
+//!           "caller": "0xe69511760ec61a5a746fec459fc03daadfe3e235"
 //!         }
 //!       ],
 //!       "expected": [
@@ -258,7 +258,7 @@
 //!         {
 //!           "method": "one_unreachable_case",
 //!           "calldata": [],
-//!           "caller": "0xE40e55EA492715cf3bF1f4A593479FF1c5a2e173"
+//!           "caller": "0xb8106035fe9a4b6adf0cacf3cbef7a63ecfe290c"
 //!         }
 //!       ],
 //!       "expected": [
@@ -271,7 +271,7 @@
 //!         {
 //!           "method": "only_default_case",
 //!           "calldata": [],
-//!           "caller": "0x199A6F287654336861d1bEF03dE9c565d816d663"
+//!           "caller": "0xda08feed281fba5182469b3789257a3c3eedf6f4"
 //!         }
 //!       ],
 //!       "expected": [
@@ -284,7 +284,7 @@
 //!         {
 //!           "method": "reachable_default_case",
 //!           "calldata": [],
-//!           "caller": "0x1F4AA60B52e0717b19d8e00A48A10721988719A8"
+//!           "caller": "0x3b92ed3f0f8b8cda4c9207fda00fba8d8d3d15c8"
 //!         }
 //!       ],
 //!       "expected": [
@@ -297,7 +297,7 @@
 //!         {
 //!           "method": "unreachable_default_case",
 //!           "calldata": [],
-//!           "caller": "0x88a85b6D40D35EBe88346aefAd5Ba6e45a3365eb"
+//!           "caller": "0x152126b5f7c62f1016bb2e7ab87b76371970c303"
 //!         }
 //!       ],
 //!       "expected": [
@@ -310,7 +310,7 @@
 //!         {
 //!           "method": "empty_default_case_condition_side_effect",
 //!           "calldata": [],
-//!           "caller": "0x8ED818D0ad1e4972FaCB3BdE3fAB9de40dA1AdBd"
+//!           "caller": "0x030141044cf4d2562e9449f695a2cf8683ab42ef"
 //!         }
 //!       ],
 //!       "expected": [
@@ -323,7 +323,7 @@
 //!         {
 //!           "method": "many_cases",
 //!           "calldata": [],
-//!           "caller": "0xF3104eFE3ec3c60724Cf0960b8F4C581c4E3d79C"
+//!           "caller": "0x0d291ef81f5fc8756d5f9b2a06efd7971ef66138"
 //!         }
 //!       ],
 //!       "expected": [
@@ -336,7 +336,7 @@
 //!         {
 //!           "method": "complex",
 //!           "calldata": [],
-//!           "caller": "0x1c06F066aF320897BB999d46B3Ce8265008BE4F8"
+//!           "caller": "0x2e0921de912d480857f18d77d07bd2ebc36aa962"
 //!         }
 //!       ],
 //!       "expected": {

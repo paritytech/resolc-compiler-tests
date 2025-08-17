@@ -4,7 +4,7 @@
       "name": "no_nonpayable_circumvention_by_modifier",
       "inputs": [
         {
-          "caller": "0x7e5f4552091a69125d5dfcb7b8c2659029395bdf",
+          "caller": "0xf54410158c17e71d21da619de251b86cdee9db88",
           "comment": "f(), 27 wei -> FAILURE",
           "instance": "C",
           "method": "f()",
@@ -18,7 +18,7 @@
           "comment": "balance -> 0",
           "address": "C.address",
           "expected_balance": "0x0",
-          "caller": "0x2B5AD5c4795c026514f8317c7a215E218DcCD6cF"
+          "caller": "0x4f058234448ec5C329379c7D3c19F11a5C7C1eeb"
         }
       ]
     }

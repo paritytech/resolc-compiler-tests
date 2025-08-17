@@ -4,7 +4,7 @@
       "name": "inline_assembly_embedded_function_call",
       "inputs": [
         {
-          "caller": "0xd200cb50321301d1eaadec8b8dd4b3001608f605",
+          "caller": "0xffd0399321f526a3eaa8e828a71118a23eebcaa9",
           "comment": "f() -> 0x1, 0x4, 0x7, 0x10",
           "instance": "C",
           "method": "f()",

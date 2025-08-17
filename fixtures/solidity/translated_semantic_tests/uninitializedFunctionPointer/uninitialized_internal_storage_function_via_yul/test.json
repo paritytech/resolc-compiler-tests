@@ -4,7 +4,7 @@
       "name": "uninitialized_internal_storage_function_via_yul",
       "inputs": [
         {
-          "caller": "0x321599f3aa9934eaa5be89ac948a89123911cd05",
+          "caller": "0x7ecd137a0f42d278edbb649f8a0a57b31d16d6c2",
           "comment": "f() -> true",
           "instance": "Test",
           "method": "f()",

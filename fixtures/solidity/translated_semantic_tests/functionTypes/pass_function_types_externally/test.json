@@ -4,7 +4,7 @@
       "name": "pass_function_types_externally",
       "inputs": [
         {
-          "caller": "0xba95e317ead06b55c8b70276fc63904b3339dfa1",
+          "caller": "0x334bcde87256c19db90d4d6ed6b72cbf94c10da2",
           "comment": "f(uint256): 7 -> 8",
           "instance": "C",
           "method": "f(uint256)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xba95e317ead06b55c8b70276fc63904b3339dfa1",
+          "caller": "0x334bcde87256c19db90d4d6ed6b72cbf94c10da2",
           "comment": "f2(uint256): 7 -> 8",
           "instance": "C",
           "method": "f2(uint256)",

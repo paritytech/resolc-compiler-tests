@@ -4,7 +4,7 @@
       "name": "consteval_array_length",
       "inputs": [
         {
-          "caller": "0x6f64f6d0d58acabd288774e993d9cacfa3fc88ee",
+          "caller": "0xcfa546aec147a28db4187c5c7e8640c4dd7e4507",
           "comment": "constructor() ->",
           "instance": "C",
           "method": "#deployer",
@@ -14,7 +14,7 @@
           }
         },
         {
-          "caller": "0x6f64f6d0d58acabd288774e993d9cacfa3fc88ee",
+          "caller": "0xcfa546aec147a28db4187c5c7e8640c4dd7e4507",
           "comment": "f() -> 0x0a, 0x0a",
           "instance": "C",
           "method": "f()",

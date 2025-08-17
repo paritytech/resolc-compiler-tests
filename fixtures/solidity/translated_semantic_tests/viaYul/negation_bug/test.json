@@ -4,7 +4,7 @@
       "name": "negation_bug",
       "inputs": [
         {
-          "caller": "0x9b7bdf6ad17d5fc9a168acaa24495e52a65f3b79",
+          "caller": "0xf70ab29d799529bcb7b1b4de3cca53e3b30405a5",
           "comment": "f() ->",
           "instance": "C",
           "method": "f()",

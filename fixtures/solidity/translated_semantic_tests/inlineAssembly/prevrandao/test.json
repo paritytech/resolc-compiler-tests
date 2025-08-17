@@ -6,7 +6,7 @@
       "name": "prevrandao",
       "inputs": [
         {
-          "caller": "0xdf89a440951ccfd3ae0ba66852d236e7e31dac8d",
+          "caller": "0xbbb4fbb89b6e3801ea244745f9efbe1d2ae2c0df",
           "comment": "f() -> 2500000000000000",
           "instance": "C",
           "method": "f()",

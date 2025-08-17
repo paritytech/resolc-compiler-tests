@@ -4,7 +4,7 @@
       "name": "transient_storage_variable_increment_decrement",
       "inputs": [
         {
-          "caller": "0xd590c4417a93569e48677dbd5aca2cf7ff73909c",
+          "caller": "0x6030a4a48652d1d03dd01322b05ade5017bbd1d9",
           "comment": "f() -> 1",
           "instance": "C",
           "method": "f()",

@@ -4,7 +4,7 @@
       "name": "recursive_import",
       "inputs": [
         {
-          "caller": "0x42ba888683427589be5633b0c97954a1e1665548",
+          "caller": "0x3e9ab8702ebe585765b35866655318ccd86b2766",
           "comment": "f() -> 11",
           "instance": "C",
           "method": "f()",

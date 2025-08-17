@@ -4,7 +4,7 @@
       "name": "dirty_storage_struct",
       "inputs": [
         {
-          "caller": "0x2001f8cdcdeef1bbcc188ca59cf04fb44133d55a",
+          "caller": "0xa8eb6613f6d762a652b12ae05109ade3031b6904",
           "comment": "f() -> true",
           "instance": "C",
           "method": "f()",

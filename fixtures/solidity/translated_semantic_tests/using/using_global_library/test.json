@@ -4,7 +4,7 @@
       "name": "using_global_library",
       "inputs": [
         {
-          "caller": "0x76552303461bb8df59ddfab19f5b6f4e0fd007b7",
+          "caller": "0xdd11d9285d235ee041bf98301aff543247d98170",
           "comment": "f() -> 2, 1",
           "instance": "C",
           "method": "f()",

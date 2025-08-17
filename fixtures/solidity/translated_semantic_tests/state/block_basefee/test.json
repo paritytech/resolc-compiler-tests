@@ -1,10 +1,12 @@
 {
+  "comment": "Ignored since the base fee is not a constant",
+  "ignore": true,
   "cases": [
     {
       "name": "block_basefee",
       "inputs": [
         {
-          "caller": "0xbd39bd58df6e31b4d89063ee59538b290f2d08c5",
+          "caller": "0x1c8894c4f921fca36a8288c6ea10f5464b542c69",
           "comment": "f() -> 7",
           "instance": "C",
           "method": "f()",
@@ -15,7 +17,7 @@
           }
         },
         {
-          "caller": "0xbd39bd58df6e31b4d89063ee59538b290f2d08c5",
+          "caller": "0x1c8894c4f921fca36a8288c6ea10f5464b542c69",
           "comment": "g() -> 7",
           "instance": "C",
           "method": "g()",
@@ -26,7 +28,7 @@
           }
         },
         {
-          "caller": "0xbd39bd58df6e31b4d89063ee59538b290f2d08c5",
+          "caller": "0x1c8894c4f921fca36a8288c6ea10f5464b542c69",
           "comment": "f() -> 7",
           "instance": "C",
           "method": "f()",
@@ -37,7 +39,7 @@
           }
         },
         {
-          "caller": "0xbd39bd58df6e31b4d89063ee59538b290f2d08c5",
+          "caller": "0x1c8894c4f921fca36a8288c6ea10f5464b542c69",
           "comment": "g() -> 7",
           "instance": "C",
           "method": "g()",

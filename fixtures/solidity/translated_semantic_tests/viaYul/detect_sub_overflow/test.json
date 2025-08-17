@@ -4,7 +4,7 @@
       "name": "detect_sub_overflow",
       "inputs": [
         {
-          "caller": "0x64e582c17ab7c3b90e171795b504ca3c04108501",
+          "caller": "0xaf1818a2a5d6665d1a4744f0206084cd816ee8d2",
           "comment": "f(uint256,uint256): 6, 5 -> 1",
           "instance": "C",
           "method": "f(uint256,uint256)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x64e582c17ab7c3b90e171795b504ca3c04108501",
+          "caller": "0xaf1818a2a5d6665d1a4744f0206084cd816ee8d2",
           "comment": "f(uint256,uint256): 6, 6 -> 0",
           "instance": "C",
           "method": "f(uint256,uint256)",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0x64e582c17ab7c3b90e171795b504ca3c04108501",
+          "caller": "0xaf1818a2a5d6665d1a4744f0206084cd816ee8d2",
           "comment": "f(uint256,uint256): 5, 6 -> FAILURE, hex\"4e487b71\", 0x11",
           "instance": "C",
           "method": "f(uint256,uint256)",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0x64e582c17ab7c3b90e171795b504ca3c04108501",
+          "caller": "0xaf1818a2a5d6665d1a4744f0206084cd816ee8d2",
           "comment": "g(uint8,uint8): 6, 5 -> 1",
           "instance": "C",
           "method": "g(uint8,uint8)",
@@ -48,7 +48,7 @@
           }
         },
         {
-          "caller": "0x64e582c17ab7c3b90e171795b504ca3c04108501",
+          "caller": "0xaf1818a2a5d6665d1a4744f0206084cd816ee8d2",
           "comment": "g(uint8,uint8): 6, 6 -> 0",
           "instance": "C",
           "method": "g(uint8,uint8)",
@@ -59,7 +59,7 @@
           }
         },
         {
-          "caller": "0x64e582c17ab7c3b90e171795b504ca3c04108501",
+          "caller": "0xaf1818a2a5d6665d1a4744f0206084cd816ee8d2",
           "comment": "g(uint8,uint8): 5, 6 -> FAILURE, hex\"4e487b71\", 0x11",
           "instance": "C",
           "method": "g(uint8,uint8)",

@@ -6,7 +6,7 @@
 //!         {
 //!           "method": "count",
 //!           "calldata": [],
-//!           "caller": "0x42bd3e71397B96A940b180aB927BA7a869FdF892"
+//!           "caller": "0xcb16f249831588c81f80da9995867f27c627e3f2"
 //!         }
 //!       ],
 //!       "expected": [
@@ -19,12 +19,12 @@
 //!         {
 //!           "method": "inc",
 //!           "calldata": [],
-//!           "caller": "0x49d597604b03836194880f4eff2Bc090e47e9FFe"
+//!           "caller": "0x04e31bb34864fc3fb503547e4956ae357679e7e2"
 //!         },
 //!         {
 //!           "method": "count",
 //!           "calldata": [],
-//!           "caller": "0x49d597604b03836194880f4eff2Bc090e47e9FFe"
+//!           "caller": "0x04e31bb34864fc3fb503547e4956ae357679e7e2"
 //!         }
 //!       ],
 //!       "expected": [
@@ -37,22 +37,22 @@
 //!         {
 //!           "method": "inc",
 //!           "calldata": [],
-//!           "caller": "0x3170A028606B10CDb4148121059e857E45Bc867D"
+//!           "caller": "0xeeb8154387a84832010ea0c108af51d8ea52fd29"
 //!         },
 //!         {
 //!           "method": "inc",
 //!           "calldata": [],
-//!           "caller": "0x3170A028606B10CDb4148121059e857E45Bc867D"
+//!           "caller": "0xeeb8154387a84832010ea0c108af51d8ea52fd29"
 //!         },
 //!         {
 //!           "method": "dec",
 //!           "calldata": [],
-//!           "caller": "0x3170A028606B10CDb4148121059e857E45Bc867D"
+//!           "caller": "0xeeb8154387a84832010ea0c108af51d8ea52fd29"
 //!         },
 //!         {
 //!           "method": "count",
 //!           "calldata": [],
-//!           "caller": "0x3170A028606B10CDb4148121059e857E45Bc867D"
+//!           "caller": "0xeeb8154387a84832010ea0c108af51d8ea52fd29"
 //!         }
 //!       ],
 //!       "expected": [

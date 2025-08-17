@@ -4,7 +4,7 @@
       "name": "last_allowed_storage_slot",
       "inputs": [
         {
-          "caller": "0xb0d676ad5f03159494e5daa4cc972d5bd3837428",
+          "caller": "0x05014c23dd0c7e15aa02bcbbee738369f3067aad",
           "comment": "f(uint256): 4 -> 8",
           "instance": "C",
           "method": "f(uint256)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xb0d676ad5f03159494e5daa4cc972d5bd3837428",
+          "caller": "0x05014c23dd0c7e15aa02bcbbee738369f3067aad",
           "comment": "x() -> 8",
           "instance": "C",
           "method": "x()",

@@ -4,7 +4,7 @@
       "name": "cleanup_in_compound_assign",
       "inputs": [
         {
-          "caller": "0x4bfd618f42bb85ef8d0fccb64867668d2c320905",
+          "caller": "0x9ccd41d6e2fea5b32affe96d813440fedc837c4b",
           "comment": "test() -> 0xff, 0xff",
           "instance": "C",
           "method": "test()",

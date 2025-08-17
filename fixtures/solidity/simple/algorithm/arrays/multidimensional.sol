@@ -6,7 +6,7 @@
 //!         {
 //!           "method": "array_2d",
 //!           "calldata": [],
-//!           "caller": "0x94cf2BcAA73CaDf972355A3A53d7445A07bE303f"
+//!           "caller": "0xcdee4b99fcb57c1c97c59fe062a9bda51de12153"
 //!         }
 //!       ],
 //!       "expected": [
@@ -19,7 +19,7 @@
 //!         {
 //!           "method": "array_3d",
 //!           "calldata": [],
-//!           "caller": "0xC066fFFb81D5d7D2C611873c784070bb1EB722C5"
+//!           "caller": "0xe44ddd8ecd814a05756547970d1a06995d51e397"
 //!         }
 //!       ],
 //!       "expected": [
@@ -32,7 +32,7 @@
 //!         {
 //!           "method": "array_4d",
 //!           "calldata": [],
-//!           "caller": "0x166890baF285914F077aD7336e4d88183346358C"
+//!           "caller": "0x6d462cb0f6b963d09556441fe6a727c8b23c0f0d"
 //!         }
 //!       ],
 //!       "expected": [

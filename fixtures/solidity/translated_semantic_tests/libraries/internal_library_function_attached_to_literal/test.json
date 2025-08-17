@@ -4,7 +4,7 @@
       "name": "internal_library_function_attached_to_literal",
       "inputs": [
         {
-          "caller": "0xdcef077aac3c1ca2ebb43eae9500c90deed0f94c",
+          "caller": "0xcb8b8753522f5d620ac62773f9d285203295ab54",
           "comment": "double42() -> 84",
           "instance": "C",
           "method": "double42()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xdcef077aac3c1ca2ebb43eae9500c90deed0f94c",
+          "caller": "0xcb8b8753522f5d620ac62773f9d285203295ab54",
           "comment": "doubleABC() -> 0x20, 6, \"abcabc\"",
           "instance": "C",
           "method": "doubleABC()",

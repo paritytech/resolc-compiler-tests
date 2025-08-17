@@ -4,7 +4,7 @@
       "name": "module_from_ternary_expression",
       "inputs": [
         {
-          "caller": "0xaca3b09284a9914defe41bfe7f880c7ba2a17c61",
+          "caller": "0x3154e8eba434ae5dde939a55bb9e61b24d6a673b",
           "comment": "f() -> true",
           "instance": "C",
           "method": "f()",

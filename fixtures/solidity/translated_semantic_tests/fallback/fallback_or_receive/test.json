@@ -4,7 +4,7 @@
       "name": "fallback_or_receive",
       "inputs": [
         {
-          "caller": "0x3b4b31724451ca25b02972ddec44a311695c3751",
+          "caller": "0x8a1c2b917858b7f47c2180c09ed7c1f18bd37df9",
           "comment": "f() -> 0, 0",
           "instance": "C",
           "method": "f()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x3b4b31724451ca25b02972ddec44a311695c3751",
+          "caller": "0x8a1c2b917858b7f47c2180c09ed7c1f18bd37df9",
           "comment": "() ->",
           "instance": "C",
           "method": "#fallback",
@@ -25,7 +25,7 @@
           }
         },
         {
-          "caller": "0x3b4b31724451ca25b02972ddec44a311695c3751",
+          "caller": "0x8a1c2b917858b7f47c2180c09ed7c1f18bd37df9",
           "comment": "f() -> 0, 1",
           "instance": "C",
           "method": "f()",
@@ -36,7 +36,7 @@
           }
         },
         {
-          "caller": "0x3b4b31724451ca25b02972ddec44a311695c3751",
+          "caller": "0x8a1c2b917858b7f47c2180c09ed7c1f18bd37df9",
           "comment": "(), 1 ether ->",
           "instance": "C",
           "method": "#fallback",
@@ -47,7 +47,7 @@
           "value": "1000000000000000000 wei"
         },
         {
-          "caller": "0x3b4b31724451ca25b02972ddec44a311695c3751",
+          "caller": "0x8a1c2b917858b7f47c2180c09ed7c1f18bd37df9",
           "comment": "f() -> 0, 2",
           "instance": "C",
           "method": "f()",
@@ -58,7 +58,7 @@
           }
         },
         {
-          "caller": "0x3b4b31724451ca25b02972ddec44a311695c3751",
+          "caller": "0x8a1c2b917858b7f47c2180c09ed7c1f18bd37df9",
           "comment": "(): 1 ->",
           "instance": "C",
           "method": "#fallback",
@@ -68,7 +68,7 @@
           }
         },
         {
-          "caller": "0x3b4b31724451ca25b02972ddec44a311695c3751",
+          "caller": "0x8a1c2b917858b7f47c2180c09ed7c1f18bd37df9",
           "comment": "f() -> 1, 2",
           "instance": "C",
           "method": "f()",
@@ -79,7 +79,7 @@
           }
         },
         {
-          "caller": "0x3b4b31724451ca25b02972ddec44a311695c3751",
+          "caller": "0x8a1c2b917858b7f47c2180c09ed7c1f18bd37df9",
           "comment": "(), 1 ether: 1 ->",
           "instance": "C",
           "method": "#fallback",
@@ -90,7 +90,7 @@
           "value": "1000000000000000000 wei"
         },
         {
-          "caller": "0x3b4b31724451ca25b02972ddec44a311695c3751",
+          "caller": "0x8a1c2b917858b7f47c2180c09ed7c1f18bd37df9",
           "comment": "f() -> 2, 2",
           "instance": "C",
           "method": "f()",

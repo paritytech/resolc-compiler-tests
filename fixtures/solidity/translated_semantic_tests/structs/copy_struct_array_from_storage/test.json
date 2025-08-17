@@ -4,7 +4,7 @@
       "name": "copy_struct_array_from_storage",
       "inputs": [
         {
-          "caller": "0x11dcdd111e4ef4982bdca1b33a4cfa45bad6cfcd",
+          "caller": "0x78d903dded031d803e0cfbb6dfe2e3e642d520bd",
           "comment": "test1() -> true; gas irOptimized: 152965; gas legacy: 153010; gas legacyOptimized: 152636",
           "instance": "Test",
           "method": "test1()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x11dcdd111e4ef4982bdca1b33a4cfa45bad6cfcd",
+          "caller": "0x78d903dded031d803e0cfbb6dfe2e3e642d520bd",
           "comment": "test2() -> true",
           "instance": "Test",
           "method": "test2()",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0x11dcdd111e4ef4982bdca1b33a4cfa45bad6cfcd",
+          "caller": "0x78d903dded031d803e0cfbb6dfe2e3e642d520bd",
           "comment": "test3() -> true",
           "instance": "Test",
           "method": "test3()",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0x11dcdd111e4ef4982bdca1b33a4cfa45bad6cfcd",
+          "caller": "0x78d903dded031d803e0cfbb6dfe2e3e642d520bd",
           "comment": "test4() -> true",
           "instance": "Test",
           "method": "test4()",

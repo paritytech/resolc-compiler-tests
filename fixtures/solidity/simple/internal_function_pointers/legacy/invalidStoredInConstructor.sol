@@ -1,6 +1,7 @@
 //! {
 //!   "modes": [
-//!     "Y =0.4.21"
+//!     "Y =0.4.21",
+//!     "E =0.4.21"
 //!   ],
 //!   "cases": [
 //!     {
@@ -9,7 +10,7 @@
 //!         {
 //!           "method": "f",
 //!           "calldata": [],
-//!           "caller": "0xa60d84503EE9d7A96a744d7ba3Bd7518E6D9c7e1"
+//!           "caller": "0xf0dfc0e20503dcd32309d26ebf6a1e7e7c71ddff"
 //!         }
 //!       ],
 //!       "expected": [

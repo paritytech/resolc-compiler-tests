@@ -4,7 +4,7 @@
       "name": "inline_array_strings_from_document",
       "inputs": [
         {
-          "caller": "0x5f8720e9b95c8605d936e34f22d6cf7d71c4be65",
+          "caller": "0x6797984f9db0abc89e2b1c89836798d0e4cd7a3f",
           "comment": "f(uint256): 0 -> 0x20, 0x4, \"This\"",
           "instance": "C",
           "method": "f(uint256)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x5f8720e9b95c8605d936e34f22d6cf7d71c4be65",
+          "caller": "0x6797984f9db0abc89e2b1c89836798d0e4cd7a3f",
           "comment": "f(uint256): 1 -> 0x20, 0x2, \"is\"",
           "instance": "C",
           "method": "f(uint256)",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0x5f8720e9b95c8605d936e34f22d6cf7d71c4be65",
+          "caller": "0x6797984f9db0abc89e2b1c89836798d0e4cd7a3f",
           "comment": "f(uint256): 2 -> 0x20, 0x2, \"an\"",
           "instance": "C",
           "method": "f(uint256)",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0x5f8720e9b95c8605d936e34f22d6cf7d71c4be65",
+          "caller": "0x6797984f9db0abc89e2b1c89836798d0e4cd7a3f",
           "comment": "f(uint256): 3 -> 0x20, 0x5, \"array\"",
           "instance": "C",
           "method": "f(uint256)",

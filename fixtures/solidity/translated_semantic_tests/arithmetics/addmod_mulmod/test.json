@@ -4,7 +4,7 @@
       "name": "addmod_mulmod",
       "inputs": [
         {
-          "caller": "0xcf440eb14455d6757a2e05e76a64f02e08cb1afe",
+          "caller": "0x80e5991946bad8adbb655ebe37513042f2a93829",
           "comment": "test() -> 0",
           "instance": "C",
           "method": "test()",

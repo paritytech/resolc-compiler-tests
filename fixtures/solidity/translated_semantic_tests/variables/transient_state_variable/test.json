@@ -4,7 +4,7 @@
       "name": "transient_state_variable",
       "inputs": [
         {
-          "caller": "0xdbc29273d4de3d5645e308c7e629d28d4499b3d3",
+          "caller": "0xabf043d98decb8fc3359809dde42583640f3d55b",
           "comment": "x() -> 0",
           "instance": "C",
           "method": "x()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xdbc29273d4de3d5645e308c7e629d28d4499b3d3",
+          "caller": "0xabf043d98decb8fc3359809dde42583640f3d55b",
           "comment": "g() -> 8",
           "instance": "C",
           "method": "g()",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0xdbc29273d4de3d5645e308c7e629d28d4499b3d3",
+          "caller": "0xabf043d98decb8fc3359809dde42583640f3d55b",
           "comment": "h() -> 0",
           "instance": "C",
           "method": "h()",

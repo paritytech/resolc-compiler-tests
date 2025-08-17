@@ -4,7 +4,7 @@
       "name": "offset_overflow_in_array_decoding",
       "inputs": [
         {
-          "caller": "0x31be3d82cfa89cec5380beadf49dbb2fc03bab8c",
+          "caller": "0x5c0caee3eaeda7d46b7662e94e4319be85ce8bd8",
           "comment": "test() -> FAILURE",
           "instance": "Test",
           "method": "test()",

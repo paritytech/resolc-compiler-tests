@@ -4,7 +4,7 @@
       "name": "operator_precendence",
       "inputs": [
         {
-          "caller": "0x0454f96cacf7e9d025e4977c1f6de961b8474570",
+          "caller": "0x7241f980e4f93ff72ee54cb6ae873796427aabf6",
           "comment": "testBitwise() ->",
           "instance": "C",
           "method": "testBitwise()",
@@ -14,7 +14,7 @@
           }
         },
         {
-          "caller": "0x0454f96cacf7e9d025e4977c1f6de961b8474570",
+          "caller": "0x7241f980e4f93ff72ee54cb6ae873796427aabf6",
           "comment": "testBitwise_arithmetic() ->",
           "instance": "C",
           "method": "testBitwise_arithmetic()",
@@ -24,7 +24,7 @@
           }
         },
         {
-          "caller": "0x0454f96cacf7e9d025e4977c1f6de961b8474570",
+          "caller": "0x7241f980e4f93ff72ee54cb6ae873796427aabf6",
           "comment": "testArithmetic() ->",
           "instance": "C",
           "method": "testArithmetic()",
@@ -34,7 +34,7 @@
           }
         },
         {
-          "caller": "0x0454f96cacf7e9d025e4977c1f6de961b8474570",
+          "caller": "0x7241f980e4f93ff72ee54cb6ae873796427aabf6",
           "comment": "testAll() ->",
           "instance": "C",
           "method": "testAll()",

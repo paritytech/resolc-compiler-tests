@@ -4,7 +4,7 @@
       "name": "exp_zero_literal",
       "inputs": [
         {
-          "caller": "0xc11b8c4b34d627a40da72b065d3b67002ee5ec9f",
+          "caller": "0x9273adb9d708676b739d3d227080233d56133fa3",
           "comment": "f() -> 1",
           "instance": "test",
           "method": "f()",

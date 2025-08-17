@@ -4,7 +4,7 @@
       "name": "static_memory_array_allocation",
       "inputs": [
         {
-          "caller": "0x6ebea4992fe1afaac2bc1eea94e02237faf8cb7e",
+          "caller": "0x83bdbb94a7669dfe4737ff8b659660437f56ea70",
           "comment": "withValue() -> 0x00",
           "instance": "C",
           "method": "withValue()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x6ebea4992fe1afaac2bc1eea94e02237faf8cb7e",
+          "caller": "0x83bdbb94a7669dfe4737ff8b659660437f56ea70",
           "comment": "withoutValue() -> 0x0280",
           "instance": "C",
           "method": "withoutValue()",

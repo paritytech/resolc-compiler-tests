@@ -7,7 +7,7 @@
           "instance": "Import",
           "method": "getFooName",
           "calldata": [],
-          "caller": "0x4EDb76B7FA2151c81EF4E8D247D4C46e5ccA82a9"
+          "caller": "0x0c16cdd03f4b79c48a5417b5c99578b06776d0ce"
         }
       ],
       "expected": [

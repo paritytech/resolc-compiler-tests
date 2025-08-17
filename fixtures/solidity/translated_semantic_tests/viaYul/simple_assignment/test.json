@@ -4,7 +4,7 @@
       "name": "simple_assignment",
       "inputs": [
         {
-          "caller": "0x9383e3096133f464d516b518b12851fd10d891f4",
+          "caller": "0x4aff745889775ae1b739a7e0aa8f2ffcff5e0e27",
           "comment": "f(uint256,uint256): 5, 6 -> 5, 6",
           "instance": "C",
           "method": "f(uint256,uint256)",

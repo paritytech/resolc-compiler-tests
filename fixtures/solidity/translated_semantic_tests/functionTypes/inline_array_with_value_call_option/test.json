@@ -4,7 +4,7 @@
       "name": "inline_array_with_value_call_option",
       "inputs": [
         {
-          "caller": "0x161c2e10407e2a87959c0bae1f342c80eaea28f3",
+          "caller": "0xe8f2243fa2fcbe53647d1f4c5618d18b955502e3",
           "comment": "h(), 1 ether -> 1",
           "instance": "C",
           "method": "h()",

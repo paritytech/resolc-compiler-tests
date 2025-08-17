@@ -4,7 +4,7 @@
       "name": "copy_struct_with_nested_array_from_memory_to_memory",
       "inputs": [
         {
-          "caller": "0xfa7e64569c04b0a84aaf39507fc08290b21e6bcc",
+          "caller": "0xcb5499abf2821687ac1ed8bc6c3be0004bbdda55",
           "comment": "test((uint8[1],uint8[])): 0x20, 3, 0x40, 2, 7, 11 -> 0x20, 0, 0x40, 0",
           "instance": "C",
           "method": "test((uint8[1],uint8[]))",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xfa7e64569c04b0a84aaf39507fc08290b21e6bcc",
+          "caller": "0xcb5499abf2821687ac1ed8bc6c3be0004bbdda55",
           "comment": "test((uint8[1],uint8[])): 0x20, 3, 0x40, 3, 17, 19, 23 -> 0x20, 0, 0x40, 0",
           "instance": "C",
           "method": "test((uint8[1],uint8[]))",

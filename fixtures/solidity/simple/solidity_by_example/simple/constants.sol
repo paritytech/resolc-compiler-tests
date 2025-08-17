@@ -6,7 +6,7 @@
 //!         {
 //!           "method": "MY_ADDRESS",
 //!           "calldata": [],
-//!           "caller": "0xbAf237f5150dD3924D668f06A3256B65D3AA7947"
+//!           "caller": "0x120438797937c1b3eccc83f0b363290e67fe87d4"
 //!         }
 //!       ],
 //!       "expected": [
@@ -19,7 +19,7 @@
 //!         {
 //!           "method": "MY_UINT",
 //!           "calldata": [],
-//!           "caller": "0x6A66bAa9Fd649fbF5C135C1e0B2811CE425270b4"
+//!           "caller": "0x45bcb0db74dff4d7b3bca6cb14bf35800ccd3100"
 //!         }
 //!       ],
 //!       "expected": [

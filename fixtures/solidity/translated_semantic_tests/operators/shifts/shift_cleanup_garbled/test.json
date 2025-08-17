@@ -4,7 +4,7 @@
       "name": "shift_cleanup_garbled",
       "inputs": [
         {
-          "caller": "0x98e57ca396fdabd82af44b90bf7321ccb94b0067",
+          "caller": "0x2c7a596f3fae231925b6bfcf5db35067dbf31665",
           "comment": "f() -> 0x0",
           "instance": "C",
           "method": "f()",

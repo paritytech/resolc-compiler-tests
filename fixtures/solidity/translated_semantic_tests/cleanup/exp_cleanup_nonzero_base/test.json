@@ -4,7 +4,7 @@
       "name": "exp_cleanup_nonzero_base",
       "inputs": [
         {
-          "caller": "0x75bd57c68d7482697ae08371bb94bd64f728c443",
+          "caller": "0x4c9e7ba68c0835091d239b938295d2bbf2fcfab9",
           "comment": "f() -> 0x1",
           "instance": "C",
           "method": "f()",

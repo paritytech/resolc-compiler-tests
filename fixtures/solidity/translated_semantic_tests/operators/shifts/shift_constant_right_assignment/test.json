@@ -4,7 +4,7 @@
       "name": "shift_constant_right_assignment",
       "inputs": [
         {
-          "caller": "0xb4ff2ce9461ea3fb1d4d6a270b33d4cb3230355c",
+          "caller": "0xadf1e378b209543c262bdcc4edd6ceb4b9e85885",
           "comment": "f() -> 0x42",
           "instance": "C",
           "method": "f()",

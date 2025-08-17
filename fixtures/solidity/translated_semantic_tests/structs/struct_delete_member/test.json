@@ -4,7 +4,7 @@
       "name": "struct_delete_member",
       "inputs": [
         {
-          "caller": "0x1ace6ed713cf442667283e03e9707455c9c1b064",
+          "caller": "0x8334c1a42f71f3a5671754f05da0af89468d8974",
           "comment": "deleteMember() -> 0",
           "instance": "test",
           "method": "deleteMember()",

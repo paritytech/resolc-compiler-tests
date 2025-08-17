@@ -4,7 +4,7 @@
       "name": "event_no_arguments",
       "inputs": [
         {
-          "caller": "0xb540c05d9b2516da9596a5ee75d750717a4be035",
+          "caller": "0x188cf3704665126fd983641fcb6c7dd9dcbb9236",
           "comment": "deposit() ->; ~ emit Deposit()",
           "instance": "ClientReceipt",
           "method": "deposit()",

@@ -4,7 +4,7 @@
       "name": "literal_base",
       "inputs": [
         {
-          "caller": "0x05ed2013717b832972cdd850c6ed10c65fc7e6b3",
+          "caller": "0xef54e685713e45266e454e0dce10fdd6ff33ce3d",
           "comment": "f(uint256): 0 -> 1, 1",
           "instance": "test",
           "method": "f(uint256)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x05ed2013717b832972cdd850c6ed10c65fc7e6b3",
+          "caller": "0xef54e685713e45266e454e0dce10fdd6ff33ce3d",
           "comment": "f(uint256): 1 -> 2, -2",
           "instance": "test",
           "method": "f(uint256)",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0x05ed2013717b832972cdd850c6ed10c65fc7e6b3",
+          "caller": "0xef54e685713e45266e454e0dce10fdd6ff33ce3d",
           "comment": "f(uint256): 2 -> 4, 4",
           "instance": "test",
           "method": "f(uint256)",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0x05ed2013717b832972cdd850c6ed10c65fc7e6b3",
+          "caller": "0xef54e685713e45266e454e0dce10fdd6ff33ce3d",
           "comment": "f(uint256): 13 -> 0x2000, -8192",
           "instance": "test",
           "method": "f(uint256)",
@@ -48,7 +48,7 @@
           }
         },
         {
-          "caller": "0x05ed2013717b832972cdd850c6ed10c65fc7e6b3",
+          "caller": "0xef54e685713e45266e454e0dce10fdd6ff33ce3d",
           "comment": "f(uint256): 113 -> 0x020000000000000000000000000000, -10384593717069655257060992658440192",
           "instance": "test",
           "method": "f(uint256)",
@@ -59,7 +59,7 @@
           }
         },
         {
-          "caller": "0x05ed2013717b832972cdd850c6ed10c65fc7e6b3",
+          "caller": "0xef54e685713e45266e454e0dce10fdd6ff33ce3d",
           "comment": "f(uint256): 114 -> 0x040000000000000000000000000000, 20769187434139310514121985316880384",
           "instance": "test",
           "method": "f(uint256)",
@@ -70,7 +70,7 @@
           }
         },
         {
-          "caller": "0x05ed2013717b832972cdd850c6ed10c65fc7e6b3",
+          "caller": "0xef54e685713e45266e454e0dce10fdd6ff33ce3d",
           "comment": "f(uint256): 1113 -> 0x00, 0",
           "instance": "test",
           "method": "f(uint256)",
@@ -81,7 +81,7 @@
           }
         },
         {
-          "caller": "0x05ed2013717b832972cdd850c6ed10c65fc7e6b3",
+          "caller": "0xef54e685713e45266e454e0dce10fdd6ff33ce3d",
           "comment": "f(uint256): 1114 -> 0x00, 0",
           "instance": "test",
           "method": "f(uint256)",

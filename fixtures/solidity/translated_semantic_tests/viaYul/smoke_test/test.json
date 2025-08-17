@@ -4,7 +4,7 @@
       "name": "smoke_test",
       "inputs": [
         {
-          "caller": "0x1e3f8fb9f840325983d6e5c68b6b846ff66a20ac",
+          "caller": "0x4b13e55f75378acdc75e540ce3593f7e2fdccf34",
           "comment": "f() -> FAILURE",
           "instance": "C",
           "method": "f()",

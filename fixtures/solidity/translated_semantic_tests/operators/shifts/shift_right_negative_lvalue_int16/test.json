@@ -4,7 +4,7 @@
       "name": "shift_right_negative_lvalue_int16",
       "inputs": [
         {
-          "caller": "0x70f6dbc8a53c9083b982cad2ae78f28108ae7fa4",
+          "caller": "0x7446a201e4e8f769712ae8e64f940307f3e1077c",
           "comment": "f(int16,uint16): -4266, 0 -> -4266",
           "instance": "C",
           "method": "f(int16,uint16)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x70f6dbc8a53c9083b982cad2ae78f28108ae7fa4",
+          "caller": "0x7446a201e4e8f769712ae8e64f940307f3e1077c",
           "comment": "f(int16,uint16): -4266, 1 -> -2133",
           "instance": "C",
           "method": "f(int16,uint16)",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0x70f6dbc8a53c9083b982cad2ae78f28108ae7fa4",
+          "caller": "0x7446a201e4e8f769712ae8e64f940307f3e1077c",
           "comment": "f(int16,uint16): -4266, 4 -> -267",
           "instance": "C",
           "method": "f(int16,uint16)",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0x70f6dbc8a53c9083b982cad2ae78f28108ae7fa4",
+          "caller": "0x7446a201e4e8f769712ae8e64f940307f3e1077c",
           "comment": "f(int16,uint16): -4266, 8 -> -17",
           "instance": "C",
           "method": "f(int16,uint16)",
@@ -48,7 +48,7 @@
           }
         },
         {
-          "caller": "0x70f6dbc8a53c9083b982cad2ae78f28108ae7fa4",
+          "caller": "0x7446a201e4e8f769712ae8e64f940307f3e1077c",
           "comment": "f(int16,uint16): -4266, 16 -> -1",
           "instance": "C",
           "method": "f(int16,uint16)",
@@ -59,7 +59,7 @@
           }
         },
         {
-          "caller": "0x70f6dbc8a53c9083b982cad2ae78f28108ae7fa4",
+          "caller": "0x7446a201e4e8f769712ae8e64f940307f3e1077c",
           "comment": "f(int16,uint16): -4266, 17 -> -1",
           "instance": "C",
           "method": "f(int16,uint16)",
@@ -70,7 +70,7 @@
           }
         },
         {
-          "caller": "0x70f6dbc8a53c9083b982cad2ae78f28108ae7fa4",
+          "caller": "0x7446a201e4e8f769712ae8e64f940307f3e1077c",
           "comment": "f(int16,uint16): -4267, 0 -> -4267",
           "instance": "C",
           "method": "f(int16,uint16)",
@@ -81,7 +81,7 @@
           }
         },
         {
-          "caller": "0x70f6dbc8a53c9083b982cad2ae78f28108ae7fa4",
+          "caller": "0x7446a201e4e8f769712ae8e64f940307f3e1077c",
           "comment": "f(int16,uint16): -4267, 1 -> -2134",
           "instance": "C",
           "method": "f(int16,uint16)",
@@ -92,7 +92,7 @@
           }
         },
         {
-          "caller": "0x70f6dbc8a53c9083b982cad2ae78f28108ae7fa4",
+          "caller": "0x7446a201e4e8f769712ae8e64f940307f3e1077c",
           "comment": "f(int16,uint16): -4267, 4 -> -267",
           "instance": "C",
           "method": "f(int16,uint16)",
@@ -103,7 +103,7 @@
           }
         },
         {
-          "caller": "0x70f6dbc8a53c9083b982cad2ae78f28108ae7fa4",
+          "caller": "0x7446a201e4e8f769712ae8e64f940307f3e1077c",
           "comment": "f(int16,uint16): -4267, 8 -> -17",
           "instance": "C",
           "method": "f(int16,uint16)",
@@ -114,7 +114,7 @@
           }
         },
         {
-          "caller": "0x70f6dbc8a53c9083b982cad2ae78f28108ae7fa4",
+          "caller": "0x7446a201e4e8f769712ae8e64f940307f3e1077c",
           "comment": "f(int16,uint16): -4267, 16 -> -1",
           "instance": "C",
           "method": "f(int16,uint16)",
@@ -125,7 +125,7 @@
           }
         },
         {
-          "caller": "0x70f6dbc8a53c9083b982cad2ae78f28108ae7fa4",
+          "caller": "0x7446a201e4e8f769712ae8e64f940307f3e1077c",
           "comment": "f(int16,uint16): -4267, 17 -> -1",
           "instance": "C",
           "method": "f(int16,uint16)",

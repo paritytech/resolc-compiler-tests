@@ -4,7 +4,7 @@
       "name": "ether",
       "inputs": [
         {
-          "caller": "0x754164c0cb85dda1b5b18e5b62adbb4d60c3efbf",
+          "caller": "0xf2d7227e113096f33ee35daed831353e104e857c",
           "comment": "f() -> 1000000000000000000",
           "instance": "C",
           "method": "f()",

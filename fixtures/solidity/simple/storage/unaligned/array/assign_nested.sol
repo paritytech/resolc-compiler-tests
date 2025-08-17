@@ -1,23 +1,29 @@
-//! { "cases": [ {
-//!     "name": "main",
-//!     "inputs": [
+//! {
+//!   "cases": [
+//!     {
+//!       "name": "main",
+//!       "inputs": [
 //!         {
-//!             "method": "setStorage",
-//!             "calldata": [
-//!                 "0x00000000000000000000000000000000100f0e0d0c0b0a090807060504030201"
-//!             ]
+//!           "method": "setStorage",
+//!           "calldata": [
+//!             "0x00000000000000000000000000000000100f0e0d0c0b0a090807060504030201"
+//!           ],
+//!           "caller": "0x25a03d8cc3c44a810557b25a08ec216a5c19b023"
 //!         },
 //!         {
-//!             "method": "main",
-//!             "calldata": [
-//!                 "42"
-//!             ]
+//!           "method": "main",
+//!           "calldata": [
+//!             "42"
+//!           ],
+//!           "caller": "0x25a03d8cc3c44a810557b25a08ec216a5c19b023"
 //!         }
-//!     ],
-//!     "expected": [
+//!       ],
+//!       "expected": [
 //!         "126"
-//!     ]
-//! } ] }
+//!       ]
+//!     }
+//!   ]
+//! }
 
 contract Test {
     uint8[4][4] data;

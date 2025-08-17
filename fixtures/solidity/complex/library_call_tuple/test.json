@@ -7,7 +7,7 @@
           "instance": "C",
           "method": "f",
           "calldata": [],
-          "caller": "0xbD3935f8BF5DEe2EFfe94D6E135b145FC1eEBe80"
+          "caller": "0xa80d50c563562af71932433ca14532cd00b61068"
         }
       ],
       "expected": [

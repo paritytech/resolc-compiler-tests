@@ -4,7 +4,7 @@
       "name": "zero_cost_abstraction_comparison_userdefined",
       "inputs": [
         {
-          "caller": "0x91add7f40c5447fe8cfb9fb3c9a8d19fd644630c",
+          "caller": "0x120a8381fc7c763a827567fc51f5b0d506694d06",
           "comment": "getX() -> 0; gas irOptimized: 23379; gas legacy: 23608; gas legacyOptimized: 23311",
           "instance": "C",
           "method": "getX()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x91add7f40c5447fe8cfb9fb3c9a8d19fd644630c",
+          "caller": "0x120a8381fc7c763a827567fc51f5b0d506694d06",
           "comment": "setX(int256): 5 ->; gas irOptimized: 43510; gas legacy: 43724; gas legacyOptimized: 43516",
           "instance": "C",
           "method": "setX(int256)",
@@ -25,7 +25,7 @@
           }
         },
         {
-          "caller": "0x91add7f40c5447fe8cfb9fb3c9a8d19fd644630c",
+          "caller": "0x120a8381fc7c763a827567fc51f5b0d506694d06",
           "comment": "getX() -> 5; gas irOptimized: 23379; gas legacy: 23608; gas legacyOptimized: 23311",
           "instance": "C",
           "method": "getX()",
@@ -36,7 +36,7 @@
           }
         },
         {
-          "caller": "0x91add7f40c5447fe8cfb9fb3c9a8d19fd644630c",
+          "caller": "0x120a8381fc7c763a827567fc51f5b0d506694d06",
           "comment": "add(int256,int256): 200, 99 -> 299; gas irOptimized: 21764; gas legacy: 22523; gas legacyOptimized: 21813",
           "instance": "C",
           "method": "add(int256,int256)",

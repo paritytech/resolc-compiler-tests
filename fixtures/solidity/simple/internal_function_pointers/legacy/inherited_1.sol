@@ -1,7 +1,7 @@
 //! {
 //!   "modes": [
 //!     "Y =0.4.21",
-//!     "E"
+//!     "E =0.4.21"
 //!   ],
 //!   "cases": [
 //!     {
@@ -15,12 +15,12 @@
 //!           "expected": [
 //!             "Test.address"
 //!           ],
-//!           "caller": "0x7D34C0be9B8cF649D0Ed213d9998187b4C940039"
+//!           "caller": "0x0e5b11abff3afd8ace2b2fb74565e2340080faf3"
 //!         },
 //!         {
 //!           "method": "m",
 //!           "calldata": [],
-//!           "caller": "0x7D34C0be9B8cF649D0Ed213d9998187b4C940039"
+//!           "caller": "0x0e5b11abff3afd8ace2b2fb74565e2340080faf3"
 //!         }
 //!       ],
 //!       "expected": [

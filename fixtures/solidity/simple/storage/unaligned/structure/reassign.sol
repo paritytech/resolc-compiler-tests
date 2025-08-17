@@ -1,23 +1,29 @@
-//! { "cases": [ {
-//!     "name": "main",
-//!     "inputs": [
+//! {
+//!   "cases": [
+//!     {
+//!       "name": "main",
+//!       "inputs": [
 //!         {
-//!             "method": "setStorage",
-//!             "calldata": [
-//!                 "0x0000000000000000000000000000000000000000000000000000000000656463"
-//!             ]
+//!           "method": "setStorage",
+//!           "calldata": [
+//!             "0x0000000000000000000000000000000000000000000000000000000000656463"
+//!           ],
+//!           "caller": "0x26ccf493f1dc916c080dadfb0b102e38e480de48"
 //!         },
 //!         {
-//!             "method": "main",
-//!             "calldata": [
-//!                 "42"
-//!             ]
+//!           "method": "main",
+//!           "calldata": [
+//!             "42"
+//!           ],
+//!           "caller": "0x26ccf493f1dc916c080dadfb0b102e38e480de48"
 //!         }
-//!     ],
-//!     "expected": [
+//!       ],
+//!       "expected": [
 //!         "226"
-//!     ]
-//! } ] }
+//!       ]
+//!     }
+//!   ]
+//! }
 
 contract Test {
     uint8 constant TEST = 42;

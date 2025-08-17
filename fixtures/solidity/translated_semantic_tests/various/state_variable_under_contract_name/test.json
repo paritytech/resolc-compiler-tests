@@ -4,7 +4,7 @@
       "name": "state_variable_under_contract_name",
       "inputs": [
         {
-          "caller": "0x7b2f7c677a9ba526074738b0fbe9837e35939f88",
+          "caller": "0x6ecdfe5624c18ad3721c094f5a2c339a7587e9ec",
           "comment": "getStateVar() -> 42",
           "instance": "Scope",
           "method": "getStateVar()",

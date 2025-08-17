@@ -4,7 +4,7 @@
       "name": "overloads",
       "inputs": [
         {
-          "caller": "0xbebae81aff55f9538bf1f2894c415a4d9fddc59f",
+          "caller": "0x52e2c243330d07fc666152db2f8492879f5b335f",
           "comment": "g() -> 2, 3",
           "instance": "C",
           "method": "g()",

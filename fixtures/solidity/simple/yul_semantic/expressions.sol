@@ -6,7 +6,7 @@
 //!         {
 //!           "method": "literal",
 //!           "calldata": [],
-//!           "caller": "0x3Cfb5f583699C3F68afB149A579eCf5324350109"
+//!           "caller": "0x77744fa6cc5a47752d7450d3763d2333f4eafc63"
 //!         }
 //!       ],
 //!       "expected": [
@@ -19,7 +19,7 @@
 //!         {
 //!           "method": "variable",
 //!           "calldata": [],
-//!           "caller": "0x7F1395aFA96f265a1Fb87969a2016BF229e9B54D"
+//!           "caller": "0xc83d58618a69dd85fad938e23c15c2f3bf115781"
 //!         }
 //!       ],
 //!       "expected": [
@@ -32,7 +32,7 @@
 //!         {
 //!           "method": "function_call",
 //!           "calldata": [],
-//!           "caller": "0xecDbc1686e93438953D3961ADE50DC27009705eB"
+//!           "caller": "0x304372826a464a2a1b7cfc962156fddaab71a2a1"
 //!         }
 //!       ],
 //!       "expected": [
@@ -45,7 +45,7 @@
 //!         {
 //!           "method": "nested_calls",
 //!           "calldata": [],
-//!           "caller": "0x9Bc7e6eA2cfa9879a8FbF567BAa73258F2A35e9a"
+//!           "caller": "0x48c2e7cb93700f3e37653088c2390abd6e5d6555"
 //!         }
 //!       ],
 //!       "expected": [
@@ -58,7 +58,7 @@
 //!         {
 //!           "method": "evaluation_order",
 //!           "calldata": [],
-//!           "caller": "0xB73A3e8Dd4d4aade71E4043e3e5e61Fe932beA69"
+//!           "caller": "0x0c7d717ac5ba7adfce09a04385e7f2fac786b65a"
 //!         }
 //!       ],
 //!       "expected": {
@@ -87,7 +87,7 @@
 //!         {
 //!           "method": "nested_calls_evaluation_order",
 //!           "calldata": [],
-//!           "caller": "0x723f96E5400Afba3De0cD82d18EBBe23d9fA2FD1"
+//!           "caller": "0x08d2c22e47ae5c27f7e5e604a3024927f28efcaf"
 //!         }
 //!       ],
 //!       "expected": {

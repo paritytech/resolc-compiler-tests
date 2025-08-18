@@ -4,7 +4,7 @@
       "name": "selfdestruct_pre_cancun_multiple_beneficiaries",
       "inputs": [
         {
-          "caller": "0x88f11095779d9a82de5ec81f04642ea2a884bd00",
+          "caller": "0xc58a36b0c1b2411f658be5602d98463dd05a1a2f",
           "comment": "constructor(), 2 ether ->; gas irOptimized: 108104; gas irOptimized code: 119200; gas legacy: 120424; gas legacy code: 253600; gas legacyOptimized: 109015; gas legacyOptimized code: 130800",
           "instance": "D",
           "method": "#deployer",
@@ -18,22 +18,22 @@
           "comment": "balance: 0x3111111111111111111111111111111111111111 -> 0",
           "address": "0x3111111111111111111111111111111111111111",
           "expected_balance": "0x0",
-          "caller": "0x8FFb86830e5bA27818c6f34BAC4d5a3Fb4380322"
+          "caller": "0x88F11095779d9a82dE5Ec81F04642eA2A884bD00"
         },
         {
           "comment": "balance: 0x3222222222222222222222222222222222222222 -> 0",
           "address": "0x3222222222222222222222222222222222222222",
           "expected_balance": "0x0",
-          "caller": "0x8FFb86830e5bA27818c6f34BAC4d5a3Fb4380322"
+          "caller": "0x88F11095779d9a82dE5Ec81F04642eA2A884bD00"
         },
         {
           "comment": "balance -> 2000000000000000000",
           "address": "D.address",
           "expected_balance": "0x1bc16d674ec80000",
-          "caller": "0x8FFb86830e5bA27818c6f34BAC4d5a3Fb4380322"
+          "caller": "0x88F11095779d9a82dE5Ec81F04642eA2A884bD00"
         },
         {
-          "caller": "0x88f11095779d9a82de5ec81f04642ea2a884bd00",
+          "caller": "0xc58a36b0c1b2411f658be5602d98463dd05a1a2f",
           "comment": "exists() -> false",
           "instance": "D",
           "method": "exists()",
@@ -44,7 +44,7 @@
           }
         },
         {
-          "caller": "0x88f11095779d9a82de5ec81f04642ea2a884bd00",
+          "caller": "0xc58a36b0c1b2411f658be5602d98463dd05a1a2f",
           "comment": "test_deploy_and_terminate_twice() ->; gas irOptimized: 121395; gas irOptimized code: 14000; gas legacy: 122384; gas legacy code: 43200; gas legacyOptimized: 121596; gas legacyOptimized code: 22800",
           "instance": "D",
           "method": "test_deploy_and_terminate_twice()",
@@ -54,7 +54,7 @@
           }
         },
         {
-          "caller": "0x88f11095779d9a82de5ec81f04642ea2a884bd00",
+          "caller": "0xc58a36b0c1b2411f658be5602d98463dd05a1a2f",
           "comment": "exists() -> false",
           "instance": "D",
           "method": "exists()",
@@ -68,22 +68,22 @@
           "comment": "balance: 0x3111111111111111111111111111111111111111 -> 1000000000000000000",
           "address": "0x3111111111111111111111111111111111111111",
           "expected_balance": "0xde0b6b3a7640000",
-          "caller": "0x8FFb86830e5bA27818c6f34BAC4d5a3Fb4380322"
+          "caller": "0x88F11095779d9a82dE5Ec81F04642eA2A884bD00"
         },
         {
           "comment": "balance: 0x3222222222222222222222222222222222222222 -> 0",
           "address": "0x3222222222222222222222222222222222222222",
           "expected_balance": "0x0",
-          "caller": "0x8FFb86830e5bA27818c6f34BAC4d5a3Fb4380322"
+          "caller": "0x88F11095779d9a82dE5Ec81F04642eA2A884bD00"
         },
         {
           "comment": "balance -> 1000000000000000000",
           "address": "D.address",
           "expected_balance": "0xde0b6b3a7640000",
-          "caller": "0x8FFb86830e5bA27818c6f34BAC4d5a3Fb4380322"
+          "caller": "0x88F11095779d9a82dE5Ec81F04642eA2A884bD00"
         },
         {
-          "caller": "0x88f11095779d9a82de5ec81f04642ea2a884bd00",
+          "caller": "0xc58a36b0c1b2411f658be5602d98463dd05a1a2f",
           "comment": "deploy() ->; gas legacy: 58491; gas legacy code: 43200",
           "instance": "D",
           "method": "deploy()",
@@ -93,7 +93,7 @@
           }
         },
         {
-          "caller": "0x88f11095779d9a82de5ec81f04642ea2a884bd00",
+          "caller": "0xc58a36b0c1b2411f658be5602d98463dd05a1a2f",
           "comment": "exists() -> true",
           "instance": "D",
           "method": "exists()",
@@ -107,22 +107,22 @@
           "comment": "balance: 0x3111111111111111111111111111111111111111 -> 1000000000000000000",
           "address": "0x3111111111111111111111111111111111111111",
           "expected_balance": "0xde0b6b3a7640000",
-          "caller": "0x8FFb86830e5bA27818c6f34BAC4d5a3Fb4380322"
+          "caller": "0x88F11095779d9a82dE5Ec81F04642eA2A884bD00"
         },
         {
           "comment": "balance: 0x3222222222222222222222222222222222222222 -> 0",
           "address": "0x3222222222222222222222222222222222222222",
           "expected_balance": "0x0",
-          "caller": "0x8FFb86830e5bA27818c6f34BAC4d5a3Fb4380322"
+          "caller": "0x88F11095779d9a82dE5Ec81F04642eA2A884bD00"
         },
         {
           "comment": "balance -> 0",
           "address": "D.address",
           "expected_balance": "0x0",
-          "caller": "0x8FFb86830e5bA27818c6f34BAC4d5a3Fb4380322"
+          "caller": "0x88F11095779d9a82dE5Ec81F04642eA2A884bD00"
         },
         {
-          "caller": "0x88f11095779d9a82de5ec81f04642ea2a884bd00",
+          "caller": "0xc58a36b0c1b2411f658be5602d98463dd05a1a2f",
           "comment": "terminate(address): 0x3111111111111111111111111111111111111111 ->",
           "instance": "D",
           "method": "terminate(address)",
@@ -135,22 +135,22 @@
           "comment": "balance: 0x3111111111111111111111111111111111111111 -> 2000000000000000000",
           "address": "0x3111111111111111111111111111111111111111",
           "expected_balance": "0x1bc16d674ec80000",
-          "caller": "0x8FFb86830e5bA27818c6f34BAC4d5a3Fb4380322"
+          "caller": "0x88F11095779d9a82dE5Ec81F04642eA2A884bD00"
         },
         {
           "comment": "balance: 0x3222222222222222222222222222222222222222 -> 0",
           "address": "0x3222222222222222222222222222222222222222",
           "expected_balance": "0x0",
-          "caller": "0x8FFb86830e5bA27818c6f34BAC4d5a3Fb4380322"
+          "caller": "0x88F11095779d9a82dE5Ec81F04642eA2A884bD00"
         },
         {
           "comment": "balance -> 0",
           "address": "D.address",
           "expected_balance": "0x0",
-          "caller": "0x8FFb86830e5bA27818c6f34BAC4d5a3Fb4380322"
+          "caller": "0x88F11095779d9a82dE5Ec81F04642eA2A884bD00"
         },
         {
-          "caller": "0x88f11095779d9a82de5ec81f04642ea2a884bd00",
+          "caller": "0xc58a36b0c1b2411f658be5602d98463dd05a1a2f",
           "comment": "terminate(address): 0x3222222222222222222222222222222222222222 -> FAILURE",
           "instance": "D",
           "method": "terminate(address)",
@@ -163,22 +163,22 @@
           "comment": "balance: 0x3111111111111111111111111111111111111111 -> 2000000000000000000",
           "address": "0x3111111111111111111111111111111111111111",
           "expected_balance": "0x1bc16d674ec80000",
-          "caller": "0x8FFb86830e5bA27818c6f34BAC4d5a3Fb4380322"
+          "caller": "0x88F11095779d9a82dE5Ec81F04642eA2A884bD00"
         },
         {
           "comment": "balance: 0x3222222222222222222222222222222222222222 -> 0",
           "address": "0x3222222222222222222222222222222222222222",
           "expected_balance": "0x0",
-          "caller": "0x8FFb86830e5bA27818c6f34BAC4d5a3Fb4380322"
+          "caller": "0x88F11095779d9a82dE5Ec81F04642eA2A884bD00"
         },
         {
           "comment": "balance -> 0",
           "address": "D.address",
           "expected_balance": "0x0",
-          "caller": "0x8FFb86830e5bA27818c6f34BAC4d5a3Fb4380322"
+          "caller": "0x88F11095779d9a82dE5Ec81F04642eA2A884bD00"
         },
         {
-          "caller": "0x88f11095779d9a82de5ec81f04642ea2a884bd00",
+          "caller": "0xc58a36b0c1b2411f658be5602d98463dd05a1a2f",
           "comment": "exists() -> false",
           "instance": "D",
           "method": "exists()",

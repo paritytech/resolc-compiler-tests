@@ -4,7 +4,7 @@
       "name": "ramanujan_pi",
       "inputs": [
         {
-          "caller": "0x5bdadff426c64f2f9c07b0e1d37ed1e26789b56c",
+          "caller": "0x5c664540bc6bb6b22e9d1d3d630c73c02edd94b7",
           "comment": "constructor(); gas irOptimized: 77816; gas irOptimized code: 307600; gas legacy: 92110; gas legacy code: 523600; gas legacyOptimized: 82667; gas legacyOptimized code: 369200",
           "instance": "test",
           "method": "#deployer",
@@ -14,7 +14,7 @@
           }
         },
         {
-          "caller": "0x5bdadff426c64f2f9c07b0e1d37ed1e26789b56c",
+          "caller": "0x5c664540bc6bb6b22e9d1d3d630c73c02edd94b7",
           "comment": "prb_pi() -> 3141592656369545286; gas irOptimized: 57478; gas legacy: 100657; gas legacyOptimized: 75735",
           "instance": "test",
           "method": "prb_pi()",

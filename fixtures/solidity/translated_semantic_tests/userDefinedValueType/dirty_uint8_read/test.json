@@ -4,7 +4,7 @@
       "name": "dirty_uint8_read",
       "inputs": [
         {
-          "caller": "0x85372f186537d98500857eb115212ba3a5cb475a",
+          "caller": "0x4d0ca22e755408020699342a29ee71f5c765c032",
           "comment": "x() -> -5",
           "instance": "C",
           "method": "x()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x85372f186537d98500857eb115212ba3a5cb475a",
+          "caller": "0x4d0ca22e755408020699342a29ee71f5c765c032",
           "comment": "create_dirty_slot() ->",
           "instance": "C",
           "method": "create_dirty_slot()",
@@ -25,7 +25,7 @@
           }
         },
         {
-          "caller": "0x85372f186537d98500857eb115212ba3a5cb475a",
+          "caller": "0x4d0ca22e755408020699342a29ee71f5c765c032",
           "comment": "read_unclean_value() -> 0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb",
           "instance": "C",
           "method": "read_unclean_value()",

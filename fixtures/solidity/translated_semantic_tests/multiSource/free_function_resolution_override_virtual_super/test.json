@@ -4,7 +4,7 @@
       "name": "free_function_resolution_override_virtual_super",
       "inputs": [
         {
-          "caller": "0x8c62f4ddd83846c41aed78e025a33b36bf32deac",
+          "caller": "0x6550f23a0f08bb3817d1060ca615cd1ff98a43bb",
           "comment": "g() -> 1337",
           "instance": "D",
           "method": "g()",

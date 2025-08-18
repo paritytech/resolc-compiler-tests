@@ -4,7 +4,7 @@
       "name": "reimport_imported_function",
       "inputs": [
         {
-          "caller": "0x1990d50c1cba4f2adab4707398e4d6f701003f26",
+          "caller": "0x8c62f4ddd83846c41aed78e025a33b36bf32deac",
           "comment": "foo() -> 1337",
           "instance": "C",
           "method": "foo()",

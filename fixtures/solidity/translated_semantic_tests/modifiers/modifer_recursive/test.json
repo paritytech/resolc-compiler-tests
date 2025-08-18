@@ -4,7 +4,7 @@
       "name": "modifer_recursive",
       "inputs": [
         {
-          "caller": "0xf9aa106ef4e8ddff90dbb015d3adf86cd1f7007f",
+          "caller": "0x2f8dbeeeae18e561b056d894bec76edeb46c06d7",
           "comment": "called() -> 0x00",
           "instance": "C",
           "method": "called()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xf9aa106ef4e8ddff90dbb015d3adf86cd1f7007f",
+          "caller": "0x2f8dbeeeae18e561b056d894bec76edeb46c06d7",
           "comment": "f(uint256): 5 -> 0x0100000000",
           "instance": "C",
           "method": "f(uint256)",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0xf9aa106ef4e8ddff90dbb015d3adf86cd1f7007f",
+          "caller": "0x2f8dbeeeae18e561b056d894bec76edeb46c06d7",
           "comment": "called() -> 6",
           "instance": "C",
           "method": "called()",

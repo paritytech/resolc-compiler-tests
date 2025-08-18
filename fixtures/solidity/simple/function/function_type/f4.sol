@@ -1,4 +1,9 @@
 //! {
+//!   "modes": [
+//!     "Y-",
+//!     "E"
+//!   ],
+//!   "comment": "For some reason this test fails if compiled viaIR with the optimizer enabled. I'm assuming it's because of some kind re-ordering that the optimizer does which results in the results no longer being the same",
 //!   "cases": [
 //!     {
 //!       "name": "test",

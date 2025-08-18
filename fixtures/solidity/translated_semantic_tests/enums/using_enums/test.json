@@ -4,7 +4,7 @@
       "name": "using_enums",
       "inputs": [
         {
-          "caller": "0x4f36a21a5a4f8f6370d9d6267a8e0f080d730f47",
+          "caller": "0x573c8a7379419089e39551287748bc1b173ba27e",
           "comment": "getChoice() -> 2",
           "instance": "test",
           "method": "getChoice()",

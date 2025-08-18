@@ -6,7 +6,7 @@
       "name": "blockhash",
       "inputs": [
         {
-          "caller": "0x81debecb50084f8f5b2163ae2ff041ab6d5a777d",
+          "caller": "0x77495c6886361d8e9b908b8da09727694176a1da",
           "comment": "f() -> 0x3737373737373737373737373737373737373737373737373737373737373737",
           "instance": "C",
           "method": "f()",
@@ -17,7 +17,7 @@
           }
         },
         {
-          "caller": "0x81debecb50084f8f5b2163ae2ff041ab6d5a777d",
+          "caller": "0x77495c6886361d8e9b908b8da09727694176a1da",
           "comment": "g() -> 0x3737373737373737373737373737373737373737373737373737373737373738",
           "instance": "C",
           "method": "g()",
@@ -28,7 +28,7 @@
           }
         },
         {
-          "caller": "0x81debecb50084f8f5b2163ae2ff041ab6d5a777d",
+          "caller": "0x77495c6886361d8e9b908b8da09727694176a1da",
           "comment": "h() -> 0",
           "instance": "C",
           "method": "h()",

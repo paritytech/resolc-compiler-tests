@@ -4,7 +4,7 @@
       "name": "small_exp",
       "inputs": [
         {
-          "caller": "0x8f09a842220fb9606767aa99fc54a80898eddb26",
+          "caller": "0x27eedbc2574abec9c5df9dc1d2e0e1700da86a51",
           "comment": "f() -> 4",
           "instance": "test",
           "method": "f()",

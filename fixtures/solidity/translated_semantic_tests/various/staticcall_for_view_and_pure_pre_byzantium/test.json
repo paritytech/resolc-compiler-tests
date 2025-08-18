@@ -4,7 +4,7 @@
       "name": "staticcall_for_view_and_pure_pre_byzantium",
       "inputs": [
         {
-          "caller": "0xdef1030833611ccccd917a0bc9eb7acc81a92cc8",
+          "caller": "0xf3ac3330eed1ef6ffb0b06583731fdd774f567b7",
           "comment": "f() -> 0x1",
           "instance": "D",
           "method": "f()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xdef1030833611ccccd917a0bc9eb7acc81a92cc8",
+          "caller": "0xf3ac3330eed1ef6ffb0b06583731fdd774f567b7",
           "comment": "fview() -> 1",
           "instance": "D",
           "method": "fview()",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0xdef1030833611ccccd917a0bc9eb7acc81a92cc8",
+          "caller": "0xf3ac3330eed1ef6ffb0b06583731fdd774f567b7",
           "comment": "fpure() -> 1",
           "instance": "D",
           "method": "fpure()",

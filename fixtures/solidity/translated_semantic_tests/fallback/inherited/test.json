@@ -4,7 +4,7 @@
       "name": "inherited",
       "inputs": [
         {
-          "caller": "0xabdbe60b22d26e2f9d8fb20123d92b3b918fd2a9",
+          "caller": "0x4468b452b8ad6a733538a0438aa99ad0d7fe4cfa",
           "comment": "getData() -> 0",
           "instance": "B",
           "method": "getData()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xabdbe60b22d26e2f9d8fb20123d92b3b918fd2a9",
+          "caller": "0x4468b452b8ad6a733538a0438aa99ad0d7fe4cfa",
           "comment": "(): 42 ->",
           "instance": "B",
           "method": "#fallback",
@@ -25,7 +25,7 @@
           }
         },
         {
-          "caller": "0xabdbe60b22d26e2f9d8fb20123d92b3b918fd2a9",
+          "caller": "0x4468b452b8ad6a733538a0438aa99ad0d7fe4cfa",
           "comment": "getData() -> 1",
           "instance": "B",
           "method": "getData()",

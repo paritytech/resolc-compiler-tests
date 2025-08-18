@@ -4,7 +4,7 @@
       "name": "library_stray_values",
       "inputs": [
         {
-          "caller": "0xb88e43a8d0f506bae38deb673b0d0fc23c45e4b2",
+          "caller": "0xc4b33be86cb8b1073a669baf020537eb073490b7",
           "comment": "f(uint256): 33 -> 0x2a",
           "instance": "Test",
           "method": "f(uint256)",

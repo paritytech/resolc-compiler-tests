@@ -4,7 +4,7 @@
       "name": "cleanup_during_multi_element_per_slot_copy",
       "inputs": [
         {
-          "caller": "0x51f15ca088b685475dea2917695699b26ec68410",
+          "caller": "0xc919cd1c3c7c68137e316c16851fd9bbb09c70ae",
           "comment": "constructor(); gas irOptimized: 90065; gas irOptimized code: 149000; gas legacy: 89553; gas legacy code: 126200; gas legacyOptimized: 83556; gas legacyOptimized code: 98200",
           "instance": "C",
           "method": "#deployer",
@@ -14,7 +14,7 @@
           }
         },
         {
-          "caller": "0x51f15ca088b685475dea2917695699b26ec68410",
+          "caller": "0xc919cd1c3c7c68137e316c16851fd9bbb09c70ae",
           "comment": "f() -> 0",
           "instance": "C",
           "method": "f()",

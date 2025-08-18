@@ -4,7 +4,7 @@
       "name": "try_catch_library_call",
       "inputs": [
         {
-          "caller": "0xe83c806ffdb4a5ca9d786af6b292e2cbda8c6f38",
+          "caller": "0x73a4498624aff573efcc6005d69312b19768817a",
           "comment": "f(bool): true -> 8, 0x40, 0",
           "instance": "C",
           "method": "f(bool)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xe83c806ffdb4a5ca9d786af6b292e2cbda8c6f38",
+          "caller": "0x73a4498624aff573efcc6005d69312b19768817a",
           "comment": "f(bool): false -> 18, 0x40, 7, \"failure\"",
           "instance": "C",
           "method": "f(bool)",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0xe83c806ffdb4a5ca9d786af6b292e2cbda8c6f38",
+          "caller": "0x73a4498624aff573efcc6005d69312b19768817a",
           "comment": "g(bool): true -> 9, 0x40, 0",
           "instance": "C",
           "method": "g(bool)",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0xe83c806ffdb4a5ca9d786af6b292e2cbda8c6f38",
+          "caller": "0x73a4498624aff573efcc6005d69312b19768817a",
           "comment": "g(bool): false -> 19, 0x40, 7, \"failure\"",
           "instance": "C",
           "method": "g(bool)",

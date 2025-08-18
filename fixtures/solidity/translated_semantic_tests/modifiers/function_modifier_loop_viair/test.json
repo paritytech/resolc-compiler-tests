@@ -4,7 +4,7 @@
       "name": "function_modifier_loop_viair",
       "inputs": [
         {
-          "caller": "0x72c08108bfbc20e3fb7a0c8613b7e3b181e864f0",
+          "caller": "0x4e79283eb3f330cf2659f61005bf0d2098a7b3b1",
           "comment": "f() -> 1",
           "instance": "C",
           "method": "f()",

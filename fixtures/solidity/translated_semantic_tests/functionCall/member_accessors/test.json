@@ -4,7 +4,7 @@
       "name": "member_accessors",
       "inputs": [
         {
-          "caller": "0x48affadf933d84e7b989d72bced85d7d0f8ed796",
+          "caller": "0xd00c190598beb4a16b7aa02599d9a6b304018e92",
           "comment": "data() -> 8",
           "instance": "test",
           "method": "data()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x48affadf933d84e7b989d72bced85d7d0f8ed796",
+          "caller": "0xd00c190598beb4a16b7aa02599d9a6b304018e92",
           "comment": "name() -> \"Celina\"",
           "instance": "test",
           "method": "name()",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0x48affadf933d84e7b989d72bced85d7d0f8ed796",
+          "caller": "0xd00c190598beb4a16b7aa02599d9a6b304018e92",
           "comment": "a_hash() -> 0xa91eddf639b0b768929589c1a9fd21dcb0107199bdd82e55c5348018a1572f52",
           "instance": "test",
           "method": "a_hash()",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0x48affadf933d84e7b989d72bced85d7d0f8ed796",
+          "caller": "0xd00c190598beb4a16b7aa02599d9a6b304018e92",
           "comment": "an_address() -> 0x1337",
           "instance": "test",
           "method": "an_address()",
@@ -48,7 +48,7 @@
           }
         },
         {
-          "caller": "0x48affadf933d84e7b989d72bced85d7d0f8ed796",
+          "caller": "0xd00c190598beb4a16b7aa02599d9a6b304018e92",
           "comment": "super_secret_data() -> FAILURE",
           "instance": "test",
           "method": "super_secret_data()",

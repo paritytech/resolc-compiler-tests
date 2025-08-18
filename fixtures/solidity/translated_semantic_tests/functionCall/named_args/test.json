@@ -4,7 +4,7 @@
       "name": "named_args",
       "inputs": [
         {
-          "caller": "0x6604d5923bc04e3d71689041391512e2be3886df",
+          "caller": "0x647ac7cea6d22fb6913aa7be9657385aa80d4379",
           "comment": "b() -> 123",
           "instance": "test",
           "method": "b()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x6604d5923bc04e3d71689041391512e2be3886df",
+          "caller": "0x647ac7cea6d22fb6913aa7be9657385aa80d4379",
           "comment": "c() -> 123",
           "instance": "test",
           "method": "c()",

@@ -4,7 +4,7 @@
       "name": "all_possible_user_defined_value_types_with_operators",
       "inputs": [
         {
-          "caller": "0x61c9cbe5a1cf152fb898cb22e0dfa2d19874dfd8",
+          "caller": "0x0984c75d7c0655c7019829de2841f1ef1757d477",
           "comment": "testIntBinary() ->",
           "instance": "C",
           "method": "testIntBinary()",
@@ -14,7 +14,7 @@
           }
         },
         {
-          "caller": "0x61c9cbe5a1cf152fb898cb22e0dfa2d19874dfd8",
+          "caller": "0x0984c75d7c0655c7019829de2841f1ef1757d477",
           "comment": "testIntUnary() ->",
           "instance": "C",
           "method": "testIntUnary()",
@@ -24,7 +24,7 @@
           }
         },
         {
-          "caller": "0x61c9cbe5a1cf152fb898cb22e0dfa2d19874dfd8",
+          "caller": "0x0984c75d7c0655c7019829de2841f1ef1757d477",
           "comment": "testUintBinary() ->",
           "instance": "C",
           "method": "testUintBinary()",
@@ -34,7 +34,7 @@
           }
         },
         {
-          "caller": "0x61c9cbe5a1cf152fb898cb22e0dfa2d19874dfd8",
+          "caller": "0x0984c75d7c0655c7019829de2841f1ef1757d477",
           "comment": "testUintUnary() ->",
           "instance": "C",
           "method": "testUintUnary()",
@@ -44,7 +44,7 @@
           }
         },
         {
-          "caller": "0x61c9cbe5a1cf152fb898cb22e0dfa2d19874dfd8",
+          "caller": "0x0984c75d7c0655c7019829de2841f1ef1757d477",
           "comment": "testBytesBinary() ->",
           "instance": "C",
           "method": "testBytesBinary()",
@@ -54,7 +54,7 @@
           }
         },
         {
-          "caller": "0x61c9cbe5a1cf152fb898cb22e0dfa2d19874dfd8",
+          "caller": "0x0984c75d7c0655c7019829de2841f1ef1757d477",
           "comment": "testBytesUnary() ->",
           "instance": "C",
           "method": "testBytesUnary()",
@@ -64,7 +64,7 @@
           }
         },
         {
-          "caller": "0x61c9cbe5a1cf152fb898cb22e0dfa2d19874dfd8",
+          "caller": "0x0984c75d7c0655c7019829de2841f1ef1757d477",
           "comment": "testOtherBinary() ->",
           "instance": "C",
           "method": "testOtherBinary()",
@@ -74,7 +74,7 @@
           }
         },
         {
-          "caller": "0x61c9cbe5a1cf152fb898cb22e0dfa2d19874dfd8",
+          "caller": "0x0984c75d7c0655c7019829de2841f1ef1757d477",
           "comment": "testOtherUnary() ->",
           "instance": "C",
           "method": "testOtherUnary()",

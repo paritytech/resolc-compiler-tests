@@ -4,7 +4,7 @@
       "name": "mcopy_as_identifier_pre_cancun",
       "inputs": [
         {
-          "caller": "0xa7380a286c3f6f2e78cb0618cbdec68bb5ca27fb",
+          "caller": "0xc0c189436526159df66f6dfdbd40ddad7e5fd4e7",
           "comment": "f() -> 1",
           "instance": "C",
           "method": "f()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xa7380a286c3f6f2e78cb0618cbdec68bb5ca27fb",
+          "caller": "0xc0c189436526159df66f6dfdbd40ddad7e5fd4e7",
           "comment": "g() -> 1000",
           "instance": "C",
           "method": "g()",

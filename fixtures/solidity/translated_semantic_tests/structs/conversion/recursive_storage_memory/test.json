@@ -4,7 +4,7 @@
       "name": "recursive_storage_memory",
       "inputs": [
         {
-          "caller": "0x7b110d848a4ceb9fca0d1ce722b19227f4cbc6b4",
+          "caller": "0xc48fee9d9e3e2695855fae4dfbd34a58c5f3a43b",
           "comment": "run() -> 2, 23, 42; gas irOptimized: 192828; gas legacy: 185730; gas legacyOptimized: 184457",
           "instance": "CopyTest",
           "method": "run()",

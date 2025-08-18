@@ -4,7 +4,7 @@
       "name": "packed_functions",
       "inputs": [
         {
-          "caller": "0x5d3ada146c63406bfcd1233786cbc7c4342d9081",
+          "caller": "0xcf1d9adf75d78119ba9f352574ea6a1d09e10556",
           "comment": "set() ->",
           "instance": "C",
           "method": "set()",
@@ -14,7 +14,7 @@
           }
         },
         {
-          "caller": "0x5d3ada146c63406bfcd1233786cbc7c4342d9081",
+          "caller": "0xcf1d9adf75d78119ba9f352574ea6a1d09e10556",
           "comment": "t1() -> 7",
           "instance": "C",
           "method": "t1()",
@@ -25,7 +25,7 @@
           }
         },
         {
-          "caller": "0x5d3ada146c63406bfcd1233786cbc7c4342d9081",
+          "caller": "0xcf1d9adf75d78119ba9f352574ea6a1d09e10556",
           "comment": "t2() -> 8",
           "instance": "C",
           "method": "t2()",
@@ -36,7 +36,7 @@
           }
         },
         {
-          "caller": "0x5d3ada146c63406bfcd1233786cbc7c4342d9081",
+          "caller": "0xcf1d9adf75d78119ba9f352574ea6a1d09e10556",
           "comment": "t3() -> 7",
           "instance": "C",
           "method": "t3()",
@@ -47,7 +47,7 @@
           }
         },
         {
-          "caller": "0x5d3ada146c63406bfcd1233786cbc7c4342d9081",
+          "caller": "0xcf1d9adf75d78119ba9f352574ea6a1d09e10556",
           "comment": "t4() -> 8",
           "instance": "C",
           "method": "t4()",
@@ -58,7 +58,7 @@
           }
         },
         {
-          "caller": "0x5d3ada146c63406bfcd1233786cbc7c4342d9081",
+          "caller": "0xcf1d9adf75d78119ba9f352574ea6a1d09e10556",
           "comment": "x() -> 2",
           "instance": "C",
           "method": "x()",

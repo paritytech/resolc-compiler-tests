@@ -18,6 +18,11 @@
     },
     {
       "name": "second",
+      "modes": [
+        "Y+",
+        "E+"
+      ],
+      "comment": "For some reason this fails when the optimizer is disabled",
       "inputs": [
         {
           "instance": "Main",

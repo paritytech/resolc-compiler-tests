@@ -4,7 +4,7 @@
       "name": "derived_overload_base_function_indirect",
       "inputs": [
         {
-          "caller": "0x62be795938392b21b4ecda99dd1d9503cb107804",
+          "caller": "0x8ccfe24e64e1d39b6351fc0468ad07984654032f",
           "comment": "g() -> 10",
           "instance": "C",
           "method": "g()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x62be795938392b21b4ecda99dd1d9503cb107804",
+          "caller": "0x8ccfe24e64e1d39b6351fc0468ad07984654032f",
           "comment": "h() -> 2",
           "instance": "C",
           "method": "h()",

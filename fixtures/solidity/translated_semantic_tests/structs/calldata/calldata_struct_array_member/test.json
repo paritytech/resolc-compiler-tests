@@ -4,7 +4,7 @@
       "name": "calldata_struct_array_member",
       "inputs": [
         {
-          "caller": "0x7764e1393da8ae11fb4a55de48bd39aa4b7c6af3",
+          "caller": "0x4f0eb7738cb33299862ad974ffe711b632b8e064",
           "comment": "f((uint256,uint256[2],uint256)): 42, 1, 2, 23 -> 42, 1, 2, 23",
           "instance": "C",
           "method": "f((uint256,uint256[2],uint256))",

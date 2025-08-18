@@ -4,7 +4,7 @@
       "name": "internal_call_unattached_with_parentheses",
       "inputs": [
         {
-          "caller": "0x07484b56dd456ae715db6b52e57919659133c4e6",
+          "caller": "0x89be7e93318c28fffeb5df4ef9e682d1ff3b693b",
           "comment": "foo() -> 3",
           "instance": "C",
           "method": "foo()",

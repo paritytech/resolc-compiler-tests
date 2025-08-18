@@ -4,7 +4,7 @@
       "name": "interfaces",
       "inputs": [
         {
-          "caller": "0xf9cd329ab266af8ae7ce3b36b2440328fa0713f1",
+          "caller": "0xfcb28079e05c6608664bf4c430b17deee4ba67e7",
           "comment": "hello() -> left(0x19ff1d21)",
           "instance": "Test",
           "method": "hello()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xf9cd329ab266af8ae7ce3b36b2440328fa0713f1",
+          "caller": "0xfcb28079e05c6608664bf4c430b17deee4ba67e7",
           "comment": "world() -> left(0xdf419679)",
           "instance": "Test",
           "method": "world()",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0xf9cd329ab266af8ae7ce3b36b2440328fa0713f1",
+          "caller": "0xfcb28079e05c6608664bf4c430b17deee4ba67e7",
           "comment": "ERC165_interfaceId() -> left(0x01ffc9a7)",
           "instance": "Test",
           "method": "ERC165_interfaceId()",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0xf9cd329ab266af8ae7ce3b36b2440328fa0713f1",
+          "caller": "0xfcb28079e05c6608664bf4c430b17deee4ba67e7",
           "comment": "hello_world() -> left(0xc6be8b58)",
           "instance": "Test",
           "method": "hello_world()",
@@ -48,7 +48,7 @@
           }
         },
         {
-          "caller": "0xf9cd329ab266af8ae7ce3b36b2440328fa0713f1",
+          "caller": "0xfcb28079e05c6608664bf4c430b17deee4ba67e7",
           "comment": "hello_world_interfaceId() -> left(0xc6be8b58)",
           "instance": "Test",
           "method": "hello_world_interfaceId()",
@@ -59,7 +59,7 @@
           }
         },
         {
-          "caller": "0xf9cd329ab266af8ae7ce3b36b2440328fa0713f1",
+          "caller": "0xfcb28079e05c6608664bf4c430b17deee4ba67e7",
           "comment": "ghello_world_interfaceId() -> left(0xc6be8b58)",
           "instance": "Test",
           "method": "ghello_world_interfaceId()",
@@ -70,7 +70,7 @@
           }
         },
         {
-          "caller": "0xf9cd329ab266af8ae7ce3b36b2440328fa0713f1",
+          "caller": "0xfcb28079e05c6608664bf4c430b17deee4ba67e7",
           "comment": "other() -> left(0x85295877)",
           "instance": "Test",
           "method": "other()",
@@ -81,7 +81,7 @@
           }
         },
         {
-          "caller": "0xf9cd329ab266af8ae7ce3b36b2440328fa0713f1",
+          "caller": "0xfcb28079e05c6608664bf4c430b17deee4ba67e7",
           "comment": "hello_world_derived_interfaceId() -> left(0x85295877)",
           "instance": "Test",
           "method": "hello_world_derived_interfaceId()",

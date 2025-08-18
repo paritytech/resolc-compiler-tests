@@ -4,7 +4,7 @@
       "name": "super_function_deployed",
       "inputs": [
         {
-          "caller": "0xc1c071137e205ddd5d83418fbfaab8ce9ddd9256",
+          "caller": "0x913c9f69c97fa49bbc3846c71ef507c33a674deb",
           "comment": "test() -> true",
           "instance": "C",
           "method": "test()",

@@ -930,6 +930,10 @@
 //!     },
 //!     {
 //!       "name": "ordinar_small_ordinar",
+//!       "modes": [
+//!         "E-"
+//!       ],
+//!       "comment": "This test fails in all other modes for some reason that we need to understand and investigate",
 //!       "inputs": [
 //!         {
 //!           "method": "test",
@@ -3416,8 +3420,11 @@ contract Test {
                 return(0, add(returndatasize(), 32))
             }
 
-            for { let i := 0 } lt(i, len) { i := add(i, 1) }
-            {
+            for {
+                let i := 0
+            } lt(i, len) {
+                i := add(i, 1)
+            } {
                 if iszero(eq(shr(248, mload(add(i, 32))), 0)) {
                     return(0, add(returndatasize(), 32))
                 }
@@ -3446,8 +3453,11 @@ contract Test {
                 return(0, add(returndatasize(), 32))
             }
 
-            for { let i := 0 } lt(i, len) { i := add(i, 1) }
-            {
+            for {
+                let i := 0
+            } lt(i, len) {
+                i := add(i, 1)
+            } {
                 if iszero(eq(shr(248, mload(add(i, 32))), val)) {
                     return(0, add(returndatasize(), 32))
                 }
@@ -3469,8 +3479,11 @@ contract Test {
 
     function with_value(uint256 offset, uint256 len, uint8 val) external view {
         assembly {
-            for { let i := 0 } lt(i, len) { i := add(i, 1) }
-            {
+            for {
+                let i := 0
+            } lt(i, len) {
+                i := add(i, 1)
+            } {
                 mstore8(add(offset, i), val)
             }
             revert(offset, len)

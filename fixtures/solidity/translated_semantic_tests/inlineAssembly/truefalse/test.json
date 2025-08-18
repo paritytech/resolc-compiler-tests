@@ -4,7 +4,7 @@
       "name": "truefalse",
       "inputs": [
         {
-          "caller": "0x64dccf91378a432dd20274b411140a1c6889c306",
+          "caller": "0x1c8bd0df5e82f5e029c66bb73ba2c32e85e3e13e",
           "comment": "f() -> 1, 0",
           "instance": "C",
           "method": "f()",

@@ -4,7 +4,7 @@
       "name": "calldata_struct_as_memory_argument",
       "inputs": [
         {
-          "caller": "0x93305fc1e26de983c123b4890f3edfa9d1b9f075",
+          "caller": "0xa1d1662983fe40a86392236db0e696d817f119d4",
           "comment": "f(uint32,(uint128,uint256[][2],uint32)): 55, 0x40, 77, 0x60, 88, 0x40, 0x40, 2, 1, 2 -> 55, 78, 1, 2, 88",
           "instance": "C",
           "method": "f(uint32,(uint128,uint256[][2],uint32))",

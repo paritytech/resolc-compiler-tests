@@ -4,7 +4,7 @@
       "name": "library_references_preserve",
       "inputs": [
         {
-          "caller": "0xae5803bd94cb7fb0118c536f1c6c873692ded7fc",
+          "caller": "0x099e70493abe25794aacd282bc66065ade874b7d",
           "comment": "aSum() -> 4",
           "instance": "C",
           "method": "aSum()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xae5803bd94cb7fb0118c536f1c6c873692ded7fc",
+          "caller": "0x099e70493abe25794aacd282bc66065ade874b7d",
           "comment": "bSum() -> 5",
           "instance": "C",
           "method": "bSum()",

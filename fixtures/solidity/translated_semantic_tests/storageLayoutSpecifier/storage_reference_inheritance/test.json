@@ -4,7 +4,7 @@
       "name": "storage_reference_inheritance",
       "inputs": [
         {
-          "caller": "0x968f3f61539b5a1c96963c16406c50cc546057eb",
+          "caller": "0x9ee0ecc118c853f983c4a12a8425f7f16bbf4d5f",
           "comment": "InitUsingReference() ->",
           "instance": "C",
           "method": "InitUsingReference()",
@@ -14,7 +14,7 @@
           }
         },
         {
-          "caller": "0x968f3f61539b5a1c96963c16406c50cc546057eb",
+          "caller": "0x9ee0ecc118c853f983c4a12a8425f7f16bbf4d5f",
           "comment": "s() -> 2, true",
           "instance": "C",
           "method": "s()",

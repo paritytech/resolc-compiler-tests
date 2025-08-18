@@ -4,7 +4,7 @@
       "name": "easy",
       "inputs": [
         {
-          "caller": "0x7fc2623061b622d7a0daf3523b02a3a3173a82ee",
+          "caller": "0xe219c2ed0e1bdcbaaf173c3f5a690e05a2272282",
           "comment": "f(uint256): 7 -> 9",
           "instance": "C",
           "method": "f(uint256)",

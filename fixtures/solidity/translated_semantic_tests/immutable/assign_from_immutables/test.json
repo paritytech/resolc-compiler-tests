@@ -4,7 +4,7 @@
       "name": "assign_from_immutables",
       "inputs": [
         {
-          "caller": "0xee8076d275fb12407ca35fb2e37d4d6f0fc44962",
+          "caller": "0x495c1af4714932159225b1f053525ebcdcba6055",
           "comment": "a() -> 1",
           "instance": "C",
           "method": "a()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xee8076d275fb12407ca35fb2e37d4d6f0fc44962",
+          "caller": "0x495c1af4714932159225b1f053525ebcdcba6055",
           "comment": "b() -> 1",
           "instance": "C",
           "method": "b()",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0xee8076d275fb12407ca35fb2e37d4d6f0fc44962",
+          "caller": "0x495c1af4714932159225b1f053525ebcdcba6055",
           "comment": "c() -> 1",
           "instance": "C",
           "method": "c()",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0xee8076d275fb12407ca35fb2e37d4d6f0fc44962",
+          "caller": "0x495c1af4714932159225b1f053525ebcdcba6055",
           "comment": "d() -> 1",
           "instance": "C",
           "method": "d()",

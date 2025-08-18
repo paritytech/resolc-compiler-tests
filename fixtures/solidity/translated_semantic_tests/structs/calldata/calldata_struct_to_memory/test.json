@@ -4,7 +4,7 @@
       "name": "calldata_struct_to_memory",
       "inputs": [
         {
-          "caller": "0xa2a8ee9d39898a1e118130fb0fd9704843965cab",
+          "caller": "0x45f321917ad63e78d4be714dc8e10849a4fc1703",
           "comment": "f((uint256,uint256,bytes2)): 42, 23, \"ab\" -> 42, 23, \"b\"",
           "instance": "C",
           "method": "f((uint256,uint256,bytes2))",

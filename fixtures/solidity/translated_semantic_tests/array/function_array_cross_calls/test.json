@@ -4,7 +4,7 @@
       "name": "function_array_cross_calls",
       "inputs": [
         {
-          "caller": "0x3076163bc12a772d70982065b93d57a50cb232d6",
+          "caller": "0xc21665a186d58c5753dcc172ad86e27093f63819",
           "comment": "test() -> 5, 6, 7; gas irOptimized: 86484; gas irOptimized code: 161200; gas legacy: 97551; gas legacy code: 342800; gas legacyOptimized: 87808; gas legacyOptimized code: 193000",
           "instance": "C",
           "method": "test()",

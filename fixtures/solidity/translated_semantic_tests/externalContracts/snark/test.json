@@ -4,7 +4,7 @@
       "name": "snark",
       "inputs": [
         {
-          "caller": "0xeb174d5ab59a1fbd24cb5cd866e7b00d1af8f83c",
+          "caller": "0x4beff0d5cb8ac45fa5802044fda35ec9c3a6260a",
           "comment": "f() -> true",
           "instance": "Test",
           "method": "f()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xeb174d5ab59a1fbd24cb5cd866e7b00d1af8f83c",
+          "caller": "0x4beff0d5cb8ac45fa5802044fda35ec9c3a6260a",
           "comment": "g() -> true",
           "instance": "Test",
           "method": "g()",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0xeb174d5ab59a1fbd24cb5cd866e7b00d1af8f83c",
+          "caller": "0x4beff0d5cb8ac45fa5802044fda35ec9c3a6260a",
           "comment": "pair() -> true; gas irOptimized: 275229; gas legacy: 293579; gas legacyOptimized: 276313",
           "instance": "Test",
           "method": "pair()",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0xeb174d5ab59a1fbd24cb5cd866e7b00d1af8f83c",
+          "caller": "0x4beff0d5cb8ac45fa5802044fda35ec9c3a6260a",
           "comment": "verifyTx() -> true; ~ emit Verified(string): 0x20, 0x16, \"Successfully verified.\"; gas irOptimized: 818076; gas legacy: 904397; gas legacyOptimized: 816770",
           "instance": "Test",
           "method": "verifyTx()",

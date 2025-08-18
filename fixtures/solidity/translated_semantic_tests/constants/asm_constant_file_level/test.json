@@ -4,7 +4,7 @@
       "name": "asm_constant_file_level",
       "inputs": [
         {
-          "caller": "0x64603bc02a71c08b4d2a57b50cce2f23a847b225",
+          "caller": "0xcfa546aec147a28db4187c5c7e8640c4dd7e4507",
           "comment": "f() -> 0x1212121212121212121212121000002134593163",
           "instance": "C",
           "method": "f()",

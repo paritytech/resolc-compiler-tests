@@ -4,7 +4,7 @@
       "name": "inline_assembly_recursion",
       "inputs": [
         {
-          "caller": "0xde1078673b57d95d3e3939f46ae37289ac1563e8",
+          "caller": "0x720489a1dce9fcf700e3afd5661c552ece46cdc3",
           "comment": "f(uint256): 0 -> 1",
           "instance": "C",
           "method": "f(uint256)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xde1078673b57d95d3e3939f46ae37289ac1563e8",
+          "caller": "0x720489a1dce9fcf700e3afd5661c552ece46cdc3",
           "comment": "f(uint256): 1 -> 1",
           "instance": "C",
           "method": "f(uint256)",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0xde1078673b57d95d3e3939f46ae37289ac1563e8",
+          "caller": "0x720489a1dce9fcf700e3afd5661c552ece46cdc3",
           "comment": "f(uint256): 2 -> 2",
           "instance": "C",
           "method": "f(uint256)",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0xde1078673b57d95d3e3939f46ae37289ac1563e8",
+          "caller": "0x720489a1dce9fcf700e3afd5661c552ece46cdc3",
           "comment": "f(uint256): 3 -> 6",
           "instance": "C",
           "method": "f(uint256)",
@@ -48,7 +48,7 @@
           }
         },
         {
-          "caller": "0xde1078673b57d95d3e3939f46ae37289ac1563e8",
+          "caller": "0x720489a1dce9fcf700e3afd5661c552ece46cdc3",
           "comment": "f(uint256): 4 -> 24",
           "instance": "C",
           "method": "f(uint256)",

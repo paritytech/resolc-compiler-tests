@@ -4,7 +4,7 @@
       "name": "getter_call_in_constructor",
       "inputs": [
         {
-          "caller": "0x4437ac5118161f5fb5df10dc8045b09e0cf3d127",
+          "caller": "0xbf2c78ef65505523be7715997954733d02a518c7",
           "comment": "f() -> true",
           "instance": "C",
           "method": "f()",

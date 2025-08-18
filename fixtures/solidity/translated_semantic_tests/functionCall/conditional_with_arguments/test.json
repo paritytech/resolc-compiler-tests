@@ -4,7 +4,7 @@
       "name": "conditional_with_arguments",
       "inputs": [
         {
-          "caller": "0xc68def9f8a9657d8ed6854e5145f786f89f2d1fa",
+          "caller": "0xf56c1b60104f1d3d0b81c5c2ce52ef3ea5d4041f",
           "comment": "f() -> 1",
           "instance": "C",
           "method": "f()",

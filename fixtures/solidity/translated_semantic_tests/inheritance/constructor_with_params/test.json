@@ -4,7 +4,7 @@
       "name": "constructor_with_params",
       "inputs": [
         {
-          "caller": "0x4f11031015554fb5ad0f9936744349d58a6d78b9",
+          "caller": "0xf4efd46ff79085672d804b64cb71d46a7862f1b3",
           "comment": "constructor(): 2, 0 ->; gas irOptimized: 81170; gas irOptimized code: 20200; gas legacy: 83613; gas legacy code: 32000",
           "instance": "C",
           "method": "#deployer",
@@ -14,7 +14,7 @@
           }
         },
         {
-          "caller": "0x4f11031015554fb5ad0f9936744349d58a6d78b9",
+          "caller": "0xf4efd46ff79085672d804b64cb71d46a7862f1b3",
           "comment": "i() -> 2",
           "instance": "C",
           "method": "i()",
@@ -25,7 +25,7 @@
           }
         },
         {
-          "caller": "0x4f11031015554fb5ad0f9936744349d58a6d78b9",
+          "caller": "0xf4efd46ff79085672d804b64cb71d46a7862f1b3",
           "comment": "k() -> 0",
           "instance": "C",
           "method": "k()",

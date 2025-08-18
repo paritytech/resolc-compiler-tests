@@ -4,7 +4,7 @@
       "name": "uninitialized",
       "inputs": [
         {
-          "caller": "0xfb51f52f8ad0a324be7524313dd551d47f969c7a",
+          "caller": "0xc7fd68cf13d23ebe585b00ada3369fdf1ce0510c",
           "comment": "get() -> 0, false, 0x0",
           "instance": "C",
           "method": "get()",

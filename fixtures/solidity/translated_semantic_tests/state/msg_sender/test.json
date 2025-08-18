@@ -4,13 +4,13 @@
       "name": "msg_sender",
       "inputs": [
         {
-          "caller": "0x552a0bf849d3e7387e2a7cc831df701124637b8b",
-          "comment": "f() -> 0x552a0bf849d3e7387e2a7cc831df701124637b8b",
+          "caller": "0xaeecbfc4146990dbd684f3bb978590ba5b8f4182",
+          "comment": "f() -> 0xaeecbfc4146990dbd684f3bb978590ba5b8f4182",
           "instance": "C",
           "method": "f()",
           "calldata": [],
           "expected": {
-            "return_data": "0x000000000000000000000000552a0bf849d3e7387e2a7cc831df701124637b8b",
+            "return_data": "0x000000000000000000000000aeecbfc4146990dbd684f3bb978590ba5b8f4182",
             "exception": false
           }
         }

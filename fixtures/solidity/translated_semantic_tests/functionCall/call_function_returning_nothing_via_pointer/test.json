@@ -4,7 +4,7 @@
       "name": "call_function_returning_nothing_via_pointer",
       "inputs": [
         {
-          "caller": "0x576d4ffe78f3f678015a33c20a074c3033c5f24e",
+          "caller": "0xed96c2fb79e08dea27ef8e6d497914c07ed617e1",
           "comment": "f() -> true",
           "instance": "test",
           "method": "f()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x576d4ffe78f3f678015a33c20a074c3033c5f24e",
+          "caller": "0xed96c2fb79e08dea27ef8e6d497914c07ed617e1",
           "comment": "flag() -> true",
           "instance": "test",
           "method": "flag()",

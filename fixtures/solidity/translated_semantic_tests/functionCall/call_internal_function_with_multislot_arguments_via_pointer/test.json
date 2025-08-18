@@ -4,7 +4,7 @@
       "name": "call_internal_function_with_multislot_arguments_via_pointer",
       "inputs": [
         {
-          "caller": "0xf56c1b60104f1d3d0b81c5c2ce52ef3ea5d4041f",
+          "caller": "0x1cb436c8219693ff9c190c2238b8c07c1b99db24",
           "comment": "test() -> 12",
           "instance": "C",
           "method": "test()",

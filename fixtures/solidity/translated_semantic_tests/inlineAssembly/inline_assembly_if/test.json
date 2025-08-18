@@ -4,7 +4,7 @@
       "name": "inline_assembly_if",
       "inputs": [
         {
-          "caller": "0x46225825b017b4cc13bd62fb1d619f83d528c50f",
+          "caller": "0xd864b20d01a850c3e3d9150c0d3f4b10472659b9",
           "comment": "f(uint256): 0 -> 0",
           "instance": "C",
           "method": "f(uint256)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x46225825b017b4cc13bd62fb1d619f83d528c50f",
+          "caller": "0xd864b20d01a850c3e3d9150c0d3f4b10472659b9",
           "comment": "f(uint256): 1 -> 0",
           "instance": "C",
           "method": "f(uint256)",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0x46225825b017b4cc13bd62fb1d619f83d528c50f",
+          "caller": "0xd864b20d01a850c3e3d9150c0d3f4b10472659b9",
           "comment": "f(uint256): 2 -> 2",
           "instance": "C",
           "method": "f(uint256)",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0x46225825b017b4cc13bd62fb1d619f83d528c50f",
+          "caller": "0xd864b20d01a850c3e3d9150c0d3f4b10472659b9",
           "comment": "f(uint256): 3 -> 2",
           "instance": "C",
           "method": "f(uint256)",

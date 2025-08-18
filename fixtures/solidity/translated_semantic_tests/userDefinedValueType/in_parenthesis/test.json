@@ -4,7 +4,7 @@
       "name": "in_parenthesis",
       "inputs": [
         {
-          "caller": "0x09e1c09296a580ca540133fad534bb3d030bf6c8",
+          "caller": "0x56d0b0f4429ce05290da7ce0e7f85d0872c3713d",
           "comment": "f() -> 5, 10",
           "instance": "C",
           "method": "f()",

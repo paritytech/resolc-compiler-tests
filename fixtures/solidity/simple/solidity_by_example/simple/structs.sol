@@ -1,7 +1,7 @@
 //! {
 //!   "modes": [
 //!     "Y >=0.8.1",
-//!     "E"
+//!     "E >=0.8.1"
 //!   ],
 //!   "cases": [
 //!     {
@@ -130,7 +130,9 @@ contract Test {
 
     // Solidity automatically created a getter for 'todos' so
     // you don't actually need this function.
-    function get(uint _index) public view returns (string memory text, bool completed) {
+    function get(
+        uint _index
+    ) public view returns (string memory text, bool completed) {
         Todo storage todo = todos[_index];
         return (todo.text, todo.completed);
     }

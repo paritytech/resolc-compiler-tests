@@ -1,7 +1,7 @@
 //! {
 //!   "modes": [
 //!     "Y >=0.8.1",
-//!     "E"
+//!     "E >=0.8.1"
 //!   ],
 //!   "cases": [
 //!     {
@@ -174,7 +174,9 @@ contract Test {
         _;
     }
 
-    function changeOwner(address _newOwner) public onlyOwner validAddress(_newOwner) {
+    function changeOwner(
+        address _newOwner
+    ) public onlyOwner validAddress(_newOwner) {
         owner = _newOwner;
     }
 

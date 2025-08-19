@@ -1,7 +1,7 @@
 //! {
 //!   "modes": [
 //!     "Y >=0.8.1",
-//!     "E"
+//!     "E >=0.8.1"
 //!   ],
 //!   "cases": [
 //!     {
@@ -28,7 +28,7 @@
 pragma solidity >=0.6.0;
 
 contract OtherContract {
-    function other(uint256 input) external pure returns(uint256) {
+    function other(uint256 input) external pure returns (uint256) {
         return input * 5;
     }
 }
@@ -36,7 +36,7 @@ contract OtherContract {
 contract Test {
     struct MyStruct {
         uint256[1] arr;
-        function (uint256) external pure returns(uint256) func;
+        function(uint256) external pure returns (uint256) func;
     }
 
     OtherContract other;
@@ -50,7 +50,10 @@ contract Test {
         _;
     }
 
-    function process(uint256 val, uint256 depth) onlyEven(val) public returns(uint256) {
+    function process(
+        uint256 val,
+        uint256 depth
+    ) public onlyEven(val) returns (uint256) {
         if (depth == 0) {
             return val;
         }

@@ -1,7 +1,7 @@
 //! {
 //!   "modes": [
 //!     "Y >=0.8.1",
-//!     "E"
+//!     "E >=0.8.1"
 //!   ],
 //!   "comment": "solc 0.8.0 yul difference",
 //!   "cases": [
@@ -45,9 +45,9 @@
 pragma solidity >=0.8.0;
 
 contract Test {
-    function main(uint256 a, uint256 b) public pure returns(uint256) {
+    function main(uint256 a, uint256 b) public pure returns (uint256) {
         unchecked {
-            return a**b;
+            return a ** b;
         }
     }
 }

@@ -4,7 +4,8 @@
 //!   ],
 //!   "enable_eravm_extensions": true,
 //!   "modes": [
-//!     "Y >=0.8.4"
+//!     "Y >=0.8.4",
+//!     "E >=0.8.4"
 //!   ],
 //!   "cases": [
 //!     {
@@ -60,7 +61,16 @@ contract Test {
     ) internal returns (bool success, bytes memory returndata) {
         uint256 returndataLength = 0;
         assembly {
-            pop(staticcall(or(shl(192, gas()), shl(224, 1)), 0xFFE7, 0, 0xFFFF, 0, 0))
+            pop(
+                staticcall(
+                    or(shl(192, gas()), shl(224, 1)),
+                    0xFFE7,
+                    0,
+                    0xFFFF,
+                    0,
+                    0
+                )
+            )
             success := call(callee, 0xFFF6, 0, 0, 0xFFFF, 0, 0)
             returndataLength := returndatasize()
         }
@@ -77,15 +87,24 @@ contract Test {
         {
             // Loading the pointer to the current calldata into the active pointer
             loadCalldataPtrIntoActivePtr();
-            AssertCalldata ptrCalldataTest = new AssertCalldata(bytes.concat(Test.testPointers.selector));
-            (bool success, bytes memory returndata) = rawFarCallByRef(address(ptrCalldataTest));
+            AssertCalldata ptrCalldataTest = new AssertCalldata(
+                bytes.concat(Test.testPointers.selector)
+            );
+            (bool success, bytes memory returndata) = rawFarCallByRef(
+                address(ptrCalldataTest)
+            );
             require(success, "Test for calldata pointer failed");
-            require(keccak256(returndata) == keccak256(expectedReturndata), "The returndata is incorrect");
+            require(
+                keccak256(returndata) == keccak256(expectedReturndata),
+                "The returndata is incorrect"
+            );
         }
 
         {
             loadReturndataPtrIntoActivePtr();
-            AssertCalldata ptrReturndataTest = new AssertCalldata(expectedReturndata);
+            AssertCalldata ptrReturndataTest = new AssertCalldata(
+                expectedReturndata
+            );
             (bool success, ) = rawFarCallByRef(address(ptrReturndataTest));
             require(success, "Test for returndata pointer failed");
         }
@@ -94,12 +113,18 @@ contract Test {
 
 contract AssertCalldata {
     bytes32 expectedCalldataHash;
+
     constructor(bytes memory _expectedCalldata) {
         expectedCalldataHash = keccak256(_expectedCalldata);
     }
 
-    fallback(bytes calldata data) external payable returns (bytes memory returndata) {
-        require(keccak256(data) == expectedCalldataHash, "Calldata is incorrect");
+    fallback(
+        bytes calldata data
+    ) external payable returns (bytes memory returndata) {
+        require(
+            keccak256(data) == expectedCalldataHash,
+            "Calldata is incorrect"
+        );
         returndata = hex"1212";
     }
 }

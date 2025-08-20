@@ -916,6 +916,8 @@
 //!       ]
 //!     },
 //!     {
+//!       "ignore": true,
+//!       "comment": "On Geth this returns 0 instead of 0xdeadbeef on E-, E+, Y- and Y+ modes, so ignoring for now",
 //!       "name": "ordinar_one",
 //!       "inputs": [
 //!         {

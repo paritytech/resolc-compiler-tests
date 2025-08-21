@@ -86,7 +86,6 @@ abstract contract LiquidityManagement is
         );
 
         pool = IUniswapV3Pool(PoolAddress.computeAddress(factory, poolKey));
-        require(false, "Found the pool address");
 
         // compute the liquidity amount
         {

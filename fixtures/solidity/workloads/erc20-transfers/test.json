@@ -18,8 +18,7 @@
                         "0x5742544300000000000000000000000000000000000000000000000000000000",
                         "14",
                         "0x5772617070656420425443000000000000000000000000000000000000000000"
-                    ],
-                    "caller": "0xb9863be1270e0b1ff5dd2582fc90683a1c1cda8f"
+                    ]
                 },
                 {
                     "comment": "The primary benchmark steps and repetition",
@@ -28,6 +27,10 @@
                         {
                             "comment": "Allocating an account for the sender",
                             "allocate_account": "$VARIABLE:SENDER_ACCOUNT"
+                        },
+                        {
+                            "comment": "Allocating an account for the receiver",
+                            "allocate_account": "$VARIABLE:RECEIVER_ACCOUNT"
                         },
                         {
                             "comment": "Mint tokens to the sender's account",
@@ -40,23 +43,13 @@
                             ]
                         },
                         {
-                            "comment": "Sending tokens to 10 recipients",
-                            "repeat": 10,
-                            "steps": [
-                                {
-                                    "comment": "Allocating an account for the receiver",
-                                    "allocate_account": "$VARIABLE:RECEIVER_ACCOUNT"
-                                },
-                                {
-                                    "comment": "Sending tokens to the receiver's account",
-                                    "instance": "ERC20",
-                                    "method": "transfer",
-                                    "caller": "$VARIABLE:SENDER_ACCOUNT",
-                                    "calldata": [
-                                        "$VARIABLE:RECEIVER_ACCOUNT",
-                                        "100"
-                                    ]
-                                }
+                            "comment": "Sending tokens to the receiver's account",
+                            "instance": "ERC20",
+                            "method": "transfer",
+                            "caller": "$VARIABLE:SENDER_ACCOUNT",
+                            "calldata": [
+                                "$VARIABLE:RECEIVER_ACCOUNT",
+                                "1"
                             ]
                         }
                     ]

@@ -20,7 +20,7 @@
           "expected": [
             "Token1.address"
           ],
-          "caller": "0x5a5cff1abf894590947d9433fcd0f0a8b7a8897a"
+          "caller": "0x4c887eecb88df0dd03459c6c93d20852dd217abe"
         },
         {
           "instance": "Token2",
@@ -36,11 +36,11 @@
           "expected": [
             "Token2.address"
           ],
-          "caller": "0x5a5cff1abf894590947d9433fcd0f0a8b7a8897a"
+          "caller": "0x4c887eecb88df0dd03459c6c93d20852dd217abe"
         },
         {
           "instance": "UniswapPair",
-          "caller": "0x4191a58e13a0dc4cc77a08b16835d8bb4e570c72",
+          "caller": "0x4c887eecb88df0dd03459c6c93d20852dd217abe",
           "method": "#deployer",
           "calldata": [
             "Token1.address",
@@ -52,7 +52,7 @@
         },
         {
           "instance": "UniswapRouter",
-          "caller": "0xf5c19b1e220f294ebe8534cc5f3ef53a8b103ac8",
+          "caller": "0x4c887eecb88df0dd03459c6c93d20852dd217abe",
           "method": "#deployer",
           "calldata": [],
           "expected": [
@@ -63,11 +63,11 @@
           "instance": "UniswapRouter",
           "method": "owner",
           "calldata": [],
-          "caller": "0x5a5cff1abf894590947d9433fcd0f0a8b7a8897a"
+          "caller": "0x4c887eecb88df0dd03459c6c93d20852dd217abe"
         }
       ],
       "expected": [
-        "0xf5c19b1e220f294ebe8534cc5f3ef53a8b103ac8"
+        "0x4c887eecb88df0dd03459c6c93d20852dd217abe"
       ]
     },
     {
@@ -87,7 +87,7 @@
           "expected": [
             "Token1.address"
           ],
-          "caller": "0x4c887eecb88df0dd03459c6c93d20852dd217abe"
+          "caller": "0x36a7d7a7ea39d1d75cad863751e6953eb271ba52"
         },
         {
           "instance": "Token2",
@@ -103,13 +103,13 @@
           "expected": [
             "Token2.address"
           ],
-          "caller": "0x4c887eecb88df0dd03459c6c93d20852dd217abe"
+          "caller": "0x36a7d7a7ea39d1d75cad863751e6953eb271ba52"
         },
         {
           "instance": "Token1",
           "method": "_mint",
           "calldata": [
-            "0x36a7d7a7ea39d1d75cad863751e6953eb271ba52",
+            "0x039b420f68b5e2f976f041e064ed2aaa3bb925dc",
             "100000000000000000000000"
           ],
           "expected": {
@@ -119,7 +119,7 @@
                 "topics": [
                   "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
                   "0x0000000000000000000000000000000000000000000000000000000000000000",
-                  "0x36a7d7a7ea39d1d75cad863751e6953eb271ba52"
+                  "0x039b420f68b5e2f976f041e064ed2aaa3bb925dc"
                 ],
                 "values": [
                   "100000000000000000000000"
@@ -128,7 +128,32 @@
             ],
             "exception": false
           },
-          "caller": "0x4c887eecb88df0dd03459c6c93d20852dd217abe"
+          "caller": "0x36a7d7a7ea39d1d75cad863751e6953eb271ba52"
+        },
+        {
+          "instance": "Token2",
+          "method": "_mint",
+          "calldata": [
+            "0x039b420f68b5e2f976f041e064ed2aaa3bb925dc",
+            "100000000000000000000000"
+          ],
+          "expected": {
+            "return_data": [],
+            "events": [
+              {
+                "topics": [
+                  "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+                  "0x0000000000000000000000000000000000000000000000000000000000000000",
+                  "0x039b420f68b5e2f976f041e064ed2aaa3bb925dc"
+                ],
+                "values": [
+                  "100000000000000000000000"
+                ]
+              }
+            ],
+            "exception": false
+          },
+          "caller": "0x36a7d7a7ea39d1d75cad863751e6953eb271ba52"
         },
         {
           "instance": "Token2",
@@ -153,36 +178,11 @@
             ],
             "exception": false
           },
-          "caller": "0x4c887eecb88df0dd03459c6c93d20852dd217abe"
-        },
-        {
-          "instance": "Token2",
-          "method": "_mint",
-          "calldata": [
-            "0x570dd5e2fba0c3a6edb7ce55021e3c24653650ef",
-            "100000000000000000000000"
-          ],
-          "expected": {
-            "return_data": [],
-            "events": [
-              {
-                "topics": [
-                  "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
-                  "0x0000000000000000000000000000000000000000000000000000000000000000",
-                  "0x570dd5e2fba0c3a6edb7ce55021e3c24653650ef"
-                ],
-                "values": [
-                  "100000000000000000000000"
-                ]
-              }
-            ],
-            "exception": false
-          },
-          "caller": "0x4c887eecb88df0dd03459c6c93d20852dd217abe"
+          "caller": "0x36a7d7a7ea39d1d75cad863751e6953eb271ba52"
         },
         {
           "instance": "UniswapPair",
-          "caller": "0x570dd5e2fba0c3a6edb7ce55021e3c24653650ef",
+          "caller": "0x36a7d7a7ea39d1d75cad863751e6953eb271ba52",
           "method": "#deployer",
           "calldata": [
             "Token1.address",
@@ -194,7 +194,7 @@
         },
         {
           "instance": "Token1",
-          "caller": "0x36a7d7a7ea39d1d75cad863751e6953eb271ba52",
+          "caller": "0x039b420f68b5e2f976f041e064ed2aaa3bb925dc",
           "method": "transfer(address,uint256)",
           "calldata": [
             "UniswapPair.address",
@@ -208,7 +208,7 @@
               {
                 "topics": [
                   "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
-                  "0x36a7d7a7ea39d1d75cad863751e6953eb271ba52",
+                  "0x039b420f68b5e2f976f041e064ed2aaa3bb925dc",
                   "UniswapPair.address"
                 ],
                 "values": [
@@ -221,7 +221,7 @@
         },
         {
           "instance": "Token2",
-          "caller": "0x36a7d7a7ea39d1d75cad863751e6953eb271ba52",
+          "caller": "0x039b420f68b5e2f976f041e064ed2aaa3bb925dc",
           "method": "transfer(address,uint256)",
           "calldata": [
             "UniswapPair.address",
@@ -235,7 +235,7 @@
               {
                 "topics": [
                   "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
-                  "0x36a7d7a7ea39d1d75cad863751e6953eb271ba52",
+                  "0x039b420f68b5e2f976f041e064ed2aaa3bb925dc",
                   "UniswapPair.address"
                 ],
                 "values": [
@@ -249,9 +249,9 @@
         {
           "instance": "UniswapPair",
           "method": "mint",
-          "caller": "0x36a7d7a7ea39d1d75cad863751e6953eb271ba52",
+          "caller": "0x039b420f68b5e2f976f041e064ed2aaa3bb925dc",
           "calldata": [
-            "0x36a7d7a7ea39d1d75cad863751e6953eb271ba52"
+            "0x039b420f68b5e2f976f041e064ed2aaa3bb925dc"
           ],
           "expected": {
             "return_data": [
@@ -272,7 +272,7 @@
                 "topics": [
                   "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
                   "0x0000000000000000000000000000000000000000000000000000000000000000",
-                  "0x36a7d7a7ea39d1d75cad863751e6953eb271ba52"
+                  "0x039b420f68b5e2f976f041e064ed2aaa3bb925dc"
                 ],
                 "values": [
                   "999999999999000"
@@ -290,7 +290,7 @@
               {
                 "topics": [
                   "0x4c209b5fc8ad50758f13e2e1088ba56a560dff690a1c6fef26394f4c03821c4f",
-                  "0x36a7d7a7ea39d1d75cad863751e6953eb271ba52"
+                  "0x039b420f68b5e2f976f041e064ed2aaa3bb925dc"
                 ],
                 "values": [
                   "10000000000000000000000",
@@ -304,9 +304,9 @@
         {
           "instance": "UniswapPair",
           "method": "balanceOf",
-          "caller": "0x36a7d7a7ea39d1d75cad863751e6953eb271ba52",
+          "caller": "0x039b420f68b5e2f976f041e064ed2aaa3bb925dc",
           "calldata": [
-            "0x36a7d7a7ea39d1d75cad863751e6953eb271ba52"
+            "0x039b420f68b5e2f976f041e064ed2aaa3bb925dc"
           ],
           "expected": [
             "999999999999000"
@@ -314,7 +314,7 @@
         },
         {
           "instance": "Token1",
-          "caller": "0x36a7d7a7ea39d1d75cad863751e6953eb271ba52",
+          "caller": "0x039b420f68b5e2f976f041e064ed2aaa3bb925dc",
           "method": "transfer(address,uint256)",
           "calldata": [
             "UniswapPair.address",
@@ -328,7 +328,7 @@
               {
                 "topics": [
                   "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
-                  "0x36a7d7a7ea39d1d75cad863751e6953eb271ba52",
+                  "0x039b420f68b5e2f976f041e064ed2aaa3bb925dc",
                   "UniswapPair.address"
                 ],
                 "values": [
@@ -343,21 +343,21 @@
           "instance": "Token2",
           "method": "balanceOf",
           "calldata": [
-            "0x36a7d7a7ea39d1d75cad863751e6953eb271ba52"
+            "0x039b420f68b5e2f976f041e064ed2aaa3bb925dc"
           ],
           "expected": [
             "99999999999999900000000"
           ],
-          "caller": "0x4c887eecb88df0dd03459c6c93d20852dd217abe"
+          "caller": "0x36a7d7a7ea39d1d75cad863751e6953eb271ba52"
         },
         {
           "instance": "UniswapPair",
           "method": "swap",
-          "caller": "0x36a7d7a7ea39d1d75cad863751e6953eb271ba52",
+          "caller": "0x039b420f68b5e2f976f041e064ed2aaa3bb925dc",
           "calldata": [
             "0",
             "9000",
-            "0x36a7d7a7ea39d1d75cad863751e6953eb271ba52"
+            "0x039b420f68b5e2f976f041e064ed2aaa3bb925dc"
           ],
           "expected": {
             "return_data": [],
@@ -366,7 +366,7 @@
                 "topics": [
                   "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
                   "UniswapPair.address",
-                  "0x36a7d7a7ea39d1d75cad863751e6953eb271ba52"
+                  "0x039b420f68b5e2f976f041e064ed2aaa3bb925dc"
                 ],
                 "values": [
                   "9000"
@@ -384,8 +384,8 @@
               {
                 "topics": [
                   "0xd78ad95fa46c994b6551d0da85fc275fe613ce37657fb8d5e3d130840159d822",
-                  "0x36a7d7a7ea39d1d75cad863751e6953eb271ba52",
-                  "0x36a7d7a7ea39d1d75cad863751e6953eb271ba52"
+                  "0x039b420f68b5e2f976f041e064ed2aaa3bb925dc",
+                  "0x039b420f68b5e2f976f041e064ed2aaa3bb925dc"
                 ],
                 "values": [
                   "10000000000000000000",
@@ -402,19 +402,19 @@
           "instance": "Token2",
           "method": "balanceOf",
           "calldata": [
-            "0x36a7d7a7ea39d1d75cad863751e6953eb271ba52"
+            "0x039b420f68b5e2f976f041e064ed2aaa3bb925dc"
           ],
           "expected": [
             "99999999999999900009000"
           ],
-          "caller": "0x4c887eecb88df0dd03459c6c93d20852dd217abe"
+          "caller": "0x36a7d7a7ea39d1d75cad863751e6953eb271ba52"
         },
         {
           "instance": "UniswapPair",
           "method": "balanceOf",
-          "caller": "0x36a7d7a7ea39d1d75cad863751e6953eb271ba52",
+          "caller": "0x039b420f68b5e2f976f041e064ed2aaa3bb925dc",
           "calldata": [
-            "0x36a7d7a7ea39d1d75cad863751e6953eb271ba52"
+            "0x039b420f68b5e2f976f041e064ed2aaa3bb925dc"
           ],
           "expected": [
             "999999999999000"
@@ -422,7 +422,7 @@
         },
         {
           "instance": "UniswapPair",
-          "caller": "0x36a7d7a7ea39d1d75cad863751e6953eb271ba52",
+          "caller": "0x039b420f68b5e2f976f041e064ed2aaa3bb925dc",
           "method": "transfer(address,uint256)",
           "calldata": [
             "UniswapPair.address",
@@ -436,7 +436,7 @@
               {
                 "topics": [
                   "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
-                  "0x36a7d7a7ea39d1d75cad863751e6953eb271ba52",
+                  "0x039b420f68b5e2f976f041e064ed2aaa3bb925dc",
                   "UniswapPair.address"
                 ],
                 "values": [
@@ -450,9 +450,9 @@
         {
           "instance": "UniswapPair",
           "method": "burn",
-          "caller": "0x36a7d7a7ea39d1d75cad863751e6953eb271ba52",
+          "caller": "0x039b420f68b5e2f976f041e064ed2aaa3bb925dc",
           "calldata": [
-            "0x36a7d7a7ea39d1d75cad863751e6953eb271ba52"
+            "0x039b420f68b5e2f976f041e064ed2aaa3bb925dc"
           ],
           "expected": {
             "return_data": [
@@ -474,7 +474,7 @@
                 "topics": [
                   "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
                   "UniswapPair.address",
-                  "0x36a7d7a7ea39d1d75cad863751e6953eb271ba52"
+                  "0x039b420f68b5e2f976f041e064ed2aaa3bb925dc"
                 ],
                 "values": [
                   "10009999999989990000000"
@@ -484,7 +484,7 @@
                 "topics": [
                   "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
                   "UniswapPair.address",
-                  "0x36a7d7a7ea39d1d75cad863751e6953eb271ba52"
+                  "0x039b420f68b5e2f976f041e064ed2aaa3bb925dc"
                 ],
                 "values": [
                   "99990999"
@@ -502,8 +502,8 @@
               {
                 "topics": [
                   "0xdccd412f0b1252819cb1fd330b93224ca42612892bb3f4f789976e6d81936496",
-                  "0x36a7d7a7ea39d1d75cad863751e6953eb271ba52",
-                  "0x36a7d7a7ea39d1d75cad863751e6953eb271ba52"
+                  "0x039b420f68b5e2f976f041e064ed2aaa3bb925dc",
+                  "0x039b420f68b5e2f976f041e064ed2aaa3bb925dc"
                 ],
                 "values": [
                   "10009999999989990000000",
@@ -517,9 +517,9 @@
         {
           "instance": "UniswapPair",
           "method": "balanceOf",
-          "caller": "0x36a7d7a7ea39d1d75cad863751e6953eb271ba52",
+          "caller": "0x039b420f68b5e2f976f041e064ed2aaa3bb925dc",
           "calldata": [
-            "0x36a7d7a7ea39d1d75cad863751e6953eb271ba52"
+            "0x039b420f68b5e2f976f041e064ed2aaa3bb925dc"
           ],
           "expected": [
             "0"
@@ -527,7 +527,7 @@
         },
         {
           "instance": "UniswapRouter",
-          "caller": "0x570dd5e2fba0c3a6edb7ce55021e3c24653650ef",
+          "caller": "0x36a7d7a7ea39d1d75cad863751e6953eb271ba52",
           "method": "#deployer",
           "calldata": [],
           "expected": [
@@ -536,16 +536,16 @@
         },
         {
           "instance": "UniswapRouter",
-          "caller": "0x570dd5e2fba0c3a6edb7ce55021e3c24653650ef",
+          "caller": "0x36a7d7a7ea39d1d75cad863751e6953eb271ba52",
           "method": "owner",
           "calldata": [],
           "expected": [
-            "0x570dd5e2fba0c3a6edb7ce55021e3c24653650ef"
+            "0x36a7d7a7ea39d1d75cad863751e6953eb271ba52"
           ]
         },
         {
           "instance": "UniswapRouter",
-          "caller": "0x570dd5e2fba0c3a6edb7ce55021e3c24653650ef",
+          "caller": "0x36a7d7a7ea39d1d75cad863751e6953eb271ba52",
           "method": "addPair",
           "calldata": [
             "Token1.address",
@@ -556,7 +556,7 @@
         },
         {
           "instance": "UniswapRouter",
-          "caller": "0x570dd5e2fba0c3a6edb7ce55021e3c24653650ef",
+          "caller": "0x36a7d7a7ea39d1d75cad863751e6953eb271ba52",
           "method": "pairs",
           "calldata": [
             "Token2.address",
@@ -568,7 +568,7 @@
         },
         {
           "instance": "Token1",
-          "caller": "0x36a7d7a7ea39d1d75cad863751e6953eb271ba52",
+          "caller": "0x039b420f68b5e2f976f041e064ed2aaa3bb925dc",
           "method": "approve",
           "calldata": [
             "UniswapRouter.address",
@@ -582,7 +582,7 @@
               {
                 "topics": [
                   "0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925",
-                  "0x36a7d7a7ea39d1d75cad863751e6953eb271ba52",
+                  "0x039b420f68b5e2f976f041e064ed2aaa3bb925dc",
                   "UniswapRouter.address"
                 ],
                 "values": [
@@ -595,7 +595,7 @@
         },
         {
           "instance": "Token2",
-          "caller": "0x36a7d7a7ea39d1d75cad863751e6953eb271ba52",
+          "caller": "0x039b420f68b5e2f976f041e064ed2aaa3bb925dc",
           "method": "approve",
           "calldata": [
             "UniswapRouter.address",
@@ -609,7 +609,7 @@
               {
                 "topics": [
                   "0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925",
-                  "0x36a7d7a7ea39d1d75cad863751e6953eb271ba52",
+                  "0x039b420f68b5e2f976f041e064ed2aaa3bb925dc",
                   "UniswapRouter.address"
                 ],
                 "values": [
@@ -622,7 +622,7 @@
         },
         {
           "instance": "UniswapRouter",
-          "caller": "0x36a7d7a7ea39d1d75cad863751e6953eb271ba52",
+          "caller": "0x039b420f68b5e2f976f041e064ed2aaa3bb925dc",
           "method": "addLiquidity",
           "calldata": [
             "Token1.address",
@@ -631,7 +631,7 @@
             "20000000",
             "0",
             "0",
-            "0x36a7d7a7ea39d1d75cad863751e6953eb271ba52",
+            "0x039b420f68b5e2f976f041e064ed2aaa3bb925dc",
             "17179869183"
           ],
           "expected": {
@@ -644,7 +644,7 @@
               {
                 "topics": [
                   "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
-                  "0x36a7d7a7ea39d1d75cad863751e6953eb271ba52",
+                  "0x039b420f68b5e2f976f041e064ed2aaa3bb925dc",
                   "UniswapPair.address"
                 ],
                 "values": [
@@ -654,7 +654,7 @@
               {
                 "topics": [
                   "0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925",
-                  "0x36a7d7a7ea39d1d75cad863751e6953eb271ba52",
+                  "0x039b420f68b5e2f976f041e064ed2aaa3bb925dc",
                   "UniswapRouter.address"
                 ],
                 "values": [
@@ -664,7 +664,7 @@
               {
                 "topics": [
                   "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
-                  "0x36a7d7a7ea39d1d75cad863751e6953eb271ba52",
+                  "0x039b420f68b5e2f976f041e064ed2aaa3bb925dc",
                   "UniswapPair.address"
                 ],
                 "values": [
@@ -674,7 +674,7 @@
               {
                 "topics": [
                   "0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925",
-                  "0x36a7d7a7ea39d1d75cad863751e6953eb271ba52",
+                  "0x039b420f68b5e2f976f041e064ed2aaa3bb925dc",
                   "UniswapRouter.address"
                 ],
                 "values": [
@@ -685,7 +685,7 @@
                 "topics": [
                   "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
                   "0x0000000000000000000000000000000000000000000000000000000000000000",
-                  "0x36a7d7a7ea39d1d75cad863751e6953eb271ba52"
+                  "0x039b420f68b5e2f976f041e064ed2aaa3bb925dc"
                 ],
                 "values": [
                   "20000000000"
@@ -717,9 +717,9 @@
         {
           "instance": "UniswapPair",
           "method": "balanceOf",
-          "caller": "0x36a7d7a7ea39d1d75cad863751e6953eb271ba52",
+          "caller": "0x039b420f68b5e2f976f041e064ed2aaa3bb925dc",
           "calldata": [
-            "0x36a7d7a7ea39d1d75cad863751e6953eb271ba52"
+            "0x039b420f68b5e2f976f041e064ed2aaa3bb925dc"
           ],
           "expected": [
             "20000000000"
@@ -727,7 +727,7 @@
         },
         {
           "instance": "Token1",
-          "caller": "0x36a7d7a7ea39d1d75cad863751e6953eb271ba52",
+          "caller": "0x039b420f68b5e2f976f041e064ed2aaa3bb925dc",
           "method": "approve",
           "calldata": [
             "UniswapRouter.address",
@@ -741,7 +741,7 @@
               {
                 "topics": [
                   "0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925",
-                  "0x36a7d7a7ea39d1d75cad863751e6953eb271ba52",
+                  "0x039b420f68b5e2f976f041e064ed2aaa3bb925dc",
                   "UniswapRouter.address"
                 ],
                 "values": [
@@ -754,7 +754,7 @@
         },
         {
           "instance": "Token2",
-          "caller": "0x36a7d7a7ea39d1d75cad863751e6953eb271ba52",
+          "caller": "0x039b420f68b5e2f976f041e064ed2aaa3bb925dc",
           "method": "approve",
           "calldata": [
             "UniswapRouter.address",
@@ -768,7 +768,7 @@
               {
                 "topics": [
                   "0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925",
-                  "0x36a7d7a7ea39d1d75cad863751e6953eb271ba52",
+                  "0x039b420f68b5e2f976f041e064ed2aaa3bb925dc",
                   "UniswapRouter.address"
                 ],
                 "values": [
@@ -783,33 +783,33 @@
           "instance": "Token1",
           "method": "balanceOf",
           "calldata": [
-            "0x36a7d7a7ea39d1d75cad863751e6953eb271ba52"
+            "0x039b420f68b5e2f976f041e064ed2aaa3bb925dc"
           ],
           "expected": [
             "99999799799989990000000"
           ],
-          "caller": "0x4c887eecb88df0dd03459c6c93d20852dd217abe"
+          "caller": "0x36a7d7a7ea39d1d75cad863751e6953eb271ba52"
         },
         {
           "instance": "Token2",
           "method": "balanceOf",
           "calldata": [
-            "0x36a7d7a7ea39d1d75cad863751e6953eb271ba52"
+            "0x039b420f68b5e2f976f041e064ed2aaa3bb925dc"
           ],
           "expected": [
             "99999999999999979999999"
           ],
-          "caller": "0x4c887eecb88df0dd03459c6c93d20852dd217abe"
+          "caller": "0x36a7d7a7ea39d1d75cad863751e6953eb271ba52"
         },
         {
           "instance": "UniswapRouter",
           "method": "swapExactTokensForTokens",
-          "caller": "0x36a7d7a7ea39d1d75cad863751e6953eb271ba52",
+          "caller": "0x039b420f68b5e2f976f041e064ed2aaa3bb925dc",
           "calldata": [
             "50000000000000000000",
             "450000",
             "0xa0",
-            "0x36a7d7a7ea39d1d75cad863751e6953eb271ba52",
+            "0x039b420f68b5e2f976f041e064ed2aaa3bb925dc",
             "17179869183",
             "2",
             "Token1.address",
@@ -826,7 +826,7 @@
               {
                 "topics": [
                   "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
-                  "0x36a7d7a7ea39d1d75cad863751e6953eb271ba52",
+                  "0x039b420f68b5e2f976f041e064ed2aaa3bb925dc",
                   "UniswapPair.address"
                 ],
                 "values": [
@@ -836,7 +836,7 @@
               {
                 "topics": [
                   "0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925",
-                  "0x36a7d7a7ea39d1d75cad863751e6953eb271ba52",
+                  "0x039b420f68b5e2f976f041e064ed2aaa3bb925dc",
                   "UniswapRouter.address"
                 ],
                 "values": [
@@ -847,7 +847,7 @@
                 "topics": [
                   "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
                   "UniswapPair.address",
-                  "0x36a7d7a7ea39d1d75cad863751e6953eb271ba52"
+                  "0x039b420f68b5e2f976f041e064ed2aaa3bb925dc"
                 ],
                 "values": [
                   "19920001"
@@ -866,7 +866,7 @@
                 "topics": [
                   "0xd78ad95fa46c994b6551d0da85fc275fe613ce37657fb8d5e3d130840159d822",
                   "UniswapRouter.address",
-                  "0x36a7d7a7ea39d1d75cad863751e6953eb271ba52"
+                  "0x039b420f68b5e2f976f041e064ed2aaa3bb925dc"
                 ],
                 "values": [
                   "50000000000000000000",
@@ -883,30 +883,30 @@
           "instance": "Token1",
           "method": "balanceOf",
           "calldata": [
-            "0x36a7d7a7ea39d1d75cad863751e6953eb271ba52"
+            "0x039b420f68b5e2f976f041e064ed2aaa3bb925dc"
           ],
           "expected": [
             "99949799799989990000000"
           ],
-          "caller": "0x4c887eecb88df0dd03459c6c93d20852dd217abe"
+          "caller": "0x36a7d7a7ea39d1d75cad863751e6953eb271ba52"
         },
         {
           "instance": "Token2",
           "method": "balanceOf",
           "calldata": [
-            "0x36a7d7a7ea39d1d75cad863751e6953eb271ba52"
+            "0x039b420f68b5e2f976f041e064ed2aaa3bb925dc"
           ],
           "expected": [
             "99999999999999999920000"
           ],
-          "caller": "0x4c887eecb88df0dd03459c6c93d20852dd217abe"
+          "caller": "0x36a7d7a7ea39d1d75cad863751e6953eb271ba52"
         },
         {
           "instance": "UniswapPair",
           "method": "balanceOf",
-          "caller": "0x36a7d7a7ea39d1d75cad863751e6953eb271ba52",
+          "caller": "0x039b420f68b5e2f976f041e064ed2aaa3bb925dc",
           "calldata": [
-            "0x36a7d7a7ea39d1d75cad863751e6953eb271ba52"
+            "0x039b420f68b5e2f976f041e064ed2aaa3bb925dc"
           ],
           "expected": [
             "20000000000"
@@ -915,7 +915,7 @@
         {
           "instance": "UniswapPair",
           "method": "approve",
-          "caller": "0x36a7d7a7ea39d1d75cad863751e6953eb271ba52",
+          "caller": "0x039b420f68b5e2f976f041e064ed2aaa3bb925dc",
           "calldata": [
             "UniswapRouter.address",
             "20000000000"
@@ -928,7 +928,7 @@
               {
                 "topics": [
                   "0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925",
-                  "0x36a7d7a7ea39d1d75cad863751e6953eb271ba52",
+                  "0x039b420f68b5e2f976f041e064ed2aaa3bb925dc",
                   "UniswapRouter.address"
                 ],
                 "values": [
@@ -942,14 +942,14 @@
         {
           "instance": "UniswapRouter",
           "method": "removeLiquidity",
-          "caller": "0x36a7d7a7ea39d1d75cad863751e6953eb271ba52",
+          "caller": "0x039b420f68b5e2f976f041e064ed2aaa3bb925dc",
           "calldata": [
             "Token1.address",
             "Token2.address",
             "20000000000",
             "0",
             "0",
-            "0x36a7d7a7ea39d1d75cad863751e6953eb271ba52",
+            "0x039b420f68b5e2f976f041e064ed2aaa3bb925dc",
             "17179869183"
           ],
           "expected": {
@@ -961,7 +961,7 @@
               {
                 "topics": [
                   "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
-                  "0x36a7d7a7ea39d1d75cad863751e6953eb271ba52",
+                  "0x039b420f68b5e2f976f041e064ed2aaa3bb925dc",
                   "UniswapPair.address"
                 ],
                 "values": [
@@ -982,7 +982,7 @@
                 "topics": [
                   "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
                   "UniswapPair.address",
-                  "0x36a7d7a7ea39d1d75cad863751e6953eb271ba52"
+                  "0x039b420f68b5e2f976f041e064ed2aaa3bb925dc"
                 ],
                 "values": [
                   "50200197500000124999"
@@ -992,7 +992,7 @@
                 "topics": [
                   "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
                   "UniswapPair.address",
-                  "0x36a7d7a7ea39d1d75cad863751e6953eb271ba52"
+                  "0x039b420f68b5e2f976f041e064ed2aaa3bb925dc"
                 ],
                 "values": [
                   "79999"
@@ -1011,7 +1011,7 @@
                 "topics": [
                   "0xdccd412f0b1252819cb1fd330b93224ca42612892bb3f4f789976e6d81936496",
                   "UniswapRouter.address",
-                  "0x36a7d7a7ea39d1d75cad863751e6953eb271ba52"
+                  "0x039b420f68b5e2f976f041e064ed2aaa3bb925dc"
                 ],
                 "values": [
                   "50200197500000124999",
@@ -1025,9 +1025,9 @@
         {
           "instance": "UniswapPair",
           "method": "balanceOf",
-          "caller": "0x36a7d7a7ea39d1d75cad863751e6953eb271ba52",
+          "caller": "0x039b420f68b5e2f976f041e064ed2aaa3bb925dc",
           "calldata": [
-            "0x36a7d7a7ea39d1d75cad863751e6953eb271ba52"
+            "0x039b420f68b5e2f976f041e064ed2aaa3bb925dc"
           ],
           "expected": [
             "0"

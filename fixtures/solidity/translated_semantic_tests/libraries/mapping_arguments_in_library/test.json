@@ -4,7 +4,7 @@
       "name": "mapping_arguments_in_library",
       "inputs": [
         {
-          "caller": "0x4e5cf7d8fddf6006fa6fa50533f425364f0cdc38",
+          "caller": "0xe2a6b7ecce863731943f5d1fdb5b4941b4f46766",
           "comment": "set(uint256,uint256): 1, 42 -> 0",
           "instance": "Test",
           "method": "set(uint256,uint256)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x4e5cf7d8fddf6006fa6fa50533f425364f0cdc38",
+          "caller": "0xe2a6b7ecce863731943f5d1fdb5b4941b4f46766",
           "comment": "set(uint256,uint256): 2, 84 -> 0",
           "instance": "Test",
           "method": "set(uint256,uint256)",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0x4e5cf7d8fddf6006fa6fa50533f425364f0cdc38",
+          "caller": "0xe2a6b7ecce863731943f5d1fdb5b4941b4f46766",
           "comment": "set(uint256,uint256): 21, 7 -> 0",
           "instance": "Test",
           "method": "set(uint256,uint256)",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0x4e5cf7d8fddf6006fa6fa50533f425364f0cdc38",
+          "caller": "0xe2a6b7ecce863731943f5d1fdb5b4941b4f46766",
           "comment": "get(uint256): 0 -> 0",
           "instance": "Test",
           "method": "get(uint256)",
@@ -48,7 +48,7 @@
           }
         },
         {
-          "caller": "0x4e5cf7d8fddf6006fa6fa50533f425364f0cdc38",
+          "caller": "0xe2a6b7ecce863731943f5d1fdb5b4941b4f46766",
           "comment": "get(uint256): 1 -> 0x2a",
           "instance": "Test",
           "method": "get(uint256)",
@@ -59,7 +59,7 @@
           }
         },
         {
-          "caller": "0x4e5cf7d8fddf6006fa6fa50533f425364f0cdc38",
+          "caller": "0xe2a6b7ecce863731943f5d1fdb5b4941b4f46766",
           "comment": "get(uint256): 2 -> 0x54",
           "instance": "Test",
           "method": "get(uint256)",
@@ -70,7 +70,7 @@
           }
         },
         {
-          "caller": "0x4e5cf7d8fddf6006fa6fa50533f425364f0cdc38",
+          "caller": "0xe2a6b7ecce863731943f5d1fdb5b4941b4f46766",
           "comment": "get(uint256): 21 -> 7",
           "instance": "Test",
           "method": "get(uint256)",
@@ -81,7 +81,7 @@
           }
         },
         {
-          "caller": "0x4e5cf7d8fddf6006fa6fa50533f425364f0cdc38",
+          "caller": "0xe2a6b7ecce863731943f5d1fdb5b4941b4f46766",
           "comment": "set(uint256,uint256): 1, 21 -> 0x2a",
           "instance": "Test",
           "method": "set(uint256,uint256)",
@@ -92,7 +92,7 @@
           }
         },
         {
-          "caller": "0x4e5cf7d8fddf6006fa6fa50533f425364f0cdc38",
+          "caller": "0xe2a6b7ecce863731943f5d1fdb5b4941b4f46766",
           "comment": "set(uint256,uint256): 2, 42 -> 0x54",
           "instance": "Test",
           "method": "set(uint256,uint256)",
@@ -103,7 +103,7 @@
           }
         },
         {
-          "caller": "0x4e5cf7d8fddf6006fa6fa50533f425364f0cdc38",
+          "caller": "0xe2a6b7ecce863731943f5d1fdb5b4941b4f46766",
           "comment": "set(uint256,uint256): 21, 14 -> 7",
           "instance": "Test",
           "method": "set(uint256,uint256)",
@@ -114,7 +114,7 @@
           }
         },
         {
-          "caller": "0x4e5cf7d8fddf6006fa6fa50533f425364f0cdc38",
+          "caller": "0xe2a6b7ecce863731943f5d1fdb5b4941b4f46766",
           "comment": "get(uint256): 0 -> 0",
           "instance": "Test",
           "method": "get(uint256)",
@@ -125,7 +125,7 @@
           }
         },
         {
-          "caller": "0x4e5cf7d8fddf6006fa6fa50533f425364f0cdc38",
+          "caller": "0xe2a6b7ecce863731943f5d1fdb5b4941b4f46766",
           "comment": "get(uint256): 1 -> 0x15",
           "instance": "Test",
           "method": "get(uint256)",
@@ -136,7 +136,7 @@
           }
         },
         {
-          "caller": "0x4e5cf7d8fddf6006fa6fa50533f425364f0cdc38",
+          "caller": "0xe2a6b7ecce863731943f5d1fdb5b4941b4f46766",
           "comment": "get(uint256): 2 -> 0x2a",
           "instance": "Test",
           "method": "get(uint256)",
@@ -147,7 +147,7 @@
           }
         },
         {
-          "caller": "0x4e5cf7d8fddf6006fa6fa50533f425364f0cdc38",
+          "caller": "0xe2a6b7ecce863731943f5d1fdb5b4941b4f46766",
           "comment": "get(uint256): 21 -> 14",
           "instance": "Test",
           "method": "get(uint256)",

@@ -4,7 +4,7 @@
       "name": "super_skip_unimplemented_in_abstract_contract",
       "inputs": [
         {
-          "caller": "0x5fbde97fffe6216dbe74000896abd16027db38a8",
+          "caller": "0x34be16fdd47e498ba3dcb198bfa9312c26ed927a",
           "comment": "f() -> 42",
           "instance": "B",
           "method": "f()",

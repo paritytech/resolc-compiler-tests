@@ -4,7 +4,7 @@
       "name": "fractional_denominations",
       "inputs": [
         {
-          "caller": "0x71644a0b4c33665c7c62533a3b53a69294578a1d",
+          "caller": "0x1614b6c40982cdf168469ce908e625874435b7cc",
           "comment": "g() -> 1500000000",
           "instance": "C",
           "method": "g()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x71644a0b4c33665c7c62533a3b53a69294578a1d",
+          "caller": "0x1614b6c40982cdf168469ce908e625874435b7cc",
           "comment": "e() -> 1500000000000000000",
           "instance": "C",
           "method": "e()",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0x71644a0b4c33665c7c62533a3b53a69294578a1d",
+          "caller": "0x1614b6c40982cdf168469ce908e625874435b7cc",
           "comment": "m() -> 90",
           "instance": "C",
           "method": "m()",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0x71644a0b4c33665c7c62533a3b53a69294578a1d",
+          "caller": "0x1614b6c40982cdf168469ce908e625874435b7cc",
           "comment": "h() -> 5400",
           "instance": "C",
           "method": "h()",
@@ -48,7 +48,7 @@
           }
         },
         {
-          "caller": "0x71644a0b4c33665c7c62533a3b53a69294578a1d",
+          "caller": "0x1614b6c40982cdf168469ce908e625874435b7cc",
           "comment": "d() -> 129600",
           "instance": "C",
           "method": "d()",
@@ -59,7 +59,7 @@
           }
         },
         {
-          "caller": "0x71644a0b4c33665c7c62533a3b53a69294578a1d",
+          "caller": "0x1614b6c40982cdf168469ce908e625874435b7cc",
           "comment": "w() -> 907200",
           "instance": "C",
           "method": "w()",

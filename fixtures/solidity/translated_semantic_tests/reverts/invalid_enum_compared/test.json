@@ -4,7 +4,7 @@
       "name": "invalid_enum_compared",
       "inputs": [
         {
-          "caller": "0x77cd13bae5a47b275c70d846a672e1e644c38e15",
+          "caller": "0x470e1fa5137b4c1f0deb50688caf5bd3021a67ae",
           "comment": "test_eq_ok() -> 1",
           "instance": "C",
           "method": "test_eq_ok()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x77cd13bae5a47b275c70d846a672e1e644c38e15",
+          "caller": "0x470e1fa5137b4c1f0deb50688caf5bd3021a67ae",
           "comment": "test_eq() -> FAILURE, hex\"4e487b71\", 33",
           "instance": "C",
           "method": "test_eq()",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0x77cd13bae5a47b275c70d846a672e1e644c38e15",
+          "caller": "0x470e1fa5137b4c1f0deb50688caf5bd3021a67ae",
           "comment": "test_neq() -> FAILURE, hex\"4e487b71\", 33",
           "instance": "C",
           "method": "test_neq()",

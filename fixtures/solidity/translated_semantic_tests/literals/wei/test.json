@@ -4,7 +4,7 @@
       "name": "wei",
       "inputs": [
         {
-          "caller": "0xa5434c6b7d53735e7b906d035bb64d757869ea65",
+          "caller": "0x54003a2d63a279dae942536f46b671057d1703df",
           "comment": "f() -> 1",
           "instance": "C",
           "method": "f()",

@@ -4,7 +4,7 @@
       "name": "struct_with_bytes",
       "inputs": [
         {
-          "caller": "0x1c9a8f00144ad6fb4675031a2ea1064ccc71812b",
+          "caller": "0x1d3dbc36a6a3203dff6e57fdf55092f844229ec2",
           "comment": "s() -> 7, 0x40, 3, 0x6162630000000000000000000000000000000000000000000000000000000000",
           "instance": "C",
           "method": "s()",

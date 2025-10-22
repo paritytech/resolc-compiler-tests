@@ -4,7 +4,7 @@
       "name": "dirty_storage_dynamic_array",
       "inputs": [
         {
-          "caller": "0x66f6dd5c0e4fe5998858114dae5e75a6d7a560ef",
+          "caller": "0x33e849217de6a1f50cb31e1f183b53e098137fea",
           "comment": "f() -> true",
           "instance": "C",
           "method": "f()",

@@ -4,7 +4,7 @@
       "name": "flipping_sign_tests",
       "inputs": [
         {
-          "caller": "0x66631a21b8ea8696e68f3f44040f1fb9549fd72c",
+          "caller": "0xd3420d0749ca2f8f357b74211c982f894023dd66",
           "comment": "f() -> true",
           "instance": "test",
           "method": "f()",

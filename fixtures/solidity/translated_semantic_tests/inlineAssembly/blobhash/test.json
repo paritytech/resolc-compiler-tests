@@ -6,7 +6,7 @@
       "name": "blobhash",
       "inputs": [
         {
-          "caller": "0x8466542b50acc6c83dd47913d83235982ce7496b",
+          "caller": "0xd8e48a72ecc910f3d7ebe42aaf1e80b3315b362b",
           "comment": "f() -> 0x0100000000000000000000000000000000000000000000000000000000000001",
           "instance": "C",
           "method": "f()",

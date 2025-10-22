@@ -4,7 +4,7 @@
       "name": "small_signed_types",
       "inputs": [
         {
-          "caller": "0xb1e06c68be2463fcac645a53507912f72a0dd290",
+          "caller": "0xc1c2cd2cd2117072b78d95c51a022c63156d3104",
           "comment": "run() -> 200",
           "instance": "test",
           "method": "run()",

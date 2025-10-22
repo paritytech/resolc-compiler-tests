@@ -4,7 +4,7 @@
       "name": "array_nested_memory_to_storage",
       "inputs": [
         {
-          "caller": "0x1924faa64be5c6c379d89a5e08ee11c239c63a90",
+          "caller": "0x775fda1c8b55988712cb0cb2386b0bf84a322ee3",
           "comment": "test() -> 24; gas irOptimized: 226734; gas legacy: 227083; gas legacyOptimized: 226529",
           "instance": "Test",
           "method": "test()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x1924faa64be5c6c379d89a5e08ee11c239c63a90",
+          "caller": "0x775fda1c8b55988712cb0cb2386b0bf84a322ee3",
           "comment": "test1() -> 3",
           "instance": "Test",
           "method": "test1()",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0x1924faa64be5c6c379d89a5e08ee11c239c63a90",
+          "caller": "0x775fda1c8b55988712cb0cb2386b0bf84a322ee3",
           "comment": "test2() -> 6",
           "instance": "Test",
           "method": "test2()",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0x1924faa64be5c6c379d89a5e08ee11c239c63a90",
+          "caller": "0x775fda1c8b55988712cb0cb2386b0bf84a322ee3",
           "comment": "test3() -> 24; gas irOptimized: 141319; gas legacy: 142238; gas legacyOptimized: 141365",
           "instance": "Test",
           "method": "test3()",

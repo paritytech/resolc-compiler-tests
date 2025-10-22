@@ -4,7 +4,7 @@
       "name": "fixed_arrays_in_constructors",
       "inputs": [
         {
-          "caller": "0x48cd686c53ba731c453ae7fa17163e49d6b827cf",
+          "caller": "0x78fe502e40a4734480b02cc9c1cc87b252b49780",
           "comment": "constructor(): 1, 2, 3, 4 ->; gas irOptimized: 104102; gas irOptimized code: 22400; gas legacy: 115185; gas legacy code: 59000; gas legacyOptimized: 104908; gas legacyOptimized code: 23800",
           "instance": "Creator",
           "method": "#deployer",
@@ -14,7 +14,7 @@
           }
         },
         {
-          "caller": "0x48cd686c53ba731c453ae7fa17163e49d6b827cf",
+          "caller": "0x78fe502e40a4734480b02cc9c1cc87b252b49780",
           "comment": "r() -> 4",
           "instance": "Creator",
           "method": "r()",
@@ -25,7 +25,7 @@
           }
         },
         {
-          "caller": "0x48cd686c53ba731c453ae7fa17163e49d6b827cf",
+          "caller": "0x78fe502e40a4734480b02cc9c1cc87b252b49780",
           "comment": "ch() -> 3",
           "instance": "Creator",
           "method": "ch()",

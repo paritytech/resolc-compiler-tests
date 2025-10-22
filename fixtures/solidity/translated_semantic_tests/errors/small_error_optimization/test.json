@@ -4,7 +4,7 @@
       "name": "small_error_optimization",
       "inputs": [
         {
-          "caller": "0x58632a25e9ea89d1d73523428df2ca5a019d47ca",
+          "caller": "0x4283289a4e34fcde0fc7125e33adbf433ff8b666",
           "comment": "f() -> FAILURE, hex\"92bbf6e8\"; gas irOptimized: 221918; gas irOptimized code: 42800; gas legacy: 233752; gas legacy code: 38000; gas legacyOptimized: 224863; gas legacyOptimized code: 34200",
           "instance": "B",
           "method": "f()",

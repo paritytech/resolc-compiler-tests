@@ -4,7 +4,7 @@
       "name": "library_function_deployed",
       "inputs": [
         {
-          "caller": "0x4e272a2420cd04b54131595d39e5e97ee671cafd",
+          "caller": "0x8888c89f1ba2c9887d5f3a526c24fc1fb4e3f0b6",
           "comment": "test() -> true",
           "instance": "C",
           "method": "test()",

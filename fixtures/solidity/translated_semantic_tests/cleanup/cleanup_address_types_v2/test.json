@@ -4,7 +4,7 @@
       "name": "cleanup_address_types_v2",
       "inputs": [
         {
-          "caller": "0xd2a9328ac85e8dfc19ed085b076838aa283fec12",
+          "caller": "0x924b18c017406f60a96651d5d3941aeb0fdfbe87",
           "comment": "f(address): 0xffff1234567890123456789012345678901234567890 -> FAILURE",
           "instance": "C",
           "method": "f(address)",
@@ -14,7 +14,7 @@
           }
         },
         {
-          "caller": "0xd2a9328ac85e8dfc19ed085b076838aa283fec12",
+          "caller": "0x924b18c017406f60a96651d5d3941aeb0fdfbe87",
           "comment": "g(address): 0xffff1234567890123456789012345678901234567890 -> FAILURE",
           "instance": "C",
           "method": "g(address)",

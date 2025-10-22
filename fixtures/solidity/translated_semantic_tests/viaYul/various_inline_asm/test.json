@@ -4,7 +4,7 @@
       "name": "various_inline_asm",
       "inputs": [
         {
-          "caller": "0x84e86798ba249532ded2fc7f43fb85a591b33e03",
+          "caller": "0x21ad4976163644ee2c0ab1c7b3ff3913d736d772",
           "comment": "f() -> 70",
           "instance": "C",
           "method": "f()",

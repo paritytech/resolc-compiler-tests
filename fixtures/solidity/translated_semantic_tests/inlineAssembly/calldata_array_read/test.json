@@ -4,7 +4,7 @@
       "name": "calldata_array_read",
       "inputs": [
         {
-          "caller": "0x710920cd594342c21621dff67b3066e38ecbefd0",
+          "caller": "0xbe24b0ab15dcae13281e89f3d4e3d378839550b2",
           "comment": "f(uint256[2][]): 0x20, 2, 1, 2, 3, 4 -> 0x44, 2, 0x84",
           "instance": "C",
           "method": "f(uint256[2][])",

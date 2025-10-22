@@ -4,7 +4,7 @@
       "name": "array_of_struct_calldata_to_memory",
       "inputs": [
         {
-          "caller": "0xbede03ae3f5962389acc57da6fac24fa57d490b7",
+          "caller": "0x5052b46bd48157a24bb5e19d04404b5e83c319a3",
           "comment": "f((uint128,uint64,uint128)[3]): 0, 0, 12, 0, 11, 0, 10, 0, 0 -> 10, 11, 12",
           "instance": "C",
           "method": "f((uint128,uint64,uint128)[3])",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xbede03ae3f5962389acc57da6fac24fa57d490b7",
+          "caller": "0x5052b46bd48157a24bb5e19d04404b5e83c319a3",
           "comment": "g((uint128,uint64,uint128)[]): 0x20, 3, 0, 0, 12, 0, 11, 0, 10, 0, 0 -> 10, 11, 12",
           "instance": "C",
           "method": "g((uint128,uint64,uint128)[])",

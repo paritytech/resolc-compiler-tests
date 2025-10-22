@@ -4,7 +4,7 @@
       "name": "inherited_function_through_dispatch",
       "inputs": [
         {
-          "caller": "0x3bfc19e961982ef2054f56b5fa2614431b797b46",
+          "caller": "0x3081293931f594141cc620fb6857ffba12c54daf",
           "comment": "g() -> 1",
           "instance": "B",
           "method": "g()",

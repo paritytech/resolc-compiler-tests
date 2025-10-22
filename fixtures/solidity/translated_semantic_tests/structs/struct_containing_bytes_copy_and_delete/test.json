@@ -1,4 +1,6 @@
 {
+  "comment": "Ignored since `storageEmpty` assertions are not supported in revive's REVM",
+  "ignore": true,
   "cases": [
     {
       "name": "struct_containing_bytes_copy_and_delete",
@@ -7,10 +9,10 @@
           "comment": "storageEmpty -> 1",
           "address": "c.address",
           "is_storage_empty": true,
-          "caller": "0x1F4FC1469CE2Fe42F19fd8141840E26a49D73469"
+          "caller": "0xCF56E7776A97b05E6Bd5C1814F331d5003b8E3e2"
         },
         {
-          "caller": "0xcf56e7776a97b05e6bd5c1814f331d5003b8e3e2",
+          "caller": "0xf2dd6d9caf8791351e320a9bf6ac19fb7bf15c84",
           "comment": "set(uint256,bytes,uint256): 12, 0x60, 13, 33, \"12345678901234567890123456789012\", \"3\" -> true; gas irOptimized: 133557; gas legacy: 134624; gas legacyOptimized: 133856",
           "instance": "c",
           "method": "set(uint256,bytes,uint256)",
@@ -21,7 +23,7 @@
           }
         },
         {
-          "caller": "0xcf56e7776a97b05e6bd5c1814f331d5003b8e3e2",
+          "caller": "0xf2dd6d9caf8791351e320a9bf6ac19fb7bf15c84",
           "comment": "test(uint256): 32 -> \"3\"",
           "instance": "c",
           "method": "test(uint256)",
@@ -35,10 +37,10 @@
           "comment": "storageEmpty -> 0",
           "address": "c.address",
           "is_storage_empty": false,
-          "caller": "0x1F4FC1469CE2Fe42F19fd8141840E26a49D73469"
+          "caller": "0xCF56E7776A97b05E6Bd5C1814F331d5003b8E3e2"
         },
         {
-          "caller": "0xcf56e7776a97b05e6bd5c1814f331d5003b8e3e2",
+          "caller": "0xf2dd6d9caf8791351e320a9bf6ac19fb7bf15c84",
           "comment": "copy() -> true",
           "instance": "c",
           "method": "copy()",
@@ -52,10 +54,10 @@
           "comment": "storageEmpty -> 1",
           "address": "c.address",
           "is_storage_empty": true,
-          "caller": "0x1F4FC1469CE2Fe42F19fd8141840E26a49D73469"
+          "caller": "0xCF56E7776A97b05E6Bd5C1814F331d5003b8E3e2"
         },
         {
-          "caller": "0xcf56e7776a97b05e6bd5c1814f331d5003b8e3e2",
+          "caller": "0xf2dd6d9caf8791351e320a9bf6ac19fb7bf15c84",
           "comment": "set(uint256,bytes,uint256): 12, 0x60, 13, 33, \"12345678901234567890123456789012\", \"3\" -> true; gas irOptimized: 133557; gas legacy: 134624; gas legacyOptimized: 133856",
           "instance": "c",
           "method": "set(uint256,bytes,uint256)",
@@ -69,10 +71,10 @@
           "comment": "storageEmpty -> 0",
           "address": "c.address",
           "is_storage_empty": false,
-          "caller": "0x1F4FC1469CE2Fe42F19fd8141840E26a49D73469"
+          "caller": "0xCF56E7776A97b05E6Bd5C1814F331d5003b8E3e2"
         },
         {
-          "caller": "0xcf56e7776a97b05e6bd5c1814f331d5003b8e3e2",
+          "caller": "0xf2dd6d9caf8791351e320a9bf6ac19fb7bf15c84",
           "comment": "del() -> true",
           "instance": "c",
           "method": "del()",
@@ -86,7 +88,7 @@
           "comment": "storageEmpty -> 1",
           "address": "c.address",
           "is_storage_empty": true,
-          "caller": "0x1F4FC1469CE2Fe42F19fd8141840E26a49D73469"
+          "caller": "0xCF56E7776A97b05E6Bd5C1814F331d5003b8E3e2"
         }
       ]
     }

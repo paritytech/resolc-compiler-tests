@@ -4,7 +4,7 @@
       "name": "simple",
       "inputs": [
         {
-          "caller": "0x64f2d5e5317983a3822a2df0b1ed0a1f711921a2",
+          "caller": "0x31ff53c2fa52b9ffbadafe3642a60bf15d7e48a1",
           "comment": "f() -> 1024",
           "instance": "C",
           "method": "f()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x64f2d5e5317983a3822a2df0b1ed0a1f711921a2",
+          "caller": "0x31ff53c2fa52b9ffbadafe3642a60bf15d7e48a1",
           "comment": "g() -> 1024",
           "instance": "C",
           "method": "g()",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0x64f2d5e5317983a3822a2df0b1ed0a1f711921a2",
+          "caller": "0x31ff53c2fa52b9ffbadafe3642a60bf15d7e48a1",
           "comment": "h() -> 2",
           "instance": "C",
           "method": "h()",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0x64f2d5e5317983a3822a2df0b1ed0a1f711921a2",
+          "caller": "0x31ff53c2fa52b9ffbadafe3642a60bf15d7e48a1",
           "comment": "i() -> 3",
           "instance": "C",
           "method": "i()",
@@ -48,7 +48,7 @@
           }
         },
         {
-          "caller": "0x64f2d5e5317983a3822a2df0b1ed0a1f711921a2",
+          "caller": "0x31ff53c2fa52b9ffbadafe3642a60bf15d7e48a1",
           "comment": "j() ->",
           "instance": "C",
           "method": "j()",

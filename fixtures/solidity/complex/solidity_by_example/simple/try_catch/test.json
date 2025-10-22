@@ -5,7 +5,7 @@
       "inputs": [
         {
           "instance": "Test",
-          "caller": "0x06fbce1a39466d40ad0f72fa41085259a43c28ce",
+          "caller": "0x1785e2cd4c572e14b7f0e3b43b3e021a0c1b0ab4",
           "method": "#deployer",
           "calldata": [],
           "expected": [
@@ -14,7 +14,7 @@
         },
         {
           "instance": "Test",
-          "caller": "0x06fbce1a39466d40ad0f72fa41085259a43c28ce",
+          "caller": "0x1785e2cd4c572e14b7f0e3b43b3e021a0c1b0ab4",
           "method": "tryCatchExternalCall",
           "calldata": [
             "0"
@@ -42,7 +42,7 @@
       "inputs": [
         {
           "instance": "Test",
-          "caller": "0x1785e2cd4c572e14b7f0e3b43b3e021a0c1b0ab4",
+          "caller": "0x6b4853268bf1761ce6806297c83c15f5407e2868",
           "method": "#deployer",
           "calldata": [],
           "expected": [
@@ -51,7 +51,7 @@
         },
         {
           "instance": "Test",
-          "caller": "0x1785e2cd4c572e14b7f0e3b43b3e021a0c1b0ab4",
+          "caller": "0x6b4853268bf1761ce6806297c83c15f5407e2868",
           "method": "tryCatchExternalCall",
           "calldata": [
             "1"
@@ -79,7 +79,7 @@
       "inputs": [
         {
           "instance": "Test",
-          "caller": "0x6b4853268bf1761ce6806297c83c15f5407e2868",
+          "caller": "0xd6ec6190edecd36e6a64605dfdd642917fda9bca",
           "method": "#deployer",
           "calldata": [],
           "expected": [
@@ -88,7 +88,7 @@
         },
         {
           "instance": "Test",
-          "caller": "0x6b4853268bf1761ce6806297c83c15f5407e2868",
+          "caller": "0xd6ec6190edecd36e6a64605dfdd642917fda9bca",
           "method": "tryCatchNewContract",
           "calldata": [
             "0x0000000000000000000000000000000000000000"
@@ -116,7 +116,7 @@
       "inputs": [
         {
           "instance": "Test",
-          "caller": "0xd6ec6190edecd36e6a64605dfdd642917fda9bca",
+          "caller": "0xfcc8b2cedc7384608b17535db0ff8a5ae293a1d3",
           "method": "#deployer",
           "calldata": [],
           "expected": [
@@ -125,7 +125,7 @@
         },
         {
           "instance": "Test",
-          "caller": "0xd6ec6190edecd36e6a64605dfdd642917fda9bca",
+          "caller": "0xfcc8b2cedc7384608b17535db0ff8a5ae293a1d3",
           "method": "tryCatchNewContract",
           "calldata": [
             "0x0000000000000000000000000000000000000001"
@@ -174,7 +174,7 @@
       "inputs": [
         {
           "instance": "Test",
-          "caller": "0xfcc8b2cedc7384608b17535db0ff8a5ae293a1d3",
+          "caller": "0x92dec7fc7ea9fc0a9027997b58e9de5c9b8fab86",
           "method": "#deployer",
           "calldata": [],
           "expected": [
@@ -183,7 +183,7 @@
         },
         {
           "instance": "Test",
-          "caller": "0xfcc8b2cedc7384608b17535db0ff8a5ae293a1d3",
+          "caller": "0x92dec7fc7ea9fc0a9027997b58e9de5c9b8fab86",
           "method": "tryCatchNewContract",
           "calldata": [
             "0x0000000000000000000000000000000000000002"

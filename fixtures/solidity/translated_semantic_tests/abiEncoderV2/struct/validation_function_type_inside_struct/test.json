@@ -4,7 +4,7 @@
       "name": "validation_function_type_inside_struct",
       "inputs": [
         {
-          "caller": "0xf58334f0f2eb0d21f8d237f7e0a6355543ba5f74",
+          "caller": "0xd4a32db47ebc857808cd3d4b4b3300cbe646a051",
           "comment": "f((function)): \"01234567890123456789abcd\" -> 1",
           "instance": "C",
           "method": "f((function))",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xf58334f0f2eb0d21f8d237f7e0a6355543ba5f74",
+          "caller": "0xd4a32db47ebc857808cd3d4b4b3300cbe646a051",
           "comment": "f((function)): \"01234567890123456789abcdX\" -> FAILURE",
           "instance": "C",
           "method": "f((function))",
@@ -25,7 +25,7 @@
           }
         },
         {
-          "caller": "0xf58334f0f2eb0d21f8d237f7e0a6355543ba5f74",
+          "caller": "0xd4a32db47ebc857808cd3d4b4b3300cbe646a051",
           "comment": "g((function)): \"01234567890123456789abcd\" -> 2",
           "instance": "C",
           "method": "g((function))",
@@ -36,7 +36,7 @@
           }
         },
         {
-          "caller": "0xf58334f0f2eb0d21f8d237f7e0a6355543ba5f74",
+          "caller": "0xd4a32db47ebc857808cd3d4b4b3300cbe646a051",
           "comment": "g((function)): \"01234567890123456789abcdX\" -> 2",
           "instance": "C",
           "method": "g((function))",
@@ -47,7 +47,7 @@
           }
         },
         {
-          "caller": "0xf58334f0f2eb0d21f8d237f7e0a6355543ba5f74",
+          "caller": "0xd4a32db47ebc857808cd3d4b4b3300cbe646a051",
           "comment": "h((function)): \"01234567890123456789abcd\" -> 3",
           "instance": "C",
           "method": "h((function))",
@@ -58,7 +58,7 @@
           }
         },
         {
-          "caller": "0xf58334f0f2eb0d21f8d237f7e0a6355543ba5f74",
+          "caller": "0xd4a32db47ebc857808cd3d4b4b3300cbe646a051",
           "comment": "h((function)): \"01234567890123456789abcdX\" -> FAILURE",
           "instance": "C",
           "method": "h((function))",

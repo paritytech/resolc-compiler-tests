@@ -8,14 +8,14 @@
 //!           "calldata": [
 //!             "0x0000000000000000000000000000000000000000000000000005000a000f0014"
 //!           ],
-//!           "caller": "0xfb201ad019c3ff5e8422011573cc8de1f4b5c813"
+//!           "caller": "0xe3b059e4acc6badff334128e5669275afa81555f"
 //!         },
 //!         {
 //!           "method": "main",
 //!           "calldata": [
 //!             "42"
 //!           ],
-//!           "caller": "0xfb201ad019c3ff5e8422011573cc8de1f4b5c813"
+//!           "caller": "0xe3b059e4acc6badff334128e5669275afa81555f"
 //!         }
 //!       ],
 //!       "expected": [

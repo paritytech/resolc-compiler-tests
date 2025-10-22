@@ -6,7 +6,7 @@
 //!         {
 //!           "method": "f",
 //!           "calldata": [],
-//!           "caller": "0x740fa512dd8053391e53b7f96a9e39d12551801a"
+//!           "caller": "0x05b4dcb602a1b59ee529bedacda7d0aa3532e592"
 //!         }
 //!       ],
 //!       "expected": [

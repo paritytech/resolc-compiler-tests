@@ -4,7 +4,7 @@
       "name": "contract_array_v2",
       "inputs": [
         {
-          "caller": "0x8fe78f3e44906945c052705d01db549c34b7e220",
+          "caller": "0x9582ced84d92f9b4ff8bbe3583804e8941987a9d",
           "comment": "f(bytes): 0x20, 0xA0, 0x20, 3, 0x01, 0x02, 0x03 -> 0x20, 3, 0x01, 0x02, 0x03",
           "instance": "C",
           "method": "f(bytes)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x8fe78f3e44906945c052705d01db549c34b7e220",
+          "caller": "0x9582ced84d92f9b4ff8bbe3583804e8941987a9d",
           "comment": "f(bytes): 0x20, 0x60, 0x20, 1, 0x0102030405060708090a0b0c0d0e0f1011121314 -> 0x20, 1, 0x0102030405060708090a0b0c0d0e0f1011121314",
           "instance": "C",
           "method": "f(bytes)",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0x8fe78f3e44906945c052705d01db549c34b7e220",
+          "caller": "0x9582ced84d92f9b4ff8bbe3583804e8941987a9d",
           "comment": "f(bytes): 0x20, 0x60, 0x20, 1, 0x0102030405060708090a0b0c0d0e0f101112131415 -> FAILURE",
           "instance": "C",
           "method": "f(bytes)",
@@ -36,7 +36,7 @@
           }
         },
         {
-          "caller": "0x8fe78f3e44906945c052705d01db549c34b7e220",
+          "caller": "0x9582ced84d92f9b4ff8bbe3583804e8941987a9d",
           "comment": "g() -> 0x20, 0xa0, 0x20, 3, 0x42, 0x21, 0x23",
           "instance": "C",
           "method": "g()",

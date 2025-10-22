@@ -1,8 +1,16 @@
 contract c {
-    struct Struct { uint a; bytes data; uint b; }
+    struct Struct {
+        uint a;
+        bytes data;
+        uint b;
+    }
     Struct data1;
     Struct data2;
-    function set(uint _a, bytes calldata _data, uint _b) external returns (bool) {
+    function set(
+        uint _a,
+        bytes calldata _data,
+        uint _b
+    ) external returns (bool) {
         data1.a = _a;
         data1.b = _b;
         data1.data = _data;

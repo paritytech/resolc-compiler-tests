@@ -4,7 +4,7 @@
       "name": "abi_decode_fixed_arrays",
       "inputs": [
         {
-          "caller": "0x2e1bc3588af314c04b7c3b49fd593fef41f4ecfa",
+          "caller": "0x9fb2b4edceac527cd4234ea5149acdcb351b6ffc",
           "comment": "f(uint16[3],uint16[2][3],uint256,uint256,uint256): 1, 2, 3, 11, 12, 21, 22, 31, 32, 1, 2, 1 -> 2, 32",
           "instance": "C",
           "method": "f(uint16[3],uint16[2][3],uint256,uint256,uint256)",

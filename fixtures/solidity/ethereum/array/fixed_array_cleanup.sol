@@ -2,11 +2,18 @@ contract c {
     uint spacer1;
     uint spacer2;
     uint[20] data;
+
     function fill() public {
-        for (uint i = 0; i < data.length; ++i) data[i] = i+1;
+        for (uint i = 0; i < data.length; ++i) data[i] = i + 1;
     }
-    function clear() public { delete data; }
+
+    function clear() public {
+        delete data;
+    }
 }
+// ====
+// ignore: true
+// comment: Ignored since `storageEmpty` assertions are not supported in revive's REVM
 // ----
 // storageEmpty -> 1
 // fill() ->

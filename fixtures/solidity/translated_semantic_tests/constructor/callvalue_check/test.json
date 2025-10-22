@@ -4,7 +4,7 @@
       "name": "callvalue_check",
       "inputs": [
         {
-          "caller": "0x443320381ed6d45fe82d07f93c0a460612b2e658",
+          "caller": "0xf9b2f1ddcde0636dbd8fca31d96754321d34c308",
           "comment": "f(uint256), 2000 ether: 0 -> true",
           "instance": "C",
           "method": "f(uint256)",
@@ -16,7 +16,7 @@
           "value": "2000000000000000000000 wei"
         },
         {
-          "caller": "0x443320381ed6d45fe82d07f93c0a460612b2e658",
+          "caller": "0xf9b2f1ddcde0636dbd8fca31d96754321d34c308",
           "comment": "f(uint256), 2000 ether: 100 -> false",
           "instance": "C",
           "method": "f(uint256)",
@@ -28,7 +28,7 @@
           "value": "2000000000000000000000 wei"
         },
         {
-          "caller": "0x443320381ed6d45fe82d07f93c0a460612b2e658",
+          "caller": "0xf9b2f1ddcde0636dbd8fca31d96754321d34c308",
           "comment": "g(uint256), 2000 ether: 0 -> true",
           "instance": "C",
           "method": "g(uint256)",
@@ -40,7 +40,7 @@
           "value": "2000000000000000000000 wei"
         },
         {
-          "caller": "0x443320381ed6d45fe82d07f93c0a460612b2e658",
+          "caller": "0xf9b2f1ddcde0636dbd8fca31d96754321d34c308",
           "comment": "g(uint256), 2000 ether: 100 -> false",
           "instance": "C",
           "method": "g(uint256)",
@@ -52,7 +52,7 @@
           "value": "2000000000000000000000 wei"
         },
         {
-          "caller": "0x443320381ed6d45fe82d07f93c0a460612b2e658",
+          "caller": "0xf9b2f1ddcde0636dbd8fca31d96754321d34c308",
           "comment": "h(uint256), 2000 ether: 0 -> true",
           "instance": "C",
           "method": "h(uint256)",
@@ -64,7 +64,7 @@
           "value": "2000000000000000000000 wei"
         },
         {
-          "caller": "0x443320381ed6d45fe82d07f93c0a460612b2e658",
+          "caller": "0xf9b2f1ddcde0636dbd8fca31d96754321d34c308",
           "comment": "h(uint256), 2000 ether: 100 -> false",
           "instance": "C",
           "method": "h(uint256)",
@@ -76,7 +76,7 @@
           "value": "2000000000000000000000 wei"
         },
         {
-          "caller": "0x443320381ed6d45fe82d07f93c0a460612b2e658",
+          "caller": "0xf9b2f1ddcde0636dbd8fca31d96754321d34c308",
           "comment": "i(uint256), 2000 ether: 0 -> true",
           "instance": "C",
           "method": "i(uint256)",
@@ -88,7 +88,7 @@
           "value": "2000000000000000000000 wei"
         },
         {
-          "caller": "0x443320381ed6d45fe82d07f93c0a460612b2e658",
+          "caller": "0xf9b2f1ddcde0636dbd8fca31d96754321d34c308",
           "comment": "i(uint256), 2000 ether: 100 -> false",
           "instance": "C",
           "method": "i(uint256)",

@@ -4,7 +4,7 @@
       "name": "inheritance_state_variable_slot_offset",
       "inputs": [
         {
-          "caller": "0x29c57c5a7ed501ea1bba607ae1156ee9537805ab",
+          "caller": "0x1a69f8f0b7a1218ca1a43f5c525a1cbd122b7dc7",
           "comment": "xSlotOffset() -> 7, 0",
           "instance": "C",
           "method": "xSlotOffset()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x29c57c5a7ed501ea1bba607ae1156ee9537805ab",
+          "caller": "0x1a69f8f0b7a1218ca1a43f5c525a1cbd122b7dc7",
           "comment": "ySlotOffset() -> 8, 0",
           "instance": "C",
           "method": "ySlotOffset()",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0x29c57c5a7ed501ea1bba607ae1156ee9537805ab",
+          "caller": "0x1a69f8f0b7a1218ca1a43f5c525a1cbd122b7dc7",
           "comment": "wSlotOffset() -> 8, 16",
           "instance": "C",
           "method": "wSlotOffset()",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0x29c57c5a7ed501ea1bba607ae1156ee9537805ab",
+          "caller": "0x1a69f8f0b7a1218ca1a43f5c525a1cbd122b7dc7",
           "comment": "zSlotOffset() -> 9, 0",
           "instance": "C",
           "method": "zSlotOffset()",

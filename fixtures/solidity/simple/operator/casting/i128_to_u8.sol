@@ -8,7 +8,7 @@
 //!           "calldata": [
 //!             "0"
 //!           ],
-//!           "caller": "0x25346934b4faa00dee0190c2069156bde6010c18"
+//!           "caller": "0xa01cca6367a84304b6607b76676c66c360b74741"
 //!         }
 //!       ],
 //!       "expected": [
@@ -23,7 +23,7 @@
 //!           "calldata": [
 //!             "42"
 //!           ],
-//!           "caller": "0xa01cca6367a84304b6607b76676c66c360b74741"
+//!           "caller": "0x872917cec8992487651ee633dba73bd3a9dca309"
 //!         }
 //!       ],
 //!       "expected": [
@@ -38,7 +38,7 @@
 //!           "calldata": [
 //!             "255"
 //!           ],
-//!           "caller": "0x872917cec8992487651ee633dba73bd3a9dca309"
+//!           "caller": "0x6c1a01c2ab554930a937b0a2e8105fb47946c679"
 //!         }
 //!       ],
 //!       "expected": [
@@ -53,7 +53,7 @@
 //!           "calldata": [
 //!             "-1"
 //!           ],
-//!           "caller": "0x6c1a01c2ab554930a937b0a2e8105fb47946c679"
+//!           "caller": "0x13c0e7c715fdea35c7f9663c719e4d36601275b9"
 //!         }
 //!       ],
 //!       "expected": [
@@ -68,7 +68,7 @@
 //!           "calldata": [
 //!             "-42"
 //!           ],
-//!           "caller": "0x13c0e7c715fdea35c7f9663c719e4d36601275b9"
+//!           "caller": "0xe8c5025c803f3279d94ea55598e147f601929bf4"
 //!         }
 //!       ],
 //!       "expected": [

@@ -4,7 +4,7 @@
       "name": "dirty_storage_bytes",
       "inputs": [
         {
-          "caller": "0x383e51bb95442348956d899a165f6fe61f3f965c",
+          "caller": "0x4bf171ac7491b346b03bd8124852da8c9e313448",
           "comment": "f() -> true",
           "instance": "C",
           "method": "f()",

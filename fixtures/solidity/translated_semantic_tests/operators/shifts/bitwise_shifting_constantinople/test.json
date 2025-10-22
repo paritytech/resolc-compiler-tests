@@ -4,7 +4,7 @@
       "name": "bitwise_shifting_constantinople",
       "inputs": [
         {
-          "caller": "0x58897a7c754da112e88cceab46d16e6d6870a923",
+          "caller": "0x2e32eee667ee8577ee2507e6575b3705021b5369",
           "comment": "shl(uint256,uint256): 0x01, 0x02 -> 0x04",
           "instance": "C",
           "method": "shl(uint256,uint256)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x58897a7c754da112e88cceab46d16e6d6870a923",
+          "caller": "0x2e32eee667ee8577ee2507e6575b3705021b5369",
           "comment": "shl(uint256,uint256): 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff, 0x01 -> 0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe",
           "instance": "C",
           "method": "shl(uint256,uint256)",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0x58897a7c754da112e88cceab46d16e6d6870a923",
+          "caller": "0x2e32eee667ee8577ee2507e6575b3705021b5369",
           "comment": "shl(uint256,uint256): 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff, 0x100 -> 0x00",
           "instance": "C",
           "method": "shl(uint256,uint256)",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0x58897a7c754da112e88cceab46d16e6d6870a923",
+          "caller": "0x2e32eee667ee8577ee2507e6575b3705021b5369",
           "comment": "shr(uint256,uint256): 0x03, 0x01 -> 0x01",
           "instance": "C",
           "method": "shr(uint256,uint256)",
@@ -48,7 +48,7 @@
           }
         },
         {
-          "caller": "0x58897a7c754da112e88cceab46d16e6d6870a923",
+          "caller": "0x2e32eee667ee8577ee2507e6575b3705021b5369",
           "comment": "shr(uint256,uint256): 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff, 0x01 -> 0x7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
           "instance": "C",
           "method": "shr(uint256,uint256)",
@@ -59,7 +59,7 @@
           }
         },
         {
-          "caller": "0x58897a7c754da112e88cceab46d16e6d6870a923",
+          "caller": "0x2e32eee667ee8577ee2507e6575b3705021b5369",
           "comment": "shr(uint256,uint256): 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff, 0xff -> 0x01",
           "instance": "C",
           "method": "shr(uint256,uint256)",
@@ -70,7 +70,7 @@
           }
         },
         {
-          "caller": "0x58897a7c754da112e88cceab46d16e6d6870a923",
+          "caller": "0x2e32eee667ee8577ee2507e6575b3705021b5369",
           "comment": "shr(uint256,uint256): 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff, 0x100 -> 0x00",
           "instance": "C",
           "method": "shr(uint256,uint256)",
@@ -81,7 +81,7 @@
           }
         },
         {
-          "caller": "0x58897a7c754da112e88cceab46d16e6d6870a923",
+          "caller": "0x2e32eee667ee8577ee2507e6575b3705021b5369",
           "comment": "sar(uint256,uint256): 0x03, 0x01 -> 0x01",
           "instance": "C",
           "method": "sar(uint256,uint256)",
@@ -92,7 +92,7 @@
           }
         },
         {
-          "caller": "0x58897a7c754da112e88cceab46d16e6d6870a923",
+          "caller": "0x2e32eee667ee8577ee2507e6575b3705021b5369",
           "comment": "sar(uint256,uint256): 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff, 0x01 -> 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
           "instance": "C",
           "method": "sar(uint256,uint256)",
@@ -103,7 +103,7 @@
           }
         },
         {
-          "caller": "0x58897a7c754da112e88cceab46d16e6d6870a923",
+          "caller": "0x2e32eee667ee8577ee2507e6575b3705021b5369",
           "comment": "sar(uint256,uint256): 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff, 0xff -> 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
           "instance": "C",
           "method": "sar(uint256,uint256)",
@@ -114,7 +114,7 @@
           }
         },
         {
-          "caller": "0x58897a7c754da112e88cceab46d16e6d6870a923",
+          "caller": "0x2e32eee667ee8577ee2507e6575b3705021b5369",
           "comment": "sar(uint256,uint256): 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff, 0x100 -> 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
           "instance": "C",
           "method": "sar(uint256,uint256)",

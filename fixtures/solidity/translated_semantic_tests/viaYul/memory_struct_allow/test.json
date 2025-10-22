@@ -4,7 +4,7 @@
       "name": "memory_struct_allow",
       "inputs": [
         {
-          "caller": "0x68c42d4dfa666de8470491df66194234b880d8ea",
+          "caller": "0x6eb6eea663fd21575f60514e6fb0e12f46b3ece0",
           "comment": "f() -> 0, 0",
           "instance": "C",
           "method": "f()",

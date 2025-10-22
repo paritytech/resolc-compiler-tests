@@ -4,7 +4,7 @@
       "name": "local_bool_assignment",
       "inputs": [
         {
-          "caller": "0x4a82cba19d2d34baeafeae760cd781c979daa206",
+          "caller": "0xa5434c6b7d53735e7b906d035bb64d757869ea65",
           "comment": "f(bool): true -> true",
           "instance": "C",
           "method": "f(bool)",

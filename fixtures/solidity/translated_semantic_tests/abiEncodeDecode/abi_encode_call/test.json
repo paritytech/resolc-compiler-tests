@@ -4,7 +4,7 @@
       "name": "abi_encode_call",
       "inputs": [
         {
-          "caller": "0x42e8970d7f5806e0043025eaa9fc21b8fb610cd8",
+          "caller": "0xe0b74931a29aeb0a3487828058f908e92ec80d26",
           "comment": "callExternal() -> true",
           "instance": "C",
           "method": "callExternal()",

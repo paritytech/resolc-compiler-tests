@@ -4,7 +4,7 @@
       "name": "library_function_selectors",
       "inputs": [
         {
-          "caller": "0xb9f72fe70d5f83cf15a91a0d595d04126eac773c",
+          "caller": "0x2d4572a760eb715f01e08d7ba199b0aa29fdcf6f",
           "comment": "f() -> true, true, 7",
           "instance": "C",
           "method": "f()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xb9f72fe70d5f83cf15a91a0d595d04126eac773c",
+          "caller": "0x2d4572a760eb715f01e08d7ba199b0aa29fdcf6f",
           "comment": "g() -> true, true, 42",
           "instance": "C",
           "method": "g()",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0xb9f72fe70d5f83cf15a91a0d595d04126eac773c",
+          "caller": "0x2d4572a760eb715f01e08d7ba199b0aa29fdcf6f",
           "comment": "h() -> true, true, 23",
           "instance": "C",
           "method": "h()",

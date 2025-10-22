@@ -4,7 +4,7 @@
       "name": "inline_assembly_direct_load",
       "inputs": [
         {
-          "caller": "0x1a69f8f0b7a1218ca1a43f5c525a1cbd122b7dc7",
+          "caller": "0xe175d2ca1689ac43cb760fbeb5769fb6c0cb8f50",
           "comment": "f() -> 16",
           "instance": "C",
           "method": "f()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x1a69f8f0b7a1218ca1a43f5c525a1cbd122b7dc7",
+          "caller": "0xe175d2ca1689ac43cb760fbeb5769fb6c0cb8f50",
           "comment": "x() -> 16",
           "instance": "C",
           "method": "x()",

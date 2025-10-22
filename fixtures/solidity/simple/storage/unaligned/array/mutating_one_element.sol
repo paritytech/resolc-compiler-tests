@@ -8,12 +8,12 @@
 //!           "calldata": [
 //!             "1"
 //!           ],
-//!           "caller": "0x425e605c8e1c0a786cc3f9f63018751842126b64"
+//!           "caller": "0xfb201ad019c3ff5e8422011573cc8de1f4b5c813"
 //!         },
 //!         {
 //!           "method": "complex",
 //!           "calldata": [],
-//!           "caller": "0x425e605c8e1c0a786cc3f9f63018751842126b64"
+//!           "caller": "0xfb201ad019c3ff5e8422011573cc8de1f4b5c813"
 //!         }
 //!       ],
 //!       "expected": [

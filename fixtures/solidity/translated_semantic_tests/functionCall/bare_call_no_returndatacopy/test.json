@@ -5,7 +5,7 @@
       "name": "bare_call_no_returndatacopy",
       "inputs": [
         {
-          "caller": "0xb5efc6daffa1eb7ec2f6e23a728e9098fc915d5d",
+          "caller": "0x784b8f2614b5d4a65390044b729d5d968fdccac6",
           "comment": "f() -> true",
           "instance": "C",
           "method": "f()",

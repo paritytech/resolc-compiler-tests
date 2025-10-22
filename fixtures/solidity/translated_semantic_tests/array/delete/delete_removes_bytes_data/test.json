@@ -1,10 +1,12 @@
 {
+  "comment": "Ignored since `storageEmpty` assertions are not supported in revive's REVM",
+  "ignore": true,
   "cases": [
     {
       "name": "delete_removes_bytes_data",
       "inputs": [
         {
-          "caller": "0x6a98b83a952083e219b405b39de208b2de5b6d9d",
+          "caller": "0x28973d20608450b010db29bffb74c5a3d80806e9",
           "comment": "(): 7 ->",
           "instance": "c",
           "method": "#fallback",
@@ -17,10 +19,10 @@
           "comment": "storageEmpty -> 0",
           "address": "c.address",
           "is_storage_empty": false,
-          "caller": "0x28973D20608450B010dB29bffb74c5a3D80806e9"
+          "caller": "0xB118f715679235bfADC1070470C537f7F7C17be3"
         },
         {
-          "caller": "0x6a98b83a952083e219b405b39de208b2de5b6d9d",
+          "caller": "0x28973d20608450b010db29bffb74c5a3d80806e9",
           "comment": "del(): 7 -> true",
           "instance": "c",
           "method": "del()",
@@ -34,7 +36,7 @@
           "comment": "storageEmpty -> 1",
           "address": "c.address",
           "is_storage_empty": true,
-          "caller": "0x28973D20608450B010dB29bffb74c5a3D80806e9"
+          "caller": "0xB118f715679235bfADC1070470C537f7F7C17be3"
         }
       ]
     }

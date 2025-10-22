@@ -4,7 +4,7 @@
       "name": "enum_referencing",
       "inputs": [
         {
-          "caller": "0x8a25ccf4f40620648cbffb4b3c891c4ca77cff23",
+          "caller": "0xbb4b10b43b87234bb92ac4ec7709c5bb65f6f7b4",
           "comment": "f() -> 3",
           "instance": "C",
           "method": "f()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x8a25ccf4f40620648cbffb4b3c891c4ca77cff23",
+          "caller": "0xbb4b10b43b87234bb92ac4ec7709c5bb65f6f7b4",
           "comment": "g() -> 3",
           "instance": "C",
           "method": "g()",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0x8a25ccf4f40620648cbffb4b3c891c4ca77cff23",
+          "caller": "0xbb4b10b43b87234bb92ac4ec7709c5bb65f6f7b4",
           "comment": "f() -> 3",
           "instance": "C",
           "method": "f()",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0x8a25ccf4f40620648cbffb4b3c891c4ca77cff23",
+          "caller": "0xbb4b10b43b87234bb92ac4ec7709c5bb65f6f7b4",
           "comment": "g() -> 3",
           "instance": "C",
           "method": "g()",
@@ -48,7 +48,7 @@
           }
         },
         {
-          "caller": "0x8a25ccf4f40620648cbffb4b3c891c4ca77cff23",
+          "caller": "0xbb4b10b43b87234bb92ac4ec7709c5bb65f6f7b4",
           "comment": "h() -> 1",
           "instance": "C",
           "method": "h()",
@@ -59,7 +59,7 @@
           }
         },
         {
-          "caller": "0x8a25ccf4f40620648cbffb4b3c891c4ca77cff23",
+          "caller": "0xbb4b10b43b87234bb92ac4ec7709c5bb65f6f7b4",
           "comment": "x() -> 1",
           "instance": "C",
           "method": "x()",
@@ -70,7 +70,7 @@
           }
         },
         {
-          "caller": "0x8a25ccf4f40620648cbffb4b3c891c4ca77cff23",
+          "caller": "0xbb4b10b43b87234bb92ac4ec7709c5bb65f6f7b4",
           "comment": "y() -> 3",
           "instance": "C",
           "method": "y()",

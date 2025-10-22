@@ -4,8 +4,8 @@
       "name": "event_anonymous_with_topics",
       "inputs": [
         {
-          "caller": "0x29bc2f8981bd2d13ab5368fcfe9d88095b5ae9f9",
-          "comment": "deposit(bytes32), 18 wei: 0x1234 ->; ~ emit <anonymous>: #0x29bc2f8981bd2d13ab5368fcfe9d88095b5ae9f9, #0x1234, #0x12, #0x02, \"abc\"",
+          "caller": "0xc08ff7b2afd7222a1568a19bf32d152696ab698a",
+          "comment": "deposit(bytes32), 18 wei: 0x1234 ->; ~ emit <anonymous>: #0xc08ff7b2afd7222a1568a19bf32d152696ab698a, #0x1234, #0x12, #0x02, \"abc\"",
           "instance": "ClientReceipt",
           "method": "deposit(bytes32)",
           "calldata": "0x0000000000000000000000000000000000000000000000000000000000001234",
@@ -13,7 +13,7 @@
             "events": [
               {
                 "topics": [
-                  "0x29bc2f8981bd2d13ab5368fcfe9d88095b5ae9f9",
+                  "0xc08ff7b2afd7222a1568a19bf32d152696ab698a",
                   "0x1234",
                   "0x12",
                   "0x02"

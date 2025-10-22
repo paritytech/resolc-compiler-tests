@@ -4,7 +4,7 @@
       "name": "function_pointers",
       "inputs": [
         {
-          "caller": "0xa6335bf5d1026e478d8f9c64cc7a234b55148bd0",
+          "caller": "0xbb41354ecbbf2331226303c85156306b1575f629",
           "comment": "f() -> FAILURE, hex\"4e487b71\", 0x51",
           "instance": "C",
           "method": "f()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xa6335bf5d1026e478d8f9c64cc7a234b55148bd0",
+          "caller": "0xbb41354ecbbf2331226303c85156306b1575f629",
           "comment": "g() -> FAILURE",
           "instance": "C",
           "method": "g()",
@@ -25,7 +25,7 @@
           }
         },
         {
-          "caller": "0xa6335bf5d1026e478d8f9c64cc7a234b55148bd0",
+          "caller": "0xbb41354ecbbf2331226303c85156306b1575f629",
           "comment": "h2() -> FAILURE, hex\"4e487b71\", 0x51",
           "instance": "C",
           "method": "h2()",
@@ -36,7 +36,7 @@
           }
         },
         {
-          "caller": "0xa6335bf5d1026e478d8f9c64cc7a234b55148bd0",
+          "caller": "0xbb41354ecbbf2331226303c85156306b1575f629",
           "comment": "k2() -> FAILURE",
           "instance": "C",
           "method": "k2()",

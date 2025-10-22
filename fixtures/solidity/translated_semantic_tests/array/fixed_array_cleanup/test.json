@@ -1,4 +1,6 @@
 {
+  "comment": "Ignored since `storageEmpty` assertions are not supported in revive's REVM",
+  "ignore": true,
   "cases": [
     {
       "name": "fixed_array_cleanup",
@@ -7,10 +9,10 @@
           "comment": "storageEmpty -> 1",
           "address": "c.address",
           "is_storage_empty": true,
-          "caller": "0x640f8a4fA3898A945074Db648D7a79DC16DeA492"
+          "caller": "0xE8C846C41E145De7605396A03D654d20041404DF"
         },
         {
-          "caller": "0xe8c846c41e145de7605396a03d654d20041404df",
+          "caller": "0x0a2049c3a6bf030d2b68961da75b50132406a562",
           "comment": "fill() ->; gas irOptimized: 465013; gas legacy: 468825; gas legacyOptimized: 466238",
           "instance": "c",
           "method": "fill()",
@@ -23,10 +25,10 @@
           "comment": "storageEmpty -> 0",
           "address": "c.address",
           "is_storage_empty": false,
-          "caller": "0x640f8a4fA3898A945074Db648D7a79DC16DeA492"
+          "caller": "0xE8C846C41E145De7605396A03D654d20041404DF"
         },
         {
-          "caller": "0xe8c846c41e145de7605396a03d654d20041404df",
+          "caller": "0x0a2049c3a6bf030d2b68961da75b50132406a562",
           "comment": "clear() ->; gas irOptimized: 122148; gas legacy: 122440; gas legacyOptimized: 122259",
           "instance": "c",
           "method": "clear()",
@@ -39,7 +41,7 @@
           "comment": "storageEmpty -> 1",
           "address": "c.address",
           "is_storage_empty": true,
-          "caller": "0x640f8a4fA3898A945074Db648D7a79DC16DeA492"
+          "caller": "0xE8C846C41E145De7605396A03D654d20041404DF"
         }
       ]
     }

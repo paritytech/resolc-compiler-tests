@@ -4,7 +4,7 @@
       "name": "access_base_storage",
       "inputs": [
         {
-          "caller": "0x084e497372217041df00efcc87eabd391f269db4",
+          "caller": "0x0755e6df25cbc2043f6fe6824485f2d32fd7a800",
           "comment": "setData(uint256,uint256): 1, 2 -> true",
           "instance": "Derived",
           "method": "setData(uint256,uint256)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x084e497372217041df00efcc87eabd391f269db4",
+          "caller": "0x0755e6df25cbc2043f6fe6824485f2d32fd7a800",
           "comment": "getViaBase() -> 1",
           "instance": "Derived",
           "method": "getViaBase()",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0x084e497372217041df00efcc87eabd391f269db4",
+          "caller": "0x0755e6df25cbc2043f6fe6824485f2d32fd7a800",
           "comment": "getViaDerived() -> 1, 2",
           "instance": "Derived",
           "method": "getViaDerived()",

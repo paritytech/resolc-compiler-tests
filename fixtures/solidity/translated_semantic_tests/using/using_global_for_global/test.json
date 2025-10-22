@@ -4,7 +4,7 @@
       "name": "using_global_for_global",
       "inputs": [
         {
-          "caller": "0x34d5e8848a90004d8be5552f89db8d547ab7acfa",
+          "caller": "0x28ca6460072bea0d6162e2ff90635a7ced904ce2",
           "comment": "f(uint256): 100 -> 111",
           "instance": "C",
           "method": "f(uint256)",

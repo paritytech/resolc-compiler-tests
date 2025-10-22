@@ -4,7 +4,7 @@
       "name": "code_length",
       "inputs": [
         {
-          "caller": "0x812260ba74da7083e1603b8aa779d29ac5a87e65",
+          "caller": "0xd8432c95ec01c0b6483e8b288bb9ee35a1ab4a57",
           "comment": "constructor(); gas legacy: 66989; gas legacy code: 57800",
           "instance": "C",
           "method": "#deployer",
@@ -14,7 +14,7 @@
           }
         },
         {
-          "caller": "0x812260ba74da7083e1603b8aa779d29ac5a87e65",
+          "caller": "0xd8432c95ec01c0b6483e8b288bb9ee35a1ab4a57",
           "comment": "f(): true, true -> true, true",
           "instance": "C",
           "method": "f()",

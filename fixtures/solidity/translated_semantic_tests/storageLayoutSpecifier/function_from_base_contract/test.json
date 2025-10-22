@@ -4,7 +4,7 @@
       "name": "function_from_base_contract",
       "inputs": [
         {
-          "caller": "0xa89efcbebdf80d32682384c95a6a7447c6913a82",
+          "caller": "0x46811c5991970df28952a96086d668c5a2d23955",
           "comment": "f() -> 1",
           "instance": "C",
           "method": "f()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xa89efcbebdf80d32682384c95a6a7447c6913a82",
+          "caller": "0x46811c5991970df28952a96086d668c5a2d23955",
           "comment": "g() -> 2",
           "instance": "C",
           "method": "g()",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0xa89efcbebdf80d32682384c95a6a7447c6913a82",
+          "caller": "0x46811c5991970df28952a96086d668c5a2d23955",
           "comment": "test() -> 6",
           "instance": "C",
           "method": "test()",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0xa89efcbebdf80d32682384c95a6a7447c6913a82",
+          "caller": "0x46811c5991970df28952a96086d668c5a2d23955",
           "comment": "x() -> 2",
           "instance": "C",
           "method": "x()",
@@ -48,7 +48,7 @@
           }
         },
         {
-          "caller": "0xa89efcbebdf80d32682384c95a6a7447c6913a82",
+          "caller": "0x46811c5991970df28952a96086d668c5a2d23955",
           "comment": "y() -> 4",
           "instance": "C",
           "method": "y()",
@@ -59,7 +59,7 @@
           }
         },
         {
-          "caller": "0xa89efcbebdf80d32682384c95a6a7447c6913a82",
+          "caller": "0x46811c5991970df28952a96086d668c5a2d23955",
           "comment": "z() -> 6",
           "instance": "C",
           "method": "z()",

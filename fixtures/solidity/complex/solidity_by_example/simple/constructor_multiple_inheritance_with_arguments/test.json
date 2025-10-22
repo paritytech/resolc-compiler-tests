@@ -21,7 +21,7 @@
           "expected": [
             "C.address"
           ],
-          "caller": "0x0316d9de7585b73d45dc184f13274f5387fd3e0c"
+          "caller": "0xfa924bdac4ff2e4016ead9cf67a1f561cdfc5794"
         },
         {
           "instance": "C",
@@ -32,13 +32,13 @@
             "4",
             "0x6e616d6500000000000000000000000000000000000000000000000000000000"
           ],
-          "caller": "0x0316d9de7585b73d45dc184f13274f5387fd3e0c"
+          "caller": "0xfa924bdac4ff2e4016ead9cf67a1f561cdfc5794"
         },
         {
           "instance": "C",
           "method": "text",
           "calldata": [],
-          "caller": "0x0316d9de7585b73d45dc184f13274f5387fd3e0c"
+          "caller": "0xfa924bdac4ff2e4016ead9cf67a1f561cdfc5794"
         }
       ],
       "expected": [

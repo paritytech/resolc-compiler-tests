@@ -4,7 +4,7 @@
       "name": "struct_allocation",
       "inputs": [
         {
-          "caller": "0x8f0bce43534ba01e9ebfeeed7811156a34076990",
+          "caller": "0x022801c99f0bd839845063b71812e9e2b6f0180f",
           "comment": "withValue() -> 0x00",
           "instance": "C",
           "method": "withValue()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x8f0bce43534ba01e9ebfeeed7811156a34076990",
+          "caller": "0x022801c99f0bd839845063b71812e9e2b6f0180f",
           "comment": "withoutValue() -> 0x60",
           "instance": "C",
           "method": "withoutValue()",

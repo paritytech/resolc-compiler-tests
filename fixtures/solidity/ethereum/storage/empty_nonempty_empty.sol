@@ -1,7 +1,13 @@
 contract Test {
     bytes x;
-    function set(bytes memory _a) public { x = _a; }
+
+    function set(bytes memory _a) public {
+        x = _a;
+    }
 }
+// ====
+// ignore: true
+// comment: Ignored since `storageEmpty` assertions are not supported in revive's REVM
 // ----
 // set(bytes): 0x20, 3, "abc"
 // storageEmpty -> 0

@@ -4,7 +4,7 @@
       "name": "attached_internal_library_function_accepting_calldata",
       "inputs": [
         {
-          "caller": "0xb0b009d7bea709a5c916b7204aef95e6ed5a6a9f",
+          "caller": "0x3a47e5cd225f5c25288b813d04f8a8fea147c575",
           "comment": "f(bytes): 0x20, 4, \"abcd\" -> 0x6100000000000000000000000000000000000000000000000000000000000000, 0x6100000000000000000000000000000000000000000000000000000000000000",
           "instance": "C",
           "method": "f(bytes)",

@@ -1,10 +1,11 @@
-pragma abicoder               v2;
+pragma abicoder v2;
 struct S {
     uint16 x;
     bytes a;
     uint16 y;
     bytes b;
 }
+
 contract C {
     uint padding;
     S data;
@@ -12,27 +13,34 @@ contract C {
     function f() public returns (bytes memory, bytes memory) {
         S memory x;
         x.x = 7;
-        x.b = "1234567890123456789012345678901 1234567890123456789012345678901 123456789";
+        x
+            .b = "1234567890123456789012345678901 1234567890123456789012345678901 123456789";
         x.a = "abcdef";
         x.y = 9;
         data = x;
         return (data.a, data.b);
     }
+
     function g() public returns (bytes memory, bytes memory) {
         S memory x;
         x.x = 7;
         x.b = "12345678923456789";
-        x.a = "1234567890123456789012345678901 1234567890123456789012345678901 123456789";
+        x
+            .a = "1234567890123456789012345678901 1234567890123456789012345678901 123456789";
         x.y = 9;
         data = x;
         return (data.a, data.b);
     }
+
     function h() public returns (bytes memory, bytes memory) {
         S memory x;
         data = x;
         return (data.a, data.b);
     }
 }
+// ====
+// ignore: true
+// comment: Ignored since `storageEmpty` assertions are not supported in revive's REVM
 // ----
 // f() -> 0x40, 0x80, 6, 0x6162636465660000000000000000000000000000000000000000000000000000, 0x49, 0x3132333435363738393031323334353637383930313233343536373839303120, 0x3132333435363738393031323334353637383930313233343536373839303120, 0x3132333435363738390000000000000000000000000000000000000000000000
 // gas irOptimized: 179405

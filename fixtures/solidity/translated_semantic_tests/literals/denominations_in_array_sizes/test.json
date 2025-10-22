@@ -4,7 +4,7 @@
       "name": "denominations_in_array_sizes",
       "inputs": [
         {
-          "caller": "0x5c4b94c4bedbaf49d4cb785e48e4af32fd8c9339",
+          "caller": "0x763875743ef910306f5c550cb4a584c7d5912733",
           "comment": "lengths() -> 2, 2000000000, 2000000000000000000, 2, 120, 7200, 172800, 1209600",
           "instance": "C",
           "method": "lengths()",

@@ -4,7 +4,7 @@
       "name": "ternary_contract_library_internal_function",
       "inputs": [
         {
-          "caller": "0x14a1f109ef681313fefb747d1de018072c50f43b",
+          "caller": "0x2e8b20f4fffcefa58082b55e02a96613df1dcf5e",
           "comment": "test(bool): true -> 1",
           "instance": "C",
           "method": "test(bool)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x14a1f109ef681313fefb747d1de018072c50f43b",
+          "caller": "0x2e8b20f4fffcefa58082b55e02a96613df1dcf5e",
           "comment": "test(bool): false -> 2",
           "instance": "C",
           "method": "test(bool)",

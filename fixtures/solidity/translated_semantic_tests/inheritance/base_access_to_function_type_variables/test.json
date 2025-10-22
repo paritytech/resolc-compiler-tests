@@ -4,7 +4,7 @@
       "name": "base_access_to_function_type_variables",
       "inputs": [
         {
-          "caller": "0x3c6f8b28ea0b60c075080d18969993af55ac88e1",
+          "caller": "0x671d4980940bb97373d43a3842e40247fbdc5889",
           "comment": "g() -> 2",
           "instance": "C",
           "method": "g()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x3c6f8b28ea0b60c075080d18969993af55ac88e1",
+          "caller": "0x671d4980940bb97373d43a3842e40247fbdc5889",
           "comment": "h() -> FAILURE, hex\"4e487b71\", 0x51",
           "instance": "C",
           "method": "h()",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0x3c6f8b28ea0b60c075080d18969993af55ac88e1",
+          "caller": "0x671d4980940bb97373d43a3842e40247fbdc5889",
           "comment": "set() ->",
           "instance": "C",
           "method": "set()",
@@ -36,7 +36,7 @@
           }
         },
         {
-          "caller": "0x3c6f8b28ea0b60c075080d18969993af55ac88e1",
+          "caller": "0x671d4980940bb97373d43a3842e40247fbdc5889",
           "comment": "h() -> 2",
           "instance": "C",
           "method": "h()",

@@ -4,7 +4,7 @@
       "name": "array_pop",
       "inputs": [
         {
-          "caller": "0x89c8642b9a69d952df2b0c0a786ce4ccc3bcd0ca",
+          "caller": "0x22f5d5475f1ef0f35bc437f811c9c074092555f2",
           "comment": "test() -> 1, 0",
           "instance": "c",
           "method": "test()",

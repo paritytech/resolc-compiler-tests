@@ -1,4 +1,6 @@
 {
+  "comment": "Ignored since `storageEmpty` assertions are not supported in revive's REVM",
+  "ignore": true,
   "cases": [
     {
       "name": "storage_nonempty",
@@ -7,10 +9,10 @@
           "comment": "storageEmpty -> 1",
           "address": "StorageNotEmpty.address",
           "is_storage_empty": true,
-          "caller": "0x4050be33c97701209B6b10FC9C004D17Eb34bF72"
+          "caller": "0x97bff951b8f08b7f2d45C422c345D00240a8dd1a"
         },
         {
-          "caller": "0x97bff951b8f08b7f2d45c422c345d00240a8dd1a",
+          "caller": "0xe755d8680d456744d50dbc7b928d2c1e1fbe8cd1",
           "comment": "set(uint256): 1 ->",
           "instance": "StorageNotEmpty",
           "method": "set(uint256)",
@@ -23,7 +25,7 @@
           "comment": "storageEmpty -> 0",
           "address": "StorageNotEmpty.address",
           "is_storage_empty": false,
-          "caller": "0x4050be33c97701209B6b10FC9C004D17Eb34bF72"
+          "caller": "0x97bff951b8f08b7f2d45C422c345D00240a8dd1a"
         }
       ]
     }

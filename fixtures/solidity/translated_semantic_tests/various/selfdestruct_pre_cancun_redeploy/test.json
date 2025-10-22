@@ -4,7 +4,7 @@
       "name": "selfdestruct_pre_cancun_redeploy",
       "inputs": [
         {
-          "caller": "0x1972bac5eef3e8836b8f8fd6dedd6d9443ed7635",
+          "caller": "0xb79d16bd60d7179931b9ec181de2c956c4d1d980",
           "comment": "constructor(), 1 ether ->; gas irOptimized: 133342; gas irOptimized code: 298400; gas legacy: 151644; gas legacy code: 538600; gas legacyOptimized: 131799; gas legacyOptimized code: 281000",
           "instance": "D",
           "method": "#deployer",
@@ -15,7 +15,7 @@
           "value": "1000000000000000000 wei"
         },
         {
-          "caller": "0x1972bac5eef3e8836b8f8fd6dedd6d9443ed7635",
+          "caller": "0xb79d16bd60d7179931b9ec181de2c956c4d1d980",
           "comment": "exists() -> false",
           "instance": "D",
           "method": "exists()",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0x1972bac5eef3e8836b8f8fd6dedd6d9443ed7635",
+          "caller": "0xb79d16bd60d7179931b9ec181de2c956c4d1d980",
           "comment": "test_deploy_and_terminate() ->; ~ emit Deployed(address,bytes32) from 0x137aa4dfc0911524504fcd4d98501f179bc13b4a: 0x7e6580007e709ac52945fae182c61131d42634e8, 0x1234000000000000000000000000000000000000000000000000000000000000; gas irOptimized: 96823; gas irOptimized code: 20800; gas legacy: 98095; gas legacy code: 20800; gas legacyOptimized: 96337; gas legacyOptimized code: 20800",
           "instance": "D",
           "method": "test_deploy_and_terminate()",
@@ -44,7 +44,7 @@
           }
         },
         {
-          "caller": "0x1972bac5eef3e8836b8f8fd6dedd6d9443ed7635",
+          "caller": "0xb79d16bd60d7179931b9ec181de2c956c4d1d980",
           "comment": "exists() -> false",
           "instance": "D",
           "method": "exists()",
@@ -55,7 +55,7 @@
           }
         },
         {
-          "caller": "0x1972bac5eef3e8836b8f8fd6dedd6d9443ed7635",
+          "caller": "0xb79d16bd60d7179931b9ec181de2c956c4d1d980",
           "comment": "deploy_create2() ->; ~ emit Deployed(address,bytes32) from 0x137aa4dfc0911524504fcd4d98501f179bc13b4a: 0x7e6580007e709ac52945fae182c61131d42634e8, 0x1234000000000000000000000000000000000000000000000000000000000000",
           "instance": "D",
           "method": "deploy_create2()",
@@ -73,7 +73,7 @@
           }
         },
         {
-          "caller": "0x1972bac5eef3e8836b8f8fd6dedd6d9443ed7635",
+          "caller": "0xb79d16bd60d7179931b9ec181de2c956c4d1d980",
           "comment": "test_balance_after_create() ->",
           "instance": "D",
           "method": "test_balance_after_create()",
@@ -83,7 +83,7 @@
           }
         },
         {
-          "caller": "0x1972bac5eef3e8836b8f8fd6dedd6d9443ed7635",
+          "caller": "0xb79d16bd60d7179931b9ec181de2c956c4d1d980",
           "comment": "exists() -> true",
           "instance": "D",
           "method": "exists()",
@@ -94,7 +94,7 @@
           }
         },
         {
-          "caller": "0x1972bac5eef3e8836b8f8fd6dedd6d9443ed7635",
+          "caller": "0xb79d16bd60d7179931b9ec181de2c956c4d1d980",
           "comment": "terminate() ->",
           "instance": "D",
           "method": "terminate()",
@@ -104,7 +104,7 @@
           }
         },
         {
-          "caller": "0x1972bac5eef3e8836b8f8fd6dedd6d9443ed7635",
+          "caller": "0xb79d16bd60d7179931b9ec181de2c956c4d1d980",
           "comment": "test_balance_after_selfdestruct() ->",
           "instance": "D",
           "method": "test_balance_after_selfdestruct()",
@@ -114,7 +114,7 @@
           }
         },
         {
-          "caller": "0x1972bac5eef3e8836b8f8fd6dedd6d9443ed7635",
+          "caller": "0xb79d16bd60d7179931b9ec181de2c956c4d1d980",
           "comment": "exists() -> false",
           "instance": "D",
           "method": "exists()",
@@ -125,7 +125,7 @@
           }
         },
         {
-          "caller": "0x1972bac5eef3e8836b8f8fd6dedd6d9443ed7635",
+          "caller": "0xb79d16bd60d7179931b9ec181de2c956c4d1d980",
           "comment": "deploy_create2() ->; ~ emit Deployed(address,bytes32) from 0x137aa4dfc0911524504fcd4d98501f179bc13b4a: 0x7e6580007e709ac52945fae182c61131d42634e8, 0x1234000000000000000000000000000000000000000000000000000000000000",
           "instance": "D",
           "method": "deploy_create2()",

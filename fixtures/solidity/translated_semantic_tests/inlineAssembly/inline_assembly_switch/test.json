@@ -4,7 +4,7 @@
       "name": "inline_assembly_switch",
       "inputs": [
         {
-          "caller": "0x8901d6d20ddddfb1ba43136c97cb1816e75e9c4c",
+          "caller": "0x710920cd594342c21621dff67b3066e38ecbefd0",
           "comment": "f(uint256): 0 -> 2",
           "instance": "C",
           "method": "f(uint256)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x8901d6d20ddddfb1ba43136c97cb1816e75e9c4c",
+          "caller": "0x710920cd594342c21621dff67b3066e38ecbefd0",
           "comment": "f(uint256): 1 -> 8",
           "instance": "C",
           "method": "f(uint256)",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0x8901d6d20ddddfb1ba43136c97cb1816e75e9c4c",
+          "caller": "0x710920cd594342c21621dff67b3066e38ecbefd0",
           "comment": "f(uint256): 2 -> 9",
           "instance": "C",
           "method": "f(uint256)",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0x8901d6d20ddddfb1ba43136c97cb1816e75e9c4c",
+          "caller": "0x710920cd594342c21621dff67b3066e38ecbefd0",
           "comment": "f(uint256): 3 -> 2",
           "instance": "C",
           "method": "f(uint256)",

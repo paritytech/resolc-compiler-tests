@@ -4,7 +4,7 @@
       "name": "event_indexed_function",
       "inputs": [
         {
-          "caller": "0xa8b4f0939616c62fda311d8af6ab5782a261ae47",
+          "caller": "0xae2c7dad7d4bd8e2674cfe3ae657ffc45c83de14",
           "comment": "f() ->; ~ emit Test(function): #0x123426121ff00000000000000000",
           "instance": "C",
           "method": "f()",

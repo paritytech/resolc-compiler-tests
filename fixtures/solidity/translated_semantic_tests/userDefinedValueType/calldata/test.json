@@ -4,7 +4,7 @@
       "name": "calldata",
       "inputs": [
         {
-          "caller": "0x19cf38009ade03b5019f1c0aade8639b187be5be",
+          "caller": "0x222c5888ff54fa44ea70c10b707132a7593562b8",
           "comment": "test_f() -> true; gas irOptimized: 122201; gas legacy: 125333; gas legacyOptimized: 122693",
           "instance": "C",
           "method": "test_f()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x19cf38009ade03b5019f1c0aade8639b187be5be",
+          "caller": "0x222c5888ff54fa44ea70c10b707132a7593562b8",
           "comment": "test_g() -> true; gas irOptimized: 106408; gas legacy: 111133; gas legacyOptimized: 106925",
           "instance": "C",
           "method": "test_g()",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0x19cf38009ade03b5019f1c0aade8639b187be5be",
+          "caller": "0x222c5888ff54fa44ea70c10b707132a7593562b8",
           "comment": "addresses(uint256): 0 -> 0xFFFFFF24",
           "instance": "C",
           "method": "addresses(uint256)",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0x19cf38009ade03b5019f1c0aade8639b187be5be",
+          "caller": "0x222c5888ff54fa44ea70c10b707132a7593562b8",
           "comment": "addresses(uint256): 1 -> 0xFFFFFF25",
           "instance": "C",
           "method": "addresses(uint256)",
@@ -48,7 +48,7 @@
           }
         },
         {
-          "caller": "0x19cf38009ade03b5019f1c0aade8639b187be5be",
+          "caller": "0x222c5888ff54fa44ea70c10b707132a7593562b8",
           "comment": "addresses(uint256): 3 -> 0xFFFFFF27",
           "instance": "C",
           "method": "addresses(uint256)",
@@ -59,7 +59,7 @@
           }
         },
         {
-          "caller": "0x19cf38009ade03b5019f1c0aade8639b187be5be",
+          "caller": "0x222c5888ff54fa44ea70c10b707132a7593562b8",
           "comment": "addresses(uint256): 4 -> 0xFFFFFF28",
           "instance": "C",
           "method": "addresses(uint256)",
@@ -70,7 +70,7 @@
           }
         },
         {
-          "caller": "0x19cf38009ade03b5019f1c0aade8639b187be5be",
+          "caller": "0x222c5888ff54fa44ea70c10b707132a7593562b8",
           "comment": "addresses(uint256): 5 -> FAILURE",
           "instance": "C",
           "method": "addresses(uint256)",

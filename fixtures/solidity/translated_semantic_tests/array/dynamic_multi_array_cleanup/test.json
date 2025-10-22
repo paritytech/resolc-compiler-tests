@@ -1,4 +1,6 @@
 {
+  "comment": "Ignored since `storageEmpty` assertions are not supported in revive's REVM",
+  "ignore": true,
   "cases": [
     {
       "name": "dynamic_multi_array_cleanup",
@@ -7,10 +9,10 @@
           "comment": "storageEmpty -> 1",
           "address": "c.address",
           "is_storage_empty": true,
-          "caller": "0xfFe5838E034D26A16CB791CC2754722FA84923e2"
+          "caller": "0xfdD7CAdE3E1072d1198b2cc63e5B31040D2b43D7"
         },
         {
-          "caller": "0xfdd7cade3e1072d1198b2cc63e5b31040d2b43d7",
+          "caller": "0xb0316909aa73392abfd93af4ad433c63037a26ed",
           "comment": "fill() -> 8; gas irOptimized: 122985; gas legacy: 121602; gas legacyOptimized: 120589",
           "instance": "c",
           "method": "fill()",
@@ -24,10 +26,10 @@
           "comment": "storageEmpty -> 0",
           "address": "c.address",
           "is_storage_empty": false,
-          "caller": "0xfFe5838E034D26A16CB791CC2754722FA84923e2"
+          "caller": "0xfdD7CAdE3E1072d1198b2cc63e5B31040D2b43D7"
         },
         {
-          "caller": "0xfdd7cade3e1072d1198b2cc63e5b31040d2b43d7",
+          "caller": "0xb0316909aa73392abfd93af4ad433c63037a26ed",
           "comment": "clear() ->",
           "instance": "c",
           "method": "clear()",
@@ -40,7 +42,7 @@
           "comment": "storageEmpty -> 1",
           "address": "c.address",
           "is_storage_empty": true,
-          "caller": "0xfFe5838E034D26A16CB791CC2754722FA84923e2"
+          "caller": "0xfdD7CAdE3E1072d1198b2cc63e5B31040D2b43D7"
         }
       ]
     }

@@ -4,7 +4,7 @@
       "name": "empty_v2",
       "inputs": [
         {
-          "caller": "0x737da88efd987708a0725617f547c41ec662dcf3",
+          "caller": "0xd99397991d819191c6c9a41328f2ecaf5d84dcee",
           "comment": "f() -> FAILURE, hex\"08c379a0\", 0x20, 0",
           "instance": "C",
           "method": "f()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x737da88efd987708a0725617f547c41ec662dcf3",
+          "caller": "0xd99397991d819191c6c9a41328f2ecaf5d84dcee",
           "comment": "g(string): \"\" -> FAILURE, hex\"08c379a0\", 0x20, 0",
           "instance": "C",
           "method": "g(string)",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0x737da88efd987708a0725617f547c41ec662dcf3",
+          "caller": "0xd99397991d819191c6c9a41328f2ecaf5d84dcee",
           "comment": "g(string): 0x20, 0, \"\" -> FAILURE, hex\"08c379a0\", 0x20, 0",
           "instance": "C",
           "method": "g(string)",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0x737da88efd987708a0725617f547c41ec662dcf3",
+          "caller": "0xd99397991d819191c6c9a41328f2ecaf5d84dcee",
           "comment": "g(string): 0x20, 0 -> FAILURE, hex\"08c379a0\", 0x20, 0",
           "instance": "C",
           "method": "g(string)",

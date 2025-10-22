@@ -1,4 +1,6 @@
 {
+  "comment": "Ignored since `storageEmpty` assertions are not supported in revive's REVM",
+  "ignore": true,
   "cases": [
     {
       "name": "storage_empty",
@@ -7,7 +9,7 @@
           "comment": "storageEmpty -> 1",
           "address": "StorageEmpty.address",
           "is_storage_empty": true,
-          "caller": "0xE755d8680d456744D50DBc7B928D2c1E1FBe8CD1"
+          "caller": "0x610cc6382D4584700B3CC7634FD8ffCE1B662bE7"
         }
       ]
     }

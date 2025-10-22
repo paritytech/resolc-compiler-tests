@@ -1,10 +1,12 @@
 {
+  "comment": "Ignored since `storageEmpty` assertions are not supported in revive's REVM",
+  "ignore": true,
   "cases": [
     {
       "name": "array_copy_storage_storage_struct",
       "inputs": [
         {
-          "caller": "0x2d938b44386ce42c6c2b4800edc0b192495de5d0",
+          "caller": "0xe26d0b6ac6522c0674ae285707fb867e99af21ee",
           "comment": "test() -> 4, 5; gas irOptimized: 190628; gas legacy: 190828; gas legacyOptimized: 189657",
           "instance": "c",
           "method": "test()",
@@ -18,7 +20,7 @@
           "comment": "storageEmpty -> 1",
           "address": "c.address",
           "is_storage_empty": true,
-          "caller": "0xE26d0B6Ac6522C0674aE285707Fb867E99Af21ee"
+          "caller": "0xC301d00D8560215fdE74D75c12E56933FffA7C52"
         }
       ]
     }

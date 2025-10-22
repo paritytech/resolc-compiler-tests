@@ -4,7 +4,7 @@
       "name": "constructor_static_array_argument",
       "inputs": [
         {
-          "caller": "0xf70ac07bf0411fd32fcdd699f9b707d9ced9e10a",
+          "caller": "0x83f3954d25c5250388045fbc0e2f928e164b1ed9",
           "comment": "constructor(): 1, 2, 3, 4 ->; gas irOptimized: 148129; gas irOptimized code: 23000; gas legacy: 157977; gas legacy code: 60400; gas legacyOptimized: 149973; gas legacyOptimized code: 26200",
           "instance": "C",
           "method": "#deployer",
@@ -14,7 +14,7 @@
           }
         },
         {
-          "caller": "0xf70ac07bf0411fd32fcdd699f9b707d9ced9e10a",
+          "caller": "0x83f3954d25c5250388045fbc0e2f928e164b1ed9",
           "comment": "a() -> 1",
           "instance": "C",
           "method": "a()",
@@ -25,7 +25,7 @@
           }
         },
         {
-          "caller": "0xf70ac07bf0411fd32fcdd699f9b707d9ced9e10a",
+          "caller": "0x83f3954d25c5250388045fbc0e2f928e164b1ed9",
           "comment": "b(uint256): 0 -> 2",
           "instance": "C",
           "method": "b(uint256)",
@@ -36,7 +36,7 @@
           }
         },
         {
-          "caller": "0xf70ac07bf0411fd32fcdd699f9b707d9ced9e10a",
+          "caller": "0x83f3954d25c5250388045fbc0e2f928e164b1ed9",
           "comment": "b(uint256): 1 -> 3",
           "instance": "C",
           "method": "b(uint256)",
@@ -47,7 +47,7 @@
           }
         },
         {
-          "caller": "0xf70ac07bf0411fd32fcdd699f9b707d9ced9e10a",
+          "caller": "0x83f3954d25c5250388045fbc0e2f928e164b1ed9",
           "comment": "b(uint256): 2 -> 4",
           "instance": "C",
           "method": "b(uint256)",

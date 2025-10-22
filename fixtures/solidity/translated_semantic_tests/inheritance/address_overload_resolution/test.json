@@ -4,7 +4,7 @@
       "name": "address_overload_resolution",
       "inputs": [
         {
-          "caller": "0xc598612ca66c76c23434d75203cace29f4527812",
+          "caller": "0xc4567b15ff1cbf6b020c48f852c2c03aa24779bb",
           "comment": "f() -> 1; gas irOptimized: 77051; gas legacy: 54553; gas legacy code: 57800",
           "instance": "D",
           "method": "f()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xc598612ca66c76c23434d75203cace29f4527812",
+          "caller": "0xc4567b15ff1cbf6b020c48f852c2c03aa24779bb",
           "comment": "g() -> 5; gas irOptimized: 77106; gas legacy: 55090; gas legacy code: 57800",
           "instance": "D",
           "method": "g()",

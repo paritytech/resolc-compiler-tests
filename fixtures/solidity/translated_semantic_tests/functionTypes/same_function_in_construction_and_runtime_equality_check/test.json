@@ -4,7 +4,7 @@
       "name": "same_function_in_construction_and_runtime_equality_check",
       "inputs": [
         {
-          "caller": "0xd94536a83534cb508f1ca38e693368aa9c00f218",
+          "caller": "0xb12005f235e444fc5cd8c0e98056d24f3aa98ebf",
           "comment": "test() -> true",
           "instance": "C",
           "method": "test()",

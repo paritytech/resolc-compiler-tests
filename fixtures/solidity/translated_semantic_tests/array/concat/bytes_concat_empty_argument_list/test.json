@@ -4,7 +4,7 @@
       "name": "bytes_concat_empty_argument_list",
       "inputs": [
         {
-          "caller": "0xb55805a086dc52cad037acc08bf531bde0b741ac",
+          "caller": "0x7920495e33080e33e7a549eb4a1dc4cbd97ab38c",
           "comment": "f() -> 0x20, 0",
           "instance": "C",
           "method": "f()",

@@ -4,7 +4,7 @@
       "name": "return_string",
       "inputs": [
         {
-          "caller": "0x4437ac5118161f5fb5df10dc8045b09e0cf3d127",
+          "caller": "0x19cc0be12924d927d0574724a2061fcde6841d42",
           "comment": "set(string): 0x20, 5, \"Julia\" ->",
           "instance": "Main",
           "method": "set(string)",
@@ -14,7 +14,7 @@
           }
         },
         {
-          "caller": "0x4437ac5118161f5fb5df10dc8045b09e0cf3d127",
+          "caller": "0x19cc0be12924d927d0574724a2061fcde6841d42",
           "comment": "get1() -> 0x20, 5, \"Julia\"",
           "instance": "Main",
           "method": "get1()",
@@ -25,7 +25,7 @@
           }
         },
         {
-          "caller": "0x4437ac5118161f5fb5df10dc8045b09e0cf3d127",
+          "caller": "0x19cc0be12924d927d0574724a2061fcde6841d42",
           "comment": "get2() -> 0x20, 5, \"Julia\"",
           "instance": "Main",
           "method": "get2()",
@@ -36,7 +36,7 @@
           }
         },
         {
-          "caller": "0x4437ac5118161f5fb5df10dc8045b09e0cf3d127",
+          "caller": "0x19cc0be12924d927d0574724a2061fcde6841d42",
           "comment": "s() -> 0x20, 5, \"Julia\"",
           "instance": "Main",
           "method": "s()",

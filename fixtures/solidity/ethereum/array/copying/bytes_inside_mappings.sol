@@ -1,8 +1,19 @@
 contract c {
-    function set(uint key) public returns (bool) { data[key] = msg.data; return true; }
-    function copy(uint from, uint to) public returns (bool) { data[to] = data[from]; return true; }
+    function set(uint key) public returns (bool) {
+        data[key] = msg.data;
+        return true;
+    }
+
+    function copy(uint from, uint to) public returns (bool) {
+        data[to] = data[from];
+        return true;
+    }
+
     mapping(uint => bytes) data;
 }
+// ====
+// ignore: true
+// comment: Ignored since `storageEmpty` assertions are not supported in revive's REVM
 // ----
 // set(uint256): 1, 2 -> true
 // gas irOptimized: 110550

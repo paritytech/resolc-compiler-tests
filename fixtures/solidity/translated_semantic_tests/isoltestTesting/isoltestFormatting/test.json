@@ -4,7 +4,7 @@
       "name": "isoltestFormatting",
       "inputs": [
         {
-          "caller": "0x71eacd69f581665cc7f511df9670ef61f335bc91",
+          "caller": "0xca5c45ab5d71b5e023ab5c53a4d0a02845d07970",
           "comment": "f() -> 4, 11, 0x0111, 0x333333, 2222222222222222222",
           "instance": "C",
           "method": "f()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x71eacd69f581665cc7f511df9670ef61f335bc91",
+          "caller": "0xca5c45ab5d71b5e023ab5c53a4d0a02845d07970",
           "comment": "g() -> 0x10, 0x0100, 0x0101, 0x333333, 2222222222222222222",
           "instance": "C",
           "method": "g()",

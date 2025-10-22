@@ -1,5 +1,6 @@
 contract c {
     bytes data;
+
     function test() public {
         data.push(0x07);
         data.push(0x05);
@@ -9,6 +10,9 @@ contract c {
         data.pop();
     }
 }
+// ====
+// ignore: true
+// comment: Ignored since `storageEmpty` assertions are not supported in revive's REVM
 // ----
 // test() ->
 // storageEmpty -> 1

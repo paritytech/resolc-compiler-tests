@@ -4,7 +4,7 @@
       "name": "accessors_mapping_for_array",
       "inputs": [
         {
-          "caller": "0x267539b53c4b43fd0ff972a7f1e5b0ea0ee74045",
+          "caller": "0x00b0b4a2a32a355f0e832fb606b0793778f475f5",
           "comment": "data(uint256,uint256): 2, 2 -> 8",
           "instance": "test",
           "method": "data(uint256,uint256)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x267539b53c4b43fd0ff972a7f1e5b0ea0ee74045",
+          "caller": "0x00b0b4a2a32a355f0e832fb606b0793778f475f5",
           "comment": "data(uint256,uint256): 2, 8 -> FAILURE",
           "instance": "test",
           "method": "data(uint256,uint256)",
@@ -25,7 +25,7 @@
           }
         },
         {
-          "caller": "0x267539b53c4b43fd0ff972a7f1e5b0ea0ee74045",
+          "caller": "0x00b0b4a2a32a355f0e832fb606b0793778f475f5",
           "comment": "dynamicData(uint256,uint256): 2, 2 -> 8",
           "instance": "test",
           "method": "dynamicData(uint256,uint256)",
@@ -36,7 +36,7 @@
           }
         },
         {
-          "caller": "0x267539b53c4b43fd0ff972a7f1e5b0ea0ee74045",
+          "caller": "0x00b0b4a2a32a355f0e832fb606b0793778f475f5",
           "comment": "dynamicData(uint256,uint256): 2, 8 -> FAILURE",
           "instance": "test",
           "method": "dynamicData(uint256,uint256)",

@@ -4,7 +4,7 @@
       "name": "local_assignment",
       "inputs": [
         {
-          "caller": "0xc3eeb8ea4e88b04b9c84ffcd93de962d90433369",
+          "caller": "0x1f5768e3801c23105e618d6752b189d97b219666",
           "comment": "f(uint256): 6 -> 6",
           "instance": "C",
           "method": "f(uint256)",

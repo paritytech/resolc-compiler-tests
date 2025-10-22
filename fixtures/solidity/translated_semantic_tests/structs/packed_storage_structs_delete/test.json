@@ -1,10 +1,12 @@
 {
+  "comment": "Ignored since `storageEmpty` assertions are not supported in revive's REVM",
+  "ignore": true,
   "cases": [
     {
       "name": "packed_storage_structs_delete",
       "inputs": [
         {
-          "caller": "0xd24dc28aa75d9ee4ad4d905b7c0f6e11d85c7b75",
+          "caller": "0x92b91d2c83d62a35bd50e8d45e6ed2b53660c82a",
           "comment": "test() -> 1",
           "instance": "C",
           "method": "test()",
@@ -18,7 +20,7 @@
           "comment": "storageEmpty -> 1",
           "address": "C.address",
           "is_storage_empty": true,
-          "caller": "0x92B91D2C83D62A35Bd50E8d45E6ED2b53660C82A"
+          "caller": "0x1a2EEfd143C183d7ACFBC76acf4C5b6174D2a68A"
         }
       ]
     }

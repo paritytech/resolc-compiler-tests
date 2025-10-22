@@ -4,7 +4,7 @@
       "name": "function_delete_stack",
       "inputs": [
         {
-          "caller": "0xd01a0a53d87889e81099f122e235439f32feb652",
+          "caller": "0xe30498e2ece6c38835d76336920e494f3f4548e3",
           "comment": "test() -> FAILURE, hex\"4e487b71\", 0x51",
           "instance": "C",
           "method": "test()",

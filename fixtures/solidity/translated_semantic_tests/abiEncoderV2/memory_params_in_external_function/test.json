@@ -4,7 +4,7 @@
       "name": "memory_params_in_external_function",
       "inputs": [
         {
-          "caller": "0x575da9c4ead5b3848d78bb014e4c6f3cfa30acd5",
+          "caller": "0x6a8efc58fb40f77cd471f3778b8c66d1665e603e",
           "comment": "g() -> 3, 0x6200000000000000000000000000000000000000000000000000000000000000, 3, 0x6600000000000000000000000000000000000000000000000000000000000000, 4, 7",
           "instance": "C",
           "method": "g()",

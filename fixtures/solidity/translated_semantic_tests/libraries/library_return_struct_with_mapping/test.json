@@ -4,7 +4,7 @@
       "name": "library_return_struct_with_mapping",
       "inputs": [
         {
-          "caller": "0xd054edfd2119c321ce12a6b898b00deede05d6a6",
+          "caller": "0x5d79a25f35af3d733533c5063b5ce6ba6416340b",
           "comment": "f() -> 123",
           "instance": "C",
           "method": "f()",

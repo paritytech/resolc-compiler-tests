@@ -4,7 +4,7 @@
       "name": "conditional_with_assignment",
       "inputs": [
         {
-          "caller": "0xb0eea2ea7e869476286c52b0faab76b84df63457",
+          "caller": "0x012979b2d53b22e82c91a27c2a8f47ad3882f4dd",
           "comment": "f() -> 6, 1, 5, 5",
           "instance": "A",
           "method": "f()",

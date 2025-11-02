@@ -4,7 +4,7 @@
       "name": "value_types",
       "inputs": [
         {
-          "caller": "0xc4852a7f88b641178ac571a22a344cc869d7c6f1",
+          "caller": "0xbc4c757053645ff0ceba3d358d9d408b00a67ea5",
           "comment": "a() -> 3",
           "instance": "C",
           "method": "a()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xc4852a7f88b641178ac571a22a344cc869d7c6f1",
+          "caller": "0xbc4c757053645ff0ceba3d358d9d408b00a67ea5",
           "comment": "b() -> 4",
           "instance": "C",
           "method": "b()",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0xc4852a7f88b641178ac571a22a344cc869d7c6f1",
+          "caller": "0xbc4c757053645ff0ceba3d358d9d408b00a67ea5",
           "comment": "c() -> 5",
           "instance": "C",
           "method": "c()",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0xc4852a7f88b641178ac571a22a344cc869d7c6f1",
+          "caller": "0xbc4c757053645ff0ceba3d358d9d408b00a67ea5",
           "comment": "d() -> 6",
           "instance": "C",
           "method": "d()",
@@ -48,7 +48,7 @@
           }
         },
         {
-          "caller": "0xc4852a7f88b641178ac571a22a344cc869d7c6f1",
+          "caller": "0xbc4c757053645ff0ceba3d358d9d408b00a67ea5",
           "comment": "e() -> 0x7f00000000000000000000000000000000000000000000000000000000000000",
           "instance": "C",
           "method": "e()",
@@ -59,7 +59,7 @@
           }
         },
         {
-          "caller": "0xc4852a7f88b641178ac571a22a344cc869d7c6f1",
+          "caller": "0xbc4c757053645ff0ceba3d358d9d408b00a67ea5",
           "comment": "f() -> 0x6465616462656566313564656164000000000010000000000000000000000000",
           "instance": "C",
           "method": "f()",
@@ -70,7 +70,7 @@
           }
         },
         {
-          "caller": "0xc4852a7f88b641178ac571a22a344cc869d7c6f1",
+          "caller": "0xbc4c757053645ff0ceba3d358d9d408b00a67ea5",
           "comment": "g() -> 0x6465616462656566313564656164000000000000000000000000000000000010",
           "instance": "C",
           "method": "g()",
@@ -81,7 +81,7 @@
           }
         },
         {
-          "caller": "0xc4852a7f88b641178ac571a22a344cc869d7c6f1",
+          "caller": "0xbc4c757053645ff0ceba3d358d9d408b00a67ea5",
           "comment": "h() -> true",
           "instance": "C",
           "method": "h()",
@@ -92,7 +92,7 @@
           }
         },
         {
-          "caller": "0xc4852a7f88b641178ac571a22a344cc869d7c6f1",
+          "caller": "0xbc4c757053645ff0ceba3d358d9d408b00a67ea5",
           "comment": "i() -> 0x5555555555555555555555555555555555555555",
           "instance": "C",
           "method": "i()",

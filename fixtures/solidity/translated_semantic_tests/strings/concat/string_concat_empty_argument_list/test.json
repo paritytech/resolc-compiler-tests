@@ -4,7 +4,7 @@
       "name": "string_concat_empty_argument_list",
       "inputs": [
         {
-          "caller": "0x52246774b1014b3789b9e932e0e30aeb611a5352",
+          "caller": "0xbf7708326038825450412b2f641f3d7faf1aded0",
           "comment": "f() -> 0x20, 0",
           "instance": "C",
           "method": "f()",

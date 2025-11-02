@@ -4,7 +4,7 @@
       "name": "empty_string",
       "inputs": [
         {
-          "caller": "0x19cc0be12924d927d0574724a2061fcde6841d42",
+          "caller": "0x4437ac5118161f5fb5df10dc8045b09e0cf3d127",
           "comment": "f() -> 0x20, 0",
           "instance": "C",
           "method": "f()",

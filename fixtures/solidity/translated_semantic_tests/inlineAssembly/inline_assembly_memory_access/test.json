@@ -4,7 +4,7 @@
       "name": "inline_assembly_memory_access",
       "inputs": [
         {
-          "caller": "0xde1078673b57d95d3e3939f46ae37289ac1563e8",
+          "caller": "0x720489a1dce9fcf700e3afd5661c552ece46cdc3",
           "comment": "test() -> 0x20, 0x5, \"12345\"",
           "instance": "C",
           "method": "test()",

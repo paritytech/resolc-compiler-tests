@@ -4,7 +4,7 @@
       "name": "simple",
       "inputs": [
         {
-          "caller": "0xdb5830a1b6cfc23ac85da336ef52dfcf36da6c7d",
+          "caller": "0x2d2b12ba4fd0e7367f31b3c4220088231e67d693",
           "comment": "f() ->; ~ emit E(); ~ emit E(uint256,uint256): 0x01, 0x02",
           "instance": "Test",
           "method": "f()",

@@ -4,7 +4,7 @@
       "name": "call_internal_function_via_expression",
       "inputs": [
         {
-          "caller": "0x950a538ab0854a0eccdee41318977dd22290a610",
+          "caller": "0x94186fa3a9f89fe89fcf8702fad22eefbbe1b62d",
           "comment": "associated() -> 42",
           "instance": "C",
           "method": "associated()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x950a538ab0854a0eccdee41318977dd22290a610",
+          "caller": "0x94186fa3a9f89fe89fcf8702fad22eefbbe1b62d",
           "comment": "unassociated() -> 42",
           "instance": "C",
           "method": "unassociated()",

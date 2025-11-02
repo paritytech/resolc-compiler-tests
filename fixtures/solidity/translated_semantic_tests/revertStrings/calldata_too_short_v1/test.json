@@ -4,7 +4,7 @@
       "name": "calldata_too_short_v1",
       "inputs": [
         {
-          "caller": "0x62c30268214c02ab4845f60803593278f857c37d",
+          "caller": "0x7c6ea8b6fa21a7d14d7cc98808c4714d1fda67ce",
           "comment": "d(bytes): 0x20, 0x01, 0x0000000000000000000000000000000000000000000000000000000000000000 -> FAILURE",
           "instance": "C",
           "method": "d(bytes)",

@@ -4,7 +4,7 @@
       "name": "implicit_cast_assignment",
       "inputs": [
         {
-          "caller": "0xa3eb30592fbdb0f4149f95189512085ecaf63b37",
+          "caller": "0x046d12e598c8a770c09317dea1c04f967cf673a6",
           "comment": "f() -> 0x78",
           "instance": "C",
           "method": "f()",

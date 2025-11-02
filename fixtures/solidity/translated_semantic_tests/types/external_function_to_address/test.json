@@ -4,7 +4,7 @@
       "name": "external_function_to_address",
       "inputs": [
         {
-          "caller": "0xc350aca1dbd1ad49270010cf21482cb863017474",
+          "caller": "0x6ac3e578fd893b21ed36073d250675c6ca1b2384",
           "comment": "f() -> true",
           "instance": "C",
           "method": "f()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xc350aca1dbd1ad49270010cf21482cb863017474",
+          "caller": "0x6ac3e578fd893b21ed36073d250675c6ca1b2384",
           "comment": "g(function): hex\"00000000000000000000000000000000000000426121ff000000000000000000\" -> 0x42",
           "instance": "C",
           "method": "g(function)",

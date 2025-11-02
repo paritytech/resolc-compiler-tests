@@ -4,7 +4,7 @@
       "name": "pass_dynamic_arguments_to_the_base",
       "inputs": [
         {
-          "caller": "0xec496c5aca6b12126bec9cb9ccbead736d971100",
+          "caller": "0x88d95beeed029260ec0ebdfea510474b4e4ab735",
           "comment": "m_i() -> 4",
           "instance": "Final",
           "method": "m_i()",

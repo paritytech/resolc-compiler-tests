@@ -4,7 +4,7 @@
       "name": "many_local_variables",
       "inputs": [
         {
-          "caller": "0x195338d662fa7bb82eecaefe8db34b81d8652c77",
+          "caller": "0x8ec069494c053be03e8cb09cb82fc34b7e59497a",
           "comment": "run(uint256,uint256,uint256): 0x1000, 0x10000, 0x100000 -> 0x121121",
           "instance": "test",
           "method": "run(uint256,uint256,uint256)",

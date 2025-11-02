@@ -4,7 +4,7 @@
       "name": "internal_library_function_attached_to_fixed_array",
       "inputs": [
         {
-          "caller": "0xfef1fb8a2a4fd7c0d04ea4a9e38d6256f63be834",
+          "caller": "0xba1230f00d4ec8fb06fc5b8826450c56f3ea9ceb",
           "comment": "secondItem() -> 0x22",
           "instance": "C",
           "method": "secondItem()",

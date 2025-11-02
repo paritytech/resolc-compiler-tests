@@ -7,7 +7,7 @@
 //!           "method": "main",
 //!           "calldata": [],
 //!           "value": "10 wei",
-//!           "caller": "0x354dcae4f979d1b07c4bbb871532242424e794bf"
+//!           "caller": "0x247a672a05e7b0c2e46757c8738b8232daa98b59"
 //!         }
 //!       ],
 //!       "expected": [

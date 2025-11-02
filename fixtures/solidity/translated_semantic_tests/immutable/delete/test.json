@@ -4,7 +4,7 @@
       "name": "delete",
       "inputs": [
         {
-          "caller": "0xece78307469c7ef8edd9a3441b34ab101c18083d",
+          "caller": "0x6d31af2a149a14719764108a8b2975094db67dc5",
           "comment": "a() -> 0",
           "instance": "C",
           "method": "a()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xece78307469c7ef8edd9a3441b34ab101c18083d",
+          "caller": "0x6d31af2a149a14719764108a8b2975094db67dc5",
           "comment": "b() -> 0",
           "instance": "C",
           "method": "b()",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0xece78307469c7ef8edd9a3441b34ab101c18083d",
+          "caller": "0x6d31af2a149a14719764108a8b2975094db67dc5",
           "comment": "c() -> 0",
           "instance": "C",
           "method": "c()",

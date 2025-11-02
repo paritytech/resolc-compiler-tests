@@ -4,7 +4,7 @@
       "name": "enum_explicit_overflow",
       "inputs": [
         {
-          "caller": "0xc1c071137e205ddd5d83418fbfaab8ce9ddd9256",
+          "caller": "0x913c9f69c97fa49bbc3846c71ef507c33a674deb",
           "comment": "getChoiceExp(uint256): 2 -> 2",
           "instance": "test",
           "method": "getChoiceExp(uint256)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xc1c071137e205ddd5d83418fbfaab8ce9ddd9256",
+          "caller": "0x913c9f69c97fa49bbc3846c71ef507c33a674deb",
           "comment": "getChoiceExp(uint256): 3 -> FAILURE, hex\"4e487b71\", 0x21",
           "instance": "test",
           "method": "getChoiceExp(uint256)",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0xc1c071137e205ddd5d83418fbfaab8ce9ddd9256",
+          "caller": "0x913c9f69c97fa49bbc3846c71ef507c33a674deb",
           "comment": "getChoiceFromSigned(int256): -1 -> FAILURE, hex\"4e487b71\", 0x21",
           "instance": "test",
           "method": "getChoiceFromSigned(int256)",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0xc1c071137e205ddd5d83418fbfaab8ce9ddd9256",
+          "caller": "0x913c9f69c97fa49bbc3846c71ef507c33a674deb",
           "comment": "getChoiceFromMax() -> FAILURE, hex\"4e487b71\", 0x21",
           "instance": "test",
           "method": "getChoiceFromMax()",
@@ -48,7 +48,7 @@
           }
         },
         {
-          "caller": "0xc1c071137e205ddd5d83418fbfaab8ce9ddd9256",
+          "caller": "0x913c9f69c97fa49bbc3846c71ef507c33a674deb",
           "comment": "getChoiceExp(uint256): 2 -> 2",
           "instance": "test",
           "method": "getChoiceExp(uint256)",
@@ -59,7 +59,7 @@
           }
         },
         {
-          "caller": "0xc1c071137e205ddd5d83418fbfaab8ce9ddd9256",
+          "caller": "0x913c9f69c97fa49bbc3846c71ef507c33a674deb",
           "comment": "getChoiceExp(uint256): 0 -> 0",
           "instance": "test",
           "method": "getChoiceExp(uint256)",

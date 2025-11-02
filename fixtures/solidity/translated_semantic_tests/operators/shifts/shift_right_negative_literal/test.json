@@ -4,7 +4,7 @@
       "name": "shift_right_negative_literal",
       "inputs": [
         {
-          "caller": "0x2e32eee667ee8577ee2507e6575b3705021b5369",
+          "caller": "0x58897a7c754da112e88cceab46d16e6d6870a923",
           "comment": "f1() -> true",
           "instance": "C",
           "method": "f1()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x2e32eee667ee8577ee2507e6575b3705021b5369",
+          "caller": "0x58897a7c754da112e88cceab46d16e6d6870a923",
           "comment": "f2() -> true",
           "instance": "C",
           "method": "f2()",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0x2e32eee667ee8577ee2507e6575b3705021b5369",
+          "caller": "0x58897a7c754da112e88cceab46d16e6d6870a923",
           "comment": "f3() -> true",
           "instance": "C",
           "method": "f3()",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0x2e32eee667ee8577ee2507e6575b3705021b5369",
+          "caller": "0x58897a7c754da112e88cceab46d16e6d6870a923",
           "comment": "f4() -> true",
           "instance": "C",
           "method": "f4()",
@@ -48,7 +48,7 @@
           }
         },
         {
-          "caller": "0x2e32eee667ee8577ee2507e6575b3705021b5369",
+          "caller": "0x58897a7c754da112e88cceab46d16e6d6870a923",
           "comment": "f5() -> true",
           "instance": "C",
           "method": "f5()",
@@ -59,7 +59,7 @@
           }
         },
         {
-          "caller": "0x2e32eee667ee8577ee2507e6575b3705021b5369",
+          "caller": "0x58897a7c754da112e88cceab46d16e6d6870a923",
           "comment": "f6() -> true",
           "instance": "C",
           "method": "f6()",
@@ -70,7 +70,7 @@
           }
         },
         {
-          "caller": "0x2e32eee667ee8577ee2507e6575b3705021b5369",
+          "caller": "0x58897a7c754da112e88cceab46d16e6d6870a923",
           "comment": "g1() -> true",
           "instance": "C",
           "method": "g1()",
@@ -81,7 +81,7 @@
           }
         },
         {
-          "caller": "0x2e32eee667ee8577ee2507e6575b3705021b5369",
+          "caller": "0x58897a7c754da112e88cceab46d16e6d6870a923",
           "comment": "g2() -> true",
           "instance": "C",
           "method": "g2()",
@@ -92,7 +92,7 @@
           }
         },
         {
-          "caller": "0x2e32eee667ee8577ee2507e6575b3705021b5369",
+          "caller": "0x58897a7c754da112e88cceab46d16e6d6870a923",
           "comment": "g3() -> true",
           "instance": "C",
           "method": "g3()",
@@ -103,7 +103,7 @@
           }
         },
         {
-          "caller": "0x2e32eee667ee8577ee2507e6575b3705021b5369",
+          "caller": "0x58897a7c754da112e88cceab46d16e6d6870a923",
           "comment": "g4() -> true",
           "instance": "C",
           "method": "g4()",
@@ -114,7 +114,7 @@
           }
         },
         {
-          "caller": "0x2e32eee667ee8577ee2507e6575b3705021b5369",
+          "caller": "0x58897a7c754da112e88cceab46d16e6d6870a923",
           "comment": "g5() -> true",
           "instance": "C",
           "method": "g5()",
@@ -125,7 +125,7 @@
           }
         },
         {
-          "caller": "0x2e32eee667ee8577ee2507e6575b3705021b5369",
+          "caller": "0x58897a7c754da112e88cceab46d16e6d6870a923",
           "comment": "g6() -> true",
           "instance": "C",
           "method": "g6()",

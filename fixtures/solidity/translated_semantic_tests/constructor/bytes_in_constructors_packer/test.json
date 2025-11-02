@@ -4,7 +4,7 @@
       "name": "bytes_in_constructors_packer",
       "inputs": [
         {
-          "caller": "0xfa8a73717aeb53213eb9e5773f4c9237b3a90223",
+          "caller": "0x05a922fba7b4060f99126b6b989dd5afd2205a41",
           "comment": "f(uint256,bytes): 7, 0x40, 78, \"abcdefghijklmnopqrstuvwxyzabcdef\", \"ghijklmnopqrstuvwxyzabcdefghijkl\", \"mnopqrstuvwxyz\" -> 7, \"h\"; gas irOptimized: 169292; gas irOptimized code: 99600; gas legacy: 172941; gas legacy code: 239800; gas legacyOptimized: 169815; gas legacyOptimized code: 118600",
           "instance": "Creator",
           "method": "f(uint256,bytes)",

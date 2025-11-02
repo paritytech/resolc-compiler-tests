@@ -4,7 +4,7 @@
       "name": "event_emit_from_a_foreign_contract",
       "inputs": [
         {
-          "caller": "0xbd85ffd447071a4aa6d851c8b874d053d1da3e7f",
+          "caller": "0x77c5bfc23158541425e3ba5b13128f15c71b666c",
           "comment": "test() ->; ~ emit E()",
           "instance": "D",
           "method": "test()",

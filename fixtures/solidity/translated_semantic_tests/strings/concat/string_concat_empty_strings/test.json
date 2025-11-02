@@ -4,7 +4,7 @@
       "name": "string_concat_empty_strings",
       "inputs": [
         {
-          "caller": "0x4437ac5118161f5fb5df10dc8045b09e0cf3d127",
+          "caller": "0xbf2c78ef65505523be7715997954733d02a518c7",
           "comment": "f() -> 0x20, 0",
           "instance": "C",
           "method": "f()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x4437ac5118161f5fb5df10dc8045b09e0cf3d127",
+          "caller": "0xbf2c78ef65505523be7715997954733d02a518c7",
           "comment": "g() -> 0x20, 6, \"abcabc\"",
           "instance": "C",
           "method": "g()",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0x4437ac5118161f5fb5df10dc8045b09e0cf3d127",
+          "caller": "0xbf2c78ef65505523be7715997954733d02a518c7",
           "comment": "h() -> 0x20, 6, \"abcabc\"",
           "instance": "C",
           "method": "h()",

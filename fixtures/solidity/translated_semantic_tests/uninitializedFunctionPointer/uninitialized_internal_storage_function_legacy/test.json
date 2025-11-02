@@ -4,7 +4,7 @@
       "name": "uninitialized_internal_storage_function_legacy",
       "inputs": [
         {
-          "caller": "0x3bf0fcc64f4fd61e14011d7a379d6f4b7dd70c3a",
+          "caller": "0xed0541ba260e76c8b023e871a8f168319d1281a7",
           "comment": "f() -> true",
           "instance": "Test",
           "method": "f()",

@@ -4,7 +4,7 @@
       "name": "comparison_functions",
       "inputs": [
         {
-          "caller": "0x57a8d0d01837fe05f4e727dbbd88b6380d6bb72b",
+          "caller": "0xe09ef460c185a9c3da860c3e8425b990ef7e031d",
           "comment": "equal() -> true, false, false",
           "instance": "C",
           "method": "equal()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x57a8d0d01837fe05f4e727dbbd88b6380d6bb72b",
+          "caller": "0xe09ef460c185a9c3da860c3e8425b990ef7e031d",
           "comment": "unequal() -> false, true, true",
           "instance": "C",
           "method": "unequal()",

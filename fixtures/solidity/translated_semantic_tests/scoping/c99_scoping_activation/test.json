@@ -4,7 +4,7 @@
       "name": "c99_scoping_activation",
       "inputs": [
         {
-          "caller": "0x58e328b97b89c260e3e02d6c8e441e1523e37efb",
+          "caller": "0x3da14b4ed85db48503045f293a575261cffd09d5",
           "comment": "f() -> 3",
           "instance": "test",
           "method": "f()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x58e328b97b89c260e3e02d6c8e441e1523e37efb",
+          "caller": "0x3da14b4ed85db48503045f293a575261cffd09d5",
           "comment": "g() -> 0",
           "instance": "test",
           "method": "g()",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0x58e328b97b89c260e3e02d6c8e441e1523e37efb",
+          "caller": "0x3da14b4ed85db48503045f293a575261cffd09d5",
           "comment": "h() -> 3, 3, 4",
           "instance": "test",
           "method": "h()",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0x58e328b97b89c260e3e02d6c8e441e1523e37efb",
+          "caller": "0x3da14b4ed85db48503045f293a575261cffd09d5",
           "comment": "i() -> 3, 3",
           "instance": "test",
           "method": "i()",

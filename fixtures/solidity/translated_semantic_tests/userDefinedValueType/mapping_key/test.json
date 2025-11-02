@@ -4,7 +4,7 @@
       "name": "mapping_key",
       "inputs": [
         {
-          "caller": "0xd976e194ccaa3ff0888e590098bbe4ff1df402cb",
+          "caller": "0xfe649f67452eda0fed3f978aac9842c5a7ac0bd7",
           "comment": "set(int256,int256): 1, 1 ->",
           "instance": "C",
           "method": "set(int256,int256)",
@@ -14,7 +14,7 @@
           }
         },
         {
-          "caller": "0xd976e194ccaa3ff0888e590098bbe4ff1df402cb",
+          "caller": "0xfe649f67452eda0fed3f978aac9842c5a7ac0bd7",
           "comment": "m(int256): 1 -> 1",
           "instance": "C",
           "method": "m(int256)",
@@ -25,7 +25,7 @@
           }
         },
         {
-          "caller": "0xd976e194ccaa3ff0888e590098bbe4ff1df402cb",
+          "caller": "0xfe649f67452eda0fed3f978aac9842c5a7ac0bd7",
           "comment": "set_unwrapped(int256,int256): 1, 2 ->",
           "instance": "C",
           "method": "set_unwrapped(int256,int256)",
@@ -35,7 +35,7 @@
           }
         },
         {
-          "caller": "0xd976e194ccaa3ff0888e590098bbe4ff1df402cb",
+          "caller": "0xfe649f67452eda0fed3f978aac9842c5a7ac0bd7",
           "comment": "m(int256): 1 -> 2",
           "instance": "C",
           "method": "m(int256)",
@@ -46,7 +46,7 @@
           }
         },
         {
-          "caller": "0xd976e194ccaa3ff0888e590098bbe4ff1df402cb",
+          "caller": "0xfe649f67452eda0fed3f978aac9842c5a7ac0bd7",
           "comment": "m(int256): 2 -> 0",
           "instance": "C",
           "method": "m(int256)",

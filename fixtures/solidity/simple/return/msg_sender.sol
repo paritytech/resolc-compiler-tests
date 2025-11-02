@@ -5,12 +5,12 @@
 //!       "inputs": [
 //!         {
 //!           "method": "main()",
-//!           "caller": "0x8003d5b2f24eb2b08973904358547a6cbd14eb57",
+//!           "caller": "0xf4a62824ef463ce2581f83e38c09bcecb19b70b2",
 //!           "calldata": []
 //!         }
 //!       ],
 //!       "expected": [
-//!         "0x8003d5b2f24eb2b08973904358547a6cbd14eb57"
+//!         "0xf4a62824ef463ce2581f83e38c09bcecb19b70b2"
 //!       ]
 //!     },
 //!     {
@@ -21,7 +21,7 @@
 //!           "calldata": [
 //!             "0xdeadbeef00000000000000000000000000000042"
 //!           ],
-//!           "caller": "0x9085c57547cbafa2e109fff60db5978d731336e0"
+//!           "caller": "0x8003d5b2f24eb2b08973904358547a6cbd14eb57"
 //!         }
 //!       ],
 //!       "expected": [

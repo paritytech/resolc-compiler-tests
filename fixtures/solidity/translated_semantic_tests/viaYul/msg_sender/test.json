@@ -4,7 +4,7 @@
       "name": "msg_sender",
       "inputs": [
         {
-          "caller": "0xea241536340a75a5de0f98a5b94f5e7b7e01e733",
+          "caller": "0x39e33536bdf49ac2271cc6e505526b01f1900c3e",
           "comment": "test() -> true",
           "instance": "C",
           "method": "test()",

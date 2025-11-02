@@ -4,7 +4,7 @@
       "name": "calling_uninitialized_function_through_array",
       "inputs": [
         {
-          "caller": "0x6fedc1452834bfb16ed50ff94ed40e3967281467",
+          "caller": "0x7e492747aa184c51e4a95d08483f8e8b78e057f9",
           "comment": "t() -> FAILURE, hex\"4e487b71\", 0x51",
           "instance": "C",
           "method": "t()",

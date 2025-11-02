@@ -5,7 +5,7 @@
       "inputs": [
         {
           "instance": "A",
-          "caller": "0x3d97d8de776f9e1ec66b7774e962df3b8190c83b",
+          "caller": "0x5365bcf248c4e6818a969aea5073c14c4f5fa6d2",
           "method": "main",
           "calldata": [
             "B.address",
@@ -14,7 +14,7 @@
         }
       ],
       "expected": [
-        "0x3d97d8de776f9e1ec66b7774e962df3b8190c83b"
+        "0x5365bcf248c4e6818a969aea5073c14c4f5fa6d2"
       ]
     }
   ],

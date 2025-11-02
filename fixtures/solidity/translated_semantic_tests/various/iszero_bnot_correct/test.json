@@ -4,7 +4,7 @@
       "name": "iszero_bnot_correct",
       "inputs": [
         {
-          "caller": "0x1972bac5eef3e8836b8f8fd6dedd6d9443ed7635",
+          "caller": "0xac402facf3e77aa1ca32fa5dd7310ab9c86c73fb",
           "comment": "f() -> true",
           "instance": "C",
           "method": "f()",

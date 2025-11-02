@@ -6,7 +6,7 @@
       "name": "array_pop_uint16_transition",
       "inputs": [
         {
-          "caller": "0x62aa507ca66a786f342ba10b4adaedea7cf199f5",
+          "caller": "0x07afa032203928240a8598d39995ffce224b123a",
           "comment": "test() -> 38, 28, 18; gas irOptimized: 148380; gas legacy: 151182; gas legacyOptimized: 142418",
           "instance": "c",
           "method": "test()",
@@ -20,7 +20,7 @@
           "comment": "storageEmpty -> 1",
           "address": "c.address",
           "is_storage_empty": true,
-          "caller": "0x89C8642b9A69d952DF2B0c0a786cE4Ccc3BCD0ca"
+          "caller": "0x62aA507Ca66A786F342Ba10B4ADAeDEA7cf199F5"
         }
       ]
     }

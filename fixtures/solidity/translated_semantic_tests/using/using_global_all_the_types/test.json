@@ -4,7 +4,7 @@
       "name": "using_global_all_the_types",
       "inputs": [
         {
-          "caller": "0x585b2c452314505765896f9817d2a3f9e1dce352",
+          "caller": "0x120a8381fc7c763a827567fc51f5b0d506694d06",
           "comment": "f() -> 1, 7, 9",
           "instance": "C",
           "method": "f()",

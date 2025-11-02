@@ -4,7 +4,7 @@
       "name": "inline_member_init",
       "inputs": [
         {
-          "caller": "0xa443109de587df0b81f74577429c3ce1eaa19cbe",
+          "caller": "0x93eee2d1225774142e632cf630834c009659caa9",
           "comment": "get() -> 5, 6, 8",
           "instance": "test",
           "method": "get()",

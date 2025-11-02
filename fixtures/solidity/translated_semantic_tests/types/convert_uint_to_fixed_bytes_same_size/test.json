@@ -4,7 +4,7 @@
       "name": "convert_uint_to_fixed_bytes_same_size",
       "inputs": [
         {
-          "caller": "0x85a8d4a05a360c29cd0a052b7b6ceb05b2192f99",
+          "caller": "0xe5c528240d5a6cf13e51615f727f6251fbbbc690",
           "comment": "uintToBytes(uint256): left(0x616263) -> left(0x616263)",
           "instance": "Test",
           "method": "uintToBytes(uint256)",

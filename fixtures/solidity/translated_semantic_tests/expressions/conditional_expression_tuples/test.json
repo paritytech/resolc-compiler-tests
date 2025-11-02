@@ -4,7 +4,7 @@
       "name": "conditional_expression_tuples",
       "inputs": [
         {
-          "caller": "0x2f7deb6fcc0ac7509912553795ff4bb356652f27",
+          "caller": "0xd69c7fef03f069170829d24653efb4ef10e741f8",
           "comment": "f(bool): true -> 1, 2",
           "instance": "test",
           "method": "f(bool)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x2f7deb6fcc0ac7509912553795ff4bb356652f27",
+          "caller": "0xd69c7fef03f069170829d24653efb4ef10e741f8",
           "comment": "f(bool): false -> 3, 4",
           "instance": "test",
           "method": "f(bool)",

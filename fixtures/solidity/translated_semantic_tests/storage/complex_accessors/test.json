@@ -4,7 +4,7 @@
       "name": "complex_accessors",
       "inputs": [
         {
-          "caller": "0xf0ef8144bf98abdb0bc9e48cae83b80ddf8e36bc",
+          "caller": "0x82ecc5bc839b5a6b4ecdd72cc3e7170142483e81",
           "comment": "to_string_map(uint256): 42 -> \"24\"",
           "instance": "test",
           "method": "to_string_map(uint256)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xf0ef8144bf98abdb0bc9e48cae83b80ddf8e36bc",
+          "caller": "0x82ecc5bc839b5a6b4ecdd72cc3e7170142483e81",
           "comment": "to_bool_map(uint256): 42 -> false",
           "instance": "test",
           "method": "to_bool_map(uint256)",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0xf0ef8144bf98abdb0bc9e48cae83b80ddf8e36bc",
+          "caller": "0x82ecc5bc839b5a6b4ecdd72cc3e7170142483e81",
           "comment": "to_uint_map(uint256): 42 -> 12",
           "instance": "test",
           "method": "to_uint_map(uint256)",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0xf0ef8144bf98abdb0bc9e48cae83b80ddf8e36bc",
+          "caller": "0x82ecc5bc839b5a6b4ecdd72cc3e7170142483e81",
           "comment": "to_multiple_map(uint256,uint256): 42, 23 -> 31",
           "instance": "test",
           "method": "to_multiple_map(uint256,uint256)",

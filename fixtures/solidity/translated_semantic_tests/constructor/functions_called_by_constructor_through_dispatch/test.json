@@ -4,7 +4,7 @@
       "name": "functions_called_by_constructor_through_dispatch",
       "inputs": [
         {
-          "caller": "0x6aebc2c2c5b6dc23563a9adb46cd62085de50954",
+          "caller": "0xc75e7d96502474534bb3a8c7f7456aa1a83bba95",
           "comment": "getName() -> \"def\\x00\\x00\\x00\"",
           "instance": "Test",
           "method": "getName()",

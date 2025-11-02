@@ -4,7 +4,7 @@
       "name": "struct_referencing",
       "inputs": [
         {
-          "caller": "0x71e079594dfaa7a40862fd44f84eb089b05506e1",
+          "caller": "0xb041e86fce12e8832f574febacd05157abba6da0",
           "comment": "f() -> 1",
           "instance": "C",
           "method": "f()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x71e079594dfaa7a40862fd44f84eb089b05506e1",
+          "caller": "0xb041e86fce12e8832f574febacd05157abba6da0",
           "comment": "g() -> 2",
           "instance": "C",
           "method": "g()",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0x71e079594dfaa7a40862fd44f84eb089b05506e1",
+          "caller": "0xb041e86fce12e8832f574febacd05157abba6da0",
           "comment": "f() -> 1",
           "instance": "C",
           "method": "f()",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0x71e079594dfaa7a40862fd44f84eb089b05506e1",
+          "caller": "0xb041e86fce12e8832f574febacd05157abba6da0",
           "comment": "g() -> 2",
           "instance": "C",
           "method": "g()",
@@ -48,7 +48,7 @@
           }
         },
         {
-          "caller": "0x71e079594dfaa7a40862fd44f84eb089b05506e1",
+          "caller": "0xb041e86fce12e8832f574febacd05157abba6da0",
           "comment": "h() -> 0, 5",
           "instance": "C",
           "method": "h()",
@@ -59,7 +59,7 @@
           }
         },
         {
-          "caller": "0x71e079594dfaa7a40862fd44f84eb089b05506e1",
+          "caller": "0xb041e86fce12e8832f574febacd05157abba6da0",
           "comment": "x() -> 0, 3",
           "instance": "C",
           "method": "x()",
@@ -70,7 +70,7 @@
           }
         },
         {
-          "caller": "0x71e079594dfaa7a40862fd44f84eb089b05506e1",
+          "caller": "0xb041e86fce12e8832f574febacd05157abba6da0",
           "comment": "y() -> 4",
           "instance": "C",
           "method": "y()",
@@ -81,7 +81,7 @@
           }
         },
         {
-          "caller": "0x71e079594dfaa7a40862fd44f84eb089b05506e1",
+          "caller": "0xb041e86fce12e8832f574febacd05157abba6da0",
           "comment": "a1() -> 1",
           "instance": "C",
           "method": "a1()",
@@ -92,7 +92,7 @@
           }
         },
         {
-          "caller": "0x71e079594dfaa7a40862fd44f84eb089b05506e1",
+          "caller": "0xb041e86fce12e8832f574febacd05157abba6da0",
           "comment": "a2() -> 2",
           "instance": "C",
           "method": "a2()",

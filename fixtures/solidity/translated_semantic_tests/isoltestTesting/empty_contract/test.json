@@ -4,7 +4,7 @@
       "name": "empty_contract",
       "inputs": [
         {
-          "caller": "0x41ce2453769a6c047db80b67f826e7023e22a7a3",
+          "caller": "0x190596dc73afb2748d75b84ea16ea525745eb466",
           "comment": "i_am_not_there() -> FAILURE",
           "instance": "test",
           "method": "i_am_not_there()",

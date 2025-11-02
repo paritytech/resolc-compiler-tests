@@ -4,7 +4,7 @@
       "name": "array_copy_cleanup_uint128",
       "inputs": [
         {
-          "caller": "0xc9756805b83aad1182862acc8c6b899fb14a5e2c",
+          "caller": "0x02cdff7a11dcd830f90d6b1771eb4846db60a91b",
           "comment": "f() -> true; gas irOptimized: 92740; gas legacy: 93035; gas legacyOptimized: 92257",
           "instance": "C",
           "method": "f()",

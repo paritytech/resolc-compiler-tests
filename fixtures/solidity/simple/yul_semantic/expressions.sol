@@ -6,7 +6,7 @@
 //!         {
 //!           "method": "literal",
 //!           "calldata": [],
-//!           "caller": "0x77744fa6cc5a47752d7450d3763d2333f4eafc63"
+//!           "caller": "0x86b47e131b7b1f8887b4eea7743e95cd4932de1c"
 //!         }
 //!       ],
 //!       "expected": [
@@ -19,7 +19,7 @@
 //!         {
 //!           "method": "variable",
 //!           "calldata": [],
-//!           "caller": "0xc83d58618a69dd85fad938e23c15c2f3bf115781"
+//!           "caller": "0x77744fa6cc5a47752d7450d3763d2333f4eafc63"
 //!         }
 //!       ],
 //!       "expected": [
@@ -32,7 +32,7 @@
 //!         {
 //!           "method": "function_call",
 //!           "calldata": [],
-//!           "caller": "0x304372826a464a2a1b7cfc962156fddaab71a2a1"
+//!           "caller": "0xc83d58618a69dd85fad938e23c15c2f3bf115781"
 //!         }
 //!       ],
 //!       "expected": [
@@ -45,7 +45,7 @@
 //!         {
 //!           "method": "nested_calls",
 //!           "calldata": [],
-//!           "caller": "0x48c2e7cb93700f3e37653088c2390abd6e5d6555"
+//!           "caller": "0x304372826a464a2a1b7cfc962156fddaab71a2a1"
 //!         }
 //!       ],
 //!       "expected": [
@@ -58,7 +58,7 @@
 //!         {
 //!           "method": "evaluation_order",
 //!           "calldata": [],
-//!           "caller": "0x0c7d717ac5ba7adfce09a04385e7f2fac786b65a"
+//!           "caller": "0x48c2e7cb93700f3e37653088c2390abd6e5d6555"
 //!         }
 //!       ],
 //!       "expected": {
@@ -87,7 +87,7 @@
 //!         {
 //!           "method": "nested_calls_evaluation_order",
 //!           "calldata": [],
-//!           "caller": "0x08d2c22e47ae5c27f7e5e604a3024927f28efcaf"
+//!           "caller": "0x0c7d717ac5ba7adfce09a04385e7f2fac786b65a"
 //!         }
 //!       ],
 //!       "expected": {

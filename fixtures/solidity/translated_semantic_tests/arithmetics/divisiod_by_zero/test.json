@@ -4,7 +4,7 @@
       "name": "divisiod_by_zero",
       "inputs": [
         {
-          "caller": "0xe50cbf3bd55d7cfe664abc0e8595b475e4a4f48b",
+          "caller": "0xd13f97be53219a385591ba01a42c847d970389cf",
           "comment": "div(uint256,uint256): 7, 2 -> 3",
           "instance": "C",
           "method": "div(uint256,uint256)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xe50cbf3bd55d7cfe664abc0e8595b475e4a4f48b",
+          "caller": "0xd13f97be53219a385591ba01a42c847d970389cf",
           "comment": "div(uint256,uint256): 7, 0 -> FAILURE, hex\"4e487b71\", 0x12",
           "instance": "C",
           "method": "div(uint256,uint256)",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0xe50cbf3bd55d7cfe664abc0e8595b475e4a4f48b",
+          "caller": "0xd13f97be53219a385591ba01a42c847d970389cf",
           "comment": "mod(uint256,uint256): 7, 2 -> 1",
           "instance": "C",
           "method": "mod(uint256,uint256)",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0xe50cbf3bd55d7cfe664abc0e8595b475e4a4f48b",
+          "caller": "0xd13f97be53219a385591ba01a42c847d970389cf",
           "comment": "mod(uint256,uint256): 7, 0 -> FAILURE, hex\"4e487b71\", 0x12",
           "instance": "C",
           "method": "mod(uint256,uint256)",

@@ -4,7 +4,7 @@
       "name": "external_public_calldata",
       "inputs": [
         {
-          "caller": "0x62be795938392b21b4ecda99dd1d9503cb107804",
+          "caller": "0x8ccfe24e64e1d39b6351fc0468ad07984654032f",
           "comment": "f(uint256[]): 0x20, 2, 9, 8 -> 0x20, 2, 9, 8",
           "instance": "B",
           "method": "f(uint256[])",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x62be795938392b21b4ecda99dd1d9503cb107804",
+          "caller": "0x8ccfe24e64e1d39b6351fc0468ad07984654032f",
           "comment": "g(uint256[]): 0x20, 2, 9, 8 -> 0x20, 2, 9, 8",
           "instance": "B",
           "method": "g(uint256[])",

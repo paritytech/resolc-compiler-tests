@@ -4,7 +4,7 @@
       "name": "inline_assembly_transient_storage_access_inside_function",
       "inputs": [
         {
-          "caller": "0xca495463019a6e00c76efed012e715ee724fbdb9",
+          "caller": "0xd8e48a72ecc910f3d7ebe42aaf1e80b3315b362b",
           "comment": "f() -> 7",
           "instance": "C",
           "method": "f()",

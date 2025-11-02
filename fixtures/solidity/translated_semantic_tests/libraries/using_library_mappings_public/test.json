@@ -4,7 +4,7 @@
       "name": "using_library_mappings_public",
       "inputs": [
         {
-          "caller": "0x5d79a25f35af3d733533c5063b5ce6ba6416340b",
+          "caller": "0xc470475e1582bb12551a001c991ffdc5d3a650ea",
           "comment": "f() -> 1, 0, 0x2a, 0x17, 0, 0x63; gas irOptimized: 119837; gas legacy: 124661; gas legacyOptimized: 119665",
           "instance": "Test",
           "method": "f()",

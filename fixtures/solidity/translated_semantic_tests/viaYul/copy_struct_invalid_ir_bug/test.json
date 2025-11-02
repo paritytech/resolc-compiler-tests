@@ -4,7 +4,7 @@
       "name": "copy_struct_invalid_ir_bug",
       "inputs": [
         {
-          "caller": "0x07e871c7431749840bac99cb61589e71968a2a4a",
+          "caller": "0x648fac45748376a69e6f1cbe2494644ddab0ca7d",
           "comment": "f() ->; gas irOptimized: 113117; gas legacy: 112888; gas legacyOptimized: 112580",
           "instance": "C",
           "method": "f()",

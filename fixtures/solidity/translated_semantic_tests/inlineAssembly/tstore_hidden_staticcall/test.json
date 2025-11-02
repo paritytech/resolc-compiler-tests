@@ -4,7 +4,7 @@
       "name": "tstore_hidden_staticcall",
       "inputs": [
         {
-          "caller": "0x1c8bd0df5e82f5e029c66bb73ba2c32e85e3e13e",
+          "caller": "0xe74ccd2afe799558e05df6485281f3feb23ff5fc",
           "comment": "test() -> FAILURE; gas irOptimized: 98437877; gas legacy: 98437871; gas legacyOptimized: 98437872",
           "instance": "C",
           "method": "test()",

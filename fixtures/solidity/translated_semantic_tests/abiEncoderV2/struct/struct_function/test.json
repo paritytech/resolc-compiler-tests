@@ -4,7 +4,7 @@
       "name": "struct_function",
       "inputs": [
         {
-          "caller": "0x456d57b1b7b08e9c9925319786c4875d59b74bb0",
+          "caller": "0x1a0ce3ff3a5077786ce78a555305c4033bd00891",
           "comment": "test() -> 7, 3",
           "instance": "C",
           "method": "test()",

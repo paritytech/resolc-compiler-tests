@@ -4,7 +4,7 @@
       "name": "abi_encode",
       "inputs": [
         {
-          "caller": "0xe1d6467dfd714220110ff18f75a8469b996d57e4",
+          "caller": "0x6e23b7a4da4360a418f5c218e03471f21537782a",
           "comment": "f0() -> 0x20, 0x0",
           "instance": "C",
           "method": "f0()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xe1d6467dfd714220110ff18f75a8469b996d57e4",
+          "caller": "0x6e23b7a4da4360a418f5c218e03471f21537782a",
           "comment": "f1() -> 0x20, 0x40, 0x1, 0x2",
           "instance": "C",
           "method": "f1()",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0xe1d6467dfd714220110ff18f75a8469b996d57e4",
+          "caller": "0x6e23b7a4da4360a418f5c218e03471f21537782a",
           "comment": "f2() -> 0x20, 0xa0, 0x1, 0x60, 0x2, 0x3, \"abc\"",
           "instance": "C",
           "method": "f2()",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0xe1d6467dfd714220110ff18f75a8469b996d57e4",
+          "caller": "0x6e23b7a4da4360a418f5c218e03471f21537782a",
           "comment": "f3() -> 0x20, 0xa0, 0x1, 0x60, 0x2, 0x3, \"abc\"",
           "instance": "C",
           "method": "f3()",
@@ -48,7 +48,7 @@
           }
         },
         {
-          "caller": "0xe1d6467dfd714220110ff18f75a8469b996d57e4",
+          "caller": "0x6e23b7a4da4360a418f5c218e03471f21537782a",
           "comment": "f4() -> 0x20, 0x20, \"ab\"",
           "instance": "C",
           "method": "f4()",

@@ -4,7 +4,7 @@
       "name": "function_modifier_multiple_times",
       "inputs": [
         {
-          "caller": "0xea25de320133e5ab181e19678ea188777ff4bc6b",
+          "caller": "0xb4f18924ab3f9f11a7596e46f598bc768b0c4da4",
           "comment": "f(uint256): 3 -> 10",
           "instance": "C",
           "method": "f(uint256)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xea25de320133e5ab181e19678ea188777ff4bc6b",
+          "caller": "0xb4f18924ab3f9f11a7596e46f598bc768b0c4da4",
           "comment": "a() -> 10",
           "instance": "C",
           "method": "a()",

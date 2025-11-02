@@ -4,7 +4,7 @@
       "name": "modifier_init_return",
       "inputs": [
         {
-          "caller": "0xca9925f38792e949a31710c9175c1f600c7579c0",
+          "caller": "0x20e19db0a483e486c234741689ffcf30c8070b59",
           "comment": "f(uint256): 9 -> 0x00, 0x00, 0x00, 0x00, 0x00",
           "instance": "C",
           "method": "f(uint256)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xca9925f38792e949a31710c9175c1f600c7579c0",
+          "caller": "0x20e19db0a483e486c234741689ffcf30c8070b59",
           "comment": "f(uint256): 10 -> 0x00, 0x00, 3, 0x00, 0x00",
           "instance": "C",
           "method": "f(uint256)",

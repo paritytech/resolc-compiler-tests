@@ -4,7 +4,7 @@
       "name": "consecutive_operator_invocations",
       "inputs": [
         {
-          "caller": "0x6030a4a48652d1d03dd01322b05ade5017bbd1d9",
+          "caller": "0x5037222f4e96e56a6f7a88b4a79c5e1470089014",
           "comment": "g() -> 0x9999999999999999999999999999999999999999",
           "instance": "C",
           "method": "g()",

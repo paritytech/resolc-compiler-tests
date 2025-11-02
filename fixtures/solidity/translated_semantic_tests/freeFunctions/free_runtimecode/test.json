@@ -4,7 +4,7 @@
       "name": "free_runtimecode",
       "inputs": [
         {
-          "caller": "0x2f6edc9f425b09f612728156f2004a9d57ac0674",
+          "caller": "0xf6db8e556a9248fa5b3b38bb6b352f12c69c23d5",
           "comment": "f() -> true",
           "instance": "D",
           "method": "f()",

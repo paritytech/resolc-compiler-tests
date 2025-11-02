@@ -4,7 +4,7 @@
       "name": "array_multiple_local_vars",
       "inputs": [
         {
-          "caller": "0x588253c3059328be1b8c99d6be54259f016421e9",
+          "caller": "0x89f4e19ef5be7f3aff73024dd91c82cee1e6b14f",
           "comment": "f(uint256[]): 32, 3, 1000, 1, 2 -> 3",
           "instance": "test",
           "method": "f(uint256[])",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x588253c3059328be1b8c99d6be54259f016421e9",
+          "caller": "0x89f4e19ef5be7f3aff73024dd91c82cee1e6b14f",
           "comment": "f(uint256[]): 32, 3, 100, 500, 300 -> 600",
           "instance": "test",
           "method": "f(uint256[])",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0x588253c3059328be1b8c99d6be54259f016421e9",
+          "caller": "0x89f4e19ef5be7f3aff73024dd91c82cee1e6b14f",
           "comment": "f(uint256[]): 32, 11, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 111 -> 55",
           "instance": "test",
           "method": "f(uint256[])",

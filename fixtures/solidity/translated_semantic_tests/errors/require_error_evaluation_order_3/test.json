@@ -4,7 +4,7 @@
       "name": "require_error_evaluation_order_3",
       "inputs": [
         {
-          "caller": "0xfe7540bf6ace59c38e3f75993a39db5c6ca6f53c",
+          "caller": "0x1614b6c40982cdf168469ce908e625874435b7cc",
           "comment": "f(bool): false -> FAILURE, hex\"08c379a0\", 0x20, 0x1b, \"Intercepted failure message\"",
           "instance": "C",
           "method": "f(bool)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xfe7540bf6ace59c38e3f75993a39db5c6ca6f53c",
+          "caller": "0x1614b6c40982cdf168469ce908e625874435b7cc",
           "comment": "f(bool): true ->",
           "instance": "C",
           "method": "f(bool)",

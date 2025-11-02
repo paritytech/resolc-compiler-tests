@@ -4,7 +4,7 @@
       "name": "public_state_overridding_dynamic_struct",
       "inputs": [
         {
-          "caller": "0xc37262ed814ac7eff1f0e5191f8591518cfab917",
+          "caller": "0xa1a897bee001c25676223e7febc0543681da491d",
           "comment": "test() -> 0, 64, 0",
           "instance": "X",
           "method": "test()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xc37262ed814ac7eff1f0e5191f8591518cfab917",
+          "caller": "0xa1a897bee001c25676223e7febc0543681da491d",
           "comment": "set() ->",
           "instance": "X",
           "method": "set()",
@@ -25,7 +25,7 @@
           }
         },
         {
-          "caller": "0xc37262ed814ac7eff1f0e5191f8591518cfab917",
+          "caller": "0xa1a897bee001c25676223e7febc0543681da491d",
           "comment": "test() -> 2, 0x40, 8, \"statevar\"",
           "instance": "X",
           "method": "test()",

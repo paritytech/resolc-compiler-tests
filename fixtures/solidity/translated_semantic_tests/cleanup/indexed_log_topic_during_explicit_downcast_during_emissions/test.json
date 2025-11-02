@@ -4,7 +4,7 @@
       "name": "indexed_log_topic_during_explicit_downcast_during_emissions",
       "inputs": [
         {
-          "caller": "0xa7c4ad961be6a25c16960e362477b26115ad724f",
+          "caller": "0x4c9e7ba68c0835091d239b938295d2bbf2fcfab9",
           "comment": "constructor() ->; ~ emit ev0(bytes1): #\"1\"; gas legacy: 168735",
           "instance": "C",
           "method": "#deployer",
@@ -23,7 +23,7 @@
           }
         },
         {
-          "caller": "0xa7c4ad961be6a25c16960e362477b26115ad724f",
+          "caller": "0x4c9e7ba68c0835091d239b938295d2bbf2fcfab9",
           "comment": "j() ->; ~ emit ev0(bytes1): #\"1\"",
           "instance": "C",
           "method": "j()",

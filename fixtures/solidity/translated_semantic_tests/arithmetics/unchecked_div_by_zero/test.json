@@ -4,7 +4,7 @@
       "name": "unchecked_div_by_zero",
       "inputs": [
         {
-          "caller": "0x4be217be70dbb0fa6aa275d085e949114636d2bd",
+          "caller": "0xbb0a6437608e1685053f9bed73a89d8a8dbdbdd9",
           "comment": "div(uint256,uint256): 7, 2 -> 3",
           "instance": "C",
           "method": "div(uint256,uint256)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x4be217be70dbb0fa6aa275d085e949114636d2bd",
+          "caller": "0xbb0a6437608e1685053f9bed73a89d8a8dbdbdd9",
           "comment": "div(uint256,uint256): 7, 0 -> FAILURE, hex\"4e487b71\", 0x12",
           "instance": "C",
           "method": "div(uint256,uint256)",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0x4be217be70dbb0fa6aa275d085e949114636d2bd",
+          "caller": "0xbb0a6437608e1685053f9bed73a89d8a8dbdbdd9",
           "comment": "mod(uint256,uint256): 7, 2 -> 1",
           "instance": "C",
           "method": "mod(uint256,uint256)",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0x4be217be70dbb0fa6aa275d085e949114636d2bd",
+          "caller": "0xbb0a6437608e1685053f9bed73a89d8a8dbdbdd9",
           "comment": "mod(uint256,uint256): 7, 0 -> FAILURE, hex\"4e487b71\", 0x12",
           "instance": "C",
           "method": "mod(uint256,uint256)",

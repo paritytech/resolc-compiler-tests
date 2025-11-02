@@ -6,7 +6,7 @@
       "name": "block_basefee",
       "inputs": [
         {
-          "caller": "0x4e7de216a5e9d4b4a739f000c033ce7360efa60e",
+          "caller": "0x52e2c243330d07fc666152db2f8492879f5b335f",
           "comment": "f() -> 7",
           "instance": "C",
           "method": "f()",
@@ -17,7 +17,7 @@
           }
         },
         {
-          "caller": "0x4e7de216a5e9d4b4a739f000c033ce7360efa60e",
+          "caller": "0x52e2c243330d07fc666152db2f8492879f5b335f",
           "comment": "g() -> 7",
           "instance": "C",
           "method": "g()",
@@ -28,7 +28,7 @@
           }
         },
         {
-          "caller": "0x4e7de216a5e9d4b4a739f000c033ce7360efa60e",
+          "caller": "0x52e2c243330d07fc666152db2f8492879f5b335f",
           "comment": "f() -> 7",
           "instance": "C",
           "method": "f()",
@@ -39,7 +39,7 @@
           }
         },
         {
-          "caller": "0x4e7de216a5e9d4b4a739f000c033ce7360efa60e",
+          "caller": "0x52e2c243330d07fc666152db2f8492879f5b335f",
           "comment": "g() -> 7",
           "instance": "C",
           "method": "g()",

@@ -4,7 +4,7 @@
       "name": "event_access_through_base_name_emit",
       "inputs": [
         {
-          "caller": "0x92edffc8cdf885c0034a8ecc6be9fa115124cf87",
+          "caller": "0x35593718ea87818de1268bd6d3fa963b35873d6f",
           "comment": "f() -> 1; ~ emit x()",
           "instance": "B",
           "method": "f()",

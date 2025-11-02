@@ -4,7 +4,7 @@
       "name": "inlineasm_empty_let",
       "inputs": [
         {
-          "caller": "0x58e3d4191d68eda53d5461614b26ba1e89f2e4ba",
+          "caller": "0x19b525071b816526c03063cdc73beb868b13824c",
           "comment": "f() -> 0, 0",
           "instance": "C",
           "method": "f()",

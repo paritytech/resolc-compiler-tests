@@ -9,7 +9,7 @@
 //!         {
 //!           "method": "f",
 //!           "calldata": [],
-//!           "caller": "0xfc47fd1b6cc81bc95962c084de4cb2194270d6a3"
+//!           "caller": "0xa2c2756f1da843640571fe88c600ed305f340ed7"
 //!         }
 //!       ],
 //!       "expected": [

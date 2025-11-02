@@ -4,7 +4,7 @@
       "name": "calldata_struct_cleaning",
       "inputs": [
         {
-          "caller": "0x5cfdaedc555b0b7e66eb3f8fe6340cb7bb851914",
+          "caller": "0xed9a58c8bee3511a282716daac4f0c5dbfd8138e",
           "comment": "f((uint8,bytes1)): 0x12, hex\"3400000000000000000000000000000000000000000000000000000000000000\" -> 0x12, hex\"3400000000000000000000000000000000000000000000000000000000000000\"",
           "instance": "C",
           "method": "f((uint8,bytes1))",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x5cfdaedc555b0b7e66eb3f8fe6340cb7bb851914",
+          "caller": "0xed9a58c8bee3511a282716daac4f0c5dbfd8138e",
           "comment": "f((uint8,bytes1)): 0x1234, hex\"5678000000000000000000000000000000000000000000000000000000000000\" -> FAILURE",
           "instance": "C",
           "method": "f((uint8,bytes1))",
@@ -25,7 +25,7 @@
           }
         },
         {
-          "caller": "0x5cfdaedc555b0b7e66eb3f8fe6340cb7bb851914",
+          "caller": "0xed9a58c8bee3511a282716daac4f0c5dbfd8138e",
           "comment": "f((uint8,bytes1)): 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff, 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff -> FAILURE",
           "instance": "C",
           "method": "f((uint8,bytes1))",

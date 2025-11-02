@@ -10,7 +10,7 @@
 //!         {
 //!           "method": "f",
 //!           "calldata": [],
-//!           "caller": "0x8477f22155e425badd49ec9c3edfac9614c3e0a6"
+//!           "caller": "0x6fa32800c411db2a2d9dfa7abc8284559a15f945"
 //!         }
 //!       ],
 //!       "expected": [

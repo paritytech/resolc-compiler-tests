@@ -4,7 +4,7 @@
       "name": "function_modifier_multiple_times_local_vars",
       "inputs": [
         {
-          "caller": "0x8c49bc12ddf8123c57fefa37fd2f5fb7bb1e681e",
+          "caller": "0x68df3b0797befebe4ec6387e6fc7fe6e6b5d6dba",
           "comment": "f(uint256): 3 -> 10",
           "instance": "C",
           "method": "f(uint256)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x8c49bc12ddf8123c57fefa37fd2f5fb7bb1e681e",
+          "caller": "0x68df3b0797befebe4ec6387e6fc7fe6e6b5d6dba",
           "comment": "a() -> 0",
           "instance": "C",
           "method": "a()",

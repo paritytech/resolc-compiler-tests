@@ -1,10 +1,12 @@
 {
+  "comment": "Ignored since storage assertions are not supported in pallet-revive",
+  "ignore": true,
   "cases": [
     {
       "name": "copy_removes_bytes_data",
       "inputs": [
         {
-          "caller": "0x987472d528f667d31e0268a68f1f486f74b3b883",
+          "caller": "0x1250f14750f8502d4f3da47254356df6edc2aedf",
           "comment": "set(): 1, 2, 3, 4, 5 -> true; gas irOptimized: 177344; gas legacy: 177953; gas legacyOptimized: 177550",
           "instance": "c",
           "method": "set()",
@@ -18,10 +20,10 @@
           "comment": "storageEmpty -> 0",
           "address": "c.address",
           "is_storage_empty": false,
-          "caller": "0xCcCEC7B1bf157F536fC2dC799A1f17C6513eF059"
+          "caller": "0x987472D528F667D31e0268A68F1f486f74B3B883"
         },
         {
-          "caller": "0x987472d528f667d31e0268a68f1f486f74b3b883",
+          "caller": "0x1250f14750f8502d4f3da47254356df6edc2aedf",
           "comment": "reset() -> true",
           "instance": "c",
           "method": "reset()",
@@ -35,7 +37,7 @@
           "comment": "storageEmpty -> 1",
           "address": "c.address",
           "is_storage_empty": true,
-          "caller": "0xCcCEC7B1bf157F536fC2dC799A1f17C6513eF059"
+          "caller": "0x987472D528F667D31e0268A68F1f486f74B3B883"
         }
       ]
     }

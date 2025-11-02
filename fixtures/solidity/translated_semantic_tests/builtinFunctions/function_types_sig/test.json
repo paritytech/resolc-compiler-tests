@@ -4,7 +4,7 @@
       "name": "function_types_sig",
       "inputs": [
         {
-          "caller": "0xc9361e3dfd79a2a555f9a4bd23752a3c30cda1f5",
+          "caller": "0x1afc03c89979d906c66f3524da68f353d69c4dfd",
           "comment": "f() -> 0x26121ff000000000000000000000000000000000000000000000000000000000",
           "instance": "C",
           "method": "f()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xc9361e3dfd79a2a555f9a4bd23752a3c30cda1f5",
+          "caller": "0x1afc03c89979d906c66f3524da68f353d69c4dfd",
           "comment": "g() -> 0x26121ff000000000000000000000000000000000000000000000000000000000",
           "instance": "C",
           "method": "g()",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0xc9361e3dfd79a2a555f9a4bd23752a3c30cda1f5",
+          "caller": "0x1afc03c89979d906c66f3524da68f353d69c4dfd",
           "comment": "h() -> 0x26121ff000000000000000000000000000000000000000000000000000000000",
           "instance": "C",
           "method": "h()",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0xc9361e3dfd79a2a555f9a4bd23752a3c30cda1f5",
+          "caller": "0x1afc03c89979d906c66f3524da68f353d69c4dfd",
           "comment": "i() -> 0x0c55699c00000000000000000000000000000000000000000000000000000000",
           "instance": "C",
           "method": "i()",

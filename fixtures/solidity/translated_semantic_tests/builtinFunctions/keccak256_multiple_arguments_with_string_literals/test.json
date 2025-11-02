@@ -4,7 +4,7 @@
       "name": "keccak256_multiple_arguments_with_string_literals",
       "inputs": [
         {
-          "caller": "0xddf80d5467bbc0041e5512cb743a62a73ef91573",
+          "caller": "0x81debecb50084f8f5b2163ae2ff041ab6d5a777d",
           "comment": "foo() -> 0x41b1a0649752af1b28b3dc29a1556eee781e4a4c3a1f7f53f90fa834de098c4d",
           "instance": "c",
           "method": "foo()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xddf80d5467bbc0041e5512cb743a62a73ef91573",
+          "caller": "0x81debecb50084f8f5b2163ae2ff041ab6d5a777d",
           "comment": "bar(uint256,uint16): 0xa, 0xc -> 0x6990f36476dc412b1c4baa48e2d9f4aa4bb313f61fda367c8fdbbb2232dc6146",
           "instance": "c",
           "method": "bar(uint256,uint16)",

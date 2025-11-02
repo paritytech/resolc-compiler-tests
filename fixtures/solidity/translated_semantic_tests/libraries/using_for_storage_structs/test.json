@@ -4,7 +4,7 @@
       "name": "using_for_storage_structs",
       "inputs": [
         {
-          "caller": "0x17d7a50c0ab2ee41247741dbd21ee25f7655b819",
+          "caller": "0x01b70db4ad15d25998fe269f42b19a83ad81f581",
           "comment": "g() -> 7, 7",
           "instance": "C",
           "method": "g()",

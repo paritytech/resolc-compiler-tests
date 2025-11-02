@@ -4,7 +4,7 @@
       "name": "inline_array_singleton",
       "inputs": [
         {
-          "caller": "0x31b1e736ce3c00cf13fa4fc2c8ecc22e706b8a29",
+          "caller": "0x2c68fe182769e191f4941b8b331cd37b5f4fac91",
           "comment": "f() -> 4",
           "instance": "C",
           "method": "f()",

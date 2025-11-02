@@ -4,7 +4,7 @@
       "name": "blobbasefee_shanghai_function",
       "inputs": [
         {
-          "caller": "0x210e5770482ce6a6e074afbe0b6e827c14677821",
+          "caller": "0x8e8617cd8fd1763b32beee2c1a6467e29c3372cc",
           "comment": "f() -> 999",
           "instance": "C",
           "method": "f()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x210e5770482ce6a6e074afbe0b6e827c14677821",
+          "caller": "0x8e8617cd8fd1763b32beee2c1a6467e29c3372cc",
           "comment": "g() -> 1000",
           "instance": "C",
           "method": "g()",

@@ -4,7 +4,7 @@
       "name": "call_attached_library_function_on_storage_variable",
       "inputs": [
         {
-          "caller": "0x1b43c5fbb62e3aa101a11b783bd3d165a1ec1ec2",
+          "caller": "0x03245b2e24d5e7361d8a00664d4133fb9f4031c3",
           "comment": "f(uint256): 7 -> 0x2a",
           "instance": "C",
           "method": "f(uint256)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x1b43c5fbb62e3aa101a11b783bd3d165a1ec1ec2",
+          "caller": "0x03245b2e24d5e7361d8a00664d4133fb9f4031c3",
           "comment": "x() -> 0x2a",
           "instance": "C",
           "method": "x()",

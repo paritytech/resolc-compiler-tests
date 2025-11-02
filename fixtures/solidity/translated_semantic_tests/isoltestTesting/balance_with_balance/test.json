@@ -4,7 +4,7 @@
       "name": "balance_with_balance",
       "inputs": [
         {
-          "caller": "0xb17075c9d3564628a7054dd6ee9e4806c275af61",
+          "caller": "0x1700ced737fcc9d356d2132648cd2f991eb21be9",
           "comment": "constructor(), 1000 wei ->",
           "instance": "ClientReceipt",
           "method": "#deployer",
@@ -18,7 +18,7 @@
           "comment": "balance -> 1000",
           "address": "ClientReceipt.address",
           "expected_balance": "0x3e8",
-          "caller": "0xD48EeB8754dFC7dCA597A08d28a37F8a6B16D684"
+          "caller": "0xb17075c9D3564628a7054Dd6ee9e4806C275AF61"
         }
       ]
     }

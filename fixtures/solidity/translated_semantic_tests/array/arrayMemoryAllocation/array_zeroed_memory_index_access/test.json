@@ -4,7 +4,7 @@
       "name": "array_zeroed_memory_index_access",
       "inputs": [
         {
-          "caller": "0x4ac708da615e24eaf5942abcbecc2b11955c206b",
+          "caller": "0x25bb51dbf1c3acc952f13da94e1f415185c45ded",
           "comment": "set(string,uint256,uint256): 0x60, 5, 0, 32, \"01234567890123456789012345678901\" -> 0",
           "instance": "C",
           "method": "set(string,uint256,uint256)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x4ac708da615e24eaf5942abcbecc2b11955c206b",
+          "caller": "0x25bb51dbf1c3acc952f13da94e1f415185c45ded",
           "comment": "set(string,uint256,uint256): 0x60, 5, 1, 32, \"01234567890123456789012345678901\" -> 0",
           "instance": "C",
           "method": "set(string,uint256,uint256)",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0x4ac708da615e24eaf5942abcbecc2b11955c206b",
+          "caller": "0x25bb51dbf1c3acc952f13da94e1f415185c45ded",
           "comment": "set(string,uint256,uint256): 0x60, 5, 4, 32, \"01234567890123456789012345678901\" -> 0",
           "instance": "C",
           "method": "set(string,uint256,uint256)",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0x4ac708da615e24eaf5942abcbecc2b11955c206b",
+          "caller": "0x25bb51dbf1c3acc952f13da94e1f415185c45ded",
           "comment": "set(string,uint256,uint256): 0x60, 5, 5, 32, \"01234567890123456789012345678901\" -> FAILURE, hex\"4e487b71\", 0x32",
           "instance": "C",
           "method": "set(string,uint256,uint256)",

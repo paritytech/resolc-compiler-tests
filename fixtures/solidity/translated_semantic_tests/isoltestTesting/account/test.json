@@ -4,12 +4,23 @@
       "name": "account",
       "inputs": [
         {
-          "caller": "0xcafb06992776f2a91e38e379488cd0916215b402",
+          "caller": "0x8f1abe7854f6a60b7064f2fb340929c802f562a4",
           "comment": "constructor()",
           "instance": "AccountBuiltinTest",
           "method": "#deployer",
           "calldata": [],
           "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x8f1abe7854f6a60b7064f2fb340929c802f562a4",
+          "comment": "who_am_i() -> 0x8f1abe7854f6a60b7064f2fb340929c802f562a4",
+          "instance": "AccountBuiltinTest",
+          "method": "who_am_i()",
+          "calldata": [],
+          "expected": {
+            "return_data": "0x0000000000000000000000008f1abe7854f6a60b7064f2fb340929c802f562a4",
             "exception": false
           }
         },
@@ -142,17 +153,6 @@
           "calldata": [],
           "expected": {
             "return_data": "0x000000000000000000000000b242b8ddcecea9bdf7b38fbd2c828dfc8ef17c80",
-            "exception": false
-          }
-        },
-        {
-          "caller": "0xf16c8353695613b3206e26ced30bbe257fcd6823",
-          "comment": "who_am_i() -> 0xf16c8353695613b3206e26ced30bbe257fcd6823",
-          "instance": "AccountBuiltinTest",
-          "method": "who_am_i()",
-          "calldata": [],
-          "expected": {
-            "return_data": "0x000000000000000000000000f16c8353695613b3206e26ced30bbe257fcd6823",
             "exception": false
           }
         }

@@ -6,7 +6,7 @@
       "name": "blobhash",
       "inputs": [
         {
-          "caller": "0x573c8a7379419089e39551287748bc1b173ba27e",
+          "caller": "0x05c9bd02e28d9c9272da49adbbcb1f3bbdbccd3b",
           "comment": "f() -> 0x0100000000000000000000000000000000000000000000000000000000000001",
           "instance": "C",
           "method": "f()",
@@ -17,7 +17,7 @@
           }
         },
         {
-          "caller": "0x573c8a7379419089e39551287748bc1b173ba27e",
+          "caller": "0x05c9bd02e28d9c9272da49adbbcb1f3bbdbccd3b",
           "comment": "g() -> 0x0100000000000000000000000000000000000000000000000000000000000002",
           "instance": "C",
           "method": "g()",
@@ -28,7 +28,7 @@
           }
         },
         {
-          "caller": "0x573c8a7379419089e39551287748bc1b173ba27e",
+          "caller": "0x05c9bd02e28d9c9272da49adbbcb1f3bbdbccd3b",
           "comment": "h() -> 0x00",
           "instance": "C",
           "method": "h()",

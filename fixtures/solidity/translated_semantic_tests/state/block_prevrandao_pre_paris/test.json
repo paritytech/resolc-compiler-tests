@@ -4,7 +4,7 @@
       "name": "block_prevrandao_pre_paris",
       "inputs": [
         {
-          "caller": "0x03f97cbf3b4a097bb238b05cf5d1b9165acfa445",
+          "caller": "0xe585dc27b1348c0e6ebe1a59fc7cd49b6177de3a",
           "comment": "f() -> 2500000000000000",
           "instance": "C",
           "method": "f()",

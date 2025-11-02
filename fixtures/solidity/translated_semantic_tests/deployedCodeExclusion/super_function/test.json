@@ -4,7 +4,7 @@
       "name": "super_function",
       "inputs": [
         {
-          "caller": "0x9f70e259f975a36d02392809707f4fdeabc9fa34",
+          "caller": "0x176b325322afdd1e81cd3c58e27eb668054115ff",
           "comment": "test() -> true",
           "instance": "C",
           "method": "test()",

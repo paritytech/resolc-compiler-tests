@@ -4,7 +4,7 @@
       "name": "copy_struct_with_nested_array_from_calldata_to_storage",
       "inputs": [
         {
-          "caller": "0xcffa4fdfd2bba9c81903a3177d80bb6503b95fd5",
+          "caller": "0xe45cf3430a7b9190d6298b4a1794451149f21946",
           "comment": "test((uint8[1],uint8[])): 0x20, 3, 0x40, 2, 7, 11",
           "instance": "C",
           "method": "test((uint8[1],uint8[]))",

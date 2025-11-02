@@ -4,7 +4,7 @@
       "name": "return_does_not_skip_modifier",
       "inputs": [
         {
-          "caller": "0x6cd28dfeb293a0ba0fe303bfaa4571042ab43b4e",
+          "caller": "0x769fb97d9141c59509f7295179f8956000a99e67",
           "comment": "x() -> 0",
           "instance": "C",
           "method": "x()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x6cd28dfeb293a0ba0fe303bfaa4571042ab43b4e",
+          "caller": "0x769fb97d9141c59509f7295179f8956000a99e67",
           "comment": "f() -> 2",
           "instance": "C",
           "method": "f()",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0x6cd28dfeb293a0ba0fe303bfaa4571042ab43b4e",
+          "caller": "0x769fb97d9141c59509f7295179f8956000a99e67",
           "comment": "x() -> 9",
           "instance": "C",
           "method": "x()",

@@ -4,7 +4,7 @@
       "name": "sha256_packed",
       "inputs": [
         {
-          "caller": "0xddc4f48ff58eb02be750304e2c287f94f1fc71b4",
+          "caller": "0x773a327977a52f41252f5cf486f5fb809c68ed95",
           "comment": "f(int256): 4 -> 0x804e0d7003cfd70fc925dc103174d9f898ebb142ecc2a286da1abd22ac2ce3ac",
           "instance": "C",
           "method": "f(int256)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xddc4f48ff58eb02be750304e2c287f94f1fc71b4",
+          "caller": "0x773a327977a52f41252f5cf486f5fb809c68ed95",
           "comment": "f(int256): 5 -> 0xe94921945f9068726c529a290a954f412bcac53184bb41224208a31edbf63cf0",
           "instance": "C",
           "method": "f(int256)",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0xddc4f48ff58eb02be750304e2c287f94f1fc71b4",
+          "caller": "0x773a327977a52f41252f5cf486f5fb809c68ed95",
           "comment": "f(int256): -1 -> 0xf14def4d07cd185ddd8b10a81b2238326196a38867e6e6adbcc956dc913488c7",
           "instance": "C",
           "method": "f(int256)",

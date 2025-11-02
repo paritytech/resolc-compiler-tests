@@ -4,7 +4,7 @@
       "name": "function_modifier_local_variables",
       "inputs": [
         {
-          "caller": "0x68df3b0797befebe4ec6387e6fc7fe6e6b5d6dba",
+          "caller": "0x72c08108bfbc20e3fb7a0c8613b7e3b181e864f0",
           "comment": "f(bool): true -> 0",
           "instance": "C",
           "method": "f(bool)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x68df3b0797befebe4ec6387e6fc7fe6e6b5d6dba",
+          "caller": "0x72c08108bfbc20e3fb7a0c8613b7e3b181e864f0",
           "comment": "f(bool): false -> 3",
           "instance": "C",
           "method": "f(bool)",

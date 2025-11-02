@@ -4,7 +4,7 @@
       "name": "internal_library_function_attached_to_contract",
       "inputs": [
         {
-          "caller": "0xda10c515da589613b84e12ad1f7d7467f4d0f90d",
+          "caller": "0x2d4572a760eb715f01e08d7ba199b0aa29fdcf6f",
           "comment": "test() -> 42",
           "instance": "C",
           "method": "test()",

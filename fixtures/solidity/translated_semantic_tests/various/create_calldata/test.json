@@ -4,7 +4,7 @@
       "name": "create_calldata",
       "inputs": [
         {
-          "caller": "0x88f11095779d9a82de5ec81f04642ea2a884bd00",
+          "caller": "0xc58a36b0c1b2411f658be5602d98463dd05a1a2f",
           "comment": "constructor(): 42 ->; gas irOptimized: 68239; gas irOptimized code: 69000; gas legacy: 78076; gas legacy code: 90200; gas legacyOptimized: 68321; gas legacyOptimized code: 64600",
           "instance": "C",
           "method": "#deployer",
@@ -14,7 +14,7 @@
           }
         },
         {
-          "caller": "0x88f11095779d9a82de5ec81f04642ea2a884bd00",
+          "caller": "0xc58a36b0c1b2411f658be5602d98463dd05a1a2f",
           "comment": "s() -> 0x20, 0",
           "instance": "C",
           "method": "s()",

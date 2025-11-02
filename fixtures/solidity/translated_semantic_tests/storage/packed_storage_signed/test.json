@@ -4,7 +4,7 @@
       "name": "packed_storage_signed",
       "inputs": [
         {
-          "caller": "0x3e0e57709574bb9616acd60d378af03a91f17481",
+          "caller": "0xf9cd329ab266af8ae7ce3b36b2440328fa0713f1",
           "comment": "test() -> -2, 4, -112, 0",
           "instance": "C",
           "method": "test()",

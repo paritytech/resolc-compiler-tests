@@ -4,7 +4,7 @@
       "name": "mappings_array2d_pop_delete",
       "inputs": [
         {
-          "caller": "0xfcb28079e05c6608664bf4c430b17deee4ba67e7",
+          "caller": "0x7535d9bc875fdfb4e7e3a4c8625ff157a4350feb",
           "comment": "n1(uint256,uint256): 42, 64 ->",
           "instance": "C",
           "method": "n1(uint256,uint256)",
@@ -14,7 +14,7 @@
           }
         },
         {
-          "caller": "0xfcb28079e05c6608664bf4c430b17deee4ba67e7",
+          "caller": "0x7535d9bc875fdfb4e7e3a4c8625ff157a4350feb",
           "comment": "map(uint256): 42 -> 64",
           "instance": "C",
           "method": "map(uint256)",
@@ -25,7 +25,7 @@
           }
         },
         {
-          "caller": "0xfcb28079e05c6608664bf4c430b17deee4ba67e7",
+          "caller": "0x7535d9bc875fdfb4e7e3a4c8625ff157a4350feb",
           "comment": "p() ->",
           "instance": "C",
           "method": "p()",
@@ -35,7 +35,7 @@
           }
         },
         {
-          "caller": "0xfcb28079e05c6608664bf4c430b17deee4ba67e7",
+          "caller": "0x7535d9bc875fdfb4e7e3a4c8625ff157a4350feb",
           "comment": "n2() ->",
           "instance": "C",
           "method": "n2()",
@@ -45,7 +45,7 @@
           }
         },
         {
-          "caller": "0xfcb28079e05c6608664bf4c430b17deee4ba67e7",
+          "caller": "0x7535d9bc875fdfb4e7e3a4c8625ff157a4350feb",
           "comment": "map(uint256): 42 -> 64",
           "instance": "C",
           "method": "map(uint256)",
@@ -56,7 +56,7 @@
           }
         },
         {
-          "caller": "0xfcb28079e05c6608664bf4c430b17deee4ba67e7",
+          "caller": "0x7535d9bc875fdfb4e7e3a4c8625ff157a4350feb",
           "comment": "d() -> 0",
           "instance": "C",
           "method": "d()",
@@ -67,7 +67,7 @@
           }
         },
         {
-          "caller": "0xfcb28079e05c6608664bf4c430b17deee4ba67e7",
+          "caller": "0x7535d9bc875fdfb4e7e3a4c8625ff157a4350feb",
           "comment": "n2() ->",
           "instance": "C",
           "method": "n2()",
@@ -77,7 +77,7 @@
           }
         },
         {
-          "caller": "0xfcb28079e05c6608664bf4c430b17deee4ba67e7",
+          "caller": "0x7535d9bc875fdfb4e7e3a4c8625ff157a4350feb",
           "comment": "map(uint256): 42 -> 64",
           "instance": "C",
           "method": "map(uint256)",

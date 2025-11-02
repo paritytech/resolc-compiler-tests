@@ -4,7 +4,7 @@
       "name": "codebalance_assembly",
       "inputs": [
         {
-          "caller": "0x6a25cb1ee117089f0ec4e92fa3729cdc64097b17",
+          "caller": "0xbecf966df49edd9f15f2af431485f74e77b62f25",
           "comment": "constructor(), 23 wei ->; gas legacy: 100517",
           "instance": "C",
           "method": "#deployer",
@@ -15,7 +15,7 @@
           "value": "23 wei"
         },
         {
-          "caller": "0x6a25cb1ee117089f0ec4e92fa3729cdc64097b17",
+          "caller": "0xbecf966df49edd9f15f2af431485f74e77b62f25",
           "comment": "f() -> 0",
           "instance": "C",
           "method": "f()",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0x6a25cb1ee117089f0ec4e92fa3729cdc64097b17",
+          "caller": "0xbecf966df49edd9f15f2af431485f74e77b62f25",
           "comment": "g() -> 0",
           "instance": "C",
           "method": "g()",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0x6a25cb1ee117089f0ec4e92fa3729cdc64097b17",
+          "caller": "0xbecf966df49edd9f15f2af431485f74e77b62f25",
           "comment": "h() -> 23",
           "instance": "C",
           "method": "h()",

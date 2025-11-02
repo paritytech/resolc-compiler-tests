@@ -4,7 +4,7 @@
       "name": "memory_arrays_delete",
       "inputs": [
         {
-          "caller": "0x1848d8eaeb0b1383f0a979ba20e63141194e1900",
+          "caller": "0x1d91dcf3d2aa0ccdd51e6781ad9e968392ab365d",
           "comment": "del() -> 0, 1, 2, 0, 0, 0, 0x20, 0x21, 0x22, 0x30, 0x31, 0",
           "instance": "Test",
           "method": "del()",

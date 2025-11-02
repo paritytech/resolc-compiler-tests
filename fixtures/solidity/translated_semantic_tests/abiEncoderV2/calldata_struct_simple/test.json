@@ -4,7 +4,7 @@
       "name": "calldata_struct_simple",
       "inputs": [
         {
-          "caller": "0xf1b430efe21f98fad2322c80876f100931493a9d",
+          "caller": "0xb6575e5e2aebdca67d344818e85836b998dbfd71",
           "comment": "f((uint256)): 3 -> 32, 32, 3",
           "instance": "C",
           "method": "f((uint256))",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xf1b430efe21f98fad2322c80876f100931493a9d",
+          "caller": "0xb6575e5e2aebdca67d344818e85836b998dbfd71",
           "comment": "g((uint256)): 3 -> 32, 32, 3",
           "instance": "C",
           "method": "g((uint256))",

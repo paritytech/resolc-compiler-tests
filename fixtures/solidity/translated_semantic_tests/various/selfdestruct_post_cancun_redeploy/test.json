@@ -6,7 +6,7 @@
       "name": "selfdestruct_post_cancun_redeploy",
       "inputs": [
         {
-          "caller": "0x340f302e4d45de13741e53556b6c5a351518ad36",
+          "caller": "0x35fa53f123989b0b6029d465c80b02e5b2263a97",
           "comment": "constructor(), 1 ether ->; gas irOptimized: 132974; gas irOptimized code: 293800; gas legacy: 151236; gas legacy code: 533800; gas legacyOptimized: 131436; gas legacyOptimized code: 276600",
           "instance": "D",
           "method": "#deployer",
@@ -17,7 +17,7 @@
           "value": "1000000000000000000 wei"
         },
         {
-          "caller": "0x340f302e4d45de13741e53556b6c5a351518ad36",
+          "caller": "0x35fa53f123989b0b6029d465c80b02e5b2263a97",
           "comment": "exists() -> false",
           "instance": "D",
           "method": "exists()",
@@ -28,7 +28,7 @@
           }
         },
         {
-          "caller": "0x340f302e4d45de13741e53556b6c5a351518ad36",
+          "caller": "0x35fa53f123989b0b6029d465c80b02e5b2263a97",
           "comment": "test_deploy_and_terminate() ->; ~ emit Deployed(address,bytes32) from 0x137aa4dfc0911524504fcd4d98501f179bc13b4a: 0x7e6580007e709ac52945fae182c61131d42634e8, 0x1234000000000000000000000000000000000000000000000000000000000000; gas irOptimized: 96528; gas irOptimized code: 20800; gas legacy: 97788; gas legacy code: 20800; gas legacyOptimized: 96043; gas legacyOptimized code: 20800",
           "instance": "D",
           "method": "test_deploy_and_terminate()",
@@ -46,7 +46,7 @@
           }
         },
         {
-          "caller": "0x340f302e4d45de13741e53556b6c5a351518ad36",
+          "caller": "0x35fa53f123989b0b6029d465c80b02e5b2263a97",
           "comment": "exists() -> false",
           "instance": "D",
           "method": "exists()",
@@ -57,7 +57,7 @@
           }
         },
         {
-          "caller": "0x340f302e4d45de13741e53556b6c5a351518ad36",
+          "caller": "0x35fa53f123989b0b6029d465c80b02e5b2263a97",
           "comment": "deploy_create2() ->; ~ emit Deployed(address,bytes32) from 0x137aa4dfc0911524504fcd4d98501f179bc13b4a: 0x7e6580007e709ac52945fae182c61131d42634e8, 0x1234000000000000000000000000000000000000000000000000000000000000",
           "instance": "D",
           "method": "deploy_create2()",
@@ -75,7 +75,7 @@
           }
         },
         {
-          "caller": "0x340f302e4d45de13741e53556b6c5a351518ad36",
+          "caller": "0x35fa53f123989b0b6029d465c80b02e5b2263a97",
           "comment": "test_balance_after_create() ->",
           "instance": "D",
           "method": "test_balance_after_create()",
@@ -85,7 +85,7 @@
           }
         },
         {
-          "caller": "0x340f302e4d45de13741e53556b6c5a351518ad36",
+          "caller": "0x35fa53f123989b0b6029d465c80b02e5b2263a97",
           "comment": "exists() -> true",
           "instance": "D",
           "method": "exists()",
@@ -96,7 +96,7 @@
           }
         },
         {
-          "caller": "0x340f302e4d45de13741e53556b6c5a351518ad36",
+          "caller": "0x35fa53f123989b0b6029d465c80b02e5b2263a97",
           "comment": "terminate() ->",
           "instance": "D",
           "method": "terminate()",
@@ -106,7 +106,7 @@
           }
         },
         {
-          "caller": "0x340f302e4d45de13741e53556b6c5a351518ad36",
+          "caller": "0x35fa53f123989b0b6029d465c80b02e5b2263a97",
           "comment": "test_balance_after_selfdestruct() ->",
           "instance": "D",
           "method": "test_balance_after_selfdestruct()",
@@ -116,7 +116,7 @@
           }
         },
         {
-          "caller": "0x340f302e4d45de13741e53556b6c5a351518ad36",
+          "caller": "0x35fa53f123989b0b6029d465c80b02e5b2263a97",
           "comment": "exists() -> true",
           "instance": "D",
           "method": "exists()",
@@ -127,7 +127,7 @@
           }
         },
         {
-          "caller": "0x340f302e4d45de13741e53556b6c5a351518ad36",
+          "caller": "0x35fa53f123989b0b6029d465c80b02e5b2263a97",
           "comment": "deploy_create2() -> FAILURE; gas irOptimized: 96903654; gas legacy: 96903658; gas legacyOptimized: 96903639",
           "instance": "D",
           "method": "deploy_create2()",

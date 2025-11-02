@@ -4,7 +4,7 @@
       "name": "indexed_log_topic_during_explicit_downcast",
       "inputs": [
         {
-          "caller": "0x9ee0fe62510b8056280b6f4bf0445833a4240463",
+          "caller": "0x135b55600d54e7c161a3b47a867d05a03cab6f5d",
           "comment": "f() -> 0x31",
           "instance": "C",
           "method": "f()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x9ee0fe62510b8056280b6f4bf0445833a4240463",
+          "caller": "0x135b55600d54e7c161a3b47a867d05a03cab6f5d",
           "comment": "g() -> 0x3100000000000000000000000000000000000000000000000000000000000000",
           "instance": "C",
           "method": "g()",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0x9ee0fe62510b8056280b6f4bf0445833a4240463",
+          "caller": "0x135b55600d54e7c161a3b47a867d05a03cab6f5d",
           "comment": "h() -> 0xff00000000000000000000000000000000000000000000000000000000000000",
           "instance": "C",
           "method": "h()",

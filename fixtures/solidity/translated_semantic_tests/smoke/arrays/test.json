@@ -4,7 +4,7 @@
       "name": "arrays",
       "inputs": [
         {
-          "caller": "0x2437856359273fbf5895eac584a423cc5c297d2f",
+          "caller": "0xbaaa8c917993f2ec657a67771556c288b4f431f2",
           "comment": "r() -> true, false, true",
           "instance": "C",
           "method": "r()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x2437856359273fbf5895eac584a423cc5c297d2f",
+          "caller": "0xbaaa8c917993f2ec657a67771556c288b4f431f2",
           "comment": "s() -> 123, 456, 789",
           "instance": "C",
           "method": "s()",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0x2437856359273fbf5895eac584a423cc5c297d2f",
+          "caller": "0xbaaa8c917993f2ec657a67771556c288b4f431f2",
           "comment": "u() -> 0x20, 0x40, 0xE0, 23, 42, 0x60, 3, \"any\", 555, 666, 0x60, 3, \"any\"",
           "instance": "C",
           "method": "u()",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0x2437856359273fbf5895eac584a423cc5c297d2f",
+          "caller": "0xbaaa8c917993f2ec657a67771556c288b4f431f2",
           "comment": "v() -> 0x20, 0",
           "instance": "C",
           "method": "v()",
@@ -48,7 +48,7 @@
           }
         },
         {
-          "caller": "0x2437856359273fbf5895eac584a423cc5c297d2f",
+          "caller": "0xbaaa8c917993f2ec657a67771556c288b4f431f2",
           "comment": "w1() -> 0x20, 0x20, 3, \"any\"",
           "instance": "C",
           "method": "w1()",
@@ -59,7 +59,7 @@
           }
         },
         {
-          "caller": "0x2437856359273fbf5895eac584a423cc5c297d2f",
+          "caller": "0xbaaa8c917993f2ec657a67771556c288b4f431f2",
           "comment": "w2() -> 0x20, 0x40, 0x80, 3, \"any\", 3, \"any\"",
           "instance": "C",
           "method": "w2()",
@@ -70,7 +70,7 @@
           }
         },
         {
-          "caller": "0x2437856359273fbf5895eac584a423cc5c297d2f",
+          "caller": "0xbaaa8c917993f2ec657a67771556c288b4f431f2",
           "comment": "w3() -> 0x20, 0x60, 0xa0, 0xe0, 3, \"any\", 3, \"any\", 3, \"any\"",
           "instance": "C",
           "method": "w3()",
@@ -81,7 +81,7 @@
           }
         },
         {
-          "caller": "0x2437856359273fbf5895eac584a423cc5c297d2f",
+          "caller": "0xbaaa8c917993f2ec657a67771556c288b4f431f2",
           "comment": "x() -> 0x40, 0x0100, 0x40, 0x80, 3, \"any\", 3, \"any\", 0x60, 0xa0, 0xe0, 3, \"any\", 3, \"any\", 3, \"any\"",
           "instance": "C",
           "method": "x()",

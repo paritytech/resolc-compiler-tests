@@ -4,7 +4,7 @@
       "name": "error_static_calldata_uint_array_and_dynamic_array",
       "inputs": [
         {
-          "caller": "0xa14e7020558424614f088c862981d2f03b789296",
+          "caller": "0xa20cf207341e75781c0197f6c55c91ecb402ddd4",
           "comment": "f(uint256[],uint256[1]): 0x40, 0xff, 1, 0xffff -> FAILURE, hex\"f42f106d\", 0x40, 0xff, 1, 0xffff",
           "instance": "C",
           "method": "f(uint256[],uint256[1])",

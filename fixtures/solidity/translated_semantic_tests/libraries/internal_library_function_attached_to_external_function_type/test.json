@@ -4,7 +4,7 @@
       "name": "internal_library_function_attached_to_external_function_type",
       "inputs": [
         {
-          "caller": "0xfa39bcd4fcf463a519bd15c985706f9f6d4938f4",
+          "caller": "0xb88e43a8d0f506bae38deb673b0d0fc23c45e4b2",
           "comment": "test(uint256): 5 -> 10",
           "instance": "C",
           "method": "test(uint256)",

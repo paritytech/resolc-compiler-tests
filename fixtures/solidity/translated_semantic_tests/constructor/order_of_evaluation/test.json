@@ -4,7 +4,7 @@
       "name": "order_of_evaluation",
       "inputs": [
         {
-          "caller": "0xb051e21236f43b99eaf62faa8177b9d98dae98d0",
+          "caller": "0x1f782a65d0232e584700627f93387da921b9c8d2",
           "comment": "g() -> 0x20, 4, 1, 3, 2, 4",
           "instance": "X",
           "method": "g()",

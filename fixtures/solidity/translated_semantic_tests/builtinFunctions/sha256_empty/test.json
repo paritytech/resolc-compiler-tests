@@ -4,7 +4,7 @@
       "name": "sha256_empty",
       "inputs": [
         {
-          "caller": "0xaa527a7f5db8b40a87a8a01e5ebc5441b03a7082",
+          "caller": "0x9c679c27661e537b20eb8b689b81990731def1c7",
           "comment": "f() -> 0xe3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
           "instance": "C",
           "method": "f()",

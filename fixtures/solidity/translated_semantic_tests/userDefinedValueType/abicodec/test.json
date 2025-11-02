@@ -4,7 +4,7 @@
       "name": "abicodec",
       "inputs": [
         {
-          "caller": "0x5feddc6d9fdc6e4c3417a4fa0c642995ad0180f2",
+          "caller": "0xff89070be7b8cd535bf72ed75c9e851b5f583d92",
           "comment": "g() -> true",
           "instance": "C",
           "method": "g()",

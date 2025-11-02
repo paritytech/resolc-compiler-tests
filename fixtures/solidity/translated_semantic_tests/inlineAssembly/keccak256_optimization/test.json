@@ -4,7 +4,7 @@
       "name": "keccak256_optimization",
       "inputs": [
         {
-          "caller": "0x8e8617cd8fd1763b32beee2c1a6467e29c3372cc",
+          "caller": "0xe18fed4111f634bc2efaf99ed4f595c724c9705a",
           "comment": "f() -> true",
           "instance": "C",
           "method": "f()",

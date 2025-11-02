@@ -4,7 +4,7 @@
       "name": "dirty_calldata_struct",
       "inputs": [
         {
-          "caller": "0x24c8020b422dd25b14ac709418a11aaa62166a71",
+          "caller": "0x6513ec05abf47e72b5ef2075b70595fdbe548f48",
           "comment": "f((uint16[])): 0x20, 0x20, 0x01, 0x0180 -> true",
           "instance": "C",
           "method": "f((uint16[]))",

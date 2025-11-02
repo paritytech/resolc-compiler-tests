@@ -4,7 +4,7 @@
       "name": "chainid",
       "inputs": [
         {
-          "caller": "0x5c664540bc6bb6b22e9d1d3d630c73c02edd94b7",
+          "caller": "0x7255a100315e40d7c84ce66b4e2ed727548691c7",
           "comment": "f() -> 420420420",
           "instance": "C",
           "method": "f()",

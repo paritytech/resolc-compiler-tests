@@ -4,7 +4,7 @@
       "name": "byte_optimization_bug",
       "inputs": [
         {
-          "caller": "0x361442fd210ff34cddb7b3d92ace258159f31562",
+          "caller": "0x6ecf58ca35dc2c12d96e163db337f670b0554dbb",
           "comment": "f(uint256): 2 -> 0",
           "instance": "C",
           "method": "f(uint256)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x361442fd210ff34cddb7b3d92ace258159f31562",
+          "caller": "0x6ecf58ca35dc2c12d96e163db337f670b0554dbb",
           "comment": "g(uint256): 2 -> 2",
           "instance": "C",
           "method": "g(uint256)",

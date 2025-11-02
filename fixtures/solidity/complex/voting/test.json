@@ -20,44 +20,44 @@
           "expected": [
             "Ballot.address"
           ],
-          "caller": "0xe4c6ea8454bbb7e092e3fdad8a1145d4f8066464"
+          "caller": "0x2d79555f15e1192d98bd94ced9b2cf086019a8e3"
         },
         {
           "instance": "Ballot",
           "method": "giveRightToVote",
           "calldata": [
-            "0xc3ee0a4c61a7b484b2cec2b988ce98e7a4607b7e"
+            "0xe4c6ea8454bbb7e092e3fdad8a1145d4f8066464"
           ],
-          "caller": "0xe4c6ea8454bbb7e092e3fdad8a1145d4f8066464"
+          "caller": "0x2d79555f15e1192d98bd94ced9b2cf086019a8e3"
         },
         {
           "instance": "Ballot",
           "method": "giveRightToVote",
           "calldata": [
-            "0xc3ee0a4c61a7b484b2cec2b988ce98e7a4607b7e"
+            "0xe4c6ea8454bbb7e092e3fdad8a1145d4f8066464"
           ],
-          "caller": "0xe4c6ea8454bbb7e092e3fdad8a1145d4f8066464"
+          "caller": "0x2d79555f15e1192d98bd94ced9b2cf086019a8e3"
         },
         {
           "instance": "Ballot",
           "method": "giveRightToVote",
           "calldata": [
-            "0xc3ee0a4c61a7b484b2cec2b988ce98e7a4607b7e"
+            "0xe4c6ea8454bbb7e092e3fdad8a1145d4f8066464"
           ],
-          "caller": "0xe4c6ea8454bbb7e092e3fdad8a1145d4f8066464"
+          "caller": "0x2d79555f15e1192d98bd94ced9b2cf086019a8e3"
         },
         {
           "instance": "Ballot",
           "method": "giveRightToVote",
           "calldata": [
-            "0xc3ee0a4c61a7b484b2cec2b988ce98e7a4607b7e"
+            "0xe4c6ea8454bbb7e092e3fdad8a1145d4f8066464"
           ],
-          "caller": "0xe4c6ea8454bbb7e092e3fdad8a1145d4f8066464"
+          "caller": "0x2d79555f15e1192d98bd94ced9b2cf086019a8e3"
         },
         {
           "instance": "Ballot",
           "method": "vote(uint256)",
-          "caller": "0xc3ee0a4c61a7b484b2cec2b988ce98e7a4607b7e",
+          "caller": "0xe4c6ea8454bbb7e092e3fdad8a1145d4f8066464",
           "calldata": [
             "1"
           ]
@@ -65,7 +65,7 @@
         {
           "instance": "Ballot",
           "method": "vote(uint256)",
-          "caller": "0xc3ee0a4c61a7b484b2cec2b988ce98e7a4607b7e",
+          "caller": "0xe4c6ea8454bbb7e092e3fdad8a1145d4f8066464",
           "calldata": [
             "0"
           ]
@@ -73,7 +73,7 @@
         {
           "instance": "Ballot",
           "method": "vote(uint256)",
-          "caller": "0xc3ee0a4c61a7b484b2cec2b988ce98e7a4607b7e",
+          "caller": "0xe4c6ea8454bbb7e092e3fdad8a1145d4f8066464",
           "calldata": [
             "2"
           ]
@@ -81,7 +81,7 @@
         {
           "instance": "Ballot",
           "method": "vote(uint256)",
-          "caller": "0xc3ee0a4c61a7b484b2cec2b988ce98e7a4607b7e",
+          "caller": "0xe4c6ea8454bbb7e092e3fdad8a1145d4f8066464",
           "calldata": [
             "1"
           ]
@@ -93,7 +93,7 @@
           "expected": [
             "5"
           ],
-          "caller": "0xe4c6ea8454bbb7e092e3fdad8a1145d4f8066464"
+          "caller": "0x2d79555f15e1192d98bd94ced9b2cf086019a8e3"
         }
       ],
       "expected": [

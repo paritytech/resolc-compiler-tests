@@ -4,7 +4,7 @@
       "name": "format_raw_string_with_control_chars",
       "inputs": [
         {
-          "caller": "0x190596dc73afb2748d75b84ea16ea525745eb466",
+          "caller": "0x03ee8124771e6ab1961aa08bddfbc9408d2a6d33",
           "comment": "f(string): 0x20, 16, \"\\xf0\\x9f\\x98\\x83\\xf0\\x9f\\x98\\x83\\xf0\\x9f\\x98\\x83\\xf0\\x9f\\x98\\x83\" -> 0x20, 16, \"\\xf0\\x9f\\x98\\x83\\xf0\\x9f\\x98\\x83\\xf0\\x9f\\x98\\x83\\xf0\\x9f\\x98\\x83\"",
           "instance": "C",
           "method": "f(string)",

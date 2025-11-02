@@ -4,7 +4,7 @@
       "name": "array_push_nested",
       "inputs": [
         {
-          "caller": "0x775fda1c8b55988712cb0cb2386b0bf84a322ee3",
+          "caller": "0x1924faa64be5c6c379d89a5e08ee11c239c63a90",
           "comment": "f() ->",
           "instance": "C",
           "method": "f()",

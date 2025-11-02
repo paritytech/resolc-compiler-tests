@@ -16,13 +16,13 @@
             "12",
             "0x58207761732063616c6c65640000000000000000000000000000000000000000"
           ],
-          "caller": "0xfb4954bf98bf7740dcbb37341505eafbe63cd76b"
+          "caller": "0x24085d6e443c6a8b132246621ce8406fb63b0066"
         },
         {
           "instance": "D",
           "method": "text",
           "calldata": [],
-          "caller": "0xfb4954bf98bf7740dcbb37341505eafbe63cd76b"
+          "caller": "0x24085d6e443c6a8b132246621ce8406fb63b0066"
         }
       ],
       "expected": [
@@ -43,13 +43,13 @@
             "12",
             "0x58207761732063616c6c65640000000000000000000000000000000000000000"
           ],
-          "caller": "0x2591177f73135324d646556fc4c880ac8a149c8e"
+          "caller": "0xfb4954bf98bf7740dcbb37341505eafbe63cd76b"
         },
         {
           "instance": "E",
           "method": "text",
           "calldata": [],
-          "caller": "0x2591177f73135324d646556fc4c880ac8a149c8e"
+          "caller": "0xfb4954bf98bf7740dcbb37341505eafbe63cd76b"
         }
       ],
       "expected": [

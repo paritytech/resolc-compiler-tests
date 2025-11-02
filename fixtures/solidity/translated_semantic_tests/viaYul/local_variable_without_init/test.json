@@ -4,7 +4,7 @@
       "name": "local_variable_without_init",
       "inputs": [
         {
-          "caller": "0xff772ca0efd4355c69226dd11025c5254f6117f0",
+          "caller": "0xcc9d0a929ac832f6ee5035d7a261a9bb7bb907dc",
           "comment": "f() -> 0",
           "instance": "C",
           "method": "f()",

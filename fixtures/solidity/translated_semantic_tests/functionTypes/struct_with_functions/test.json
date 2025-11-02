@@ -4,7 +4,7 @@
       "name": "struct_with_functions",
       "inputs": [
         {
-          "caller": "0xe8f2243fa2fcbe53647d1f4c5618d18b955502e3",
+          "caller": "0x39a1d0f47a89a8e5a6da4b02fb1450b67a0c9a19",
           "comment": "f() -> 1, 2",
           "instance": "Flow",
           "method": "f()",

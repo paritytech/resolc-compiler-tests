@@ -4,7 +4,7 @@
       "name": "calldata_array_function_types",
       "inputs": [
         {
-          "caller": "0x3118481d4241ec9d0c08a986683738418105c262",
+          "caller": "0x87f7fc6184b26b0b56ad754271468b87c80234ab",
           "comment": "g(bool): false -> 23, 37, 71",
           "instance": "C",
           "method": "g(bool)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x3118481d4241ec9d0c08a986683738418105c262",
+          "caller": "0x87f7fc6184b26b0b56ad754271468b87c80234ab",
           "comment": "g(bool): true -> 23, 37, 71",
           "instance": "C",
           "method": "g(bool)",

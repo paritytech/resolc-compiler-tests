@@ -4,7 +4,7 @@
       "name": "transient_storage_selfdestruct",
       "inputs": [
         {
-          "caller": "0xe083aeac80053f1fd665f8ccfe5e200bb19c1b27",
+          "caller": "0x5dbec9f1dc196861a3074aa6b868d8b2551f966d",
           "comment": "constructor() ->; gas irOptimized: 127596; gas irOptimized code: 221000; gas legacy: 149480; gas legacy code: 501200; gas legacyOptimized: 125846; gas legacyOptimized code: 203400",
           "instance": "D",
           "method": "#deployer",
@@ -14,7 +14,7 @@
           }
         },
         {
-          "caller": "0xe083aeac80053f1fd665f8ccfe5e200bb19c1b27",
+          "caller": "0x5dbec9f1dc196861a3074aa6b868d8b2551f966d",
           "comment": "destroy() ->",
           "instance": "D",
           "method": "destroy()",
@@ -24,7 +24,7 @@
           }
         },
         {
-          "caller": "0xe083aeac80053f1fd665f8ccfe5e200bb19c1b27",
+          "caller": "0x5dbec9f1dc196861a3074aa6b868d8b2551f966d",
           "comment": "createAndDestroy() ->; gas legacy: 67048; gas legacy code: 92600; gas legacyOptimized: 65677; gas legacyOptimized code: 39400",
           "instance": "D",
           "method": "createAndDestroy()",

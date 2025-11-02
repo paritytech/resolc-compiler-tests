@@ -4,7 +4,7 @@
       "name": "strings",
       "inputs": [
         {
-          "caller": "0x14138a94cef4139fe2e787d6b96422ccdf3015e8",
+          "caller": "0xaf268cfee2fc229cc096051f1ef729aa74bbff00",
           "comment": "fixedBytesHex() -> \"\\xaa\\xbb\\x00\\xff\"",
           "instance": "test",
           "method": "fixedBytesHex()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x14138a94cef4139fe2e787d6b96422ccdf3015e8",
+          "caller": "0xaf268cfee2fc229cc096051f1ef729aa74bbff00",
           "comment": "fixedBytes() -> \"abc\\x00\\xff__\"",
           "instance": "test",
           "method": "fixedBytes()",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0x14138a94cef4139fe2e787d6b96422ccdf3015e8",
+          "caller": "0xaf268cfee2fc229cc096051f1ef729aa74bbff00",
           "comment": "pipeThrough(bytes2,bool): \"\\x00\\x02\", true -> \"\\x00\\x02\", true",
           "instance": "test",
           "method": "pipeThrough(bytes2,bool)",

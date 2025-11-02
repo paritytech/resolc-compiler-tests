@@ -4,7 +4,7 @@
       "name": "struct_storage_ptr",
       "inputs": [
         {
-          "caller": "0x5f05e0e57a86d687aba39dea09da812003ac9bfd",
+          "caller": "0x04656342414d58bea2b93883d44edff8b7c6fe83",
           "comment": "f() -> 8, 7, 1, 2, 7, 12; gas irOptimized: 166761; gas legacy: 169273; gas legacyOptimized: 167243",
           "instance": "C",
           "method": "f()",

@@ -4,7 +4,7 @@
       "name": "ternary_operator_with_literal_types_overflow",
       "inputs": [
         {
-          "caller": "0x52e5411cfdb0e2116649f29dfce04514f3eeb0fa",
+          "caller": "0xf9c13bfbdabb6f37b7f04ed40a9f49220d0b54e2",
           "comment": "g() -> FAILURE, hex\"4e487b71\", 0x11",
           "instance": "TestTernary",
           "method": "g()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x52e5411cfdb0e2116649f29dfce04514f3eeb0fa",
+          "caller": "0xf9c13bfbdabb6f37b7f04ed40a9f49220d0b54e2",
           "comment": "h() -> FAILURE, hex\"4e487b71\", 0x11",
           "instance": "TestTernary",
           "method": "h()",

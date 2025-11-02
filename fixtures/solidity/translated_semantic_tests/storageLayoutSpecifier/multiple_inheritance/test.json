@@ -4,7 +4,7 @@
       "name": "multiple_inheritance",
       "inputs": [
         {
-          "caller": "0x8adef81d3afd683ca0ada407e22ca509646de8f8",
+          "caller": "0xaacc0d450fd12d0eddc97297fb9348240ea8ec60",
           "comment": "test() -> 1, 2, 3, 5; gas irOptimized: 110112; gas legacy: 111881; gas legacyOptimized: 110945",
           "instance": "D",
           "method": "test()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x8adef81d3afd683ca0ada407e22ca509646de8f8",
+          "caller": "0xaacc0d450fd12d0eddc97297fb9348240ea8ec60",
           "comment": "x() -> 1",
           "instance": "D",
           "method": "x()",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0x8adef81d3afd683ca0ada407e22ca509646de8f8",
+          "caller": "0xaacc0d450fd12d0eddc97297fb9348240ea8ec60",
           "comment": "y() -> 2",
           "instance": "D",
           "method": "y()",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0x8adef81d3afd683ca0ada407e22ca509646de8f8",
+          "caller": "0xaacc0d450fd12d0eddc97297fb9348240ea8ec60",
           "comment": "w() -> 3",
           "instance": "D",
           "method": "w()",
@@ -48,7 +48,7 @@
           }
         },
         {
-          "caller": "0x8adef81d3afd683ca0ada407e22ca509646de8f8",
+          "caller": "0xaacc0d450fd12d0eddc97297fb9348240ea8ec60",
           "comment": "z() -> 5",
           "instance": "D",
           "method": "z()",

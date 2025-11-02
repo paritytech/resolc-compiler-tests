@@ -4,7 +4,7 @@
       "name": "simple",
       "inputs": [
         {
-          "caller": "0xfe649f67452eda0fed3f978aac9842c5a7ac0bd7",
+          "caller": "0x85372f186537d98500857eb115212ba3a5cb475a",
           "comment": "f() -> 0",
           "instance": "C",
           "method": "f()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xfe649f67452eda0fed3f978aac9842c5a7ac0bd7",
+          "caller": "0x85372f186537d98500857eb115212ba3a5cb475a",
           "comment": "g() -> 1, 1",
           "instance": "C",
           "method": "g()",

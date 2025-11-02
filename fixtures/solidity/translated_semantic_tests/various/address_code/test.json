@@ -4,7 +4,7 @@
       "name": "address_code",
       "inputs": [
         {
-          "caller": "0xcbcb0ae98882d96ee712060be078416421b9a01b",
+          "caller": "0x009715762d44ab0504a8c0819c69d6c6799745c6",
           "comment": "constructor() ->; gas irOptimized: 70760; gas irOptimized code: 94600; gas legacy: 82428; gas legacy code: 153800; gas legacyOptimized: 69400; gas legacyOptimized code: 79200",
           "instance": "C",
           "method": "#deployer",
@@ -14,7 +14,7 @@
           }
         },
         {
-          "caller": "0xcbcb0ae98882d96ee712060be078416421b9a01b",
+          "caller": "0x009715762d44ab0504a8c0819c69d6c6799745c6",
           "comment": "initCode() -> 0x20, 0",
           "instance": "C",
           "method": "initCode()",
@@ -25,7 +25,7 @@
           }
         },
         {
-          "caller": "0xcbcb0ae98882d96ee712060be078416421b9a01b",
+          "caller": "0x009715762d44ab0504a8c0819c69d6c6799745c6",
           "comment": "f() -> true",
           "instance": "C",
           "method": "f()",
@@ -36,7 +36,7 @@
           }
         },
         {
-          "caller": "0xcbcb0ae98882d96ee712060be078416421b9a01b",
+          "caller": "0x009715762d44ab0504a8c0819c69d6c6799745c6",
           "comment": "g() -> 0",
           "instance": "C",
           "method": "g()",
@@ -47,7 +47,7 @@
           }
         },
         {
-          "caller": "0xcbcb0ae98882d96ee712060be078416421b9a01b",
+          "caller": "0x009715762d44ab0504a8c0819c69d6c6799745c6",
           "comment": "h() -> 0",
           "instance": "C",
           "method": "h()",

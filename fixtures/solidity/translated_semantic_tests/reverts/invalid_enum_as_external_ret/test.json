@@ -4,7 +4,7 @@
       "name": "invalid_enum_as_external_ret",
       "inputs": [
         {
-          "caller": "0x92b91d2c83d62a35bd50e8d45e6ed2b53660c82a",
+          "caller": "0xd24dc28aa75d9ee4ad4d905b7c0f6e11d85c7b75",
           "comment": "test_return() -> FAILURE, hex\"4e487b71\", 33",
           "instance": "C",
           "method": "test_return()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x92b91d2c83d62a35bd50e8d45e6ed2b53660c82a",
+          "caller": "0xd24dc28aa75d9ee4ad4d905b7c0f6e11d85c7b75",
           "comment": "test_inline_assignment() -> FAILURE, hex\"4e487b71\", 33",
           "instance": "C",
           "method": "test_inline_assignment()",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0x92b91d2c83d62a35bd50e8d45e6ed2b53660c82a",
+          "caller": "0xd24dc28aa75d9ee4ad4d905b7c0f6e11d85c7b75",
           "comment": "test_assignment() -> FAILURE, hex\"4e487b71\", 33",
           "instance": "C",
           "method": "test_assignment()",

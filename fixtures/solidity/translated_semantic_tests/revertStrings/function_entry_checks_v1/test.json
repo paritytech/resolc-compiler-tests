@@ -4,7 +4,7 @@
       "name": "function_entry_checks_v1",
       "inputs": [
         {
-          "caller": "0x9f642899e39cafa4c054e79a38c2fc8d90c23842",
+          "caller": "0x2266cf3af337dd95f42352160490d9ad259204c2",
           "comment": "t(uint256) -> FAILURE",
           "instance": "C",
           "method": "t(uint256)",

@@ -4,7 +4,7 @@
       "name": "multiple_operator_definitions_different_types_different_functions_separate_directives",
       "inputs": [
         {
-          "caller": "0x4fc4f5fb8047101820c128bd595f6af2a1a7d16f",
+          "caller": "0x5bac0c20c2f8ef182b43304fe82255f9d71ad6bb",
           "comment": "small() -> 3",
           "instance": "C",
           "method": "small()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x4fc4f5fb8047101820c128bd595f6af2a1a7d16f",
+          "caller": "0x5bac0c20c2f8ef182b43304fe82255f9d71ad6bb",
           "comment": "big() -> 70",
           "instance": "C",
           "method": "big()",

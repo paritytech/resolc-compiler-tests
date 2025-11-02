@@ -4,7 +4,7 @@
       "name": "super",
       "inputs": [
         {
-          "caller": "0xb4a136feda3b22eb028d2d70a419674d420bf336",
+          "caller": "0x56a4e8b2c8b8eb777d3632c1b1043e1d66bc522f",
           "comment": "f() -> 15",
           "instance": "D",
           "method": "f()",

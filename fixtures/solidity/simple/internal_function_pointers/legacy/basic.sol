@@ -15,12 +15,12 @@
 //!           "expected": [
 //!             "Test.address"
 //!           ],
-//!           "caller": "0x9383416c596bb810a814f6ec8eef796768914149"
+//!           "caller": "0x0e5b11abff3afd8ace2b2fb74565e2340080faf3"
 //!         },
 //!         {
 //!           "method": "m",
 //!           "calldata": [],
-//!           "caller": "0x9383416c596bb810a814f6ec8eef796768914149"
+//!           "caller": "0x0e5b11abff3afd8ace2b2fb74565e2340080faf3"
 //!         }
 //!       ],
 //!       "expected": [

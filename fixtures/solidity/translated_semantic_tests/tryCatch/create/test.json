@@ -4,7 +4,7 @@
       "name": "create",
       "inputs": [
         {
-          "caller": "0x8e975cdbb63763bbca761a015ab17490bb8f3cf2",
+          "caller": "0xd5a75c586c5f396396e186ec0ba2b99843baa324",
           "comment": "f() -> false, 0x40, 13, \"test message.\"",
           "instance": "C",
           "method": "f()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x8e975cdbb63763bbca761a015ab17490bb8f3cf2",
+          "caller": "0xd5a75c586c5f396396e186ec0ba2b99843baa324",
           "comment": "g() -> true, 0x40, 7, \"success\"",
           "instance": "C",
           "method": "g()",

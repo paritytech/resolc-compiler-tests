@@ -4,7 +4,7 @@
       "name": "multi_creation",
       "inputs": [
         {
-          "caller": "0xf9aa106ef4e8ddff90dbb015d3adf86cd1f7007f",
+          "caller": "0x2f8dbeeeae18e561b056d894bec76edeb46c06d7",
           "comment": "f() -> 3, 7, 5; gas irOptimized: 86892; gas irOptimized code: 37200; gas legacy: 87839; gas legacy code: 60800; gas legacyOptimized: 86870; gas legacyOptimized code: 37200",
           "instance": "C",
           "method": "f()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xf9aa106ef4e8ddff90dbb015d3adf86cd1f7007f",
+          "caller": "0x2f8dbeeeae18e561b056d894bec76edeb46c06d7",
           "comment": "x() -> 7",
           "instance": "C",
           "method": "x()",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0xf9aa106ef4e8ddff90dbb015d3adf86cd1f7007f",
+          "caller": "0x2f8dbeeeae18e561b056d894bec76edeb46c06d7",
           "comment": "y() -> 5",
           "instance": "C",
           "method": "y()",

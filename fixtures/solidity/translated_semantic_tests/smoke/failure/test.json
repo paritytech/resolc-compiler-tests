@@ -4,7 +4,7 @@
       "name": "failure",
       "inputs": [
         {
-          "caller": "0x9d1a9c9bbca0dc7b9b46ea80761e005376dd4012",
+          "caller": "0x3339a00711a07e93bf09449850d024e48ba48b1a",
           "comment": "_() -> FAILURE",
           "instance": "C",
           "method": "_()",
@@ -14,7 +14,7 @@
           }
         },
         {
-          "caller": "0x9d1a9c9bbca0dc7b9b46ea80761e005376dd4012",
+          "caller": "0x3339a00711a07e93bf09449850d024e48ba48b1a",
           "comment": "e() -> FAILURE, hex\"08c379a0\", 0x20, 0x13, \"Transaction failed.\"",
           "instance": "C",
           "method": "e()",
@@ -25,7 +25,7 @@
           }
         },
         {
-          "caller": "0x9d1a9c9bbca0dc7b9b46ea80761e005376dd4012",
+          "caller": "0x3339a00711a07e93bf09449850d024e48ba48b1a",
           "comment": "f(bool): false -> FAILURE, hex\"08c379a0\", 0x20, 0x00",
           "instance": "C",
           "method": "f(bool)",
@@ -36,7 +36,7 @@
           }
         },
         {
-          "caller": "0x9d1a9c9bbca0dc7b9b46ea80761e005376dd4012",
+          "caller": "0x3339a00711a07e93bf09449850d024e48ba48b1a",
           "comment": "g(bool): false -> FAILURE, hex\"08c379a0\", 0x20, 0x0f, \"Value is false.\"",
           "instance": "C",
           "method": "g(bool)",
@@ -47,7 +47,7 @@
           }
         },
         {
-          "caller": "0x9d1a9c9bbca0dc7b9b46ea80761e005376dd4012",
+          "caller": "0x3339a00711a07e93bf09449850d024e48ba48b1a",
           "comment": "h() -> FAILURE, hex\"4e487b71\", 0x01",
           "instance": "C",
           "method": "h()",

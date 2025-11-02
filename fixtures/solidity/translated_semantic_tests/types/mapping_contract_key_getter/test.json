@@ -4,7 +4,7 @@
       "name": "mapping_contract_key_getter",
       "inputs": [
         {
-          "caller": "0x17e294f542c29f368dce69238e0e4985bdb908a9",
+          "caller": "0x3bf04fb7625eea9856da25d70c24099318c0866f",
           "comment": "table(address): 0 -> 0",
           "instance": "test",
           "method": "table(address)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x17e294f542c29f368dce69238e0e4985bdb908a9",
+          "caller": "0x3bf04fb7625eea9856da25d70c24099318c0866f",
           "comment": "table(address): 0x01 -> 0",
           "instance": "test",
           "method": "table(address)",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0x17e294f542c29f368dce69238e0e4985bdb908a9",
+          "caller": "0x3bf04fb7625eea9856da25d70c24099318c0866f",
           "comment": "table(address): 0xa7 -> 0",
           "instance": "test",
           "method": "table(address)",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0x17e294f542c29f368dce69238e0e4985bdb908a9",
+          "caller": "0x3bf04fb7625eea9856da25d70c24099318c0866f",
           "comment": "get(address): 0 -> 0",
           "instance": "test",
           "method": "get(address)",
@@ -48,7 +48,7 @@
           }
         },
         {
-          "caller": "0x17e294f542c29f368dce69238e0e4985bdb908a9",
+          "caller": "0x3bf04fb7625eea9856da25d70c24099318c0866f",
           "comment": "get(address): 0x01 -> 0",
           "instance": "test",
           "method": "get(address)",
@@ -59,7 +59,7 @@
           }
         },
         {
-          "caller": "0x17e294f542c29f368dce69238e0e4985bdb908a9",
+          "caller": "0x3bf04fb7625eea9856da25d70c24099318c0866f",
           "comment": "get(address): 0xa7 -> 0",
           "instance": "test",
           "method": "get(address)",
@@ -70,7 +70,7 @@
           }
         },
         {
-          "caller": "0x17e294f542c29f368dce69238e0e4985bdb908a9",
+          "caller": "0x3bf04fb7625eea9856da25d70c24099318c0866f",
           "comment": "set(address,uint8): 0x01, 0xa1 ->",
           "instance": "test",
           "method": "set(address,uint8)",
@@ -80,7 +80,7 @@
           }
         },
         {
-          "caller": "0x17e294f542c29f368dce69238e0e4985bdb908a9",
+          "caller": "0x3bf04fb7625eea9856da25d70c24099318c0866f",
           "comment": "table(address): 0 -> 0",
           "instance": "test",
           "method": "table(address)",
@@ -91,7 +91,7 @@
           }
         },
         {
-          "caller": "0x17e294f542c29f368dce69238e0e4985bdb908a9",
+          "caller": "0x3bf04fb7625eea9856da25d70c24099318c0866f",
           "comment": "table(address): 0x01 -> 0xa1",
           "instance": "test",
           "method": "table(address)",
@@ -102,7 +102,7 @@
           }
         },
         {
-          "caller": "0x17e294f542c29f368dce69238e0e4985bdb908a9",
+          "caller": "0x3bf04fb7625eea9856da25d70c24099318c0866f",
           "comment": "table(address): 0xa7 -> 0",
           "instance": "test",
           "method": "table(address)",
@@ -113,7 +113,7 @@
           }
         },
         {
-          "caller": "0x17e294f542c29f368dce69238e0e4985bdb908a9",
+          "caller": "0x3bf04fb7625eea9856da25d70c24099318c0866f",
           "comment": "get(address): 0 -> 0",
           "instance": "test",
           "method": "get(address)",
@@ -124,7 +124,7 @@
           }
         },
         {
-          "caller": "0x17e294f542c29f368dce69238e0e4985bdb908a9",
+          "caller": "0x3bf04fb7625eea9856da25d70c24099318c0866f",
           "comment": "get(address): 0x01 -> 0xa1",
           "instance": "test",
           "method": "get(address)",
@@ -135,7 +135,7 @@
           }
         },
         {
-          "caller": "0x17e294f542c29f368dce69238e0e4985bdb908a9",
+          "caller": "0x3bf04fb7625eea9856da25d70c24099318c0866f",
           "comment": "get(address): 0xa7 -> 0",
           "instance": "test",
           "method": "get(address)",
@@ -146,7 +146,7 @@
           }
         },
         {
-          "caller": "0x17e294f542c29f368dce69238e0e4985bdb908a9",
+          "caller": "0x3bf04fb7625eea9856da25d70c24099318c0866f",
           "comment": "set(address,uint8): 0x00, 0xef ->",
           "instance": "test",
           "method": "set(address,uint8)",
@@ -156,7 +156,7 @@
           }
         },
         {
-          "caller": "0x17e294f542c29f368dce69238e0e4985bdb908a9",
+          "caller": "0x3bf04fb7625eea9856da25d70c24099318c0866f",
           "comment": "table(address): 0 -> 0xef",
           "instance": "test",
           "method": "table(address)",
@@ -167,7 +167,7 @@
           }
         },
         {
-          "caller": "0x17e294f542c29f368dce69238e0e4985bdb908a9",
+          "caller": "0x3bf04fb7625eea9856da25d70c24099318c0866f",
           "comment": "table(address): 0x01 -> 0xa1",
           "instance": "test",
           "method": "table(address)",
@@ -178,7 +178,7 @@
           }
         },
         {
-          "caller": "0x17e294f542c29f368dce69238e0e4985bdb908a9",
+          "caller": "0x3bf04fb7625eea9856da25d70c24099318c0866f",
           "comment": "table(address): 0xa7 -> 0",
           "instance": "test",
           "method": "table(address)",
@@ -189,7 +189,7 @@
           }
         },
         {
-          "caller": "0x17e294f542c29f368dce69238e0e4985bdb908a9",
+          "caller": "0x3bf04fb7625eea9856da25d70c24099318c0866f",
           "comment": "get(address): 0 -> 0xef",
           "instance": "test",
           "method": "get(address)",
@@ -200,7 +200,7 @@
           }
         },
         {
-          "caller": "0x17e294f542c29f368dce69238e0e4985bdb908a9",
+          "caller": "0x3bf04fb7625eea9856da25d70c24099318c0866f",
           "comment": "get(address): 0x01 -> 0xa1",
           "instance": "test",
           "method": "get(address)",
@@ -211,7 +211,7 @@
           }
         },
         {
-          "caller": "0x17e294f542c29f368dce69238e0e4985bdb908a9",
+          "caller": "0x3bf04fb7625eea9856da25d70c24099318c0866f",
           "comment": "get(address): 0xa7 -> 0",
           "instance": "test",
           "method": "get(address)",
@@ -222,7 +222,7 @@
           }
         },
         {
-          "caller": "0x17e294f542c29f368dce69238e0e4985bdb908a9",
+          "caller": "0x3bf04fb7625eea9856da25d70c24099318c0866f",
           "comment": "set(address,uint8): 0x01, 0x05 ->",
           "instance": "test",
           "method": "set(address,uint8)",
@@ -232,7 +232,7 @@
           }
         },
         {
-          "caller": "0x17e294f542c29f368dce69238e0e4985bdb908a9",
+          "caller": "0x3bf04fb7625eea9856da25d70c24099318c0866f",
           "comment": "table(address): 0 -> 0xef",
           "instance": "test",
           "method": "table(address)",
@@ -243,7 +243,7 @@
           }
         },
         {
-          "caller": "0x17e294f542c29f368dce69238e0e4985bdb908a9",
+          "caller": "0x3bf04fb7625eea9856da25d70c24099318c0866f",
           "comment": "table(address): 0x01 -> 0x05",
           "instance": "test",
           "method": "table(address)",
@@ -254,7 +254,7 @@
           }
         },
         {
-          "caller": "0x17e294f542c29f368dce69238e0e4985bdb908a9",
+          "caller": "0x3bf04fb7625eea9856da25d70c24099318c0866f",
           "comment": "table(address): 0xa7 -> 0",
           "instance": "test",
           "method": "table(address)",
@@ -265,7 +265,7 @@
           }
         },
         {
-          "caller": "0x17e294f542c29f368dce69238e0e4985bdb908a9",
+          "caller": "0x3bf04fb7625eea9856da25d70c24099318c0866f",
           "comment": "get(address): 0 -> 0xef",
           "instance": "test",
           "method": "get(address)",
@@ -276,7 +276,7 @@
           }
         },
         {
-          "caller": "0x17e294f542c29f368dce69238e0e4985bdb908a9",
+          "caller": "0x3bf04fb7625eea9856da25d70c24099318c0866f",
           "comment": "get(address): 0x01 -> 0x05",
           "instance": "test",
           "method": "get(address)",
@@ -287,7 +287,7 @@
           }
         },
         {
-          "caller": "0x17e294f542c29f368dce69238e0e4985bdb908a9",
+          "caller": "0x3bf04fb7625eea9856da25d70c24099318c0866f",
           "comment": "get(address): 0xa7 -> 0",
           "instance": "test",
           "method": "get(address)",

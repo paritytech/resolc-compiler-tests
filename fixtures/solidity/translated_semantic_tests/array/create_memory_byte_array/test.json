@@ -4,7 +4,7 @@
       "name": "create_memory_byte_array",
       "inputs": [
         {
-          "caller": "0xa31e4e070d98cb82937b749bf956e869bd4e2410",
+          "caller": "0xe96d531014569ab69d293785ef16b18d00a43425",
           "comment": "f() -> \"A\"",
           "instance": "C",
           "method": "f()",

@@ -4,7 +4,7 @@
       "name": "tuple_from_ternary_expression",
       "inputs": [
         {
-          "caller": "0x737da88efd987708a0725617f547c41ec662dcf3",
+          "caller": "0xb744cfd19dc5cc23cf16e6f89630aa491856189c",
           "comment": "f() -> true",
           "instance": "C",
           "method": "f()",

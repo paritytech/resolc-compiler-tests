@@ -4,7 +4,7 @@
       "name": "storage_array_encoding",
       "inputs": [
         {
-          "caller": "0xf58334f0f2eb0d21f8d237f7e0a6355543ba5f74",
+          "caller": "0x406f9bc1f2e6a5ef9c5632182db83348b19f50d9",
           "comment": "h(uint256[2][]): 0x20, 3, 123, 124, 223, 224, 323, 324 -> 32, 256, 0x20, 3, 123, 124, 223, 224, 323, 324; gas irOptimized: 180080; gas legacy: 184233; gas legacyOptimized: 180856",
           "instance": "C",
           "method": "h(uint256[2][])",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xf58334f0f2eb0d21f8d237f7e0a6355543ba5f74",
+          "caller": "0x406f9bc1f2e6a5ef9c5632182db83348b19f50d9",
           "comment": "i(uint256[2][2]): 123, 124, 223, 224 -> 32, 128, 123, 124, 223, 224; gas irOptimized: 112031; gas legacy: 115091; gas legacyOptimized: 112657",
           "instance": "C",
           "method": "i(uint256[2][2])",

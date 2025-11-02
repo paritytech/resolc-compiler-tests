@@ -4,7 +4,7 @@
       "name": "member_accessors",
       "inputs": [
         {
-          "caller": "0x4a7d1626a2bad3695c3731a226ee82adefaa9b5b",
+          "caller": "0x6604d5923bc04e3d71689041391512e2be3886df",
           "comment": "data() -> 8",
           "instance": "test",
           "method": "data()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x4a7d1626a2bad3695c3731a226ee82adefaa9b5b",
+          "caller": "0x6604d5923bc04e3d71689041391512e2be3886df",
           "comment": "name() -> \"Celina\"",
           "instance": "test",
           "method": "name()",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0x4a7d1626a2bad3695c3731a226ee82adefaa9b5b",
+          "caller": "0x6604d5923bc04e3d71689041391512e2be3886df",
           "comment": "a_hash() -> 0xa91eddf639b0b768929589c1a9fd21dcb0107199bdd82e55c5348018a1572f52",
           "instance": "test",
           "method": "a_hash()",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0x4a7d1626a2bad3695c3731a226ee82adefaa9b5b",
+          "caller": "0x6604d5923bc04e3d71689041391512e2be3886df",
           "comment": "an_address() -> 0x1337",
           "instance": "test",
           "method": "an_address()",
@@ -48,7 +48,7 @@
           }
         },
         {
-          "caller": "0x4a7d1626a2bad3695c3731a226ee82adefaa9b5b",
+          "caller": "0x6604d5923bc04e3d71689041391512e2be3886df",
           "comment": "super_secret_data() -> FAILURE",
           "instance": "test",
           "method": "super_secret_data()",

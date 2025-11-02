@@ -65,7 +65,7 @@
 //!       "name": "changeOwnerErrorValidAddress",
 //!       "inputs": [
 //!         {
-//!           "caller": "0xc7b45f132228bd62c9c7a81da099a9f1e292eeb3",
+//!           "caller": "0x4f7fc6a8636191c510a020b023405726263af2be",
 //!           "method": "#deployer",
 //!           "calldata": [],
 //!           "expected": [
@@ -73,7 +73,7 @@
 //!           ]
 //!         },
 //!         {
-//!           "caller": "0xc7b45f132228bd62c9c7a81da099a9f1e292eeb3",
+//!           "caller": "0x4f7fc6a8636191c510a020b023405726263af2be",
 //!           "method": "changeOwner",
 //!           "calldata": [
 //!             "0x0000000000000000000000000000000000000000"
@@ -98,12 +98,12 @@
 //!           "calldata": [
 //!             "1"
 //!           ],
-//!           "caller": "0x62e5d4e77639c6b1c7eeb21c9a3bbdb5f87440e3"
+//!           "caller": "0xc7b45f132228bd62c9c7a81da099a9f1e292eeb3"
 //!         },
 //!         {
 //!           "method": "x",
 //!           "calldata": [],
-//!           "caller": "0x62e5d4e77639c6b1c7eeb21c9a3bbdb5f87440e3"
+//!           "caller": "0xc7b45f132228bd62c9c7a81da099a9f1e292eeb3"
 //!         }
 //!       ],
 //!       "expected": [
@@ -127,12 +127,12 @@
 //!             ],
 //!             "exception": true
 //!           },
-//!           "caller": "0xbdf75a1cdf0a3fc4618f3529902a340db6837160"
+//!           "caller": "0x62e5d4e77639c6b1c7eeb21c9a3bbdb5f87440e3"
 //!         },
 //!         {
 //!           "method": "x",
 //!           "calldata": [],
-//!           "caller": "0xbdf75a1cdf0a3fc4618f3529902a340db6837160"
+//!           "caller": "0x62e5d4e77639c6b1c7eeb21c9a3bbdb5f87440e3"
 //!         }
 //!       ],
 //!       "expected": [

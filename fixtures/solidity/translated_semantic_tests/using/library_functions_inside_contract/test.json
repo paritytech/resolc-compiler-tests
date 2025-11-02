@@ -4,7 +4,7 @@
       "name": "library_functions_inside_contract",
       "inputs": [
         {
-          "caller": "0x0d69976493c09b07137c343c9075292da98e5803",
+          "caller": "0x628e7c93d20e21455ece8f3678dda58f9386f975",
           "comment": "f() -> 1",
           "instance": "C",
           "method": "f()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x0d69976493c09b07137c343c9075292da98e5803",
+          "caller": "0x628e7c93d20e21455ece8f3678dda58f9386f975",
           "comment": "g() -> 2",
           "instance": "C",
           "method": "g()",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0x0d69976493c09b07137c343c9075292da98e5803",
+          "caller": "0x628e7c93d20e21455ece8f3678dda58f9386f975",
           "comment": "h() -> 3",
           "instance": "C",
           "method": "h()",

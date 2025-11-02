@@ -4,7 +4,7 @@
       "name": "malformed_panic_3",
       "inputs": [
         {
-          "caller": "0x2add592d880591ad9081606fbb469a484aa9fec6",
+          "caller": "0x81742a45c87fc346818c2562cb99eeb0e647e863",
           "comment": "a() -> FAILURE, hex\"4e487b\"",
           "instance": "C",
           "method": "a()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x2add592d880591ad9081606fbb469a484aa9fec6",
+          "caller": "0x81742a45c87fc346818c2562cb99eeb0e647e863",
           "comment": "b() -> FAILURE, hex\"4e487b710000\"",
           "instance": "C",
           "method": "b()",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0x2add592d880591ad9081606fbb469a484aa9fec6",
+          "caller": "0x81742a45c87fc346818c2562cb99eeb0e647e863",
           "comment": "c() -> 0x43",
           "instance": "C",
           "method": "c()",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0x2add592d880591ad9081606fbb469a484aa9fec6",
+          "caller": "0x81742a45c87fc346818c2562cb99eeb0e647e863",
           "comment": "d() -> 0x43",
           "instance": "C",
           "method": "d()",

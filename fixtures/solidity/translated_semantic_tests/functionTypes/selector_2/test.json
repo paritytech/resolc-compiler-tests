@@ -4,7 +4,7 @@
       "name": "selector_2",
       "inputs": [
         {
-          "caller": "0x5665dd5beb54137a941a38edae89d5562df34375",
+          "caller": "0x313a2b09de6eaae0a7a902422c418aad9cc0f67b",
           "comment": "test() -> 0xcf9f23b500000000000000000000000000000000000000000000000000000000, 0x7defb41000000000000000000000000000000000000000000000000000000000",
           "instance": "D",
           "method": "test()",

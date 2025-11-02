@@ -4,7 +4,7 @@
       "name": "code_access_padding",
       "inputs": [
         {
-          "caller": "0xf3ac3330eed1ef6ffb0b06583731fdd774f567b7",
+          "caller": "0xb271c2a69d39a6ee4ec67bb6ad41589c8b82cb8f",
           "comment": "diff() -> 0",
           "instance": "C",
           "method": "diff()",

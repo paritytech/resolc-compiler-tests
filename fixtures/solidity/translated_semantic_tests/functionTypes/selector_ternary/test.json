@@ -4,7 +4,7 @@
       "name": "selector_ternary",
       "inputs": [
         {
-          "caller": "0x901f94d2b55e977c904a5054b0f22919a9b4278b",
+          "caller": "0xf395ccdfbc5d00d51e9f10771bbfe4ded41d9e79",
           "comment": "h(bool): true -> 0x26121ff000000000000000000000000000000000000000000000000000000000",
           "instance": "C",
           "method": "h(bool)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x901f94d2b55e977c904a5054b0f22919a9b4278b",
+          "caller": "0xf395ccdfbc5d00d51e9f10771bbfe4ded41d9e79",
           "comment": "h(bool): false -> 0xe2179b8e00000000000000000000000000000000000000000000000000000000",
           "instance": "C",
           "method": "h(bool)",

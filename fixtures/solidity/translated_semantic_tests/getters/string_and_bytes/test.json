@@ -4,7 +4,7 @@
       "name": "string_and_bytes",
       "inputs": [
         {
-          "caller": "0xe50cbf3bd55d7cfe664abc0e8595b475e4a4f48b",
+          "caller": "0x3575b63651fa6dc96b6b8ed39f1b6e96dd98daa2",
           "comment": "a() -> 0x20, 11, \"hello world\"",
           "instance": "C",
           "method": "a()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xe50cbf3bd55d7cfe664abc0e8595b475e4a4f48b",
+          "caller": "0x3575b63651fa6dc96b6b8ed39f1b6e96dd98daa2",
           "comment": "b() -> 0x20, 4, \"ABCD\"",
           "instance": "C",
           "method": "b()",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0xe50cbf3bd55d7cfe664abc0e8595b475e4a4f48b",
+          "caller": "0x3575b63651fa6dc96b6b8ed39f1b6e96dd98daa2",
           "comment": "c() -> 0x20, 4, -439061522557375173052089223601630338202760422010735733633791622124826263552",
           "instance": "C",
           "method": "c()",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0xe50cbf3bd55d7cfe664abc0e8595b475e4a4f48b",
+          "caller": "0x3575b63651fa6dc96b6b8ed39f1b6e96dd98daa2",
           "comment": "d() -> 0x20, 4, \"abcd\"",
           "instance": "C",
           "method": "d()",

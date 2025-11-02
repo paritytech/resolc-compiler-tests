@@ -4,7 +4,7 @@
       "name": "msg_sig",
       "inputs": [
         {
-          "caller": "0xe4fd34e38e73fdf38780b2a5aacf881616e99fd1",
+          "caller": "0x3946d3cbd966d49b39cd36b44f6a6a566ba63a10",
           "comment": "foo(uint256): 0x0 -> 0x2fbebd3800000000000000000000000000000000000000000000000000000000",
           "instance": "test",
           "method": "foo(uint256)",

@@ -4,8 +4,8 @@
       "name": "event_emit_file_level",
       "inputs": [
         {
-          "caller": "0xa1dfeb55e53e1ed8c0a8db35e15a3d9147c73c97",
-          "comment": "deposit(bytes32), 18 wei: 0x1234 ->; ~ emit Deposit(address,bytes32,uint256): #0xa1dfeb55e53e1ed8c0a8db35e15a3d9147c73c97, #0x1234, 0x12",
+          "caller": "0xa84a618b0e7bdaa27600c4f1062ed0d7d3104e08",
+          "comment": "deposit(bytes32), 18 wei: 0x1234 ->; ~ emit Deposit(address,bytes32,uint256): #0xa84a618b0e7bdaa27600c4f1062ed0d7d3104e08, #0x1234, 0x12",
           "instance": "ClientReceipt",
           "method": "deposit(bytes32)",
           "calldata": "0x0000000000000000000000000000000000000000000000000000000000001234",
@@ -14,7 +14,7 @@
               {
                 "topics": [
                   "0x19dacbf83c5de6658e14cbf7bcae5c15eca2eedecf1c66fbca928e4d351bea0f",
-                  "0xa1dfeb55e53e1ed8c0a8db35e15a3d9147c73c97",
+                  "0xa84a618b0e7bdaa27600c4f1062ed0d7d3104e08",
                   "0x1234"
                 ],
                 "values": "0x0000000000000000000000000000000000000000000000000000000000000012"

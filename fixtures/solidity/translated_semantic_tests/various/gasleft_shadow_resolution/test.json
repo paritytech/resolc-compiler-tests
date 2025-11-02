@@ -4,7 +4,7 @@
       "name": "gasleft_shadow_resolution",
       "inputs": [
         {
-          "caller": "0x243c1864f5a70ef17d3d5693cea16a5c01db78a6",
+          "caller": "0x185303174a8eee5cc1ee9e56a23cd8b6a7db7616",
           "comment": "f() -> 0",
           "instance": "C",
           "method": "f()",

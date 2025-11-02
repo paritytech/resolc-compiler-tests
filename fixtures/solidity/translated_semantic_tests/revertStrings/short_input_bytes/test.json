@@ -4,7 +4,7 @@
       "name": "short_input_bytes",
       "inputs": [
         {
-          "caller": "0xfb9db459a579c5a4982e16897651d7f1c042a818",
+          "caller": "0x638949ebbc3f055c87820b0c7c620755e976d8e1",
           "comment": "e(bytes): 0x20, 7 -> FAILURE",
           "instance": "C",
           "method": "e(bytes)",

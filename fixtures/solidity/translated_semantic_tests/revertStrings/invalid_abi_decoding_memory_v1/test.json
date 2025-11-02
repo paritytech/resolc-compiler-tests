@@ -4,7 +4,7 @@
       "name": "invalid_abi_decoding_memory_v1",
       "inputs": [
         {
-          "caller": "0x62c30268214c02ab4845f60803593278f857c37d",
+          "caller": "0x725b18b7ea3a3efe489b37ae05709ba98d7319e3",
           "comment": "f(uint256,uint256,uint256): 0, 0x200, 0x60 -> FAILURE",
           "instance": "C",
           "method": "f(uint256,uint256,uint256)",
@@ -14,7 +14,7 @@
           }
         },
         {
-          "caller": "0x62c30268214c02ab4845f60803593278f857c37d",
+          "caller": "0x725b18b7ea3a3efe489b37ae05709ba98d7319e3",
           "comment": "f(uint256,uint256,uint256): 0, 0x20, 0x60 -> FAILURE",
           "instance": "C",
           "method": "f(uint256,uint256,uint256)",

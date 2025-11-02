@@ -6,7 +6,7 @@
       "name": "block_number",
       "inputs": [
         {
-          "caller": "0xaa000990504952316abd05cb6a62e53bb019fe4d",
+          "caller": "0xb6a1ae528fc9614ff7bacb746008ac8be306b391",
           "comment": "constructor()",
           "instance": "C",
           "method": "#deployer",
@@ -16,7 +16,7 @@
           }
         },
         {
-          "caller": "0xaa000990504952316abd05cb6a62e53bb019fe4d",
+          "caller": "0xb6a1ae528fc9614ff7bacb746008ac8be306b391",
           "comment": "f() -> 2",
           "instance": "C",
           "method": "f()",
@@ -27,7 +27,7 @@
           }
         },
         {
-          "caller": "0xaa000990504952316abd05cb6a62e53bb019fe4d",
+          "caller": "0xb6a1ae528fc9614ff7bacb746008ac8be306b391",
           "comment": "f() -> 2",
           "instance": "C",
           "method": "f()",

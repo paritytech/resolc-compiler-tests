@@ -4,7 +4,7 @@
       "name": "accessor_for_const_state_variable",
       "inputs": [
         {
-          "caller": "0xbe4149786eeb2b636739badb27295ed3bcfd06c0",
+          "caller": "0x3b74908f67ca744aa0aa092996468fef9b9fc6c1",
           "comment": "ticketPrice() -> 555",
           "instance": "Lotto",
           "method": "ticketPrice()",

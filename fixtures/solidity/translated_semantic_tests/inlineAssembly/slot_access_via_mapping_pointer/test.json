@@ -4,7 +4,7 @@
       "name": "slot_access_via_mapping_pointer",
       "inputs": [
         {
-          "caller": "0x2faa192734c97438ffd9d2e3cb2915b1f0eb0886",
+          "caller": "0xd4d5e8aa8b6df954a99640946bf4df0ddf4cf32e",
           "comment": "f(uint256): 0 -> 0, 0",
           "instance": "C",
           "method": "f(uint256)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x2faa192734c97438ffd9d2e3cb2915b1f0eb0886",
+          "caller": "0xd4d5e8aa8b6df954a99640946bf4df0ddf4cf32e",
           "comment": "f(uint256): 1 -> 1, 0",
           "instance": "C",
           "method": "f(uint256)",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0x2faa192734c97438ffd9d2e3cb2915b1f0eb0886",
+          "caller": "0xd4d5e8aa8b6df954a99640946bf4df0ddf4cf32e",
           "comment": "f(uint256): 2 -> 2, 0",
           "instance": "C",
           "method": "f(uint256)",

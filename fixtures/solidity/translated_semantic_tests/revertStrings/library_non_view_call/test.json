@@ -4,7 +4,7 @@
       "name": "library_non_view_call",
       "inputs": [
         {
-          "caller": "0x14e6dac23a5401a898c230a983f5ed6f5fd52157",
+          "caller": "0x40af62336e35981fd08d3a96af27fdd4100b2fd8",
           "comment": "f() -> 32, 0",
           "instance": "C",
           "method": "f()",

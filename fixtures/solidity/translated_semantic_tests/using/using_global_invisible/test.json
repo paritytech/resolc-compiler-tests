@@ -4,7 +4,7 @@
       "name": "using_global_invisible",
       "inputs": [
         {
-          "caller": "0x1c33fd7d968d19a69bfe49223811f2bb8c51c32a",
+          "caller": "0x222c5888ff54fa44ea70c10b707132a7593562b8",
           "comment": "test() -> 3; gas legacy: 59680; gas legacy code: 61200",
           "instance": "D",
           "method": "test()",

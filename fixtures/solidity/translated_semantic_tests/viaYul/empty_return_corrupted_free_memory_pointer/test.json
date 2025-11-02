@@ -4,7 +4,7 @@
       "name": "empty_return_corrupted_free_memory_pointer",
       "inputs": [
         {
-          "caller": "0x087b2103599b4bdb899942b74b762ea7aea51544",
+          "caller": "0xc8947a0101040278a2c8f733d4a74d062af9893f",
           "comment": "f() ->",
           "instance": "C",
           "method": "f()",

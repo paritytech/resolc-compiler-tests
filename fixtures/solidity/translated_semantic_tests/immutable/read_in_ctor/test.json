@@ -4,7 +4,7 @@
       "name": "read_in_ctor",
       "inputs": [
         {
-          "caller": "0xc7fd68cf13d23ebe585b00ada3369fdf1ce0510c",
+          "caller": "0xe52e25cc6e0dc4ac9eb763f30f70dd3ef3cfa97a",
           "comment": "readX() -> 3",
           "instance": "A",
           "method": "readX()",

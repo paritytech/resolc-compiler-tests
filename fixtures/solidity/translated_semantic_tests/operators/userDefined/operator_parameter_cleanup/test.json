@@ -4,7 +4,7 @@
       "name": "operator_parameter_cleanup",
       "inputs": [
         {
-          "caller": "0x6e5717ec6dc67997a468dd35c557f4922f8cfb05",
+          "caller": "0x4bba221988584b75627b55d1ef5df50204cdf65a",
           "comment": "testUnary() -> 0x42, 0x42",
           "instance": "C",
           "method": "testUnary()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x6e5717ec6dc67997a468dd35c557f4922f8cfb05",
+          "caller": "0x4bba221988584b75627b55d1ef5df50204cdf65a",
           "comment": "testBinary() -> 0x84, 0x84",
           "instance": "C",
           "method": "testBinary()",

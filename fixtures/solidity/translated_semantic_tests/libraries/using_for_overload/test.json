@@ -4,7 +4,7 @@
       "name": "using_for_overload",
       "inputs": [
         {
-          "caller": "0x10dd691798d12cc1e2392b8a223c4ea170578dad",
+          "caller": "0xbea893cec5058905ded9d14986270dc8278aeb3f",
           "comment": "f(uint256): 7 -> 0x2a",
           "instance": "C",
           "method": "f(uint256)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x10dd691798d12cc1e2392b8a223c4ea170578dad",
+          "caller": "0xbea893cec5058905ded9d14986270dc8278aeb3f",
           "comment": "x() -> 0x2a",
           "instance": "C",
           "method": "x()",

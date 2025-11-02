@@ -11,7 +11,7 @@
           "instance": "TestIterableMap",
           "method": "testIterableMap",
           "calldata": [],
-          "caller": "0xbf0cf23d9cc41dd02e2e2b8dbd7903204ef29156"
+          "caller": "0x3fa660fbb0f88ea8694228dc245584aa0784c008"
         }
       ],
       "expected": []

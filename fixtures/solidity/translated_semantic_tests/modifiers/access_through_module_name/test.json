@@ -4,7 +4,7 @@
       "name": "access_through_module_name",
       "inputs": [
         {
-          "caller": "0x8c49bc12ddf8123c57fefa37fd2f5fb7bb1e681e",
+          "caller": "0x32abf6c29f03263681b4df322084eb25983b54f4",
           "comment": "x() -> 0x00",
           "instance": "C",
           "method": "x()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x8c49bc12ddf8123c57fefa37fd2f5fb7bb1e681e",
+          "caller": "0x32abf6c29f03263681b4df322084eb25983b54f4",
           "comment": "f() -> 1, 9",
           "instance": "C",
           "method": "f()",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0x8c49bc12ddf8123c57fefa37fd2f5fb7bb1e681e",
+          "caller": "0x32abf6c29f03263681b4df322084eb25983b54f4",
           "comment": "x() -> 3",
           "instance": "C",
           "method": "x()",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0x8c49bc12ddf8123c57fefa37fd2f5fb7bb1e681e",
+          "caller": "0x32abf6c29f03263681b4df322084eb25983b54f4",
           "comment": "g() -> 1, 0x0a",
           "instance": "C",
           "method": "g()",
@@ -48,7 +48,7 @@
           }
         },
         {
-          "caller": "0x8c49bc12ddf8123c57fefa37fd2f5fb7bb1e681e",
+          "caller": "0x32abf6c29f03263681b4df322084eb25983b54f4",
           "comment": "x() -> 4",
           "instance": "C",
           "method": "x()",
@@ -59,7 +59,7 @@
           }
         },
         {
-          "caller": "0x8c49bc12ddf8123c57fefa37fd2f5fb7bb1e681e",
+          "caller": "0x32abf6c29f03263681b4df322084eb25983b54f4",
           "comment": "f() -> 1, 9",
           "instance": "C",
           "method": "f()",
@@ -70,7 +70,7 @@
           }
         },
         {
-          "caller": "0x8c49bc12ddf8123c57fefa37fd2f5fb7bb1e681e",
+          "caller": "0x32abf6c29f03263681b4df322084eb25983b54f4",
           "comment": "x() -> 3",
           "instance": "C",
           "method": "x()",

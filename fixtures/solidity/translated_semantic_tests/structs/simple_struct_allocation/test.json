@@ -4,7 +4,7 @@
       "name": "simple_struct_allocation",
       "inputs": [
         {
-          "caller": "0x1f4fc1469ce2fe42f19fd8141840e26a49d73469",
+          "caller": "0xfe6fd59650d84e3d65aa23c7118b665a3c69a7fb",
           "comment": "f() -> 1",
           "instance": "C",
           "method": "f()",

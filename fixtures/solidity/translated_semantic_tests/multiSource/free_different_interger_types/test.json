@@ -4,7 +4,7 @@
       "name": "free_different_interger_types",
       "inputs": [
         {
-          "caller": "0x2de8eadf40322c9be17fa7f897959f4bc90d387c",
+          "caller": "0x9bc72f887a4c90492f2fff97e5c75114e4c61c79",
           "comment": "foo() -> 24, true",
           "instance": "C",
           "method": "foo()",

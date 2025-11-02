@@ -4,7 +4,7 @@
       "name": "constant_string_at_file_level",
       "inputs": [
         {
-          "caller": "0xc7aae699a21b4da933b1cf8a1ebc991c9c790f0c",
+          "caller": "0xc532fc63c8370338b00a082eb4370654b6b77374",
           "comment": "f() -> 0x20, 3, \"\\x03\\x01\\x02\"",
           "instance": "C",
           "method": "f()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xc7aae699a21b4da933b1cf8a1ebc991c9c790f0c",
+          "caller": "0xc532fc63c8370338b00a082eb4370654b6b77374",
           "comment": "g() -> 0x20, 3, \"\\x03\\x01\\x02\"",
           "instance": "C",
           "method": "g()",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0xc7aae699a21b4da933b1cf8a1ebc991c9c790f0c",
+          "caller": "0xc532fc63c8370338b00a082eb4370654b6b77374",
           "comment": "h() -> 0x20, 5, \"hello\"",
           "instance": "C",
           "method": "h()",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0xc7aae699a21b4da933b1cf8a1ebc991c9c790f0c",
+          "caller": "0xc532fc63c8370338b00a082eb4370654b6b77374",
           "comment": "i() -> 0x38, 1, 0x61626300ff5f5f00000000000000000000000000000000000000000000000000",
           "instance": "C",
           "method": "i()",

@@ -4,7 +4,7 @@
       "name": "keccak_optimization_bug_string",
       "inputs": [
         {
-          "caller": "0xd4d5e8aa8b6df954a99640946bf4df0ddf4cf32e",
+          "caller": "0x51f25e9ba1ff4e5f2bf9f730e3e22fcf049b033f",
           "comment": "f(string): \"\" -> false",
           "instance": "C",
           "method": "f(string)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xd4d5e8aa8b6df954a99640946bf4df0ddf4cf32e",
+          "caller": "0x51f25e9ba1ff4e5f2bf9f730e3e22fcf049b033f",
           "comment": "f(string): 0x20, 5, \"hello\" -> false",
           "instance": "C",
           "method": "f(string)",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0xd4d5e8aa8b6df954a99640946bf4df0ddf4cf32e",
+          "caller": "0x51f25e9ba1ff4e5f2bf9f730e3e22fcf049b033f",
           "comment": "f(string): 0x20, 0x2e, 29457663690442756349866640336617293820574110049925353194191585327958485180523, 45859201465615193776739262511799714667061496775486067316261261194408342061056 -> false",
           "instance": "C",
           "method": "f(string)",

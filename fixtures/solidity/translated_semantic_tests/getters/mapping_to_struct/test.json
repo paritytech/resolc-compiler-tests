@@ -4,7 +4,7 @@
       "name": "mapping_to_struct",
       "inputs": [
         {
-          "caller": "0x34ceb757a51b0f656012f70327458e7bd1bc1313",
+          "caller": "0xe614052ba452f9a11e995ea3ad67292b10d1583f",
           "comment": "x(uint256,uint256): 1, 2 -> 3, 4, 5, 6",
           "instance": "C",
           "method": "x(uint256,uint256)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x34ceb757a51b0f656012f70327458e7bd1bc1313",
+          "caller": "0xe614052ba452f9a11e995ea3ad67292b10d1583f",
           "comment": "x(uint256,uint256): 0, 0 -> 0x00, 0x00, 0x00, 0x00",
           "instance": "C",
           "method": "x(uint256,uint256)",

@@ -4,7 +4,7 @@
       "name": "disordered_named_args",
       "inputs": [
         {
-          "caller": "0x805a628cb4845dc7c3dc6499e358415f112a1141",
+          "caller": "0x50c96d0995f39514406a70d7d92bbc318621e2e9",
           "comment": "b() -> 123",
           "instance": "test",
           "method": "b()",

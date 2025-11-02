@@ -4,7 +4,7 @@
       "name": "break",
       "inputs": [
         {
-          "caller": "0x64f2d5e5317983a3822a2df0b1ed0a1f711921a2",
+          "caller": "0x5988040bb771ff62d94fbecfbab427b78eb20861",
           "comment": "f() -> 2",
           "instance": "C",
           "method": "f()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x64f2d5e5317983a3822a2df0b1ed0a1f711921a2",
+          "caller": "0x5988040bb771ff62d94fbecfbab427b78eb20861",
           "comment": "g() -> 2",
           "instance": "C",
           "method": "g()",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0x64f2d5e5317983a3822a2df0b1ed0a1f711921a2",
+          "caller": "0x5988040bb771ff62d94fbecfbab427b78eb20861",
           "comment": "h() -> 2",
           "instance": "C",
           "method": "h()",

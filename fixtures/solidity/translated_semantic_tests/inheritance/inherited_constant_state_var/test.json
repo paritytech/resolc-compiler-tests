@@ -4,7 +4,7 @@
       "name": "inherited_constant_state_var",
       "inputs": [
         {
-          "caller": "0x3bfc19e961982ef2054f56b5fa2614431b797b46",
+          "caller": "0xbd3935f8bf5dee2effe94d6e135b145fc1eebe80",
           "comment": "f() -> 7",
           "instance": "B",
           "method": "f()",

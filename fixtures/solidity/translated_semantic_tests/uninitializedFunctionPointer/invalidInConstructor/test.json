@@ -4,7 +4,7 @@
       "name": "invalidInConstructor",
       "inputs": [
         {
-          "caller": "0x78ac9a8d632c7fa4616daa8d3360f58aedf56f7d",
+          "caller": "0x0ad60a0232810e7e88904ce27782d9e5bffb8041",
           "comment": "f() -> FAILURE, hex\"4e487b71\", 0x51",
           "instance": "Test",
           "method": "f()",

@@ -4,7 +4,7 @@
       "name": "dynamic_nested",
       "inputs": [
         {
-          "caller": "0x11030402d8018a517626db5ec294d1b184b8fbc4",
+          "caller": "0x2b9cd84e65edbb6239f8f926c127951b29d74527",
           "comment": "f((uint256,(uint256)[])): 32, 17, 64, 2, 23, 42 -> 2, 17, 23, 42",
           "instance": "C",
           "method": "f((uint256,(uint256)[]))",

@@ -10,7 +10,7 @@
           "expected": [
             "ERC20Minimal.address"
           ],
-          "caller": "0xd2b654d7b7d485780907b877e11c662e789245e0"
+          "caller": "0x631bc13504611db1d559f17df60e3665f251b73c"
         },
         {
           "method": "#deployer",
@@ -21,7 +21,7 @@
           "expected": [
             "Main.address"
           ],
-          "caller": "0xd2b654d7b7d485780907b877e11c662e789245e0"
+          "caller": "0x631bc13504611db1d559f17df60e3665f251b73c"
         },
         {
           "method": "test",
@@ -29,7 +29,7 @@
           "calldata": [
             "10000"
           ],
-          "caller": "0xd2b654d7b7d485780907b877e11c662e789245e0"
+          "caller": "0x631bc13504611db1d559f17df60e3665f251b73c"
         }
       ],
       "expected": {

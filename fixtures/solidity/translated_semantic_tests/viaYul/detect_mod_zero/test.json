@@ -4,7 +4,7 @@
       "name": "detect_mod_zero",
       "inputs": [
         {
-          "caller": "0x51e6873658cfdb647c7fd2eb4cdff66e3e67353c",
+          "caller": "0x231c23255fd9495aeff077f1ad79f98dd3c9e33f",
           "comment": "f(uint256,uint256): 10, 3 -> 1",
           "instance": "C",
           "method": "f(uint256,uint256)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x51e6873658cfdb647c7fd2eb4cdff66e3e67353c",
+          "caller": "0x231c23255fd9495aeff077f1ad79f98dd3c9e33f",
           "comment": "f(uint256,uint256): 10, 2 -> 0",
           "instance": "C",
           "method": "f(uint256,uint256)",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0x51e6873658cfdb647c7fd2eb4cdff66e3e67353c",
+          "caller": "0x231c23255fd9495aeff077f1ad79f98dd3c9e33f",
           "comment": "f(uint256,uint256): 11, 2 -> 1",
           "instance": "C",
           "method": "f(uint256,uint256)",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0x51e6873658cfdb647c7fd2eb4cdff66e3e67353c",
+          "caller": "0x231c23255fd9495aeff077f1ad79f98dd3c9e33f",
           "comment": "f(uint256,uint256): 2, 2 -> 0",
           "instance": "C",
           "method": "f(uint256,uint256)",
@@ -48,7 +48,7 @@
           }
         },
         {
-          "caller": "0x51e6873658cfdb647c7fd2eb4cdff66e3e67353c",
+          "caller": "0x231c23255fd9495aeff077f1ad79f98dd3c9e33f",
           "comment": "f(uint256,uint256): 1, 0 -> FAILURE, hex\"4e487b71\", 0x12",
           "instance": "C",
           "method": "f(uint256,uint256)",
@@ -59,7 +59,7 @@
           }
         },
         {
-          "caller": "0x51e6873658cfdb647c7fd2eb4cdff66e3e67353c",
+          "caller": "0x231c23255fd9495aeff077f1ad79f98dd3c9e33f",
           "comment": "f(uint256,uint256): 0, 0 -> FAILURE, hex\"4e487b71\", 0x12",
           "instance": "C",
           "method": "f(uint256,uint256)",
@@ -70,7 +70,7 @@
           }
         },
         {
-          "caller": "0x51e6873658cfdb647c7fd2eb4cdff66e3e67353c",
+          "caller": "0x231c23255fd9495aeff077f1ad79f98dd3c9e33f",
           "comment": "f(uint256,uint256): 0, 1 -> 0",
           "instance": "C",
           "method": "f(uint256,uint256)",
@@ -81,7 +81,7 @@
           }
         },
         {
-          "caller": "0x51e6873658cfdb647c7fd2eb4cdff66e3e67353c",
+          "caller": "0x231c23255fd9495aeff077f1ad79f98dd3c9e33f",
           "comment": "g(uint8,uint8): 10, 3 -> 1",
           "instance": "C",
           "method": "g(uint8,uint8)",
@@ -92,7 +92,7 @@
           }
         },
         {
-          "caller": "0x51e6873658cfdb647c7fd2eb4cdff66e3e67353c",
+          "caller": "0x231c23255fd9495aeff077f1ad79f98dd3c9e33f",
           "comment": "g(uint8,uint8): 10, 2 -> 0",
           "instance": "C",
           "method": "g(uint8,uint8)",
@@ -103,7 +103,7 @@
           }
         },
         {
-          "caller": "0x51e6873658cfdb647c7fd2eb4cdff66e3e67353c",
+          "caller": "0x231c23255fd9495aeff077f1ad79f98dd3c9e33f",
           "comment": "g(uint8,uint8): 11, 2 -> 1",
           "instance": "C",
           "method": "g(uint8,uint8)",
@@ -114,7 +114,7 @@
           }
         },
         {
-          "caller": "0x51e6873658cfdb647c7fd2eb4cdff66e3e67353c",
+          "caller": "0x231c23255fd9495aeff077f1ad79f98dd3c9e33f",
           "comment": "g(uint8,uint8): 2, 2 -> 0",
           "instance": "C",
           "method": "g(uint8,uint8)",
@@ -125,7 +125,7 @@
           }
         },
         {
-          "caller": "0x51e6873658cfdb647c7fd2eb4cdff66e3e67353c",
+          "caller": "0x231c23255fd9495aeff077f1ad79f98dd3c9e33f",
           "comment": "g(uint8,uint8): 1, 0 -> FAILURE, hex\"4e487b71\", 0x12",
           "instance": "C",
           "method": "g(uint8,uint8)",
@@ -136,7 +136,7 @@
           }
         },
         {
-          "caller": "0x51e6873658cfdb647c7fd2eb4cdff66e3e67353c",
+          "caller": "0x231c23255fd9495aeff077f1ad79f98dd3c9e33f",
           "comment": "g(uint8,uint8): 0, 0 -> FAILURE, hex\"4e487b71\", 0x12",
           "instance": "C",
           "method": "g(uint8,uint8)",
@@ -147,7 +147,7 @@
           }
         },
         {
-          "caller": "0x51e6873658cfdb647c7fd2eb4cdff66e3e67353c",
+          "caller": "0x231c23255fd9495aeff077f1ad79f98dd3c9e33f",
           "comment": "g(uint8,uint8): 0, 1 -> 0",
           "instance": "C",
           "method": "g(uint8,uint8)",

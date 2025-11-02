@@ -4,7 +4,7 @@
       "name": "event_string",
       "inputs": [
         {
-          "caller": "0xa84a618b0e7bdaa27600c4f1062ed0d7d3104e08",
+          "caller": "0xe343c95296933a57e0a4e5ea602c6272cdf7f3cc",
           "comment": "deposit() ->; ~ emit E(string): 0x20, 0x0b, \"HELLO WORLD\"",
           "instance": "C",
           "method": "deposit()",

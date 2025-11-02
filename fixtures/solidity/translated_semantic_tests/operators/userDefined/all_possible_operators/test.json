@@ -4,7 +4,7 @@
       "name": "all_possible_operators",
       "inputs": [
         {
-          "caller": "0x88625c8ac95ceb5bd256b0fe779d6940e2cb4210",
+          "caller": "0x61c9cbe5a1cf152fb898cb22e0dfa2d19874dfd8",
           "comment": "testBitwise() ->",
           "instance": "C",
           "method": "testBitwise()",
@@ -14,7 +14,7 @@
           }
         },
         {
-          "caller": "0x88625c8ac95ceb5bd256b0fe779d6940e2cb4210",
+          "caller": "0x61c9cbe5a1cf152fb898cb22e0dfa2d19874dfd8",
           "comment": "testArithmetic() ->",
           "instance": "C",
           "method": "testArithmetic()",
@@ -24,7 +24,7 @@
           }
         },
         {
-          "caller": "0x88625c8ac95ceb5bd256b0fe779d6940e2cb4210",
+          "caller": "0x61c9cbe5a1cf152fb898cb22e0dfa2d19874dfd8",
           "comment": "testComparison() ->",
           "instance": "C",
           "method": "testComparison()",

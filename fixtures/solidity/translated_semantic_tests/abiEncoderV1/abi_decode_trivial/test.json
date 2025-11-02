@@ -4,7 +4,7 @@
       "name": "abi_decode_trivial",
       "inputs": [
         {
-          "caller": "0x3a937c2d9014169ce4c9be80199371e8404450e2",
+          "caller": "0x6e23b7a4da4360a418f5c218e03471f21537782a",
           "comment": "f(bytes): 0x20, 0x20, 0x21 -> 33",
           "instance": "C",
           "method": "f(bytes)",

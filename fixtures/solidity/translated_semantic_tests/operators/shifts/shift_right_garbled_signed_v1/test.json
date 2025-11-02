@@ -4,7 +4,7 @@
       "name": "shift_right_garbled_signed_v1",
       "inputs": [
         {
-          "caller": "0x0bf6b0d7e1159a752c596ba43d5d482f95081fbf",
+          "caller": "0x597ff5e5c66845521968a5005f1dd8ffc4df3732",
           "comment": "f(int8,uint8): 0x00, 0x03 -> 0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe",
           "instance": "C",
           "method": "f(int8,uint8)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x0bf6b0d7e1159a752c596ba43d5d482f95081fbf",
+          "caller": "0x597ff5e5c66845521968a5005f1dd8ffc4df3732",
           "comment": "f(int8,uint8): 0x00, 0x04 -> 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
           "instance": "C",
           "method": "f(int8,uint8)",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0x0bf6b0d7e1159a752c596ba43d5d482f95081fbf",
+          "caller": "0x597ff5e5c66845521968a5005f1dd8ffc4df3732",
           "comment": "f(int8,uint8): 0x00, 0xff -> 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
           "instance": "C",
           "method": "f(int8,uint8)",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0x0bf6b0d7e1159a752c596ba43d5d482f95081fbf",
+          "caller": "0x597ff5e5c66845521968a5005f1dd8ffc4df3732",
           "comment": "f(int8,uint8): 0x00, 0x1003 -> 0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe",
           "instance": "C",
           "method": "f(int8,uint8)",
@@ -48,7 +48,7 @@
           }
         },
         {
-          "caller": "0x0bf6b0d7e1159a752c596ba43d5d482f95081fbf",
+          "caller": "0x597ff5e5c66845521968a5005f1dd8ffc4df3732",
           "comment": "f(int8,uint8): 0x00, 0x1004 -> 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
           "instance": "C",
           "method": "f(int8,uint8)",
@@ -59,7 +59,7 @@
           }
         },
         {
-          "caller": "0x0bf6b0d7e1159a752c596ba43d5d482f95081fbf",
+          "caller": "0x597ff5e5c66845521968a5005f1dd8ffc4df3732",
           "comment": "g(int8,uint8): 0x00, 0x03 -> 0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe",
           "instance": "C",
           "method": "g(int8,uint8)",
@@ -70,7 +70,7 @@
           }
         },
         {
-          "caller": "0x0bf6b0d7e1159a752c596ba43d5d482f95081fbf",
+          "caller": "0x597ff5e5c66845521968a5005f1dd8ffc4df3732",
           "comment": "g(int8,uint8): 0x00, 0x04 -> 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
           "instance": "C",
           "method": "g(int8,uint8)",
@@ -81,7 +81,7 @@
           }
         },
         {
-          "caller": "0x0bf6b0d7e1159a752c596ba43d5d482f95081fbf",
+          "caller": "0x597ff5e5c66845521968a5005f1dd8ffc4df3732",
           "comment": "g(int8,uint8): 0x00, 0xff -> 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
           "instance": "C",
           "method": "g(int8,uint8)",
@@ -92,7 +92,7 @@
           }
         },
         {
-          "caller": "0x0bf6b0d7e1159a752c596ba43d5d482f95081fbf",
+          "caller": "0x597ff5e5c66845521968a5005f1dd8ffc4df3732",
           "comment": "g(int8,uint8): 0x00, 0x1003 -> 0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe",
           "instance": "C",
           "method": "g(int8,uint8)",
@@ -103,7 +103,7 @@
           }
         },
         {
-          "caller": "0x0bf6b0d7e1159a752c596ba43d5d482f95081fbf",
+          "caller": "0x597ff5e5c66845521968a5005f1dd8ffc4df3732",
           "comment": "g(int8,uint8): 0x00, 0x1004 -> 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
           "instance": "C",
           "method": "g(int8,uint8)",

@@ -7,7 +7,7 @@
           "instance": "Enum",
           "method": "status",
           "calldata": [],
-          "caller": "0xbe48a257d6dbbb5f49ff87ab3313561462919f32"
+          "caller": "0xd4ce1faf9349c0b3b50da3e419573cc39ee66e02"
         }
       ],
       "expected": [

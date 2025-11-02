@@ -4,7 +4,7 @@
       "name": "selector_expression_side_effect",
       "inputs": [
         {
-          "caller": "0x5339105028187c5e7f5de49ca1f0b20c282c6bb6",
+          "caller": "0x230e571094ca0d910cfdadac4ab39a6985174a60",
           "comment": "f() -> 42",
           "instance": "C",
           "method": "f()",

@@ -8,7 +8,7 @@
 //!       "name": "changeOwnerOk",
 //!       "inputs": [
 //!         {
-//!           "caller": "0x53adc7c66ec868a7825e9cb4eacae0fa71548336",
+//!           "caller": "0x966f91fca291e85c7d1024ea27f62d28d8fd3fd7",
 //!           "method": "#deployer",
 //!           "calldata": [],
 //!           "expected": [
@@ -16,7 +16,7 @@
 //!           ]
 //!         },
 //!         {
-//!           "caller": "0x53adc7c66ec868a7825e9cb4eacae0fa71548336",
+//!           "caller": "0x966f91fca291e85c7d1024ea27f62d28d8fd3fd7",
 //!           "method": "changeOwner",
 //!           "calldata": [
 //!             "0xDEADBEEF00000000000000000000000000000002"
@@ -25,7 +25,7 @@
 //!         {
 //!           "method": "owner",
 //!           "calldata": [],
-//!           "caller": "0x1dd089b1e4fa3d16e9a5d1026cda6fec052853a9"
+//!           "caller": "0x53adc7c66ec868a7825e9cb4eacae0fa71548336"
 //!         }
 //!       ],
 //!       "expected": [
@@ -36,7 +36,7 @@
 //!       "name": "changeOwnerErrorOnlyOwner",
 //!       "inputs": [
 //!         {
-//!           "caller": "0x4f7fc6a8636191c510a020b023405726263af2be",
+//!           "caller": "0x1dd089b1e4fa3d16e9a5d1026cda6fec052853a9",
 //!           "method": "#deployer",
 //!           "calldata": [],
 //!           "expected": [
@@ -44,10 +44,10 @@
 //!           ]
 //!         },
 //!         {
-//!           "caller": "0xc7b45f132228bd62c9c7a81da099a9f1e292eeb3",
+//!           "caller": "0x1dd089b1e4fa3d16e9a5d1026cda6fec052853a9",
 //!           "method": "changeOwner",
 //!           "calldata": [
-//!             "0xc7b45f132228bd62c9c7a81da099a9f1e292eeb3"
+//!             "0x1dd089b1e4fa3d16e9a5d1026cda6fec052853a9"
 //!           ]
 //!         }
 //!       ],
@@ -65,7 +65,7 @@
 //!       "name": "changeOwnerErrorValidAddress",
 //!       "inputs": [
 //!         {
-//!           "caller": "0x62e5d4e77639c6b1c7eeb21c9a3bbdb5f87440e3",
+//!           "caller": "0xc7b45f132228bd62c9c7a81da099a9f1e292eeb3",
 //!           "method": "#deployer",
 //!           "calldata": [],
 //!           "expected": [
@@ -73,7 +73,7 @@
 //!           ]
 //!         },
 //!         {
-//!           "caller": "0x62e5d4e77639c6b1c7eeb21c9a3bbdb5f87440e3",
+//!           "caller": "0xc7b45f132228bd62c9c7a81da099a9f1e292eeb3",
 //!           "method": "changeOwner",
 //!           "calldata": [
 //!             "0x0000000000000000000000000000000000000000"
@@ -98,12 +98,12 @@
 //!           "calldata": [
 //!             "1"
 //!           ],
-//!           "caller": "0xbdf75a1cdf0a3fc4618f3529902a340db6837160"
+//!           "caller": "0x62e5d4e77639c6b1c7eeb21c9a3bbdb5f87440e3"
 //!         },
 //!         {
 //!           "method": "x",
 //!           "calldata": [],
-//!           "caller": "0xbdf75a1cdf0a3fc4618f3529902a340db6837160"
+//!           "caller": "0x62e5d4e77639c6b1c7eeb21c9a3bbdb5f87440e3"
 //!         }
 //!       ],
 //!       "expected": [
@@ -127,12 +127,12 @@
 //!             ],
 //!             "exception": true
 //!           },
-//!           "caller": "0xc30879024494ff81ca060407785da27dae9d2c10"
+//!           "caller": "0xbdf75a1cdf0a3fc4618f3529902a340db6837160"
 //!         },
 //!         {
 //!           "method": "x",
 //!           "calldata": [],
-//!           "caller": "0xc30879024494ff81ca060407785da27dae9d2c10"
+//!           "caller": "0xbdf75a1cdf0a3fc4618f3529902a340db6837160"
 //!         }
 //!       ],
 //!       "expected": [

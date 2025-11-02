@@ -4,7 +4,7 @@
       "name": "return_size_shorter_than_expected",
       "inputs": [
         {
-          "caller": "0xef2af1f8789eb737ae57842486f28faeb141d42c",
+          "caller": "0x42693a6fbc25e1fbb3d214044b113039dbb84320",
           "comment": "test() -> 0x0500; gas legacy: 131966",
           "instance": "Test",
           "method": "test()",

@@ -4,7 +4,7 @@
       "name": "lone_struct_array_type",
       "inputs": [
         {
-          "caller": "0x8d5045e8b900a54681558fae22a0a46b815b09c0",
+          "caller": "0xf544a7b5c6729c306abe18716a263b20ba26be7f",
           "comment": "f() -> 3",
           "instance": "C",
           "method": "f()",

@@ -4,7 +4,7 @@
       "name": "inc_dec_operators",
       "inputs": [
         {
-          "caller": "0xf22c0008016a16c067c59f84743177feeffc5d8a",
+          "caller": "0xd99397991d819191c6c9a41328f2ecaf5d84dcee",
           "comment": "f() -> 0x053866",
           "instance": "test",
           "method": "f()",

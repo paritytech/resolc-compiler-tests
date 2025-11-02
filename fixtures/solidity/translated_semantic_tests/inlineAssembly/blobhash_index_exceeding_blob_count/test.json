@@ -1,10 +1,12 @@
 {
+  "comment": "Ignored since pallet-revive doesn't support blobs",
+  "ignore": true,
   "cases": [
     {
       "name": "blobhash_index_exceeding_blob_count",
       "inputs": [
         {
-          "caller": "0xc73b40bec81f1278c1b98b787463fcfaf4e655d9",
+          "caller": "0x4846c900bc8e601d1ffdee70b16f240d3a637790",
           "comment": "f() -> 0x00",
           "instance": "C",
           "method": "f()",

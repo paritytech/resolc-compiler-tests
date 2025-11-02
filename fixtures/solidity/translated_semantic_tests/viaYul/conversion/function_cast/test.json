@@ -4,7 +4,7 @@
       "name": "function_cast",
       "inputs": [
         {
-          "caller": "0xaf417a2ea6b5ac83e66f5081d1ca34fc9975bc8a",
+          "caller": "0x046d12e598c8a770c09317dea1c04f967cf673a6",
           "comment": "f(uint256): 2 -> 4",
           "instance": "C",
           "method": "f(uint256)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xaf417a2ea6b5ac83e66f5081d1ca34fc9975bc8a",
+          "caller": "0x046d12e598c8a770c09317dea1c04f967cf673a6",
           "comment": "h(uint256): 2 -> 5",
           "instance": "C",
           "method": "h(uint256)",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0xaf417a2ea6b5ac83e66f5081d1ca34fc9975bc8a",
+          "caller": "0x046d12e598c8a770c09317dea1c04f967cf673a6",
           "comment": "t() -> 0x1234b3de648b0000000000000000, 0x1234b3de648b0000000000000000",
           "instance": "C",
           "method": "t()",

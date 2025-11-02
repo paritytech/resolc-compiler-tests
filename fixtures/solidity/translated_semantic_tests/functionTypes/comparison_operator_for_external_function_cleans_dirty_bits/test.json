@@ -4,7 +4,7 @@
       "name": "comparison_operator_for_external_function_cleans_dirty_bits",
       "inputs": [
         {
-          "caller": "0x195338d662fa7bb82eecaefe8db34b81d8652c77",
+          "caller": "0x2e8b20f4fffcefa58082b55e02a96613df1dcf5e",
           "comment": "comparison_operators_for_external_function_pointers_with_dirty_bits() -> true",
           "instance": "C",
           "method": "comparison_operators_for_external_function_pointers_with_dirty_bits()",

@@ -4,7 +4,7 @@
       "name": "calldata_assign_from_nowhere",
       "inputs": [
         {
-          "caller": "0x3e232f3c7e78117a40fcb9cdd7a352b55a290258",
+          "caller": "0xfe5f4146da00f59c917edda7f1c2c8aea9a18d9b",
           "comment": "f() -> 0x20, 4, 0x26121ff000000000000000000000000000000000000000000000000000000000",
           "instance": "C",
           "method": "f()",

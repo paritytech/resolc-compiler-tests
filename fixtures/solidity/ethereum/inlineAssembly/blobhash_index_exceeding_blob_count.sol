@@ -10,5 +10,7 @@ contract C {
 }
 // ====
 // EVMVersion: >=cancun
+// ignore: true
+// comment: Ignored since pallet-revive doesn't support blobs
 // ----
 // f() -> 0x00

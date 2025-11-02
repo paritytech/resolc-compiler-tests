@@ -14,7 +14,7 @@
 //!         {
 //!           "method": "testPointers",
 //!           "calldata": [],
-//!           "caller": "0xfdd26606d6a772f82ad434e8868336d2b5dc699b"
+//!           "caller": "0xdb2c17f2c7e0acb40274560de0c73ef84941f5e3"
 //!         }
 //!       ],
 //!       "expected": []

@@ -4,7 +4,7 @@
       "name": "transient_state_address_variable_members",
       "inputs": [
         {
-          "caller": "0x37ae158f5b489b05b2b885e90651f5b3be1447c8",
+          "caller": "0xf818e24a64c94c218333ff418b5d5e44b7178991",
           "comment": "constructor() ->; gas legacy: 59027; gas legacy code: 70400",
           "instance": "C",
           "method": "#deployer",
@@ -14,18 +14,18 @@
           }
         },
         {
-          "caller": "0x37ae158f5b489b05b2b885e90651f5b3be1447c8",
-          "comment": "f() -> 0x37ae158f5b489b05b2b885e90651f5b3be1447c8",
+          "caller": "0xf818e24a64c94c218333ff418b5d5e44b7178991",
+          "comment": "f() -> 0xf818e24a64c94c218333ff418b5d5e44b7178991",
           "instance": "C",
           "method": "f()",
           "calldata": [],
           "expected": {
-            "return_data": "0x00000000000000000000000037ae158f5b489b05b2b885e90651f5b3be1447c8",
+            "return_data": "0x000000000000000000000000f818e24a64c94c218333ff418b5d5e44b7178991",
             "exception": false
           }
         },
         {
-          "caller": "0x37ae158f5b489b05b2b885e90651f5b3be1447c8",
+          "caller": "0xf818e24a64c94c218333ff418b5d5e44b7178991",
           "comment": "g() -> 0",
           "instance": "C",
           "method": "g()",

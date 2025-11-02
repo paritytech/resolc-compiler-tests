@@ -4,7 +4,7 @@
       "name": "inline_array_index_access_ints",
       "inputs": [
         {
-          "caller": "0xa837a43862108f42c3a94530e3615f37fed297a9",
+          "caller": "0xaeb35930ac0a95e36663a0e493dc6ec95986e2ab",
           "comment": "f() -> 3",
           "instance": "C",
           "method": "f()",

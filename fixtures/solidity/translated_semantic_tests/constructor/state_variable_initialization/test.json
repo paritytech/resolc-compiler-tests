@@ -4,7 +4,7 @@
       "name": "state_variable_initialization",
       "inputs": [
         {
-          "caller": "0x9a3bba6b7e45c4e8fffb97ba58d0fd4fc56005a2",
+          "caller": "0x1f782a65d0232e584700627f93387da921b9c8d2",
           "comment": "i() -> 2",
           "instance": "C",
           "method": "i()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x9a3bba6b7e45c4e8fffb97ba58d0fd4fc56005a2",
+          "caller": "0x1f782a65d0232e584700627f93387da921b9c8d2",
           "comment": "k() -> 0",
           "instance": "C",
           "method": "k()",

@@ -4,7 +4,7 @@
       "name": "tuple_assign_multi_slot_grow",
       "inputs": [
         {
-          "caller": "0x3bf04fb7625eea9856da25d70c24099318c0866f",
+          "caller": "0x4044ba6d30c208abb4068bac7ce2f9898f5581d7",
           "comment": "f() -> 0x30, 0x31, 0x32",
           "instance": "C",
           "method": "f()",

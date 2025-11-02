@@ -4,7 +4,7 @@
       "name": "shift_right_negative_lvalue_signextend_int32_v2",
       "inputs": [
         {
-          "caller": "0x4c29e4e4046602399527804752ac6f119eb89e12",
+          "caller": "0xa2f22363b0813d11876bd0459d835aa22bae0788",
           "comment": "f(int32,uint32): 0xffffff99, 0x00 -> FAILURE",
           "instance": "C",
           "method": "f(int32,uint32)",
@@ -14,7 +14,7 @@
           }
         },
         {
-          "caller": "0x4c29e4e4046602399527804752ac6f119eb89e12",
+          "caller": "0xa2f22363b0813d11876bd0459d835aa22bae0788",
           "comment": "f(int32,uint32): 0xffffff99, 0x01 -> FAILURE",
           "instance": "C",
           "method": "f(int32,uint32)",
@@ -24,7 +24,7 @@
           }
         },
         {
-          "caller": "0x4c29e4e4046602399527804752ac6f119eb89e12",
+          "caller": "0xa2f22363b0813d11876bd0459d835aa22bae0788",
           "comment": "f(int32,uint32): 0xffffff99, 0x02 -> FAILURE",
           "instance": "C",
           "method": "f(int32,uint32)",
@@ -34,7 +34,7 @@
           }
         },
         {
-          "caller": "0x4c29e4e4046602399527804752ac6f119eb89e12",
+          "caller": "0xa2f22363b0813d11876bd0459d835aa22bae0788",
           "comment": "f(int32,uint32): 0xffffff99, 0x04 -> FAILURE",
           "instance": "C",
           "method": "f(int32,uint32)",
@@ -44,7 +44,7 @@
           }
         },
         {
-          "caller": "0x4c29e4e4046602399527804752ac6f119eb89e12",
+          "caller": "0xa2f22363b0813d11876bd0459d835aa22bae0788",
           "comment": "f(int32,uint32): 0xffffff99, 0x08 -> FAILURE",
           "instance": "C",
           "method": "f(int32,uint32)",

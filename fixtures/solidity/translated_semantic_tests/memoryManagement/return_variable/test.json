@@ -4,7 +4,7 @@
       "name": "return_variable",
       "inputs": [
         {
-          "caller": "0x8f0bce43534ba01e9ebfeeed7811156a34076990",
+          "caller": "0xbe0a09c7ec54e4693e1a8f3fdd3eba14067cc20b",
           "comment": "f() -> 0x0500, 0x0500, 0x0a00",
           "instance": "C",
           "method": "f()",

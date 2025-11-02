@@ -4,7 +4,7 @@
       "name": "storage_reference_library_function",
       "inputs": [
         {
-          "caller": "0x81664b6f378c89856809fa7d34f181d2a571c533",
+          "caller": "0x628ff4aa04863d61ba0058b1ed65d325943a05ee",
           "comment": "initUsingReference() ->",
           "instance": "C",
           "method": "initUsingReference()",
@@ -14,7 +14,7 @@
           }
         },
         {
-          "caller": "0x81664b6f378c89856809fa7d34f181d2a571c533",
+          "caller": "0x628ff4aa04863d61ba0058b1ed65d325943a05ee",
           "comment": "s() -> 2, true",
           "instance": "C",
           "method": "s()",

@@ -4,7 +4,7 @@
       "name": "transient_function_type_state_variable",
       "inputs": [
         {
-          "caller": "0xaa17d649dafa178000480c994b090e7b4264904d",
+          "caller": "0x2b8f2bc4d3c3ebd316fbb8e649ad8743ded1f293",
           "comment": "test() -> true",
           "instance": "C",
           "method": "test()",

@@ -4,7 +4,7 @@
       "name": "struct_delete_struct_in_mapping",
       "inputs": [
         {
-          "caller": "0x044a6db622e33732f2b34f23c1edf0a36c7918b7",
+          "caller": "0xcb5499abf2821687ac1ed8bc6c3be0004bbdda55",
           "comment": "deleteIt() -> 0",
           "instance": "test",
           "method": "deleteIt()",

@@ -1,10 +1,12 @@
 {
+  "comment": "Ignored since pallet-revive doesn't support blobs",
+  "ignore": true,
   "cases": [
     {
       "name": "block_blobbasefee",
       "inputs": [
         {
-          "caller": "0x8685abd0edd5844e7ddfb4b731befd68022e8b2d",
+          "caller": "0xe8128dc9b545d79d557300973368ed8ae0b2ba91",
           "comment": "f() -> 1",
           "instance": "C",
           "method": "f()",
@@ -15,7 +17,7 @@
           }
         },
         {
-          "caller": "0x8685abd0edd5844e7ddfb4b731befd68022e8b2d",
+          "caller": "0xe8128dc9b545d79d557300973368ed8ae0b2ba91",
           "comment": "g() -> 1",
           "instance": "C",
           "method": "g()",
@@ -26,7 +28,7 @@
           }
         },
         {
-          "caller": "0x8685abd0edd5844e7ddfb4b731befd68022e8b2d",
+          "caller": "0xe8128dc9b545d79d557300973368ed8ae0b2ba91",
           "comment": "f() -> 1",
           "instance": "C",
           "method": "f()",
@@ -37,7 +39,7 @@
           }
         },
         {
-          "caller": "0x8685abd0edd5844e7ddfb4b731befd68022e8b2d",
+          "caller": "0xe8128dc9b545d79d557300973368ed8ae0b2ba91",
           "comment": "g() -> 1",
           "instance": "C",
           "method": "g()",

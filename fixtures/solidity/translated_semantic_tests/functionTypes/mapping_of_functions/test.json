@@ -4,7 +4,7 @@
       "name": "mapping_of_functions",
       "inputs": [
         {
-          "caller": "0xb5e4cc080696a0133572509683e069af748edeeb",
+          "caller": "0x27016e266e92bfaae1a63f3ef4555e41ae5d2ee6",
           "comment": "success() -> false",
           "instance": "Flow",
           "method": "success()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xb5e4cc080696a0133572509683e069af748edeeb",
+          "caller": "0x27016e266e92bfaae1a63f3ef4555e41ae5d2ee6",
           "comment": "f() -> 7",
           "instance": "Flow",
           "method": "f()",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0xb5e4cc080696a0133572509683e069af748edeeb",
+          "caller": "0x27016e266e92bfaae1a63f3ef4555e41ae5d2ee6",
           "comment": "f() -> 7",
           "instance": "Flow",
           "method": "f()",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0xb5e4cc080696a0133572509683e069af748edeeb",
+          "caller": "0x27016e266e92bfaae1a63f3ef4555e41ae5d2ee6",
           "comment": "success() -> false",
           "instance": "Flow",
           "method": "success()",
@@ -48,7 +48,7 @@
           }
         },
         {
-          "caller": "0xb5e4cc080696a0133572509683e069af748edeeb",
+          "caller": "0x27016e266e92bfaae1a63f3ef4555e41ae5d2ee6",
           "comment": "f() -> 7",
           "instance": "Flow",
           "method": "f()",
@@ -59,7 +59,7 @@
           }
         },
         {
-          "caller": "0xb5e4cc080696a0133572509683e069af748edeeb",
+          "caller": "0x27016e266e92bfaae1a63f3ef4555e41ae5d2ee6",
           "comment": "success() -> true",
           "instance": "Flow",
           "method": "success()",

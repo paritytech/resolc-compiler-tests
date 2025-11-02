@@ -4,7 +4,7 @@
       "name": "state_variable_struct",
       "inputs": [
         {
-          "caller": "0x63a7b69e7fc4a2f52d6a992cf206388a787fbb3b",
+          "caller": "0x8e2863b7dfc07be5a3300774d7c59103d631ff43",
           "comment": "initS1() -> 7, 0x0abc, 1",
           "instance": "C",
           "method": "initS1()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x63a7b69e7fc4a2f52d6a992cf206388a787fbb3b",
+          "caller": "0x8e2863b7dfc07be5a3300774d7c59103d631ff43",
           "comment": "initS2() -> 8, 0x0def, 0",
           "instance": "C",
           "method": "initS2()",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0x63a7b69e7fc4a2f52d6a992cf206388a787fbb3b",
+          "caller": "0x8e2863b7dfc07be5a3300774d7c59103d631ff43",
           "comment": "s1() -> 7, 0x0abc, 1",
           "instance": "C",
           "method": "s1()",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0x63a7b69e7fc4a2f52d6a992cf206388a787fbb3b",
+          "caller": "0x8e2863b7dfc07be5a3300774d7c59103d631ff43",
           "comment": "s2() -> 8, 0x0def, 0",
           "instance": "C",
           "method": "s2()",

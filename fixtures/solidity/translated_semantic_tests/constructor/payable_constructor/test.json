@@ -4,7 +4,7 @@
       "name": "payable_constructor",
       "inputs": [
         {
-          "caller": "0xb051e21236f43b99eaf62faa8177b9d98dae98d0",
+          "caller": "0x076285b5f3e0666c04cd8a0e0e1c37ffb296daa3",
           "comment": "constructor(), 27 wei ->",
           "instance": "C",
           "method": "#deployer",

@@ -4,7 +4,7 @@
       "name": "stacked_return_with_modifiers",
       "inputs": [
         {
-          "caller": "0xfdd51498907d3d600538b398217db5380a06c570",
+          "caller": "0x4e79283eb3f330cf2659f61005bf0d2098a7b3b1",
           "comment": "x() -> 0",
           "instance": "C",
           "method": "x()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xfdd51498907d3d600538b398217db5380a06c570",
+          "caller": "0x4e79283eb3f330cf2659f61005bf0d2098a7b3b1",
           "comment": "f() -> 42",
           "instance": "C",
           "method": "f()",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0xfdd51498907d3d600538b398217db5380a06c570",
+          "caller": "0x4e79283eb3f330cf2659f61005bf0d2098a7b3b1",
           "comment": "x() -> 4",
           "instance": "C",
           "method": "x()",

@@ -4,7 +4,7 @@
       "name": "storage_memory_packed_dyn",
       "inputs": [
         {
-          "caller": "0x16a24d0277248382456444e3d0677d29a19ef49f",
+          "caller": "0xe704ccfd4c460f085d4f55990a27d29145df1c18",
           "comment": "f() -> 2, 3, 4; gas irOptimized: 114338; gas legacy: 122231; gas legacyOptimized: 118409",
           "instance": "C",
           "method": "f()",

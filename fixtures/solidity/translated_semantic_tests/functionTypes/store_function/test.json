@@ -4,7 +4,7 @@
       "name": "store_function",
       "inputs": [
         {
-          "caller": "0x8ab5f1ebfc3c82f5b18a8f7224bb35effbb7f91e",
+          "caller": "0x39a1d0f47a89a8e5a6da4b02fb1450b67a0c9a19",
           "comment": "t() -> 9; gas irOptimized: 99064; gas legacy: 79492; gas legacy code: 69600; gas legacyOptimized: 77587; gas legacyOptimized code: 28600",
           "instance": "C",
           "method": "t()",

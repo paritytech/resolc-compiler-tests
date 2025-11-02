@@ -4,7 +4,7 @@
       "name": "delete_transient_storage",
       "inputs": [
         {
-          "caller": "0x9ee0ecc118c853f983c4a12a8425f7f16bbf4d5f",
+          "caller": "0x177552355e148b6478f1ec76b77ee8507e9f85c3",
           "comment": "f() ->",
           "instance": "C",
           "method": "f()",

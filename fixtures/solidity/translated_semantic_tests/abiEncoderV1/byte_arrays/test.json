@@ -4,7 +4,7 @@
       "name": "byte_arrays",
       "inputs": [
         {
-          "caller": "0x4d767a914e192b77be12467873e36b794f47eaf3",
+          "caller": "0xef63ccd74cb54748b67c2f1bea88d37288b43498",
           "comment": "f(uint256,bytes,uint256): 6, 0x60, 9, 7, \"abcdefg\" -> 6, 7, \"d\", 9",
           "instance": "C",
           "method": "f(uint256,bytes,uint256)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x4d767a914e192b77be12467873e36b794f47eaf3",
+          "caller": "0xef63ccd74cb54748b67c2f1bea88d37288b43498",
           "comment": "f_external(uint256,bytes,uint256): 6, 0x60, 9, 7, \"abcdefg\" -> 6, 7, \"d\", 9",
           "instance": "C",
           "method": "f_external(uint256,bytes,uint256)",

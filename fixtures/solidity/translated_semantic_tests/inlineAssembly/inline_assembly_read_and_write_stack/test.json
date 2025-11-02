@@ -4,7 +4,7 @@
       "name": "inline_assembly_read_and_write_stack",
       "inputs": [
         {
-          "caller": "0xd49cbfb62533f565e0323d9058024a2cb9d7e9a1",
+          "caller": "0xaffee1ff48f6b04be4b98a60643c6b3715fd6cc9",
           "comment": "f() -> 45",
           "instance": "C",
           "method": "f()",

@@ -4,7 +4,7 @@
       "name": "emit_two_identical_events",
       "inputs": [
         {
-          "caller": "0x96efa1e0e2752b045a0bbe032df72d657032c249",
+          "caller": "0xa16ba89e1fa2788c5318541885faf6b97fbcc971",
           "comment": "terminate() ->; ~ emit Terminated(); ~ emit Terminated()",
           "instance": "C",
           "method": "terminate()",

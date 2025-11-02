@@ -4,7 +4,7 @@
       "name": "event_struct_storage_v2",
       "inputs": [
         {
-          "caller": "0x7d7b888c5a07614a7686582491d5902285f98cef",
+          "caller": "0xae2c7dad7d4bd8e2674cfe3ae657ffc45c83de14",
           "comment": "createEvent(uint256): 42 ->; ~ emit E((uint256)): 0x2a",
           "instance": "C",
           "method": "createEvent(uint256)",

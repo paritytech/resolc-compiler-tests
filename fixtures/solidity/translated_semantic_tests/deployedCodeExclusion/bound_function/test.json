@@ -4,7 +4,7 @@
       "name": "bound_function",
       "inputs": [
         {
-          "caller": "0x75db6fc886ac403608fed90a2e3cf8fd36f65110",
+          "caller": "0x176b325322afdd1e81cd3c58e27eb668054115ff",
           "comment": "test() -> true",
           "instance": "C",
           "method": "test()",

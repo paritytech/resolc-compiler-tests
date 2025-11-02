@@ -4,7 +4,7 @@
       "name": "convert_uint_to_fixed_bytes_greater_size",
       "inputs": [
         {
-          "caller": "0xf2d3dd37bb7e81429228ae15643264eee3daa479",
+          "caller": "0x98dfdd1f1741ac3eada28621cb64f2f4bf6a955f",
           "comment": "UintToBytes(uint16): 0x6162 -> \"\\x00\\x00\\x00\\x00\\x00\\x00ab\"",
           "instance": "Test",
           "method": "UintToBytes(uint16)",

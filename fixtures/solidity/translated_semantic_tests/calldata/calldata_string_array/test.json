@@ -4,7 +4,7 @@
       "name": "calldata_string_array",
       "inputs": [
         {
-          "caller": "0xcfb67e24821ea0891ae20032a61ecb8d114284b0",
+          "caller": "0xb382c8dea472aba9c3704c75be657c24e805e279",
           "comment": "f(string[]): 0x20, 0x1, 0x20, 0x2, hex\"6162000000000000000000000000000000000000000000000000000000000000\" -> 1, 2, 97, 0x80, 2, \"ab\"",
           "instance": "C",
           "method": "f(string[])",

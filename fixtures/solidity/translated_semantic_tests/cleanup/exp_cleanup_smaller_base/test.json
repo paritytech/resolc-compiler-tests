@@ -4,7 +4,7 @@
       "name": "exp_cleanup_smaller_base",
       "inputs": [
         {
-          "caller": "0xeaee377d4d703f7a9534916474d0237068abdc27",
+          "caller": "0x4edb76b7fa2151c81ef4e8d247d4c46e5cca82a9",
           "comment": "f() -> 0x00",
           "instance": "C",
           "method": "f()",

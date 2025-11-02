@@ -4,7 +4,7 @@
       "name": "struct_accessor",
       "inputs": [
         {
-          "caller": "0x340cf10e7e36252a7559cdbebdc266ee26488249",
+          "caller": "0x6961c2c5e3f8e5ed1370afe140dab262c0f802cc",
           "comment": "data(uint256): 7 -> 1, 2, true",
           "instance": "test",
           "method": "data(uint256)",

@@ -4,7 +4,7 @@
       "name": "wrap_unwrap_via_contract_name",
       "inputs": [
         {
-          "caller": "0xbf4df5fac13d47a1288efa92838bc8d6fc0fa567",
+          "caller": "0xe739fd7f8d51d53c4c8fd29615a6009159cede95",
           "comment": "f(uint256): 0x42 -> 0x42",
           "instance": "D",
           "method": "f(uint256)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xbf4df5fac13d47a1288efa92838bc8d6fc0fa567",
+          "caller": "0xe739fd7f8d51d53c4c8fd29615a6009159cede95",
           "comment": "g(uint256): 0x42 -> 0x42",
           "instance": "D",
           "method": "g(uint256)",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0xbf4df5fac13d47a1288efa92838bc8d6fc0fa567",
+          "caller": "0xe739fd7f8d51d53c4c8fd29615a6009159cede95",
           "comment": "h(uint256): 0x42 -> 0x42",
           "instance": "D",
           "method": "h(uint256)",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0xbf4df5fac13d47a1288efa92838bc8d6fc0fa567",
+          "caller": "0xe739fd7f8d51d53c4c8fd29615a6009159cede95",
           "comment": "i(uint256): 0x42 -> 0x42",
           "instance": "D",
           "method": "i(uint256)",

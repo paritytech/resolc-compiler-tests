@@ -4,7 +4,7 @@
       "name": "transfer",
       "inputs": [
         {
-          "caller": "0x4f70651d09b5a9cc3abfbde7b58ae018ad758739",
+          "caller": "0xc3e28f77ad5db2dc975fbb9d75cca8dff62a9539",
           "comment": "(), 10 wei ->",
           "instance": "C",
           "method": "#fallback",
@@ -15,7 +15,7 @@
           "value": "10 wei"
         },
         {
-          "caller": "0x4f70651d09b5a9cc3abfbde7b58ae018ad758739",
+          "caller": "0xc3e28f77ad5db2dc975fbb9d75cca8dff62a9539",
           "comment": "g() -> 10",
           "instance": "C",
           "method": "g()",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0x4f70651d09b5a9cc3abfbde7b58ae018ad758739",
+          "caller": "0xc3e28f77ad5db2dc975fbb9d75cca8dff62a9539",
           "comment": "f() -> FAILURE, hex\"08c379a0\", 0x20, 10, \"no_receive\"",
           "instance": "C",
           "method": "f()",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0x4f70651d09b5a9cc3abfbde7b58ae018ad758739",
+          "caller": "0xc3e28f77ad5db2dc975fbb9d75cca8dff62a9539",
           "comment": "h() -> FAILURE",
           "instance": "C",
           "method": "h()",

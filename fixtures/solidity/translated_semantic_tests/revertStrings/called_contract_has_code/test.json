@@ -4,7 +4,7 @@
       "name": "called_contract_has_code",
       "inputs": [
         {
-          "caller": "0x22b6d4930366a43247b1b7356f00c569bac2be62",
+          "caller": "0x7c6ea8b6fa21a7d14d7cc98808c4714d1fda67ce",
           "comment": "g() -> FAILURE",
           "instance": "C",
           "method": "g()",

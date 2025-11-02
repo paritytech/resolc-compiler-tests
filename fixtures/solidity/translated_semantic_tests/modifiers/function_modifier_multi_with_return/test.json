@@ -4,7 +4,7 @@
       "name": "function_modifier_multi_with_return",
       "inputs": [
         {
-          "caller": "0xf1f2bf719058481ba743049ddc17d22b09a719d2",
+          "caller": "0x2dbbe155b82d4f8de6364354d2783ca2a7a15295",
           "comment": "f(bool): false -> 1",
           "instance": "C",
           "method": "f(bool)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xf1f2bf719058481ba743049ddc17d22b09a719d2",
+          "caller": "0x2dbbe155b82d4f8de6364354d2783ca2a7a15295",
           "comment": "f(bool): true -> 2",
           "instance": "C",
           "method": "f(bool)",

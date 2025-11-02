@@ -4,7 +4,7 @@
       "name": "struct_delete_storage_with_array",
       "inputs": [
         {
-          "caller": "0xce4d7d864310223c2fbd56b34c4dbb508e543920",
+          "caller": "0x56506346394bdb63aa45d7e1a86cee9c3a97196a",
           "comment": "f() ->; gas irOptimized: 113465; gas legacy: 113591; gas legacyOptimized: 113098",
           "instance": "C",
           "method": "f()",
@@ -14,7 +14,7 @@
           }
         },
         {
-          "caller": "0xce4d7d864310223c2fbd56b34c4dbb508e543920",
+          "caller": "0x56506346394bdb63aa45d7e1a86cee9c3a97196a",
           "comment": "g() ->; gas irOptimized: 118828; gas legacy: 118764; gas legacyOptimized: 118168",
           "instance": "C",
           "method": "g()",

@@ -4,7 +4,7 @@
       "name": "external_function_pointer_selector",
       "inputs": [
         {
-          "caller": "0x6354684627854b6c34ca143f5a3266a70f6c00dc",
+          "caller": "0xc73b40bec81f1278c1b98b787463fcfaf4e655d9",
           "comment": "testYul() -> 0xe16b4a9b",
           "instance": "C",
           "method": "testYul()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x6354684627854b6c34ca143f5a3266a70f6c00dc",
+          "caller": "0xc73b40bec81f1278c1b98b787463fcfaf4e655d9",
           "comment": "testSol() -> 0xe16b4a9b",
           "instance": "C",
           "method": "testSol()",

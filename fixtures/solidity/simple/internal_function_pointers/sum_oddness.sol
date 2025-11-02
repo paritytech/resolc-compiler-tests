@@ -10,7 +10,7 @@
 //!         {
 //!           "method": "first",
 //!           "calldata": [],
-//!           "caller": "0x1d9ff1f8422f6e427c1fc49be5c2d96081ac0512"
+//!           "caller": "0x48e1b073c40db927db47cf85c2e61895de81ac1c"
 //!         }
 //!       ],
 //!       "expected": [
@@ -23,7 +23,7 @@
 //!         {
 //!           "method": "second",
 //!           "calldata": [],
-//!           "caller": "0x3573efc788341f2386106c9c066d4a39ac7e6dd3"
+//!           "caller": "0x1d9ff1f8422f6e427c1fc49be5c2d96081ac0512"
 //!         }
 //!       ],
 //!       "expected": [

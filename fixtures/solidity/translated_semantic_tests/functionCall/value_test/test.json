@@ -4,7 +4,7 @@
       "name": "value_test",
       "inputs": [
         {
-          "caller": "0x1cb436c8219693ff9c190c2238b8c07c1b99db24",
+          "caller": "0xc4b8140ca247e1a20662c7b1f8cf1d163208d714",
           "comment": "f(), 1 ether -> 1000000000000000000",
           "instance": "C",
           "method": "f()",
@@ -16,7 +16,7 @@
           "value": "1000000000000000000 wei"
         },
         {
-          "caller": "0x1cb436c8219693ff9c190c2238b8c07c1b99db24",
+          "caller": "0xc4b8140ca247e1a20662c7b1f8cf1d163208d714",
           "comment": "f(), 1 wei -> 1",
           "instance": "C",
           "method": "f()",

@@ -4,7 +4,7 @@
       "name": "array_push_nested_from_memory",
       "inputs": [
         {
-          "caller": "0x2c68fe182769e191f4941b8b331cd37b5f4fac91",
+          "caller": "0xc919cd1c3c7c68137e316c16851fd9bbb09c70ae",
           "comment": "f() -> 1",
           "instance": "C",
           "method": "f()",

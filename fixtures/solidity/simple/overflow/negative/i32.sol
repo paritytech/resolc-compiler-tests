@@ -8,7 +8,7 @@
 //!           "calldata": [
 //!             "-2147483648"
 //!           ],
-//!           "caller": "0xfabfc6ef69ef5b3213ee2554aa43ec4fccde6fab"
+//!           "caller": "0x05b4dcb602a1b59ee529bedacda7d0aa3532e592"
 //!         }
 //!       ],
 //!       "expected": [

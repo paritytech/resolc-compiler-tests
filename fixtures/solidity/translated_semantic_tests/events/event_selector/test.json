@@ -4,7 +4,7 @@
       "name": "event_selector",
       "inputs": [
         {
-          "caller": "0x4c0886baeab05678d57552cebe3eae8a2e09e348",
+          "caller": "0x4cb9944e03ac7b6d12d0a4a3af51d51a6ccd92b9",
           "comment": "test1() -> 0x92bbf6e823a631f3c8e09b1c8df90f378fb56f7fbc9701827e1ff8aad7f6a028, 0x2ff0672f372fbe844b353429d4510ea5e43683af134c54f75f789ff57bc0c0, 0x92bbf6e823a631f3c8e09b1c8df90f378fb56f7fbc9701827e1ff8aad7f6a028, 0x92bbf6e823a631f3c8e09b1c8df90f378fb56f7fbc9701827e1ff8aad7f6a028",
           "instance": "C",
           "method": "test1()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x4c0886baeab05678d57552cebe3eae8a2e09e348",
+          "caller": "0x4cb9944e03ac7b6d12d0a4a3af51d51a6ccd92b9",
           "comment": "test2() -> 0x92bbf6e823a631f3c8e09b1c8df90f378fb56f7fbc9701827e1ff8aad7f6a028, 0x2ff0672f372fbe844b353429d4510ea5e43683af134c54f75f789ff57bc0c0, 0x92bbf6e823a631f3c8e09b1c8df90f378fb56f7fbc9701827e1ff8aad7f6a028, 0x92bbf6e823a631f3c8e09b1c8df90f378fb56f7fbc9701827e1ff8aad7f6a028, 0x92bbf6e823a631f3c8e09b1c8df90f378fb56f7fbc9701827e1ff8aad7f6a028",
           "instance": "C",
           "method": "test2()",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0x4c0886baeab05678d57552cebe3eae8a2e09e348",
+          "caller": "0x4cb9944e03ac7b6d12d0a4a3af51d51a6ccd92b9",
           "comment": "test3() -> 0x28811f5935c16a099486acb976b3a6b4942950a1425a74e9eb3e9b7f7135e12a",
           "instance": "C",
           "method": "test3()",

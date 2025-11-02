@@ -4,7 +4,7 @@
       "name": "event_dynamic_array_memory_v2",
       "inputs": [
         {
-          "caller": "0xe09ef460c185a9c3da860c3e8425b990ef7e031d",
+          "caller": "0xa1dfeb55e53e1ed8c0a8db35e15a3d9147c73c97",
           "comment": "createEvent(uint256): 42 ->; ~ emit E(uint256[]): 0x20, 0x03, 0x2a, 0x2b, 0x2c",
           "instance": "C",
           "method": "createEvent(uint256)",

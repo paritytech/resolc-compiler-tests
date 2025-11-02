@@ -4,7 +4,7 @@
       "name": "shift_left_assignment",
       "inputs": [
         {
-          "caller": "0x677c811665d7452d24796a8c94e85f053005283f",
+          "caller": "0x4c29e4e4046602399527804752ac6f119eb89e12",
           "comment": "f(uint256,uint256): 0x4266, 0x0 -> 0x4266",
           "instance": "C",
           "method": "f(uint256,uint256)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x677c811665d7452d24796a8c94e85f053005283f",
+          "caller": "0x4c29e4e4046602399527804752ac6f119eb89e12",
           "comment": "f(uint256,uint256): 0x4266, 0x8 -> 0x426600",
           "instance": "C",
           "method": "f(uint256,uint256)",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0x677c811665d7452d24796a8c94e85f053005283f",
+          "caller": "0x4c29e4e4046602399527804752ac6f119eb89e12",
           "comment": "f(uint256,uint256): 0x4266, 0x10 -> 0x42660000",
           "instance": "C",
           "method": "f(uint256,uint256)",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0x677c811665d7452d24796a8c94e85f053005283f",
+          "caller": "0x4c29e4e4046602399527804752ac6f119eb89e12",
           "comment": "f(uint256,uint256): 0x4266, 0x11 -> 0x84cc0000",
           "instance": "C",
           "method": "f(uint256,uint256)",
@@ -48,7 +48,7 @@
           }
         },
         {
-          "caller": "0x677c811665d7452d24796a8c94e85f053005283f",
+          "caller": "0x4c29e4e4046602399527804752ac6f119eb89e12",
           "comment": "f(uint256,uint256): 0x4266, 0xf0 -> 0x4266000000000000000000000000000000000000000000000000000000000000",
           "instance": "C",
           "method": "f(uint256,uint256)",
@@ -59,7 +59,7 @@
           }
         },
         {
-          "caller": "0x677c811665d7452d24796a8c94e85f053005283f",
+          "caller": "0x4c29e4e4046602399527804752ac6f119eb89e12",
           "comment": "f(uint256,uint256): 0x4266, 0x100 -> 0",
           "instance": "C",
           "method": "f(uint256,uint256)",

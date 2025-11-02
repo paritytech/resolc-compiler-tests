@@ -4,7 +4,7 @@
       "name": "hex_string_with_non_printable_characters",
       "inputs": [
         {
-          "caller": "0xc605d3b42505f7ca3a68caf95983b94c3e6c8f08",
+          "caller": "0x4b13e55f75378acdc75e540ce3593f7e2fdccf34",
           "comment": "f() -> 0x000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f",
           "instance": "C",
           "method": "f()",

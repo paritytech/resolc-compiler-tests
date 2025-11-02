@@ -4,7 +4,7 @@
       "name": "for_loop_break",
       "inputs": [
         {
-          "caller": "0xe18fed4111f634bc2efaf99ed4f595c724c9705a",
+          "caller": "0xd648dd3f5cc54b0e844c3ebdd56b487510242f70",
           "comment": "f() -> 6",
           "instance": "C",
           "method": "f()",

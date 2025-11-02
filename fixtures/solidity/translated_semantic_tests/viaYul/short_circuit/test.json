@@ -4,7 +4,7 @@
       "name": "short_circuit",
       "inputs": [
         {
-          "caller": "0xf2acddce0049f3dc8d0acc4afeee3347f6b29183",
+          "caller": "0xaf417a2ea6b5ac83e66f5081d1ca34fc9975bc8a",
           "comment": "or(uint256): 0 -> true, 0",
           "instance": "C",
           "method": "or(uint256)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xf2acddce0049f3dc8d0acc4afeee3347f6b29183",
+          "caller": "0xaf417a2ea6b5ac83e66f5081d1ca34fc9975bc8a",
           "comment": "and(uint256): 0 -> true, 8",
           "instance": "C",
           "method": "and(uint256)",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0xf2acddce0049f3dc8d0acc4afeee3347f6b29183",
+          "caller": "0xaf417a2ea6b5ac83e66f5081d1ca34fc9975bc8a",
           "comment": "or(uint256): 1 -> true, 8",
           "instance": "C",
           "method": "or(uint256)",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0xf2acddce0049f3dc8d0acc4afeee3347f6b29183",
+          "caller": "0xaf417a2ea6b5ac83e66f5081d1ca34fc9975bc8a",
           "comment": "and(uint256): 1 -> false, 1",
           "instance": "C",
           "method": "and(uint256)",

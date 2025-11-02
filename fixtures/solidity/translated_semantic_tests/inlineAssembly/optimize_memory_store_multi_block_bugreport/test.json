@@ -4,7 +4,7 @@
       "name": "optimize_memory_store_multi_block_bugreport",
       "inputs": [
         {
-          "caller": "0x285ebf0a9b8c4899d82457bac23d175bd69b153e",
+          "caller": "0x5dbec9f1dc196861a3074aa6b868d8b2551f966d",
           "comment": "test() -> 10; ~ emit <anonymous>: 0x0123456789abcd, 0xef00000000000000000000000000000000000000000000000000000000000000",
           "instance": "Test",
           "method": "test()",

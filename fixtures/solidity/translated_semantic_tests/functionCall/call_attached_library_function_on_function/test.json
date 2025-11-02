@@ -4,7 +4,7 @@
       "name": "call_attached_library_function_on_function",
       "inputs": [
         {
-          "caller": "0x706a15d7b00f16043729e60523c839b18a7b1c49",
+          "caller": "0x576d4ffe78f3f678015a33c20a074c3033c5f24e",
           "comment": "f() -> 7",
           "instance": "C",
           "method": "f()",

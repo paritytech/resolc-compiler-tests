@@ -6,7 +6,7 @@
         {
           "instance": "Lib",
           "method": "#deployer",
-          "caller": "0xecf1ac20d015ecf61d05a38f0b3d9fa52ecbf434",
+          "caller": "0x700304487c13a4d832c43b404e34045fa0c16489",
           "calldata": [],
           "expected": [
             "Lib.address"
@@ -15,7 +15,7 @@
         {
           "instance": "HackMe",
           "method": "#deployer",
-          "caller": "0xecf1ac20d015ecf61d05a38f0b3d9fa52ecbf434",
+          "caller": "0x700304487c13a4d832c43b404e34045fa0c16489",
           "calldata": [
             "Lib.address"
           ],
@@ -26,7 +26,7 @@
         {
           "instance": "Attack",
           "method": "#deployer",
-          "caller": "0xecf1ac20d015ecf61d05a38f0b3d9fa52ecbf434",
+          "caller": "0x700304487c13a4d832c43b404e34045fa0c16489",
           "calldata": [
             "HackMe.address"
           ],
@@ -36,7 +36,7 @@
         },
         {
           "instance": "Attack",
-          "caller": "0xecf1ac20d015ecf61d05a38f0b3d9fa52ecbf434",
+          "caller": "0x700304487c13a4d832c43b404e34045fa0c16489",
           "method": "attack",
           "calldata": []
         },
@@ -44,7 +44,7 @@
           "instance": "HackMe",
           "method": "owner",
           "calldata": [],
-          "caller": "0xecf1ac20d015ecf61d05a38f0b3d9fa52ecbf434"
+          "caller": "0x700304487c13a4d832c43b404e34045fa0c16489"
         }
       ],
       "expected": [

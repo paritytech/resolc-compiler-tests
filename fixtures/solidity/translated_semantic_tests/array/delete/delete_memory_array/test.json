@@ -4,7 +4,7 @@
       "name": "delete_memory_array",
       "inputs": [
         {
-          "caller": "0xf25e3cf808a20fdafe5420c4351ab151da14f636",
+          "caller": "0xf1521ad1752e59bcb57fde740e3ea0a6d9efea07",
           "comment": "len() -> 0",
           "instance": "C",
           "method": "len()",

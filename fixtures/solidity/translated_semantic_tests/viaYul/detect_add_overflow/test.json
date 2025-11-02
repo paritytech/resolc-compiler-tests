@@ -4,7 +4,7 @@
       "name": "detect_add_overflow",
       "inputs": [
         {
-          "caller": "0xde381c8f3c32529836ab870878ed78870d29c03e",
+          "caller": "0xeec03ff7275ed092ddd742b1be0b46dcc98f727b",
           "comment": "f(uint256,uint256): 5, 6 -> 11",
           "instance": "C",
           "method": "f(uint256,uint256)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xde381c8f3c32529836ab870878ed78870d29c03e",
+          "caller": "0xeec03ff7275ed092ddd742b1be0b46dcc98f727b",
           "comment": "f(uint256,uint256): -2, 1 -> -1",
           "instance": "C",
           "method": "f(uint256,uint256)",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0xde381c8f3c32529836ab870878ed78870d29c03e",
+          "caller": "0xeec03ff7275ed092ddd742b1be0b46dcc98f727b",
           "comment": "f(uint256,uint256): -2, 2 -> FAILURE, hex\"4e487b71\", 0x11",
           "instance": "C",
           "method": "f(uint256,uint256)",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0xde381c8f3c32529836ab870878ed78870d29c03e",
+          "caller": "0xeec03ff7275ed092ddd742b1be0b46dcc98f727b",
           "comment": "f(uint256,uint256): 2, -2 -> FAILURE, hex\"4e487b71\", 0x11",
           "instance": "C",
           "method": "f(uint256,uint256)",
@@ -48,7 +48,7 @@
           }
         },
         {
-          "caller": "0xde381c8f3c32529836ab870878ed78870d29c03e",
+          "caller": "0xeec03ff7275ed092ddd742b1be0b46dcc98f727b",
           "comment": "g(uint8,uint8): 128, 64 -> 192",
           "instance": "C",
           "method": "g(uint8,uint8)",
@@ -59,7 +59,7 @@
           }
         },
         {
-          "caller": "0xde381c8f3c32529836ab870878ed78870d29c03e",
+          "caller": "0xeec03ff7275ed092ddd742b1be0b46dcc98f727b",
           "comment": "g(uint8,uint8): 128, 127 -> 255",
           "instance": "C",
           "method": "g(uint8,uint8)",
@@ -70,7 +70,7 @@
           }
         },
         {
-          "caller": "0xde381c8f3c32529836ab870878ed78870d29c03e",
+          "caller": "0xeec03ff7275ed092ddd742b1be0b46dcc98f727b",
           "comment": "g(uint8,uint8): 128, 128 -> FAILURE, hex\"4e487b71\", 0x11",
           "instance": "C",
           "method": "g(uint8,uint8)",

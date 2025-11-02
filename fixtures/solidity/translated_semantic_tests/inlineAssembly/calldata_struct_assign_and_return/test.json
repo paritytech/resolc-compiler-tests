@@ -4,7 +4,7 @@
       "name": "calldata_struct_assign_and_return",
       "inputs": [
         {
-          "caller": "0xab32256a63591c03f5c4c58326d2cb9e97c6461d",
+          "caller": "0x7eb0a7565d059244e96f7ebd1626ddb2c99a6f8b",
           "comment": "g(): 0xCAFFEE, 0x42, 0x21 -> 0x42, 0x21",
           "instance": "C",
           "method": "g()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xab32256a63591c03f5c4c58326d2cb9e97c6461d",
+          "caller": "0x7eb0a7565d059244e96f7ebd1626ddb2c99a6f8b",
           "comment": "g(): 0xCAFFEE, 0x4242, 0x2121 -> FAILURE",
           "instance": "C",
           "method": "g()",
@@ -25,7 +25,7 @@
           }
         },
         {
-          "caller": "0xab32256a63591c03f5c4c58326d2cb9e97c6461d",
+          "caller": "0x7eb0a7565d059244e96f7ebd1626ddb2c99a6f8b",
           "comment": "g(): 0xCAFFEE, 0x42 -> 0x42, 0",
           "instance": "C",
           "method": "g()",
@@ -36,7 +36,7 @@
           }
         },
         {
-          "caller": "0xab32256a63591c03f5c4c58326d2cb9e97c6461d",
+          "caller": "0x7eb0a7565d059244e96f7ebd1626ddb2c99a6f8b",
           "comment": "h() -> 0x42",
           "instance": "C",
           "method": "h()",
@@ -47,7 +47,7 @@
           }
         },
         {
-          "caller": "0xab32256a63591c03f5c4c58326d2cb9e97c6461d",
+          "caller": "0x7eb0a7565d059244e96f7ebd1626ddb2c99a6f8b",
           "comment": "i() -> FAILURE",
           "instance": "C",
           "method": "i()",

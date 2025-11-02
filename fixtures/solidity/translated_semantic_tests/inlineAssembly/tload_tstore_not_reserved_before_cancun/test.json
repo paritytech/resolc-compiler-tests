@@ -4,7 +4,7 @@
       "name": "tload_tstore_not_reserved_before_cancun",
       "inputs": [
         {
-          "caller": "0x7eb0a7565d059244e96f7ebd1626ddb2c99a6f8b",
+          "caller": "0x26c280df44667be0e18ad16d3f5e800de484978c",
           "comment": "f() -> 1",
           "instance": "C",
           "method": "f()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x7eb0a7565d059244e96f7ebd1626ddb2c99a6f8b",
+          "caller": "0x26c280df44667be0e18ad16d3f5e800de484978c",
           "comment": "g() -> 5",
           "instance": "C",
           "method": "g()",

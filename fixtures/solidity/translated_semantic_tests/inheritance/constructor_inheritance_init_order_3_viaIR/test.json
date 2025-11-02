@@ -4,7 +4,7 @@
       "name": "constructor_inheritance_init_order_3_viaIR",
       "inputs": [
         {
-          "caller": "0xe1bae084dd9b58b6d69969c4dbf872fbecc75e69",
+          "caller": "0x9fbb2f8fd710dc2773d782b0a2e9c4a2d3a69e7d",
           "comment": "x() -> 2",
           "instance": "B",
           "method": "x()",

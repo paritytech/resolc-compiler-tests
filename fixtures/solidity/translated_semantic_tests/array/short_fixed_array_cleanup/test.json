@@ -9,10 +9,10 @@
           "comment": "storageEmpty -> 1",
           "address": "c.address",
           "is_storage_empty": true,
-          "caller": "0x8E473E8547cbFfBEe11802f2c4c5FA487CD8888E"
+          "caller": "0x216b2f8288aa16708be741912a3079d05195c79d"
         },
         {
-          "caller": "0xcca0c8b891d42b1258110d586f89a5f61be5f3cd",
+          "caller": "0x14331c99c00cfbc8a7ca6a720c067c24f38e8b84",
           "comment": "fill() ->",
           "instance": "c",
           "method": "fill()",
@@ -25,10 +25,10 @@
           "comment": "storageEmpty -> 0",
           "address": "c.address",
           "is_storage_empty": false,
-          "caller": "0x8E473E8547cbFfBEe11802f2c4c5FA487CD8888E"
+          "caller": "0x216b2f8288aa16708be741912a3079d05195c79d"
         },
         {
-          "caller": "0xcca0c8b891d42b1258110d586f89a5f61be5f3cd",
+          "caller": "0x14331c99c00cfbc8a7ca6a720c067c24f38e8b84",
           "comment": "clear() ->",
           "instance": "c",
           "method": "clear()",
@@ -41,7 +41,7 @@
           "comment": "storageEmpty -> 1",
           "address": "c.address",
           "is_storage_empty": true,
-          "caller": "0x8E473E8547cbFfBEe11802f2c4c5FA487CD8888E"
+          "caller": "0x216b2f8288aa16708be741912a3079d05195c79d"
         }
       ]
     }

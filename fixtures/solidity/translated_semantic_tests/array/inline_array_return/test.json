@@ -4,7 +4,7 @@
       "name": "inline_array_return",
       "inputs": [
         {
-          "caller": "0x9186536e04fdd7102ea16bf8b3236fe5d2e3600a",
+          "caller": "0x25bb51dbf1c3acc952f13da94e1f415185c45ded",
           "comment": "f() -> 1, 2, 3, 4, 5",
           "instance": "C",
           "method": "f()",

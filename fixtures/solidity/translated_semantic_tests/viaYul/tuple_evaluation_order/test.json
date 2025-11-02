@@ -4,7 +4,7 @@
       "name": "tuple_evaluation_order",
       "inputs": [
         {
-          "caller": "0xa8eb6613f6d762a652b12ae05109ade3031b6904",
+          "caller": "0x4bf171ac7491b346b03bd8124852da8c9e313448",
           "comment": "f() -> 3, 1",
           "instance": "C",
           "method": "f()",

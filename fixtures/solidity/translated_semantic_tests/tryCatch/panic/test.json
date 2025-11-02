@@ -4,7 +4,7 @@
       "name": "panic",
       "inputs": [
         {
-          "caller": "0x597daa24429508b9e82d9ad7c9f7aa2b9f58d541",
+          "caller": "0x9afb9de3948c953ff19b1293aadb03b15b763fb5",
           "comment": "onlyPanic(bool,uint256,uint256): true, 7, 6 -> 1, 0x00",
           "instance": "C",
           "method": "onlyPanic(bool,uint256,uint256)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x597daa24429508b9e82d9ad7c9f7aa2b9f58d541",
+          "caller": "0x9afb9de3948c953ff19b1293aadb03b15b763fb5",
           "comment": "onlyPanic(bool,uint256,uint256): true, 6, 7 -> 0x00, 0x11",
           "instance": "C",
           "method": "onlyPanic(bool,uint256,uint256)",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0x597daa24429508b9e82d9ad7c9f7aa2b9f58d541",
+          "caller": "0x9afb9de3948c953ff19b1293aadb03b15b763fb5",
           "comment": "onlyPanic(bool,uint256,uint256): false, 7, 6 -> FAILURE, hex\"08c379a0\", 0x20, 7, \"failure\"",
           "instance": "C",
           "method": "onlyPanic(bool,uint256,uint256)",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0x597daa24429508b9e82d9ad7c9f7aa2b9f58d541",
+          "caller": "0x9afb9de3948c953ff19b1293aadb03b15b763fb5",
           "comment": "onlyPanic(bool,uint256,uint256): false, 6, 7 -> FAILURE, hex\"08c379a0\", 0x20, 7, \"failure\"",
           "instance": "C",
           "method": "onlyPanic(bool,uint256,uint256)",
@@ -48,7 +48,7 @@
           }
         },
         {
-          "caller": "0x597daa24429508b9e82d9ad7c9f7aa2b9f58d541",
+          "caller": "0x9afb9de3948c953ff19b1293aadb03b15b763fb5",
           "comment": "panicAndError(bool,uint256,uint256): true, 7, 6 -> 1, 0x00, 0x60, 0x00",
           "instance": "C",
           "method": "panicAndError(bool,uint256,uint256)",
@@ -59,7 +59,7 @@
           }
         },
         {
-          "caller": "0x597daa24429508b9e82d9ad7c9f7aa2b9f58d541",
+          "caller": "0x9afb9de3948c953ff19b1293aadb03b15b763fb5",
           "comment": "panicAndError(bool,uint256,uint256): true, 6, 7 -> 0x00, 0x11, 0x60, 0x00",
           "instance": "C",
           "method": "panicAndError(bool,uint256,uint256)",
@@ -70,7 +70,7 @@
           }
         },
         {
-          "caller": "0x597daa24429508b9e82d9ad7c9f7aa2b9f58d541",
+          "caller": "0x9afb9de3948c953ff19b1293aadb03b15b763fb5",
           "comment": "panicAndError(bool,uint256,uint256): false, 7, 6 -> 0x00, 0x00, 0x60, 7, \"failure\"",
           "instance": "C",
           "method": "panicAndError(bool,uint256,uint256)",
@@ -81,7 +81,7 @@
           }
         },
         {
-          "caller": "0x597daa24429508b9e82d9ad7c9f7aa2b9f58d541",
+          "caller": "0x9afb9de3948c953ff19b1293aadb03b15b763fb5",
           "comment": "panicAndError(bool,uint256,uint256): false, 6, 7 -> 0x00, 0x00, 0x60, 7, \"failure\"",
           "instance": "C",
           "method": "panicAndError(bool,uint256,uint256)",

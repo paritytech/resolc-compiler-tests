@@ -4,7 +4,7 @@
       "name": "call_to_zero_initialized_function_type_ir",
       "inputs": [
         {
-          "caller": "0x274976571e36004faa000e2ce900c472da8cf2da",
+          "caller": "0xff554c61f637e9c4e8044ff343ca64b053b30d83",
           "comment": "t() -> FAILURE, hex\"4e487b71\", 0x51",
           "instance": "C",
           "method": "t()",

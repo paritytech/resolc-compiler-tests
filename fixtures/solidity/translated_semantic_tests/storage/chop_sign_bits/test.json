@@ -4,7 +4,7 @@
       "name": "chop_sign_bits",
       "inputs": [
         {
-          "caller": "0xfcb28079e05c6608664bf4c430b17deee4ba67e7",
+          "caller": "0x3e0e57709574bb9616acd60d378af03a91f17481",
           "comment": "x(uint256): 0 -> -1",
           "instance": "Test",
           "method": "x(uint256)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xfcb28079e05c6608664bf4c430b17deee4ba67e7",
+          "caller": "0x3e0e57709574bb9616acd60d378af03a91f17481",
           "comment": "x(uint256): 1 -> -2",
           "instance": "Test",
           "method": "x(uint256)",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0xfcb28079e05c6608664bf4c430b17deee4ba67e7",
+          "caller": "0x3e0e57709574bb9616acd60d378af03a91f17481",
           "comment": "y(uint256): 0 -> -5",
           "instance": "Test",
           "method": "y(uint256)",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0xfcb28079e05c6608664bf4c430b17deee4ba67e7",
+          "caller": "0x3e0e57709574bb9616acd60d378af03a91f17481",
           "comment": "y(uint256): 1 -> -6",
           "instance": "Test",
           "method": "y(uint256)",
@@ -48,7 +48,7 @@
           }
         },
         {
-          "caller": "0xfcb28079e05c6608664bf4c430b17deee4ba67e7",
+          "caller": "0x3e0e57709574bb9616acd60d378af03a91f17481",
           "comment": "f() -> 0x20, 2, -3, -4",
           "instance": "Test",
           "method": "f()",
@@ -59,7 +59,7 @@
           }
         },
         {
-          "caller": "0xfcb28079e05c6608664bf4c430b17deee4ba67e7",
+          "caller": "0x3e0e57709574bb9616acd60d378af03a91f17481",
           "comment": "g() -> -3, -4",
           "instance": "Test",
           "method": "g()",
@@ -70,7 +70,7 @@
           }
         },
         {
-          "caller": "0xfcb28079e05c6608664bf4c430b17deee4ba67e7",
+          "caller": "0x3e0e57709574bb9616acd60d378af03a91f17481",
           "comment": "h(int8): -10 -> -10",
           "instance": "Test",
           "method": "h(int8)",

@@ -4,7 +4,7 @@
       "name": "bytes_length_member",
       "inputs": [
         {
-          "caller": "0x28973d20608450b010db29bffb74c5a3d80806e9",
+          "caller": "0xf25e3cf808a20fdafe5420c4351ab151da14f636",
           "comment": "getLength() -> 0",
           "instance": "c",
           "method": "getLength()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x28973d20608450b010db29bffb74c5a3d80806e9",
+          "caller": "0xf25e3cf808a20fdafe5420c4351ab151da14f636",
           "comment": "set(): 1, 2 -> true; gas irOptimized: 110422; gas legacy: 110951; gas legacyOptimized: 110576",
           "instance": "c",
           "method": "set()",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0x28973d20608450b010db29bffb74c5a3d80806e9",
+          "caller": "0xf25e3cf808a20fdafe5420c4351ab151da14f636",
           "comment": "getLength() -> 68",
           "instance": "c",
           "method": "getLength()",

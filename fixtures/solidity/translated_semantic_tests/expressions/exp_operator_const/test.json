@@ -4,7 +4,7 @@
       "name": "exp_operator_const",
       "inputs": [
         {
-          "caller": "0x134b3ba48b7bdabda9bccdf9d712b133c07b9397",
+          "caller": "0x9273adb9d708676b739d3d227080233d56133fa3",
           "comment": "f() -> 8",
           "instance": "test",
           "method": "f()",

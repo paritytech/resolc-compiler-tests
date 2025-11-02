@@ -4,7 +4,7 @@
       "name": "assembly_access",
       "inputs": [
         {
-          "caller": "0x37ae158f5b489b05b2b885e90651f5b3be1447c8",
+          "caller": "0xcffa4fdfd2bba9c81903a3177d80bb6503b95fd5",
           "comment": "f() ->",
           "instance": "C",
           "method": "f()",

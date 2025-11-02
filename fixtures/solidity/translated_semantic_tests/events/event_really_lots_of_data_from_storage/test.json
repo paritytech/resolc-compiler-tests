@@ -4,7 +4,7 @@
       "name": "event_really_lots_of_data_from_storage",
       "inputs": [
         {
-          "caller": "0xbd85ffd447071a4aa6d851c8b874d053d1da3e7f",
+          "caller": "0xa16ba89e1fa2788c5318541885faf6b97fbcc971",
           "comment": "deposit() ->; ~ emit Deposit(uint256,bytes,uint256): 0x0a, 0x60, 0x0f, 0x03, \"ABC\"",
           "instance": "ClientReceipt",
           "method": "deposit()",

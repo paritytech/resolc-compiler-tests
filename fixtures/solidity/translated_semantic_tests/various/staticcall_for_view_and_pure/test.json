@@ -4,7 +4,7 @@
       "name": "staticcall_for_view_and_pure",
       "inputs": [
         {
-          "caller": "0xc71368256498c815d169bf23a0945ff92cb97be5",
+          "caller": "0x137193e42ece368ea4f1c73a851618303af5c617",
           "comment": "f() -> 0x1; gas legacy: 76495; gas legacy code: 25600",
           "instance": "D",
           "method": "f()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xc71368256498c815d169bf23a0945ff92cb97be5",
+          "caller": "0x137193e42ece368ea4f1c73a851618303af5c617",
           "comment": "fview() -> FAILURE; gas irOptimized: 98425388; gas irOptimized code: 13200; gas legacy: 98413173; gas legacy code: 25600; gas legacyOptimized: 98425379; gas legacyOptimized code: 13200",
           "instance": "D",
           "method": "fview()",
@@ -25,7 +25,7 @@
           }
         },
         {
-          "caller": "0xc71368256498c815d169bf23a0945ff92cb97be5",
+          "caller": "0x137193e42ece368ea4f1c73a851618303af5c617",
           "comment": "fpure() -> FAILURE; gas irOptimized: 98425388; gas irOptimized code: 13200; gas legacy: 98413173; gas legacy code: 25600; gas legacyOptimized: 98425379; gas legacyOptimized code: 13200",
           "instance": "D",
           "method": "fpure()",

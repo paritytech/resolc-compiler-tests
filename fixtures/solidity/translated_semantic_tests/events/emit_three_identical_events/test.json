@@ -4,7 +4,7 @@
       "name": "emit_three_identical_events",
       "inputs": [
         {
-          "caller": "0xdb5830a1b6cfc23ac85da336ef52dfcf36da6c7d",
+          "caller": "0x0d0cb5bb42c1d91a55cb1564bcfeb612d17e07bb",
           "comment": "terminate() ->; ~ emit Terminated(); ~ emit Terminated(); ~ emit Terminated()",
           "instance": "C",
           "method": "terminate()",

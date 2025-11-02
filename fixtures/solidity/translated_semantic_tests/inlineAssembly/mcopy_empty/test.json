@@ -4,7 +4,7 @@
       "name": "mcopy_empty",
       "inputs": [
         {
-          "caller": "0x43c869c3b4616f7f9a106653a797834f716bf5d2",
+          "caller": "0xc73b40bec81f1278c1b98b787463fcfaf4e655d9",
           "comment": "mcopy_zero(bytes): 0x20, 0x20, 0xffeeddccbbaa9988776655443322110000112233445566778899aabbccddeeff -> 0x20, 0x20, 0xffeeddccbbaa9988776655443322110000112233445566778899aabbccddeeff",
           "instance": "C",
           "method": "mcopy_zero(bytes)",

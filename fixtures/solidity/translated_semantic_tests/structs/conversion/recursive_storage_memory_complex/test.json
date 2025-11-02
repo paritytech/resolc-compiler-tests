@@ -4,7 +4,7 @@
       "name": "recursive_storage_memory_complex",
       "inputs": [
         {
-          "caller": "0xd5a982a3501d4c5eb2c3c68a68b3ec3b963ccb7c",
+          "caller": "0xf77203d3cfa06abbfd17c93255d3b9a6c65f3b66",
           "comment": "run() -> 0x20, 10, 0x42, 0x4200, 0x420000, 0x420001, 0x420002, 0x4201, 0x420100, 0x420101, 0x420102, 0x420103",
           "instance": "CopyTest",
           "method": "run()",

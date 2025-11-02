@@ -4,7 +4,7 @@
       "name": "constructing_enums_from_ints",
       "inputs": [
         {
-          "caller": "0xb43a0767a633b55c6dcd3c74eb6ae78a2ddf46ae",
+          "caller": "0xe2b196af5bb90f582ec86470b20d174ec26cf7db",
           "comment": "test() -> 1",
           "instance": "c",
           "method": "test()",

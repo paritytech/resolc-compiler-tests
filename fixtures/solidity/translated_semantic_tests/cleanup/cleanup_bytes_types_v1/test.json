@@ -4,7 +4,7 @@
       "name": "cleanup_bytes_types_v1",
       "inputs": [
         {
-          "caller": "0x924b18c017406f60a96651d5d3941aeb0fdfbe87",
+          "caller": "0x4c9e7ba68c0835091d239b938295d2bbf2fcfab9",
           "comment": "f(bytes2,uint16): \"abc\", 0x40102 -> 0x0",
           "instance": "C",
           "method": "f(bytes2,uint16)",

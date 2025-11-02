@@ -4,7 +4,7 @@
       "name": "virtual_function_deployed",
       "inputs": [
         {
-          "caller": "0x63a7b69e7fc4a2f52d6a992cf206388a787fbb3b",
+          "caller": "0x98a97075d83abe33b58e6ed9d13e3c331355d408",
           "comment": "test() -> true",
           "instance": "C",
           "method": "test()",

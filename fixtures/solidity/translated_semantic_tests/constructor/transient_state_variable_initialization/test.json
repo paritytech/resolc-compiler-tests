@@ -4,7 +4,7 @@
       "name": "transient_state_variable_initialization",
       "inputs": [
         {
-          "caller": "0x8414cc50fba511131ffd5bb8e5986db80e81817a",
+          "caller": "0x076285b5f3e0666c04cd8a0e0e1c37ffb296daa3",
           "comment": "f() -> 100",
           "instance": "C",
           "method": "f()",

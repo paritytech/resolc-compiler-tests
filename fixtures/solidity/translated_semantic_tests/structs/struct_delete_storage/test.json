@@ -4,7 +4,7 @@
       "name": "struct_delete_storage",
       "inputs": [
         {
-          "caller": "0x71e079594dfaa7a40862fd44f84eb089b05506e1",
+          "caller": "0x715148d017c2b7b38dab3b3c02f951e0fe19f7d8",
           "comment": "f() ->",
           "instance": "C",
           "method": "f()",

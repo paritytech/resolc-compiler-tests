@@ -4,7 +4,7 @@
       "name": "shift_left_larger_type",
       "inputs": [
         {
-          "caller": "0xcc4433e4c5fed1ee04266e6e1b5c8372c58f85c1",
+          "caller": "0x7211889555ca69736272570b46fb26fa161494f9",
           "comment": "f() -> 0",
           "instance": "C",
           "method": "f()",

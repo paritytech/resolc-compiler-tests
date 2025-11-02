@@ -4,7 +4,7 @@
       "name": "storing_invalid_boolean",
       "inputs": [
         {
-          "caller": "0x7380e90633a070af1580b9753599c84ed079067d",
+          "caller": "0x08d31bdba59dca6263a937de96024b36e7bd0922",
           "comment": "set() -> 1",
           "instance": "C",
           "method": "set()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x7380e90633a070af1580b9753599c84ed079067d",
+          "caller": "0x08d31bdba59dca6263a937de96024b36e7bd0922",
           "comment": "perm() -> true",
           "instance": "C",
           "method": "perm()",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0x7380e90633a070af1580b9753599c84ed079067d",
+          "caller": "0x08d31bdba59dca6263a937de96024b36e7bd0922",
           "comment": "ret() -> true",
           "instance": "C",
           "method": "ret()",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0x7380e90633a070af1580b9753599c84ed079067d",
+          "caller": "0x08d31bdba59dca6263a937de96024b36e7bd0922",
           "comment": "ev() -> 1; ~ emit Ev(bool): true",
           "instance": "C",
           "method": "ev()",

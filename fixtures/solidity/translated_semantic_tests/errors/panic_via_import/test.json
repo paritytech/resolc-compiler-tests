@@ -4,7 +4,7 @@
       "name": "panic_via_import",
       "inputs": [
         {
-          "caller": "0x20b3f7461bb50de2666851a25888f7b2828cd575",
+          "caller": "0xff158700f54c6761ac86601c5a3f4ddfd696c623",
           "comment": "a() -> FAILURE, hex\"002ff067\", hex\"0000000000000000000000000000000000000000000000000000000000000001\"",
           "instance": "C",
           "method": "a()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x20b3f7461bb50de2666851a25888f7b2828cd575",
+          "caller": "0xff158700f54c6761ac86601c5a3f4ddfd696c623",
           "comment": "b() -> FAILURE, hex\"002ff067\", hex\"0000000000000000000000000000000000000000000000000000000000000001\"",
           "instance": "C",
           "method": "b()",

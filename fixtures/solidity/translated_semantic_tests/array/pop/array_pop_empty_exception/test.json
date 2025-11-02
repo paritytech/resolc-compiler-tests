@@ -4,7 +4,7 @@
       "name": "array_pop_empty_exception",
       "inputs": [
         {
-          "caller": "0x1ed5a268af7054084baa063d5d0645c7d66a074b",
+          "caller": "0x1904c0819b9b1d87016394b439a2297ccecfc4fd",
           "comment": "test() -> FAILURE, hex\"4e487b71\", 0x31",
           "instance": "c",
           "method": "test()",

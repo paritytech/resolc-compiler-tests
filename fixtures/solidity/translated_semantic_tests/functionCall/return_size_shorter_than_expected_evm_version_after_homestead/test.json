@@ -4,7 +4,7 @@
       "name": "return_size_shorter_than_expected_evm_version_after_homestead",
       "inputs": [
         {
-          "caller": "0x1cb436c8219693ff9c190c2238b8c07c1b99db24",
+          "caller": "0xc68def9f8a9657d8ed6854e5145f786f89f2d1fa",
           "comment": "test() -> FAILURE; gas legacy: 131966",
           "instance": "Test",
           "method": "test()",

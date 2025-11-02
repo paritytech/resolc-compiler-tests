@@ -4,7 +4,7 @@
       "name": "internal_library_function_return_var_size",
       "inputs": [
         {
-          "caller": "0xfb6cc1d00b11c845d1b5e5ef7e6859fb9bdb89f0",
+          "caller": "0x65a7caa418a73b07dd3f1f7bf1f57ac1786278eb",
           "comment": "f() -> 2",
           "instance": "C",
           "method": "f()",

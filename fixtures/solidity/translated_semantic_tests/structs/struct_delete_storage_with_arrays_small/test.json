@@ -4,7 +4,7 @@
       "name": "struct_delete_storage_with_arrays_small",
       "inputs": [
         {
-          "caller": "0x8334c1a42f71f3a5671754f05da0af89468d8974",
+          "caller": "0x7b110d848a4ceb9fca0d1ce722b19227f4cbc6b4",
           "comment": "f() -> 0; gas irOptimized: 111570",
           "instance": "C",
           "method": "f()",

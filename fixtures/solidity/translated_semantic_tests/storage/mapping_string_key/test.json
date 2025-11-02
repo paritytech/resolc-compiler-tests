@@ -4,7 +4,7 @@
       "name": "mapping_string_key",
       "inputs": [
         {
-          "caller": "0x6961c2c5e3f8e5ed1370afe140dab262c0f802cc",
+          "caller": "0xf0ef8144bf98abdb0bc9e48cae83b80ddf8e36bc",
           "comment": "set(string,uint256): 0x40, 8, 3, \"abc\" ->",
           "instance": "C",
           "method": "set(string,uint256)",
@@ -14,7 +14,7 @@
           }
         },
         {
-          "caller": "0x6961c2c5e3f8e5ed1370afe140dab262c0f802cc",
+          "caller": "0xf0ef8144bf98abdb0bc9e48cae83b80ddf8e36bc",
           "comment": "get(string): 0x20, 3, \"abc\" -> 8",
           "instance": "C",
           "method": "get(string)",
@@ -25,7 +25,7 @@
           }
         },
         {
-          "caller": "0x6961c2c5e3f8e5ed1370afe140dab262c0f802cc",
+          "caller": "0xf0ef8144bf98abdb0bc9e48cae83b80ddf8e36bc",
           "comment": "get(string): 0x20, 3, \"abe\" -> 0",
           "instance": "C",
           "method": "get(string)",
@@ -36,7 +36,7 @@
           }
         },
         {
-          "caller": "0x6961c2c5e3f8e5ed1370afe140dab262c0f802cc",
+          "caller": "0xf0ef8144bf98abdb0bc9e48cae83b80ddf8e36bc",
           "comment": "getFixed() -> 0",
           "instance": "C",
           "method": "getFixed()",
@@ -47,7 +47,7 @@
           }
         },
         {
-          "caller": "0x6961c2c5e3f8e5ed1370afe140dab262c0f802cc",
+          "caller": "0xf0ef8144bf98abdb0bc9e48cae83b80ddf8e36bc",
           "comment": "setFixed(uint256): 9 ->",
           "instance": "C",
           "method": "setFixed(uint256)",
@@ -57,7 +57,7 @@
           }
         },
         {
-          "caller": "0x6961c2c5e3f8e5ed1370afe140dab262c0f802cc",
+          "caller": "0xf0ef8144bf98abdb0bc9e48cae83b80ddf8e36bc",
           "comment": "getFixed() -> 9",
           "instance": "C",
           "method": "getFixed()",

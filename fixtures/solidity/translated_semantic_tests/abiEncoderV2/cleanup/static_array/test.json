@@ -4,7 +4,7 @@
       "name": "static_array",
       "inputs": [
         {
-          "caller": "0xd2c6448e5f68496f0d4bce2376eb57b0d4934e61",
+          "caller": "0xb5910f319d710416dd5c13573deeae0156337e11",
           "comment": "f(uint256,uint256): 1, 1 -> 0x20, 0x44, hex\"78b86ac6\", 1, 1, hex\"00000000000000000000000000000000000000000000000000000000\"",
           "instance": "C",
           "method": "f(uint256,uint256)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xd2c6448e5f68496f0d4bce2376eb57b0d4934e61",
+          "caller": "0xb5910f319d710416dd5c13573deeae0156337e11",
           "comment": "gggggggg(uint8[2]): 1, 1 -> 0x20, 0x44, hex\"78b86ac6\", 1, 1, hex\"00000000000000000000000000000000000000000000000000000000\"",
           "instance": "C",
           "method": "gggggggg(uint8[2])",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0xd2c6448e5f68496f0d4bce2376eb57b0d4934e61",
+          "caller": "0xb5910f319d710416dd5c13573deeae0156337e11",
           "comment": "f(uint256,uint256): 0x0101, 0x0101 -> 0x20, 0x44, hex\"78b86ac6\", 1, 1, hex\"00000000000000000000000000000000000000000000000000000000\"",
           "instance": "C",
           "method": "f(uint256,uint256)",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0xd2c6448e5f68496f0d4bce2376eb57b0d4934e61",
+          "caller": "0xb5910f319d710416dd5c13573deeae0156337e11",
           "comment": "gggggggg(uint8[2]): 0x0101, 0x0101 -> FAILURE",
           "instance": "C",
           "method": "gggggggg(uint8[2])",

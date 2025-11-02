@@ -10,7 +10,7 @@
             "1",
             "Square.address"
           ],
-          "caller": "0xcbac56756d29b94b411a6e6beda3495e355495fb"
+          "caller": "0xa48ce9df0f4f7694d3f7e8d909dc48ff5c5f6b0d"
         }
       ],
       "expected": [
@@ -27,7 +27,7 @@
             "15",
             "Square.address"
           ],
-          "caller": "0x233461ddd42bd2816f4a98dd46d72ae87277e291"
+          "caller": "0xcbac56756d29b94b411a6e6beda3495e355495fb"
         }
       ],
       "expected": [
@@ -44,7 +44,7 @@
             "100",
             "Square.address"
           ],
-          "caller": "0xa50422cdbbaca0ea05b0a565d47a5f5d27e06c3b"
+          "caller": "0x233461ddd42bd2816f4a98dd46d72ae87277e291"
         }
       ],
       "expected": [

@@ -4,7 +4,7 @@
       "name": "short_data_calls_fallback",
       "inputs": [
         {
-          "caller": "0x76567bed2ae67875ec453900976a4928a4b1369f",
+          "caller": "0xe04e805ca173c14f6d5471ffec166e883a5a0126",
           "comment": "(): hex\"d88e0b\"",
           "instance": "A",
           "method": "#fallback",
@@ -14,7 +14,7 @@
           }
         },
         {
-          "caller": "0x76567bed2ae67875ec453900976a4928a4b1369f",
+          "caller": "0xe04e805ca173c14f6d5471ffec166e883a5a0126",
           "comment": "x() -> 2",
           "instance": "A",
           "method": "x()",
@@ -25,7 +25,7 @@
           }
         },
         {
-          "caller": "0x76567bed2ae67875ec453900976a4928a4b1369f",
+          "caller": "0xe04e805ca173c14f6d5471ffec166e883a5a0126",
           "comment": "(): hex\"d88e0b00\"",
           "instance": "A",
           "method": "#fallback",
@@ -35,7 +35,7 @@
           }
         },
         {
-          "caller": "0x76567bed2ae67875ec453900976a4928a4b1369f",
+          "caller": "0xe04e805ca173c14f6d5471ffec166e883a5a0126",
           "comment": "x() -> 3",
           "instance": "A",
           "method": "x()",
@@ -46,7 +46,7 @@
           }
         },
         {
-          "caller": "0x76567bed2ae67875ec453900976a4928a4b1369f",
+          "caller": "0xe04e805ca173c14f6d5471ffec166e883a5a0126",
           "comment": "(): hex\"d88e\"",
           "instance": "A",
           "method": "#fallback",
@@ -56,7 +56,7 @@
           }
         },
         {
-          "caller": "0x76567bed2ae67875ec453900976a4928a4b1369f",
+          "caller": "0xe04e805ca173c14f6d5471ffec166e883a5a0126",
           "comment": "x() -> 2",
           "instance": "A",
           "method": "x()",
@@ -67,7 +67,7 @@
           }
         },
         {
-          "caller": "0x76567bed2ae67875ec453900976a4928a4b1369f",
+          "caller": "0xe04e805ca173c14f6d5471ffec166e883a5a0126",
           "comment": "(): hex\"d88e0b00\"",
           "instance": "A",
           "method": "#fallback",
@@ -77,7 +77,7 @@
           }
         },
         {
-          "caller": "0x76567bed2ae67875ec453900976a4928a4b1369f",
+          "caller": "0xe04e805ca173c14f6d5471ffec166e883a5a0126",
           "comment": "x() -> 3",
           "instance": "A",
           "method": "x()",
@@ -88,7 +88,7 @@
           }
         },
         {
-          "caller": "0x76567bed2ae67875ec453900976a4928a4b1369f",
+          "caller": "0xe04e805ca173c14f6d5471ffec166e883a5a0126",
           "comment": "(): hex\"d8\"",
           "instance": "A",
           "method": "#fallback",
@@ -98,7 +98,7 @@
           }
         },
         {
-          "caller": "0x76567bed2ae67875ec453900976a4928a4b1369f",
+          "caller": "0xe04e805ca173c14f6d5471ffec166e883a5a0126",
           "comment": "x() -> 2",
           "instance": "A",
           "method": "x()",

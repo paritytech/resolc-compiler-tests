@@ -4,7 +4,7 @@
       "name": "free_function_resolution_base_contract",
       "inputs": [
         {
-          "caller": "0x9bc72f887a4c90492f2fff97e5c75114e4c61c79",
+          "caller": "0x5c0caee3eaeda7d46b7662e94e4319be85ce8bd8",
           "comment": "h() -> 1337",
           "instance": "D",
           "method": "h()",

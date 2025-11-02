@@ -4,7 +4,7 @@
       "name": "abi_encode_calldata_slice",
       "inputs": [
         {
-          "caller": "0xcb8b8753522f5d620ac62773f9d285203295ab54",
+          "caller": "0x3118481d4241ec9d0c08a986683738418105c262",
           "comment": "test_bytes() ->; gas irOptimized: 314884; gas legacy: 305816; gas legacyOptimized: 253573",
           "instance": "C",
           "method": "test_bytes()",
@@ -14,7 +14,7 @@
           }
         },
         {
-          "caller": "0xcb8b8753522f5d620ac62773f9d285203295ab54",
+          "caller": "0x3118481d4241ec9d0c08a986683738418105c262",
           "comment": "test_uint256() ->; gas irOptimized: 448346; gas legacy: 421304; gas legacyOptimized: 351544",
           "instance": "C",
           "method": "test_uint256()",

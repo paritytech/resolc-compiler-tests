@@ -14,7 +14,7 @@
           "expected": [
             "OtherContract.address"
           ],
-          "caller": "0x2be1349101ffb1f65a462490323df6affd94e05a"
+          "caller": "0x631bc13504611db1d559f17df60e3665f251b73c"
         },
         {
           "method": "#deployer",
@@ -25,14 +25,14 @@
           "expected": [
             "Test.address"
           ],
-          "caller": "0x2be1349101ffb1f65a462490323df6affd94e05a"
+          "caller": "0x631bc13504611db1d559f17df60e3665f251b73c"
         },
         {
           "method": "complexOperation",
           "calldata": [
             "5"
           ],
-          "caller": "0x2be1349101ffb1f65a462490323df6affd94e05a"
+          "caller": "0x631bc13504611db1d559f17df60e3665f251b73c"
         }
       ],
       "expected": [

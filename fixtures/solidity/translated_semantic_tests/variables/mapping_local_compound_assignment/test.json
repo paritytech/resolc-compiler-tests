@@ -4,7 +4,7 @@
       "name": "mapping_local_compound_assignment",
       "inputs": [
         {
-          "caller": "0x8f156b0892fec81b2a7fdb71c32bcec88770deed",
+          "caller": "0x2b8f2bc4d3c3ebd316fbb8e649ad8743ded1f293",
           "comment": "f() -> 42, 0, 0, 21",
           "instance": "test",
           "method": "f()",

@@ -4,7 +4,7 @@
       "name": "uint",
       "inputs": [
         {
-          "caller": "0x175cc84d9f6147b586342ef65631554088dfa258",
+          "caller": "0x5339105028187c5e7f5de49ca1f0b20c282c6bb6",
           "comment": "uintMinA() -> true",
           "instance": "test",
           "method": "uintMinA()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x175cc84d9f6147b586342ef65631554088dfa258",
+          "caller": "0x5339105028187c5e7f5de49ca1f0b20c282c6bb6",
           "comment": "uintMinB() -> true",
           "instance": "test",
           "method": "uintMinB()",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0x175cc84d9f6147b586342ef65631554088dfa258",
+          "caller": "0x5339105028187c5e7f5de49ca1f0b20c282c6bb6",
           "comment": "uintMinC() -> true",
           "instance": "test",
           "method": "uintMinC()",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0x175cc84d9f6147b586342ef65631554088dfa258",
+          "caller": "0x5339105028187c5e7f5de49ca1f0b20c282c6bb6",
           "comment": "uintMinD() -> true",
           "instance": "test",
           "method": "uintMinD()",
@@ -48,7 +48,7 @@
           }
         },
         {
-          "caller": "0x175cc84d9f6147b586342ef65631554088dfa258",
+          "caller": "0x5339105028187c5e7f5de49ca1f0b20c282c6bb6",
           "comment": "uintMaxA() -> true",
           "instance": "test",
           "method": "uintMaxA()",
@@ -59,7 +59,7 @@
           }
         },
         {
-          "caller": "0x175cc84d9f6147b586342ef65631554088dfa258",
+          "caller": "0x5339105028187c5e7f5de49ca1f0b20c282c6bb6",
           "comment": "uintMaxB() -> true",
           "instance": "test",
           "method": "uintMaxB()",
@@ -70,7 +70,7 @@
           }
         },
         {
-          "caller": "0x175cc84d9f6147b586342ef65631554088dfa258",
+          "caller": "0x5339105028187c5e7f5de49ca1f0b20c282c6bb6",
           "comment": "uintMaxC() -> true",
           "instance": "test",
           "method": "uintMaxC()",
@@ -81,7 +81,7 @@
           }
         },
         {
-          "caller": "0x175cc84d9f6147b586342ef65631554088dfa258",
+          "caller": "0x5339105028187c5e7f5de49ca1f0b20c282c6bb6",
           "comment": "uintMaxD() -> true",
           "instance": "test",
           "method": "uintMaxD()",

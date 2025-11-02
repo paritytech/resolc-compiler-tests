@@ -4,7 +4,7 @@
       "name": "type_conversion_cleanup",
       "inputs": [
         {
-          "caller": "0x237e1851cbd1fce733b85e46ae37a716bc0a44a0",
+          "caller": "0xaf268cfee2fc229cc096051f1ef729aa74bbff00",
           "comment": "test() -> 0xffffffffffffffffffffffffffffffff",
           "instance": "Test",
           "method": "test()",

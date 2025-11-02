@@ -6,7 +6,7 @@
       "name": "copy_removes_bytes_data",
       "inputs": [
         {
-          "caller": "0x1250f14750f8502d4f3da47254356df6edc2aedf",
+          "caller": "0xcccec7b1bf157f536fc2dc799a1f17c6513ef059",
           "comment": "set(): 1, 2, 3, 4, 5 -> true; gas irOptimized: 177344; gas legacy: 177953; gas legacyOptimized: 177550",
           "instance": "c",
           "method": "set()",
@@ -20,10 +20,10 @@
           "comment": "storageEmpty -> 0",
           "address": "c.address",
           "is_storage_empty": false,
-          "caller": "0x987472D528F667D31e0268A68F1f486f74B3B883"
+          "caller": "0x3074429b909180290daf1d115ea5bfe57e9d06ed"
         },
         {
-          "caller": "0x1250f14750f8502d4f3da47254356df6edc2aedf",
+          "caller": "0xcccec7b1bf157f536fc2dc799a1f17c6513ef059",
           "comment": "reset() -> true",
           "instance": "c",
           "method": "reset()",
@@ -37,7 +37,7 @@
           "comment": "storageEmpty -> 1",
           "address": "c.address",
           "is_storage_empty": true,
-          "caller": "0x987472D528F667D31e0268A68F1f486f74B3B883"
+          "caller": "0x3074429b909180290daf1d115ea5bfe57e9d06ed"
         }
       ]
     }

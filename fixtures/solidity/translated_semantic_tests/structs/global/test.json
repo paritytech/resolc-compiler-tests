@@ -4,7 +4,7 @@
       "name": "global",
       "inputs": [
         {
-          "caller": "0xcffa4fdfd2bba9c81903a3177d80bb6503b95fd5",
+          "caller": "0x1419d21ab685fda6bdac6bb8bee069a70926799c",
           "comment": "f((uint256,uint256)): 42, 23 -> 42, 23",
           "instance": "C",
           "method": "f((uint256,uint256))",

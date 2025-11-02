@@ -4,7 +4,7 @@
       "name": "byte_array_push_transition",
       "inputs": [
         {
-          "caller": "0x51f15ca088b685475dea2917695699b26ec68410",
+          "caller": "0x6812f3a8c55d91826e33f16b121921d2dcc30ca0",
           "comment": "test() -> 0; gas irOptimized: 167569; gas legacy: 206218; gas legacyOptimized: 197297",
           "instance": "c",
           "method": "test()",

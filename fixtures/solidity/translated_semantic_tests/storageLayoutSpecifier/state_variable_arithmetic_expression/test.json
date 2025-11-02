@@ -4,7 +4,7 @@
       "name": "state_variable_arithmetic_expression",
       "inputs": [
         {
-          "caller": "0x8e2863b7dfc07be5a3300774d7c59103d631ff43",
+          "caller": "0x05014c23dd0c7e15aa02bcbbee738369f3067aad",
           "comment": "f(uint256): 2 -> 0",
           "instance": "C",
           "method": "f(uint256)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x8e2863b7dfc07be5a3300774d7c59103d631ff43",
+          "caller": "0x05014c23dd0c7e15aa02bcbbee738369f3067aad",
           "comment": "f(uint256): 3 -> 5",
           "instance": "C",
           "method": "f(uint256)",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0x8e2863b7dfc07be5a3300774d7c59103d631ff43",
+          "caller": "0x05014c23dd0c7e15aa02bcbbee738369f3067aad",
           "comment": "f(uint256): 5 -> 15",
           "instance": "C",
           "method": "f(uint256)",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0x8e2863b7dfc07be5a3300774d7c59103d631ff43",
+          "caller": "0x05014c23dd0c7e15aa02bcbbee738369f3067aad",
           "comment": "x() -> 10",
           "instance": "C",
           "method": "x()",
@@ -48,7 +48,7 @@
           }
         },
         {
-          "caller": "0x8e2863b7dfc07be5a3300774d7c59103d631ff43",
+          "caller": "0x05014c23dd0c7e15aa02bcbbee738369f3067aad",
           "comment": "y() -> 17",
           "instance": "C",
           "method": "y()",
@@ -59,7 +59,7 @@
           }
         },
         {
-          "caller": "0x8e2863b7dfc07be5a3300774d7c59103d631ff43",
+          "caller": "0x05014c23dd0c7e15aa02bcbbee738369f3067aad",
           "comment": "z() -> 15",
           "instance": "C",
           "method": "z()",

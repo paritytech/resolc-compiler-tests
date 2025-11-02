@@ -4,7 +4,7 @@
       "name": "free_function_multi",
       "inputs": [
         {
-          "caller": "0x53388155167dec0841cda26ebd636c7da8601614",
+          "caller": "0x19cf38009ade03b5019f1c0aade8639b187be5be",
           "comment": "f(uint256): 10 -> 10",
           "instance": "C",
           "method": "f(uint256)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x53388155167dec0841cda26ebd636c7da8601614",
+          "caller": "0x19cf38009ade03b5019f1c0aade8639b187be5be",
           "comment": "g(uint256): 10 -> 0",
           "instance": "C",
           "method": "g(uint256)",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0x53388155167dec0841cda26ebd636c7da8601614",
+          "caller": "0x19cf38009ade03b5019f1c0aade8639b187be5be",
           "comment": "f(uint256): 256 -> 0x0100",
           "instance": "C",
           "method": "f(uint256)",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0x53388155167dec0841cda26ebd636c7da8601614",
+          "caller": "0x19cf38009ade03b5019f1c0aade8639b187be5be",
           "comment": "g(uint256): 256 -> 0",
           "instance": "C",
           "method": "g(uint256)",

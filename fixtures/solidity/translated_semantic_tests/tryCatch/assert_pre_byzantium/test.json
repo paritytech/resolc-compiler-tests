@@ -4,7 +4,7 @@
       "name": "assert_pre_byzantium",
       "inputs": [
         {
-          "caller": "0x2ad16f8eef66d1445a3864e2786bcb9b6940c2db",
+          "caller": "0x8e975cdbb63763bbca761a015ab17490bb8f3cf2",
           "comment": "f(bool): true -> 1",
           "instance": "C",
           "method": "f(bool)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x2ad16f8eef66d1445a3864e2786bcb9b6940c2db",
+          "caller": "0x8e975cdbb63763bbca761a015ab17490bb8f3cf2",
           "comment": "f(bool): false -> 2",
           "instance": "C",
           "method": "f(bool)",

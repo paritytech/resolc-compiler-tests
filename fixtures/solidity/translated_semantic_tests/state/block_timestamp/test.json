@@ -6,7 +6,7 @@
       "name": "block_timestamp",
       "inputs": [
         {
-          "caller": "0x5d3ada146c63406bfcd1233786cbc7c4342d9081",
+          "caller": "0xc19ba3b13b4005f7460d9ea9ff2866dadfb5745f",
           "comment": "constructor()",
           "instance": "C",
           "method": "#deployer",
@@ -16,7 +16,7 @@
           }
         },
         {
-          "caller": "0x5d3ada146c63406bfcd1233786cbc7c4342d9081",
+          "caller": "0xc19ba3b13b4005f7460d9ea9ff2866dadfb5745f",
           "comment": "f() -> 0xdeadbeef",
           "instance": "C",
           "method": "f()",
@@ -27,7 +27,7 @@
           }
         },
         {
-          "caller": "0x5d3ada146c63406bfcd1233786cbc7c4342d9081",
+          "caller": "0xc19ba3b13b4005f7460d9ea9ff2866dadfb5745f",
           "comment": "f() -> 0xdeadbeef",
           "instance": "C",
           "method": "f()",

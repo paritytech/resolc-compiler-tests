@@ -4,7 +4,7 @@
       "name": "dirty_slot",
       "inputs": [
         {
-          "caller": "0xb1d5b1becf92dc6501d8efec56fb16b9659e7ce0",
+          "caller": "0xc4ad6cf26d70b5a405a2e1e77feae55a5940cb40",
           "comment": "a() -> 13",
           "instance": "C",
           "method": "a()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xb1d5b1becf92dc6501d8efec56fb16b9659e7ce0",
+          "caller": "0xc4ad6cf26d70b5a405a2e1e77feae55a5940cb40",
           "comment": "b() -> 0x0401000000000000000000000000000000000000000000000000000000000000",
           "instance": "C",
           "method": "b()",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0xb1d5b1becf92dc6501d8efec56fb16b9659e7ce0",
+          "caller": "0xc4ad6cf26d70b5a405a2e1e77feae55a5940cb40",
           "comment": "get_b(uint256): 0 -> 0x0400000000000000000000000000000000000000000000000000000000000000",
           "instance": "C",
           "method": "get_b(uint256)",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0xb1d5b1becf92dc6501d8efec56fb16b9659e7ce0",
+          "caller": "0xc4ad6cf26d70b5a405a2e1e77feae55a5940cb40",
           "comment": "get_b(uint256): 1 -> 0x0100000000000000000000000000000000000000000000000000000000000000",
           "instance": "C",
           "method": "get_b(uint256)",
@@ -48,7 +48,7 @@
           }
         },
         {
-          "caller": "0xb1d5b1becf92dc6501d8efec56fb16b9659e7ce0",
+          "caller": "0xc4ad6cf26d70b5a405a2e1e77feae55a5940cb40",
           "comment": "get_b(uint256): 2 -> FAILURE, hex\"4e487b71\", 0x32",
           "instance": "C",
           "method": "get_b(uint256)",
@@ -59,7 +59,7 @@
           }
         },
         {
-          "caller": "0xb1d5b1becf92dc6501d8efec56fb16b9659e7ce0",
+          "caller": "0xc4ad6cf26d70b5a405a2e1e77feae55a5940cb40",
           "comment": "write_a() ->",
           "instance": "C",
           "method": "write_a()",
@@ -69,7 +69,7 @@
           }
         },
         {
-          "caller": "0xb1d5b1becf92dc6501d8efec56fb16b9659e7ce0",
+          "caller": "0xc4ad6cf26d70b5a405a2e1e77feae55a5940cb40",
           "comment": "a() -> 0x2001",
           "instance": "C",
           "method": "a()",
@@ -80,7 +80,7 @@
           }
         },
         {
-          "caller": "0xb1d5b1becf92dc6501d8efec56fb16b9659e7ce0",
+          "caller": "0xc4ad6cf26d70b5a405a2e1e77feae55a5940cb40",
           "comment": "write_b() ->",
           "instance": "C",
           "method": "write_b()",
@@ -90,7 +90,7 @@
           }
         },
         {
-          "caller": "0xb1d5b1becf92dc6501d8efec56fb16b9659e7ce0",
+          "caller": "0xc4ad6cf26d70b5a405a2e1e77feae55a5940cb40",
           "comment": "b() -> 0x5403000000000000000000000000000000000000000000000000000000000000",
           "instance": "C",
           "method": "b()",
@@ -101,7 +101,7 @@
           }
         },
         {
-          "caller": "0xb1d5b1becf92dc6501d8efec56fb16b9659e7ce0",
+          "caller": "0xc4ad6cf26d70b5a405a2e1e77feae55a5940cb40",
           "comment": "get_b(uint256): 0 -> 0x5400000000000000000000000000000000000000000000000000000000000000",
           "instance": "C",
           "method": "get_b(uint256)",
@@ -112,7 +112,7 @@
           }
         },
         {
-          "caller": "0xb1d5b1becf92dc6501d8efec56fb16b9659e7ce0",
+          "caller": "0xc4ad6cf26d70b5a405a2e1e77feae55a5940cb40",
           "comment": "get_b(uint256): 1 -> 0x0300000000000000000000000000000000000000000000000000000000000000",
           "instance": "C",
           "method": "get_b(uint256)",
@@ -123,7 +123,7 @@
           }
         },
         {
-          "caller": "0xb1d5b1becf92dc6501d8efec56fb16b9659e7ce0",
+          "caller": "0xc4ad6cf26d70b5a405a2e1e77feae55a5940cb40",
           "comment": "get_b(uint256): 2 -> FAILURE, hex\"4e487b71\", 0x32",
           "instance": "C",
           "method": "get_b(uint256)",

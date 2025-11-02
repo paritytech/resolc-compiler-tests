@@ -4,7 +4,7 @@
       "name": "dynamically_encoded",
       "inputs": [
         {
-          "caller": "0x33dc3d41443dc032029e021dc6d7948574e103dc",
+          "caller": "0xfc141022ad8bd5f02287aae25ede4561e05d4d7e",
           "comment": "f((uint256[])): 32, 32, 2, 42, 23 -> 2, 42, 23",
           "instance": "C",
           "method": "f((uint256[]))",

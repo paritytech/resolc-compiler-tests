@@ -4,7 +4,7 @@
       "name": "keccak_yul_optimization",
       "inputs": [
         {
-          "caller": "0x51f25e9ba1ff4e5f2bf9f730e3e22fcf049b033f",
+          "caller": "0x9d974530548e34e28c039eac18b5157a77840c5b",
           "comment": "f() -> 0xcdb56c384a9682c600315e3470157a4cf7638d0d33e9dae5c40ffd2644fc5a80; gas irOptimized: 22239; gas legacy: 23385; gas legacyOptimized: 23092",
           "instance": "C",
           "method": "f()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x51f25e9ba1ff4e5f2bf9f730e3e22fcf049b033f",
+          "caller": "0x9d974530548e34e28c039eac18b5157a77840c5b",
           "comment": "g() -> 0xcdb56c384a9682c600315e3470157a4cf7638d0d33e9dae5c40ffd2644fc5a80; gas irOptimized: 21277; gas legacy: 21462; gas legacyOptimized: 21256",
           "instance": "C",
           "method": "g()",

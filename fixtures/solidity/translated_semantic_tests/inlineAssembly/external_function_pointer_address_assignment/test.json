@@ -4,7 +4,7 @@
       "name": "external_function_pointer_address_assignment",
       "inputs": [
         {
-          "caller": "0x46225825b017b4cc13bd62fb1d619f83d528c50f",
+          "caller": "0x80ae1f1b1801058b13f9fd3dd0df55ff09b3d51d",
           "comment": "testYul(address): 0x1234567890 -> 0x1234567890",
           "instance": "C",
           "method": "testYul(address)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x46225825b017b4cc13bd62fb1d619f83d528c50f",
+          "caller": "0x80ae1f1b1801058b13f9fd3dd0df55ff09b3d51d",
           "comment": "testYul(address): 0xC0FFEE3EA7 -> 0xC0FFEE3EA7",
           "instance": "C",
           "method": "testYul(address)",

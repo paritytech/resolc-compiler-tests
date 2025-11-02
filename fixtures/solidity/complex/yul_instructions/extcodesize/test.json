@@ -23,7 +23,7 @@
               }
             ]
           },
-          "caller": "0xd604823c569965563ad9d39848e6ee5ed5f81704"
+          "caller": "0xecf1ac20d015ecf61d05a38f0b3d9fa52ecbf434"
         },
         {
           "comment": "zero address (2 index)",
@@ -35,7 +35,7 @@
           "expected": [
             "0"
           ],
-          "caller": "0xd604823c569965563ad9d39848e6ee5ed5f81704"
+          "caller": "0xecf1ac20d015ecf61d05a38f0b3d9fa52ecbf434"
         },
         {
           "comment": "precompile address (3 index)",
@@ -47,7 +47,7 @@
           "expected": [
             "0"
           ],
-          "caller": "0xd604823c569965563ad9d39848e6ee5ed5f81704"
+          "caller": "0xecf1ac20d015ecf61d05a38f0b3d9fa52ecbf434"
         },
         {
           "comment": "system-contract address (4 index)",
@@ -59,7 +59,7 @@
           "expected": [
             "1"
           ],
-          "caller": "0xd604823c569965563ad9d39848e6ee5ed5f81704"
+          "caller": "0xecf1ac20d015ecf61d05a38f0b3d9fa52ecbf434"
         },
         {
           "comment": "system address (5 index)",
@@ -71,7 +71,7 @@
           "expected": [
             "0"
           ],
-          "caller": "0xd604823c569965563ad9d39848e6ee5ed5f81704"
+          "caller": "0xecf1ac20d015ecf61d05a38f0b3d9fa52ecbf434"
         },
         {
           "comment": "this address (6 index)",
@@ -83,7 +83,7 @@
           "expected": [
             "1"
           ],
-          "caller": "0xd604823c569965563ad9d39848e6ee5ed5f81704"
+          "caller": "0xecf1ac20d015ecf61d05a38f0b3d9fa52ecbf434"
         },
         {
           "comment": "other address (7 index)",
@@ -95,7 +95,7 @@
           "expected": [
             "1"
           ],
-          "caller": "0xd604823c569965563ad9d39848e6ee5ed5f81704"
+          "caller": "0xecf1ac20d015ecf61d05a38f0b3d9fa52ecbf434"
         },
         {
           "comment": "empty address (8 index)",
@@ -107,7 +107,7 @@
           "expected": [
             "0"
           ],
-          "caller": "0xd604823c569965563ad9d39848e6ee5ed5f81704"
+          "caller": "0xecf1ac20d015ecf61d05a38f0b3d9fa52ecbf434"
         },
         {
           "comment": "max address (9 index)",
@@ -119,7 +119,7 @@
           "expected": [
             "0"
           ],
-          "caller": "0xd604823c569965563ad9d39848e6ee5ed5f81704"
+          "caller": "0xecf1ac20d015ecf61d05a38f0b3d9fa52ecbf434"
         },
         {
           "comment": "max U256 address (10 index)",
@@ -131,7 +131,7 @@
           "expected": [
             "0"
           ],
-          "caller": "0xd604823c569965563ad9d39848e6ee5ed5f81704"
+          "caller": "0xecf1ac20d015ecf61d05a38f0b3d9fa52ecbf434"
         },
         {
           "comment": "dirty address (11 index)",
@@ -143,7 +143,7 @@
           "expected": [
             "1"
           ],
-          "caller": "0xd604823c569965563ad9d39848e6ee5ed5f81704"
+          "caller": "0xecf1ac20d015ecf61d05a38f0b3d9fa52ecbf434"
         }
       ],
       "expected": [

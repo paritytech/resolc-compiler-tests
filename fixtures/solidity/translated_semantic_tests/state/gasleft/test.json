@@ -4,7 +4,7 @@
       "name": "gasleft",
       "inputs": [
         {
-          "caller": "0xcf0ac93dc1a33d0712efd19e53a00d0855a7d4a2",
+          "caller": "0xe9f252b2406c6b53075dd9420aa1e9d29584669c",
           "comment": "f() -> true",
           "instance": "C",
           "method": "f()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xcf0ac93dc1a33d0712efd19e53a00d0855a7d4a2",
+          "caller": "0xe9f252b2406c6b53075dd9420aa1e9d29584669c",
           "comment": "f() -> true",
           "instance": "C",
           "method": "f()",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0xcf0ac93dc1a33d0712efd19e53a00d0855a7d4a2",
+          "caller": "0xe9f252b2406c6b53075dd9420aa1e9d29584669c",
           "comment": "f() -> true",
           "instance": "C",
           "method": "f()",

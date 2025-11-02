@@ -4,7 +4,7 @@
       "name": "byte_array_pop_masking_long",
       "inputs": [
         {
-          "caller": "0x8e4059a6aea223724367046baeab20e618225bd4",
+          "caller": "0x486fe0a7f1c4c2426bd98890c56f1903e310cacd",
           "comment": "test() -> 0x20, 33, 0x303030303030303030303030303030303030303030303030303030303030303, 0x0300000000000000000000000000000000000000000000000000000000000000; gas irOptimized: 106762; gas legacy: 121252; gas legacyOptimized: 120370",
           "instance": "c",
           "method": "test()",

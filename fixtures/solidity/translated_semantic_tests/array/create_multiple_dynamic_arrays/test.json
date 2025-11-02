@@ -4,7 +4,7 @@
       "name": "create_multiple_dynamic_arrays",
       "inputs": [
         {
-          "caller": "0x730f39723f3ccffc33d9ab65aca8182de23419cd",
+          "caller": "0xb0705526f614f5909951e27f7ecf4d24b601250e",
           "comment": "f() -> 7",
           "instance": "C",
           "method": "f()",

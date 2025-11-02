@@ -4,7 +4,7 @@
       "name": "calldata_bytes_to_storage",
       "inputs": [
         {
-          "caller": "0xe704ccfd4c460f085d4f55990a27d29145df1c18",
+          "caller": "0xcff3419dba69e94fa0fccc17d7242b3b15fbc4a3",
           "comment": "f(bytes): 0x20, 0x08, \"abcdefgh\" -> \"a\"",
           "instance": "C",
           "method": "f(bytes)",

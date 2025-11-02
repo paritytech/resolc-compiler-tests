@@ -4,7 +4,7 @@
       "name": "abi_encoder_v2_head_overflow_with_static_array_cleanup_bug",
       "inputs": [
         {
-          "caller": "0xeb6ad36f75621cf7b1dfbd46118e4b7778ce0e50",
+          "caller": "0x1cedf494677bd80f7f5a9f5710b4372f7069d511",
           "comment": "f(bool,(bytes,uint256[3]),bytes32[2]): 1, 0x80, \"a\", \"b\", 0x80, 11, 12, 13, 4, \"abcd\" -> 1, 0x80, \"a\", \"b\", 0x80, 11, 12, 13, 4, \"abcd\"",
           "instance": "E",
           "method": "f(bool,(bytes,uint256[3]),bytes32[2])",

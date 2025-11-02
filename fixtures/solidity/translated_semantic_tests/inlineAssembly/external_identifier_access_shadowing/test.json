@@ -4,7 +4,7 @@
       "name": "external_identifier_access_shadowing",
       "inputs": [
         {
-          "caller": "0x643c01487866505cb1f6f0da7d9332656a4dc51d",
+          "caller": "0x77230e667ace2815df0d2f9acecade52be71408c",
           "comment": "f() -> 2",
           "instance": "C",
           "method": "f()",

@@ -4,7 +4,7 @@
       "name": "library_call_in_homestead",
       "inputs": [
         {
-          "caller": "0x784fe0d03cdd7d97f3cdcb05341c255596d43c18",
+          "caller": "0x2d4572a760eb715f01e08d7ba199b0aa29fdcf6f",
           "comment": "f() ->",
           "instance": "Test",
           "method": "f()",
@@ -14,13 +14,13 @@
           }
         },
         {
-          "caller": "0x784fe0d03cdd7d97f3cdcb05341c255596d43c18",
-          "comment": "sender() -> 0x784fe0d03cdd7d97f3cdcb05341c255596d43c18",
+          "caller": "0x2d4572a760eb715f01e08d7ba199b0aa29fdcf6f",
+          "comment": "sender() -> 0x2d4572a760eb715f01e08d7ba199b0aa29fdcf6f",
           "instance": "Test",
           "method": "sender()",
           "calldata": [],
           "expected": {
-            "return_data": "0x000000000000000000000000784fe0d03cdd7d97f3cdcb05341c255596d43c18",
+            "return_data": "0x0000000000000000000000002d4572a760eb715f01e08d7ba199b0aa29fdcf6f",
             "exception": false
           }
         }

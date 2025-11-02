@@ -4,7 +4,7 @@
       "name": "basic",
       "inputs": [
         {
-          "caller": "0x0b7fdf6b63822482965ff2b04cd6276bd37541b5",
+          "caller": "0xc0c5bb7247b9b238362723e314624f1889e2b056",
           "comment": "basic() -> true",
           "instance": "C",
           "method": "basic()",

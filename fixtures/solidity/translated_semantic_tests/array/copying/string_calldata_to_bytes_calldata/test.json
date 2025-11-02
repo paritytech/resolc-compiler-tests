@@ -4,7 +4,7 @@
       "name": "string_calldata_to_bytes_calldata",
       "inputs": [
         {
-          "caller": "0x16a24d0277248382456444e3d0677d29a19ef49f",
+          "caller": "0xc9756805b83aad1182862acc8c6b899fb14a5e2c",
           "comment": "f(string): 0x20, 3, \"abc\" -> 0x20, 3, \"abc\"",
           "instance": "C",
           "method": "f(string)",

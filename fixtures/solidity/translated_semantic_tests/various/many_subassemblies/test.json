@@ -4,7 +4,7 @@
       "name": "many_subassemblies",
       "inputs": [
         {
-          "caller": "0x4050be33c97701209b6b10fc9c004d17eb34bf72",
+          "caller": "0xe755d8680d456744d50dbc7b928d2c1e1fbe8cd1",
           "comment": "run() ->; gas irOptimized: 375192; gas irOptimized code: 6600; gas legacy: 375404; gas legacy code: 17600; gas legacyOptimized: 375464; gas legacyOptimized code: 17600",
           "instance": "D",
           "method": "run()",

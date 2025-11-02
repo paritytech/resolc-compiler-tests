@@ -4,7 +4,7 @@
       "name": "calldata_assign",
       "inputs": [
         {
-          "caller": "0x64dccf91378a432dd20274b411140a1c6889c306",
+          "caller": "0x52ef31c7b6a7ba079a70a9e31741d03d744a0777",
           "comment": "f(bytes): 0x20, 0, 0 -> 0x20, 3, 0x5754f80000000000000000000000000000000000000000000000000000000000",
           "instance": "C",
           "method": "f(bytes)",

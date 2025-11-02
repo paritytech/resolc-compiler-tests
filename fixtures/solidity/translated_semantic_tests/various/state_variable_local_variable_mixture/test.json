@@ -4,7 +4,7 @@
       "name": "state_variable_local_variable_mixture",
       "inputs": [
         {
-          "caller": "0xbd21128ca4a25ffb606cf2339f11172053e3feb9",
+          "caller": "0x4789ff202c6ef8b93f90b63e1a5500b6bfcb920f",
           "comment": "a() -> 2",
           "instance": "A",
           "method": "a()",

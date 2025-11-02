@@ -4,7 +4,7 @@
       "name": "bytes",
       "inputs": [
         {
-          "caller": "0x018556fd0f855c12e937831eafa6232e6ddfcb41",
+          "caller": "0x5330497b4c52b4b7f3deb171c674cc8fd550fc8e",
           "comment": "b() -> 0x20, 0x03, 0x6162630000000000000000000000000000000000000000000000000000000000",
           "instance": "C",
           "method": "b()",

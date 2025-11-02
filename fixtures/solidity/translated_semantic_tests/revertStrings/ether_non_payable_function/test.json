@@ -4,7 +4,7 @@
       "name": "ether_non_payable_function",
       "inputs": [
         {
-          "caller": "0x932225c28ac649b8a748673f72aa527ce1159974",
+          "caller": "0x45836dd09dfbf7bd95ddc91ff53e31c9b043b566",
           "comment": "f(), 1 ether -> FAILURE",
           "instance": "C",
           "method": "f()",
@@ -15,7 +15,7 @@
           "value": "1000000000000000000 wei"
         },
         {
-          "caller": "0x932225c28ac649b8a748673f72aa527ce1159974",
+          "caller": "0x45836dd09dfbf7bd95ddc91ff53e31c9b043b566",
           "comment": "() -> FAILURE",
           "instance": "C",
           "method": "#fallback",

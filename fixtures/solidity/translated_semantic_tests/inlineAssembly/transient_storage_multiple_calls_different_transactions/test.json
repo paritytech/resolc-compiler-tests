@@ -4,7 +4,7 @@
       "name": "transient_storage_multiple_calls_different_transactions",
       "inputs": [
         {
-          "caller": "0xbbb4fbb89b6e3801ea244745f9efbe1d2ae2c0df",
+          "caller": "0x86b2083325ffb6fdf084537f4162f042fd500955",
           "comment": "test() ->",
           "instance": "C",
           "method": "test()",
@@ -14,7 +14,7 @@
           }
         },
         {
-          "caller": "0xbbb4fbb89b6e3801ea244745f9efbe1d2ae2c0df",
+          "caller": "0x86b2083325ffb6fdf084537f4162f042fd500955",
           "comment": "test() ->",
           "instance": "C",
           "method": "test()",

@@ -4,7 +4,7 @@
       "name": "assert",
       "inputs": [
         {
-          "caller": "0x799e8e6d11ccb89b75018dc8aa5944c71481b182",
+          "caller": "0x73a4498624aff573efcc6005d69312b19768817a",
           "comment": "f(bool): true -> 1",
           "instance": "C",
           "method": "f(bool)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x799e8e6d11ccb89b75018dc8aa5944c71481b182",
+          "caller": "0x73a4498624aff573efcc6005d69312b19768817a",
           "comment": "f(bool): false -> 2",
           "instance": "C",
           "method": "f(bool)",

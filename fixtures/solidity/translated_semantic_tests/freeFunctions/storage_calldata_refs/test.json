@@ -4,7 +4,7 @@
       "name": "storage_calldata_refs",
       "inputs": [
         {
-          "caller": "0x267539b53c4b43fd0ff972a7f1e5b0ea0ee74045",
+          "caller": "0x340cf10e7e36252a7559cdbebdc266ee26488249",
           "comment": "f(uint256,uint256[]): 7, 0x40, 3, 8, 9, 10 -> 7, 9",
           "instance": "C",
           "method": "f(uint256,uint256[])",

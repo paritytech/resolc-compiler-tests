@@ -4,7 +4,7 @@
       "name": "string_format",
       "inputs": [
         {
-          "caller": "0xc57754cbf84d4f4ae5c9f42336a86a74a6c565c8",
+          "caller": "0x270125369ba2acc28c0878d258018a53dd64a436",
           "comment": "f1() -> 0x20, 6, left(0x616263616263)",
           "instance": "C",
           "method": "f1()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xc57754cbf84d4f4ae5c9f42336a86a74a6c565c8",
+          "caller": "0x270125369ba2acc28c0878d258018a53dd64a436",
           "comment": "f2() -> 32, 47, 44048183223289766195424279195050628400112610419087780792899004030957505095210, 18165586057823232067963737336409268114628061002662705707816940456850361417728",
           "instance": "C",
           "method": "f2()",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0xc57754cbf84d4f4ae5c9f42336a86a74a6c565c8",
+          "caller": "0x270125369ba2acc28c0878d258018a53dd64a436",
           "comment": "g() -> left(0x616263616263)",
           "instance": "C",
           "method": "g()",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0xc57754cbf84d4f4ae5c9f42336a86a74a6c565c8",
+          "caller": "0x270125369ba2acc28c0878d258018a53dd64a436",
           "comment": "h() -> left(0xcafecafe)",
           "instance": "C",
           "method": "h()",

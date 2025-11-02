@@ -4,7 +4,7 @@
       "name": "evm_exceptions_in_constructor_call_fail",
       "inputs": [
         {
-          "caller": "0xf54410158c17e71d21da619de251b86cdee9db88",
+          "caller": "0x739c2c363398fd8b5ad1b118441111cf043da16c",
           "comment": "testIt() ->",
           "instance": "B",
           "method": "testIt()",
@@ -14,7 +14,7 @@
           }
         },
         {
-          "caller": "0xf54410158c17e71d21da619de251b86cdee9db88",
+          "caller": "0x739c2c363398fd8b5ad1b118441111cf043da16c",
           "comment": "test() -> 2",
           "instance": "B",
           "method": "test()",

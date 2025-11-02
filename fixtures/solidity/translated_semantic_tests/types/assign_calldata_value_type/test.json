@@ -4,7 +4,7 @@
       "name": "assign_calldata_value_type",
       "inputs": [
         {
-          "caller": "0xc660a2f3a24266df988985a9e7b2e87168066eb7",
+          "caller": "0x710920cd594342c21621dff67b3066e38ecbefd0",
           "comment": "f(uint256): 23 -> 42, 23",
           "instance": "C",
           "method": "f(uint256)",

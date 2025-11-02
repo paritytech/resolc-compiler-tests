@@ -4,7 +4,7 @@
       "name": "copy_from_storage",
       "inputs": [
         {
-          "caller": "0x214acb1e4b72896b4878f17816656fbd8bd770b3",
+          "caller": "0x71e079594dfaa7a40862fd44f84eb089b05506e1",
           "comment": "f() -> 0x20, 1, 13",
           "instance": "C",
           "method": "f()",

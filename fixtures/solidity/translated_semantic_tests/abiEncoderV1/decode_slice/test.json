@@ -4,7 +4,7 @@
       "name": "decode_slice",
       "inputs": [
         {
-          "caller": "0xef63ccd74cb54748b67c2f1bea88d37288b43498",
+          "caller": "0x03ec4657b1ac4851e53a9ff1577ef70f6dc26328",
           "comment": "f(uint256,uint256): 42, 23 -> 42, 23, 42, 23",
           "instance": "C",
           "method": "f(uint256,uint256)",

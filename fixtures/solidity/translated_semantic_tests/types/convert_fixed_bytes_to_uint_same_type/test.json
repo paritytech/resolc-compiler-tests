@@ -4,7 +4,7 @@
       "name": "convert_fixed_bytes_to_uint_same_type",
       "inputs": [
         {
-          "caller": "0x34f780bf8fa8e0619704c191b5ddac286ec271c4",
+          "caller": "0x3e232f3c7e78117a40fcb9cdd7a352b55a290258",
           "comment": "bytesToUint(bytes32): \"abc2\" -> left(0x61626332)",
           "instance": "Test",
           "method": "bytesToUint(bytes32)",

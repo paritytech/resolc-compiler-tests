@@ -4,7 +4,7 @@
       "name": "transient_storage_state_variable",
       "inputs": [
         {
-          "caller": "0xf4efd46ff79085672d804b64cb71d46a7862f1b3",
+          "caller": "0x12d5bc9f939050c6ffb1386d990093b18115eea5",
           "comment": "f() -> 1, 2, 3, 4",
           "instance": "C",
           "method": "f()",

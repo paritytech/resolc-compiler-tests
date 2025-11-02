@@ -4,7 +4,7 @@
       "name": "asm_address_constant_regression",
       "inputs": [
         {
-          "caller": "0x7c7bf9a8b6154ba79ed77a4b8d704ae4146fca51",
+          "caller": "0x3b74908f67ca744aa0aa092996468fef9b9fc6c1",
           "comment": "f() -> 0x00",
           "instance": "C",
           "method": "f()",

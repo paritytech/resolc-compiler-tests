@@ -4,7 +4,7 @@
       "name": "mapping_array_internal_argument",
       "inputs": [
         {
-          "caller": "0x784b8f2614b5d4a65390044b729d5d968fdccac6",
+          "caller": "0x1cb436c8219693ff9c190c2238b8c07c1b99db24",
           "comment": "set(uint8,uint8,uint8,uint8,uint8): 1, 21, 22, 42, 43 -> 0, 0, 0, 0; gas irOptimized: 111237; gas legacy: 113742; gas legacyOptimized: 111768",
           "instance": "test",
           "method": "set(uint8,uint8,uint8,uint8,uint8)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x784b8f2614b5d4a65390044b729d5d968fdccac6",
+          "caller": "0x1cb436c8219693ff9c190c2238b8c07c1b99db24",
           "comment": "get(uint8): 1 -> 21, 22, 42, 43",
           "instance": "test",
           "method": "get(uint8)",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0x784b8f2614b5d4a65390044b729d5d968fdccac6",
+          "caller": "0x1cb436c8219693ff9c190c2238b8c07c1b99db24",
           "comment": "set(uint8,uint8,uint8,uint8,uint8): 1, 10, 30, 11, 31 -> 21, 22, 42, 43",
           "instance": "test",
           "method": "set(uint8,uint8,uint8,uint8,uint8)",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0x784b8f2614b5d4a65390044b729d5d968fdccac6",
+          "caller": "0x1cb436c8219693ff9c190c2238b8c07c1b99db24",
           "comment": "get(uint8): 1 -> 10, 30, 11, 31",
           "instance": "test",
           "method": "get(uint8)",

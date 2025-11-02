@@ -4,7 +4,7 @@
       "name": "string_literals",
       "inputs": [
         {
-          "caller": "0xde381c8f3c32529836ab870878ed78870d29c03e",
+          "caller": "0xbf9dfce0e29a813707e4a47f159c6a797148b0fe",
           "comment": "short_dyn() -> 0x20, 3, \"abc\"",
           "instance": "C",
           "method": "short_dyn()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xde381c8f3c32529836ab870878ed78870d29c03e",
+          "caller": "0xbf9dfce0e29a813707e4a47f159c6a797148b0fe",
           "comment": "long_dyn() -> 0x20, 80, \"12345678901234567890123456789012\", \"34567890123456789012345678901234\", \"5678901234567890\"",
           "instance": "C",
           "method": "long_dyn()",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0xde381c8f3c32529836ab870878ed78870d29c03e",
+          "caller": "0xbf9dfce0e29a813707e4a47f159c6a797148b0fe",
           "comment": "short_bytes_dyn() -> 0x20, 3, \"abc\"",
           "instance": "C",
           "method": "short_bytes_dyn()",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0xde381c8f3c32529836ab870878ed78870d29c03e",
+          "caller": "0xbf9dfce0e29a813707e4a47f159c6a797148b0fe",
           "comment": "long_bytes_dyn() -> 0x20, 80, \"12345678901234567890123456789012\", \"34567890123456789012345678901234\", \"5678901234567890\"",
           "instance": "C",
           "method": "long_bytes_dyn()",
@@ -48,7 +48,7 @@
           }
         },
         {
-          "caller": "0xde381c8f3c32529836ab870878ed78870d29c03e",
+          "caller": "0xbf9dfce0e29a813707e4a47f159c6a797148b0fe",
           "comment": "bytesNN() -> 0x6162630000000000000000000000000000000000000000000000000000000000",
           "instance": "C",
           "method": "bytesNN()",
@@ -59,7 +59,7 @@
           }
         },
         {
-          "caller": "0xde381c8f3c32529836ab870878ed78870d29c03e",
+          "caller": "0xbf9dfce0e29a813707e4a47f159c6a797148b0fe",
           "comment": "bytesNN_padded() -> 0x6162630000000000000000000000000000000000000000000000000000000000",
           "instance": "C",
           "method": "bytesNN_padded()",

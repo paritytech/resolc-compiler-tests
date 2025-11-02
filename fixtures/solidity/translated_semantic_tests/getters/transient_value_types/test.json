@@ -4,7 +4,7 @@
       "name": "transient_value_types",
       "inputs": [
         {
-          "caller": "0x0842b7b266a80448c10ea5665a4b75126ca06a01",
+          "caller": "0x81a3627665a315a0290c34b337546387611da4ac",
           "comment": "x() -> 0",
           "instance": "C",
           "method": "x()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x0842b7b266a80448c10ea5665a4b75126ca06a01",
+          "caller": "0x81a3627665a315a0290c34b337546387611da4ac",
           "comment": "f() -> -1",
           "instance": "C",
           "method": "f()",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0x0842b7b266a80448c10ea5665a4b75126ca06a01",
+          "caller": "0x81a3627665a315a0290c34b337546387611da4ac",
           "comment": "x() -> 0",
           "instance": "C",
           "method": "x()",

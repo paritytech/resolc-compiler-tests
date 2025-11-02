@@ -4,7 +4,7 @@
       "name": "unicode_escapes",
       "inputs": [
         {
-          "caller": "0x4cd511f404677244e0ab5d1b3389f4e17d290da2",
+          "caller": "0xc7fd68cf13d23ebe585b00ada3369fdf1ce0510c",
           "comment": "oneByteUTF8() -> 0x20, 7, \"aaa$aaa\"",
           "instance": "C",
           "method": "oneByteUTF8()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x4cd511f404677244e0ab5d1b3389f4e17d290da2",
+          "caller": "0xc7fd68cf13d23ebe585b00ada3369fdf1ce0510c",
           "comment": "twoBytesUTF8() -> 0x20, 8, \"aaa\\xc2\\xa2aaa\"",
           "instance": "C",
           "method": "twoBytesUTF8()",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0x4cd511f404677244e0ab5d1b3389f4e17d290da2",
+          "caller": "0xc7fd68cf13d23ebe585b00ada3369fdf1ce0510c",
           "comment": "threeBytesUTF8() -> 0x20, 9, \"aaa\\xe2\\x82\\xacaaa\"",
           "instance": "C",
           "method": "threeBytesUTF8()",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0x4cd511f404677244e0ab5d1b3389f4e17d290da2",
+          "caller": "0xc7fd68cf13d23ebe585b00ada3369fdf1ce0510c",
           "comment": "combined() -> 0x20, 6, \"$\\xc2\\xa2\\xe2\\x82\\xac\"",
           "instance": "C",
           "method": "combined()",

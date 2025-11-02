@@ -4,7 +4,7 @@
       "name": "struct_copy",
       "inputs": [
         {
-          "caller": "0x11030402d8018a517626db5ec294d1b184b8fbc4",
+          "caller": "0x5fc7c044aa4c60a16bc11768bb0e9bd67735fa9d",
           "comment": "set(uint256): 7 -> true; gas irOptimized: 109932; gas legacy: 110593; gas legacyOptimized: 110003",
           "instance": "c",
           "method": "set(uint256)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x11030402d8018a517626db5ec294d1b184b8fbc4",
+          "caller": "0x5fc7c044aa4c60a16bc11768bb0e9bd67735fa9d",
           "comment": "retrieve(uint256): 7 -> 1, 3, 4, 2",
           "instance": "c",
           "method": "retrieve(uint256)",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0x11030402d8018a517626db5ec294d1b184b8fbc4",
+          "caller": "0x5fc7c044aa4c60a16bc11768bb0e9bd67735fa9d",
           "comment": "copy(uint256,uint256): 7, 8 -> true; gas irOptimized: 118581; gas legacy: 119144; gas legacyOptimized: 118618",
           "instance": "c",
           "method": "copy(uint256,uint256)",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0x11030402d8018a517626db5ec294d1b184b8fbc4",
+          "caller": "0x5fc7c044aa4c60a16bc11768bb0e9bd67735fa9d",
           "comment": "retrieve(uint256): 7 -> 1, 3, 4, 2",
           "instance": "c",
           "method": "retrieve(uint256)",
@@ -48,7 +48,7 @@
           }
         },
         {
-          "caller": "0x11030402d8018a517626db5ec294d1b184b8fbc4",
+          "caller": "0x5fc7c044aa4c60a16bc11768bb0e9bd67735fa9d",
           "comment": "retrieve(uint256): 8 -> 1, 3, 4, 2",
           "instance": "c",
           "method": "retrieve(uint256)",
@@ -59,7 +59,7 @@
           }
         },
         {
-          "caller": "0x11030402d8018a517626db5ec294d1b184b8fbc4",
+          "caller": "0x5fc7c044aa4c60a16bc11768bb0e9bd67735fa9d",
           "comment": "copy(uint256,uint256): 0, 7 -> true",
           "instance": "c",
           "method": "copy(uint256,uint256)",
@@ -70,7 +70,7 @@
           }
         },
         {
-          "caller": "0x11030402d8018a517626db5ec294d1b184b8fbc4",
+          "caller": "0x5fc7c044aa4c60a16bc11768bb0e9bd67735fa9d",
           "comment": "retrieve(uint256): 7 -> 0, 0, 0, 0",
           "instance": "c",
           "method": "retrieve(uint256)",
@@ -81,7 +81,7 @@
           }
         },
         {
-          "caller": "0x11030402d8018a517626db5ec294d1b184b8fbc4",
+          "caller": "0x5fc7c044aa4c60a16bc11768bb0e9bd67735fa9d",
           "comment": "retrieve(uint256): 8 -> 1, 3, 4, 2",
           "instance": "c",
           "method": "retrieve(uint256)",
@@ -92,7 +92,7 @@
           }
         },
         {
-          "caller": "0x11030402d8018a517626db5ec294d1b184b8fbc4",
+          "caller": "0x5fc7c044aa4c60a16bc11768bb0e9bd67735fa9d",
           "comment": "copy(uint256,uint256): 7, 8 -> true",
           "instance": "c",
           "method": "copy(uint256,uint256)",
@@ -103,7 +103,7 @@
           }
         },
         {
-          "caller": "0x11030402d8018a517626db5ec294d1b184b8fbc4",
+          "caller": "0x5fc7c044aa4c60a16bc11768bb0e9bd67735fa9d",
           "comment": "retrieve(uint256): 8 -> 0, 0, 0, 0",
           "instance": "c",
           "method": "retrieve(uint256)",

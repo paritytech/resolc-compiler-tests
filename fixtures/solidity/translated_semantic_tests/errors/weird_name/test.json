@@ -4,7 +4,7 @@
       "name": "weird_name",
       "inputs": [
         {
-          "caller": "0xc605d3b42505f7ca3a68caf95983b94c3e6c8f08",
+          "caller": "0xa14e7020558424614f088c862981d2f03b789296",
           "comment": "f() -> FAILURE, hex\"b48fb6cf\", hex\"0000000000000000000000000000000000000000000000000000000000000002\"",
           "instance": "C",
           "method": "f()",

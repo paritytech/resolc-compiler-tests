@@ -4,7 +4,7 @@
       "name": "simple",
       "inputs": [
         {
-          "caller": "0xe6f63f955282c28411ba71bf623fc462e5854676",
+          "caller": "0x799e8e6d11ccb89b75018dc8aa5944c71481b182",
           "comment": "f(bool): true -> 1, 2",
           "instance": "C",
           "method": "f(bool)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xe6f63f955282c28411ba71bf623fc462e5854676",
+          "caller": "0x799e8e6d11ccb89b75018dc8aa5944c71481b182",
           "comment": "f(bool): false -> 9, 10",
           "instance": "C",
           "method": "f(bool)",

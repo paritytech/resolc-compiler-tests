@@ -4,7 +4,7 @@
       "name": "internal_library_function_attached_to_fixed_bytes",
       "inputs": [
         {
-          "caller": "0x02a036ea82b5c843895645cd5439f5868c77a5bf",
+          "caller": "0x17d7a50c0ab2ee41247741dbd21ee25f7655b819",
           "comment": "sum(bytes2,bytes2): left(0x1100), left(0x0022) -> left(0x1122)",
           "instance": "C",
           "method": "sum(bytes2,bytes2)",

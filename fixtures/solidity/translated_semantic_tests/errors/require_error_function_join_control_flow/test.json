@@ -4,7 +4,7 @@
       "name": "require_error_function_join_control_flow",
       "inputs": [
         {
-          "caller": "0x4a82cba19d2d34baeafeae760cd781c979daa206",
+          "caller": "0x54003a2d63a279dae942536f46b671057d1703df",
           "comment": "f(bool): true -> 0x15, 0x15, 0",
           "instance": "C",
           "method": "f(bool)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x4a82cba19d2d34baeafeae760cd781c979daa206",
+          "caller": "0x54003a2d63a279dae942536f46b671057d1703df",
           "comment": "f(bool): false -> FAILURE, hex\"002ff067\", 21",
           "instance": "C",
           "method": "f(bool)",

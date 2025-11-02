@@ -4,7 +4,7 @@
       "name": "memory_struct_named_constructor",
       "inputs": [
         {
-          "caller": "0xdb65c76f518becd2354118a1939915b927d055a2",
+          "caller": "0xe639e618f8f482cc2447a78e3ddb225053990d2f",
           "comment": "s() -> 8, true",
           "instance": "C",
           "method": "s()",

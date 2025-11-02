@@ -4,7 +4,7 @@
       "name": "calldata_bytes_internal",
       "inputs": [
         {
-          "caller": "0x1990d50c1cba4f2adab4707398e4d6f701003f26",
+          "caller": "0x5ea4d09cbff6545df7289a274fb29927cb530ad4",
           "comment": "f(uint256,bytes,uint256): 7, 0x60, 7, 4, \"abcd\" -> \"c\"",
           "instance": "C",
           "method": "f(uint256,bytes,uint256)",

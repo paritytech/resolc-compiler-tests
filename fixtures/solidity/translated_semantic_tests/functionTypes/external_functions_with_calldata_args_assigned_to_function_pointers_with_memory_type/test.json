@@ -4,7 +4,7 @@
       "name": "external_functions_with_calldata_args_assigned_to_function_pointers_with_memory_type",
       "inputs": [
         {
-          "caller": "0xdebb72778fb5c0379c83bc5d6f855368b61e607a",
+          "caller": "0x7592bdd5773bb9800571bdd9b418a9c932b1144b",
           "comment": "main() -> true",
           "instance": "C",
           "method": "main()",

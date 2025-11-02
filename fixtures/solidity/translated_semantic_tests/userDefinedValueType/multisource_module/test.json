@@ -4,7 +4,7 @@
       "name": "multisource_module",
       "inputs": [
         {
-          "caller": "0x900976aa1746436b4241b1b093aa83e74b3084db",
+          "caller": "0xf94e0bfe062ad45eb01463e412a6c472718ca88d",
           "comment": "f(int256): 5 -> 5",
           "instance": "C",
           "method": "f(int256)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x900976aa1746436b4241b1b093aa83e74b3084db",
+          "caller": "0xf94e0bfe062ad45eb01463e412a6c472718ca88d",
           "comment": "g(int256): 1 -> 1",
           "instance": "C",
           "method": "g(int256)",

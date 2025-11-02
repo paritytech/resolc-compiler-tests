@@ -4,7 +4,7 @@
       "name": "empty_bytes_copy",
       "inputs": [
         {
-          "caller": "0x051b278d990197a96318e8e63b7ef257954c31bb",
+          "caller": "0x9a10d29ee92caa51ba509f5a232672e5122947f3",
           "comment": "fromMemory() -> 0x00",
           "instance": "C",
           "method": "fromMemory()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x051b278d990197a96318e8e63b7ef257954c31bb",
+          "caller": "0x9a10d29ee92caa51ba509f5a232672e5122947f3",
           "comment": "fromCalldata(bytes): 0x40, 0x60, 0x00, 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff -> 0x00",
           "instance": "C",
           "method": "fromCalldata(bytes)",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0x051b278d990197a96318e8e63b7ef257954c31bb",
+          "caller": "0x9a10d29ee92caa51ba509f5a232672e5122947f3",
           "comment": "fromStorage() -> 0x00",
           "instance": "C",
           "method": "fromStorage()",

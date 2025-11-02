@@ -4,7 +4,7 @@
       "name": "dirty_memory_int32",
       "inputs": [
         {
-          "caller": "0xa66b33eaaef0135b94f3c92246c817a8952a03a2",
+          "caller": "0x8fe7e1c8dacbf8c28b3f71528df6e79cc5d75906",
           "comment": "f() -> true",
           "instance": "C",
           "method": "f()",

@@ -4,7 +4,7 @@
       "name": "delete_struct",
       "inputs": [
         {
-          "caller": "0x5fc7c044aa4c60a16bc11768bb0e9bd67735fa9d",
+          "caller": "0x08a68e577de0f61f46cd5535973747607bea3a2c",
           "comment": "getToDelete() -> 0",
           "instance": "test",
           "method": "getToDelete()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x5fc7c044aa4c60a16bc11768bb0e9bd67735fa9d",
+          "caller": "0x08a68e577de0f61f46cd5535973747607bea3a2c",
           "comment": "getTopValue() -> 0",
           "instance": "test",
           "method": "getTopValue()",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0x5fc7c044aa4c60a16bc11768bb0e9bd67735fa9d",
+          "caller": "0x08a68e577de0f61f46cd5535973747607bea3a2c",
           "comment": "getNestedValue() -> 0",
           "instance": "test",
           "method": "getNestedValue()",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0x5fc7c044aa4c60a16bc11768bb0e9bd67735fa9d",
+          "caller": "0x08a68e577de0f61f46cd5535973747607bea3a2c",
           "comment": "getTopMapping(uint256): 0 -> 1",
           "instance": "test",
           "method": "getTopMapping(uint256)",
@@ -48,7 +48,7 @@
           }
         },
         {
-          "caller": "0x5fc7c044aa4c60a16bc11768bb0e9bd67735fa9d",
+          "caller": "0x08a68e577de0f61f46cd5535973747607bea3a2c",
           "comment": "getTopMapping(uint256): 1 -> 2",
           "instance": "test",
           "method": "getTopMapping(uint256)",
@@ -59,7 +59,7 @@
           }
         },
         {
-          "caller": "0x5fc7c044aa4c60a16bc11768bb0e9bd67735fa9d",
+          "caller": "0x08a68e577de0f61f46cd5535973747607bea3a2c",
           "comment": "getNestedMapping(uint256): 0 -> true",
           "instance": "test",
           "method": "getNestedMapping(uint256)",
@@ -70,7 +70,7 @@
           }
         },
         {
-          "caller": "0x5fc7c044aa4c60a16bc11768bb0e9bd67735fa9d",
+          "caller": "0x08a68e577de0f61f46cd5535973747607bea3a2c",
           "comment": "getNestedMapping(uint256): 1 -> false",
           "instance": "test",
           "method": "getNestedMapping(uint256)",

@@ -4,7 +4,7 @@
       "name": "nested_bytes_push",
       "inputs": [
         {
-          "caller": "0x640f8a4fa3898a945074db648d7a79dc16dea492",
+          "caller": "0x0a2049c3a6bf030d2b68961da75b50132406a562",
           "comment": "f() ->; gas irOptimized: 179534; gas legacy: 181013; gas legacyOptimized: 180397",
           "instance": "C",
           "method": "f()",

@@ -4,7 +4,7 @@
       "name": "calldata_2d_bytes_to_memory",
       "inputs": [
         {
-          "caller": "0xc301d00d8560215fde74d75c12e56933fffa7c52",
+          "caller": "0x726ddfbc7f5629702ebd7724c5f68efd8855ff1d",
           "comment": "f(bytes[2]): 0x20, 0x40, 0x40, 2, \"ab\" -> 0x20, 2, \"ab\"",
           "instance": "C",
           "method": "f(bytes[2])",

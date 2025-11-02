@@ -4,7 +4,7 @@
       "name": "no_callvalue_check",
       "inputs": [
         {
-          "caller": "0x076285b5f3e0666c04cd8a0e0e1c37ffb296daa3",
+          "caller": "0x4f058234448ec5c329379c7d3c19f11a5c7c1eeb",
           "comment": "f(), 2000 ether -> true; gas irOptimized: 117688; gas irOptimized code: 1800; gas legacy: 117889; gas legacy code: 4800; gas legacyOptimized: 117761; gas legacyOptimized code: 4800",
           "instance": "C",
           "method": "f()",

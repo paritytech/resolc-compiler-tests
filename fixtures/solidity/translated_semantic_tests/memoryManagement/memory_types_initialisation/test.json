@@ -4,7 +4,7 @@
       "name": "memory_types_initialisation",
       "inputs": [
         {
-          "caller": "0xc0e732e9d0f6b5697c68a202e94263797a9d4d52",
+          "caller": "0xabf043d98decb8fc3359809dde42583640f3d55b",
           "comment": "stat() -> 0, 0, 0, 0, 0",
           "instance": "Test",
           "method": "stat()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xc0e732e9d0f6b5697c68a202e94263797a9d4d52",
+          "caller": "0xabf043d98decb8fc3359809dde42583640f3d55b",
           "comment": "dyn() -> 0x20, 0",
           "instance": "Test",
           "method": "dyn()",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0xc0e732e9d0f6b5697c68a202e94263797a9d4d52",
+          "caller": "0xabf043d98decb8fc3359809dde42583640f3d55b",
           "comment": "nested() -> 0x20, 0",
           "instance": "Test",
           "method": "nested()",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0xc0e732e9d0f6b5697c68a202e94263797a9d4d52",
+          "caller": "0xabf043d98decb8fc3359809dde42583640f3d55b",
           "comment": "nestedStat() -> 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0",
           "instance": "Test",
           "method": "nestedStat()",

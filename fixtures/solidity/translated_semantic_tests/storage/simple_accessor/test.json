@@ -4,7 +4,7 @@
       "name": "simple_accessor",
       "inputs": [
         {
-          "caller": "0xed0e57bf2eca4875f2fc76e44e193295ef535211",
+          "caller": "0x20dc887500e79c3e2c69d406f7d2cb0156a0e29b",
           "comment": "data() -> 8",
           "instance": "test",
           "method": "data()",

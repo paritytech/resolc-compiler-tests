@@ -4,7 +4,7 @@
       "name": "int",
       "inputs": [
         {
-          "caller": "0x195338d662fa7bb82eecaefe8db34b81d8652c77",
+          "caller": "0x0b7fdf6b63822482965ff2b04cd6276bd37541b5",
           "comment": "intMinA() -> true",
           "instance": "test",
           "method": "intMinA()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x195338d662fa7bb82eecaefe8db34b81d8652c77",
+          "caller": "0x0b7fdf6b63822482965ff2b04cd6276bd37541b5",
           "comment": "intMinB() -> true",
           "instance": "test",
           "method": "intMinB()",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0x195338d662fa7bb82eecaefe8db34b81d8652c77",
+          "caller": "0x0b7fdf6b63822482965ff2b04cd6276bd37541b5",
           "comment": "intMinC() -> true",
           "instance": "test",
           "method": "intMinC()",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0x195338d662fa7bb82eecaefe8db34b81d8652c77",
+          "caller": "0x0b7fdf6b63822482965ff2b04cd6276bd37541b5",
           "comment": "intMinD() -> true",
           "instance": "test",
           "method": "intMinD()",
@@ -48,7 +48,7 @@
           }
         },
         {
-          "caller": "0x195338d662fa7bb82eecaefe8db34b81d8652c77",
+          "caller": "0x0b7fdf6b63822482965ff2b04cd6276bd37541b5",
           "comment": "intMaxA() -> true",
           "instance": "test",
           "method": "intMaxA()",
@@ -59,7 +59,7 @@
           }
         },
         {
-          "caller": "0x195338d662fa7bb82eecaefe8db34b81d8652c77",
+          "caller": "0x0b7fdf6b63822482965ff2b04cd6276bd37541b5",
           "comment": "intMaxB() -> true",
           "instance": "test",
           "method": "intMaxB()",
@@ -70,7 +70,7 @@
           }
         },
         {
-          "caller": "0x195338d662fa7bb82eecaefe8db34b81d8652c77",
+          "caller": "0x0b7fdf6b63822482965ff2b04cd6276bd37541b5",
           "comment": "intMaxC() -> true",
           "instance": "test",
           "method": "intMaxC()",
@@ -81,7 +81,7 @@
           }
         },
         {
-          "caller": "0x195338d662fa7bb82eecaefe8db34b81d8652c77",
+          "caller": "0x0b7fdf6b63822482965ff2b04cd6276bd37541b5",
           "comment": "intMaxD() -> true",
           "instance": "test",
           "method": "intMaxD()",

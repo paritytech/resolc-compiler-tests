@@ -6,7 +6,7 @@
       "name": "blobhash",
       "inputs": [
         {
-          "caller": "0xcf1d9adf75d78119ba9f352574ea6a1d09e10556",
+          "caller": "0x7eb79bae0e50605e001e345d1e85924423f7d24f",
           "comment": "f(uint256): 0 -> 0x0100000000000000000000000000000000000000000000000000000000000001",
           "instance": "C",
           "method": "f(uint256)",
@@ -17,7 +17,7 @@
           }
         },
         {
-          "caller": "0xcf1d9adf75d78119ba9f352574ea6a1d09e10556",
+          "caller": "0x7eb79bae0e50605e001e345d1e85924423f7d24f",
           "comment": "f(uint256): 1 -> 0x0100000000000000000000000000000000000000000000000000000000000002",
           "instance": "C",
           "method": "f(uint256)",
@@ -28,7 +28,7 @@
           }
         },
         {
-          "caller": "0xcf1d9adf75d78119ba9f352574ea6a1d09e10556",
+          "caller": "0x7eb79bae0e50605e001e345d1e85924423f7d24f",
           "comment": "f(uint256): 2 -> 0x00",
           "instance": "C",
           "method": "f(uint256)",
@@ -39,7 +39,7 @@
           }
         },
         {
-          "caller": "0xcf1d9adf75d78119ba9f352574ea6a1d09e10556",
+          "caller": "0x7eb79bae0e50605e001e345d1e85924423f7d24f",
           "comment": "f(uint256): 255 -> 0x00",
           "instance": "C",
           "method": "f(uint256)",
@@ -50,7 +50,7 @@
           }
         },
         {
-          "caller": "0xcf1d9adf75d78119ba9f352574ea6a1d09e10556",
+          "caller": "0x7eb79bae0e50605e001e345d1e85924423f7d24f",
           "comment": "f(uint256): 256 -> 0x00",
           "instance": "C",
           "method": "f(uint256)",
@@ -61,7 +61,7 @@
           }
         },
         {
-          "caller": "0xcf1d9adf75d78119ba9f352574ea6a1d09e10556",
+          "caller": "0x7eb79bae0e50605e001e345d1e85924423f7d24f",
           "comment": "f(uint256): 257 -> 0x00",
           "instance": "C",
           "method": "f(uint256)",

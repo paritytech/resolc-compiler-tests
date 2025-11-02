@@ -4,7 +4,7 @@
       "name": "function_modifier_multi_invocation_viair",
       "inputs": [
         {
-          "caller": "0xea25de320133e5ab181e19678ea188777ff4bc6b",
+          "caller": "0x5b00429f127dcee59d7f8981e8375268e2f67c6d",
           "comment": "f(bool): false -> 1",
           "instance": "C",
           "method": "f(bool)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xea25de320133e5ab181e19678ea188777ff4bc6b",
+          "caller": "0x5b00429f127dcee59d7f8981e8375268e2f67c6d",
           "comment": "f(bool): true -> 1",
           "instance": "C",
           "method": "f(bool)",

@@ -4,7 +4,7 @@
       "name": "wrap_unwrap_via_contract_name",
       "inputs": [
         {
-          "caller": "0xc4ad6cf26d70b5a405a2e1e77feae55a5940cb40",
+          "caller": "0x73e16a8cbb453aee7ee3410228a9d9317cc3b64b",
           "comment": "f(uint256): 0x42 -> 0x42",
           "instance": "D",
           "method": "f(uint256)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xc4ad6cf26d70b5a405a2e1e77feae55a5940cb40",
+          "caller": "0x73e16a8cbb453aee7ee3410228a9d9317cc3b64b",
           "comment": "g(uint256): 0x42 -> 0x42",
           "instance": "D",
           "method": "g(uint256)",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0xc4ad6cf26d70b5a405a2e1e77feae55a5940cb40",
+          "caller": "0x73e16a8cbb453aee7ee3410228a9d9317cc3b64b",
           "comment": "h(uint256): 0x42 -> 0x42",
           "instance": "D",
           "method": "h(uint256)",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0xc4ad6cf26d70b5a405a2e1e77feae55a5940cb40",
+          "caller": "0x73e16a8cbb453aee7ee3410228a9d9317cc3b64b",
           "comment": "i(uint256): 0x42 -> 0x42",
           "instance": "D",
           "method": "i(uint256)",

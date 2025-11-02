@@ -4,7 +4,7 @@
       "name": "nested",
       "inputs": [
         {
-          "caller": "0x8e975cdbb63763bbca761a015ab17490bb8f3cf2",
+          "caller": "0x6cb44d9c8ce8d2a61b8825e3a1ca28811cb6eb51",
           "comment": "f(bool,bool): true, true -> 1, 2, 96, 7, \"success\"",
           "instance": "C",
           "method": "f(bool,bool)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x8e975cdbb63763bbca761a015ab17490bb8f3cf2",
+          "caller": "0x6cb44d9c8ce8d2a61b8825e3a1ca28811cb6eb51",
           "comment": "f(bool,bool): true, false -> 12, 0, 96, 7, \"failure\"",
           "instance": "C",
           "method": "f(bool,bool)",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0x8e975cdbb63763bbca761a015ab17490bb8f3cf2",
+          "caller": "0x6cb44d9c8ce8d2a61b8825e3a1ca28811cb6eb51",
           "comment": "f(bool,bool): false, true -> 99, 0, 96, 7, \"failure\"",
           "instance": "C",
           "method": "f(bool,bool)",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0x8e975cdbb63763bbca761a015ab17490bb8f3cf2",
+          "caller": "0x6cb44d9c8ce8d2a61b8825e3a1ca28811cb6eb51",
           "comment": "f(bool,bool): false, false -> 99, 0, 96, 7, \"failure\"",
           "instance": "C",
           "method": "f(bool,bool)",

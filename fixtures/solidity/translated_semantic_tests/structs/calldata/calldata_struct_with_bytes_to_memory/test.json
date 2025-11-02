@@ -4,7 +4,7 @@
       "name": "calldata_struct_with_bytes_to_memory",
       "inputs": [
         {
-          "caller": "0x93305fc1e26de983c123b4890f3edfa9d1b9f075",
+          "caller": "0x610b48672efb531eb3557590463b7e3bb8cbc0ee",
           "comment": "f((uint256,bytes,uint256)): 0x20, 42, 0x60, 23, 2, \"ab\" -> 42, \"a\", \"b\", 23",
           "instance": "C",
           "method": "f((uint256,bytes,uint256))",

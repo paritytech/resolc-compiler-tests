@@ -4,7 +4,7 @@
       "name": "inherited",
       "inputs": [
         {
-          "caller": "0x6a25cb1ee117089f0ec4e92fa3729cdc64097b17",
+          "caller": "0x9d20ca6c4e97405d8bcfcb9481fae46d368f368f",
           "comment": "getData() -> 0",
           "instance": "B",
           "method": "getData()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x6a25cb1ee117089f0ec4e92fa3729cdc64097b17",
+          "caller": "0x9d20ca6c4e97405d8bcfcb9481fae46d368f368f",
           "comment": "() ->",
           "instance": "B",
           "method": "#fallback",
@@ -25,7 +25,7 @@
           }
         },
         {
-          "caller": "0x6a25cb1ee117089f0ec4e92fa3729cdc64097b17",
+          "caller": "0x9d20ca6c4e97405d8bcfcb9481fae46d368f368f",
           "comment": "getData() -> 1",
           "instance": "B",
           "method": "getData()",
@@ -36,7 +36,7 @@
           }
         },
         {
-          "caller": "0x6a25cb1ee117089f0ec4e92fa3729cdc64097b17",
+          "caller": "0x9d20ca6c4e97405d8bcfcb9481fae46d368f368f",
           "comment": "(), 1 ether ->",
           "instance": "B",
           "method": "#fallback",
@@ -47,7 +47,7 @@
           "value": "1000000000000000000 wei"
         },
         {
-          "caller": "0x6a25cb1ee117089f0ec4e92fa3729cdc64097b17",
+          "caller": "0x9d20ca6c4e97405d8bcfcb9481fae46d368f368f",
           "comment": "getData() -> 2",
           "instance": "B",
           "method": "getData()",

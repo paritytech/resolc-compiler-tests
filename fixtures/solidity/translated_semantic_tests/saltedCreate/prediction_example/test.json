@@ -4,7 +4,7 @@
       "name": "prediction_example",
       "inputs": [
         {
-          "caller": "0x647bf918a3a65089f1ae5d057c3037273f4208fe",
+          "caller": "0x50508aa895f903428394ab2d0c15fea23b63ef03",
           "comment": "createDSalted(bytes32,uint256): 42, 64 ->; gas legacy: 78573; gas legacy code: 23600",
           "instance": "C",
           "method": "createDSalted(bytes32,uint256)",

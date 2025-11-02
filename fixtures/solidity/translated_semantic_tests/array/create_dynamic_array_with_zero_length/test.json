@@ -4,7 +4,7 @@
       "name": "create_dynamic_array_with_zero_length",
       "inputs": [
         {
-          "caller": "0xc35e52fdb8ddeed22a9413bce95926e2514c3e73",
+          "caller": "0xc08b69f22b13d251f75a9725fcde9f1ed19380cb",
           "comment": "f() -> 7",
           "instance": "C",
           "method": "f()",

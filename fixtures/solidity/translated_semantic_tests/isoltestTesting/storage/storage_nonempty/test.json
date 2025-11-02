@@ -9,10 +9,10 @@
           "comment": "storageEmpty -> 1",
           "address": "StorageNotEmpty.address",
           "is_storage_empty": true,
-          "caller": "0xE426a604eAd0531aA2d9b2e57759814E9C5cd44a"
+          "caller": "0x46478b7c84b1f3114a196b5aef93d677b4b304ca"
         },
         {
-          "caller": "0x78b266abc427a795b2d2198ed2d4d48b66e31187",
+          "caller": "0x92b1d6d0451979f06ab129a36b45dce9fe54ea96",
           "comment": "set(uint256): 1 ->",
           "instance": "StorageNotEmpty",
           "method": "set(uint256)",
@@ -25,7 +25,7 @@
           "comment": "storageEmpty -> 0",
           "address": "StorageNotEmpty.address",
           "is_storage_empty": false,
-          "caller": "0xE426a604eAd0531aA2d9b2e57759814E9C5cd44a"
+          "caller": "0x46478b7c84b1f3114a196b5aef93d677b4b304ca"
         }
       ]
     }

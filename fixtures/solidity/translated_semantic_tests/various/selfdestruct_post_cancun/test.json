@@ -136,14 +136,12 @@
 
 
 
-
-
-
+        
         {
           "caller": "0x185303174a8eee5cc1ee9e56a23cd8b6a7db7616",
-          "comment": "11 deploy_create() ->",
+          "comment": "11 create2_and_terminate() ->",
           "instance": "D",
-          "method": "deploy_create()",
+          "method": "create2_and_terminate()",
           "calldata": [],
           "expected": {
             "exception": false
@@ -151,7 +149,54 @@
         },
         {
           "caller": "0x185303174a8eee5cc1ee9e56a23cd8b6a7db7616",
-          "comment": "12 balance() ->",
+          "comment": "12 balance() -> 1010000000000000000",
+          "instance": "D",
+          "method": "balance()",
+          "calldata": [],
+          "expected": {
+            "return_data": "0x0000000000000000000000000000000000000000000000000e043da617250000",
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x185303174a8eee5cc1ee9e56a23cd8b6a7db7616",
+          "comment": "13 balance_inner() -> 0",
+          "instance": "D",
+          "method": "balance_inner()",
+          "calldata": [],
+          "expected": {
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x185303174a8eee5cc1ee9e56a23cd8b6a7db7616",
+          "comment": "14 exists() -> false",
+          "instance": "D",
+          "method": "exists()",
+          "calldata": [],
+          "expected": {
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "exception": false
+          }
+        },
+
+
+
+        {
+          "caller": "0x185303174a8eee5cc1ee9e56a23cd8b6a7db7616",
+          "comment": "15 transferAllFunds() -> true",
+          "instance": "D",
+          "method": "transferAllFunds()",
+          "calldata": [],
+          "expected": {
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x185303174a8eee5cc1ee9e56a23cd8b6a7db7616",
+          "comment": "16 balance() -> 0",
           "instance": "D",
           "method": "balance()",
           "calldata": [],
@@ -162,7 +207,56 @@
         },
         {
           "caller": "0x185303174a8eee5cc1ee9e56a23cd8b6a7db7616",
-          "comment": "13 balance_inner() ->",
+          "comment": "17 call() ->",
+          "instance": "D",
+          "method": "call()",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          },
+          "value": "1000000000000000000 wei"
+        },
+        {
+          "caller": "0x185303174a8eee5cc1ee9e56a23cd8b6a7db7616",
+          "comment": "18 balance() -> 1000000000000000000",
+          "instance": "D",
+          "method": "balance()",
+          "calldata": [],
+          "expected": {
+            "return_data": "0x0000000000000000000000000000000000000000000000000de0b6b3a7640000",
+            "exception": false
+          }
+        },
+
+
+
+
+
+
+        {
+          "caller": "0x185303174a8eee5cc1ee9e56a23cd8b6a7db7616",
+          "comment": "19 deploy_create() ->",
+          "instance": "D",
+          "method": "deploy_create()",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x185303174a8eee5cc1ee9e56a23cd8b6a7db7616",
+          "comment": "20 balance() ->",
+          "instance": "D",
+          "method": "balance()",
+          "calldata": [],
+          "expected": {
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x185303174a8eee5cc1ee9e56a23cd8b6a7db7616",
+          "comment": "21 balance_inner() ->",
           "instance": "D",
           "method": "balance_inner()",
           "calldata": [],
@@ -173,7 +267,7 @@
         },
         {
           "caller": "0x185303174a8eee5cc1ee9e56a23cd8b6a7db7616",
-          "comment": "14 exists() -> true",
+          "comment": "22 exists() -> true",
           "instance": "D",
           "method": "exists()",
           "calldata": [],
@@ -184,7 +278,7 @@
         },
         {
           "caller": "0x185303174a8eee5cc1ee9e56a23cd8b6a7db7616",
-          "comment": "15 terminate() ->",
+          "comment": "23 terminate() ->",
           "instance": "D",
           "method": "terminate()",
           "calldata": [],
@@ -194,7 +288,7 @@
         },
         {
           "caller": "0x185303174a8eee5cc1ee9e56a23cd8b6a7db7616",
-          "comment": "16 balance_inner() ->",
+          "comment": "24 balance_inner() ->",
           "instance": "D",
           "method": "balance_inner()",
           "calldata": [],
@@ -205,7 +299,7 @@
         },
         {
           "caller": "0x185303174a8eee5cc1ee9e56a23cd8b6a7db7616",
-          "comment": "17 exists() -> true",
+          "comment": "25 exists() -> true",
           "instance": "D",
           "method": "exists()",
           "calldata": [],
@@ -223,7 +317,7 @@
 
   {
           "caller": "0x185303174a8eee5cc1ee9e56a23cd8b6a7db7616",
-          "comment": "18 deploy_create2() ->",
+          "comment": "26 deploy_create2() ->",
           "instance": "D",
           "method": "deploy_create2()",
           "calldata": [],
@@ -233,7 +327,7 @@
         },
         {
           "caller": "0x185303174a8eee5cc1ee9e56a23cd8b6a7db7616",
-          "comment": "19 balance() ->",
+          "comment": "27 balance() ->",
           "instance": "D",
           "method": "balance()",
           "calldata": [],
@@ -244,7 +338,7 @@
         },
         {
           "caller": "0x185303174a8eee5cc1ee9e56a23cd8b6a7db7616",
-          "comment": "20 balance_inner() ->",
+          "comment": "28 balance_inner() ->",
           "instance": "D",
           "method": "balance_inner()",
           "calldata": [],
@@ -255,7 +349,7 @@
         },
         {
           "caller": "0x185303174a8eee5cc1ee9e56a23cd8b6a7db7616",
-          "comment": "21 exists() -> true",
+          "comment": "29 exists() -> true",
           "instance": "D",
           "method": "exists()",
           "calldata": [],
@@ -266,7 +360,7 @@
         },
         {
           "caller": "0x185303174a8eee5cc1ee9e56a23cd8b6a7db7616",
-          "comment": "22 terminate() ->",
+          "comment": "30 terminate() ->",
           "instance": "D",
           "method": "terminate()",
           "calldata": [],
@@ -276,7 +370,7 @@
         },
         {
           "caller": "0x185303174a8eee5cc1ee9e56a23cd8b6a7db7616",
-          "comment": "23 balance_inner() ->",
+          "comment": "31 balance_inner() ->",
           "instance": "D",
           "method": "balance_inner()",
           "calldata": [],
@@ -287,7 +381,7 @@
         },
         {
           "caller": "0x185303174a8eee5cc1ee9e56a23cd8b6a7db7616",
-          "comment": "24 exists() -> true",
+          "comment": "32 exists() -> true",
           "instance": "D",
           "method": "exists()",
           "calldata": [],

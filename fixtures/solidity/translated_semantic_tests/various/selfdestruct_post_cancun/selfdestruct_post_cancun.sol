@@ -12,38 +12,39 @@ contract C {
 contract D {
     C public c;
     constructor() payable {}
+    function call() public payable {
+        // Just for sending funds to this contract
+    }
     function deploy_create() public payable {
         c = new C{value: 1 ether}();
     }
     function deploy_create2() public payable {
         c = new C{value: 1 ether, salt: hex"1234"}();
     }
+
+    function transferAllFunds() public returns (bool) {
+        bool success = payable(msg.sender).send(address(this).balance);
+        return success;
+    }
+
     function terminate() public {
         // NOTE: A second call to `c.terminate()` or any other function of the contract `c` will succeed if the
         // previous selfdestruct was performed in a different transaction, since the contract will still exists.
         c.terminate();
     }
-    function test_create_and_terminate() public {
+    function create_and_terminate() public {
         deploy_create();
-        assert(exists());
-        test_balance_after_create();
         terminate();
-        test_balance_after_selfdestruct();
     }
-    function test_create2_and_terminate() public {
+    function create2_and_terminate() public {
         deploy_create2();
-        assert(exists());
-        test_balance_after_create();
         terminate();
-        test_balance_after_selfdestruct();
     }
-    function test_balance_after_create() public view {
-        assert(address(this).balance == 0);
-        assert(address(c).balance == 1 ether);
+    function balance() public view returns (uint) {
+        return address(this).balance;
     }
-    function test_balance_after_selfdestruct() public view {
-        assert(address(this).balance == 1 ether);
-        assert(address(c).balance == 0);
+    function balance_inner() public view returns (uint) {
+        return address(c).balance;
     }
     function exists() public view returns (bool) {
         return address(c).code.length != 0;

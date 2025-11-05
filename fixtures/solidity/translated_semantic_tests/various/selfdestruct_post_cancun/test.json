@@ -5,7 +5,7 @@
       "inputs": [
         {
           "caller": "0x185303174a8eee5cc1ee9e56a23cd8b6a7db7616",
-          "comment": "constructor(), 1 ether ->; gas irOptimized: 67028; gas irOptimized code: 175400; gas legacy: 76227; gas legacy code: 298200; gas legacyOptimized: 66516; gas legacyOptimized code: 168000",
+          "comment": "0 constructor(), 1 ether ->; gas irOptimized: 67028; gas irOptimized code: 175400; gas legacy: 76227; gas legacy code: 298200; gas legacyOptimized: 66516; gas legacyOptimized code: 168000",
           "instance": "D",
           "method": "#deployer",
           "calldata": [],
@@ -16,7 +16,7 @@
         },
         {
           "caller": "0x185303174a8eee5cc1ee9e56a23cd8b6a7db7616",
-          "comment": "exists() -> false",
+          "comment": "1 exists() -> false",
           "instance": "D",
           "method": "exists()",
           "calldata": [],
@@ -27,28 +27,7 @@
         },
         {
           "caller": "0x185303174a8eee5cc1ee9e56a23cd8b6a7db7616",
-          "comment": "test_create_and_terminate() ->",
-          "instance": "D",
-          "method": "test_create_and_terminate()",
-          "calldata": [],
-          "expected": {
-            "exception": false
-          }
-        },
-        {
-          "caller": "0x185303174a8eee5cc1ee9e56a23cd8b6a7db7616",
-          "comment": "exists() -> false",
-          "instance": "D",
-          "method": "exists()",
-          "calldata": [],
-          "expected": {
-            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000000",
-            "exception": false
-          }
-        },
-        {
-          "caller": "0x185303174a8eee5cc1ee9e56a23cd8b6a7db7616",
-          "comment": "terminate() -> FAILURE",
+          "comment": "2 terminate() -> FAILURE",
           "instance": "D",
           "method": "terminate()",
           "calldata": [],
@@ -56,9 +35,113 @@
             "exception": true
           }
         },
+
+
+        
+        
+        
+        
         {
           "caller": "0x185303174a8eee5cc1ee9e56a23cd8b6a7db7616",
-          "comment": "deploy_create() ->",
+          "comment": "3 create_and_terminate() ->",
+          "instance": "D",
+          "method": "create_and_terminate()",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x185303174a8eee5cc1ee9e56a23cd8b6a7db7616",
+          "comment": "4 balance() -> 1010000000000000000",
+          "instance": "D",
+          "method": "balance()",
+          "calldata": [],
+          "expected": {
+            "return_data": "0x0000000000000000000000000000000000000000000000000e043da617250000",
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x185303174a8eee5cc1ee9e56a23cd8b6a7db7616",
+          "comment": "5 balance_inner() -> 0",
+          "instance": "D",
+          "method": "balance_inner()",
+          "calldata": [],
+          "expected": {
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x185303174a8eee5cc1ee9e56a23cd8b6a7db7616",
+          "comment": "6 exists() -> false",
+          "instance": "D",
+          "method": "exists()",
+          "calldata": [],
+          "expected": {
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "exception": false
+          }
+        },
+
+
+
+
+
+        {
+          "caller": "0x185303174a8eee5cc1ee9e56a23cd8b6a7db7616",
+          "comment": "7 transferAllFunds() -> true",
+          "instance": "D",
+          "method": "transferAllFunds()",
+          "calldata": [],
+          "expected": {
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x185303174a8eee5cc1ee9e56a23cd8b6a7db7616",
+          "comment": "8 balance() -> 0",
+          "instance": "D",
+          "method": "balance()",
+          "calldata": [],
+          "expected": {
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x185303174a8eee5cc1ee9e56a23cd8b6a7db7616",
+          "comment": "9 call() ->",
+          "instance": "D",
+          "method": "call()",
+          "calldata": [],
+          "expected": {
+            "exception": false
+          },
+          "value": "1000000000000000000 wei"
+        },
+        {
+          "caller": "0x185303174a8eee5cc1ee9e56a23cd8b6a7db7616",
+          "comment": "10 balance() -> 1000000000000000000",
+          "instance": "D",
+          "method": "balance()",
+          "calldata": [],
+          "expected": {
+            "return_data": "0x0000000000000000000000000000000000000000000000000de0b6b3a7640000",
+            "exception": false
+          }
+        },
+
+
+
+
+
+
+        {
+          "caller": "0x185303174a8eee5cc1ee9e56a23cd8b6a7db7616",
+          "comment": "11 deploy_create() ->",
           "instance": "D",
           "method": "deploy_create()",
           "calldata": [],
@@ -68,17 +151,29 @@
         },
         {
           "caller": "0x185303174a8eee5cc1ee9e56a23cd8b6a7db7616",
-          "comment": "test_balance_after_create() ->",
+          "comment": "12 balance() ->",
           "instance": "D",
-          "method": "test_balance_after_create()",
+          "method": "balance()",
           "calldata": [],
           "expected": {
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000000",
             "exception": false
           }
         },
         {
           "caller": "0x185303174a8eee5cc1ee9e56a23cd8b6a7db7616",
-          "comment": "exists() -> true",
+          "comment": "13 balance_inner() ->",
+          "instance": "D",
+          "method": "balance_inner()",
+          "calldata": [],
+          "expected": {
+            "return_data": "0x0000000000000000000000000000000000000000000000000de0b6b3a7640000",
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x185303174a8eee5cc1ee9e56a23cd8b6a7db7616",
+          "comment": "14 exists() -> true",
           "instance": "D",
           "method": "exists()",
           "calldata": [],
@@ -89,7 +184,7 @@
         },
         {
           "caller": "0x185303174a8eee5cc1ee9e56a23cd8b6a7db7616",
-          "comment": "terminate() ->",
+          "comment": "15 terminate() ->",
           "instance": "D",
           "method": "terminate()",
           "calldata": [],
@@ -99,40 +194,9 @@
         },
         {
           "caller": "0x185303174a8eee5cc1ee9e56a23cd8b6a7db7616",
-          "comment": "test_balance_after_selfdestruct() ->",
+          "comment": "16 balance_inner() ->",
           "instance": "D",
-          "method": "test_balance_after_selfdestruct()",
-          "calldata": [],
-          "expected": {
-            "exception": false
-          }
-        },
-        {
-          "caller": "0x185303174a8eee5cc1ee9e56a23cd8b6a7db7616",
-          "comment": "exists() -> true",
-          "instance": "D",
-          "method": "exists()",
-          "calldata": [],
-          "expected": {
-            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
-            "exception": false
-          }
-        },
-        {
-          "caller": "0x185303174a8eee5cc1ee9e56a23cd8b6a7db7616",
-          "comment": "test_create2_and_terminate() ->",
-          "instance": "D",
-          "method": "test_create2_and_terminate()",
-          "calldata": [],
-          "expected": {
-            "exception": false
-          }
-        },
-        {
-          "caller": "0x185303174a8eee5cc1ee9e56a23cd8b6a7db7616",
-          "comment": "exists() -> false",
-          "instance": "D",
-          "method": "exists()",
+          "method": "balance_inner()",
           "calldata": [],
           "expected": {
             "return_data": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -141,7 +205,25 @@
         },
         {
           "caller": "0x185303174a8eee5cc1ee9e56a23cd8b6a7db7616",
-          "comment": "deploy_create2() ->",
+          "comment": "17 exists() -> true",
+          "instance": "D",
+          "method": "exists()",
+          "calldata": [],
+          "expected": {
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
+            "exception": false
+          }
+        },
+
+
+
+
+
+
+
+  {
+          "caller": "0x185303174a8eee5cc1ee9e56a23cd8b6a7db7616",
+          "comment": "18 deploy_create2() ->",
           "instance": "D",
           "method": "deploy_create2()",
           "calldata": [],
@@ -151,17 +233,29 @@
         },
         {
           "caller": "0x185303174a8eee5cc1ee9e56a23cd8b6a7db7616",
-          "comment": "test_balance_after_create() ->",
+          "comment": "19 balance() ->",
           "instance": "D",
-          "method": "test_balance_after_create()",
+          "method": "balance()",
           "calldata": [],
           "expected": {
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000000",
             "exception": false
           }
         },
         {
           "caller": "0x185303174a8eee5cc1ee9e56a23cd8b6a7db7616",
-          "comment": "exists() -> true",
+          "comment": "20 balance_inner() ->",
+          "instance": "D",
+          "method": "balance_inner()",
+          "calldata": [],
+          "expected": {
+            "return_data": "0x0000000000000000000000000000000000000000000000000de0b6b3a7640000",
+            "exception": false
+          }
+        },
+        {
+          "caller": "0x185303174a8eee5cc1ee9e56a23cd8b6a7db7616",
+          "comment": "21 exists() -> true",
           "instance": "D",
           "method": "exists()",
           "calldata": [],
@@ -172,7 +266,7 @@
         },
         {
           "caller": "0x185303174a8eee5cc1ee9e56a23cd8b6a7db7616",
-          "comment": "terminate() ->",
+          "comment": "22 terminate() ->",
           "instance": "D",
           "method": "terminate()",
           "calldata": [],
@@ -182,32 +276,23 @@
         },
         {
           "caller": "0x185303174a8eee5cc1ee9e56a23cd8b6a7db7616",
-          "comment": "test_balance_after_selfdestruct() ->",
+          "comment": "23 balance_inner() ->",
           "instance": "D",
-          "method": "test_balance_after_selfdestruct()",
+          "method": "balance_inner()",
           "calldata": [],
           "expected": {
+            "return_data": "0x0000000000000000000000000000000000000000000000000000000000000000",
             "exception": false
           }
         },
         {
           "caller": "0x185303174a8eee5cc1ee9e56a23cd8b6a7db7616",
-          "comment": "exists() -> true",
+          "comment": "24 exists() -> true",
           "instance": "D",
           "method": "exists()",
           "calldata": [],
           "expected": {
             "return_data": "0x0000000000000000000000000000000000000000000000000000000000000001",
-            "exception": false
-          }
-        },
-        {
-          "caller": "0x185303174a8eee5cc1ee9e56a23cd8b6a7db7616",
-          "comment": "terminate() ->",
-          "instance": "D",
-          "method": "terminate()",
-          "calldata": [],
-          "expected": {
             "exception": false
           }
         }

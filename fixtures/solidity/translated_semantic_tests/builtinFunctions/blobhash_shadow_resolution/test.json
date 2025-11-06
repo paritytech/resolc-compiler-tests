@@ -4,7 +4,7 @@
       "name": "blobhash_shadow_resolution",
       "inputs": [
         {
-          "caller": "0xe4fd34e38e73fdf38780b2a5aacf881616e99fd1",
+          "caller": "0x8a25ccf4f40620648cbffb4b3c891c4ca77cff23",
           "comment": "f() -> 0x03",
           "instance": "C",
           "method": "f()",

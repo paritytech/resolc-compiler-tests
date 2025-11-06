@@ -4,7 +4,7 @@
       "name": "fallback_override",
       "inputs": [
         {
-          "caller": "0x0497a90164d11203944ea99ab0eab3106b4530cd",
+          "caller": "0x41f1f347463b9474fc1ae3c24b17efe703bbc5c9",
           "comment": "f() -> 0x01, 0x40, 0x03, 0x78797a0000000000000000000000000000000000000000000000000000000000",
           "instance": "B",
           "method": "f()",

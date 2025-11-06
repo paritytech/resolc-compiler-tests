@@ -4,7 +4,7 @@
       "name": "fallback_return_data",
       "inputs": [
         {
-          "caller": "0x60b90917df7790b9ddb78abe2b9deca5ec804468",
+          "caller": "0xb55805a086dc52cad037acc08bf531bde0b741ac",
           "comment": "f() -> 0x01, 0x40, 0x03, 0x6162630000000000000000000000000000000000000000000000000000000000",
           "instance": "A",
           "method": "f()",

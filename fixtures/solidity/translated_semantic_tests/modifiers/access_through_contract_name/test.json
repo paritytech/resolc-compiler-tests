@@ -4,7 +4,7 @@
       "name": "access_through_contract_name",
       "inputs": [
         {
-          "caller": "0x68df3b0797befebe4ec6387e6fc7fe6e6b5d6dba",
+          "caller": "0xae320a4fead857e3c6bc711f82e69f0cc25a401f",
           "comment": "x() -> 7",
           "instance": "C",
           "method": "x()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x68df3b0797befebe4ec6387e6fc7fe6e6b5d6dba",
+          "caller": "0xae320a4fead857e3c6bc711f82e69f0cc25a401f",
           "comment": "f() -> 9",
           "instance": "C",
           "method": "f()",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0x68df3b0797befebe4ec6387e6fc7fe6e6b5d6dba",
+          "caller": "0xae320a4fead857e3c6bc711f82e69f0cc25a401f",
           "comment": "x() -> 2",
           "instance": "C",
           "method": "x()",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0x68df3b0797befebe4ec6387e6fc7fe6e6b5d6dba",
+          "caller": "0xae320a4fead857e3c6bc711f82e69f0cc25a401f",
           "comment": "g() -> 0x0a",
           "instance": "C",
           "method": "g()",
@@ -48,7 +48,7 @@
           }
         },
         {
-          "caller": "0x68df3b0797befebe4ec6387e6fc7fe6e6b5d6dba",
+          "caller": "0xae320a4fead857e3c6bc711f82e69f0cc25a401f",
           "comment": "x() -> 1",
           "instance": "C",
           "method": "x()",
@@ -59,7 +59,7 @@
           }
         },
         {
-          "caller": "0x68df3b0797befebe4ec6387e6fc7fe6e6b5d6dba",
+          "caller": "0xae320a4fead857e3c6bc711f82e69f0cc25a401f",
           "comment": "f() -> 9",
           "instance": "C",
           "method": "f()",
@@ -70,7 +70,7 @@
           }
         },
         {
-          "caller": "0x68df3b0797befebe4ec6387e6fc7fe6e6b5d6dba",
+          "caller": "0xae320a4fead857e3c6bc711f82e69f0cc25a401f",
           "comment": "x() -> 2",
           "instance": "C",
           "method": "x()",

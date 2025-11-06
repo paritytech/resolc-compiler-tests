@@ -6,7 +6,7 @@
       "name": "delete_removes_bytes_data",
       "inputs": [
         {
-          "caller": "0x48f5775cc07b179acaca665b351c87bdc2eaffb7",
+          "caller": "0x621cf37960b098a581093fee7d3d87637baff36c",
           "comment": "(): 7 ->",
           "instance": "c",
           "method": "#fallback",
@@ -19,10 +19,10 @@
           "comment": "storageEmpty -> 0",
           "address": "c.address",
           "is_storage_empty": false,
-          "caller": "0x1d91dcf3d2aa0ccdd51e6781ad9e968392ab365d"
+          "caller": "0x7d21e8ffbfe4811dd272165a54c212f71dc5ceda"
         },
         {
-          "caller": "0x48f5775cc07b179acaca665b351c87bdc2eaffb7",
+          "caller": "0x621cf37960b098a581093fee7d3d87637baff36c",
           "comment": "del(): 7 -> true",
           "instance": "c",
           "method": "del()",
@@ -36,7 +36,7 @@
           "comment": "storageEmpty -> 1",
           "address": "c.address",
           "is_storage_empty": true,
-          "caller": "0x1d91dcf3d2aa0ccdd51e6781ad9e968392ab365d"
+          "caller": "0x7d21e8ffbfe4811dd272165a54c212f71dc5ceda"
         }
       ]
     }

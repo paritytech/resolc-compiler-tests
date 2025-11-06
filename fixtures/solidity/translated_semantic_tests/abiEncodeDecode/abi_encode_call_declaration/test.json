@@ -4,7 +4,7 @@
       "name": "abi_encode_call_declaration",
       "inputs": [
         {
-          "caller": "0x6f7093401c9d1fae2ebc589a8bbf7b04b8281067",
+          "caller": "0x65c197b1292f377b7d1df2ef3c47ec46787f3bf1",
           "comment": "test() -> 11116",
           "instance": "C",
           "method": "test()",

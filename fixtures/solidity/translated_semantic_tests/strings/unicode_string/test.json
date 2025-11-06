@@ -4,7 +4,7 @@
       "name": "unicode_string",
       "inputs": [
         {
-          "caller": "0x2b39d861a92c97e4110ae0b29bafc46451ba98fa",
+          "caller": "0x9dc5569658b7bceb5fd88fa508b3391a81317d8b",
           "comment": "f() -> 0x20, 0x14, \"\\xf0\\x9f\\x98\\x83, \\xf0\\x9f\\x98\\xad, and \\xf0\\x9f\\x98\\x88\"",
           "instance": "C",
           "method": "f()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x2b39d861a92c97e4110ae0b29bafc46451ba98fa",
+          "caller": "0x9dc5569658b7bceb5fd88fa508b3391a81317d8b",
           "comment": "g() -> 0x20, 0x14, \"\\xf0\\x9f\\x98\\x83, \\xf0\\x9f\\x98\\xad, and \\xf0\\x9f\\x98\\x88\"",
           "instance": "C",
           "method": "g()",

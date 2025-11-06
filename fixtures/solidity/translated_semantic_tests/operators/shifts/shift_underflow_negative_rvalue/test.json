@@ -4,7 +4,7 @@
       "name": "shift_underflow_negative_rvalue",
       "inputs": [
         {
-          "caller": "0x4c29e4e4046602399527804752ac6f119eb89e12",
+          "caller": "0x58897a7c754da112e88cceab46d16e6d6870a923",
           "comment": "f(int256,uint256): 1, -1 -> 0",
           "instance": "C",
           "method": "f(int256,uint256)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x4c29e4e4046602399527804752ac6f119eb89e12",
+          "caller": "0x58897a7c754da112e88cceab46d16e6d6870a923",
           "comment": "g(int256,uint256): 1, -1 -> 0",
           "instance": "C",
           "method": "g(int256,uint256)",

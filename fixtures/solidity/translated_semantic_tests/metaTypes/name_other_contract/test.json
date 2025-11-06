@@ -4,7 +4,7 @@
       "name": "name_other_contract",
       "inputs": [
         {
-          "caller": "0x4adc6ddbb83c5a00f59ca21825c15fd58db0d39a",
+          "caller": "0x88625c8ac95ceb5bd256b0fe779d6940e2cb4210",
           "comment": "c() -> 0x20, 1, \"C\"",
           "instance": "Test",
           "method": "c()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x4adc6ddbb83c5a00f59ca21825c15fd58db0d39a",
+          "caller": "0x88625c8ac95ceb5bd256b0fe779d6940e2cb4210",
           "comment": "a() -> 0x20, 1, \"A\"",
           "instance": "Test",
           "method": "a()",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0x4adc6ddbb83c5a00f59ca21825c15fd58db0d39a",
+          "caller": "0x88625c8ac95ceb5bd256b0fe779d6940e2cb4210",
           "comment": "i() -> 0x20, 1, \"I\"",
           "instance": "Test",
           "method": "i()",

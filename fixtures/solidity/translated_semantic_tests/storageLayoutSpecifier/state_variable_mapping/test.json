@@ -4,7 +4,7 @@
       "name": "state_variable_mapping",
       "inputs": [
         {
-          "caller": "0x5f6dd5d3c96bc3186823fb38b7cc89eff57477f8",
+          "caller": "0x1c33fd7d968d19a69bfe49223811f2bb8c51c32a",
           "comment": "setup() ->; gas irOptimized: 159082; gas legacy: 161738; gas legacyOptimized: 160222",
           "instance": "C",
           "method": "setup()",
@@ -14,7 +14,7 @@
           }
         },
         {
-          "caller": "0x5f6dd5d3c96bc3186823fb38b7cc89eff57477f8",
+          "caller": "0x1c33fd7d968d19a69bfe49223811f2bb8c51c32a",
           "comment": "open(uint256): 3 -> 0x20, 5, \"Empty\"",
           "instance": "C",
           "method": "open(uint256)",
@@ -25,7 +25,7 @@
           }
         },
         {
-          "caller": "0x5f6dd5d3c96bc3186823fb38b7cc89eff57477f8",
+          "caller": "0x1c33fd7d968d19a69bfe49223811f2bb8c51c32a",
           "comment": "open(uint256): 2 -> 0x20, 6, \"Locked\"",
           "instance": "C",
           "method": "open(uint256)",
@@ -36,7 +36,7 @@
           }
         },
         {
-          "caller": "0x5f6dd5d3c96bc3186823fb38b7cc89eff57477f8",
+          "caller": "0x1c33fd7d968d19a69bfe49223811f2bb8c51c32a",
           "comment": "open(uint256): 1 -> 0x20, 7, \"Monster\"",
           "instance": "C",
           "method": "open(uint256)",

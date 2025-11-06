@@ -4,7 +4,7 @@
       "name": "attached_public_library_function_accepting_calldata.sol",
       "inputs": [
         {
-          "caller": "0x65d2c4b80097bd2620bc2802f661eedd3e845178",
+          "caller": "0x01b70db4ad15d25998fe269f42b19a83ad81f581",
           "comment": "f(bytes): 0x20, 4, \"abcd\" -> 0x6100000000000000000000000000000000000000000000000000000000000000, 0x6100000000000000000000000000000000000000000000000000000000000000",
           "instance": "C",
           "method": "f(bytes)",

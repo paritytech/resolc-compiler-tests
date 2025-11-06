@@ -5,7 +5,7 @@
       "name": "tx_gasprice",
       "inputs": [
         {
-          "caller": "0x7fc2623061b622d7a0daf3523b02a3a3173a82ee",
+          "caller": "0xcf0ac93dc1a33d0712efd19e53a00d0855a7d4a2",
           "comment": "f() -> 3000000000",
           "instance": "C",
           "method": "f()",
@@ -16,7 +16,7 @@
           }
         },
         {
-          "caller": "0x7fc2623061b622d7a0daf3523b02a3a3173a82ee",
+          "caller": "0xcf0ac93dc1a33d0712efd19e53a00d0855a7d4a2",
           "comment": "f() -> 3000000000",
           "instance": "C",
           "method": "f()",
@@ -27,7 +27,7 @@
           }
         },
         {
-          "caller": "0x7fc2623061b622d7a0daf3523b02a3a3173a82ee",
+          "caller": "0xcf0ac93dc1a33d0712efd19e53a00d0855a7d4a2",
           "comment": "f() -> 3000000000",
           "instance": "C",
           "method": "f()",

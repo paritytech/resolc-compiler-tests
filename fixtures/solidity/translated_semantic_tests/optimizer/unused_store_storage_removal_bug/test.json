@@ -4,7 +4,7 @@
       "name": "unused_store_storage_removal_bug",
       "inputs": [
         {
-          "caller": "0x818403c9a2f5ae63dc80d7f18b4264d5865642da",
+          "caller": "0x509e24aecb716e42e0b6b5b107078dfbd3db712b",
           "comment": "f() ->",
           "instance": "C",
           "method": "f()",
@@ -14,7 +14,7 @@
           }
         },
         {
-          "caller": "0x818403c9a2f5ae63dc80d7f18b4264d5865642da",
+          "caller": "0x509e24aecb716e42e0b6b5b107078dfbd3db712b",
           "comment": "x() -> 1",
           "instance": "C",
           "method": "x()",

@@ -6,7 +6,7 @@
       "name": "packed_storage_structs_delete",
       "inputs": [
         {
-          "caller": "0xbd55cfd6623ec5735897b6b5876b638077e25dcb",
+          "caller": "0x8744c74122c98de8e78523236fbfb8279d2ed5cb",
           "comment": "test() -> 1",
           "instance": "C",
           "method": "test()",
@@ -20,7 +20,7 @@
           "comment": "storageEmpty -> 1",
           "address": "C.address",
           "is_storage_empty": true,
-          "caller": "0x4ab83df346ec122ec8c1ed004d7af06a498149c8"
+          "caller": "0x17fd44b3902330f46854299c28c98c7939d76f0b"
         }
       ]
     }

@@ -6,7 +6,7 @@
       "name": "event_emit_from_other_contract",
       "inputs": [
         {
-          "caller": "0x4cb9944e03ac7b6d12d0a4a3af51d51a6ccd92b9",
+          "caller": "0x1342bfa9d2475b36ff62c184c8a082c40a2aab15",
           "comment": "constructor() ->; gas irOptimized: 113970; gas irOptimized code: 51400; gas legacy: 119791; gas legacy code: 125200; gas legacyOptimized: 114187; gas legacyOptimized code: 57400",
           "instance": "C",
           "method": "#deployer",
@@ -16,8 +16,8 @@
           }
         },
         {
-          "caller": "0x4cb9944e03ac7b6d12d0a4a3af51d51a6ccd92b9",
-          "comment": "deposit(bytes32), 18 wei: 0x1234 ->; ~ emit Deposit(address,bytes32,uint256) from 0x137aa4dfc0911524504fcd4d98501f179bc13b4a: 0x4cb9944e03ac7b6d12d0a4a3af51d51a6ccd92b9, #0x1234, 0x00",
+          "caller": "0x1342bfa9d2475b36ff62c184c8a082c40a2aab15",
+          "comment": "deposit(bytes32), 18 wei: 0x1234 ->; ~ emit Deposit(address,bytes32,uint256) from 0x137aa4dfc0911524504fcd4d98501f179bc13b4a: 0x1342bfa9d2475b36ff62c184c8a082c40a2aab15, #0x1234, 0x00",
           "instance": "C",
           "method": "deposit(bytes32)",
           "calldata": "0x0000000000000000000000000000000000000000000000000000000000001234",
@@ -28,7 +28,7 @@
                   "0x19dacbf83c5de6658e14cbf7bcae5c15eca2eedecf1c66fbca928e4d351bea0f",
                   "0x1234"
                 ],
-                "values": "0x0000000000000000000000004cb9944e03ac7b6d12d0a4a3af51d51a6ccd92b90000000000000000000000000000000000000000000000000000000000000000"
+                "values": "0x0000000000000000000000001342bfa9d2475b36ff62c184c8a082c40a2aab150000000000000000000000000000000000000000000000000000000000000000"
               }
             ],
             "exception": false

@@ -6,7 +6,7 @@
       "name": "tx_origin",
       "inputs": [
         {
-          "caller": "0xc19ba3b13b4005f7460d9ea9ff2866dadfb5745f",
+          "caller": "0xf6db8e556a9248fa5b3b38bb6b352f12c69c23d5",
           "comment": "f() -> 0x9292929292929292929292929292929292929292",
           "instance": "C",
           "method": "f()",
@@ -17,7 +17,7 @@
           }
         },
         {
-          "caller": "0xc19ba3b13b4005f7460d9ea9ff2866dadfb5745f",
+          "caller": "0xf6db8e556a9248fa5b3b38bb6b352f12c69c23d5",
           "comment": "f() -> 0x9292929292929292929292929292929292929292",
           "instance": "C",
           "method": "f()",
@@ -28,7 +28,7 @@
           }
         },
         {
-          "caller": "0xc19ba3b13b4005f7460d9ea9ff2866dadfb5745f",
+          "caller": "0xf6db8e556a9248fa5b3b38bb6b352f12c69c23d5",
           "comment": "f() -> 0x9292929292929292929292929292929292929292",
           "instance": "C",
           "method": "f()",

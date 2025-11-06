@@ -4,7 +4,7 @@
       "name": "mapping_returns_in_library_named",
       "inputs": [
         {
-          "caller": "0x2d4572a760eb715f01e08d7ba199b0aa29fdcf6f",
+          "caller": "0x3a47e5cd225f5c25288b813d04f8a8fea147c575",
           "comment": "f() -> 0, 0x2a, 0, 0, 0x15, 0x54",
           "instance": "Test",
           "method": "f()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x2d4572a760eb715f01e08d7ba199b0aa29fdcf6f",
+          "caller": "0x3a47e5cd225f5c25288b813d04f8a8fea147c575",
           "comment": "g() -> 0, 0x2a, 0, 0, 0x15, 0x11",
           "instance": "Test",
           "method": "g()",

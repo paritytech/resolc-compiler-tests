@@ -4,7 +4,7 @@
       "name": "super_parentheses",
       "inputs": [
         {
-          "caller": "0x610cc6382d4584700b3cc7634fd8ffce1b662be7",
+          "caller": "0xd3ab91a705f2b0d8e428da35d42609ad3f95ba09",
           "comment": "f() -> 15",
           "instance": "D",
           "method": "f()",

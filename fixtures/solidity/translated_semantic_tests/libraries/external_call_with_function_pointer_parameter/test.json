@@ -4,7 +4,7 @@
       "name": "external_call_with_function_pointer_parameter",
       "inputs": [
         {
-          "caller": "0xbea893cec5058905ded9d14986270dc8278aeb3f",
+          "caller": "0x7a6e57be2d727bb238410e0140a2372001fe0755",
           "comment": "g(uint256): 4 -> 16",
           "instance": "C",
           "method": "g(uint256)",

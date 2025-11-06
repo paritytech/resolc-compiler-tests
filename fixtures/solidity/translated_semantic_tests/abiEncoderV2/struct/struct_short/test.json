@@ -4,7 +4,7 @@
       "name": "struct_short",
       "inputs": [
         {
-          "caller": "0xb5910f319d710416dd5c13573deeae0156337e11",
+          "caller": "0xb488719f487b067ef6dbd2ee59706a3dc9cce03b",
           "comment": "f((int256,uint256,bytes16)): 0xff010, 0xff0002, \"abcd\" -> 0xff010, 0xff0002, \"abcd\"",
           "instance": "C",
           "method": "f((int256,uint256,bytes16))",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xb5910f319d710416dd5c13573deeae0156337e11",
+          "caller": "0xb488719f487b067ef6dbd2ee59706a3dc9cce03b",
           "comment": "f((int256,uint256,bytes16)): 0xff010, 0xff0002, 0x1111222233334444555566667777888800000000000000000000000000000000 -> 0xff010, 0xff0002, left(0x11112222333344445555666677778888)",
           "instance": "C",
           "method": "f((int256,uint256,bytes16))",

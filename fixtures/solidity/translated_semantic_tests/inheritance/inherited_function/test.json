@@ -4,7 +4,7 @@
       "name": "inherited_function",
       "inputs": [
         {
-          "caller": "0x9676adbafeb318f84a7b852f9f33226ff4ba7067",
+          "caller": "0x91a227409691a9860a674625ae42eeb661cb6d7a",
           "comment": "g() -> 1",
           "instance": "B",
           "method": "g()",

@@ -4,7 +4,7 @@
       "name": "calldata_arrays_too_large",
       "inputs": [
         {
-          "caller": "0xa8b001b5b3c7b53642c619b1ea22667ee3284a1b",
+          "caller": "0x03ec4657b1ac4851e53a9ff1577ef70f6dc26328",
           "comment": "f(uint256,uint256[],uint256): 6, 0x60, 9, 0x8000000000000000000000000000000000000000000000000000000000000002, 1, 2 -> FAILURE",
           "instance": "C",
           "method": "f(uint256,uint256[],uint256)",

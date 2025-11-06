@@ -4,7 +4,7 @@
       "name": "mapping_storage_end",
       "inputs": [
         {
-          "caller": "0x28ca6460072bea0d6162e2ff90635a7ced904ce2",
+          "caller": "0x0d69976493c09b07137c343c9075292da98e5803",
           "comment": "init() ->; gas irOptimized: 22266229; gas legacy: 22447245; gas legacyOptimized: 22310238",
           "instance": "C",
           "method": "init()",
@@ -14,7 +14,7 @@
           }
         },
         {
-          "caller": "0x28ca6460072bea0d6162e2ff90635a7ced904ce2",
+          "caller": "0x0d69976493c09b07137c343c9075292da98e5803",
           "comment": "validate() ->; gas irOptimized: 2279210; gas legacy: 2456223; gas legacyOptimized: 2327216",
           "instance": "C",
           "method": "validate()",

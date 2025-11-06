@@ -4,7 +4,7 @@
       "name": "shift_negative_constant_left",
       "inputs": [
         {
-          "caller": "0x44148c203c012807d950febfa1c0dbf4ed9a94d1",
+          "caller": "0x11cc14922b0ad3d30a4aa274c98011b710578aa2",
           "comment": "a() -> -16896",
           "instance": "C",
           "method": "a()",

@@ -4,7 +4,7 @@
       "name": "unknown_sig_no_fallback",
       "inputs": [
         {
-          "caller": "0x40af62336e35981fd08d3a96af27fdd4100b2fd8",
+          "caller": "0xb1e06c68be2463fcac645a53507912f72a0dd290",
           "comment": "(): hex\"00\" -> FAILURE",
           "instance": "A",
           "method": "#fallback",

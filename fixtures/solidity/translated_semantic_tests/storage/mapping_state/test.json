@@ -4,7 +4,7 @@
       "name": "mapping_state",
       "inputs": [
         {
-          "caller": "0xf0ef8144bf98abdb0bc9e48cae83b80ddf8e36bc",
+          "caller": "0x30ac3e3963eff0a819f0f21cde92b46c350b8625",
           "comment": "getVoteCount(address): 0 -> 0",
           "instance": "Ballot",
           "method": "getVoteCount(address)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xf0ef8144bf98abdb0bc9e48cae83b80ddf8e36bc",
+          "caller": "0x30ac3e3963eff0a819f0f21cde92b46c350b8625",
           "comment": "getVoteCount(address): 1 -> 0",
           "instance": "Ballot",
           "method": "getVoteCount(address)",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0xf0ef8144bf98abdb0bc9e48cae83b80ddf8e36bc",
+          "caller": "0x30ac3e3963eff0a819f0f21cde92b46c350b8625",
           "comment": "getVoteCount(address): 2 -> 0",
           "instance": "Ballot",
           "method": "getVoteCount(address)",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0xf0ef8144bf98abdb0bc9e48cae83b80ddf8e36bc",
+          "caller": "0x30ac3e3963eff0a819f0f21cde92b46c350b8625",
           "comment": "vote(address,address): 0, 2 -> false",
           "instance": "Ballot",
           "method": "vote(address,address)",
@@ -48,7 +48,7 @@
           }
         },
         {
-          "caller": "0xf0ef8144bf98abdb0bc9e48cae83b80ddf8e36bc",
+          "caller": "0x30ac3e3963eff0a819f0f21cde92b46c350b8625",
           "comment": "getVoteCount(address): 0 -> 0",
           "instance": "Ballot",
           "method": "getVoteCount(address)",
@@ -59,7 +59,7 @@
           }
         },
         {
-          "caller": "0xf0ef8144bf98abdb0bc9e48cae83b80ddf8e36bc",
+          "caller": "0x30ac3e3963eff0a819f0f21cde92b46c350b8625",
           "comment": "getVoteCount(address): 1 -> 0",
           "instance": "Ballot",
           "method": "getVoteCount(address)",
@@ -70,7 +70,7 @@
           }
         },
         {
-          "caller": "0xf0ef8144bf98abdb0bc9e48cae83b80ddf8e36bc",
+          "caller": "0x30ac3e3963eff0a819f0f21cde92b46c350b8625",
           "comment": "getVoteCount(address): 2 -> 0",
           "instance": "Ballot",
           "method": "getVoteCount(address)",
@@ -81,7 +81,7 @@
           }
         },
         {
-          "caller": "0xf0ef8144bf98abdb0bc9e48cae83b80ddf8e36bc",
+          "caller": "0x30ac3e3963eff0a819f0f21cde92b46c350b8625",
           "comment": "grantVoteRight(address): 0 ->",
           "instance": "Ballot",
           "method": "grantVoteRight(address)",
@@ -91,7 +91,7 @@
           }
         },
         {
-          "caller": "0xf0ef8144bf98abdb0bc9e48cae83b80ddf8e36bc",
+          "caller": "0x30ac3e3963eff0a819f0f21cde92b46c350b8625",
           "comment": "grantVoteRight(address): 1 ->",
           "instance": "Ballot",
           "method": "grantVoteRight(address)",
@@ -101,7 +101,7 @@
           }
         },
         {
-          "caller": "0xf0ef8144bf98abdb0bc9e48cae83b80ddf8e36bc",
+          "caller": "0x30ac3e3963eff0a819f0f21cde92b46c350b8625",
           "comment": "vote(address,address): 0, 2 -> true",
           "instance": "Ballot",
           "method": "vote(address,address)",
@@ -112,7 +112,7 @@
           }
         },
         {
-          "caller": "0xf0ef8144bf98abdb0bc9e48cae83b80ddf8e36bc",
+          "caller": "0x30ac3e3963eff0a819f0f21cde92b46c350b8625",
           "comment": "getVoteCount(address): 0 -> 0",
           "instance": "Ballot",
           "method": "getVoteCount(address)",
@@ -123,7 +123,7 @@
           }
         },
         {
-          "caller": "0xf0ef8144bf98abdb0bc9e48cae83b80ddf8e36bc",
+          "caller": "0x30ac3e3963eff0a819f0f21cde92b46c350b8625",
           "comment": "getVoteCount(address): 1 -> 0",
           "instance": "Ballot",
           "method": "getVoteCount(address)",
@@ -134,7 +134,7 @@
           }
         },
         {
-          "caller": "0xf0ef8144bf98abdb0bc9e48cae83b80ddf8e36bc",
+          "caller": "0x30ac3e3963eff0a819f0f21cde92b46c350b8625",
           "comment": "getVoteCount(address): 2 -> 1",
           "instance": "Ballot",
           "method": "getVoteCount(address)",
@@ -145,7 +145,7 @@
           }
         },
         {
-          "caller": "0xf0ef8144bf98abdb0bc9e48cae83b80ddf8e36bc",
+          "caller": "0x30ac3e3963eff0a819f0f21cde92b46c350b8625",
           "comment": "vote(address,address): 0, 1 -> false",
           "instance": "Ballot",
           "method": "vote(address,address)",
@@ -156,7 +156,7 @@
           }
         },
         {
-          "caller": "0xf0ef8144bf98abdb0bc9e48cae83b80ddf8e36bc",
+          "caller": "0x30ac3e3963eff0a819f0f21cde92b46c350b8625",
           "comment": "getVoteCount(address): 0 -> 0",
           "instance": "Ballot",
           "method": "getVoteCount(address)",
@@ -167,7 +167,7 @@
           }
         },
         {
-          "caller": "0xf0ef8144bf98abdb0bc9e48cae83b80ddf8e36bc",
+          "caller": "0x30ac3e3963eff0a819f0f21cde92b46c350b8625",
           "comment": "getVoteCount(address): 1 -> 0",
           "instance": "Ballot",
           "method": "getVoteCount(address)",
@@ -178,7 +178,7 @@
           }
         },
         {
-          "caller": "0xf0ef8144bf98abdb0bc9e48cae83b80ddf8e36bc",
+          "caller": "0x30ac3e3963eff0a819f0f21cde92b46c350b8625",
           "comment": "getVoteCount(address): 2 -> 1",
           "instance": "Ballot",
           "method": "getVoteCount(address)",
@@ -189,7 +189,7 @@
           }
         },
         {
-          "caller": "0xf0ef8144bf98abdb0bc9e48cae83b80ddf8e36bc",
+          "caller": "0x30ac3e3963eff0a819f0f21cde92b46c350b8625",
           "comment": "vote(address,address): 2, 1 -> false",
           "instance": "Ballot",
           "method": "vote(address,address)",
@@ -200,7 +200,7 @@
           }
         },
         {
-          "caller": "0xf0ef8144bf98abdb0bc9e48cae83b80ddf8e36bc",
+          "caller": "0x30ac3e3963eff0a819f0f21cde92b46c350b8625",
           "comment": "getVoteCount(address): 0 -> 0",
           "instance": "Ballot",
           "method": "getVoteCount(address)",
@@ -211,7 +211,7 @@
           }
         },
         {
-          "caller": "0xf0ef8144bf98abdb0bc9e48cae83b80ddf8e36bc",
+          "caller": "0x30ac3e3963eff0a819f0f21cde92b46c350b8625",
           "comment": "getVoteCount(address): 1 -> 0",
           "instance": "Ballot",
           "method": "getVoteCount(address)",
@@ -222,7 +222,7 @@
           }
         },
         {
-          "caller": "0xf0ef8144bf98abdb0bc9e48cae83b80ddf8e36bc",
+          "caller": "0x30ac3e3963eff0a819f0f21cde92b46c350b8625",
           "comment": "getVoteCount(address): 2 -> 1",
           "instance": "Ballot",
           "method": "getVoteCount(address)",
@@ -233,7 +233,7 @@
           }
         },
         {
-          "caller": "0xf0ef8144bf98abdb0bc9e48cae83b80ddf8e36bc",
+          "caller": "0x30ac3e3963eff0a819f0f21cde92b46c350b8625",
           "comment": "grantVoteRight(address): 2 ->",
           "instance": "Ballot",
           "method": "grantVoteRight(address)",
@@ -243,7 +243,7 @@
           }
         },
         {
-          "caller": "0xf0ef8144bf98abdb0bc9e48cae83b80ddf8e36bc",
+          "caller": "0x30ac3e3963eff0a819f0f21cde92b46c350b8625",
           "comment": "vote(address,address): 2, 1 -> true",
           "instance": "Ballot",
           "method": "vote(address,address)",
@@ -254,7 +254,7 @@
           }
         },
         {
-          "caller": "0xf0ef8144bf98abdb0bc9e48cae83b80ddf8e36bc",
+          "caller": "0x30ac3e3963eff0a819f0f21cde92b46c350b8625",
           "comment": "getVoteCount(address): 0 -> 0",
           "instance": "Ballot",
           "method": "getVoteCount(address)",
@@ -265,7 +265,7 @@
           }
         },
         {
-          "caller": "0xf0ef8144bf98abdb0bc9e48cae83b80ddf8e36bc",
+          "caller": "0x30ac3e3963eff0a819f0f21cde92b46c350b8625",
           "comment": "getVoteCount(address): 1 -> 1",
           "instance": "Ballot",
           "method": "getVoteCount(address)",
@@ -276,7 +276,7 @@
           }
         },
         {
-          "caller": "0xf0ef8144bf98abdb0bc9e48cae83b80ddf8e36bc",
+          "caller": "0x30ac3e3963eff0a819f0f21cde92b46c350b8625",
           "comment": "getVoteCount(address): 2 -> 1",
           "instance": "Ballot",
           "method": "getVoteCount(address)",

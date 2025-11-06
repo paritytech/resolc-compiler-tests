@@ -4,7 +4,7 @@
       "name": "comparison",
       "inputs": [
         {
-          "caller": "0x073ad8b565eb8cfebd8a2250882574e73a2e293f",
+          "caller": "0xaf417a2ea6b5ac83e66f5081d1ca34fc9975bc8a",
           "comment": "eq() -> true",
           "instance": "C",
           "method": "eq()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x073ad8b565eb8cfebd8a2250882574e73a2e293f",
+          "caller": "0xaf417a2ea6b5ac83e66f5081d1ca34fc9975bc8a",
           "comment": "neq() -> false",
           "instance": "C",
           "method": "neq()",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0x073ad8b565eb8cfebd8a2250882574e73a2e293f",
+          "caller": "0xaf417a2ea6b5ac83e66f5081d1ca34fc9975bc8a",
           "comment": "geq() -> true",
           "instance": "C",
           "method": "geq()",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0x073ad8b565eb8cfebd8a2250882574e73a2e293f",
+          "caller": "0xaf417a2ea6b5ac83e66f5081d1ca34fc9975bc8a",
           "comment": "leq() -> false",
           "instance": "C",
           "method": "leq()",
@@ -48,7 +48,7 @@
           }
         },
         {
-          "caller": "0x073ad8b565eb8cfebd8a2250882574e73a2e293f",
+          "caller": "0xaf417a2ea6b5ac83e66f5081d1ca34fc9975bc8a",
           "comment": "gt() -> true",
           "instance": "C",
           "method": "gt()",
@@ -59,7 +59,7 @@
           }
         },
         {
-          "caller": "0x073ad8b565eb8cfebd8a2250882574e73a2e293f",
+          "caller": "0xaf417a2ea6b5ac83e66f5081d1ca34fc9975bc8a",
           "comment": "lt() -> false",
           "instance": "C",
           "method": "lt()",

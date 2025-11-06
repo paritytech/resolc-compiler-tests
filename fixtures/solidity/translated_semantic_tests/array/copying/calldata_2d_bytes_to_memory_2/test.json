@@ -4,7 +4,7 @@
       "name": "calldata_2d_bytes_to_memory_2",
       "inputs": [
         {
-          "caller": "0xc08b69f22b13d251f75a9725fcde9f1ed19380cb",
+          "caller": "0xcb97be4dd65c83f246628f296a7171ab234e6bde",
           "comment": "f(bytes[2]): 0x20, 0x40, 0x40, 2, \"ab\" ->",
           "instance": "C",
           "method": "f(bytes[2])",
@@ -14,7 +14,7 @@
           }
         },
         {
-          "caller": "0xc08b69f22b13d251f75a9725fcde9f1ed19380cb",
+          "caller": "0xcb97be4dd65c83f246628f296a7171ab234e6bde",
           "comment": "f(bytes[2]): 0x20, 0x40, 0x40, 1, \"a\" -> FAILURE, hex\"4e487b71\", 0x01",
           "instance": "C",
           "method": "f(bytes[2])",

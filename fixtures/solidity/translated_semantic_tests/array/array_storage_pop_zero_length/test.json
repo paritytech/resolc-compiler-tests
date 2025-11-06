@@ -4,7 +4,7 @@
       "name": "array_storage_pop_zero_length",
       "inputs": [
         {
-          "caller": "0x04bba83022fee41174e6ff2e6fd3d71200347551",
+          "caller": "0xf26ec8e32cfc2ef6c81527bb2c0986d6077f4163",
           "comment": "popEmpty() -> FAILURE, hex\"4e487b71\", 0x31",
           "instance": "C",
           "method": "popEmpty()",

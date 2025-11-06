@@ -4,7 +4,7 @@
       "name": "abi_decode_static_array_v2",
       "inputs": [
         {
-          "caller": "0x761a18cad834b21cad53b76af82a8c1b975f9b02",
+          "caller": "0x763a4220713a8fb55f2f2f7a697f36225b453221",
           "comment": "f(bytes): 0x20, 0xc0, 0x1, 0x2, 0x3, 0x4, 0x5, 0x6 -> 1, 2, 3, 4, 5, 6",
           "instance": "C",
           "method": "f(bytes)",

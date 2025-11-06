@@ -4,7 +4,7 @@
       "name": "calldata_array_to_mapping",
       "inputs": [
         {
-          "caller": "0x89530834e07b217d50ec00578aca6a6ee4a7cc27",
+          "caller": "0x869ecb0282982a9b771c22c9dd515ce0ba6de8a9",
           "comment": "from_calldata(uint8[][]): 0x20, 2, 0x40, 0xa0, 2, 10, 11, 3, 12, 13, 14 -> 0x20, 2, 0x40, 0xa0, 2, 10, 11, 3, 12, 13, 14; gas irOptimized: 139587",
           "instance": "C",
           "method": "from_calldata(uint8[][])",

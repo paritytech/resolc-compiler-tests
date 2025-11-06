@@ -4,7 +4,7 @@
       "name": "assignment_to_const_var_involving_keccak",
       "inputs": [
         {
-          "caller": "0x77495c6886361d8e9b908b8da09727694176a1da",
+          "caller": "0x773a327977a52f41252f5cf486f5fb809c68ed95",
           "comment": "f() -> 0x4e03657aea45a94fc7d47ba826c8d667c0d1e6e33a64a036ec44f58fa12d6c45",
           "instance": "C",
           "method": "f()",

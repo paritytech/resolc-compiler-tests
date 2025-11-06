@@ -4,7 +4,7 @@
       "name": "shift_bytes_cleanup_viaYul",
       "inputs": [
         {
-          "caller": "0xcf2c6304f4dd45d87e9082128e51152cdbd6b983",
+          "caller": "0x061820daaed73a824d4eb8cc97260bc56d82c770",
           "comment": "l(uint8): 64 -> 0x3930313233343536373839300000000000000000000000000000000000000000",
           "instance": "C",
           "method": "l(uint8)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xcf2c6304f4dd45d87e9082128e51152cdbd6b983",
+          "caller": "0x061820daaed73a824d4eb8cc97260bc56d82c770",
           "comment": "r(uint8): 64 -> 0x313233343536373839303132000000000000000000000000",
           "instance": "C",
           "method": "r(uint8)",

@@ -4,7 +4,7 @@
       "name": "memory_to_storage_different_base",
       "inputs": [
         {
-          "caller": "0x3074429b909180290daf1d115ea5bfe57e9d06ed",
+          "caller": "0x0fb5b0a1fff0be64c58bee12d3464ba0eaba0011",
           "comment": "f() -> 3, \"abcd\", \"bcde\", \"cdef\"",
           "instance": "C",
           "method": "f()",

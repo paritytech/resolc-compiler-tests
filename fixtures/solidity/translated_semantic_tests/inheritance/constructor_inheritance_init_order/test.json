@@ -4,7 +4,7 @@
       "name": "constructor_inheritance_init_order",
       "inputs": [
         {
-          "caller": "0x864603b1b7b13c839ec257a2514e9252420f984d",
+          "caller": "0x62be795938392b21b4ecda99dd1d9503cb107804",
           "comment": "constructor() ->; gas irOptimized: 99436; gas irOptimized code: 20200",
           "instance": "B",
           "method": "#deployer",
@@ -14,7 +14,7 @@
           }
         },
         {
-          "caller": "0x864603b1b7b13c839ec257a2514e9252420f984d",
+          "caller": "0x62be795938392b21b4ecda99dd1d9503cb107804",
           "comment": "y() -> 42",
           "instance": "B",
           "method": "y()",

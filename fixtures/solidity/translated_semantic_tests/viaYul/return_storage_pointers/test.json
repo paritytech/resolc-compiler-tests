@@ -4,7 +4,7 @@
       "name": "return_storage_pointers",
       "inputs": [
         {
-          "caller": "0x819c1cddbdacc3cb55debb1c55e428e02045ada8",
+          "caller": "0x81b822a39465dca0abc9266eac1048edb0ed8ee3",
           "comment": "g() -> 0, 0",
           "instance": "C",
           "method": "g()",

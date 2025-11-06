@@ -4,7 +4,7 @@
       "name": "struct_delete_storage_nested_small",
       "inputs": [
         {
-          "caller": "0xeeecc58cafc8dd92cd83c8fb9bc65375d1385821",
+          "caller": "0x3068e6b7feca3e59eeadc3a0c03f58846bc5e0b3",
           "comment": "f() -> 0, 0, 0; gas irOptimized: 117101",
           "instance": "C",
           "method": "f()",

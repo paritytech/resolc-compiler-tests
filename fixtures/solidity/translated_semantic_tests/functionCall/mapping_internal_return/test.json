@@ -4,7 +4,7 @@
       "name": "mapping_internal_return",
       "inputs": [
         {
-          "caller": "0xfb286d4bc8e8084778b59bc1f37fdb099b9ff7fd",
+          "caller": "0xa7c4ad961be6a25c16960e362477b26115ad724f",
           "comment": "g() -> 0, 42, 0, 0, 84, 21",
           "instance": "test",
           "method": "g()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xfb286d4bc8e8084778b59bc1f37fdb099b9ff7fd",
+          "caller": "0xa7c4ad961be6a25c16960e362477b26115ad724f",
           "comment": "h() -> 0, 42, 0, 0, 84, 17",
           "instance": "test",
           "method": "h()",

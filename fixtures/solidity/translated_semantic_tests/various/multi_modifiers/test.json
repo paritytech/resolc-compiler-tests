@@ -4,7 +4,7 @@
       "name": "multi_modifiers",
       "inputs": [
         {
-          "caller": "0x35fa53f123989b0b6029d465c80b02e5b2263a97",
+          "caller": "0x03ee8124771e6ab1961aa08bddfbc9408d2a6d33",
           "comment": "f1() ->",
           "instance": "C",
           "method": "f1()",
@@ -14,7 +14,7 @@
           }
         },
         {
-          "caller": "0x35fa53f123989b0b6029d465c80b02e5b2263a97",
+          "caller": "0x03ee8124771e6ab1961aa08bddfbc9408d2a6d33",
           "comment": "x() -> 0x08",
           "instance": "C",
           "method": "x()",
@@ -25,7 +25,7 @@
           }
         },
         {
-          "caller": "0x35fa53f123989b0b6029d465c80b02e5b2263a97",
+          "caller": "0x03ee8124771e6ab1961aa08bddfbc9408d2a6d33",
           "comment": "f2() ->",
           "instance": "C",
           "method": "f2()",
@@ -35,7 +35,7 @@
           }
         },
         {
-          "caller": "0x35fa53f123989b0b6029d465c80b02e5b2263a97",
+          "caller": "0x03ee8124771e6ab1961aa08bddfbc9408d2a6d33",
           "comment": "x() -> 0x0c",
           "instance": "C",
           "method": "x()",

@@ -4,7 +4,7 @@
       "name": "selfdestruct_post_cancun",
       "inputs": [
         {
-          "caller": "0xeb780df66d7fcb77306bd70a5fb7ca25107cd1ea",
+          "caller": "0xb91bbf74547ecc656506af526c6f2eb22b6892ef",
           "comment": "constructor(), 1 ether ->; gas irOptimized: 67028; gas irOptimized code: 175400; gas legacy: 76227; gas legacy code: 298200; gas legacyOptimized: 66516; gas legacyOptimized code: 168000",
           "instance": "D",
           "method": "#deployer",
@@ -15,7 +15,7 @@
           "value": "1000000000000000000 wei"
         },
         {
-          "caller": "0xeb780df66d7fcb77306bd70a5fb7ca25107cd1ea",
+          "caller": "0xb91bbf74547ecc656506af526c6f2eb22b6892ef",
           "comment": "exists() -> false",
           "instance": "D",
           "method": "exists()",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0xeb780df66d7fcb77306bd70a5fb7ca25107cd1ea",
+          "caller": "0xb91bbf74547ecc656506af526c6f2eb22b6892ef",
           "comment": "test_create_and_terminate() ->",
           "instance": "D",
           "method": "test_create_and_terminate()",
@@ -36,7 +36,7 @@
           }
         },
         {
-          "caller": "0xeb780df66d7fcb77306bd70a5fb7ca25107cd1ea",
+          "caller": "0xb91bbf74547ecc656506af526c6f2eb22b6892ef",
           "comment": "exists() -> false",
           "instance": "D",
           "method": "exists()",
@@ -47,7 +47,7 @@
           }
         },
         {
-          "caller": "0xeb780df66d7fcb77306bd70a5fb7ca25107cd1ea",
+          "caller": "0xb91bbf74547ecc656506af526c6f2eb22b6892ef",
           "comment": "terminate() -> FAILURE",
           "instance": "D",
           "method": "terminate()",
@@ -57,7 +57,7 @@
           }
         },
         {
-          "caller": "0xeb780df66d7fcb77306bd70a5fb7ca25107cd1ea",
+          "caller": "0xb91bbf74547ecc656506af526c6f2eb22b6892ef",
           "comment": "deploy_create() ->",
           "instance": "D",
           "method": "deploy_create()",
@@ -67,7 +67,7 @@
           }
         },
         {
-          "caller": "0xeb780df66d7fcb77306bd70a5fb7ca25107cd1ea",
+          "caller": "0xb91bbf74547ecc656506af526c6f2eb22b6892ef",
           "comment": "test_balance_after_create() ->",
           "instance": "D",
           "method": "test_balance_after_create()",
@@ -77,7 +77,7 @@
           }
         },
         {
-          "caller": "0xeb780df66d7fcb77306bd70a5fb7ca25107cd1ea",
+          "caller": "0xb91bbf74547ecc656506af526c6f2eb22b6892ef",
           "comment": "exists() -> true",
           "instance": "D",
           "method": "exists()",
@@ -88,7 +88,7 @@
           }
         },
         {
-          "caller": "0xeb780df66d7fcb77306bd70a5fb7ca25107cd1ea",
+          "caller": "0xb91bbf74547ecc656506af526c6f2eb22b6892ef",
           "comment": "terminate() ->",
           "instance": "D",
           "method": "terminate()",
@@ -98,7 +98,7 @@
           }
         },
         {
-          "caller": "0xeb780df66d7fcb77306bd70a5fb7ca25107cd1ea",
+          "caller": "0xb91bbf74547ecc656506af526c6f2eb22b6892ef",
           "comment": "test_balance_after_selfdestruct() ->",
           "instance": "D",
           "method": "test_balance_after_selfdestruct()",
@@ -108,7 +108,7 @@
           }
         },
         {
-          "caller": "0xeb780df66d7fcb77306bd70a5fb7ca25107cd1ea",
+          "caller": "0xb91bbf74547ecc656506af526c6f2eb22b6892ef",
           "comment": "exists() -> true",
           "instance": "D",
           "method": "exists()",
@@ -119,7 +119,7 @@
           }
         },
         {
-          "caller": "0xeb780df66d7fcb77306bd70a5fb7ca25107cd1ea",
+          "caller": "0xb91bbf74547ecc656506af526c6f2eb22b6892ef",
           "comment": "test_create2_and_terminate() ->",
           "instance": "D",
           "method": "test_create2_and_terminate()",
@@ -129,7 +129,7 @@
           }
         },
         {
-          "caller": "0xeb780df66d7fcb77306bd70a5fb7ca25107cd1ea",
+          "caller": "0xb91bbf74547ecc656506af526c6f2eb22b6892ef",
           "comment": "exists() -> false",
           "instance": "D",
           "method": "exists()",
@@ -140,7 +140,7 @@
           }
         },
         {
-          "caller": "0xeb780df66d7fcb77306bd70a5fb7ca25107cd1ea",
+          "caller": "0xb91bbf74547ecc656506af526c6f2eb22b6892ef",
           "comment": "deploy_create2() ->",
           "instance": "D",
           "method": "deploy_create2()",
@@ -150,7 +150,7 @@
           }
         },
         {
-          "caller": "0xeb780df66d7fcb77306bd70a5fb7ca25107cd1ea",
+          "caller": "0xb91bbf74547ecc656506af526c6f2eb22b6892ef",
           "comment": "test_balance_after_create() ->",
           "instance": "D",
           "method": "test_balance_after_create()",
@@ -160,7 +160,7 @@
           }
         },
         {
-          "caller": "0xeb780df66d7fcb77306bd70a5fb7ca25107cd1ea",
+          "caller": "0xb91bbf74547ecc656506af526c6f2eb22b6892ef",
           "comment": "exists() -> true",
           "instance": "D",
           "method": "exists()",
@@ -171,7 +171,7 @@
           }
         },
         {
-          "caller": "0xeb780df66d7fcb77306bd70a5fb7ca25107cd1ea",
+          "caller": "0xb91bbf74547ecc656506af526c6f2eb22b6892ef",
           "comment": "terminate() ->",
           "instance": "D",
           "method": "terminate()",
@@ -181,7 +181,7 @@
           }
         },
         {
-          "caller": "0xeb780df66d7fcb77306bd70a5fb7ca25107cd1ea",
+          "caller": "0xb91bbf74547ecc656506af526c6f2eb22b6892ef",
           "comment": "test_balance_after_selfdestruct() ->",
           "instance": "D",
           "method": "test_balance_after_selfdestruct()",
@@ -191,7 +191,7 @@
           }
         },
         {
-          "caller": "0xeb780df66d7fcb77306bd70a5fb7ca25107cd1ea",
+          "caller": "0xb91bbf74547ecc656506af526c6f2eb22b6892ef",
           "comment": "exists() -> true",
           "instance": "D",
           "method": "exists()",
@@ -202,7 +202,7 @@
           }
         },
         {
-          "caller": "0xeb780df66d7fcb77306bd70a5fb7ca25107cd1ea",
+          "caller": "0xb91bbf74547ecc656506af526c6f2eb22b6892ef",
           "comment": "terminate() ->",
           "instance": "D",
           "method": "terminate()",

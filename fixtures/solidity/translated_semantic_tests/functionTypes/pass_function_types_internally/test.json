@@ -4,7 +4,7 @@
       "name": "pass_function_types_internally",
       "inputs": [
         {
-          "caller": "0x984ee086dd94d4087f8366ad1a22736c0abc9abd",
+          "caller": "0x78791181e0bf86cb5a0551f0e5b37465be1d6dff",
           "comment": "f(uint256): 7 -> 8",
           "instance": "C",
           "method": "f(uint256)",

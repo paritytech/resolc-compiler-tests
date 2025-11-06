@@ -4,7 +4,7 @@
       "name": "modifier_in_constructor_ice",
       "inputs": [
         {
-          "caller": "0x469a0485dfc8b408323dbc45d4c83de522806584",
+          "caller": "0x4bdf04a2be70bc94b4f5e6785a00135a622dc3a9",
           "comment": "constructor() ->",
           "instance": "B",
           "method": "#deployer",

@@ -4,7 +4,7 @@
       "name": "transient_state_variable_udvt",
       "inputs": [
         {
-          "caller": "0xc37262ed814ac7eff1f0e5191f8591518cfab917",
+          "caller": "0xaa17d649dafa178000480c994b090e7b4264904d",
           "comment": "x() -> 0",
           "instance": "C",
           "method": "x()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xc37262ed814ac7eff1f0e5191f8591518cfab917",
+          "caller": "0xaa17d649dafa178000480c994b090e7b4264904d",
           "comment": "g() -> 2",
           "instance": "C",
           "method": "g()",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0xc37262ed814ac7eff1f0e5191f8591518cfab917",
+          "caller": "0xaa17d649dafa178000480c994b090e7b4264904d",
           "comment": "h() -> 0",
           "instance": "C",
           "method": "h()",

@@ -4,7 +4,7 @@
       "name": "transient_value_types_multi_frame_call",
       "inputs": [
         {
-          "caller": "0x97a335ced3394618ce05043737720c40aaae1aaa",
+          "caller": "0xe614052ba452f9a11e995ea3ad67292b10d1583f",
           "comment": "x() -> 0",
           "instance": "C",
           "method": "x()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x97a335ced3394618ce05043737720c40aaae1aaa",
+          "caller": "0xe614052ba452f9a11e995ea3ad67292b10d1583f",
           "comment": "f() -> -2",
           "instance": "C",
           "method": "f()",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0x97a335ced3394618ce05043737720c40aaae1aaa",
+          "caller": "0xe614052ba452f9a11e995ea3ad67292b10d1583f",
           "comment": "h() -> -1",
           "instance": "C",
           "method": "h()",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0x97a335ced3394618ce05043737720c40aaae1aaa",
+          "caller": "0xe614052ba452f9a11e995ea3ad67292b10d1583f",
           "comment": "x() -> 0",
           "instance": "C",
           "method": "x()",

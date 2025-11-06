@@ -4,7 +4,7 @@
       "name": "dynamic_array",
       "inputs": [
         {
-          "caller": "0x8ddaa7dadb8f032b4d080f2ab84fea5004c2ea6a",
+          "caller": "0x166a209bded2060e96880a099b0635e017c8d50f",
           "comment": "f(uint256[]): 0x20, 2, 1, 1 -> 0x20, 0x84, hex\"304a4c23\", 0x20, 2, 1, 1, hex\"00000000000000000000000000000000000000000000000000000000\"",
           "instance": "C",
           "method": "f(uint256[])",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x8ddaa7dadb8f032b4d080f2ab84fea5004c2ea6a",
+          "caller": "0x166a209bded2060e96880a099b0635e017c8d50f",
           "comment": "ggg(uint8[]): 0x20, 2, 1, 1 -> 0x20, 0x84, hex\"304a4c23\", 0x20, 2, 1, 1, hex\"00000000000000000000000000000000000000000000000000000000\"",
           "instance": "C",
           "method": "ggg(uint8[])",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0x8ddaa7dadb8f032b4d080f2ab84fea5004c2ea6a",
+          "caller": "0x166a209bded2060e96880a099b0635e017c8d50f",
           "comment": "f(uint256[]): 0x20, 2, 0x0101, 0x0101 -> 0x20, 0x84, hex\"304a4c23\", 0x20, 2, 1, 1, hex\"00000000000000000000000000000000000000000000000000000000\"",
           "instance": "C",
           "method": "f(uint256[])",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0x8ddaa7dadb8f032b4d080f2ab84fea5004c2ea6a",
+          "caller": "0x166a209bded2060e96880a099b0635e017c8d50f",
           "comment": "ggg(uint8[]): 0x20, 2, 0x0101, 0x0101 -> FAILURE",
           "instance": "C",
           "method": "ggg(uint8[])",

@@ -4,7 +4,7 @@
       "name": "blobhash_pre_cancun",
       "inputs": [
         {
-          "caller": "0x26819a3bd2715b51799c5f4093aa6c7f09665495",
+          "caller": "0x7fb64ae367723009c86295a2906958b3d1edc728",
           "comment": "f() -> 1",
           "instance": "C",
           "method": "f()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x26819a3bd2715b51799c5f4093aa6c7f09665495",
+          "caller": "0x7fb64ae367723009c86295a2906958b3d1edc728",
           "comment": "g() -> 1000",
           "instance": "C",
           "method": "g()",

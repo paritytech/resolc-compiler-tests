@@ -4,7 +4,7 @@
       "name": "explicit_base_class",
       "inputs": [
         {
-          "caller": "0x3c6f8b28ea0b60c075080d18969993af55ac88e1",
+          "caller": "0xec496c5aca6b12126bec9cb9ccbead736d971100",
           "comment": "g() -> 3",
           "instance": "Derived",
           "method": "g()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x3c6f8b28ea0b60c075080d18969993af55ac88e1",
+          "caller": "0xec496c5aca6b12126bec9cb9ccbead736d971100",
           "comment": "f() -> 1",
           "instance": "Derived",
           "method": "f()",

@@ -4,7 +4,7 @@
       "name": "failing_ecrecover_invalid_input_asm",
       "inputs": [
         {
-          "caller": "0x1305c8e795a166c85fa9f524a30494fa9b2ed0d5",
+          "caller": "0x61c9cbe5a1cf152fb898cb22e0dfa2d19874dfd8",
           "comment": "f() -> 0",
           "instance": "C",
           "method": "f()",

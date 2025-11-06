@@ -4,7 +4,7 @@
       "name": "internal_library_function_attached_to_integer",
       "inputs": [
         {
-          "caller": "0xb9f72fe70d5f83cf15a91a0d595d04126eac773c",
+          "caller": "0xb0b009d7bea709a5c916b7204aef95e6ed5a6a9f",
           "comment": "foo(uint256,uint256): 8, 42 -> 50",
           "instance": "C",
           "method": "foo(uint256,uint256)",

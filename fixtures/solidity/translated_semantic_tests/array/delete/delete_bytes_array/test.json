@@ -4,7 +4,7 @@
       "name": "delete_bytes_array",
       "inputs": [
         {
-          "caller": "0xa809703644634f7bf08db66c1b0051b6209a6d04",
+          "caller": "0x3a28f0cb269632f50c619a180b30a637d47609f0",
           "comment": "f() -> 0",
           "instance": "C",
           "method": "f()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xa809703644634f7bf08db66c1b0051b6209a6d04",
+          "caller": "0x3a28f0cb269632f50c619a180b30a637d47609f0",
           "comment": "g() -> 0",
           "instance": "C",
           "method": "g()",

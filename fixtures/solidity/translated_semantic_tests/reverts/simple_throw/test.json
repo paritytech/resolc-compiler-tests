@@ -4,7 +4,7 @@
       "name": "simple_throw",
       "inputs": [
         {
-          "caller": "0x21946cde68eff985117686df9438e1b6676e013d",
+          "caller": "0x92b91d2c83d62a35bd50e8d45e6ed2b53660c82a",
           "comment": "f(uint256): 11 -> 21",
           "instance": "Test",
           "method": "f(uint256)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x21946cde68eff985117686df9438e1b6676e013d",
+          "caller": "0x92b91d2c83d62a35bd50e8d45e6ed2b53660c82a",
           "comment": "f(uint256): 1 -> FAILURE",
           "instance": "Test",
           "method": "f(uint256)",

@@ -4,7 +4,7 @@
       "name": "fixed_out_of_bounds_array_access",
       "inputs": [
         {
-          "caller": "0x335a3fea1c8629071cc580fec2515491ae02abe5",
+          "caller": "0xb6e4ca146088ed80c6261e30e5ceb456480ce264",
           "comment": "length() -> 4",
           "instance": "c",
           "method": "length()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x335a3fea1c8629071cc580fec2515491ae02abe5",
+          "caller": "0xb6e4ca146088ed80c6261e30e5ceb456480ce264",
           "comment": "set(uint256,uint256): 3, 4 -> true",
           "instance": "c",
           "method": "set(uint256,uint256)",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0x335a3fea1c8629071cc580fec2515491ae02abe5",
+          "caller": "0xb6e4ca146088ed80c6261e30e5ceb456480ce264",
           "comment": "set(uint256,uint256): 4, 5 -> FAILURE, hex\"4e487b71\", 0x32",
           "instance": "c",
           "method": "set(uint256,uint256)",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0x335a3fea1c8629071cc580fec2515491ae02abe5",
+          "caller": "0xb6e4ca146088ed80c6261e30e5ceb456480ce264",
           "comment": "set(uint256,uint256): 400, 5 -> FAILURE, hex\"4e487b71\", 0x32",
           "instance": "c",
           "method": "set(uint256,uint256)",
@@ -48,7 +48,7 @@
           }
         },
         {
-          "caller": "0x335a3fea1c8629071cc580fec2515491ae02abe5",
+          "caller": "0xb6e4ca146088ed80c6261e30e5ceb456480ce264",
           "comment": "get(uint256): 3 -> 4",
           "instance": "c",
           "method": "get(uint256)",
@@ -59,7 +59,7 @@
           }
         },
         {
-          "caller": "0x335a3fea1c8629071cc580fec2515491ae02abe5",
+          "caller": "0xb6e4ca146088ed80c6261e30e5ceb456480ce264",
           "comment": "get(uint256): 4 -> FAILURE, hex\"4e487b71\", 0x32",
           "instance": "c",
           "method": "get(uint256)",
@@ -70,7 +70,7 @@
           }
         },
         {
-          "caller": "0x335a3fea1c8629071cc580fec2515491ae02abe5",
+          "caller": "0xb6e4ca146088ed80c6261e30e5ceb456480ce264",
           "comment": "get(uint256): 400 -> FAILURE, hex\"4e487b71\", 0x32",
           "instance": "c",
           "method": "get(uint256)",
@@ -81,7 +81,7 @@
           }
         },
         {
-          "caller": "0x335a3fea1c8629071cc580fec2515491ae02abe5",
+          "caller": "0xb6e4ca146088ed80c6261e30e5ceb456480ce264",
           "comment": "length() -> 4",
           "instance": "c",
           "method": "length()",

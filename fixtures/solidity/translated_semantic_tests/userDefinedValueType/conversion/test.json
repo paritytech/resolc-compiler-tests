@@ -4,7 +4,7 @@
       "name": "conversion",
       "inputs": [
         {
-          "caller": "0xc4ad6cf26d70b5a405a2e1e77feae55a5940cb40",
+          "caller": "0x8d4cbadf0b3d598d1a9a1ac2b330a0e915cf9649",
           "comment": "f(uint256): 1 -> 1",
           "instance": "C",
           "method": "f(uint256)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xc4ad6cf26d70b5a405a2e1e77feae55a5940cb40",
+          "caller": "0x8d4cbadf0b3d598d1a9a1ac2b330a0e915cf9649",
           "comment": "f(uint256): 2 -> 2",
           "instance": "C",
           "method": "f(uint256)",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0xc4ad6cf26d70b5a405a2e1e77feae55a5940cb40",
+          "caller": "0x8d4cbadf0b3d598d1a9a1ac2b330a0e915cf9649",
           "comment": "f(uint256): 257 -> 1",
           "instance": "C",
           "method": "f(uint256)",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0xc4ad6cf26d70b5a405a2e1e77feae55a5940cb40",
+          "caller": "0x8d4cbadf0b3d598d1a9a1ac2b330a0e915cf9649",
           "comment": "g(uint256): 1 -> 1",
           "instance": "C",
           "method": "g(uint256)",
@@ -48,7 +48,7 @@
           }
         },
         {
-          "caller": "0xc4ad6cf26d70b5a405a2e1e77feae55a5940cb40",
+          "caller": "0x8d4cbadf0b3d598d1a9a1ac2b330a0e915cf9649",
           "comment": "g(uint256): 2 -> 2",
           "instance": "C",
           "method": "g(uint256)",
@@ -59,7 +59,7 @@
           }
         },
         {
-          "caller": "0xc4ad6cf26d70b5a405a2e1e77feae55a5940cb40",
+          "caller": "0x8d4cbadf0b3d598d1a9a1ac2b330a0e915cf9649",
           "comment": "g(uint256): 255 -> -1",
           "instance": "C",
           "method": "g(uint256)",
@@ -70,7 +70,7 @@
           }
         },
         {
-          "caller": "0xc4ad6cf26d70b5a405a2e1e77feae55a5940cb40",
+          "caller": "0x8d4cbadf0b3d598d1a9a1ac2b330a0e915cf9649",
           "comment": "g(uint256): 257 -> 1",
           "instance": "C",
           "method": "g(uint256)",
@@ -81,7 +81,7 @@
           }
         },
         {
-          "caller": "0xc4ad6cf26d70b5a405a2e1e77feae55a5940cb40",
+          "caller": "0x8d4cbadf0b3d598d1a9a1ac2b330a0e915cf9649",
           "comment": "h(uint8): 1 -> 1",
           "instance": "C",
           "method": "h(uint8)",
@@ -92,7 +92,7 @@
           }
         },
         {
-          "caller": "0xc4ad6cf26d70b5a405a2e1e77feae55a5940cb40",
+          "caller": "0x8d4cbadf0b3d598d1a9a1ac2b330a0e915cf9649",
           "comment": "h(uint8): 2 -> 2",
           "instance": "C",
           "method": "h(uint8)",
@@ -103,7 +103,7 @@
           }
         },
         {
-          "caller": "0xc4ad6cf26d70b5a405a2e1e77feae55a5940cb40",
+          "caller": "0x8d4cbadf0b3d598d1a9a1ac2b330a0e915cf9649",
           "comment": "h(uint8): 255 -> -1",
           "instance": "C",
           "method": "h(uint8)",
@@ -114,7 +114,7 @@
           }
         },
         {
-          "caller": "0xc4ad6cf26d70b5a405a2e1e77feae55a5940cb40",
+          "caller": "0x8d4cbadf0b3d598d1a9a1ac2b330a0e915cf9649",
           "comment": "h(uint8): 257 -> FAILURE",
           "instance": "C",
           "method": "h(uint8)",
@@ -124,7 +124,7 @@
           }
         },
         {
-          "caller": "0xc4ad6cf26d70b5a405a2e1e77feae55a5940cb40",
+          "caller": "0x8d4cbadf0b3d598d1a9a1ac2b330a0e915cf9649",
           "comment": "i(uint8): 250 -> 250",
           "instance": "C",
           "method": "i(uint8)",
@@ -135,7 +135,7 @@
           }
         },
         {
-          "caller": "0xc4ad6cf26d70b5a405a2e1e77feae55a5940cb40",
+          "caller": "0x8d4cbadf0b3d598d1a9a1ac2b330a0e915cf9649",
           "comment": "j(uint8): 1 -> 1",
           "instance": "C",
           "method": "j(uint8)",
@@ -146,7 +146,7 @@
           }
         },
         {
-          "caller": "0xc4ad6cf26d70b5a405a2e1e77feae55a5940cb40",
+          "caller": "0x8d4cbadf0b3d598d1a9a1ac2b330a0e915cf9649",
           "comment": "j(uint8): 2 -> 2",
           "instance": "C",
           "method": "j(uint8)",
@@ -157,7 +157,7 @@
           }
         },
         {
-          "caller": "0xc4ad6cf26d70b5a405a2e1e77feae55a5940cb40",
+          "caller": "0x8d4cbadf0b3d598d1a9a1ac2b330a0e915cf9649",
           "comment": "j(uint8): 255 -> 0xff",
           "instance": "C",
           "method": "j(uint8)",
@@ -168,7 +168,7 @@
           }
         },
         {
-          "caller": "0xc4ad6cf26d70b5a405a2e1e77feae55a5940cb40",
+          "caller": "0x8d4cbadf0b3d598d1a9a1ac2b330a0e915cf9649",
           "comment": "j(uint8): 257 -> FAILURE",
           "instance": "C",
           "method": "j(uint8)",
@@ -178,7 +178,7 @@
           }
         },
         {
-          "caller": "0xc4ad6cf26d70b5a405a2e1e77feae55a5940cb40",
+          "caller": "0x8d4cbadf0b3d598d1a9a1ac2b330a0e915cf9649",
           "comment": "k(uint8): 1 -> 1",
           "instance": "C",
           "method": "k(uint8)",
@@ -189,7 +189,7 @@
           }
         },
         {
-          "caller": "0xc4ad6cf26d70b5a405a2e1e77feae55a5940cb40",
+          "caller": "0x8d4cbadf0b3d598d1a9a1ac2b330a0e915cf9649",
           "comment": "k(uint8): 2 -> 2",
           "instance": "C",
           "method": "k(uint8)",
@@ -200,7 +200,7 @@
           }
         },
         {
-          "caller": "0xc4ad6cf26d70b5a405a2e1e77feae55a5940cb40",
+          "caller": "0x8d4cbadf0b3d598d1a9a1ac2b330a0e915cf9649",
           "comment": "k(uint8): 255 -> 0xff",
           "instance": "C",
           "method": "k(uint8)",
@@ -211,7 +211,7 @@
           }
         },
         {
-          "caller": "0xc4ad6cf26d70b5a405a2e1e77feae55a5940cb40",
+          "caller": "0x8d4cbadf0b3d598d1a9a1ac2b330a0e915cf9649",
           "comment": "k(uint8): 257 -> FAILURE",
           "instance": "C",
           "method": "k(uint8)",
@@ -221,7 +221,7 @@
           }
         },
         {
-          "caller": "0xc4ad6cf26d70b5a405a2e1e77feae55a5940cb40",
+          "caller": "0x8d4cbadf0b3d598d1a9a1ac2b330a0e915cf9649",
           "comment": "m(uint16): 1 -> 1",
           "instance": "C",
           "method": "m(uint16)",
@@ -232,7 +232,7 @@
           }
         },
         {
-          "caller": "0xc4ad6cf26d70b5a405a2e1e77feae55a5940cb40",
+          "caller": "0x8d4cbadf0b3d598d1a9a1ac2b330a0e915cf9649",
           "comment": "m(uint16): 2 -> 2",
           "instance": "C",
           "method": "m(uint16)",
@@ -243,7 +243,7 @@
           }
         },
         {
-          "caller": "0xc4ad6cf26d70b5a405a2e1e77feae55a5940cb40",
+          "caller": "0x8d4cbadf0b3d598d1a9a1ac2b330a0e915cf9649",
           "comment": "m(uint16): 255 -> 0xff",
           "instance": "C",
           "method": "m(uint16)",
@@ -254,7 +254,7 @@
           }
         },
         {
-          "caller": "0xc4ad6cf26d70b5a405a2e1e77feae55a5940cb40",
+          "caller": "0x8d4cbadf0b3d598d1a9a1ac2b330a0e915cf9649",
           "comment": "m(uint16): 257 -> 1",
           "instance": "C",
           "method": "m(uint16)",

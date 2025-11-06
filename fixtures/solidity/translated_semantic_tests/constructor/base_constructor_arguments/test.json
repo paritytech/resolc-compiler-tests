@@ -4,7 +4,7 @@
       "name": "base_constructor_arguments",
       "inputs": [
         {
-          "caller": "0x076285b5f3e0666c04cd8a0e0e1c37ffb296daa3",
+          "caller": "0xfa8a73717aeb53213eb9e5773f4c9237b3a90223",
           "comment": "getA() -> 49",
           "instance": "Derived",
           "method": "getA()",

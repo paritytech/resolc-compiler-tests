@@ -4,7 +4,7 @@
       "name": "using_for_by_name",
       "inputs": [
         {
-          "caller": "0x8f09a842220fb9606767aa99fc54a80898eddb26",
+          "caller": "0xb29a3b3e75b1a5ef92a779b5cc390c4244a0c4df",
           "comment": "f(uint256): 7 -> 0x2a",
           "instance": "C",
           "method": "f(uint256)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x8f09a842220fb9606767aa99fc54a80898eddb26",
+          "caller": "0xb29a3b3e75b1a5ef92a779b5cc390c4244a0c4df",
           "comment": "x() -> 0x2a",
           "instance": "C",
           "method": "x()",

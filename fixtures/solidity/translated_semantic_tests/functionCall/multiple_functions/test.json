@@ -4,7 +4,7 @@
       "name": "multiple_functions",
       "inputs": [
         {
-          "caller": "0x40624b923c2cd052ba6749b7877adc8b2626c25d",
+          "caller": "0xc5f6ce99e95f820f5b4ca9a45d53d8a4cd9eb54b",
           "comment": "a() -> 0",
           "instance": "test",
           "method": "a()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x40624b923c2cd052ba6749b7877adc8b2626c25d",
+          "caller": "0xc5f6ce99e95f820f5b4ca9a45d53d8a4cd9eb54b",
           "comment": "b() -> 1",
           "instance": "test",
           "method": "b()",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0x40624b923c2cd052ba6749b7877adc8b2626c25d",
+          "caller": "0xc5f6ce99e95f820f5b4ca9a45d53d8a4cd9eb54b",
           "comment": "c() -> 2",
           "instance": "test",
           "method": "c()",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0x40624b923c2cd052ba6749b7877adc8b2626c25d",
+          "caller": "0xc5f6ce99e95f820f5b4ca9a45d53d8a4cd9eb54b",
           "comment": "f() -> 3",
           "instance": "test",
           "method": "f()",
@@ -48,7 +48,7 @@
           }
         },
         {
-          "caller": "0x40624b923c2cd052ba6749b7877adc8b2626c25d",
+          "caller": "0xc5f6ce99e95f820f5b4ca9a45d53d8a4cd9eb54b",
           "comment": "i_am_not_there() -> FAILURE",
           "instance": "test",
           "method": "i_am_not_there()",

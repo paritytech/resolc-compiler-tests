@@ -25,7 +25,7 @@
 //!         {
 //!           "method": "owner",
 //!           "calldata": [],
-//!           "caller": "0x53aDC7C66eC868A7825e9cB4eacAE0fA71548336"
+//!           "caller": "0x53adc7c66ec868a7825e9cb4eacae0fa71548336"
 //!         }
 //!       ],
 //!       "expected": [
@@ -98,12 +98,12 @@
 //!           "calldata": [
 //!             "1"
 //!           ],
-//!           "caller": "0x62e5d4e77639c6b1c7EEb21c9A3bbdb5F87440e3"
+//!           "caller": "0x62e5d4e77639c6b1c7eeb21c9a3bbdb5f87440e3"
 //!         },
 //!         {
 //!           "method": "x",
 //!           "calldata": [],
-//!           "caller": "0x62e5d4e77639c6b1c7EEb21c9A3bbdb5F87440e3"
+//!           "caller": "0x62e5d4e77639c6b1c7eeb21c9a3bbdb5f87440e3"
 //!         }
 //!       ],
 //!       "expected": [
@@ -127,12 +127,12 @@
 //!             ],
 //!             "exception": true
 //!           },
-//!           "caller": "0xbDf75A1CDF0a3FC4618f3529902a340Db6837160"
+//!           "caller": "0xbdf75a1cdf0a3fc4618f3529902a340db6837160"
 //!         },
 //!         {
 //!           "method": "x",
 //!           "calldata": [],
-//!           "caller": "0xbDf75A1CDF0a3FC4618f3529902a340Db6837160"
+//!           "caller": "0xbdf75a1cdf0a3fc4618f3529902a340db6837160"
 //!         }
 //!       ],
 //!       "expected": [

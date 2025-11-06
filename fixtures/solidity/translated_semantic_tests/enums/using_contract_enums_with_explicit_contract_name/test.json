@@ -4,7 +4,7 @@
       "name": "using_contract_enums_with_explicit_contract_name",
       "inputs": [
         {
-          "caller": "0x98a97075d83abe33b58e6ed9d13e3c331355d408",
+          "caller": "0x07a14f680a9c2f66358dfe032e295e3a90716598",
           "comment": "answer() -> 1",
           "instance": "test",
           "method": "answer()",

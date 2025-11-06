@@ -4,7 +4,7 @@
       "name": "call_options_overload",
       "inputs": [
         {
-          "caller": "0xc68def9f8a9657d8ed6854e5145f786f89f2d1fa",
+          "caller": "0x784b8f2614b5d4a65390044b729d5d968fdccac6",
           "comment": "(), 1 ether",
           "instance": "C",
           "method": "#fallback",
@@ -15,7 +15,7 @@
           "value": "1000000000000000000 wei"
         },
         {
-          "caller": "0xc68def9f8a9657d8ed6854e5145f786f89f2d1fa",
+          "caller": "0x784b8f2614b5d4a65390044b729d5d968fdccac6",
           "comment": "call() -> 1, 2, 2, 2",
           "instance": "C",
           "method": "call()",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0xc68def9f8a9657d8ed6854e5145f786f89f2d1fa",
+          "caller": "0x784b8f2614b5d4a65390044b729d5d968fdccac6",
           "comment": "bal() -> 1000000000000000000",
           "instance": "C",
           "method": "bal()",

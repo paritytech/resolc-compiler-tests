@@ -4,7 +4,7 @@
       "name": "failing_ecrecover_invalid_input_proper",
       "inputs": [
         {
-          "caller": "0x3fe842b1da2996662ee6b9dead50d97c25a7d159",
+          "caller": "0x5037222f4e96e56a6f7a88b4a79c5e1470089014",
           "comment": "f() -> 0",
           "instance": "C",
           "method": "f()",

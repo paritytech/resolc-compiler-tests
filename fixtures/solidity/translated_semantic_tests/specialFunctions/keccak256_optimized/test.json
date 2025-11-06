@@ -4,7 +4,7 @@
       "name": "keccak256_optimized",
       "inputs": [
         {
-          "caller": "0x12bd2cb55fc7009ed16aba6f2402b9e85a073bf5",
+          "caller": "0x48affadf933d84e7b989d72bced85d7d0f8ed796",
           "comment": "short() -> true",
           "instance": "C",
           "method": "short()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x12bd2cb55fc7009ed16aba6f2402b9e85a073bf5",
+          "caller": "0x48affadf933d84e7b989d72bced85d7d0f8ed796",
           "comment": "long() -> true, true",
           "instance": "C",
           "method": "long()",

@@ -4,7 +4,7 @@
       "name": "overloaded_function_call_resolve_to_first",
       "inputs": [
         {
-          "caller": "0x34b48da93afde45ca6f7f3ddd93ea964e93c1c3e",
+          "caller": "0x942c54869ee2f0ede8bd23644fddfac411c5616d",
           "comment": "g() -> 3",
           "instance": "test",
           "method": "g()",

@@ -4,7 +4,7 @@
       "name": "imported_free_function_via_alias_direct_call",
       "inputs": [
         {
-          "caller": "0xb377d1c7e4c7395ab636dd2fe954ff8276e4c391",
+          "caller": "0x42e8970d7f5806e0043025eaa9fc21b8fb610cd8",
           "comment": "h() -> 61337",
           "instance": "D",
           "method": "h()",

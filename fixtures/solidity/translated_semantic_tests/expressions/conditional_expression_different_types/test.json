@@ -4,7 +4,7 @@
       "name": "conditional_expression_different_types",
       "inputs": [
         {
-          "caller": "0x737da88efd987708a0725617f547c41ec662dcf3",
+          "caller": "0x14e6dac23a5401a898c230a983f5ed6f5fd52157",
           "comment": "f(bool): true -> 0xcd",
           "instance": "test",
           "method": "f(bool)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x737da88efd987708a0725617f547c41ec662dcf3",
+          "caller": "0x14e6dac23a5401a898c230a983f5ed6f5fd52157",
           "comment": "f(bool): false -> 0xabab",
           "instance": "test",
           "method": "f(bool)",

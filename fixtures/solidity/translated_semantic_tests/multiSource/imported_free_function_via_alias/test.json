@@ -4,7 +4,7 @@
       "name": "imported_free_function_via_alias",
       "inputs": [
         {
-          "caller": "0x8fe78f3e44906945c052705d01db549c34b7e220",
+          "caller": "0xbe4149786eeb2b636739badb27295ed3bcfd06c0",
           "comment": "g() -> 61337",
           "instance": "D",
           "method": "g()",

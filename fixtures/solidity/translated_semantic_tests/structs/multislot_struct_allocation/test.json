@@ -4,7 +4,7 @@
       "name": "multislot_struct_allocation",
       "inputs": [
         {
-          "caller": "0x2ff5c255a21beb5ff8d64c321c4beac9abce86ee",
+          "caller": "0xdaf7904a45bea793be0c16c5d34ee64059d28189",
           "comment": "f() -> 2",
           "instance": "C",
           "method": "f()",

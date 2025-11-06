@@ -4,7 +4,7 @@
       "name": "assign_at_declaration",
       "inputs": [
         {
-          "caller": "0x6cd28dfeb293a0ba0fe303bfaa4571042ab43b4e",
+          "caller": "0x68df3b0797befebe4ec6387e6fc7fe6e6b5d6dba",
           "comment": "f() -> 2",
           "instance": "A",
           "method": "f()",

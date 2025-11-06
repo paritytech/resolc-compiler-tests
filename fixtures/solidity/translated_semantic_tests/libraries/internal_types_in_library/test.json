@@ -4,7 +4,7 @@
       "name": "internal_types_in_library",
       "inputs": [
         {
-          "caller": "0x883704c05d0609b0def3537bec836bc2a38211d2",
+          "caller": "0x65d2c4b80097bd2620bc2802f661eedd3e845178",
           "comment": "f() -> 4, 0x11; gas irOptimized: 111419; gas legacy: 132930; gas legacyOptimized: 118020",
           "instance": "Test",
           "method": "f()",

@@ -4,7 +4,7 @@
       "name": "call_base",
       "inputs": [
         {
-          "caller": "0xce1ffa0b80020bb55d09a37bd5c4c636e2694e18",
+          "caller": "0x2621f513b50ddcca8fda200d65da8d46d693161e",
           "comment": "g(uint256): 4 -> 8",
           "instance": "Child",
           "method": "g(uint256)",

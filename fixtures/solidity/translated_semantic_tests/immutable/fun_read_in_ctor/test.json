@@ -4,7 +4,7 @@
       "name": "fun_read_in_ctor",
       "inputs": [
         {
-          "caller": "0xf2362a631b6e3c897d3c7fe16696da55d568cb54",
+          "caller": "0xe0109e8359517fc6eb6995ac517fed25cdfd4e95",
           "comment": "readX() -> 3",
           "instance": "A",
           "method": "readX()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xf2362a631b6e3c897d3c7fe16696da55d568cb54",
+          "caller": "0xe0109e8359517fc6eb6995ac517fed25cdfd4e95",
           "comment": "readA() -> 3",
           "instance": "A",
           "method": "readA()",

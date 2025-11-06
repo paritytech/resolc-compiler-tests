@@ -4,7 +4,7 @@
       "name": "calldata_array_dynamic_static_short_reencode",
       "inputs": [
         {
-          "caller": "0xd381cc07e1fb47c22be73abb2869c529606cdce2",
+          "caller": "0xd01a0a53d87889e81099f122e235439f32feb652",
           "comment": "g(uint256[][2][]): 0x20, 0x01, 0x20, 0x00 -> FAILURE",
           "instance": "C",
           "method": "g(uint256[][2][])",

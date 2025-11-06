@@ -4,7 +4,7 @@
       "name": "event_anonymous_with_signature_collision",
       "inputs": [
         {
-          "caller": "0xa4d4d736aacbc904b570d96b0e12d0005362ba34",
+          "caller": "0x321b2ef857dfbe2401f228d2024779d427dbdde2",
           "comment": "deposit(bytes32), 18 wei: 0x1234 ->; ~ emit <anonymous>: #0x2012159ca6b6372f102c535a4814d13a00bfc5568ddfd72151364061b00355d1, #0x1234, 0x12",
           "instance": "ClientReceipt",
           "method": "deposit(bytes32)",

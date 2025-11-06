@@ -4,7 +4,7 @@
       "name": "conditional_expression_multiple",
       "inputs": [
         {
-          "caller": "0x985a09838d3db009a0712c55c5d7e243186ead29",
+          "caller": "0x22b6d4930366a43247b1b7356f00c569bac2be62",
           "comment": "f(uint256): 1001 -> 1000",
           "instance": "test",
           "method": "f(uint256)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x985a09838d3db009a0712c55c5d7e243186ead29",
+          "caller": "0x22b6d4930366a43247b1b7356f00c569bac2be62",
           "comment": "f(uint256): 500 -> 100",
           "instance": "test",
           "method": "f(uint256)",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0x985a09838d3db009a0712c55c5d7e243186ead29",
+          "caller": "0x22b6d4930366a43247b1b7356f00c569bac2be62",
           "comment": "f(uint256): 80 -> 50",
           "instance": "test",
           "method": "f(uint256)",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0x985a09838d3db009a0712c55c5d7e243186ead29",
+          "caller": "0x22b6d4930366a43247b1b7356f00c569bac2be62",
           "comment": "f(uint256): 40 -> 10",
           "instance": "test",
           "method": "f(uint256)",

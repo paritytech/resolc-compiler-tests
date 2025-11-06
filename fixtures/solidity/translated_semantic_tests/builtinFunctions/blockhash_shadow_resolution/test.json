@@ -6,7 +6,7 @@
       "name": "blockhash_shadow_resolution",
       "inputs": [
         {
-          "caller": "0x573c8a7379419089e39551287748bc1b173ba27e",
+          "caller": "0xb43a0767a633b55c6dcd3c74eb6ae78a2ddf46ae",
           "comment": "f() -> 0",
           "instance": "C",
           "method": "f()",

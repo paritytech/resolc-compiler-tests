@@ -4,7 +4,7 @@
       "name": "calldata_struct_assign",
       "inputs": [
         {
-          "caller": "0xf10a36dfa87b17092aad4b9ad26ee7fe42ef9438",
+          "caller": "0xd4a5016b66dd2a5f20dbf5d75357ca8ea158dd79",
           "comment": "f((uint256),(uint256,uint256)): 0x42, 0x07, 0x77 -> 0x07, 0x42",
           "instance": "C",
           "method": "f((uint256),(uint256,uint256))",

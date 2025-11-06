@@ -4,7 +4,7 @@
       "name": "shadowing_local_function_opcode",
       "inputs": [
         {
-          "caller": "0x2faa192734c97438ffd9d2e3cb2915b1f0eb0886",
+          "caller": "0x4da5f1d5eb368f4c1231ecfde580c4dbe714b0bb",
           "comment": "g() -> 7, 3",
           "instance": "C",
           "method": "g()",

@@ -4,7 +4,7 @@
       "name": "invalid_error_encoding",
       "inputs": [
         {
-          "caller": "0x1883b358341d754e471cc9922da572c57b9cedb8",
+          "caller": "0x6cb44d9c8ce8d2a61b8825e3a1ca28811cb6eb51",
           "comment": "f1() -> 2",
           "instance": "C",
           "method": "f1()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x1883b358341d754e471cc9922da572c57b9cedb8",
+          "caller": "0x6cb44d9c8ce8d2a61b8825e3a1ca28811cb6eb51",
           "comment": "f1a() -> 2",
           "instance": "C",
           "method": "f1a()",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0x1883b358341d754e471cc9922da572c57b9cedb8",
+          "caller": "0x6cb44d9c8ce8d2a61b8825e3a1ca28811cb6eb51",
           "comment": "f1b() -> FAILURE, hex\"12345678\", 0x0, 0, \"\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\"",
           "instance": "C",
           "method": "f1b()",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0x1883b358341d754e471cc9922da572c57b9cedb8",
+          "caller": "0x6cb44d9c8ce8d2a61b8825e3a1ca28811cb6eb51",
           "comment": "f1c() -> 2",
           "instance": "C",
           "method": "f1c()",
@@ -48,7 +48,7 @@
           }
         },
         {
-          "caller": "0x1883b358341d754e471cc9922da572c57b9cedb8",
+          "caller": "0x6cb44d9c8ce8d2a61b8825e3a1ca28811cb6eb51",
           "comment": "f2() -> 2",
           "instance": "C",
           "method": "f2()",
@@ -59,7 +59,7 @@
           }
         },
         {
-          "caller": "0x1883b358341d754e471cc9922da572c57b9cedb8",
+          "caller": "0x6cb44d9c8ce8d2a61b8825e3a1ca28811cb6eb51",
           "comment": "f2a() -> 2",
           "instance": "C",
           "method": "f2a()",
@@ -70,7 +70,7 @@
           }
         },
         {
-          "caller": "0x1883b358341d754e471cc9922da572c57b9cedb8",
+          "caller": "0x6cb44d9c8ce8d2a61b8825e3a1ca28811cb6eb51",
           "comment": "f2b() -> FAILURE, hex\"08c379a0\", 0x100, 0, \"\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\"",
           "instance": "C",
           "method": "f2b()",
@@ -81,7 +81,7 @@
           }
         },
         {
-          "caller": "0x1883b358341d754e471cc9922da572c57b9cedb8",
+          "caller": "0x6cb44d9c8ce8d2a61b8825e3a1ca28811cb6eb51",
           "comment": "f2c() -> 1",
           "instance": "C",
           "method": "f2c()",
@@ -92,7 +92,7 @@
           }
         },
         {
-          "caller": "0x1883b358341d754e471cc9922da572c57b9cedb8",
+          "caller": "0x6cb44d9c8ce8d2a61b8825e3a1ca28811cb6eb51",
           "comment": "f3() -> 2",
           "instance": "C",
           "method": "f3()",
@@ -103,7 +103,7 @@
           }
         },
         {
-          "caller": "0x1883b358341d754e471cc9922da572c57b9cedb8",
+          "caller": "0x6cb44d9c8ce8d2a61b8825e3a1ca28811cb6eb51",
           "comment": "f3a() -> 2",
           "instance": "C",
           "method": "f3a()",
@@ -114,7 +114,7 @@
           }
         },
         {
-          "caller": "0x1883b358341d754e471cc9922da572c57b9cedb8",
+          "caller": "0x6cb44d9c8ce8d2a61b8825e3a1ca28811cb6eb51",
           "comment": "f3b() -> FAILURE, hex\"08c379a0\", 0x20, 48, \"\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\"",
           "instance": "C",
           "method": "f3b()",
@@ -125,7 +125,7 @@
           }
         },
         {
-          "caller": "0x1883b358341d754e471cc9922da572c57b9cedb8",
+          "caller": "0x6cb44d9c8ce8d2a61b8825e3a1ca28811cb6eb51",
           "comment": "f3c() -> 1",
           "instance": "C",
           "method": "f3c()",
@@ -136,7 +136,7 @@
           }
         },
         {
-          "caller": "0x1883b358341d754e471cc9922da572c57b9cedb8",
+          "caller": "0x6cb44d9c8ce8d2a61b8825e3a1ca28811cb6eb51",
           "comment": "f4() -> 1",
           "instance": "C",
           "method": "f4()",
@@ -147,7 +147,7 @@
           }
         },
         {
-          "caller": "0x1883b358341d754e471cc9922da572c57b9cedb8",
+          "caller": "0x6cb44d9c8ce8d2a61b8825e3a1ca28811cb6eb51",
           "comment": "f4a() -> 1",
           "instance": "C",
           "method": "f4a()",
@@ -158,7 +158,7 @@
           }
         },
         {
-          "caller": "0x1883b358341d754e471cc9922da572c57b9cedb8",
+          "caller": "0x6cb44d9c8ce8d2a61b8825e3a1ca28811cb6eb51",
           "comment": "f4b() -> 1",
           "instance": "C",
           "method": "f4b()",
@@ -169,7 +169,7 @@
           }
         },
         {
-          "caller": "0x1883b358341d754e471cc9922da572c57b9cedb8",
+          "caller": "0x6cb44d9c8ce8d2a61b8825e3a1ca28811cb6eb51",
           "comment": "f4c() -> 1",
           "instance": "C",
           "method": "f4c()",

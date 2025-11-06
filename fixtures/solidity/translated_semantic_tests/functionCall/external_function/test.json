@@ -4,7 +4,7 @@
       "name": "external_function",
       "inputs": [
         {
-          "caller": "0x6b153b648ea1eb4d94a378a268b3b858fd3ece67",
+          "caller": "0x86063a1ed009b3b32acc8e9c26391c155ced1fc6",
           "comment": "test(uint256,uint256): 2, 3 -> 9, 3",
           "instance": "c",
           "method": "test(uint256,uint256)",

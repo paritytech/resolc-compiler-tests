@@ -4,7 +4,7 @@
       "name": "empty_calldata_calls_receive",
       "inputs": [
         {
-          "caller": "0xcbcb0ae98882d96ee712060be078416421b9a01b",
+          "caller": "0xdef1030833611ccccd917a0bc9eb7acc81a92cc8",
           "comment": "x() -> 0",
           "instance": "A",
           "method": "x()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xcbcb0ae98882d96ee712060be078416421b9a01b",
+          "caller": "0xdef1030833611ccccd917a0bc9eb7acc81a92cc8",
           "comment": "()",
           "instance": "A",
           "method": "#fallback",
@@ -25,7 +25,7 @@
           }
         },
         {
-          "caller": "0xcbcb0ae98882d96ee712060be078416421b9a01b",
+          "caller": "0xdef1030833611ccccd917a0bc9eb7acc81a92cc8",
           "comment": "x() -> 1",
           "instance": "A",
           "method": "x()",
@@ -36,7 +36,7 @@
           }
         },
         {
-          "caller": "0xcbcb0ae98882d96ee712060be078416421b9a01b",
+          "caller": "0xdef1030833611ccccd917a0bc9eb7acc81a92cc8",
           "comment": "(), 1 wei",
           "instance": "A",
           "method": "#fallback",
@@ -47,7 +47,7 @@
           "value": "1 wei"
         },
         {
-          "caller": "0xcbcb0ae98882d96ee712060be078416421b9a01b",
+          "caller": "0xdef1030833611ccccd917a0bc9eb7acc81a92cc8",
           "comment": "x() -> 2",
           "instance": "A",
           "method": "x()",
@@ -58,7 +58,7 @@
           }
         },
         {
-          "caller": "0xcbcb0ae98882d96ee712060be078416421b9a01b",
+          "caller": "0xdef1030833611ccccd917a0bc9eb7acc81a92cc8",
           "comment": "x(), 1 wei -> FAILURE",
           "instance": "A",
           "method": "x()",
@@ -69,7 +69,7 @@
           "value": "1 wei"
         },
         {
-          "caller": "0xcbcb0ae98882d96ee712060be078416421b9a01b",
+          "caller": "0xdef1030833611ccccd917a0bc9eb7acc81a92cc8",
           "comment": "(): hex\"00\" -> FAILURE",
           "instance": "A",
           "method": "#fallback",
@@ -79,7 +79,7 @@
           }
         },
         {
-          "caller": "0xcbcb0ae98882d96ee712060be078416421b9a01b",
+          "caller": "0xdef1030833611ccccd917a0bc9eb7acc81a92cc8",
           "comment": "(), 1 ether: hex\"00\" -> FAILURE",
           "instance": "A",
           "method": "#fallback",

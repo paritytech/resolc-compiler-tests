@@ -4,7 +4,7 @@
       "name": "cleanup",
       "inputs": [
         {
-          "caller": "0x3a712a267ee4ef8fe405f0943b7dda4831a317f8",
+          "caller": "0x1a7c6e6e6101d799f24d94db49ba82eb38776801",
           "comment": "ret() -> 0xff",
           "instance": "C",
           "method": "ret()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x3a712a267ee4ef8fe405f0943b7dda4831a317f8",
+          "caller": "0x1a7c6e6e6101d799f24d94db49ba82eb38776801",
           "comment": "f(uint8): 0x1ff -> FAILURE",
           "instance": "C",
           "method": "f(uint8)",
@@ -25,7 +25,7 @@
           }
         },
         {
-          "caller": "0x3a712a267ee4ef8fe405f0943b7dda4831a317f8",
+          "caller": "0x1a7c6e6e6101d799f24d94db49ba82eb38776801",
           "comment": "f(uint8): 0xff -> 0xff",
           "instance": "C",
           "method": "f(uint8)",
@@ -36,7 +36,7 @@
           }
         },
         {
-          "caller": "0x3a712a267ee4ef8fe405f0943b7dda4831a317f8",
+          "caller": "0x1a7c6e6e6101d799f24d94db49ba82eb38776801",
           "comment": "mem() -> 0x20, 2, 0xff, 0xff",
           "instance": "C",
           "method": "mem()",
@@ -47,7 +47,7 @@
           }
         },
         {
-          "caller": "0x3a712a267ee4ef8fe405f0943b7dda4831a317f8",
+          "caller": "0x1a7c6e6e6101d799f24d94db49ba82eb38776801",
           "comment": "stor() -> 1, 0xff, 2",
           "instance": "C",
           "method": "stor()",

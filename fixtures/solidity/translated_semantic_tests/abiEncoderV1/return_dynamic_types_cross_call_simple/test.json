@@ -4,7 +4,7 @@
       "name": "return_dynamic_types_cross_call_simple",
       "inputs": [
         {
-          "caller": "0x04656342414d58bea2b93883d44edff8b7c6fe83",
+          "caller": "0xa8b001b5b3c7b53642c619b1ea22667ee3284a1b",
           "comment": "f() -> 0x20, 40, \"12345678901234567890123456789012\", \"34567890\"",
           "instance": "C",
           "method": "f()",

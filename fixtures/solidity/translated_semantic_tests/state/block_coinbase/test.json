@@ -6,7 +6,7 @@
       "name": "block_coinbase",
       "inputs": [
         {
-          "caller": "0xe8128dc9b545d79d557300973368ed8ae0b2ba91",
+          "caller": "0x2f6edc9f425b09f612728156f2004a9d57ac0674",
           "comment": "f() -> 0x0000000000000000000000000000000000008001",
           "instance": "C",
           "method": "f()",
@@ -17,7 +17,7 @@
           }
         },
         {
-          "caller": "0xe8128dc9b545d79d557300973368ed8ae0b2ba91",
+          "caller": "0x2f6edc9f425b09f612728156f2004a9d57ac0674",
           "comment": "f() -> 0x0000000000000000000000000000000000008001",
           "instance": "C",
           "method": "f()",
@@ -28,7 +28,7 @@
           }
         },
         {
-          "caller": "0xe8128dc9b545d79d557300973368ed8ae0b2ba91",
+          "caller": "0x2f6edc9f425b09f612728156f2004a9d57ac0674",
           "comment": "f() -> 0x0000000000000000000000000000000000008001",
           "instance": "C",
           "method": "f()",

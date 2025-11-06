@@ -4,7 +4,7 @@
       "name": "fallback_argument_to_storage",
       "inputs": [
         {
-          "caller": "0xc46c7efd994b8398fba6ae50fd73391d1d7a2321",
+          "caller": "0x90aaff437abd5603a010ce3147da28ce33349c99",
           "comment": "f() -> 0x01, 0x40, 0x00",
           "instance": "A",
           "method": "f()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xc46c7efd994b8398fba6ae50fd73391d1d7a2321",
+          "caller": "0x90aaff437abd5603a010ce3147da28ce33349c99",
           "comment": "x() -> 0x20, 3, \"abc\"",
           "instance": "A",
           "method": "x()",

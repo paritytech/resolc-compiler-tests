@@ -4,7 +4,7 @@
       "name": "function_entry_checks",
       "inputs": [
         {
-          "caller": "0xd42e2959e6a9f83c5176b810fc6cfef6199a3de6",
+          "caller": "0x7eb2d4bccbf5476df89aca507cde89038700b586",
           "comment": "f() -> 0",
           "instance": "C",
           "method": "f()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xd42e2959e6a9f83c5176b810fc6cfef6199a3de6",
+          "caller": "0x7eb2d4bccbf5476df89aca507cde89038700b586",
           "comment": "g(uint256,uint256): 1, -2 -> 0",
           "instance": "C",
           "method": "g(uint256,uint256)",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0xd42e2959e6a9f83c5176b810fc6cfef6199a3de6",
+          "caller": "0x7eb2d4bccbf5476df89aca507cde89038700b586",
           "comment": "h(), 1 ether -> 0",
           "instance": "C",
           "method": "h()",
@@ -38,7 +38,7 @@
           "value": "1000000000000000000 wei"
         },
         {
-          "caller": "0xd42e2959e6a9f83c5176b810fc6cfef6199a3de6",
+          "caller": "0x7eb2d4bccbf5476df89aca507cde89038700b586",
           "comment": "i(bytes32), 1 ether: 2 -> FAILURE",
           "instance": "C",
           "method": "i(bytes32)",
@@ -49,7 +49,7 @@
           "value": "1000000000000000000 wei"
         },
         {
-          "caller": "0xd42e2959e6a9f83c5176b810fc6cfef6199a3de6",
+          "caller": "0x7eb2d4bccbf5476df89aca507cde89038700b586",
           "comment": "i(bytes32): 2 -> 0",
           "instance": "C",
           "method": "i(bytes32)",
@@ -60,7 +60,7 @@
           }
         },
         {
-          "caller": "0xd42e2959e6a9f83c5176b810fc6cfef6199a3de6",
+          "caller": "0x7eb2d4bccbf5476df89aca507cde89038700b586",
           "comment": "j(bool): true -> false",
           "instance": "C",
           "method": "j(bool)",
@@ -71,7 +71,7 @@
           }
         },
         {
-          "caller": "0xd42e2959e6a9f83c5176b810fc6cfef6199a3de6",
+          "caller": "0x7eb2d4bccbf5476df89aca507cde89038700b586",
           "comment": "k(bytes32): 0x31 -> 0x00",
           "instance": "C",
           "method": "k(bytes32)",
@@ -82,7 +82,7 @@
           }
         },
         {
-          "caller": "0xd42e2959e6a9f83c5176b810fc6cfef6199a3de6",
+          "caller": "0x7eb2d4bccbf5476df89aca507cde89038700b586",
           "comment": "s(): hex\"4200ef\" -> 0x20, 0",
           "instance": "C",
           "method": "s()",
@@ -93,7 +93,7 @@
           }
         },
         {
-          "caller": "0xd42e2959e6a9f83c5176b810fc6cfef6199a3de6",
+          "caller": "0x7eb2d4bccbf5476df89aca507cde89038700b586",
           "comment": "t(uint256) -> FAILURE",
           "instance": "C",
           "method": "t(uint256)",

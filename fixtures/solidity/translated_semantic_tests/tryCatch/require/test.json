@@ -4,7 +4,7 @@
       "name": "require",
       "inputs": [
         {
-          "caller": "0x83e8869fb36f9bcdfe58856387e1c917f4a4ae1b",
+          "caller": "0x81742a45c87fc346818c2562cb99eeb0e647e863",
           "comment": "f(bool): true -> 1",
           "instance": "C",
           "method": "f(bool)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x83e8869fb36f9bcdfe58856387e1c917f4a4ae1b",
+          "caller": "0x81742a45c87fc346818c2562cb99eeb0e647e863",
           "comment": "f(bool): false -> 2",
           "instance": "C",
           "method": "f(bool)",

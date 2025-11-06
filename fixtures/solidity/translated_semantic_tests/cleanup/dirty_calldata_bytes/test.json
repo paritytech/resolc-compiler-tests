@@ -4,7 +4,7 @@
       "name": "dirty_calldata_bytes",
       "inputs": [
         {
-          "caller": "0x4c9e7ba68c0835091d239b938295d2bbf2fcfab9",
+          "caller": "0xca08c9944d5fc29e25e13b40ce7c5d235cbd2493",
           "comment": "f(bytes): 0x20, 0x04, \"dead\" -> true",
           "instance": "C",
           "method": "f(bytes)",

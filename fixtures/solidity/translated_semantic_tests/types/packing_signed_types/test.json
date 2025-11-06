@@ -4,7 +4,7 @@
       "name": "packing_signed_types",
       "inputs": [
         {
-          "caller": "0x179efa2b58c4baf917fcee358f880c1fc6773de2",
+          "caller": "0x3e232f3c7e78117a40fcb9cdd7a352b55a290258",
           "comment": "run() -> 0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa",
           "instance": "test",
           "method": "run()",

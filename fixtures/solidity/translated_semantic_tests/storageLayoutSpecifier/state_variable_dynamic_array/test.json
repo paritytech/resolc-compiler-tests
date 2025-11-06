@@ -4,7 +4,7 @@
       "name": "state_variable_dynamic_array",
       "inputs": [
         {
-          "caller": "0x8adef81d3afd683ca0ada407e22ca509646de8f8",
+          "caller": "0x932a7700198dba3be142d326187e3d74e02f616c",
           "comment": "initA() -> 1, 2, 3; gas irOptimized: 111986; gas legacy: 111679; gas legacyOptimized: 111150",
           "instance": "C",
           "method": "initA()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x8adef81d3afd683ca0ada407e22ca509646de8f8",
+          "caller": "0x932a7700198dba3be142d326187e3d74e02f616c",
           "comment": "arrayA(uint256): 0 -> 1",
           "instance": "C",
           "method": "arrayA(uint256)",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0x8adef81d3afd683ca0ada407e22ca509646de8f8",
+          "caller": "0x932a7700198dba3be142d326187e3d74e02f616c",
           "comment": "arrayALength() -> 3",
           "instance": "C",
           "method": "arrayALength()",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0x8adef81d3afd683ca0ada407e22ca509646de8f8",
+          "caller": "0x932a7700198dba3be142d326187e3d74e02f616c",
           "comment": "arrayCLength() -> 0",
           "instance": "C",
           "method": "arrayCLength()",
@@ -48,7 +48,7 @@
           }
         },
         {
-          "caller": "0x8adef81d3afd683ca0ada407e22ca509646de8f8",
+          "caller": "0x932a7700198dba3be142d326187e3d74e02f616c",
           "comment": "initCFromAInReverse() -> 3, 2, 1; gas irOptimized: 121276; gas legacy: 121213; gas legacyOptimized: 120843",
           "instance": "C",
           "method": "initCFromAInReverse()",
@@ -59,7 +59,7 @@
           }
         },
         {
-          "caller": "0x8adef81d3afd683ca0ada407e22ca509646de8f8",
+          "caller": "0x932a7700198dba3be142d326187e3d74e02f616c",
           "comment": "clearA() ->",
           "instance": "C",
           "method": "clearA()",
@@ -69,7 +69,7 @@
           }
         },
         {
-          "caller": "0x8adef81d3afd683ca0ada407e22ca509646de8f8",
+          "caller": "0x932a7700198dba3be142d326187e3d74e02f616c",
           "comment": "arrayC(uint256): 0 -> 3",
           "instance": "C",
           "method": "arrayC(uint256)",
@@ -80,7 +80,7 @@
           }
         },
         {
-          "caller": "0x8adef81d3afd683ca0ada407e22ca509646de8f8",
+          "caller": "0x932a7700198dba3be142d326187e3d74e02f616c",
           "comment": "arrayALength() -> 0",
           "instance": "C",
           "method": "arrayALength()",
@@ -91,7 +91,7 @@
           }
         },
         {
-          "caller": "0x8adef81d3afd683ca0ada407e22ca509646de8f8",
+          "caller": "0x932a7700198dba3be142d326187e3d74e02f616c",
           "comment": "arrayCLength() -> 3",
           "instance": "C",
           "method": "arrayCLength()",

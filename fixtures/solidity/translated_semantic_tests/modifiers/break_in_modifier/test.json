@@ -4,7 +4,7 @@
       "name": "break_in_modifier",
       "inputs": [
         {
-          "caller": "0x068c389793602375eeeb529cb2cd92d6f4f6350d",
+          "caller": "0xeb786ab368cf1ef0578c1cadbf56b573c2c00bc7",
           "comment": "x() -> 0",
           "instance": "C",
           "method": "x()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x068c389793602375eeeb529cb2cd92d6f4f6350d",
+          "caller": "0xeb786ab368cf1ef0578c1cadbf56b573c2c00bc7",
           "comment": "f() ->",
           "instance": "C",
           "method": "f()",
@@ -25,7 +25,7 @@
           }
         },
         {
-          "caller": "0x068c389793602375eeeb529cb2cd92d6f4f6350d",
+          "caller": "0xeb786ab368cf1ef0578c1cadbf56b573c2c00bc7",
           "comment": "x() -> 2",
           "instance": "C",
           "method": "x()",

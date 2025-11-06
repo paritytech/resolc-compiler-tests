@@ -4,7 +4,7 @@
       "name": "internal_library_function_attached_to_string_accepting_storage",
       "inputs": [
         {
-          "caller": "0x35b901bff6a40154e07cd899e6ecd12d11c0c616",
+          "caller": "0x565fafda95f19d1cfd2afef878328d6335329f9c",
           "comment": "test(string): 0x20, 3, \"def\" -> 0x40, 0x80, 3, \"def\", 3, \"def\"",
           "instance": "C",
           "method": "test(string)",

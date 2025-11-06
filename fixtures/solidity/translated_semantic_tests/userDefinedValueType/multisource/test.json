@@ -4,7 +4,7 @@
       "name": "multisource",
       "inputs": [
         {
-          "caller": "0xfe649f67452eda0fed3f978aac9842c5a7ac0bd7",
+          "caller": "0x900976aa1746436b4241b1b093aa83e74b3084db",
           "comment": "f(int256): 5 -> 5",
           "instance": "A",
           "method": "f(int256)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xfe649f67452eda0fed3f978aac9842c5a7ac0bd7",
+          "caller": "0x900976aa1746436b4241b1b093aa83e74b3084db",
           "comment": "f(address): 1 -> 1",
           "instance": "A",
           "method": "f(address)",

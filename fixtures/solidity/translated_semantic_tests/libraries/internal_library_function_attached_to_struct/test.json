@@ -4,7 +4,7 @@
       "name": "internal_library_function_attached_to_struct",
       "inputs": [
         {
-          "caller": "0x6edca11cc53cb45e870bc1e774c0fb893c876b20",
+          "caller": "0x5b05044c2f508fbcce1bd0d709cbce29ed084345",
           "comment": "f() -> 2",
           "instance": "C",
           "method": "f()",

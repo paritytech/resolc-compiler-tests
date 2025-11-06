@@ -4,7 +4,7 @@
       "name": "copy_byte_array_to_storage",
       "inputs": [
         {
-          "caller": "0x0656a4814b3e9a0757bcda72c45236dd42dc4b07",
+          "caller": "0xd523261de9ca0dfb50e0bff853d9ef726400e835",
           "comment": "f() -> 0xff; gas irOptimized: 143857; gas legacy: 153404; gas legacyOptimized: 146676",
           "instance": "C",
           "method": "f()",

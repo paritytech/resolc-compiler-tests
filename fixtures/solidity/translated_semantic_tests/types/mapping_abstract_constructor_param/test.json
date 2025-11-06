@@ -4,7 +4,7 @@
       "name": "mapping_abstract_constructor_param",
       "inputs": [
         {
-          "caller": "0xc49190067fca6ef063fc3578c4c5f5d2239dfdb9",
+          "caller": "0xbe24b0ab15dcae13281e89f3d4e3d378839550b2",
           "comment": "m(uint256): 1 -> 0",
           "instance": "C",
           "method": "m(uint256)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xc49190067fca6ef063fc3578c4c5f5d2239dfdb9",
+          "caller": "0xbe24b0ab15dcae13281e89f3d4e3d378839550b2",
           "comment": "m(uint256): 5 -> 20",
           "instance": "C",
           "method": "m(uint256)",

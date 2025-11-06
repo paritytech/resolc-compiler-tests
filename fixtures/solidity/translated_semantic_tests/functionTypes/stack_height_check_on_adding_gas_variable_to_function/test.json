@@ -4,7 +4,7 @@
       "name": "stack_height_check_on_adding_gas_variable_to_function",
       "inputs": [
         {
-          "caller": "0x901f94d2b55e977c904a5054b0f22919a9b4278b",
+          "caller": "0xb12005f235e444fc5cd8c0e98056d24f3aa98ebf",
           "comment": "test_function() -> true",
           "instance": "C",
           "method": "test_function()",

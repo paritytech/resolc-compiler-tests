@@ -9,7 +9,7 @@
           "comment": "storageEmpty -> 1",
           "address": "StorageEmpty.address",
           "is_storage_empty": true,
-          "caller": "0x1594b21b308dfb3f43ff4371cc712e07571de093"
+          "caller": "0xb242b8ddcecea9bdf7b38fbd2c828dfc8ef17c80"
         }
       ]
     }

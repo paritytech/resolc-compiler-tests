@@ -4,7 +4,7 @@
       "name": "reencoded_calldata_string",
       "inputs": [
         {
-          "caller": "0x14f0d57b74be13be8cf3d593473cc75c33f38557",
+          "caller": "0x1cedf494677bd80f7f5a9f5710b4372f7069d511",
           "comment": "test() -> 0x20, 0x60, 0x20, 3, \"abc\"",
           "instance": "C",
           "method": "test()",

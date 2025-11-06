@@ -4,7 +4,7 @@
       "name": "mapping_enum_key_v2",
       "inputs": [
         {
-          "caller": "0xc521a197e3c766bbdcb801724208a3bc9a060b73",
+          "caller": "0x80ae1f1b1801058b13f9fd3dd0df55ff09b3d51d",
           "comment": "get(uint8): 0 -> 0",
           "instance": "test",
           "method": "get(uint8)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xc521a197e3c766bbdcb801724208a3bc9a060b73",
+          "caller": "0x80ae1f1b1801058b13f9fd3dd0df55ff09b3d51d",
           "comment": "get(uint8): 0x01 -> 0",
           "instance": "test",
           "method": "get(uint8)",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0xc521a197e3c766bbdcb801724208a3bc9a060b73",
+          "caller": "0x80ae1f1b1801058b13f9fd3dd0df55ff09b3d51d",
           "comment": "get(uint8): 0x02 -> 0",
           "instance": "test",
           "method": "get(uint8)",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0xc521a197e3c766bbdcb801724208a3bc9a060b73",
+          "caller": "0x80ae1f1b1801058b13f9fd3dd0df55ff09b3d51d",
           "comment": "get(uint8): 0x03 -> FAILURE",
           "instance": "test",
           "method": "get(uint8)",
@@ -47,7 +47,7 @@
           }
         },
         {
-          "caller": "0xc521a197e3c766bbdcb801724208a3bc9a060b73",
+          "caller": "0x80ae1f1b1801058b13f9fd3dd0df55ff09b3d51d",
           "comment": "get(uint8): 0xa7 -> FAILURE",
           "instance": "test",
           "method": "get(uint8)",
@@ -57,7 +57,7 @@
           }
         },
         {
-          "caller": "0xc521a197e3c766bbdcb801724208a3bc9a060b73",
+          "caller": "0x80ae1f1b1801058b13f9fd3dd0df55ff09b3d51d",
           "comment": "set(uint8,uint8): 0x01, 0xa1 ->",
           "instance": "test",
           "method": "set(uint8,uint8)",
@@ -67,7 +67,7 @@
           }
         },
         {
-          "caller": "0xc521a197e3c766bbdcb801724208a3bc9a060b73",
+          "caller": "0x80ae1f1b1801058b13f9fd3dd0df55ff09b3d51d",
           "comment": "get(uint8): 0 -> 0",
           "instance": "test",
           "method": "get(uint8)",
@@ -78,7 +78,7 @@
           }
         },
         {
-          "caller": "0xc521a197e3c766bbdcb801724208a3bc9a060b73",
+          "caller": "0x80ae1f1b1801058b13f9fd3dd0df55ff09b3d51d",
           "comment": "get(uint8): 0x01 -> 0xa1",
           "instance": "test",
           "method": "get(uint8)",
@@ -89,7 +89,7 @@
           }
         },
         {
-          "caller": "0xc521a197e3c766bbdcb801724208a3bc9a060b73",
+          "caller": "0x80ae1f1b1801058b13f9fd3dd0df55ff09b3d51d",
           "comment": "get(uint8): 0xa7 -> FAILURE",
           "instance": "test",
           "method": "get(uint8)",
@@ -99,7 +99,7 @@
           }
         },
         {
-          "caller": "0xc521a197e3c766bbdcb801724208a3bc9a060b73",
+          "caller": "0x80ae1f1b1801058b13f9fd3dd0df55ff09b3d51d",
           "comment": "set(uint8,uint8): 0x00, 0xef ->",
           "instance": "test",
           "method": "set(uint8,uint8)",
@@ -109,7 +109,7 @@
           }
         },
         {
-          "caller": "0xc521a197e3c766bbdcb801724208a3bc9a060b73",
+          "caller": "0x80ae1f1b1801058b13f9fd3dd0df55ff09b3d51d",
           "comment": "get(uint8): 0 -> 0xef",
           "instance": "test",
           "method": "get(uint8)",
@@ -120,7 +120,7 @@
           }
         },
         {
-          "caller": "0xc521a197e3c766bbdcb801724208a3bc9a060b73",
+          "caller": "0x80ae1f1b1801058b13f9fd3dd0df55ff09b3d51d",
           "comment": "get(uint8): 0x01 -> 0xa1",
           "instance": "test",
           "method": "get(uint8)",
@@ -131,7 +131,7 @@
           }
         },
         {
-          "caller": "0xc521a197e3c766bbdcb801724208a3bc9a060b73",
+          "caller": "0x80ae1f1b1801058b13f9fd3dd0df55ff09b3d51d",
           "comment": "get(uint8): 0xa7 -> FAILURE",
           "instance": "test",
           "method": "get(uint8)",
@@ -141,7 +141,7 @@
           }
         },
         {
-          "caller": "0xc521a197e3c766bbdcb801724208a3bc9a060b73",
+          "caller": "0x80ae1f1b1801058b13f9fd3dd0df55ff09b3d51d",
           "comment": "set(uint8,uint8): 0x01, 0x05 ->",
           "instance": "test",
           "method": "set(uint8,uint8)",
@@ -151,7 +151,7 @@
           }
         },
         {
-          "caller": "0xc521a197e3c766bbdcb801724208a3bc9a060b73",
+          "caller": "0x80ae1f1b1801058b13f9fd3dd0df55ff09b3d51d",
           "comment": "get(uint8): 0 -> 0xef",
           "instance": "test",
           "method": "get(uint8)",
@@ -162,7 +162,7 @@
           }
         },
         {
-          "caller": "0xc521a197e3c766bbdcb801724208a3bc9a060b73",
+          "caller": "0x80ae1f1b1801058b13f9fd3dd0df55ff09b3d51d",
           "comment": "get(uint8): 0x01 -> 0x05",
           "instance": "test",
           "method": "get(uint8)",
@@ -173,7 +173,7 @@
           }
         },
         {
-          "caller": "0xc521a197e3c766bbdcb801724208a3bc9a060b73",
+          "caller": "0x80ae1f1b1801058b13f9fd3dd0df55ff09b3d51d",
           "comment": "get(uint8): 0xa7 -> FAILURE",
           "instance": "test",
           "method": "get(uint8)",

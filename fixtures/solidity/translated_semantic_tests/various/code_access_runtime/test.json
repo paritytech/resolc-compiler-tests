@@ -4,7 +4,7 @@
       "name": "code_access_runtime",
       "inputs": [
         {
-          "caller": "0x271312eeb5504f94c88424a932527425f58a63a0",
+          "caller": "0x0785666758e3aa41ac839477e9c3885ca967b1bd",
           "comment": "test() -> 42; gas legacy: 76034; gas legacy code: 24200",
           "instance": "C",
           "method": "test()",

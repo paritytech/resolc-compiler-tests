@@ -4,7 +4,7 @@
       "name": "create_memory_array",
       "inputs": [
         {
-          "caller": "0x14331c99c00cfbc8a7ca6a720c067c24f38e8b84",
+          "caller": "0x78fe502e40a4734480b02cc9c1cc87b252b49780",
           "comment": "f() -> \"A\", 8, 4, \"B\"; gas irOptimized: 136664; gas legacy: 121380; gas legacyOptimized: 115488",
           "instance": "C",
           "method": "f()",

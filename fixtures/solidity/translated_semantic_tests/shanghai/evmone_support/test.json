@@ -4,7 +4,7 @@
       "name": "evmone_support",
       "inputs": [
         {
-          "caller": "0xbf2c78ef65505523be7715997954733d02a518c7",
+          "caller": "0xfb51f52f8ad0a324be7524313dd551d47f969c7a",
           "comment": "bytecode() -> 0x20, 4, 0x60205ff300000000000000000000000000000000000000000000000000000000",
           "instance": "Test",
           "method": "bytecode()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xbf2c78ef65505523be7715997954733d02a518c7",
+          "caller": "0xfb51f52f8ad0a324be7524313dd551d47f969c7a",
           "comment": "isPush0Supported() -> true",
           "instance": "Test",
           "method": "isPush0Supported()",

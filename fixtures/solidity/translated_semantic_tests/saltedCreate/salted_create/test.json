@@ -4,7 +4,7 @@
       "name": "salted_create",
       "inputs": [
         {
-          "caller": "0x50508aa895f903428394ab2d0c15fea23b63ef03",
+          "caller": "0xdb9beedde834948fdcfe813213b5697d6f538004",
           "comment": "different_salt() -> true",
           "instance": "A",
           "method": "different_salt()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x50508aa895f903428394ab2d0c15fea23b63ef03",
+          "caller": "0xdb9beedde834948fdcfe813213b5697d6f538004",
           "comment": "same_salt() -> true; gas irOptimized: 98438295; gas irOptimized code: 600; gas legacy: 98437509; gas legacy code: 1600; gas legacyOptimized: 98437367; gas legacyOptimized code: 1600",
           "instance": "A",
           "method": "same_salt()",

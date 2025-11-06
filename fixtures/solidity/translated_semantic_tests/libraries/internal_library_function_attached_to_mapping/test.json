@@ -4,7 +4,7 @@
       "name": "internal_library_function_attached_to_mapping",
       "inputs": [
         {
-          "caller": "0xb19a88d9dc4fd036d591e3b25eaee5b76923c3cb",
+          "caller": "0x883704c05d0609b0def3537bec836bc2a38211d2",
           "comment": "mapValue(uint256): 42 -> 0x24",
           "instance": "C",
           "method": "mapValue(uint256)",

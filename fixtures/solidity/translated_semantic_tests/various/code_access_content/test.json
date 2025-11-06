@@ -4,7 +4,7 @@
       "name": "code_access_content",
       "inputs": [
         {
-          "caller": "0x813b189f051211e6f4403f89638a75ea695710e9",
+          "caller": "0x521b90dae3b66dfd7a88fec442d0f992f486cbc4",
           "comment": "testRuntime() -> true; gas legacy: 76575; gas legacy code: 23600",
           "instance": "C",
           "method": "testRuntime()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x813b189f051211e6f4403f89638a75ea695710e9",
+          "caller": "0x521b90dae3b66dfd7a88fec442d0f992f486cbc4",
           "comment": "testCreation() -> true; gas legacy: 76999; gas legacy code: 23600",
           "instance": "C",
           "method": "testCreation()",

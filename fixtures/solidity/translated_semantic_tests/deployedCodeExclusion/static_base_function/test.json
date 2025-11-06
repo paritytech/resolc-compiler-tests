@@ -4,7 +4,7 @@
       "name": "static_base_function",
       "inputs": [
         {
-          "caller": "0xa89efcbebdf80d32682384c95a6a7447c6913a82",
+          "caller": "0xaacc0d450fd12d0eddc97297fb9348240ea8ec60",
           "comment": "test() -> true",
           "instance": "C",
           "method": "test()",

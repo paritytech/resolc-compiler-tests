@@ -4,7 +4,7 @@
       "name": "do_while_loop_continue",
       "inputs": [
         {
-          "caller": "0xef2af1f8789eb737ae57842486f28faeb141d42c",
+          "caller": "0x805a628cb4845dc7c3dc6499e358415f112a1141",
           "comment": "f() -> 42",
           "instance": "test",
           "method": "f()",

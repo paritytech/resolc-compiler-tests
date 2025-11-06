@@ -4,7 +4,7 @@
       "name": "free_function_transitive_import",
       "inputs": [
         {
-          "caller": "0x3246ebff0d4cedd6e6d5b571e8728eb491d9a27b",
+          "caller": "0x6f7093401c9d1fae2ebc589a8bbf7b04b8281067",
           "comment": "i() -> 1337",
           "instance": "E",
           "method": "i()",

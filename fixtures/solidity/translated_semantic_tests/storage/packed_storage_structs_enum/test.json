@@ -4,7 +4,7 @@
       "name": "packed_storage_structs_enum",
       "inputs": [
         {
-          "caller": "0x327d02692b19520645630b0a1596887d58da4057",
+          "caller": "0xfcb28079e05c6608664bf4c430b17deee4ba67e7",
           "comment": "test() -> 1",
           "instance": "C",
           "method": "test()",

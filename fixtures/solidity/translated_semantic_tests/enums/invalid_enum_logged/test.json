@@ -4,7 +4,7 @@
       "name": "invalid_enum_logged",
       "inputs": [
         {
-          "caller": "0xc1c071137e205ddd5d83418fbfaab8ce9ddd9256",
+          "caller": "0x9f70e259f975a36d02392809707f4fdeabc9fa34",
           "comment": "test_log_ok() -> 1; ~ emit Log(uint8): 0x00",
           "instance": "C",
           "method": "test_log_ok()",
@@ -23,7 +23,7 @@
           }
         },
         {
-          "caller": "0xc1c071137e205ddd5d83418fbfaab8ce9ddd9256",
+          "caller": "0x9f70e259f975a36d02392809707f4fdeabc9fa34",
           "comment": "test_log() -> FAILURE, hex\"4e487b71\", 0x21",
           "instance": "C",
           "method": "test_log()",

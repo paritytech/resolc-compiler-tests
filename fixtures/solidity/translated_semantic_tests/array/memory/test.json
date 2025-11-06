@@ -4,7 +4,7 @@
       "name": "memory",
       "inputs": [
         {
-          "caller": "0xf1521ad1752e59bcb57fde740e3ea0a6d9efea07",
+          "caller": "0x48f5775cc07b179acaca665b351c87bdc2eaffb7",
           "comment": "h(uint256[4]): 1, 2, 3, 4 -> 10",
           "instance": "C",
           "method": "h(uint256[4])",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xf1521ad1752e59bcb57fde740e3ea0a6d9efea07",
+          "caller": "0x48f5775cc07b179acaca665b351c87bdc2eaffb7",
           "comment": "i(uint256[4]): 1, 2, 3, 4 -> 20",
           "instance": "C",
           "method": "i(uint256[4])",

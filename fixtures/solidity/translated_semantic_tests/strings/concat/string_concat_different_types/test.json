@@ -4,7 +4,7 @@
       "name": "string_concat_different_types",
       "inputs": [
         {
-          "caller": "0xfb51f52f8ad0a324be7524313dd551d47f969c7a",
+          "caller": "0xdefac20dcf27733a166e85075a64d673b3147b9d",
           "comment": "f(string): 0x20, 32, \"abcdabcdabcdabcdabcdabcdabcdabcd\" -> 0x20, 0x25, 0x6162636461626364616263646162636461626364616263646162636461626364, 44502269928904312298000709931354278973409164155382318144318241583783949107200",
           "instance": "C",
           "method": "f(string)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xfb51f52f8ad0a324be7524313dd551d47f969c7a",
+          "caller": "0xdefac20dcf27733a166e85075a64d673b3147b9d",
           "comment": "g(string): 0x20, 32, \"abcdabcdabcdabcdabcdabcdabcdabcd\" -> 0x20, 0x42, 0x6162636461626364616263646162636461626364616263646162636461626364, 0x6162636465666768616263646566676861626364656667686162636465666768, 44047497324925121336511606693520958599579173549109180625971642598225011015680",
           "instance": "C",
           "method": "g(string)",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0xfb51f52f8ad0a324be7524313dd551d47f969c7a",
+          "caller": "0xdefac20dcf27733a166e85075a64d673b3147b9d",
           "comment": "h(string): 0x20, 32, \"abcdabcdabcdabcdabcdabcdabcdabcd\" -> 0x20, 0x25, 0x6162636461626364616263646162636461626364616263646162636461626364, 44502269928904312298000709931354278973409164155382318144318241583783949107200",
           "instance": "C",
           "method": "h(string)",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0xfb51f52f8ad0a324be7524313dd551d47f969c7a",
+          "caller": "0xdefac20dcf27733a166e85075a64d673b3147b9d",
           "comment": "j(string): 0x20, 32, \"abcdabcdabcdabcdabcdabcdabcdabcd\" -> 0x20, 0x2a, 0x6162636461626364616263646162636461626364616263646162636461626364, 44502269928944786876717917111204727192787026596791669343131645116682757734400",
           "instance": "C",
           "method": "j(string)",
@@ -48,7 +48,7 @@
           }
         },
         {
-          "caller": "0xfb51f52f8ad0a324be7524313dd551d47f969c7a",
+          "caller": "0xdefac20dcf27733a166e85075a64d673b3147b9d",
           "comment": "k(string,bytes): 0x40, 0x80, 32, \"abcdabcdabcdabcdabcdabcdabcdabcd\", 5, \"bcdef\" -> 0x20, 0x25, 0x6162636461626364616263646162636461626364616263646162636461626364, 44502269928904312298000709931354278973409164155382318144318241583783949107200",
           "instance": "C",
           "method": "k(string,bytes)",
@@ -59,7 +59,7 @@
           }
         },
         {
-          "caller": "0xfb51f52f8ad0a324be7524313dd551d47f969c7a",
+          "caller": "0xdefac20dcf27733a166e85075a64d673b3147b9d",
           "comment": "slice(string): 0x20, 4, \"abcd\" -> 0x20, 4, \"abcd\"",
           "instance": "C",
           "method": "slice(string)",
@@ -70,7 +70,7 @@
           }
         },
         {
-          "caller": "0xfb51f52f8ad0a324be7524313dd551d47f969c7a",
+          "caller": "0xdefac20dcf27733a166e85075a64d673b3147b9d",
           "comment": "strParam(bytes): 0x20, 32, \"abcdabcdabcdabcdabcdabcdabcdabcd\" -> 0x20, 0x25, 0x6162636461626364616263646162636461626364616263646162636461626364, 44502269928904312298000709931354278973409164155382318144318241583783949107200",
           "instance": "C",
           "method": "strParam(bytes)",

@@ -4,7 +4,7 @@
       "name": "different_call_type_transient",
       "inputs": [
         {
-          "caller": "0x0785666758e3aa41ac839477e9c3885ca967b1bd",
+          "caller": "0x340f302e4d45de13741e53556b6c5a351518ad36",
           "comment": "testDelegate() -> 7, 0",
           "instance": "Test",
           "method": "testDelegate()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x0785666758e3aa41ac839477e9c3885ca967b1bd",
+          "caller": "0x340f302e4d45de13741e53556b6c5a351518ad36",
           "comment": "testCall() -> 0, 8",
           "instance": "Test",
           "method": "testCall()",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0x0785666758e3aa41ac839477e9c3885ca967b1bd",
+          "caller": "0x340f302e4d45de13741e53556b6c5a351518ad36",
           "comment": "testStatic() -> false; gas irOptimized: 96900694; gas legacy: 96901136; gas legacyOptimized: 96900725",
           "instance": "Test",
           "method": "testStatic()",

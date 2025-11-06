@@ -4,7 +4,7 @@
       "name": "named_args_overload",
       "inputs": [
         {
-          "caller": "0xed96c2fb79e08dea27ef8e6d497914c07ed617e1",
+          "caller": "0x99ae89455838c4f2fb82439896f351c88a97e620",
           "comment": "call(uint256): 0 -> 0",
           "instance": "C",
           "method": "call(uint256)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xed96c2fb79e08dea27ef8e6d497914c07ed617e1",
+          "caller": "0x99ae89455838c4f2fb82439896f351c88a97e620",
           "comment": "call(uint256): 1 -> 1",
           "instance": "C",
           "method": "call(uint256)",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0xed96c2fb79e08dea27ef8e6d497914c07ed617e1",
+          "caller": "0x99ae89455838c4f2fb82439896f351c88a97e620",
           "comment": "call(uint256): 2 -> 3",
           "instance": "C",
           "method": "call(uint256)",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0xed96c2fb79e08dea27ef8e6d497914c07ed617e1",
+          "caller": "0x99ae89455838c4f2fb82439896f351c88a97e620",
           "comment": "call(uint256): 3 -> 6",
           "instance": "C",
           "method": "call(uint256)",
@@ -48,7 +48,7 @@
           }
         },
         {
-          "caller": "0xed96c2fb79e08dea27ef8e6d497914c07ed617e1",
+          "caller": "0x99ae89455838c4f2fb82439896f351c88a97e620",
           "comment": "call(uint256): 4 -> 8",
           "instance": "C",
           "method": "call(uint256)",
@@ -59,7 +59,7 @@
           }
         },
         {
-          "caller": "0xed96c2fb79e08dea27ef8e6d497914c07ed617e1",
+          "caller": "0x99ae89455838c4f2fb82439896f351c88a97e620",
           "comment": "call(uint256): 5 -> 500",
           "instance": "C",
           "method": "call(uint256)",

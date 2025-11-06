@@ -4,7 +4,7 @@
       "name": "checked_arithmetic",
       "inputs": [
         {
-          "caller": "0x7f379af4d24907b72a2aeb34ac975b5da05a4868",
+          "caller": "0x4cf0ddf4d3fb71a94ff9bbbaf4e686b727b65da7",
           "comment": "add() -> 1, 1",
           "instance": "C",
           "method": "add()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x7f379af4d24907b72a2aeb34ac975b5da05a4868",
+          "caller": "0x4cf0ddf4d3fb71a94ff9bbbaf4e686b727b65da7",
           "comment": "sub() -> 0, 0",
           "instance": "C",
           "method": "sub()",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0x7f379af4d24907b72a2aeb34ac975b5da05a4868",
+          "caller": "0x4cf0ddf4d3fb71a94ff9bbbaf4e686b727b65da7",
           "comment": "mul() -> 1, 1",
           "instance": "C",
           "method": "mul()",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0x7f379af4d24907b72a2aeb34ac975b5da05a4868",
+          "caller": "0x4cf0ddf4d3fb71a94ff9bbbaf4e686b727b65da7",
           "comment": "div() -> 1, 1",
           "instance": "C",
           "method": "div()",
@@ -48,7 +48,7 @@
           }
         },
         {
-          "caller": "0x7f379af4d24907b72a2aeb34ac975b5da05a4868",
+          "caller": "0x4cf0ddf4d3fb71a94ff9bbbaf4e686b727b65da7",
           "comment": "mod() -> 1, 0",
           "instance": "C",
           "method": "mod()",
@@ -59,7 +59,7 @@
           }
         },
         {
-          "caller": "0x7f379af4d24907b72a2aeb34ac975b5da05a4868",
+          "caller": "0x4cf0ddf4d3fb71a94ff9bbbaf4e686b727b65da7",
           "comment": "inc_pre() -> 1",
           "instance": "C",
           "method": "inc_pre()",
@@ -70,7 +70,7 @@
           }
         },
         {
-          "caller": "0x7f379af4d24907b72a2aeb34ac975b5da05a4868",
+          "caller": "0x4cf0ddf4d3fb71a94ff9bbbaf4e686b727b65da7",
           "comment": "inc_post() -> 0",
           "instance": "C",
           "method": "inc_post()",
@@ -81,7 +81,7 @@
           }
         },
         {
-          "caller": "0x7f379af4d24907b72a2aeb34ac975b5da05a4868",
+          "caller": "0x4cf0ddf4d3fb71a94ff9bbbaf4e686b727b65da7",
           "comment": "dec_pre() -> FAILURE, hex\"4e487b71\", 0x11",
           "instance": "C",
           "method": "dec_pre()",
@@ -92,7 +92,7 @@
           }
         },
         {
-          "caller": "0x7f379af4d24907b72a2aeb34ac975b5da05a4868",
+          "caller": "0x4cf0ddf4d3fb71a94ff9bbbaf4e686b727b65da7",
           "comment": "dec_post() -> FAILURE, hex\"4e487b71\", 0x11",
           "instance": "C",
           "method": "dec_post()",
@@ -103,7 +103,7 @@
           }
         },
         {
-          "caller": "0x7f379af4d24907b72a2aeb34ac975b5da05a4868",
+          "caller": "0x4cf0ddf4d3fb71a94ff9bbbaf4e686b727b65da7",
           "comment": "neg() -> FAILURE, hex\"4e487b71\", 0x11",
           "instance": "C",
           "method": "neg()",

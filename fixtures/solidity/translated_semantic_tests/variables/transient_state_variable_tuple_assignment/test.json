@@ -4,7 +4,7 @@
       "name": "transient_state_variable_tuple_assignment",
       "inputs": [
         {
-          "caller": "0xa1a897bee001c25676223e7febc0543681da491d",
+          "caller": "0x452374152f1c79d921420c9effa039de822ad4ba",
           "comment": "f() -> 2, 3, 4",
           "instance": "C",
           "method": "f()",

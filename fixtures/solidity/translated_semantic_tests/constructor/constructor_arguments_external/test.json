@@ -4,7 +4,7 @@
       "name": "constructor_arguments_external",
       "inputs": [
         {
-          "caller": "0xf9b2f1ddcde0636dbd8fca31d96754321d34c308",
+          "caller": "0x4f058234448ec5c329379c7d3c19f11a5c7c1eeb",
           "comment": "constructor(): \"abc\", true; gas irOptimized: 80174; gas irOptimized code: 24200; gas legacy: 85098; gas legacy code: 58200; gas legacyOptimized: 80132; gas legacyOptimized code: 22800",
           "instance": "Main",
           "method": "#deployer",
@@ -14,7 +14,7 @@
           }
         },
         {
-          "caller": "0xf9b2f1ddcde0636dbd8fca31d96754321d34c308",
+          "caller": "0x4f058234448ec5c329379c7d3c19f11a5c7c1eeb",
           "comment": "getFlag() -> true",
           "instance": "Main",
           "method": "getFlag()",
@@ -25,7 +25,7 @@
           }
         },
         {
-          "caller": "0xf9b2f1ddcde0636dbd8fca31d96754321d34c308",
+          "caller": "0x4f058234448ec5c329379c7d3c19f11a5c7c1eeb",
           "comment": "getName() -> \"abc\"",
           "instance": "Main",
           "method": "getName()",

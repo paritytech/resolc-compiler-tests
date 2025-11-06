@@ -4,7 +4,7 @@
       "name": "dirty_memory_struct",
       "inputs": [
         {
-          "caller": "0xea241536340a75a5de0f98a5b94f5e7b7e01e733",
+          "caller": "0xf70ab29d799529bcb7b1b4de3cca53e3b30405a5",
           "comment": "f() -> true",
           "instance": "C",
           "method": "f()",

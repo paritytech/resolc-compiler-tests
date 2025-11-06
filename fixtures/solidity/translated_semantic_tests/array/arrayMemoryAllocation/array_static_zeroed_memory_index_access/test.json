@@ -4,7 +4,7 @@
       "name": "array_static_zeroed_memory_index_access",
       "inputs": [
         {
-          "caller": "0xf255da040aa63f82dfccc05d7e2576a301ac1be7",
+          "caller": "0x913ab745fa94fba8498fa7066d9cea10853501a9",
           "comment": "set(string): 0x20, 32, \"01234567890123456789012345678901\" -> 0",
           "instance": "C",
           "method": "set(string)",

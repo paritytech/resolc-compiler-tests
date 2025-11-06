@@ -4,7 +4,7 @@
       "name": "copy_internal_function_array_to_storage",
       "inputs": [
         {
-          "caller": "0xc6115e1eec3bde7970542f120cc7417095aac89e",
+          "caller": "0x761f838da816eedee7d142e2f8ae719fc7be624b",
           "comment": "one() -> 3; gas legacy: 140253; gas legacyOptimized: 140093",
           "instance": "C",
           "method": "one()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xc6115e1eec3bde7970542f120cc7417095aac89e",
+          "caller": "0x761f838da816eedee7d142e2f8ae719fc7be624b",
           "comment": "two() -> FAILURE, hex\"4e487b71\", 0x51",
           "instance": "C",
           "method": "two()",

@@ -4,7 +4,7 @@
       "name": "calldata_bytes_bytes32_arrays",
       "inputs": [
         {
-          "caller": "0x44723a4906f55e3b5602e6487de53673902208b0",
+          "caller": "0x1b2fd294b33f5106baf8704d2080b048191564e1",
           "comment": "f(bool,bytes,bytes32[2]): true, 0x80, \"a\", \"b\", 4, \"abcd\" -> true, 0x80, \"a\", \"b\", 4, \"abcd\"",
           "instance": "C",
           "method": "f(bool,bytes,bytes32[2])",

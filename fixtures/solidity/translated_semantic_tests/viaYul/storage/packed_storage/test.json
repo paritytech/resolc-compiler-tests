@@ -4,7 +4,7 @@
       "name": "packed_storage",
       "inputs": [
         {
-          "caller": "0x361d1d2dbfb0baa755edd3ad46219e9ba7bee6e2",
+          "caller": "0xbb41354ecbbf2331226303c85156306b1575f629",
           "comment": "f(uint8): 6 -> 9",
           "instance": "C",
           "method": "f(uint8)",

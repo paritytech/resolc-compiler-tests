@@ -4,7 +4,7 @@
       "name": "store_function_in_constructor",
       "inputs": [
         {
-          "caller": "0x05a922fba7b4060f99126b6b989dd5afd2205a41",
+          "caller": "0xa0801fdd0cf4e07b52b924be9b6d0693bcffb712",
           "comment": "use(uint256): 3 -> 6",
           "instance": "C",
           "method": "use(uint256)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x05a922fba7b4060f99126b6b989dd5afd2205a41",
+          "caller": "0xa0801fdd0cf4e07b52b924be9b6d0693bcffb712",
           "comment": "result_in_constructor() -> 4",
           "instance": "C",
           "method": "result_in_constructor()",

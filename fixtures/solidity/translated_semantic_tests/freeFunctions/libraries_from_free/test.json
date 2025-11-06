@@ -4,7 +4,7 @@
       "name": "libraries_from_free",
       "inputs": [
         {
-          "caller": "0x303918c2037b755f55bd4af2275dadf5abb42044",
+          "caller": "0x327d02692b19520645630b0a1596887d58da4057",
           "comment": "f() -> 7, 8",
           "instance": "C",
           "method": "f()",

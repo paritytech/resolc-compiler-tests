@@ -4,7 +4,7 @@
       "name": "transient_state_variable_cleanup_assignment",
       "inputs": [
         {
-          "caller": "0xe99b05d8b846399ddcc8d3d14ae82fbe67ff6a8a",
+          "caller": "0x2b8f2bc4d3c3ebd316fbb8e649ad8743ded1f293",
           "comment": "f() -> 0xff",
           "instance": "C",
           "method": "f()",

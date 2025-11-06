@@ -4,7 +4,7 @@
       "name": "failure",
       "inputs": [
         {
-          "caller": "0xbaaa8c917993f2ec657a67771556c288b4f431f2",
+          "caller": "0x78ea06b8ef12359653da04232050a6c720324e8e",
           "comment": "_() -> FAILURE",
           "instance": "C",
           "method": "_()",
@@ -14,7 +14,7 @@
           }
         },
         {
-          "caller": "0xbaaa8c917993f2ec657a67771556c288b4f431f2",
+          "caller": "0x78ea06b8ef12359653da04232050a6c720324e8e",
           "comment": "e() -> FAILURE, hex\"08c379a0\", 0x20, 0x13, \"Transaction failed.\"",
           "instance": "C",
           "method": "e()",
@@ -25,7 +25,7 @@
           }
         },
         {
-          "caller": "0xbaaa8c917993f2ec657a67771556c288b4f431f2",
+          "caller": "0x78ea06b8ef12359653da04232050a6c720324e8e",
           "comment": "f(bool): false -> FAILURE, hex\"08c379a0\", 0x20, 0x00",
           "instance": "C",
           "method": "f(bool)",
@@ -36,7 +36,7 @@
           }
         },
         {
-          "caller": "0xbaaa8c917993f2ec657a67771556c288b4f431f2",
+          "caller": "0x78ea06b8ef12359653da04232050a6c720324e8e",
           "comment": "g(bool): false -> FAILURE, hex\"08c379a0\", 0x20, 0x0f, \"Value is false.\"",
           "instance": "C",
           "method": "g(bool)",
@@ -47,7 +47,7 @@
           }
         },
         {
-          "caller": "0xbaaa8c917993f2ec657a67771556c288b4f431f2",
+          "caller": "0x78ea06b8ef12359653da04232050a6c720324e8e",
           "comment": "h() -> FAILURE, hex\"4e487b71\", 0x01",
           "instance": "C",
           "method": "h()",

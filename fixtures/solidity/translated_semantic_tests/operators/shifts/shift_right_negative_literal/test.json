@@ -4,7 +4,7 @@
       "name": "shift_right_negative_literal",
       "inputs": [
         {
-          "caller": "0x903cad7431e33fb89b47de0c2befddfed2543479",
+          "caller": "0xf1a429b0fe031fdaadf53a57f83a6c2d26547b21",
           "comment": "f1() -> true",
           "instance": "C",
           "method": "f1()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x903cad7431e33fb89b47de0c2befddfed2543479",
+          "caller": "0xf1a429b0fe031fdaadf53a57f83a6c2d26547b21",
           "comment": "f2() -> true",
           "instance": "C",
           "method": "f2()",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0x903cad7431e33fb89b47de0c2befddfed2543479",
+          "caller": "0xf1a429b0fe031fdaadf53a57f83a6c2d26547b21",
           "comment": "f3() -> true",
           "instance": "C",
           "method": "f3()",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0x903cad7431e33fb89b47de0c2befddfed2543479",
+          "caller": "0xf1a429b0fe031fdaadf53a57f83a6c2d26547b21",
           "comment": "f4() -> true",
           "instance": "C",
           "method": "f4()",
@@ -48,7 +48,7 @@
           }
         },
         {
-          "caller": "0x903cad7431e33fb89b47de0c2befddfed2543479",
+          "caller": "0xf1a429b0fe031fdaadf53a57f83a6c2d26547b21",
           "comment": "f5() -> true",
           "instance": "C",
           "method": "f5()",
@@ -59,7 +59,7 @@
           }
         },
         {
-          "caller": "0x903cad7431e33fb89b47de0c2befddfed2543479",
+          "caller": "0xf1a429b0fe031fdaadf53a57f83a6c2d26547b21",
           "comment": "f6() -> true",
           "instance": "C",
           "method": "f6()",
@@ -70,7 +70,7 @@
           }
         },
         {
-          "caller": "0x903cad7431e33fb89b47de0c2befddfed2543479",
+          "caller": "0xf1a429b0fe031fdaadf53a57f83a6c2d26547b21",
           "comment": "g1() -> true",
           "instance": "C",
           "method": "g1()",
@@ -81,7 +81,7 @@
           }
         },
         {
-          "caller": "0x903cad7431e33fb89b47de0c2befddfed2543479",
+          "caller": "0xf1a429b0fe031fdaadf53a57f83a6c2d26547b21",
           "comment": "g2() -> true",
           "instance": "C",
           "method": "g2()",
@@ -92,7 +92,7 @@
           }
         },
         {
-          "caller": "0x903cad7431e33fb89b47de0c2befddfed2543479",
+          "caller": "0xf1a429b0fe031fdaadf53a57f83a6c2d26547b21",
           "comment": "g3() -> true",
           "instance": "C",
           "method": "g3()",
@@ -103,7 +103,7 @@
           }
         },
         {
-          "caller": "0x903cad7431e33fb89b47de0c2befddfed2543479",
+          "caller": "0xf1a429b0fe031fdaadf53a57f83a6c2d26547b21",
           "comment": "g4() -> true",
           "instance": "C",
           "method": "g4()",
@@ -114,7 +114,7 @@
           }
         },
         {
-          "caller": "0x903cad7431e33fb89b47de0c2befddfed2543479",
+          "caller": "0xf1a429b0fe031fdaadf53a57f83a6c2d26547b21",
           "comment": "g5() -> true",
           "instance": "C",
           "method": "g5()",
@@ -125,7 +125,7 @@
           }
         },
         {
-          "caller": "0x903cad7431e33fb89b47de0c2befddfed2543479",
+          "caller": "0xf1a429b0fe031fdaadf53a57f83a6c2d26547b21",
           "comment": "g6() -> true",
           "instance": "C",
           "method": "g6()",

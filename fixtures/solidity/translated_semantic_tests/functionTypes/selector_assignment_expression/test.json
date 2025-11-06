@@ -4,7 +4,7 @@
       "name": "selector_assignment_expression",
       "inputs": [
         {
-          "caller": "0xb5e4cc080696a0133572509683e069af748edeeb",
+          "caller": "0x78f861cffede2df8b661e40cb459043ce9e6b0c8",
           "comment": "f()",
           "instance": "C",
           "method": "f()",
@@ -14,7 +14,7 @@
           }
         },
         {
-          "caller": "0xb5e4cc080696a0133572509683e069af748edeeb",
+          "caller": "0x78f861cffede2df8b661e40cb459043ce9e6b0c8",
           "comment": "z() -> true",
           "instance": "C",
           "method": "z()",

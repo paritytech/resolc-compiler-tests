@@ -4,7 +4,7 @@
       "name": "dynamic_arrays",
       "inputs": [
         {
-          "caller": "0xef63ccd74cb54748b67c2f1bea88d37288b43498",
+          "caller": "0xb83887ca3a173fbc44dcb8f24e21fa0680856faf",
           "comment": "f(uint256,uint16[],uint256): 6, 0x60, 9, 7, 11, 12, 13, 14, 15, 16, 17 -> 7, 17, 9",
           "instance": "C",
           "method": "f(uint256,uint16[],uint256)",

@@ -4,7 +4,7 @@
       "name": "struct_memory_to_storage_function_ptr",
       "inputs": [
         {
-          "caller": "0xa2a8ee9d39898a1e118130fb0fd9704843965cab",
+          "caller": "0x18432bbd72051d1c1c0d134a5c25b856196736eb",
           "comment": "f() -> 42, 23, 34, 42, 42; gas irOptimized: 110682; gas legacy: 111990; gas legacyOptimized: 110546",
           "instance": "C",
           "method": "f()",

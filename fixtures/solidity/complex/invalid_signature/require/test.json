@@ -9,7 +9,7 @@
           "calldata": [
             "SimpleRequire.address"
           ],
-          "caller": "0x7481c78e652fd357305d906dd1b9465b152af803"
+          "caller": "0xc3238b95bdecf71be663d75f79371a11d5a22969"
         },
         {
           "instance": "Wrapper",
@@ -24,7 +24,7 @@
             ],
             "exception": true
           },
-          "caller": "0x7481c78e652fd357305d906dd1b9465b152af803"
+          "caller": "0xc3238b95bdecf71be663d75f79371a11d5a22969"
         },
         {
           "instance": "Wrapper",
@@ -34,7 +34,7 @@
             "return_data": [],
             "exception": true
           },
-          "caller": "0x7481c78e652fd357305d906dd1b9465b152af803"
+          "caller": "0xc3238b95bdecf71be663d75f79371a11d5a22969"
         }
       ],
       "expected": {

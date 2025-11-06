@@ -4,7 +4,7 @@
       "name": "mapping",
       "inputs": [
         {
-          "caller": "0x4be217be70dbb0fa6aa275d085e949114636d2bd",
+          "caller": "0x44e53c2312f70bddba78b8cc91c730f8588aba68",
           "comment": "x(uint256,uint256): 1, 2 -> 3",
           "instance": "C",
           "method": "x(uint256,uint256)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x4be217be70dbb0fa6aa275d085e949114636d2bd",
+          "caller": "0x44e53c2312f70bddba78b8cc91c730f8588aba68",
           "comment": "x(uint256,uint256): 0, 0 -> 0",
           "instance": "C",
           "method": "x(uint256,uint256)",

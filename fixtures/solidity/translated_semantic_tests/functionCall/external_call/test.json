@@ -4,7 +4,7 @@
       "name": "external_call",
       "inputs": [
         {
-          "caller": "0xa34d164fa99f8ed27eb91b201b6adc4bd95072a6",
+          "caller": "0xb5efc6daffa1eb7ec2f6e23a728e9098fc915d5d",
           "comment": "g(uint256): 4 -> 5",
           "instance": "C",
           "method": "g(uint256)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xa34d164fa99f8ed27eb91b201b6adc4bd95072a6",
+          "caller": "0xb5efc6daffa1eb7ec2f6e23a728e9098fc915d5d",
           "comment": "f(uint256): 2 -> 5",
           "instance": "C",
           "method": "f(uint256)",

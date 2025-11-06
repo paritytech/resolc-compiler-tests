@@ -4,7 +4,7 @@
       "name": "string_concat_nested",
       "inputs": [
         {
-          "caller": "0xbf2c78ef65505523be7715997954733d02a518c7",
+          "caller": "0x4e244c20fdea02ae056a53678e1edb69fa52c91f",
           "comment": "f(string,string,string): 0x60, 0x60, 0x60, 2, \"ab\" -> 0x20, 6, \"ababab\"",
           "instance": "C",
           "method": "f(string,string,string)",

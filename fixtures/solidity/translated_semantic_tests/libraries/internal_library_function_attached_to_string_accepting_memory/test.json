@@ -4,7 +4,7 @@
       "name": "internal_library_function_attached_to_string_accepting_memory",
       "inputs": [
         {
-          "caller": "0x7f5a2b6b5c4261020df01e80785864d8a8d05774",
+          "caller": "0xda10c515da589613b84e12ad1f7d7467f4d0f90d",
           "comment": "secondChar() -> 98",
           "instance": "C",
           "method": "secondChar()",

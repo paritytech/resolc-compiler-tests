@@ -4,7 +4,7 @@
       "name": "getters",
       "inputs": [
         {
-          "caller": "0xe175d2ca1689ac43cb760fbeb5769fb6c0cb8f50",
+          "caller": "0xde50ae547f2ca35c713541ade494491423c75b0e",
           "comment": "x() -> 1",
           "instance": "C",
           "method": "x()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xe175d2ca1689ac43cb760fbeb5769fb6c0cb8f50",
+          "caller": "0xde50ae547f2ca35c713541ade494491423c75b0e",
           "comment": "y() -> 2",
           "instance": "C",
           "method": "y()",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0xe175d2ca1689ac43cb760fbeb5769fb6c0cb8f50",
+          "caller": "0xde50ae547f2ca35c713541ade494491423c75b0e",
           "comment": "z() -> 3",
           "instance": "C",
           "method": "z()",

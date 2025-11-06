@@ -4,7 +4,7 @@
       "name": "denominations",
       "inputs": [
         {
-          "caller": "0xf9c13bfbdabb6f37b7f04ed40a9f49220d0b54e2",
+          "caller": "0x52e5411cfdb0e2116649f29dfce04514f3eeb0fa",
           "comment": "f() -> 1000000001000000001",
           "instance": "C",
           "method": "f()",

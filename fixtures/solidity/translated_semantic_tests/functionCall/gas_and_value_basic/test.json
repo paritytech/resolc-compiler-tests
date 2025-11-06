@@ -4,7 +4,7 @@
       "name": "gas_and_value_basic",
       "inputs": [
         {
-          "caller": "0x34be16fdd47e498ba3dcb198bfa9312c26ed927a",
+          "caller": "0x763659e4668246743c2fe1f3d1195b8a26bcad64",
           "comment": "constructor(), 20 wei ->; gas irOptimized: 120218; gas irOptimized code: 132000; gas legacy: 130583; gas legacy code: 261200; gas legacyOptimized: 121069; gas legacyOptimized code: 147000",
           "instance": "test",
           "method": "#deployer",
@@ -15,7 +15,7 @@
           "value": "20 wei"
         },
         {
-          "caller": "0x34be16fdd47e498ba3dcb198bfa9312c26ed927a",
+          "caller": "0x763659e4668246743c2fe1f3d1195b8a26bcad64",
           "comment": "sendAmount(uint256): 5 -> 5",
           "instance": "test",
           "method": "sendAmount(uint256)",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0x34be16fdd47e498ba3dcb198bfa9312c26ed927a",
+          "caller": "0x763659e4668246743c2fe1f3d1195b8a26bcad64",
           "comment": "outOfGas() -> FAILURE",
           "instance": "test",
           "method": "outOfGas()",
@@ -36,7 +36,7 @@
           }
         },
         {
-          "caller": "0x34be16fdd47e498ba3dcb198bfa9312c26ed927a",
+          "caller": "0x763659e4668246743c2fe1f3d1195b8a26bcad64",
           "comment": "checkState() -> false, 15",
           "instance": "test",
           "method": "checkState()",

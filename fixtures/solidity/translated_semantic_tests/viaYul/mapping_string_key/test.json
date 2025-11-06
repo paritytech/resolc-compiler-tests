@@ -4,7 +4,7 @@
       "name": "mapping_string_key",
       "inputs": [
         {
-          "caller": "0x6513ec05abf47e72b5ef2075b70595fdbe548f48",
+          "caller": "0x24c8020b422dd25b14ac709418a11aaa62166a71",
           "comment": "set(string): 0x20, 32, \"01234567890123456789012345678901\" ->",
           "instance": "C",
           "method": "set(string)",

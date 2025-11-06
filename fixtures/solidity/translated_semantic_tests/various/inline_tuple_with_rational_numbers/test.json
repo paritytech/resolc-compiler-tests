@@ -4,7 +4,7 @@
       "name": "inline_tuple_with_rational_numbers",
       "inputs": [
         {
-          "caller": "0xcbcb0ae98882d96ee712060be078416421b9a01b",
+          "caller": "0xc72c8e9e67bd35b80d6a5d86932851ddaf9d6a57",
           "comment": "f() -> 1",
           "instance": "c",
           "method": "f()",

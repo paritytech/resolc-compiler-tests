@@ -4,7 +4,7 @@
       "name": "stub",
       "inputs": [
         {
-          "caller": "0xfdd51498907d3d600538b398217db5380a06c570",
+          "caller": "0x769fb97d9141c59509f7295179f8956000a99e67",
           "comment": "f() -> 84, 23",
           "instance": "C",
           "method": "f()",

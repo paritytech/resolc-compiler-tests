@@ -4,7 +4,7 @@
       "name": "array_memory_create",
       "inputs": [
         {
-          "caller": "0x40d8bb64632bec1bfa2c0d088b348dae6f3f70ce",
+          "caller": "0xb4b892f70220993b725a0dbb30fbe245be229fed",
           "comment": "create(uint256): 0 -> 0",
           "instance": "C",
           "method": "create(uint256)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x40d8bb64632bec1bfa2c0d088b348dae6f3f70ce",
+          "caller": "0xb4b892f70220993b725a0dbb30fbe245be229fed",
           "comment": "create(uint256): 7 -> 7",
           "instance": "C",
           "method": "create(uint256)",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0x40d8bb64632bec1bfa2c0d088b348dae6f3f70ce",
+          "caller": "0xb4b892f70220993b725a0dbb30fbe245be229fed",
           "comment": "create(uint256): 10 -> 10",
           "instance": "C",
           "method": "create(uint256)",

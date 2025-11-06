@@ -4,7 +4,7 @@
       "name": "require_pre_byzantium",
       "inputs": [
         {
-          "caller": "0x2ad16f8eef66d1445a3864e2786bcb9b6940c2db",
+          "caller": "0xddf80d5467bbc0041e5512cb743a62a73ef91573",
           "comment": "f(bool): true -> 1",
           "instance": "C",
           "method": "f(bool)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x2ad16f8eef66d1445a3864e2786bcb9b6940c2db",
+          "caller": "0xddf80d5467bbc0041e5512cb743a62a73ef91573",
           "comment": "f(bool): false -> 2",
           "instance": "C",
           "method": "f(bool)",

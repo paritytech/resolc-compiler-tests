@@ -4,7 +4,7 @@
       "name": "malformed_error",
       "inputs": [
         {
-          "caller": "0xd5a75c586c5f396396e186ec0ba2b99843baa324",
+          "caller": "0xa3e1eb7e41b14bea090b6aed7b3fc91e828fd457",
           "comment": "a() -> 0x00",
           "instance": "C",
           "method": "a()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xd5a75c586c5f396396e186ec0ba2b99843baa324",
+          "caller": "0xa3e1eb7e41b14bea090b6aed7b3fc91e828fd457",
           "comment": "b() -> 0x00",
           "instance": "C",
           "method": "b()",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0xd5a75c586c5f396396e186ec0ba2b99843baa324",
+          "caller": "0xa3e1eb7e41b14bea090b6aed7b3fc91e828fd457",
           "comment": "b2() -> 0x00",
           "instance": "C",
           "method": "b2()",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0xd5a75c586c5f396396e186ec0ba2b99843baa324",
+          "caller": "0xa3e1eb7e41b14bea090b6aed7b3fc91e828fd457",
           "comment": "b3() -> 0x20, 0x00",
           "instance": "C",
           "method": "b3()",
@@ -48,7 +48,7 @@
           }
         },
         {
-          "caller": "0xd5a75c586c5f396396e186ec0ba2b99843baa324",
+          "caller": "0xa3e1eb7e41b14bea090b6aed7b3fc91e828fd457",
           "comment": "c() -> 0x20, 7, \"abcdefg\"",
           "instance": "C",
           "method": "c()",
@@ -59,7 +59,7 @@
           }
         },
         {
-          "caller": "0xd5a75c586c5f396396e186ec0ba2b99843baa324",
+          "caller": "0xa3e1eb7e41b14bea090b6aed7b3fc91e828fd457",
           "comment": "d() -> 0x20, 7, \"abcdefg\"",
           "instance": "C",
           "method": "d()",

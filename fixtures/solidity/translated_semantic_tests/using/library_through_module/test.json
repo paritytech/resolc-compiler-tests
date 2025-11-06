@@ -4,7 +4,7 @@
       "name": "library_through_module",
       "inputs": [
         {
-          "caller": "0x120a8381fc7c763a827567fc51f5b0d506694d06",
+          "caller": "0x53388155167dec0841cda26ebd636c7da8601614",
           "comment": "f(uint256): 5 -> 5",
           "instance": "C",
           "method": "f(uint256)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x120a8381fc7c763a827567fc51f5b0d506694d06",
+          "caller": "0x53388155167dec0841cda26ebd636c7da8601614",
           "comment": "f(uint256): 10 -> 10",
           "instance": "C",
           "method": "f(uint256)",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0x120a8381fc7c763a827567fc51f5b0d506694d06",
+          "caller": "0x53388155167dec0841cda26ebd636c7da8601614",
           "comment": "g(uint256): 5 -> 1",
           "instance": "C",
           "method": "g(uint256)",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0x120a8381fc7c763a827567fc51f5b0d506694d06",
+          "caller": "0x53388155167dec0841cda26ebd636c7da8601614",
           "comment": "g(uint256): 10 -> 1",
           "instance": "C",
           "method": "g(uint256)",

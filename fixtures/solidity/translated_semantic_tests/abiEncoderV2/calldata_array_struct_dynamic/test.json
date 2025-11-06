@@ -4,7 +4,7 @@
       "name": "calldata_array_struct_dynamic",
       "inputs": [
         {
-          "caller": "0xf1b430efe21f98fad2322c80876f100931493a9d",
+          "caller": "0x406f9bc1f2e6a5ef9c5632182db83348b19f50d9",
           "comment": "f((uint256[])[]): 32, 1, 32, 32, 3, 17, 42, 23 -> 32, 256, 32, 1, 32, 32, 3, 17, 42, 23",
           "instance": "C",
           "method": "f((uint256[])[])",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xf1b430efe21f98fad2322c80876f100931493a9d",
+          "caller": "0x406f9bc1f2e6a5ef9c5632182db83348b19f50d9",
           "comment": "g((uint256[])[]): 32, 1, 32, 32, 3, 17, 42, 23 -> 32, 256, 32, 1, 32, 32, 3, 17, 42, 23",
           "instance": "C",
           "method": "g((uint256[])[])",

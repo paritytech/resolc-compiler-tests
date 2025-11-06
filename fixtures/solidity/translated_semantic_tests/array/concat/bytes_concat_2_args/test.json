@@ -4,7 +4,7 @@
       "name": "bytes_concat_2_args",
       "inputs": [
         {
-          "caller": "0x68e913921441a4abf45dc97d9f5a61d53ab5f774",
+          "caller": "0xbd9f4a3af84bc9e3797acc1928bee8ed244a905c",
           "comment": "f(bytes,bytes): 0x40, 0x80, 32, \"abcdabcdabcdabcdabcdabcdabcdabcd\", 5, \"bcdef\" -> 0x20, 37, \"abcdabcdabcdabcdabcdabcdabcdabcd\", \"bcdef\"",
           "instance": "C",
           "method": "f(bytes,bytes)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x68e913921441a4abf45dc97d9f5a61d53ab5f774",
+          "caller": "0xbd9f4a3af84bc9e3797acc1928bee8ed244a905c",
           "comment": "f(bytes,bytes):0x40, 0xa0, 64, \"abcdabcdabcdabcdabcdabcdabcdabcd\", \"abcdabcdabcdabcdabcdabcdabcdabcd\", 5, \"bcdef\"->0x20, 69, \"abcdabcdabcdabcdabcdabcdabcdabcd\", \"abcdabcdabcdabcdabcdabcdabcdabcd\", \"bcdef\"",
           "instance": "C",
           "method": "f(bytes,bytes)",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0x68e913921441a4abf45dc97d9f5a61d53ab5f774",
+          "caller": "0xbd9f4a3af84bc9e3797acc1928bee8ed244a905c",
           "comment": "f(bytes,bytes): 0x40, 0x80, 3, \"abc\", 3, \"def\" -> 0x20, 6, \"abcdef\"",
           "instance": "C",
           "method": "f(bytes,bytes)",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0x68e913921441a4abf45dc97d9f5a61d53ab5f774",
+          "caller": "0xbd9f4a3af84bc9e3797acc1928bee8ed244a905c",
           "comment": "f(bytes,bytes):0x40, 0xa0, 34, \"abcdabcdabcdabcdabcdabcdabcdabcd\", \"ab\", 30, \"cdabcdabcdabcdabcdabcdabcdabcd\"->0x20, 64, \"abcdabcdabcdabcdabcdabcdabcdabcd\", \"abcdabcdabcdabcdabcdabcdabcdabcd\"",
           "instance": "C",
           "method": "f(bytes,bytes)",
@@ -48,7 +48,7 @@
           }
         },
         {
-          "caller": "0x68e913921441a4abf45dc97d9f5a61d53ab5f774",
+          "caller": "0xbd9f4a3af84bc9e3797acc1928bee8ed244a905c",
           "comment": "f(bytes,bytes):0x40, 0xa0, 34, \"abcdabcdabcdabcdabcdabcdabcdabcd\", \"ab\", 34, \"cdabcdabcdabcdabcdabcdabcdabcdab\", \"cd\"->0x20, 68, \"abcdabcdabcdabcdabcdabcdabcdabcd\", \"abcdabcdabcdabcdabcdabcdabcdabcd\", \"abcd\"",
           "instance": "C",
           "method": "f(bytes,bytes)",
@@ -59,7 +59,7 @@
           }
         },
         {
-          "caller": "0x68e913921441a4abf45dc97d9f5a61d53ab5f774",
+          "caller": "0xbd9f4a3af84bc9e3797acc1928bee8ed244a905c",
           "comment": "f(bytes,bytes):0x40, 0x80, 3, \"abc\", 30, \"dabcdabcdabcdabcdabcdabcdabcda\"->0x20, 33, \"abcdabcdabcdabcdabcdabcdabcdabcd\", \"a\"",
           "instance": "C",
           "method": "f(bytes,bytes)",

@@ -4,7 +4,7 @@
       "name": "conditional_expression_with_return_values",
       "inputs": [
         {
-          "caller": "0x4545c47d316d08c4ab3096b626d11d787c7bc8c7",
+          "caller": "0xc0bc4cefa6669bca821e6a3c07c47b19f8d10055",
           "comment": "f(bool,uint256): true, 20 -> 20, 0",
           "instance": "test",
           "method": "f(bool,uint256)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x4545c47d316d08c4ab3096b626d11d787c7bc8c7",
+          "caller": "0xc0bc4cefa6669bca821e6a3c07c47b19f8d10055",
           "comment": "f(bool,uint256): false, 20 -> 0, 20",
           "instance": "test",
           "method": "f(bool,uint256)",

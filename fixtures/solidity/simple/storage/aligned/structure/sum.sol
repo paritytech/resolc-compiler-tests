@@ -12,14 +12,14 @@
 //!             "10",
 //!             "5"
 //!           ],
-//!           "caller": "0xdc7159adecca5f2e308ff387f343fc5b15487050"
+//!           "caller": "0x9058e29d086b924f1100b99e0c388508cbc536c3"
 //!         },
 //!         {
 //!           "method": "main",
 //!           "calldata": [
 //!             "42"
 //!           ],
-//!           "caller": "0xdc7159adecca5f2e308ff387f343fc5b15487050"
+//!           "caller": "0x9058e29d086b924f1100b99e0c388508cbc536c3"
 //!         }
 //!       ],
 //!       "expected": [

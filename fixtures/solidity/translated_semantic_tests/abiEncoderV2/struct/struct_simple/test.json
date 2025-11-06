@@ -4,7 +4,7 @@
       "name": "struct_simple",
       "inputs": [
         {
-          "caller": "0x8a1f1290642f8a58c050445e612d6a6c9c82a1e6",
+          "caller": "0x5209e942500f9768f578e54892c3d3becd979dc5",
           "comment": "f((uint256,uint8,uint8,bytes2)): 1, 2, 3, \"ab\" -> 1, 2, 3, 0x6162",
           "instance": "C",
           "method": "f((uint256,uint8,uint8,bytes2))",

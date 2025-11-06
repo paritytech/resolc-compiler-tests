@@ -6,19 +6,6 @@
 //!         {
 //!           "method": "main",
 //!           "calldata": [],
-//!           "caller": "0x672e8a27d77eeefed078fc86e94d8a5b2931ad79"
-//!         }
-//!       ],
-//!       "expected": [
-//!         "0x672e8a27d77eeefed078fc86e94d8a5b2931ad79"
-//!       ]
-//!     },
-//!     {
-//!       "name": "one",
-//!       "inputs": [
-//!         {
-//!           "method": "main",
-//!           "calldata": [],
 //!           "caller": "0x2062b63c232e35a781a11ea17f702c8bf9109108"
 //!         }
 //!       ],
@@ -27,7 +14,7 @@
 //!       ]
 //!     },
 //!     {
-//!       "name": "ordinar",
+//!       "name": "one",
 //!       "inputs": [
 //!         {
 //!           "method": "main",
@@ -40,7 +27,7 @@
 //!       ]
 //!     },
 //!     {
-//!       "name": "max",
+//!       "name": "ordinar",
 //!       "inputs": [
 //!         {
 //!           "method": "main",
@@ -50,6 +37,19 @@
 //!       ],
 //!       "expected": [
 //!         "0xddbe7536de04a63c3644e9b071f0299b88678877"
+//!       ]
+//!     },
+//!     {
+//!       "name": "max",
+//!       "inputs": [
+//!         {
+//!           "method": "main",
+//!           "calldata": [],
+//!           "caller": "0x7860611989a2ab4e4eb4d37674e9726597b5da43"
+//!         }
+//!       ],
+//!       "expected": [
+//!         "0x7860611989a2ab4e4eb4d37674e9726597b5da43"
 //!       ]
 //!     }
 //!   ]

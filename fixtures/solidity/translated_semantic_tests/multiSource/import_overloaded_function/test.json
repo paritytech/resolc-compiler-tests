@@ -4,7 +4,7 @@
       "name": "import_overloaded_function",
       "inputs": [
         {
-          "caller": "0x0892f7cb9724c2890830078b3d1a170e601ffab0",
+          "caller": "0x02ab656831cb8003aef90a99febd495ec7b7ace9",
           "comment": "f() -> 1, 2",
           "instance": "C",
           "method": "f()",

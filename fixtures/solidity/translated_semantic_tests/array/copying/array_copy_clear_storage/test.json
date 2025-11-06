@@ -4,7 +4,7 @@
       "name": "array_copy_clear_storage",
       "inputs": [
         {
-          "caller": "0xbaef2fc4bda554f312bd70bad84a174dbb4cc475",
+          "caller": "0x39112e33c82b11c0300dc3f956dc5cf75fac47c5",
           "comment": "f() -> 0; gas irOptimized: 108229; gas legacy: 108216; gas legacyOptimized: 107625",
           "instance": "C",
           "method": "f()",

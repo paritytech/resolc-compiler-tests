@@ -4,7 +4,7 @@
       "name": "create_memory_array_too_large",
       "inputs": [
         {
-          "caller": "0xb744b6e0033b5aab26d40dac01b1fe71b8f08bb7",
+          "caller": "0x5c346d2c786f8e8a79f3692d45291482f514fbea",
           "comment": "f() -> FAILURE, hex\"4e487b71\", 0x41",
           "instance": "C",
           "method": "f()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xb744b6e0033b5aab26d40dac01b1fe71b8f08bb7",
+          "caller": "0x5c346d2c786f8e8a79f3692d45291482f514fbea",
           "comment": "g() -> FAILURE, hex\"4e487b71\", 0x41",
           "instance": "C",
           "method": "g()",

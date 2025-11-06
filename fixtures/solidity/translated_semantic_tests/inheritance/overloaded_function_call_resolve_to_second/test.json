@@ -4,7 +4,7 @@
       "name": "overloaded_function_call_resolve_to_second",
       "inputs": [
         {
-          "caller": "0x3c6f8b28ea0b60c075080d18969993af55ac88e1",
+          "caller": "0x671d4980940bb97373d43a3842e40247fbdc5889",
           "comment": "g() -> 10",
           "instance": "test",
           "method": "g()",

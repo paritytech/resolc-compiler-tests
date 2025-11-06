@@ -16,13 +16,13 @@
             "10",
             "0x496e70757420746f205800000000000000000000000000000000000000000000"
           ],
-          "caller": "0x2591177f73135324d646556fc4c880ac8a149c8e"
+          "caller": "0xd4ce1faf9349c0b3b50da3e419573cc39ee66e02"
         },
         {
           "instance": "B",
           "method": "text",
           "calldata": [],
-          "caller": "0x2591177f73135324d646556fc4c880ac8a149c8e"
+          "caller": "0xd4ce1faf9349c0b3b50da3e419573cc39ee66e02"
         }
       ],
       "expected": [

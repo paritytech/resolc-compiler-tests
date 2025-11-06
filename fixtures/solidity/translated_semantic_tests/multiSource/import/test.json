@@ -4,7 +4,7 @@
       "name": "import",
       "inputs": [
         {
-          "caller": "0x09e352f7e5715942db7f171eb6e4b88de1a0dcd1",
+          "caller": "0x9582ced84d92f9b4ff8bbe3583804e8941987a9d",
           "comment": "f(uint256): 1337 -> 1337",
           "instance": "B",
           "method": "f(uint256)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x09e352f7e5715942db7f171eb6e4b88de1a0dcd1",
+          "caller": "0x9582ced84d92f9b4ff8bbe3583804e8941987a9d",
           "comment": "g(uint256): 1337 -> 1338",
           "instance": "B",
           "method": "g(uint256)",

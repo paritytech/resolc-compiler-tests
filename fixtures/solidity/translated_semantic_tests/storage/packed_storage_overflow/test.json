@@ -4,7 +4,7 @@
       "name": "packed_storage_overflow",
       "inputs": [
         {
-          "caller": "0x7535d9bc875fdfb4e7e3a4c8625ff157a4350feb",
+          "caller": "0xed0e57bf2eca4875f2fc76e44e193295ef535211",
           "comment": "f() -> 0x1234, 0x0, 0x0, 0xfffe",
           "instance": "C",
           "method": "f()",

@@ -4,7 +4,7 @@
       "name": "module_renamed",
       "inputs": [
         {
-          "caller": "0x0d69976493c09b07137c343c9075292da98e5803",
+          "caller": "0x222c5888ff54fa44ea70c10b707132a7593562b8",
           "comment": "test(uint256,uint256): 1, 1 -> 9, 3",
           "instance": "C",
           "method": "test(uint256,uint256)",

@@ -4,7 +4,7 @@
       "name": "simple_notuple",
       "inputs": [
         {
-          "caller": "0xf3fce4b13ffffce4442a44565ddbea1f98ee1ae6",
+          "caller": "0x2ad16f8eef66d1445a3864e2786bcb9b6940c2db",
           "comment": "f(bool): true -> 13",
           "instance": "C",
           "method": "f(bool)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xf3fce4b13ffffce4442a44565ddbea1f98ee1ae6",
+          "caller": "0x2ad16f8eef66d1445a3864e2786bcb9b6940c2db",
           "comment": "f(bool): false -> 9",
           "instance": "C",
           "method": "f(bool)",

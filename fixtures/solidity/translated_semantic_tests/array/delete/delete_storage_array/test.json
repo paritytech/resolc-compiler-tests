@@ -4,7 +4,7 @@
       "name": "delete_storage_array",
       "inputs": [
         {
-          "caller": "0xa809703644634f7bf08db66c1b0051b6209a6d04",
+          "caller": "0x621cf37960b098a581093fee7d3d87637baff36c",
           "comment": "len() -> 0",
           "instance": "C",
           "method": "len()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xa809703644634f7bf08db66c1b0051b6209a6d04",
+          "caller": "0x621cf37960b098a581093fee7d3d87637baff36c",
           "comment": "val() -> 0",
           "instance": "C",
           "method": "val()",

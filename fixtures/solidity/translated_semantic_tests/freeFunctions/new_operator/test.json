@@ -4,7 +4,7 @@
       "name": "new_operator",
       "inputs": [
         {
-          "caller": "0x4c42941d0667dd20fafdae2b456deed067dc803d",
+          "caller": "0x8206b4e43d450af3813b916ce5eda32774b9f81f",
           "comment": "f() -> 2; gas legacy: 76611; gas legacy code: 23600",
           "instance": "D",
           "method": "f()",

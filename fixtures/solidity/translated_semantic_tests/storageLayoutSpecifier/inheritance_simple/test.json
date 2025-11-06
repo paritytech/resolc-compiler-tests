@@ -4,7 +4,7 @@
       "name": "inheritance_simple",
       "inputs": [
         {
-          "caller": "0x86fa52e53f4480ee9f21142387b94d7ef9ff1aa0",
+          "caller": "0x9e9d6b5a20e451ba2dd9c712b5773e77dd9dc949",
           "comment": "f() -> 8",
           "instance": "C",
           "method": "f()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x86fa52e53f4480ee9f21142387b94d7ef9ff1aa0",
+          "caller": "0x9e9d6b5a20e451ba2dd9c712b5773e77dd9dc949",
           "comment": "x() -> 6",
           "instance": "C",
           "method": "x()",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0x86fa52e53f4480ee9f21142387b94d7ef9ff1aa0",
+          "caller": "0x9e9d6b5a20e451ba2dd9c712b5773e77dd9dc949",
           "comment": "y() -> 8",
           "instance": "C",
           "method": "y()",

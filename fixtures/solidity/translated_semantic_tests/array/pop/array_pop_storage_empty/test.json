@@ -6,7 +6,7 @@
       "name": "array_pop_storage_empty",
       "inputs": [
         {
-          "caller": "0x2201929ad6bf27564fed318fa4b18d85a03f1fdb",
+          "caller": "0x486fe0a7f1c4c2426bd98890c56f1903e310cacd",
           "comment": "test() ->",
           "instance": "c",
           "method": "test()",
@@ -19,7 +19,7 @@
           "comment": "storageEmpty -> 1",
           "address": "c.address",
           "is_storage_empty": true,
-          "caller": "0x1ed5a268af7054084baa063d5d0645c7d66a074b"
+          "caller": "0xcd3e7a89fb4d6c8dee6fd617c061f326c6a5fbaf"
         }
       ]
     }

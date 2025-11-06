@@ -4,7 +4,7 @@
       "name": "array_copy_storage_storage_static_simple",
       "inputs": [
         {
-          "caller": "0xd523261de9ca0dfb50e0bff853d9ef726400e835",
+          "caller": "0x816092f92a6e3ae62e3859b7ef160dbdf0e212ec",
           "comment": "test() -> left(0x01), left(0x02); gas legacy: 90001; gas legacyOptimized: 89085",
           "instance": "C",
           "method": "test()",

@@ -4,7 +4,7 @@
       "name": "external_call_with_storage_array_parameter",
       "inputs": [
         {
-          "caller": "0x3da14b4ed85db48503045f293a575261cffd09d5",
+          "caller": "0x303ab9afd59f083ae252e8e5d3b5f2b009a53bb2",
           "comment": "g(uint256): 4 -> 16",
           "instance": "C",
           "method": "g(uint256)",

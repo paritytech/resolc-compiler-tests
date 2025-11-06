@@ -4,7 +4,7 @@
       "name": "convert_fixed_bytes_to_fixed_bytes_same_size",
       "inputs": [
         {
-          "caller": "0x8901d6d20ddddfb1ba43136c97cb1816e75e9c4c",
+          "caller": "0x285ebf0a9b8c4899d82457bac23d175bd69b153e",
           "comment": "bytesToBytes(bytes4): \"abcd\" -> \"abcd\"",
           "instance": "Test",
           "method": "bytesToBytes(bytes4)",

@@ -4,7 +4,7 @@
       "name": "nested_tuples",
       "inputs": [
         {
-          "caller": "0xb9d8f1ceed9013a741704c5bd952f1ce6f01df2f",
+          "caller": "0x896529908174d88fcd0e6fb07c111a37836c8f31",
           "comment": "f0() -> 2, true",
           "instance": "test",
           "method": "f0()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xb9d8f1ceed9013a741704c5bd952f1ce6f01df2f",
+          "caller": "0x896529908174d88fcd0e6fb07c111a37836c8f31",
           "comment": "f1() -> 1",
           "instance": "test",
           "method": "f1()",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0xb9d8f1ceed9013a741704c5bd952f1ce6f01df2f",
+          "caller": "0x896529908174d88fcd0e6fb07c111a37836c8f31",
           "comment": "f2() -> 2",
           "instance": "test",
           "method": "f2()",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0xb9d8f1ceed9013a741704c5bd952f1ce6f01df2f",
+          "caller": "0x896529908174d88fcd0e6fb07c111a37836c8f31",
           "comment": "f3() -> 3",
           "instance": "test",
           "method": "f3()",
@@ -48,7 +48,7 @@
           }
         },
         {
-          "caller": "0xb9d8f1ceed9013a741704c5bd952f1ce6f01df2f",
+          "caller": "0x896529908174d88fcd0e6fb07c111a37836c8f31",
           "comment": "f4() -> 4",
           "instance": "test",
           "method": "f4()",

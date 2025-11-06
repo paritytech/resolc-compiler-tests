@@ -4,7 +4,7 @@
       "name": "delete",
       "inputs": [
         {
-          "caller": "0xaacc0d450fd12d0eddc97297fb9348240ea8ec60",
+          "caller": "0x932a7700198dba3be142d326187e3d74e02f616c",
           "comment": "fillArray() -> 3; gas irOptimized: 111121; gas legacy: 110730; gas legacyOptimized: 110307",
           "instance": "C",
           "method": "fillArray()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xaacc0d450fd12d0eddc97297fb9348240ea8ec60",
+          "caller": "0x932a7700198dba3be142d326187e3d74e02f616c",
           "comment": "arrayLength() -> 3",
           "instance": "C",
           "method": "arrayLength()",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0xaacc0d450fd12d0eddc97297fb9348240ea8ec60",
+          "caller": "0x932a7700198dba3be142d326187e3d74e02f616c",
           "comment": "array(uint256): 2 -> 3",
           "instance": "C",
           "method": "array(uint256)",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0xaacc0d450fd12d0eddc97297fb9348240ea8ec60",
+          "caller": "0x932a7700198dba3be142d326187e3d74e02f616c",
           "comment": "deleteLast() ->",
           "instance": "C",
           "method": "deleteLast()",
@@ -47,7 +47,7 @@
           }
         },
         {
-          "caller": "0xaacc0d450fd12d0eddc97297fb9348240ea8ec60",
+          "caller": "0x932a7700198dba3be142d326187e3d74e02f616c",
           "comment": "array(uint256): 2 -> 0",
           "instance": "C",
           "method": "array(uint256)",
@@ -58,7 +58,7 @@
           }
         },
         {
-          "caller": "0xaacc0d450fd12d0eddc97297fb9348240ea8ec60",
+          "caller": "0x932a7700198dba3be142d326187e3d74e02f616c",
           "comment": "deleteArray() ->",
           "instance": "C",
           "method": "deleteArray()",
@@ -68,7 +68,7 @@
           }
         },
         {
-          "caller": "0xaacc0d450fd12d0eddc97297fb9348240ea8ec60",
+          "caller": "0x932a7700198dba3be142d326187e3d74e02f616c",
           "comment": "arrayLength() -> 0",
           "instance": "C",
           "method": "arrayLength()",

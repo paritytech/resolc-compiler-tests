@@ -4,7 +4,7 @@
       "name": "selector_ternary_function_pointer_from_function_call",
       "inputs": [
         {
-          "caller": "0x704ac969332f213f80722e3d9bb781121062b3f9",
+          "caller": "0x274976571e36004faa000e2ce900c472da8cf2da",
           "comment": "test(bool): true -> 0x26121ff000000000000000000000000000000000000000000000000000000000",
           "instance": "C",
           "method": "test(bool)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x704ac969332f213f80722e3d9bb781121062b3f9",
+          "caller": "0x274976571e36004faa000e2ce900c472da8cf2da",
           "comment": "test(bool): false -> 0xe2179b8e00000000000000000000000000000000000000000000000000000000",
           "instance": "C",
           "method": "test(bool)",

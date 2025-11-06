@@ -4,7 +4,7 @@
       "name": "operator_definition_shadowing_builtin_keccak256",
       "inputs": [
         {
-          "caller": "0x1b365c3a0539a025637a5d60f1bbf9f6ee1cbfe5",
+          "caller": "0x5037222f4e96e56a6f7a88b4a79c5e1470089014",
           "comment": "test() -> 7",
           "instance": "C",
           "method": "test()",

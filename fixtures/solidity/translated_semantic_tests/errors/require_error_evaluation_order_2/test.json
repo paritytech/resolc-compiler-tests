@@ -4,7 +4,7 @@
       "name": "require_error_evaluation_order_2",
       "inputs": [
         {
-          "caller": "0x71644a0b4c33665c7c62533a3b53a69294578a1d",
+          "caller": "0x1614b6c40982cdf168469ce908e625874435b7cc",
           "comment": "f(bool): false -> FAILURE, hex\"002ff067\", 42",
           "instance": "C",
           "method": "f(bool)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x71644a0b4c33665c7c62533a3b53a69294578a1d",
+          "caller": "0x1614b6c40982cdf168469ce908e625874435b7cc",
           "comment": "f(bool): true ->",
           "instance": "C",
           "method": "f(bool)",

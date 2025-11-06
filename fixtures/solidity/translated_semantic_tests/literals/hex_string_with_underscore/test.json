@@ -4,7 +4,7 @@
       "name": "hex_string_with_underscore",
       "inputs": [
         {
-          "caller": "0x949c4b6696984a14ec0427401d9f3e3f4f150a43",
+          "caller": "0xf9c13bfbdabb6f37b7f04ed40a9f49220d0b54e2",
           "comment": "f() -> 32, 5, left(0x123456789A)",
           "instance": "C",
           "method": "f()",

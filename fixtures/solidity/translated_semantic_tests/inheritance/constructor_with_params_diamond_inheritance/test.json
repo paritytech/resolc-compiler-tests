@@ -4,7 +4,7 @@
       "name": "constructor_with_params_diamond_inheritance",
       "inputs": [
         {
-          "caller": "0x77cd13bae5a47b275c70d846a672e1e644c38e15",
+          "caller": "0x470e1fa5137b4c1f0deb50688caf5bd3021a67ae",
           "comment": "constructor(): 2, 0 ->; gas irOptimized: 124350; gas irOptimized code: 27600; gas legacy: 128222; gas legacy code: 40400; gas legacyOptimized: 123920; gas legacyOptimized code: 20600",
           "instance": "D",
           "method": "#deployer",
@@ -14,7 +14,7 @@
           }
         },
         {
-          "caller": "0x77cd13bae5a47b275c70d846a672e1e644c38e15",
+          "caller": "0x470e1fa5137b4c1f0deb50688caf5bd3021a67ae",
           "comment": "i() -> 2",
           "instance": "D",
           "method": "i()",
@@ -25,7 +25,7 @@
           }
         },
         {
-          "caller": "0x77cd13bae5a47b275c70d846a672e1e644c38e15",
+          "caller": "0x470e1fa5137b4c1f0deb50688caf5bd3021a67ae",
           "comment": "j() -> 2",
           "instance": "D",
           "method": "j()",
@@ -36,7 +36,7 @@
           }
         },
         {
-          "caller": "0x77cd13bae5a47b275c70d846a672e1e644c38e15",
+          "caller": "0x470e1fa5137b4c1f0deb50688caf5bd3021a67ae",
           "comment": "k() -> 1",
           "instance": "D",
           "method": "k()",

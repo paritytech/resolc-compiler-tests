@@ -4,7 +4,7 @@
       "name": "negative_stack_height",
       "inputs": [
         {
-          "caller": "0x340f302e4d45de13741e53556b6c5a351518ad36",
+          "caller": "0x41ce2453769a6c047db80b67f826e7023e22a7a3",
           "comment": "constructor() ->; gas legacy: 92268; gas legacy code: 483000; gas legacyOptimized: 75022; gas legacyOptimized code: 270000",
           "instance": "C",
           "method": "#deployer",

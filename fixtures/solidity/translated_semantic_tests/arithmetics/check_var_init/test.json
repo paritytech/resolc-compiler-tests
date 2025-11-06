@@ -4,7 +4,7 @@
       "name": "check_var_init",
       "inputs": [
         {
-          "caller": "0xc3e54f9009f0c5114558df1d218a9014a3605605",
+          "caller": "0x7c907e2383af68be12df65ce4599c124d181f199",
           "comment": "f() -> FAILURE, hex\"4e487b71\", 0x11",
           "instance": "D",
           "method": "f()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xc3e54f9009f0c5114558df1d218a9014a3605605",
+          "caller": "0x7c907e2383af68be12df65ce4599c124d181f199",
           "comment": "g(), 100 wei -> 1; gas legacy: 76780; gas legacy code: 23600",
           "instance": "D",
           "method": "g()",

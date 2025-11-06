@@ -4,7 +4,7 @@
       "name": "via_import",
       "inputs": [
         {
-          "caller": "0xe6b26f9e1a0f65935af94053edff38bedbb7854e",
+          "caller": "0xdebb72778fb5c0379c83bc5d6f855368b61e607a",
           "comment": "x() -> FAILURE, hex\"002ff067\", hex\"0000000000000000000000000000000000000000000000000000000000000001\"",
           "instance": "C",
           "method": "x()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xe6b26f9e1a0f65935af94053edff38bedbb7854e",
+          "caller": "0xdebb72778fb5c0379c83bc5d6f855368b61e607a",
           "comment": "y() -> FAILURE, hex\"002ff067\", hex\"0000000000000000000000000000000000000000000000000000000000000002\"",
           "instance": "C",
           "method": "y()",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0xe6b26f9e1a0f65935af94053edff38bedbb7854e",
+          "caller": "0xdebb72778fb5c0379c83bc5d6f855368b61e607a",
           "comment": "z() -> FAILURE, hex\"002ff067\", hex\"0000000000000000000000000000000000000000000000000000000000000003\"",
           "instance": "C",
           "method": "z()",

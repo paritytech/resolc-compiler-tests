@@ -4,7 +4,7 @@
       "name": "wrap_unwrap",
       "inputs": [
         {
-          "caller": "0xd401e23e11f7b85b1c008e1495c8e8a29c49058f",
+          "caller": "0x6a8efc58fb40f77cd471f3778b8c66d1665e603e",
           "comment": "f() ->",
           "instance": "C",
           "method": "f()",

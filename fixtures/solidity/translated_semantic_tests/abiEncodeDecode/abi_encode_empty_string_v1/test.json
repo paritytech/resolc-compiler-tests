@@ -4,7 +4,7 @@
       "name": "abi_encode_empty_string_v1",
       "inputs": [
         {
-          "caller": "0xd1b639e577c08a542c1b3219106b25535e12b9dd",
+          "caller": "0x11cc770a1353033c8e44419043bf9747c69b5129",
           "comment": "f() -> 0x40, 0xa0, 0x40, 0x20, 0x0, 0x0",
           "instance": "C",
           "method": "f()",

@@ -4,7 +4,7 @@
       "name": "dirty_calldata_dynamic_array",
       "inputs": [
         {
-          "caller": "0xc5f6ce99e95f820f5b4ca9a45d53d8a4cd9eb54b",
+          "caller": "0xeaee377d4d703f7a9534916474d0237068abdc27",
           "comment": "f(int16[]): 0x20, 0x02, 0x7fff, 0x7fff -> true",
           "instance": "C",
           "method": "f(int16[])",

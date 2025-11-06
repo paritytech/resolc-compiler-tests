@@ -4,7 +4,7 @@
       "name": "parenthesized",
       "inputs": [
         {
-          "caller": "0xd83e5fa6c07f2e6da9089afa446ba2a0c8c84596",
+          "caller": "0x22f5d5475f1ef0f35bc437f811c9c074092555f2",
           "comment": "f() -> 0",
           "instance": "C",
           "method": "f()",

@@ -6,7 +6,7 @@
       "name": "codehash_assembly",
       "inputs": [
         {
-          "caller": "0x93eee2d1225774142e632cf630834c009659caa9",
+          "caller": "0x795f95e74f3c7ebc96293225f2c020e39f442ad1",
           "comment": "f() -> 0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470",
           "instance": "C",
           "method": "f()",
@@ -17,7 +17,7 @@
           }
         },
         {
-          "caller": "0x93eee2d1225774142e632cf630834c009659caa9",
+          "caller": "0x795f95e74f3c7ebc96293225f2c020e39f442ad1",
           "comment": "g() -> 0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470",
           "instance": "C",
           "method": "g()",
@@ -28,7 +28,7 @@
           }
         },
         {
-          "caller": "0x93eee2d1225774142e632cf630834c009659caa9",
+          "caller": "0x795f95e74f3c7ebc96293225f2c020e39f442ad1",
           "comment": "h() -> true",
           "instance": "C",
           "method": "h()",

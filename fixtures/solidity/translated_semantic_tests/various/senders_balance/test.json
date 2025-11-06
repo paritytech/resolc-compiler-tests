@@ -4,7 +4,7 @@
       "name": "senders_balance",
       "inputs": [
         {
-          "caller": "0xb271c2a69d39a6ee4ec67bb6ad41589c8b82cb8f",
+          "caller": "0xf768b1eb487b621c37a44401b835b109a48ac046",
           "comment": "constructor(), 27 wei ->; gas irOptimized: 114057; gas irOptimized code: 53800; gas legacy: 117834; gas legacy code: 100600; gas legacyOptimized: 113676; gas legacyOptimized code: 53600",
           "instance": "D",
           "method": "#deployer",
@@ -15,7 +15,7 @@
           "value": "27 wei"
         },
         {
-          "caller": "0xb271c2a69d39a6ee4ec67bb6ad41589c8b82cb8f",
+          "caller": "0xf768b1eb487b621c37a44401b835b109a48ac046",
           "comment": "f() -> 27",
           "instance": "D",
           "method": "f()",

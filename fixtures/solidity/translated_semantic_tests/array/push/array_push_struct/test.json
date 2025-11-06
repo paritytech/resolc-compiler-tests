@@ -4,7 +4,7 @@
       "name": "array_push_struct",
       "inputs": [
         {
-          "caller": "0xe8c846c41e145de7605396a03d654d20041404df",
+          "caller": "0xc919cd1c3c7c68137e316c16851fd9bbb09c70ae",
           "comment": "test() -> 2, 3, 4, 5; gas irOptimized: 135329; gas legacy: 147437; gas legacyOptimized: 146429",
           "instance": "c",
           "method": "test()",

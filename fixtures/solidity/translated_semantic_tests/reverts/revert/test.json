@@ -4,7 +4,7 @@
       "name": "revert",
       "inputs": [
         {
-          "caller": "0xf2dd6d9caf8791351e320a9bf6ac19fb7bf15c84",
+          "caller": "0xb214a803de8eba35c3e7c3614be21b8b0772466e",
           "comment": "f() -> FAILURE",
           "instance": "C",
           "method": "f()",
@@ -14,7 +14,7 @@
           }
         },
         {
-          "caller": "0xf2dd6d9caf8791351e320a9bf6ac19fb7bf15c84",
+          "caller": "0xb214a803de8eba35c3e7c3614be21b8b0772466e",
           "comment": "a() -> 42",
           "instance": "C",
           "method": "a()",
@@ -25,7 +25,7 @@
           }
         },
         {
-          "caller": "0xf2dd6d9caf8791351e320a9bf6ac19fb7bf15c84",
+          "caller": "0xb214a803de8eba35c3e7c3614be21b8b0772466e",
           "comment": "g() -> FAILURE",
           "instance": "C",
           "method": "g()",
@@ -35,7 +35,7 @@
           }
         },
         {
-          "caller": "0xf2dd6d9caf8791351e320a9bf6ac19fb7bf15c84",
+          "caller": "0xb214a803de8eba35c3e7c3614be21b8b0772466e",
           "comment": "a() -> 42",
           "instance": "C",
           "method": "a()",

@@ -4,7 +4,7 @@
       "name": "using_for_function_on_int",
       "inputs": [
         {
-          "caller": "0xbea893cec5058905ded9d14986270dc8278aeb3f",
+          "caller": "0x2d49e8a064d7f65050a431d2d2104c3461492ed5",
           "comment": "f(uint256): 9 -> 18",
           "instance": "C",
           "method": "f(uint256)",

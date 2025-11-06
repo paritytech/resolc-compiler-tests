@@ -4,7 +4,7 @@
       "name": "convert_uint_to_fixed_bytes_same_min_size",
       "inputs": [
         {
-          "caller": "0x33f70ae006ebb37cc2aabbaca078af686f05bb77",
+          "caller": "0x6ac3e578fd893b21ed36073d250675c6ca1b2384",
           "comment": "UintToBytes(uint8): 0x61 -> \"a\"",
           "instance": "Test",
           "method": "UintToBytes(uint8)",

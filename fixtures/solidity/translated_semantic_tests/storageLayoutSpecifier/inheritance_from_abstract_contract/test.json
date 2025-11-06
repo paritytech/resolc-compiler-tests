@@ -4,7 +4,7 @@
       "name": "inheritance_from_abstract_contract",
       "inputs": [
         {
-          "caller": "0x1a69f8f0b7a1218ca1a43f5c525a1cbd122b7dc7",
+          "caller": "0x9ef539e7b67ac21d9782f491ddcf4f75d3dee737",
           "comment": "f() -> 10",
           "instance": "C",
           "method": "f()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x1a69f8f0b7a1218ca1a43f5c525a1cbd122b7dc7",
+          "caller": "0x9ef539e7b67ac21d9782f491ddcf4f75d3dee737",
           "comment": "x() -> 8",
           "instance": "C",
           "method": "x()",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0x1a69f8f0b7a1218ca1a43f5c525a1cbd122b7dc7",
+          "caller": "0x9ef539e7b67ac21d9782f491ddcf4f75d3dee737",
           "comment": "y() -> 10",
           "instance": "C",
           "method": "y()",

@@ -4,7 +4,7 @@
       "name": "ripemd160_packed",
       "inputs": [
         {
-          "caller": "0x05c9bd02e28d9c9272da49adbbcb1f3bbdbccd3b",
+          "caller": "0xb43a0767a633b55c6dcd3c74eb6ae78a2ddf46ae",
           "comment": "f(int256): 4 -> 0xf93175303eba2a7b372174fc9330237f5ad202fc000000000000000000000000",
           "instance": "C",
           "method": "f(int256)",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x05c9bd02e28d9c9272da49adbbcb1f3bbdbccd3b",
+          "caller": "0xb43a0767a633b55c6dcd3c74eb6ae78a2ddf46ae",
           "comment": "f(int256): 5 -> 0x04f4fc112e2bfbe0d38f896a46629e08e2fcfad5000000000000000000000000",
           "instance": "C",
           "method": "f(int256)",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0x05c9bd02e28d9c9272da49adbbcb1f3bbdbccd3b",
+          "caller": "0xb43a0767a633b55c6dcd3c74eb6ae78a2ddf46ae",
           "comment": "f(int256): -1 -> 0xc0a2e4b1f3ff766a9a0089e7a410391730872495000000000000000000000000",
           "instance": "C",
           "method": "f(int256)",

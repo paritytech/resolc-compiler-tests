@@ -4,7 +4,7 @@
       "name": "evaluation_order",
       "inputs": [
         {
-          "caller": "0x3069a7e10961a6693e7fcf06f015cde57b9c3e33",
+          "caller": "0xf2d3dd37bb7e81429228ae15643264eee3daa479",
           "comment": "query() -> 0x20, 7, 4, 2, 6, 1, 3, 5, 7",
           "instance": "D",
           "method": "query()",

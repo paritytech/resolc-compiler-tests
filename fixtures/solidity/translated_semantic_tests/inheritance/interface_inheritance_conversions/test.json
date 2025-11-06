@@ -4,7 +4,7 @@
       "name": "interface_inheritance_conversions",
       "inputs": [
         {
-          "caller": "0x4f11031015554fb5ad0f9936744349d58a6d78b9",
+          "caller": "0x12d5bc9f939050c6ffb1386d990093b18115eea5",
           "comment": "convertParent() -> 1; gas irOptimized: 85524",
           "instance": "C",
           "method": "convertParent()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x4f11031015554fb5ad0f9936744349d58a6d78b9",
+          "caller": "0x12d5bc9f939050c6ffb1386d990093b18115eea5",
           "comment": "convertSubA() -> 1, 2; gas irOptimized: 86155; gas legacy: 99047",
           "instance": "C",
           "method": "convertSubA()",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0x4f11031015554fb5ad0f9936744349d58a6d78b9",
+          "caller": "0x12d5bc9f939050c6ffb1386d990093b18115eea5",
           "comment": "convertSubB() -> 1, 3; gas irOptimized: 86098; gas legacy: 98981",
           "instance": "C",
           "method": "convertSubB()",

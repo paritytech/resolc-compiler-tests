@@ -4,7 +4,7 @@
       "name": "array_slices",
       "inputs": [
         {
-          "caller": "0xc1c2cd2cd2117072b78d95c51a022c63156d3104",
+          "caller": "0x725b18b7ea3a3efe489b37ae05709ba98d7319e3",
           "comment": "f(uint256,uint256,uint256[]): 2, 1, 0x80, 3, 1, 2, 3 -> FAILURE",
           "instance": "C",
           "method": "f(uint256,uint256,uint256[])",
@@ -14,7 +14,7 @@
           }
         },
         {
-          "caller": "0xc1c2cd2cd2117072b78d95c51a022c63156d3104",
+          "caller": "0x725b18b7ea3a3efe489b37ae05709ba98d7319e3",
           "comment": "f(uint256,uint256,uint256[]): 1, 5, 0x80, 3, 1, 2, 3 -> FAILURE",
           "instance": "C",
           "method": "f(uint256,uint256,uint256[])",

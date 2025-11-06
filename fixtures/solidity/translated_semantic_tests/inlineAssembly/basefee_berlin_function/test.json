@@ -4,7 +4,7 @@
       "name": "basefee_berlin_function",
       "inputs": [
         {
-          "caller": "0x1c8bd0df5e82f5e029c66bb73ba2c32e85e3e13e",
+          "caller": "0x862f4be490988ec0f55f6e2340eb58c39553d2e4",
           "comment": "f() -> 0",
           "instance": "C",
           "method": "f()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x1c8bd0df5e82f5e029c66bb73ba2c32e85e3e13e",
+          "caller": "0x862f4be490988ec0f55f6e2340eb58c39553d2e4",
           "comment": "g() -> 1000",
           "instance": "C",
           "method": "g()",

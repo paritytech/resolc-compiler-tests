@@ -4,7 +4,7 @@
       "name": "decayed_tuple",
       "inputs": [
         {
-          "caller": "0xc58a36b0c1b2411f658be5602d98463dd05a1a2f",
+          "caller": "0xac402facf3e77aa1ca32fa5dd7310ab9c86c73fb",
           "comment": "f() -> 2",
           "instance": "C",
           "method": "f()",

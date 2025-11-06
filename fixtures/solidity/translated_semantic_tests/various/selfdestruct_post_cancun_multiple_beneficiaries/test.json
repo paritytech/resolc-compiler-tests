@@ -4,7 +4,7 @@
       "name": "selfdestruct_post_cancun_multiple_beneficiaries",
       "inputs": [
         {
-          "caller": "0x9afd2bb0f19574b1b41a3c76404343c33695df89",
+          "caller": "0xd3420d0749ca2f8f357b74211c982f894023dd66",
           "comment": "constructor(), 2 ether ->; gas irOptimized: 108104; gas irOptimized code: 119200; gas legacy: 120439; gas legacy code: 253800; gas legacyOptimized: 109015; gas legacyOptimized code: 130800",
           "instance": "D",
           "method": "#deployer",
@@ -18,22 +18,22 @@
           "comment": "balance: 0x1111111111111111111111111111111111111111 -> 0",
           "address": "0x1111111111111111111111111111111111111111",
           "expected_balance": "0x0",
-          "caller": "0x8f772c22d9251b6eed80dba6dd452a408dbb844f"
+          "caller": "0xc71368256498c815d169bf23a0945ff92cb97be5"
         },
         {
           "comment": "balance: 0x2222222222222222222222222222222222222222 -> 0",
           "address": "0x2222222222222222222222222222222222222222",
           "expected_balance": "0x0",
-          "caller": "0x8f772c22d9251b6eed80dba6dd452a408dbb844f"
+          "caller": "0xc71368256498c815d169bf23a0945ff92cb97be5"
         },
         {
           "comment": "balance -> 2000000000000000000",
           "address": "D.address",
           "expected_balance": "0x1bc16d674ec80000",
-          "caller": "0x8f772c22d9251b6eed80dba6dd452a408dbb844f"
+          "caller": "0xc71368256498c815d169bf23a0945ff92cb97be5"
         },
         {
-          "caller": "0x9afd2bb0f19574b1b41a3c76404343c33695df89",
+          "caller": "0xd3420d0749ca2f8f357b74211c982f894023dd66",
           "comment": "exists() -> false",
           "instance": "D",
           "method": "exists()",
@@ -44,7 +44,7 @@
           }
         },
         {
-          "caller": "0x9afd2bb0f19574b1b41a3c76404343c33695df89",
+          "caller": "0xd3420d0749ca2f8f357b74211c982f894023dd66",
           "comment": "test_deploy_and_terminate_twice() ->; gas irOptimized: 121395; gas irOptimized code: 14000; gas legacy: 122386; gas legacy code: 43200; gas legacyOptimized: 121596; gas legacyOptimized code: 22800",
           "instance": "D",
           "method": "test_deploy_and_terminate_twice()",
@@ -54,7 +54,7 @@
           }
         },
         {
-          "caller": "0x9afd2bb0f19574b1b41a3c76404343c33695df89",
+          "caller": "0xd3420d0749ca2f8f357b74211c982f894023dd66",
           "comment": "exists() -> false",
           "instance": "D",
           "method": "exists()",
@@ -68,22 +68,22 @@
           "comment": "balance: 0x1111111111111111111111111111111111111111 -> 1000000000000000000",
           "address": "0x1111111111111111111111111111111111111111",
           "expected_balance": "0xde0b6b3a7640000",
-          "caller": "0x8f772c22d9251b6eed80dba6dd452a408dbb844f"
+          "caller": "0xc71368256498c815d169bf23a0945ff92cb97be5"
         },
         {
           "comment": "balance: 0x2222222222222222222222222222222222222222 -> 0",
           "address": "0x2222222222222222222222222222222222222222",
           "expected_balance": "0x0",
-          "caller": "0x8f772c22d9251b6eed80dba6dd452a408dbb844f"
+          "caller": "0xc71368256498c815d169bf23a0945ff92cb97be5"
         },
         {
           "comment": "balance -> 1000000000000000000",
           "address": "D.address",
           "expected_balance": "0xde0b6b3a7640000",
-          "caller": "0x8f772c22d9251b6eed80dba6dd452a408dbb844f"
+          "caller": "0xc71368256498c815d169bf23a0945ff92cb97be5"
         },
         {
-          "caller": "0x9afd2bb0f19574b1b41a3c76404343c33695df89",
+          "caller": "0xd3420d0749ca2f8f357b74211c982f894023dd66",
           "comment": "deploy() ->; gas legacy: 58491; gas legacy code: 43200",
           "instance": "D",
           "method": "deploy()",
@@ -93,7 +93,7 @@
           }
         },
         {
-          "caller": "0x9afd2bb0f19574b1b41a3c76404343c33695df89",
+          "caller": "0xd3420d0749ca2f8f357b74211c982f894023dd66",
           "comment": "exists() -> true",
           "instance": "D",
           "method": "exists()",
@@ -107,22 +107,22 @@
           "comment": "balance: 0x1111111111111111111111111111111111111111 -> 1000000000000000000",
           "address": "0x1111111111111111111111111111111111111111",
           "expected_balance": "0xde0b6b3a7640000",
-          "caller": "0x8f772c22d9251b6eed80dba6dd452a408dbb844f"
+          "caller": "0xc71368256498c815d169bf23a0945ff92cb97be5"
         },
         {
           "comment": "balance: 0x2222222222222222222222222222222222222222 -> 0",
           "address": "0x2222222222222222222222222222222222222222",
           "expected_balance": "0x0",
-          "caller": "0x8f772c22d9251b6eed80dba6dd452a408dbb844f"
+          "caller": "0xc71368256498c815d169bf23a0945ff92cb97be5"
         },
         {
           "comment": "balance -> 0",
           "address": "D.address",
           "expected_balance": "0x0",
-          "caller": "0x8f772c22d9251b6eed80dba6dd452a408dbb844f"
+          "caller": "0xc71368256498c815d169bf23a0945ff92cb97be5"
         },
         {
-          "caller": "0x9afd2bb0f19574b1b41a3c76404343c33695df89",
+          "caller": "0xd3420d0749ca2f8f357b74211c982f894023dd66",
           "comment": "terminate(address): 0x1111111111111111111111111111111111111111 ->",
           "instance": "D",
           "method": "terminate(address)",
@@ -135,22 +135,22 @@
           "comment": "balance: 0x1111111111111111111111111111111111111111 -> 2000000000000000000",
           "address": "0x1111111111111111111111111111111111111111",
           "expected_balance": "0x1bc16d674ec80000",
-          "caller": "0x8f772c22d9251b6eed80dba6dd452a408dbb844f"
+          "caller": "0xc71368256498c815d169bf23a0945ff92cb97be5"
         },
         {
           "comment": "balance: 0x2222222222222222222222222222222222222222 -> 0",
           "address": "0x2222222222222222222222222222222222222222",
           "expected_balance": "0x0",
-          "caller": "0x8f772c22d9251b6eed80dba6dd452a408dbb844f"
+          "caller": "0xc71368256498c815d169bf23a0945ff92cb97be5"
         },
         {
           "comment": "balance -> 0",
           "address": "D.address",
           "expected_balance": "0x0",
-          "caller": "0x8f772c22d9251b6eed80dba6dd452a408dbb844f"
+          "caller": "0xc71368256498c815d169bf23a0945ff92cb97be5"
         },
         {
-          "caller": "0x9afd2bb0f19574b1b41a3c76404343c33695df89",
+          "caller": "0xd3420d0749ca2f8f357b74211c982f894023dd66",
           "comment": "exists() -> true",
           "instance": "D",
           "method": "exists()",

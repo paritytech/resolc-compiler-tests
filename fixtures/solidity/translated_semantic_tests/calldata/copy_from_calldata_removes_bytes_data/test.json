@@ -5,7 +5,7 @@
       "name": "copy_from_calldata_removes_bytes_data",
       "inputs": [
         {
-          "caller": "0x40410f372bcb9d25e366a0b0e9cf7a93b949eb44",
+          "caller": "0x1990d50c1cba4f2adab4707398e4d6f701003f26",
           "comment": "(): 1, 2, 3, 4, 5 ->; gas irOptimized: 155122; gas legacy: 155473; gas legacyOptimized: 155295",
           "instance": "c",
           "method": "#fallback",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x40410f372bcb9d25e366a0b0e9cf7a93b949eb44",
+          "caller": "0x1990d50c1cba4f2adab4707398e4d6f701003f26",
           "comment": "checkIfDataIsEmpty() -> false",
           "instance": "c",
           "method": "checkIfDataIsEmpty()",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0x40410f372bcb9d25e366a0b0e9cf7a93b949eb44",
+          "caller": "0x1990d50c1cba4f2adab4707398e4d6f701003f26",
           "comment": "sendMessage() -> true, 0x40, 0",
           "instance": "c",
           "method": "sendMessage()",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0x40410f372bcb9d25e366a0b0e9cf7a93b949eb44",
+          "caller": "0x1990d50c1cba4f2adab4707398e4d6f701003f26",
           "comment": "checkIfDataIsEmpty() -> true",
           "instance": "c",
           "method": "checkIfDataIsEmpty()",

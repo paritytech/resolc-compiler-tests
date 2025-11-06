@@ -4,7 +4,7 @@
       "name": "array_of_recursive_struct",
       "inputs": [
         {
-          "caller": "0x8744c74122c98de8e78523236fbfb8279d2ed5cb",
+          "caller": "0x17fd44b3902330f46854299c28c98c7939d76f0b",
           "comment": "func() ->",
           "instance": "Test",
           "method": "func()",

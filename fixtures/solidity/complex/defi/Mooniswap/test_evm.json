@@ -24,7 +24,7 @@
           "expected": [
             "Token1.address"
           ],
-          "caller": "0x6d1b39f0f4b166257843fe3921d4490bd9e82598"
+          "caller": "0xc0e856db58ba366bd53ed64691d111e61bdb39fc"
         },
         {
           "instance": "Token2",
@@ -40,11 +40,11 @@
           "expected": [
             "Token2.address"
           ],
-          "caller": "0x6d1b39f0f4b166257843fe3921d4490bd9e82598"
+          "caller": "0xc0e856db58ba366bd53ed64691d111e61bdb39fc"
         },
         {
           "instance": "MooniswapFactory",
-          "caller": "0x6d1b39f0f4b166257843fe3921d4490bd9e82598",
+          "caller": "0xc0e856db58ba366bd53ed64691d111e61bdb39fc",
           "method": "#deployer",
           "calldata": [],
           "expected": {
@@ -56,7 +56,7 @@
                 "topics": [
                   "0x8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0",
                   "0x0000000000000000000000000000000000000000000000000000000000000000",
-                  "0x6d1b39f0f4b166257843fe3921d4490bd9e82598"
+                  "0xc0e856db58ba366bd53ed64691d111e61bdb39fc"
                 ],
                 "values": []
               }
@@ -65,7 +65,7 @@
         },
         {
           "instance": "MooniswapFactory",
-          "caller": "0x6d1b39f0f4b166257843fe3921d4490bd9e82598",
+          "caller": "0xc0e856db58ba366bd53ed64691d111e61bdb39fc",
           "method": "deploy",
           "calldata": [
             "Token1.address",
@@ -88,7 +88,7 @@
                 "topics": [
                   "0x8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0",
                   "MooniswapFactory.address",
-                  "0x6d1b39f0f4b166257843fe3921d4490bd9e82598"
+                  "0xc0e856db58ba366bd53ed64691d111e61bdb39fc"
                 ],
                 "values": []
               },
@@ -106,7 +106,7 @@
         },
         {
           "instance": "MooniswapFactory",
-          "caller": "0x6d1b39f0f4b166257843fe3921d4490bd9e82598",
+          "caller": "0xc0e856db58ba366bd53ed64691d111e61bdb39fc",
           "method": "getAllPools",
           "calldata": []
         }

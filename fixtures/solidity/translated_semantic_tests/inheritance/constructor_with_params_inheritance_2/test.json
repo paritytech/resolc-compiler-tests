@@ -4,7 +4,7 @@
       "name": "constructor_with_params_inheritance_2",
       "inputs": [
         {
-          "caller": "0x613a31b633dd77acee4b2c2bbd0a3e8d3f65cb15",
+          "caller": "0x9fbb2f8fd710dc2773d782b0a2e9c4a2d3a69e7d",
           "comment": "i() -> 2",
           "instance": "D",
           "method": "i()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x613a31b633dd77acee4b2c2bbd0a3e8d3f65cb15",
+          "caller": "0x9fbb2f8fd710dc2773d782b0a2e9c4a2d3a69e7d",
           "comment": "k() -> 1",
           "instance": "D",
           "method": "k()",

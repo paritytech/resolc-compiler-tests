@@ -4,7 +4,7 @@
       "name": "array_mapping_abstract_constructor_param",
       "inputs": [
         {
-          "caller": "0xef968eabf36c58618ab977259fcea38013c61df1",
+          "caller": "0xc350aca1dbd1ad49270010cf21482cb863017474",
           "comment": "m(uint256,uint256,uint256): 0, 0, 0 -> FAILURE",
           "instance": "C",
           "method": "m(uint256,uint256,uint256)",
@@ -14,7 +14,7 @@
           }
         },
         {
-          "caller": "0xef968eabf36c58618ab977259fcea38013c61df1",
+          "caller": "0xc350aca1dbd1ad49270010cf21482cb863017474",
           "comment": "m(uint256,uint256,uint256): 1, 0, 1 -> 2",
           "instance": "C",
           "method": "m(uint256,uint256,uint256)",
@@ -25,7 +25,7 @@
           }
         },
         {
-          "caller": "0xef968eabf36c58618ab977259fcea38013c61df1",
+          "caller": "0xc350aca1dbd1ad49270010cf21482cb863017474",
           "comment": "m(uint256,uint256,uint256): 1, 0, 5 -> 0",
           "instance": "C",
           "method": "m(uint256,uint256,uint256)",

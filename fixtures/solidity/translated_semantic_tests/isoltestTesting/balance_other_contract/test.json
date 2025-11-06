@@ -4,7 +4,7 @@
       "name": "balance_other_contract",
       "inputs": [
         {
-          "caller": "0x1700ced737fcc9d356d2132648cd2f991eb21be9",
+          "caller": "0x71eacd69f581665cc7f511df9670ef61f335bc91",
           "comment": "constructor(), 2000 wei ->",
           "instance": "C",
           "method": "#deployer",
@@ -18,13 +18,13 @@
           "comment": "balance -> 1500",
           "address": "C.address",
           "expected_balance": "0x5dc",
-          "caller": "0xb17075c9d3564628a7054dd6ee9e4806c275af61"
+          "caller": "0xca5c45ab5d71b5e023ab5c53a4d0a02845d07970"
         },
         {
           "comment": "balance: 0x0000000000000000000000000000000012341234 -> 500",
           "address": "0x0000000000000000000000000000000012341234",
           "expected_balance": "0x1f4",
-          "caller": "0xb17075c9d3564628a7054dd6ee9e4806c275af61"
+          "caller": "0xca5c45ab5d71b5e023ab5c53a4d0a02845d07970"
         }
       ]
     }

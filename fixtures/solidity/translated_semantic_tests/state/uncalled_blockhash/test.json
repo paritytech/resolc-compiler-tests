@@ -6,7 +6,7 @@
       "name": "uncalled_blockhash",
       "inputs": [
         {
-          "caller": "0x03f97cbf3b4a097bb238b05cf5d1b9165acfa445",
+          "caller": "0x71a5d60330faefc83687555cbca97605628141ff",
           "comment": "f() -> 0x3737373737373737373737373737373737373737373737373737373737373738",
           "instance": "C",
           "method": "f()",

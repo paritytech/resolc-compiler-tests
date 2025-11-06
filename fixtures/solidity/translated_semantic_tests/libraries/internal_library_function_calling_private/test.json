@@ -4,7 +4,7 @@
       "name": "internal_library_function_calling_private",
       "inputs": [
         {
-          "caller": "0x3d2e33a53b9eef3ab05a8b4392220132ff9e6e4f",
+          "caller": "0x66621459adffd41f800d2048f94e05d7a9eab759",
           "comment": "f() -> 2",
           "instance": "C",
           "method": "f()",

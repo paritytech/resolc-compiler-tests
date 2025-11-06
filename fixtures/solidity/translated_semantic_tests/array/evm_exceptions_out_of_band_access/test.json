@@ -4,7 +4,7 @@
       "name": "evm_exceptions_out_of_band_access",
       "inputs": [
         {
-          "caller": "0x0b13e599425df4584d6e0509c152a7db9bbbe27d",
+          "caller": "0xcfb67e24821ea0891ae20032a61ecb8d114284b0",
           "comment": "test() -> false",
           "instance": "A",
           "method": "test()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x0b13e599425df4584d6e0509c152a7db9bbbe27d",
+          "caller": "0xcfb67e24821ea0891ae20032a61ecb8d114284b0",
           "comment": "testIt() -> FAILURE, hex\"4e487b71\", 0x32",
           "instance": "A",
           "method": "testIt()",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0x0b13e599425df4584d6e0509c152a7db9bbbe27d",
+          "caller": "0xcfb67e24821ea0891ae20032a61ecb8d114284b0",
           "comment": "test() -> false",
           "instance": "A",
           "method": "test()",

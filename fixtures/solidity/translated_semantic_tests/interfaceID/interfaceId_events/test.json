@@ -4,7 +4,7 @@
       "name": "interfaceId_events",
       "inputs": [
         {
-          "caller": "0x1ab541079f1d5e3441cb92237eb9516cc398a48d",
+          "caller": "0x82fee97fb486562aa5e607c60b1533fd5547c1e3",
           "comment": "hello_world() -> left(0xc6be8b58)",
           "instance": "Test",
           "method": "hello_world()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x1ab541079f1d5e3441cb92237eb9516cc398a48d",
+          "caller": "0x82fee97fb486562aa5e607c60b1533fd5547c1e3",
           "comment": "hello_world_with_event() -> left(0xc6be8b58)",
           "instance": "Test",
           "method": "hello_world_with_event()",

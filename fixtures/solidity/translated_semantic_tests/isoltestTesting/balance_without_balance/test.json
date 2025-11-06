@@ -7,13 +7,13 @@
           "comment": "balance -> 0",
           "address": "ClientReceipt.address",
           "expected_balance": "0x0",
-          "caller": "0xcafb06992776f2a91e38e379488cd0916215b402"
+          "caller": "0x3300a6ed7fb1d3ab3baeedb949d49251efa2f89c"
         },
         {
           "comment": "balance: 0x0000000000000000000000000000000000000000 -> 0",
           "address": "0x0000000000000000000000000000000000000000",
           "expected_balance": "0x0",
-          "caller": "0xcafb06992776f2a91e38e379488cd0916215b402"
+          "caller": "0x3300a6ed7fb1d3ab3baeedb949d49251efa2f89c"
         }
       ]
     }

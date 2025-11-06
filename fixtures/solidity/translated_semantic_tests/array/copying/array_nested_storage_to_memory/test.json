@@ -4,7 +4,7 @@
       "name": "array_nested_storage_to_memory",
       "inputs": [
         {
-          "caller": "0xafdcf8f528487aeba793c480fa8b751c18f6bb95",
+          "caller": "0xfed23a5a179a42ae299d5d7e378c2c33186cf13a",
           "comment": "test1() -> 0x20, 2, 0x40, 0xa0, 2, 1, 2, 3, 3, 4, 5",
           "instance": "C",
           "method": "test1()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xafdcf8f528487aeba793c480fa8b751c18f6bb95",
+          "caller": "0xfed23a5a179a42ae299d5d7e378c2c33186cf13a",
           "comment": "test2() -> 0x20, 0x40, 0xc0, 3, 6, 7, 8, 1, 9",
           "instance": "C",
           "method": "test2()",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0xafdcf8f528487aeba793c480fa8b751c18f6bb95",
+          "caller": "0xfed23a5a179a42ae299d5d7e378c2c33186cf13a",
           "comment": "test3() -> 0x20, 3, 1, 2, 3, 4, 5, 6",
           "instance": "C",
           "method": "test3()",
@@ -37,7 +37,7 @@
           }
         },
         {
-          "caller": "0xafdcf8f528487aeba793c480fa8b751c18f6bb95",
+          "caller": "0xfed23a5a179a42ae299d5d7e378c2c33186cf13a",
           "comment": "test4() -> 10, 11, 12, 13",
           "instance": "C",
           "method": "test4()",

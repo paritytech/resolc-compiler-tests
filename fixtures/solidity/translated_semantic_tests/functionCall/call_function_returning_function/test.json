@@ -4,7 +4,7 @@
       "name": "call_function_returning_function",
       "inputs": [
         {
-          "caller": "0x2477381c414e7a6618a633336d29e5651d39bc0f",
+          "caller": "0x1cb436c8219693ff9c190c2238b8c07c1b99db24",
           "comment": "f() -> 2",
           "instance": "test",
           "method": "f()",

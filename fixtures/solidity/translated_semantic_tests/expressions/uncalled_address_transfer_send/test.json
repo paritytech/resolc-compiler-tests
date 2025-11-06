@@ -4,7 +4,7 @@
       "name": "uncalled_address_transfer_send",
       "inputs": [
         {
-          "caller": "0x3f733fade7174277bdc899a6cf71020a32ac2d9b",
+          "caller": "0x22b6d4930366a43247b1b7356f00c569bac2be62",
           "comment": "f() ->",
           "instance": "TransferTest",
           "method": "f()",

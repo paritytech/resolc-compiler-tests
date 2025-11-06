@@ -4,7 +4,7 @@
       "name": "duplicated_function_definition_with_same_id_in_internal_dispatcher",
       "inputs": [
         {
-          "caller": "0x334bcde87256c19db90d4d6ed6b72cbf94c10da2",
+          "caller": "0x14a1f109ef681313fefb747d1de018072c50f43b",
           "comment": "f()",
           "instance": "C",
           "method": "f()",

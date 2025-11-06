@@ -4,7 +4,7 @@
       "name": "inline_assembly_function_call_assignment",
       "inputs": [
         {
-          "caller": "0xfcdd02ca0f8b3f65c3a71d9050bba2984a6553ad",
+          "caller": "0x49246c80f1b14871d65178e9032ccd74adc9a53d",
           "comment": "f() -> 1, 2, 7",
           "instance": "C",
           "method": "f()",

@@ -4,7 +4,7 @@
       "name": "function_modifier_return_reference",
       "inputs": [
         {
-          "caller": "0x804aa39afb78238e7cc1632c21480c606bdd5cd9",
+          "caller": "0x14138a94cef4139fe2e787d6b96422ccdf3015e8",
           "comment": "f() -> 2, 3",
           "instance": "C",
           "method": "f()",

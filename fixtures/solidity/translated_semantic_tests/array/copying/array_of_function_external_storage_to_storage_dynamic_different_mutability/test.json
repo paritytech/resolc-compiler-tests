@@ -4,7 +4,7 @@
       "name": "array_of_function_external_storage_to_storage_dynamic_different_mutability",
       "inputs": [
         {
-          "caller": "0xc301d00d8560215fde74d75c12e56933fffa7c52",
+          "caller": "0xc9756805b83aad1182862acc8c6b899fb14a5e2c",
           "comment": "copyExternalStorageArraysOfFunctionType() -> true; gas irOptimized: 104238; gas legacy: 108295; gas legacyOptimized: 102162",
           "instance": "C",
           "method": "copyExternalStorageArraysOfFunctionType()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xc301d00d8560215fde74d75c12e56933fffa7c52",
+          "caller": "0xc9756805b83aad1182862acc8c6b899fb14a5e2c",
           "comment": "copyInternalArrayOfFunctionType() -> true; gas legacy: 104178",
           "instance": "C",
           "method": "copyInternalArrayOfFunctionType()",

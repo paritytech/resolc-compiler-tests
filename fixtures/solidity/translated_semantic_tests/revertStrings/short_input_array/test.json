@@ -4,7 +4,7 @@
       "name": "short_input_array",
       "inputs": [
         {
-          "caller": "0xcbda2c55da6e6441a25bfafc9f8c614c9c7fca3a",
+          "caller": "0x638949ebbc3f055c87820b0c7c620755e976d8e1",
           "comment": "f(uint256[]): 0x20, 1 -> FAILURE",
           "instance": "C",
           "method": "f(uint256[])",

@@ -4,7 +4,7 @@
       "name": "using_inherited_enum_excplicitly",
       "inputs": [
         {
-          "caller": "0x8153bdb54e00bb92d4eb4b5799721528db1a150b",
+          "caller": "0xed229b16c833244ab282579c9a2e0c44294fec2c",
           "comment": "answer() -> 1",
           "instance": "test",
           "method": "answer()",

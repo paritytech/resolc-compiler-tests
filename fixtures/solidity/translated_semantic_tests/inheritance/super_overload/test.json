@@ -4,7 +4,7 @@
       "name": "super_overload",
       "inputs": [
         {
-          "caller": "0xd1bc748850fcb5f3d2809c435ce02fc02369ecb4",
+          "caller": "0xf4efd46ff79085672d804b64cb71d46a7862f1b3",
           "comment": "g() -> 10",
           "instance": "C",
           "method": "g()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xd1bc748850fcb5f3d2809c435ce02fc02369ecb4",
+          "caller": "0xf4efd46ff79085672d804b64cb71d46a7862f1b3",
           "comment": "h() -> 2",
           "instance": "C",
           "method": "h()",

@@ -4,7 +4,7 @@
       "name": "convert_uint_to_fixed_bytes_smaller_size",
       "inputs": [
         {
-          "caller": "0xeb786ab368cf1ef0578c1cadbf56b573c2c00bc7",
+          "caller": "0x17e294f542c29f368dce69238e0e4985bdb908a9",
           "comment": "uintToBytes(uint32): 0x61626364 -> \"cd\"",
           "instance": "Test",
           "method": "uintToBytes(uint32)",

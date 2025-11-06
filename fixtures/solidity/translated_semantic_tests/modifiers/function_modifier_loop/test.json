@@ -4,7 +4,7 @@
       "name": "function_modifier_loop",
       "inputs": [
         {
-          "caller": "0x20e19db0a483e486c234741689ffcf30c8070b59",
+          "caller": "0x0d02d5285102423112dc853fc49856607e500cdd",
           "comment": "f() -> 10",
           "instance": "C",
           "method": "f()",

@@ -4,7 +4,7 @@
       "name": "struct_reference",
       "inputs": [
         {
-          "caller": "0xdb65c76f518becd2354118a1939915b927d055a2",
+          "caller": "0x5fc7c044aa4c60a16bc11768bb0e9bd67735fa9d",
           "comment": "check() -> false",
           "instance": "test",
           "method": "check()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0xdb65c76f518becd2354118a1939915b927d055a2",
+          "caller": "0x5fc7c044aa4c60a16bc11768bb0e9bd67735fa9d",
           "comment": "set() ->",
           "instance": "test",
           "method": "set()",
@@ -25,7 +25,7 @@
           }
         },
         {
-          "caller": "0xdb65c76f518becd2354118a1939915b927d055a2",
+          "caller": "0x5fc7c044aa4c60a16bc11768bb0e9bd67735fa9d",
           "comment": "check() -> true",
           "instance": "test",
           "method": "check()",

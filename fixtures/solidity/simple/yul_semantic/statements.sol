@@ -6,7 +6,7 @@
 //!         {
 //!           "method": "simple_statement",
 //!           "calldata": [],
-//!           "caller": "0x03f43c4089bd3a6d07264d9f6adf7d0057cf6c06"
+//!           "caller": "0x020d95198c799e997b3bd50edb10d448cbcb8430"
 //!         }
 //!       ],
 //!       "expected": {
@@ -27,7 +27,7 @@
 //!         {
 //!           "method": "nested_statements",
 //!           "calldata": [],
-//!           "caller": "0x020d95198c799e997b3bd50edb10d448cbcb8430"
+//!           "caller": "0x3c271de551fef7a4194ddf0053a68c37ee4ff44c"
 //!         }
 //!       ],
 //!       "expected": {
@@ -54,7 +54,7 @@
 //!         {
 //!           "method": "return_in_middle",
 //!           "calldata": [],
-//!           "caller": "0x3c271de551fef7a4194ddf0053a68c37ee4ff44c"
+//!           "caller": "0xedcff9e30cd0491435393aad6c81e4254edb6001"
 //!         }
 //!       ],
 //!       "expected": {
@@ -77,7 +77,7 @@
 //!         {
 //!           "method": "revert_in_middle",
 //!           "calldata": [],
-//!           "caller": "0xedcff9e30cd0491435393aad6c81e4254edb6001"
+//!           "caller": "0x9cc37b908950b7d8f850d5b09be9316e869ff8ad"
 //!         }
 //!       ],
 //!       "expected": {
@@ -93,7 +93,7 @@
 //!         {
 //!           "method": "return_in_nested_statement",
 //!           "calldata": [],
-//!           "caller": "0x9cc37b908950b7d8f850d5b09be9316e869ff8ad"
+//!           "caller": "0x84fb3b770da00a86386447cb5d65c99beb9c853a"
 //!         }
 //!       ],
 //!       "expected": {
@@ -116,7 +116,7 @@
 //!         {
 //!           "method": "revert_in_nested_statement",
 //!           "calldata": [],
-//!           "caller": "0x84fb3b770da00a86386447cb5d65c99beb9c853a"
+//!           "caller": "0x22c3e4e5da3441b3139747cffae3a5da656578ea"
 //!         }
 //!       ],
 //!       "expected": {
@@ -132,7 +132,7 @@
 //!         {
 //!           "method": "complex",
 //!           "calldata": [],
-//!           "caller": "0x22c3e4e5da3441b3139747cffae3a5da656578ea"
+//!           "caller": "0x45d37ef12d4574c58c1690aeee02a57cf3556e70"
 //!         }
 //!       ],
 //!       "expected": {

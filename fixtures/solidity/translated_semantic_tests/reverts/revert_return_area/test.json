@@ -4,7 +4,7 @@
       "name": "revert_return_area",
       "inputs": [
         {
-          "caller": "0xcf56e7776a97b05e6bd5c1814f331d5003b8e3e2",
+          "caller": "0xf2dd6d9caf8791351e320a9bf6ac19fb7bf15c84",
           "comment": "f() -> 0x00, 0x08c379a000000000000000000000000000000000000000000000000000000000",
           "instance": "C",
           "method": "f()",

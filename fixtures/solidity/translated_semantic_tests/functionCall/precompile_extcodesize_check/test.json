@@ -4,7 +4,7 @@
       "name": "precompile_extcodesize_check",
       "inputs": [
         {
-          "caller": "0x86063a1ed009b3b32acc8e9c26391c155ced1fc6",
+          "caller": "0xd33d9cef7a59934b61f205583070bf625c9717fa",
           "comment": "testHighLevel() -> 1",
           "instance": "C",
           "method": "testHighLevel()",
@@ -15,7 +15,7 @@
           }
         },
         {
-          "caller": "0x86063a1ed009b3b32acc8e9c26391c155ced1fc6",
+          "caller": "0xd33d9cef7a59934b61f205583070bf625c9717fa",
           "comment": "testLowLevel() -> 0xc76596d400000000000000000000000000000000000000000000000000000000",
           "instance": "C",
           "method": "testLowLevel()",
@@ -26,7 +26,7 @@
           }
         },
         {
-          "caller": "0x86063a1ed009b3b32acc8e9c26391c155ced1fc6",
+          "caller": "0xd33d9cef7a59934b61f205583070bf625c9717fa",
           "comment": "testHighLevel2() -> FAILURE",
           "instance": "C",
           "method": "testHighLevel2()",

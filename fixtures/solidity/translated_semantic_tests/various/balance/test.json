@@ -4,7 +4,7 @@
       "name": "balance",
       "inputs": [
         {
-          "caller": "0x6764c9208f64d994800dc03adb3a83c4d1c2fcff",
+          "caller": "0x5250ef1300593cd30dc257a45801ff6e7d32d095",
           "comment": "constructor(), 23 wei ->",
           "instance": "test",
           "method": "#deployer",
@@ -15,7 +15,7 @@
           "value": "23 wei"
         },
         {
-          "caller": "0x6764c9208f64d994800dc03adb3a83c4d1c2fcff",
+          "caller": "0x5250ef1300593cd30dc257a45801ff6e7d32d095",
           "comment": "getBalance() -> 23",
           "instance": "test",
           "method": "getBalance()",

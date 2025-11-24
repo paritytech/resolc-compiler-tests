@@ -36,7 +36,7 @@ contract Test {
 
     function f1c() public returns (uint256) {
         a = 1;
-        return 1000000;
+        return 10000000;
     }
 }
 

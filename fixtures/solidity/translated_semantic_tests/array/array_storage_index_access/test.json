@@ -1,4 +1,6 @@
 {
+  "ignore": true,
+  "comment": "Ignored since it requires more gas than what we allow for in revive for the moment",
   "cases": [
     {
       "name": "array_storage_index_access",

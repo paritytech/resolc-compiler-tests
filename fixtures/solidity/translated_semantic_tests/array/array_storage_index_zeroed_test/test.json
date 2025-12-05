@@ -1,4 +1,6 @@
 {
+  "ignore": true,
+  "comment": "Ignored since it can't fit into our gas limits",
   "cases": [
     {
       "name": "array_storage_index_zeroed_test",

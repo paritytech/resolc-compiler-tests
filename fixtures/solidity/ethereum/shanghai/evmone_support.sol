@@ -15,9 +15,11 @@ interface DoesItReturnZero {
 
 contract Test {
     ShortReturn immutable shortReturn = new ShortReturn();
-    function bytecode() external view returns(bytes memory) {
+
+    function bytecode() external view returns (bytes memory) {
         return address(shortReturn).code;
     }
+
     function isPush0Supported() external view returns (bool) {
         assert(DoesItReturnZero(address(shortReturn)).foo() == 0);
         return true;
@@ -27,6 +29,7 @@ contract Test {
 // compileViaYul: also
 // EVMVersion: >=shanghai
 // bytecodeFormat: legacy
+// targets: evm
 // ----
 // bytecode() -> 0x20, 4, 0x60205ff300000000000000000000000000000000000000000000000000000000
 // isPush0Supported() -> true

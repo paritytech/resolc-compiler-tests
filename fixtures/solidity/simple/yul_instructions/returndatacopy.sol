@@ -845,6 +845,9 @@
 //!       ]
 //!     },
 //!     {
+//!       "targets": [
+//!         "evm"
+//!       ],
 //!       "name": "ordinar_words_size",
 //!       "inputs": [
 //!         {
@@ -1248,7 +1251,14 @@
 pragma solidity >=0.6.0;
 
 contract Test {
-    function main(uint256 to, uint256 from, uint256 len, uint256 returndata_len, uint8 val, bool check) external returns(uint256, uint256, uint256) {
+    function main(
+        uint256 to,
+        uint256 from,
+        uint256 len,
+        uint256 returndata_len,
+        uint8 val,
+        bool check
+    ) external returns (uint256, uint256, uint256) {
         assembly {
             mstore(0, returndata_len)
             mstore(32, val)
@@ -1257,12 +1267,12 @@ contract Test {
             returndatacopy(to, from, len)
 
             if gt(check, 0) {
-                for { let i := 0 } lt(i, len) { i := add(i, 1) }
-                {
-                    if iszero(eq(
-                        shr(248, mload(add(to, i))),
-                        val
-                    )) {
+                for {
+                    let i := 0
+                } lt(i, len) {
+                    i := add(i, 1)
+                } {
+                    if iszero(eq(shr(248, mload(add(to, i))), val)) {
                         mstore(0, 0)
                         return(0, 32)
                     }
@@ -1274,16 +1284,20 @@ contract Test {
         }
     }
 
-    function initial(uint256 to, uint256 from, uint256 len) external returns(uint256 result) {
+    function initial(
+        uint256 to,
+        uint256 from,
+        uint256 len
+    ) external returns (uint256 result) {
         assembly {
             returndatacopy(to, from, len)
 
-            for { let i := 0 } lt(i, len) { i := add(i, 1) }
-            {
-                if iszero(eq(
-                    shr(248, mload(add(to, i))),
-                    0
-                )) {
+            for {
+                let i := 0
+            } lt(i, len) {
+                i := add(i, 1)
+            } {
+                if iszero(eq(shr(248, mload(add(to, i))), 0)) {
                     mstore(0, 0)
                     return(0, 32)
                 }
@@ -1298,18 +1312,15 @@ contract Test {
         uint256 to,
         uint256 from,
         uint256 len,
-
         uint256 returndata_len1,
         uint8 val1,
-
         uint256 returndata_len2,
         uint8 val2
-    ) external returns(uint256 result) {
+    ) external returns (uint256 result) {
         assembly {
             mstore(0, returndata_len1)
             mstore(32, val1)
             pop(call(gas(), address(), 0, 0, 64, 0, 0))
-
 
             mstore(0, returndata_len2)
             mstore(32, val2)
@@ -1317,12 +1328,12 @@ contract Test {
 
             returndatacopy(to, from, len)
 
-            for { let i := 0 } lt(i, len) { i := add(i, 1) }
-            {
-                if iszero(eq(
-                    shr(248, mload(add(to, i))),
-                    val2
-                )) {
+            for {
+                let i := 0
+            } lt(i, len) {
+                i := add(i, 1)
+            } {
+                if iszero(eq(shr(248, mload(add(to, i))), val2)) {
                     mstore(0, 0)
                     return(0, 32)
                 }
@@ -1337,8 +1348,11 @@ contract Test {
         assembly {
             let len := calldataload(0)
             let val := calldataload(32)
-            for { let i := 0 } lt(i, len) { i := add(i, 1) }
-            {
+            for {
+                let i := 0
+            } lt(i, len) {
+                i := add(i, 1)
+            } {
                 mstore8(i, val)
             }
             return(0, len)

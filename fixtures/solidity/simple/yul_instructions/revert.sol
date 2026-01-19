@@ -3211,6 +3211,9 @@
 //!       ]
 //!     },
 //!     {
+//!       "targets": [
+//!         "evm"
+//!       ],
 //!       "name": "one_value_ordinar_words_len",
 //!       "inputs": [
 //!         {
@@ -3296,6 +3299,9 @@
 //!       ]
 //!     },
 //!     {
+//!       "targets": [
+//!         "evm"
+//!       ],
 //!       "name": "ordinar_value_ordinar_words_len",
 //!       "inputs": [
 //!         {
@@ -3381,6 +3387,9 @@
 //!       ]
 //!     },
 //!     {
+//!       "targets": [
+//!         "evm"
+//!       ],
 //!       "name": "max_value_ordinar_words_len",
 //!       "inputs": [
 //!         {

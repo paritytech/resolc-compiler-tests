@@ -23,6 +23,8 @@ pub struct TestConfiguration {
     pub ignore: Option<bool>,
     /// A comment on the test case.
     pub comment: Option<String>,
+    /// Controls which targets that this test is for.
+    pub targets: Option<Vec<String>>,
 }
 
 impl TestConfiguration {
@@ -65,6 +67,16 @@ impl TestConfiguration {
             }
             "ignore" => self.ignore = Some(value.as_ref().parse()?),
             "comment" => self.comment = Some(value.as_ref().to_string()),
+            "targets" => {
+                self.targets = Some(
+                    value
+                        .as_ref()
+                        .split(',')
+                        .map(str::trim)
+                        .map(str::to_string)
+                        .collect::<Vec<_>>(),
+                )
+            }
             _ => bail!("Unknown test configuration {}", key.as_ref()),
         };
         Ok(self)

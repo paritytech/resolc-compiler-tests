@@ -99,6 +99,7 @@ pub fn handle_semantic_tests_translation(
         semantic_test.sources = sources;
 
         let mut metadata = Metadata::default();
+        metadata.targets = semantic_test.configuration.targets;
         let main_contract_instance =
             ContractInstance::new(semantic_test.main_contract_ident.as_str());
         let main_contract_ident =

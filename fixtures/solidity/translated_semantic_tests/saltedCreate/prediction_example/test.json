@@ -1,4 +1,7 @@
 {
+  "targets": [
+    "evm"
+  ],
   "cases": [
     {
       "name": "prediction_example",

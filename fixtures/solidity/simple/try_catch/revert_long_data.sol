@@ -6,13 +6,7 @@
 //!         {
 //!           "method": "main",
 //!           "calldata": [],
-//!           "caller": "0xfd62b504c698cc5cd691a930e9e3a43087ee31be",
-//!           "gas_overrides": {
-//!             "revive-dev-node-polkavm-resolc": {
-//!               "gas_limit": 10000000
-//!             }
-//!           },
-//!           "comment": "A hard-coded gas limit is required in order to get this test to pass since dry running fails. TODO: Remove when this is fixed."
+//!           "caller": "0xfd62b504c698cc5cd691a930e9e3a43087ee31be"
 //!         }
 //!       ],
 //!       "expected": [

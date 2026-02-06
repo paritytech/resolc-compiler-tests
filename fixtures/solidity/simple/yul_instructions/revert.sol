@@ -185,13 +185,7 @@
 //!             "0",
 //!             "0x100000000"
 //!           ],
-//!           "caller": "0x68fad4309f97dc1847e3dd28eb9a464b89dbb420",
-//!           "gas_overrides": {
-//!             "revive-dev-node-polkavm-resolc": {
-//!               "gas_limit": 10000000
-//!             }
-//!           },
-//!           "comment": "A hard-coded gas limit is required in order to get this test to pass since dry running fails. TODO: Remove when this is fixed."
+//!           "caller": "0x68fad4309f97dc1847e3dd28eb9a464b89dbb420"
 //!         }
 //!       ],
 //!       "expected": [
@@ -207,13 +201,7 @@
 //!             "0",
 //!             "3334353453452342342354355544445321191012012"
 //!           ],
-//!           "caller": "0x05333bdc2be11f0ef7a2629ad1cd6eccced3e2ed",
-//!           "gas_overrides": {
-//!             "revive-dev-node-polkavm-resolc": {
-//!               "gas_limit": 10000000
-//!             }
-//!           },
-//!           "comment": "A hard-coded gas limit is required in order to get this test to pass since dry running fails. TODO: Remove when this is fixed."
+//!           "caller": "0x05333bdc2be11f0ef7a2629ad1cd6eccced3e2ed"
 //!         }
 //!       ],
 //!       "expected": [
@@ -229,13 +217,7 @@
 //!             "0",
 //!             "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"
 //!           ],
-//!           "caller": "0x841df17dfdbd308f51947d8fdce796e2b4c2a4fc",
-//!           "gas_overrides": {
-//!             "revive-dev-node-polkavm-resolc": {
-//!               "gas_limit": 10000000
-//!             }
-//!           },
-//!           "comment": "A hard-coded gas limit is required in order to get this test to pass since dry running fails. TODO: Remove when this is fixed."
+//!           "caller": "0x841df17dfdbd308f51947d8fdce796e2b4c2a4fc"
 //!         }
 //!       ],
 //!       "expected": [
@@ -427,13 +409,7 @@
 //!             "1",
 //!             "0x100000000"
 //!           ],
-//!           "caller": "0x682ab7f0668b8e537ac2a0fc7597f97c116aaabd",
-//!           "gas_overrides": {
-//!             "revive-dev-node-polkavm-resolc": {
-//!               "gas_limit": 10000000
-//!             }
-//!           },
-//!           "comment": "A hard-coded gas limit is required in order to get this test to pass since dry running fails. TODO: Remove when this is fixed."
+//!           "caller": "0x682ab7f0668b8e537ac2a0fc7597f97c116aaabd"
 //!         }
 //!       ],
 //!       "expected": [
@@ -449,13 +425,7 @@
 //!             "1",
 //!             "3334353453452342342354355544445321191012012"
 //!           ],
-//!           "caller": "0xad1117cab797e37cab0eee8ca7c30bd2452ef2a3",
-//!           "gas_overrides": {
-//!             "revive-dev-node-polkavm-resolc": {
-//!               "gas_limit": 10000000
-//!             }
-//!           },
-//!           "comment": "A hard-coded gas limit is required in order to get this test to pass since dry running fails. TODO: Remove when this is fixed."
+//!           "caller": "0xad1117cab797e37cab0eee8ca7c30bd2452ef2a3"
 //!         }
 //!       ],
 //!       "expected": [
@@ -471,13 +441,7 @@
 //!             "1",
 //!             "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"
 //!           ],
-//!           "caller": "0x37a26d0025f6b2615d8ac00e6691acaeccf4216f",
-//!           "gas_overrides": {
-//!             "revive-dev-node-polkavm-resolc": {
-//!               "gas_limit": 10000000
-//!             }
-//!           },
-//!           "comment": "A hard-coded gas limit is required in order to get this test to pass since dry running fails. TODO: Remove when this is fixed."
+//!           "caller": "0x37a26d0025f6b2615d8ac00e6691acaeccf4216f"
 //!         }
 //!       ],
 //!       "expected": [
@@ -669,13 +633,7 @@
 //!             "8",
 //!             "0x100000000"
 //!           ],
-//!           "caller": "0x81c7a1861e27d781d8928ecbe4fa65a1ecc5cfe5",
-//!           "gas_overrides": {
-//!             "revive-dev-node-polkavm-resolc": {
-//!               "gas_limit": 10000000
-//!             }
-//!           },
-//!           "comment": "A hard-coded gas limit is required in order to get this test to pass since dry running fails. TODO: Remove when this is fixed."
+//!           "caller": "0x81c7a1861e27d781d8928ecbe4fa65a1ecc5cfe5"
 //!         }
 //!       ],
 //!       "expected": [
@@ -691,13 +649,7 @@
 //!             "8",
 //!             "3334353453452342342354355544445321191012012"
 //!           ],
-//!           "caller": "0x2ce4632062365ecaa76280f7871f62a6083d73d0",
-//!           "gas_overrides": {
-//!             "revive-dev-node-polkavm-resolc": {
-//!               "gas_limit": 10000000
-//!             }
-//!           },
-//!           "comment": "A hard-coded gas limit is required in order to get this test to pass since dry running fails. TODO: Remove when this is fixed."
+//!           "caller": "0x2ce4632062365ecaa76280f7871f62a6083d73d0"
 //!         }
 //!       ],
 //!       "expected": [
@@ -713,13 +665,7 @@
 //!             "8",
 //!             "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"
 //!           ],
-//!           "caller": "0x1a25e2dc7a59fccadd84a091697075f1a9903b65",
-//!           "gas_overrides": {
-//!             "revive-dev-node-polkavm-resolc": {
-//!               "gas_limit": 10000000
-//!             }
-//!           },
-//!           "comment": "A hard-coded gas limit is required in order to get this test to pass since dry running fails. TODO: Remove when this is fixed."
+//!           "caller": "0x1a25e2dc7a59fccadd84a091697075f1a9903b65"
 //!         }
 //!       ],
 //!       "expected": [
@@ -911,13 +857,7 @@
 //!             "32",
 //!             "0x100000000"
 //!           ],
-//!           "caller": "0xbad15be8aac4811738230a98397883007b2768e2",
-//!           "gas_overrides": {
-//!             "revive-dev-node-polkavm-resolc": {
-//!               "gas_limit": 10000000
-//!             }
-//!           },
-//!           "comment": "A hard-coded gas limit is required in order to get this test to pass since dry running fails. TODO: Remove when this is fixed."
+//!           "caller": "0xbad15be8aac4811738230a98397883007b2768e2"
 //!         }
 //!       ],
 //!       "expected": [
@@ -933,13 +873,7 @@
 //!             "32",
 //!             "3334353453452342342354355544445321191012012"
 //!           ],
-//!           "caller": "0xe29eadedc5e2267af9189d512fcb143107a7c688",
-//!           "gas_overrides": {
-//!             "revive-dev-node-polkavm-resolc": {
-//!               "gas_limit": 10000000
-//!             }
-//!           },
-//!           "comment": "A hard-coded gas limit is required in order to get this test to pass since dry running fails. TODO: Remove when this is fixed."
+//!           "caller": "0xe29eadedc5e2267af9189d512fcb143107a7c688"
 //!         }
 //!       ],
 //!       "expected": [
@@ -955,13 +889,7 @@
 //!             "32",
 //!             "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"
 //!           ],
-//!           "caller": "0x3d167c9ade225ef45322b12822dbe432a58a557a",
-//!           "gas_overrides": {
-//!             "revive-dev-node-polkavm-resolc": {
-//!               "gas_limit": 10000000
-//!             }
-//!           },
-//!           "comment": "A hard-coded gas limit is required in order to get this test to pass since dry running fails. TODO: Remove when this is fixed."
+//!           "caller": "0x3d167c9ade225ef45322b12822dbe432a58a557a"
 //!         }
 //!       ],
 //!       "expected": [
@@ -1159,13 +1087,7 @@
 //!             "421587",
 //!             "0x100000000"
 //!           ],
-//!           "caller": "0x50034e3accb4f9a1c9bad8cb92f6a1753b830e49",
-//!           "gas_overrides": {
-//!             "revive-dev-node-polkavm-resolc": {
-//!               "gas_limit": 10000000
-//!             }
-//!           },
-//!           "comment": "A hard-coded gas limit is required in order to get this test to pass since dry running fails. TODO: Remove when this is fixed."
+//!           "caller": "0x50034e3accb4f9a1c9bad8cb92f6a1753b830e49"
 //!         }
 //!       ],
 //!       "expected": [
@@ -1181,13 +1103,7 @@
 //!             "421587",
 //!             "3334353453452342342354355544445321191012012"
 //!           ],
-//!           "caller": "0x3cabf72130002dea7918b9e2ba334a280004486e",
-//!           "gas_overrides": {
-//!             "revive-dev-node-polkavm-resolc": {
-//!               "gas_limit": 10000000
-//!             }
-//!           },
-//!           "comment": "A hard-coded gas limit is required in order to get this test to pass since dry running fails. TODO: Remove when this is fixed."
+//!           "caller": "0x3cabf72130002dea7918b9e2ba334a280004486e"
 //!         }
 //!       ],
 //!       "expected": [
@@ -1203,13 +1119,7 @@
 //!             "421587",
 //!             "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"
 //!           ],
-//!           "caller": "0xb1423ae04ef2053e90414e32f66ef290f853b046",
-//!           "gas_overrides": {
-//!             "revive-dev-node-polkavm-resolc": {
-//!               "gas_limit": 10000000
-//!             }
-//!           },
-//!           "comment": "A hard-coded gas limit is required in order to get this test to pass since dry running fails. TODO: Remove when this is fixed."
+//!           "caller": "0xb1423ae04ef2053e90414e32f66ef290f853b046"
 //!         }
 //!       ],
 //!       "expected": [
@@ -1401,13 +1311,7 @@
 //!             "0xF100",
 //!             "0x100000000"
 //!           ],
-//!           "caller": "0x4a0b4642b82891cb247bb1ea7ef0aed4206e2267",
-//!           "gas_overrides": {
-//!             "revive-dev-node-polkavm-resolc": {
-//!               "gas_limit": 10000000
-//!             }
-//!           },
-//!           "comment": "A hard-coded gas limit is required in order to get this test to pass since dry running fails. TODO: Remove when this is fixed."
+//!           "caller": "0x4a0b4642b82891cb247bb1ea7ef0aed4206e2267"
 //!         }
 //!       ],
 //!       "expected": [
@@ -1423,13 +1327,7 @@
 //!             "0xF100",
 //!             "3334353453452342342354355544445321191012012"
 //!           ],
-//!           "caller": "0xd6a4415c3414578c75396e6624240ae10f25d3b2",
-//!           "gas_overrides": {
-//!             "revive-dev-node-polkavm-resolc": {
-//!               "gas_limit": 10000000
-//!             }
-//!           },
-//!           "comment": "A hard-coded gas limit is required in order to get this test to pass since dry running fails. TODO: Remove when this is fixed."
+//!           "caller": "0xd6a4415c3414578c75396e6624240ae10f25d3b2"
 //!         }
 //!       ],
 //!       "expected": [
@@ -1445,13 +1343,7 @@
 //!             "0xF100",
 //!             "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"
 //!           ],
-//!           "caller": "0xb587500ea1ec19a87a0c286bf2ec4a10e4a9ccca",
-//!           "gas_overrides": {
-//!             "revive-dev-node-polkavm-resolc": {
-//!               "gas_limit": 10000000
-//!             }
-//!           },
-//!           "comment": "A hard-coded gas limit is required in order to get this test to pass since dry running fails. TODO: Remove when this is fixed."
+//!           "caller": "0xb587500ea1ec19a87a0c286bf2ec4a10e4a9ccca"
 //!         }
 //!       ],
 //!       "expected": [
@@ -1643,13 +1535,7 @@
 //!             "0xFFFFFFAA",
 //!             "0x100000000"
 //!           ],
-//!           "caller": "0xdd5badb4d331831ec7a3d865fda63eb2f7b15f32",
-//!           "gas_overrides": {
-//!             "revive-dev-node-polkavm-resolc": {
-//!               "gas_limit": 10000000
-//!             }
-//!           },
-//!           "comment": "A hard-coded gas limit is required in order to get this test to pass since dry running fails. TODO: Remove when this is fixed."
+//!           "caller": "0xdd5badb4d331831ec7a3d865fda63eb2f7b15f32"
 //!         }
 //!       ],
 //!       "expected": [
@@ -1665,13 +1551,7 @@
 //!             "0xFFFFFFAA",
 //!             "3334353453452342342354355544445321191012012"
 //!           ],
-//!           "caller": "0x7cc2377a1a7a063dffae80709d590d84461855b2",
-//!           "gas_overrides": {
-//!             "revive-dev-node-polkavm-resolc": {
-//!               "gas_limit": 10000000
-//!             }
-//!           },
-//!           "comment": "A hard-coded gas limit is required in order to get this test to pass since dry running fails. TODO: Remove when this is fixed."
+//!           "caller": "0x7cc2377a1a7a063dffae80709d590d84461855b2"
 //!         }
 //!       ],
 //!       "expected": [
@@ -1687,13 +1567,7 @@
 //!             "0xFFFFFFAA",
 //!             "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"
 //!           ],
-//!           "caller": "0xc0304b425cf8874917b6ca5356dd20c579e97805",
-//!           "gas_overrides": {
-//!             "revive-dev-node-polkavm-resolc": {
-//!               "gas_limit": 10000000
-//!             }
-//!           },
-//!           "comment": "A hard-coded gas limit is required in order to get this test to pass since dry running fails. TODO: Remove when this is fixed."
+//!           "caller": "0xc0304b425cf8874917b6ca5356dd20c579e97805"
 //!         }
 //!       ],
 //!       "expected": [
@@ -1885,13 +1759,7 @@
 //!             "0xFFFFFFE0",
 //!             "0x100000000"
 //!           ],
-//!           "caller": "0x3e034fdd745d85aaaaa2295856dd789a5d153aa3",
-//!           "gas_overrides": {
-//!             "revive-dev-node-polkavm-resolc": {
-//!               "gas_limit": 10000000
-//!             }
-//!           },
-//!           "comment": "A hard-coded gas limit is required in order to get this test to pass since dry running fails. TODO: Remove when this is fixed."
+//!           "caller": "0x3e034fdd745d85aaaaa2295856dd789a5d153aa3"
 //!         }
 //!       ],
 //!       "expected": [
@@ -1907,13 +1775,7 @@
 //!             "0xFFFFFFE0",
 //!             "3334353453452342342354355544445321191012012"
 //!           ],
-//!           "caller": "0x870fbc6020874e86cdd8df162e13832266a5f47b",
-//!           "gas_overrides": {
-//!             "revive-dev-node-polkavm-resolc": {
-//!               "gas_limit": 10000000
-//!             }
-//!           },
-//!           "comment": "A hard-coded gas limit is required in order to get this test to pass since dry running fails. TODO: Remove when this is fixed."
+//!           "caller": "0x870fbc6020874e86cdd8df162e13832266a5f47b"
 //!         }
 //!       ],
 //!       "expected": [
@@ -1929,13 +1791,7 @@
 //!             "0xFFFFFFE0",
 //!             "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"
 //!           ],
-//!           "caller": "0xd34693479f54c11d0a719360fde76081c0c67ce6",
-//!           "gas_overrides": {
-//!             "revive-dev-node-polkavm-resolc": {
-//!               "gas_limit": 10000000
-//!             }
-//!           },
-//!           "comment": "A hard-coded gas limit is required in order to get this test to pass since dry running fails. TODO: Remove when this is fixed."
+//!           "caller": "0xd34693479f54c11d0a719360fde76081c0c67ce6"
 //!         }
 //!       ],
 //!       "expected": [
@@ -2127,13 +1983,7 @@
 //!             "0xFFFFFFE1",
 //!             "0x100000000"
 //!           ],
-//!           "caller": "0x123abaf7a75fe084f7f5bf8dd7e3e6d9e6027b3b",
-//!           "gas_overrides": {
-//!             "revive-dev-node-polkavm-resolc": {
-//!               "gas_limit": 10000000
-//!             }
-//!           },
-//!           "comment": "A hard-coded gas limit is required in order to get this test to pass since dry running fails. TODO: Remove when this is fixed."
+//!           "caller": "0x123abaf7a75fe084f7f5bf8dd7e3e6d9e6027b3b"
 //!         }
 //!       ],
 //!       "expected": [
@@ -2149,13 +1999,7 @@
 //!             "0xFFFFFFE1",
 //!             "3334353453452342342354355544445321191012012"
 //!           ],
-//!           "caller": "0x9b11740ea6d46b9176b1ebb69a1672be9c2c63d8",
-//!           "gas_overrides": {
-//!             "revive-dev-node-polkavm-resolc": {
-//!               "gas_limit": 10000000
-//!             }
-//!           },
-//!           "comment": "A hard-coded gas limit is required in order to get this test to pass since dry running fails. TODO: Remove when this is fixed."
+//!           "caller": "0x9b11740ea6d46b9176b1ebb69a1672be9c2c63d8"
 //!         }
 //!       ],
 //!       "expected": [
@@ -2171,13 +2015,7 @@
 //!             "0xFFFFFFE1",
 //!             "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"
 //!           ],
-//!           "caller": "0x49328be73c2edb094e13ac5f7d1cfb6dbba47d15",
-//!           "gas_overrides": {
-//!             "revive-dev-node-polkavm-resolc": {
-//!               "gas_limit": 10000000
-//!             }
-//!           },
-//!           "comment": "A hard-coded gas limit is required in order to get this test to pass since dry running fails. TODO: Remove when this is fixed."
+//!           "caller": "0x49328be73c2edb094e13ac5f7d1cfb6dbba47d15"
 //!         }
 //!       ],
 //!       "expected": [
@@ -2369,13 +2207,7 @@
 //!             "0xFFFFFFEF",
 //!             "0x100000000"
 //!           ],
-//!           "caller": "0xddbdef81f0c704ae60190f89f7b47c6dc87b9e00",
-//!           "gas_overrides": {
-//!             "revive-dev-node-polkavm-resolc": {
-//!               "gas_limit": 10000000
-//!             }
-//!           },
-//!           "comment": "A hard-coded gas limit is required in order to get this test to pass since dry running fails. TODO: Remove when this is fixed."
+//!           "caller": "0xddbdef81f0c704ae60190f89f7b47c6dc87b9e00"
 //!         }
 //!       ],
 //!       "expected": [
@@ -2391,13 +2223,7 @@
 //!             "0xFFFFFFEF",
 //!             "3334353453452342342354355544445321191012012"
 //!           ],
-//!           "caller": "0x6528598040fc2b307ec6c9d37891f2c485abb262",
-//!           "gas_overrides": {
-//!             "revive-dev-node-polkavm-resolc": {
-//!               "gas_limit": 10000000
-//!             }
-//!           },
-//!           "comment": "A hard-coded gas limit is required in order to get this test to pass since dry running fails. TODO: Remove when this is fixed."
+//!           "caller": "0x6528598040fc2b307ec6c9d37891f2c485abb262"
 //!         }
 //!       ],
 //!       "expected": [
@@ -2413,13 +2239,7 @@
 //!             "0xFFFFFFEF",
 //!             "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"
 //!           ],
-//!           "caller": "0x6a8b32cb656559c0fc49cd7db3ce48c074a7abe3",
-//!           "gas_overrides": {
-//!             "revive-dev-node-polkavm-resolc": {
-//!               "gas_limit": 10000000
-//!             }
-//!           },
-//!           "comment": "A hard-coded gas limit is required in order to get this test to pass since dry running fails. TODO: Remove when this is fixed."
+//!           "caller": "0x6a8b32cb656559c0fc49cd7db3ce48c074a7abe3"
 //!         }
 //!       ],
 //!       "expected": [
@@ -2611,13 +2431,7 @@
 //!             "0xFFFFFFFF",
 //!             "0x100000000"
 //!           ],
-//!           "caller": "0x17e7ce1f5a3e7bf71d7ca4396bec1a29b3928b8a",
-//!           "gas_overrides": {
-//!             "revive-dev-node-polkavm-resolc": {
-//!               "gas_limit": 10000000
-//!             }
-//!           },
-//!           "comment": "A hard-coded gas limit is required in order to get this test to pass since dry running fails. TODO: Remove when this is fixed."
+//!           "caller": "0x17e7ce1f5a3e7bf71d7ca4396bec1a29b3928b8a"
 //!         }
 //!       ],
 //!       "expected": [
@@ -2633,13 +2447,7 @@
 //!             "0xFFFFFFFF",
 //!             "3334353453452342342354355544445321191012012"
 //!           ],
-//!           "caller": "0x0c881b6e1a612cd72d134efae45c218c74436135",
-//!           "gas_overrides": {
-//!             "revive-dev-node-polkavm-resolc": {
-//!               "gas_limit": 10000000
-//!             }
-//!           },
-//!           "comment": "A hard-coded gas limit is required in order to get this test to pass since dry running fails. TODO: Remove when this is fixed."
+//!           "caller": "0x0c881b6e1a612cd72d134efae45c218c74436135"
 //!         }
 //!       ],
 //!       "expected": [
@@ -2655,13 +2463,7 @@
 //!             "0xFFFFFFFF",
 //!             "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"
 //!           ],
-//!           "caller": "0xf9809f4c5a5d7a1a6a7c625242bf3849353bceb5",
-//!           "gas_overrides": {
-//!             "revive-dev-node-polkavm-resolc": {
-//!               "gas_limit": 10000000
-//!             }
-//!           },
-//!           "comment": "A hard-coded gas limit is required in order to get this test to pass since dry running fails. TODO: Remove when this is fixed."
+//!           "caller": "0xf9809f4c5a5d7a1a6a7c625242bf3849353bceb5"
 //!         }
 //!       ],
 //!       "expected": [
@@ -2677,13 +2479,7 @@
 //!             "0x100000000",
 //!             "0"
 //!           ],
-//!           "caller": "0x8b272d3af3a1ca603dd3843b595349e8e1780c69",
-//!           "gas_overrides": {
-//!             "revive-dev-node-polkavm-resolc": {
-//!               "gas_limit": 10000000
-//!             }
-//!           },
-//!           "comment": "A hard-coded gas limit is required in order to get this test to pass since dry running fails. TODO: Remove when this is fixed."
+//!           "caller": "0x8b272d3af3a1ca603dd3843b595349e8e1780c69"
 //!         }
 //!       ],
 //!       "expected": [
@@ -2699,13 +2495,7 @@
 //!             "0x100000000",
 //!             "1"
 //!           ],
-//!           "caller": "0xfbc71c06ae0ab48c35ff2cd5022061b9925a9fd8",
-//!           "gas_overrides": {
-//!             "revive-dev-node-polkavm-resolc": {
-//!               "gas_limit": 10000000
-//!             }
-//!           },
-//!           "comment": "A hard-coded gas limit is required in order to get this test to pass since dry running fails. TODO: Remove when this is fixed."
+//!           "caller": "0xfbc71c06ae0ab48c35ff2cd5022061b9925a9fd8"
 //!         }
 //!       ],
 //!       "expected": [
@@ -2721,13 +2511,7 @@
 //!             "0x100000000",
 //!             "19"
 //!           ],
-//!           "caller": "0x53c61b5839fa88600932b811d7a7e9cf4573f65b",
-//!           "gas_overrides": {
-//!             "revive-dev-node-polkavm-resolc": {
-//!               "gas_limit": 10000000
-//!             }
-//!           },
-//!           "comment": "A hard-coded gas limit is required in order to get this test to pass since dry running fails. TODO: Remove when this is fixed."
+//!           "caller": "0x53c61b5839fa88600932b811d7a7e9cf4573f65b"
 //!         }
 //!       ],
 //!       "expected": [
@@ -2743,13 +2527,7 @@
 //!             "0x100000000",
 //!             "32"
 //!           ],
-//!           "caller": "0x005158060b9c038a5d2655683a0a731304613142",
-//!           "gas_overrides": {
-//!             "revive-dev-node-polkavm-resolc": {
-//!               "gas_limit": 10000000
-//!             }
-//!           },
-//!           "comment": "A hard-coded gas limit is required in order to get this test to pass since dry running fails. TODO: Remove when this is fixed."
+//!           "caller": "0x005158060b9c038a5d2655683a0a731304613142"
 //!         }
 //!       ],
 //!       "expected": [
@@ -2765,13 +2543,7 @@
 //!             "0x100000000",
 //!             "2383"
 //!           ],
-//!           "caller": "0x01045645eee1f2098c17700814b9a1210af5de7b",
-//!           "gas_overrides": {
-//!             "revive-dev-node-polkavm-resolc": {
-//!               "gas_limit": 10000000
-//!             }
-//!           },
-//!           "comment": "A hard-coded gas limit is required in order to get this test to pass since dry running fails. TODO: Remove when this is fixed."
+//!           "caller": "0x01045645eee1f2098c17700814b9a1210af5de7b"
 //!         }
 //!       ],
 //!       "expected": [
@@ -2787,13 +2559,7 @@
 //!             "0x100000000",
 //!             "0xF100"
 //!           ],
-//!           "caller": "0xeb3048fa5bd0387c3f48e5a415434050e74cb478",
-//!           "gas_overrides": {
-//!             "revive-dev-node-polkavm-resolc": {
-//!               "gas_limit": 10000000
-//!             }
-//!           },
-//!           "comment": "A hard-coded gas limit is required in order to get this test to pass since dry running fails. TODO: Remove when this is fixed."
+//!           "caller": "0xeb3048fa5bd0387c3f48e5a415434050e74cb478"
 //!         }
 //!       ],
 //!       "expected": [
@@ -2809,13 +2575,7 @@
 //!             "0x100000000",
 //!             "0xFFFFFFAA"
 //!           ],
-//!           "caller": "0x7089825581fdf0752780d11dab3fbdf6c67c967f",
-//!           "gas_overrides": {
-//!             "revive-dev-node-polkavm-resolc": {
-//!               "gas_limit": 10000000
-//!             }
-//!           },
-//!           "comment": "A hard-coded gas limit is required in order to get this test to pass since dry running fails. TODO: Remove when this is fixed."
+//!           "caller": "0x7089825581fdf0752780d11dab3fbdf6c67c967f"
 //!         }
 //!       ],
 //!       "expected": [
@@ -2831,13 +2591,7 @@
 //!             "0x100000000",
 //!             "0xFFFFFFE0"
 //!           ],
-//!           "caller": "0x40a573423b9a29da4aef5f5f1f3963bea9417d78",
-//!           "gas_overrides": {
-//!             "revive-dev-node-polkavm-resolc": {
-//!               "gas_limit": 10000000
-//!             }
-//!           },
-//!           "comment": "A hard-coded gas limit is required in order to get this test to pass since dry running fails. TODO: Remove when this is fixed."
+//!           "caller": "0x40a573423b9a29da4aef5f5f1f3963bea9417d78"
 //!         }
 //!       ],
 //!       "expected": [
@@ -2853,13 +2607,7 @@
 //!             "0x100000000",
 //!             "0xFFFFFFE1"
 //!           ],
-//!           "caller": "0xe4a37943a9c742048035b6eec8e965385a420fb4",
-//!           "gas_overrides": {
-//!             "revive-dev-node-polkavm-resolc": {
-//!               "gas_limit": 10000000
-//!             }
-//!           },
-//!           "comment": "A hard-coded gas limit is required in order to get this test to pass since dry running fails. TODO: Remove when this is fixed."
+//!           "caller": "0xe4a37943a9c742048035b6eec8e965385a420fb4"
 //!         }
 //!       ],
 //!       "expected": [
@@ -2875,13 +2623,7 @@
 //!             "0x100000000",
 //!             "0xFFFFFFEF"
 //!           ],
-//!           "caller": "0x152762597ae2935a3c0ab97493a5df4eaaed7d92",
-//!           "gas_overrides": {
-//!             "revive-dev-node-polkavm-resolc": {
-//!               "gas_limit": 10000000
-//!             }
-//!           },
-//!           "comment": "A hard-coded gas limit is required in order to get this test to pass since dry running fails. TODO: Remove when this is fixed."
+//!           "caller": "0x152762597ae2935a3c0ab97493a5df4eaaed7d92"
 //!         }
 //!       ],
 //!       "expected": [
@@ -2897,13 +2639,7 @@
 //!             "0x100000000",
 //!             "0xFFFFFFFF"
 //!           ],
-//!           "caller": "0x8d565d8da92f27a0943adeb09fa8474a63b6c911",
-//!           "gas_overrides": {
-//!             "revive-dev-node-polkavm-resolc": {
-//!               "gas_limit": 10000000
-//!             }
-//!           },
-//!           "comment": "A hard-coded gas limit is required in order to get this test to pass since dry running fails. TODO: Remove when this is fixed."
+//!           "caller": "0x8d565d8da92f27a0943adeb09fa8474a63b6c911"
 //!         }
 //!       ],
 //!       "expected": [
@@ -2919,13 +2655,7 @@
 //!             "0x100000000",
 //!             "0x100000000"
 //!           ],
-//!           "caller": "0xd4810785fe93092b65ee76f8ec5838d4b6815ee8",
-//!           "gas_overrides": {
-//!             "revive-dev-node-polkavm-resolc": {
-//!               "gas_limit": 10000000
-//!             }
-//!           },
-//!           "comment": "A hard-coded gas limit is required in order to get this test to pass since dry running fails. TODO: Remove when this is fixed."
+//!           "caller": "0xd4810785fe93092b65ee76f8ec5838d4b6815ee8"
 //!         }
 //!       ],
 //!       "expected": [
@@ -2941,13 +2671,7 @@
 //!             "0x100000000",
 //!             "3334353453452342342354355544445321191012012"
 //!           ],
-//!           "caller": "0x73dcdb4d6ce91854a3dc008d3972577d8b032858",
-//!           "gas_overrides": {
-//!             "revive-dev-node-polkavm-resolc": {
-//!               "gas_limit": 10000000
-//!             }
-//!           },
-//!           "comment": "A hard-coded gas limit is required in order to get this test to pass since dry running fails. TODO: Remove when this is fixed."
+//!           "caller": "0x73dcdb4d6ce91854a3dc008d3972577d8b032858"
 //!         }
 //!       ],
 //!       "expected": [
@@ -2963,13 +2687,7 @@
 //!             "0x100000000",
 //!             "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"
 //!           ],
-//!           "caller": "0xd1aabce7483a55f7c8b61a83d6a2b2ce9e179bc1",
-//!           "gas_overrides": {
-//!             "revive-dev-node-polkavm-resolc": {
-//!               "gas_limit": 10000000
-//!             }
-//!           },
-//!           "comment": "A hard-coded gas limit is required in order to get this test to pass since dry running fails. TODO: Remove when this is fixed."
+//!           "caller": "0xd1aabce7483a55f7c8b61a83d6a2b2ce9e179bc1"
 //!         }
 //!       ],
 //!       "expected": [
@@ -2985,13 +2703,7 @@
 //!             "3334353453452342342354355544445321191012012",
 //!             "0"
 //!           ],
-//!           "caller": "0x231faec70ba8d479f90f2747f86a06de3fbfbe0c",
-//!           "gas_overrides": {
-//!             "revive-dev-node-polkavm-resolc": {
-//!               "gas_limit": 10000000
-//!             }
-//!           },
-//!           "comment": "A hard-coded gas limit is required in order to get this test to pass since dry running fails. TODO: Remove when this is fixed."
+//!           "caller": "0x231faec70ba8d479f90f2747f86a06de3fbfbe0c"
 //!         }
 //!       ],
 //!       "expected": [
@@ -3007,13 +2719,7 @@
 //!             "3334353453452342342354355544445321191012012",
 //!             "1"
 //!           ],
-//!           "caller": "0x302ff1b7faab53a787a14ad6b6180bd6efcc6de1",
-//!           "gas_overrides": {
-//!             "revive-dev-node-polkavm-resolc": {
-//!               "gas_limit": 10000000
-//!             }
-//!           },
-//!           "comment": "A hard-coded gas limit is required in order to get this test to pass since dry running fails. TODO: Remove when this is fixed."
+//!           "caller": "0x302ff1b7faab53a787a14ad6b6180bd6efcc6de1"
 //!         }
 //!       ],
 //!       "expected": [
@@ -3029,13 +2735,7 @@
 //!             "3334353453452342342354355544445321191012012",
 //!             "19"
 //!           ],
-//!           "caller": "0x98a78554e5e2d49a8dc6c85d83ef939d00e78c8a",
-//!           "gas_overrides": {
-//!             "revive-dev-node-polkavm-resolc": {
-//!               "gas_limit": 10000000
-//!             }
-//!           },
-//!           "comment": "A hard-coded gas limit is required in order to get this test to pass since dry running fails. TODO: Remove when this is fixed."
+//!           "caller": "0x98a78554e5e2d49a8dc6c85d83ef939d00e78c8a"
 //!         }
 //!       ],
 //!       "expected": [
@@ -3051,13 +2751,7 @@
 //!             "3334353453452342342354355544445321191012012",
 //!             "32"
 //!           ],
-//!           "caller": "0x99659661b44041251f7fcb91723ebc476af9eb84",
-//!           "gas_overrides": {
-//!             "revive-dev-node-polkavm-resolc": {
-//!               "gas_limit": 10000000
-//!             }
-//!           },
-//!           "comment": "A hard-coded gas limit is required in order to get this test to pass since dry running fails. TODO: Remove when this is fixed."
+//!           "caller": "0x99659661b44041251f7fcb91723ebc476af9eb84"
 //!         }
 //!       ],
 //!       "expected": [
@@ -3073,13 +2767,7 @@
 //!             "3334353453452342342354355544445321191012012",
 //!             "2383"
 //!           ],
-//!           "caller": "0x5b2b49d275217f0c62b20da2d03f61028580862f",
-//!           "gas_overrides": {
-//!             "revive-dev-node-polkavm-resolc": {
-//!               "gas_limit": 10000000
-//!             }
-//!           },
-//!           "comment": "A hard-coded gas limit is required in order to get this test to pass since dry running fails. TODO: Remove when this is fixed."
+//!           "caller": "0x5b2b49d275217f0c62b20da2d03f61028580862f"
 //!         }
 //!       ],
 //!       "expected": [
@@ -3095,13 +2783,7 @@
 //!             "3334353453452342342354355544445321191012012",
 //!             "0xF100"
 //!           ],
-//!           "caller": "0x096a7e45abd07b3b13f404e3b6cf377e4847e35a",
-//!           "gas_overrides": {
-//!             "revive-dev-node-polkavm-resolc": {
-//!               "gas_limit": 10000000
-//!             }
-//!           },
-//!           "comment": "A hard-coded gas limit is required in order to get this test to pass since dry running fails. TODO: Remove when this is fixed."
+//!           "caller": "0x096a7e45abd07b3b13f404e3b6cf377e4847e35a"
 //!         }
 //!       ],
 //!       "expected": [
@@ -3117,13 +2799,7 @@
 //!             "3334353453452342342354355544445321191012012",
 //!             "0xFFFFFFAA"
 //!           ],
-//!           "caller": "0x3d034b9331083670bc0db0867fe1eddc3af69d29",
-//!           "gas_overrides": {
-//!             "revive-dev-node-polkavm-resolc": {
-//!               "gas_limit": 10000000
-//!             }
-//!           },
-//!           "comment": "A hard-coded gas limit is required in order to get this test to pass since dry running fails. TODO: Remove when this is fixed."
+//!           "caller": "0x3d034b9331083670bc0db0867fe1eddc3af69d29"
 //!         }
 //!       ],
 //!       "expected": [
@@ -3139,13 +2815,7 @@
 //!             "3334353453452342342354355544445321191012012",
 //!             "0xFFFFFFE0"
 //!           ],
-//!           "caller": "0xdf167988d6691acf0e8c9e9d78792fddf859591d",
-//!           "gas_overrides": {
-//!             "revive-dev-node-polkavm-resolc": {
-//!               "gas_limit": 10000000
-//!             }
-//!           },
-//!           "comment": "A hard-coded gas limit is required in order to get this test to pass since dry running fails. TODO: Remove when this is fixed."
+//!           "caller": "0xdf167988d6691acf0e8c9e9d78792fddf859591d"
 //!         }
 //!       ],
 //!       "expected": [
@@ -3161,13 +2831,7 @@
 //!             "3334353453452342342354355544445321191012012",
 //!             "0xFFFFFFE1"
 //!           ],
-//!           "caller": "0xe2aac9036fd151b014ef5d1898386b1a49406c9f",
-//!           "gas_overrides": {
-//!             "revive-dev-node-polkavm-resolc": {
-//!               "gas_limit": 10000000
-//!             }
-//!           },
-//!           "comment": "A hard-coded gas limit is required in order to get this test to pass since dry running fails. TODO: Remove when this is fixed."
+//!           "caller": "0xe2aac9036fd151b014ef5d1898386b1a49406c9f"
 //!         }
 //!       ],
 //!       "expected": [
@@ -3183,13 +2847,7 @@
 //!             "3334353453452342342354355544445321191012012",
 //!             "0xFFFFFFEF"
 //!           ],
-//!           "caller": "0xabbb4947c59949201cadb60654d32ba1fc272380",
-//!           "gas_overrides": {
-//!             "revive-dev-node-polkavm-resolc": {
-//!               "gas_limit": 10000000
-//!             }
-//!           },
-//!           "comment": "A hard-coded gas limit is required in order to get this test to pass since dry running fails. TODO: Remove when this is fixed."
+//!           "caller": "0xabbb4947c59949201cadb60654d32ba1fc272380"
 //!         }
 //!       ],
 //!       "expected": [
@@ -3205,13 +2863,7 @@
 //!             "3334353453452342342354355544445321191012012",
 //!             "0xFFFFFFFF"
 //!           ],
-//!           "caller": "0x5473f3c7a507a72330208d0e00d225a3ea4eae89",
-//!           "gas_overrides": {
-//!             "revive-dev-node-polkavm-resolc": {
-//!               "gas_limit": 10000000
-//!             }
-//!           },
-//!           "comment": "A hard-coded gas limit is required in order to get this test to pass since dry running fails. TODO: Remove when this is fixed."
+//!           "caller": "0x5473f3c7a507a72330208d0e00d225a3ea4eae89"
 //!         }
 //!       ],
 //!       "expected": [
@@ -3227,13 +2879,7 @@
 //!             "3334353453452342342354355544445321191012012",
 //!             "0x100000000"
 //!           ],
-//!           "caller": "0xfd26ff418ff589d9215d66ce0625c9bf339c293b",
-//!           "gas_overrides": {
-//!             "revive-dev-node-polkavm-resolc": {
-//!               "gas_limit": 10000000
-//!             }
-//!           },
-//!           "comment": "A hard-coded gas limit is required in order to get this test to pass since dry running fails. TODO: Remove when this is fixed."
+//!           "caller": "0xfd26ff418ff589d9215d66ce0625c9bf339c293b"
 //!         }
 //!       ],
 //!       "expected": [
@@ -3249,13 +2895,7 @@
 //!             "3334353453452342342354355544445321191012012",
 //!             "3334353453452342342354355544445321191012012"
 //!           ],
-//!           "caller": "0x10976c66945f3d5beb12bc3dba717a0e7cb4c8e6",
-//!           "gas_overrides": {
-//!             "revive-dev-node-polkavm-resolc": {
-//!               "gas_limit": 10000000
-//!             }
-//!           },
-//!           "comment": "A hard-coded gas limit is required in order to get this test to pass since dry running fails. TODO: Remove when this is fixed."
+//!           "caller": "0x10976c66945f3d5beb12bc3dba717a0e7cb4c8e6"
 //!         }
 //!       ],
 //!       "expected": [
@@ -3271,13 +2911,7 @@
 //!             "3334353453452342342354355544445321191012012",
 //!             "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"
 //!           ],
-//!           "caller": "0xd56792cd944eb7bd6a16c234a81178ea5d6bba83",
-//!           "gas_overrides": {
-//!             "revive-dev-node-polkavm-resolc": {
-//!               "gas_limit": 10000000
-//!             }
-//!           },
-//!           "comment": "A hard-coded gas limit is required in order to get this test to pass since dry running fails. TODO: Remove when this is fixed."
+//!           "caller": "0xd56792cd944eb7bd6a16c234a81178ea5d6bba83"
 //!         }
 //!       ],
 //!       "expected": [
@@ -3293,13 +2927,7 @@
 //!             "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF",
 //!             "0"
 //!           ],
-//!           "caller": "0xa371f25b0c37f931307ad434401f5b87614b658f",
-//!           "gas_overrides": {
-//!             "revive-dev-node-polkavm-resolc": {
-//!               "gas_limit": 10000000
-//!             }
-//!           },
-//!           "comment": "A hard-coded gas limit is required in order to get this test to pass since dry running fails. TODO: Remove when this is fixed."
+//!           "caller": "0xa371f25b0c37f931307ad434401f5b87614b658f"
 //!         }
 //!       ],
 //!       "expected": [
@@ -3315,13 +2943,7 @@
 //!             "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF",
 //!             "1"
 //!           ],
-//!           "caller": "0x0a1e969794a096492f01f67202e900afac7507de",
-//!           "gas_overrides": {
-//!             "revive-dev-node-polkavm-resolc": {
-//!               "gas_limit": 10000000
-//!             }
-//!           },
-//!           "comment": "A hard-coded gas limit is required in order to get this test to pass since dry running fails. TODO: Remove when this is fixed."
+//!           "caller": "0x0a1e969794a096492f01f67202e900afac7507de"
 //!         }
 //!       ],
 //!       "expected": [
@@ -3337,13 +2959,7 @@
 //!             "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF",
 //!             "19"
 //!           ],
-//!           "caller": "0x2e733619037966484a683e90d0c8021d679a6d72",
-//!           "gas_overrides": {
-//!             "revive-dev-node-polkavm-resolc": {
-//!               "gas_limit": 10000000
-//!             }
-//!           },
-//!           "comment": "A hard-coded gas limit is required in order to get this test to pass since dry running fails. TODO: Remove when this is fixed."
+//!           "caller": "0x2e733619037966484a683e90d0c8021d679a6d72"
 //!         }
 //!       ],
 //!       "expected": [
@@ -3359,13 +2975,7 @@
 //!             "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF",
 //!             "32"
 //!           ],
-//!           "caller": "0x7b01a4be9842628638ead1fc0ce1dff3886c25ca",
-//!           "gas_overrides": {
-//!             "revive-dev-node-polkavm-resolc": {
-//!               "gas_limit": 10000000
-//!             }
-//!           },
-//!           "comment": "A hard-coded gas limit is required in order to get this test to pass since dry running fails. TODO: Remove when this is fixed."
+//!           "caller": "0x7b01a4be9842628638ead1fc0ce1dff3886c25ca"
 //!         }
 //!       ],
 //!       "expected": [
@@ -3381,13 +2991,7 @@
 //!             "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF",
 //!             "2383"
 //!           ],
-//!           "caller": "0x4aad9e825d2213dca2e71836c09c996b19971020",
-//!           "gas_overrides": {
-//!             "revive-dev-node-polkavm-resolc": {
-//!               "gas_limit": 10000000
-//!             }
-//!           },
-//!           "comment": "A hard-coded gas limit is required in order to get this test to pass since dry running fails. TODO: Remove when this is fixed."
+//!           "caller": "0x4aad9e825d2213dca2e71836c09c996b19971020"
 //!         }
 //!       ],
 //!       "expected": [
@@ -3403,13 +3007,7 @@
 //!             "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF",
 //!             "0xF100"
 //!           ],
-//!           "caller": "0x70963b723de34fe159ba1b8fb50682971bcaac6c",
-//!           "gas_overrides": {
-//!             "revive-dev-node-polkavm-resolc": {
-//!               "gas_limit": 10000000
-//!             }
-//!           },
-//!           "comment": "A hard-coded gas limit is required in order to get this test to pass since dry running fails. TODO: Remove when this is fixed."
+//!           "caller": "0x70963b723de34fe159ba1b8fb50682971bcaac6c"
 //!         }
 //!       ],
 //!       "expected": [
@@ -3425,13 +3023,7 @@
 //!             "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF",
 //!             "0xFFFFFFAA"
 //!           ],
-//!           "caller": "0x9fe8dd89894127e4abb163f10852829dea2255fe",
-//!           "gas_overrides": {
-//!             "revive-dev-node-polkavm-resolc": {
-//!               "gas_limit": 10000000
-//!             }
-//!           },
-//!           "comment": "A hard-coded gas limit is required in order to get this test to pass since dry running fails. TODO: Remove when this is fixed."
+//!           "caller": "0x9fe8dd89894127e4abb163f10852829dea2255fe"
 //!         }
 //!       ],
 //!       "expected": [
@@ -3447,13 +3039,7 @@
 //!             "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF",
 //!             "0xFFFFFFE0"
 //!           ],
-//!           "caller": "0x769bdbbc093398029e1ec525a7e775b736ca48b4",
-//!           "gas_overrides": {
-//!             "revive-dev-node-polkavm-resolc": {
-//!               "gas_limit": 10000000
-//!             }
-//!           },
-//!           "comment": "A hard-coded gas limit is required in order to get this test to pass since dry running fails. TODO: Remove when this is fixed."
+//!           "caller": "0x769bdbbc093398029e1ec525a7e775b736ca48b4"
 //!         }
 //!       ],
 //!       "expected": [
@@ -3469,13 +3055,7 @@
 //!             "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF",
 //!             "0xFFFFFFE1"
 //!           ],
-//!           "caller": "0x8d28e5e2925be60caa2733a0d90fb0f3fac66f5e",
-//!           "gas_overrides": {
-//!             "revive-dev-node-polkavm-resolc": {
-//!               "gas_limit": 10000000
-//!             }
-//!           },
-//!           "comment": "A hard-coded gas limit is required in order to get this test to pass since dry running fails. TODO: Remove when this is fixed."
+//!           "caller": "0x8d28e5e2925be60caa2733a0d90fb0f3fac66f5e"
 //!         }
 //!       ],
 //!       "expected": [
@@ -3491,13 +3071,7 @@
 //!             "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF",
 //!             "0xFFFFFFEF"
 //!           ],
-//!           "caller": "0x27ee1bfe6b743b0c4bb82eb5aca64f00b46c6278",
-//!           "gas_overrides": {
-//!             "revive-dev-node-polkavm-resolc": {
-//!               "gas_limit": 10000000
-//!             }
-//!           },
-//!           "comment": "A hard-coded gas limit is required in order to get this test to pass since dry running fails. TODO: Remove when this is fixed."
+//!           "caller": "0x27ee1bfe6b743b0c4bb82eb5aca64f00b46c6278"
 //!         }
 //!       ],
 //!       "expected": [
@@ -3513,13 +3087,7 @@
 //!             "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF",
 //!             "0xFFFFFFFF"
 //!           ],
-//!           "caller": "0xd233f09309ed04bdaf978b0bf7265da824331910",
-//!           "gas_overrides": {
-//!             "revive-dev-node-polkavm-resolc": {
-//!               "gas_limit": 10000000
-//!             }
-//!           },
-//!           "comment": "A hard-coded gas limit is required in order to get this test to pass since dry running fails. TODO: Remove when this is fixed."
+//!           "caller": "0xd233f09309ed04bdaf978b0bf7265da824331910"
 //!         }
 //!       ],
 //!       "expected": [
@@ -3535,13 +3103,7 @@
 //!             "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF",
 //!             "0x100000000"
 //!           ],
-//!           "caller": "0x5d6049ae5f61c891621d4af51e5c5682b1b39f61",
-//!           "gas_overrides": {
-//!             "revive-dev-node-polkavm-resolc": {
-//!               "gas_limit": 10000000
-//!             }
-//!           },
-//!           "comment": "A hard-coded gas limit is required in order to get this test to pass since dry running fails. TODO: Remove when this is fixed."
+//!           "caller": "0x5d6049ae5f61c891621d4af51e5c5682b1b39f61"
 //!         }
 //!       ],
 //!       "expected": [
@@ -3557,13 +3119,7 @@
 //!             "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF",
 //!             "3334353453452342342354355544445321191012012"
 //!           ],
-//!           "caller": "0xde8af91de2ca5ce2002b30da473010483475488d",
-//!           "gas_overrides": {
-//!             "revive-dev-node-polkavm-resolc": {
-//!               "gas_limit": 10000000
-//!             }
-//!           },
-//!           "comment": "A hard-coded gas limit is required in order to get this test to pass since dry running fails. TODO: Remove when this is fixed."
+//!           "caller": "0xde8af91de2ca5ce2002b30da473010483475488d"
 //!         }
 //!       ],
 //!       "expected": [
@@ -3579,13 +3135,7 @@
 //!             "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF",
 //!             "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"
 //!           ],
-//!           "caller": "0x1b839fa798e546d02f5be3acbeb07e550ee947cc",
-//!           "gas_overrides": {
-//!             "revive-dev-node-polkavm-resolc": {
-//!               "gas_limit": 10000000
-//!             }
-//!           },
-//!           "comment": "A hard-coded gas limit is required in order to get this test to pass since dry running fails. TODO: Remove when this is fixed."
+//!           "caller": "0x1b839fa798e546d02f5be3acbeb07e550ee947cc"
 //!         }
 //!       ],
 //!       "expected": [

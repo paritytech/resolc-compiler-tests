@@ -6,6 +6,7 @@
   "cases": [
     {
       "name": "ERC20 Transfers",
+      "comment": "Benchmarks ERC20 transfers by minting tokens on one account and then sending them to another account. Minting can be done by anybody and therefore it doesn't require a specific minter account.",
       "inputs": [
         {
           "comment": "Deploying the ERC20 Contract to be used in the workload",

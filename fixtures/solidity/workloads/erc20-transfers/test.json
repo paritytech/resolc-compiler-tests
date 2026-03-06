@@ -23,15 +23,11 @@
         },
         {
           "comment": "The primary benchmark steps and repetition",
-          "repeat": 10000,
+          "repeat": 40000,
           "steps": [
             {
               "comment": "Allocating an account for the sender",
               "allocate_account": "$VARIABLE:SENDER_ACCOUNT"
-            },
-            {
-              "comment": "Allocating an account for the receiver",
-              "allocate_account": "$VARIABLE:RECEIVER_ACCOUNT"
             },
             {
               "comment": "Mint tokens to the sender's account",
@@ -44,17 +40,22 @@
               ]
             },
             {
-              "comment": "Sending tokens to the receiver's account",
-              "instance": "ERC20",
-              "method": "transfer",
-              "caller": "$VARIABLE:SENDER_ACCOUNT",
-              "calldata": [
-                "$VARIABLE:RECEIVER_ACCOUNT",
-                "1"
+              "comment": "Sending tokens to the receiver",
+              "repeat": 3,
+              "steps": [
+                {
+                  "comment": "Sending tokens to the receiver's account",
+                  "instance": "ERC20",
+                  "method": "transfer",
+                  "caller": "$VARIABLE:SENDER_ACCOUNT",
+                  "calldata": [
+                    "0x0000000000000000000000000000000000000001",
+                    "1"
+                  ]
+                }
               ]
             }
-          ],
-          "caller": "0x7e5f4552091a69125d5dfcb7b8c2659029395bdf"
+          ]
         }
       ]
     }

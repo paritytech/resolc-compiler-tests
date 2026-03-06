@@ -1,7 +1,10 @@
 {
   "$schema": "../../../../schema.json",
   "modes": [
-    "Y+"
+    "Y Mz S+",
+    "Y Ms S+",
+    "Y Mz S-",
+    "Y Ms S-"
   ],
   "cases": [
     {

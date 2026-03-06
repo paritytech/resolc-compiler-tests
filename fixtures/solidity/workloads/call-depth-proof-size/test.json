@@ -1,0 +1,550 @@
+{
+  "$schema": "../../../../schema.json",
+  "modes": [
+    "Y+"
+  ],
+  "cases": [
+    {
+      "name": "Depth 1",
+      "comment": "Single contract, no cross-contract calls. Baseline for proof size measurement.",
+      "inputs": [
+        {
+          "comment": "Benchmark: call relay() on Relay00 (leaf, depth 1)",
+          "repeat": 20000,
+          "steps": [
+            {
+              "allocate_account": "$VARIABLE:CALLER"
+            },
+            {
+              "instance": "Relay00",
+              "method": "relay",
+              "caller": "$VARIABLE:CALLER"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Depth 3",
+      "comment": "3 contracts chained: Relay02 -> Relay01 -> Relay00. 3 unique code hashes in proof.",
+      "inputs": [
+        {
+          "comment": "Wire Relay01 -> Relay00",
+          "instance": "Relay01",
+          "method": "setNext",
+          "calldata": [
+            "Relay00.address"
+          ]
+        },
+        {
+          "comment": "Wire Relay02 -> Relay01",
+          "instance": "Relay02",
+          "method": "setNext",
+          "calldata": [
+            "Relay01.address"
+          ]
+        },
+        {
+          "comment": "Benchmark: call relay() on Relay02 (entry point, depth 3)",
+          "repeat": 15000,
+          "steps": [
+            {
+              "allocate_account": "$VARIABLE:CALLER"
+            },
+            {
+              "instance": "Relay02",
+              "method": "relay",
+              "caller": "$VARIABLE:CALLER"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Depth 5",
+      "comment": "5 contracts chained: Relay04 -> ... -> Relay00. 5 unique code hashes in proof.",
+      "inputs": [
+        {
+          "comment": "Wire Relay01 -> Relay00",
+          "instance": "Relay01",
+          "method": "setNext",
+          "calldata": [
+            "Relay00.address"
+          ]
+        },
+        {
+          "comment": "Wire Relay02 -> Relay01",
+          "instance": "Relay02",
+          "method": "setNext",
+          "calldata": [
+            "Relay01.address"
+          ]
+        },
+        {
+          "comment": "Wire Relay03 -> Relay02",
+          "instance": "Relay03",
+          "method": "setNext",
+          "calldata": [
+            "Relay02.address"
+          ]
+        },
+        {
+          "comment": "Wire Relay04 -> Relay03",
+          "instance": "Relay04",
+          "method": "setNext",
+          "calldata": [
+            "Relay03.address"
+          ]
+        },
+        {
+          "comment": "Benchmark: call relay() on Relay04 (entry point, depth 5)",
+          "repeat": 10000,
+          "steps": [
+            {
+              "allocate_account": "$VARIABLE:CALLER"
+            },
+            {
+              "instance": "Relay04",
+              "method": "relay",
+              "caller": "$VARIABLE:CALLER"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Depth 7",
+      "comment": "7 contracts chained: Relay06 -> ... -> Relay00. 7 unique code hashes in proof.",
+      "inputs": [
+        {
+          "comment": "Wire Relay01 -> Relay00",
+          "instance": "Relay01",
+          "method": "setNext",
+          "calldata": [
+            "Relay00.address"
+          ]
+        },
+        {
+          "comment": "Wire Relay02 -> Relay01",
+          "instance": "Relay02",
+          "method": "setNext",
+          "calldata": [
+            "Relay01.address"
+          ]
+        },
+        {
+          "comment": "Wire Relay03 -> Relay02",
+          "instance": "Relay03",
+          "method": "setNext",
+          "calldata": [
+            "Relay02.address"
+          ]
+        },
+        {
+          "comment": "Wire Relay04 -> Relay03",
+          "instance": "Relay04",
+          "method": "setNext",
+          "calldata": [
+            "Relay03.address"
+          ]
+        },
+        {
+          "comment": "Wire Relay05 -> Relay04",
+          "instance": "Relay05",
+          "method": "setNext",
+          "calldata": [
+            "Relay04.address"
+          ]
+        },
+        {
+          "comment": "Wire Relay06 -> Relay05",
+          "instance": "Relay06",
+          "method": "setNext",
+          "calldata": [
+            "Relay05.address"
+          ]
+        },
+        {
+          "comment": "Benchmark: call relay() on Relay06 (entry point, depth 7)",
+          "repeat": 8000,
+          "steps": [
+            {
+              "allocate_account": "$VARIABLE:CALLER"
+            },
+            {
+              "instance": "Relay06",
+              "method": "relay",
+              "caller": "$VARIABLE:CALLER"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Depth 10",
+      "comment": "10 contracts chained: Relay09 -> ... -> Relay00. 10 unique code hashes in proof.",
+      "inputs": [
+        {
+          "comment": "Wire Relay01 -> Relay00",
+          "instance": "Relay01",
+          "method": "setNext",
+          "calldata": [
+            "Relay00.address"
+          ]
+        },
+        {
+          "comment": "Wire Relay02 -> Relay01",
+          "instance": "Relay02",
+          "method": "setNext",
+          "calldata": [
+            "Relay01.address"
+          ]
+        },
+        {
+          "comment": "Wire Relay03 -> Relay02",
+          "instance": "Relay03",
+          "method": "setNext",
+          "calldata": [
+            "Relay02.address"
+          ]
+        },
+        {
+          "comment": "Wire Relay04 -> Relay03",
+          "instance": "Relay04",
+          "method": "setNext",
+          "calldata": [
+            "Relay03.address"
+          ]
+        },
+        {
+          "comment": "Wire Relay05 -> Relay04",
+          "instance": "Relay05",
+          "method": "setNext",
+          "calldata": [
+            "Relay04.address"
+          ]
+        },
+        {
+          "comment": "Wire Relay06 -> Relay05",
+          "instance": "Relay06",
+          "method": "setNext",
+          "calldata": [
+            "Relay05.address"
+          ]
+        },
+        {
+          "comment": "Wire Relay07 -> Relay06",
+          "instance": "Relay07",
+          "method": "setNext",
+          "calldata": [
+            "Relay06.address"
+          ]
+        },
+        {
+          "comment": "Wire Relay08 -> Relay07",
+          "instance": "Relay08",
+          "method": "setNext",
+          "calldata": [
+            "Relay07.address"
+          ]
+        },
+        {
+          "comment": "Wire Relay09 -> Relay08",
+          "instance": "Relay09",
+          "method": "setNext",
+          "calldata": [
+            "Relay08.address"
+          ]
+        },
+        {
+          "comment": "Benchmark: call relay() on Relay09 (entry point, depth 10)",
+          "repeat": 5000,
+          "steps": [
+            {
+              "allocate_account": "$VARIABLE:CALLER"
+            },
+            {
+              "instance": "Relay09",
+              "method": "relay",
+              "caller": "$VARIABLE:CALLER"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Depth 13",
+      "comment": "13 contracts chained: Relay12 -> ... -> Relay00. 13 unique code hashes in proof.",
+      "inputs": [
+        {
+          "comment": "Wire Relay01 -> Relay00",
+          "instance": "Relay01",
+          "method": "setNext",
+          "calldata": [
+            "Relay00.address"
+          ]
+        },
+        {
+          "comment": "Wire Relay02 -> Relay01",
+          "instance": "Relay02",
+          "method": "setNext",
+          "calldata": [
+            "Relay01.address"
+          ]
+        },
+        {
+          "comment": "Wire Relay03 -> Relay02",
+          "instance": "Relay03",
+          "method": "setNext",
+          "calldata": [
+            "Relay02.address"
+          ]
+        },
+        {
+          "comment": "Wire Relay04 -> Relay03",
+          "instance": "Relay04",
+          "method": "setNext",
+          "calldata": [
+            "Relay03.address"
+          ]
+        },
+        {
+          "comment": "Wire Relay05 -> Relay04",
+          "instance": "Relay05",
+          "method": "setNext",
+          "calldata": [
+            "Relay04.address"
+          ]
+        },
+        {
+          "comment": "Wire Relay06 -> Relay05",
+          "instance": "Relay06",
+          "method": "setNext",
+          "calldata": [
+            "Relay05.address"
+          ]
+        },
+        {
+          "comment": "Wire Relay07 -> Relay06",
+          "instance": "Relay07",
+          "method": "setNext",
+          "calldata": [
+            "Relay06.address"
+          ]
+        },
+        {
+          "comment": "Wire Relay08 -> Relay07",
+          "instance": "Relay08",
+          "method": "setNext",
+          "calldata": [
+            "Relay07.address"
+          ]
+        },
+        {
+          "comment": "Wire Relay09 -> Relay08",
+          "instance": "Relay09",
+          "method": "setNext",
+          "calldata": [
+            "Relay08.address"
+          ]
+        },
+        {
+          "comment": "Wire Relay10 -> Relay09",
+          "instance": "Relay10",
+          "method": "setNext",
+          "calldata": [
+            "Relay09.address"
+          ]
+        },
+        {
+          "comment": "Wire Relay11 -> Relay10",
+          "instance": "Relay11",
+          "method": "setNext",
+          "calldata": [
+            "Relay10.address"
+          ]
+        },
+        {
+          "comment": "Wire Relay12 -> Relay11",
+          "instance": "Relay12",
+          "method": "setNext",
+          "calldata": [
+            "Relay11.address"
+          ]
+        },
+        {
+          "comment": "Benchmark: call relay() on Relay12 (entry point, depth 13)",
+          "repeat": 3000,
+          "steps": [
+            {
+              "allocate_account": "$VARIABLE:CALLER"
+            },
+            {
+              "instance": "Relay12",
+              "method": "relay",
+              "caller": "$VARIABLE:CALLER"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Depth 16",
+      "comment": "16 contracts chained: Relay15 -> ... -> Relay00. 16 unique code hashes in proof.",
+      "inputs": [
+        {
+          "comment": "Wire Relay01 -> Relay00",
+          "instance": "Relay01",
+          "method": "setNext",
+          "calldata": [
+            "Relay00.address"
+          ]
+        },
+        {
+          "comment": "Wire Relay02 -> Relay01",
+          "instance": "Relay02",
+          "method": "setNext",
+          "calldata": [
+            "Relay01.address"
+          ]
+        },
+        {
+          "comment": "Wire Relay03 -> Relay02",
+          "instance": "Relay03",
+          "method": "setNext",
+          "calldata": [
+            "Relay02.address"
+          ]
+        },
+        {
+          "comment": "Wire Relay04 -> Relay03",
+          "instance": "Relay04",
+          "method": "setNext",
+          "calldata": [
+            "Relay03.address"
+          ]
+        },
+        {
+          "comment": "Wire Relay05 -> Relay04",
+          "instance": "Relay05",
+          "method": "setNext",
+          "calldata": [
+            "Relay04.address"
+          ]
+        },
+        {
+          "comment": "Wire Relay06 -> Relay05",
+          "instance": "Relay06",
+          "method": "setNext",
+          "calldata": [
+            "Relay05.address"
+          ]
+        },
+        {
+          "comment": "Wire Relay07 -> Relay06",
+          "instance": "Relay07",
+          "method": "setNext",
+          "calldata": [
+            "Relay06.address"
+          ]
+        },
+        {
+          "comment": "Wire Relay08 -> Relay07",
+          "instance": "Relay08",
+          "method": "setNext",
+          "calldata": [
+            "Relay07.address"
+          ]
+        },
+        {
+          "comment": "Wire Relay09 -> Relay08",
+          "instance": "Relay09",
+          "method": "setNext",
+          "calldata": [
+            "Relay08.address"
+          ]
+        },
+        {
+          "comment": "Wire Relay10 -> Relay09",
+          "instance": "Relay10",
+          "method": "setNext",
+          "calldata": [
+            "Relay09.address"
+          ]
+        },
+        {
+          "comment": "Wire Relay11 -> Relay10",
+          "instance": "Relay11",
+          "method": "setNext",
+          "calldata": [
+            "Relay10.address"
+          ]
+        },
+        {
+          "comment": "Wire Relay12 -> Relay11",
+          "instance": "Relay12",
+          "method": "setNext",
+          "calldata": [
+            "Relay11.address"
+          ]
+        },
+        {
+          "comment": "Wire Relay13 -> Relay12",
+          "instance": "Relay13",
+          "method": "setNext",
+          "calldata": [
+            "Relay12.address"
+          ]
+        },
+        {
+          "comment": "Wire Relay14 -> Relay13",
+          "instance": "Relay14",
+          "method": "setNext",
+          "calldata": [
+            "Relay13.address"
+          ]
+        },
+        {
+          "comment": "Wire Relay15 -> Relay14",
+          "instance": "Relay15",
+          "method": "setNext",
+          "calldata": [
+            "Relay14.address"
+          ]
+        },
+        {
+          "comment": "Benchmark: call relay() on Relay15 (entry point, depth 16)",
+          "repeat": 2000,
+          "steps": [
+            {
+              "allocate_account": "$VARIABLE:CALLER"
+            },
+            {
+              "instance": "Relay15",
+              "method": "relay",
+              "caller": "$VARIABLE:CALLER"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "Relay00": "Relay00.sol:Relay00",
+    "Relay01": "Relay01.sol:Relay01",
+    "Relay02": "Relay02.sol:Relay02",
+    "Relay03": "Relay03.sol:Relay03",
+    "Relay04": "Relay04.sol:Relay04",
+    "Relay05": "Relay05.sol:Relay05",
+    "Relay06": "Relay06.sol:Relay06",
+    "Relay07": "Relay07.sol:Relay07",
+    "Relay08": "Relay08.sol:Relay08",
+    "Relay09": "Relay09.sol:Relay09",
+    "Relay10": "Relay10.sol:Relay10",
+    "Relay11": "Relay11.sol:Relay11",
+    "Relay12": "Relay12.sol:Relay12",
+    "Relay13": "Relay13.sol:Relay13",
+    "Relay14": "Relay14.sol:Relay14",
+    "Relay15": "Relay15.sol:Relay15"
+  }
+}

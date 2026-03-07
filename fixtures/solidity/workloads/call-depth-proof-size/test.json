@@ -12,6 +12,11 @@
       "comment": "Single contract, no cross-contract calls. Baseline for proof size measurement.",
       "inputs": [
         {
+          "comment": "Deploy Relay00",
+          "instance": "Relay00",
+          "method": "#deployer"
+        },
+        {
           "comment": "Benchmark: call relay() on Relay00 (leaf, depth 1)",
           "repeat": 20000,
           "steps": [
@@ -31,6 +36,21 @@
       "name": "Depth 3",
       "comment": "3 contracts chained: Relay02 -> Relay01 -> Relay00. 3 unique code hashes in proof.",
       "inputs": [
+        {
+          "comment": "Deploy Relay00",
+          "instance": "Relay00",
+          "method": "#deployer"
+        },
+        {
+          "comment": "Deploy Relay01",
+          "instance": "Relay01",
+          "method": "#deployer"
+        },
+        {
+          "comment": "Deploy Relay02",
+          "instance": "Relay02",
+          "method": "#deployer"
+        },
         {
           "comment": "Wire Relay01 -> Relay00",
           "instance": "Relay01",
@@ -67,6 +87,31 @@
       "name": "Depth 5",
       "comment": "5 contracts chained: Relay04 -> ... -> Relay00. 5 unique code hashes in proof.",
       "inputs": [
+        {
+          "comment": "Deploy Relay00",
+          "instance": "Relay00",
+          "method": "#deployer"
+        },
+        {
+          "comment": "Deploy Relay01",
+          "instance": "Relay01",
+          "method": "#deployer"
+        },
+        {
+          "comment": "Deploy Relay02",
+          "instance": "Relay02",
+          "method": "#deployer"
+        },
+        {
+          "comment": "Deploy Relay03",
+          "instance": "Relay03",
+          "method": "#deployer"
+        },
+        {
+          "comment": "Deploy Relay04",
+          "instance": "Relay04",
+          "method": "#deployer"
+        },
         {
           "comment": "Wire Relay01 -> Relay00",
           "instance": "Relay01",
@@ -119,6 +164,41 @@
       "name": "Depth 7",
       "comment": "7 contracts chained: Relay06 -> ... -> Relay00. 7 unique code hashes in proof.",
       "inputs": [
+        {
+          "comment": "Deploy Relay00",
+          "instance": "Relay00",
+          "method": "#deployer"
+        },
+        {
+          "comment": "Deploy Relay01",
+          "instance": "Relay01",
+          "method": "#deployer"
+        },
+        {
+          "comment": "Deploy Relay02",
+          "instance": "Relay02",
+          "method": "#deployer"
+        },
+        {
+          "comment": "Deploy Relay03",
+          "instance": "Relay03",
+          "method": "#deployer"
+        },
+        {
+          "comment": "Deploy Relay04",
+          "instance": "Relay04",
+          "method": "#deployer"
+        },
+        {
+          "comment": "Deploy Relay05",
+          "instance": "Relay05",
+          "method": "#deployer"
+        },
+        {
+          "comment": "Deploy Relay06",
+          "instance": "Relay06",
+          "method": "#deployer"
+        },
         {
           "comment": "Wire Relay01 -> Relay00",
           "instance": "Relay01",
@@ -187,6 +267,56 @@
       "name": "Depth 10",
       "comment": "10 contracts chained: Relay09 -> ... -> Relay00. 10 unique code hashes in proof.",
       "inputs": [
+        {
+          "comment": "Deploy Relay00",
+          "instance": "Relay00",
+          "method": "#deployer"
+        },
+        {
+          "comment": "Deploy Relay01",
+          "instance": "Relay01",
+          "method": "#deployer"
+        },
+        {
+          "comment": "Deploy Relay02",
+          "instance": "Relay02",
+          "method": "#deployer"
+        },
+        {
+          "comment": "Deploy Relay03",
+          "instance": "Relay03",
+          "method": "#deployer"
+        },
+        {
+          "comment": "Deploy Relay04",
+          "instance": "Relay04",
+          "method": "#deployer"
+        },
+        {
+          "comment": "Deploy Relay05",
+          "instance": "Relay05",
+          "method": "#deployer"
+        },
+        {
+          "comment": "Deploy Relay06",
+          "instance": "Relay06",
+          "method": "#deployer"
+        },
+        {
+          "comment": "Deploy Relay07",
+          "instance": "Relay07",
+          "method": "#deployer"
+        },
+        {
+          "comment": "Deploy Relay08",
+          "instance": "Relay08",
+          "method": "#deployer"
+        },
+        {
+          "comment": "Deploy Relay09",
+          "instance": "Relay09",
+          "method": "#deployer"
+        },
         {
           "comment": "Wire Relay01 -> Relay00",
           "instance": "Relay01",
@@ -279,6 +409,71 @@
       "name": "Depth 13",
       "comment": "13 contracts chained: Relay12 -> ... -> Relay00. 13 unique code hashes in proof.",
       "inputs": [
+        {
+          "comment": "Deploy Relay00",
+          "instance": "Relay00",
+          "method": "#deployer"
+        },
+        {
+          "comment": "Deploy Relay01",
+          "instance": "Relay01",
+          "method": "#deployer"
+        },
+        {
+          "comment": "Deploy Relay02",
+          "instance": "Relay02",
+          "method": "#deployer"
+        },
+        {
+          "comment": "Deploy Relay03",
+          "instance": "Relay03",
+          "method": "#deployer"
+        },
+        {
+          "comment": "Deploy Relay04",
+          "instance": "Relay04",
+          "method": "#deployer"
+        },
+        {
+          "comment": "Deploy Relay05",
+          "instance": "Relay05",
+          "method": "#deployer"
+        },
+        {
+          "comment": "Deploy Relay06",
+          "instance": "Relay06",
+          "method": "#deployer"
+        },
+        {
+          "comment": "Deploy Relay07",
+          "instance": "Relay07",
+          "method": "#deployer"
+        },
+        {
+          "comment": "Deploy Relay08",
+          "instance": "Relay08",
+          "method": "#deployer"
+        },
+        {
+          "comment": "Deploy Relay09",
+          "instance": "Relay09",
+          "method": "#deployer"
+        },
+        {
+          "comment": "Deploy Relay10",
+          "instance": "Relay10",
+          "method": "#deployer"
+        },
+        {
+          "comment": "Deploy Relay11",
+          "instance": "Relay11",
+          "method": "#deployer"
+        },
+        {
+          "comment": "Deploy Relay12",
+          "instance": "Relay12",
+          "method": "#deployer"
+        },
         {
           "comment": "Wire Relay01 -> Relay00",
           "instance": "Relay01",
@@ -395,6 +590,86 @@
       "name": "Depth 16",
       "comment": "16 contracts chained: Relay15 -> ... -> Relay00. 16 unique code hashes in proof.",
       "inputs": [
+        {
+          "comment": "Deploy Relay00",
+          "instance": "Relay00",
+          "method": "#deployer"
+        },
+        {
+          "comment": "Deploy Relay01",
+          "instance": "Relay01",
+          "method": "#deployer"
+        },
+        {
+          "comment": "Deploy Relay02",
+          "instance": "Relay02",
+          "method": "#deployer"
+        },
+        {
+          "comment": "Deploy Relay03",
+          "instance": "Relay03",
+          "method": "#deployer"
+        },
+        {
+          "comment": "Deploy Relay04",
+          "instance": "Relay04",
+          "method": "#deployer"
+        },
+        {
+          "comment": "Deploy Relay05",
+          "instance": "Relay05",
+          "method": "#deployer"
+        },
+        {
+          "comment": "Deploy Relay06",
+          "instance": "Relay06",
+          "method": "#deployer"
+        },
+        {
+          "comment": "Deploy Relay07",
+          "instance": "Relay07",
+          "method": "#deployer"
+        },
+        {
+          "comment": "Deploy Relay08",
+          "instance": "Relay08",
+          "method": "#deployer"
+        },
+        {
+          "comment": "Deploy Relay09",
+          "instance": "Relay09",
+          "method": "#deployer"
+        },
+        {
+          "comment": "Deploy Relay10",
+          "instance": "Relay10",
+          "method": "#deployer"
+        },
+        {
+          "comment": "Deploy Relay11",
+          "instance": "Relay11",
+          "method": "#deployer"
+        },
+        {
+          "comment": "Deploy Relay12",
+          "instance": "Relay12",
+          "method": "#deployer"
+        },
+        {
+          "comment": "Deploy Relay13",
+          "instance": "Relay13",
+          "method": "#deployer"
+        },
+        {
+          "comment": "Deploy Relay14",
+          "instance": "Relay14",
+          "method": "#deployer"
+        },
+        {
+          "comment": "Deploy Relay15",
+          "instance": "Relay15",
+          "method": "#deployer"
+        },
         {
           "comment": "Wire Relay01 -> Relay00",
           "instance": "Relay01",

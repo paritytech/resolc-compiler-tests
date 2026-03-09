@@ -19,7 +19,7 @@
         },
         {
           "comment": "Benchmark: repeatedly deploy Child contracts via CREATE",
-          "repeat": 5000,
+          "repeat": 100000,
           "steps": [
             {
               "allocate_account": "$VARIABLE:CALLER"
@@ -45,7 +45,7 @@
         },
         {
           "comment": "Benchmark: repeatedly deploy Child contracts via CREATE2",
-          "repeat": 5000,
+          "repeat": 100000,
           "steps": [
             {
               "allocate_account": "$VARIABLE:CALLER"

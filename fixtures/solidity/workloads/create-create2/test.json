@@ -1,0 +1,66 @@
+{
+  "$schema": "../../../../schema.json",
+  "modes": [
+    "Y Mz S+",
+    "Y Ms S+",
+    "Y Mz S-",
+    "Y Ms S-"
+  ],
+  "cases": [
+    {
+      "name": "CREATE",
+      "comment": "Benchmarks contract deployment via the CREATE opcode. A factory contract repeatedly deploys minimal Child contracts using `new Child(nonce)`. Each iteration produces a unique contract address derived from the factory address and its internal nonce.",
+      "inputs": [
+        {
+          "comment": "Deploy the Factory contract",
+          "instance": "Factory",
+          "method": "#deployer",
+          "caller": "0x7e5f4552091a69125d5dfcb7b8c2659029395bdf"
+        },
+        {
+          "comment": "Benchmark: repeatedly deploy Child contracts via CREATE",
+          "repeat": 5000,
+          "steps": [
+            {
+              "allocate_account": "$VARIABLE:CALLER"
+            },
+            {
+              "instance": "Factory",
+              "method": "deployCreate",
+              "caller": "$VARIABLE:CALLER"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CREATE2",
+      "comment": "Benchmarks contract deployment via the CREATE2 opcode. A factory contract repeatedly deploys minimal Child contracts using `new Child{salt: nonce}(nonce)`. Each iteration produces a unique contract address derived from the factory address, the salt, and the init code hash.",
+      "inputs": [
+        {
+          "comment": "Deploy the Factory contract",
+          "instance": "Factory",
+          "method": "#deployer",
+          "caller": "0x7e5f4552091a69125d5dfcb7b8c2659029395bdf"
+        },
+        {
+          "comment": "Benchmark: repeatedly deploy Child contracts via CREATE2",
+          "repeat": 5000,
+          "steps": [
+            {
+              "allocate_account": "$VARIABLE:CALLER"
+            },
+            {
+              "instance": "Factory",
+              "method": "deployCreate2",
+              "caller": "$VARIABLE:CALLER"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "Factory": "Factory.sol:Factory"
+  }
+}

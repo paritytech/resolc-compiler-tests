@@ -1,0 +1,271 @@
+{
+  "$schema": "../../../../schema.json",
+  "modes": [
+    "Y Mz S+",
+    "Y Ms S+",
+    "Y Mz S-",
+    "Y Ms S-"
+  ],
+  "cases": [
+    {
+      "name": "Mixed Workloads",
+      "comment": "Benchmarks a mix of different transaction types (mint, transfer, swap, CREATE/CREATE2, deploy) within a single repeat block to simulate realistic on-chain activity.",
+      "inputs": [
+        {
+          "comment": "Deploying the ERC20 Contract",
+          "instance": "ERC20",
+          "method": "#deployer",
+          "calldata": [
+            "0x40",
+            "0x80",
+            "4",
+            "0x5742544300000000000000000000000000000000000000000000000000000000",
+            "14",
+            "0x5772617070656420425443000000000000000000000000000000000000000000"
+          ],
+          "caller": "0x7e5f4552091a69125d5dfcb7b8c2659029395bdf"
+        },
+        {
+          "comment": "Deploying the Factory Contract",
+          "instance": "Factory",
+          "method": "#deployer",
+          "caller": "0x7e5f4552091a69125d5dfcb7b8c2659029395bdf"
+        },
+        {
+          "comment": "Deploy SwapToken0",
+          "instance": "SwapToken0",
+          "method": "#deployer",
+          "calldata": [
+            "0x40",
+            "0x80",
+            "3",
+            "0x544b300000000000000000000000000000000000000000000000000000000000",
+            "3",
+            "0x544b300000000000000000000000000000000000000000000000000000000000"
+          ],
+          "caller": "0x7e5f4552091a69125d5dfcb7b8c2659029395bdf"
+        },
+        {
+          "comment": "Deploy SwapToken1",
+          "instance": "SwapToken1",
+          "method": "#deployer",
+          "calldata": [
+            "0x40",
+            "0x80",
+            "3",
+            "0x544b310000000000000000000000000000000000000000000000000000000000",
+            "3",
+            "0x544b310000000000000000000000000000000000000000000000000000000000"
+          ],
+          "caller": "0x7e5f4552091a69125d5dfcb7b8c2659029395bdf"
+        },
+        {
+          "comment": "Deploy the callback-based AMM pool (V3-style atomicity)",
+          "instance": "Pool",
+          "method": "#deployer",
+          "calldata": [
+            "SwapToken0.address",
+            "SwapToken1.address"
+          ],
+          "caller": "0x7e5f4552091a69125d5dfcb7b8c2659029395bdf"
+        },
+        {
+          "comment": "Deploy the swap router (implements callback, makes transfer+swap atomic)",
+          "instance": "SwapRouter",
+          "method": "#deployer",
+          "calldata": [
+            "Pool.address"
+          ],
+          "caller": "0x7e5f4552091a69125d5dfcb7b8c2659029395bdf"
+        },
+        {
+          "comment": "Mint SwapToken0 to deployer for initial liquidity",
+          "instance": "SwapToken0",
+          "method": "mint",
+          "caller": "0x7e5f4552091a69125d5dfcb7b8c2659029395bdf",
+          "calldata": [
+            "0x7e5f4552091a69125d5dfcb7b8c2659029395bdf",
+            "1000000000000000000000000"
+          ]
+        },
+        {
+          "comment": "Mint SwapToken1 to deployer for initial liquidity",
+          "instance": "SwapToken1",
+          "method": "mint",
+          "caller": "0x7e5f4552091a69125d5dfcb7b8c2659029395bdf",
+          "calldata": [
+            "0x7e5f4552091a69125d5dfcb7b8c2659029395bdf",
+            "1000000000000000000000000"
+          ]
+        },
+        {
+          "comment": "Approve Pool to spend SwapToken0 for addLiquidity",
+          "instance": "SwapToken0",
+          "method": "approve",
+          "caller": "0x7e5f4552091a69125d5dfcb7b8c2659029395bdf",
+          "calldata": [
+            "Pool.address",
+            "1000000000000000000000000"
+          ]
+        },
+        {
+          "comment": "Approve Pool to spend SwapToken1 for addLiquidity",
+          "instance": "SwapToken1",
+          "method": "approve",
+          "caller": "0x7e5f4552091a69125d5dfcb7b8c2659029395bdf",
+          "calldata": [
+            "Pool.address",
+            "1000000000000000000000000"
+          ]
+        },
+        {
+          "comment": "Seed pool with initial liquidity (1e24 of each token)",
+          "instance": "Pool",
+          "method": "addLiquidity",
+          "caller": "0x7e5f4552091a69125d5dfcb7b8c2659029395bdf",
+          "calldata": [
+            "1000000000000000000000000",
+            "1000000000000000000000000"
+          ]
+        },
+        {
+          "comment": "The primary benchmark: mixed transaction types in a single repeat block",
+          "repeat": 10,
+          "steps": [
+            {
+              "comment": "Allocate a fresh account for this iteration",
+              "allocate_account": "$VARIABLE:ACCOUNT"
+            },
+            {
+              "comment": "Mint tokens to the account",
+              "instance": "ERC20",
+              "method": "mint",
+              "caller": "$VARIABLE:ACCOUNT",
+              "calldata": [
+                "$VARIABLE:ACCOUNT",
+                "10000000000000000000000000"
+              ]
+            },
+            {
+              "comment": "Transfer tokens to a random address four times",
+              "repeat": 4,
+              "steps": [
+                {
+                  "instance": "ERC20",
+                  "method": "transfer",
+                  "caller": "$VARIABLE:ACCOUNT",
+                  "calldata": [
+                    "$RANDOM_ADDRESS",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "comment": "Allocate a caller for CREATE deployment",
+              "allocate_account": "$VARIABLE:CREATE_CALLER"
+            },
+            {
+              "comment": "Deploy a Child contract via CREATE",
+              "instance": "Factory",
+              "method": "deployCreate",
+              "caller": "$VARIABLE:CREATE_CALLER"
+            },
+            {
+              "comment": "Allocate a caller for CREATE2 deployment",
+              "allocate_account": "$VARIABLE:CREATE2_CALLER"
+            },
+            {
+              "comment": "Deploy a Child contract via CREATE2",
+              "instance": "Factory",
+              "method": "deployCreate2",
+              "caller": "$VARIABLE:CREATE2_CALLER"
+            },
+            {
+              "comment": "Allocate a caller for swaps",
+              "allocate_account": "$VARIABLE:SWAP_CALLER"
+            },
+            {
+              "comment": "Mint SwapToken0 to SWAP_CALLER (enough for 5 swaps)",
+              "instance": "SwapToken0",
+              "method": "mint",
+              "caller": "$VARIABLE:SWAP_CALLER",
+              "calldata": [
+                "$VARIABLE:SWAP_CALLER",
+                "5000000000000000"
+              ]
+            },
+            {
+              "comment": "SWAP_CALLER approves SwapRouter to spend SwapToken0",
+              "instance": "SwapToken0",
+              "method": "approve",
+              "caller": "$VARIABLE:SWAP_CALLER",
+              "calldata": [
+                "SwapRouter.address",
+                "5000000000000000"
+              ]
+            },
+            {
+              "comment": "Execute 5 atomic swaps via router (V3 callback pattern)",
+              "repeat": 5,
+              "steps": [
+                {
+                  "instance": "SwapRouter",
+                  "method": "swap",
+                  "caller": "$VARIABLE:SWAP_CALLER",
+                  "calldata": [
+                    "1000000000000000",
+                    "$VARIABLE:SWAP_CALLER"
+                  ]
+                }
+              ]
+            },
+            {
+              "comment": "Allocate a caller for deploying a new ERC20 instance",
+              "allocate_account": "$VARIABLE:ERC20_DEPLOYER"
+            },
+            {
+              "comment": "Deploy a phantom ERC20 contract (never called again)",
+              "instance": "PhantomERC20",
+              "method": "#deployer",
+              "calldata": [
+                "0x40",
+                "0x80",
+                "4",
+                "0x5742544300000000000000000000000000000000000000000000000000000000",
+                "14",
+                "0x5772617070656420425443000000000000000000000000000000000000000000"
+              ],
+              "caller": "$VARIABLE:ERC20_DEPLOYER"
+            },
+            {
+              "comment": "Allocate a caller for native transfers",
+              "allocate_account": "$VARIABLE:TRANSFER_CALLER"
+            },
+            {
+              "comment": "Send 1 wei to 10 random accounts",
+              "repeat": 10,
+              "steps": [
+                {
+                  "comment": "Native transfer of 1 wei to a random address",
+                  "from": "$VARIABLE:TRANSFER_CALLER",
+                  "to": "$RANDOM_ADDRESS",
+                  "amount": "1 wei"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "ERC20": "ERC20.sol:ERC20",
+    "PhantomERC20": "ERC20.sol:ERC20",
+    "Factory": "Factory.sol:Factory",
+    "SwapToken0": "ERC20.sol:ERC20",
+    "SwapToken1": "ERC20.sol:ERC20",
+    "Pool": "swap/Pool.sol:Pool",
+    "SwapRouter": "swap/SwapRouter.sol:SwapRouter"
+  }
+}

@@ -32,6 +32,12 @@
           "caller": "0x7e5f4552091a69125d5dfcb7b8c2659029395bdf"
         },
         {
+          "comment": "Deploying the ERC20 Factory Contract",
+          "instance": "ERC20Factory",
+          "method": "#deployer",
+          "caller": "0x7e5f4552091a69125d5dfcb7b8c2659029395bdf"
+        },
+        {
           "comment": "Deploy SwapToken0",
           "instance": "SwapToken0",
           "method": "#deployer",
@@ -225,17 +231,9 @@
               "allocate_account": "$VARIABLE:ERC20_DEPLOYER"
             },
             {
-              "comment": "Deploy a phantom ERC20 contract (never called again)",
-              "instance": "PhantomERC20",
-              "method": "#deployer",
-              "calldata": [
-                "0x40",
-                "0x80",
-                "4",
-                "0x5742544300000000000000000000000000000000000000000000000000000000",
-                "14",
-                "0x5772617070656420425443000000000000000000000000000000000000000000"
-              ],
+              "comment": "Deploy an ERC20 contract via CREATE (never called again)",
+              "instance": "ERC20Factory",
+              "method": "deploy",
               "caller": "$VARIABLE:ERC20_DEPLOYER"
             },
             {
@@ -261,7 +259,7 @@
   ],
   "contracts": {
     "ERC20": "ERC20.sol:ERC20",
-    "PhantomERC20": "ERC20.sol:ERC20",
+    "ERC20Factory": "ERC20Factory.sol:ERC20Factory",
     "Factory": "Factory.sol:Factory",
     "SwapToken0": "ERC20.sol:ERC20",
     "SwapToken1": "ERC20.sol:ERC20",

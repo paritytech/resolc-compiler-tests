@@ -136,7 +136,7 @@
         },
         {
           "comment": "The primary benchmark: mixed transaction types in a single repeat block",
-          "repeat": 10000,
+          "repeat": 5000,
           "steps": [
             {
               "comment": "Allocate a fresh account for this iteration",

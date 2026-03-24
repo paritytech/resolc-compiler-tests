@@ -24,6 +24,7 @@
         "array",
         "null"
       ],
+      "uniqueItems": true,
       "items": {
         "$ref": "#/$defs/VmIdentifier"
       }
@@ -118,6 +119,17 @@
     "Case": {
       "type": "object",
       "properties": {
+        "targets": {
+          "description": "An optional vector of targets that this Metadata file's cases can be executed on. As an\nexample, if we wish for the metadata file's cases to only be run on PolkaVM then we'd\nspecify a target of \"PolkaVM\" in here.",
+          "type": [
+            "array",
+            "null"
+          ],
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/VmIdentifier"
+          }
+        },
         "name": {
           "description": "An optional name of the test case.",
           "type": [
@@ -180,7 +192,7 @@
       ]
     },
     "ParsedMode": {
-      "description": "This represents a mode that has been parsed from test metadata.\n\nMode strings can take the following form (in pseudo-regex):\n\n```text\n[YEILV][+-]? (M[0123sz])? <semver>?\n```\n\nWe can parse valid mode strings into [`ParsedMode`] using [`ParsedMode::from_str`].",
+      "description": "This represents a mode that has been parsed from test metadata.\n\nMode strings can take the following form (in pseudo-regex):\n\n```text\n[YEILV][+-]? (M[0123sz])? (S[+-])? <semver>?\n```\n\n- `[YEILV]`: Pipeline — `Y` (via Yul IR) or `E` (via EVM Assembly), ILV (legacy aliases)\n- `[+-]`: Optimization shorthand — `+` (optimized: M3, solc optimizer enabled) or `-` (unoptimized: M0, solc optimizer disabled)\n- `M[0123sz]`: Resolc/LLVM optimization level — `M0`..`M3`, `Ms`, `Mz`\n- `S[+-]`: Solc optimizer — `S+` (enabled) or `S-` (disabled)\n- `<semver>`: Version requirement\n\nPriority:\n- Explicit `M`/`S` settings override the `+`/`-` shorthand.\n- If omitted, expands to all combinations we'd like to test. E.g.:\n  - `Y M3` → `Y M3 S+` and `Y M3 S-`\n  - `Y S+` → `Y M0 S+`, `Y M3 S+`, and `Y Mz S+`\n\nExamples: `Y+`, `Y M3`, `Y Mz S- >=0.8.0`\n\nWe can parse valid mode strings into [`ParsedMode`] using [`ParsedMode::from_str`].",
       "type": "string"
     },
     "Step": {
@@ -205,6 +217,10 @@
         {
           "description": "A step type that allows for a new account address to be allocated and to later on be used\nas the caller in another step.",
           "$ref": "#/$defs/AllocateAccountStep"
+        },
+        {
+          "description": "A native value transfer from one account to another.",
+          "$ref": "#/$defs/TransferStep"
         }
       ]
     },
@@ -226,7 +242,7 @@
         },
         "instance": {
           "description": "The contract instance that's being called in this transaction step.",
-          "$ref": "#/$defs/ContractInstance",
+          "$ref": "#/$defs/ContractInstanceOrReference",
           "default": "Test"
         },
         "method": {
@@ -270,11 +286,35 @@
               "type": "null"
             }
           ]
+        },
+        "gas_overrides": {
+          "description": "Allows for the test to set a specific value for the various gas parameter for each one of\nthe platforms we support. This is ignored for steps that perform contract deployments.",
+          "type": "object",
+          "additionalProperties": {
+            "$ref": "#/$defs/GasOverrides"
+          }
         }
       },
       "required": [
         "method"
       ]
+    },
+    "ContractInstanceOrReference": {
+      "description": "Either a [`ContractInstanceReference`] or a [`ContractInstance`].\n\nEither a [`ContractInstanceReference`] or a [`ContractInstance`].\n\nDeserialized as untagged: strings matching `$INSTANCE:{index}` are parsed as a reference,\neverything else is treated as a contract instance name.\n\nThe lifetime parameter `'a` allows the enum to borrow its inner values rather than requiring\nowned data.",
+      "anyOf": [
+        {
+          "description": "A positional reference to a contract instance.",
+          "$ref": "#/$defs/ContractInstanceReference"
+        },
+        {
+          "description": "A contract instance identified by name.",
+          "$ref": "#/$defs/ContractInstance"
+        }
+      ]
+    },
+    "ContractInstanceReference": {
+      "description": "A reference to a contract instance, resolved at runtime.\n\nSerialized and deserialized as a string with the format `$INSTANCE:{token}`, where `{token}`\nis either a literal index (e.g. `$INSTANCE:0`) or a variable reference\n(e.g. `$INSTANCE:$VARIABLE:I`).",
+      "type": "string"
     },
     "ContractInstance": {
       "description": "Represents a contract instance found a metadata file.\n\nTypically, this is used as the key to the \"contracts\" field of metadata files.",
@@ -430,6 +470,43 @@
         "return_data"
       ]
     },
+    "GasOverrides": {
+      "type": "object",
+      "properties": {
+        "gas_limit": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "format": "uint64",
+          "minimum": 0
+        },
+        "gas_price": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "format": "uint128",
+          "minimum": 0
+        },
+        "max_fee_per_gas": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "format": "uint128",
+          "minimum": 0
+        },
+        "max_priority_fee_per_gas": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "format": "uint128",
+          "minimum": 0
+        }
+      }
+    },
     "BalanceAssertionStep": {
       "description": "This represents a balance assertion step where the framework needs to query the balance of some\naccount or contract and assert that it's some amount.",
       "type": "object",
@@ -491,6 +568,23 @@
             "null"
           ]
         },
+        "await_transaction_inclusion": {
+          "description": "This parameter controls if the driver performing the execution should await for the the\ntransactions within the repeat step to be included before moving on to the next transaction.\nBy default, this is set to false and it isn't a required parameter to be provided.",
+          "type": "boolean",
+          "default": false
+        },
+        "capture_index": {
+          "description": "This parameters allows for the index of the repeat step to be captured to a variable to be\nreferenced later on in the execution.",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "consolidate_state": {
+          "description": "This parameter controls if the primary driver should consolidate the execution state of the\ndrivers that it spawned after running all of them. There are certain cases where this may be\nuseful such as in cases where the repeat step is being used more as a for loop rather than\nanything else.",
+          "type": "boolean",
+          "default": false
+        },
         "repeat": {
           "description": "The number of repetitions that the steps should be repeated for.",
           "type": "integer",
@@ -527,6 +621,36 @@
       },
       "required": [
         "allocate_account"
+      ]
+    },
+    "TransferStep": {
+      "description": "A native value transfer step that sends some amount of native currency from one account to\nanother without going through a contract.",
+      "type": "object",
+      "properties": {
+        "comment": {
+          "description": "An optional comment on the transfer step.",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "from": {
+          "description": "The sender address.",
+          "type": "string"
+        },
+        "to": {
+          "description": "The recipient address.",
+          "type": "string"
+        },
+        "amount": {
+          "description": "The amount of native currency to transfer.",
+          "$ref": "#/$defs/EtherValue"
+        }
+      },
+      "required": [
+        "from",
+        "to",
+        "amount"
       ]
     },
     "ContractPathAndIdent": {

@@ -585,6 +585,11 @@
           "type": "boolean",
           "default": false
         },
+        "start_watcher": {
+          "description": "This parameter controls if the watcher should be started after the warm-up phase of this\nrepeat step completes. When set to `true`, the driver will send the watcher start event\nafter the first (warm-up) iteration finishes. This should be set on the repeat step that\nrepresents the actual benchmark workload so that blocks produced during setup steps\n(e.g., contract deployments) are excluded from the benchmark metrics.",
+          "type": "boolean",
+          "default": false
+        },
         "repeat": {
           "description": "The number of repetitions that the steps should be repeated for.",
           "type": "integer",

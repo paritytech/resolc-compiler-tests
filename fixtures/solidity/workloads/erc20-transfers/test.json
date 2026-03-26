@@ -27,6 +27,7 @@
         },
         {
           "comment": "The primary benchmark steps and repetition",
+          "start_watcher": true,
           "repeat": 40000,
           "steps": [
             {

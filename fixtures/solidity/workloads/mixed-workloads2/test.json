@@ -32,6 +32,7 @@
         },
         {
           "comment": "This is the primary workload that we're benchmarking. In the workload we mint tokens into various different accounts. The key thing is to measure how the proof size impacts the TPS and therefore sending tokens won't be very useful here. We want to see if having a lot of contracts in the mempool leads to a different bottleneck being observed in the benchmarks.",
+          "start_watcher": true,
           "repeat": 200,
           "capture_index": "$VARIABLE:I",
           "steps": [

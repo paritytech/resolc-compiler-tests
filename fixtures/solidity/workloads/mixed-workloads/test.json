@@ -136,6 +136,7 @@
         },
         {
           "comment": "The primary benchmark: mixed transaction types in a single repeat block",
+          "start_watcher": true,
           "repeat": 5000,
           "steps": [
             {

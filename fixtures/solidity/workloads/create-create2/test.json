@@ -19,6 +19,7 @@
         },
         {
           "comment": "Benchmark: repeatedly deploy Child contracts via CREATE",
+          "start_watcher": true,
           "repeat": 100000,
           "steps": [
             {
@@ -45,6 +46,7 @@
         },
         {
           "comment": "Benchmark: repeatedly deploy Child contracts via CREATE2",
+          "start_watcher": true,
           "repeat": 100000,
           "steps": [
             {

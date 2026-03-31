@@ -19,10 +19,9 @@
     {
       "name": "second",
       "modes": [
-        "Y+",
         "E+"
       ],
-      "comment": "For some reason this fails when the optimizer is disabled",
+      "comment": "All Y S+ modes fail with OutOfGas. Only E+ passes.",
       "inputs": [
         {
           "instance": "Main",

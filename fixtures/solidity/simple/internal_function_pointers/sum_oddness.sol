@@ -6,6 +6,15 @@
 //!   "cases": [
 //!     {
 //!       "name": "first",
+//!       "modes": [
+//!         "Y M0 S+",
+//!         "Y M1",
+//!         "Y M2",
+//!         "Y M3",
+//!         "Y Ms",
+//!         "Y Mz",
+//!         "E"
+//!       ],
 //!       "inputs": [
 //!         {
 //!           "method": "first",

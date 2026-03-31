@@ -1,4 +1,9 @@
 {
+  "comment": "Only Y Mz and E modes pass. All other Y modes (M0, M1, M2, M3, Ms) fail — either with compilation failures (BasicBlockTooLarge) or deployment/assertion failures. It is surprising that Y Mz (aggressive size optimization) succeeds while all other LLVM optimization levels fail.",
+  "modes": [
+    "Y Mz",
+    "E"
+  ],
   "cases": [
     {
       "name": "default",

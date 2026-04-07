@@ -57,36 +57,17 @@
     },
     {
       "name": "Tether Transactions",
-      "comment": "Simulates realistic USDT activity. Uses a TetherFaucet contract to avoid cross-sender dependencies: owner funds the faucet in setup, then each benchmark iteration has the sender claim tokens from the faucet and do transfers/approvals — all from the sender's own nonce sequence.",
+      "comment": "Simulates realistic USDT activity. Each sender mints tokens directly (no cross-contract calls), then does transfers and approvals — all from the sender's own nonce sequence.",
       "inputs": [
         {
-          "comment": "Deploy TetherToken(100000000000, 'Tether USD', 'USDT', 6) — owner receives 100,000 USDT.",
+          "comment": "Deploy TetherToken(100000000000, 'Tether USD', 'USDT', 6).",
           "instance": "TetherToken",
           "method": "#deployer",
           "calldata": "0x000000000000000000000000000000000000000000000000000000174876e800000000000000000000000000000000000000000000000000000000000000008000000000000000000000000000000000000000000000000000000000000000c00000000000000000000000000000000000000000000000000000000000000006000000000000000000000000000000000000000000000000000000000000000a546574686572205553440000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000045553445400000000000000000000000000000000000000000000000000000000",
           "caller": "0x7e5f4552091a69125d5dfcb7b8c2659029395bdf"
         },
         {
-          "comment": "Deploy the TetherFaucet pointing to the TetherToken",
-          "instance": "TetherFaucet",
-          "method": "#deployer",
-          "calldata": [
-            "TetherToken.address"
-          ],
-          "caller": "0x7e5f4552091a69125d5dfcb7b8c2659029395bdf"
-        },
-        {
-          "comment": "Owner funds the faucet with 50,000 USDT for benchmark distribution",
-          "instance": "TetherToken",
-          "method": "transfer",
-          "caller": "0x7e5f4552091a69125d5dfcb7b8c2659029395bdf",
-          "calldata": [
-            "TetherFaucet.address",
-            "50000000000"
-          ]
-        },
-        {
-          "comment": "Benchmark loop — each sender claims from faucet then does transfers. All operations use the sender's nonce sequence, no cross-sender dependencies.",
+          "comment": "Benchmark loop — each sender mints tokens then does transfers. All direct calls, no cross-contract dependencies.",
           "start_watcher": true,
           "repeat": 5,
           "steps": [
@@ -95,11 +76,12 @@
               "allocate_account": "$VARIABLE:SENDER"
             },
             {
-              "comment": "Sender claims 2000 USDT from the faucet",
-              "instance": "TetherFaucet",
-              "method": "claim",
+              "comment": "Sender mints 2000 USDT to themselves",
+              "instance": "TetherToken",
+              "method": "mint",
               "caller": "$VARIABLE:SENDER",
               "calldata": [
+                "$VARIABLE:SENDER",
                 "2000000000"
               ]
             },
@@ -158,7 +140,7 @@
       "comment": "Simulates batch XEN minting via CoinTool: deploys XENCrypto and CoinTool_Benchmark (inherits CoinTool_App), then repeatedly batch-creates CREATE2 proxies that each delegatecall claimRank on XENCrypto. Matches the t(2, d(XENCrypto, claimRank(70)), 0x01) pattern from the reference benchmark.",
       "inputs": [
         {
-          "comment": "Deploy XENCrypto — constructor records block.timestamp as genesisTs",
+          "comment": "Deploy XENCrypto \u2014 constructor records block.timestamp as genesisTs",
           "instance": "XENCrypto",
           "method": "#deployer",
           "calldata": [],
@@ -172,7 +154,7 @@
           "caller": "0x7e5f4552091a69125d5dfcb7b8c2659029395bdf"
         },
         {
-          "comment": "Benchmark loop — each iteration batch-creates 2 CREATE2 proxies that each call claimRank(70) on XENCrypto via delegatecall",
+          "comment": "Benchmark loop \u2014 each iteration batch-creates 2 CREATE2 proxies that each call claimRank(70) on XENCrypto via delegatecall",
           "start_watcher": true,
           "repeat": 5,
           "steps": [
@@ -195,7 +177,6 @@
   "contracts": {
     "WETH": "weth.sol:WETH9",
     "TetherToken": "tether.sol:TetherToken",
-    "TetherFaucet": "tether.sol:TetherFaucet",
     "XENMath": "xen/xen_token.sol:XENMath",
     "XENCrypto": "xen/xen_token.sol:XENCrypto",
     "CoinTool_Proxy": "xen/xen_minter.sol:CoinTool_Proxy",

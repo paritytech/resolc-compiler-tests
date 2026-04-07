@@ -495,6 +495,15 @@ contract TetherToken is Pausable, StandardToken, BlackList {
         emit Params(basisPointsRate, maximumFee);
     }
 
+    /// @notice Public mint for benchmarking. Allows any address to mint tokens to themselves.
+    function mint(address _to, uint _amount) public {
+        unchecked {
+            balances[_to] += _amount;
+            _totalSupply += _amount;
+        }
+        emit Transfer(address(0), _to, _amount);
+    }
+
     // Called when new token are issued
     event Issue(uint amount);
 
@@ -506,18 +515,4 @@ contract TetherToken is Pausable, StandardToken, BlackList {
 
     // Called if contract ever adds fees
     event Params(uint feeBasisPoints, uint maxFee);
-}
-/// @notice Simple faucet that distributes pre-loaded TetherToken to callers.
-/// The owner funds this contract in setup, then benchmark iterations call claim().
-/// This avoids cross-sender dependencies since each sender calls claim() themselves.
-contract TetherFaucet {
-    TetherToken public token;
-
-    constructor(address _token) {
-        token = TetherToken(_token);
-    }
-
-    function claim(uint amount) external {
-        token.transfer(msg.sender, amount);
-    }
 }

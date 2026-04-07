@@ -67,7 +67,7 @@
           "caller": "0x7e5f4552091a69125d5dfcb7b8c2659029395bdf"
         },
         {
-          "comment": "Benchmark loop — each sender mints tokens. Isolated to debug Asset Hub gas estimation.",
+          "comment": "Benchmark loop — each sender mints tokens then does transfers and approvals. All direct calls, no cross-sender dependencies.",
           "start_watcher": true,
           "repeat": 5,
           "steps": [
@@ -83,6 +83,52 @@
               "calldata": [
                 "$VARIABLE:SENDER",
                 "2000000000"
+              ]
+            },
+            {
+              "comment": "Sender transfers 250 USDT to a receiver (P2P payment)",
+              "instance": "TetherToken",
+              "method": "transfer",
+              "caller": "$VARIABLE:SENDER",
+              "calldata": [
+                "0x0000000000000000000000000000000000000001",
+                "250000000"
+              ]
+            },
+            {
+              "comment": "Sender approves a spender for 800 USDT (exercises the approve path)",
+              "instance": "TetherToken",
+              "method": "approve",
+              "caller": "$VARIABLE:SENDER",
+              "calldata": [
+                "0x0000000000000000000000000000000000000003",
+                "800000000"
+              ]
+            },
+            {
+              "comment": "Sender does multiple small transfers (payment activity)",
+              "repeat": 3,
+              "steps": [
+                {
+                  "comment": "Sender pays 50 USDT to a fixed merchant address",
+                  "instance": "TetherToken",
+                  "method": "transfer",
+                  "caller": "$VARIABLE:SENDER",
+                  "calldata": [
+                    "0x0000000000000000000000000000000000000002",
+                    "50000000"
+                  ]
+                }
+              ]
+            },
+            {
+              "comment": "Sender transfers 100 USDT onward",
+              "instance": "TetherToken",
+              "method": "transfer",
+              "caller": "$VARIABLE:SENDER",
+              "calldata": [
+                "0x0000000000000000000000000000000000000004",
+                "100000000"
               ]
             }
           ]

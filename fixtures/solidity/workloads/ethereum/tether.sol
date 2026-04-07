@@ -507,3 +507,17 @@ contract TetherToken is Pausable, StandardToken, BlackList {
     // Called if contract ever adds fees
     event Params(uint feeBasisPoints, uint maxFee);
 }
+/// @notice Simple faucet that distributes pre-loaded TetherToken to callers.
+/// The owner funds this contract in setup, then benchmark iterations call claim().
+/// This avoids cross-sender dependencies since each sender calls claim() themselves.
+contract TetherFaucet {
+    TetherToken public token;
+
+    constructor(address _token) {
+        token = TetherToken(_token);
+    }
+
+    function claim(uint amount) external {
+        token.transfer(msg.sender, amount);
+    }
+}

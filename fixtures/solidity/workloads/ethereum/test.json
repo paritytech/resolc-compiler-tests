@@ -21,7 +21,7 @@
         {
           "comment": "The primary benchmark steps and repetition",
           "start_watcher": true,
-          "repeat": 1,
+          "repeat": 5,
           "steps": [
             {
               "comment": "Allocating an account for the sender",
@@ -57,77 +57,70 @@
     },
     {
       "name": "Tether Transactions",
-      "comment": "Simulates realistic USDT activity: owner funds user accounts (exchange withdrawals), users do direct transfers (payments), and approve+transferFrom flows (DEX/marketplace). Owner has 100,000 USDT (6 decimals). Each iteration uses ~2,000 USDT.",
+      "comment": "Simulates realistic USDT activity. Uses a TetherFaucet contract to avoid cross-sender dependencies: owner funds the faucet in setup, then each benchmark iteration has the sender claim tokens from the faucet and do transfers/approvals — all from the sender's own nonce sequence.",
       "inputs": [
         {
-          "comment": "Deploy TetherToken(100000000000, 'Tether USD', 'USDT', 6) — owner receives 100,000 USDT. Uses raw ABI-encoded constructor args because the framework cannot encode dynamic string types.",
+          "comment": "Deploy TetherToken(100000000000, 'Tether USD', 'USDT', 6) — owner receives 100,000 USDT.",
           "instance": "TetherToken",
           "method": "#deployer",
           "calldata": "0x000000000000000000000000000000000000000000000000000000174876e800000000000000000000000000000000000000000000000000000000000000008000000000000000000000000000000000000000000000000000000000000000c00000000000000000000000000000000000000000000000000000000000000006000000000000000000000000000000000000000000000000000000000000000a546574686572205553440000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000045553445400000000000000000000000000000000000000000000000000000000",
           "caller": "0x7e5f4552091a69125d5dfcb7b8c2659029395bdf"
         },
         {
-          "comment": "Benchmark loop — each iteration simulates a batch of realistic USDT transactions",
+          "comment": "Deploy the TetherFaucet pointing to the TetherToken",
+          "instance": "TetherFaucet",
+          "method": "#deployer",
+          "calldata": [
+            "TetherToken.address"
+          ],
+          "caller": "0x7e5f4552091a69125d5dfcb7b8c2659029395bdf"
+        },
+        {
+          "comment": "Owner funds the faucet with 50,000 USDT for benchmark distribution",
+          "instance": "TetherToken",
+          "method": "transfer",
+          "caller": "0x7e5f4552091a69125d5dfcb7b8c2659029395bdf",
+          "calldata": [
+            "TetherFaucet.address",
+            "50000000000"
+          ]
+        },
+        {
+          "comment": "Benchmark loop — each sender claims from faucet then does transfers. All operations use the sender's nonce sequence, no cross-sender dependencies.",
           "start_watcher": true,
           "repeat": 5,
           "steps": [
             {
-              "comment": "Allocate a sender account (simulates an exchange user)",
+              "comment": "Allocate a sender account",
               "allocate_account": "$VARIABLE:SENDER"
             },
             {
-              "comment": "Allocate a receiver account (simulates a merchant/counterparty)",
-              "allocate_account": "$VARIABLE:RECEIVER"
-            },
-            {
-              "comment": "Owner funds sender with 1500 USDT (exchange withdrawal)",
-              "instance": "TetherToken",
-              "method": "transfer",
-              "caller": "0x7e5f4552091a69125d5dfcb7b8c2659029395bdf",
+              "comment": "Sender claims 2000 USDT from the faucet",
+              "instance": "TetherFaucet",
+              "method": "claim",
+              "caller": "$VARIABLE:SENDER",
               "calldata": [
-                "$VARIABLE:SENDER",
-                "1500000000"
+                "2000000000"
               ]
             },
             {
-              "comment": "Owner funds receiver with 500 USDT (exchange withdrawal)",
-              "instance": "TetherToken",
-              "method": "transfer",
-              "caller": "0x7e5f4552091a69125d5dfcb7b8c2659029395bdf",
-              "calldata": [
-                "$VARIABLE:RECEIVER",
-                "500000000"
-              ]
-            },
-            {
-              "comment": "Sender pays receiver 250 USDT (direct P2P transfer)",
+              "comment": "Sender transfers 250 USDT to a receiver (P2P payment)",
               "instance": "TetherToken",
               "method": "transfer",
               "caller": "$VARIABLE:SENDER",
               "calldata": [
-                "$VARIABLE:RECEIVER",
+                "0x0000000000000000000000000000000000000001",
                 "250000000"
               ]
             },
             {
-              "comment": "Sender approves receiver to spend 800 USDT (DEX/marketplace allowance)",
+              "comment": "Sender approves a spender for 800 USDT (exercises the approve path)",
               "instance": "TetherToken",
               "method": "approve",
               "caller": "$VARIABLE:SENDER",
               "calldata": [
-                "$VARIABLE:RECEIVER",
+                "0x0000000000000000000000000000000000000003",
                 "800000000"
-              ]
-            },
-            {
-              "comment": "Receiver pulls 300 USDT from sender via transferFrom (DEX settlement)",
-              "instance": "TetherToken",
-              "method": "transferFrom",
-              "caller": "$VARIABLE:RECEIVER",
-              "calldata": [
-                "$VARIABLE:SENDER",
-                "$VARIABLE:RECEIVER",
-                "300000000"
               ]
             },
             {
@@ -140,169 +133,19 @@
                   "method": "transfer",
                   "caller": "$VARIABLE:SENDER",
                   "calldata": [
-                    "0x0000000000000000000000000000000000000001",
+                    "0x0000000000000000000000000000000000000002",
                     "50000000"
                   ]
                 }
               ]
             },
             {
-              "comment": "Receiver transfers 100 USDT onward (forwarding payment)",
+              "comment": "Sender transfers 100 USDT onward",
               "instance": "TetherToken",
               "method": "transfer",
-              "caller": "$VARIABLE:RECEIVER",
-              "calldata": [
-                "0x0000000000000000000000000000000000000002",
-                "100000000"
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "USDC Transactions",
-      "comment": "Simulates realistic USDC activity through the proxy pattern: deploy implementation + proxy, initialize, configure minter, mint supply, then benchmark transfers, approvals, and transferFrom flows.",
-      "inputs": [
-        {
-          "comment": "Deploy the FiatTokenV2_2 implementation contract",
-          "instance": "FiatTokenV2_2",
-          "method": "#deployer",
-          "calldata": [],
-          "caller": "0x7e5f4552091a69125d5dfcb7b8c2659029395bdf"
-        },
-        {
-          "comment": "Deploy the FiatTokenProxy pointing to the implementation",
-          "instance": "FiatTokenProxy",
-          "method": "#deployer",
-          "calldata": [
-            "FiatTokenV2_2.address"
-          ],
-          "caller": "0x7e5f4552091a69125d5dfcb7b8c2659029395bdf"
-        },
-        {
-          "comment": "Transfer proxy admin to a different address so the deployer's calls delegate to the implementation",
-          "instance": "FiatTokenProxy",
-          "method": "changeAdmin(address)",
-          "calldata": [
-            "0x0000000000000000000000000000000000000099"
-          ],
-          "caller": "0x7e5f4552091a69125d5dfcb7b8c2659029395bdf"
-        },
-        {
-          "comment": "Initialize USDC via proxy: ('USD Coin', 'USDC', 'USD', 6, owner, owner, owner, owner). Uses raw calldata because the framework encodes args as U256 words and cannot ABI-encode dynamic string types.",
-          "instance": "FiatTokenProxy",
-          "method": "#fallback",
-          "calldata": "0x3357162b00000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000140000000000000000000000000000000000000000000000000000000000000018000000000000000000000000000000000000000000000000000000000000000060000000000000000000000007e5f4552091a69125d5dfcb7b8c2659029395bdf0000000000000000000000007e5f4552091a69125d5dfcb7b8c2659029395bdf0000000000000000000000007e5f4552091a69125d5dfcb7b8c2659029395bdf0000000000000000000000007e5f4552091a69125d5dfcb7b8c2659029395bdf000000000000000000000000000000000000000000000000000000000000000855534420436f696e0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000004555344430000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000035553440000000000000000000000000000000000000000000000000000000000",
-          "caller": "0x7e5f4552091a69125d5dfcb7b8c2659029395bdf"
-        },
-        {
-          "comment": "Configure the owner as a minter with 1,000,000 USDC allowance (1000000000000 units, 6 decimals)",
-          "instance": "FiatTokenProxy",
-          "method": "configureMinter(address,uint256)",
-          "calldata": [
-            "0x7e5f4552091a69125d5dfcb7b8c2659029395bdf",
-            "1000000000000"
-          ],
-          "caller": "0x7e5f4552091a69125d5dfcb7b8c2659029395bdf"
-        },
-        {
-          "comment": "Mint 1,000,000 USDC to the owner",
-          "instance": "FiatTokenProxy",
-          "method": "mint(address,uint256)",
-          "calldata": [
-            "0x7e5f4552091a69125d5dfcb7b8c2659029395bdf",
-            "1000000000000"
-          ],
-          "caller": "0x7e5f4552091a69125d5dfcb7b8c2659029395bdf"
-        },
-        {
-          "comment": "Benchmark loop — each iteration simulates a batch of realistic USDC transactions",
-          "start_watcher": true,
-          "repeat": 5,
-          "steps": [
-            {
-              "comment": "Allocate a sender account (simulates an exchange user)",
-              "allocate_account": "$VARIABLE:SENDER"
-            },
-            {
-              "comment": "Allocate a receiver account (simulates a merchant/counterparty)",
-              "allocate_account": "$VARIABLE:RECEIVER"
-            },
-            {
-              "comment": "Owner sends 1,500 USDC to sender (exchange withdrawal)",
-              "instance": "FiatTokenProxy",
-              "method": "transfer(address,uint256)",
-              "caller": "0x7e5f4552091a69125d5dfcb7b8c2659029395bdf",
-              "calldata": [
-                "$VARIABLE:SENDER",
-                "1500000000"
-              ]
-            },
-            {
-              "comment": "Owner sends 500 USDC to receiver (exchange withdrawal)",
-              "instance": "FiatTokenProxy",
-              "method": "transfer(address,uint256)",
-              "caller": "0x7e5f4552091a69125d5dfcb7b8c2659029395bdf",
-              "calldata": [
-                "$VARIABLE:RECEIVER",
-                "500000000"
-              ]
-            },
-            {
-              "comment": "Sender pays receiver 250 USDC (P2P transfer)",
-              "instance": "FiatTokenProxy",
-              "method": "transfer(address,uint256)",
               "caller": "$VARIABLE:SENDER",
               "calldata": [
-                "$VARIABLE:RECEIVER",
-                "250000000"
-              ]
-            },
-            {
-              "comment": "Sender approves receiver to spend 800 USDC (DEX/marketplace allowance)",
-              "instance": "FiatTokenProxy",
-              "method": "approve(address,uint256)",
-              "caller": "$VARIABLE:SENDER",
-              "calldata": [
-                "$VARIABLE:RECEIVER",
-                "800000000"
-              ]
-            },
-            {
-              "comment": "Receiver pulls 300 USDC from sender via transferFrom (DEX settlement)",
-              "instance": "FiatTokenProxy",
-              "method": "transferFrom(address,address,uint256)",
-              "caller": "$VARIABLE:RECEIVER",
-              "calldata": [
-                "$VARIABLE:SENDER",
-                "$VARIABLE:RECEIVER",
-                "300000000"
-              ]
-            },
-            {
-              "comment": "Sender does multiple small transfers (payment activity)",
-              "repeat": 3,
-              "steps": [
-                {
-                  "comment": "Sender pays 50 USDC to a fixed merchant address",
-                  "instance": "FiatTokenProxy",
-                  "method": "transfer(address,uint256)",
-                  "caller": "$VARIABLE:SENDER",
-                  "calldata": [
-                    "0x0000000000000000000000000000000000000001",
-                    "50000000"
-                  ]
-                }
-              ]
-            },
-            {
-              "comment": "Receiver forwards 100 USDC onward",
-              "instance": "FiatTokenProxy",
-              "method": "transfer(address,uint256)",
-              "caller": "$VARIABLE:RECEIVER",
-              "calldata": [
-                "0x0000000000000000000000000000000000000002",
+                "0x0000000000000000000000000000000000000004",
                 "100000000"
               ]
             }
@@ -352,9 +195,7 @@
   "contracts": {
     "WETH": "weth.sol:WETH9",
     "TetherToken": "tether.sol:TetherToken",
-    "SignatureChecker": "usdc/usdc_implementation.sol:SignatureChecker",
-    "FiatTokenV2_2": "usdc/usdc_implementation.sol:FiatTokenV2_2",
-    "FiatTokenProxy": "usdc/usdc_proxy.sol:FiatTokenProxy",
+    "TetherFaucet": "tether.sol:TetherFaucet",
     "XENMath": "xen/xen_token.sol:XENMath",
     "XENCrypto": "xen/xen_token.sol:XENCrypto",
     "CoinTool_Proxy": "xen/xen_minter.sol:CoinTool_Proxy",
@@ -362,9 +203,6 @@
     "CoinTool_Benchmark": "xen/xen_minter.sol:CoinTool_Benchmark"
   },
   "libraries": {
-    "usdc/usdc_implementation.sol": {
-      "SignatureChecker": "SignatureChecker"
-    },
     "xen/xen_token.sol": {
       "XENMath": "XENMath"
     }

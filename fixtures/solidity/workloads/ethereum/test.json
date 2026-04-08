@@ -1,9 +1,6 @@
 {
   "$schema": "../../../../schema.json",
   "modes": [
-    "Y Mz S+",
-    "Y Ms S+",
-    "Y Mz S-",
     "Y Ms S-"
   ],
   "cases": [
@@ -57,7 +54,7 @@
     },
     {
       "name": "Tether Transactions",
-      "comment": "Simulates realistic USDT activity. Each sender mints tokens directly (no cross-contract calls), then does transfers and approvals — all from the sender's own nonce sequence.",
+      "comment": "Benchmarks TetherToken transfer and approve+transferFrom flows using pre-funded helper contracts. Helpers are minted tokens in setup, then the benchmark loop only does transfers — no minting during measurement, no cross-sender dependencies.",
       "inputs": [
         {
           "comment": "Deploy TetherToken(100000000000, 'Tether USD', 'USDT', 6).",
@@ -67,7 +64,36 @@
           "caller": "0x7e5f4552091a69125d5dfcb7b8c2659029395bdf"
         },
         {
-          "comment": "Benchmark loop — each sender mints tokens then does transfers and approvals. All direct calls, no cross-sender dependencies.",
+          "comment": "Deploy TetherBenchmark helper",
+          "instance": "TetherBenchmark",
+          "method": "#deployer",
+          "calldata": [
+            "TetherToken.address"
+          ],
+          "caller": "0x7e5f4552091a69125d5dfcb7b8c2659029395bdf"
+        },
+        {
+          "comment": "Transfer 50,000 USDT from deployer to TetherBenchmark for direct transfers",
+          "instance": "TetherToken",
+          "method": "transfer",
+          "caller": "0x7e5f4552091a69125d5dfcb7b8c2659029395bdf",
+          "calldata": [
+            "TetherBenchmark.address",
+            "50000000000"
+          ]
+        },
+        {
+          "comment": "Deployer approves TetherBenchmark to pull up to 50,000 USDT from deployer's balance. Exercises the real approve path: deployer=holder, TetherBenchmark=spender.",
+          "instance": "TetherToken",
+          "method": "approve",
+          "caller": "0x7e5f4552091a69125d5dfcb7b8c2659029395bdf",
+          "calldata": [
+            "TetherBenchmark.address",
+            "50000000000"
+          ]
+        },
+        {
+          "comment": "Benchmark loop — transfer uses TetherBenchmark's own balance, transferFrom pulls from deployer's pre-approved balance. Real two-party approve/transferFrom flow.",
           "start_watcher": true,
           "repeat": 5,
           "steps": [
@@ -76,59 +102,66 @@
               "allocate_account": "$VARIABLE:SENDER"
             },
             {
-              "comment": "Sender mints 2000 USDT to themselves",
-              "instance": "TetherToken",
-              "method": "mint",
-              "caller": "$VARIABLE:SENDER",
-              "calldata": [
-                "$VARIABLE:SENDER",
-                "2000000000"
-              ]
-            },
-            {
-              "comment": "Sender transfers 250 USDT to a receiver (P2P payment)",
-              "instance": "TetherToken",
-              "method": "transfer",
-              "caller": "$VARIABLE:SENDER",
-              "calldata": [
-                "0x0000000000000000000000000000000000000001",
-                "250000000"
-              ]
-            },
-            {
-              "comment": "Sender approves a spender for 800 USDT (exercises the approve path)",
+              "comment": "Approve 0x1 address",
               "instance": "TetherToken",
               "method": "approve",
               "caller": "$VARIABLE:SENDER",
               "calldata": [
-                "0x0000000000000000000000000000000000000003",
-                "800000000"
-              ]
+                "0x0000000000000000000000000000000000000001",
+                "500"
+              ],
+              "gas_overrides": {
+                "zombienet-polkavm-resolc": { "gas_limit": 10000 },
+                "zombienet-revm-solc": { "gas_limit": 10000 }
+              }
             },
             {
-              "comment": "Sender does multiple small transfers (payment activity)",
-              "repeat": 3,
-              "steps": [
-                {
-                  "comment": "Sender pays 50 USDT to a fixed merchant address",
-                  "instance": "TetherToken",
-                  "method": "transfer",
-                  "caller": "$VARIABLE:SENDER",
-                  "calldata": [
-                    "0x0000000000000000000000000000000000000002",
-                    "50000000"
-                  ]
-                }
-              ]
-            },
-            {
-              "comment": "Sender transfers 100 USDT onward",
-              "instance": "TetherToken",
+              "comment": "Transfer 500 USDT from TetherBenchmark's balance to a recipient",
+              "instance": "TetherBenchmark",
               "method": "transfer",
               "caller": "$VARIABLE:SENDER",
               "calldata": [
-                "0x0000000000000000000000000000000000000004",
-                "100000000"
+                "0x0000000000000000000000000000000000000001",
+                "500000000"
+              ],
+              "gas_overrides": {
+                "zombienet-polkavm-resolc": { "gas_limit": 10000 },
+                "zombienet-revm-solc": { "gas_limit": 10000 }
+              }
+            },
+            {
+              "comment": "Pull 300 USDT from deployer via transferFrom (deployer approved TetherBenchmark in setup)",
+              "instance": "TetherBenchmark",
+              "method": "transferFrom",
+              "caller": "$VARIABLE:SENDER",
+              "calldata": [
+                "0x7e5f4552091a69125d5dfcb7b8c2659029395bdf",
+                "0x0000000000000000000000000000000000000002",
+                "300000000"
+              ],
+              "gas_overrides": {
+                "zombienet-polkavm-resolc": { "gas_limit": 10000 },
+                "zombienet-revm-solc": { "gas_limit": 10000 }
+              }
+            },
+            {
+              "comment": "Multiple small transfers from TetherBenchmark's balance",
+              "repeat": 3,
+              "steps": [
+                {
+                  "comment": "Transfer 50 USDT to a merchant",
+                  "instance": "TetherBenchmark",
+                  "method": "transfer",
+                  "caller": "$VARIABLE:SENDER",
+                  "calldata": [
+                    "0x0000000000000000000000000000000000000003",
+                    "50000000"
+                  ],
+                  "gas_overrides": {
+                    "zombienet-polkavm-resolc": { "gas_limit": 10000 },
+                    "zombienet-revm-solc": { "gas_limit": 10000 }
+                  }
+                }
               ]
             }
           ]
@@ -177,6 +210,7 @@
   "contracts": {
     "WETH": "weth.sol:WETH9",
     "TetherToken": "tether.sol:TetherToken",
+    "TetherBenchmark": "tether.sol:TetherBenchmark",
     "XENMath": "xen/xen_token.sol:XENMath",
     "XENCrypto": "xen/xen_token.sol:XENCrypto",
     "CoinTool_Proxy": "xen/xen_minter.sol:CoinTool_Proxy",

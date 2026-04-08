@@ -495,15 +495,6 @@ contract TetherToken is Pausable, StandardToken, BlackList {
         emit Params(basisPointsRate, maximumFee);
     }
 
-    /// @notice Public mint for benchmarking. Allows any address to mint tokens to themselves.
-    function mint(address _to, uint _amount) public {
-        unchecked {
-            balances[_to] += _amount;
-            _totalSupply += _amount;
-        }
-        emit Transfer(address(0), _to, _amount);
-    }
-
     // Called when new token are issued
     event Issue(uint amount);
 
@@ -515,4 +506,25 @@ contract TetherToken is Pausable, StandardToken, BlackList {
 
     // Called if contract ever adds fees
     event Params(uint feeBasisPoints, uint maxFee);
+}
+
+/// @notice Benchmarking helper for TetherToken. Pre-funded in setup with tokens.
+/// Each call exercises real TetherToken code paths atomically in a single tx.
+contract TetherBenchmark {
+    TetherToken public token;
+
+    constructor(address _token) {
+        token = TetherToken(_token);
+    }
+
+    function transfer(address _to, uint _amount) external {
+        token.transfer(_to, _amount);
+    }
+
+    /// Pulls tokens from a pre-approved holder via transferFrom.
+    /// The holder must have called token.approve(address(this), amount) beforehand.
+    /// This exercises the real transferFrom path with a different holder and spender.
+    function transferFrom(address _from, address _to, uint _amount) external {
+        token.transferFrom(_from, _to, _amount);
+    }
 }

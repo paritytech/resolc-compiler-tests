@@ -1,10 +1,11 @@
 {
   "$schema": "../../../../schema.json",
   "modes": [
-    "Y Ms S-"
+    "Y Mz S+",
+    "Y Ms S+"
   ],
   "cases": [
-    {
+{
       "name": "WETH Transactions",
       "comment": "Benchmarks WETH deposit/transfer cycle. Each iteration deposits ETH to wrap it, then transfers WETH tokens.",
       "inputs": [
@@ -18,7 +19,7 @@
         {
           "comment": "The primary benchmark steps and repetition",
           "start_watcher": true,
-          "repeat": 5,
+          "repeat": 1000,
           "steps": [
             {
               "comment": "Allocating an account for the sender",
@@ -52,7 +53,7 @@
         }
       ]
     },
-    {
+  {
       "name": "Tether Transactions",
       "comment": "Benchmarks TetherToken transfer and approve+transferFrom flows using pre-funded helper contracts. Helpers are minted tokens in setup, then the benchmark loop only does transfers — no minting during measurement, no cross-sender dependencies.",
       "inputs": [
@@ -95,7 +96,7 @@
         {
           "comment": "Benchmark loop — transfer uses TetherBenchmark's own balance, transferFrom pulls from deployer's pre-approved balance. Real two-party approve/transferFrom flow.",
           "start_watcher": true,
-          "repeat": 5,
+          "repeat": 1000,
           "steps": [
             {
               "comment": "Allocate a sender account",
@@ -189,7 +190,7 @@
         {
           "comment": "Benchmark loop \u2014 each iteration batch-creates 2 CREATE2 proxies that each call claimRank(70) on XENCrypto via delegatecall",
           "start_watcher": true,
-          "repeat": 5,
+          "repeat": 1000,
           "steps": [
             {
               "comment": "Batch create 2 proxies, each delegatecalls d(XENCrypto, claimRank(70))",
@@ -205,6 +206,353 @@
           ]
         }
       ]
+    },
+    {
+      "name": "USDC Transactions",
+      "comment": "Simulates realistic USDC activity through the proxy pattern: deploy implementation + proxy, initialize, configure minter, mint supply, then benchmark transfers via proxy.",
+      "inputs": [
+        {
+          "comment": "Deploy the FiatTokenV2_2 implementation contract",
+          "instance": "FiatTokenV2_2",
+          "method": "#deployer",
+          "calldata": [],
+          "caller": "0x7e5f4552091a69125d5dfcb7b8c2659029395bdf"
+        },
+        {
+          "comment": "Deploy the FiatTokenProxy pointing to the implementation",
+          "instance": "FiatTokenProxy",
+          "method": "#deployer",
+          "calldata": [
+            "FiatTokenV2_2.address"
+          ],
+          "caller": "0x7e5f4552091a69125d5dfcb7b8c2659029395bdf"
+        },
+        {
+          "comment": "Transfer proxy admin to a different address so the deployer's calls delegate to the implementation",
+          "instance": "FiatTokenProxy",
+          "method": "changeAdmin(address)",
+          "calldata": [
+            "0x0000000000000000000000000000000000000099"
+          ],
+          "caller": "0x7e5f4552091a69125d5dfcb7b8c2659029395bdf"
+        },
+        {
+          "comment": "Initialize USDC via proxy: ('USD Coin', 'USDC', 'USD', 6, owner, owner, owner, owner). Uses raw calldata because the framework cannot ABI-encode dynamic string types.",
+          "instance": "FiatTokenProxy",
+          "method": "#fallback",
+          "calldata": "0x3357162b00000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000140000000000000000000000000000000000000000000000000000000000000018000000000000000000000000000000000000000000000000000000000000000060000000000000000000000007e5f4552091a69125d5dfcb7b8c2659029395bdf0000000000000000000000007e5f4552091a69125d5dfcb7b8c2659029395bdf0000000000000000000000007e5f4552091a69125d5dfcb7b8c2659029395bdf0000000000000000000000007e5f4552091a69125d5dfcb7b8c2659029395bdf000000000000000000000000000000000000000000000000000000000000000855534420436f696e0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000004555344430000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000035553440000000000000000000000000000000000000000000000000000000000",
+          "caller": "0x7e5f4552091a69125d5dfcb7b8c2659029395bdf"
+        },
+        {
+          "comment": "Configure the owner as a minter with 1,000,000 USDC allowance",
+          "instance": "FiatTokenProxy",
+          "method": "configureMinter(address,uint256)",
+          "calldata": [
+            "0x7e5f4552091a69125d5dfcb7b8c2659029395bdf",
+            "1000000000000"
+          ],
+          "caller": "0x7e5f4552091a69125d5dfcb7b8c2659029395bdf"
+        },
+        {
+          "comment": "Mint 1,000,000 USDC to the owner",
+          "instance": "FiatTokenProxy",
+          "method": "mint(address,uint256)",
+          "calldata": [
+            "0x7e5f4552091a69125d5dfcb7b8c2659029395bdf",
+            "1000000000000"
+          ],
+          "caller": "0x7e5f4552091a69125d5dfcb7b8c2659029395bdf"
+        },
+        {
+          "comment": "Deploy USDCBenchmark helper pointing to the proxy",
+          "instance": "USDCBenchmark",
+          "method": "#deployer",
+          "calldata": [
+            "FiatTokenProxy.address"
+          ],
+          "caller": "0x7e5f4552091a69125d5dfcb7b8c2659029395bdf"
+        },
+        {
+          "comment": "Transfer 50,000 USDC from owner to USDCBenchmark for direct transfers",
+          "instance": "FiatTokenProxy",
+          "method": "transfer(address,uint256)",
+          "caller": "0x7e5f4552091a69125d5dfcb7b8c2659029395bdf",
+          "calldata": [
+            "USDCBenchmark.address",
+            "50000000000"
+          ]
+        },
+        {
+          "comment": "Owner approves USDCBenchmark to pull up to 50,000 USDC via transferFrom",
+          "instance": "FiatTokenProxy",
+          "method": "approve(address,uint256)",
+          "caller": "0x7e5f4552091a69125d5dfcb7b8c2659029395bdf",
+          "calldata": [
+            "USDCBenchmark.address",
+            "50000000000"
+          ]
+        },
+        {
+          "comment": "Benchmark loop — each sender calls pre-funded USDCBenchmark. Transfer from helper's balance, transferFrom pulls from owner's pre-approved balance.",
+          "start_watcher": true,
+          "repeat": 1000,
+          "steps": [
+            {
+              "comment": "Allocate a sender account",
+              "allocate_account": "$VARIABLE:SENDER"
+            },
+            {
+              "comment": "Approve a spender for 500 USDC via proxy",
+              "instance": "FiatTokenProxy",
+              "method": "approve(address,uint256)",
+              "caller": "$VARIABLE:SENDER",
+              "calldata": [
+                "0x0000000000000000000000000000000000000001",
+                "500000000"
+              ],
+              "gas_overrides": {
+                "zombienet-polkavm-resolc": { "gas_limit": 10000 },
+                "zombienet-revm-solc": { "gas_limit": 10000 }
+              }
+            },
+            {
+              "comment": "Transfer 500 USDC from USDCBenchmark's balance to a recipient",
+              "instance": "USDCBenchmark",
+              "method": "transfer",
+              "caller": "$VARIABLE:SENDER",
+              "calldata": [
+                "0x0000000000000000000000000000000000000001",
+                "500000000"
+              ],
+              "gas_overrides": {
+                "zombienet-polkavm-resolc": { "gas_limit": 10000 },
+                "zombienet-revm-solc": { "gas_limit": 10000 }
+              }
+            },
+            {
+              "comment": "Pull 300 USDC from owner via transferFrom (owner approved USDCBenchmark in setup)",
+              "instance": "USDCBenchmark",
+              "method": "transferFrom",
+              "caller": "$VARIABLE:SENDER",
+              "calldata": [
+                "0x7e5f4552091a69125d5dfcb7b8c2659029395bdf",
+                "0x0000000000000000000000000000000000000002",
+                "300000000"
+              ],
+              "gas_overrides": {
+                "zombienet-polkavm-resolc": { "gas_limit": 10000 },
+                "zombienet-revm-solc": { "gas_limit": 10000 }
+              }
+            },
+            {
+              "comment": "Multiple small transfers from USDCBenchmark's balance",
+              "repeat": 3,
+              "steps": [
+                {
+                  "comment": "Transfer 50 USDC to a merchant",
+                  "instance": "USDCBenchmark",
+                  "method": "transfer",
+                  "caller": "$VARIABLE:SENDER",
+                  "calldata": [
+                    "0x0000000000000000000000000000000000000003",
+                    "50000000"
+                  ],
+                  "gas_overrides": {
+                    "zombienet-polkavm-resolc": { "gas_limit": 10000 },
+                    "zombienet-revm-solc": { "gas_limit": 10000 }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Multicall3 Transactions",
+      "comment": "Benchmarks Multicall3 aggregate functions batching calls across WETH, TetherToken, and USDC proxy. Exercises aggregate, aggregate3, and tryAggregate with multi-token transfers and balance queries.",
+      "inputs": [
+        {
+          "comment": "Deploy WETH",
+          "instance": "WETH",
+          "method": "#deployer",
+          "calldata": [],
+          "caller": "0x7e5f4552091a69125d5dfcb7b8c2659029395bdf"
+        },
+        {
+          "comment": "Deploy TetherToken(100000000000, 'Tether USD', 'USDT', 6)",
+          "instance": "TetherToken",
+          "method": "#deployer",
+          "calldata": "0x000000000000000000000000000000000000000000000000000000174876e800000000000000000000000000000000000000000000000000000000000000008000000000000000000000000000000000000000000000000000000000000000c00000000000000000000000000000000000000000000000000000000000000006000000000000000000000000000000000000000000000000000000000000000a546574686572205553440000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000045553445400000000000000000000000000000000000000000000000000000000",
+          "caller": "0x7e5f4552091a69125d5dfcb7b8c2659029395bdf"
+        },
+        {
+          "comment": "Deploy FiatTokenV2_2 implementation",
+          "instance": "FiatTokenV2_2",
+          "method": "#deployer",
+          "calldata": [],
+          "caller": "0x7e5f4552091a69125d5dfcb7b8c2659029395bdf"
+        },
+        {
+          "comment": "Deploy FiatTokenProxy pointing to implementation",
+          "instance": "FiatTokenProxy",
+          "method": "#deployer",
+          "calldata": ["FiatTokenV2_2.address"],
+          "caller": "0x7e5f4552091a69125d5dfcb7b8c2659029395bdf"
+        },
+        {
+          "comment": "Transfer proxy admin away",
+          "instance": "FiatTokenProxy",
+          "method": "changeAdmin(address)",
+          "calldata": ["0x0000000000000000000000000000000000000099"],
+          "caller": "0x7e5f4552091a69125d5dfcb7b8c2659029395bdf"
+        },
+        {
+          "comment": "Initialize USDC via proxy",
+          "instance": "FiatTokenProxy",
+          "method": "#fallback",
+          "calldata": "0x3357162b00000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000140000000000000000000000000000000000000000000000000000000000000018000000000000000000000000000000000000000000000000000000000000000060000000000000000000000007e5f4552091a69125d5dfcb7b8c2659029395bdf0000000000000000000000007e5f4552091a69125d5dfcb7b8c2659029395bdf0000000000000000000000007e5f4552091a69125d5dfcb7b8c2659029395bdf0000000000000000000000007e5f4552091a69125d5dfcb7b8c2659029395bdf000000000000000000000000000000000000000000000000000000000000000855534420436f696e0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000004555344430000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000035553440000000000000000000000000000000000000000000000000000000000",
+          "caller": "0x7e5f4552091a69125d5dfcb7b8c2659029395bdf"
+        },
+        {
+          "comment": "Configure minter and mint USDC",
+          "instance": "FiatTokenProxy",
+          "method": "configureMinter(address,uint256)",
+          "calldata": ["0x7e5f4552091a69125d5dfcb7b8c2659029395bdf", "1000000000000"],
+          "caller": "0x7e5f4552091a69125d5dfcb7b8c2659029395bdf"
+        },
+        {
+          "comment": "Mint 1,000,000 USDC",
+          "instance": "FiatTokenProxy",
+          "method": "mint(address,uint256)",
+          "calldata": ["0x7e5f4552091a69125d5dfcb7b8c2659029395bdf", "1000000000000"],
+          "caller": "0x7e5f4552091a69125d5dfcb7b8c2659029395bdf"
+        },
+        {
+          "comment": "Deploy Multicall3",
+          "instance": "Multicall3",
+          "method": "#deployer",
+          "calldata": [],
+          "caller": "0x7e5f4552091a69125d5dfcb7b8c2659029395bdf"
+        },
+        {
+          "comment": "Deploy Multicall3Benchmark helper with all three tokens",
+          "instance": "Multicall3Benchmark",
+          "method": "#deployer",
+          "calldata": [
+            "Multicall3.address",
+            "WETH.address",
+            "TetherToken.address",
+            "FiatTokenProxy.address"
+          ],
+          "caller": "0x7e5f4552091a69125d5dfcb7b8c2659029395bdf"
+        },
+        {
+          "comment": "Deposit ETH to get WETH",
+          "instance": "WETH",
+          "method": "deposit",
+          "caller": "0x7e5f4552091a69125d5dfcb7b8c2659029395bdf",
+          "calldata": [],
+          "value": "100000000000000000000 wei"
+        },
+        {
+          "comment": "Fund Multicall3 with WETH (Multicall3 is msg.sender when calling tokens)",
+          "instance": "WETH",
+          "method": "transfer",
+          "caller": "0x7e5f4552091a69125d5dfcb7b8c2659029395bdf",
+          "calldata": ["Multicall3.address", "50000000000000000000"]
+        },
+        {
+          "comment": "Fund Multicall3 with Tether",
+          "instance": "TetherToken",
+          "method": "transfer",
+          "caller": "0x7e5f4552091a69125d5dfcb7b8c2659029395bdf",
+          "calldata": ["Multicall3.address", "50000000000"]
+        },
+        {
+          "comment": "Fund Multicall3 with USDC",
+          "instance": "FiatTokenProxy",
+          "method": "transfer(address,uint256)",
+          "caller": "0x7e5f4552091a69125d5dfcb7b8c2659029395bdf",
+          "calldata": ["Multicall3.address", "50000000000"]
+        },
+        {
+          "comment": "Benchmark loop — batches calls across WETH, Tether, and USDC through Multicall3",
+          "start_watcher": true,
+          "repeat": 1000,
+          "steps": [
+            {
+              "comment": "Allocate a sender account",
+              "allocate_account": "$VARIABLE:SENDER"
+            },
+            {
+              "comment": "aggregate() — batch balance queries across all 3 tokens",
+              "instance": "Multicall3Benchmark",
+              "method": "benchAggregateBalances",
+              "caller": "$VARIABLE:SENDER",
+              "calldata": ["$VARIABLE:SENDER"],
+              "gas_overrides": {
+                "zombienet-polkavm-resolc": { "gas_limit": 30000 },
+                "zombienet-revm-solc": { "gas_limit": 30000 }
+              }
+            },
+            {
+              "comment": "aggregate3() — transfer all 3 tokens + read balances (6 calls in one batch)",
+              "instance": "Multicall3Benchmark",
+              "method": "benchAggregate3MultiToken",
+              "caller": "$VARIABLE:SENDER",
+              "calldata": [
+                "0x0000000000000000000000000000000000000001",
+                "1000000000000000",
+                "500000",
+                "500000"
+              ],
+              "gas_overrides": {
+                "zombienet-polkavm-resolc": { "gas_limit": 30000 },
+                "zombienet-revm-solc": { "gas_limit": 30000 }
+              }
+            },
+            {
+              "comment": "tryAggregate() — transfer all 3 tokens + read totalSupply (6 calls, failure tolerant)",
+              "instance": "Multicall3Benchmark",
+              "method": "benchTryAggregateMultiToken",
+              "caller": "$VARIABLE:SENDER",
+              "calldata": [
+                "0x0000000000000000000000000000000000000002",
+                "1000000000000000",
+                "500000",
+                "500000"
+              ],
+              "gas_overrides": {
+                "zombienet-polkavm-resolc": { "gas_limit": 30000 },
+                "zombienet-revm-solc": { "gas_limit": 30000 }
+              }
+            },
+            {
+              "comment": "Repeated aggregate3() multi-token batches",
+              "repeat": 3,
+              "steps": [
+                {
+                  "comment": "aggregate3() small multi-token batch",
+                  "instance": "Multicall3Benchmark",
+                  "method": "benchAggregate3MultiToken",
+                  "caller": "$VARIABLE:SENDER",
+                  "calldata": [
+                    "0x0000000000000000000000000000000000000003",
+                    "500000000000000",
+                    "100000",
+                    "100000"
+                  ],
+                  "gas_overrides": {
+                    "zombienet-polkavm-resolc": { "gas_limit": 30000 },
+                    "zombienet-revm-solc": { "gas_limit": 30000 }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "contracts": {
@@ -215,11 +563,20 @@
     "XENCrypto": "xen/xen_token.sol:XENCrypto",
     "CoinTool_Proxy": "xen/xen_minter.sol:CoinTool_Proxy",
     "CoinTool_App": "xen/xen_minter.sol:CoinTool_App",
-    "CoinTool_Benchmark": "xen/xen_minter.sol:CoinTool_Benchmark"
+    "CoinTool_Benchmark": "xen/xen_minter.sol:CoinTool_Benchmark",
+    "SignatureChecker": "usdc/usdc_implementation.sol:SignatureChecker",
+    "FiatTokenV2_2": "usdc/usdc_implementation.sol:FiatTokenV2_2",
+    "FiatTokenProxy": "usdc/usdc_proxy.sol:FiatTokenProxy",
+    "USDCBenchmark": "usdc/usdc_benchmark.sol:USDCBenchmark",
+    "Multicall3": "multicall3/multicall3.sol:Multicall3",
+    "Multicall3Benchmark": "multicall3/multicall3_benchmark.sol:Multicall3Benchmark"
   },
   "libraries": {
     "xen/xen_token.sol": {
       "XENMath": "XENMath"
+    },
+    "usdc/usdc_implementation.sol": {
+      "SignatureChecker": "SignatureChecker"
     }
   }
 }

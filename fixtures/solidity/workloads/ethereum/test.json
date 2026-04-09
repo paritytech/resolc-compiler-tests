@@ -117,13 +117,13 @@
               }
             },
             {
-              "comment": "Transfer 500 USDT from TetherBenchmark's balance to a recipient",
+              "comment": "Transfer 100 units from TetherBenchmark's balance to a recipient",
               "instance": "TetherBenchmark",
               "method": "transfer",
               "caller": "$VARIABLE:SENDER",
               "calldata": [
                 "0x0000000000000000000000000000000000000001",
-                "500000000"
+                "100"
               ],
               "gas_overrides": {
                 "zombienet-polkavm-resolc": { "gas_limit": 10000 },
@@ -131,14 +131,14 @@
               }
             },
             {
-              "comment": "Pull 300 USDT from deployer via transferFrom (deployer approved TetherBenchmark in setup)",
+              "comment": "Pull 100 units from deployer via transferFrom (deployer approved TetherBenchmark in setup)",
               "instance": "TetherBenchmark",
               "method": "transferFrom",
               "caller": "$VARIABLE:SENDER",
               "calldata": [
                 "0x7e5f4552091a69125d5dfcb7b8c2659029395bdf",
                 "0x0000000000000000000000000000000000000002",
-                "300000000"
+                "100"
               ],
               "gas_overrides": {
                 "zombienet-polkavm-resolc": { "gas_limit": 10000 },
@@ -150,13 +150,13 @@
               "repeat": 3,
               "steps": [
                 {
-                  "comment": "Transfer 50 USDT to a merchant",
+                  "comment": "Transfer 10 units to a merchant",
                   "instance": "TetherBenchmark",
                   "method": "transfer",
                   "caller": "$VARIABLE:SENDER",
                   "calldata": [
                     "0x0000000000000000000000000000000000000003",
-                    "50000000"
+                    "10"
                   ],
                   "gas_overrides": {
                     "zombienet-polkavm-resolc": { "gas_limit": 10000 },
@@ -302,13 +302,13 @@
               "allocate_account": "$VARIABLE:SENDER"
             },
             {
-              "comment": "Approve a spender for 500 USDC via proxy",
+              "comment": "Approve a spender for 100 units USDC via proxy",
               "instance": "FiatTokenProxy",
               "method": "approve(address,uint256)",
               "caller": "$VARIABLE:SENDER",
               "calldata": [
                 "0x0000000000000000000000000000000000000001",
-                "500000000"
+                "100"
               ],
               "gas_overrides": {
                 "zombienet-polkavm-resolc": { "gas_limit": 10000 },
@@ -316,13 +316,13 @@
               }
             },
             {
-              "comment": "Transfer 500 USDC from USDCBenchmark's balance to a recipient",
+              "comment": "Transfer 100 units USDC from USDCBenchmark's balance to a recipient",
               "instance": "USDCBenchmark",
               "method": "transfer",
               "caller": "$VARIABLE:SENDER",
               "calldata": [
                 "0x0000000000000000000000000000000000000001",
-                "500000000"
+                "100"
               ],
               "gas_overrides": {
                 "zombienet-polkavm-resolc": { "gas_limit": 10000 },
@@ -330,14 +330,14 @@
               }
             },
             {
-              "comment": "Pull 300 USDC from owner via transferFrom (owner approved USDCBenchmark in setup)",
+              "comment": "Pull 100 units USDC from owner via transferFrom (owner approved USDCBenchmark in setup)",
               "instance": "USDCBenchmark",
               "method": "transferFrom",
               "caller": "$VARIABLE:SENDER",
               "calldata": [
                 "0x7e5f4552091a69125d5dfcb7b8c2659029395bdf",
                 "0x0000000000000000000000000000000000000002",
-                "300000000"
+                "100"
               ],
               "gas_overrides": {
                 "zombienet-polkavm-resolc": { "gas_limit": 10000 },
@@ -349,13 +349,13 @@
               "repeat": 3,
               "steps": [
                 {
-                  "comment": "Transfer 50 USDC to a merchant",
+                  "comment": "Transfer 10 units USDC to a merchant",
                   "instance": "USDCBenchmark",
                   "method": "transfer",
                   "caller": "$VARIABLE:SENDER",
                   "calldata": [
                     "0x0000000000000000000000000000000000000003",
-                    "50000000"
+                    "10"
                   ],
                   "gas_overrides": {
                     "zombienet-polkavm-resolc": { "gas_limit": 10000 },

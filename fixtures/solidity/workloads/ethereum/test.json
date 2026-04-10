@@ -188,7 +188,7 @@
         {
           "comment": "Benchmark Loop",
           "start_watcher": true,
-          "repeat": 5,
+          "repeat": 1000,
           "steps": [
             {
               "comment": "WETH: deposit 1x + transfer 3x + approve 1x + transferFrom 1x",
@@ -202,7 +202,8 @@
               "value": "10000000000000000000 wei",
               "gas_overrides": {
                 "zombienet-polkavm-resolc": { "gas_limit": 10000 },
-                "zombienet-revm-solc": { "gas_limit": 10000 }
+                "zombienet-revm-solc": { "gas_limit": 10000 },
+                "lighthouse-geth-evm-solc": { "gas_limit": 60000 }
               }
             },
             {
@@ -213,10 +214,11 @@
                   "instance": "WETH",
                   "method": "transfer",
                   "caller": "$VARIABLE:WETH_SENDER",
-                  "calldata": ["0x0000000000000000000000000000000000000001", "1"],
+                  "calldata": ["$RANDOM_ADDRESS", "1"],
                   "gas_overrides": {
                     "zombienet-polkavm-resolc": { "gas_limit": 10000 },
-                    "zombienet-revm-solc": { "gas_limit": 10000 }
+                    "zombienet-revm-solc": { "gas_limit": 10000 },
+                    "lighthouse-geth-evm-solc": { "gas_limit": 80000 }
                   }
                 }
               ]
@@ -225,7 +227,7 @@
               "instance": "WETH",
               "method": "approve",
               "caller": "$VARIABLE:WETH_SENDER",
-              "calldata": ["0x0000000000000000000000000000000000000001", "100"],
+              "calldata": ["$RANDOM_ADDRESS", "100"],
               "gas_overrides": {
                 "zombienet-polkavm-resolc": { "gas_limit": 10000 },
                 "zombienet-revm-solc": { "gas_limit": 10000 }
@@ -235,7 +237,7 @@
               "instance": "WETHBenchmark",
               "method": "transferFrom",
               "caller": "$VARIABLE:WETH_SENDER",
-              "calldata": ["0x7e5f4552091a69125d5dfcb7b8c2659029395bdf", "0x0000000000000000000000000000000000000002", "1"],
+              "calldata": ["0x7e5f4552091a69125d5dfcb7b8c2659029395bdf", "$RANDOM_ADDRESS", "1"],
               "gas_overrides": {
                 "zombienet-polkavm-resolc": { "gas_limit": 10000 },
                 "zombienet-revm-solc": { "gas_limit": 10000 }
@@ -249,7 +251,7 @@
               "instance": "TetherToken",
               "method": "approve",
               "caller": "$VARIABLE:TETHER_SENDER",
-              "calldata": ["0x0000000000000000000000000000000000000001", "100"],
+              "calldata": ["$RANDOM_ADDRESS", "100"],
               "gas_overrides": {
                 "zombienet-polkavm-resolc": { "gas_limit": 10000 },
                 "zombienet-revm-solc": { "gas_limit": 10000 }
@@ -263,7 +265,7 @@
                   "instance": "TetherBenchmark",
                   "method": "transfer",
                   "caller": "$VARIABLE:TETHER_SENDER",
-                  "calldata": ["0x0000000000000000000000000000000000000001", "100"],
+                  "calldata": ["$RANDOM_ADDRESS", "100"],
                   "gas_overrides": {
                     "zombienet-polkavm-resolc": { "gas_limit": 10000 },
                     "zombienet-revm-solc": { "gas_limit": 10000 }
@@ -279,7 +281,7 @@
                   "instance": "TetherBenchmark",
                   "method": "transferFrom",
                   "caller": "$VARIABLE:TETHER_SENDER",
-                  "calldata": ["0x7e5f4552091a69125d5dfcb7b8c2659029395bdf", "0x0000000000000000000000000000000000000002", "100"],
+                  "calldata": ["0x7e5f4552091a69125d5dfcb7b8c2659029395bdf", "$RANDOM_ADDRESS", "100"],
                   "gas_overrides": {
                     "zombienet-polkavm-resolc": { "gas_limit": 10000 },
                     "zombienet-revm-solc": { "gas_limit": 10000 }
@@ -295,7 +297,7 @@
               "instance": "FiatTokenProxy",
               "method": "approve(address,uint256)",
               "caller": "$VARIABLE:USDC_SENDER",
-              "calldata": ["0x0000000000000000000000000000000000000001", "100"],
+              "calldata": ["$RANDOM_ADDRESS", "100"],
               "gas_overrides": {
                 "zombienet-polkavm-resolc": { "gas_limit": 10000 },
                 "zombienet-revm-solc": { "gas_limit": 10000 }
@@ -309,7 +311,7 @@
                   "instance": "USDCBenchmark",
                   "method": "transfer",
                   "caller": "$VARIABLE:USDC_SENDER",
-                  "calldata": ["0x0000000000000000000000000000000000000001", "100"],
+                  "calldata": ["$RANDOM_ADDRESS", "100"],
                   "gas_overrides": {
                     "zombienet-polkavm-resolc": { "gas_limit": 10000 },
                     "zombienet-revm-solc": { "gas_limit": 10000 }
@@ -325,7 +327,7 @@
                   "instance": "USDCBenchmark",
                   "method": "transferFrom",
                   "caller": "$VARIABLE:USDC_SENDER",
-                  "calldata": ["0x7e5f4552091a69125d5dfcb7b8c2659029395bdf", "0x0000000000000000000000000000000000000002", "100"],
+                  "calldata": ["0x7e5f4552091a69125d5dfcb7b8c2659029395bdf", "$RANDOM_ADDRESS", "100"],
                   "gas_overrides": {
                     "zombienet-polkavm-resolc": { "gas_limit": 10000 },
                     "zombienet-revm-solc": { "gas_limit": 10000 }
@@ -352,7 +354,7 @@
                   "instance": "Multicall3Benchmark",
                   "method": "benchAggregate3MultiToken",
                   "caller": "$VARIABLE:MC_SENDER",
-                  "calldata": ["0x0000000000000000000000000000000000000001", "100", "10", "10"],
+                  "calldata": ["$RANDOM_ADDRESS", "100", "10", "10"],
                   "gas_overrides": {
                     "zombienet-polkavm-resolc": { "gas_limit": 30000 },
                     "zombienet-revm-solc": { "gas_limit": 30000 }
@@ -364,7 +366,7 @@
               "instance": "Multicall3Benchmark",
               "method": "benchTryAggregateMultiToken",
               "caller": "$VARIABLE:MC_SENDER",
-              "calldata": ["0x0000000000000000000000000000000000000002", "100", "10", "10"],
+              "calldata": ["$RANDOM_ADDRESS", "100", "10", "10"],
               "gas_overrides": {
                 "zombienet-polkavm-resolc": { "gas_limit": 30000 },
                 "zombienet-revm-solc": { "gas_limit": 30000 }

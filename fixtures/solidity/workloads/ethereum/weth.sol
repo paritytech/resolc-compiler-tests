@@ -86,6 +86,26 @@ contract WETH9 {
     }
 }
 
+/// @notice Benchmarking helper for WETH. Pre-funded in setup with WETH tokens.
+/// Each call exercises real WETH code paths atomically in a single tx.
+contract WETHBenchmark {
+    WETH9 public token;
+
+    constructor(address _token) {
+        token = WETH9(payable(_token));
+    }
+
+    function transfer(address _to, uint _amount) external {
+        token.transfer(_to, _amount);
+    }
+
+    /// Pulls tokens from a pre-approved holder via transferFrom.
+    /// The holder must have called token.approve(address(this), amount) beforehand.
+    function transferFrom(address _from, address _to, uint _amount) external {
+        token.transferFrom(_from, _to, _amount);
+    }
+}
+
 
 /*
                     GNU GENERAL PUBLIC LICENSE

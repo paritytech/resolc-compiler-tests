@@ -188,7 +188,7 @@
         {
           "comment": "Benchmark Loop",
           "start_watcher": true,
-          "repeat": 5,
+          "repeat": 1000,
           "steps": [
             {
               "comment": "Allocate dummy account",

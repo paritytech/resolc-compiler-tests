@@ -1,0 +1,359 @@
+{
+  "$schema": "../../../../schema.json",
+  "modes": [
+    "Y Mz S+",
+    "Y Ms S+"
+  ],
+  "cases": [
+    {
+      "name": "Ethereum Contracts",
+      "comment": "Benchmarks real Ethereum contracts (WETH, Tether, USDC, XEN Minter, Multicall3) in a single workload. Each iteration exercises all contracts with independent sender accounts.",
+      "inputs": [
+        {
+          "comment": "=== WETH Setup ===",
+          "instance": "WETH",
+          "method": "#deployer",
+          "calldata": [],
+          "caller": "0x7e5f4552091a69125d5dfcb7b8c2659029395bdf"
+        },
+        {
+          "comment": "Deploy WETHBenchmark helper",
+          "instance": "WETHBenchmark",
+          "method": "#deployer",
+          "calldata": ["WETH.address"],
+          "caller": "0x7e5f4552091a69125d5dfcb7b8c2659029395bdf"
+        },
+        {
+          "comment": "=== Tether Setup: Deploy TetherToken ===",
+          "instance": "TetherToken",
+          "method": "#deployer",
+          "calldata": "0x000000000000000000000000000000000000000000000000000000174876e800000000000000000000000000000000000000000000000000000000000000008000000000000000000000000000000000000000000000000000000000000000c00000000000000000000000000000000000000000000000000000000000000006000000000000000000000000000000000000000000000000000000000000000a546574686572205553440000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000045553445400000000000000000000000000000000000000000000000000000000",
+          "caller": "0x7e5f4552091a69125d5dfcb7b8c2659029395bdf"
+        },
+        {
+          "comment": "Deploy TetherBenchmark helper",
+          "instance": "TetherBenchmark",
+          "method": "#deployer",
+          "calldata": ["TetherToken.address"],
+          "caller": "0x7e5f4552091a69125d5dfcb7b8c2659029395bdf"
+        },
+        {
+          "comment": "Fund TetherBenchmark with 50,000 USDT",
+          "instance": "TetherToken",
+          "method": "transfer",
+          "caller": "0x7e5f4552091a69125d5dfcb7b8c2659029395bdf",
+          "calldata": ["TetherBenchmark.address", "50000000000"]
+        },
+        {
+          "comment": "Deployer approves TetherBenchmark for 50,000 USDT transferFrom",
+          "instance": "TetherToken",
+          "method": "approve",
+          "caller": "0x7e5f4552091a69125d5dfcb7b8c2659029395bdf",
+          "calldata": ["TetherBenchmark.address", "50000000000"]
+        },
+        {
+          "comment": "=== USDC Setup: Deploy implementation + proxy ===",
+          "instance": "FiatTokenV2_2",
+          "method": "#deployer",
+          "calldata": [],
+          "caller": "0x7e5f4552091a69125d5dfcb7b8c2659029395bdf"
+        },
+        {
+          "comment": "Deploy FiatTokenProxy",
+          "instance": "FiatTokenProxy",
+          "method": "#deployer",
+          "calldata": ["FiatTokenV2_2.address"],
+          "caller": "0x7e5f4552091a69125d5dfcb7b8c2659029395bdf"
+        },
+        {
+          "comment": "Transfer proxy admin away",
+          "instance": "FiatTokenProxy",
+          "method": "changeAdmin(address)",
+          "calldata": ["0x0000000000000000000000000000000000000099"],
+          "caller": "0x7e5f4552091a69125d5dfcb7b8c2659029395bdf"
+        },
+        {
+          "comment": "Initialize USDC via proxy",
+          "instance": "FiatTokenProxy",
+          "method": "#fallback",
+          "calldata": "0x3357162b00000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000140000000000000000000000000000000000000000000000000000000000000018000000000000000000000000000000000000000000000000000000000000000060000000000000000000000007e5f4552091a69125d5dfcb7b8c2659029395bdf0000000000000000000000007e5f4552091a69125d5dfcb7b8c2659029395bdf0000000000000000000000007e5f4552091a69125d5dfcb7b8c2659029395bdf0000000000000000000000007e5f4552091a69125d5dfcb7b8c2659029395bdf000000000000000000000000000000000000000000000000000000000000000855534420436f696e0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000004555344430000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000035553440000000000000000000000000000000000000000000000000000000000",
+          "caller": "0x7e5f4552091a69125d5dfcb7b8c2659029395bdf"
+        },
+        {
+          "comment": "Configure minter + mint USDC",
+          "instance": "FiatTokenProxy",
+          "method": "configureMinter(address,uint256)",
+          "calldata": ["0x7e5f4552091a69125d5dfcb7b8c2659029395bdf", "1000000000000"],
+          "caller": "0x7e5f4552091a69125d5dfcb7b8c2659029395bdf"
+        },
+        {
+          "comment": "Mint 1,000,000 USDC",
+          "instance": "FiatTokenProxy",
+          "method": "mint(address,uint256)",
+          "calldata": ["0x7e5f4552091a69125d5dfcb7b8c2659029395bdf", "1000000000000"],
+          "caller": "0x7e5f4552091a69125d5dfcb7b8c2659029395bdf"
+        },
+        {
+          "comment": "Deploy USDCBenchmark helper",
+          "instance": "USDCBenchmark",
+          "method": "#deployer",
+          "calldata": ["FiatTokenProxy.address"],
+          "caller": "0x7e5f4552091a69125d5dfcb7b8c2659029395bdf"
+        },
+        {
+          "comment": "Fund USDCBenchmark with 50,000 USDC",
+          "instance": "FiatTokenProxy",
+          "method": "transfer(address,uint256)",
+          "caller": "0x7e5f4552091a69125d5dfcb7b8c2659029395bdf",
+          "calldata": ["USDCBenchmark.address", "50000000000"]
+        },
+        {
+          "comment": "Deployer approves USDCBenchmark for 50,000 USDC transferFrom",
+          "instance": "FiatTokenProxy",
+          "method": "approve(address,uint256)",
+          "caller": "0x7e5f4552091a69125d5dfcb7b8c2659029395bdf",
+          "calldata": ["USDCBenchmark.address", "50000000000"]
+        },
+        {
+          "comment": "=== XEN Setup ===",
+          "instance": "XENCrypto",
+          "method": "#deployer",
+          "calldata": [],
+          "caller": "0x7e5f4552091a69125d5dfcb7b8c2659029395bdf"
+        },
+        {
+          "comment": "Deploy CoinTool_Benchmark",
+          "instance": "CoinTool_Benchmark",
+          "method": "#deployer",
+          "calldata": [],
+          "caller": "0x7e5f4552091a69125d5dfcb7b8c2659029395bdf"
+        },
+        {
+          "comment": "=== Multicall3 Setup ===",
+          "instance": "Multicall3",
+          "method": "#deployer",
+          "calldata": [],
+          "caller": "0x7e5f4552091a69125d5dfcb7b8c2659029395bdf"
+        },
+        {
+          "comment": "Deploy Multicall3Benchmark with all three tokens",
+          "instance": "Multicall3Benchmark",
+          "method": "#deployer",
+          "calldata": ["Multicall3.address", "WETH.address", "TetherToken.address", "FiatTokenProxy.address"],
+          "caller": "0x7e5f4552091a69125d5dfcb7b8c2659029395bdf"
+        },
+        {
+          "comment": "Deposit ETH for WETH",
+          "instance": "WETH",
+          "method": "deposit",
+          "caller": "0x7e5f4552091a69125d5dfcb7b8c2659029395bdf",
+          "calldata": [],
+          "value": "100000000000000000000 wei"
+        },
+        {
+          "comment": "Fund WETHBenchmark with 25 WETH",
+          "instance": "WETH",
+          "method": "transfer",
+          "caller": "0x7e5f4552091a69125d5dfcb7b8c2659029395bdf",
+          "calldata": ["WETHBenchmark.address", "25000000000000000000"]
+        },
+        {
+          "comment": "Deployer approves WETHBenchmark for 25 WETH transferFrom",
+          "instance": "WETH",
+          "method": "approve",
+          "caller": "0x7e5f4552091a69125d5dfcb7b8c2659029395bdf",
+          "calldata": ["WETHBenchmark.address", "25000000000000000000"]
+        },
+        {
+          "comment": "Fund Multicall3 with WETH",
+          "instance": "WETH",
+          "method": "transfer",
+          "caller": "0x7e5f4552091a69125d5dfcb7b8c2659029395bdf",
+          "calldata": ["Multicall3.address", "50000000000000000000"]
+        },
+        {
+          "comment": "Fund Multicall3 with Tether",
+          "instance": "TetherToken",
+          "method": "transfer",
+          "caller": "0x7e5f4552091a69125d5dfcb7b8c2659029395bdf",
+          "calldata": ["Multicall3.address", "25000000000"]
+        },
+        {
+          "comment": "Fund Multicall3 with USDC",
+          "instance": "FiatTokenProxy",
+          "method": "transfer(address,uint256)",
+          "caller": "0x7e5f4552091a69125d5dfcb7b8c2659029395bdf",
+          "calldata": ["Multicall3.address", "50000000000"]
+        },
+        {
+          "comment": "Benchmark Loop",
+          "start_watcher": true,
+          "repeat": 5000,
+          "steps": [
+            {
+              "comment": "Allocate dummy account to avoid using the deployer account in warmup step",
+              "allocate_account": "$VARIABLE:DUMMY"
+            },
+            {
+              "comment": "WETH: deposit 1x + transfer 3x + approve 1x + transferFrom 1x",
+              "allocate_account": "$VARIABLE:WETH_SENDER"
+            },
+            {
+              "instance": "WETH",
+              "method": "deposit",
+              "caller": "$VARIABLE:WETH_SENDER",
+              "calldata": [],
+              "value": "10000000000000000000 wei"
+            },
+            {
+              "comment": "WETH transfer 3x",
+              "repeat": 3,
+              "steps": [
+                {
+                  "instance": "WETH",
+                  "method": "transfer",
+                  "caller": "$VARIABLE:WETH_SENDER",
+                  "calldata": ["$RANDOM_ADDRESS", "1"]
+                }
+              ]
+            },
+            {
+              "instance": "WETH",
+              "method": "approve",
+              "caller": "$VARIABLE:WETH_SENDER",
+              "calldata": ["$RANDOM_ADDRESS", "100"]
+            },
+            {
+              "instance": "WETHBenchmark",
+              "method": "transferFrom",
+              "caller": "$VARIABLE:WETH_SENDER",
+              "calldata": ["0x7e5f4552091a69125d5dfcb7b8c2659029395bdf", "$RANDOM_ADDRESS", "1"]
+            },
+            {
+              "comment": "Tether: approve 1x + transfer 5x + transferFrom 2x",
+              "allocate_account": "$VARIABLE:TETHER_SENDER"
+            },
+            {
+              "instance": "TetherToken",
+              "method": "approve",
+              "caller": "$VARIABLE:TETHER_SENDER",
+              "calldata": ["$RANDOM_ADDRESS", "100"]
+            },
+            {
+              "comment": "Tether transfer 5x",
+              "repeat": 5,
+              "steps": [
+                {
+                  "instance": "TetherBenchmark",
+                  "method": "transfer",
+                  "caller": "$VARIABLE:TETHER_SENDER",
+                  "calldata": ["$RANDOM_ADDRESS", "100"]
+                }
+              ]
+            },
+            {
+              "comment": "Tether transferFrom 2x",
+              "repeat": 2,
+              "steps": [
+                {
+                  "instance": "TetherBenchmark",
+                  "method": "transferFrom",
+                  "caller": "$VARIABLE:TETHER_SENDER",
+                  "calldata": ["0x7e5f4552091a69125d5dfcb7b8c2659029395bdf", "$RANDOM_ADDRESS", "100"]
+                }
+              ]
+            },
+            {
+              "comment": "USDC: approve 1x + transfer 4x + transferFrom 2x",
+              "allocate_account": "$VARIABLE:USDC_SENDER"
+            },
+            {
+              "instance": "FiatTokenProxy",
+              "method": "approve(address,uint256)",
+              "caller": "$VARIABLE:USDC_SENDER",
+              "calldata": ["$RANDOM_ADDRESS", "100"]
+            },
+            {
+              "comment": "USDC transfer 4x",
+              "repeat": 4,
+              "steps": [
+                {
+                  "instance": "USDCBenchmark",
+                  "method": "transfer",
+                  "caller": "$VARIABLE:USDC_SENDER",
+                  "calldata": ["$RANDOM_ADDRESS", "100"]
+                }
+              ]
+            },
+            {
+              "comment": "USDC transferFrom 2x",
+              "repeat": 2,
+              "steps": [
+                {
+                  "instance": "USDCBenchmark",
+                  "method": "transferFrom",
+                  "caller": "$VARIABLE:USDC_SENDER",
+                  "calldata": ["0x7e5f4552091a69125d5dfcb7b8c2659029395bdf", "$RANDOM_ADDRESS", "100"]
+                }
+              ]
+            },
+            {
+              "comment": "XEN Minter: batch CREATE2 + claimRank 1x",
+              "instance": "CoinTool_Benchmark",
+              "method": "batchClaimRank(address,uint256,uint256)",
+              "caller": "0x7e5f4552091a69125d5dfcb7b8c2659029395bdf",
+              "calldata": ["XENCrypto.address", "2", "70"]
+            },
+            {
+              "comment": "Multicall3: aggregate3 4x + tryAggregate 1x",
+              "allocate_account": "$VARIABLE:MC_SENDER"
+            },
+            {
+              "comment": "Multicall3 aggregate3 4x",
+              "repeat": 4,
+              "steps": [
+                {
+                  "instance": "Multicall3Benchmark",
+                  "method": "benchAggregate3MultiToken",
+                  "caller": "$VARIABLE:MC_SENDER",
+                  "calldata": ["$RANDOM_ADDRESS", "100", "10", "10"]
+                }
+              ]
+            },
+            {
+              "instance": "Multicall3Benchmark",
+              "method": "benchTryAggregateMultiToken",
+              "caller": "$VARIABLE:MC_SENDER",
+              "calldata": ["$RANDOM_ADDRESS", "100", "10", "10"]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "WETH": "weth.sol:WETH9",
+    "WETHBenchmark": "weth.sol:WETHBenchmark",
+    "TetherToken": "tether.sol:TetherToken",
+    "TetherBenchmark": "tether.sol:TetherBenchmark",
+    "XENMath": "xen/xen_token.sol:XENMath",
+    "XENCrypto": "xen/xen_token.sol:XENCrypto",
+    "CoinTool_Proxy": "xen/xen_minter.sol:CoinTool_Proxy",
+    "CoinTool_App": "xen/xen_minter.sol:CoinTool_App",
+    "CoinTool_Benchmark": "xen/xen_minter.sol:CoinTool_Benchmark",
+    "SignatureChecker": "usdc/usdc_implementation.sol:SignatureChecker",
+    "FiatTokenV2_2": "usdc/usdc_implementation.sol:FiatTokenV2_2",
+    "FiatTokenProxy": "usdc/usdc_proxy.sol:FiatTokenProxy",
+    "USDCBenchmark": "usdc/usdc_benchmark.sol:USDCBenchmark",
+    "Multicall3": "multicall3/multicall3.sol:Multicall3",
+    "Multicall3Benchmark": "multicall3/multicall3_benchmark.sol:Multicall3Benchmark"
+  },
+  "libraries": {
+    "xen/xen_token.sol": {
+      "XENMath": "XENMath"
+    },
+    "usdc/usdc_implementation.sol": {
+      "SignatureChecker": "SignatureChecker"
+    }
+  }
+}

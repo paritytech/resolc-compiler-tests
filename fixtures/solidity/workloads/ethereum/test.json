@@ -188,8 +188,12 @@
         {
           "comment": "Benchmark Loop",
           "start_watcher": true,
-          "repeat": 1000,
+          "repeat": 5,
           "steps": [
+            {
+              "comment": "Allocate dummy account",
+              "allocate_account": "$VARIABLE:DUMMY"
+            },
             {
               "comment": "WETH: deposit 1x + transfer 3x + approve 1x + transferFrom 1x",
               "allocate_account": "$VARIABLE:WETH_SENDER"

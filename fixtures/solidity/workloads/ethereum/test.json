@@ -201,9 +201,9 @@
               "calldata": [],
               "value": "10000000000000000000 wei",
               "gas_overrides": {
-                "zombienet-polkavm-resolc": { "gas_limit": 5000 },
-                "zombienet-revm-solc": { "gas_limit": 5000 },
-                "lighthouse-geth-evm-solc": { "gas_limit": 50000 }
+                "zombienet-polkavm-resolc": { "gas_limit": 4000 },
+                "zombienet-revm-solc": { "gas_limit": 4000 },
+                "lighthouse-geth-evm-solc": { "gas_limit": 45000 }
               }
             },
             {
@@ -216,9 +216,9 @@
                   "caller": "$VARIABLE:WETH_SENDER",
                   "calldata": ["$RANDOM_ADDRESS", "1"],
                   "gas_overrides": {
-                    "zombienet-polkavm-resolc": { "gas_limit": 5000 },
-                    "zombienet-revm-solc": { "gas_limit": 5000 },
-                    "lighthouse-geth-evm-solc": { "gas_limit": 75000 }
+                    "zombienet-polkavm-resolc": { "gas_limit": 4500 },
+                    "zombienet-revm-solc": { "gas_limit": 4000 },
+                    "lighthouse-geth-evm-solc": { "gas_limit": 70000 }
                   }
                 }
               ]
@@ -229,8 +229,8 @@
               "caller": "$VARIABLE:WETH_SENDER",
               "calldata": ["$RANDOM_ADDRESS", "100"],
               "gas_overrides": {
-                "zombienet-polkavm-resolc": { "gas_limit": 5000 },
-                "zombienet-revm-solc": { "gas_limit": 5000 }
+                "zombienet-polkavm-resolc": { "gas_limit": 4000 },
+                "zombienet-revm-solc": { "gas_limit": 4000 }
               }
             },
             {
@@ -239,8 +239,8 @@
               "caller": "$VARIABLE:WETH_SENDER",
               "calldata": ["0x7e5f4552091a69125d5dfcb7b8c2659029395bdf", "$RANDOM_ADDRESS", "1"],
               "gas_overrides": {
-                "zombienet-polkavm-resolc": { "gas_limit": 6000 },
-                "zombienet-revm-solc": { "gas_limit": 6000 }
+                "zombienet-polkavm-resolc": { "gas_limit": 5000 },
+                "zombienet-revm-solc": { "gas_limit": 5000 }
               }
             },
             {
@@ -253,8 +253,8 @@
               "caller": "$VARIABLE:TETHER_SENDER",
               "calldata": ["$RANDOM_ADDRESS", "100"],
               "gas_overrides": {
-                "zombienet-polkavm-resolc": { "gas_limit": 6000 },
-                "zombienet-revm-solc": { "gas_limit": 5000 }
+                "zombienet-polkavm-resolc": { "gas_limit": 5000 },
+                "zombienet-revm-solc": { "gas_limit": 4000 }
               }
             },
             {
@@ -267,8 +267,8 @@
                   "caller": "$VARIABLE:TETHER_SENDER",
                   "calldata": ["$RANDOM_ADDRESS", "100"],
                   "gas_overrides": {
-                    "zombienet-polkavm-resolc": { "gas_limit": 7000 },
-                    "zombienet-revm-solc": { "gas_limit": 6000 }
+                    "zombienet-polkavm-resolc": { "gas_limit": 6000 },
+                    "zombienet-revm-solc": { "gas_limit": 5000 }
                   }
                 }
               ]
@@ -283,8 +283,8 @@
                   "caller": "$VARIABLE:TETHER_SENDER",
                   "calldata": ["0x7e5f4552091a69125d5dfcb7b8c2659029395bdf", "$RANDOM_ADDRESS", "100"],
                   "gas_overrides": {
-                    "zombienet-polkavm-resolc": { "gas_limit": 7000 },
-                    "zombienet-revm-solc": { "gas_limit": 6000 }
+                    "zombienet-polkavm-resolc": { "gas_limit": 6500 },
+                    "zombienet-revm-solc": { "gas_limit": 5500 }
                   }
                 }
               ]
@@ -299,8 +299,8 @@
               "caller": "$VARIABLE:USDC_SENDER",
               "calldata": ["$RANDOM_ADDRESS", "100"],
               "gas_overrides": {
-                "zombienet-polkavm-resolc": { "gas_limit": 7000 },
-                "zombienet-revm-solc": { "gas_limit": 5000 }
+                "zombienet-polkavm-resolc": { "gas_limit": 6500 },
+                "zombienet-revm-solc": { "gas_limit": 4000 }
               }
             },
             {
@@ -313,8 +313,8 @@
                   "caller": "$VARIABLE:USDC_SENDER",
                   "calldata": ["$RANDOM_ADDRESS", "100"],
                   "gas_overrides": {
-                    "zombienet-polkavm-resolc": { "gas_limit": 9000 },
-                    "zombienet-revm-solc": { "gas_limit": 6000 }
+                    "zombienet-polkavm-resolc": { "gas_limit": 8000 },
+                    "zombienet-revm-solc": { "gas_limit": 5500 }
                   }
                 }
               ]
@@ -329,8 +329,8 @@
                   "caller": "$VARIABLE:USDC_SENDER",
                   "calldata": ["0x7e5f4552091a69125d5dfcb7b8c2659029395bdf", "$RANDOM_ADDRESS", "100"],
                   "gas_overrides": {
-                    "zombienet-polkavm-resolc": { "gas_limit": 9000 },
-                    "zombienet-revm-solc": { "gas_limit": 7000 }
+                    "zombienet-polkavm-resolc": { "gas_limit": 8500 },
+                    "zombienet-revm-solc": { "gas_limit": 6000 }
                   }
                 }
               ]
@@ -356,8 +356,8 @@
                   "caller": "$VARIABLE:MC_SENDER",
                   "calldata": ["$RANDOM_ADDRESS", "100", "10", "10"],
                   "gas_overrides": {
-                    "zombienet-polkavm-resolc": { "gas_limit": 30000 },
-                    "zombienet-revm-solc": { "gas_limit": 20000 }
+                    "zombienet-polkavm-resolc": { "gas_limit": 24000 },
+                    "zombienet-revm-solc": { "gas_limit": 15000 }
                   }
                 }
               ]
@@ -368,8 +368,8 @@
               "caller": "$VARIABLE:MC_SENDER",
               "calldata": ["$RANDOM_ADDRESS", "100", "10", "10"],
               "gas_overrides": {
-                "zombienet-polkavm-resolc": { "gas_limit": 25000 },
-                "zombienet-revm-solc": { "gas_limit": 20000 }
+                "zombienet-polkavm-resolc": { "gas_limit": 23000 },
+                "zombienet-revm-solc": { "gas_limit": 15000 }
               }
             }
           ]

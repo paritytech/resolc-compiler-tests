@@ -188,7 +188,7 @@
         {
           "comment": "Benchmark Loop",
           "start_watcher": true,
-          "repeat": 1000,
+          "repeat": 5000,
           "steps": [
             {
               "comment": "Allocate dummy account to avoid using the deployer account in warmup step",

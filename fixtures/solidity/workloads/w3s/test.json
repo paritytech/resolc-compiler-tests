@@ -1,0 +1,36 @@
+{
+  "$schema": "../../../../schema.json",
+  "modes": [
+    "Y Mz S+",
+    "Y Ms S+",
+    "Y Mz S-",
+    "Y Ms S-"
+  ],
+  "cases": [
+    {
+      "name": "W3S view-call probe",
+      "comment": "Debug variant: deploy W3S and then call ticketPrice() (a simple view). Used to confirm whether the 0-weight dry-run seen on grantRole is a contract-logic issue or a state-sync/timing issue.",
+      "inputs": [
+        {
+          "comment": "Deploy W3S with a 1 wei ticket price and a dummy x25519 public key.",
+          "instance": "W3S",
+          "method": "#deployer",
+          "calldata": [
+            "1",
+            "0x000000000000000000000000000000000000000000000000000000000000abcd"
+          ],
+          "caller": "0x7e5f4552091a69125d5dfcb7b8c2659029395bdf"
+        },
+        {
+          "comment": "Call ticketPrice() — simple view call, no storage writes, no auth checks. If dry-run still shows weight_consumed=0 here, the issue is not contract logic.",
+          "instance": "W3S",
+          "method": "ticketPrice",
+          "caller": "0x7e5f4552091a69125d5dfcb7b8c2659029395bdf"
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "W3S": "W3S.sol:W3S"
+  }
+}

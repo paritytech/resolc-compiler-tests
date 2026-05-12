@@ -2,30 +2,232 @@
   "$schema": "../../../../schema.json",
   "modes": [
     "Y Mz S+",
-    "Y Ms S+",
-    "Y Mz S-",
-    "Y Ms S-"
+    "Y Ms S+"
   ],
   "cases": [
     {
-      "name": "W3S view-call probe",
-      "comment": "Debug variant: deploy W3S and then call ticketPrice() (a simple view). Used to confirm whether the 0-weight dry-run seen on grantRole is a contract-logic issue or a state-sync/timing issue.",
+      "name": "W3S Ticketing",
+      "comment": "Benchmarks the W3S Web3 Summit ticketing dapp (https://github.com/paritytech/tick3t apps/w3s/contracts/w3s). The W3S contract is an ERC721 NFT ticket built on OpenZeppelin v5.6.1 (ERC721 + AccessControl) with per-token encrypted attendee names, role-based admin (DEFAULT_ADMIN_ROLE / W3F / VOLUNTEER), and native-token payment. Setup whitelists one free-ticket user via the W3F-only addFreeTicketBatch and exercises redeemFreeTicket once. The mint loop mints 1500 tickets via both payable paths (buyTicket/buyTicketFor). Then 10 volunteers each check in a 150-ticket slice, modelling a real event with multiple door volunteers. Total checkins: 1500 (token 1501 is a 'no-show', which is realistic). The W3S.sol in this workload is the forge-flattened output of src/W3S.sol with openzeppelin-contracts@v5.6.1 inlined; to refresh, re-run `forge flatten src/W3S.sol` against a fresh OZ install.",
       "inputs": [
         {
-          "comment": "Deploy W3S with a 1 wei ticket price and a dummy x25519 public key.",
+          "comment": "Allocate the deployer (gets DEFAULT_ADMIN_ROLE in the constructor).",
+          "allocate_account": "$VARIABLE:DEPLOYER"
+        },
+        {
+          "comment": "Deploy W3S with a 1 wei ticket price and a dummy x25519 public key (bytes32). The deploying account receives DEFAULT_ADMIN_ROLE.",
           "instance": "W3S",
           "method": "#deployer",
           "calldata": [
             "1",
             "0x000000000000000000000000000000000000000000000000000000000000abcd"
           ],
-          "caller": "0x7e5f4552091a69125d5dfcb7b8c2659029395bdf"
+          "caller": "$VARIABLE:DEPLOYER"
         },
         {
-          "comment": "Call ticketPrice() — simple view call, no storage writes, no auth checks. If dry-run still shows weight_consumed=0 here, the issue is not contract logic.",
+          "comment": "DEPLOYER (DEFAULT_ADMIN_ROLE) grants W3F to itself so it can manage the whitelist via addFreeTicketBatch and grant VOLUNTEER role.",
           "instance": "W3S",
-          "method": "ticketPrice",
-          "caller": "0x7e5f4552091a69125d5dfcb7b8c2659029395bdf"
+          "method": "grantRole",
+          "caller": "$VARIABLE:DEPLOYER",
+          "calldata": [
+            "0x488777ed1029a48be1a653368ad8b08022eca349f2eeb999c08a2a039a6d0c57",
+            "$VARIABLE:DEPLOYER"
+          ]
+        },
+        {
+          "allocate_account": "$VARIABLE:FREE_USER"
+        },
+        {
+          "comment": "addFreeTicketBatch(address[]) — W3F-only. Whitelists one free-ticket user. ABI: offset=0x20, length=1, 1 left-padded address.",
+          "instance": "W3S",
+          "method": "addFreeTicketBatch",
+          "caller": "$VARIABLE:DEPLOYER",
+          "calldata": [
+            "0x20",
+            "1",
+            "$VARIABLE:FREE_USER"
+          ]
+        },
+        {
+          "comment": "redeemFreeTicket(bytes encryptedName) — caller is the whitelisted FREE_USER allocated above.",
+          "instance": "W3S",
+          "method": "redeemFreeTicket",
+          "caller": "$VARIABLE:FREE_USER",
+          "calldata": [
+            "0x20",
+            "4",
+            "0xaabbccdd00000000000000000000000000000000000000000000000000000000"
+          ]
+        },
+        {
+          "comment": "Mint loop sized for ~1500 attendees: 750 iterations × 2 mints (buyTicket + buyTicketFor) = 1500 paid tickets. Plus the 10 redeemed free tickets (above) = 1510 total tickets. Iterations are independent (each uses fresh accounts), so parallel execution is safe. await_transaction_inclusion ensures every mint is in a block before the loop returns. start_watcher: true here so the metrics report captures the mint loop and everything after (the watcher only listens for the first StartEvent — see crates/core/src/differential_benchmarks/watcher.rs).",
+          "start_watcher": true,
+          "repeat": 750,
+          "await_transaction_inclusion": true,
+          "steps": [
+            {
+              "allocate_account": "$VARIABLE:BUYER"
+            },
+            {
+              "instance": "W3S",
+              "method": "buyTicket",
+              "caller": "$VARIABLE:BUYER",
+              "value": "1 wei",
+              "calldata": [
+                "0x20",
+                "4",
+                "0xaabbccdd00000000000000000000000000000000000000000000000000000000"
+              ]
+            },
+            {
+              "allocate_account": "$VARIABLE:PAYER"
+            },
+            {
+              "allocate_account": "$VARIABLE:RECIPIENT"
+            },
+            {
+              "instance": "W3S",
+              "method": "buyTicketFor",
+              "caller": "$VARIABLE:PAYER",
+              "value": "1 wei",
+              "calldata": [
+                "$VARIABLE:RECIPIENT",
+                "0x40",
+                "4",
+                "0xaabbccdd00000000000000000000000000000000000000000000000000000000"
+              ]
+            }
+          ]
+        },
+        { "allocate_account": "$VARIABLE:VOLUNTEER_0" },
+        {
+          "comment": "Grant VOLUNTEER role to volunteer 0.",
+          "instance": "W3S", "method": "grantRole", "caller": "$VARIABLE:DEPLOYER",
+          "calldata": ["0x5a22d7548cd852c1b683d22507a2d14bc541da2a210a50aeb9e980957642e696", "$VARIABLE:VOLUNTEER_0"]
+        },
+        { "allocate_account": "$VARIABLE:VOLUNTEER_1" },
+        {
+          "instance": "W3S", "method": "grantRole", "caller": "$VARIABLE:DEPLOYER",
+          "calldata": ["0x5a22d7548cd852c1b683d22507a2d14bc541da2a210a50aeb9e980957642e696", "$VARIABLE:VOLUNTEER_1"]
+        },
+        { "allocate_account": "$VARIABLE:VOLUNTEER_2" },
+        {
+          "instance": "W3S", "method": "grantRole", "caller": "$VARIABLE:DEPLOYER",
+          "calldata": ["0x5a22d7548cd852c1b683d22507a2d14bc541da2a210a50aeb9e980957642e696", "$VARIABLE:VOLUNTEER_2"]
+        },
+        { "allocate_account": "$VARIABLE:VOLUNTEER_3" },
+        {
+          "instance": "W3S", "method": "grantRole", "caller": "$VARIABLE:DEPLOYER",
+          "calldata": ["0x5a22d7548cd852c1b683d22507a2d14bc541da2a210a50aeb9e980957642e696", "$VARIABLE:VOLUNTEER_3"]
+        },
+        { "allocate_account": "$VARIABLE:VOLUNTEER_4" },
+        {
+          "instance": "W3S", "method": "grantRole", "caller": "$VARIABLE:DEPLOYER",
+          "calldata": ["0x5a22d7548cd852c1b683d22507a2d14bc541da2a210a50aeb9e980957642e696", "$VARIABLE:VOLUNTEER_4"]
+        },
+        { "allocate_account": "$VARIABLE:VOLUNTEER_5" },
+        {
+          "instance": "W3S", "method": "grantRole", "caller": "$VARIABLE:DEPLOYER",
+          "calldata": ["0x5a22d7548cd852c1b683d22507a2d14bc541da2a210a50aeb9e980957642e696", "$VARIABLE:VOLUNTEER_5"]
+        },
+        { "allocate_account": "$VARIABLE:VOLUNTEER_6" },
+        {
+          "instance": "W3S", "method": "grantRole", "caller": "$VARIABLE:DEPLOYER",
+          "calldata": ["0x5a22d7548cd852c1b683d22507a2d14bc541da2a210a50aeb9e980957642e696", "$VARIABLE:VOLUNTEER_6"]
+        },
+        { "allocate_account": "$VARIABLE:VOLUNTEER_7" },
+        {
+          "instance": "W3S", "method": "grantRole", "caller": "$VARIABLE:DEPLOYER",
+          "calldata": ["0x5a22d7548cd852c1b683d22507a2d14bc541da2a210a50aeb9e980957642e696", "$VARIABLE:VOLUNTEER_7"]
+        },
+        { "allocate_account": "$VARIABLE:VOLUNTEER_8" },
+        {
+          "instance": "W3S", "method": "grantRole", "caller": "$VARIABLE:DEPLOYER",
+          "calldata": ["0x5a22d7548cd852c1b683d22507a2d14bc541da2a210a50aeb9e980957642e696", "$VARIABLE:VOLUNTEER_8"]
+        },
+        { "allocate_account": "$VARIABLE:VOLUNTEER_9" },
+        {
+          "instance": "W3S", "method": "grantRole", "caller": "$VARIABLE:DEPLOYER",
+          "calldata": ["0x5a22d7548cd852c1b683d22507a2d14bc541da2a210a50aeb9e980957642e696", "$VARIABLE:VOLUNTEER_9"]
+        },
+        {
+          "comment": "Volunteer 0 checks in tokens 1..150.",
+          "repeat": 150, "capture_index": "$VARIABLE:I",
+          "steps": [{
+            "instance": "W3S", "method": "checkIn", "caller": "$VARIABLE:VOLUNTEER_0",
+            "calldata": ["$VARIABLE:I 1 +"]
+          }]
+        },
+        {
+          "comment": "Volunteer 1 checks in tokens 151..300.",
+          "repeat": 150, "capture_index": "$VARIABLE:I",
+          "steps": [{
+            "instance": "W3S", "method": "checkIn", "caller": "$VARIABLE:VOLUNTEER_1",
+            "calldata": ["$VARIABLE:I 151 +"]
+          }]
+        },
+        {
+          "comment": "Volunteer 2 checks in tokens 301..450.",
+          "repeat": 150, "capture_index": "$VARIABLE:I",
+          "steps": [{
+            "instance": "W3S", "method": "checkIn", "caller": "$VARIABLE:VOLUNTEER_2",
+            "calldata": ["$VARIABLE:I 301 +"]
+          }]
+        },
+        {
+          "comment": "Volunteer 3 checks in tokens 451..600.",
+          "repeat": 150, "capture_index": "$VARIABLE:I",
+          "steps": [{
+            "instance": "W3S", "method": "checkIn", "caller": "$VARIABLE:VOLUNTEER_3",
+            "calldata": ["$VARIABLE:I 451 +"]
+          }]
+        },
+        {
+          "comment": "Volunteer 4 checks in tokens 601..750.",
+          "repeat": 150, "capture_index": "$VARIABLE:I",
+          "steps": [{
+            "instance": "W3S", "method": "checkIn", "caller": "$VARIABLE:VOLUNTEER_4",
+            "calldata": ["$VARIABLE:I 601 +"]
+          }]
+        },
+        {
+          "comment": "Volunteer 5 checks in tokens 751..900.",
+          "repeat": 150, "capture_index": "$VARIABLE:I",
+          "steps": [{
+            "instance": "W3S", "method": "checkIn", "caller": "$VARIABLE:VOLUNTEER_5",
+            "calldata": ["$VARIABLE:I 751 +"]
+          }]
+        },
+        {
+          "comment": "Volunteer 6 checks in tokens 901..1050.",
+          "repeat": 150, "capture_index": "$VARIABLE:I",
+          "steps": [{
+            "instance": "W3S", "method": "checkIn", "caller": "$VARIABLE:VOLUNTEER_6",
+            "calldata": ["$VARIABLE:I 901 +"]
+          }]
+        },
+        {
+          "comment": "Volunteer 7 checks in tokens 1051..1200.",
+          "repeat": 150, "capture_index": "$VARIABLE:I",
+          "steps": [{
+            "instance": "W3S", "method": "checkIn", "caller": "$VARIABLE:VOLUNTEER_7",
+            "calldata": ["$VARIABLE:I 1051 +"]
+          }]
+        },
+        {
+          "comment": "Volunteer 8 checks in tokens 1201..1350.",
+          "repeat": 150, "capture_index": "$VARIABLE:I",
+          "steps": [{
+            "instance": "W3S", "method": "checkIn", "caller": "$VARIABLE:VOLUNTEER_8",
+            "calldata": ["$VARIABLE:I 1201 +"]
+          }]
+        },
+        {
+          "comment": "Volunteer 9 checks in tokens 1351..1500. Token 1501 (the redeemed free ticket) is left unchecked (no-show — realistic).",
+          "repeat": 150, "capture_index": "$VARIABLE:I",
+          "steps": [{
+            "instance": "W3S", "method": "checkIn", "caller": "$VARIABLE:VOLUNTEER_9",
+            "calldata": ["$VARIABLE:I 1351 +"]
+          }]
         }
       ]
     }

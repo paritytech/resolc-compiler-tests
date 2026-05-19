@@ -1,0 +1,136 @@
+{
+  "$schema": "../../../../schema.json",
+  "modes": [
+    "Y Mz S+",
+    "Y Ms S+"
+  ],
+  "cases": [
+    {
+      "name": "P2PMarket",
+      "comment": "Benchmarks the LocalDOT P2PMarket contract (https://github.com/paritytech/p2p-market). P2P cash-to-PAS exchange with handoff agents and native-token escrow. Each day uses a dedicated PROVIDER_D who self-registers as their own agent \u2014 all of that day's trade-lifecycle txs (lockTrade \u2192 confirmCashReceived \u2192 confirmPickup) come from one sender so mempool nonce ordering serializes the within-trade dependencies. Across days, 5 distinct senders run concurrently. Models 5 days \u00d7 100 trades/day. Hot path: lockTrade (Trade struct write + escrow value transfer + userTrades array pushes on 3 addresses) + confirmCashReceived (state transition + value transfer to buyer) + confirmPickup (final state transition).",
+      "inputs": [
+        {
+          "allocate_account": "$VARIABLE:OWNER",
+          "comment": "Allocate OWNER. Just deploys the contract; nothing privileged afterward."
+        },
+        {
+          "instance": "Market",
+          "method": "#deployer",
+          "caller": "$VARIABLE:OWNER",
+          "comment": "Deploy P2PMarket. Constructor seeds tokenPricePerCurrency for USD and EUR.",
+          "calldata": []
+        },
+        {
+          "comment": "Per-day setup repeat: 5 iters. For each day D we allocate PROVIDER_D, register them as a handoff agent, then have them create an offer where they themselves are the only agent in agentAddresses. consolidate_state propagates PROVIDER_0..N-1 and OFFER_ID_0..N-1 to the case scope. start_watcher: true \u21d2 the watcher cutoff is the block right after the warm-up iter (D=0) finishes; the other setup parallel iters and the entire measured days loop below are tracked.",
+          "repeat": 5,
+          "capture_index": "$VARIABLE:K",
+          "consolidate_state": true,
+          "start_watcher": true,
+          "steps": [
+            {
+              "allocate_account": "$VARIABLE:PROVIDER_$VARIABLE:K"
+            },
+            {
+              "instance": "Market",
+              "method": "registerAgent",
+              "caller": "$VARIABLE:PROVIDER_$VARIABLE:K",
+              "comment": "PROVIDER_K self-registers as a handoff agent. metadataCID and the rest are static across iters \u2014 the contract only stores them verbatim.",
+              "calldata": [
+                "0xa0",
+                "0xe0",
+                "10",
+                "24",
+                "5",
+                "6",
+                "0x4167656e74580000000000000000000000000000000000000000000000000000",
+                "53",
+                "0x697066733a2f2f62616679726569643634626437326a7a686d6e656a6b376d34",
+                "0x74673264636b6d736f796d6a78717966377465776a0000000000000000000000"
+              ]
+            },
+            {
+              "instance": "Market",
+              "method": "createOffer",
+              "caller": "$VARIABLE:PROVIDER_$VARIABLE:K",
+              "comment": "PROVIDER_K creates a SELL offer listing themselves as the only allowed agent. The returned offerId is captured into OFFER_ID_K so the measured trades below can reference it.",
+              "calldata": [
+                "0",
+                "10000000000000000000",
+                "1",
+                "10",
+                "0xe0",
+                "0x120",
+                "0x180",
+                "3",
+                "0x5553440000000000000000000000000000000000000000000000000000000000",
+                "52",
+                "0x697066733a2f2f626166796f6666657278787878787878787878787878787878",
+                "0x7878787878787878787878787878787878787878000000000000000000000000",
+                "1",
+                "$VARIABLE:PROVIDER_$VARIABLE:K"
+              ],
+              "variable_assignments": {
+                "return_data": [
+                  "OFFER_ID_$VARIABLE:K"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "comment": "Days outer: 5 days. D=0 warm-up runs its inner trades sequentially; D=1..4 are parallel outer iters, each running the inner trades loop from a distinct PROVIDER_D. Net chain-level parallelism: N_DAYS independent sender nonce streams.",
+          "repeat": 5,
+          "capture_index": "$VARIABLE:D",
+          "steps": [
+            {
+              "comment": "Trades inner: 100 parallel iters per day. Each iter does the full 3-step agent-mediated trade lifecycle: lockTrade (provider locks tokens), confirmCashReceived (agent = same provider confirms cash from buyer \u21d2 tokens released to buyer), confirmPickup (provider confirms they received the cash off-chain \u21d2 trade COMPLETED). All 3 txs from PROVIDER_D in nonce order \u21d2 mempool guarantees correct execution order and the lockTrade's returned tradeId resolves before confirmCashReceived's dry-run.",
+              "repeat": 100,
+              "capture_index": "$VARIABLE:K",
+              "consolidate_state": true,
+              "steps": [
+                {
+                  "allocate_account": "$VARIABLE:BUYER_$VARIABLE:D_$VARIABLE:K"
+                },
+                {
+                  "instance": "Market",
+                  "method": "lockTrade",
+                  "caller": "$VARIABLE:PROVIDER_$VARIABLE:D",
+                  "calldata": [
+                    "$VARIABLE:BUYER_$VARIABLE:D_$VARIABLE:K",
+                    "$VARIABLE:OFFER_ID_$VARIABLE:D",
+                    "$VARIABLE:PROVIDER_$VARIABLE:D"
+                  ],
+                  "value": "1 wei",
+                  "variable_assignments": {
+                    "return_data": [
+                      "TRADE_$VARIABLE:D_$VARIABLE:K"
+                    ]
+                  }
+                },
+                {
+                  "instance": "Market",
+                  "method": "confirmCashReceived",
+                  "caller": "$VARIABLE:PROVIDER_$VARIABLE:D",
+                  "calldata": [
+                    "$VARIABLE:TRADE_$VARIABLE:D_$VARIABLE:K"
+                  ]
+                },
+                {
+                  "instance": "Market",
+                  "method": "confirmPickup",
+                  "caller": "$VARIABLE:PROVIDER_$VARIABLE:D",
+                  "calldata": [
+                    "$VARIABLE:TRADE_$VARIABLE:D_$VARIABLE:K"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "Market": "P2PMarket.sol:P2PMarket"
+  }
+}

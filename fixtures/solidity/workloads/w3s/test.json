@@ -127,7 +127,7 @@
           "instance": "Festival",
           "method": "setup",
           "caller": "$VARIABLE:OWNER",
-          "comment": "Festival.setup with 30-day window (May 2033), 7-day verification, 5000 capacity. Capacity easily covers N_DAYS*N_OPS POAPs minted in Block B's checkIns.",
+          "comment": "Festival.setup with 30-day window (May 2033), 7-day verification, 5000 capacity. Capacity easily covers N_DAYS*1000 = 2000 POAPs minted in Block B's checkIns.",
           "calldata": [
             "0xf9c2171700000000000000000000000000000000000000000000000000000000",
             "2000000000",
@@ -137,8 +137,8 @@
           ]
         },
         {
-          "comment": "Per-day setup: 5 iters. Each iter allocates DAY_CALLER_K and grants it 2 roles (W3S VOLUNTEER, Festival VOLUNTEER_ROLE), then DAY_CALLER_K self-registers as a P2P agent and creates a P2P offer listing itself as the only allowed agent. consolidate_state propagates DAY_CALLER_0..N-1 and OFFER_ID_0..N-1 to the case scope so the measured days loop below can reference them via $VARIABLE composition. start_watcher: true \u21d2 K=0 warm-up is the watcher cutoff; K=1..N-1 parallel setup iters + entire measured loop tracked.",
-          "repeat": 5,
+          "comment": "Per-day setup: 2 iters. Each iter allocates DAY_CALLER_K and grants it 2 roles (W3S VOLUNTEER, Festival VOLUNTEER_ROLE), then DAY_CALLER_K self-registers as a P2P agent and creates a P2P offer listing itself as the only allowed agent. consolidate_state propagates DAY_CALLER_0..N-1 and OFFER_ID_0..N-1 to the case scope so the measured days loop below can reference them via $VARIABLE composition. start_watcher: true \u21d2 K=0 warm-up is the watcher cutoff; K=1..N-1 parallel setup iters + entire measured loop tracked.",
+          "repeat": 2,
           "capture_index": "$VARIABLE:K",
           "consolidate_state": true,
           "start_watcher": true,
@@ -214,13 +214,13 @@
           ]
         },
         {
-          "comment": "Days outer: 5 iters. D=0 warm-up runs everything sequentially; D=1..N_DAYS-1 are parallel outer iters. Each outer iter executes Block A \u2192 Block B \u2192 Block C \u2192 closeDay within its day. Across parallel days, at any wall-clock moment different days are typically in different blocks \u21d2 all 4 contracts active simultaneously.",
-          "repeat": 5,
+          "comment": "Days outer: 2 iters. D=0 warm-up runs everything sequentially; D=1..N_DAYS-1 are parallel outer iters. Each outer iter executes Block A \u2192 Block B \u2192 Block C \u2192 closeDay within its day. Across parallel days, at any wall-clock moment different days are typically in different blocks \u21d2 all 4 contracts active simultaneously.",
+          "repeat": 2,
           "capture_index": "$VARIABLE:D",
           "steps": [
             {
-              "comment": "Block A: 100 parallel iters per day. Every iter touches 4 dapps \u2014 W3S buy, Festival register, T3rminal sell (slot 0), and a full P2P trade cycle (TRADE_A_D_K). consolidate_state propagates per-iter allocs and the captured TRADE_A_D_K to the day's outer scope so subsequent blocks can reference them.",
-              "repeat": 100,
+              "comment": "Block A: 1000 parallel iters per day. Every iter touches 4 dapps \u2014 W3S buy, Festival register, T3rminal sell (slot 0), and a full P2P trade cycle (TRADE_A_D_K). consolidate_state propagates per-iter allocs and the captured TRADE_A_D_K to the day's outer scope so subsequent blocks can reference them.",
+              "repeat": 1000,
               "capture_index": "$VARIABLE:K",
               "consolidate_state": true,
               "steps": [
@@ -240,7 +240,7 @@
                   "instance": "W3S",
                   "method": "buyTicket",
                   "caller": "$VARIABLE:BUYER_A_$VARIABLE:D_$VARIABLE:K",
-                  "comment": "W3S: BUYER_A mints one ticket (per-iter fresh address \u21d2 one-ticket-per-address rule satisfied). tokenId auto-assigned in global mint order; will be checkIn'd in Block B using D*N_OPS + K + 1.",
+                  "comment": "W3S: BUYER_A mints one ticket (per-iter fresh address \u21d2 one-ticket-per-address rule satisfied). tokenId auto-assigned in global mint order; will be checkIn'd in Block B using D*1000 + K + 1.",
                   "calldata": [
                     "0x20",
                     "4",
@@ -259,10 +259,10 @@
                   "instance": "Driver",
                   "method": "sell",
                   "caller": "$VARIABLE:DAY_CALLER_$VARIABLE:D",
-                  "comment": "T3rminal: DAY_CALLER records a sale via the Driver helper. saleNonce = D*(3*N_OPS) + K*3 + 0 (Block A slot).",
+                  "comment": "T3rminal: DAY_CALLER records a sale via the Driver helper. saleNonce = D*3000 + K*3 + 0 (Block A slot; N_OPS=1000).",
                   "calldata": [
                     "$VARIABLE:D",
-                    "$VARIABLE:D 300 * $VARIABLE:K 3 * + 0 +",
+                    "$VARIABLE:D 3000 * $VARIABLE:K 3 * + 0 +",
                     "$VARIABLE:CUSTOMER_A_$VARIABLE:D_$VARIABLE:K",
                     "$VARIABLE:K 1000 +",
                     "$VARIABLE:D 1000000 * $VARIABLE:K + 0 +"
@@ -306,8 +306,8 @@
               ]
             },
             {
-              "comment": "Block B: 100 parallel iters per day. By Block B's start, Block A's submissions are at least pool-resident (usually mined). W3S checkIn references tokenId = D*N_OPS + K + 1 \u2014 valid because Block A across all days collectively mints N_DAYS*N_OPS tickets in [1..N_DAYS*N_OPS]. Festival.checkIn captures POAP_D_K; Block C uses it.",
-              "repeat": 100,
+              "comment": "Block B: 1000 parallel iters per day. By Block B's start, Block A's submissions are at least pool-resident (usually mined). W3S checkIn references tokenId = D*1000 + K + 1 \u2014 valid because Block A across all days collectively mints N_DAYS*1000 tickets in [1..N_DAYS*1000]. Festival.checkIn captures POAP_D_K; Block C uses it.",
+              "repeat": 1000,
               "capture_index": "$VARIABLE:K",
               "consolidate_state": true,
               "steps": [
@@ -321,9 +321,9 @@
                   "instance": "W3S",
                   "method": "checkIn",
                   "caller": "$VARIABLE:DAY_CALLER_$VARIABLE:D",
-                  "comment": "W3S: DAY_CALLER (VOLUNTEER) checks in tokenId = D*N_OPS + K + 1 from Block A's mint range. Cross-sender (BUYER_A minted, DAY_CALLER checks in) \u21d2 relies on block-sequence + retry loop, same as festival's register\u2192checkIn pattern.",
+                  "comment": "W3S: DAY_CALLER (VOLUNTEER) checks in tokenId = D*1000 + K + 1 from Block A's mint range. Cross-sender (BUYER_A minted, DAY_CALLER checks in) \u21d2 relies on block-sequence + retry loop, same as festival's register\u2192checkIn pattern.",
                   "calldata": [
-                    "$VARIABLE:D 100 * $VARIABLE:K + 1 +"
+                    "$VARIABLE:D 1000 * $VARIABLE:K + 1 +"
                   ]
                 },
                 {
@@ -347,7 +347,7 @@
                   "comment": "T3rminal: Block B's sale (saleNonce slot 1). Same sender as Block A's sell \u21d2 ordered by nonce.",
                   "calldata": [
                     "$VARIABLE:D",
-                    "$VARIABLE:D 300 * $VARIABLE:K 3 * + 1 +",
+                    "$VARIABLE:D 3000 * $VARIABLE:K 3 * + 1 +",
                     "$VARIABLE:CUSTOMER_B_$VARIABLE:D_$VARIABLE:K",
                     "$VARIABLE:K 1000 +",
                     "$VARIABLE:D 1000000 * $VARIABLE:K + 1000 +"
@@ -391,8 +391,8 @@
               ]
             },
             {
-              "comment": "Block C: 100 parallel iters per day. Final phase of the Festival pipeline (createSession uses Block B's POAP_D_K). Also mints one more W3S ticket per iter to keep all 4 dapps active in this block too. T3rminal sell slot 2 + P2P TRADE_C_D_K.",
-              "repeat": 100,
+              "comment": "Block C: 1000 parallel iters per day. Final phase of the Festival pipeline (createSession uses Block B's POAP_D_K). Also mints one more W3S ticket per iter to keep all 4 dapps active in this block too. T3rminal sell slot 2 + P2P TRADE_C_D_K.",
+              "repeat": 1000,
               "capture_index": "$VARIABLE:K",
               "consolidate_state": true,
               "steps": [
@@ -437,7 +437,7 @@
                   "comment": "T3rminal: Block C's sale (saleNonce slot 2).",
                   "calldata": [
                     "$VARIABLE:D",
-                    "$VARIABLE:D 300 * $VARIABLE:K 3 * + 2 +",
+                    "$VARIABLE:D 3000 * $VARIABLE:K 3 * + 2 +",
                     "$VARIABLE:CUSTOMER_C_$VARIABLE:D_$VARIABLE:K",
                     "$VARIABLE:K 1000 +",
                     "$VARIABLE:D 1000000 * $VARIABLE:K + 2000 +"
@@ -484,10 +484,10 @@
               "instance": "Driver",
               "method": "closeDay",
               "caller": "$VARIABLE:DAY_CALLER_$VARIABLE:D",
-              "comment": "End of day: DAY_CALLER closes day D with entryCount = 3*N_OPS = 300 (3 sells per iter \u00d7 N_OPS iters). Same sender as all of the day's sells, so mempool nonce ordering guarantees the dailyBuffer.length check matches.",
+              "comment": "End of day: DAY_CALLER closes day D with entryCount = 3*1000 = 3000 (3 sells per iter \u00d7 1000 iters). Same sender as all of the day's sells, so mempool nonce ordering guarantees the dailyBuffer.length check matches.",
               "calldata": [
                 "$VARIABLE:D",
-                "300"
+                "3000"
               ]
             }
           ]

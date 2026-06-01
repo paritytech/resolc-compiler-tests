@@ -206,8 +206,15 @@
                 "$VARIABLE:DAY_CALLER_$VARIABLE:K"
               ],
               "variable_assignments": {
-                "return_data": [
+                "source": "event_topics",
+                "names": [
                   "OFFER_ID_$VARIABLE:K"
+                ],
+                "topics": [
+                  {
+                    "log_index": 0,
+                    "topic_index": 1
+                  }
                 ]
               }
             }
@@ -280,8 +287,15 @@
                   ],
                   "value": "1 wei",
                   "variable_assignments": {
-                    "return_data": [
+                    "source": "event_topics",
+                    "names": [
                       "TRADE_A_$VARIABLE:D_$VARIABLE:K"
+                    ],
+                    "topics": [
+                      {
+                        "log_index": 0,
+                        "topic_index": 1
+                      }
                     ]
                   }
                 },
@@ -335,8 +349,15 @@
                     "$VARIABLE:PRE_ATTENDEE_$VARIABLE:D_$VARIABLE:K"
                   ],
                   "variable_assignments": {
-                    "return_data": [
+                    "source": "event_topics",
+                    "names": [
                       "POAP_$VARIABLE:D_$VARIABLE:K"
+                    ],
+                    "topics": [
+                      {
+                        "log_index": 1,
+                        "topic_index": 1
+                      }
                     ]
                   }
                 },
@@ -365,8 +386,15 @@
                   ],
                   "value": "1 wei",
                   "variable_assignments": {
-                    "return_data": [
+                    "source": "event_topics",
+                    "names": [
                       "TRADE_B_$VARIABLE:D_$VARIABLE:K"
+                    ],
+                    "topics": [
+                      {
+                        "log_index": 0,
+                        "topic_index": 1
+                      }
                     ]
                   }
                 },
@@ -455,8 +483,15 @@
                   ],
                   "value": "1 wei",
                   "variable_assignments": {
-                    "return_data": [
+                    "source": "event_topics",
+                    "names": [
                       "TRADE_C_$VARIABLE:D_$VARIABLE:K"
+                    ],
+                    "topics": [
+                      {
+                        "log_index": 0,
+                        "topic_index": 1
+                      }
                     ]
                   }
                 },

@@ -7,7 +7,7 @@
   "cases": [
     {
       "name": "W3S",
-      "comment": "Combined workload exercising 4 dapps in parallel: W3S (tick3t \u2014 github.com/paritytech/tick3t), Festival (github.com/paritytech/festival), T3rminal (github.com/paritytech/t3rminal), and P2PMarket (github.com/paritytech/p2p-market). Each day runs 3 sequential inner repeat blocks (A, B, C), each with 100 parallel iters touching all 4 dapps. Festival's register\u2192checkIn\u2192createSession is split across A\u2192B\u2192C leveraging the sequential ordering for cross-sender deps. W3S buy\u2192checkIn similarly uses block sequence (buy in A, checkIn in B). P2P does a full lock/confirm/confirm cycle in every block from a single DAY_CALLER (mempool nonce-ordered). T3rminal records 3 sales per iter (one per block) + 1 closeDay per day. Across 5 parallel outer days, the chain sees all 4 contracts simultaneously active.",
+      "comment": "Combined workload exercising 4 dapps in parallel: Tick3t, Festival, T3rminal, and P2PMarket. Each day runs 3 sequential inner repeat blocks (A, B, C), each with 100 parallel iters touching all 4 dapps.",
       "inputs": [
         {
           "allocate_account": "$VARIABLE:OWNER",
@@ -100,7 +100,7 @@
           "instance": "TransactionLog",
           "method": "addShopAdmin",
           "caller": "$VARIABLE:OWNER",
-          "comment": "Grant T3rminalDriver shopAdmin so Driver.closeDay can call TransactionLog.finalizeDay (onlyShopAdmin).",
+          "comment": "Grant T3rminalDriver shopAdmin role on TransactionLog (required by the Driver helper to record sales).",
           "calldata": [
             "Driver.address"
           ]
@@ -127,7 +127,7 @@
           "instance": "Festival",
           "method": "setup",
           "caller": "$VARIABLE:OWNER",
-          "comment": "Festival.setup with 30-day window (May 2033), 7-day verification, 5000 capacity. Capacity easily covers N_DAYS*1000 = 2000 POAPs minted in Block B's checkIns.",
+          "comment": "Festival.setup with 30-day window, 7-day verification, 5000 capacity. Capacity easily covers N_DAYS*1000 = 2000 POAPs minted in Block B's checkIns.",
           "calldata": [
             "0xf9c2171700000000000000000000000000000000000000000000000000000000",
             "2000000000",
@@ -137,7 +137,7 @@
           ]
         },
         {
-          "comment": "Per-day setup: 2 iters. Each iter allocates DAY_CALLER_K and grants it 2 roles (W3S VOLUNTEER, Festival VOLUNTEER_ROLE), then DAY_CALLER_K self-registers as a P2P agent and creates a P2P offer listing itself as the only allowed agent. consolidate_state propagates DAY_CALLER_0..N-1 and OFFER_ID_0..N-1 to the case scope so the measured days loop below can reference them via $VARIABLE composition. start_watcher: true \u21d2 K=0 warm-up is the watcher cutoff; K=1..N-1 parallel setup iters + entire measured loop tracked.",
+          "comment": "Per-day setup: 2 iters. Each iter allocates DAY_CALLER_K and grants it 2 roles (W3S VOLUNTEER, Festival VOLUNTEER_ROLE), then DAY_CALLER_K self-registers as a P2P agent and creates a P2P offer listing itself as the only allowed agent. consolidate_state propagates DAY_CALLER_0..N-1 and OFFER_ID_0..N-1 to the case scope so the measured days loop below can reference them via $VARIABLE composition. start_watcher: true ⇒ K=0 warm-up is the watcher cutoff; K=1..N-1 parallel setup iters + entire measured loop tracked.",
           "repeat": 2,
           "capture_index": "$VARIABLE:K",
           "consolidate_state": true,
@@ -221,12 +221,12 @@
           ]
         },
         {
-          "comment": "Days outer: 2 iters. D=0 warm-up runs everything sequentially; D=1..N_DAYS-1 are parallel outer iters. Each outer iter executes Block A \u2192 Block B \u2192 Block C \u2192 closeDay within its day. Across parallel days, at any wall-clock moment different days are typically in different blocks \u21d2 all 4 contracts active simultaneously.",
+          "comment": "Days outer: 2 iters. D=0 warm-up runs everything sequentially; D=1..N_DAYS-1 are parallel outer iters. Each outer iter executes Block A → Block B → Block C within its day. Across parallel days, at any wall-clock moment different days are typically in different blocks ⇒ all 4 contracts active simultaneously.",
           "repeat": 2,
           "capture_index": "$VARIABLE:D",
           "steps": [
             {
-              "comment": "Block A: 1000 parallel iters per day. Every iter touches 4 dapps \u2014 W3S buy, Festival register, T3rminal sell (slot 0), and a full P2P trade cycle (TRADE_A_D_K). consolidate_state propagates per-iter allocs and the captured TRADE_A_D_K to the day's outer scope so subsequent blocks can reference them.",
+              "comment": "Block A: 1000 parallel iters per day. Every iter touches 4 dapps — W3S buy, Festival register, T3rminal sell (slot 0), and a full P2P trade cycle (TRADE_A_D_K). consolidate_state propagates per-iter allocs and the captured TRADE_A_D_K to the day's outer scope so subsequent blocks can reference them.",
               "repeat": 1000,
               "capture_index": "$VARIABLE:K",
               "consolidate_state": true,
@@ -247,7 +247,7 @@
                   "instance": "W3S",
                   "method": "buyTicket",
                   "caller": "$VARIABLE:BUYER_A_$VARIABLE:D_$VARIABLE:K",
-                  "comment": "W3S: BUYER_A mints one ticket (per-iter fresh address \u21d2 one-ticket-per-address rule satisfied). tokenId auto-assigned in global mint order; will be checkIn'd in Block B using D*1000 + K + 1.",
+                  "comment": "W3S: BUYER_A mints one ticket (per-iter fresh address ⇒ one-ticket-per-address rule satisfied). tokenId auto-assigned in global mint order; will be checkIn'd in Block B using D*1000 + K + 1.",
                   "calldata": [
                     "0x20",
                     "4",
@@ -279,7 +279,7 @@
                   "instance": "P2PMarket",
                   "method": "lockTrade",
                   "caller": "$VARIABLE:DAY_CALLER_$VARIABLE:D",
-                  "comment": "P2P lockTrade \u2014 captures tradeId into TRADE_A_D_K. DAY_CALLER is both locker and the offer's agent.",
+                  "comment": "P2P lockTrade — captures tradeId into TRADE_A_D_K. DAY_CALLER is both locker and the offer's agent.",
                   "calldata": [
                     "$VARIABLE:COUNTERPARTY_A_$VARIABLE:D_$VARIABLE:K",
                     "$VARIABLE:OFFER_ID_$VARIABLE:D",
@@ -303,7 +303,7 @@
                   "instance": "P2PMarket",
                   "method": "confirmCashReceived",
                   "caller": "$VARIABLE:DAY_CALLER_$VARIABLE:D",
-                  "comment": "DAY_CALLER (acting as agent) confirms cash received \u21d2 tokens released to counterparty, state \u2192 RELEASED.",
+                  "comment": "DAY_CALLER (acting as agent) confirms cash received ⇒ tokens released to counterparty, state → RELEASED.",
                   "calldata": [
                     "$VARIABLE:TRADE_A_$VARIABLE:D_$VARIABLE:K"
                   ]
@@ -312,7 +312,7 @@
                   "instance": "P2PMarket",
                   "method": "confirmPickup",
                   "caller": "$VARIABLE:DAY_CALLER_$VARIABLE:D",
-                  "comment": "DAY_CALLER (acting as locker) confirms pickup \u21d2 state \u2192 COMPLETED. Same-sender nonce ordering guarantees this runs after confirmCashReceived.",
+                  "comment": "DAY_CALLER (acting as locker) confirms pickup ⇒ state → COMPLETED. Same-sender nonce ordering guarantees this runs after confirmCashReceived.",
                   "calldata": [
                     "$VARIABLE:TRADE_A_$VARIABLE:D_$VARIABLE:K"
                   ]
@@ -320,7 +320,7 @@
               ]
             },
             {
-              "comment": "Block B: 1000 parallel iters per day. By Block B's start, Block A's submissions are at least pool-resident (usually mined). W3S checkIn references tokenId = D*1000 + K + 1 \u2014 valid because Block A across all days collectively mints N_DAYS*1000 tickets in [1..N_DAYS*1000]. Festival.checkIn captures POAP_D_K; Block C uses it.",
+              "comment": "Block B: 1000 parallel iters per day. By Block B's start, Block A's submissions are at least pool-resident (usually mined). W3S checkIn references tokenId = D*1000 + K + 1 — valid because Block A across all days collectively mints N_DAYS*1000 tickets in [1..N_DAYS*1000]. Festival.checkIn captures POAP_D_K; Block C uses it.",
               "repeat": 1000,
               "capture_index": "$VARIABLE:K",
               "consolidate_state": true,
@@ -335,7 +335,7 @@
                   "instance": "W3S",
                   "method": "checkIn",
                   "caller": "$VARIABLE:DAY_CALLER_$VARIABLE:D",
-                  "comment": "W3S: DAY_CALLER (VOLUNTEER) checks in tokenId = D*1000 + K + 1 from Block A's mint range. Cross-sender (BUYER_A minted, DAY_CALLER checks in) \u21d2 relies on block-sequence + retry loop, same as festival's register\u2192checkIn pattern.",
+                  "comment": "W3S: DAY_CALLER (VOLUNTEER) checks in tokenId = D*1000 + K + 1 from Block A's mint range. Cross-sender (BUYER_A minted, DAY_CALLER checks in) ⇒ relies on block-sequence + retry loop, same as festival's register→checkIn pattern.",
                   "calldata": [
                     "$VARIABLE:D 1000 * $VARIABLE:K + 1 +"
                   ]
@@ -344,7 +344,7 @@
                   "instance": "Festival",
                   "method": "checkIn",
                   "caller": "$VARIABLE:DAY_CALLER_$VARIABLE:D",
-                  "comment": "Festival: DAY_CALLER (VOLUNTEER_ROLE) checks in PRE_ATTENDEE \u2192 POAP id captured into POAP_D_K for Block C's createSession.",
+                  "comment": "Festival: DAY_CALLER (VOLUNTEER_ROLE) checks in PRE_ATTENDEE → POAP id captured into POAP_D_K for Block C's createSession.",
                   "calldata": [
                     "$VARIABLE:PRE_ATTENDEE_$VARIABLE:D_$VARIABLE:K"
                   ],
@@ -365,7 +365,7 @@
                   "instance": "Driver",
                   "method": "sell",
                   "caller": "$VARIABLE:DAY_CALLER_$VARIABLE:D",
-                  "comment": "T3rminal: Block B's sale (saleNonce slot 1). Same sender as Block A's sell \u21d2 ordered by nonce.",
+                  "comment": "T3rminal: Block B's sale (saleNonce slot 1). Same sender as Block A's sell ⇒ ordered by nonce.",
                   "calldata": [
                     "$VARIABLE:D",
                     "$VARIABLE:D 3000 * $VARIABLE:K 3 * + 1 +",
@@ -378,7 +378,7 @@
                   "instance": "P2PMarket",
                   "method": "lockTrade",
                   "caller": "$VARIABLE:DAY_CALLER_$VARIABLE:D",
-                  "comment": "P2P lockTrade \u2014 captures tradeId into TRADE_B_D_K. DAY_CALLER is both locker and the offer's agent.",
+                  "comment": "P2P lockTrade — captures tradeId into TRADE_B_D_K. DAY_CALLER is both locker and the offer's agent.",
                   "calldata": [
                     "$VARIABLE:COUNTERPARTY_B_$VARIABLE:D_$VARIABLE:K",
                     "$VARIABLE:OFFER_ID_$VARIABLE:D",
@@ -402,7 +402,7 @@
                   "instance": "P2PMarket",
                   "method": "confirmCashReceived",
                   "caller": "$VARIABLE:DAY_CALLER_$VARIABLE:D",
-                  "comment": "DAY_CALLER (acting as agent) confirms cash received \u21d2 tokens released to counterparty, state \u2192 RELEASED.",
+                  "comment": "DAY_CALLER (acting as agent) confirms cash received ⇒ tokens released to counterparty, state → RELEASED.",
                   "calldata": [
                     "$VARIABLE:TRADE_B_$VARIABLE:D_$VARIABLE:K"
                   ]
@@ -411,7 +411,7 @@
                   "instance": "P2PMarket",
                   "method": "confirmPickup",
                   "caller": "$VARIABLE:DAY_CALLER_$VARIABLE:D",
-                  "comment": "DAY_CALLER (acting as locker) confirms pickup \u21d2 state \u2192 COMPLETED. Same-sender nonce ordering guarantees this runs after confirmCashReceived.",
+                  "comment": "DAY_CALLER (acting as locker) confirms pickup ⇒ state → COMPLETED. Same-sender nonce ordering guarantees this runs after confirmCashReceived.",
                   "calldata": [
                     "$VARIABLE:TRADE_B_$VARIABLE:D_$VARIABLE:K"
                   ]
@@ -437,7 +437,7 @@
                   "instance": "W3S",
                   "method": "buyTicket",
                   "caller": "$VARIABLE:BUYER_C_$VARIABLE:D_$VARIABLE:K",
-                  "comment": "W3S: another mint by BUYER_C (not checked-in \u2014 keeps W3S in the mix for Block C without disrupting the tokenId range Block B references).",
+                  "comment": "W3S: another mint by BUYER_C (not checked-in — keeps W3S in the mix for Block C without disrupting the tokenId range Block B references).",
                   "calldata": [
                     "0x20",
                     "4",
@@ -475,7 +475,7 @@
                   "instance": "P2PMarket",
                   "method": "lockTrade",
                   "caller": "$VARIABLE:DAY_CALLER_$VARIABLE:D",
-                  "comment": "P2P lockTrade \u2014 captures tradeId into TRADE_C_D_K. DAY_CALLER is both locker and the offer's agent.",
+                  "comment": "P2P lockTrade — captures tradeId into TRADE_C_D_K. DAY_CALLER is both locker and the offer's agent.",
                   "calldata": [
                     "$VARIABLE:COUNTERPARTY_C_$VARIABLE:D_$VARIABLE:K",
                     "$VARIABLE:OFFER_ID_$VARIABLE:D",
@@ -499,7 +499,7 @@
                   "instance": "P2PMarket",
                   "method": "confirmCashReceived",
                   "caller": "$VARIABLE:DAY_CALLER_$VARIABLE:D",
-                  "comment": "DAY_CALLER (acting as agent) confirms cash received \u21d2 tokens released to counterparty, state \u2192 RELEASED.",
+                  "comment": "DAY_CALLER (acting as agent) confirms cash received ⇒ tokens released to counterparty, state → RELEASED.",
                   "calldata": [
                     "$VARIABLE:TRADE_C_$VARIABLE:D_$VARIABLE:K"
                   ]
@@ -508,21 +508,11 @@
                   "instance": "P2PMarket",
                   "method": "confirmPickup",
                   "caller": "$VARIABLE:DAY_CALLER_$VARIABLE:D",
-                  "comment": "DAY_CALLER (acting as locker) confirms pickup \u21d2 state \u2192 COMPLETED. Same-sender nonce ordering guarantees this runs after confirmCashReceived.",
+                  "comment": "DAY_CALLER (acting as locker) confirms pickup ⇒ state → COMPLETED. Same-sender nonce ordering guarantees this runs after confirmCashReceived.",
                   "calldata": [
                     "$VARIABLE:TRADE_C_$VARIABLE:D_$VARIABLE:K"
                   ]
                 }
-              ]
-            },
-            {
-              "instance": "Driver",
-              "method": "closeDay",
-              "caller": "$VARIABLE:DAY_CALLER_$VARIABLE:D",
-              "comment": "End of day: DAY_CALLER closes day D with entryCount = 3*1000 = 3000 (3 sells per iter \u00d7 1000 iters). Same sender as all of the day's sells, so mempool nonce ordering guarantees the dailyBuffer.length check matches.",
-              "calldata": [
-                "$VARIABLE:D",
-                "3000"
               ]
             }
           ]

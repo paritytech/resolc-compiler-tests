@@ -1,0 +1,534 @@
+{
+  "$schema": "../../../../schema.json",
+  "modes": [
+    "Y Mz S+",
+    "Y Ms S+"
+  ],
+  "cases": [
+    {
+      "name": "W3S",
+      "comment": "Combined workload exercising 4 dapps in parallel: Tick3t, Festival, T3rminal, and P2PMarket. Each day runs 3 sequential inner repeat blocks (A, B, C), each with 100 parallel iters touching all 4 dapps.",
+      "inputs": [
+        {
+          "allocate_account": "$VARIABLE:OWNER",
+          "comment": "Allocate OWNER. Constructor admin on every contract."
+        },
+        {
+          "instance": "W3S",
+          "method": "#deployer",
+          "caller": "$VARIABLE:OWNER",
+          "comment": "Deploy W3S. ticketPrice = 1 wei, encryption pub key static.",
+          "calldata": [
+            "1",
+            "0x000000000000000000000000000000000000000000000000000000000000abcd"
+          ]
+        },
+        {
+          "instance": "BulletinIndex",
+          "method": "#deployer",
+          "caller": "$VARIABLE:OWNER",
+          "comment": "Deploy T3rminalBulletinIndex (per-shop daily CIDs).",
+          "calldata": []
+        },
+        {
+          "instance": "TransactionLog",
+          "method": "#deployer",
+          "caller": "$VARIABLE:OWNER",
+          "comment": "Deploy T3rminalTransactionLog wired to BulletinIndex. OWNER becomes first shopAdmin in the constructor.",
+          "calldata": [
+            "BulletinIndex.address"
+          ]
+        },
+        {
+          "instance": "Driver",
+          "method": "#deployer",
+          "caller": "$VARIABLE:OWNER",
+          "comment": "Deploy T3rminalDriver helper.",
+          "calldata": [
+            "TransactionLog.address",
+            "BulletinIndex.address"
+          ]
+        },
+        {
+          "instance": "P2PMarket",
+          "method": "#deployer",
+          "caller": "$VARIABLE:OWNER",
+          "comment": "Deploy P2PMarket. Constructor seeds USD/EUR token-price tables.",
+          "calldata": []
+        },
+        {
+          "instance": "FestivalPoap",
+          "method": "#deployer",
+          "caller": "$VARIABLE:OWNER",
+          "comment": "Deploy festival-level AttendancePOAP. OWNER is initial owner.",
+          "calldata": [
+            "$VARIABLE:OWNER"
+          ]
+        },
+        {
+          "instance": "SessionPoap",
+          "method": "#deployer",
+          "caller": "$VARIABLE:OWNER",
+          "comment": "Deploy session-level AttendancePOAP. Factory rights transferred to Festival below.",
+          "calldata": [
+            "$VARIABLE:OWNER"
+          ]
+        },
+        {
+          "instance": "Festival",
+          "method": "#deployer",
+          "caller": "$VARIABLE:OWNER",
+          "comment": "Deploy Festival with sessionsEnabled=1. OWNER holds DEFAULT_ADMIN_ROLE / MANAGER_ROLE / VOLUNTEER_ROLE from the constructor.",
+          "calldata": [
+            "$VARIABLE:OWNER",
+            "FestivalPoap.address",
+            "SessionPoap.address",
+            "1"
+          ]
+        },
+        {
+          "instance": "W3S",
+          "method": "grantRole",
+          "caller": "$VARIABLE:OWNER",
+          "comment": "OWNER grants W3F to itself so it can grant VOLUNTEER role to per-day callers below.",
+          "calldata": [
+            "0x488777ed1029a48be1a653368ad8b08022eca349f2eeb999c08a2a039a6d0c57",
+            "$VARIABLE:OWNER"
+          ]
+        },
+        {
+          "instance": "TransactionLog",
+          "method": "addShopAdmin",
+          "caller": "$VARIABLE:OWNER",
+          "comment": "Grant T3rminalDriver shopAdmin role on TransactionLog (required by the Driver helper to record sales).",
+          "calldata": [
+            "Driver.address"
+          ]
+        },
+        {
+          "instance": "FestivalPoap",
+          "method": "authorizeMinter",
+          "caller": "$VARIABLE:OWNER",
+          "comment": "Authorize Festival to mint POAPs. Must precede Festival.setup which calls setVerificationDeadline (onlyAuthorizedMinter).",
+          "calldata": [
+            "Festival.address"
+          ]
+        },
+        {
+          "instance": "SessionPoap",
+          "method": "transferFactory",
+          "caller": "$VARIABLE:OWNER",
+          "comment": "Transfer SessionPoap factory rights to Festival so each createSession can authorize the new FestivalSession as a session-POAP minter.",
+          "calldata": [
+            "Festival.address"
+          ]
+        },
+        {
+          "instance": "Festival",
+          "method": "setup",
+          "caller": "$VARIABLE:OWNER",
+          "comment": "Festival.setup with 30-day window, 7-day verification, 5000 capacity. Capacity easily covers N_DAYS*1000 = 2000 POAPs minted in Block B's checkIns.",
+          "calldata": [
+            "0xf9c2171700000000000000000000000000000000000000000000000000000000",
+            "2000000000",
+            "2002592000",
+            "604800",
+            "5000"
+          ]
+        },
+        {
+          "comment": "Per-day setup: 2 iters. Each iter allocates DAY_CALLER_K and grants it 2 roles (W3S VOLUNTEER, Festival VOLUNTEER_ROLE), then DAY_CALLER_K self-registers as a P2P agent and creates a P2P offer listing itself as the only allowed agent. consolidate_state propagates DAY_CALLER_0..N-1 and OFFER_ID_0..N-1 to the case scope so the measured days loop below can reference them via $VARIABLE composition. start_watcher: true ⇒ K=0 warm-up is the watcher cutoff; K=1..N-1 parallel setup iters + entire measured loop tracked.",
+          "repeat": 2,
+          "capture_index": "$VARIABLE:K",
+          "consolidate_state": true,
+          "start_watcher": true,
+          "steps": [
+            {
+              "allocate_account": "$VARIABLE:DAY_CALLER_$VARIABLE:K"
+            },
+            {
+              "instance": "W3S",
+              "method": "grantRole",
+              "caller": "$VARIABLE:OWNER",
+              "comment": "Grant W3S VOLUNTEER role so DAY_CALLER can call W3S.checkIn in Block B.",
+              "calldata": [
+                "0x5a22d7548cd852c1b683d22507a2d14bc541da2a210a50aeb9e980957642e696",
+                "$VARIABLE:DAY_CALLER_$VARIABLE:K"
+              ]
+            },
+            {
+              "instance": "Festival",
+              "method": "grantRole",
+              "caller": "$VARIABLE:OWNER",
+              "comment": "Grant Festival VOLUNTEER_ROLE so DAY_CALLER can call Festival.checkIn in Block B.",
+              "calldata": [
+                "0xf7f0fdec05d2d68a3ca32c78a26a4236722632f1d98fdee081484acf844fc7dc",
+                "$VARIABLE:DAY_CALLER_$VARIABLE:K"
+              ]
+            },
+            {
+              "instance": "P2PMarket",
+              "method": "registerAgent",
+              "caller": "$VARIABLE:DAY_CALLER_$VARIABLE:K",
+              "comment": "DAY_CALLER self-registers as a handoff agent.",
+              "calldata": [
+                "0xa0",
+                "0xe0",
+                "10",
+                "24",
+                "5",
+                "6",
+                "0x4167656e74580000000000000000000000000000000000000000000000000000",
+                "53",
+                "0x697066733a2f2f62616679726569643634626437326a7a686d6e656a6b376d34",
+                "0x74673264636b6d736f796d6a78717966377465776a0000000000000000000000"
+              ]
+            },
+            {
+              "instance": "P2PMarket",
+              "method": "createOffer",
+              "caller": "$VARIABLE:DAY_CALLER_$VARIABLE:K",
+              "comment": "DAY_CALLER creates SELL offer listing itself as the only allowed agent. offerId captured into OFFER_ID_K for the measured trade loop.",
+              "calldata": [
+                "0",
+                "10000000000000000000",
+                "1",
+                "10",
+                "0xe0",
+                "0x120",
+                "0x180",
+                "3",
+                "0x5553440000000000000000000000000000000000000000000000000000000000",
+                "52",
+                "0x697066733a2f2f626166796f6666657278787878787878787878787878787878",
+                "0x7878787878787878787878787878787878787878000000000000000000000000",
+                "1",
+                "$VARIABLE:DAY_CALLER_$VARIABLE:K"
+              ],
+              "variable_assignments": {
+                "source": "event_topics",
+                "names": [
+                  "OFFER_ID_$VARIABLE:K"
+                ],
+                "topics": [
+                  {
+                    "log_index": 0,
+                    "topic_index": 1
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "comment": "Days outer: 2 iters. D=0 warm-up runs everything sequentially; D=1..N_DAYS-1 are parallel outer iters. Each outer iter executes Block A → Block B → Block C within its day. Across parallel days, at any wall-clock moment different days are typically in different blocks ⇒ all 4 contracts active simultaneously.",
+          "repeat": 2,
+          "capture_index": "$VARIABLE:D",
+          "steps": [
+            {
+              "comment": "Block A: 1000 parallel iters per day. Every iter touches 4 dapps — W3S buy, Festival register, T3rminal sell (slot 0), and a full P2P trade cycle (TRADE_A_D_K). consolidate_state propagates per-iter allocs and the captured TRADE_A_D_K to the day's outer scope so subsequent blocks can reference them.",
+              "repeat": 1000,
+              "capture_index": "$VARIABLE:K",
+              "consolidate_state": true,
+              "steps": [
+                {
+                  "allocate_account": "$VARIABLE:BUYER_A_$VARIABLE:D_$VARIABLE:K"
+                },
+                {
+                  "allocate_account": "$VARIABLE:PRE_ATTENDEE_$VARIABLE:D_$VARIABLE:K"
+                },
+                {
+                  "allocate_account": "$VARIABLE:CUSTOMER_A_$VARIABLE:D_$VARIABLE:K"
+                },
+                {
+                  "allocate_account": "$VARIABLE:COUNTERPARTY_A_$VARIABLE:D_$VARIABLE:K"
+                },
+                {
+                  "instance": "W3S",
+                  "method": "buyTicket",
+                  "caller": "$VARIABLE:BUYER_A_$VARIABLE:D_$VARIABLE:K",
+                  "comment": "W3S: BUYER_A mints one ticket (per-iter fresh address ⇒ one-ticket-per-address rule satisfied). tokenId auto-assigned in global mint order; will be checkIn'd in Block B using D*1000 + K + 1.",
+                  "calldata": [
+                    "0x20",
+                    "4",
+                    "0xaabbccdd00000000000000000000000000000000000000000000000000000000"
+                  ],
+                  "value": "1 wei"
+                },
+                {
+                  "instance": "Festival",
+                  "method": "register",
+                  "caller": "$VARIABLE:PRE_ATTENDEE_$VARIABLE:D_$VARIABLE:K",
+                  "comment": "Festival: PRE_ATTENDEE self-registers. Block B's checkIn requires this attendee to be registered.",
+                  "calldata": []
+                },
+                {
+                  "instance": "Driver",
+                  "method": "sell",
+                  "caller": "$VARIABLE:DAY_CALLER_$VARIABLE:D",
+                  "comment": "T3rminal: DAY_CALLER records a sale via the Driver helper. saleNonce = D*3000 + K*3 + 0 (Block A slot; N_OPS=1000).",
+                  "calldata": [
+                    "$VARIABLE:D",
+                    "$VARIABLE:D 3000 * $VARIABLE:K 3 * + 0 +",
+                    "$VARIABLE:CUSTOMER_A_$VARIABLE:D_$VARIABLE:K",
+                    "$VARIABLE:K 1000 +",
+                    "$VARIABLE:D 1000000 * $VARIABLE:K + 0 +"
+                  ]
+                },
+                {
+                  "instance": "P2PMarket",
+                  "method": "lockTrade",
+                  "caller": "$VARIABLE:DAY_CALLER_$VARIABLE:D",
+                  "comment": "P2P lockTrade — captures tradeId into TRADE_A_D_K. DAY_CALLER is both locker and the offer's agent.",
+                  "calldata": [
+                    "$VARIABLE:COUNTERPARTY_A_$VARIABLE:D_$VARIABLE:K",
+                    "$VARIABLE:OFFER_ID_$VARIABLE:D",
+                    "$VARIABLE:DAY_CALLER_$VARIABLE:D"
+                  ],
+                  "value": "1 wei",
+                  "variable_assignments": {
+                    "source": "event_topics",
+                    "names": [
+                      "TRADE_A_$VARIABLE:D_$VARIABLE:K"
+                    ],
+                    "topics": [
+                      {
+                        "log_index": 0,
+                        "topic_index": 1
+                      }
+                    ]
+                  }
+                },
+                {
+                  "instance": "P2PMarket",
+                  "method": "confirmCashReceived",
+                  "caller": "$VARIABLE:DAY_CALLER_$VARIABLE:D",
+                  "comment": "DAY_CALLER (acting as agent) confirms cash received ⇒ tokens released to counterparty, state → RELEASED.",
+                  "calldata": [
+                    "$VARIABLE:TRADE_A_$VARIABLE:D_$VARIABLE:K"
+                  ]
+                },
+                {
+                  "instance": "P2PMarket",
+                  "method": "confirmPickup",
+                  "caller": "$VARIABLE:DAY_CALLER_$VARIABLE:D",
+                  "comment": "DAY_CALLER (acting as locker) confirms pickup ⇒ state → COMPLETED. Same-sender nonce ordering guarantees this runs after confirmCashReceived.",
+                  "calldata": [
+                    "$VARIABLE:TRADE_A_$VARIABLE:D_$VARIABLE:K"
+                  ]
+                }
+              ]
+            },
+            {
+              "comment": "Block B: 1000 parallel iters per day. By Block B's start, Block A's submissions are at least pool-resident (usually mined). W3S checkIn references tokenId = D*1000 + K + 1 — valid because Block A across all days collectively mints N_DAYS*1000 tickets in [1..N_DAYS*1000]. Festival.checkIn captures POAP_D_K; Block C uses it.",
+              "repeat": 1000,
+              "capture_index": "$VARIABLE:K",
+              "consolidate_state": true,
+              "steps": [
+                {
+                  "allocate_account": "$VARIABLE:CUSTOMER_B_$VARIABLE:D_$VARIABLE:K"
+                },
+                {
+                  "allocate_account": "$VARIABLE:COUNTERPARTY_B_$VARIABLE:D_$VARIABLE:K"
+                },
+                {
+                  "instance": "W3S",
+                  "method": "checkIn",
+                  "caller": "$VARIABLE:DAY_CALLER_$VARIABLE:D",
+                  "comment": "W3S: DAY_CALLER (VOLUNTEER) checks in tokenId = D*1000 + K + 1 from Block A's mint range. Cross-sender (BUYER_A minted, DAY_CALLER checks in) ⇒ relies on block-sequence + retry loop, same as festival's register→checkIn pattern.",
+                  "calldata": [
+                    "$VARIABLE:D 1000 * $VARIABLE:K + 1 +"
+                  ]
+                },
+                {
+                  "instance": "Festival",
+                  "method": "checkIn",
+                  "caller": "$VARIABLE:DAY_CALLER_$VARIABLE:D",
+                  "comment": "Festival: DAY_CALLER (VOLUNTEER_ROLE) checks in PRE_ATTENDEE → POAP id captured into POAP_D_K for Block C's createSession.",
+                  "calldata": [
+                    "$VARIABLE:PRE_ATTENDEE_$VARIABLE:D_$VARIABLE:K"
+                  ],
+                  "variable_assignments": {
+                    "source": "event_topics",
+                    "names": [
+                      "POAP_$VARIABLE:D_$VARIABLE:K"
+                    ],
+                    "topics": [
+                      {
+                        "log_index": 1,
+                        "topic_index": 1
+                      }
+                    ]
+                  }
+                },
+                {
+                  "instance": "Driver",
+                  "method": "sell",
+                  "caller": "$VARIABLE:DAY_CALLER_$VARIABLE:D",
+                  "comment": "T3rminal: Block B's sale (saleNonce slot 1). Same sender as Block A's sell ⇒ ordered by nonce.",
+                  "calldata": [
+                    "$VARIABLE:D",
+                    "$VARIABLE:D 3000 * $VARIABLE:K 3 * + 1 +",
+                    "$VARIABLE:CUSTOMER_B_$VARIABLE:D_$VARIABLE:K",
+                    "$VARIABLE:K 1000 +",
+                    "$VARIABLE:D 1000000 * $VARIABLE:K + 1000 +"
+                  ]
+                },
+                {
+                  "instance": "P2PMarket",
+                  "method": "lockTrade",
+                  "caller": "$VARIABLE:DAY_CALLER_$VARIABLE:D",
+                  "comment": "P2P lockTrade — captures tradeId into TRADE_B_D_K. DAY_CALLER is both locker and the offer's agent.",
+                  "calldata": [
+                    "$VARIABLE:COUNTERPARTY_B_$VARIABLE:D_$VARIABLE:K",
+                    "$VARIABLE:OFFER_ID_$VARIABLE:D",
+                    "$VARIABLE:DAY_CALLER_$VARIABLE:D"
+                  ],
+                  "value": "1 wei",
+                  "variable_assignments": {
+                    "source": "event_topics",
+                    "names": [
+                      "TRADE_B_$VARIABLE:D_$VARIABLE:K"
+                    ],
+                    "topics": [
+                      {
+                        "log_index": 0,
+                        "topic_index": 1
+                      }
+                    ]
+                  }
+                },
+                {
+                  "instance": "P2PMarket",
+                  "method": "confirmCashReceived",
+                  "caller": "$VARIABLE:DAY_CALLER_$VARIABLE:D",
+                  "comment": "DAY_CALLER (acting as agent) confirms cash received ⇒ tokens released to counterparty, state → RELEASED.",
+                  "calldata": [
+                    "$VARIABLE:TRADE_B_$VARIABLE:D_$VARIABLE:K"
+                  ]
+                },
+                {
+                  "instance": "P2PMarket",
+                  "method": "confirmPickup",
+                  "caller": "$VARIABLE:DAY_CALLER_$VARIABLE:D",
+                  "comment": "DAY_CALLER (acting as locker) confirms pickup ⇒ state → COMPLETED. Same-sender nonce ordering guarantees this runs after confirmCashReceived.",
+                  "calldata": [
+                    "$VARIABLE:TRADE_B_$VARIABLE:D_$VARIABLE:K"
+                  ]
+                }
+              ]
+            },
+            {
+              "comment": "Block C: 1000 parallel iters per day. Final phase of the Festival pipeline (createSession uses Block B's POAP_D_K). Also mints one more W3S ticket per iter to keep all 4 dapps active in this block too. T3rminal sell slot 2 + P2P TRADE_C_D_K.",
+              "repeat": 1000,
+              "capture_index": "$VARIABLE:K",
+              "consolidate_state": true,
+              "steps": [
+                {
+                  "allocate_account": "$VARIABLE:BUYER_C_$VARIABLE:D_$VARIABLE:K"
+                },
+                {
+                  "allocate_account": "$VARIABLE:CUSTOMER_C_$VARIABLE:D_$VARIABLE:K"
+                },
+                {
+                  "allocate_account": "$VARIABLE:COUNTERPARTY_C_$VARIABLE:D_$VARIABLE:K"
+                },
+                {
+                  "instance": "W3S",
+                  "method": "buyTicket",
+                  "caller": "$VARIABLE:BUYER_C_$VARIABLE:D_$VARIABLE:K",
+                  "comment": "W3S: another mint by BUYER_C (not checked-in — keeps W3S in the mix for Block C without disrupting the tokenId range Block B references).",
+                  "calldata": [
+                    "0x20",
+                    "4",
+                    "0xaabbccdd00000000000000000000000000000000000000000000000000000000"
+                  ],
+                  "value": "1 wei"
+                },
+                {
+                  "instance": "Festival",
+                  "method": "createSession",
+                  "caller": "$VARIABLE:PRE_ATTENDEE_$VARIABLE:D_$VARIABLE:K",
+                  "comment": "Festival: PRE_ATTENDEE creates a session using their POAP from Block B. startTime varies per outer day to stay within the 30-day festival window.",
+                  "calldata": [
+                    "0x5e55101100000000000000000000000000000000000000000000000000000000",
+                    "$VARIABLE:D 86400 * 2000000000 +",
+                    "$VARIABLE:D 86400 * 2000000000 + 7200 +",
+                    "0",
+                    "$VARIABLE:POAP_$VARIABLE:D_$VARIABLE:K"
+                  ]
+                },
+                {
+                  "instance": "Driver",
+                  "method": "sell",
+                  "caller": "$VARIABLE:DAY_CALLER_$VARIABLE:D",
+                  "comment": "T3rminal: Block C's sale (saleNonce slot 2).",
+                  "calldata": [
+                    "$VARIABLE:D",
+                    "$VARIABLE:D 3000 * $VARIABLE:K 3 * + 2 +",
+                    "$VARIABLE:CUSTOMER_C_$VARIABLE:D_$VARIABLE:K",
+                    "$VARIABLE:K 1000 +",
+                    "$VARIABLE:D 1000000 * $VARIABLE:K + 2000 +"
+                  ]
+                },
+                {
+                  "instance": "P2PMarket",
+                  "method": "lockTrade",
+                  "caller": "$VARIABLE:DAY_CALLER_$VARIABLE:D",
+                  "comment": "P2P lockTrade — captures tradeId into TRADE_C_D_K. DAY_CALLER is both locker and the offer's agent.",
+                  "calldata": [
+                    "$VARIABLE:COUNTERPARTY_C_$VARIABLE:D_$VARIABLE:K",
+                    "$VARIABLE:OFFER_ID_$VARIABLE:D",
+                    "$VARIABLE:DAY_CALLER_$VARIABLE:D"
+                  ],
+                  "value": "1 wei",
+                  "variable_assignments": {
+                    "source": "event_topics",
+                    "names": [
+                      "TRADE_C_$VARIABLE:D_$VARIABLE:K"
+                    ],
+                    "topics": [
+                      {
+                        "log_index": 0,
+                        "topic_index": 1
+                      }
+                    ]
+                  }
+                },
+                {
+                  "instance": "P2PMarket",
+                  "method": "confirmCashReceived",
+                  "caller": "$VARIABLE:DAY_CALLER_$VARIABLE:D",
+                  "comment": "DAY_CALLER (acting as agent) confirms cash received ⇒ tokens released to counterparty, state → RELEASED.",
+                  "calldata": [
+                    "$VARIABLE:TRADE_C_$VARIABLE:D_$VARIABLE:K"
+                  ]
+                },
+                {
+                  "instance": "P2PMarket",
+                  "method": "confirmPickup",
+                  "caller": "$VARIABLE:DAY_CALLER_$VARIABLE:D",
+                  "comment": "DAY_CALLER (acting as locker) confirms pickup ⇒ state → COMPLETED. Same-sender nonce ordering guarantees this runs after confirmCashReceived.",
+                  "calldata": [
+                    "$VARIABLE:TRADE_C_$VARIABLE:D_$VARIABLE:K"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "W3S": "W3S.sol:W3S",
+    "BulletinIndex": "T3rminal.sol:T3rminalBulletinIndex",
+    "TransactionLog": "T3rminal.sol:T3rminalTransactionLog",
+    "Driver": "T3rminal.sol:T3rminalDriver",
+    "P2PMarket": "P2PMarket.sol:P2PMarket",
+    "FestivalPoap": "AttendancePOAP.sol:AttendancePOAP",
+    "SessionPoap": "AttendancePOAP.sol:AttendancePOAP",
+    "Festival": "Festival.sol:Festival",
+    "FestivalSession": "Festival.sol:FestivalSession"
+  }
+}

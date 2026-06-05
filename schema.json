@@ -60,7 +60,7 @@
       }
     },
     "modes": {
-      "description": "This represents a mode that has been parsed from test metadata.\n\nMode strings can take the following form (in pseudo-regex):\n\n```text\n[YEILV][+-]? (M[0123sz])? <semver>?\n```",
+      "description": "This represents a mode that has been parsed from test metadata.\n\nMode strings can take the following form (in pseudo-regex):\n\n```text\n[YEILV][+-]? (M[0123sz])? (S[+-])? <semver>?\n```",
       "type": [
         "array",
         "null"
@@ -145,7 +145,7 @@
           ]
         },
         "modes": {
-          "description": "This represents a mode that has been parsed from test metadata.\n\nMode strings can take the following form (in pseudo-regex):\n\n```text\n[YEILV][+-]? (M[0123sz])? <semver>?\n```\n\nIf this is provided then it takes higher priority than the modes specified in the metadata\nfile.",
+          "description": "This represents a mode that has been parsed from test metadata.\n\nMode strings can take the following form (in pseudo-regex):\n\n```text\n[YEILV][+-]? (M[0123sz])? (S[+-])? <semver>?\n```\n\nIf this is provided then it takes higher priority than the modes specified in the metadata\nfile.",
           "type": [
             "array",
             "null"
@@ -192,7 +192,7 @@
       ]
     },
     "ParsedMode": {
-      "description": "This represents a mode that has been parsed from test metadata.\n\nMode strings can take the following form (in pseudo-regex):\n\n```text\n[YEILV][+-]? (M[0123sz])? (S[+-])? <semver>?\n```\n\n- `[YEILV]`: Pipeline — `Y` (via Yul IR) or `E` (via EVM Assembly), ILV (legacy aliases)\n- `[+-]`: Optimization shorthand — `+` (optimized: M3, solc optimizer enabled) or `-` (unoptimized: M0, solc optimizer disabled)\n- `M[0123sz]`: Resolc/LLVM optimization level — `M0`..`M3`, `Ms`, `Mz`\n- `S[+-]`: Solc optimizer — `S+` (enabled) or `S-` (disabled)\n- `<semver>`: Version requirement\n\nPriority:\n- Explicit `M`/`S` settings override the `+`/`-` shorthand.\n- If omitted, expands to all combinations we'd like to test. E.g.:\n  - `Y M3` → `Y M3 S+` and `Y M3 S-`\n  - `Y S+` → `Y M0 S+`, `Y M3 S+`, and `Y Mz S+`\n\nExamples: `Y+`, `Y M3`, `Y Mz S- >=0.8.0`\n\nWe can parse valid mode strings into [`ParsedMode`] using [`ParsedMode::from_str`].",
+      "description": "A mode parsed from test metadata, before expansion into concrete [`Mode`]s.\n\nMode strings can take the following form (in pseudo-regex):\n\n```text\n[YEILV][+-]? (M[0123sz])? (S[+-])? <semver>?\n```\n\n## Components\n\n- `[YEILV]`: Pipeline — `Y` (via Yul IR) or `E` (via EVM Assembly). `I`, `L`, `V` are\n  legacy aliases.\n- `[+-]`: Solc optimizer shorthand — `+` (solc optimizer enabled) or `-` (solc optimizer\n  disabled). Expands across **all** LLVM optimizer levels (M0 through Mz).\n- `M[0123sz]`: LLVM optimizer level — `M0` (none), `M1` (light), `M2` (default),\n  `M3` (aggressive performance), `Ms` (size), `Mz` (aggressive size).\n- `S[+-]`: Solc optimizer — `S+` (enabled) or `S-` (disabled).\n- `<semver>`: Solc version requirement.\n\n## Expansion rules\n\nAny omitted component expands to all of its possible values. Explicit `M`/`S` settings\nalways override the `+`/`-` shorthand.\n\n| Shorthand | Expands to |\n|-----------|------------|\n| `Y+`      | `Y M0 S+`, `Y M1 S+`, `Y M2 S+`, `Y M3 S+`, `Y Ms S+`, `Y Mz S+` |\n| `Y-`      | `Y M0 S-`, `Y M1 S-`, `Y M2 S-`, `Y M3 S-`, `Y Ms S-`, `Y Mz S-` |\n| `Y`       | `Y+` ∪ `Y-` = all 12 Y modes |\n| `E+`      | `E M0 S+`, `E M1 S+`, `E M2 S+`, `E M3 S+`, `E Ms S+`, `E Mz S+` |\n| `E-`      | `E M0 S-`, `E M1 S-`, `E M2 S-`, `E M3 S-`, `E Ms S-`, `E Mz S-` |\n| `E`       | `E+` ∪ `E-` = all 12 E modes |\n| `Y M3`    | `Y M3 S+`, `Y M3 S-` |\n| `Y S+`    | `Y M0 S+`, `Y M1 S+`, `Y M2 S+`, `Y M3 S+`, `Y Ms S+`, `Y Mz S+` |\n| `Y M3 S+` | `Y M3 S+` (fully specified) |\n\nSee [`ParsedMode::to_modes()`] for the full expansion logic.\n\n## Examples\n\n`Y+`, `Y M3`, `Y Mz S- >=0.8.0`\n\nUse [`ParsedMode::from_str`] to parse a mode string.",
       "type": "string"
     },
     "Step": {
@@ -456,18 +456,77 @@
       "type": "string"
     },
     "VariableAssignments": {
+      "description": "Captures variables from a transaction's effects. The `source` tag selects which mechanism\nis used to read the captured 32-byte values; in every variant `names` is the list of\nvariable names to assign, paired by index with the values produced by the chosen source.",
+      "oneOf": [
+        {
+          "description": "Source: the top-level call's return bytes, obtained via `debug_traceTransaction`.\nReturn bytes are chunked into 32-byte words and paired by index with `names`.\n\nExample: `UniswapV3PoolAddress` captured from `createPool`'s return value.",
+          "type": "object",
+          "properties": {
+            "names": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "source": {
+              "type": "string",
+              "const": "return_data"
+            }
+          },
+          "required": [
+            "source",
+            "names"
+          ]
+        },
+        {
+          "description": "Source: event log topics in the transaction receipt. Each entry in `topics` is paired\nby index with the variable name at the same position in `names`, identifying which\nlog and which topic of that log to read.\n\nPrefer this over `return_data` whenever the contract emits the value as an indexed\nevent parameter — receipt logs are stable once the receipt is observed, whereas\n`debug_traceTransaction` can be unreliable under load (eth-rpc's indexer transiently\nprunes tx-hash mappings on best-block forks).",
+          "type": "object",
+          "properties": {
+            "names": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "topics": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/EventTopic"
+              }
+            },
+            "source": {
+              "type": "string",
+              "const": "event_topics"
+            }
+          },
+          "required": [
+            "source",
+            "names",
+            "topics"
+          ]
+        }
+      ]
+    },
+    "EventTopic": {
+      "description": "Identifies a value to capture from a transaction receipt's event logs.",
       "type": "object",
       "properties": {
-        "return_data": {
-          "description": "A vector of the variable names to assign to the return data.\n\nExample: `UniswapV3PoolAddress`",
-          "type": "array",
-          "items": {
-            "type": "string"
-          }
+        "log_index": {
+          "description": "Index of the log within the receipt (0 = first log emitted).",
+          "type": "integer",
+          "format": "uint",
+          "minimum": 0
+        },
+        "topic_index": {
+          "description": "Index of the topic within that log. `topics[0]` is the event signature hash;\n`topics[1..]` are the indexed parameters in declaration order.",
+          "type": "integer",
+          "format": "uint",
+          "minimum": 0
         }
       },
       "required": [
-        "return_data"
+        "log_index",
+        "topic_index"
       ]
     },
     "GasOverrides": {

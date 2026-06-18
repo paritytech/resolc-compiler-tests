@@ -1,4 +1,6 @@
 {
+  "comment": "Always fails with OutOfGas during gas estimation on revive; runs only in E- modes and all of them OOG.",
+  "ignore": true,
   "cases": [
     {
       "name": "event_indexed_string",

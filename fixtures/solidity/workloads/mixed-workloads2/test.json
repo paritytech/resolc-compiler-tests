@@ -46,7 +46,7 @@
                 {
                   "comment": "Mint tokens on ERC20",
                   "instance": "$INSTANCE:$VARIABLE:I",
-                  "method": "mint",
+                  "method": "mint(address,uint256)",
                   "caller": "$VARIABLE:MINTER",
                   "calldata": [
                     "$VARIABLE:MINTER",
@@ -98,7 +98,7 @@
                 {
                   "comment": "Mint tokens on ERC20",
                   "instance": "$INSTANCE:$VARIABLE:I",
-                  "method": "mint",
+                  "method": "mint(address,uint256)",
                   "caller": "$VARIABLE:MINTER",
                   "calldata": [
                     "$VARIABLE:MINTER",
@@ -150,7 +150,7 @@
                 {
                   "comment": "Mint tokens on ERC20",
                   "instance": "$INSTANCE:$VARIABLE:I",
-                  "method": "mint",
+                  "method": "mint(address,uint256)",
                   "caller": "$VARIABLE:MINTER",
                   "calldata": [
                     "$VARIABLE:MINTER",
@@ -202,7 +202,7 @@
                 {
                   "comment": "Mint tokens on ERC20",
                   "instance": "$INSTANCE:$VARIABLE:I",
-                  "method": "mint",
+                  "method": "mint(address,uint256)",
                   "caller": "$VARIABLE:MINTER",
                   "calldata": [
                     "$VARIABLE:MINTER",

@@ -1,0 +1,50 @@
+{
+  "$schema": "../../../../schema.json",
+  "modes": [
+    "Y Mz S+",
+    "Y Ms S+",
+    "Y Mz S-",
+    "Y Ms S-"
+  ],
+  "cases": [
+    {
+      "name": "SHA-256 Hashing",
+      "comment": "Compute-heavy benchmark. Each measured transaction calls hash(index), which performs `index` rounds of a pure-Solidity SHA-256 (no inline assembly, no native sha256/keccak host function) and OR-folds the digests into the returned value so the optimiser cannot drop the work. Every iteration uses a fresh account so the compute-heavy transactions saturate the mempool in parallel; there are no cross-transaction dependencies, receipt waits, or captured variables.",
+      "inputs": [
+        {
+          "comment": "Allocating an account to use for deployment",
+          "allocate_account": "$VARIABLE:DEPLOYER_ACCOUNT"
+        },
+        {
+          "comment": "Deploy the SHA-256 contract once, up front, using the conventional deployer (private key 1).",
+          "instance": "Sha256",
+          "method": "#deployer",
+          "caller": "$VARIABLE:DEPLOYER_ACCOUNT"
+        },
+        {
+          "comment": "Measured loop: each iteration is one compute-heavy hashing transaction from its own fresh sender.",
+          "start_watcher": true,
+          "repeat": 20000,
+          "steps": [
+            {
+              "comment": "Fresh sender for this iteration so the transaction submits on its own nonce chain, in parallel with the others.",
+              "allocate_account": "$VARIABLE:SENDER"
+            },
+            {
+              "comment": "Perform 100 SHA-256 hashes in a single transaction.",
+              "instance": "Sha256",
+              "method": "hash",
+              "caller": "$VARIABLE:SENDER",
+              "calldata": [
+                "100"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "Sha256": "main.sol:Sha256"
+  }
+}

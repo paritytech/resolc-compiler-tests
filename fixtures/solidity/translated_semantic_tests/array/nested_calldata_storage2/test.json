@@ -42,6 +42,7 @@
     "C": "nested_calldata_storage2.sol:C"
   },
   "modes": [
-    "Y-"
+    "Y-",
+    "NY-"
   ]
 }

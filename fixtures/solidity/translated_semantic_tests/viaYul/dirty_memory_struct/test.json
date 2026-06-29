@@ -21,6 +21,7 @@
     "C": "dirty_memory_struct.sol:C"
   },
   "modes": [
-    "Y-"
+    "Y-",
+    "NY-"
   ]
 }

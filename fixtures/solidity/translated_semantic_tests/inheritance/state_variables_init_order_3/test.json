@@ -98,6 +98,7 @@
     "B": "state_variables_init_order_3.sol:B"
   },
   "modes": [
-    "Y-"
+    "Y-",
+    "NY-"
   ]
 }

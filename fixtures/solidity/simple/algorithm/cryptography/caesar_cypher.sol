@@ -73,11 +73,17 @@
 //!       "comment": "Y Mz S- fails. Y M0 S- means no LLVM optimizations and no Solc optimizations (effectively no optimizations at all) and it succeeds, yet Y Mz S- (aggressive LLVM size optimizations, no Solc optimizations) fails. This suggests the LLVM optimization pass is introducing incorrect behavior.",
 //!       "modes": [
 //!         "Y M0",
+//!         "NY M0",
 //!         "Y M1",
+//!         "NY M1",
 //!         "Y M2",
+//!         "NY M2",
 //!         "Y M3",
+//!         "NY M3",
 //!         "Y Ms",
+//!         "NY Ms",
 //!         "Y Mz S+",
+//!         "NY Mz S+",
 //!         "E"
 //!       ],
 //!       "inputs": [

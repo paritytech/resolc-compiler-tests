@@ -31,6 +31,7 @@
     "B": "constructor_inheritance_init_order.sol:B"
   },
   "modes": [
-    "Y-"
+    "Y-",
+    "NY-"
   ]
 }

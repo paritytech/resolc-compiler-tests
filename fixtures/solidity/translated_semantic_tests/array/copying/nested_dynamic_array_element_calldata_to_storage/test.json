@@ -30,6 +30,7 @@
     "C": "nested_dynamic_array_element_calldata_to_storage.sol:C"
   },
   "modes": [
-    "Y-"
+    "Y-",
+    "NY-"
   ]
 }

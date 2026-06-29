@@ -21,6 +21,7 @@
     "C": "struct_delete_storage_nested_small.sol:C"
   },
   "modes": [
-    "Y-"
+    "Y-",
+    "NY-"
   ]
 }

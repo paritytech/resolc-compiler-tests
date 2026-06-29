@@ -20,7 +20,8 @@
     "Test": "return_size_shorter_than_expected_evm_version_after_homestead.sol:Test"
   },
   "modes": [
-    "Y-"
+    "Y-",
+    "NY-"
   ],
   "required_evm_version": ">homestead"
 }

@@ -32,6 +32,7 @@
     "C": "nested_array_of_structs_with_nested_array_from_storage_to_memory.sol:C"
   },
   "modes": [
-    "Y-"
+    "Y-",
+    "NY-"
   ]
 }

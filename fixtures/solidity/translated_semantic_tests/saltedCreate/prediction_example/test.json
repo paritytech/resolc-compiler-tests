@@ -24,6 +24,7 @@
   },
   "modes": [
     "Y-",
+    "NY-",
     "E-"
   ],
   "required_evm_version": ">=constantinople"

@@ -21,6 +21,7 @@
     "Test": "uninitialized_internal_storage_function_via_yul.sol:Test"
   },
   "modes": [
-    "Y-"
+    "Y-",
+    "NY-"
   ]
 }

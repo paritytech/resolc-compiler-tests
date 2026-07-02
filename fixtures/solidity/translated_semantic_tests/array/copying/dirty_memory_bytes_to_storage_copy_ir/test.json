@@ -21,6 +21,7 @@
     "C": "dirty_memory_bytes_to_storage_copy_ir.sol:C"
   },
   "modes": [
-    "Y-"
+    "Y-",
+    "NY-"
   ]
 }

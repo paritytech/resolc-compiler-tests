@@ -21,7 +21,8 @@
     "Test": "return_size_shorter_than_expected.sol:Test"
   },
   "modes": [
-    "Y-"
+    "Y-",
+    "NY-"
   ],
   "required_evm_version": "<=homestead"
 }

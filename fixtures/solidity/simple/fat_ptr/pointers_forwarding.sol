@@ -5,6 +5,7 @@
 //!   "enable_eravm_extensions": true,
 //!   "modes": [
 //!     "Y >=0.8.4",
+//!     "NY >=0.8.4",
 //!     "E >=0.8.4"
 //!   ],
 //!   "cases": [

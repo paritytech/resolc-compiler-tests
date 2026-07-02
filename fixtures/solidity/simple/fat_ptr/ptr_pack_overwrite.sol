@@ -4,7 +4,8 @@
 //!   ],
 //!   "enable_eravm_extensions": true,
 //!   "modes": [
-//!     "Y"
+//!     "Y",
+//!     "NY"
 //!   ],
 //!   "cases": [
 //!     {

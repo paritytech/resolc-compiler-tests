@@ -32,6 +32,7 @@
     "C": "shift_bytes_cleanup_viaYul.sol:C"
   },
   "modes": [
-    "Y-"
+    "Y-",
+    "NY-"
   ]
 }

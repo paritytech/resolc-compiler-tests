@@ -76,6 +76,7 @@
     "C": "errors_by_parameter_type.sol:C"
   },
   "modes": [
-    "Y-"
+    "Y-",
+    "NY-"
   ]
 }

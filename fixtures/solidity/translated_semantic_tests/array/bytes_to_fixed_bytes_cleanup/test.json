@@ -54,6 +54,7 @@
     "C": "bytes_to_fixed_bytes_cleanup.sol:C"
   },
   "modes": [
-    "Y-"
+    "Y-",
+    "NY-"
   ]
 }

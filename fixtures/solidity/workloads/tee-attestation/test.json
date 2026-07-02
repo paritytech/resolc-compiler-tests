@@ -43,11 +43,11 @@
           "caller": "0x7e5f4552091a69125d5dfcb7b8c2659029395bdf"
         },
         {
-          "comment": "Deploy the verified V5QuoteVerifier using the real RIP-7212 P-256 precompile and the recovered PCCS dependency",
+          "comment": "Deploy the verified V5QuoteVerifier wired to the Solidity DaimoP256Verifier (FreshCryptoLib) instead of the RIP-7212 precompile, so P-256 verification runs on-chain as EVM/PVM opcodes",
           "instance": "V5QuoteVerifier",
           "method": "#deployer",
           "calldata": [
-            "0x0000000000000000000000000000000000000100",
+            "DaimoP256Verifier.address",
             "SnapshotPCCSRouter.address"
           ],
           "caller": "0x7e5f4552091a69125d5dfcb7b8c2659029395bdf"
@@ -78,11 +78,11 @@
           "caller": "0x7e5f4552091a69125d5dfcb7b8c2659029395bdf"
         },
         {
-          "comment": "Deploy the cache verifier dependency with the same real RIP-7212 P-256 precompile",
+          "comment": "Deploy the cache verifier dependency wired to the same Solidity DaimoP256Verifier (no precompile)",
           "instance": "TEECacheVerifier",
           "method": "#deployer",
           "calldata": [
-            "0x0000000000000000000000000000000000000100"
+            "DaimoP256Verifier.address"
           ],
           "caller": "0x7e5f4552091a69125d5dfcb7b8c2659029395bdf"
         },

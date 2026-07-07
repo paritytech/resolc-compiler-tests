@@ -1,0 +1,130 @@
+{
+  "$schema": "../../../../schema.json",
+  "modes": [
+    "Y Mz S+"
+  ],
+  "cases": [
+    {
+      "name": "Word Width Microbench",
+      "comment": "Isolates per-operation cost by operation class and word width. Six chains run in sequence, each as a batch of independent transactions from fresh senders: 256-bit mulmod (the FCL P-256 hot op: 512-bit product + 512/256 division), 256-bit addmod (small division), 256-bit wrapping mul (no division), 256-bit add/xor/shift (linear limb work), and the same add/xor shape on uint64 and uint32. Heavy chains run 2000 iterations per tx, cheap chains 100000, so every variant's cost sits well above the transaction base cost; normalize per-op when comparing.",
+      "inputs": [
+        {
+          "comment": "Allocating an account to use for deployment",
+          "allocate_account": "$VARIABLE:DEPLOYER_ACCOUNT"
+        },
+        {
+          "comment": "Deploy the OpChains contract once, up front.",
+          "instance": "OpChains",
+          "method": "#deployer",
+          "caller": "$VARIABLE:DEPLOYER_ACCOUNT"
+        },
+        {
+          "comment": "256-bit mulmod chain: 2000 modular multiplications with the P-256 prime per tx.",
+          "start_watcher": true,
+          "repeat": 100,
+          "steps": [
+            {
+              "allocate_account": "$VARIABLE:SENDER"
+            },
+            {
+              "instance": "OpChains",
+              "method": "mulmodChain(uint256)",
+              "caller": "$VARIABLE:SENDER",
+              "calldata": [
+                "2000"
+              ]
+            }
+          ]
+        },
+        {
+          "comment": "256-bit addmod chain: 2000 modular additions with the P-256 prime per tx.",
+          "repeat": 100,
+          "steps": [
+            {
+              "allocate_account": "$VARIABLE:SENDER"
+            },
+            {
+              "instance": "OpChains",
+              "method": "addmodChain(uint256)",
+              "caller": "$VARIABLE:SENDER",
+              "calldata": [
+                "2000"
+              ]
+            }
+          ]
+        },
+        {
+          "comment": "256-bit wrapping mul chain: 2000 multiplications per tx, no division.",
+          "repeat": 100,
+          "steps": [
+            {
+              "allocate_account": "$VARIABLE:SENDER"
+            },
+            {
+              "instance": "OpChains",
+              "method": "mulChain(uint256)",
+              "caller": "$VARIABLE:SENDER",
+              "calldata": [
+                "2000"
+              ]
+            }
+          ]
+        },
+        {
+          "comment": "256-bit add/xor/shift chain: 100000 linear-limb iterations per tx.",
+          "repeat": 100,
+          "steps": [
+            {
+              "allocate_account": "$VARIABLE:SENDER"
+            },
+            {
+              "instance": "OpChains",
+              "method": "addXorChain(uint256)",
+              "caller": "$VARIABLE:SENDER",
+              "calldata": [
+                "100000"
+              ]
+            }
+          ]
+        },
+        {
+          "comment": "uint64 add/xor/shift chain: 100000 iterations per tx at PVM native word width.",
+          "repeat": 100,
+          "steps": [
+            {
+              "allocate_account": "$VARIABLE:SENDER"
+            },
+            {
+              "instance": "OpChains",
+              "method": "u64Chain(uint256)",
+              "caller": "$VARIABLE:SENDER",
+              "calldata": [
+                "100000"
+              ]
+            }
+          ]
+        },
+        {
+          "comment": "uint32 add/xor/shift chain: 100000 iterations per tx (the sha-256 workload's word width).",
+          "repeat": 100,
+          "steps": [
+            {
+              "allocate_account": "$VARIABLE:SENDER"
+            },
+            {
+              "instance": "OpChains",
+              "method": "u32Chain(uint256)",
+              "caller": "$VARIABLE:SENDER",
+              "calldata": [
+                "100000"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "OpChains": "main.sol:OpChains"
+  }
+}

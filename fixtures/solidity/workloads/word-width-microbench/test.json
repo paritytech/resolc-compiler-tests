@@ -6,7 +6,7 @@
   "cases": [
     {
       "name": "Word Width Microbench",
-      "comment": "Isolates per-operation cost by operation class and word width. Six chains run in sequence, each as a batch of independent transactions from fresh senders: 256-bit mulmod (the FCL P-256 hot op: 512-bit product + 512/256 division), 256-bit addmod (small division), 256-bit wrapping mul (no division), 256-bit add/xor/shift (linear limb work), and the same add/xor shape on uint64 and uint32. Heavy chains run 2000 iterations per tx, cheap chains 100000, so every variant's cost sits well above the transaction base cost; normalize per-op when comparing.",
+      "comment": "Isolates per-operation cost by operation class and word width. Eight chains run in sequence, each as a batch of independent transactions from fresh senders: 256-bit mulmod (the FCL P-256 hot op: 512-bit product + 512/256 division), 256-bit addmod with a 256-bit modulus (near-trivial reduction), 256-bit wrapping mul (no division), 256-bit add/xor/shift (linear limb work), the same add/xor shape on uint64 and uint32, 256-bit division by a small constant (the wad-math x/1e18 shape, ~196-bit quotient), and addmod with a 64-bit modulus (~192-bit quotient in the operand reduction). Heavy chains run 2000 iterations per tx, cheap chains 100000, so every variant's cost sits well above the transaction base cost; normalize per-op when comparing.",
       "inputs": [
         {
           "comment": "Allocating an account to use for deployment",
@@ -117,6 +117,40 @@
               "caller": "$VARIABLE:SENDER",
               "calldata": [
                 "100000"
+              ]
+            }
+          ]
+        },
+        {
+          "comment": "256-bit division by the constant 1e18 (wad-math shape): 2000 divisions with ~196-bit quotients per tx.",
+          "repeat": 100,
+          "steps": [
+            {
+              "allocate_account": "$VARIABLE:SENDER"
+            },
+            {
+              "instance": "OpChains",
+              "method": "divChain(uint256)",
+              "caller": "$VARIABLE:SENDER",
+              "calldata": [
+                "2000"
+              ]
+            }
+          ]
+        },
+        {
+          "comment": "addmod with a 64-bit modulus: 2000 modular additions per tx where the operand reduction has a ~192-bit quotient.",
+          "repeat": 100,
+          "steps": [
+            {
+              "allocate_account": "$VARIABLE:SENDER"
+            },
+            {
+              "instance": "OpChains",
+              "method": "addmodSmallChain(uint256)",
+              "caller": "$VARIABLE:SENDER",
+              "calldata": [
+                "2000"
               ]
             }
           ]

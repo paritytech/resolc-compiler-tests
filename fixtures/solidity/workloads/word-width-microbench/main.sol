@@ -103,4 +103,36 @@ contract OpChains {
         }
         return uint256(s) ^ uint256(x);
     }
+
+    /// 256-bit division by a small constant divisor (the wad-math shape,
+    /// `x / 1e18`): the quotient spans ~196 bits, the worst case for a
+    /// bit-serial division lowering. The xor with the full-width x restores
+    /// the dividend to 256 bits every iteration.
+    function divChain(uint256 n) external pure returns (uint256) {
+        uint256 s = SEED_S;
+        uint256 x = SEED_X;
+        unchecked {
+            for (uint256 i = 0; i < n; ++i) {
+                s = (s / 1e18) ^ x;
+                x += s | 1;
+            }
+        }
+        return s ^ x;
+    }
+
+    // 64-bit prime modulus: small relative to the 256-bit operands, so the
+    // operand reduction inside addmod has a ~192-bit quotient.
+    uint256 constant SMALL_M = 0xFFFFFFFFFFFFFFC5;
+
+    function addmodSmallChain(uint256 n) external pure returns (uint256) {
+        uint256 s = SEED_S;
+        uint256 x = SEED_X;
+        unchecked {
+            for (uint256 i = 0; i < n; ++i) {
+                s = addmod(s, x, SMALL_M);
+                x += s | 1;
+            }
+        }
+        return s ^ x;
+    }
 }

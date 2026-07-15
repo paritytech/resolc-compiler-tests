@@ -21,6 +21,7 @@
         {
           "comment": "256-bit mulmod chain: 2000 modular multiplications with the P-256 prime per tx.",
           "start_watcher": true,
+          "await_transaction_inclusion": true,
           "repeat": 100,
           "steps": [
             {
@@ -38,6 +39,7 @@
         },
         {
           "comment": "256-bit addmod chain: 2000 modular additions with the P-256 prime per tx.",
+          "await_transaction_inclusion": true,
           "repeat": 100,
           "steps": [
             {
@@ -55,6 +57,7 @@
         },
         {
           "comment": "256-bit wrapping mul chain: 2000 multiplications per tx, no division.",
+          "await_transaction_inclusion": true,
           "repeat": 100,
           "steps": [
             {
@@ -72,6 +75,7 @@
         },
         {
           "comment": "256-bit add/xor/shift chain: 100000 linear-limb iterations per tx.",
+          "await_transaction_inclusion": true,
           "repeat": 100,
           "steps": [
             {
@@ -89,6 +93,7 @@
         },
         {
           "comment": "uint64 add/xor/shift chain: 100000 iterations per tx at PVM native word width.",
+          "await_transaction_inclusion": true,
           "repeat": 100,
           "steps": [
             {
@@ -106,6 +111,7 @@
         },
         {
           "comment": "uint32 add/xor/shift chain: 100000 iterations per tx (the sha-256 workload's word width).",
+          "await_transaction_inclusion": true,
           "repeat": 100,
           "steps": [
             {
@@ -123,6 +129,7 @@
         },
         {
           "comment": "256-bit division by the constant 1e18 (wad-math shape): 2000 divisions with ~196-bit quotients per tx.",
+          "await_transaction_inclusion": true,
           "repeat": 100,
           "steps": [
             {
@@ -140,6 +147,7 @@
         },
         {
           "comment": "addmod with a 64-bit modulus: 2000 modular additions per tx where the operand reduction has a ~192-bit quotient.",
+          "await_transaction_inclusion": true,
           "repeat": 100,
           "steps": [
             {

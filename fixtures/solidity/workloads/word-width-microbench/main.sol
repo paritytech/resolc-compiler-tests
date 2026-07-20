@@ -468,4 +468,27 @@ contract OpChains {
         }
         return s ^ x;
     }
+    function mulmodRuntimeChain(uint256 n, uint256 m) external pure returns (uint256) {
+        uint256 s = SEED_S;
+        uint256 x = SEED_X;
+        unchecked {
+            for (uint256 i = 0; i < n; ++i) {
+                s = mulmod(s, x, m);
+                x ^= s;
+            }
+        }
+        return s ^ x;
+    }
+
+    function addmodRuntimeChain(uint256 n, uint256 m) external pure returns (uint256) {
+        uint256 s = SEED_S;
+        uint256 x = SEED_X;
+        unchecked {
+            for (uint256 i = 0; i < n; ++i) {
+                s = addmod(s, x, m);
+                x += s | 1;
+            }
+        }
+        return s ^ x;
+    }
 }

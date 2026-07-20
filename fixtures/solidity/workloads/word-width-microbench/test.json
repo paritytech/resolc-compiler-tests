@@ -780,6 +780,44 @@
               ]
             }
           ]
+        },
+        {
+          "comment": "256-bit mulmod with a RUNTIME modulus (P-256 prime via calldata) -> general path, Barrett cannot fire.",
+          "await_transaction_inclusion": true,
+          "repeat": 10,
+          "steps": [
+            {
+              "allocate_account": "$VARIABLE:SENDER"
+            },
+            {
+              "instance": "OpChains",
+              "method": "mulmodRuntimeChain(uint256,uint256)",
+              "caller": "$VARIABLE:SENDER",
+              "calldata": [
+                "2000",
+                "115792089210356248762697446949407573530086143415290314195533631308867097853951"
+              ]
+            }
+          ]
+        },
+        {
+          "comment": "addmod with a RUNTIME 64-bit modulus (via calldata) -> general reduction, Barrett cannot fire.",
+          "await_transaction_inclusion": true,
+          "repeat": 10,
+          "steps": [
+            {
+              "allocate_account": "$VARIABLE:SENDER"
+            },
+            {
+              "instance": "OpChains",
+              "method": "addmodRuntimeChain(uint256,uint256)",
+              "caller": "$VARIABLE:SENDER",
+              "calldata": [
+                "2000",
+                "18446744073709551557"
+              ]
+            }
+          ]
         }
       ]
     }

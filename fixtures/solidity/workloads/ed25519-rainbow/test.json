@@ -1,0 +1,53 @@
+{
+  "$schema": "../../../../schema.json",
+  "modes": [
+    "Y Mz S+"
+  ],
+  "compiler_directives": {
+    "revert_string_handling": "strip"
+  },
+  "cases": [
+    {
+      "name": "Rainbow Bridge Ed25519 verification",
+      "comment": "Compute-heavy benchmark using Rainbow Bridge's pure-Solidity Ed25519 verifier. Each measured transaction verifies the first valid vector from Rainbow's official ed25519-tests.json, including software SHA-512, field exponentiation, point decompression, and elliptic-curve arithmetic without a hash or signature-verification host function.",
+      "inputs": [
+        {
+          "comment": "Allocate the account used to deploy and preflight the verifier.",
+          "allocate_account": "$VARIABLE:DEPLOYER_ACCOUNT"
+        },
+        {
+          "comment": "Deploy the Solidity 0.8 port of Rainbow Bridge's Ed25519 verifier.",
+          "instance": "Ed25519",
+          "method": "#deployer",
+          "caller": "$VARIABLE:DEPLOYER_ACCOUNT"
+        },
+        {
+          "comment": "Measured loop: each fresh sender submits one independent Ed25519 verification.",
+          "start_watcher": true,
+          "repeat": 1000,
+          "steps": [
+            {
+              "comment": "Use an independent nonce chain so benchmark transactions can be submitted concurrently.",
+              "allocate_account": "$VARIABLE:ED25519_CALLER"
+            },
+            {
+              "instance": "Ed25519",
+              "method": "check(bytes32,bytes32,bytes32,bytes32,bytes9)",
+              "caller": "$VARIABLE:ED25519_CALLER",
+              "calldata": [
+                "0x5d196f3f0d495ffebe06d09dded803b3f275e131e3f662b3904e4929d07b1af8",
+                "0x0d5f61d895fbe3bc7d19b7877a1cbc8677061757f2c614f576799ba3b6092186",
+                "0x640ac5fb43090676cc359baf77f2a0c6bd42dc089660abcb7e64de1b44d67c00",
+                "0x0bc7432ef070a5d9e30fa55a9de5fa0ffd5d9ad11cc860e017195e5632a411aa",
+                "0xe10d617d3bb865940a0000000000000000000000000000000000000000000000"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "Ed25519": "Ed25519.sol:Ed25519"
+  }
+}

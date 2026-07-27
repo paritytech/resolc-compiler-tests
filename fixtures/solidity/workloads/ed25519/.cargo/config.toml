@@ -1,0 +1,2 @@
+[target.'cfg(target_env = "polkavm")']
+rustflags = ['--cfg=sha2_backend_soft="compact"']

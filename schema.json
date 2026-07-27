@@ -46,6 +46,16 @@
         "$ref": "#/$defs/ContractPathAndIdent"
       }
     },
+    "rust_contracts": {
+      "description": "Rust implementations of the contract instances declared in `contracts`.\n\nA Cargo platform can execute this workload only when every contract instance has a\ncorresponding entry in this map.",
+      "type": [
+        "object",
+        "null"
+      ],
+      "additionalProperties": {
+        "$ref": "#/$defs/ContractPathAndIdent"
+      }
+    },
     "libraries": {
       "description": "The set of libraries that this metadata file requires.",
       "type": [

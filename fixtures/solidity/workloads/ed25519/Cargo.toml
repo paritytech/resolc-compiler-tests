@@ -1,0 +1,57 @@
+[package]
+name = "Ed25519"
+version = "0.1.0"
+edition = "2021"
+publish = false
+license = "MIT OR Apache-2.0"
+
+[[package.metadata.retester.abi]]
+type = "function"
+name = "check"
+stateMutability = "pure"
+
+[[package.metadata.retester.abi.inputs]]
+name = "public_key"
+type = "bytes32"
+
+[[package.metadata.retester.abi.inputs]]
+name = "signature_r"
+type = "bytes32"
+
+[[package.metadata.retester.abi.inputs]]
+name = "signature_s"
+type = "bytes32"
+
+[[package.metadata.retester.abi.inputs]]
+name = "message_1"
+type = "bytes32"
+
+[[package.metadata.retester.abi.inputs]]
+name = "message_2"
+type = "bytes9"
+
+[[package.metadata.retester.abi.outputs]]
+name = ""
+type = "bool"
+
+[[bin]]
+name = "ed25519"
+path = "src/main.rs"
+
+[workspace]
+
+[profile.release]
+# Runtime speed is the primary optimization target. Fat LTO and one codegen unit
+# recover most of the size cost while enabling whole-program optimization.
+opt-level = 3
+lto = "fat"
+codegen-units = 1
+panic = "abort"
+debug = false
+incremental = false
+overflow-checks = false
+
+[dependencies]
+ed25519-dalek = "3.0.0"
+polkavm-derive = "0.36.0"
+uapi = { version = "0.15.0", package = "pallet-revive-uapi", default-features = false }

@@ -24,7 +24,7 @@
         {
           "comment": "Measured loop: each fresh sender submits one independent Ed25519 verification.",
           "start_watcher": true,
-          "repeat": 1000,
+          "repeat": 25000,
           "steps": [
             {
               "comment": "Use an independent nonce chain so benchmark transactions can be submitted concurrently.",

@@ -140,6 +140,7 @@
           "repeat": 2,
           "capture_index": "$VARIABLE:K",
           "consolidate_state": true,
+          "await_transaction_inclusion": true,
           "start_watcher": true,
           "steps": [
             {
@@ -225,10 +226,11 @@
           "capture_index": "$VARIABLE:D",
           "steps": [
             {
-              "comment": "Block A: 1000 parallel iters per day. Every iter touches 4 dapps — W3S buy, Festival register, T3rminal sell (slot 0), and a full P2P trade cycle (TRADE_A_D_K). consolidate_state propagates per-iter allocs and the captured TRADE_A_D_K to the day's outer scope so subsequent blocks can reference them.",
+              "comment": "Block A: 1000 parallel iters per day. Every iter touches 4 dapps — W3S buy, Festival register, T3rminal sell (slot 0), and a full P2P trade cycle (TRADE_A_D_K). consolidate_state propagates per-iter allocs and the captured TRADE_A_D_K to the day's outer scope so subsequent blocks can reference them. await_transaction_inclusion paces each iter to inclusion (post-#304 forks are otherwise fire-and-forget, which raced this block's intra-iter state dependencies).",
               "repeat": 1000,
               "capture_index": "$VARIABLE:K",
               "consolidate_state": true,
+              "await_transaction_inclusion": true,
               "steps": [
                 {
                   "allocate_account": "$VARIABLE:BUYER_A_$VARIABLE:D_$VARIABLE:K"
@@ -319,10 +321,11 @@
               ]
             },
             {
-              "comment": "Block B: 1000 parallel iters per day. By Block B's start, Block A's submissions are at least pool-resident (usually mined). W3S checkIn references tokenId = D*1000 + K + 1 — valid because Block A across all days collectively mints N_DAYS*1000 tickets in [1..N_DAYS*1000]. Festival.checkIn captures POAP_D_K; Block C uses it.",
+              "comment": "Block B: 1000 parallel iters per day. With await_transaction_inclusion, Block A's transactions are included before Block B runs. W3S checkIn references tokenId = D*1000 + K + 1 — valid because Block A across all days collectively mints N_DAYS*1000 tickets in [1..N_DAYS*1000]. Festival.checkIn captures POAP_D_K; Block C uses it.",
               "repeat": 1000,
               "capture_index": "$VARIABLE:K",
               "consolidate_state": true,
+              "await_transaction_inclusion": true,
               "steps": [
                 {
                   "allocate_account": "$VARIABLE:CUSTOMER_B_$VARIABLE:D_$VARIABLE:K"
@@ -422,6 +425,7 @@
               "repeat": 1000,
               "capture_index": "$VARIABLE:K",
               "consolidate_state": true,
+              "await_transaction_inclusion": true,
               "steps": [
                 {
                   "allocate_account": "$VARIABLE:BUYER_C_$VARIABLE:D_$VARIABLE:K"

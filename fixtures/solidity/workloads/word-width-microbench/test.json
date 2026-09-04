@@ -1,0 +1,828 @@
+{
+  "$schema": "../../../../schema.json",
+  "modes": [
+    "Y Mz S+"
+  ],
+  "cases": [
+    {
+      "name": "Word Width Microbench",
+      "comment": "Per-operation cost by op class and word width. Division-family chains use a runtime divisor (general path); divChain/mulmod/addmod use constant divisors (Barrett path). Widths [256, 128, 64, 32, 16, 8] probe newyork narrowing. Each chain runs as 10 independent txs from fresh senders (enough for the profiler's per-step samples); await_transaction_inclusion serializes chains so mined blocks are single-variant. Normalize per-op (charge/n).",
+      "inputs": [
+        {
+          "comment": "Allocate a deployer account.",
+          "allocate_account": "$VARIABLE:DEPLOYER_ACCOUNT"
+        },
+        {
+          "comment": "Deploy OpChains once.",
+          "instance": "OpChains",
+          "method": "#deployer",
+          "caller": "$VARIABLE:DEPLOYER_ACCOUNT"
+        },
+        {
+          "comment": "256-bit mulmod, P-256 prime: 512-bit product + 512/256 division (FCL hot op).",
+          "start_watcher": true,
+          "await_transaction_inclusion": true,
+          "repeat": 10,
+          "steps": [
+            {
+              "allocate_account": "$VARIABLE:SENDER"
+            },
+            {
+              "instance": "OpChains",
+              "method": "mulmodChain(uint256)",
+              "caller": "$VARIABLE:SENDER",
+              "calldata": [
+                "2000"
+              ]
+            }
+          ]
+        },
+        {
+          "comment": "256-bit addmod, P-256 prime: reduction of a <=257-bit dividend.",
+          "await_transaction_inclusion": true,
+          "repeat": 10,
+          "steps": [
+            {
+              "allocate_account": "$VARIABLE:SENDER"
+            },
+            {
+              "instance": "OpChains",
+              "method": "addmodChain(uint256)",
+              "caller": "$VARIABLE:SENDER",
+              "calldata": [
+                "2000"
+              ]
+            }
+          ]
+        },
+        {
+          "comment": "256-bit wrapping mul: quadratic limb work, no division.",
+          "await_transaction_inclusion": true,
+          "repeat": 10,
+          "steps": [
+            {
+              "allocate_account": "$VARIABLE:SENDER"
+            },
+            {
+              "instance": "OpChains",
+              "method": "mulChain(uint256)",
+              "caller": "$VARIABLE:SENDER",
+              "calldata": [
+                "2000"
+              ]
+            }
+          ]
+        },
+        {
+          "comment": "256-bit add/xor/shift: linear limb work.",
+          "await_transaction_inclusion": true,
+          "repeat": 10,
+          "steps": [
+            {
+              "allocate_account": "$VARIABLE:SENDER"
+            },
+            {
+              "instance": "OpChains",
+              "method": "addXorChain(uint256)",
+              "caller": "$VARIABLE:SENDER",
+              "calldata": [
+                "100000"
+              ]
+            }
+          ]
+        },
+        {
+          "comment": "add/xor/shift on uint64 (native PVM word).",
+          "await_transaction_inclusion": true,
+          "repeat": 10,
+          "steps": [
+            {
+              "allocate_account": "$VARIABLE:SENDER"
+            },
+            {
+              "instance": "OpChains",
+              "method": "u64Chain(uint256)",
+              "caller": "$VARIABLE:SENDER",
+              "calldata": [
+                "100000"
+              ]
+            }
+          ]
+        },
+        {
+          "comment": "add/xor/shift on uint32.",
+          "await_transaction_inclusion": true,
+          "repeat": 10,
+          "steps": [
+            {
+              "allocate_account": "$VARIABLE:SENDER"
+            },
+            {
+              "instance": "OpChains",
+              "method": "u32Chain(uint256)",
+              "caller": "$VARIABLE:SENDER",
+              "calldata": [
+                "100000"
+              ]
+            }
+          ]
+        },
+        {
+          "comment": "256-bit / constant 1e18 (wad-math): ~196-bit quotient, constant-divisor (Barrett path).",
+          "await_transaction_inclusion": true,
+          "repeat": 10,
+          "steps": [
+            {
+              "allocate_account": "$VARIABLE:SENDER"
+            },
+            {
+              "instance": "OpChains",
+              "method": "divChain(uint256)",
+              "caller": "$VARIABLE:SENDER",
+              "calldata": [
+                "2000"
+              ]
+            }
+          ]
+        },
+        {
+          "comment": "addmod with a 64-bit prime modulus: ~192-bit quotient in the operand reduction.",
+          "await_transaction_inclusion": true,
+          "repeat": 10,
+          "steps": [
+            {
+              "allocate_account": "$VARIABLE:SENDER"
+            },
+            {
+              "instance": "OpChains",
+              "method": "addmodSmallChain(uint256)",
+              "caller": "$VARIABLE:SENDER",
+              "calldata": [
+                "2000"
+              ]
+            }
+          ]
+        },
+        {
+          "comment": "unsigned 256-bit division by a runtime (calldata) divisor -> general path.",
+          "await_transaction_inclusion": true,
+          "repeat": 10,
+          "steps": [
+            {
+              "allocate_account": "$VARIABLE:SENDER"
+            },
+            {
+              "instance": "OpChains",
+              "method": "udiv256Chain(uint256,uint256)",
+              "caller": "$VARIABLE:SENDER",
+              "calldata": [
+                "2000",
+                "7"
+              ]
+            }
+          ]
+        },
+        {
+          "comment": "unsigned 128-bit division by a runtime (calldata) divisor -> general path.",
+          "await_transaction_inclusion": true,
+          "repeat": 10,
+          "steps": [
+            {
+              "allocate_account": "$VARIABLE:SENDER"
+            },
+            {
+              "instance": "OpChains",
+              "method": "udiv128Chain(uint256,uint256)",
+              "caller": "$VARIABLE:SENDER",
+              "calldata": [
+                "2000",
+                "7"
+              ]
+            }
+          ]
+        },
+        {
+          "comment": "unsigned 64-bit division by a runtime (calldata) divisor -> general path.",
+          "await_transaction_inclusion": true,
+          "repeat": 10,
+          "steps": [
+            {
+              "allocate_account": "$VARIABLE:SENDER"
+            },
+            {
+              "instance": "OpChains",
+              "method": "udiv64Chain(uint256,uint256)",
+              "caller": "$VARIABLE:SENDER",
+              "calldata": [
+                "2000",
+                "7"
+              ]
+            }
+          ]
+        },
+        {
+          "comment": "unsigned 32-bit division by a runtime (calldata) divisor -> general path.",
+          "await_transaction_inclusion": true,
+          "repeat": 10,
+          "steps": [
+            {
+              "allocate_account": "$VARIABLE:SENDER"
+            },
+            {
+              "instance": "OpChains",
+              "method": "udiv32Chain(uint256,uint256)",
+              "caller": "$VARIABLE:SENDER",
+              "calldata": [
+                "2000",
+                "7"
+              ]
+            }
+          ]
+        },
+        {
+          "comment": "unsigned 16-bit division by a runtime (calldata) divisor -> general path.",
+          "await_transaction_inclusion": true,
+          "repeat": 10,
+          "steps": [
+            {
+              "allocate_account": "$VARIABLE:SENDER"
+            },
+            {
+              "instance": "OpChains",
+              "method": "udiv16Chain(uint256,uint256)",
+              "caller": "$VARIABLE:SENDER",
+              "calldata": [
+                "2000",
+                "7"
+              ]
+            }
+          ]
+        },
+        {
+          "comment": "unsigned 8-bit division by a runtime (calldata) divisor -> general path.",
+          "await_transaction_inclusion": true,
+          "repeat": 10,
+          "steps": [
+            {
+              "allocate_account": "$VARIABLE:SENDER"
+            },
+            {
+              "instance": "OpChains",
+              "method": "udiv8Chain(uint256,uint256)",
+              "caller": "$VARIABLE:SENDER",
+              "calldata": [
+                "2000",
+                "7"
+              ]
+            }
+          ]
+        },
+        {
+          "comment": "unsigned 256-bit remainder by a runtime (calldata) divisor.",
+          "await_transaction_inclusion": true,
+          "repeat": 10,
+          "steps": [
+            {
+              "allocate_account": "$VARIABLE:SENDER"
+            },
+            {
+              "instance": "OpChains",
+              "method": "umod256Chain(uint256,uint256)",
+              "caller": "$VARIABLE:SENDER",
+              "calldata": [
+                "2000",
+                "7"
+              ]
+            }
+          ]
+        },
+        {
+          "comment": "unsigned 128-bit remainder by a runtime (calldata) divisor.",
+          "await_transaction_inclusion": true,
+          "repeat": 10,
+          "steps": [
+            {
+              "allocate_account": "$VARIABLE:SENDER"
+            },
+            {
+              "instance": "OpChains",
+              "method": "umod128Chain(uint256,uint256)",
+              "caller": "$VARIABLE:SENDER",
+              "calldata": [
+                "2000",
+                "7"
+              ]
+            }
+          ]
+        },
+        {
+          "comment": "unsigned 64-bit remainder by a runtime (calldata) divisor.",
+          "await_transaction_inclusion": true,
+          "repeat": 10,
+          "steps": [
+            {
+              "allocate_account": "$VARIABLE:SENDER"
+            },
+            {
+              "instance": "OpChains",
+              "method": "umod64Chain(uint256,uint256)",
+              "caller": "$VARIABLE:SENDER",
+              "calldata": [
+                "2000",
+                "7"
+              ]
+            }
+          ]
+        },
+        {
+          "comment": "unsigned 32-bit remainder by a runtime (calldata) divisor.",
+          "await_transaction_inclusion": true,
+          "repeat": 10,
+          "steps": [
+            {
+              "allocate_account": "$VARIABLE:SENDER"
+            },
+            {
+              "instance": "OpChains",
+              "method": "umod32Chain(uint256,uint256)",
+              "caller": "$VARIABLE:SENDER",
+              "calldata": [
+                "2000",
+                "7"
+              ]
+            }
+          ]
+        },
+        {
+          "comment": "unsigned 16-bit remainder by a runtime (calldata) divisor.",
+          "await_transaction_inclusion": true,
+          "repeat": 10,
+          "steps": [
+            {
+              "allocate_account": "$VARIABLE:SENDER"
+            },
+            {
+              "instance": "OpChains",
+              "method": "umod16Chain(uint256,uint256)",
+              "caller": "$VARIABLE:SENDER",
+              "calldata": [
+                "2000",
+                "7"
+              ]
+            }
+          ]
+        },
+        {
+          "comment": "unsigned 8-bit remainder by a runtime (calldata) divisor.",
+          "await_transaction_inclusion": true,
+          "repeat": 10,
+          "steps": [
+            {
+              "allocate_account": "$VARIABLE:SENDER"
+            },
+            {
+              "instance": "OpChains",
+              "method": "umod8Chain(uint256,uint256)",
+              "caller": "$VARIABLE:SENDER",
+              "calldata": [
+                "2000",
+                "7"
+              ]
+            }
+          ]
+        },
+        {
+          "comment": "signed 256-bit division by a runtime (calldata, positive) divisor.",
+          "await_transaction_inclusion": true,
+          "repeat": 10,
+          "steps": [
+            {
+              "allocate_account": "$VARIABLE:SENDER"
+            },
+            {
+              "instance": "OpChains",
+              "method": "sdiv256Chain(uint256,uint256)",
+              "caller": "$VARIABLE:SENDER",
+              "calldata": [
+                "2000",
+                "7"
+              ]
+            }
+          ]
+        },
+        {
+          "comment": "signed 128-bit division by a runtime (calldata, positive) divisor.",
+          "await_transaction_inclusion": true,
+          "repeat": 10,
+          "steps": [
+            {
+              "allocate_account": "$VARIABLE:SENDER"
+            },
+            {
+              "instance": "OpChains",
+              "method": "sdiv128Chain(uint256,uint256)",
+              "caller": "$VARIABLE:SENDER",
+              "calldata": [
+                "2000",
+                "7"
+              ]
+            }
+          ]
+        },
+        {
+          "comment": "signed 64-bit division by a runtime (calldata, positive) divisor.",
+          "await_transaction_inclusion": true,
+          "repeat": 10,
+          "steps": [
+            {
+              "allocate_account": "$VARIABLE:SENDER"
+            },
+            {
+              "instance": "OpChains",
+              "method": "sdiv64Chain(uint256,uint256)",
+              "caller": "$VARIABLE:SENDER",
+              "calldata": [
+                "2000",
+                "7"
+              ]
+            }
+          ]
+        },
+        {
+          "comment": "signed 32-bit division by a runtime (calldata, positive) divisor.",
+          "await_transaction_inclusion": true,
+          "repeat": 10,
+          "steps": [
+            {
+              "allocate_account": "$VARIABLE:SENDER"
+            },
+            {
+              "instance": "OpChains",
+              "method": "sdiv32Chain(uint256,uint256)",
+              "caller": "$VARIABLE:SENDER",
+              "calldata": [
+                "2000",
+                "7"
+              ]
+            }
+          ]
+        },
+        {
+          "comment": "signed 16-bit division by a runtime (calldata, positive) divisor.",
+          "await_transaction_inclusion": true,
+          "repeat": 10,
+          "steps": [
+            {
+              "allocate_account": "$VARIABLE:SENDER"
+            },
+            {
+              "instance": "OpChains",
+              "method": "sdiv16Chain(uint256,uint256)",
+              "caller": "$VARIABLE:SENDER",
+              "calldata": [
+                "2000",
+                "7"
+              ]
+            }
+          ]
+        },
+        {
+          "comment": "signed 8-bit division by a runtime (calldata, positive) divisor.",
+          "await_transaction_inclusion": true,
+          "repeat": 10,
+          "steps": [
+            {
+              "allocate_account": "$VARIABLE:SENDER"
+            },
+            {
+              "instance": "OpChains",
+              "method": "sdiv8Chain(uint256,uint256)",
+              "caller": "$VARIABLE:SENDER",
+              "calldata": [
+                "2000",
+                "7"
+              ]
+            }
+          ]
+        },
+        {
+          "comment": "signed 256-bit remainder by a runtime (calldata, positive) divisor.",
+          "await_transaction_inclusion": true,
+          "repeat": 10,
+          "steps": [
+            {
+              "allocate_account": "$VARIABLE:SENDER"
+            },
+            {
+              "instance": "OpChains",
+              "method": "smod256Chain(uint256,uint256)",
+              "caller": "$VARIABLE:SENDER",
+              "calldata": [
+                "2000",
+                "7"
+              ]
+            }
+          ]
+        },
+        {
+          "comment": "signed 128-bit remainder by a runtime (calldata, positive) divisor.",
+          "await_transaction_inclusion": true,
+          "repeat": 10,
+          "steps": [
+            {
+              "allocate_account": "$VARIABLE:SENDER"
+            },
+            {
+              "instance": "OpChains",
+              "method": "smod128Chain(uint256,uint256)",
+              "caller": "$VARIABLE:SENDER",
+              "calldata": [
+                "2000",
+                "7"
+              ]
+            }
+          ]
+        },
+        {
+          "comment": "signed 64-bit remainder by a runtime (calldata, positive) divisor.",
+          "await_transaction_inclusion": true,
+          "repeat": 10,
+          "steps": [
+            {
+              "allocate_account": "$VARIABLE:SENDER"
+            },
+            {
+              "instance": "OpChains",
+              "method": "smod64Chain(uint256,uint256)",
+              "caller": "$VARIABLE:SENDER",
+              "calldata": [
+                "2000",
+                "7"
+              ]
+            }
+          ]
+        },
+        {
+          "comment": "signed 32-bit remainder by a runtime (calldata, positive) divisor.",
+          "await_transaction_inclusion": true,
+          "repeat": 10,
+          "steps": [
+            {
+              "allocate_account": "$VARIABLE:SENDER"
+            },
+            {
+              "instance": "OpChains",
+              "method": "smod32Chain(uint256,uint256)",
+              "caller": "$VARIABLE:SENDER",
+              "calldata": [
+                "2000",
+                "7"
+              ]
+            }
+          ]
+        },
+        {
+          "comment": "signed 16-bit remainder by a runtime (calldata, positive) divisor.",
+          "await_transaction_inclusion": true,
+          "repeat": 10,
+          "steps": [
+            {
+              "allocate_account": "$VARIABLE:SENDER"
+            },
+            {
+              "instance": "OpChains",
+              "method": "smod16Chain(uint256,uint256)",
+              "caller": "$VARIABLE:SENDER",
+              "calldata": [
+                "2000",
+                "7"
+              ]
+            }
+          ]
+        },
+        {
+          "comment": "signed 8-bit remainder by a runtime (calldata, positive) divisor.",
+          "await_transaction_inclusion": true,
+          "repeat": 10,
+          "steps": [
+            {
+              "allocate_account": "$VARIABLE:SENDER"
+            },
+            {
+              "instance": "OpChains",
+              "method": "smod8Chain(uint256,uint256)",
+              "caller": "$VARIABLE:SENDER",
+              "calldata": [
+                "2000",
+                "7"
+              ]
+            }
+          ]
+        },
+        {
+          "comment": "128-bit wrapping multiplication, no division.",
+          "await_transaction_inclusion": true,
+          "repeat": 10,
+          "steps": [
+            {
+              "allocate_account": "$VARIABLE:SENDER"
+            },
+            {
+              "instance": "OpChains",
+              "method": "mul128Chain(uint256)",
+              "caller": "$VARIABLE:SENDER",
+              "calldata": [
+                "2000"
+              ]
+            }
+          ]
+        },
+        {
+          "comment": "64-bit wrapping multiplication, no division.",
+          "await_transaction_inclusion": true,
+          "repeat": 10,
+          "steps": [
+            {
+              "allocate_account": "$VARIABLE:SENDER"
+            },
+            {
+              "instance": "OpChains",
+              "method": "mul64Chain(uint256)",
+              "caller": "$VARIABLE:SENDER",
+              "calldata": [
+                "2000"
+              ]
+            }
+          ]
+        },
+        {
+          "comment": "32-bit wrapping multiplication, no division.",
+          "await_transaction_inclusion": true,
+          "repeat": 10,
+          "steps": [
+            {
+              "allocate_account": "$VARIABLE:SENDER"
+            },
+            {
+              "instance": "OpChains",
+              "method": "mul32Chain(uint256)",
+              "caller": "$VARIABLE:SENDER",
+              "calldata": [
+                "2000"
+              ]
+            }
+          ]
+        },
+        {
+          "comment": "16-bit wrapping multiplication, no division.",
+          "await_transaction_inclusion": true,
+          "repeat": 10,
+          "steps": [
+            {
+              "allocate_account": "$VARIABLE:SENDER"
+            },
+            {
+              "instance": "OpChains",
+              "method": "mul16Chain(uint256)",
+              "caller": "$VARIABLE:SENDER",
+              "calldata": [
+                "2000"
+              ]
+            }
+          ]
+        },
+        {
+          "comment": "8-bit wrapping multiplication, no division.",
+          "await_transaction_inclusion": true,
+          "repeat": 10,
+          "steps": [
+            {
+              "allocate_account": "$VARIABLE:SENDER"
+            },
+            {
+              "instance": "OpChains",
+              "method": "mul8Chain(uint256)",
+              "caller": "$VARIABLE:SENDER",
+              "calldata": [
+                "2000"
+              ]
+            }
+          ]
+        },
+        {
+          "comment": "256-bit EXP with an 8-bit exponent (square-and-multiply).",
+          "await_transaction_inclusion": true,
+          "repeat": 10,
+          "steps": [
+            {
+              "allocate_account": "$VARIABLE:SENDER"
+            },
+            {
+              "instance": "OpChains",
+              "method": "expChain(uint256)",
+              "caller": "$VARIABLE:SENDER",
+              "calldata": [
+                "2000"
+              ]
+            }
+          ]
+        },
+        {
+          "comment": "256-bit SIGNEXTEND at a runtime byte index (Yul).",
+          "await_transaction_inclusion": true,
+          "repeat": 10,
+          "steps": [
+            {
+              "allocate_account": "$VARIABLE:SENDER"
+            },
+            {
+              "instance": "OpChains",
+              "method": "signextendChain(uint256)",
+              "caller": "$VARIABLE:SENDER",
+              "calldata": [
+                "100000"
+              ]
+            }
+          ]
+        },
+        {
+          "comment": "256-bit LT comparison, result mixed back into the chain.",
+          "await_transaction_inclusion": true,
+          "repeat": 10,
+          "steps": [
+            {
+              "allocate_account": "$VARIABLE:SENDER"
+            },
+            {
+              "instance": "OpChains",
+              "method": "ltChain(uint256)",
+              "caller": "$VARIABLE:SENDER",
+              "calldata": [
+                "100000"
+              ]
+            }
+          ]
+        },
+        {
+          "comment": "256-bit SHR by a runtime shift amount.",
+          "await_transaction_inclusion": true,
+          "repeat": 10,
+          "steps": [
+            {
+              "allocate_account": "$VARIABLE:SENDER"
+            },
+            {
+              "instance": "OpChains",
+              "method": "shrChain(uint256)",
+              "caller": "$VARIABLE:SENDER",
+              "calldata": [
+                "100000"
+              ]
+            }
+          ]
+        },
+        {
+          "comment": "256-bit mulmod with a RUNTIME modulus (P-256 prime via calldata) -> general path, Barrett cannot fire.",
+          "await_transaction_inclusion": true,
+          "repeat": 10,
+          "steps": [
+            {
+              "allocate_account": "$VARIABLE:SENDER"
+            },
+            {
+              "instance": "OpChains",
+              "method": "mulmodRuntimeChain(uint256,uint256)",
+              "caller": "$VARIABLE:SENDER",
+              "calldata": [
+                "2000",
+                "115792089210356248762697446949407573530086143415290314195533631308867097853951"
+              ]
+            }
+          ]
+        },
+        {
+          "comment": "addmod with a RUNTIME 64-bit modulus (via calldata) -> general reduction, Barrett cannot fire.",
+          "await_transaction_inclusion": true,
+          "repeat": 10,
+          "steps": [
+            {
+              "allocate_account": "$VARIABLE:SENDER"
+            },
+            {
+              "instance": "OpChains",
+              "method": "addmodRuntimeChain(uint256,uint256)",
+              "caller": "$VARIABLE:SENDER",
+              "calldata": [
+                "2000",
+                "18446744073709551557"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "OpChains": "main.sol:OpChains"
+  }
+}
